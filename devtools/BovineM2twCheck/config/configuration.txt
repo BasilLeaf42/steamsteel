@@ -1,0 +1,59 @@
+;Set DATAFOLDER to the data folder for your mod, such as C:/Games/M2TW/mods/my_mod_name/data
+;C:/Games/M2TW needs to be changed to wherever your M2TW is installed to.
+;my_mod_name needs to be changed to whatever your mod folder is called.
+DATAFOLDER=C:\Program Files (x86)\Steam\steamapps\common\Medieval II Total War\mods\steamsteel\data
+
+;Set STRAT to the folder containing your campaign script, descr_strat, descr_events and the like.
+;Probably this is the default imperial_campaign and you should leave it alone!
+STRAT=world/maps/campaign/camp_steamsteel
+
+;When encountering a file (animation, sound, model etc) where it cannot see
+;any usage, it gets reported as unused. You will probably want to actually
+;reference it, but possibly you instead wish to remove it to reduce mod size.
+;Provide commands for what to do with these below.
+;Suggested variants below, not all of them will be relevant for you.
+;Use this with caution, and ONLY after checking for possible typos in
+;references and files that you really want to use in the mod after all!
+;You can define more than one - this will cause each of them to be executed,
+;in sequence. If you want to move to a backup folder, ensure that works
+;properly before enabling the deletion command!
+REMOVE_UNUSED_FILES=COPY_TO unused_backup
+REMOVE_UNUSED_FILES=CONSOLE_COMMAND git rm %DATAFOLDER%/%FILENAME%
+REMOVE_UNUSED_FILES=CONSOLE_COMMAND del %DATAFOLDER%/%FILENAME%
+
+;The checker can be configured to require vanilla animations to be present in
+;the mod's own animations folder. As this is the case for EB2, this is the
+;default setting even if most mods can rely on vanilla animation files being
+;available to the mod. Chances are that you want to uncomment the setting
+;below for any other mod than EB2.
+;VANILLA_ANIMATIONS_REQUIRED=NO
+
+;The checker expects all hidden traits to use descriptions "hidden_desc" and 
+;"hidden_effects_desc". Any hidden traits with specific descriptions are
+;considered to be intended to be shown to the player and assigned as hidden by
+;mistake. If your mod wishes to keep trait specific text even for hidden
+;traits, uncomment this line below to suppress those reports.
+;HIDDEN_TRAIT_DESCRIPTIONS_SUPPRESSED=YES
+
+;The checker tries to match all sound file names with the accent it is used for.
+;Any file names not matching the defined accent prefixes will be reported. If
+;you are not doing voice modding or otherwise don't want these reports, you can
+;suppress them by uncommenting the line below.
+;ACCENT_PREFIXES_SUPPRESSED=YES
+
+;The checker tries to match all referenced sound files with the file system.
+;If all your sound files are packed rather than available as individual files,
+;you want to suppress reports about missing files by uncommenting the line below.
+;SOUNDFILE_INTEGRITY_SUPPRESSED=YES
+
+;Some agent types may not be in use in your mod, despite them being part of
+;some of your files. In this case you are probably encountering a bunch of
+;reported issues that are not really relevant for you. You can enter any number
+;of these agents here and their file references should not be checked. If you
+;still get some reports concerning them, I may have forgot to check the config
+;in some instances. Let me know in the forum.
+UNUSED_AGENT=merchant
+UNUSED_AGENT=priest
+UNUSED_AGENT=inquisitor
+UNUSED_AGENT=witch
+UNUSED_AGENT=heretic

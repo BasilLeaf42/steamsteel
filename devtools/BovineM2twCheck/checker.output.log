@@ -1,0 +1,82 @@
+Tue Mar 19 04:39:11 GMT 2024: Creating output files.
+Tue Mar 19 04:39:11 GMT 2024: Initializing components.
+Tue Mar 19 04:39:11 GMT 2024: Constructor finished. Starting reading process.
+Reading configuration files...
+config/acceptedMissingFiles.txt
+config/vanillaFiles.txt
+config/acceptedNonReferencedFiles.txt
+config/acceptedMissingMounts.txt
+config/acceptedUnusedMounts.txt
+config/acceptedUnusedEngines.txt
+config/acceptedMissingSkeletons.txt
+config/acceptedUnusedSkeletons.txt
+config/acceptedUnusedBattleModels.txt
+config/acceptedUnusedStratModels.txt
+config/genericSounds.txt
+config/unquotedDiplomacySounds.txt
+acceptedAccentPrefixes.txt
+Tue Mar 19 04:39:11 GMT 2024: Configuration files reading complete. Starting reading game files.
+export_descr_buildings.txt
+descr_missions.txt
+descr_names.txt
+text/names.txt
+descr_sm_factions.txt
+descr_cultures.txt
+descr_strat.txt
+descr_religions.txt
+descr_model_strat.txt
+descr_sm_resources.txt
+Found no textures in resource model models_strat/textiles.cas. This means the checker probably is lacking code to recognize its textures.
+descr_sounds_events.txt
+The target collection now numbers 285 effect references.
+descr_sounds_units_anims.txt
+The target collection now numbers 339 effect references.
+descr_event_effects.txt
+The target collection now numbers 369 sound effect references.
+descr_structure_effects.txt
+The target collection now numbers 395 sound effect references.
+descr_sounds_generic.txt
+The target collection now numbers 1567 effect references.
+export_descr_sounds_stratmap_voice.txt
+The target collection now numbers 19099 stratmap voice references.
+export_descr_sounds_units_voice.txt
+The target collection now numbers 28126 battle voice references.
+export_descr_sounds_soldier_voice.txt
+The target collection now numbers 48931 battle voice references.
+export_descr_sounds_narration.txt
+The target collection now numbers 117 narration voice references.
+export_descr_sounds_advice.txt
+The target collection now numbers 795 advice voice references.
+descr_sounds_accents.txt
+Read 23 accents for 31 factions.
+text/diplomacy_speech.txt
+Cannot find text/diplomacy_speech.txt. Cannot check diplomacy sound integrity.
+world/maps/base/descr_sounds_music_types.txt
+descr_sounds_music.txt
+text/export_ancillaries.txt
+text/export_vnvs.txt
+text/historic_events.txt (suffix filter _title)
+text/historic_events.txt (suffix filter _body)
+text/expanded.txt
+text/export_units.txt
+export_descr_character_traits.txt
+descr_events.txt
+Loading script C:\Program Files (x86)\Steam\steamapps\common\Medieval II Total War\mods\steamsteel\data/world/maps/campaign/camp_steamsteel/campaign_script.txt
+export_descr_advice.txt
+descr_engines.txt
+unit_models/battle_models.modeldb (syntax check)
+unit_models/battle_models.modeldb (parsing)
+descr_mount.txt
+descr_skeleton.txt
+descr_engine_skeleton.txt
+descr_character.txt
+export_descr_unit.txt
+export_descr_ancillaries.txt
+Tue Mar 19 04:39:13 GMT 2024: Reading finished. Starting checking process.
+(There are however already reported 446 issues, probably because of issues encountered when parsing the files)
+Code related
+Sound related
+Stratmap related
+File references
+Unit related
+campaign_script.txt (for battle model usage)

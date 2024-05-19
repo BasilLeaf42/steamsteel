@@ -1,0 +1,1 @@
+.\xidx.exe --shell

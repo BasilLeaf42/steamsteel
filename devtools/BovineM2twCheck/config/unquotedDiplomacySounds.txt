@@ -1,0 +1,26 @@
+;generic
+door
+
+;Strat map sounds for diplomats and princesses
+death_cry
+joins_army
+leaves_army
+movement_completed
+movement_diplomacy
+movement_disembark
+movement_embark
+movement_ordered
+selected
+select_ally
+select_neutral
+select_enemy
+
+;Strat map sounds specific for princesses
+marry_general
+princess_character_mission_fail
+princess_character_mission_success
+princess_mission_scroll
+
+;EB 2 specific
+unused_voice_(silence)
+diplomat_action
