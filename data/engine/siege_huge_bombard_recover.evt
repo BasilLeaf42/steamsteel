@@ -1,0 +1,9 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND ANIM_Huge_Bombard_Move 0 0
+event SOUND ANIM_Huge_Bombard_Prepare 288 288
+event SOUND ANIM_Huge_Bombard_Chain 296 296

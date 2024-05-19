@@ -1,0 +1,13 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND ANIM_Culverin_Fire 42 42
+event SOUND ANIM_cannon_small_distant 42 42
+event SHOCKWAVE  42 42
+event SOUND ANIM_cannon_wheel_bounce 56 56
+event SOUND ANIM_cannon_wheel_bounce 60 60
+event SOUND ANIM_cannon_wheel_bounce 78 78
+event SOUND ANIM_cannon_wheel_bounce 89 89

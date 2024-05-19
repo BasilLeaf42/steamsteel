@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND ANIM_Catapult_whoosh 38 38
+event SOUND ANIM_Catapult_Fire 41 41
+event SHOCKWAVE  41 41
+event SOUND ANIM_Catapult_distant_Fire 41 41
+event SOUND ANIM_Bombard_Recover 46 46
+event SOUND ANIM_Siege_Tower_Creak 52 52
