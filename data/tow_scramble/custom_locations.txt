@@ -1,0 +1,39 @@
+		; custom locations , add new locations at the bottom
+
+;;; Old placeholder locations
+
+
+custom_location		The Sea of Grass
+{
+	location		295	77
+	image			data/menu/battlefield_pics/sea_of_grass.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+
+custom_location		Swiss Alp
+{
+	location		145	400
+	image			data/menu/battlefield_pics/swiss_alps.tga
+	sett_locked		no
+	climate			alpine
+	summer			no
+}
+custom_location		Morocco
+{
+	location		111	384
+	image			data/menu/battlefield_pics/morocco.tga
+	sett_locked		no
+	climate			rocky_desert
+	summer			yes
+}
+custom_location		Saharan Sands
+{
+	location		231	367
+	image			data/menu/battlefield_pics/saharan_sands.tga
+	sett_locked		no
+	climate			sandy_desert
+	summer			yes
+}
+
