@@ -1,0 +1,759 @@
+building airport
+{
+    levels airfield aerodrome 
+    {
+        airfield city requires factions { northern_european, mesoamerican, middle_eastern, eastern_european, southern_european, asian, chinese, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6 
+            cost  5800 
+            settlement_min large_town
+            upgrades
+            {
+                aerodrome
+            }
+        }
+        aerodrome city requires factions { northern_european, mesoamerican, middle_eastern, eastern_european, southern_european, asian, chinese, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  8
+            cost  8400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building french_diplo
+{
+    levels french_consulate french_embassy 
+    {
+        airfield city requires factions { cru, moors, saxons, papal_states, byzantium, lith, aztecs, milan, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                french_embassy
+            }
+        }
+        french_embassy city requires factions { cru, moors, saxons, papal_states, byzantium, lith, aztecs, milan, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building english_diplo
+{
+    levels english_consulate english_embassy 
+    {
+        airfield city requires factions { timurids, egypt, golden, mongols, portugala, cuman, byzantium, saxons, papal_states, cru, sicily, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                english_embassy
+            }
+        }
+        english_embassy city requires factions { timurids, egypt, golden, mongols, portugala, cuman, byzantium, saxons, papal_states, cru, sicily, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building prussian_diplo
+{
+    levels prussian_consulate prussian_embassy 
+    {
+        airfield city requires factions { teu, milan, denmark, poland, normans, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                prussian_embassy
+            }
+        }
+        prussian_embassy city requires factions { teu, milan, denmark, poland, normans, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building ottoman_diplo
+{
+    levels ottoman_consulate ottoman_embassy 
+    {
+        airfield city requires factions { golden, egypt, timurids, moors, lith, cuman, bulga, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                ottoman_embassy
+            }
+        }
+        ottoman_embassy city requires factions { golden, egypt, timurids, moors, lith, cuman, bulga, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building usa_diplo
+{
+    levels usa_consulate usa_embassy 
+    {
+        airfield city requires factions { scotland, denmark, poland, aztecs, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                usa_embassy
+            }
+        }
+        usa_embassy city requires factions { scotland, denmark, poland, aztecs, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building csa_diplo
+{
+    levels csa_consulate csa_embassy 
+    {
+        airfield city requires factions { scotland, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                csa_embassy
+            }
+        }
+        csa_embassy city requires factions { scotland, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building spanish_diplo
+{
+    levels spanish_consulate spanish_embassy 
+    {
+        airfield city requires factions { cru, denmark, poland, aztecs, scotland, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                spanish_embassy
+            }
+        }
+        spanish_embassy city requires factions { cru, denmark, poland, aztecs, scotland, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building italian_diplo
+{
+    levels italian_consulate italian_embassy 
+    {
+        airfield city requires factions { moors, aztecs, teu, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                italian_embassy
+            }
+        }
+        italian_embassy city requires factions { moors, aztecs, teu, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building japanese_diplo
+{
+    levels japanese_consulate japanese_embassy 
+    {
+        airfield city requires factions { cru, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                japanese_embassy
+            }
+        }
+        japanese_embassy city requires factions { cru, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+building russian_diplo
+{
+    levels russian_consulate russian_embassy 
+    {
+        airfield city requires factions { timurids, papal_states, byzantium, bulga, mongols, } and building_present_min_level city_hall royal_town_hall 
+        {
+            capability
+            {
+
+
+
+                law_bonus bonus 1
+
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                law_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_3 1
+
+                happiness_bonus bonus 1 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  4 
+            cost  3800 
+            settlement_min large_town
+            upgrades
+            {
+                russian_embassy
+            }
+        }
+        russian_embassy city requires factions { timurids, papal_states, byzantium, bulga, mongols, } and building_present_min_level smith blacksmith and building_present_min_level city_hall royal_council_chambers
+        {
+            capability
+            {
+
+                
+                law_bonus bonus 2
+
+                law_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                law_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                law_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                law_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                law_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+
+                happiness_bonus bonus -4 requires factions { all, } and event_counter leader_authority_2 1
+                happiness_bonus bonus -3 requires factions { all, } and event_counter leader_authority_3 1
+                happiness_bonus bonus -2 requires factions { all, } and event_counter leader_authority_5 1
+
+                happiness_bonus bonus 2 requires factions { all, } and event_counter leader_authority_7 1
+                happiness_bonus bonus 3 requires factions { all, } and event_counter leader_authority_9 1
+            }
+            material wooden
+            construction  6
+            cost  6400 
+            settlement_min city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}

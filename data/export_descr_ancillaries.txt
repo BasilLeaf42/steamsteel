@@ -1,0 +1,2635 @@
+;This file is generated from the Spreadsheet VnV,txt
+;Please modify the spreadsheet and re-export the data, rather than editing this file directly
+
+;===============================================================
+;== ANCILLARY DATA STARTS HERE ==
+;===============================================================
+
+;------------------------------------------
+Ancillary accomplice
+    Type Security
+    Transferable  0 
+    Image sex_yangman.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description accomplice_desc
+    EffectsDescription accomplice_effects_desc
+    Effect Subterfuge  1 
+
+;------------------------------------------
+Ancillary academic_advisor
+    Type Academic
+    Transferable  0 
+    Image academic_scholar.tga
+    Description academic_advisor_desc
+    EffectsDescription academic_advisor_effects_desc
+    Effect Trading  5 
+    Effect TaxCollection  5 
+
+;------------------------------------------
+Ancillary actor
+    Type Entertain
+    Transferable  0 
+    Image entertainment_actor.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description actor_desc
+    EffectsDescription actor_effects_desc
+    Effect LocalPopularity  1 
+
+;------------------------------------------
+Ancillary adultress
+    Type Sex
+    Transferable  0 
+    Image sex_expensivewoman.tga
+    Description adultress_desc
+    EffectsDescription adultress_effects_desc
+    Effect Chivalry -1 
+    Effect Piety -1 
+    Effect TroopMorale -1 
+    Effect Fertility -2 
+
+;------------------------------------------
+Ancillary adultress_foreign
+    Type Sex
+    Transferable  0 
+    Image sex_cheapwoman.tga
+    Description adultress_foreign_desc
+    EffectsDescription adultress_foreign_effects_desc
+    Effect Chivalry -1 
+    Effect Piety -1 
+    Effect TroopMorale -2 
+    Effect LocalPopularity -1 
+    Effect Fertility -2 
+
+;------------------------------------------
+Ancillary adultress_she_man
+    Type Sex
+    Transferable  0 
+    Image sex_expensivewoman.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description adultress_she_man_desc
+    EffectsDescription adultress_she_man_effects_desc
+    Effect Chivalry -1 
+    Effect Piety -1 
+    Effect TroopMorale -3 
+    Effect LocalPopularity -1 
+    Effect Fertility -1 
+
+;------------------------------------------
+Ancillary alchemist
+    Type Academic
+    Transferable  0 
+    Image academic_alchemist.tga
+    ExcludedAncillaries apothecary, astrologer
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description alchemist_desc
+    EffectsDescription alchemist_effects_desc
+    Effect HitPoints  2 
+    Effect GunpowderCommand  1 
+
+;------------------------------------------
+Ancillary apothecary
+    Type Health
+    Transferable  0 
+    Image academic_alchemist.tga
+    ExcludedAncillaries alchemist, astrologer
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description apothecary_desc
+    EffectsDescription apothecary_effects_desc
+    Effect Fertility  1 
+    Effect HitPoints  4 
+
+;------------------------------------------
+Ancillary architect
+    Type Academic
+    Transferable  0 
+    Image civil_master.tga
+    Description architect_desc
+    EffectsDescription architect_effects_desc
+    Effect Construction  10 
+    Effect Squalor -2 
+
+;------------------------------------------
+Ancillary armour_custom
+    Type Item
+    Transferable  0 
+    Image item_armour.tga
+    ExcludedAncillaries armour_ornate
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description armour_custom_desc
+    EffectsDescription armour_custom_effects_desc
+    Effect HitPoints  4 
+
+;------------------------------------------
+Ancillary armour_ornate
+    Type Item
+    Transferable  0 
+    Image item_armour.tga
+    ExcludedAncillaries armour_custom
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description armour_ornate_desc
+    EffectsDescription armour_ornate_effects_desc
+    Effect Authority  1 
+    Effect HitPoints -2 
+
+;------------------------------------------
+Ancillary artist
+    Type Entertain
+    Transferable  0 
+    Image entertainment_artist.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description artist_desc
+    EffectsDescription artist_effects_desc
+    Effect LocalPopularity  1 
+    Effect BribeResistance -1 
+    Effect Squalor -1 
+
+;------------------------------------------
+Ancillary assassins_apprentice
+    Type Security
+    Transferable  0 
+    Image espionage.tga
+    ExcludedAncillaries catamite
+    Description assassins_apprentice_desc
+    EffectsDescription assassins_apprentice_effects_desc
+    Effect Assassination  1 
+
+;------------------------------------------
+Ancillary assassins_blade
+    Type Item
+    Transferable  0 
+    Image item_knife.tga
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description assassins_blade_desc
+    EffectsDescription assassins_blade_effects_desc
+    Effect Assassination  1 
+
+;------------------------------------------
+Ancillary astrologer
+    Type Academic
+    Transferable  0 
+    Image academic_scholar.tga
+    ExcludedAncillaries apothecary, alchemist
+    Description astrologer_desc
+    EffectsDescription astrologer_effects_desc
+    Effect Piety -1 
+    Effect Command  1 
+
+;------------------------------------------
+Ancillary bard
+    Type Entertain
+    Transferable  0 
+    Image entertainment_bard.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description bard_desc
+    EffectsDescription bard_effects_desc
+    Effect TroopMorale  1 
+    Effect LocalPopularity  1 
+
+;------------------------------------------
+Ancillary beguiling_bard
+    Type Entertain
+    Transferable  0 
+    Image entertainment_bard.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description beguiling_bard_desc
+    EffectsDescription beguiling_bard_effects_desc
+    Effect Subterfuge  1 
+    Effect PersonalSecurity  1 
+
+;------------------------------------------
+Ancillary biographer
+    Type Court
+    Transferable  0 
+    Image civil_admin.tga
+    Description biographer_desc
+    EffectsDescription biographer_effects_desc
+    Effect Authority  1 
+
+;------------------------------------------
+Ancillary black_stallion
+    Type Pet
+    Transferable  0 
+    Image animals_horse.tga
+    Description black_stallion_desc
+    EffectsDescription black_stallion_effects_desc
+    Effect MovementPoints  5 
+
+;------------------------------------------
+Ancillary bodyguard
+    Type Security
+    Transferable  0 
+    Image security_eliteguard.tga
+    Description bodyguard_desc
+    EffectsDescription bodyguard_effects_desc
+    Effect PersonalSecurity  2 
+    Effect LocalPopularity -1 
+
+;------------------------------------------
+Ancillary brilliant_inventor
+    Type Academic
+    Transferable  0 
+    Image academic_student.tga
+    Description brilliant_inventor_desc
+    EffectsDescription brilliant_inventor_effects_desc
+    Effect SiegeEngineering  30 
+    Effect Farming  1 
+    Effect Mining  20 
+
+;------------------------------------------
+Ancillary caravan_driver
+    Type Money
+    Transferable  0 
+    Image civil_merchant.tga
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description caravan_driver_desc
+    EffectsDescription caravan_driver_effects_desc
+    Effect MovementPoints  5 
+    Effect LineOfSight  1 
+
+;------------------------------------------
+Ancillary catamite
+    Type Sex
+    Transferable  0 
+    Image sex_yangman.tga
+    ExcludedAncillaries assassins_apprentice
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description catamite_desc
+    EffectsDescription catamite_effects_desc
+    Effect Subterfuge  1 
+
+;------------------------------------------
+Ancillary chastity_belt
+    Type Sex
+    Transferable  0 
+    Image item_chastitybelt.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description chastity_belt_desc
+    EffectsDescription chastity_belt_effects_desc
+    Effect Charm -1 
+    Effect MovementPoints -2 
+
+;------------------------------------------
+Ancillary choir_boy
+    Type Sex
+    Transferable  0 
+    Image religious_youngboy.tga
+    ExcludedAncillaries royal_seminarian
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description choir_boy_desc
+    EffectsDescription choir_boy_effects_desc
+    Effect Piety  1 
+    Effect Unorthodoxy  1 
+    Effect Purity -1 
+
+;------------------------------------------
+Ancillary counterfeiter
+    Type Money
+    Transferable  0 
+    Image academic_alchemist.tga
+    Description counterfeiter_desc
+    EffectsDescription counterfeiter_effects_desc
+    Effect Finance  1 
+
+;------------------------------------------
+Ancillary courtesan
+    Type Sex
+    Transferable  0 
+    Image sex_cheapwoman.tga
+    ExcludedAncillaries catamite
+    Description courtesan_desc
+    EffectsDescription courtesan_effects_desc
+    Effect Subterfuge  1 
+
+;------------------------------------------
+Ancillary crooked_judge
+    Type Court
+    Transferable  0 
+    Image civil_master.tga
+    Description crooked_judge_desc
+    EffectsDescription crooked_judge_effects_desc
+    Effect Unrest  1 
+    Effect Law  2 
+
+;------------------------------------------
+Ancillary dancer
+    Type Entertain
+    Transferable  0 
+    Image sex_cheapwoman.tga
+    Description dancer_desc
+    EffectsDescription dancer_effects_desc
+    Effect Subterfuge  2 
+
+;------------------------------------------
+Ancillary dark_apprentice
+    Type Magic
+    Transferable  0 
+    Image item_disguise.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description dark_apprentice_desc
+    EffectsDescription dark_apprentice_effects_desc
+    Effect Magic  1 
+    Effect PersonalSecurity  1 
+
+;------------------------------------------
+Ancillary deacon
+    Type Religion
+    Transferable  0 
+    Image religious_priest.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description deacon_desc
+    EffectsDescription deacon_effects_desc
+    Effect Piety  1 
+
+;------------------------------------------
+Ancillary delicate_blade
+    Type Item
+    Transferable  0 
+    Image item_knife.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description delicate_blade_desc
+    EffectsDescription delicate_blade_effects_desc
+    Effect PersonalSecurity  1 
+
+;------------------------------------------
+Ancillary diplomatic_escort
+    Type Military
+    Transferable  0 
+    Image security_eliteguard.tga
+    Description diplomatic_escort_desc
+    EffectsDescription diplomatic_escort_effects_desc
+    Effect LineOfSight  1 
+    Effect PersonalSecurity  1 
+
+;------------------------------------------
+Ancillary doctor
+    Type Health
+    Transferable  0 
+    Image civil_master.tga
+    Description doctor_desc
+    EffectsDescription doctor_effects_desc
+    Effect Fertility  1 
+    Effect BattleSurgery  10 
+
+;------------------------------------------
+Ancillary drillmaster
+    Type Military
+    Transferable  0 
+    Image warrior_captain.tga
+    Description drillmaster_desc
+    EffectsDescription drillmaster_effects_desc
+    Effect MovementPoints  5 
+    Effect TrainingUnits  2 
+
+;------------------------------------------
+Ancillary enchanted_broom
+    Type Magic
+    Transferable  0 
+    Image item_broom.tga
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description enchanted_broom_desc
+    EffectsDescription enchanted_broom_effects_desc
+    Effect Magic  1 
+    Effect MovementPoints  3 
+
+;------------------------------------------
+Ancillary eunuch
+    Type Court
+    Transferable  0 
+    Image court_eunuch.tga
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian
+    Description eunuch_desc
+    EffectsDescription eunuch_effects_desc
+    Effect Authority  1 
+    Effect PersonalSecurity  1 
+
+;------------------------------------------
+Ancillary evil_mother-in-law
+    Type Family
+    Transferable  0 
+    Image court_elderlylady.tga
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description evil_mother-in-law_desc
+    EffectsDescription evil_mother-in-law_effects_desc
+    Effect Authority -1 
+    Effect TroopMorale -1 
+
+;------------------------------------------
+Ancillary executioner
+    Type Religion
+    Transferable  0 
+    Image court_executioner.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description executioner_desc
+    EffectsDescription executioner_effects_desc
+    Effect Piety  1 
+
+;------------------------------------------
+Ancillary explosives
+    Type Item
+    Transferable  0 
+    Image item_explosive.tga
+    Description explosives_desc
+    EffectsDescription explosives_effects_desc
+    Effect Sabotage  1 
+
+;------------------------------------------
+Ancillary exotic_gifts
+    Type Item
+    Transferable  0 
+    Image item_exoticgifts.tga
+    Description exotic_gifts_desc
+    EffectsDescription exotic_gifts_effects_desc
+    Effect Influence  1 
+
+;------------------------------------------
+Ancillary faithful_servant
+    Type Security
+    Transferable  0 
+    Image court_servant.tga
+    Description faithful_servant_desc
+    EffectsDescription faithful_servant_effects_desc
+    Effect Charm  1 
+
+;------------------------------------------
+Ancillary false_documents
+    Type Item
+    Transferable  0 
+    Image item_documents.tga
+    Description false_documents_desc
+    EffectsDescription false_documents_effects_desc
+    Effect Subterfuge  1 
+
+;------------------------------------------
+Ancillary false_relic
+    Type Item
+    Transferable  0 
+    Image relic_christianreliquary.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description false_relic_desc
+    EffectsDescription false_relic_effects_desc
+    Effect Piety  1 
+
+;------------------------------------------
+Ancillary femme_fatale
+    Type Sex
+    Transferable  0 
+    Image sex_expensivewoman.tga
+    Description femme_fatale_desc
+    EffectsDescription femme_fatale_effects_desc
+    Effect Subterfuge  2 
+
+;------------------------------------------
+Ancillary fine_cosmetics
+    Type Item
+    Transferable  0 
+    Image item_exoticgifts.tga
+    Description fine_cosmetics_desc
+    EffectsDescription fine_cosmetics_effects_desc
+    Effect Charm  1 
+
+;------------------------------------------
+Ancillary foodtaster
+    Type Security
+    Transferable  0 
+    Image court_servant.tga
+    ExcludedAncillaries master_of_assassins, fool_brilliant
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description foodtaster_desc
+    EffectsDescription foodtaster_effects_desc
+    Effect PersonalSecurity  1 
+
+;------------------------------------------
+Ancillary fool_brilliant
+    Type Court
+    Transferable  0 
+    Image entertainment_jester.tga
+    ExcludedAncillaries master_of_assassins, foodtaster
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description fool_brilliant_desc
+    EffectsDescription fool_brilliant_effects_desc
+    Effect PersonalSecurity  1 
+    Effect Trading  5 
+
+;------------------------------------------
+Ancillary fool_usual
+    Type Court
+    Transferable  0 
+    Image entertainment_jester.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description fool_usual_desc
+    EffectsDescription fool_usual_effects_desc
+    Effect TroopMorale  1 
+
+;------------------------------------------
+Ancillary foreign_dignitary
+    Type Diplomacy
+    Transferable  0 
+    Image court_noble.tga
+    Description foreign_dignitary_desc
+    EffectsDescription foreign_dignitary_effects_desc
+    Effect Influence  1 
+
+;------------------------------------------
+Ancillary handgun
+    Type Item
+    Transferable  0 
+    Image item_pistol.tga
+    Description handgun_desc
+    EffectsDescription handgun_effects_desc
+    Effect Assassination  1
+	Effect PersonalSecurity  1
+
+;------------------------------------------
+Ancillary harsh_judge
+    Type Court
+    Transferable  0 
+    Image academic_scholar.tga
+    Description harsh_judge_desc
+    EffectsDescription harsh_judge_effects_desc
+    Effect LocalPopularity -1 
+
+;------------------------------------------
+Ancillary herald
+    Type Court
+    Transferable  0 
+    Image court_noble.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description herald_desc
+    EffectsDescription herald_effects_desc
+    Effect Authority  1 
+
+;------------------------------------------
+Ancillary intrepid_explorer
+    Type Court
+    Transferable  0 
+    Image civil_master.tga
+    Description intrepid_explorer_desc
+    EffectsDescription intrepid_explorer_effects_desc
+    Effect MovementPoints  3 
+    Effect LineOfSight  1 
+
+;------------------------------------------
+Ancillary knight_beserker
+    Type Security
+    Transferable  0 
+    Image warrior_berserker.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description knight_beserker_desc
+    EffectsDescription knight_beserker_effects_desc
+    Effect Command  1 
+    Effect TroopMorale  1 
+
+;------------------------------------------
+Ancillary knight_chivalrous
+    Type Security
+    Transferable  0 
+    Image knight_chivalrous.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description knight_chivalrous_desc
+    EffectsDescription knight_chivalrous_effects_desc
+    Effect Chivalry  2 
+    Effect Command  1 
+
+;------------------------------------------
+Ancillary knight_crusader
+    Type Security
+    Transferable  0 
+    Image knight_older.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description knight_crusader_desc
+    EffectsDescription knight_crusader_effects_desc
+    Effect PersonalSecurity  2 
+    Effect Violence  1 
+
+;------------------------------------------
+Ancillary knight_dread
+    Type Security
+    Transferable  0 
+    Image knight_dread.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description knight_dread_desc
+    EffectsDescription knight_dread_effects_desc
+    Effect Chivalry -2 
+    Effect Command  1 
+
+;------------------------------------------
+Ancillary knight_santiago
+    Type Security
+    Transferable  0 
+    Image knight_chivalrous.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description knight_santiago_desc
+    EffectsDescription knight_santiago_effects_desc
+    Effect Chivalry  1 
+    Effect Command  1 
+
+;------------------------------------------
+Ancillary knight_stjohn
+    Type Security
+    Transferable  0 
+    Image knight_chivalrous.tga
+    ExcludedAncillaries knight_stjohn
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description knight_stjohn_desc
+    EffectsDescription knight_stjohn_effects_desc
+    Effect Chivalry  1 
+    Effect Command  1 
+
+;------------------------------------------
+Ancillary knight_templar
+    Type Security
+    Transferable  0 
+    Image knight_chivalrous.tga
+    ExcludedAncillaries knight_templar
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description knight_templar_desc
+    EffectsDescription knight_templar_effects_desc
+    Effect Chivalry  1 
+    Effect Command  1 
+
+;------------------------------------------
+Ancillary knight_teutonic
+    Type Security
+    Transferable  0 
+    Image knight_chivalrous.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description knight_teutonic_desc
+    EffectsDescription knight_teutonic_effects_desc
+    Effect Chivalry  1 
+    Effect Command  1 
+
+;------------------------------------------
+Ancillary lancebearer
+    Type Security
+    Transferable  0 
+    Image warrior_squire.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description lancebearer_desc
+    EffectsDescription lancebearer_effects_desc
+    Effect CavalryCommand  1 
+
+;------------------------------------------
+Ancillary librarian
+    Type Academic
+    Transferable  0 
+    Image academic_student.tga
+    Description librarian_desc
+    EffectsDescription librarian_effects_desc
+    Effect Piety  1 
+
+;------------------------------------------
+Ancillary magician
+    Type Magic
+    Transferable  0 
+    Image religious_mysticfigure.tga
+    ExcludedAncillaries magician_pagan
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description magician_desc
+    EffectsDescription magician_effects_desc
+    Effect TroopMorale  1 
+    Effect LocalPopularity  1 
+
+;------------------------------------------
+Ancillary magician_pagan
+    Type Magic
+    Transferable  0 
+    Image religious_mysticfigure.tga
+    ExcludedAncillaries magician
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description magician_pagan_desc
+    EffectsDescription magician_pagan_effects_desc
+    Effect Piety -2 
+
+;------------------------------------------
+Ancillary master_mason
+    Type Money
+    Transferable  0 
+    Image civil_master.tga
+    ExcludedAncillaries master_of_horse, master_smith
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description master_mason_desc
+    EffectsDescription master_mason_effects_desc
+    Effect Construction  10 
+
+;------------------------------------------
+Ancillary master_of_archers
+    Type Military
+    Transferable  0 
+    Image warrior_naval.tga
+    ExcludedAncillaries master_of_assassins
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description master_of_archers_desc
+    EffectsDescription master_of_archers_effects_desc
+    Effect Command  1 
+
+;------------------------------------------
+Ancillary master_of_assassins
+    Type Security
+    Transferable  0 
+    Image warrior_naval.tga
+    ExcludedAncillaries master_of_archers, foodtaster, fool_brilliant
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description master_of_assassins_desc
+    EffectsDescription master_of_assassins_effects_desc
+    Effect PersonalSecurity  1 
+    Effect TrainingAgents  4 
+
+;------------------------------------------
+Ancillary master_of_horse
+    Type Military
+    Transferable  0 
+    Image warrior_captain.tga
+    ExcludedAncillaries master_smith, master_mason
+    Description master_of_horse_desc
+    EffectsDescription master_of_horse_effects_desc
+    Effect CavalryCommand  1 
+
+;------------------------------------------
+Ancillary master_smith
+    Type Military
+    Transferable  0 
+    Image warrior_militariengineer.tga
+    ExcludedAncillaries master_of_horse, master_mason
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description master_smith_desc
+    EffectsDescription master_smith_effects_desc
+    Effect TrainingUnits  2 
+
+;------------------------------------------
+Ancillary mathematician
+    Type Money
+    Transferable  0 
+    Image academic_scholar.tga
+    ExcludedAncillaries tutor
+    Description mathematician_desc
+    EffectsDescription mathematician_effects_desc
+    Effect Trading  5 
+    Effect TaxCollection  5 
+    Effect ArtilleryCommand  1 
+
+;------------------------------------------
+Ancillary mentor
+    Type Court
+    Transferable  0 
+    Image knight_older.tga
+    Description mentor_desc
+    EffectsDescription mentor_effects_desc
+    Effect Piety  2
+	
+;------------------------------------------
+Ancillary mercenary_captain
+    Type Military
+    Transferable  0 
+    Image warrior_captain.tga
+    Description mercenary_captain_desc
+    EffectsDescription mercenary_captain_effects_desc
+    Effect TrainingUnits  2 
+    Effect Looting   10 
+
+;------------------------------------------
+Ancillary merchant_clerk
+    Type Money
+    Transferable  0 
+    Image scribe_ancillary.tga
+    Description merchant_clerk_desc
+    EffectsDescription merchant_clerk_effects_desc
+    Effect Finance  1 
+
+;------------------------------------------
+Ancillary military_engineer
+    Type Military
+    Transferable  0 
+    Image warrior_militariengineer.tga
+    ExcludedAncillaries siege_engineer
+    Description military_engineer_desc
+    EffectsDescription military_engineer_effects_desc
+    Effect SiegeAttack  2 
+    Effect SiegeEngineering  50 
+
+;------------------------------------------
+Ancillary money_counter
+    Type Money
+    Transferable  0 
+    Image court_servant.tga
+    Description money_counter_desc
+    EffectsDescription money_counter_effects_desc
+    Effect Trading  5 
+    Effect TaxCollection  10 
+
+;------------------------------------------
+Ancillary monk
+    Type Religion
+    Transferable  0 
+    Image religious_monk.tga
+    ExcludedAncillaries royal_seminarian, choir_boy
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description monk_desc
+    EffectsDescription monk_effects_desc
+    Effect Piety  1 
+    Effect Purity -1 
+
+;------------------------------------------
+Ancillary musician
+    Type Entertain
+    Transferable  0 
+    Image entertainment_bard.tga
+    Description musician_desc
+    EffectsDescription musician_effects_desc
+    Effect TroopMorale  1 
+    Effect LocalPopularity  2 
+
+;------------------------------------------
+Ancillary naval_gunner
+    Type Naval
+    Transferable  0 
+    Image warrior_naval.tga
+    Description naval_gunner_desc
+    EffectsDescription naval_gunner_effects_desc
+    Effect NavalCommand  2 
+
+;------------------------------------------
+Ancillary naval_navigator
+    Type Naval
+    Transferable  0 
+    Image warrior_naval.tga
+    Description naval_navigator_desc
+    EffectsDescription naval_navigator_effects_desc
+    Effect NavalCommand  1 
+    Effect MovementPoints  2 
+    Effect LineOfSight  1 
+
+;------------------------------------------
+Ancillary naive_knight
+    Type Military
+    Transferable  0 
+    Image knight_chivalrous.tga
+    ExcludedAncillaries zealous_disciple
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description naive_knight_desc
+    EffectsDescription naive_knight_effects_desc
+    Effect PersonalSecurity  2 
+
+;------------------------------------------
+Ancillary nosy_mother
+    Type Family
+    Transferable  0 
+    Image court_elderlylady.tga
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description nosy_mother_desc
+    EffectsDescription nosy_mother_effects_desc
+    Effect Authority -1 
+    Effect PersonalSecurity  1 
+
+;------------------------------------------
+Ancillary nun
+    Type Religion
+    Transferable  0 
+    Image religious_nun.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description nun_desc
+    EffectsDescription nun_effects_desc
+    Effect Piety  1 
+    Effect Violence -1 
+
+;------------------------------------------
+Ancillary obsessed_suitor
+    Type Sex
+    Transferable  0 
+    Image sex_yangman.tga
+    Description obsessed_suitor_desc
+    EffectsDescription obsessed_suitor_effects_desc
+    Effect Charm -1 
+    Effect PersonalSecurity -2 
+
+;------------------------------------------
+Ancillary ordinance_master
+    Type Military
+    Transferable  0 
+    Image warrior_militariengineer.tga
+    Description ordinance_master_desc
+    EffectsDescription ordinance_master_effects_desc
+    Effect GunpowderCommand  1 
+    Effect ArtilleryCommand  1 
+
+;------------------------------------------
+Ancillary overseer
+    Type Money
+    Transferable  0 
+    Image court_noble.tga
+    Description overseer_desc
+    EffectsDescription overseer_effects_desc
+    Effect Construction  1 
+    Effect Farming  1 
+    Effect Mining  1 
+
+;------------------------------------------
+Ancillary paladin
+    Type Military
+    Transferable  0 
+    Image security_religious.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description paladin_desc
+    EffectsDescription paladin_effects_desc
+    Effect PersonalSecurity  1 
+    Effect Purity  1 
+    Effect Violence  1 
+
+;------------------------------------------
+Ancillary pet_bloodhound
+    Type Pet
+    Transferable  0 
+    Image animals_ward.tga
+    Description pet_bloodhound_desc
+    EffectsDescription pet_bloodhound_effects_desc
+    Effect Subterfuge  2 
+    Effect LineOfSight  1 
+    Effect PersonalSecurity  1 
+
+;------------------------------------------
+Ancillary pet_guarddog
+    Type Pet
+    Transferable  0 
+    Image animals_ward.tga
+    Description pet_guarddog_desc
+    EffectsDescription pet_guarddog_effects_desc
+    Effect PersonalSecurity  2 
+
+;------------------------------------------
+Ancillary pet_monkey
+    Type Pet
+    Transferable  0 
+    Image animals_monkey.tga
+    Description pet_monkey_desc
+    EffectsDescription pet_monkey_effects_desc
+    Effect Subterfuge  1 
+
+;------------------------------------------
+Ancillary physician
+    Type Health
+    Transferable  0 
+    Image court_noble.tga
+    Description physician_desc
+    EffectsDescription physician_effects_desc
+    Effect Fertility  1 
+    Effect BattleSurgery  10 
+
+;------------------------------------------
+Ancillary pickpocket
+    Type Security
+    Transferable  0 
+    Image espionage.tga
+    Description pickpocket_desc
+    EffectsDescription pickpocket_effects_desc
+    Effect Subterfuge  1 
+    Effect LineOfSight  1 
+
+;------------------------------------------
+Ancillary poisoner
+    Type Politics
+    Transferable  0 
+    Image academic_alchemist.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description poisoner_desc
+    EffectsDescription poisoner_effects_desc
+    Effect Subterfuge  2 
+
+;------------------------------------------
+Ancillary priest
+    Type Religion
+    Transferable  0 
+    Image religious_priest.tga
+	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description priest_desc
+    EffectsDescription priest_effects_desc
+    Effect Piety  1 
+
+;------------------------------------------
+Ancillary quartermaster
+    Type Military
+    Transferable  0 
+    Image warrior_captain.tga
+    Description quartermaster_desc
+    EffectsDescription quartermaster_effects_desc
+    Effect MovementPoints  3 
+    Effect Looting   5 
+
+;------------------------------------------
+Ancillary royal_escort
+    Type Security
+    Transferable  0 
+    Image security_eliteguard.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description royal_escort_desc
+    EffectsDescription royal_escort_effects_desc
+    Effect PersonalSecurity  2 
+
+;------------------------------------------
+Ancillary royal_seminarian
+    Type Religion
+    Transferable  0 
+    Image religious_youngboy.tga
+    ExcludedAncillaries monk, choir_boy
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description royal_seminarian_desc
+    EffectsDescription royal_seminarian_effects_desc
+    Effect Piety  1 
+    Effect Unorthodoxy  1 
+
+;------------------------------------------
+Ancillary runner
+    Type Military
+    Transferable  0 
+    Image warrior_woodsman.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description runner_desc
+    EffectsDescription runner_effects_desc
+    Effect Command  1 
+
+;------------------------------------------
+Ancillary scout
+    Type Military
+    Transferable  0 
+    Image warrior_woodsman.tga
+    Description scout_desc
+    EffectsDescription scout_effects_desc
+    Effect Ambush  1 
+    Effect LineOfSight  2 
+
+;------------------------------------------
+Ancillary scribe_ancillary
+    Type Academic
+    Transferable  0 
+    Image civil_admin.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description scribe_ancillary_desc
+    EffectsDescription scribe_ancillary_effects_desc
+    Effect Authority  1 
+    Effect Trading  10 
+
+;------------------------------------------
+Ancillary secret_love
+    Type Sex
+    Transferable  0 
+    Image sex_yangman.tga
+    ExcludedAncillaries smothering_bodyguard
+    Description secret_love_desc
+    EffectsDescription secret_love_effects_desc
+    Effect Charm -1 
+
+;------------------------------------------
+Ancillary shieldbearer
+    Type Military
+    Transferable  0 
+    Image warrior_squire.tga
+    ExcludedAncillaries swordbearer
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description shieldbearer_desc
+    EffectsDescription shieldbearer_effects_desc
+    Effect TroopMorale -1 
+    Effect HitPoints  2 
+
+;------------------------------------------
+Ancillary shipwright
+    Type Naval
+    Transferable  0 
+    Image civil_master.tga
+    Description shipwright_desc
+    EffectsDescription shipwright_effects_desc
+    Effect NavalCommand  1 
+
+;------------------------------------------
+Ancillary siege_engineer
+    Type Military
+    Transferable  0 
+    Image warrior_militariengineer.tga
+    ExcludedAncillaries military_engineer
+    Description siege_engineer_desc
+    EffectsDescription siege_engineer_effects_desc
+    Effect SiegeAttack  1 
+    Effect SiegeEngineering  60 
+
+;------------------------------------------
+Ancillary slaver
+    Type Money
+    Transferable  0 
+    Image court_eunuch.tga
+    ExcludeCultures northern_european, slavic, mesoamerican, southern_european, chinese
+    Description slaver_desc
+    EffectsDescription slaver_effects_desc
+    Effect Trading  15 
+
+;------------------------------------------
+Ancillary smothering_bodyguard
+    Type Security
+    Transferable  0 
+    Image security_eliteguard.tga
+    ExcludedAncillaries secret_love
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description smothering_bodyguard_desc
+    EffectsDescription smothering_bodyguard_effects_desc
+    Effect Charm -1 
+    Effect PersonalSecurity  3 
+
+;------------------------------------------
+Ancillary soothsayer
+    Type Magic
+    Transferable  0 
+    Image religious_mysticfigure.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description soothsayer_desc
+    EffectsDescription soothsayer_effects_desc
+    Effect TroopMorale  2 
+
+;------------------------------------------
+Ancillary spyglass
+    Type Item
+    Transferable  0 
+    Image item_spyglass.tga
+    Description spyglass_desc
+    EffectsDescription spyglass_effects_desc
+    Effect LineOfSight  2 
+
+;------------------------------------------
+Ancillary spymaster
+    Type Security
+    Transferable  0 
+    Image warrior_naval.tga
+    Description spymaster_desc
+    EffectsDescription spymaster_effects_desc
+    Effect Command  1 
+    Effect PublicSecurity  1 
+    Effect TrainingAgents  4 
+
+;------------------------------------------
+Ancillary strapping_stallion
+    Type Pet
+    Transferable  0 
+    Image animals_horse.tga
+    Description strapping_stallion_desc
+    EffectsDescription strapping_stallion_effects_desc
+    Effect MovementPoints  2 
+
+;------------------------------------------
+Ancillary stunning_handmaiden
+    Type Sex
+    Transferable  0 
+    Image sex_expensivewoman.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description stunning_handmaiden_desc
+    EffectsDescription stunning_handmaiden_effects_desc
+    Effect Charm -1 
+
+;------------------------------------------
+Ancillary swift_steed
+    Type Pet
+    Transferable  0 
+    Image animals_horse.tga
+    Description swift_steed_desc
+    EffectsDescription swift_steed_effects_desc
+    Effect MovementPoints  3 
+    Effect Health  1 
+
+;------------------------------------------
+Ancillary swiss_guard
+    Type Military
+    Transferable  0 
+    Image security_religious.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description swiss_guard_desc
+    EffectsDescription swiss_guard_effects_desc
+    Effect PersonalSecurity  1 
+
+;------------------------------------------
+Ancillary swordbearer
+    Type Military
+    Transferable  0 
+    Image warrior_squire.tga
+    ExcludedAncillaries shieldbearer, veteran_warrior
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description swordbearer_desc
+    EffectsDescription swordbearer_effects_desc
+    Effect PersonalSecurity  1 
+    Effect HitPoints  1 
+
+;------------------------------------------
+Ancillary tax_farmer
+    Type Money
+    Transferable  0 
+    Image civil_admin.tga
+    ExcludedAncillaries treasurer
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description tax_farmer_desc
+    EffectsDescription tax_farmer_effects_desc
+    Effect LocalPopularity -1 
+    Effect TaxCollection  10 
+
+;------------------------------------------
+Ancillary the_lemegeton
+    Type Magic
+    Transferable  0 
+    Image item_book.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description the_lemegeton_desc
+    EffectsDescription the_lemegeton_effects_desc
+    Effect Magic  2 
+
+;------------------------------------------
+Ancillary torturer
+    Type Court
+    Transferable  0 
+    Image court_executioner.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description torturer_desc
+    EffectsDescription torturer_effects_desc
+    Effect Chivalry -3 
+    Effect Authority  1 
+    Effect PublicSecurity  2 
+    Effect Unrest  1 
+    Effect Law  3 
+
+;------------------------------------------
+Ancillary translator
+    Type Diplomacy
+    Transferable  0 
+    Image civil_admin.tga
+    Description translator_desc
+    EffectsDescription translator_effects_desc
+    Effect Influence  2 
+
+;------------------------------------------
+Ancillary treasurer
+    Type Money
+    Transferable  0 
+    Image civil_admin.tga
+    ExcludedAncillaries tax_farmer
+    Description treasurer_desc
+    EffectsDescription treasurer_effects_desc
+    Effect Trading  5 
+    Effect TaxCollection  5 
+
+;------------------------------------------
+Ancillary trick_abacus
+    Type Item
+    Transferable  0 
+    Image item_abacus.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description trick_abacus_desc
+    EffectsDescription trick_abacus_effects_desc
+    Effect Finance  1 
+
+;------------------------------------------
+Ancillary trusty_steed
+    Type Pet
+    Transferable  0 
+    Image animals_horse.tga
+    Description trusty_steed_desc
+    EffectsDescription trusty_steed_effects_desc
+    Effect MovementPoints  1 
+    Effect CavalryCommand  1 
+
+;------------------------------------------
+Ancillary tutor
+    Type Academic
+    Transferable  0 
+    Image academic_scholar.tga
+    ExcludedAncillaries mathematician
+    Description tutor_desc
+    EffectsDescription tutor_effects_desc
+    Effect Piety  1 
+    Effect Trading  5 
+
+;------------------------------------------
+Ancillary veteran_warrior
+    Type Military
+    Transferable  0 
+    Image knight_older.tga
+    ExcludedAncillaries swordbearer
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description veteran_warrior_desc
+    EffectsDescription veteran_warrior_effects_desc
+    Effect PersonalSecurity  1 
+    Effect InfantryCommand  1 
+
+;------------------------------------------
+Ancillary witch_hunter
+    Type Security
+    Transferable  0 
+    Image religious_inquisitor.tga
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description witch_hunter_desc
+    EffectsDescription witch_hunter_effects_desc
+    Effect Piety  1 
+    Effect Unorthodoxy -1 
+
+;------------------------------------------
+Ancillary yappy_little_dog
+    Type Pet
+    Transferable  0 
+    Image animals_yappylittledog.tga
+    Description yappy_little_dog_desc
+    EffectsDescription yappy_little_dog_effects_desc
+    Effect Charm -1 
+
+;------------------------------------------
+Ancillary zealous_disciple
+    Type Security
+    Transferable  0 
+    Image item_disguise.tga
+    ExcludedAncillaries naive_knight
+    ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian, chinese
+    Description zealous_disciple_desc
+    EffectsDescription zealous_disciple_effects_desc
+    Effect Piety  1 
+    Effect PersonalSecurity  1 
+
+;===============================================================
+;== ANCILLARY TRIGGERS START HERE ==============================
+;===============================================================
+
+; Trigger for academic_advisor
+Trigger fixed_birth_academic_advisor
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary academic_advisor Chance  10
+;------------------------------------------
+
+; Trigger for architect
+Trigger fixed_birth_architect
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary architect Chance  10
+;------------------------------------------
+
+; Trigger for brilliant_inventor
+Trigger fixed_birth_brilliant_inventor
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary brilliant_inventor Chance  10
+;------------------------------------------
+
+; Trigger for bodyguard
+Trigger fixed_birth_bodyguard
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary bodyguard Chance  10
+;------------------------------------------
+
+; Trigger for drillmaster
+Trigger fixed_birth_drillmaster
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary drillmaster Chance  10
+;------------------------------------------
+
+; Trigger for mathematician
+Trigger fixed_birth_mathematician
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary mathematician Chance  10
+;------------------------------------------
+
+; Trigger for handgun
+Trigger fixed_birth_handgun
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary handgun Chance  10
+;------------------------------------------
+
+; Trigger for librarian
+Trigger fixed_birth_librarian
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary librarian Chance  10
+;------------------------------------------
+
+; Trigger for military_engineer
+Trigger fixed_birth_military_engineer
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary military_engineer Chance  10
+;------------------------------------------
+
+; Trigger for money_counter
+Trigger fixed_birth_money_counter
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary money_counter Chance  10
+;------------------------------------------
+
+; Trigger for ordinance_master
+Trigger fixed_birth_ordnance_master
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary ordinance_master Chance  10
+;------------------------------------------
+
+; Trigger for overseer
+Trigger fixed_birth_overseer
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary overseer Chance  10
+;------------------------------------------
+
+; Trigger for quartermaster
+Trigger fixed_birth_quartermaster
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary quartermaster Chance  10
+;------------------------------------------
+
+; Trigger for scout
+Trigger fixed_birth_scout
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary scout Chance  10
+;------------------------------------------
+
+; Trigger for spymaster
+Trigger fixed_birth_spymaster
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary spymaster Chance  10
+;------------------------------------------
+
+; Trigger for treasurer
+Trigger fixed_birth_treasurer
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary treasurer Chance  10
+;------------------------------------------
+
+; Trigger for tutor
+Trigger fixed_birth_tutor
+    WhenToTest CharacterComesOfAge
+    AcquireAncillary tutor Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary academic_advisor Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption1
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary architect Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary brilliant_inventor Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption3
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary bodyguard Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption4
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary drillmaster Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption5
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary mathematician Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption6
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary handgun Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption7
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary librarian Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption8
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary military_engineer Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption9
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary money_counter Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption10
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary ordinance_master Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption11
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary overseer Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption12
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary quartermaster Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption13
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary scout Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption14
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary spymaster Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption15
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary treasurer Chance  10
+;------------------------------------------
+Trigger Lesser_General_Adoption16
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    AcquireAncillary tutor Chance  10
+;------------------------------------------
+Trigger Worth_of_Adoption_Academic_Advisor
+    WhenToTest OfferedForAdoption
+    AcquireAncillary academic_advisor Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Architect
+    WhenToTest OfferedForAdoption
+    AcquireAncillary architect Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Brilliant_Inventor
+    WhenToTest OfferedForAdoption
+    AcquireAncillary brilliant_inventor Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Bodyguard
+    WhenToTest OfferedForAdoption
+    AcquireAncillary bodyguard Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Drillmaster
+    WhenToTest OfferedForAdoption
+    AcquireAncillary drillmaster Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Mathematician
+    WhenToTest OfferedForAdoption
+    AcquireAncillary mathematician Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Handgun
+    WhenToTest OfferedForAdoption
+    AcquireAncillary handgun Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Librarian
+    WhenToTest OfferedForAdoption
+    AcquireAncillary librarian Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Military_Engineer
+    WhenToTest OfferedForAdoption
+    AcquireAncillary military_engineer Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Money_Counter
+    WhenToTest OfferedForAdoption
+    AcquireAncillary money_counter Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Ordinance_Master
+    WhenToTest OfferedForAdoption
+    AcquireAncillary ordinance_master Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Overseer
+    WhenToTest OfferedForAdoption
+    AcquireAncillary overseer Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Quartermaster
+    WhenToTest OfferedForAdoption
+    AcquireAncillary quartermaster Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Scout
+    WhenToTest OfferedForAdoption
+    AcquireAncillary scout Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Spymaster
+    WhenToTest OfferedForAdoption
+    AcquireAncillary spymaster Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Treasurer
+    WhenToTest OfferedForAdoption
+    AcquireAncillary treasurer Chance  10
+;------------------------------------------
+
+Trigger Worth_of_Adoption_Tutor
+    WhenToTest OfferedForAdoption
+    AcquireAncillary tutor Chance  10
+;------------------------------------------
+Trigger Uninitialized_AcademicAdvisor
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary academic_advisor Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Architect
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary architect Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_BrilliantInventor
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary brilliant_inventor Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Bodyguard
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary bodyguard Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Drillmaster
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary drillmaster Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Mathematician
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary mathematician Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Handgun
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary handgun Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Librarian
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary librarian Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_MilitaryEngineer
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary military_engineer Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_MoneyCounter
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary money_counter Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_OrdinanceMaster
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary ordinance_master Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Overseer
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary overseer Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Quartermaster
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary quartermaster Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Scout
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary scout Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Spymaster
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary spymaster Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Treasurer
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary treasurer Chance  10
+
+;------------------------------------------
+Trigger Uninitialized_Tutor
+    WhenToTest CharacterTurnStart
+
+    Condition AgentType = family
+        and I_TurnNumber < 1
+
+    AcquireAncillary tutor Chance  10
+	
+;------------------------------------------
+Trigger sitting_around_castle_with_stables_dread
+    WhenToTest CharacterTurnEnd
+    Condition IsGeneral
+          and EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= knights_stables
+          and Attribute Chivalry < -4
+
+    AcquireAncillary black_stallion chance  4 
+
+;------------------------------------------
+Trigger agents12
+    WhenToTest SufferAssassinationAttempt
+    Condition IsGeneral
+
+    AcquireAncillary bodyguard chance  50 
+
+;------------------------------------------
+Trigger agents16
+    WhenToTest SabotageMission
+    Condition MissionSucceeded
+          and I_TurnNumber > 85
+
+    AcquireAncillary explosives chance  50 
+
+;------------------------------------------
+Trigger agents42a
+    WhenToTest DenouncementMission
+    Condition MissionSucceeded
+          and AgentType = inquisitor
+
+    AcquireAncillary executioner chance  33 
+
+;------------------------------------------
+Trigger spyinit8
+    WhenToTest AgentCreated
+    Condition AgentType = spy
+          and SettlementBuildingExists >= stables
+
+    AcquireAncillary black_stallion chance  100 
+
+;------------------------------------------
+Trigger spyinit9
+    WhenToTest AgentCreated
+    Condition AgentType = spy
+          and SettlementBuildingExists >= racing_track
+
+    AcquireAncillary black_stallion chance  100 
+
+;------------------------------------------
+Trigger merchantinit4
+    WhenToTest AgentCreated
+    Condition AgentType = merchant
+          and SettlementBuildingExists >= alchemists_lab
+
+    AcquireAncillary counterfeiter chance  15 
+
+;------------------------------------------
+Trigger merchantinit12
+    WhenToTest AgentCreated
+    Condition AgentType = merchant
+          and SettlementBuildingExists >= alchemy_school
+
+    AcquireAncillary merchant_clerk chance  50 
+
+;------------------------------------------
+Trigger factionleader_poor_fighter
+    WhenToTest BecomesFactionLeader
+    Condition Attribute Command < 4
+          and I_TurnNumber > 2
+
+    AcquireAncillary armour_ornate chance  75 
+
+;------------------------------------------
+Trigger accomplice_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = assassin
+          and SettlementBuildingExists >= assassins_guild
+
+    AcquireAncillary accomplice chance  20 
+
+;------------------------------------------
+Trigger academic_advisor_vnv_trigger
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished >= library
+
+    AcquireAncillary academic_advisor chance  33 
+
+;------------------------------------------
+Trigger academic_advisor_vnv_trigger2
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished = university
+
+    AcquireAncillary academic_advisor chance  33 
+
+;------------------------------------------
+Trigger actor_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= theatre
+          and IsGeneral
+
+    AcquireAncillary actor chance  5 
+
+;------------------------------------------
+Trigger adultress_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= coaching_house
+          and IsGeneral
+          and IsMarried
+          and SpouseAttribute Charm < 6
+          and Attribute Chivalry < 3
+
+    AcquireAncillary adultress chance  5 
+
+;------------------------------------------
+Trigger adultress_foreign_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition InEnemyLands
+          and IsMarried
+          and TimeInRegion > 3
+          and Attribute Chivalry < 3
+
+    AcquireAncillary adultress_foreign chance  5 
+
+;------------------------------------------
+Trigger adultress_she_man_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition IsMarried
+
+    AcquireAncillary adultress_she_man chance  5 
+
+;------------------------------------------
+Trigger alchemist_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= alchemists_lab
+          and IsGeneral
+
+    AcquireAncillary alchemist chance  5 
+
+;------------------------------------------
+Trigger apocethary_vnv_trigger
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished = alchemists_lab
+
+    AcquireAncillary alchemist chance  33 
+
+;------------------------------------------
+Trigger architect_vnv_trigger
+    WhenToTest GovernorBuildingCompleted
+
+    AcquireAncillary architect chance  3 
+
+;------------------------------------------
+Trigger artist_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= artist_studio
+          and IsGeneral
+
+    AcquireAncillary artist chance  5 
+
+;------------------------------------------
+Trigger artist_vnv_trigger2
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished = artist_studio
+
+    AcquireAncillary artist chance  33 
+
+;------------------------------------------
+Trigger biographer_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and TimeInRegion > 3
+          and Attribute Command >= 5
+          and IsGeneral
+
+    AcquireAncillary biographer chance  5 
+
+;------------------------------------------
+Trigger brilliant_inventor_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= alchemists_lab
+          and IsGeneral
+
+    AcquireAncillary brilliant_inventor chance  3 
+
+;------------------------------------------
+Trigger caravan_driver_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = merchant
+          and SettlementBuildingExists >= caravan_stop
+
+    AcquireAncillary caravan_driver chance  50 
+
+;------------------------------------------
+Trigger caravan_driver_vnv_trigger2
+    WhenToTest CharacterTurnEnd
+    Condition AgentType = merchant
+          and EndedInSettlement
+          and SettlementBuildingExists >= caravan_stop
+
+    AcquireAncillary caravan_driver chance  50 
+
+;------------------------------------------
+Trigger catamite_vnv_trigger
+    WhenToTest AssassinationMission
+    Condition MissionSucceeded
+          and AgentType = assassin
+
+    AcquireAncillary catamite chance  3 
+
+;------------------------------------------
+Trigger courtesan_vnv_trigger
+    WhenToTest AgentCreated
+    Condition SettlementBuildingExists >= coaching_house
+          and AgentType = assassin
+
+    AcquireAncillary courtesan chance  20 
+
+;------------------------------------------
+Trigger crooked_judge_vnv_trigger
+    WhenToTest GovernorCityRiots
+    Condition SettlementBuildingExists >= town_hall
+          and IsGeneral
+
+    AcquireAncillary crooked_judge chance  20 
+
+;------------------------------------------
+Trigger dancer_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= brothel
+          and AgentType = spy
+
+    AcquireAncillary dancer chance  5 
+
+;------------------------------------------
+Trigger dark_apprentice_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = witch
+
+    AcquireAncillary dark_apprentice chance  25 
+
+;------------------------------------------
+Trigger deacon_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = priest
+          and CharacterReligion catholic
+          and SettlementBuildingExists >= cathedral
+
+    AcquireAncillary deacon chance  50 
+
+;------------------------------------------
+Trigger deacon_vnv_trigger_2
+    WhenToTest AgentCreated
+    Condition AgentType = priest
+          and CharacterReligion orthodox
+          and SettlementBuildingExists >= cathedral_o
+
+    AcquireAncillary deacon chance  25 
+
+;------------------------------------------
+Trigger diplomatic_escort_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = diplomat
+          and SettlementBuildingExists >= castle
+
+    AcquireAncillary diplomatic_escort chance  66 
+
+;------------------------------------------
+Trigger doctor_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= bimaristan
+          and IsGeneral
+          and Attribute Command > 3
+
+    AcquireAncillary doctor chance  15 
+
+;------------------------------------------
+Trigger doctor_vnv_trigger2
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= alchemy_school
+          and IsGeneral
+          and Attribute Command > 3
+
+    AcquireAncillary doctor chance  3 
+
+;------------------------------------------
+Trigger drillmaster_vnv_trigger
+    WhenToTest GovernorUnitTrained
+    Condition TrainedUnitCategory infantry
+          and Attribute Command >= 4
+          and IsGeneral
+
+    AcquireAncillary drillmaster chance  3 
+
+;------------------------------------------
+Trigger evil_mother-in-law_vnv_trigger
+    WhenToTest CharacterMarries
+    Condition IsGeneral
+
+    AcquireAncillary evil_mother-in-law chance  50 
+
+;------------------------------------------
+Trigger exotic_gifts_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = diplomat
+          and SettlementBuildingExists >= great_market
+
+    AcquireAncillary exotic_gifts chance  33 
+
+;------------------------------------------
+Trigger false_documents_vnv_trigger
+    WhenToTest Insurrection
+
+    AcquireAncillary false_documents chance  15 
+
+;------------------------------------------
+Trigger false_documents_vnv_trigger2
+    WhenToTest AgentCreated
+    Condition AgentType = spy
+          and SettlementBuildingExists >= printing_press
+
+    AcquireAncillary false_documents chance  33 
+
+;------------------------------------------
+Trigger femme_fatale_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = assassin
+          and SettlementBuildingExists >= coaching_house
+
+    AcquireAncillary femme_fatale chance  10 
+
+;------------------------------------------
+Trigger foodtaster_vnv_trigger
+    WhenToTest SufferAssassinationAttempt
+    Condition IsGeneral
+
+    AcquireAncillary foodtaster chance  20 
+
+;------------------------------------------
+Trigger fool_brilliant_vnv_trigger
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished >= castle
+          and Attribute Command > 4
+
+    AcquireAncillary fool_brilliant chance  33 
+
+;------------------------------------------
+Trigger fool_usual_vnv_trigger
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished >= castle
+          and Attribute Command < 5
+
+    AcquireAncillary fool_usual chance  15 
+
+;------------------------------------------
+Trigger foreign_dignitary_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition InEnemyLands
+          and AgentType = diplomat
+          and DistanceCapital > 30
+
+    AcquireAncillary foreign_dignitary chance  3 
+
+;------------------------------------------
+Trigger harsh_judge_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and SettlementBuildingExists >= city_hall
+          and IsGeneral
+
+    AcquireAncillary harsh_judge chance  10 
+
+;------------------------------------------
+Trigger herald_vnv_trigger
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished = citadel
+          and Attribute Command > 3
+
+    AcquireAncillary herald chance  33 
+
+;------------------------------------------
+Trigger intrepid_explorer_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and SettlementBuildingExists >= explorers_guild
+          and IsGeneral
+
+    AcquireAncillary intrepid_explorer chance  5 
+
+;------------------------------------------
+Trigger mathematician_vnv_trigger2
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists = academy
+          and IsGeneral
+
+    AcquireAncillary mathematician chance  5 
+
+;------------------------------------------
+Trigger mathematician_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists = university
+          and IsGeneral
+
+    AcquireAncillary mathematician chance  5 
+
+;------------------------------------------
+Trigger mentor_vnv_trigger
+    WhenToTest CharacterTurnStart
+    Condition AgentType = family
+
+    AcquireAncillary mentor chance  100 
+
+;------------------------------------------
+Trigger mercenary_captain_vnv_trigger
+    WhenToTest HireMercenaries
+
+    AcquireAncillary mercenary_captain chance  10 
+
+;------------------------------------------
+Trigger military_engineer_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= city_watch
+          and SettlementBuildingExists >= cannon_foundry
+          and IsGeneral
+
+    AcquireAncillary military_engineer chance  5 
+
+;------------------------------------------
+Trigger military_engineer_vnv_trigger2
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= militia_drill_square
+          and SettlementBuildingExists >= cannon_foundry
+          and IsGeneral
+
+    AcquireAncillary military_engineer chance  8 
+
+;------------------------------------------
+Trigger money_counter_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= fairground
+          and Treasury > 50000
+          and IsGeneral
+
+    AcquireAncillary money_counter chance  8 
+
+;------------------------------------------
+Trigger musician_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= theatre
+          and IsGeneral
+
+    AcquireAncillary musician chance  10 
+
+;------------------------------------------
+Trigger naval_gunner_vnv_trigger
+    WhenToTest AgentCreated
+    Condition IsAdmiral
+          and SettlementBuildingExists >= naval_academy
+
+    AcquireAncillary naval_gunner chance  33 
+
+;------------------------------------------
+Trigger naval_navigator_vnv_trigger
+    WhenToTest AgentCreated
+    Condition IsAdmiral
+          and SettlementBuildingExists >= explorers_guild
+
+    AcquireAncillary naval_navigator chance  33 
+
+;------------------------------------------
+Trigger nosy_mother_vnv_trigger
+    WhenToTest CharacterMarries
+
+    AcquireAncillary nosy_mother chance  50 
+
+;------------------------------------------
+Trigger nun_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = priest
+          and CharacterReligion catholic
+          and SettlementBuildingExists >= abbey
+
+    AcquireAncillary nun chance  75 
+
+;------------------------------------------
+Trigger nun_orthodox_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = priest
+          and CharacterReligion orthodox
+          and SettlementBuildingExists >= abbey_o
+
+    AcquireAncillary nun chance  75 
+
+;------------------------------------------
+Trigger obsessed_suitor_vnv_trigger
+    WhenToTest DiplomacyMission
+    Condition AgentType = princess
+          and Attribute Charm > 4
+
+    AcquireAncillary obsessed_suitor chance  4 
+
+;------------------------------------------
+Trigger ordinance_master_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= military_academy
+          and IsGeneral
+
+    AcquireAncillary ordinance_master chance  10 
+
+;------------------------------------------
+Trigger overseer_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= farms+2
+          and IsGeneral
+
+    AcquireAncillary overseer chance  10 
+
+;------------------------------------------
+Trigger pet_bloodhound_vnv_trigger
+    WhenToTest AssassinationMission
+    Condition AgentType = assassin
+          and MissionSucceeded
+          and not InEnemyLands
+
+    AcquireAncillary pet_bloodhound chance  4 
+
+;------------------------------------------
+Trigger pet_guard_dog_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= castle
+          and IsGeneral
+          and TimeInRegion > 4
+
+    AcquireAncillary pet_guarddog chance  8 
+
+;------------------------------------------
+Trigger pet_monkey_vnv_trigger
+    WhenToTest AgentCreated
+    Condition SettlementBuildingExists >= market
+          and AgentType = spy
+          and not CultureType northern_european
+          and not CultureType southern_european
+
+    AcquireAncillary pet_monkey chance  5 
+
+;------------------------------------------
+Trigger physician_vnv_trigger
+    WhenToTest PostBattle
+    Condition WonBattle
+          and PercentageOfArmyKilled > 50
+          and FactionBuildingExists = university
+          and IsGeneral
+          and not CharacterReligion islam
+
+    AcquireAncillary physician chance  10 
+
+;------------------------------------------
+Trigger physician_vnv_trigger_islam
+    WhenToTest PostBattle
+    Condition WonBattle
+          and PercentageOfArmyKilled > 50
+          and FactionBuildingExists >= bimaristan
+          and IsGeneral
+
+    AcquireAncillary physician chance  30 
+
+;------------------------------------------
+Trigger pickpocket_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = spy
+          and SettlementBuildingExists >= market
+
+    AcquireAncillary pickpocket chance  12 
+
+;------------------------------------------
+Trigger poisoner_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = assassin
+          and FactionBuildingExists >= m_alchemists_guild
+
+    AcquireAncillary poisoner chance  20 
+
+;------------------------------------------
+Trigger priest_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and SettlementBuildingExists >= theologians_guild
+          and IsGeneral
+          and not CharacterReligion islam
+
+    AcquireAncillary priest chance  3 
+
+;------------------------------------------
+Trigger quartermaster_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= army_barracks
+          and IsGeneral
+          and Attribute Command > 3
+
+    AcquireAncillary quartermaster chance  20 
+
+;------------------------------------------
+Trigger runner_vnv_trigger
+    WhenToTest PostBattle
+    Condition not Routs
+          and WonBattle
+          and BattleSuccess = crushing
+          and not GeneralFoughtInCombat
+          and IsGeneral
+
+    AcquireAncillary runner chance  10 
+
+;------------------------------------------
+Trigger scout_vnv_trigger
+    WhenToTest PostBattle
+    Condition WonBattle
+          and I_ConflictType SuccessfulAmbush
+          and not WasAttacker
+          and InEnemyLands
+          and IsGeneral
+
+    AcquireAncillary scout chance  8 
+
+;------------------------------------------
+Trigger scribe_ancillary_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= town_hall
+          and SettlementBuildingExists >= alchemists_lab
+          and IsGeneral
+
+    AcquireAncillary scribe_ancillary chance  10 
+
+;------------------------------------------
+Trigger shieldbearer_vnv_trigger
+    WhenToTest PostBattle
+    Condition GeneralHPLostRatioinBattle <= 80
+          and GeneralNumKillsInBattle > 5
+          and WonBattle
+          and not Routs
+          and IsGeneral
+
+    AcquireAncillary shieldbearer chance  15 
+
+;------------------------------------------
+Trigger shipwright_vnv_trigger
+    WhenToTest NewAdmiralCreated
+    Condition SettlementBuildingExists >= merchants_wharf
+
+    AcquireAncillary shipwright chance  8 
+
+;------------------------------------------
+Trigger siege_engineer_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= cannon_foundry
+          and IsGeneral
+
+    AcquireAncillary siege_engineer chance  3 
+
+;------------------------------------------
+Trigger siege_engineer_vnv_trigger2
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= cannon_foundry
+          and IsGeneral
+
+    AcquireAncillary siege_engineer chance  3 
+
+;------------------------------------------
+Trigger siege_engineer_vnv_trigger3
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished >= cannon_towers
+
+    AcquireAncillary siege_engineer chance  33 
+
+;------------------------------------------
+Trigger siege_engineer_vnv_trigger4
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished >= cannon_foundry
+
+    AcquireAncillary siege_engineer chance  33 
+
+;------------------------------------------
+Trigger slaver_vnv_trigger
+    WhenToTest GovernorBuildingCompleted
+    Condition CharacterReligion islam
+          and Attribute Chivalry < -3
+
+    AcquireAncillary slaver chance  20 
+
+;------------------------------------------
+Trigger slaver_byzantine_vnv_trigger
+    WhenToTest GovernorBuildingCompleted
+    Condition CharFactionType byzantium
+          and Attribute Chivalry < -3
+
+    AcquireAncillary slaver chance  20 
+
+;------------------------------------------
+Trigger soothsayer_vnv_trigger
+    WhenToTest PostBattle
+    Condition not WonBattle
+
+    AcquireAncillary soothsayer chance  3 
+
+;------------------------------------------
+Trigger spymaster_vnv_trigger
+    WhenToTest LeaderOrderedSpyingMission
+    Condition IsFactionLeader
+          and IsGeneral
+
+    AcquireAncillary spymaster chance  3 
+
+;------------------------------------------
+Trigger spymaster_vnv_trigger2
+    WhenToTest GovernorBuildingCompleted
+    Condition SettlementBuildingFinished >= thieves_guild
+
+    AcquireAncillary spymaster chance  20 
+
+;------------------------------------------
+Trigger spyglass_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = spy
+          and SettlementBuildingExists >= dockyard
+
+    AcquireAncillary spyglass chance  20 
+
+;------------------------------------------
+Trigger strapping_stallion_vnv_trigger
+    WhenToTest CharacterComesOfAge
+    Condition AgentType = princess
+          and FactionBuildingExists = kings_stables
+
+    AcquireAncillary strapping_stallion chance  25 
+
+;------------------------------------------
+Trigger swift_steed_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = diplomat
+          and FactionBuildingExists >= horse_breeders_guild
+
+    AcquireAncillary swift_steed chance  33 
+
+;------------------------------------------
+Trigger swordbearer_vnv_trigger
+    WhenToTest PostBattle
+    Condition GeneralNumKillsInBattle > 5
+          and WonBattle
+          and not Routs
+          and IsGeneral
+
+    AcquireAncillary swordbearer chance  10 
+
+;------------------------------------------
+Trigger tax_farmer_vnv_trigger
+    WhenToTest GovernorBuildingCompleted
+    Condition IsGeneral
+
+    AcquireAncillary tax_farmer chance  8 
+
+;------------------------------------------
+Trigger torturer_vnv_trigger
+    WhenToTest ExterminatePopulation
+    Condition IsGeneral
+
+    AcquireAncillary torturer chance  8 
+
+;------------------------------------------
+Trigger translator_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and SettlementBuildingExists >= market
+          and AgentType = diplomat
+
+    AcquireAncillary translator chance  15 
+
+;------------------------------------------
+Trigger treasurer_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists = great_market
+          and IsGeneral
+
+    AcquireAncillary treasurer chance  10 
+
+;------------------------------------------
+Trigger trick_abacus_vnv_trigger
+    WhenToTest AgentCreated
+    Condition AgentType = merchant
+          and not SettlementBuildingExists >= town_hall
+
+    AcquireAncillary trick_abacus chance  5 
+
+;------------------------------------------
+Trigger trusty_steed_vnv_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and SettlementBuildingExists >= earls_stables
+          and IsGeneral
+
+    AcquireAncillary trusty_steed chance  15 
+
+;------------------------------------------
+Trigger tutor_vnv_trigger
+    WhenToTest CharacterComesOfAge
+    Condition IsGeneral
+
+    AcquireAncillary tutor chance  33 
+
+;------------------------------------------
+Trigger veteran_warrior_vnv_trigger
+    WhenToTest PostBattle
+    Condition GeneralNumKillsInBattle > 5
+          and WonBattle
+          and not Routs
+          and IsGeneral
+          and GeneralHPLostRatioinBattle <= 50
+
+    AcquireAncillary veteran_warrior chance  50 
+
+

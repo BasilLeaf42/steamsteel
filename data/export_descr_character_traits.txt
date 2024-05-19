@@ -1,0 +1,3179 @@
+;This file is generated from the Spreadsheet VnV,txt
+;Please modify the spreadsheet and re-xport the data, rather than editing this file directly
+
+;===============================================================
+;== TRAIT DATA STARTS HERE ==
+;===============================================================
+;------------------------------------------------------------------------------------
+;Trait: NaturalIntelligence
+; o Far_Below_Average_Intelligence (1)
+; o Below_Average_Intelligence (2)
+; o Average_Intelligence (3)
+; o Naturally_Intelligent (4)
+; o Natural_Genius (5)
+
+Trait NaturalIntelligence
+    Characters family
+    Hidden
+
+   Level Far_Below_Average_Intelligence
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  1
+
+    Level Below_Average_Intelligence
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  2
+
+    Level Average_Intelligence
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  3
+
+    Level Naturally_Intelligent
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  4
+
+    Level Natural_Genius
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  5
+
+;------------------------------------------
+;Trait: NaturalCharisma
+; o Far_Below_Average_Charisma (1)
+; o Below_Average_Charisma (2)
+; o Average_Charisma (3)
+; o Good_Charisma (4)
+; o Great_Charisma (5)
+
+Trait NaturalCharisma
+    Characters family
+    Hidden
+
+    Level Far_Below_Average_Charisma
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  1
+
+    Level Below_Average_Charisma
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  2
+
+    Level Average_Charisma
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  3
+
+    Level Good_Charisma
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  4
+
+    Level Great_Charisma
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  5
+
+;------------------------------------------
+;Trait: NaturalEnergy
+; o Far_Below_Average_Energy (1)
+; o Below_Average_Energy (2)
+; o Average_Energy (3)
+; o Naturally_Lively (4)
+; o Naturally_Energetic (5)
+
+
+;------------------------------------------
+Trait Factionleader
+    Characters family
+    AntiTraits Factionheir
+
+    Level Faction_Leader
+        Description Faction_Leader_desc
+        EffectsDescription Faction_Leader_effects_desc
+        Threshold  1 
+
+        Effect Command  1 
+        Effect Authority  2 
+        Effect PersonalSecurity  3 
+        Effect Level 2
+
+
+
+;------------------------------------------
+Trait Factionheir
+    Characters family
+    AntiTraits Exheir
+
+    Level Heir_Apparent
+        Description Heir_Apparent_desc
+        EffectsDescription Heir_Apparent_effects_desc
+        Threshold  1 
+
+        Effect Command  1 
+        Effect Authority  1 
+        Effect PersonalSecurity  2
+        Effect Level 1
+
+;------------------------------------------
+Trait NaturalEnergy
+    Characters family
+    Hidden
+
+    Level Far_Below_Average_Energy
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  1
+
+    Level Below_Average_Energy
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  2
+
+    Level Average_Energy
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  3
+
+    Level Naturally_Lively
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  4
+
+    Level Naturally_Energetic
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  5
+
+;------------------------------------------
+Trait ICERating
+    Characters family
+
+    Level ICE000
+        Description ICE000_desc
+        EffectsDescription ICE000_effects_desc
+        Threshold  1
+		
+		Effect Chivalry -1 
+        Effect Authority  4 
+		Effect Command 0 
+		Effect Attack  0 
+		Effect Defence  0
+		Effect Piety 0
+        Effect Loyalty 0 
+        Effect TroopMorale  0 
+
+    Level ICE001
+        Description ICE001_desc
+        EffectsDescription ICE001_effects_desc
+        Threshold  2
+		
+		Effect Chivalry -2 
+        Effect Authority  5 
+		Effect Command 1 
+		Effect Attack  0 
+		Effect Defence  1
+		Effect Piety 1 
+        Effect Loyalty 1 
+        Effect TroopMorale  1 
+		
+    Level ICE010
+        Description ICE010_desc
+        EffectsDescription ICE010_effects_desc
+        Threshold  3
+		
+		Effect Chivalry 2 
+        Effect Authority  5 
+		Effect Command 1 
+		Effect Attack  0 
+		Effect Defence  1
+		Effect Piety 0 
+        Effect Loyalty 1 
+        Effect TroopMorale  1 
+		
+    Level ICE011
+        Description ICE011_desc
+        EffectsDescription ICE011_effects_desc
+        Threshold  4
+		
+		Effect Chivalry 3 
+        Effect Authority  5 
+		Effect Command 1 
+		Effect Attack  1 
+		Effect Defence  1
+		Effect Piety 1 
+        Effect Loyalty 1 
+        Effect TroopMorale  1 
+		
+    Level ICE100
+        Description ICE100_desc
+        EffectsDescription ICE100_effects_desc
+        Threshold  5
+		
+		Effect Chivalry -2 
+        Effect Authority  5 
+		Effect Command 2 
+		Effect Attack  1 
+		Effect Defence  1
+		Effect Piety 1 
+        Effect Loyalty 1 
+        Effect TroopMorale  1 
+		
+    Level ICE101
+        Description ICE101_desc
+        EffectsDescription ICE101_effects_desc
+        Threshold  6
+		
+		Effect Chivalry -3 
+        Effect Authority  6 
+		Effect Command 2 
+		Effect Attack  1 
+		Effect Defence  1
+		Effect Piety 2
+        Effect Loyalty 1 
+        Effect TroopMorale  1 
+
+    Level ICE110
+        Description ICE110_desc
+        EffectsDescription ICE110_effects_desc
+        Threshold  7
+		
+		Effect Chivalry 2 
+        Effect Authority  6 
+		Effect Command 1		
+		Effect Attack  1 
+		Effect Defence  1
+		Effect Piety 2
+        Effect Loyalty 1 
+        Effect TroopMorale  2 
+		
+    Level ICE111
+        Description ICE111_desc
+        EffectsDescription ICE111_effects_desc
+        Threshold  8
+				
+		Effect Chivalry 3 
+        Effect Authority  7 
+		Effect Command 2		
+		Effect Attack  1 
+		Effect Defence  1
+		Effect Piety 3
+        Effect Loyalty 1 
+        Effect TroopMorale  2 
+
+;------------------------------------------
+Trait LoyaltyStarter
+    Characters family
+    Hidden
+
+    Level Loyalty_Starting_Value
+        Description Hidden_desc
+        EffectsDescription Hidden_effects_desc
+        Threshold  1 
+
+        Effect Loyalty  5 
+		
+;------------------------------------------
+Trait GoodCommander
+    Characters family
+    AntiTraits BadCommander
+
+    Level Promising_Commander
+        Description Promising_Commander_desc
+        EffectsDescription Promising_Commander_effects_desc
+        GainMessage Promising_Commander_gain_desc
+        LoseMessage Promising_Commander_lose_desc
+        Threshold  1 
+
+        Effect Command  1 
+
+    Level Aspiring_Commander
+        Description Aspiring_Commander_desc
+        EffectsDescription Aspiring_Commander_effects_desc
+        GainMessage Aspiring_Commander_gain_desc
+        LoseMessage Aspiring_Commander_lose_desc
+        Threshold  2 
+
+        Effect Command  2 
+
+    Level Proven_Commander
+        Description Proven_Commander_desc
+        EffectsDescription Proven_Commander_effects_desc
+        GainMessage Proven_Commander_gain_desc
+        LoseMessage Proven_Commander_lose_desc
+        Threshold  4 
+
+        Effect Command  3 
+
+    Level Great_Commander
+        Description Great_Commander_desc
+        EffectsDescription Great_Commander_effects_desc
+        GainMessage Great_Commander_gain_desc
+        LoseMessage Great_Commander_lose_desc
+        Threshold  8 
+
+        Effect Command  4 
+
+    Level Legendary_Commander
+        Description Legendary_Commander_desc
+        EffectsDescription Legendary_Commander_effects_desc
+        GainMessage Legendary_Commander_gain_desc
+        LoseMessage Legendary_Commander_lose_desc
+        Epithet Legendary_Commander_epithet_desc
+        Threshold  16 
+
+        Effect Command  5 
+
+;------------------------------------------
+Trait BadCommander
+    Characters family
+    AntiTraits GoodCommander
+
+    Level Unproven_Commander
+        Description Unproven_Commander_desc
+        EffectsDescription Unproven_Commander_effects_desc
+        Threshold  2 
+
+        Effect Command -1 
+
+    Level Incompetent_Commander
+        Description Incompetent_Commander_desc
+        EffectsDescription Incompetent_Commander_effects_desc
+        Threshold  4 
+
+        Effect Command -2 
+
+    Level Pathetic_Commander
+        Description Pathetic_Commander_desc
+        EffectsDescription Pathetic_Commander_effects_desc
+        Threshold  6 
+
+        Effect Command -3 
+
+    Level Useless_Commander
+        Description Useless_Commander_desc
+        EffectsDescription Useless_Commander_effects_desc
+        Epithet Useless_Commander_epithet_desc
+        Threshold  8 
+
+        Effect Command -5 
+
+;------------------------------------------
+Trait GoodAdministrator
+    Characters family
+    NoGoingBackLevel  3 
+    AntiTraits BadAdministrator
+
+    Level Budding_Bureaucrat
+        Description Budding_Bureaucrat_desc
+        EffectsDescription Budding_Bureaucrat_effects_desc
+        Threshold  1 
+
+        Effect Trading  3 
+        Effect Law  1 
+		Effect Piety 2
+
+    Level Skilled_Bureaucrat
+        Description Skilled_Bureaucrat_desc
+        EffectsDescription Skilled_Bureaucrat_effects_desc
+        Threshold  6 
+
+        Effect Trading  5 
+        Effect Law  2 
+		Effect Piety 3
+
+    Level Superb_Administrator
+        Description Superb_Administrator_desc
+        EffectsDescription Superb_Administrator_effects_desc
+        Threshold  12 
+
+        Effect Trading  10 
+        Effect Law  3 
+		Effect Piety 4
+
+
+;------------------------------------------
+Trait BadAdministrator
+    Characters family
+    AntiTraits GoodAdministrator
+
+    Level Poor_Administrator
+        Description Poor_Administrator_desc
+        EffectsDescription Poor_Administrator_effects_desc
+        Threshold  2 
+
+        Effect Trading -3 
+
+    Level Inefficient_Administrator
+        Description Inefficient_Administrator_desc
+        EffectsDescription Inefficient_Administrator_effects_desc
+        Threshold  4 
+
+        Effect Trading -5 
+
+    Level Total_Incompetence
+        Description Total_Incompetence_desc
+        EffectsDescription Total_Incompetence_effects_desc
+        Threshold  6 
+
+        Effect Trading -10 
+
+
+
+;------------------------------------------
+Trait InspiringSpeaker
+    Characters family
+    NoGoingBackLevel  2 
+    AntiTraits BoringSpeaker
+
+    Level Can_Tell_a_Tale
+        Description Can_Tell_a_Tale_desc
+        EffectsDescription Can_Tell_a_Tale_effects_desc
+        Threshold  1 
+
+        Effect Law  1 
+
+    Level Great_Speaker
+        Description Great_Speaker_desc
+        EffectsDescription Great_Speaker_effects_desc
+        Threshold  2 
+
+        Effect Law  1 
+
+    Level Inspirational_Speaker
+        Description Inspirational_Speaker_desc
+        EffectsDescription Inspirational_Speaker_effects_desc
+        Epithet Inspirational_Speaker_epithet_desc
+        Threshold  4 
+
+        Effect Law  2 
+
+
+
+;------------------------------------------
+Trait BoringSpeaker
+    Characters family
+    NoGoingBackLevel  2 
+    AntiTraits InspiringSpeaker
+
+    Level Poor_Speaker
+        Description Poor_Speaker_desc
+        EffectsDescription Poor_Speaker_effects_desc
+        Threshold  1 
+
+        Effect Authority -1 
+
+    Level Awkward_Speaker
+        Description Awkward_Speaker_desc
+        EffectsDescription Awkward_Speaker_effects_desc
+        Threshold  3 
+
+        Effect Authority -1 
+        Effect TroopMorale -1 
+
+    Level Incredibly_Boring
+        Description Incredibly_Boring_desc
+        EffectsDescription Incredibly_Boring_effects_desc
+        Threshold  6 
+
+        Effect Authority -2 
+        Effect TroopMorale -2 
+
+;------------------------------------------
+Trait StrategicSkill
+    Characters family
+    NoGoingBackLevel  1 
+
+    Level Promising_Strategist
+        Description Promising_Strategist_desc
+        EffectsDescription Promising_Strategist_effects_desc
+        Threshold  1 
+
+        Effect Command  1 
+
+    Level Strategically_Sound
+        Description Strategically_Sound_desc
+        EffectsDescription Strategically_Sound_effects_desc
+        Threshold  3 
+
+        Effect Command  2 
+
+    Level Strategist
+        Description Strategist_desc
+        EffectsDescription Strategist_effects_desc
+        GainMessage Strategist_gain_desc
+        Threshold  5 
+
+        Effect Command  3 
+
+
+
+;------------------------------------------
+Trait TacticalSkill
+    Characters family
+    NoGoingBackLevel  1 
+
+    Level Promising_Tactician
+        Description Promising_Tactician_desc
+        EffectsDescription Promising_Tactician_effects_desc
+        Threshold  1 
+
+        Effect Ambush  2 
+        Effect LineOfSight  1 
+
+    Level Tactically_Sound
+        Description Tactically_Sound_desc
+        EffectsDescription Tactically_Sound_effects_desc
+        Threshold  2 
+
+        Effect Ambush  3 
+        Effect LineOfSight  2 
+
+    Level Tactician
+        Description Tactician_desc
+        EffectsDescription Tactician_effects_desc
+        GainMessage Tactician_gain_desc
+        Threshold  4 
+
+        Effect Ambush  4 
+        Effect LineOfSight  3 
+		
+;------------------------------------------
+Trait PoliticsSkill
+    Characters family
+    NoGoingBackLevel  1 
+
+    Level Political_Promise
+        Description Political_Promise_desc
+        EffectsDescription Political_Promise_effects_desc
+        Threshold  5 
+
+        Effect Authority  1 
+
+    Level Political_Animal
+        Description Political_Animal_desc
+        EffectsDescription Political_Animal_effects_desc
+        Threshold  10 
+
+        Effect Loyalty -1 
+        Effect Authority  1 
+
+    Level Perfect_Politician
+        Description Perfect_Politician_desc
+        EffectsDescription Perfect_Politician_effects_desc
+        Threshold  15 
+
+        Effect Loyalty -2 
+        Effect Authority  2 
+
+
+
+;------------------------------------------
+Trait LogisticalSkill
+    Characters family
+    NoGoingBackLevel  1 
+	
+    Level Understands_Logistics
+        Description Understands_Logistics_desc
+        EffectsDescription Understands_Logistics_effects_desc
+        Threshold  1 
+
+        Effect TroopMorale  1 
+        Effect MovementPoints  2 
+
+    Level Logistics_Expert
+        Description Logistics_Expert_desc
+        EffectsDescription Logistics_Expert_effects_desc
+        Threshold  2 
+
+        Effect TroopMorale  2 
+        Effect MovementPoints  3 
+
+    Level Logistician
+        Description Logistician_desc
+        EffectsDescription Logistician_effects_desc
+        GainMessage Logistician_gain_desc
+        Threshold  4 
+
+        Effect TroopMorale  3 
+        Effect MovementPoints  4 
+
+
+
+;------------------------------------------
+Trait Rabblerouser
+    Characters family
+    NoGoingBackLevel  1 
+
+    Level Instigator
+        Description Instigator_desc
+        EffectsDescription Instigator_effects_desc
+        Threshold  1 
+
+        Effect LocalPopularity  1 
+
+    Level Agitator
+        Description Agitator_desc
+        EffectsDescription Agitator_effects_desc
+        Threshold  2 
+
+        Effect LocalPopularity  2 
+
+    Level Provoker
+        Description Provoker_desc
+        EffectsDescription Provoker_effects_desc
+        Threshold  4 
+
+        Effect Authority  1 
+        Effect LocalPopularity  3 
+        Effect Unrest  1 
+
+    Level Leader_of_the_Mob
+        Description Leader_of_the_Mob_desc
+        EffectsDescription Leader_of_the_Mob_effects_desc
+        Threshold  8 
+
+        Effect Authority  2 
+        Effect LocalPopularity  4 
+        Effect Unrest  2 
+
+
+;------------------------------------------
+Trait GoodDiplomat
+    Characters diplomat
+    AntiTraits BadDiplomat
+
+    Level Promising_Diplomat
+        Description Promising_Diplomat_desc
+        EffectsDescription Promising_Diplomat_effects_desc
+        Threshold  1 
+
+        Effect Influence  1 
+
+    Level Good_Diplomat
+        Description Good_Diplomat_desc
+        EffectsDescription Good_Diplomat_effects_desc
+        Threshold  2 
+
+        Effect Influence  2 
+
+    Level Very_Diplomatic
+        Description Very_Diplomatic_desc
+        EffectsDescription Very_Diplomatic_effects_desc
+        Threshold  4 
+
+        Effect Influence  3 
+
+    Level Superb_Diplomat
+        Description Superb_Diplomat_desc
+        EffectsDescription Superb_Diplomat_effects_desc
+        Threshold  8 
+
+        Effect Influence  4 
+
+    Level Master_of_Diplomacy
+        Description Master_of_Diplomacy_desc
+        EffectsDescription Master_of_Diplomacy_effects_desc
+        GainMessage Master_of_Diplomacy_gain_desc
+        Threshold  16 
+
+        Effect Influence  5 
+
+
+
+;------------------------------------------
+Trait BadDiplomat
+    Characters diplomat
+    AntiTraits GoodDiplomat
+
+    Level Awkward_Diplomat
+        Description Awkward_Diplomat_desc
+        EffectsDescription Awkward_Diplomat_effects_desc
+        Threshold  2 
+
+        Effect Influence -1 
+
+    Level Poor_Diplomat
+        Description Poor_Diplomat_desc
+        EffectsDescription Poor_Diplomat_effects_desc
+        Threshold  4 
+
+        Effect Influence -2 
+
+    Level Undiplomatic
+        Description Undiplomatic_desc
+        EffectsDescription Undiplomatic_effects_desc
+        Threshold  8 
+
+        Effect Influence -3 
+
+;------------------------------------------
+Trait Multilingual
+    Characters diplomat
+
+    Level Bilingual
+        Description Bilingual_desc
+        EffectsDescription Bilingual_effects_desc
+        Threshold  1 
+
+        Effect Influence  1 
+
+    Level Multilingual
+        Description Multilingual_desc
+        EffectsDescription Multilingual_effects_desc
+        Threshold  2 
+
+        Effect Influence  2 
+
+    Level Translator
+        Description Translator_desc
+        EffectsDescription Translator_effects_desc
+        Threshold  4 
+
+        Effect Influence  3 
+
+
+;------------------------------------------
+Trait ReligiousTolerance
+    Characters diplomat
+    AntiTraits ReligiousIntolerance
+
+    Level Not_Dogmatic
+        Description Not_Dogmatic_desc
+        EffectsDescription Not_Dogmatic_effects_desc
+        Threshold  1 
+
+        Effect Influence  1 
+
+    Level Respects_other_Religions
+        Description Respects_other_Religions_desc
+        EffectsDescription Respects_other_Religions_effects_desc
+        Threshold  2 
+
+        Effect Influence  2 
+
+    Level Open_to_all_Religions
+        Description Open_to_all_Religions_desc
+        EffectsDescription Open_to_all_Religions_effects_desc
+        Threshold  3 
+
+        Effect Influence  3 
+
+
+
+;------------------------------------------
+Trait ReligiousIntolerance
+    Characters diplomat
+    AntiTraits ReligiousTolerance
+
+    Level Dogmatic_Beliefs
+        Description Dogmatic_Beliefs_desc
+        EffectsDescription Dogmatic_Beliefs_effects_desc
+        Threshold  1 
+
+        Effect Influence -1 
+
+    Level Religiously_Intolerant
+        Description Religiously_Intolerant_desc
+        EffectsDescription Religiously_Intolerant_effects_desc
+        Threshold  2 
+
+        Effect Influence -2 
+
+    Level Would-be-Inquisitor
+        Description Would-be-Inquisitor_desc
+        EffectsDescription Would-be-Inquisitor_effects_desc
+        Threshold  3 
+
+        Effect Influence -3 
+
+;------------------------------------------
+Trait GoodSpy
+    Characters spy
+    AntiTraits BadSpy
+
+    Level Inconspicuous
+        Description Inconspicuous_desc
+        EffectsDescription Inconspicuous_effects_desc
+        GainMessage Inconspicuous_gain_desc
+        LoseMessage Inconspicuous_lose_desc
+        Threshold  1 
+
+        Effect Subterfuge  1 
+        Effect LineOfSight  1 
+
+    Level Adept_Agent
+        Description Adept_Agent_desc
+        EffectsDescription Adept_Agent_effects_desc
+        GainMessage Adept_Agent_gain_desc
+        LoseMessage Adept_Agent_lose_desc
+        Threshold  2 
+
+        Effect Subterfuge  2 
+        Effect LineOfSight  2 
+
+    Level Spy
+        Description Spy_desc
+        EffectsDescription Spy_effects_desc
+        GainMessage Spy_gain_desc
+        LoseMessage Spy_lose_desc
+        Threshold  4 
+
+        Effect Subterfuge  3 
+        Effect LineOfSight  3 
+
+    Level Adept_Spy
+        Description Adept_Spy_desc
+        EffectsDescription Adept_Spy_effects_desc
+        GainMessage Adept_Spy_gain_desc
+        LoseMessage Adept_Spy_lose_desc
+        Threshold  8 
+
+        Effect Subterfuge  4 
+        Effect LineOfSight  4 
+
+    Level Master_Spy
+        Description Master_Spy_desc
+        EffectsDescription Master_Spy_effects_desc
+        GainMessage Master_Spy_gain_desc
+        LoseMessage Master_Spy_lose_desc
+        Epithet Master_Spy_epithet_desc
+        Threshold  16 
+
+        Effect Subterfuge  5 
+        Effect LineOfSight  5 
+
+
+
+;------------------------------------------
+Trait BadSpy
+    Characters spy
+    AntiTraits GoodSpy
+
+    Level Conspicuous
+        Description Conspicuous_desc
+        EffectsDescription Conspicuous_effects_desc
+        Threshold  2 
+
+        Effect Subterfuge -1 
+
+    Level Poor_Spy
+        Description Poor_Spy_desc
+        EffectsDescription Poor_Spy_effects_desc
+        Threshold  4 
+
+        Effect Subterfuge -2 
+
+    Level Devoid_of_Subtlety
+        Description Devoid_of_Subtlety_desc
+        EffectsDescription Devoid_of_Subtlety_effects_desc
+        Threshold  6 
+
+        Effect Subterfuge -3 
+
+;------------------------------------------
+Trait NaturalSpySkill
+    Characters spy
+
+    Level Quietly_Observant
+        Description Quietly_Observant_desc
+        EffectsDescription Quietly_Observant_effects_desc
+        Threshold  1 
+
+        Effect Subterfuge  1 
+
+    Level Spying_Talent
+        Description Spying_Talent_desc
+        EffectsDescription Spying_Talent_effects_desc
+        Threshold  2 
+
+        Effect Subterfuge  2 
+
+    Level Natural_Spy
+        Description Natural_Spy_desc
+        EffectsDescription Natural_Spy_effects_desc
+        Threshold  3 
+
+        Effect Subterfuge  3 
+		
+		
+;------------------------------------------
+Trait Sailor
+    Characters admiral
+    NoGoingBackLevel  2 
+
+    Level Competent_Sailor
+        Description Competent_Sailor_desc
+        EffectsDescription Competent_Sailor_effects_desc
+        GainMessage Competent_Sailor_gain_desc
+        Threshold  1 
+
+        Effect NavalCommand  1 
+
+    Level Fine_Officer
+        Description Fine_Officer_desc
+        EffectsDescription Fine_Officer_effects_desc
+        GainMessage Fine_Officer_gain_desc
+        Threshold  2 
+
+        Effect NavalCommand  2 
+
+    Level Worthy_Admiral
+        Description Worthy_Admiral_desc
+        EffectsDescription Worthy_Admiral_effects_desc
+        GainMessage Worthy_Admiral_gain_desc
+        Threshold  4 
+
+        Effect NavalCommand  3 
+
+    Level Great_Admiral
+        Description Great_Admiral_desc
+        EffectsDescription Great_Admiral_effects_desc
+        GainMessage Great_Admiral_gain_desc
+        Threshold  8 
+
+        Effect NavalCommand  4 
+
+    Level Legendary_Admiral
+        Description Legendary_Admiral_desc
+        EffectsDescription Legendary_Admiral_effects_desc
+        GainMessage Legendary_Admiral_gain_desc
+        Epithet Legendary_Admiral_epithet_desc
+        Threshold  16 
+
+        Effect NavalCommand  5 
+
+;------------------------------------------
+Trait GoodMerchant
+    Characters merchant
+    AntiTraits BadMerchant
+
+    Level Bean_Counter
+        Description Bean_Counter_desc
+        EffectsDescription Bean_Counter_effects_desc
+        GainMessage Bean_Counter_gain_desc
+        LoseMessage Bean_Counter_lose_desc
+        Threshold  1 
+
+        Effect Finance  1 
+
+    Level Bold_Barterer
+        Description Bold_Barterer_desc
+        EffectsDescription Bold_Barterer_effects_desc
+        GainMessage Bold_Barterer_gain_desc
+        LoseMessage Bold_Barterer_lose_desc
+        Threshold  2 
+
+        Effect Finance  2 
+
+    Level Commercial_Conqueror
+        Description Commercial_Conqueror_desc
+        EffectsDescription Commercial_Conqueror_effects_desc
+        GainMessage Commercial_Conqueror_gain_desc
+        LoseMessage Commercial_Conqueror_lose_desc
+        Threshold  4 
+
+        Effect Finance  3 
+
+    Level Robber_Baron
+        Description Robber_Baron_desc
+        EffectsDescription Robber_Baron_effects_desc
+        GainMessage Robber_Baron_gain_desc
+        LoseMessage Robber_Baron_lose_desc
+        Threshold  8 
+
+        Effect Finance  4 
+
+
+
+;------------------------------------------
+Trait BadMerchant
+    Characters merchant
+    AntiTraits GoodMerchant
+
+    Level Daft_Dealer
+        Description Daft_Dealer_desc
+        EffectsDescription Daft_Dealer_effects_desc
+        Threshold  1 
+
+        Effect Finance -1 
+
+    Level Easy_Target
+        Description Easy_Target_desc
+        EffectsDescription Easy_Target_effects_desc
+        Threshold  3 
+
+        Effect Finance -2 
+
+    Level Open_Purse
+        Description Open_Purse_desc
+        EffectsDescription Open_Purse_effects_desc
+        Threshold  6 
+
+        Effect Finance -3 
+
+
+
+;------------------------------------------
+Trait NaturalMerchantSkill
+    Characters merchant
+
+    Level Good_with_Money
+        Description Good_with_Money_desc
+        EffectsDescription Good_with_Money_effects_desc
+        Threshold  1 
+
+        Effect Finance  1 
+
+    Level Natural_Born_Merchant
+        Description Natural_Born_Merchant_desc
+        EffectsDescription Natural_Born_Merchant_effects_desc
+        Threshold  2 
+
+        Effect Finance  2 
+
+    Level Mercantile_Genius
+        Description Mercantile_Genius_desc
+        EffectsDescription Mercantile_Genius_effects_desc
+        Threshold  3 
+
+        Effect Finance  3 
+
+
+;------------------------------------------
+Trait Monopolist
+    Characters merchant
+
+    Level Capitalist
+        Description Capitalist_desc
+        EffectsDescription Capitalist_effects_desc
+        Threshold  5 
+
+        Effect Finance  1 
+
+    Level Market_Controller
+        Description Market_Controller_desc
+        EffectsDescription Market_Controller_effects_desc
+        Threshold  10 
+
+        Effect Finance  2 
+
+    Level Monopolist
+        Description Monopolist_desc
+        EffectsDescription Monopolist_effects_desc
+        Threshold  20 
+
+        Effect Finance  3 
+        Effect PersonalSecurity -1 
+
+;------------------------------------------
+Trait ShadyDealer
+    Characters merchant
+    AntiTraits LegalDealer
+
+    Level Slightly_Crooked
+        Description Slightly_Crooked_desc
+        EffectsDescription Slightly_Crooked_effects_desc
+        Threshold  1 
+
+        Effect Finance -1 
+
+    Level Shady_Dealer
+        Description Shady_Dealer_desc
+        EffectsDescription Shady_Dealer_effects_desc
+        Threshold  3 
+
+        Effect Finance -2 
+
+
+
+;------------------------------------------
+Trait LegalDealer
+    Characters merchant
+    AntiTraits ShadyDealer
+
+    Level Legal_Nouse
+        Description Legal_Nouse_desc
+        EffectsDescription Legal_Nouse_effects_desc
+        Threshold  1 
+
+        Effect Finance  1 
+
+    Level Legal_Expert
+        Description Legal_Expert_desc
+        EffectsDescription Legal_Expert_effects_desc
+        Threshold  2 
+
+        Effect Finance  2 	
+		
+;===============================================================
+;== TRIGGER DATA STARTS HERE ==
+;===============================================================
+
+;------------------------------------------
+Trigger random_birth_ICE_Trigger_Initialize1
+  WhenToTest CharacterComesOfAge
+
+  Affects NaturalIntelligence  1  Chance  100
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalEnergy  1  Chance  100
+  Affects NaturalEnergy  1  Chance  50
+
+;------------------------------------------
+Trigger random_birth_ICE_Trigger_Initialize2
+  WhenToTest CharacterComesOfAge
+
+  Affects NaturalCharisma  1  Chance  100
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+
+;------------------------------------------
+Trigger random_birth_ICE000
+  WhenToTest CharacterComesOfAge
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  1  Chance  100
+
+;------------------------------------------
+Trigger random_birth_ICE001
+  WhenToTest CharacterComesOfAge
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  2  Chance  100
+
+;------------------------------------------
+Trigger random_birth_ICE010
+  WhenToTest CharacterComesOfAge
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  3  Chance  100
+
+;------------------------------------------
+Trigger random_birth_ICE011
+  WhenToTest CharacterComesOfAge
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  4  Chance  100
+
+;------------------------------------------
+Trigger random_birth_ICE100
+  WhenToTest CharacterComesOfAge
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  5  Chance  100
+
+;------------------------------------------
+Trigger random_birth_ICE101
+  WhenToTest CharacterComesOfAge
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  6  Chance  100
+
+;------------------------------------------
+Trigger random_birth_ICE110
+  WhenToTest CharacterComesOfAge
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  7  Chance  100
+
+;------------------------------------------
+Trigger random_birth_ICE111
+  WhenToTest CharacterComesOfAge
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  8  Chance  100
+  
+  ;------------------------------------------
+Trigger worthy_of_adoption_1_ICE_Trigger_Initialize1
+  WhenToTest OfferedForAdoption
+
+  Affects NaturalIntelligence  1  Chance  100
+  Affects NaturalCharisma  1  Chance  100
+  Affects NaturalEnergy  1  Chance  100
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+
+;------------------------------------------
+Trigger worthy_of_adoption_1_ICE_Trigger_Initialize2
+  WhenToTest OfferedForAdoption
+
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+
+;------------------------------------------
+Trigger worthy_of_adoption_ICE000
+  WhenToTest OfferedForAdoption
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  1  Chance  100
+
+;------------------------------------------
+Trigger worthy_of_adoption_ICE001
+  WhenToTest OfferedForAdoption
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  2  Chance  100
+
+;------------------------------------------
+Trigger worthy_of_adoption_ICE010
+  WhenToTest OfferedForAdoption
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  3  Chance  100
+
+;------------------------------------------
+Trigger worthy_of_adoption_ICE011
+  WhenToTest OfferedForAdoption
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  4  Chance  100
+
+;------------------------------------------
+Trigger worthy_of_adoption_ICE100
+  WhenToTest OfferedForAdoption
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  5  Chance  100
+
+;------------------------------------------
+Trigger worthy_of_adoption_ICE101
+  WhenToTest OfferedForAdoption
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  6  Chance  100
+
+;------------------------------------------
+Trigger worthy_of_adoption_ICE110
+  WhenToTest OfferedForAdoption
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  7  Chance  100
+
+;------------------------------------------
+Trigger worthy_of_adoption_ICE111
+  WhenToTest OfferedForAdoption
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  8  Chance  100
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_1_ICE_Trigger_Initialize1
+  WhenToTest LesserGeneralOfferedForAdoption
+
+  Affects NaturalIntelligence  1  Chance  100
+  Affects NaturalCharisma  1  Chance  100
+  Affects NaturalEnergy  1  Chance  100
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_1_ICE_Trigger_Initialize2
+  WhenToTest LesserGeneralOfferedForAdoption
+
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_ICE000
+  WhenToTest LesserGeneralOfferedForAdoption
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  1  Chance  100
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_ICE001
+  WhenToTest LesserGeneralOfferedForAdoption
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  2  Chance  100
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_ICE010
+  WhenToTest LesserGeneralOfferedForAdoption
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  3  Chance  100
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_ICE011
+  WhenToTest LesserGeneralOfferedForAdoption
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  4  Chance  100
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_ICE100
+  WhenToTest LesserGeneralOfferedForAdoption
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  5  Chance  100
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_ICE101
+  WhenToTest LesserGeneralOfferedForAdoption
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  6  Chance  100
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_ICE110
+  WhenToTest LesserGeneralOfferedForAdoption
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy < 3
+
+  Affects ICERating  7  Chance  100
+
+;------------------------------------------
+Trigger lesser_general_worthy_of_adoption_ICE111
+  WhenToTest LesserGeneralOfferedForAdoption
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy > 2
+
+  Affects ICERating  8  Chance  100
+  
+  ;------------------------------------------
+ Trigger Uninitialized_Intelligence
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalIntelligence < 1
+        and AgentType = family
+
+  Affects NaturalIntelligence  1  Chance  100
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+  Affects NaturalIntelligence  1  Chance  50
+
+;------------------------------------------
+Trigger Uninitialized_Charisma
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalCharisma < 1
+        and AgentType = family
+
+  Affects NaturalCharisma  1  Chance  100
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+  Affects NaturalCharisma  1  Chance  50
+
+;------------------------------------------
+Trigger Uninitialized_Energy
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalEnergy < 1
+        and AgentType = family
+
+  Affects NaturalEnergy  1  Chance  100
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+  Affects NaturalEnergy  1  Chance  50
+
+;------------------------------------------
+Trigger Uninitialized_ICE000
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy < 3
+        and Trait ICERating < 1
+        and AgentType = family
+
+  Affects ICERating  1  Chance  100
+
+;------------------------------------------
+Trigger Uninitialized_ICE001
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy > 2
+        and Trait ICERating < 1
+        and AgentType = family
+
+  Affects ICERating  2  Chance  100
+
+;------------------------------------------
+Trigger Uninitialized_ICE010
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy < 3
+        and Trait ICERating < 1
+        and AgentType = family
+
+  Affects ICERating  3  Chance  100
+
+;------------------------------------------
+Trigger Uninitialized_ICE011
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalIntelligence < 3
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy > 2
+        and Trait ICERating < 1
+        and AgentType = family
+
+  Affects ICERating  4  Chance  100
+
+;------------------------------------------
+Trigger Uninitialized_ICE100
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy < 3
+        and Trait ICERating < 1
+        and AgentType = family
+
+  Affects ICERating  5  Chance  100
+
+;------------------------------------------
+Trigger Uninitialized_ICE101
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma < 3
+        and Trait NaturalEnergy > 2
+        and Trait ICERating < 1
+        and AgentType = family
+
+  Affects ICERating  6  Chance  100
+
+;------------------------------------------
+Trigger Uninitialized_ICE110
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy < 3
+        and Trait ICERating < 1
+        and AgentType = family
+
+  Affects ICERating  7  Chance  100
+
+;------------------------------------------
+Trigger Uninitialized_ICE111
+  WhenToTest CharacterTurnStart
+
+  Condition Trait NaturalIntelligence > 2
+        and Trait NaturalCharisma > 2
+        and Trait NaturalEnergy > 2
+        and Trait ICERating < 1
+        and AgentType = family
+
+  Affects ICERating  8  Chance  100
+
+;------------------------------------------
+Trigger Uninitialized1
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion pagan
+
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  65
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  65 
+
+;------------------------------------------
+Trigger Uninitialized2
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion pagan
+
+	Affects GoodCommander  1  Chance  65 
+	Affects StrategicSkill  1  Chance  65 
+	Affects TacticalSkill  1  Chance  65 
+	Affects LogisticalSkill  1  Chance  65
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger Uninitialized1_a
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion catholic
+
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  60
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  60 
+
+;------------------------------------------
+Trigger Uninitialized2_a
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion catholic
+
+	Affects GoodCommander  1  Chance  60 
+	Affects StrategicSkill  1  Chance  60 
+	Affects TacticalSkill  1  Chance  60
+	Affects LogisticalSkill  1  Chance  60
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger Uninitialized1_b
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion orthodox
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  55
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  55 
+
+;------------------------------------------
+Trigger Uninitialized2_b
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion orthodox
+		  
+	Affects GoodCommander  1  Chance  55 
+	Affects StrategicSkill  1  Chance  55 
+	Affects TacticalSkill  1  Chance  55 
+	Affects LogisticalSkill  1  Chance  55 
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger Uninitialized1_c
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion protestant
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  70
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  70 
+
+;------------------------------------------
+Trigger Uninitialized2_c
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion protestant
+		  
+	Affects GoodCommander  1  Chance  70 
+	Affects StrategicSkill  1  Chance  70 
+	Affects TacticalSkill  1  Chance  70 
+	Affects LogisticalSkill  1  Chance  70 
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+
+;------------------------------------------
+Trigger Uninitialized1_d
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion shia
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  35
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  35 
+
+;------------------------------------------
+Trigger Uninitialized2_d
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion shia
+		  
+	Affects GoodCommander  1  Chance  35 
+	Affects StrategicSkill  1  Chance  35 
+	Affects TacticalSkill  1  Chance  35 
+	Affects LogisticalSkill  1  Chance  35 
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger Uninitialized1_e
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion islam
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger Uninitialized2_e
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion islam
+		  
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40 
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger Uninitialized1_f
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion heretic
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger Uninitialized2_f
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion heretic
+		  
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40 
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger Uninitialized1_g
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion buddism
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger Uninitialized2_g
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion buddism
+		  
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40 
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger Uninitialized1_h
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion hindu
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  55
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  55 
+
+;------------------------------------------
+Trigger Uninitialized2_h
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion hindu
+		  
+	Affects GoodCommander  1  Chance  55 
+	Affects StrategicSkill  1  Chance  55 
+	Affects TacticalSkill  1  Chance  55 
+	Affects LogisticalSkill  1  Chance  55
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger Uninitialized1_i
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion judaism
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  65
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  65 
+
+;------------------------------------------
+Trigger Uninitialized2_i
+    WhenToTest CharacterTurnStart
+
+    Condition I_TurnNumber < 1
+	      and AgentType = family
+		  and CharacterReligion judaism
+		  
+	Affects GoodCommander  1  Chance  65 
+	Affects StrategicSkill  1  Chance  65
+	Affects TacticalSkill  1  Chance  65 
+	Affects LogisticalSkill  1  Chance  65
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger fixed_birth1
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion pagan
+
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  45
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  45 
+
+;------------------------------------------
+Trigger fixed_birth2
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion pagan
+
+	Affects GoodCommander  1  Chance  45 
+	Affects StrategicSkill  1  Chance  45 
+	Affects TacticalSkill  1  Chance  45 
+	Affects LogisticalSkill  1  Chance  45
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+
+;------------------------------------------
+Trigger fixed_birth1_a
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion catholic
+
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger fixed_birth2_a
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion catholic
+
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger fixed_birth1_b
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion orthodox
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  35
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  35 
+
+;------------------------------------------
+Trigger fixed_birth2_b
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion orthodox
+		  
+	Affects GoodCommander  1  Chance  35 
+	Affects StrategicSkill  1  Chance  35 
+	Affects TacticalSkill  1  Chance  35 
+	Affects LogisticalSkill  1  Chance  35
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger fixed_birth1_c
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion protestant
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  50
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  50 
+
+;------------------------------------------
+Trigger fixed_birth2_c
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion protestant
+		  
+	Affects GoodCommander  1  Chance  50 
+	Affects StrategicSkill  1  Chance  50 
+	Affects TacticalSkill  1  Chance  50 
+	Affects LogisticalSkill  1  Chance  50
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger fixed_birth1_d
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion shia
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  20
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  20 
+
+;------------------------------------------
+Trigger fixed_birth2_d
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion shia
+		  
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger fixed_birth1_e
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion islam
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  25
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  25 
+
+;------------------------------------------
+Trigger fixed_birth2_e
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion islam
+		  
+	Affects GoodCommander  1  Chance  25 
+	Affects StrategicSkill  1  Chance  25 
+	Affects TacticalSkill  1  Chance  25 
+	Affects LogisticalSkill  1  Chance  25
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger fixed_birth1_f
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion heretic
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  25
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  25 
+
+;------------------------------------------
+Trigger fixed_birth2_f
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion heretic
+		  
+	Affects GoodCommander  1  Chance  25 
+	Affects StrategicSkill  1  Chance  25 
+	Affects TacticalSkill  1  Chance  25 
+	Affects LogisticalSkill  1  Chance  25
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger fixed_birth1_g
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion buddism
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  25
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  25 
+
+;------------------------------------------
+Trigger fixed_birth2_g
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion buddism
+		  
+	Affects GoodCommander  1  Chance  25 
+	Affects StrategicSkill  1  Chance  25 
+	Affects TacticalSkill  1  Chance  25 
+	Affects LogisticalSkill  1  Chance  25 
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+
+;------------------------------------------
+Trigger fixed_birth1_h
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion hindu
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  35
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  35 
+
+;------------------------------------------
+Trigger fixed_birth2_h
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion hindu
+		  
+	Affects GoodCommander  1  Chance  35 
+	Affects StrategicSkill  1  Chance  35 
+	Affects TacticalSkill  1  Chance  35 
+	Affects LogisticalSkill  1  Chance  35
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger fixed_birth1_i
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion judaism
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  45
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  45 
+
+;------------------------------------------
+Trigger fixed_birth2_i
+    WhenToTest CharacterComesOfAge
+
+    Condition CharacterReligion judaism
+		  
+	Affects GoodCommander  1  Chance  45 
+	Affects StrategicSkill  1  Chance  45 
+	Affects TacticalSkill  1  Chance  45 
+	Affects LogisticalSkill  1  Chance  45 
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion pagan
+
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  65
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  65 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion pagan
+
+	Affects GoodCommander  1  Chance  65 
+	Affects StrategicSkill  1  Chance  65 
+	Affects TacticalSkill  1  Chance  65 
+	Affects LogisticalSkill  1  Chance  65
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger_a
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion catholic
+
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  60
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  60 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger_a
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion catholic
+
+	Affects GoodCommander  1  Chance  60 
+	Affects StrategicSkill  1  Chance  60 
+	Affects TacticalSkill  1  Chance  60
+	Affects LogisticalSkill  1  Chance  60
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger_b
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion orthodox
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  55
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  55 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger_b
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion orthodox
+		  
+	Affects GoodCommander  1  Chance  55 
+	Affects StrategicSkill  1  Chance  55 
+	Affects TacticalSkill  1  Chance  55 
+	Affects LogisticalSkill  1  Chance  55 
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger_c
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion protestant
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  70
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  70 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger_c
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion protestant
+		  
+	Affects GoodCommander  1  Chance  70 
+	Affects StrategicSkill  1  Chance  70 
+	Affects TacticalSkill  1  Chance  70 
+	Affects LogisticalSkill  1  Chance  70
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger_d
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion shia
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  35
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  35 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger_d
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion shia
+		  
+	Affects GoodCommander  1  Chance  35 
+	Affects StrategicSkill  1  Chance  35 
+	Affects TacticalSkill  1  Chance  35 
+	Affects LogisticalSkill  1  Chance  35
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger_e
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion islam
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger_e
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion islam
+		  
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40 
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger_f
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion heretic
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger_f
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion heretic
+		  
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40 
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger_g
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion buddism
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger_g
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion buddism
+		  
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40 
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger_h
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion hindu
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  55
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  55 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger_h
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion hindu
+		  
+	Affects GoodCommander  1  Chance  55 
+	Affects StrategicSkill  1  Chance  55 
+	Affects TacticalSkill  1  Chance  55 
+	Affects LogisticalSkill  1  Chance  55
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_4_VnV_Trigger_i
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion judaism
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  65
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  65 
+
+;------------------------------------------
+Trigger Lesser_General_Adoption_5_VnV_Trigger_i
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition CharacterReligion judaism
+		  
+	Affects GoodCommander  1  Chance  65 
+	Affects StrategicSkill  1  Chance  65 
+	Affects TacticalSkill  1  Chance  65 
+	Affects LogisticalSkill  1  Chance  65
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion pagan
+
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  65
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  65 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion pagan
+
+	Affects GoodCommander  1  Chance  65 
+	Affects StrategicSkill  1  Chance  65 
+	Affects TacticalSkill  1  Chance  65 
+	Affects LogisticalSkill  1  Chance  65
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1_a
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion catholic
+
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  60
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  60 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2_a
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion catholic
+
+	Affects GoodCommander  1  Chance  60 
+	Affects StrategicSkill  1  Chance  60 
+	Affects TacticalSkill  1  Chance  60
+	Affects LogisticalSkill  1  Chance  60
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1_b
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion orthodox
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  55
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  55 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2_b
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion orthodox
+		  
+	Affects GoodCommander  1  Chance  55 
+	Affects StrategicSkill  1  Chance  55 
+	Affects TacticalSkill  1  Chance  55 
+	Affects LogisticalSkill  1  Chance  55
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20
+	
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1_c
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion protestant
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  70
+    Affects BoringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  70 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2_c
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion protestant
+		  
+	Affects GoodCommander  1  Chance  70 
+	Affects StrategicSkill  1  Chance  70 
+	Affects TacticalSkill  1  Chance  70 
+	Affects LogisticalSkill  1  Chance  70
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1_d
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion shia
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  35
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  35 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2_d
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion shia
+		  
+	Affects GoodCommander  1  Chance  35 
+	Affects StrategicSkill  1  Chance  35 
+	Affects TacticalSkill  1  Chance  35 
+	Affects LogisticalSkill  1  Chance  35
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1_e
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion islam
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2_e
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion islam
+		  
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40 
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1_f
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion heretic
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2_f
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion heretic
+		  
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40 
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1_g
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion buddism
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  40
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  40 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2_g
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion buddism
+		  
+	Affects GoodCommander  1  Chance  40 
+	Affects StrategicSkill  1  Chance  40 
+	Affects TacticalSkill  1  Chance  40 
+	Affects LogisticalSkill  1  Chance  40
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1_h
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion hindu
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  55
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  55 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2_h
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion hindu
+		  
+	Affects GoodCommander  1  Chance  55 
+	Affects StrategicSkill  1  Chance  55 
+	Affects TacticalSkill  1  Chance  55 
+	Affects LogisticalSkill  1  Chance  55
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_1_i
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion judaism
+		  
+    Affects LoyaltyStarter  1  Chance  100 
+    Affects GoodAdministrator  1  Chance  65
+    Affects BoringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  65 
+
+;------------------------------------------
+Trigger Worth_of_Adoption_loyalty_2_i
+    WhenToTest OfferedForAdoption
+
+    Condition CharacterReligion judaism
+		  
+	Affects GoodCommander  1  Chance  65 
+	Affects StrategicSkill  1  Chance  65 
+	Affects TacticalSkill  1  Chance  65 
+	Affects LogisticalSkill  1  Chance  65
+	Affects GoodAdministrator  1  Chance  20
+	Affects GoodCommander  1  Chance  20 
+	Affects StrategicSkill  1  Chance  20 
+	Affects TacticalSkill  1  Chance  20 
+	Affects LogisticalSkill  1  Chance  20	
+	
+;------------------------------------------
+Trigger V0090_Standard_Battle_Any_Victory_VnV_Trigger
+    WhenToTest PostBattle
+
+    Condition AgentType = family
+          and WonBattle
+          and BattleOdds < 2.25
+
+    Affects GoodCommander  1  Chance  80 
+	Affects StrategicSkill  1  Chance  25 
+	Affects TacticalSkill  1  Chance  25 
+	Affects LogisticalSkill  1  Chance  25 
+	 
+;------------------------------------------
+Trigger V0100_Standard_Battle_Any_Loss_VnV_Trigger
+    WhenToTest PostBattle
+
+    Condition AgentType = family
+          and not WonBattle
+          and BattleOdds > 0.66
+
+    Affects BadCommander  1  Chance  50 
+	Affects StrategicSkill  -1  Chance  50 
+	Affects TacticalSkill  -1  Chance  50 
+	Affects LogisticalSkill  -1  Chance  50 
+;------------------------------------------
+Trigger governing12
+    WhenToTest CharacterTurnEnd
+
+    Condition AgentType = family
+          and GovernorLoyaltyLevel > loyalty_happy
+          and TimeInRegion > 3
+
+    Affects GoodAdministrator  1  Chance  5 
+	
+	;------------------------------------------
+Trigger governing16
+    WhenToTest GovernorCityRiots
+
+    Condition GovernorTaxLevel > tax_low
+
+    Affects BadAdministrator  1  Chance  50 
+
+;------------------------------------------
+Trigger governing17
+    WhenToTest GovernorCityRebels
+
+    Condition GovernorTaxLevel > tax_low
+
+    Affects BadAdministrator  1  Chance  100
+
+;------------------------------------------
+Trigger battle5
+    WhenToTest PostBattle
+
+    Condition AgentType = family
+          and WonBattle
+          and BattleOdds < 1.2
+          and not Trait InspiringSpeaker > 0
+
+    Affects InspiringSpeaker  1  Chance  75 
+
+;------------------------------------------
+Trigger battle6
+    WhenToTest PostBattle
+
+    Condition AgentType = family
+          and WonBattle
+          and BattleOdds < 1.2
+          and Trait InspiringSpeaker > 0
+
+    Affects InspiringSpeaker  1  Chance  10 
+
+;------------------------------------------
+Trigger selfperpetuating10
+    WhenToTest CharacterTurnEnd
+
+    Condition Trait BoringSpeaker >= 1
+
+    Affects BoringSpeaker  1  Chance  4
+	
+;------------------------------------------
+Trigger selfperpetuating11
+    WhenToTest CharacterTurnEnd
+
+    Condition Trait PoliticsSkill >= 1
+
+    Affects PoliticsSkill  1  Chance  4 	
+	
+;------------------------------------------
+Trigger governing13
+    WhenToTest GovernorCityRiots
+
+    Affects Rabblerouser  1  Chance  25 
+
+;------------------------------------------
+Trigger governing14
+    WhenToTest GovernorCityRebels
+
+    Affects Rabblerouser  1  Chance  75 
+
+;------------------------------------------
+Trigger birth_with_academia
+    WhenToTest CharacterComesOfAge
+
+    Condition AgentType = family
+          and FactionBuildingExists = alchemists_lab
+
+    Affects GoodAdministrator  1  Chance  50
+    Affects InspiringSpeaker  1  Chance  50 	
+    Affects PoliticsSkill  1  Chance  50 
+	
+;------------------------------------------
+Trigger birth_with_alchemy_school
+    WhenToTest CharacterComesOfAge
+
+    Condition AgentType = family
+          and FactionBuildingExists = alchemy_school
+
+    Affects GoodAdministrator  1  Chance  70
+    Affects InspiringSpeaker  1  Chance  70 	
+    Affects PoliticsSkill  1  Chance  70 
+
+;------------------------------------------
+Trigger birth_with_university
+    WhenToTest CharacterComesOfAge
+
+    Condition AgentType = family
+          and FactionBuildingExists = university
+
+    Affects GoodAdministrator  1  Chance  90
+    Affects InspiringSpeaker  1  Chance  90 	
+    Affects PoliticsSkill  1  Chance  90 
+	
+;------------------------------------------
+Trigger birth_with_military_academy
+    WhenToTest CharacterComesOfAge
+
+    Condition AgentType = family
+          and FactionBuildingExists = military_academy
+
+	Affects StrategicSkill  1  Chance  30 
+	Affects TacticalSkill  1  Chance  30 
+	Affects LogisticalSkill  1  Chance  30 
+
+;------------------------------------------
+Trigger birth_with_officers_academy
+    WhenToTest CharacterComesOfAge
+
+    Condition AgentType = family
+          and FactionBuildingExists = officers_academy 
+
+	Affects StrategicSkill  1  Chance  50 
+	Affects TacticalSkill  1  Chance  50 
+	Affects LogisticalSkill  1  Chance  50 
+	
+;------------------------------------------
+Trigger sitting_around_town_with_academia1
+    WhenToTest CharacterTurnEnd
+
+    Condition AgentType = family
+          and EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists = alchemists_lab
+
+    Affects GoodAdministrator  1  Chance  5
+    Affects InspiringSpeaker  1  Chance  5 	
+    Affects PoliticsSkill  1  Chance  5
+	
+;------------------------------------------
+Trigger sitting_around_town_with_academia2
+    WhenToTest CharacterTurnEnd
+
+    Condition AgentType = family
+          and EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists = alchemy_school
+
+    Affects GoodAdministrator  1  Chance  10
+    Affects InspiringSpeaker  1  Chance  10 	
+    Affects PoliticsSkill  1  Chance  10
+	
+	;------------------------------------------
+Trigger sitting_around_town_with_academia3
+    WhenToTest CharacterTurnEnd
+
+    Condition AgentType = family
+          and EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists = university
+
+    Affects GoodAdministrator  1  Chance  15
+    Affects InspiringSpeaker  1  Chance  15 	
+    Affects PoliticsSkill  1  Chance  15
+
+;------------------------------------------
+Trigger sitting_around_town_with_military_academy1
+    WhenToTest CharacterTurnEnd
+
+    Condition AgentType = family
+          and EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists = military_academy
+
+	Affects StrategicSkill  1  Chance  5 
+	Affects TacticalSkill  1  Chance  5 
+	Affects LogisticalSkill  1  Chance  5 
+	
+;------------------------------------------
+Trigger sitting_around_town_with_military_academy2
+    WhenToTest CharacterTurnEnd
+
+    Condition AgentType = family
+          and EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists = officers_academy 
+
+	Affects StrategicSkill  1  Chance  10 
+	Affects TacticalSkill  1  Chance  10 
+	Affects LogisticalSkill  1  Chance  10 
+
+;------------------------------------------
+Trigger agents18
+    WhenToTest BriberyMission
+
+    Condition MissionSucceeded
+
+    Affects GoodDiplomat  1  Chance  60 
+	
+;------------------------------------------
+Trigger agents27
+    WhenToTest DiplomacyMission
+
+    Condition MissionSucceeded
+
+    Affects GoodDiplomat  1  Chance  50
+	
+;------------------------------------------
+Trigger agents19
+    WhenToTest BriberyMission
+
+    Condition not MissionSucceeded
+
+    Affects BadDiplomat  1  Chance  40 
+	
+;------------------------------------------
+Trigger agents28
+    WhenToTest DiplomacyMission
+
+    Condition not MissionSucceeded
+
+    Affects BadDiplomat  1  Chance  30
+	
+;------------------------------------------
+Trigger agent63
+    WhenToTest CharacterTurnEnd
+
+    Condition AgentType = diplomat
+          and DistanceCapital >= 60
+
+    Affects Multilingual  1  Chance  10 
+	
+;------------------------------------------
+Trigger selfperpetuating50
+    WhenToTest CharacterTurnEnd
+
+    Condition Trait ReligiousTolerance >= 1
+
+    Affects ReligiousTolerance  1  Chance  4 
+
+;------------------------------------------
+Trigger diplomatinit9
+    WhenToTest AgentCreated
+
+    Condition not AtSea
+          and AgentType = diplomat
+          and PopulationOwnReligion <= 70
+
+    Affects ReligiousTolerance  1  Chance  50 
+
+;------------------------------------------
+Trigger diplomatinit10
+    WhenToTest AgentCreated
+
+    Condition Trait ReligiousTolerance >= 1
+
+    Affects ReligiousTolerance  1  Chance  25 
+	
+;------------------------------------------
+Trigger selfperpetuating49
+    WhenToTest CharacterTurnEnd
+
+    Condition Trait ReligiousIntolerance >= 1
+
+    Affects ReligiousIntolerance  1  Chance  4 
+	
+;------------------------------------------
+Trigger diplomatinit7
+    WhenToTest AgentCreated
+
+    Condition not AtSea
+          and AgentType = diplomat
+          and PopulationOwnReligion >= 80
+
+    Affects ReligiousIntolerance  1  Chance  50 
+	
+;------------------------------------------
+Trigger diplomatinit1
+    WhenToTest AgentCreated
+
+    Condition AgentType = diplomat
+
+    Affects GoodDiplomat  1  Chance  100 
+
+;------------------------------------------
+Trigger diplomatinit2
+    WhenToTest AgentCreated
+
+    Condition AgentType = diplomat
+          and Trait GoodDiplomat = 1
+
+    Affects GoodDiplomat  1  Chance  33 
+
+;------------------------------------------
+
+Trigger diplomatinit3
+    WhenToTest AgentCreated
+
+    Condition AgentType = diplomat
+          and Trait GoodDiplomat = 2
+
+    Affects GoodDiplomat  1  Chance  20 
+
+
+;------------------------------------------
+Trigger diplomatinit8
+    WhenToTest AgentCreated
+
+    Condition Trait ReligiousIntolerance >= 1
+
+    Affects ReligiousIntolerance  1  Chance  25 
+
+
+;------------------------------------------
+Trigger spyinit1
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+
+    Affects NaturalSpySkill  1  Chance  100 
+
+;------------------------------------------
+Trigger spyinit2
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+          and Trait NaturalSpySkill = 1
+
+    Affects NaturalSpySkill  1  Chance  33 
+
+;------------------------------------------
+Trigger spyinit3
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+          and Trait NaturalSpySkill = 2
+
+    Affects NaturalSpySkill  1  Chance  20 
+
+;------------------------------------------
+
+Trigger agents1
+    WhenToTest SpyMission
+
+    Condition MissionSuccessLevel = not_successful
+
+    Affects BadSpy  1  Chance  50
+
+;------------------------------------------
+Trigger agents2
+    WhenToTest SpyMission
+
+    Condition MissionSucceeded
+          and Trait GoodSpy = 0
+
+    Affects GoodSpy  1  Chance  70 
+
+;------------------------------------------
+Trigger agents3
+    WhenToTest SpyMission
+
+    Condition MissionSucceeded
+          and Trait GoodSpy > 0
+
+    Affects GoodSpy  1  Chance  40 
+
+;------------------------------------------
+Trigger admiral1
+    WhenToTest PostBattle
+
+    Condition AgentType = admiral
+          and WonBattle
+          and BattleOdds < 2.25
+
+    Affects Sailor  1  Chance  55 
+
+;------------------------------------------
+Trigger agents30
+    WhenToTest AcquisitionMission
+
+    Condition MissionSucceeded
+
+    Affects GoodMerchant  1  Chance  60
+
+;------------------------------------------
+Trigger agents31
+    WhenToTest AcquisitionMission
+
+    Condition not MissionSucceeded
+
+    Affects BadMerchant  1  Chance  50
+
+;------------------------------------------
+
+Trigger merchantinit1
+    WhenToTest AgentCreated
+
+    Condition AgentType = merchant
+
+    Affects NaturalMerchantSkill  1  Chance  100 
+
+;------------------------------------------
+Trigger merchantinit2
+    WhenToTest AgentCreated
+
+    Condition AgentType = merchant
+          and Trait NaturalMerchantSkill = 1
+
+    Affects NaturalMerchantSkill  1  Chance  50 
+
+;------------------------------------------
+Trigger merchantinit3
+    WhenToTest AgentCreated
+
+    Condition AgentType = merchant
+          and Trait NaturalMerchantSkill >= 2
+
+    Affects NaturalMerchantSkill  1  Chance  33 
+	
+;------------------------------------------
+Trigger agents33
+    WhenToTest CharacterTurnEnd
+
+    Condition AgentType = merchant
+          and TradingMonopoly
+
+    Affects Monopolist  1  Chance  75
+
+;------------------------------------------
+Trigger merchantinit5
+    WhenToTest AgentCreated
+
+    Condition AgentType = merchant
+          and not SettlementBuildingExists >= town_hall
+
+    Affects ShadyDealer  1  Chance  50 
+
+;------------------------------------------
+Trigger merchantinit6
+    WhenToTest AgentCreated
+
+    Condition AgentType = merchant
+          and Trait ShadyDealer = 1
+
+    Affects ShadyDealer  2  Chance  33 
+
+;------------------------------------------
+Trigger merchantinit7
+    WhenToTest AgentCreated
+
+    Condition AgentType = merchant
+          and SettlementBuildingExists >= council_chambers
+
+    Affects LegalDealer  1  Chance  50 
+
+;------------------------------------------
+Trigger merchantinit9
+    WhenToTest AgentCreated
+
+    Condition AgentType = merchant
+          and SettlementBuildingExists >= council_chambers
+          and Trait LegalDealer = 1
+
+    Affects LegalDealer  1  Chance  33 
