@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SHOCKWAVE 0 0 0
+event SOUND ANIM_Wood_collapse_LARGE 0 0
+event SOUND ANIM_Wood_collapse_LARGE_DISTANT 0 0
+event SOUND ANIM_Gate_wood_IMPACT 41 41
+event SOUND ANIM_Gate_wood_IMPACT 65 65
+event SOUND ANIM_Gate_wood_IMPACT 98 98
