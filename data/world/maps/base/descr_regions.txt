@@ -1,0 +1,2202 @@
+;
+; Made by uanime5
+; regions list 1547
+;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;#################################### America
+
+;#################### North American
+
+;############ Apachee
+;Chicago
+Dakota_Province
+	Dakota
+	portugala
+	Welsh_Rebels
+	41 235 201
+	furs, fish, grain, textiles, tin, usa
+	5
+	5
+	religions { catholic 10 protestant 75 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;Omaha
+Zhengding_Province
+	Zhengding
+	portugala
+	Amerindian_Rebels
+	116 101 69
+	coal, grain, wine, wool, usa, amerindian
+	5
+	3
+	religions { catholic 5 protestant 40 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 40 buddism 0 }
+;Richmond
+Apache_Province
+	Apache
+	milan
+	Welsh_Rebels
+	227 174 60
+	coal, cotton, csa, usa
+	5
+	4
+	religions { catholic 5 protestant 60 orthodox 0 islam 0 pagan 0 heretic 30 judaism 5 hindu 0 shia 0 buddism 0 }
+;Atlanta
+Granada_Province
+	Granada
+	milan
+	Welsh_Rebels
+	58 37 32
+	cotton, tobacco, fish, grain, csa, usa
+	5
+	4
+	religions { catholic 5 protestant 60 orthodox 0 islam 0 pagan 0 heretic 30 judaism 5 hindu 0 shia 0 buddism 0 }
+;Boston
+Abenaki_Province
+	Abenaki
+	portugala
+	Welsh_Rebels
+	227 103 60
+	fish, textiles, iron, grain, usa
+	5
+	5
+	religions { catholic 10 protestant 75 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;New York
+Algarve_Province
+	Silves
+	portugala
+	Welsh_Rebels
+	200 53 53
+	textiles, iron, coal, grain, usa
+	5
+	6
+	religions { catholic 10 protestant 75 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;Washington
+Corinth_Province
+	Corinth
+	hungary
+	Welsh_Rebels
+	95 76 76
+	textiles, cotton, grain, fish, coal, usa, csa
+	5
+	4
+	religions { catholic 5 protestant 80 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;Portland
+Tualatin_Province
+	Tualatin
+	portugala
+	Amerindian_Rebels
+	31 45 236
+	dyes, coal, fish, grain, usa, amerindian
+	5
+	4
+	religions { catholic 5 protestant 40 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 40 buddism 0 }
+;San Francisco
+Tongva_Province
+	Tongva
+	portugala
+	Amerindian_Rebels
+	236 31 236
+	gold, wine, grain, fish, usa, amerindian
+	5
+	5
+	religions { catholic 35 protestant 40 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 10 buddism 0 }
+;Tulsa
+Kansas_Province
+	Kansas
+	portugala
+	Amerindian_Rebels
+	212 216 255
+	coal, grain, wool, usa, amerindian
+	5
+	3
+	religions { catholic 5 protestant 40 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 40 buddism 0 }
+;Salt Lake City
+Utah_Province
+	Utah
+	portugala
+	Amerindian_Rebels
+	193 192 77
+	gold, coal, tin, usa, amerindian
+	5
+	2
+	religions { catholic 5 protestant 40 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 40 buddism 0 }
+;Tuscon
+Nuevo_Mexico_Province
+	Nuevo_Mexico
+	portugala
+	Amerindian_Rebels
+	255 212 255
+	gold, dyes, wool, usa, amerindian
+	5
+	2
+	religions { catholic 35 protestant 40 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 10 buddism 0 }
+
+
+;########### Spanish North American
+;Savannah
+Augustine_Province
+	Augustine
+	milan
+	Welsh_Rebels
+	82 82 110
+	dyes, cotton, tobacco, wine, fish, csa, usa
+	5
+	3
+	religions { catholic 35 protestant 40 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 10 buddism 0 }
+;New Orleans
+Choctaw_Province
+	Choctaw
+	milan
+	Welsh_Rebels
+	199 31 143
+	coal, tobacco, grain, wine, fish, csa, usa
+	5
+	3
+	religions { catholic 35 protestant 40 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 10 buddism 0 }
+;Houston
+Comanche_Province
+	Comanche
+	milan
+	Amerindian_Rebels
+	99 255 17
+	gold, grain, wine, wool, csa, usa, amerindian
+	5
+	4
+	religions { catholic 35 protestant 40 orthodox 0 islam 0 pagan 5 heretic 5 judaism 5 hindu 0 shia 10 buddism 0 }
+;Fort St Constantine
+Alaska_Province
+	Anchorage
+	russia
+	Amerindian_Rebels
+	70 114 214
+	fish, timber, amerindian, usa, russia
+	5
+	0
+	religions { catholic 0 protestant 0 orthodox 20 islam 0 pagan 0 heretic 20 judaism 0 hindu 0 shia 60 buddism 0 }
+
+;############ Canada
+;Yellowknife
+Arctic_Province
+	Inuit
+	england
+	Amerindian_Rebels
+	60 43 123
+	timber, gold, furs, dyes, amerindian, canada
+	5
+	0
+	religions { catholic 5 protestant 75 orthodox 0 islam 0 pagan 5 heretic 2 judaism 3 hindu 0 shia 10 buddism 0 }
+;York Factory
+Ruperts_land_Province
+	York_factory
+	england
+	Amerindian_Rebels
+	40 29 81
+	timber, tin, gold, grain, furs, dyes, fish, amerindian, canada
+	5
+	0
+	religions { catholic 5 protestant 75 orthodox 0 islam 0 pagan 5 heretic 2 judaism 3 hindu 0 shia 10 buddism 0 }
+;Montreal
+Quebec_Province
+	Quebec
+	england
+	Scots_Rebels
+	100 70 214
+	timber, tin, gold, grain, furs, canada
+	5
+	3
+	religions { catholic 20 protestant 65 orthodox 0 islam 0 pagan 5 heretic 2 judaism 3 hindu 0 shia 5 buddism 0 }
+;Vancouver
+Lodz_Province
+	Lodz
+	england
+	Amerindian_Rebels
+	243 128 16
+	timber, coal, gold, grain, furs, fish, amerindian, canada
+	5
+	3
+	religions { catholic 5 protestant 75 orthodox 0 islam 0 pagan 5 heretic 2 judaism 3 hindu 0 shia 10 buddism 0 }
+
+;#################### China
+
+;############ China north
+;Xining
+Xining_Province
+	Xining
+	byzantium
+	Steppe_Rebels
+	115 116 69
+	wool, steppe
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 30 pagan 0 heretic 10 judaism 0 hindu 0 shia 30 buddism 30 }
+;Lanzhou
+Yinchuan_Province
+	Yinchuan
+	byzantium
+	Steppe_Rebels
+	80 116 69
+	coal, wool, elephants, steppe, mongolia, china
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 20 pagan 0 heretic 10 judaism 0 hindu 0 shia 30 buddism 40 }
+;Peking
+Beijing_Province
+	Beijing
+	byzantium
+	Chinese_Rebels
+	115 69 116
+	coal, gold, grain, wool, fish, textiles, manchuria, china
+	5
+	8
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 20 judaism 0 hindu 0 shia 0 buddism 80 }
+
+;############ China south
+;Xi'an
+Xian_Province
+	Xian
+	byzantium
+	Livonian_Rebels
+	69 94 116
+	silk, wool, grain, timber, textiles, china
+	5
+	7
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 30 judaism 0 hindu 0 shia 5 buddism 65 }
+;Luanda
+Zhengzhou_Province
+	Zhengzhou
+	spain
+	Spanish_Rebels
+	69 116 83
+	amber, fish, wool, sugar, ivory, sub_sahara
+	5
+	2
+	religions { catholic 25 protestant 0 orthodox 0 islam 0 pagan 0 heretic 15 judaism 10 hindu 0 shia 50 buddism 0 }
+;Nanking
+Nanjing_Province
+	Nanjing
+	byzantium
+	Livonian_Rebels
+	92 69 116
+	grain, fish, textiles, wool, elephants, china
+	5
+	8
+	religions { catholic 10 protestant 0 orthodox 0 islam 0 pagan 0 heretic 40 judaism 0 hindu 0 shia 0 buddism 50 }
+;Bulawayo
+Hankou_Province
+	Hankou
+	lith
+	African_Rebels
+	110 116 69
+	gold, amber, grain, tin, wool, sub_sahara, south_africa
+	5
+	2
+	religions { catholic 0 protestant 3 orthodox 0 islam 0 pagan 0 heretic 5 judaism 2 hindu 0 shia 90 buddism 0 }
+;Kunming
+Kunming_Province
+	Kunming
+	byzantium
+	Livonian_Rebels
+	69 115 116
+	gold, wool, grain, spices, china
+	5
+	5
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 35 judaism 0 hindu 0 shia 5 buddism 60 }
+;Chengdu
+Chengdu_Province
+	Chengdu
+	byzantium
+	Livonian_Rebels
+	116 115 69
+	wool, tin, spices, china
+	5
+	6
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 35 judaism 0 hindu 0 shia 5 buddism 60 }
+;Guiyang
+Guiyang_Province
+	Guiyang
+	byzantium
+	Livonian_Rebels
+	116 69 101
+	tin, coal, elephants, wool, dogs, china
+	5
+	5
+	religions { catholic 0 protestant 0 orthodox 0 islam 5 pagan 0 heretic 30 judaism 0 hindu 0 shia 5 buddism 60 }
+;Fuzhou
+Fuzhou_Province
+	Fuzhou
+	byzantium
+	Livonian_Rebels
+	116 82 69
+	fish, elephants, grain, dogs, china
+	5
+	7
+	religions { catholic 10 protestant 0 orthodox 0 islam 0 pagan 0 heretic 40 judaism 0 hindu 0 shia 0 buddism 50 }
+
+;Hong Kong
+Guangzhou_Province
+	Guangzhou
+	byzantium
+	Spanish_Rebels
+	77 69 116
+	textiles, tobacco, iron, china
+	5
+	4
+	religions { catholic 2 protestant 20 orthodox 0 islam 0 pagan 0 heretic 5 judaism 1 hindu 0 shia 2 buddism 70 }
+
+;############ Korea
+;Pyongyang
+Qarshi_Province
+	Qarshi
+	byzantium
+	Burgundian_Rebels
+	16 28 192
+	tin, timber, wool
+	5
+	4
+	religions { catholic 5 protestant 0 orthodox 0 islam 0 pagan 0 heretic 45 judaism 0 hindu 0 shia 0 buddism 50 }
+;Korea_Province
+Korea_Province
+	Korea
+	byzantium
+	Burgundian_Rebels
+	69 91 116
+	fish, textiles, dyes
+	5
+	4
+	religions { catholic 5 protestant 0 orthodox 0 islam 0 pagan 0 heretic 45 judaism 0 hindu 0 shia 0 buddism 50 }
+
+;#################### South American
+
+;########### Incas
+
+;########### Spanish South American
+;Mexico City
+Mexico_Province
+	Mexico
+	scotland
+	Latin_Rebels
+	202 197 66
+	amber, chocolate, grain, sugar, mexico, s_america
+	5
+	4
+	religions { catholic 85 protestant 0 orthodox 0 islam 0 pagan 0 heretic 10 judaism 0 hindu 0 shia 5 buddism 0 }
+;Monterrey
+Galicie_Province
+	Galicie
+	scotland
+	Latin_Rebels
+	31 71 121
+	gold, tobacco, fish, wool, mexico, s_america
+	5
+	3
+	religions { catholic 75 protestant 10 orthodox 0 islam 0 pagan 0 heretic 10 judaism 0 hindu 0 shia 5 buddism 0 }
+;Veracruz
+Veracruz_Province
+	Veracruz
+	scotland
+	Latin_Rebels
+	82 110 82
+	tin, fish, chocolate, tobacco, wine, mexico, s_america
+	5
+	4
+	religions { catholic 85 protestant 0 orthodox 0 islam 0 pagan 0 heretic 10 judaism 0 hindu 0 shia 5 buddism 0 }
+;Guatemala
+Bolgar_Province
+	Bolgar
+	scotland
+	American_Rebels
+	212 71 71
+	gold, tobacco, chocolate, fish, s_america
+	5
+	3
+	religions { catholic 65 protestant 0 orthodox 0 islam 0 pagan 0 heretic 30 judaism 0 hindu 0 shia 5 buddism 0 }
+;Panama
+Panama_Province
+	Panama
+	scotland
+	Columbian_Rebels
+	69 215 131
+	gold, fish, tobacco, s_america
+	5
+	3
+	religions { catholic 55 protestant 0 orthodox 0 islam 0 pagan 0 heretic 40 judaism 0 hindu 0 shia 5 buddism 0 }
+;Havana
+Havana_Province
+	Havana
+	spain
+	American_Rebels
+	237 159 159
+	sugar, tobacco, fish, cuba, s_america
+	5
+	4
+	religions { catholic 40 protestant 0 orthodox 0 islam 0 pagan 0 heretic 50 judaism 0 hindu 0 shia 5 buddism 5 }
+;Caracas
+Santa_Marta_Province
+	Santa_Marta
+	denmark
+	Venezuelan_Rebels
+	35 186 39
+	gold, fish, tobacco, sugar, s_america
+	5
+	4
+	religions { catholic 60 protestant 0 orthodox 0 islam 0 pagan 0 heretic 35 judaism 0 hindu 0 shia 5 buddism 0 }
+;Bogota
+Cholula_Province
+	Cholula
+	denmark
+	Columbian_Rebels
+	190 222 38
+	gold, fish, chocolate, s_america
+	5
+	4
+	religions { catholic 60 protestant 0 orthodox 0 islam 0 pagan 0 heretic 35 judaism 0 hindu 0 shia 5 buddism 0 }
+;Lima
+Peru_Province
+	Lima
+	denmark
+	Ecuadorian_Rebels
+	38 222 190
+	gold, timber, fish, wine, chocolate, s_america, peru
+	5
+	4
+	religions { catholic 80 protestant 0 orthodox 0 islam 0 pagan 0 heretic 15 judaism 0 hindu 0 shia 5 buddism 0 }
+;Cuzco
+South_Peru_Province
+	Cuzco
+	denmark
+	Chilean_Rebels
+	91 192 16
+	gold, tin, wool, chocolate, camels, s_america, peru
+	5
+	4
+	religions { catholic 75 protestant 0 orthodox 0 islam 0 pagan 0 heretic 20 judaism 0 hindu 0 shia 5 buddism 0 }
+;La Paz
+Bolivia_Province
+	Lapaz
+	denmark
+	Bolivian_Rebels
+ 	236 201 36
+	gold, timber, furs, chocolate, s_america
+	5
+	4
+	religions { catholic 65 protestant 0 orthodox 0 islam 0 pagan 0 heretic 30 judaism 0 hindu 0 shia 5 buddism 0 }
+;Asuncion
+Paraguay_Province
+	Asuncion
+	aztecs
+	Para_Rebels
+	155 205 147
+	wine, grain, chocolate, s_america, paraguay
+	5
+	4
+	religions { catholic 65 protestant 0 orthodox 0 islam 0 pagan 0 heretic 30 judaism 0 hindu 0 shia 5 buddism 0 }
+;Antofagasta
+Cuzco_Province
+	Antofagasta
+	aztecs
+	Chilean_Rebels
+	60 221 227
+	tin, dyes, fish, wool, s_america
+	5
+	4
+	religions { catholic 65 protestant 0 orthodox 0 islam 0 pagan 0 heretic 30 judaism 0 hindu 0 shia 5 buddism 0 }
+;Santiago
+Moravie_Province
+	Moravie
+	aztecs
+	Chilean_Rebels
+	0 100 7
+	textiles, tin, wool, wine, s_america
+	5
+	5
+	religions { catholic 65 protestant 0 orthodox 0 islam 0 pagan 0 heretic 30 judaism 0 hindu 0 shia 5 buddism 0 }
+;Montevideo
+Sao_Paulo_Province
+	Sao_Paulo
+	aztecs
+	Uru_Rebels
+	190 154 28
+	grain, fish, wool, s_america, uruguay
+	5
+	4
+	religions { catholic 65 protestant 0 orthodox 0 islam 0 pagan 0 heretic 30 judaism 0 hindu 0 shia 5 buddism 0 }
+;Buenos Aires
+Rio_Plata_Province
+	Buenos_Aires
+	aztecs
+	Latin_Rebels
+	236 91 118
+	tin, textiles, grain, wine, tobacco, fish, s_america, argentina
+	5
+	5
+	religions { catholic 80 protestant 0 orthodox 0 islam 0 pagan 0 heretic 10 judaism 10 hindu 0 shia 0 buddism 0 }
+;Bahia Blanca
+Rio_Negro_Province
+	Rio_Negro
+	aztecs
+	Amerindian_Rebels
+	173 91 236
+	gold, fish, furs, s_america, argentina
+	5
+	3
+	religions { catholic 10 protestant 0 orthodox 0 islam 0 pagan 0 heretic 10 judaism 0 hindu 0 shia 80 buddism 0 }
+
+;########### Portuguese American
+;Salvador
+Salvador_Province
+	Salvador
+	poland
+	Latin_Rebels
+	208 229 243
+	gold, textiles, dogs, fish, chocolate, s_america, brazil
+	5
+	4
+	religions { catholic 70 protestant 0 orthodox 0 islam 0 pagan 0 heretic 10 judaism 10 hindu 0 shia 10 buddism 0 }
+;Rio De Janiero
+Rio_Janeiro_Province
+	Rio_Janeiro
+	poland
+	Latin_Rebels
+	22 145 71
+	tin, dyes, wool, grain, tobacco, s_america, brazil
+	5
+	5
+	religions { catholic 70 protestant 0 orthodox 0 islam 0 pagan 0 heretic 10 judaism 10 hindu 0 shia 10 buddism 0 }
+;Manaus
+Potosi_Province
+	Potosi
+	poland
+	Latin_Rebels
+	18 103 160
+	timber, tin, wool, camels, s_america, brazil
+	5
+	2
+	religions { catholic 40 protestant 0 orthodox 0 islam 0 pagan 0 heretic 20 judaism 10 hindu 0 shia 30 buddism 0 }
+
+;#################### Aboriginies
+;Perth
+W_aust_Province
+	Perth
+	england
+	Welsh_Rebels
+	146 160 110
+	gold, wool, tin, anzac
+	5
+	2
+	religions { catholic 5 protestant 70 orthodox 0 islam 0 pagan 5 heretic 3 judaism 5 hindu 0 shia 10 buddism 2 }
+;Brisbane
+Lan_na_Province
+	Chiang_mai
+	england
+	Welsh_Rebels
+	160 232 239
+	coal, gold, wool, tin, grain, anzac
+	5
+	2
+	religions { catholic 5 protestant 70 orthodox 0 islam 0 pagan 5 heretic 3 judaism 5 hindu 0 shia 10 buddism 2 }
+;Wellington
+New_zealand_Province
+	Wellington
+	england
+	Maori_Rebels
+	161 194 76
+	coal, gold, wool, tin, fish, anzac
+	5
+	2
+	religions { catholic 5 protestant 70 orthodox 0 islam 0 pagan 5 heretic 3 judaism 5 hindu 0 shia 10 buddism 2 }
+;Sydney
+Gujerat_Province
+	Ahmadabad
+	england
+	Welsh_Rebels
+	95 164 64
+	coal, gold, wool, tin, grain, anzac
+	5
+	3
+	religions { catholic 5 protestant 70 orthodox 0 islam 0 pagan 5 heretic 3 judaism 5 hindu 0 shia 10 buddism 2 }
+
+
+
+;#################################### Indochina-Indonesia
+
+;############ Ayutthaya / Thailand
+;Bangkok
+Ayudhya_Province
+	Bangkok
+	cru
+	Croatian_Rebels
+	134 13 44
+	tin, spices, fish, elephants, dogs, siam, indochina
+	5
+	6
+	religions { catholic 5 protestant 0 orthodox 0 islam 0 pagan 0 heretic 10 judaism 0 hindu 0 shia 10 buddism 75 }
+
+;############ Burma
+;Mandalay
+Taungoo_Province
+	Taungoo
+	cru
+	Iberian_Rebels
+	22 76 91
+	slaves, wool, spices, fish, indochina, india
+	5
+	6
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 65 buddism 30 }
+
+;############ Indochina
+;Hanoi
+Vietnam_Province
+	Ha_noi
+	cru
+	Wallachian_Rebels
+	239 236 160
+	dogs, fish, elephants, slaves, indochina
+	5
+	5
+	religions { catholic 10 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 55 buddism 30 }
+;Luang Prabang
+Lang_sang_Province
+	Vianga_chan
+	cru
+	Wallachian_Rebels
+	120 223 132
+	wool, grain, tin, indochina
+	5
+	5
+	religions { catholic 10 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 55 buddism 30 }
+
+;Phnom Penh
+Cambodia_Province
+	Angkor
+	cru
+	Wallachian_Rebels
+	223 120 146
+	dogs, fish, spices, indochina
+	5
+	5
+	religions { catholic 10 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 55 buddism 30 }
+
+;Malacca
+Malaysia_Province
+	Kuala_lumpur
+	byzantium
+	Island_Rebels
+	194 169 94
+	fish, spices, gold, east_indies, indochina
+	5
+	4
+	religions { catholic 5 protestant 5 orthodox 0 islam 45 pagan 0 heretic 20 judaism 0 hindu 0 shia 5 buddism 20 }
+
+;############ Indonesia
+;Kuching
+Brunei_Province
+	Sarawak
+	cru
+	Brunei_Rebels
+	59 124 204
+	fish, coal, spices, east_indies 
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 60 pagan 0 heretic 10 judaism 0 hindu 0 shia 5 buddism 25 }
+;Batavia
+Java_Province
+	Jakarta
+	cru
+	Spanish_Rebels
+	190 39 171
+	sugar, spices, slaves, fish, east_indies
+	5
+	6
+	religions { catholic 0 protestant 0 orthodox 0 islam 50 pagan 0 heretic 10 judaism 20 hindu 0 shia 5 buddism 15 }
+;Port Moresby
+Papua_Province
+	Jayapura
+	england
+	Papua_Rebels
+	9 89 142
+	gold, fish
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 95 buddism 0 }
+
+
+;############ Spanish Pacific
+;Manila
+Philipines_Province
+	Philipines
+	byzantium
+	Philippines_Rebels
+	208 185 29
+	spices, fish, gold, tin, east_indies
+	5
+	2
+	religions { catholic 25 protestant 0 orthodox 0 islam 10 pagan 0 heretic 10 judaism 0 hindu 0 shia 45 buddism 10 }
+
+
+;#################################### Europe
+
+;#################### Germany
+;Hamburg
+Hamburg_Province
+	Hamburg
+	hre
+	English_Rebels
+	116 53 53
+	iron, coal, tin, sulfur, fish, hanover, europe
+	5
+	6
+	religions { catholic 5 protestant 0 orthodox 0 islam 0 pagan 90 heretic 0 judaism 5 hindu 0 shia 0 buddism 0 }
+;Zurich
+Bern_Province
+	Bern
+	hre
+	German_Rebels
+	106 90 105
+	wool, grain, textiles, iron, timber, prussia, europe
+	5
+	4
+	religions { catholic 20 protestant 0 orthodox 0 islam 0 pagan 20 heretic 10 judaism 50 hindu 0 shia 0 buddism 0 }
+;Cologne
+Hohenstauffen_Province
+	Hohenstauffen
+	hre
+	German_Rebels
+	5 0 100
+	tin, grain, iron, textiles, sulfur, wool, prussia, europe
+	5
+	5
+	religions { catholic 5 protestant 0 orthodox 0 islam 0 pagan 90 heretic 0 judaism 5 hindu 0 shia 0 buddism 0 }
+;Munich
+Baviere_Province
+	Baviere
+	hre
+	Bavarian_Rebels
+	5 77 27
+	coal, iron, grain, sulfur, europe, bavaria
+	5
+	5
+	religions { catholic 15 protestant 0 orthodox 0 islam 0 pagan 80 heretic 0 judaism 5 hindu 0 shia 0 buddism 0 }
+;Berlin
+Magdeburg_Province
+	Magdeburg
+	hre
+	German_Rebels
+	30 0 184
+	iron, sulfur, textiles, grain, fish, prussia, europe
+	5
+	6
+	religions { catholic 5 protestant 0 orthodox 0 islam 0 pagan 90 heretic 0 judaism 5 hindu 0 shia 0 buddism 0 }
+
+;#################### Spain
+;Barcelona
+Zaragoza_Province
+	Zaragoza
+	spain
+	Scots_Rebels
+	96 160 64
+	coal, iron, textiles, wine, europe, spain
+	5
+	4
+	religions { catholic 60 protestant 0 orthodox 0 islam 2 pagan 3 heretic 3 judaism 32 hindu 0 shia 0 buddism 0 }
+;Santiago de Compostela
+Leon_Province
+	Leon
+	spain
+	Scots_Rebels
+	95 31 58
+	coal, fish, europe, spain
+	5
+	3
+	religions { catholic 90 protestant 0 orthodox 0 islam 3 pagan 0 heretic 2 judaism 5 hindu 0 shia 0 buddism 0 }
+;Madrid
+Toledo_Province
+	Burgos
+	spain
+	Scots_Rebels
+	217 212 88
+	gold, wine, fish, iron, europe, spain
+	5
+	5
+	religions { catholic 90 protestant 0 orthodox 0 islam 3 pagan 0 heretic 2 judaism 5 hindu 0 shia 0 buddism 0 }
+;Seville
+Cordoba_Province
+	Cordoba
+	spain
+	Scots_Rebels
+	224 78 39
+	wine, wool, fish, coal, europe, spain
+	5
+	3
+	religions { catholic 87 protestant 0 orthodox 0 islam 5 pagan 3 heretic 3 judaism 2 hindu 0 shia 0 buddism 0 }
+
+;Amsterdam
+Hollande_Province
+	Hollande
+	portugal
+	French_Rebels
+	172 174 36
+	tin, fish, textiles, iron, europe, netherlands
+	5
+	5
+	religions { catholic 10 protestant 1 orthodox 0 islam 0 pagan 2 heretic 2 judaism 85 hindu 0 shia 0 buddism 0 }
+
+;############# Portugal
+;Porto
+Lisbon_Province
+	Lisbon
+	spain
+	Spanish_Rebels
+	227 230 232
+	gold, tin, wine, fish, europe
+	5
+	4
+	religions { catholic 53 protestant 1 orthodox 0 islam 0 pagan 1 heretic 0 judaism 45 hindu 0 shia 0 buddism 0 }
+
+;#################### Jamaica
+
+;Kingston
+Jamaica_Province
+	Kingston
+	england
+	Latin_Rebels
+	78 38 68
+	sugar, wine, amerindian
+	5
+	2
+	religions { catholic 2 protestant 30 orthodox 0 islam 0 pagan 2 heretic 60 judaism 2 hindu 0 shia 4 buddism 0 }
+	
+;#################### France
+
+;Paris
+Paris_Province
+	Paris
+	france
+	Scots_Rebels
+	92 105 226
+	coal, fish, textiles, sulfur, wine, silver, europe, france
+	5
+	6
+	religions { catholic 90 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;Lyon
+Dijon_Province
+	Lyon
+	france
+	Scots_Rebels
+	187 224 98
+	wine, grain, textiles, europe, france
+	5
+	4
+	religions { catholic 80 protestant 0 orthodox 0 islam 0 pagan 10 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;Bordeaux
+Bordeaux_Province
+	Bordeaux
+	france
+	Scots_Rebels
+	160 146 31
+	textiles, sulfur, wine, wool, europe, france
+	5
+	5
+	religions { catholic 90 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;Marseille
+Marseille_Province
+	Marseille
+	france
+	Scots_Rebels
+	217 80 80
+	textiles, sulfur, wine, grain, europe, france
+	5
+	5
+	religions { catholic 90 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+
+;#################### North Italy
+
+;Milan
+Milan_Province
+	Milan
+	venice
+	Scots_Rebels
+	227 27 220
+	grain, wine, gold, wool, fish, europe, italy
+	5
+	5
+	religions { catholic 85 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 10 hindu 0 shia 0 buddism 0 }
+;######### Venice
+;Venice
+Venice_Province
+	Venice
+	venice
+	Scots_Rebels
+	145 69 52
+	fish, grain, wool, textiles, austria, italy, europe
+	5
+	5
+	religions { catholic 75 protestant 0 orthodox 0 islam 0 pagan 10 heretic 12 judaism 3 hindu 0 shia 0 buddism 0 }
+;Khartoum
+Sudan_Province
+	Khartoum
+	golden
+	Fatimid_Rebels
+	111 41 215
+	elephants, wool, ivory, arab, sub_sahara
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 40 pagan 0 heretic 10 judaism 0 hindu 0 shia 50 buddism 0 }
+
+
+;#################### South Italy
+;Rome
+Roman_Province
+	Rome
+	venice
+	Italian_Rebels
+	244 217 211
+	grain, textiles, wine, fish, europe, italy
+	5
+	6
+	religions { catholic 95 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 0 buddism 0 }
+;Palermo
+Cagliari_Province
+	Cagliari
+	venice
+	Scots_Rebels
+	67 57 111
+	timber, wine, fish, europe, italy
+	5
+	4
+	religions { catholic 95 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 0 buddism 0 }
+;Naples
+Naples_Province
+	Naples
+	venice
+	Scots_Rebels
+	116 114 86
+	grain, wine, wool, textiles, iron, europe, italy
+	5
+	5
+	religions { catholic 95 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 0 buddism 0 }
+
+;#################################### United
+
+;#################### Scotland
+
+;Edinburgh
+Edinburgh_Province
+	Edinburgh
+	england
+	Scots_Rebels
+	37 30 81
+	coal, fish, iron, timber, scotland, uk, europe
+	5
+	3
+	religions { catholic 10 protestant 52 orthodox 0 islam 0 pagan 5 heretic 5 judaism 25 hindu 0 shia 2 buddism 1 }
+
+;#################### England
+;London
+Angleterre_Province
+	Londres
+	england
+	Scots_Rebels
+	182 76 86
+	tin, coal, gold, iron, textiles, wool, uk, europe
+	5
+	6
+	religions { catholic 10 protestant 70 orthodox 0 islam 2 pagan 4 heretic 4 judaism 6 hindu 0 shia 2 buddism 2 }
+
+;Manchester
+York_Province
+	York
+	england
+	Scots_Rebels
+	237 207 39
+	coal, iron, textiles, sulfur, uk, europe
+	5
+	4
+	religions { catholic 12 protestant 68 orthodox 0 islam 2 pagan 4 heretic 4 judaism 10 hindu 0 shia 2 buddism 2 }
+
+;Dublin
+Islande_Province
+	Islande
+	scotland
+	Irish_Rebels
+	15 41 8
+	grain, iron, gold, tin, fish, uk, europe
+	5
+	3
+	religions { catholic 50 protestant 30 orthodox 0 islam 0 pagan 0 heretic 2 judaism 15 hindu 0 shia 2 buddism 1 }
+
+;#################################### Scandinavia
+
+;#################### Denmark
+;Copenhagen
+Arhus_Province
+	Arhus
+	sicily
+	Scots_Rebels
+	118 23 32
+	textiles, iron, wool, fish, grain, europe, denmark
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 15 heretic 5 judaism 80 hindu 0 shia 0 buddism 0 }
+;Bergen
+Vestlandet_Province
+	Stavenger
+	normans
+	Scots_Rebels
+	63 229 55
+	tin, textiles, fish, timber, norway, europe
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 35 judaism 65 hindu 0 shia 0 buddism 0 }
+;Trondheim
+Tromso_Province
+	Tromso
+	normans
+	Scots_Rebels
+	143 24 60
+	timber, fish, furs, norway, europe
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 35 judaism 65 hindu 0 shia 0 buddism 0 }
+
+;########### Malta
+
+;Valletta
+Nuuk_Province
+	Godthab
+	venice
+	Scots_Rebels
+	246 137 152
+	fish, europe
+	5
+	2
+	religions { catholic 40 protestant 30 orthodox 0 islam 0 pagan 0 heretic 10 judaism 20 hindu 0 shia 0 buddism 0 }
+
+;#################### Sweden
+;Stolkholm
+Stockholm_Province
+	Birka
+	normans
+	Scots_Rebels
+	75 127 192
+	tin, textiles, wool, fish, sweden, europe
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 10 judaism 90 hindu 0 shia 0 buddism 0 }
+;Nikolaistad
+NFinlande_Province
+	NFinlande
+	russia
+	Rus_Rebels
+	196 188 54
+	fish, furs, timber, gold, russia, europe
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 20 islam 0 pagan 0 heretic 25 judaism 55 hindu 0 shia 0 buddism 0 }
+;Kola
+Laponie_Province
+	Muramamsk
+	russia
+	Rus_Rebels
+	63 0 191
+	fish, timber, furs, russia, europe
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 60 islam 0 pagan 0 heretic 5 judaism 30 hindu 0 shia 5 buddism 0 }
+
+
+;#################################### Baltic
+
+;#################### Russian
+
+;#################### Austria
+
+;Prague
+Prague_Province
+	Prague
+	hungary
+	Norse_Rebels
+	73 234 202
+	textiles, iron, tin, grain, europe, austria
+	5
+	4
+	religions { catholic 5 protestant 0 orthodox 55 islam 0 pagan 30 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;Vienna
+Innsbruck_Province
+	Vienne
+	hungary
+	Rus_Rebels
+	115 143 215
+	textiles, iron, grain, fish, coal, europe, austria
+	5
+	6
+	religions { catholic 10 protestant 0 orthodox 30 islam 0 pagan 50 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+
+
+;#################### Poland
+
+;########### Polish
+;Lamberg
+Cracow_Province
+	Cracow
+	hungary
+	Polish_Rebels
+	213 211 220
+	coal, grain, wool, timber, europe, austria
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 60 islam 0 pagan 20 heretic 10 judaism 10 hindu 0 shia 0 buddism 0 }
+
+;########### Russian
+
+;Vilna
+Pomeranie_Province
+	Pomeranie
+	russia
+	Rus_Rebels
+	14 46 205
+	iron, textiles, dyes, wool, russia, europe
+	5
+	4
+	religions { catholic 60 protestant 0 orthodox 20 islam 0 pagan 5 heretic 15 judaism 0 hindu 0 shia 0 buddism 0 }
+;Kiev
+Kiev_Province
+	Kiev
+	russia
+	Rus_Rebels
+	82 114 171
+	grain, grain, wine, grain, russia, europe
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 50 islam 0 pagan 0 heretic 45 judaism 0 hindu 0 shia 5 buddism 0 }
+
+
+;########### Russian Poland
+;Smolensk
+Smolensk_Province
+	Smolensk
+	russia
+	Rus_Rebels
+	138 142 68
+	wool, grain, timber, russia, europe
+	5
+	3
+	religions { catholic 70 protestant 0 orthodox 25 islam 0 pagan 0 heretic 3 judaism 2 hindu 0 shia 0 buddism 0 }
+
+;#################### Prussia
+;Kagoshima
+Estonie_Province
+	Reval
+	saxons
+	Anatolian_Rebels
+	203 196 92
+	iron, tin, textiles, fish, japan
+	5
+	5
+	religions { catholic 3 protestant 0 orthodox 0 islam 0 pagan 0 heretic 2 judaism 0 hindu 95 shia 0 buddism 0 }
+
+;Konigsberg
+Tejo_Province
+	Lisboa
+	hre
+	Polish_Rebels
+	234 227 213
+	grain, wool, fish, timber, prussia, europe
+	5
+	4
+	religions { catholic 10 protestant 0 orthodox 30 islam 0 pagan 50 heretic 10 judaism 0 hindu 0 shia 0 buddism 0 }
+;Riga
+Riga_Province
+	Riga
+	hre
+	Rus_Rebels
+	109 236 121
+	fish, timber, textiles, iron, russia, europe
+	5
+	3
+	religions { catholic 20 protestant 0 orthodox 60 islam 0 pagan 0 heretic 40 judaism 0 hindu 0 shia 0 buddism 0 }
+
+
+;#################################### Balkans
+
+;#################### Ottoman Hungary
+;Budapest
+Buda_Province
+	Buda
+	hungary
+	Magyar_Rebels
+	115 215 117
+	wool, grain, timber, textiles, coal, europe, hungary
+	5
+	5
+	religions { catholic 15 protestant 0 orthodox 30 islam 5 pagan 10 heretic 0 judaism 40 hindu 0 shia 0 buddism 0 }
+
+;#################### Ottoman Romania
+;Bucharest
+Brann_Province
+	Brann
+	hungary
+	Romanian_Rebels
+	161 13 229
+	wool, wine, grain, europe, hungary
+	5
+	4
+	religions { catholic 5 protestant 0 orthodox 5 islam 0 pagan 5 heretic 30 judaism 55 hindu 0 shia 0 buddism 0 }
+
+;#################### Ottoman Balkans
+;Belgrade
+Mesie_Province
+	Belgrad
+	hungary
+	Serbian_Rebels
+	37 182 195
+	tin, wool, wine, fish, albania
+	5
+	4
+	religions { catholic 15 protestant 0 orthodox 50 islam 15 pagan 0 heretic 10 judaism 10 hindu 0 shia 0 buddism 0 }
+;Sofia
+Sofia_Province
+	Sofia
+	mongols
+	Bulgarian_Rebels
+	58 186 76
+	grain, wool, fish, ottoman, bulgaria
+	5
+	4
+	religions { catholic 5 protestant 0 orthodox 40 islam 25 pagan 0 heretic 20 judaism 10 hindu 0 shia 0 buddism 0 }
+
+
+;#################### Ottoman Greece
+;Constantinople
+Constantinople_Province
+	Constantinople
+	turks
+	Turkish_Rebels
+	198 23 43
+	tin, grain, wool, silk, wine, elephants, ottoman, greece
+	5
+	6
+	religions { catholic 0 protestant 0 orthodox 0 islam 70 pagan 0 heretic 15 judaism 15 hindu 0 shia 0 buddism 0 }
+;Thessaloniki
+Thessalonica_Province
+	Thessalonica
+	mongols
+	Greek_Rebels
+	66 77 78
+	grain, wool, textiles, wine, ottoman, greece, bulgaria
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 30 pagan 0 heretic 10 judaism 60 hindu 0 shia 0 buddism 0 }
+;Athens
+Hellenie_Province
+	Hellenie
+	mongols
+	Greek_Rebels
+	212 98 160
+	wool, tin, wine, textiles, fish, grain, greece
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 10 pagan 0 heretic 5 judaism 85 hindu 0 shia 0 buddism 0 }
+
+;#################################### Steppes
+
+;############ Russian Steppe
+;St Petersburg
+Novgorod_Province
+	Novgorod
+	russia
+	Rus_Rebels
+	188 198 26
+	textiles, iron, timber, fish, russia, europe
+	5
+	5
+	religions { catholic 0 protestant 0 orthodox 90 islam 0 pagan 0 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;Monrovia
+Volgograd_Province
+	Volgograd
+	portugala
+	Liberian_Rebels
+	196 111 193
+	fish, chocolate, cotton, wine, sub_sahara
+	5
+	2
+	religions { catholic 0 protestant 10 orthodox 0 islam 0 pagan 0 heretic 40 judaism 0 hindu 0 shia 50 buddism 0 }
+;Moscow
+Moscou_Province
+	Moscou
+	russia
+	Rus_Rebels
+	66 54 109
+	timber, furs, grain, sulfur, wool, russia, europe
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 90 islam 0 pagan 0 heretic 5 judaism 5 hindu 0 shia 0 buddism 0 }
+;Makasar
+Iaroslavl_Province
+	Iaroslavl
+	cru
+	Island_Rebels
+	150 84 137
+	coal, sugar, spices, camels, east_indies
+	5
+	5
+	religions { catholic 0 protestant 0 orthodox 0 islam 65 pagan 0 heretic 10 judaism 10 hindu 0 shia 5 buddism 10 }
+
+;############ Siberian Taiga
+;Pustozersk
+Arkhangelsk_Province
+	Arkhangelsk
+	russia
+	Rus_Rebels
+	150 47 47
+	timber, fish, furs, russia
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 70 islam 0 pagan 0 heretic 20 judaism 0 hindu 0 shia 10 buddism 0 }
+;Kazan
+Ufa_Province
+	Ufa
+	russia
+	Steppe_Rebels
+	193 191 40
+	tin, dyes, russia, steppe
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 50 islam 20 pagan 0 heretic 20 judaism 0 hindu 0 shia 10 buddism 0 }
+;Tyumen
+Tyumen_Province
+	Tyumen
+	russia
+	Steppe_Rebels
+	21 26 126
+	gold, wool, timber, russia, steppe
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 10 islam 20 pagan 0 heretic 5 judaism 0 hindu 0 shia 65 buddism 0 }
+;Nadym
+Siberia_Province
+	Siberia
+	russia
+	Steppe_Rebels
+	139 142 144
+	fish, furs, wool, siberia, steppe
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 10 islam 20 pagan 0 heretic 5 judaism 0 hindu 0 shia 65 buddism 0 }
+
+;################ Euro Steppe
+
+;Sevastopol
+Caffa_Province
+	Caffa
+	russia
+	Steppe_Rebels
+	211 216 158
+	coal, coal, coal, grain, fish, russia
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 55 islam 20 pagan 5 heretic 10 judaism 0 hindu 0 shia 10 buddism 0 }
+
+;################ Caucusus
+;Guryev
+Kyptchak_Province
+	Kyptchak
+	russia
+	Kazakh_Rebels
+	169 224 136
+	tin, gold, wool, russia, steppe
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 20 islam 20 pagan 0 heretic 5 judaism 0 hindu 0 shia 55 buddism 0 }
+;Astrakhan
+Sarkel_Province
+	Sarkel
+	russia
+	Steppe_Rebels
+	34 20 208
+	wool, coal, fish, grain, russia, europe
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 45 islam 20 pagan 0 heretic 5 judaism 0 hindu 0 shia 30 buddism 0 }
+
+
+;################ Tibet
+;Lhasa
+Tibet_Province
+	Tibet
+	cuman
+	Steppe_Rebels
+	125 166 14
+	slaves, wool, tibet
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 10 pagan 0 heretic 30 judaism 0 hindu 0 shia 50 buddism 10 }
+
+;################ Asian Steppe
+
+;############ Mongolia
+;Urumqi
+Turfan_Province
+	Turfan
+	cuman
+	Steppe_Rebels
+	94 221 172
+	wool, elephants, steppe
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 30 pagan 0 heretic 30 judaism 0 hindu 0 shia 30 buddism 10 }
+;Urga
+Karakorum_Province
+	Karakorum
+	cuman
+	Steppe_Rebels
+	190 94 221
+	furs, wool, mongolia, steppe
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 20 judaism 0 hindu 0 shia 65 buddism 15 }
+;Bayan Tumen
+Ulan_Bator_Province
+	Ulan_Bator
+	cuman
+	Steppe_Rebels
+	214 221 94
+	wool, furs, timber, mongolia, steppe
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 20 judaism 0 hindu 0 shia 60 buddism 20 }
+
+;############ Eastern asian-Russia Steppe rebel 
+;Irkutsk
+Irkutsk_Province
+	Irkutsk
+	cuman
+	Mongol_Rebels
+	205 227 56
+	wool, fish, furs, steppe, siberia, mongolia
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 10 islam 20 pagan 0 heretic 20 judaism 0 hindu 0 shia 40 buddism 10 }
+;Verkhneudinsk
+Ulan_Ude_Province
+	Ulan_Ude
+	russia
+	Mongol_Rebels
+	152 68 68
+	timber, furs, grain, steppe, siberia, mongolia
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 20 islam 10 pagan 0 heretic 20 judaism 0 hindu 0 shia 40 buddism 10 }
+;Jilin
+Shen_Province
+	Shenyang
+	byzantium
+	Chinese_Rebels
+	132 122 17
+	gold, wool, fish, furs, timber, manchuria, steppe
+	5
+	5
+	religions { catholic 0 protestant 0 orthodox 5 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 0 buddism 90 }
+;Vladivostok
+Khabarovsk_Province
+	Boli
+	russia
+	Steppe_Rebels
+	51 207 124
+	timber, fish, gold, coal, steppe, siberia, manchuria
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 30 islam 0 pagan 0 heretic 10 judaism 0 hindu 0 shia 20 buddism 40 }
+
+;#################################### Asian
+
+;#################### Ottoman Egypt
+;Aleppo
+Antioch_Province
+	Antioch
+	turks
+	Arab_Rebels
+	95 183 71
+	elephants, wool, furs, middle_east, arab, ottoman
+	5
+	3
+	religions { catholic 7 protestant 2 orthodox 1 islam 40 pagan 0 heretic 9 judaism 1 hindu 0 shia 40 buddism 0 }
+;Bloemfontein
+Jerusalemb_Province
+	Jerusalemb
+	teu
+	Boer_Rebels
+	95 88 80
+	amber, tin, sugar, sub_sahara, south_africa
+	5
+	3
+	religions { catholic 0 protestant 15 orthodox 0 islam 0 pagan 0 heretic 10 judaism 30 hindu 0 shia 45 buddism 0 }
+;Damascus
+Damascus_Province
+	Damascus
+	golden
+	Arab_Rebels
+	59 50 229
+	silk, fish, elephants, wine, wool, middle_east, arab, ottoman
+	5
+	4
+	religions { catholic 2 protestant 2 orthodox 1 islam 45 pagan 0 heretic 9 judaism 1 hindu 0 shia 40 buddism 0 }
+
+;#################### Ottoman 
+
+;########### Ottoman Turkey
+
+;Santo Domingo
+Domrep_Province
+	Sandom
+	spain
+	American_Rebels
+	57 138 69
+	sugar, gold, fish, cuba, s_america
+	5
+	3
+	religions { catholic 50 protestant 0 orthodox 0 islam 0 pagan 0 heretic 40 judaism 6 hindu 0 shia 4 buddism 0 }
+;Smyrna
+Smyrna_Province
+	Smyrna
+	turks
+	Turkish_Rebels
+	135 86 67
+	timber, iron, wine, amber, slaves
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 55 pagan 0 heretic 10 judaism 35 hindu 0 shia 0 buddism 0 }
+;Kayseri
+Anatolie_Province
+	Konia
+	turks
+	Turkish_Rebels
+	217 43 43
+	grain, fish, silk, tin, wine, middle_east, ottoman
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 80 pagan 0 heretic 10 judaism 10 hindu 0 shia 0 buddism 0 }
+;Trebizond
+Trebizond_Province
+	Trebizond
+	turks
+	Turkish_Rebels
+	34 45 71
+	fish, wool, grain, dogs, middle_east, ottoman
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 60 pagan 0 heretic 10 judaism 25 hindu 0 shia 5 buddism 0 }
+
+;#################### Saudi Arabia
+
+;############ Ottoman Arabia
+;Mecca
+Mecca_Province
+	Mecca
+	golden
+	Mecca_Rebels
+	47 52 85
+	fish, wool, middle_east, arab
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 50 pagan 0 heretic 10 judaism 0 hindu 0 shia 40 buddism 0 }
+
+;############ Saudi Egypt
+;Riyadh
+Arabie_Province
+	Arabie
+	golden
+	Nejd_Rebels
+	119 118 49
+	spices, elephants, fish, middle_east, arab
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 0 islam 55 pagan 0 heretic 5 judaism 0 hindu 0 shia 40 buddism 0 }
+;Sana'a
+Yemen_Province
+	Yemen
+	turks
+	Arab_Rebels
+	201 199 43
+	chocolate, spices, middle_east, arab
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 45 pagan 0 heretic 5 judaism 0 hindu 0 shia 50 buddism 0 }
+;Muscat
+Qatar_Province
+	Qatar
+	golden
+	Arab_Rebels
+	85 85 70
+	fish, wine, elephants, silver, middle_east, arab, muscat
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 75 pagan 0 heretic 15 judaism 0 hindu 0 shia 10 buddism 0 }
+
+;#################### Mesopotamia
+
+;########## Ottoman Mesopotamia
+;Van
+Yerevan_Province
+	Manzikirt
+	turks
+	Armenian_Rebels
+	47 172 150
+	elephants, wool, furs, middle_east, arab, ottoman, armenia
+	5
+	3
+	religions { catholic 10 protestant 0 orthodox 0 islam 30 pagan 0 heretic 25 judaism 20 hindu 0 shia 15 buddism 0 }
+;Baghdad
+Baghdad_Province
+	Baghdad
+	golden
+	Arab_Rebels
+	98 210 209
+	elephants, fish, wool, silk, middle_east, arab, ottoman
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 40 pagan 0 heretic 25 judaism 0 hindu 0 shia 35 buddism 0 }
+
+;########## Persian Mesopotamia
+;Tiflis
+Baku_Province
+	Baku
+	egypt
+	Georgian_Rebels
+	26 174 18
+	wine, dyes, wool, fish, georgia, armenia, russia, ottoman
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 30 islam 20 pagan 0 heretic 10 judaism 20 hindu 0 shia 20 buddism 0 }
+
+
+;#################################### Persia
+
+;################## Safarid Khorasan
+;Merv
+Korasan_Province
+	Korasan
+	cuman
+	Turkmen_Rebels
+	100 89 75
+	spices, wool, fish, steppe, kokand, russia
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 5 islam 20 pagan 0 heretic 25 judaism 0 hindu 0 shia 50 buddism 0 }
+
+
+;############ Uzbek
+;Khiva
+Khwarzam_Province
+	Urgentch
+	cuman
+	Khiva_Rebels
+	183 110 14
+	timber, wool, fish, steppe, kokand, russia
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 5 islam 20 pagan 0 heretic 25 judaism 0 hindu 0 shia 50 buddism 0 }
+;Tashkent
+Tashkent_Province
+	Tashkent
+	cuman
+	Steppe_Rebels
+	115 44 37
+	elephants, wool, gold, steppe, kokand, russia
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 5 islam 20 pagan 0 heretic 5 judaism 0 hindu 0 shia 70 buddism 0 }
+;Bukhara
+Bukhara_Province
+	Bukhara
+	cuman
+	Bukhara_Rebels
+	81 115 37
+	wool, gold, elephants, steppe, russia
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 5 islam 20 pagan 0 heretic 25 judaism 0 hindu 0 shia 50 buddism 0 }
+
+;############ Kazakh
+;Akmolinsk
+Arqin_Province
+	Arqin
+	cuman
+	Kazakh_Rebels
+	48 130 8
+	coal, timber, steppe, russia
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 10 islam 20 pagan 0 heretic 5 judaism 0 hindu 0 shia 65 buddism 0 }
+;Aulie-Ata
+Astana_Province
+	Astana
+	cuman
+	Steppe_Rebels
+	137 136 15
+	wool, gold, timber, furs, steppe, kokand, russia
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 5 islam 20 pagan 0 heretic 5 judaism 0 hindu 0 shia 70 buddism 0 }
+;Verniy
+Almaty_Province
+	Almaty
+	cuman
+	Steppe_Rebels
+	137 15 136
+	gold, grain, steppe, russia
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 10 islam 20 pagan 0 heretic 5 judaism 0 hindu 0 shia 65 buddism 0 }
+
+
+;############ Tarim Basin
+
+;Kashgar
+Aksu_Province
+	Aksu
+	cuman
+	Steppe_Rebels
+	88 88 88
+	wool, furs, steppe
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 25 pagan 0 heretic 10 judaism 0 hindu 0 shia 60 buddism 5 }
+
+
+;#################### Safarid Persia
+;Tabriz
+Tabriz_Province
+	Tabriz
+	egypt
+	Persian_Rebels
+	69 116 104
+	silk, elephants, wool, fish, persia, georgia
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 60 pagan 0 heretic 15 judaism 0 hindu 0 shia 25 buddism 0 }
+;Tehran
+Ajan_Province
+	Teheran
+	egypt
+	Persian_Rebels
+	196 51 51
+	wool, elephants, silk, silver, persia, middle_east
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 60 pagan 0 heretic 15 judaism 0 hindu 0 shia 25 buddism 0 }
+;Isfahan
+Fais_Province
+	Esfahan
+	egypt
+	Persian_Rebels
+	48 80 74
+	fish, wool, silver, tin, silk, persia, middle_east
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 60 pagan 0 heretic 15 judaism 0 hindu 0 shia 25 buddism 0 }
+;Bandars Abbas
+Kerman_Province
+	Kerman
+	egypt
+	Persian_Rebels
+	78 112 116
+	fish, silk, wool, persia, middle_east 
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 60 pagan 0 heretic 15 judaism 0 hindu 0 shia 25 buddism 0 }
+
+;#################### Safarid Afghanistan
+
+;Herat
+Herat_Province
+	Herat
+	timurids
+	Afghan_Rebels
+	108 220 103
+	elephants, spices, silk, tobacco, wool, afghanistan
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 45 pagan 0 heretic 5 judaism 0 hindu 0 shia 50 buddism 0 }
+;Kabul
+Kandahar_Province
+	Kandahar
+	timurids
+	Afghan_Rebels
+	71 64 54
+	elephants, spices, dyes, tobacco, wool, afghanistan
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 65 pagan 0 heretic 5 judaism 0 hindu 0 shia 30 buddism 0 }
+
+
+;#################################### India
+
+;#################### Pakistan 
+
+;########## Mughal Pakistan 
+
+;Qandahar
+Baluchistan_Province
+	Baluchistan
+	turks
+	Afghan_Rebels
+	111 39 19
+	elephants, spices, tobacco, wool, afghanistan
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 65 pagan 0 heretic 5 judaism 0 hindu 0 shia 30 buddism 0 }
+
+
+;########## Suri Pakistan 
+;Karachi
+Sind_Province
+	Sind
+	bulga
+	Mexican_Rebels
+	217 87 87
+	silk, tobacco, elephants, sugar, wool, india
+	5
+	7
+	religions { catholic 1 protestant 4 orthodox 0 islam 60 pagan 0 heretic 15 judaism 0 hindu 0 shia 20 buddism 0 }
+
+;#################### North India 
+
+;########## Suri North India 
+
+;Delhi
+Dehli_Province
+	Dehli
+	bulga
+	Mexican_Rebels
+	201 229 16
+	elephants, tobacco, spices, cotton, india
+	5
+	8
+	religions { catholic 1 protestant 4 orthodox 0 islam 30 pagan 0 heretic 15 judaism 0 hindu 0 shia 50 buddism 0 }
+
+;Jaipur
+Rajputana_Province
+	Jaipur
+	bulga
+	Mexican_Rebels
+	107 69 85
+	tobacco, spices, sugar, cotton, india
+	5
+	6
+	religions { catholic 1 protestant 4 orthodox 0 islam 30 pagan 0 heretic 15 judaism 0 hindu 0 shia 50 buddism 0 }
+
+;Banda Aceh
+Bihar_Province
+	Bihar
+	bulga
+	Island_Rebels
+	87 67 57
+	coal, sugar, spices, slaves, fish, east_indies
+	5
+	5
+	religions { catholic 0 protestant 0 orthodox 0 islam 70 pagan 0 heretic 5 judaism 0 hindu 0 shia 25 buddism 0 }
+;Bhopal
+Gondowan_Province
+	Jabalpur
+	bulga
+	Mexican_Rebels
+	84 215 183
+	spices, tobacco, sugar, cotton, india
+	5
+	7
+	religions { catholic 1 protestant 4 orthodox 0 islam 30 pagan 0 heretic 15 judaism 0 hindu 0 shia 50 buddism 0 }
+
+;########## Suri Bengal
+;Calcutta
+Bengal_Province
+	Bengal
+	bulga
+	Nepal_Rebels
+	237 194 147
+	spices, coal, tobacco, sugar, cotton, india
+	5
+	8
+	religions { catholic 1 protestant 4 orthodox 0 islam 20 pagan 0 heretic 15 judaism 0 hindu 0 shia 60 buddism 0 }
+
+
+;#################### Rebel South India
+;Saigon
+Decan_Province
+	Bombay
+	cru
+	Wallachian_Rebels
+	77 73 57
+	gold, fish, slaves, indochina
+	5
+	4
+	religions { catholic 5 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 70 buddism 20 }
+;Bangalore
+Mysore_Province
+	Bangalore
+	bulga
+	Spanish_Rebels
+	74 79 184
+	spices, coal, silk, sugar, cotton, elephants, india
+	5
+	7
+	religions { catholic 1 protestant 4 orthodox 0 islam 20 pagan 0 heretic 15 judaism 0 hindu 0 shia 60 buddism 0 }
+;Yaounde
+Vijanagar_Province
+	Madras
+	lith
+	African_Rebels
+	184 159 74
+	chocolate, slaves, sub_sahara
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 0 islam 5 pagan 0 heretic 5 judaism 0 hindu 0 shia 90 buddism 0 }
+
+;Madras Presidency
+Orissa_Province
+	Cuttack
+	bulga
+	Mexican_Rebels
+	203 88 137
+	spices, coal, tobacco, sugar, cotton, grain, india
+	5
+	7
+	religions { catholic 1 protestant 4 orthodox 0 islam 20 pagan 0 heretic 15 judaism 0 hindu 0 shia 60 buddism 0 }
+;Hobyo
+Ceyland_Province
+	Ceyland
+	golden
+	Majarteen_Rebels
+	68 126 43
+	fish, wool, furs, chocolate, sub_sahara, arab, north_africa
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 50 pagan 0 heretic 5 judaism 0 hindu 0 shia 45 buddism 0 }
+
+
+;#################################### African
+
+;#################### Ottoman Africa
+;Cairo
+Caire_Province
+	Caire
+	golden
+	Fatimid_Rebels
+	59 90 79
+	grain, cotton, wool, middle_east, arab, north_africa, egypt
+	5
+	5
+	religions { catholic 1 protestant 0 orthodox 0 islam 50 pagan 0 heretic 40 judaism 4 hindu 0 shia 5 buddism 0 }
+;Tripoli
+Tripolitaine_Province
+	Tripoli
+	moors
+	Arab_Rebels
+	98 68 106
+	fish, grain, wool, spices, middle_east, arab, north_africa
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 40 pagan 0 heretic 10 judaism 0 hindu 0 shia 50 buddism 0 }
+
+;#################### Moors
+;Fez
+Fez_Province
+	Fez
+	moors
+	Arab_Rebels
+	187 134 19
+	tin, fish, grain, spices, wine, middle_east, morocco, north_africa
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 80 pagan 0 heretic 10 judaism 3 hindu 0 shia 7 buddism 0 }
+;Marrakesh
+Marrakesh_Province
+	Marrakesh
+	moors
+	Arab_Rebels
+	71 25 25
+	fish, wool, grain, wine, middle_east, morocco, north_africa
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 70 pagan 0 heretic 10 judaism 3 hindu 0 shia 17 buddism 0 }
+
+;#################### Spainish Africa
+;Algiers
+Krasnodar_Province
+	Krasnodar
+	moors
+	Arab_Rebels
+	116 57 57
+	coal, wool, elephants, grain, middle_east, arab, north_africa
+	5
+	4
+	religions { catholic 20 protestant 0 orthodox 0 islam 50 pagan 0 heretic 7 judaism 3 hindu 0 shia 20 buddism 0 }
+
+;#################### African tribes
+;Suleja
+Kongo_Province
+	M_Banza_Kongo
+	lith
+	African_Rebels
+	8 140 132
+	fish, slaves, chocolate, wine, sub_sahara
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 20 pagan 0 heretic 10 judaism 0 hindu 0 shia 70 buddism 0 }
+;Gondar
+Corne_Afrique_Province
+	Berbera
+	lith
+	Native_Rebels
+	198 21 21
+	chocolate, ivory, furs, sub_sahara
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 20 pagan 0 heretic 60 judaism 0 hindu 0 shia 20 buddism 0 }
+;Zanzibar
+Mombasa_Province
+	Mombasa
+	golden
+	African_Rebels
+	210 148 0
+	fish, silver, furs, slaves, ivory, arab, sub_sahara, muscat
+	5
+	3
+	religions { catholic 0 protestant 0 orthodox 0 islam 30 pagan 0 heretic 50 judaism 0 hindu 0 shia 20 buddism 0 }
+;Faya
+Kanem_Province
+	Ngala
+	moors
+	Seljuk_Rebels
+	106 37 37
+	wool, wine, sub_sahara
+	5
+	1
+	religions { catholic 0 protestant 0 orthodox 0 islam 50 pagan 0 heretic 10 judaism 0 hindu 0 shia 40 buddism 0 }
+;Leopoldville
+Afrique_Centrale_Province
+	Kampala
+	portugal
+	Flemish_Rebels
+	85 79 65
+	fish, slaves, ivory, sub_sahara
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 5 pagan 0 heretic 20 judaism 5 hindu 0 shia 70 buddism 0 }
+;Pretoria
+Rhodesie_Province
+	Lusaka
+	teu
+	Boer_Rebels
+	54 191 31
+	amber, gold, grain, sub_sahara, south_africa
+	5
+	2
+	religions { catholic 0 protestant 10 orthodox 0 islam 0 pagan 0 heretic 10 judaism 30 hindu 0 shia 50 buddism 0 }
+;Cape Town
+Afrique_Sud_Province
+	Cape
+	england
+	Boer_Rebels
+	243 8 8
+	amber, tin, grain, wool, sub_sahara, south_africa
+	5
+	3
+	religions { catholic 0 protestant 30 orthodox 0 islam 0 pagan 0 heretic 20 judaism 30 hindu 0 shia 20 buddism 0 }
+;Mahajanga
+Madagascar_Province
+	Mahajanga
+	lith
+	Imerina_Rebels
+	71 92 91
+	chocolate, fish, furs, wool, sub_sahara
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 5 pagan 0 heretic 25 judaism 0 hindu 0 shia 70 buddism 0 }
+
+;#################### African tribes Portugal
+;Ulundi
+Mozambique_Province
+	Angoche
+	spain
+	Spanish_Rebels
+	243 8 146
+	wool, fish, sub_sahara, zululand, south_africa
+	5
+	2
+	religions { catholic 15 protestant 5 orthodox 0 islam 0 pagan 0 heretic 15 judaism 5 hindu 0 shia 60 buddism 0 }
+;Angra Pequena
+Namibie_Province
+	Gd_Namaqualand
+	lith
+	African_Rebels
+	66 66 215
+	gold, fish, ivory, grain, sub_sahara, south_africa
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 5 judaism 0 hindu 0 shia 95 buddism 0 }
+
+;#################### Mali
+;Timbuktu
+Mali_Province
+	Tombouktou
+	moors
+	Bohemian_Rebels
+	223 225 60
+	chocolate, slaves, gold, sub_sahara, north_africa
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 60 pagan 0 heretic 5 judaism 0 hindu 0 shia 35 buddism 0 }
+;Dakar
+Cote_Guinee_Province
+	Kansala
+	lith
+	Bohemian_Rebels
+	72 79 84
+	fish, gold, wool, sub_sahara, north_africa
+	5
+	2
+	religions { catholic 0 protestant 0 orthodox 0 islam 60 pagan 0 heretic 15 judaism 0 hindu 0 shia 25 buddism 0 }
+
+;#################################### Misc
+
+;#################### Japan
+;Akita
+Akita_Province
+	Akita
+	papal_states
+	Anatolian_Rebels
+	83 91 191
+	timber, iron, fish, japan
+	5
+	5
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 2 judaism 0 hindu 98 shia 0 buddism 0 }
+;Sapporo
+Hokkaido_Province
+	Hokkaido
+	papal_states
+	Anatolian_Rebels
+	142 86 168
+	fish, furs, timber, japan
+	5
+	4
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 2 judaism 0 hindu 88 shia 10 buddism 0 }
+;Edo
+Edo_Province
+	Edo
+	papal_states
+	Anatolian_Rebels
+	103 168 86
+	dyes, wool, fish, textiles, japan
+	5
+	7
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 2 judaism 0 hindu 98 shia 0 buddism 0 }
+;Kyoto
+Kyoto_Province
+	Kyoto
+	saxons
+	Anatolian_Rebels
+	168 161 86
+	iron, tin, timber, textiles, fish, japan
+	5
+	8
+	religions { catholic 0 protestant 0 orthodox 0 islam 0 pagan 0 heretic 2 judaism 0 hindu 98 shia 0 buddism 0 }
+

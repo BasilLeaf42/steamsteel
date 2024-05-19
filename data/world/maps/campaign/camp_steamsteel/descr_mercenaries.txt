@@ -1,0 +1,230 @@
+; pool    --> name of mercenary pool
+; regions --> list of regions belonging to pool
+; unit    --> name of mercenary unit
+;         --> exp X                           --> experience level of mercenary unit
+;         --> cost X                          --> cost to recruit mercenary unit
+;         --> replenish X - X                 --> upper and lower bounds on pool replenishment rate
+;         --> max X                           --> maximum pool size for unit
+;         --> initial X                       --> initial pool size for unit
+;         --> {optional} start_year X         --> year that unit becomes available {0 indicates no set start year}
+;         --> {optional} end_year X           --> last year that unit will be available {0 indicates no set end year}
+;         --> {optional} religions { A B C }  --> list of faction religions unit is available for {no entries indicates available for all religions}
+;         --> {optional} crusading            --> {requires one religion to have been specifed} unit only available to crusading/jihad armies
+;         --> {optional} events { A B C}      --> unit only available after all specified events have occurred, event is a string corresponding to descr_events.txt
+
+;RATE_H replenish 0.03 - 0.15 Common Ships		avg 0.09
+;RATE_B replenish 0.02 - 0.10 Rare Ships			avg 0.06
+;RATE_X replenish 0.01 - 0.05 V Rare Ships		avg 0.03
+;RATE_Z replenish 0.04 - 0.20 V Common Ships		avg 0.12
+
+;RATE_F replenish 0.18 - 0.5  Pilgrims							avg 0.34
+;RATE_K replenish 0.36 - 1.0 Pilgrims							avg 0.68
+;RATE_Q replenish 0.24 - 0.66 Pilgrims							avg 0.45
+;RATE_AD replenish 0.12 - 0.33 Eastern Pilgrims					avg 0.225
+;RATE_G replenish 0.15 - 0.35 Crusader Sergeants and Knights		avg 0.25
+;RATE_N replenish 0.08 - 0.17 Crusader Sergeants					avg	0.125
+;RATE_R replenish 0.12 - 0.28 Crusader Knights					avg 0.2
+;RATE_AC replenish 0.03 - 0.07 Great Cross						avg 0.05
+;RATE_AF replenish 0.07 - 0.17 Unhorsed Knights					avg 0.12
+
+;RATE_E replenish 0.02 - 0.04 Ribault etc		avg 0.03
+;RATE_O replenish 0.04 - 0.08 Ribault, Rocket Launcher	avg 0.06
+;RATE_P replenish 0.03 - 0.06 Rocket Launcher, Monster Bombard avg 0.045
+
+;RATE_AG replenish 0.11 - 0.33 Very Common 0.22
+
+;RATE_M replenish 0.08 - 0.25 Common			avg 0.165
+;RATE_Y = RATE_M
+;RATE_AH = RATE_M
+
+;RATE_A replenish 0.06 - 0.18 Less Common		avg 0.12
+;RATE_D RATE_A
+;RATE_V RATE_A
+;RATE_W RATE_A
+;RATE_AB RATE_A
+
+;RATE_C replenish 0.04 - 0.13 Crossbowmen etc	avg 0.085
+;RATE_I RATE_C
+
+;RATE_AE replenish 0.06 - 0.10 North African Ghazis 0.09
+
+;RATE_U replenish 0.03 - 0.10 Swiss crossbow avg 0.065
+
+;RATE_S replenish 0.02 - 0.10 Knights			avg 0.06
+;RATE_AA RATE_S
+
+;RATE_T replenish 0.02 - 0.07 Free company 		avg 0.045
+;RATE_J RATE_T
+
+;RATE_L replenish 0.01 - 0.06 Knights			avg 0.035
+
+
+pool Portugal
+	regions Lisbon_Province 
+	unit merc_port_inf	exp 2 cost 1300 replenish 0.05 - 0.1 max 2 initial 1 
+	unit merc_port_lancer	exp 2 cost 1300 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Bulgaria
+	regions Brann_Province Sofia_Province Thessalonica_Province
+	unit merc_bulgarian_inf		exp 1 cost 1150 replenish 0.05 - 0.1 max 2 initial 1
+
+pool Georgia
+	regions Baku_Province
+	unit merc_georgian_inf		exp 1 cost 1000 replenish 0.05 - 0.1 max 2 initial 1
+	unit merc_rus_georgian_cav		exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Serbia
+	regions Mesie_Province
+	unit merc_serb_inf	exp 1 cost 1100 replenish 0.05 - 0.1 max 2 initial 1 
+
+pool Poland
+	regions Cracow_Province Tejo_Province Smolensk_Province Pomeranie_Province
+	unit merc_polish_inf	exp 2 cost 1400 replenish 0.05 - 0.1 max 2 initial 1 
+	unit merc_pol_hussars	exp 2 cost 1100 replenish 0.01 - 0.05 max 1 initial 0 
+
+pool Arabia
+	regions Arabie_Province Mecca_Province Yemen_Province Damascus_Province Baghdad_Province Qatar_Province
+	unit merc_arab_brigade	exp 0 cost 800  replenish 0.05 - 0.1 max 2 initial 1
+	unit arab_cav	exp 0 cost 900  replenish 0.05 - 0.1 max 2 initial 1
+	unit merc_fra_for_cav	exp 2 cost 1500 replenish 0.01 - 0.05 max 1 initial 0  religions { catholic orthodox protestant pagan judaism }
+
+pool Steppes
+	regions Caffa_Province Khwarzam_Province Tashkent_Province Bukhara_Province Astana_Province Almaty_Province Aksu_Province
+	unit merc_kok_royal_cav	exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 0
+	unit merc_kaz_inf		exp 0 cost 1000 replenish 0.01 - 0.05 max 1 initial 1
+	unit merc_kaz_cav		exp 0 cost 1300 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Switzerland
+	regions Baluchistan_Province Sind_Province Dehli_Province Rajputana_Province Mysore_Province Gondowan_Province Bengal_Province
+	unit merc_sikh_warriors		exp 1 cost 1200  replenish 0.05 - 0.1 max 2 initial 1
+	unit merc_indian_fanatic	exp 0 cost 700 replenish 0.01 - 0.05 max 1 initial 0 
+
+pool Siam
+	regions Ayudhya_Province
+	unit merc_siam_agent		exp 0 cost 750 replenish 0.05 - 0.1 max 2 initial 1
+
+pool Burma
+	regions Taungoo_Province Lang_sang_Province
+	unit merc_burmese_inf		exp 0 cost 1100 replenish 0.05 - 0.1 max 2 initial 1
+
+pool Vietnam_s
+	regions Decan_Province Cambodia_Province 
+	unit merc_viet_early_inf		exp 0 cost 900 replenish 0.05 - 0.1 max 2 initial 1
+
+pool Vietnam_n
+	regions Vietnam_Province Kunming_Province
+	unit tib_temple_guard			exp 0 cost 800 replenish 0.05 - 0.1 max 2 initial 1 religions { buddism }
+	unit merc_viet_early_inf		exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Netherlands
+	regions Hokkaido_Province Edo_Province Kyoto_Province Estonie_Province Akita_Province 
+	unit merc_sho_ashigaru		exp 0 cost 900 replenish 0.05 - 0.1 max 2 initial 1
+
+pool North_Africa
+	regions Tripolitaine_Province Ceyland_Province Fez_Province Marrakesh_Province
+	unit merc_arab_brigade			exp 0 cost 800  replenish 0.05 - 0.1 max 2 initial 1
+	unit arab_cav	exp 0 cost 900  replenish 0.05 - 0.1 max 2 initial 1
+	unit merc_fra_for_cav		exp 2 cost 1500 replenish 0.01 - 0.05 max 1 initial 0  religions { catholic orthodox protestant pagan judaism }
+
+pool Egypt
+	regions Caire_Province Sudan_Province
+	unit merc_arab_sailors				exp 2 cost 1500 replenish 0.05 - 0.1 max 2 initial 1
+
+pool Boer
+	regions Jerusalemb_Province Rhodesie_Province Afrique_Sud_Province Hankou_Province
+	unit merc_us_farmer_cav		exp 2 cost 1500 replenish 0.01 - 0.05 max 1 initial 0  religions { catholic orthodox protestant pagan judaism }
+	unit merc_zulu_spearmen		exp 0 cost 800  replenish 0.05 - 0.1 max 2 initial 1
+	unit merc_uk_sailor		exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+	unit merc_zulu_rifles		exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 1
+
+pool Mozambique
+	regions Mozambique_Province 
+	unit merc_port_inf	exp 2 cost 1300 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+	unit merc_port_lancer	exp 2 cost 1300 replenish 0.01 - 0.03 max 1 initial 0 religions { catholic orthodox protestant pagan judaism }
+	unit merc_zulu_spearmen		exp 0 cost 800  replenish 0.05 - 0.1 max 2 initial 1
+	unit merc_uk_sailor		exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 0 religions { catholic orthodox protestant pagan judaism }
+	unit merc_zulu_rifles		exp 0 cost 900 replenish 0.01 - 0.03 max 1 initial 0
+
+pool Tibet
+	regions Tibet_Province
+	unit merc_tib_inf		exp 0 cost 1000 replenish 0.05 - 0.1 max 2 initial 1
+	unit merc_tib_noble_cav		exp 0 cost 1100 replenish 0.01 - 0.05 max 1 initial 0 
+	unit merc_bhutan_warrior	exp 0 cost 1000 replenish 0.05 - 0.1 max 2 initial 1
+
+pool Korea
+	regions Korea_Province Qarshi_Province 
+	unit korean_cav_mercs	exp 0 cost 1400 replenish 0.01 - 0.05 max 1 initial 0 start_year 1870
+	unit korean_rifles_mercs	exp 0 cost 1500 replenish 0.05 - 0.1 max 2 initial 1 start_year 1870
+
+pool Sardinia
+	regions Irkutsk_Province Ulan_Ude_Province Khabarovsk_Province Shen_Province Arqin_Province 
+	unit merc_mongol_bows		exp 0 cost 700 replenish 0.05 - 0.1 max 2 initial 1
+	unit merc_kok_royal_cav		exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Papua
+	regions Papua_Province
+	unit merc_papa_bows		exp 0 cost 600 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Ceylon
+	regions Orissa_Province
+	unit merc_island_jihadist		exp 0 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { islam shia }
+
+pool West_Balkans
+	regions Lodz_Province Quebec_Province
+	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+
+pool Frontier
+	regions Dakota_Province Apache_Province Zhengding_Province Utah_Province Tualatin_Province Choctaw_Province Nuevo_Mexico_Province Corinth_Province Comanche_Province Kansas_Province 
+	unit merc_us_farmer_cav		exp 1 cost 1500 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+	unit merc_apache_inf		exp 0 cost 1500  replenish 0.01 - 0.05 max 1 initial 1
+	unit merc_ap_front_cav		exp 0 cost 1500  replenish 0.01 - 0.05 max 1 initial 
+
+pool America
+	regions Kongo_Province Zhengzhou_Province Jerusalemb_Province Hankou_Province Vijanagar_Province Corne_Afrique_Province Mombasa_Province Kanem_Province Madagascar_Province Afrique_Centrale_Province Namibie_Province Cote_Guinee_Province Mali_Province
+	unit africa_cav		exp 0 cost 700  replenish 0.01 - 0.05 max 1 initial 0
+	unit african_warband		exp 0 cost 500  replenish 0.1 - 0.15 max 3 initial 1
+	unit merc_fra_blacks		exp 2 cost 1400 replenish 0.05 - 0.1 max 1 initial 1 start_year 1870 religions { catholic orthodox protestant pagan judaism islam } 
+	unit merc_zulu_rifles	exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 1
+
+pool Central_American	
+	regions Granada_Province Domrep_Province Jamaica_Province Panama_Province Mexico_Province Bolgar_Province Veracruz_Province Havana_Province
+	unit merc_us_farmers			exp 1 cost 1300 replenish 0.01 - 0.05 max 1 initial 0 end_year 1890 religions { catholic orthodox protestant pagan judaism } 
+	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic orthodox protestant pagan judaism }
+
+pool Southern_Germany
+	regions Santa_Marta_Province Cholula_Province Peru_Province South_Peru_Province Rio_Plata_Province Rio_Negro_Province Salvador_Province Rio_Janeiro_Province 
+	unit merc_us_farmer_cav				exp 1 cost 1500  replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.05 - 0.1 max 2 initial 1 
+
+pool Chile
+	regions Cuzco_Province Moravie_Province
+	unit merc_balk_cav_ch				exp 2 cost 1300  replenish 0.01 - 0.05 max 1 initial 1
+	unit merc_fra_inf_ch				exp 2 cost 1250  replenish 0.01 - 0.05 max 1 initial 1
+	unit merc_uk_sailor		exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 0 religions { catholic orthodox protestant pagan judaism }
+
+pool Paraguay
+	regions Paraguay_Province 
+	unit merc_para_foot				exp 2 cost 1200  replenish 0.01 - 0.05 max 1 initial 1
+
+pool Uruguay
+	regions Sao_Paulo_Province 
+	unit merc_uru_inf			exp 2 cost 1200  replenish 0.01 - 0.05 max 1 initial 1
+
+pool East_Balkans
+	regions W_aust_Province Gujerat_Province Lan_na_Province 
+	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+
+pool New_Zealand
+	regions New_zealand_Province 
+	unit merc_maori_spearmen		exp 0 cost 800 replenish 0.01 - 0.05 max 1 initial 1
+	unit merc_maori_musketeers		exp 0 cost 1000 replenish 0.01 - 0.05 max 1 initial 1
+	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+
+pool Aceh
+	regions Bihar_Province
+	unit merc_aceh_warband	exp 0 cost 500 replenish 0.01 - 0.05 max 2 initial 1
+	unit merc_aceh_inf		exp 0 cost 1400 replenish 0.01 - 0.02 max 1 initial 0 religions { islam shia }
+	unit merc_aceh_gold		exp 0 cost 1200 replenish 0.01 - 0.02 max 1 initial 0 religions { islam shia }
+	unit merc_aceh_noble		exp 0 cost 1200 replenish 0.01 - 0.02 max 1 initial 0 religions { islam shia }
+	unit merc_aceh_reg		exp 0 cost 1000 replenish 0.01 - 0.02 max 1 initial 1 religions { islam shia }
+	unit merc_aceh_marines	exp 0 cost 1400 replenish 0.01 - 0.02 max 1 initial 0 religions { islam shia }

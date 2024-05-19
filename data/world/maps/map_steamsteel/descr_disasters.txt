@@ -1,0 +1,12 @@
+
+; event			event_type
+; frequency		in years
+; winter		only occurs in winter
+; summer		only occurs in summer
+; warning		provides a one year warning
+; position		position event can occur in strat coords [can specify multiple positions on consecutive lines]
+; region		region event can occur by region name [can specify multiple regions on consecutive lines]
+; climate		climate event can occur by climate name [can specify multiple climates on consecutive lines]
+; min_scale		minimum size for event
+; max_scale		maximum size for event
+

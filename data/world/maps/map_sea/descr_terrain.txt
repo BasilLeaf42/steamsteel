@@ -1,0 +1,24 @@
+dimensions
+{
+	width  509
+	height  451
+}
+heights
+{
+	min_sea_height  -4455.414
+	max_land_height  8844.430
+}
+roughness
+{
+	min  50.000
+	max  200.000
+}
+fractal
+{
+	multiplier  0.500
+}
+lattitude
+{
+	min  -15.000
+	max  55.000
+}

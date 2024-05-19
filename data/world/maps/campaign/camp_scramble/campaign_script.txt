@@ -1,0 +1,11 @@
+;
+; Campaign script by gigantus
+;
+script
+
+	restrict_strat_radar false
+;	console_command toggle_fow
+
+end_script
+
+
