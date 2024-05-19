@@ -1,0 +1,14 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND ANIM_Trebuchet_Crank 0 0
+event SOUND ANIM_Trebuchet_distant_Crank 0 0
+event SOUND ANIM_Trebuchet_Fire 22 22
+event SOUND ANIM_Trebuchet_distant_Fire 22 22
+event SOUND ANIM_Trebuchet_swing 23 23
+event SOUND ANIM_Trebuchet_recover 38 38
+event SOUND ANIM_Trebuchet_swing 43 43
+event SOUND ANIM_Trebuchet_Rope_drop 221 221

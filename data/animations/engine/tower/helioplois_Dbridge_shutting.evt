@@ -1,0 +1,10 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND ANIM_STOW_CLOSE 74 74 
+event SOUND ANIM_STOW_SQ_CLOSE 8 8 
+event SOUND ANIM_STOW_SQ2_CLOSE 36 36 
+event SOUND ANIM_STOW_SQ_CLOSE 40 40 

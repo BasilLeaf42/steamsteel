@@ -1,0 +1,14 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND ANIM_Serpentine_Fire 42 42
+event SOUND ANIM_cannon_small_distant 42 42
+event SHOCKWAVE  42 42
+event SOUND ANIM_cannon_wheel_bounce 55 55
+event SOUND ANIM_cannon_wheel_bounce 58 58
+event SOUND ANIM_cannon_wheel_bounce 71 71
+event SOUND ANIM_cannon_wheel_bounce 72 72
+event SOUND ANIM_cannon_wheel_bounce 82 82
