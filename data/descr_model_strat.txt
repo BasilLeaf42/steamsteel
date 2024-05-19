@@ -1,0 +1,1603 @@
+;;	
+;	this file contains the model linkages for both strategy map and battlefield; it gets 
+;	parsed on application startup but is not otherwise referred to. the data format is thus:
+;
+;	;						indicates a comment ;-)
+;							
+;	type					indicates a new model type
+;
+;								must be followed by id name string
+;
+;	skeleton				indicates which skeleton should be used for these models
+;
+;								must be followed by id name string (cf descr_skeleton.txt)
+;
+;	indiv_range				indicates at what point we start rendering men individually even if 
+;								we can 'group render'
+;
+;								must be followed by an integer (whole number) range in metres
+;
+;								group render means the whole unit will be rendered using one 
+;								model, individual render means the soldiers will be	tested 
+;								individually for which model lod to use (slower) 
+;
+;	(models)				there must be at least one; the model_ keywords indicate a new model in
+;								the lod series; each must be followed by a filename and either the
+;								lod range in metres or the word 'max' for maximum range... all lods
+;								must be in order, from shortest distance (highest detail) to furthest
+;								distance. The model_ keywords are:
+;
+;			model_flexi_m		essentially a flexi model but has a small number of weighted 
+;								vertices, such as Will's high-detail carthaginian infantryman 
+;								with the weighted shoulder verts 
+;			
+;			model_flexi_c		a flexi model which contains per-vertex colours, for example 
+;								for colouring the different Roman faction assassins
+;
+;			model_flexi			plain vanilla flexi model, which is a single-skinned mesh with 
+;								normals and texture coordinates
+;
+;			shadow_model_flexi	as model_flexi but used to create the shadow volume	
+;
+;	model_mesh				(optional) range only for using animated mesh frames for the model
+;
+;	model_sprite			(optional) sprite model for this model type 
+;
+;								if the first item is a distance (integer number in m), a new 
+;								sprite animation set will be generated for this model; if it is 
+;								anything else, it must be a type name from this file which has a 
+;								valid sprite entry *and* was processed before this type entry
+;
+;	model_tri				(optional) indicates that this model can be represented by a single 
+;								triangle
+;
+;								must be followed by a range (integer number in metres), and three 
+;								floating point numbers in the range 0.0f - 1.0f which indicate 
+;								colours red,green,blue to use for the triangle
+;
+
+
+;strat map only characters
+ignore_registry
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;SPIES, ASSASSINS AND DIPLOMATS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;; MTW2 MODELS BELOW ;;
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;
+; AMBASSADOR :
+;;;;;;;;;;;;;;
+
+type				mus_diplomat
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				turks, models_strat/textures/mus_diplomat_moor_strat.tga
+texture				aztecs, models_strat/textures/mus_diplomat_moor_strat.tga
+texture				egypt, models_strat/textures/mus_diplomat_moor_strat.tga
+texture				moors, models_strat/textures/mus_diplomat_mus_strat.tga
+texture				golden, models_strat/textures/mus_diplomat_egypt_strat.tga
+texture				cuman, models_strat/textures/mus_diplomat_kwarezm_strat.tga
+texture				portugal, models_strat/textures/mus_diplomat_kwarezm_strat.tga
+texture				timurids, models_strat/textures/mus_diplomat_kwarezm_strat.tga
+model_flexi_m			models_strat/mus_diplomat.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				chinese_ambassador
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				papal_states, models_strat/textures/taiping_bomb.tga
+texture				saxons, models_strat/textures/taiping_bomb.tga
+texture				cru, models_strat/textures/taiping_bomb.tga
+texture				byzantium, models_strat/textures/taiping_bomb.tga
+texture				slave, models_strat/textures/taiping_bomb.tga
+model_flexi_m			models_strat/taiping_ambassador.CAS, max
+shadow_model_flexi		models_strat/shadow_scroll.CAS, max
+
+
+type				ouzhou_ambassador
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				england, models_strat/textures/1648_diplomat_england.tga
+texture				denmark, models_strat/textures/1648_diplomat_sa.tga
+texture				poland, models_strat/textures/1648_diplomat_sa.tga
+texture				scotland, models_strat/textures/1648_diplomat_sa.tga
+texture				saxons, models_strat/textures/1648_diplomat_france.tga
+texture				papal_states, models_strat/textures/1648_diplomat_england.tga
+texture				france, models_strat/textures/1648_diplomat_france.tga
+texture				hungary, models_strat/textures/1648_diplomat_england.tga
+texture				teu, models_strat/textures/1648_diplomat_england.tga
+texture				aztecs, models_strat/textures/1648_diplomat_sa.tga
+texture				milan, models_strat/textures/1648_diplomat_sa.tga
+texture				spain, models_strat/textures/1648_diplomat_sa.tga
+texture				venice, models_strat/textures/1648_diplomat_sa.tga
+texture				portugal, models_strat/textures/1648_diplomat_france.tga
+texture				portugala, models_strat/textures/1648_diplomat_france.tga
+texture				normans, models_strat/textures/1648_diplomat_france.tga
+texture				hre, models_strat/textures/1648_diplomat_france.tga
+texture				russia, models_strat/textures/1648_diplomat_france.tga
+texture				slave, models_strat/textures/1648_diplomat_england.tga
+model_flexi_m			models_strat/1648_diplomat.CAS, max
+shadow_model_flexi		models_strat/shadow_scroll.CAS, max
+
+type				northern_ambassador
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				teu, models_strat/textures/ambasador_wales.tga
+texture				aztecs, models_strat/textures/ambasador_ireland.tga
+texture				denmark, models_strat/textures/ambasador_denmark.tga
+texture				scotland, models_strat/textures/ambasador_scotland.tga
+texture				france, models_strat/textures/ambasador_france.tga
+texture				hre, models_strat/textures/ambasador_hre.tga
+texture				england, models_strat/textures/ambasador_england.tga
+texture				normans, models_strat/textures/ambasador_sweden.tga
+texture				poland, models_strat/textures/ambasador_poland.tga
+texture				hungary, models_strat/textures/ambasador_hungary.tga
+texture				russia, models_strat/textures/ambasador_russia.tga
+texture				saxons, models_strat/textures/ambasador_norway.tga
+texture				golden, models_strat/textures/ambasador_novgorod.tga
+texture				sicily, models_strat/textures/ambasador_hre.tga
+; russia
+model_flexi_m			models_strat/northern_ambassador.CAS, max
+shadow_model_flexi		models_strat/shadow_scroll.CAS, max
+
+
+type				islamic_ambassador
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				cuman, models_strat/textures/islamic_ambassador_turks.tga
+texture				aztecs, models_strat/textures/islamic_ambassador_blue.tga
+texture				milan, models_strat/textures/islamic_ambassador_blue.tga
+texture				portugal, models_strat/textures/islamic_ambassador_red.tga
+texture				egypt, models_strat/textures/islamic_ambassador_egypt.tga
+texture				moors, models_strat/textures/islamic_ambassador_moors.tga
+texture				bulga, models_strat/textures/islamic_ambassador_moors.tga
+texture				timurids, models_strat/textures/islamic_ambassador_turks.tga
+texture				lith, models_strat/textures/islamic_ambassador_mongals.tga
+texture				turks, models_strat/textures/islamic_ambassador_red.tga
+texture				mongols, models_strat/textures/islamic_ambassador_mongals.tga
+model_flexi_m			models_strat/islamic_ambassador.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				turkish_ambassador
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				cuman, models_strat/textures/mus_diplomat_mus_strat.tga
+texture				golden, models_strat/textures/mus_diplomat_mus_strat_egypt.tga
+texture				moors, models_strat/textures/mus_diplomat_mus_strat_moors.tga
+texture				lith, models_strat/textures/mus_diplomat_mus_strat_mali.tga
+texture				turks, models_strat/textures/mus_diplomat_mus_strat.tga
+model_flexi_m			models_strat/mus_diplomat.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				eastern_ambassador
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				poland, models_strat/textures/euro_diplomat_pol_strat.tga
+texture				hungary, models_strat/textures/euro_diplomat_hungary_strat.tga
+texture				bulga, models_strat/textures/euro_diplomat_bulga_strat.tga
+texture				milan, models_strat/textures/euro_diplomat_serbia_strat.tga
+texture				sicily, models_strat/textures/euro_diplomat_lith_strat.tga
+model_flexi_m			models_strat/eastern_diplomat.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+
+
+type				thai_ambassador
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				cru, models_strat/textures/thai_diplomat.tga
+texture				aztecs, models_strat/textures/burma_diplomat.tga
+model_flexi_m			models_strat/thai_diplomat.cas, max
+shadow_model_flexi		models_strat/shadow_scroll.CAS, max
+
+type				ming_ambassador
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/WenGuan_liubei.tga
+model_flexi_m			models_strat/WenGuan_All.cas, max
+shadow_model_flexi		models_strat/shadow_scroll.CAS, max
+
+;;;;;;;
+; SPY ;
+;;;;;;;
+
+type				ouzhou_spy
+skeleton			strat_spy
+scale				0.7
+indiv_range			40
+texture				france, models_strat/textures/1648_agent_euro.tga
+texture				teu, models_strat/textures/1648_agent_england.tga
+texture				venice, models_strat/textures/1648_agent_england.tga
+texture				england, models_strat/textures/1648_agent_euro.tga
+texture				denmark, models_strat/textures/1648_agent_england.tga
+texture				hungary, models_strat/textures/1648_agent_euro.tga
+texture				hre, models_strat/textures/1648_agent_euro.tga
+texture				spain, models_strat/textures/1648_agent_england.tga
+texture				normans, models_strat/textures/1648_agent_euro.tga
+texture				sicily, models_strat/textures/1648_agent_euro.tga
+texture				mongols, models_strat/textures/1648_agent_euro.tga
+texture				spain, models_strat/textures/1648_agent_euro.tga
+texture				milan, models_strat/textures/1648_agent_england.tga
+texture				aztecs, models_strat/textures/1648_agent_euro.tga
+texture				portugal, models_strat/textures/1648_agent_euro.tga
+texture				portugala, models_strat/textures/1648_agent_england.tga
+texture				scotland, models_strat/textures/1648_agent_euro.tga
+texture				poland, models_strat/textures/1648_agent_euro.tga
+texture				denmark, models_strat/textures/1648_agent_england.tga
+texture				russia, models_strat/textures/1648_agent_euro.tga
+model_flexi_m			models_strat/1648_agent.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				japan_spy
+skeleton			strat_spy
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/SHOGUN_Prom_Ninja_Takeda.tga
+texture				papal_states, models_strat/textures/SHOGUN_Prom_Ninja_Takeda.tga
+model_flexi_m			models_strat/Japanese_strat_Ninja.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				islamic_spy
+skeleton			strat_spy
+scale				0.7
+indiv_range			40
+texture				aztecs, models_strat/textures/islamic_spy_blue.tga
+texture				cuman, models_strat/textures/islamic_spy_turks.tga
+texture				milan, models_strat/textures/islamic_spy_turks.tga
+texture				portugal, models_strat/textures/islamic_spy_red.tga
+texture				egypt, models_strat/textures/islamic_spy_egypt.tga
+texture				moors, models_strat/textures/islamic_spy_moors.tga
+texture				bulga, models_strat/textures/islamic_spy_moors.tga
+texture				timurids, models_strat/textures/islamic_spy_turks.tga
+texture				lith, models_strat/textures/islamic_spy_mongals.tga
+texture				turks, models_strat/textures/islamic_spy_red.tga
+texture				mongols, models_strat/textures/islamic_spy_mongals.tga
+model_flexi_m			models_strat/islamic_spy.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				turkish_spy
+skeleton			strat_spy
+scale				0.7
+indiv_range			40
+texture				cuman, models_strat/textures/mus_spy_mus_strat.tga
+texture				golden, models_strat/textures/mus_spy_mus_strat_egypt.tga
+texture				moors, models_strat/textures/mus_spy_mus_strat_moors.tga
+texture				lith, models_strat/textures/mus_spy_mus_strat_mali.tga
+texture				turks, models_strat/textures/mus_spy_mus_strat.tga
+model_flexi_m			models_strat/mus_spy.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+
+type				chinese_spy
+skeleton			strat_spy
+scale				0.7
+indiv_range			40
+texture				cru, models_strat/textures/royal_banner.tga
+texture				byzantium, models_strat/textures/royal_banner.tga
+model_flexi_m			models_strat/royal_banner.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				ming_spy
+skeleton			strat_spy
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/sg_spy_sm.tga
+texture				milan, models_strat/textures/sg_spy_sm
+model_flexi_m			models_strat/sg_spy_sm.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+;;;;;;;;;;;;
+; Assassin ;
+;;;;;;;;;;;;
+
+type				euro_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				teu, models_strat/textures/yong_brave.tga
+texture				aztecs, models_strat/textures/yong_brave.tga
+texture				denmark, models_strat/textures/yong_brave.tga
+texture				scotland, models_strat/textures/yong_brave.tga
+texture				france, models_strat/textures/yong_brave.tga
+texture				hre, models_strat/textures/yong_brave.tga
+texture				england, models_strat/textures/yong_brave.tga
+texture				normans, models_strat/textures/yong_brave.tga
+texture				poland, models_strat/textures/yong_brave.tga
+texture				hungary, models_strat/textures/yong_brave.tga
+texture				russia, models_strat/textures/yong_brave.tga
+texture				portugal, models_strat/textures/yong_brave.tga
+texture				sicily, models_strat/textures/yong_brave.tga
+texture				milan, models_strat/textures/yong_brave.tga
+texture				mongols, models_strat/textures/yong_brave.tga
+texture				venice, models_strat/textures/yong_brave.tga
+texture				spain, models_strat/textures/yong_brave.tga
+model_flexi			models_strat/qing_assassin.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				amer_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				milan, models_strat/textures/1648_agent_england.tga
+texture				portugala, models_strat/textures/1648_agent_euro.tga
+texture				scotland, models_strat/textures/1648_agent_euro.tga
+texture				poland, models_strat/textures/1648_agent_euro.tga
+texture				teu, models_strat/textures/1648_agent_euro.tga
+texture				denmark, models_strat/textures/1648_agent_euro.tga
+model_flexi			models_strat/1648_gesandter.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+
+
+type				northern_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				teu, models_strat/textures/assassin_southern_papacy.tga
+texture				aztecs, models_strat/textures/assassin_ireland.tga
+texture				denmark, models_strat/textures/mtw_northen_european_assassin_denmark.tga
+texture				scotland, models_strat/textures/mtw_northen_european_assassin_scotland.tga
+texture				france, models_strat/textures/mtw_northen_european_assassin_france.tga
+texture				hre, models_strat/textures/mtw_northen_european_assassin_hre.tga
+texture				england, models_strat/textures/mtw_northen_european_assassin_england.tga
+texture				normans, models_strat/textures/mtw_northen_european_assassin_sweden.tga
+texture				poland, models_strat/textures/mtw_northen_european_assassin_poland.tga
+texture				hungary, models_strat/textures/mtw_northen_european_assassin_hungary.tga
+texture				russia, models_strat/textures/mtw_northen_european_assassin_russia.tga
+texture				portugal, models_strat/textures/mtw_northen_european_assassin_russia.tga
+texture				golden, models_strat/textures/mtw_northen_european_assassin_novgorod.tga
+texture				saxons, models_strat/textures/mtw_northen_european_assassin_norway.tga
+model_flexi			models_strat/northern_assassin.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				southern_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				cru, models_strat/textures/assassin_genoa.tga
+texture				bulga, models_strat/textures/mtw_northen_european_assassin_hungary.tga
+texture				portugala, models_strat/textures/assassin_southern_portugal.tga
+texture				lith, models_strat/textures/assassin_southern_venice.tga
+texture				milan, models_strat/textures/mtw_northen_european_assassin_russia.tga
+texture				papal_states, models_strat/textures/assassin_southern_papacy.tga
+texture				spain, models_strat/textures/assassin_southern_castile.tga
+texture				aztecs, models_strat/textures/assassin_southern_castile.tga
+texture				portugal, models_strat/textures/assassin_southern_venice.tga
+texture				venice, models_strat/textures/assassin_southern_venice.tga
+texture				sicily, models_strat/textures/assassin_southern_sicily.tga
+texture				byzantium, models_strat/textures/assassin_southern_byzantium.tga
+model_flexi			models_strat/southern_assasin.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				New_Northern_assasin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/New_Northern_assasin_bysantine.tga
+texture				papal_states, models_strat/textures/New_Northern_assasin_egypt.tga
+texture				cru, models_strat/textures/New_Northern_assasin_bysantine.tga
+texture				venice, models_strat/textures/New_Northern_assasin_venice.tga
+texture				hre, models_strat/textures/New_Northern_assasin_sicily.tga
+texture				sicily, models_strat/textures/New_Northern_assasin_sicily.tga
+texture				denmark, models_strat/textures/mtw_northen_european_assassin_denmark.tga
+model_flexi			models_strat/New_Northern_assasin.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				islamic_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				aztecs, models_strat/textures/assassin_southern_portugal.tga
+texture				milan, models_strat/textures/assassin_southern_portugal.tga
+texture				portugal, models_strat/textures/assassin_southern_venice.tga
+texture				cuman, models_strat/textures/assassin_southern_milan.tga
+texture				turks, models_strat/textures/assassin_southern_milan.tga
+texture				moors, models_strat/textures/assassin_southern_papacy.tga
+texture				bulga, models_strat/textures/assassin_southern_papacy.tga
+texture				egypt, models_strat/textures/assassin_southern_castile.tga
+texture				mongols, models_strat/textures/assassin_southern_castile.tga
+texture				lith, models_strat/textures/assassin_southern_portugal.tga
+texture				timurids, models_strat/textures/assassin_southern_milan.tga
+model_flexi			models_strat/muslim_assassin.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				turkish_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				cuman, models_strat/textures/mus_assassin_mus_strat.tga
+texture				golden, models_strat/textures/mus_assassin_mus_strat_egypt.tga
+texture				moors, models_strat/textures/mus_assassin_mus_strat_moors.tga
+texture				lith, models_strat/textures/mus_assassin_mus_strat_mali.tga
+texture				turks, models_strat/textures/mus_assassin_mus_strat.tga
+model_flexi_m			models_strat/mus_assassin.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				eastern_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				poland, models_strat/textures/euro_assassin_pol_strat.tga
+texture				hungary, models_strat/textures/euro_assassin_pol_strat.tga
+texture				bulga, models_strat/textures/euro_assassin_pol_strat.tga
+texture				milan, models_strat/textures/euro_assassin_pol_strat.tga
+texture				sicily, models_strat/textures/euro_assassin_pol_strat.tga
+model_flexi_m			models_strat/eastern_assassin.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				russian_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				golden, models_strat/textures/rus_assassin_suz_strat.tga
+texture				russia, models_strat/textures/rus_assassin_nov_strat.tga
+texture				slave, models_strat/textures/rus_assassin_kiyv_strat.tga
+model_flexi_m			models_strat/rus_assassin.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				chinese_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/nom_assassin_china_strat.tga
+texture				cru, models_strat/textures/nom_assassin_cum_strat.tga
+texture				mongols, models_strat/textures/nom_assassin_cum_strat.tga
+texture				aztecs, models_strat/textures/nom_assassin_japan_strat.tga
+texture				milan, models_strat/textures/nom_assassin_korea_strat.tga
+texture				sicily, models_strat/textures/nom_assassin_tibet_strat.tga
+texture				saxons, models_strat/textures/nom_assassin_cum_strat.tga
+model_flexi_m			models_strat/chinese_assassin.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				ming_assassin
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/cike_all.tga
+model_flexi			models_strat/ming_cike.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+
+type				ninja
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/ninja.tga
+model_flexi_m			models_strat/ninja.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+;;;;;;;;;;;;
+; PRINCESS ;
+;;;;;;;;;;;;
+
+type				northern_princess
+skeleton			princess
+scale				0.7
+indiv_range			40
+texture				teu, models_strat/textures/princess_genoa.tga
+texture				aztecs, models_strat/textures/princess_ireland.tga
+texture				denmark, models_strat/textures/princess_denmark.tga
+texture				scotland, models_strat/textures/princess_scottland.tga
+texture				france, models_strat/textures/princess_france.tga
+texture				hre, models_strat/textures/princess_hre.tga
+texture				england, models_strat/textures/princess_england.tga
+;texture			saxons, textures/assassin_southern_venice.tga
+texture				normans, models_strat/textures/princess_sweden.tga
+texture				poland, models_strat/textures/princess_poland.tga
+texture				hungary, models_strat/textures/princess_hungary.tga
+texture				russia, models_strat/textures/princess_russia.tga
+texture				golden, models_strat/textures/princess_novgorod.tga
+texture				saxons, models_strat/textures/princess_norway.tga
+model_flexi_m			models_strat/northern_princess.cas, max
+shadow_model_flexi		models_strat/shadow_model_princess_northern.cas, max
+
+type				southern_princess
+skeleton			princess
+scale				0.7
+indiv_range			40
+texture				cru, models_strat/textures/SouthernPrincess_castile.tga
+texture				lith, models_strat/textures/SouthernPrincess_venice.tga
+texture				bulga, models_strat/textures/princess_hungary.tga
+texture				portugala, models_strat/textures/SouthernPrincess_portugal.tga
+texture				milan, models_strat/textures/princess_russia.tga
+texture				papal_states, models_strat/textures/SouthernPrincess_papacy.tga
+texture				aztecs, models_strat/textures/SouthernPrincess_papacy.tga
+texture				spain, models_strat/textures/SouthernPrincess_castile.tga
+texture				venice, models_strat/textures/SouthernPrincess_venice.tga
+texture				sicily, models_strat/textures/SouthernPrincess_sicily.tga
+texture				portugal, models_strat/textures/SouthernPrincess_venice.tga
+texture				byzantium, models_strat/textures/SouthernPrincess_byzantium.tga
+model_flexi_m			models_strat/southern_princess.cas, max
+shadow_model_flexi		models_strat/shadow_model_princess_southern.cas, max
+
+type				northern_princess2
+skeleton			princess
+scale				0.7
+indiv_range			40
+texture				denmark, models_strat/textures/princess2_denmark.tga
+texture				golden, models_strat/textures/princess2_golden.tga
+texture				normans, models_strat/textures/princess2_novgorod.tga
+texture				saxons, models_strat/textures/princess2_england.tga
+texture				france, models_strat/textures/princess_england.tga
+model_flexi_m			models_strat/northern_princess2.cas, max
+shadow_model_flexi		models_strat/shadow_model_princess_northern.cas, max
+
+type				northern_princess3
+skeleton			princess
+scale				0.7
+indiv_range			40
+texture				venice, models_strat/textures/princess3_Venice.tga
+texture				france, models_strat/textures/princess3_france.tga
+texture				scotland, models_strat/textures/princess3_scotland.tga
+texture				spain, models_strat/textures/New_Princess_milan.tga
+texture				portugal, models_strat/textures/New_Princess_lithuania.tga
+texture				portugala, models_strat/textures/New_Princess_portugala.tga
+texture				normans, models_strat/textures/New_Princess_sweden.tga
+texture				england, models_strat/textures/New_Princess_norway.tga
+texture				saxons, models_strat/textures/princess_england.tga
+model_flexi_m			models_strat/northern_princess3.cas, max
+shadow_model_flexi		models_strat/shadow_model_princess_southern.cas, max
+
+type				russian_princess
+skeleton			princess
+scale				0.7
+indiv_range			40
+texture				golden, models_strat/textures/rus_princes_suz_strat.tga
+texture				russia, models_strat/textures/rus_princes_nov_strat.tga
+texture				slave, models_strat/textures/rus_princes_kiyv_strat.tga
+model_flexi_m			models_strat/rus_princes.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				chinese_princess
+skeleton			princess
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/nom_princess_china_strat.tga
+texture				aztecs, models_strat/textures/nom_princess_japan_strat.tga
+texture				cru, models_strat/textures/nom_princess_cum_strat.tga
+texture				mongols, models_strat/textures/nom_princess_cum_strat.tga
+texture				milan, models_strat/textures/nom_princess_korea_strat.tga
+texture				sicily, models_strat/textures/nom_princess_tibet_strat.tga
+texture				saxons, models_strat/textures/nom_princess_cum_strat.tga
+model_flexi_m			models_strat/chinese_princess.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+
+;;;;;;;;;;;;
+; MERCHANT ;
+;;;;;;;;;;;;
+
+
+type				western_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				teu, models_strat/textures/xiang_yong.tga
+texture				hre, models_strat/textures/xiang_yong.tga
+texture				france, models_strat/textures/xiang_yong.tga
+texture				england, models_strat/textures/xiang_yong.tga
+texture				portugala, models_strat/textures/xiang_yong.tga
+texture				milan, models_strat/textures/xiang_yong.tga
+texture				spain, models_strat/textures/xiang_yong.tga
+texture				venice, models_strat/textures/xiang_yong.tga
+texture				mongols, models_strat/textures/xiang_yong.tga
+texture				hungary, models_strat/textures/xiang_yong.tga
+texture				russia, models_strat/textures/xiang_yong.tga
+texture				portugal, models_strat/textures/xiang_yong.tga
+texture				denmark, models_strat/textures/xiang_yong.tga
+texture				sicily, models_strat/textures/xiang_yong.tga
+texture				normans, models_strat/textures/xiang_yong.tga
+texture				poland, models_strat/textures/xiang_yong.tga
+texture				aztecs, models_strat/textures/xiang_yong.tga
+texture				scotland, models_strat/textures/xiang_yong.tga
+model_flexi_m			models_strat/xiang_yong.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				japan_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/SHOGUN_Prom_Kusa_Takeda.tga
+texture				papal_states, models_strat/textures/SHOGUN_Prom_Kusa_Takeda.tga
+model_flexi_m			models_strat/Japanese_strat_Kusa.CAS, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				northern_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				teu, models_strat/textures/southern_european_merchant_papacy.tga
+texture				aztecs, models_strat/textures/northen_european_merchant_ireland.tga
+texture				denmark, models_strat/textures/northen_european_merchant_denmark.tga
+texture				scotland, models_strat/textures/northen_european_merchant_scotland.tga
+texture				france, models_strat/textures/northen_european_merchant_france.tga
+texture				hre, models_strat/textures/northen_european_merchant_hre.tga
+texture				england, models_strat/textures/northen_european_merchant_england.tga
+texture				normans, models_strat/textures/northen_european_merchant_sweden.tga
+texture				poland, models_strat/textures/northen_european_merchant_poland.tga
+texture				hungary, models_strat/textures/northen_european_merchant_hungary.tga
+texture				russia, models_strat/textures/northen_european_merchant_russia.tga
+texture				golden, models_strat/textures/northen_european_merchant_novgorod.tga
+texture				saxons, models_strat/textures/northen_european_merchant_norway.tga
+texture				sicily, models_strat/textures/southern_european_merchant_sicily.tga
+model_flexi_m			models_strat/northen_merchant.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				southern_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				cru, models_strat/textures/southern_european_merchant_papacy.tga
+texture				bulga, models_strat/textures/northen_european_merchant_hungary.tga
+texture				lith, models_strat/textures/southern_european_merchant_venice.tga
+texture				portugala, models_strat/textures/southern_european_merchant_portugal.tga
+texture				spain, models_strat/textures/southern_european_merchant_castile.tga
+texture				milan, models_strat/textures/southern_european_merchant_castile.tga
+texture				aztecs, models_strat/textures/southern_european_merchant_castile.tga
+texture				venice, models_strat/textures/southern_european_merchant_venice.tga
+texture				milan, models_strat/textures/northen_european_merchant_russia.tga
+texture				papal_states, models_strat/textures/southern_european_merchant_papacy.tga
+texture				sicily, models_strat/textures/southern_european_merchant_sicily.tga
+texture				portugal, models_strat/textures/southern_european_merchant_venice.tga
+texture				byzantium, models_strat/textures/southern_european_merchant_byzantium.tga
+model_flexi_m			models_strat/southern_merchant.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				islamic_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				aztecs, models_strat/textures/merchant_egypt.tga
+texture				milan, models_strat/textures/merchant_red.tga
+texture				portugal, models_strat/textures/merchant_turk.tga
+texture				cuman, models_strat/textures/merchant_turk.tga
+texture				turks, models_strat/textures/merchant_red.tga
+texture				egypt, models_strat/textures/merchant_egypt.tga
+texture				moors, models_strat/textures/merchant_moor.tga
+texture				bulga, models_strat/textures/merchant_moor.tga
+texture				lith, models_strat/textures/merchant_mongal.tga
+texture				mongols, models_strat/textures/merchant_mongal.tga
+texture				timurids, models_strat/textures/merchant_turk.tga
+model_flexi_m			models_strat/islamic_merchant.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				turkish_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				cuman, models_strat/textures/mus_merchant_mus_strat.tga
+texture				golden, models_strat/textures/mus_merchant_mus_strat_egypt.tga
+texture				moors, models_strat/textures/mus_merchant_mus_strat_moors.tga
+texture				lith, models_strat/textures/mus_merchant_mus_strat_mali.tga
+texture				turks, models_strat/textures/mus_merchant_mus_strat.tga
+model_flexi_m			models_strat/mus_merchant.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				eastern_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				poland, models_strat/textures/euro_merchant_pol_strat.TGA
+texture				hungary, models_strat/textures/euro_merchant_hungary_strat.tga
+texture				bulga, models_strat/textures/euro_merchant_bulga_strat.tga
+texture				milan, models_strat/textures/euro_merchant_serbia_strat.tga
+texture				sicily, models_strat/textures/euro_merchant_lith_strat.tga
+model_flexi_m			models_strat/eastern_merchant.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				russian_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				golden, models_strat/textures/rus_merchant_suz_strat.tga
+texture				russia, models_strat/textures/rus_merchant_nov_strat.tga
+texture				slave, models_strat/textures/rus_merchant_kiyv_strat.tga
+model_flexi_m			models_strat/rus_merchant.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+
+type				ming_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/WenRen_liubei.tga
+texture				milan, models_strat/textures/WenRen_liubei
+model_flexi_m			models_strat/WenRen_All.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				thai_merchant
+skeleton			strat_merchant
+scale				0.7
+indiv_range			40
+texture				cru, models_strat/textures/thai_merchant.tga
+texture				aztecs, models_strat/textures/burma_merchant.tga
+model_flexi_m			models_strat/thai_diplomat.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+;;;;;;;;;;;
+; PRIESTS ;
+;;;;;;;;;;;
+
+type				japan_priest
+skeleton			strat_priest
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/BLTW_officer_monks.tga
+texture				papal_states, models_strat/textures/BLTW_officer_monks.tga
+texture				byzantium, models_strat/textures/BLTW_officer_monks.tga
+texture				cru, models_strat/textures/BLTW_officer_monks.tga
+texture				sicily, models_strat/textures/BLTW_officer_monks.tga
+texture				mongols, models_strat/textures/BLTW_officer_monks.tga
+model_flexi_m			models_strat/BLTW_officer_monks.cas, max
+shadow_model_flexi		models_strat/shadow_model_princess_northern.cas, max
+
+type				catholic_priest
+skeleton			strat_priest
+scale				0.7
+indiv_range			40
+texture				cru, models_strat/textures/catholic_priest_genoa.tga
+texture				teu, models_strat/textures/catholic_priest_teu.tga
+texture				aztecs, models_strat/textures/catholic_priest_ireland.tga
+texture				portugala, models_strat/textures/mtw_catholic_priest_portugal.tga
+texture				denmark, models_strat/textures/catholic_priest_denmark.tga
+texture				scotland, models_strat/textures/catholic_priest_scotland.tga
+texture				france, models_strat/textures/catholic_priest_france.tga
+texture				hre, models_strat/textures/catholic_priest_hre.tga
+texture				england, models_strat/textures/catholic_priest_england.tga
+texture				normans, models_strat/textures/catholic_priest_sweden.tga
+texture				spain, models_strat/textures/catholic_priest_castile.tga
+texture				venice, models_strat/textures/catholic_priest_venice.tga
+texture				milan, models_strat/textures/catholic_priest_scotland.tga
+texture				aztecs, models_strat/textures/catholic_priest_scotland.tga
+texture				papal_states, models_strat/textures/catholic_priest_papacy.tga
+texture				sicily, models_strat/textures/catholic_priest_sicily.tga
+texture				poland, models_strat/textures/catholic_priest_poland.tga
+texture				hungary, models_strat/textures/catholic_priest_hungary.tga
+texture				portugal, models_strat/textures/catholic_priest_venice.tga
+texture				saxons, models_strat/textures/catholic_priest_norway.tga
+model_flexi_m			models_strat/catholic_priest.cas, max
+shadow_model_flexi		models_strat/shadow_staff.CAS, max
+
+type				catholic_bishop
+skeleton			strat_priest
+scale				0.7
+indiv_range			40
+texture				cru, models_strat/textures/catholic_bishop_genoa.tga
+texture				portugala, models_strat/textures/mtw_catholic_bishop_portugal.tga
+texture				teu, models_strat/textures/mtw_catholic_bishop_teu.tga
+texture				aztecs, models_strat/textures/catholic_bishop_ireland.tga
+texture				denmark, models_strat/textures/mtw_catholic_bishop_denmark.tga
+texture				scotland, models_strat/textures/mtw_catholic_bishop_scotland.tga
+texture				france, models_strat/textures/mtw_catholic_bishop_france.tga
+texture				hre, models_strat/textures/mtw_catholic_bishop_hre.tga
+texture				england, models_strat/textures/mtw_catholic_bishop_england.tga
+texture				aztecs, models_strat/textures/mtw_catholic_bishop_sweden.tga
+texture				normans, models_strat/textures/mtw_catholic_bishop_sweden.tga
+texture				spain, models_strat/textures/mtw_catholic_bishop_castile.tga
+texture				venice, models_strat/textures/mtw_catholic_bishop_venice.tga
+texture				milan, models_strat/textures/orthodox_bishop_russia.tga
+texture				papal_states, models_strat/textures/mtw_catholic_bishop_papacy.tga
+texture				sicily, models_strat/textures/mtw_catholic_bishop_sicily.tga
+texture				poland, models_strat/textures/mtw_catholic_bishop_poland.tga
+texture				hungary, models_strat/textures/mtw_catholic_bishop_hungary.tga
+texture				portugal, models_strat/textures/mtw_catholic_bishop_venice.tga
+texture				saxons, models_strat/textures/mtw_catholic_bishop_norway.tga
+model_flexi_m			models_strat/catholic_bishop.cas, max
+shadow_model_flexi		models_strat/shadow_staff.CAS, max
+
+type				catholic_cardinal
+skeleton			strat_priest
+scale				0.7
+indiv_range			40
+texture				teu, models_strat/textures/mtw_catholic_cardinal_teu.tga
+texture				cru, models_strat/textures/catholic_cardinal_genoa.tga
+texture				aztecs, models_strat/textures/catholic_cardinal_ireland.tga
+texture				portugala, models_strat/textures/mtw_catholic_cardinal_portugal.tga
+texture				denmark, models_strat/textures/mtw_catholic_cardinal_denmark.tga
+texture				scotland, models_strat/textures/mtw_catholic_cardinal_scotland.tga
+texture				france, models_strat/textures/mtw_catholic_cardinal_france.tga
+texture				hre, models_strat/textures/mtw_catholic_cardinal_hre.tga
+texture				england, models_strat/textures/mtw_catholic_cardinal_england.tga
+texture				aztecs, models_strat/textures/mtw_catholic_cardinal_england.tga
+texture				normans, models_strat/textures/mtw_catholic_cardinal_sweden.tga
+texture				spain, models_strat/textures/mtw_catholic_cardinal_castile.tga
+texture				venice, models_strat/textures/mtw_catholic_cardinal_venice.tga
+texture				milan, models_strat/textures/orthodox_patriarch_russia.tga
+texture				papal_states, models_strat/textures/mtw_catholic_cardinal_papacy.tga
+texture				sicily, models_strat/textures/mtw_catholic_cardinal_sicily.tga
+texture				poland, models_strat/textures/mtw_catholic_cardinal_poland.tga
+texture				hungary, models_strat/textures/mtw_catholic_cardinal_hungary.tga
+texture				portugal, models_strat/textures/mtw_catholic_cardinal_venice.tga
+texture				saxons, models_strat/textures/mtw_catholic_cardinal_norway.tga
+model_flexi_m			models_strat/catholic_cardinal.cas, max
+shadow_model_flexi		models_strat/shadow_staff.CAS, max
+
+type				orthodox_patriarch
+skeleton			strat_priest
+scale				0.7
+indiv_range			40
+texture				lith, models_strat/textures/orthodox_patriarch_denmark.tga
+texture				bulga, models_strat/textures/orthodox_patriarch_byzantium.tga
+texture				byzantium, models_strat/textures/orthodox_patriarch_byzantium.tga
+texture				russia, models_strat/textures/orthodox_patriarch_russia.tga
+texture				golden, models_strat/textures/orthodox_patriarch_novgorod.tga
+model_flexi_m			models_strat/orthodox_patriarch.cas, max
+shadow_model_flexi		models_strat/shadow_staff.CAS, max
+
+type				muslim_iman
+skeleton			strat_priest
+scale				0.7
+indiv_range			40
+texture				aztecs, models_strat/textures/muslim_iman_blue.tga
+texture				milan, models_strat/textures/muslim_iman_blue.tga
+texture				portugal, models_strat/textures/muslim_iman_red.tga
+texture				cuman, models_strat/textures/muslim_iman_turks.tga
+texture				turks, models_strat/textures/muslim_iman_turks.tga
+texture				egypt, models_strat/textures/muslim_iman_egypt.tga
+texture				golden, models_strat/textures/muslim_iman_egypt.tga
+texture				moors, models_strat/textures/muslim_iman_moor.tga
+texture				bulga, models_strat/textures/muslim_iman_moor.tga
+texture				lith, models_strat/textures/muslim_iman_mongals.tga
+texture				mongols, models_strat/textures/muslim_iman_mongals.tga
+texture				timurids, models_strat/textures/muslim_iman_turks.tga
+model_flexi_m			models_strat/muslim_iman.cas, max
+shadow_model_flexi		models_strat/shadow_staff.CAS, max
+
+type				turkish_priest
+skeleton			strat_priest
+scale				0.7
+indiv_range			40
+texture				cuman, models_strat/textures/mus_ulem_mus_strat.tga
+texture				golden, models_strat/textures/mus_ulem_mus_strat_egypt.tga
+texture				moors, models_strat/textures/mus_ulem_mus_strat_moors.tga
+texture				lith, models_strat/textures/mus_ulem_mus_strat_mali.tga
+texture				turks, models_strat/textures/mus_ulem_mus_strat.tga
+model_flexi_m			models_strat/mus_priest.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				russian_priest
+skeleton			strat_priest
+scale				0.7
+indiv_range			40
+texture				golden, models_strat/textures/rus_priest_suz_strat.tga
+texture				russia, models_strat/textures/rus_priest_nov_strat.tga
+texture				slave, models_strat/textures/rus_priest_kiyv_strat.tga
+model_flexi_m			models_strat/rus_priest.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+type				russian_bishops
+skeleton			strat_priest
+scale				0.7
+indiv_range			40
+texture				golden, models_strat/textures/rus_bishop_suz_strat.tga
+texture				russia, models_strat/textures/rus_bishop_nov_strat.tga
+texture				slave, models_strat/textures/rus_bishop_kiyv_strat.tga
+model_flexi_m			models_strat/rus_bishop.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+
+;;;;;;;;;;;
+; HERETIC ;
+;;;;;;;;;;;
+
+type				heretic
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				lith, models_strat/textures/heretic_christian_england.tga
+texture				slave, models_strat/textures/heretic_christian_rebels.tga
+model_flexi_m			models_strat/heretic.cas, max
+shadow_model_flexi		models_strat/shadow_staff.CAS, max
+
+
+;;;;;;;;;
+; WITCH ;
+;;;;;;;;;
+
+type				witch
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				slave, models_strat/textures/witch.tga
+model_flexi_m			models_strat/witch.cas, max
+shadow_model_flexi		models_strat/shadow_model_princess_northern.cas, max
+
+
+;;;;;;;;;;;;;;
+; INQUISITOR ;
+;;;;;;;;;;;;;;
+
+type				inquisitor
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				papal_states, models_strat/textures/inquisator_papal_states.tga
+model_flexi_m			models_strat/inquisitor.cas, max
+shadow_model_flexi		models_strat/shadow_book.CAS, max
+
+;;;;;;;;;;;
+; Kings ;
+;;;;;;;;;;;
+
+type				jap_jiangjun
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture			    papal_states, models_strat/textures/SHOGUN_Prom_Officer_Samurai_Tokugawa.tga
+texture				slave, models_strat/textures/SHOGUN_Prom_Officer_Samurai_Rebel.tga
+model_flexi_m			models_strat/Japanese_Daimyo_high.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+;;;;;;;;;;;
+; GENERAL ;
+;;;;;;;;;;;
+
+
+type				sub_saharan_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				lith, models_strat/textures/zulu.tga
+texture				papal_states, models_strat/textures/Axum.tga
+texture				slave, models_strat/textures/zulu.tga
+model_flexi_m			models_strat/sub_saharan_capt.cas, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				sub_saharan_prince
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				lith, models_strat/textures/zulu.tga
+texture				papal_states, models_strat/textures/Axum.tga
+texture				slave, models_strat/textures/zulu.tga
+model_flexi_m			models_strat/sub_saharan_heir.cas, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				sub_saharan_leader
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				lith, models_strat/textures/zulu.tga
+texture				slave, models_strat/textures/zulu.tga
+texture				papal_states, models_strat/textures/Axum.tga
+model_flexi_m			models_strat/sub_saharan_king.cas, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				saharan_capt
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				slave, models_strat/textures/Arabs.tga
+model_flexi_m			models_strat/saharan_capt.cas, max
+shadow_model_flexi		models_strat/saharan_capt.CAS, max
+
+type				saharan_gen
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				slave, models_strat/textures/Arabs.tga
+model_flexi_m			models_strat/saharan_gen.cas, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				saharan_king
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				slave, models_strat/textures/Arabs.tga
+model_flexi_m			models_strat/saharan_king.cas, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+;华尔
+type				huaer
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				spain, models_strat/textures/NTW_unit_spanish_guerrilla_sp.tga
+texture				teu, models_strat/textures/NTW_unit_spanish_guerrilla.tga
+texture				poland, models_strat/textures/NTW_unit_spanish_guerrilla_po.tga
+texture				hre, models_strat/textures/NTW_unit_spanish_guerrilla_hr.tga
+texture				venice, models_strat/textures/NTW_unit_spanish_guerrilla_ve.tga
+texture				slave, models_strat/textures/NTW_unit_spanish_guerrilla.tga
+model_flexi_m			models_strat/NTW_unit_spanish_guerrilla_high.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				jap_zuqing
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				papal_states, models_strat/textures/SHOGUN_Prom_Ashigaru_NagaeYari_Tokugawa.tga
+texture				slave, models_strat/textures/SHOGUN_Prom_Ashigaru_NagaeYari_Rebel.tga
+model_flexi_m			models_strat/SHOGUN_Ashigaru_NagaeYari_high.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+; Russian Captain
+type				tzar_capt
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				russia, models_strat/textures/jap_brave_rus.tga
+texture				cru, models_strat/textures/jap_brave_thai.tga
+texture				slave, models_strat/textures/jap_brave_rus.tga
+model_flexi_m			models_strat/jap_brave_rus.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+;Russian Gen 
+type				tzar_gen
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				russia, models_strat/textures/jap_brave_rus_high.tga
+texture				slave, models_strat/textures/jap_brave_rus_high.tga
+model_flexi_m			models_strat/jap_brave_rus.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				jp_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/jap_brave.tga
+texture				france, models_strat/textures/jap_brave.tga
+texture				slave, models_strat/textures/jap_brave_rebel.tga
+model_flexi_m			models_strat/jap_brave.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				engzaoqi_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				scotland, models_strat/textures/NTW_UNIT_BRITISH_GENERIC_OFFICER.TGA
+texture				venice, models_strat/textures/NTW_UNIT_BRITISH_GENERIC_OFFICER_ve.TGA
+texture				aztecs, models_strat/textures/NTW_UNIT_BRITISH_GENERIC_OFFICER_az.TGA
+texture				slave, models_strat/textures/NTW_UNIT_BRITISH_GENERIC_OFFICER.TGA
+model_flexi_m			models_strat/NTW_officer_british_officer.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+;TZARIST GEN
+type				taiping_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				russia, models_strat/textures/taiping_wanxi.tga
+texture				slave, models_strat/textures/taiping_wanxi.tga
+model_flexi_m			models_strat/taiping_sword.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				captain_ot
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				turks, models_strat/textures/ottoman_captain.tga
+texture				moors, models_strat/textures/ottoman_captain.tga
+texture				timurids, models_strat/textures/ottoman_captain.tga
+texture				golden, models_strat/textures/ottoman_captain.tga
+texture				cuman, models_strat/textures/ottoman_captain.tga
+texture				bulga, models_strat/textures/ottoman_captain.tga
+texture				egypt, models_strat/textures/ottoman_captain.tga
+texture				slave, models_strat/textures/ottoman_captain_slave.tga
+model_flexi_m			models_strat/captain_ot.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				indo_capt
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				bulga, models_strat/textures/indian_crew.tga
+texture				france, models_strat/textures/indian_crew.tga
+texture				aztecs, models_strat/textures/indian_crew_az.tga
+texture				slave, models_strat/textures/indian_crew_rebel.tga
+model_flexi_m			models_strat/indian_crew.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				maratha_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				bulga, models_strat/textures/maratha_officer.tga
+texture				timurids, models_strat/textures/maratha_officer_ti.tga
+texture				egypt, models_strat/textures/maratha_officer_eg.tga
+texture				moors, models_strat/textures/maratha_officer_mo.tga
+texture				slave, models_strat/textures/maratha_officer_rebel.tga
+model_flexi_m			models_strat/maratha_general.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				jp_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/jap_general.tga
+texture				france, models_strat/textures/jap_general.tga
+texture				slave, models_strat/textures/jap_general_rebel.tga
+model_flexi_m			models_strat/jap_general.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				jp_emperor
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/jap_general2.tga
+texture				france, models_strat/textures/jap_general2.tga
+texture				slave, models_strat/textures/jap_general2.tga
+model_flexi_m			models_strat/jap_general2.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				nan_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				poland, models_strat/textures/CS_General_po.tga
+texture				teu, models_strat/textures/CS_General_te.tga
+texture				milan, models_strat/textures/CS_General.tga
+texture				slave, models_strat/textures/CS_General_rebel.tga
+model_flexi_m			models_strat/nanjianjun.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				france_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				france, models_strat/textures/NTW_officer_french_general.tga
+texture				spain, models_strat/textures/NTW_officer_french_general_az.tga
+texture				portugal, models_strat/textures/NTW_officer_french_general_po.tga
+texture				normans, models_strat/textures/NTW_officer_french_general_no.tga
+texture				hungary, models_strat/textures/NTW_officer_french_general_hu.tga
+texture				slave, models_strat/textures/NTW_officer_french_general.tga
+model_flexi_m			models_strat/NTW_officer_french_general.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				yakant_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				golden, models_strat/textures/ottoman_general_go.tga
+texture				turks, models_strat/textures/ottoman_general.tga
+texture				lith, models_strat/textures/ottoman_general_li.tga
+texture				slave, models_strat/textures/ottoman_general_rebel.tga
+model_flexi_m			models_strat/general_ot.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				bei_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				portugala, models_strat/textures/US_General.tga
+texture				france, models_strat/textures/US_General.tga
+texture				slave, models_strat/textures/US_General.tga
+model_flexi_m			models_strat/beijunjiangjun.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				eng_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				england, models_strat/textures/British_Officer.tga
+texture				cru, models_strat/textures/British_Officer_cr.tga
+texture				sicily, models_strat/textures/British_Officer_hu.tga
+texture				russia, models_strat/textures/British_Officer_ru.tga
+texture				denmark, models_strat/textures/British_Officer_de.tga
+texture				slave, models_strat/textures/British_Officer_rebel.tga
+model_flexi_m			models_strat/British_general.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				islamic_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				aztecs, models_strat/textures/islamic_general_blue.tga
+texture				milan, models_strat/textures/islamic_general_blue.tga
+texture				portugal, models_strat/textures/islamic_general_timurids.tga
+texture				cuman, models_strat/textures/islamic_general_turks.tga
+texture				egypt, models_strat/textures/islamic_general_egypt.tga
+texture				golden, models_strat/textures/islamic_general_egypt.tga
+texture				moors, models_strat/textures/islamic_general_moors.tga
+texture				timurids, models_strat/textures/islamic_general_india.tga
+texture				turks, models_strat/textures/islamic_general_timurids.tga
+texture				mongols, models_strat/textures/islamic_general_mongols.tga
+texture				lith, models_strat/textures/islamic_general_mali.tga
+texture				slave, models_strat/textures/islamic_general_rebels.tga
+model_flexi_m			models_strat/islamic_general.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				otto_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				turks, models_strat/textures/islamic_captain_otto.tga
+texture				moors, models_strat/textures/islamic_captain_mo.tga
+texture				golden, models_strat/textures/islamic_captain_go.tga
+texture				egypt, models_strat/textures/islamic_captain_eg.tga
+texture				timurids, models_strat/textures/islamic_captain_ti.tga
+texture				slave, models_strat/textures/islamic_captain_ti.tga
+model_flexi_m			models_strat/islamic_general.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				huai_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/yong_general.tga
+texture				slave, models_strat/textures/yong_general.tga
+model_flexi_m			models_strat/yong_general.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				qing_emp
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/emperor.tga
+texture				slave, models_strat/textures/emperor.tga
+model_flexi_m			models_strat/emperor.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+;;;;;;;;;;;
+; CAPTAIN ;
+;;;;;;;;;;;
+
+
+type				eng_captain2
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				scotland, models_strat/textures/NTW_unit_british_art_crew.tga
+texture				england, models_strat/textures/NTW_unit_british_art_crew_uk.tga
+texture				venice, models_strat/textures/NTW_unit_british_art_crew_ve.tga
+texture				normans, models_strat/textures/NTW_unit_british_art_crew_no.tga
+texture				hungary, models_strat/textures/NTW_unit_british_art_crew_hu.tga
+texture				egypt, models_strat/textures/NTW_unit_british_art_crew_eg.tga
+texture				slave, models_strat/textures/NTW_unit_british_art_crew.tga
+model_flexi_m			models_strat/NTW_unit_british_art_crew_high.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				fra_captain2
+skeleton			strat_named_with_army
+scale				0.6
+indiv_range			40
+texture				france, models_strat/textures/french_army2.tga
+texture				slave, models_strat/textures/french_army2.tga
+model_flexi_m			models_strat/french_army2.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				euro_captain
+skeleton			strat_named_with_army
+scale				0.6
+indiv_range			40
+texture				portugala, models_strat/textures/french_army2_pt.tga
+texture				milan, models_strat/textures/french_army2_mi.tga
+texture				spain, models_strat/textures/french_army2_sp.tga
+texture				mongols, models_strat/textures/french_army2_mo.tga
+texture				denmark, models_strat/textures/french_army2_de.tga
+texture				poland, models_strat/textures/french_army2_po.tga
+texture				aztecs, models_strat/textures/french_army2_az.tga
+texture				sicily, models_strat/textures/french_army2_si.tga
+texture				slave, models_strat/textures/french_army2.tga
+model_flexi_m			models_strat/euro_army.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				eng_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				england, models_strat/textures/eng_army_banner.tga
+texture				lith, models_strat/textures/eng_army_banner_li.tga
+texture				portugal, models_strat/textures/eng_army_banner_po.tga
+texture				aztecs, models_strat/textures/eng_army_banner_az.tga
+texture				slave, models_strat/textures/eng_army_rebels.tga
+model_flexi_m			models_strat/eng_army.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				russia_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				russia, models_strat/textures/russian_crew.TGA
+texture				portugal, models_strat/textures/NTW_unit_russian_crew.TGA
+texture				sicily, models_strat/textures/russian_crew_si.TGA
+texture				slave, models_strat/textures/NTW_unit_russian_rebel.TGA
+model_flexi_m			models_strat/NTW_unit_russian_crew_high.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				france_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				scotland, models_strat/textures/NTW_unit_neapolitan_garde_du_corps.tga
+texture				mongols, models_strat/textures/NTW_unit_neapolitan_garde_du_corps_mo.tga
+texture				hungary, models_strat/textures/NTW_unit_neapolitan_garde_du_corps_hu.tga
+texture				normans, models_strat/textures/NTW_unit_neapolitan_garde_du_corps_no.tga
+texture				slave, models_strat/textures/NTW_unit_neapolitan_garde_du_corps.tga
+model_flexi_m			models_strat/NTW_unit_neapolitan_garde_du_corps_high.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				bei_shibnig
+skeleton			strat_named_with_army
+scale				0.6
+indiv_range			40
+texture				portugala, models_strat/textures/US_Artilleurs_Legers.tga
+texture				slave, models_strat/textures/US_Artilleurs_Legers_rebel.tga
+model_flexi_m			models_strat/beishibing.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				nan_shoining
+skeleton			strat_named_with_army
+scale				0.6
+indiv_range			40
+texture				milan, models_strat/textures/CS_Artilleurs_Legers.tga
+texture				denmark, models_strat/textures/CS_Artilleurs_Legers_de.tga
+texture				teu, models_strat/textures/CS_Artilleurs_Legers_teu.tga
+texture				slave, models_strat/textures/CS_Artilleurs_Legers.tga
+model_flexi_m			models_strat/nanjhusnhib.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				france_duizhang
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				france, models_strat/textures/french_army.tga
+texture				russia, models_strat/textures/french_army_ru.tga
+texture				spain, models_strat/textures/french_army_sp.tga
+texture				poland, models_strat/textures/french_army_po.tga
+texture				aztecs, models_strat/textures/french_army_az.tga
+texture				mongols, models_strat/textures/french_army_mo.tga
+texture				portugala, models_strat/textures/mei_army.tga
+texture				denmark, models_strat/textures/french_army_de.tga
+texture				sicily, models_strat/textures/french_army_si.tga
+texture				milan, models_strat/textures/cas_army.tga
+texture				slave, models_strat/textures/french_army_rebel.tga
+model_flexi_m			models_strat/french_army.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				sicily_jiangjun
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				golden, models_strat/textures/agubai_general_go.TGA
+texture				turks, models_strat/textures/agubai_general.TGA
+texture				france, models_strat/textures/agubai_general.TGA
+texture				moors, models_strat/textures/agubai_general_mo.TGA
+texture				slave, models_strat/textures/agubai_general_rebel.TGA
+model_flexi_m			models_strat/agbjiangj.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+;英印度将军
+type				indian_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				france, models_strat/textures/indian_crew.tga
+texture				portugal, models_strat/textures/indian_crew.tga
+texture				slave, models_strat/textures/indian_crew.tga
+model_flexi_m			models_strat/indian_crew.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				yakant_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				cuman, models_strat/textures/agubai.TGA
+texture				france, models_strat/textures/agubai.TGA
+texture				egypt, models_strat/textures/agubai.TGA
+texture				timurids, models_strat/textures/agubai.TGA
+texture				slave, models_strat/textures/agubai_rebel.TGA
+model_flexi_m			models_strat/agnbo.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				indian_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				bulga, models_strat/textures/indian_captain_apachean.tga
+texture				lith, models_strat/textures/indian_captain_chichimeca.tga
+texture				slave, models_strat/textures/indian_chief_apachean.tga
+model_flexi_m			models_strat/indian_captain.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				thai_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				cru, models_strat/textures/thai_general.tga
+texture				slave, models_strat/textures/thai_general.tga
+model_flexi			models_strat/thai_captain.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;ADMIRALS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;best asian small ship
+type				daqing_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				cru, models_strat/textures/chin_giant_ship.tga
+texture				byzantium, models_strat/textures/chin_giant_ship.tga
+model_flexi			models_strat/chin_giant_ship.cas, max
+shadow_model_flexi	models_strat/navy_roman_shadow.cas, max
+
+
+;;steam rollers on side sail ship
+type				englandzaoqi_admiral
+skeleton			strat_navy
+scale				0.7
+indiv_range			40
+texture				mongols, models_strat/textures/navy_ouzhou.tga
+texture				moors, models_strat/textures/navy_ouzhou.tga
+texture				teu, models_strat/textures/navy_ouzhou.tga
+texture				turks, models_strat/textures/navy_ouzhou.tga
+texture				lith, models_strat/textures/navy_ouzhou.tga
+texture				egypt, models_strat/textures/navy_ouzhou.tga
+texture				timurids, models_strat/textures/navy_ouzhou.tga
+texture				cuman, models_strat/textures/navy_ouzhou.tga
+texture				bulga, models_strat/textures/navy_ouzhou.tga
+texture				papal_states, models_strat/textures/navy_ouzhou.tga
+texture				saxons, models_strat/textures/navy_ouzhou.tga
+texture				russia, models_strat/textures/navy_ouzhou.tga
+texture				golden, models_strat/textures/navy_ouzhou.tga
+texture				normans, models_strat/textures/navy_ouzhou.tga
+texture				spain, models_strat/textures/navy_ouzhou.tga
+texture				venice, models_strat/textures/navy_ouzhou.tga
+texture				poland, models_strat/textures/navy_ouzhou.tga
+texture				slave, models_strat/textures/navy_ouzhou.tga
+model_flexi			models_strat/navy_ouzhou.cas, max
+shadow_model_flexi	models_strat/navy_roman_shadow.cas, max
+
+;;cargoship
+type				tiejia_admiral
+skeleton			strat_navy
+scale				0.7
+indiv_range			40
+texture				byzantium, models_strat/textures/navy_chinese_battleship.tga
+texture				denmark, models_strat/textures/navy_chinese_battleship.tga
+texture				egypt, models_strat/textures/navy_chinese_battleship.tga
+texture				hre, models_strat/textures/navy_chinese_battleship.tga
+texture				england, models_strat/textures/navy_chinese_battleship.tga
+texture				hungary, models_strat/textures/navy_chinese_battleship.tga
+texture				moors, models_strat/textures/navy_chinese_battleship.tga
+texture				france, models_strat/textures/navy_chinese_battleship.tga
+texture				bulga, models_strat/textures/navy_chinese_battleship.tga
+texture				cuman, models_strat/textures/navy_chinese_battleship.tga
+texture				aztecs, models_strat/textures/navy_chinese_battleship.tga
+texture				papal_states, models_strat/textures/navy_chinese_battleship.tga
+texture				portugal, models_strat/textures/navy_chinese_battleship.tga
+texture				slave, models_strat/textures/navy_chinese_battleship.tga
+texture				saxons, models_strat/textures/navy_japan_battleship.tga
+model_flexi			models_strat/navy_chinese_battleship.cas, max
+shadow_model_flexi	models_strat/navy_roman_shadow.cas, max
+
+
+;;southern ironclad
+type				bei_admiral
+skeleton			strat_navy
+scale				0.7
+indiv_range			40
+texture				teu, models_strat/textures/ironclad_warship.tga
+texture				england, models_strat/textures/ironclad_warship.tga
+texture				milan, models_strat/textures/ironclad_warship.tga
+texture				hungary, models_strat/textures/ironclad_warship.tga
+texture				venice, models_strat/textures/ironclad_warship.tga
+texture				portugala, models_strat/textures/ironclad_warship.tga
+texture				scotland, models_strat/textures/ironclad_warship.tga
+texture				slave, models_strat/textures/ironclad_warship.tga
+model_flexi			models_strat/ironclad_warship_south.cas, max
+shadow_model_flexi	models_strat/navy_roman_shadow.cas, max
+
+
+;;northern ironclad
+type				beijun_admiral
+skeleton			strat_navy
+scale				0.7
+indiv_range			40
+texture				teu, models_strat/textures/ironclad_warship.tga
+texture				milan, models_strat/textures/ironclad_warship.tga
+texture				denmark, models_strat/textures/ironclad_warship.tga
+texture				poland, models_strat/textures/ironclad_warship.tga
+texture				aztecs, models_strat/textures/ironclad_warship.tga
+texture				sicily, models_strat/textures/ironclad_warship.tga
+texture				normans, models_strat/textures/ironclad_warship.tga
+texture				portugala, models_strat/textures/ironclad_warship.tga
+texture				portugal, models_strat/textures/ironclad_warship.tga
+texture				scotland, models_strat/textures/ironclad_warship.tga
+texture				slave, models_strat/textures/ironclad_warship.tga
+model_flexi			models_strat/ironclad_warship_north.cas, max
+shadow_model_flexi	models_strat/navy_roman_shadow.cas, max
+
+
+type				slave_admiral
+skeleton			strat_navy
+indiv_range			40
+texture				slave, models_strat/textures/navy_slave.tga
+model_flexi			models_strat/navy_cog.cas, max
+shadow_model_flexi	models_strat/navy_roman_shadow.cas, max
+
+
+type				baoan_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				mongols, models_strat/textures/baoan_shiling.tga
+model_flexi_m			models_strat/manchu_bannera.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+type				menggu_captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				hre, models_strat/textures/mongol_archer.tga
+texture				slave, models_strat/textures/mongol_archer.tga
+model_flexi_m			models_strat/mongol_archer.cas, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+
+type				lixiucheng_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				egypt, models_strat/textures/taiping_officer.tga
+texture				cru, models_strat/textures/taiping_officer.tga
+texture				slave, models_strat/textures/taiping_officer.tga
+model_flexi_m			models_strat/taiping_officer.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+;;;check this one out euro gen maybe germany
+type				zhangzuolin
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				france, models_strat/textures/zhangzuolin.tga
+model_flexi_m			models_strat/zhangzuolin.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+;;;check these three
+type				pang_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				france, models_strat/textures/yong_bodyguard.tga
+texture				slave, models_strat/textures/yong_bodyguard.tga
+model_flexi_m			models_strat/yong_bodyguard.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+;;euro again autrian shako
+type				xianfeng_general
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				france, models_strat/textures/emperor.tga
+texture				slave, models_strat/textures/emperor.tga
+model_flexi_m			models_strat/emperor.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max

@@ -1,0 +1,850 @@
+; (XAI V4.01 FOR KGCM MAY 2010)
+; Originally expanded by Thorn Naimad
+; Improved by xeryx 
+; Removed all "papacy" rules, but the missions
+; Reworked all the rules to give more weight to religion 
+; Changed the focus of individual factions, because editing them is ridiculous
+; new rules are religion based
+; expanded ruleset to include all religions
+; Removed duplicated rules
+; Increase effects of all rules.
+; faction standing parameters
+; religions will vary from mod to mod, i do not know if it will just skip
+; the rule if a religion is not in your mod
+; this version is for KGCM with the following religions
+; catholic, islam, orthodox, pagan, sungod, heretic (not used currently)
+; hours log 52 rewrite 02 Thorn's time 600+ hrs
+; ===========================
+
+; initialisation parameters
+
+min_faction_standing	-1.0
+max_faction_standing	1.0
+
+relations_improved_thresholds
+{
+    0.25
+    0.4
+    0.8
+}
+
+relations_worsened_thresholds
+{
+    -0.8
+    -0.4
+    -0.25
+}
+
+; trigger information
+; faction_standing updated with the command:
+;   FactionStanding [AFFECTED_HANDLE] [affected_handle_parameters] opt:[MODIFER_HANDLE] opt:[modifier_handle_parameter_1] opt:[modifier_handle_parameter_1]
+;
+; Available AFFECTED_HANDLE's and their parameters are as follows:
+;
+;    factions { [faction_label_1] [faction_label_2] [etc] }		--> A list of factions to be affected, (own faction automatically excluded)
+;    target_faction						--> the target_faction attached to the event, (own faction automatically excluded)
+;    religion [religion_label] *[religion_label] --> all factions of the specified religion, (Multiples ones can be used own faction automatically excluded) 
+;    own_religion							--> all factions of the same religion as the faction of the event, (own faction automatically excluded)
+;    target_religion *(optional[religion_label])	--> all factions of the same religion as the target faction of the event, (own faction automatically excluded)
+;    global								--> the faction of the event (i.e. own faction)
+;    exclude_factions { [faction_label_1] [faction_label_2] [etc] }	--> A list of factions not to be affected, (own faction automatically excluded)
+;    allies								--> all factions allied with the faction attached to the trigger
+;    enemies								--> all factions at war with the faction attached to the trigger
+;    target_allies							--> all factions allied with the target faction attached to the trigger
+;    target_enemies							--> all factions at war with the target_faction attached to the trigger
+;
+; Available MODIFIER_HANDLE's and their corresponding parameters
+;
+;    [value]					--> add this 'value' to the affected faction standings
+;    amount [divisor] [value]			--> for every 'divisor' unit of the event amount, add 'value' to the affected faction standings
+;    income [divisor] [value]			--> for every 'divisor' unit of the event factions income, add 'value' to the affected faction standings
+;    normalise [target_faction_standing] [divisor]	--> for each affected faction standing, add (target_faction_standing - faction_standing)/divisor
+;    per_unit [value]				--> for each unit in the events army, add 'value' to the affected faction standings
+; * Experimental but initial testing good! by Xeryx, think spreadsheet and databasing!
+;NEW RULES there can be multiple AF's and AFP's for a line
+;NEW RULES There is a limit of factionstanding lines per rule, I think 6 is the limit
+;NOTES-----------------------------------------------------------------------------------------------------------
+;Same religion factions will like you a little more, but all other will like you less as you are a threat to their "gods"
+;There will sometimes be a flip in own religion support, this will represent jealousy
+;For now there is no extra seperation of the pagan, sungods, or heretics ..if you want them to be feel free to do it
+;This file may take awhile to balance, it is important to keep good notes when playing
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;START OF TRIGGERS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+***************************************************************************************************************
+;;;;;;;;;;;;;;;
+;; DIPLOMACY ;;***********************************************************************************************************************************************************************************************
+;;;;;;;;;;;;;;;
+;------------------------------------------
+Trigger 0033_P_Give_Money
+    WhenToTest GiveMoney
+
+    
+    FactionStanding target_faction amount 1000 0.001
+
+
+;------------------------------------------
+Trigger 0034_P_Give_Settlement
+    WhenToTest GiveSettlement
+
+    
+    FactionStanding target_faction income 1000 0.0025
+
+
+;------------------------------------------
+Trigger 0036a_Alliance_Declared
+    WhenToTest FactionAllianceDeclared
+
+
+    FactionStanding target_faction normalise 1.0 4
+	FactionStanding target_allies normalise 1.0 8
+    FactionStanding target_enemies normalise -1.0 4
+
+
+;------------------------------------------
+Trigger 0040a_CP_Break_Alliance
+    WhenToTest FactionBreakAlliance
+
+    FactionStanding target_faction -.3 
+	FactionStanding allies -.1 
+    FactionStanding global -.1 
+
+;------------------------------------------
+Trigger 0044a_P_Successful_Diplomacy
+    WhenToTest DiplomacyMission
+
+    Condition MissionSucceeded
+
+    FactionStanding target_faction .005   
+
+;------------------------------------------
+;Trigger 0044b_P_Failed_Diplomacy
+;   WhenToTest DiplomacyMission
+
+;   Condition MissionFailed
+
+;   FactionStanding target_faction -.005  	
+;------------------------------------------
+Trigger 0045a_CP_War_Declared
+    WhenToTest FactionWarDeclared
+
+    FactionStanding global -.1
+    FactionStanding target_faction -0.5
+
+
+
+  
+;;;;;;;;;;;;;;;;;;;;
+;; TRANSGRESSIONS ;;*************************************************************************************************************************************************************************
+;;;;;;;;;;;;;;;;;;;;
+
+
+;------------------------------------------
+Trigger 0050_T_Invaded_Fort
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_INVADED_FORT
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 120
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80    
+    FactionStanding target_religion normalise -1.0 80
+
+;------------------------------------------
+Trigger 0051_T_Stole_Back_Settlement
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_STOLE_BACK_SETTLEMENT
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 120
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80    
+    FactionStanding target_religion normalise -1.0 80
+
+;------------------------------------------
+Trigger 0052_T_Invaded_Settlement
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_INVADED_SETTLEMENT
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 120
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80    
+    FactionStanding target_religion normalise -1.0 80
+;------------------------------------------
+Trigger 0053_T_Invaded_Watchtower
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_INVADED_WATCHTOWER
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 30
+    FactionStanding target_faction normalise -1.0 10
+    FactionStanding target_allies normalise -1.0 20    
+    FactionStanding target_religion normalise -1.0 20
+;------------------------------------------
+Trigger 0055_T_Invasion_Neutral
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_INVASION
+        and DiplomaticStanceFactions = Neutral
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 30
+    FactionStanding target_faction normalise -1.0 10
+    FactionStanding target_allies normalise -1.0 20    
+    FactionStanding target_religion normalise -1.0 20
+;------------------------------------------
+Trigger 0055a_T_Invasion
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_INVASION
+        and DiplomaticStanceFactions = Allied
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 30
+    FactionStanding target_faction normalise -1.0 10
+    FactionStanding target_allies normalise -1.0 20    
+    FactionStanding target_religion normalise -1.0 20
+
+;------------------------------------------
+Trigger 0055b_T_Invasion_Flee
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_FLEE_INVASION
+	 and not TargetFactionType slave
+
+    FactionStanding target_faction normalise -1.0 150
+
+;------------------------------------------
+Trigger 0056_T_Nullified_Alliance
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_NULLIFIED_ALLIANCE
+
+    FactionStanding global -0.3
+    FactionStanding target_faction normalise -1.0 10
+    FactionStanding target_allies normalise -1.0 20    
+    FactionStanding target_religion normalise -1.0 20
+
+;------------------------------------------
+Trigger 0057_T_Broke_Treaty_terms
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_BROKE_TREATY_TERMS
+
+    FactionStanding global -0.2
+    FactionStanding target_faction normalise -1.0 10
+    FactionStanding target_allies normalise -1.0 20    
+    FactionStanding target_religion normalise -1.0 20
+
+;------------------------------------------
+Trigger 0058_T_Diplomatic_Insult	; fired for every 1000 gold diplomacy proposal under balanced - 1
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_DIPLOMATIC_INSULT
+
+    FactionStanding target_faction -0.025
+;------------------------------------------
+Trigger 0059_T_Dishonour
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_DISHONOUR
+
+    FactionStanding target_faction normalise -1.0 30
+    FactionStanding target_allies normalise -1.0 95    
+
+;------------------------------------------
+Trigger 0060_T_Declared_War
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_DECLARED_WAR
+
+    FactionStanding target_faction normalise -1.0 5
+	FactionStanding target_allies normalise -1.0 10    
+
+;------------------------------------------
+Trigger 0061_T_Major_Assassination_Attempt
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_MAJOR_ASSASSINATION_ATTEMPT
+	 and not TargetFactionType slave
+
+    FactionStanding target_faction normalise -1.0 20
+    FactionStanding target_allies normalise -1.0 80    
+    FactionStanding target_religion normalise -1.0 100
+
+;------------------------------------------
+Trigger 0062_T_Minor_Assassination_Attempt
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_MINOR_ASSASSINATION_ATTEMPT
+	 and not TargetFactionType slave
+
+    FactionStanding target_faction normalise -1.0 80
+    FactionStanding target_allies normalise -1.0 160    
+    FactionStanding target_religion normalise -1.0 220
+
+;------------------------------------------
+Trigger 0063_T_Sabotage
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_SABOTAGE
+	 and not TargetFactionType slave
+
+    FactionStanding target_faction normalise -1.0 50
+    FactionStanding target_allies normalise -1.0 80    
+    FactionStanding target_religion normalise -1.0 150
+
+;------------------------------------------
+Trigger 0064_T_Bribed_Away_Army
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_BRIBED_AWAY_ARMY
+	 and not TargetFactionType slave
+
+    FactionStanding target_faction normalise -1.0 10
+
+;------------------------------------------
+Trigger 0065_T_Bribed_Away_Character
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_BRIBED_AWAY_CHARACTER
+	 and not TargetFactionType slave
+
+    FactionStanding target_faction normalise -1.0 10
+
+;------------------------------------------
+Trigger 0066_T_Bribed_Away_Settlement
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_BRIBED_AWAY_SETTLEMENT
+	 and not TargetFactionType slave
+
+    FactionStanding global -0.15
+    FactionStanding target_faction normalise -1.0 5
+
+;------------------------------------------
+Trigger 0067_T_Bribed_Away_Fort
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_BRIBED_AWAY_FORT
+	 and not TargetFactionType slave
+
+    FactionStanding target_faction normalise -1.0 10
+
+;------------------------------------------
+Trigger 0068_ALL_Battle_Engagement
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_BATTLE_ENGAGEMENT
+
+    FactionStanding global normalise -1.0 120
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80    
+    FactionStanding target_religion normalise -1.0 80
+    FactionStanding allies normalise 1.0 40
+	FactionStanding target_enemies normalise 1.0 20 
+
+;------------------------------------------
+Trigger 0069_T_Instigate_Siege
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_INSTIGATE_SIEGE
+	 and not TargetFactionType slave
+
+    FactionStanding target_faction normalise -1.0 50
+    FactionStanding target_allies normalise -1.0 70
+    
+;------------------------------------------
+Trigger 0070_T_Spying
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_SPYING
+	 and not TargetFactionType slave
+
+    FactionStanding target_faction normalise -1.0 50
+    FactionStanding target_allies normalise -1.0 60
+
+;------------------------------------------
+Trigger 0071_T_Threaten_War
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_THREATEN_WAR
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 120
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80    
+    FactionStanding target_religion normalise -1.0 80
+
+;------------------------------------------
+Trigger 0072_T_Undeclared_Attack
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_UNDECLARED_ATTACK
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 15
+    FactionStanding target_faction normalise -1.0 5
+    FactionStanding target_allies normalise -1.0 15    
+    FactionStanding target_religion normalise -1.0 30
+    
+;------------------------------------------
+Trigger 0072_T_Undeclared_Attack_Withdraw
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_UNDECLARED_ATTACK_WITHDRAW
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 15
+    FactionStanding target_faction normalise -1.0 5
+    FactionStanding target_allies normalise -1.0 15    
+    FactionStanding target_religion normalise -1.0 30
+
+;------------------------------------------
+Trigger 0073_T_INSTIGATE_ASSAULT
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_INSTIGATE_ASSAULT
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 120
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80    
+    FactionStanding target_religion normalise -1.0 80
+    
+;------------------------------------------
+Trigger 0074_T_BLOCKADE
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_BLOCKADE
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 120
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80    
+    FactionStanding target_religion normalise -1.0 80
+    
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; DISHONEST TRANSGRESSIONS ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;------------------------------------------
+Trigger 0078b_DT_Break_Alliance_War
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_BROKE_ALLIANCE
+        and DiplomaticStanceFactions = AtWar
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 10
+    FactionStanding target_faction normalise -1.0 2
+    FactionStanding target_allies normalise -1.0 4
+    FactionStanding target_religion normalise -1.0 10
+
+;------------------------------------------
+Trigger 0078c_DT_Break_Alliance_Neutral
+    WhenToTest Transgression
+
+    Condition TransgressionName = TC_BROKE_ALLIANCE
+        and DiplomaticStanceFactions = Neutral
+	 and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 60
+    FactionStanding target_faction normalise -1.0 20
+    FactionStanding target_allies normalise -1.0 40    
+    FactionStanding target_religion normalise -1.0 40
+
+
+	
+;;;;;;;;;;;;;;;;;
+;; FORGIVENESS ;;*******************************************************************************************************************************************************************************************
+;;;;;;;;;;;;;;;;;
+
+Trigger 0079_F_Trade_Agreement
+    WhenToTest FactionTradeAgreementMade
+
+    FactionStanding target_faction normalise 1.0 50
+    FactionStanding target_allies normalise 1.0 75
+    FactionStanding target_enemies normalise -1.0 125
+    
+;------------------------------------------
+Trigger 0080_F_Military_Assistance
+    WhenToTest Forgiveness
+
+    Condition ForgivenessName = FC_MILITARY_ASSISTANCE
+	 and not TargetFactionType slave
+
+    FactionStanding global 0.1
+    FactionStanding target_faction normalise 1.0 10
+    FactionStanding target_allies normalise 1.0 30
+    FactionStanding target_enemies normalise -1.0 30
+    
+;------------------------------------------
+Trigger 0081_F_Obvious_Bribe	; fired for every 5000 gold given as gift
+    WhenToTest Forgiveness
+
+    Condition ForgivenessName = FC_OBVIOUS_BRIBE
+
+    FactionStanding target_faction 5000 1.0 .01
+
+
+
+	
+;;;;;;;;;;;;;;;;;;;;;;
+;; AI Relationships ;;*******************************************************************************************************************************************************************************************
+;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;; Kings dead ;;;;;;;;;;;;;;;;;;;
+Trigger 0300K_new_faction_leader
+	WhenToTest BecomesFactionLeader
+
+	FactionStanding exclude_factions { } normalise 0.1 8
+	FactionStanding global normalise 0.1 2
+	FactionStanding allies normalise 0.25 10
+	FactionStanding enemies normalise -0.25 8
+
+;------------------------------------------
+Trigger 0083b_Update_Allies
+    WhenToTest FactionTurnStart
+
+    Condition not FactionType slave
+
+    FactionStanding allies normalise 1.0 100
+    FactionStanding enemies normalise -1.0 100
+
+;------------------------------------------
+Trigger 0083c_Update_Allies_Allies
+    WhenToTest UpdateAttitude
+
+    Condition DiplomaticStanceFactions = Allied
+	 and not TargetFactionType slave
+
+    FactionStanding target_allies normalise 1.0 150
+    FactionStanding target_enemies normalise -1.0 150
+
+;------------------------------------------
+Trigger 0083d_Update_Enemies_Allies
+    WhenToTest UpdateAttitude
+
+    Condition DiplomaticStanceFactions = AtWar
+          and not TargetFactionType slave
+
+    FactionStanding target_allies normalise -1.0 100
+    FactionStanding target_enemies normalise 1.0 100
+
+;------------------------------------------
+Trigger 0089_Update_Band_Together1
+    WhenToTest FactionTurnStart
+
+    Condition FactionHasRank
+        and FactionScorePercent overall < 40
+        and FactionScoreRank overall > 8
+
+    FactionStanding exclude_factions { } normalise 1.0 60
+
+;------------------------------------------
+Trigger 0090_Update_Band_Together2
+    WhenToTest FactionTurnStart
+
+    Condition FactionHasRank
+        and FactionScorePercent overall < 30
+        and FactionScoreRank overall > 10
+
+    FactionStanding exclude_factions { } normalise 1.0 45
+
+;------------------------------------------
+Trigger 0091_Update_BandTogether3
+    WhenToTest FactionTurnStart
+
+    Condition FactionHasRank
+        and FactionScorePercent overall < 20
+        and FactionScoreRank overall > 12
+
+    FactionStanding exclude_factions { } normalise 1.0 30
+
+;------------------------------------------
+Trigger 0096_Increase_Global_Standing_New_Turn
+    WhenToTest FactionTurnStart
+
+    FactionStanding global normalise 0.01 300
+
+------------------------------------------
+Trigger 0097_Increase_Global_Standing_When_Allied
+    WhenToTest UpdateAttitude
+
+    Condition DiplomaticStanceFactions = Allied
+
+    FactionStanding global normalise 1.0 150
+
+------------------------------------------
+Trigger 0098_Decrease_Global_Standing_When_War
+    WhenToTest UpdateAttitude
+
+    Condition DiplomaticStanceFactions = AtWar
+        and not TargetFactionType slave
+
+    FactionStanding global normalise -1.0 150
+
+;------------------------------------------
+Trigger 0099_prisoners_released_increase_global
+    WhenToTest FactionLeaderPrisonersRansomedCaptor
+
+    Condition RansomType release
+          and NumCapturedSoldiers > 0
+
+    FactionStanding global 0.025
+    FactionStanding target_faction normalise 1.0 40
+    FactionStanding target_allies normalise 1.0 80
+
+;------------------------------------------
+Trigger 0100_prisoners_executed_decrease_global
+    WhenToTest FactionLeaderPrisonersRansomedCaptor
+
+    Condition RansomType execute
+          and NumCapturedSoldiers > 0
+
+    FactionStanding global -0.025
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80
+
+;------------------------------------------
+Trigger 0099b_prisoners_released_increase_global
+    WhenToTest FactionLeaderPrisonersRansomedCaptor
+
+    Condition RansomType release
+
+    FactionStanding global 0.01
+    FactionStanding target_faction normalise 1.0 120
+    FactionStanding target_allies normalise 1.0 200
+
+;------------------------------------------
+Trigger 0100b_prisoners_executed_decrease_global
+    WhenToTest FactionLeaderPrisonersRansomedCaptor
+
+    Condition RansomType execute
+
+    FactionStanding global -0.01
+    FactionStanding target_faction normalise -1.0 120
+    FactionStanding target_allies normalise -1.0 200
+
+;------------------------------------------
+Trigger 0099c_characters_released_increase_global
+    WhenToTest FactionLeaderPrisonersRansomedCaptor
+
+    Condition RansomType release
+          and NumCapturedCharacters > 0
+
+    FactionStanding global 0.025
+    FactionStanding target_faction normalise 1.0 40
+    FactionStanding target_allies normalise 1.0 80
+
+;------------------------------------------
+Trigger 0100c_characters_executed_decrease_global
+    WhenToTest FactionLeaderPrisonersRansomedCaptor
+
+    Condition RansomType execute
+          and NumCapturedCharacters > 0
+
+    FactionStanding global -0.025
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80
+
+;------------------------------------------
+Trigger 0101_sack_settlement_decrease_global
+    WhenToTest SackSettlement
+
+    FactionStanding global -0.02
+    FactionStanding target_faction normalise -1.0 40
+    FactionStanding target_allies normalise -1.0 80
+    FactionStanding target_religion normalise -1.0 120
+
+;------------------------------------------
+Trigger 0101b_sack_settlement_decrease_global
+    WhenToTest SackSettlement
+
+ Condition FactionReligion catholic
+	and not TargetFactionReligion catholic
+
+    FactionStanding global -0.025
+
+;------------------------------------------
+Trigger 0101c_sack_settlement_decrease_global
+    WhenToTest SackSettlement
+
+ Condition FactionReligion orthodox
+	and not TargetFactionReligion orthodox
+
+    FactionStanding global -0.025
+
+;------------------------------------------
+Trigger 0101d_sack_settlement_decrease_global
+    WhenToTest SackSettlement
+
+ Condition FactionReligion islam
+	and not TargetFactionReligion islam
+
+    FactionStanding global -0.025
+
+;------------------------------------------
+Trigger 0102_extermination_decrease_global
+    WhenToTest ExterminatePopulation
+
+    FactionStanding global -0.05
+    FactionStanding target_faction normalise -1.0 25
+    FactionStanding target_allies normalise -1.0 45
+    FactionStanding target_religion normalise -1.0 70
+
+;------------------------------------------
+Trigger 0102a_extermination_decrease_global
+    WhenToTest ExterminatePopulation
+
+    Condition FactionReligion catholic
+	and not TargetFactionReligion catholic
+
+    FactionStanding global -0.025
+
+;------------------------------------------
+Trigger 0102b_extermination_decrease_global
+    WhenToTest ExterminatePopulation
+
+    Condition FactionReligion orthodox
+	and not TargetFactionReligion orthodox
+
+    FactionStanding global -0.025
+
+;------------------------------------------
+Trigger 0102c_extermination_decrease_global
+    WhenToTest ExterminatePopulation
+
+    Condition FactionReligion islam
+	and not TargetFactionReligion islam
+
+    FactionStanding global -0.025
+  
+;------------------------------------------
+Trigger 0103_occupy_settlement_increase_global
+    WhenToTest OccupySettlement
+
+    FactionStanding global 0.05
+    FactionStanding target_faction normalise -1.0 30
+    FactionStanding target_allies normalise -1.0 50
+    FactionStanding target_religion normalise -1.0 90
+
+;------------------------------------------
+;Trigger 0102_city_razed_decrease_global
+;    WhenToTest CitySacked
+
+;    FactionStanding global -0.05
+;    FactionStanding target_faction normalise -1.0 15
+;    FactionStanding target_allies normalise -1.0 25
+;    FactionStanding target_religion normalise -1.0 50
+
+; make all other factions hate the rebels
+;------------------------------------------
+Trigger 0103_Update_Slaves
+    WhenToTest FactionTurnStart
+
+    Condition FactionType slave
+
+    FactionStanding exclude_factions { } -2.0 
+
+; make slaves hate all other factions
+;------------------------------------------
+;Trigger 0104_Update_Slaves_Reverse
+;    WhenToTest UpdateAttitude
+;
+;    Condition Not FactionType slave
+;	and TargetFactionType slave
+;
+;    FactionStanding target_faction normalise -1.0 1
+
+; make factions like trustworthy factions more
+;---------------------------------------------
+Trigger 0105_Update_Trustworthy_Factions_Major
+    WhenToTest FactionTurnStart
+
+    Condition GlobalStanding > 0.4
+
+    FactionStanding exclude_factions { } normalise 1.0 200
+
+;---------------------------------------------
+Trigger 0106_Update_Trustworthy_Factions_Minor
+    WhenToTest FactionTurnStart
+
+    Condition GlobalStanding > 0.1
+
+    FactionStanding exclude_factions { } normalise 1.0 250
+
+; make factions like untrustworthy factions less
+;---------------------------------------------
+Trigger 0107_Update_Untrustworthy_Factions_Major
+    WhenToTest FactionTurnStart
+
+    Condition GlobalStanding < -0.4
+
+    FactionStanding exclude_factions { } normalise -1.0 150
+	
+;---------------------------------------------
+Trigger 0108_Update_Untrustworthy_Factions_Minor
+    WhenToTest FactionTurnStart
+
+    Condition GlobalStanding < 0.0
+
+    FactionStanding exclude_factions { } normalise -1.0 200
+
+; make existing inter faction marriages improve relationships
+;---------------------------------------------
+Trigger 0109_Update_Marriages
+    WhenToTest UpdateAttitude
+
+    Condition NumFactionMarriages = 1
+
+    FactionStanding target_faction normalise 1.0 50
+
+;---------------------------------------------
+Trigger 0109_Update_Marriages
+    WhenToTest UpdateAttitude
+
+    Condition NumFactionMarriages = 2
+
+    FactionStanding target_faction normalise 1.0 40
+
+;---------------------------------------------
+Trigger 0109_Update_Marriages
+    WhenToTest UpdateAttitude
+
+    Condition NumFactionMarriages > 2
+
+    FactionStanding target_faction normalise 1.0 25
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Custom AI Relationships ;;****************************************************************************************************************************************
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;------------------------------------------
+Trigger 0104_Increase_Faction_Standing_When_Allied
+    WhenToTest UpdateAttitude
+
+    Condition DiplomaticStanceFactions = Allied
+
+    FactionStanding target_faction normalise 0.75 100
+
+;------------------------------------------
+Trigger 0105_Faction_Standing_When_Neutral
+    WhenToTest UpdateAttitude
+
+    Condition DiplomaticStanceFactions = Neutral
+
+    FactionStanding target_faction normalise 0.15 150
+    
+;------------------------------------------
+Trigger 0106_Faction_Standing_When_War
+    WhenToTest UpdateAttitude
+
+    Condition DiplomaticStanceFactions = AtWar
+
+    FactionStanding target_faction normalise -1.0 60
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

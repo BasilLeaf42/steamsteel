@@ -1,0 +1,87 @@
+; descr_missions.txt
+;;;;;;;;;;;;;;;;;;;;;
+; This file contains all the data required for pope missions.
+;
+; The first section specifies payback lists.  Each payback list contains a list of 
+; individual reward and penalty items for success/failure of missions.
+; The allowable payback items are:
+;   - money                [int]   (specifies how much money is gained/lost as a result
+;   - income               [float]
+;   - buildable_unit       [uint]
+;   - best_buildable_unit  [uint]
+;   - minor_exotic_unit    [uint]
+;   - major_exotic_unit    [uint]
+;   - guild_money 	   [int] [guild]
+;   - assassinate          [float]
+;   - null_payback         [string]
+;
+; Other paybacks are handled through the event / condition system: (be sure to add null paybacks for them if you want payback text descriptions
+;   - papal standing
+;   - guild points
+;   - relics
+;   - traits
+;   - ancillaries
+;
+;
+; The second section contains data used to initialise the missions.
+; Each mission has a type, which must be one of the supported types.
+; An additional optional mission id can be specified for multiple 
+; missions of the same type with different parameters
+;
+; e.g. 
+;  - mission guild_recruit_agent recruit_assassin
+;  - mission guild_recruit_agent recruit_merchant
+;
+;
+; supported mission types:
+;
+; Pope Missions: 
+;                - join crusade
+;                - return home city
+;                - cease_hostilities
+;                - assassinate_cardinal
+;                - assassinate_witch
+;                - papal_blockade_port
+;                - break_alliance
+;                - papal_build_church
+;                - convert
+;                - gift_from_pope
+;                - give_cash
+;                - give_ancillary
+;                - recruit_priest
+; Council Missions: 
+;                - assassinate_general
+;                - council_blockade_port
+;                - council_take_rebel_settlement
+;                - council_take_settlement
+;                - gift_from_council
+;                - council_marry_princess
+;                - annex_settlement
+; Guild Missions: 
+;                - guild_take_settlement
+;                - guild_recruit_agent
+;                - guild_acquisition
+;                - guild_trade_agreement
+;
+; Base Mission Parameters:
+;   - [MISSION_SOURCE]	e.g. POPE_MISSION, used as a text lookup for the source of the mission
+;   - image_path_issued [image_name]	the event image name for mission issued event (default = mission_issued)
+;   - image_path_expired [image_name]	the event image name for mission expired event (default = mission_expired)
+;   - image_path_success [image_name]	the event image name for mission success event (default = mission_success)
+;   - image_path_failed [image_name]	the event image name for mission failed event (default = mission_failed)
+;   - duration [uint]	duration of the mission before automatic failure
+;   - exclude_duration [uint]	number of turns score is reduced for mission selection (score *= num_turns_since/exclude_duration) (default = 0)
+;   - score_modifier [float]	modifies the mission score (chance mission is chosen, higher = more frequent) (default = 1.0)
+;   - difficulty_threshold [float]	difficulty threshold used for mission rejection.  mission difficulty levels <= difficulty threshold are not selected for first 50 turns or if player on easy difficulty setting (default = 0.0)
+;   - turn_start [uint]	at what turn number do these missions become available? (default = 2)
+;   - paybacks 	structure indicating the conditions required to get a certain payback list
+;		The list is iterated until all conditions for that payback list are met, in which case it is chosen
+;
+;       - papal_standing [float]	the max papal standing condition
+;	- difficulty [float]		the max difficulty level, normally between 0.0 (impossible) and 1.0 (extremely easy)
+;	- cash [float]			the max treasury
+;	- random [float]		the max random value (may be cumulative with previous random conditions)
+;
+;   - Each mission may have additional parameters specified.
+
+

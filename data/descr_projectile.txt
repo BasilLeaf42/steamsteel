@@ -1,0 +1,5127 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;	projectile descriptions text file
+;
+; to calculate projectile parameters take
+;	d = shot distance from export_unit_descr.txt
+;	d = v^2 / g (at 45 deg) -> v = sqrt(d*9.81)
+;	check weapon ranges with angle ranges using
+;	d = v^2 * sin(2*a) / g
+;
+; NB: a velocity of 0 indicates a dropped projectile (oil, stones from walls etc), these are
+;     solely gravity propelled and ignore most range checks that would otherwise prevent them
+;     from firing.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; IMPACT FLAGS
+; 
+; bounce		Will bounce when hits ground.  Parameters are threshold velocity and normal 
+;			component, and multipliers.  When it's movement falls below threshold projectile
+;			will stick, shatter or vanish depending on other flags.
+;			1st param: velocity threshold (will only bounce if velocity is above this % of the original)
+;			2nd param: up vector threshold (will only bounce if up vector is above this % of the original)
+;			3rd param: velocity dampener (% of velocity retained after bounce)
+;			4th param: up vector dampener (% of up vector retained after bounce - ie get flatter with every bounce)
+;
+; body_piercing		Indicates this projectile can hit several soldiers in a single tick (ie not
+;			stopped by soldiers).  Will bounce, shatter or vanish when it hits the ground 
+;			depending on other flags.  There is also a bp flag in descr_engines.txt.  This flag
+;			tells the AI the engine is capable of body piercing attacks.  These two flags may
+;			be merged in a future release but for now the engine flag should be set if it is 
+;			capable of firing a "body_piercing" projectile.
+;
+; ground_shatter	Projectile shatters when it hits ground, package or soldiers (if not body_piercing)
+;			This flag is required for the area_effect tag.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ROCKETS
+;
+; Normal rockets have a min angle check as rockets can spiral after launch and a negative		
+; minimum angle could result in a rocket plowing into the ground almost immediately which		
+; could kill the launching crew.  Rockets fired from elephants have a launch point about		
+; 4 metres in the air so reasonable negative angle is safe and necessary for can_hit_target	
+; tests later on.  Elevated rockets and rockets are identical except for the minimum angle		
+; check.																						
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Projectile Delays
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+delay		standard	0.0
+delay		flaming	15.0
+delay		gunpowder	0.0
+
+
+
+
+projectile arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	21 42
+display		aimed
+effect_only
+
+projectile arrow_fiery
+
+flaming		arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	18 36
+display		aimed
+effect_only
+
+
+projectile mass_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	21 42
+display		aimed
+effect_only
+
+projectile mass_arrow_fiery
+
+flaming		mass_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	18 36
+display		aimed
+effect_only
+
+projectile composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+projectile composite_arrow_fiery
+
+flaming		composite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	21 42
+display		aimed
+effect_only
+
+projectile mass_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+projectile mass_composite_arrow_fiery
+
+flaming		mass_composite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	21 42
+display		aimed
+effect_only
+
+projectile cav_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	26 52
+display		aimed
+effect_only
+
+
+projectile cav_mass_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	26 52
+display		aimed
+effect_only
+
+projectile bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	22 44
+display		aimed
+effect_only
+
+
+projectile bodkin_arrow_fiery
+
+flaming		bodkin_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	19 38
+display		aimed
+effect_only
+
+
+projectile mass_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	22 44
+display		aimed
+effect_only
+
+projectile mass_bodkin_arrow_fiery
+
+flaming		mass_bodkin_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	19 38
+display		aimed
+effect_only
+
+projectile cav_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+projectile catapult
+
+effect 			boulder_medium_set
+end_effect				ground_impact_medium_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_medium_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect	wall_impact_medium_set
+
+
+area_effect				ae_catapult_shot
+damage			30
+damage_to_troops 20
+radius			0.3
+mass			1.5
+area			1
+accuracy_vs_units		0.09
+accuracy_vs_buildings	0.05
+accuracy_vs_towers      0.05 
+min_angle		-15
+max_angle		60
+velocity		75	;61
+ground_shatter
+body_piercing
+;bounce			0.5 0.6 0.5 0.4
+display			aimed
+effect_only
+
+projectile fiery_catapult
+
+flaming			catapult
+effect 			fiery_boulder_catapult_set
+end_effect				ground_fiery_impact_catapult_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_fiery_catapult_set
+end_shatter_effect		ground_fiery_impact_catapult_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect	wall_impact_fiery_catapult_set
+
+
+area_effect				ae_catapult_shot
+damage			25
+damage_to_troops 30
+radius			0.2
+mass			1.0
+area			1.5
+accuracy_vs_units		0.09
+accuracy_vs_buildings	0.05
+accuracy_vs_towers      0.05 
+fiery					; uncomment this to make all boulders fiery
+min_angle		-15
+max_angle		60
+velocity		75	;61
+ground_shatter
+body_piercing
+display			aimed
+effect_only
+
+projectile trebuchet
+
+effect 			boulder_medium_set
+end_effect				ground_impact_treb_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_treb_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect	wall_impact_medium_set
+
+
+damage			60
+damage_to_troops 10
+radius			0.4
+mass			2.0		;appears to be units of 100kg (given a man is 0.8)
+area			1
+accuracy_vs_units		0.08
+accuracy_vs_buildings	0.04
+accuracy_vs_towers      0.04
+min_angle		-15
+max_angle		60
+velocity		75 ;61
+;bounce			0.01 0.01 0.93 0.5
+body_piercing
+display			aimed 
+effect_only
+
+
+projectile fiery_trebuchet
+
+flaming			trebuchet
+effect 			fiery_boulder_set
+end_effect				ground_fiery_impact_large_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_fiery_treb_set
+end_shatter_effect		ground_fiery_impact_large_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect	wall_impact_fiery_treb_set
+
+area_effect				ae_trebuchet_shot
+damage			45
+damage_to_troops 20
+radius			0.3
+mass			1.5
+area			1.5
+accuracy_vs_units		0.08
+accuracy_vs_buildings	0.04
+accuracy_vs_towers      0.04
+fiery					; uncomment this to make all boulders fiery
+min_angle		-15
+max_angle		60
+velocity		75 ;61
+ground_shatter
+body_piercing
+display			aimed
+effect_only
+
+;obviously not used
+projectile tarred_rock
+
+damage		5
+radius		0.3
+mass		0.1
+fiery
+min_angle	-15
+max_angle	60
+velocity	60
+display		particle_trail shatter_dust shatter_debris vanish_debris invert_model_z
+model		data/models_missile/onager_rock.CAS,  max
+
+;obviously not used
+projectile stone
+
+effect		small_arrow_trail_set
+damage		0
+radius		0.001
+mass		0.05
+min_angle	-60
+max_angle	60
+velocity	60
+display 
+model		data/models_missile/sling_stone.cas, max
+
+;obviously not used
+projectile bolt
+
+damage		3
+radius		0.001
+mass		0.05
+min_angle	-60
+max_angle	60
+velocity	60
+display		aimed particle_trail invert_model_z
+model		data/models_missile/Bolt_high.CAS,  40.0
+model		data/models_missile/Bolt_med.CAS,  80.0
+model		data/models_missile/Bolt_low.CAS,  max
+
+projectile javelin
+
+damage		0
+radius		0.05
+mass		0.14
+accuracy_vs_units		0.11
+min_angle	-60
+max_angle	45
+velocity	30
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 40
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+projectile cav_javelin
+
+damage		0
+radius		0.05
+mass		0.14
+accuracy_vs_units		0.11
+min_angle	-60
+max_angle	45
+velocity	30
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 40
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+
+projectile ballista
+
+effect	    large_arrow_trail_set
+end_effect   large_arrow_explode_set
+end_man_effect			man_impact_small_set
+end_package_effect    	wall_impact_small_set
+end_shatter_effect		large_arrow_explode_set
+end_shatter_man_effect		man_impact_small_set
+end_shatter_package_effect	wall_impact_small_set
+
+
+damage		0
+damage_to_troops 5
+radius		0.001
+mass		0.2
+accuracy_vs_units		0.11
+accuracy_vs_buildings	0.11
+accuracy_vs_towers      0.11
+min_angle	-30
+max_angle	35
+velocity	60
+;bounce		0.5 0.6 0.5 0.4
+body_piercing
+display		aimed particle_trail invert_model_z
+model		data/models_missile/missile_ballista_bolt_high.CAS,  40.0
+model		data/models_missile/missile_ballista_bolt_med.CAS,  80.0
+model		data/models_missile/missile_ballista_bolt_low.CAS,  max
+
+projectile flaming_ballista
+
+flaming		ballista
+effect	        flaming_ballista_projectile_set
+end_effect				ground_fiery_impact_ballista_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	wall_impact_fiery_ballista_set
+end_shatter_effect		ground_fiery_impact_ballista_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	wall_impact_fiery_ballista_set
+
+
+effect_offset 1.0
+damage		0
+damage_to_troops 5
+radius		0.001
+mass		0.2
+accuracy_vs_units		0.13
+accuracy_vs_buildings	0.13
+accuracy_vs_towers      0.13 
+fiery
+min_angle	-45
+max_angle	45
+velocity	85
+body_piercing
+display		aimed invert_model_z
+model		data/models_missile/missile_ballista_bolt_high.CAS,  40.0
+model		data/models_missile/missile_ballista_bolt_med.CAS,  80.0
+model		data/models_missile/missile_ballista_bolt_low.CAS,  max
+
+
+projectile tower_ballista
+
+effect	    large_arrow_trail_set
+end_effect   large_arrow_explode_set
+end_man_effect			man_impact_small_set
+damage		0
+damage_to_troops 5
+radius		0.001
+mass		0.2
+accuracy_vs_units	0.4
+accuracy_vs_buildings	0.4
+min_angle	-70
+max_angle	45
+velocity	90
+;bounce		0.5 0.6 0.5 0.4
+display		aimed particle_trail invert_model_z
+model		data/models_missile/missile_ballista_bolt_high.CAS,  40.0
+model		data/models_missile/missile_ballista_bolt_med.CAS,  80.0
+model		data/models_missile/missile_ballista_bolt_low.CAS,  max
+
+
+projectile tower_flaming_ballista
+
+flaming		tower_ballista
+effect	        flaming_ballista_projectile_set
+end_effect				ground_fiery_impact_ballista_set
+end_man_effect			man_impact_explosive_small_set
+end_package_effect    	wall_impact_fiery_ballista_set
+end_shatter_effect		ground_fiery_impact_ballista_set
+end_shatter_man_effect		man_impact_explosive_small_set
+end_shatter_package_effect	wall_impact_fiery_ballista_set
+
+effect_offset 1.0
+damage		1
+damage_to_troops 5
+radius		0.001
+mass		0.2
+accuracy_vs_units	0.5
+accuracy_vs_buildings	0.5
+fiery
+min_angle	-70
+max_angle	45
+velocity	90
+;bounce		0.5 0.6 0.5 0.4
+display		aimed invert_model_z
+model		data/models_missile/missile_ballista_bolt_high.CAS,  40.0
+model		data/models_missile/missile_ballista_bolt_med.CAS,  80.0
+model		data/models_missile/missile_ballista_bolt_low.CAS,  max
+
+;obviously not used
+projectile scorpion
+
+effect	    large_arrow_trail_set
+end_effect  large_arrow_explode_set
+damage		0
+damage_to_troops 2
+radius		0.001
+mass		0.2
+accuracy_vs_units		0.1
+min_angle	-30
+max_angle	45
+velocity	90
+display		aimed particle_trail
+model		data/models_missile/missile_scorpion_bolt_high.CAS,  40.0
+model		data/models_missile/missile_scorpion_bolt_med.CAS,  80.0
+model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
+
+;obviously not used
+projectile flaming_scorpion
+
+flaming		scorpion
+effect	    	fiery_ballista_trail_set
+end_effect      fiery_ballista_explosion_set
+effect_offset	1.0
+damage		0
+damage_to_troops 2
+radius		0.001
+mass		0.1
+accuracy_vs_units		0.12
+fiery
+min_angle	-45
+max_angle	45
+velocity	90
+display		aimed particle_trail
+model		data/models_missile/missile_scorpion_bolt_high.CAS,  40.0
+model		data/models_missile/missile_scorpion_bolt_med.CAS,  80.0
+model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
+
+;obviously not used
+projectile repeating_ballista
+
+effect	    large_arrow_trail_set
+end_effect  large_arrow_explode_set
+damage		0
+damage_to_troops 2
+radius		0.001
+mass		0.2
+accuracy_vs_units		0.1
+min_angle	-30
+max_angle	45
+velocity	85
+display		aimed particle_trail
+model		data/models_missile/missile_scorpion_bolt_high.CAS,  40.0
+model		data/models_missile/missile_scorpion_bolt_med.CAS,  80.0
+model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
+
+;;;;;;;;;;;;;;;;;;;;
+; MTW Cannon Shots ;
+;;;;;;;;;;;;;;;;;;;;
+
+projectile bombard_shot
+
+effect 			bombard_set
+end_effect				ground_impact_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_medium_set
+
+
+damage		 250
+damage_to_troops 45
+radius			0.001
+mass			2.5
+area			1
+accuracy_vs_units		0.045
+accuracy_vs_buildings	0.045
+accuracy_vs_towers      0.045
+min_angle		-15
+max_angle		40
+velocity		30 75
+ground_shatter
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+
+projectile bombard_stone_shot
+
+exploding				bombard_shot
+
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_explosion_culvern_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_explosion_culvern_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		ground_impact_wall_explosion_culvern_set
+
+area_effect		ae_cannon_shot_large
+damage			400
+damage_to_troops 90
+radius			0.001
+mass			3.5
+area			30.0
+accuracy_vs_units	0.04
+accuracy_vs_buildings	0.04
+accuracy_vs_towers      0.04
+min_angle		-15
+max_angle		35
+velocity		35, 80
+ground_shatter
+body_piercing
+;bounce			0.5 0.6 0.5 0.4
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+projectile flaming_bombard_shot
+
+flaming			bombard_shot
+effect 			fiery_boulder_bombard_set
+end_effect				ground_fiery_impact_medium_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_fiery_treb_set
+end_shatter_effect		ground_fiery_impact_medium_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_fiery_treb_set
+
+damage		 250
+damage_to_troops 45
+radius			0.001
+mass			2.5
+area			1
+accuracy_vs_units		0.055
+accuracy_vs_buildings	0.055
+accuracy_vs_towers      0.055
+fiery
+min_angle		-15
+max_angle		40
+velocity		30 75
+ground_shatter
+body_piercing
+display			aimed 
+effect_only
+
+;*********************************************
+
+projectile bombard_tower_shot
+
+effect 			bombard_set
+end_effect				ground_impact_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_medium_set
+
+
+damage			120
+damage_to_troops 10
+radius			0.001
+mass			6.0
+area			0.01
+accuracy_vs_units		0.6
+accuracy_vs_buildings	0.6
+accuracy_vs_towers      0.6
+min_angle		-30
+max_angle		10
+velocity		15 25
+bounce 			0.01 0.01 0.93 0.5
+body_piercing
+display			aimed 
+effect_only
+
+;*********************************************
+
+projectile botet_poison_kernel
+
+effect 					poison_ball_medium_set
+end_effect 	 			cow_impact_ground_set
+end_man_effect			cow_impact_ground_set
+end_package_effect    	cow_impact_wall_set
+end_shatter_effect		cow_impact_ground_set
+end_shatter_man_effect		cow_impact_ground_sett
+end_shatter_package_effect		cow_impact_wall_set
+
+area_effect				ae_skaven_globe_impact_set
+damage			80
+damage_to_troops 1
+radius			0.6
+mass			0.4
+area			2.0
+accuracy_vs_units	0.045
+accuracy_vs_buildings	0.025
+accuracy_vs_towers	0.03
+min_angle		45
+max_angle		90
+prefer_high
+velocity	60 30
+ground_shatter
+body_piercing		
+display		aimed
+effect_only
+
+
+projectile death_rocket
+
+effect 			rocket_projectile_set
+end_effect				ground_fiery_impact_small_set
+end_man_effect			man_impact_explosive_small_set
+end_package_effect    	wall_impact_fiery_small_set
+end_shatter_effect		ground_fiery_impact_small_set
+end_shatter_man_effect		man_impact_explosive_small_set
+end_shatter_package_effect		wall_impact_fiery_small_set
+
+explode_effect	wall_impact_fiery_small_set
+
+effect_offset	-0.85
+area_effect		ae_large_rocket_shot
+damage			200
+damage_to_troops 5
+radius			0.3
+mass			0.8
+area			2.5
+accuracy_vs_units		0.0525
+accuracy_vs_buildings	0.05
+accuracy_vs_towers      0.035 
+;fiery					; uncomment this to make all boulders fiery
+min_angle		-15
+max_angle		70
+velocity		75	;61
+ground_shatter
+body_piercing
+display			aimed
+model		mods/bnw/data/models_missile/death_rocket.cas, max
+
+
+projectile bombard_shot_china
+
+effect 			bombard_set
+end_effect				ground_impact_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_medium_set
+
+
+damage		 250
+damage_to_troops 45
+radius			0.001
+mass			2.5
+area			1
+accuracy_vs_units		0.06
+accuracy_vs_buildings	0.06
+accuracy_vs_towers      0.06
+min_angle		-15
+max_angle		40
+velocity		30 75
+ground_shatter
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+
+projectile exploding_bombard_shot_china
+
+exploding				bombard_shot_china
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_explosion_culvern_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_explosion_culvern_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		ground_impact_wall_explosion_culvern_set
+
+;area_effect		ae_cannon_shot_large
+damage			800
+damage_to_troops 90
+radius			0.001
+mass			4.5
+area			5
+accuracy_vs_units	0.03
+accuracy_vs_buildings	0.03
+accuracy_vs_towers      0.03
+min_angle		-15
+max_angle		35
+velocity		50, 120
+ground_shatter
+body_piercing
+display			aimed 
+effect_only
+
+
+projectile cannon_shot_china
+
+ 
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_explosion_culvern_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_explosion_culvern_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		ground_impact_wall_explosion_culvern_set
+
+area_effect				ae_cannon_shot_large_3
+damage			600
+damage_to_troops 45
+radius			0.001
+mass			4.5
+area			7.0
+accuracy_vs_units	0.015
+accuracy_vs_buildings	0.015
+accuracy_vs_towers      0.015
+min_angle		-15
+max_angle		35
+prefer_high
+velocity		40, 135
+ground_shatter
+body_piercing
+rocket			0.0	0.0 0 0.0 0 0 0.0 0 0
+self_explode 1.0 4 8 cannon_shot_china
+display   aimed
+effect_only
+
+
+projectile cannon_shot_china1
+
+ 
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_explosion_culvern_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_explosion_culvern_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		ground_impact_wall_explosion_culvern_set
+
+area_effect				ae_cannon_shot_large_3
+damage			600
+damage_to_troops 45
+radius			0.001
+mass			4.5
+area			7.0
+accuracy_vs_units	0.025
+accuracy_vs_buildings	0.025
+accuracy_vs_towers      0.025
+min_angle		-15
+max_angle		35
+prefer_high
+velocity		40, 135
+ground_shatter
+body_piercing
+rocket			0.0	0.0 0 0.0 0 0 0.0 0 0
+self_explode 1.0 4 8 cannon_shot_china
+display   aimed
+effect_only
+
+
+projectile exploding_cannon_shot_china
+
+exploding				cannon_shot_china
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_explosion_culvern_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_explosion_culvern_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		ground_impact_wall_explosion_culvern_set
+
+area_effect		ae_cannon_shot_large_4
+damage			1200
+damage_to_troops 90
+radius			0.001
+mass			4.5
+area			7.0
+accuracy_vs_units	0.15
+accuracy_vs_buildings	0.15
+accuracy_vs_towers      0.15
+min_angle		-15
+max_angle		35
+velocity		40, 135
+ground_shatter
+body_piercing
+display			aimed 
+effect_only
+
+
+projectile exploding_cannon_shot_china1
+
+exploding				cannon_shot_china1
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_explosion_culvern_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_explosion_culvern_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		ground_impact_wall_explosion_culvern_set
+
+area_effect		ae_cannon_shot_large_4
+damage			1200
+damage_to_troops 90
+radius			0.001
+mass			4.5
+area			7.0
+accuracy_vs_units	0.25
+accuracy_vs_buildings	0.25
+accuracy_vs_towers      0.25
+min_angle		-15
+max_angle		35
+velocity		40, 135
+ground_shatter
+body_piercing
+display			aimed 
+effect_only
+
+;*********************************************
+
+projectile ribault_shot
+
+effect 					ribault_shot_set
+end_effect				ground_impact_ribault_set
+end_man_effect			man_impact_small_set
+end_package_effect    	wall_impact_small_set
+end_shatter_effect		ground_impact_ribault_set
+end_shatter_man_effect		man_impact_small_set
+end_shatter_package_effect		wall_impact_small_set
+
+damage			0
+damage_to_troops 11
+radius			0.001
+mass			0.2
+area			1.5
+accuracy_vs_units		0.04
+accuracy_vs_buildings	0.04
+accuracy_vs_towers      0.04
+min_angle		-45
+max_angle		30
+velocity		200
+ground_shatter
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+model			data/models_effects/none.CAS, max,  max
+model			data/models_effects/none.CAS,  40.0
+model			data/models_effects/none.CAS,  80.0
+model			data/models_effects/none.CAS,  max
+
+;*********************************************
+
+projectile ribault_shot_traced
+
+effect 					ribault_shot_set_traced
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage			0
+damage_to_troops 11
+radius			1
+mass			0.2
+area			3
+accuracy_vs_units		0.04
+accuracy_vs_buildings	0.04
+accuracy_vs_towers      0.04
+min_angle		-45
+max_angle		30
+velocity		200
+ground_shatter
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+model			data/models_effects/none.CAS, max,  max
+model			data/models_effects/none.CAS,  40.0
+model			data/models_effects/none.CAS,  80.0
+model			data/models_effects/none.CAS,  max
+
+
+;*********************************************
+
+projectile maxim_shot
+
+effect                     ribault_shot_set_traced
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage            0
+damage_to_troops 11
+radius            1.5
+mass            0.1
+area            3
+accuracy_vs_units        0.03
+accuracy_vs_buildings    0.03
+accuracy_vs_towers      0.03
+min_angle        -45
+max_angle        30
+velocity        250
+ground_shatter
+body_piercing
+;bounce            0.01 0.01 0.93 0.5
+display            aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+model            data/models_effects/none.CAS, max,  max
+model            data/models_effects/none.CAS,  40.0
+model            data/models_effects/none.CAS,  80.0
+model            data/models_effects/none.CAS,  max
+
+;*********************************************
+
+projectile pompom_shot
+
+effect                     ribault_shot_set_traced
+end_effect ground_impact_explosion_pompom_set
+end_man_effect			man_impact_explosive_small_set
+end_package_effect    	ground_impact_wall_explosion_pompom_set
+end_shatter_effect		ground_impact_explosion_pompom_set
+end_shatter_man_effect		man_impact_explosive_small_set
+end_shatter_package_effect		ground_impact_wall_explosion_pompom_set
+
+area_effect ae_pompom_shot
+damage            10
+damage_to_troops 20
+radius            1.5
+mass            0.1
+area            3
+accuracy_vs_units        0.04
+accuracy_vs_buildings    0.04
+accuracy_vs_towers      0.04
+min_angle        -45
+max_angle        30
+velocity        180
+ground_shatter
+body_piercing
+;bounce            0.01 0.01 0.93 0.5
+display            aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+model            data/models_effects/none.CAS, max,  max
+model            data/models_effects/none.CAS,  40.0
+model            data/models_effects/none.CAS,  80.0
+model            data/models_effects/none.CAS,  max
+
+;*********************************************
+
+projectile monster_ribault_shot
+
+effect 					monster_ribault_shot_set
+end_effect				ground_impact_ribault_set
+end_man_effect			man_impact_small_set
+end_package_effect    	wall_impact_small_set
+end_shatter_effect		ground_impact_ribault_set
+end_shatter_man_effect		man_impact_small_set
+end_shatter_package_effect		wall_impact_small_set
+
+damage			2
+damage_to_troops 20
+radius			0.001
+mass			0.4
+area			2.0
+accuracy_vs_units		0.06
+accuracy_vs_buildings	0.05
+accuracy_vs_towers      0.05 
+min_angle		-15
+max_angle		30
+velocity		140
+ground_shatter
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+;*********************************************
+
+projectile grand_bombard_shot
+
+effect 					bombard_set
+end_effect				ground_impact_grand_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_grand_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_medium_set
+
+;area_effect				ae_cannon_shot_large
+damage			200
+damage_to_troops 45
+radius			0.001
+mass			3.0
+area			1
+accuracy_vs_units		0.05
+accuracy_vs_buildings	0.05
+accuracy_vs_towers      0.05
+min_angle		-15
+max_angle		40
+velocity		30 70
+bounce 			0.01 0.01 0.93 0.5
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+projectile flaming_grand_bombard_shot
+
+flaming				grand_bombard_shot
+effect 					fiery_boulder_grand_bombard_set
+end_effect				ground_fiery_impact_grand_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_fiery_grand_bombard_set
+end_shatter_effect		ground_fiery_impact_grand_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_fiery_grand_bombard_set
+
+damage			200
+damage_to_troops 45
+radius			0.001
+mass			2.5
+area			1
+accuracy_vs_units		0.06
+accuracy_vs_buildings	0.06
+accuracy_vs_towers      0.06
+min_angle		-15
+max_angle		40
+velocity		30 70
+ground_shatter
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+
+projectile monster_bombard_shot
+
+effect 					huge_cannon_ball_set
+end_effect				ground_impact_large_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_monster_set
+end_shatter_effect		ground_impact_large_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_monster_set
+
+;area_effect		ae_monster_shot_large
+damage			480
+damage_to_troops 60
+radius			0.001
+mass			6.0
+area			2
+accuracy_vs_units		0.04
+accuracy_vs_buildings	0.03
+accuracy_vs_towers      0.03 
+min_angle		-15
+max_angle		30
+velocity		110
+bounce 			0.01 0.01 0.93 0.5
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+
+projectile cannon_shot
+
+exploding				cannon_shot
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_explosion_culvern_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_explosion_culvern_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		ground_impact_wall_explosion_culvern_set
+
+area_effect		ae_cannon_shot_large_1
+damage			350
+damage_to_troops 90
+radius			0.1
+mass			4.5
+area			30.0
+accuracy_vs_units	0.03
+accuracy_vs_buildings	0.03 
+accuracy_vs_towers      0.03
+min_angle		45
+max_angle		70
+prefer_high
+velocity		10, 90
+ground_shatter
+body_piercing
+;bounce			0.5 0.6 0.5 0.4
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+
+projectile exploding_cannon_shot
+
+exploding				cannon_shot
+effect 					poison_ball_medium_set
+end_effect 	 			cow_impact_ground_set
+end_man_effect			cow_impact_ground_set
+end_package_effect    	cow_impact_wall_set
+end_shatter_effect		cow_impact_ground_set
+end_shatter_man_effect		cow_impact_ground_set
+end_shatter_package_effect		cow_impact_wall_set
+
+area_effect				ae_skaven_globe_impact_set
+damage			80
+damage_to_troops 1
+radius			0.1
+mass			4.5
+area			30.0
+accuracy_vs_units	0.03
+accuracy_vs_buildings	0.03 
+accuracy_vs_towers      0.03
+min_angle		45
+max_angle		70
+prefer_high
+velocity		10, 90
+ground_shatter
+display		aimed
+effect_only
+
+projectile grape_regular_shot
+ 
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_cannons_set
+end_shatter_effect		ground_impact_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_cannons_set
+ 
+
+damage   20
+damage_to_troops 43
+radius   0.1
+mass   1.0
+area   1.0
+accuracy_vs_units  0.025
+accuracy_vs_buildings 0.025
+accuracy_vs_towers      0.025
+min_angle  -15
+max_angle  35
+velocity  20 65
+bounce   0.01 0.01 0.93 0.5
+grapeshot
+; self_explode <prob> <min sec> <max sec> [<area effect>]
+self_explode 1.0 0.1 0.1 grape_regular_shot
+display   aimed
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+projectile grape_late_shot
+ 
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_grand_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_large_set
+end_shatter_effect		ground_impact_grand_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_large_set
+ 
+
+damage   20
+damage_to_troops 43
+radius   0.1
+mass   1.0
+area   1.0
+accuracy_vs_units  0.02
+accuracy_vs_buildings 0.02
+accuracy_vs_towers      0.02
+min_angle  -15
+max_angle  35
+velocity  20 65
+bounce   0.01 0.01 0.93 0.5
+grapeshot
+; self_explode <prob> <min sec> <max sec> [<area effect>]
+self_explode 1.0 0.1 0.1 grape_late_shot
+display   aimed
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+projectile grape_early_shot
+ 
+effect 					bombard_set
+end_effect				ground_impact_grand_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_grand_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_medium_set
+ 
+
+damage   20
+damage_to_troops 43
+radius   0.1
+mass   1.0
+area   1.0
+accuracy_vs_units  0.06
+accuracy_vs_buildings 0.06
+accuracy_vs_towers      0.06
+min_angle  -15
+max_angle  35
+velocity  20 65
+bounce   0.01 0.01 0.93 0.5
+grapeshot
+; self_explode <prob> <min sec> <max sec> [<area effect>]
+self_explode 1.0 0.1 0.1 grape_early_shot
+display   aimed
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+projectile culverin_shot
+
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_cannons_set
+end_shatter_effect		ground_impact_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_cannons_set
+
+damage			600
+damage_to_troops 90
+radius			0.5
+mass			4.5
+area			1
+accuracy_vs_units	0.025
+accuracy_vs_buildings	0.025
+accuracy_vs_towers      0.025
+min_angle		-15
+max_angle		35
+velocity		35, 85
+ground_shatter
+body_piercing
+;bounce			0.5 0.6 0.5 0.4
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+projectile china_culverin_shot
+
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_cannons_set
+end_shatter_effect		ground_impact_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_cannons_set
+
+;area_effect		ae_cannon_shot_large
+damage			90
+damage_to_troops 20
+radius			0.001
+mass			0.5
+area			1
+accuracy_vs_units		0.045
+accuracy_vs_buildings	0.025
+accuracy_vs_towers      0.025 
+min_angle		-15
+max_angle		35
+velocity		140
+bounce 			0.01 0.01 0.93 0.5
+body_piercing
+display			aimed 
+effect_only
+
+
+projectile exploding_culverin_shot
+
+exploding				culverin_shot
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_explosion_culvern_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_explosion_culvern_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		ground_impact_wall_explosion_culvern_set
+
+area_effect		ae_cannon_shot_large_2
+damage			300
+damage_to_troops 90
+radius			0.001
+mass			4.5
+area			35.0
+accuracy_vs_units	0.025
+accuracy_vs_buildings	0.025
+accuracy_vs_towers      0.025
+min_angle		-15
+max_angle		35
+velocity		35, 85
+ground_shatter
+body_piercing
+;bounce			0.5 0.6 0.5 0.4
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+
+projectile mortar_shot
+effect 			cannon_ball_medium_set
+end_effect				ground_impact_mortar_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_mortar_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_medium_set
+
+area_effect				ae_mortar_shot
+damage			150
+damage_to_troops 20
+radius			0.1
+mass			0.5
+area			2
+accuracy_vs_units	0.05
+accuracy_vs_buildings	0.04
+accuracy_vs_towers      0.04 
+min_angle		45
+max_angle		80
+prefer_high
+velocity		55, 30
+ground_shatter
+body_piercing		
+;bounce			0.5 0.6 0.5 0.4
+display			aimed 
+;stuck
+effect_only
+
+
+projectile basilisk_shot
+
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_grand_bombard_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_large_set
+end_shatter_effect		ground_impact_grand_bombard_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_large_set
+
+damage			900
+damage_to_troops 90
+radius			0.5
+mass			4.5
+area			1.0
+accuracy_vs_units	0.02
+accuracy_vs_buildings	0.02
+accuracy_vs_towers      0.02
+min_angle		-15
+max_angle		35
+velocity		50, 115
+ground_shatter
+body_piercing
+display			aimed 
+effect_only
+
+projectile exploding_basilisk_shot
+
+exploding				basilisk_shot
+effect 					cannon_ball_medium_set
+end_effect				ground_impact_explosion_culvern_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_explosion_culvern_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		ground_impact_wall_explosion_culvern_set
+
+area_effect				ae_cannon_shot_large_3
+damage			450
+damage_to_troops 90
+radius			0.001
+mass			4.5
+area			35.0
+accuracy_vs_units	0.02
+accuracy_vs_buildings	0.02
+accuracy_vs_towers      0.02
+min_angle		-15
+max_angle		35
+velocity		50, 115
+ground_shatter
+body_piercing
+display			aimed 
+effect_only
+
+
+projectile serpentine_shot
+
+effect 			cannon_ball_medium_set
+end_effect				ground_impact_mortar_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_serpentine_set
+end_shatter_effect		ground_impact_mortar_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_serpentine_set
+
+;area_effect				ae_small_cannon_shot
+damage			30
+damage_to_troops 15
+radius			0.001
+mass			0.5
+area			1.0
+accuracy_vs_units		0.015
+accuracy_vs_buildings	0.005
+accuracy_vs_towers      0.005
+min_angle		-15
+max_angle		35
+velocity		140
+;ground_shatter
+bounce 			0.01 0.01 0.93 0.5
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+projectile elephant_cannon_shot
+
+effect 			cannon_ball_medium_set
+end_effect				ground_impact_mortar_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_serpentine_set
+end_shatter_effect		ground_impact_mortar_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_serpentine_set
+
+;area_effect				ae_small_cannon_shot
+damage			10
+damage_to_troops 10
+radius			0.001
+mass			0.5
+area			3.0
+accuracy_vs_units		0.08
+accuracy_vs_buildings	0.06
+accuracy_vs_towers      0.06 
+min_angle		-15
+max_angle		30
+velocity		110
+;ground_shatter
+bounce 			0.01 0.01 0.93 0.5
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+projectile 		cow_carcass
+
+effect 					poison_ball_medium_set
+end_effect 	 			cow_impact_ground_set
+end_man_effect			cow_impact_ground_set
+end_package_effect    	cow_impact_wall_set
+end_shatter_effect		cow_impact_ground_set
+end_shatter_man_effect		cow_impact_ground_sett
+end_shatter_package_effect		cow_impact_wall_set
+
+area_effect				ae_skaven_globe_impact_set
+damage			80
+damage_to_troops 1
+radius			0.1
+mass			4.5
+area			30.0
+accuracy_vs_units	0.015
+accuracy_vs_buildings	0.015 
+accuracy_vs_towers      0.015
+min_angle		-15
+max_angle		60
+prefer_high
+velocity		25, 70
+ground_shatter
+body_piercing		
+display		aimed
+effect_only
+
+;*******************************
+;*******************************
+;*******************************
+;*******************************
+projectile		rocket
+effect 			rocket_projectile_set
+end_effect				ground_fiery_impact_small_set
+end_man_effect			man_impact_explosive_small_set
+end_package_effect    	wall_impact_fiery_small_set
+end_shatter_effect		ground_fiery_impact_small_set
+end_shatter_man_effect		man_impact_explosive_small_set
+end_shatter_package_effect		wall_impact_fiery_small_set
+
+explode_effect	wall_impact_fiery_small_set
+
+effect_offset	-0.85
+area_effect		ae_rocket_shot
+damage			75
+radius			0.2
+mass			0.2
+area			0.5
+accuracy_vs_units		0.05
+accuracy_vs_buildings	0.035
+accuracy_vs_towers      0.04
+affected_by_rain
+fiery
+min_angle		-5
+max_angle		40
+velocity		70
+ground_shatter
+; rocket		<trail time sec> <spin prob> <spin tick> <max radius dlt> <angle min deg> <angle max deg> <erratic prob> <erratic tick> <erratic max angle>
+rocket			3.5	0.6 10 0.3 120 360 0.3 12 10
+; self_explode	<prob> <min sec> <max sec> [<area effect>]
+self_explode	0.3 1.5 3.0
+display			aimed
+triangle	
+texture			data/textures/arrow_test.tga
+tail			0.3
+length			2.5
+tail_tex0		0 0.0 
+tail_tex1		0 0.25 
+head_tex		1 0.125
+end
+
+
+projectile		elephant_rocket
+effect 			rocket_projectile_set
+end_effect				ground_fiery_impact_small_set
+end_man_effect			man_impact_explosive_small_set
+end_package_effect    	wall_impact_fiery_small_set
+end_shatter_effect		ground_fiery_impact_small_set
+end_shatter_man_effect		man_impact_explosive_small_set
+end_shatter_package_effect		wall_impact_fiery_small_set
+
+explode_effect	wall_impact_fiery_small_set
+
+effect_offset	-0.85
+;area_effect		ae_cannon_shot
+damage			10
+radius			0.2
+mass			0.1
+accuracy_vs_units		0.1
+accuracy_vs_buildings	0.08
+accuracy_vs_towers      0.08 
+affected_by_rain
+fiery
+min_angle		-30
+max_angle		30
+velocity		90
+ground_shatter
+
+; See notes in file header about rockets and elevated rockets
+; rocket		<trail time sec> <spin prob> <spin tick> <max radius dlt> <angle min deg> <angle max deg> <erratic prob> <erratic tick> <erratic max angle>
+elevated_rocket		3.5	0.6 10 0.3 120 360 0.3 12 10
+
+; self_explode	<prob> <min sec> <max sec> [<area effect>]
+self_explode	0.3 1.5 3.0
+display			aimed
+triangle	
+texture			data/textures/arrow_test.tga
+tail			0.3
+length			2.5
+tail_tex0		0 0.0 
+tail_tex1		0 0.25 
+head_tex		1 0.125
+end
+
+;*******************************
+projectile		test_cannon_ball
+;effect 			cannon_ball
+effect 			fiery_arrow_set
+end_effect				ground_impact_medium_set
+end_man_effect			man_impact_medium_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_medium_set
+end_shatter_man_effect		man_impact_medium_set
+end_shatter_package_effect		wall_impact_medium_set
+
+damage			110
+damage_to_troops 10
+radius			0.3
+mass			0.8
+area			2.0
+accuracy_vs_units		0.06
+accuracy_vs_buildings	0.04
+accuracy_vs_towers      0.04 
+min_angle		-15
+max_angle		30
+velocity		90
+bounce 			0.01 0.01 0.93 0.5
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+;model			data/models/cannon_ball4.cas,	max
+;model			data/models/cannon_ball3.cas,	40.0
+;model			data/models/cannon_ball2.cas,	80.0
+;model			data/models/cannon_ball.cas,	max
+triangle	
+texture			data/textures/arrow_test.tga
+tail			0.3
+length			2.5
+tail_tex0		0 0.0 
+tail_tex1		0 0.25 
+head_tex		1 0.125
+end
+
+;***************************
+; New MTW Personal Weapons *
+;***************************
+
+projectile nahptha_bomb
+
+effect					nahptha_bomb_projectile_set
+end_effect				ground_fiery_impact_nahptha_set
+end_man_effect			man_impact_explosive_small_set
+end_package_effect    	wall_impact_fiery_ballista_set
+end_shatter_effect		ground_fiery_impact_nahptha_set
+;end_shatter_man_effect		man_impact_explosive_small_set
+;end_shatter_package_effect		wall_impact_fiery_ballista_set
+
+area_effect				ae_nahptha_shot
+damage		0
+radius		0.001
+mass		0.05
+min_angle	-70
+max_angle	70
+velocity	30
+ground_shatter
+display		aimed
+effect_only
+
+projectile hand_gun_bullet ;(Arquebus)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.25
+accuracy_vs_units		0.08 
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	150 200
+display		aimed
+effect_only
+
+
+projectile quality_hand_gun_bullet; (Musket)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.15
+accuracy_vs_units		0.06
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	250 300
+display		aimed
+effect_only
+
+
+projectile early_arquebus_bullet; (Rifle-Musket)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.12
+accuracy_vs_units		0.05
+min_angle	-80
+max_angle	70
+velocity	300 350
+display		aimed
+effect_only
+
+
+projectile quality_early_arquebus_bullet ; (Quality Rifle-Musket)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.12
+accuracy_vs_units		0.04
+min_angle	-80
+max_angle	70
+velocity	300 350
+display		aimed
+effect_only
+
+projectile blunderbuss_shot; (Early Breechloader)
+ 
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.12
+accuracy_vs_units		0.05
+min_angle	-80
+max_angle	70
+velocity	300 350
+display		aimed
+effect_only
+
+
+projectile arquebus_bullet; (Rifle)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.08
+accuracy_vs_units		0.04
+min_angle	-80
+max_angle	70
+velocity	350 400
+display		aimed
+effect_only
+
+
+projectile camel_gun_bullet; (Harquebus)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.25
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	150 200
+display		aimed
+effect_only
+
+
+projectile mounted_arquebus_bullet; (Early Carbine)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.12
+accuracy_vs_units		0.065
+min_angle	-80
+max_angle	70
+velocity	300 350
+display		aimed
+effect_only
+
+
+projectile quality_mounted_arquebus_bullet; (Quality Early Carbine)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.12
+accuracy_vs_units		0.05
+min_angle	-80
+max_angle	70
+velocity	300 350
+display		aimed
+effect_only
+
+projectile musket_bullet; (Quality Rifle)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.08
+accuracy_vs_units		0.03
+;affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	350 400
+display		aimed
+effect_only
+
+
+projectile caliver_bullet; (Quality Late Carbine)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.08
+accuracy_vs_units		0.04
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	350 400
+display		aimed
+effect_only
+
+
+projectile flintlock_bullet; (Modern Sharpshooter)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.08
+accuracy_vs_units		0.02
+min_angle	-80
+max_angle	70
+velocity	400 450
+display		aimed
+effect_only
+
+
+projectile grape_bullet
+
+effect grape_model_set
+end_effect bullet_impact_ground_set
+end_man_effect man_impact_tiny_set
+end_package_effect bullet_impact_wall_set
+end_shatter_effect bullet_impact_ground_set
+end_shatter_man_effect man_impact_tiny_set
+end_shatter_package_effect bullet_impact_wall_set
+
+damage 0
+radius 0.05
+mass 0.2
+accuracy_vs_units 0.5
+min_angle -70
+max_angle 70
+velocity 40 80
+grapeshot
+display aimed
+effect_only 
+
+
+projectile grape_bullet1
+
+effect grape_model_set
+end_effect bullet_impact_ground_set
+end_man_effect man_impact_tiny_set
+end_package_effect bullet_impact_wall_set
+end_shatter_effect bullet_impact_ground_set
+end_shatter_man_effect man_impact_tiny_set
+end_shatter_package_effect bullet_impact_wall_set
+
+damage 0
+radius 0.05
+mass 0.2
+accuracy_vs_units 1.25
+min_angle -70
+max_angle 70
+velocity 20 40
+grapeshot
+display aimed
+effect_only 
+
+
+projectile quality_pistol_bullet
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect			bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.11
+accuracy_vs_units		0.0675
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	200
+display		aimed
+effect_only
+
+
+projectile quality_early_pistol_bullet
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect			bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.11
+accuracy_vs_units		0.07
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	300
+display		aimed
+effect_only
+
+
+projectile light_crossbow_bolt
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.08
+accuracy_vs_units		0.11
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+
+projectile crossbow_bolt
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.1
+accuracy_vs_units		0.11
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+
+projectile heavy_crossbow_bolt
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.12
+accuracy_vs_units		0.11
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+
+projectile steel_crossbow_bolt
+
+effect			crossbow_steel_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.14
+accuracy_vs_units		0.11
+min_angle	-80
+max_angle	60
+velocity	55 60
+display		aimed
+effect_only
+
+
+projectile norman_catapult
+
+effect 			boulder_medium_set
+end_effect				ground_impact_medium_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_medium_set
+end_shatter_effect		ground_impact_medium_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect	wall_impact_medium_set
+
+area_effect				ae_mortar_shot
+damage			30
+damage_to_troops 30
+radius			0.3
+mass			0.8
+area			2.0
+accuracy_vs_units		0.0825
+accuracy_vs_buildings	0.0300
+accuracy_vs_towers      0.025 
+min_angle		-15
+max_angle		70
+velocity		75	;61
+ground_shatter
+;bounce			0.5 0.6 0.5 0.4
+body_piercing
+display			aimed
+effect_only
+
+
+projectile fiery_norman_catapult
+
+flaming			norman_catapult
+effect 			fiery_boulder_catapult_set
+end_effect				ground_fiery_impact_catapult_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_fiery_catapult_set
+end_shatter_effect		ground_fiery_impact_catapult_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect	wall_impact_fiery_catapult_set
+
+damage			30
+damage_to_troops 30
+radius			0.3
+mass			0.8
+area			2.5
+accuracy_vs_units		0.0825
+accuracy_vs_buildings	0.065
+accuracy_vs_towers      0.025 
+fiery					; uncomment this to make all boulders fiery
+min_angle		-15
+max_angle		70
+velocity		75	;61
+ground_shatter
+body_piercing
+display			aimed
+effect_only
+
+;-------------------------------------------------------------------------------------------------------------------------
+;--------------------------------NEW PROJECTILE TYPES WITH VARIABLE ACCURACY FOR SHOOTER SKILL----------------------------
+;-------------------------------------------------------------------------------------------------------------------------
+
+;-------------------------------------------------------cav arrow---------------------------------------------------------
+
+projectile militia_cav_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.03
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	22 44
+display		aimed
+effect_only
+
+
+projectile cav_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+
+projectile cav_mass_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+
+projectile quality_cav_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+
+projectile elite_cav_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	25 50
+display		aimed
+effect_only
+
+;-------------------------------------------------------arrow-------------------------------------------------------------
+
+projectile peasant_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.03
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	18 36
+display		aimed
+effect_only
+
+
+projectile peasant_arrow_fiery
+
+flaming		peasant_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.03
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	15 30
+display		aimed
+effect_only
+
+
+projectile peasant_militia_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.03
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	19 38
+display		aimed
+effect_only
+
+
+projectile peasant_militia_arrow_fiery
+
+flaming		peasant_militia_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.03
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	16 32
+display		aimed
+effect_only
+
+projectile militia_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.03
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	20 40
+display		aimed
+effect_only
+
+
+projectile militia_arrow_fiery
+
+flaming		militia_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.03
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	17 34
+display		aimed
+effect_only
+
+
+
+projectile militia_mass_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	20 40
+display		aimed
+effect_only
+
+
+projectile militia_mass_arrow_fiery
+
+flaming		militia_mass_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	17 34
+display		aimed
+effect_only
+
+projectile quality_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	22 44
+display		aimed
+effect_only
+
+
+projectile quality_arrow_fiery
+
+flaming		quality_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	19 38
+display		aimed
+effect_only
+
+
+projectile elite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+
+projectile elite_arrow_fiery
+
+flaming		elite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	20 40
+display		aimed
+effect_only
+
+;-------------------------------------------------------composite arrow-------------------------------------------------------------
+
+projectile quality_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	25 50
+display		aimed
+effect_only
+
+projectile quality_composite_arrow_fiery
+
+flaming		quality_composite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	22 44
+display		aimed
+effect_only
+
+
+projectile quality_mass_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	25 50
+display		aimed
+effect_only
+
+projectile quality_mass_composite_arrow_fiery
+
+flaming		quality_mass_composite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	22 44
+display		aimed
+effect_only
+
+projectile elite_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	26 52
+display		aimed
+effect_only
+
+projectile elite_composite_arrow_fiery
+
+flaming		elite_composite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+
+projectile exceptional_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	27 54
+display		aimed
+effect_only
+
+projectile exceptional_composite_arrow_fiery
+
+flaming		exceptional_composite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+
+projectile elite_mass_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	26 52
+display		aimed
+effect_only
+
+projectile elite_mass_composite_arrow_fiery
+
+flaming		elite_mass_composite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+
+projectile rhunnic_elite_mass_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	27 54
+display		aimed
+effect_only
+
+projectile rhunnic_elite_mass_composite_arrow_fiery
+
+flaming		rhunnic_elite_mass_composite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+
+projectile exceptional_mass_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	27 54
+display		aimed
+effect_only
+
+projectile exceptional_mass_composite_arrow_fiery
+
+flaming		elite_mass_composite_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+;-------------------------------------------------------cav composite arrow-------------------------------------------------------------
+
+projectile quality_cav_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	27 54
+display		aimed
+effect_only
+
+projectile quality_cav_mass_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	27 54
+display		aimed
+effect_only
+
+projectile elite_cav_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	28 56
+display		aimed
+effect_only
+
+projectile elite_cav_mass_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	28 56
+display		aimed
+effect_only
+
+
+projectile exceptional_cav_mass_composite_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	29 58
+display		aimed
+effect_only
+
+;-------------------------------------------------------bodkin arrow-------------------------------------------------------------
+
+projectile quality_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+projectile quality_bodkin_arrow_fiery
+
+flaming		quality_bodkin_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	20 40
+display		aimed
+effect_only
+
+
+projectile quality_mass_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+projectile quality_mass_bodkin_arrow_fiery
+
+flaming		quality_mass_bodkin_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	20 40
+display		aimed
+effect_only
+
+
+projectile elite_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+projectile elite_bodkin_arrow_fiery
+
+flaming		elite_bodkin_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	21 42
+display		aimed
+effect_only
+
+
+projectile elite_mass_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+projectile elite_mass_bodkin_arrow_fiery
+
+flaming		elite_mass_bodkin_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	21 42
+display		aimed
+effect_only
+
+
+projectile sherwood_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	25 50
+display		aimed
+effect_only
+
+projectile sherwood_bodkin_arrow_fiery
+
+flaming		sherwood_bodkin_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.08
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	22 44
+display		aimed
+effect_only
+
+
+;-------------------------------------------------------cav bodkin arrow-------------------------------------------------------------
+
+projectile quality_cav_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	25 50
+display		aimed
+effect_only
+
+projectile elite_cav_bodkin_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	26 52
+display		aimed
+effect_only
+
+;-------------------------------------------------------war arrows-------------------------------------------------------------
+
+projectile cav_war_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+
+projectile cav_mass_war_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+projectile quality_cav_mass_war_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	24 48
+display		aimed
+effect_only
+
+projectile elite_cav_mass_war_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	25 50
+display		aimed
+effect_only
+
+projectile militia_war_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	20 40
+display		aimed
+effect_only
+
+
+projectile militia_war_arrow_fiery
+
+flaming		militia_war_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.04
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	17 34
+display		aimed
+effect_only
+
+projectile war_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	21 42
+display		aimed
+effect_only
+
+
+projectile war_arrow_fiery
+
+flaming		war_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	18 36
+display		aimed
+effect_only
+
+projectile war_mass_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	21 42
+display		aimed
+effect_only
+
+projectile war_mass_arrow_fiery
+
+flaming		war_mass_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.05
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	18 36
+display		aimed
+effect_only
+
+projectile quality_war_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	22 44
+display		aimed
+effect_only
+
+
+projectile quality_war_arrow_fiery
+
+flaming		quality_war_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	19 38
+display		aimed
+effect_only
+
+projectile quality_war_mass_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	22 44
+display		aimed
+effect_only
+
+
+projectile quality_war_mass_arrow_fiery
+
+flaming		quality_war_mass_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.06
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	19 38
+display		aimed
+effect_only
+
+
+projectile elite_war_arrow
+
+effect			arrows_new_set
+end_effect				arrow_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_impact_wall_set
+end_shatter_effect		arrow_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_broken_impact_wall_set
+
+effect_offset	-1.5
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	23 46
+display		aimed
+effect_only
+
+
+projectile elite_war_arrow_fiery
+
+flaming		elite_war_arrow
+effect 			arrows_fire_new_set
+end_effect				arrow_flaming_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	arrow_flaming_impact_wall_set
+end_shatter_effect		arrow_flaming_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	arrow_flaming_broken_impact_wall_set
+
+effect_offset -0.85
+damage		0
+radius		0.1
+mass		0.07
+accuracy_vs_units		0.11
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	70
+velocity	20 40
+display		aimed
+effect_only
+
+;-------------------------------------------------------crossbows-------------------------------------------------------------
+
+projectile cav_light_crossbow_bolt
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.08
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+projectile quality_cav_light_crossbow_bolt
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.08
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+projectile peasant_light_crossbow_bolt ;wooden crossbow
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.07
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	45 50
+display		aimed
+effect_only
+
+
+projectile peasant_militia_crossbow_bolt
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.08
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+projectile militia_crossbow_bolt
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.09
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+projectile militia_heavy_crossbow_bolt
+
+effect			crossbow_steel_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.011
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+
+projectile militia_steel_crossbow_bolt
+
+effect			crossbow_steel_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.09
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	70
+velocity	50 55
+display		aimed
+effect_only
+
+projectile quality_crossbow_bolt
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.01
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+projectile quality_heavy_crossbow_bolt
+
+effect			crossbow_steel_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.012
+accuracy_vs_units		0.09 
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+projectile elite_heavy_crossbow_bolt
+
+effect			crossbow_steel_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.014
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+projectile elite_crossbow_bolt
+
+effect			crossbow_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.08
+accuracy_vs_units		0.09
+affected_by_rain
+min_angle	-80
+max_angle	60
+velocity	50 55
+display		aimed
+effect_only
+
+projectile quality_steel_crossbow_bolt
+
+effect			crossbow_steel_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.14
+accuracy_vs_units		0.09
+min_angle	-80
+max_angle	60
+velocity	55 60
+display		aimed
+effect_only
+
+projectile elite_steel_crossbow_bolt
+
+effect			crossbow_steel_arrows_new_set
+end_effect				bolt_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bolt_impact_wall_set
+end_shatter_effect		bolt_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bolt_impact_wall_set
+
+damage		0
+radius		0.075
+mass		0.14
+accuracy_vs_units		0.09 
+min_angle	-80
+max_angle	60
+velocity	55 60
+display		aimed
+effect_only
+
+;-------------------------------------------------------firearms-------------------------------------------------------------
+
+projectile quality_arquebus_bullet
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.12
+accuracy_vs_units		0.0625 
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	400 400
+display		aimed
+effect_only
+
+
+projectile elite_arquebus_bullet
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.12
+accuracy_vs_units		0.0575
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	400 400
+display		aimed
+effect_only
+
+projectile quality_musket_bullet
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.14
+accuracy_vs_units		0.0575
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	450 450
+display		aimed
+effect_only
+
+projectile elite_musket_bullet
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.14
+accuracy_vs_units		0.0525
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	450 450
+display		aimed
+effect_only
+
+
+
+projectile quality_caliver_bullet
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.17
+accuracy_vs_units		0.06
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	425 425
+display		aimed
+effect_only
+
+
+projectile elite_caliver_bullet
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.17
+accuracy_vs_units		0.055
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	425 425
+display		aimed
+effect_only
+
+;//////////////////////////////////////////////////////////////////////////////////////
+
+projectile grenade
+
+effect ribault_shot_set
+end_effect ground_fiery_impact_small_set
+end_man_effect man_impact_medium_set
+end_package_effect wall_impact_fiery_small_set
+end_shatter_effect ground_impact_mortar_set
+end_shatter_man_effect man_impact_explosive_small_set
+end_shatter_package_effect wall_impact_fiery_small_set
+
+area_effect ae_small_cannon_shot
+damage 10
+damage_to_troops 10
+radius		0.001
+mass		0.05
+area 1.65
+min_angle	-70
+max_angle	70
+velocity	30
+ground_shatter
+display		aimed
+effect_only
+
+
+;///////////////////////////////////////////////////////////////////////////////////////
+projectile grenade_new
+
+effect ribault_shot_set
+end_effect ground_fiery_impact_small_set
+end_man_effect man_impact_medium_set
+end_package_effect wall_impact_fiery_small_set
+end_shatter_effect ground_impact_mortar_set
+end_shatter_man_effect man_impact_explosive_small_set
+end_shatter_package_effect wall_impact_fiery_small_set
+
+area_effect ae_small_cannon_shot
+damage 5
+damage_to_troops 8
+radius 0.0158335
+mass 0.0136
+area 1.65
+;accuracy_vs_units 0.65
+min_angle -60
+max_angle 70
+velocity 30
+ground_shatter
+display aimed
+effect_only
+
+;-------------------------------------------------------javelins-------------------------------------------------------------
+
+
+projectile peasant_militia_javelin
+
+damage		0
+radius		0.05
+mass		0.12
+accuracy_vs_units		0.11
+min_angle	-60
+max_angle	45
+velocity	26
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 40
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+projectile militia_javelin
+
+damage		0
+radius		0.05
+mass		0.13
+accuracy_vs_units		0.11
+min_angle	-60
+max_angle	45
+velocity	28
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 40
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+projectile quality_javelin
+
+damage		0
+radius		0.05
+mass		0.15
+accuracy_vs_units		0.11
+min_angle	-60
+max_angle	45
+velocity	32
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 40
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+projectile elite_javelin
+
+damage		0
+radius		0.05
+mass		0.16
+accuracy_vs_units		0.11
+min_angle	-60
+max_angle	45
+velocity	34
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 40
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+projectile militia_cav_javelin
+
+damage		0
+radius		0.05
+mass		0.13
+accuracy_vs_units		0.11
+min_angle	-60
+max_angle	45
+velocity	28
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 40
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+projectile quality_cav_javelin
+
+damage		0
+radius		0.05
+mass		0.15
+accuracy_vs_units		0.11
+min_angle	-60
+max_angle	45
+velocity	32
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 40
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+projectile elite_cav_javelin
+
+damage		0
+radius		0.05
+mass		0.15
+accuracy_vs_units		0.11
+min_angle	-60
+max_angle	45
+velocity	34
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 40
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+
+;-------------------------------------------------------------------------------------------------------------------------
+;-----------------------------------------------------Kingdoms Weapons----------------------------------------------------
+;--------------------------------------------------------------------------------------------------------
+;;;;maybe for tanks?
+projectile greek_fire
+	
+effect 			greek_fire_set
+end_effect				greek_fire_ground_impact_set
+end_man_effect			greek_fire_man_impact_set
+end_package_effect    	greek_fire_ground_impact_set
+end_shatter_effect		greek_fire_ground_impact_set
+end_shatter_man_effect		greek_fire_man_impact_set
+end_shatter_package_effect	greek_fire_ground_impact_set
+
+area_effect		aeset_greek_fire
+damage		2
+radius		1.0
+mass		0.0
+area			2
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	30
+velocity	30
+ground_shatter
+body_piercing
+display		aimed
+effect_only
+
+projectile air_burst_fire
+	
+effect 			mangonel_fire_set
+end_effect				mangonel_fiery_impact_small_set
+end_man_effect			greek_fire_man_impact_set
+end_package_effect    	mangonel_fiery_impact_package_small_set
+end_shatter_effect		mangonel_fiery_impact_small_set
+end_shatter_man_effect		greek_fire_man_impact_set
+end_shatter_package_effect	mangonel_fiery_impact_package_small_set
+
+area_effect		aeset_mangonel_fire
+damage		0
+radius		1.0
+mass		0.2
+area			2
+affected_by_rain
+fiery
+min_angle	-180
+max_angle	180
+velocity	5 20
+ground_shatter
+;body_piercing
+display		aimed 
+effect_only
+
+
+projectile mangonel_shot
+
+
+effect 			barrel_medium_set_test
+end_effect				ground_impact_wall_explosion_mangonel_set
+end_man_effect			ground_impact_wall_explosion_mangonel_set
+end_package_effect    	air_burst_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_wall_explosion_mangonel_set
+end_shatter_man_effect		ground_impact_wall_explosion_mangonel_set
+end_shatter_package_effect	air_burst_impact_wall_explosion_culvern_set
+explode_effect		air_burst_impact_wall_explosion_culvern_set
+
+area_effect		ae_barrel_explosion
+
+damage			5
+damage_to_troops 40
+radius			0.30
+mass			2.4;0.8
+area			1.0
+accuracy_vs_units		0.12
+accuracy_vs_buildings	0.08
+accuracy_vs_towers      0.08
+;fiery					; uncomment this to make all boulders fiery
+min_angle		-15
+max_angle		35
+prefer_high
+velocity		25 55 ;75 ;61
+ground_shatter
+body_piercing
+; rocket		<trail time sec> <spin prob> <spin tick> <max radius dlt> <angle min deg> <angle max deg> <erratic prob> <erratic tick> <erratic max angle>
+rocket			0.0	0.0 0 0.0 0 0 0.0 0 0
+; self_explode	<prob> <min sec> <max sec> [<area effect>]
+self_explode	0.8 1.0 5.5 air_burst_test
+display			aimed spin 4.0
+effect_only
+
+projectile oil
+
+effect				;boiling_oil_set							;uses static emitter, effect found in descr_walls 
+;end_effect			boiling_oil_ground_impact_set
+;end_man_effect			man_impact_tiny_set
+;end_package_effect    		boiling_oil_ground_impact_set
+end_shatter_effect		boiling_oil_ground_impact_set
+;end_shatter_man_effect		man_impact_tiny_set
+;end_shatter_package_effect	boiling_oil_ground_impact_set
+
+area_effect			aeset_boiling_oil
+no_ae_on_ram			;ram provides overhead protection from this area effect
+damage				2
+damage_to_troops 		4
+radius				1.0
+mass				3.8
+area				10.0
+;fiery					; uncomment this to make all boulders fiery
+min_angle			-80
+max_angle			-70
+velocity			0
+ground_shatter
+body_piercing
+display				aimed
+effect_only
+
+
+projectile super_banana
+
+effect 				banana_set
+end_effect			ground_impact_wall_explosion_culvern_set
+end_man_effect			ground_impact_wall_explosion_culvern_set
+end_package_effect    		ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_wall_explosion_culvern_set
+end_shatter_man_effect		ground_impact_wall_explosion_culvern_set
+end_shatter_package_effect	ground_impact_wall_explosion_culvern_set
+explode_effect			ground_impact_wall_explosion_culvern_set
+
+area_effect		super_banana_bomb
+
+damage			90
+damage_to_troops 10
+radius			0.3
+mass			4.0		;appears to be units of 100kg (given a man is 0.8)
+area			2.0
+accuracy_vs_units	0.075
+accuracy_vs_buildings	0.05
+accuracy_vs_towers      0.0305 
+min_angle		-15
+max_angle		70
+velocity		5 40
+bounce			0.01 0.01 0.99 0.99
+self_explode	1.0 2.0 4.0 super_banana_bomb
+display			aimed spin 3.0
+effect_only
+
+
+projectile banana
+
+effect 				banana_set
+;end_effect			ground_impact_wall_explosion_culvern_set
+;end_man_effect			ground_impact_wall_explosion_culvern_set
+;end_package_effect    		ground_impact_wall_explosion_culvern_set
+;end_shatter_effect		ground_impact_wall_explosion_culvern_set
+;end_shatter_man_effect		ground_impact_wall_explosion_culvern_set
+;end_shatter_package_effect	ground_impact_wall_explosion_culvern_set
+explode_effect			ground_impact_wall_explosion_culvern_set
+
+area_effect		banana_bomb
+
+damage			90
+damage_to_troops 	10
+radius			0.3
+mass			0.8		;appears to be units of 100kg (given a man is 0.8)
+area			2.0
+accuracy_vs_units	0.075
+accuracy_vs_buildings	0.05
+accuracy_vs_towers      0.0305 
+min_angle		-90
+max_angle		90
+velocity		5 30
+bounce			0.01 0.01 0.99 0.99
+self_explode	1.0 1.0 2.0 banana_bomb
+display			aimed spin 3.0
+effect_only
+
+projectile mini_banana
+effect 				banana_set
+end_effect			ground_impact_wall_explosion_culvern_set
+end_man_effect			ground_impact_wall_explosion_culvern_set
+end_package_effect    		ground_impact_wall_explosion_culvern_set
+end_shatter_effect		ground_impact_wall_explosion_culvern_set
+end_shatter_man_effect		ground_impact_wall_explosion_culvern_set
+end_shatter_package_effect	ground_impact_wall_explosion_culvern_set
+
+area_effect		banana_explosion
+damage			150
+damage_to_troops 	15
+radius			0.3
+mass			0.08
+area			2.0
+accuracy_vs_units	0.05
+accuracy_vs_buildings	0.0355
+accuracy_vs_towers      0.0355 
+min_angle		-90
+max_angle		90
+velocity		5 30
+ground_shatter
+body_piercing		
+display			aimed spin 3.0
+effect_only
+
+;-------------------------------------------------------------------------------------------------------------------------
+;-----------------------------------------------------  Song  ----------------------------------------------------
+;-------------------------------------------------------------------------------------------------------------------------
+
+
+projectile song_arquebus_bullet
+
+effect					grape_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0
+mass 0.05
+accuracy_vs_units 0.001
+min_angle -60
+max_angle 70
+velocity 30 85
+grapeshot
+display aimed
+effect_only 
+
+projectile song_arquebus_bullet_fiery
+
+flaming		song_arquebus_bullet
+effect 			greek_fire_set
+end_effect			greek_fire_ground_impact_set
+end_man_effect			greek_fire_man_impact_set
+end_package_effect    	greek_fire_ground_impact_set
+end_shatter_effect		greek_fire_ground_impact_set
+end_shatter_man_effect		greek_fire_man_impact_set
+end_shatter_package_effect	greek_fire_ground_impact_set
+
+area_effect		aeset_greek_fire
+damage		2
+radius		1.0
+mass		0.0
+area			2
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	30
+velocity	30
+ground_shatter
+body_piercing
+display		aimed
+effect_only
+
+
+projectile howitzer_shot
+
+effect 					huge_cannon_ball_set
+end_effect				ground_impact_large_set
+end_man_effect			man_impact_catapult_set
+end_package_effect    	wall_impact_monster_set
+end_shatter_effect		ground_impact_large_set
+end_shatter_man_effect		man_impact_catapult_set
+end_shatter_package_effect		wall_impact_monster_set
+
+;area_effect		ae_monster_shot_large
+damage			320
+damage_to_troops 40
+radius			0.001
+mass			3.5
+area			2.2
+accuracy_vs_units		0.02
+accuracy_vs_buildings	0.03
+accuracy_vs_towers      0.03 
+min_angle		-15
+max_angle		40
+velocity		115
+bounce 			0.01 0.01 0.93 0.5
+body_piercing
+display			aimed 
+;effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+effect_only
+
+
+;*************************************************************************************
+;******************************* STEAMPUNK PROJECTILES *******************************
+;*************************************************************************************
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Meteor Shower/ flare dropping. good for airships
+;attributes       sea_faring, can_withdraw, cannot_skirmish, incendiary, mercenary_unit, ;unique_unit
+;stat_pri         10, 5, fire_mag_meteor, 150, 10, missile, missile_gunpowder, blunt, none, ;25, 1
+;stat_pri_attr    bp, area
+;stat_sec         10, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_attr    ap
+
+
+projectile fire_mag_meteor
+
+effect					bullet_model_set
+end_effect			man_impact_tiny_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    		man_impact_tiny_set
+end_shatter_effect		man_impact_tiny_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	man_impact_tiny_set
+explode_effect		man_impact_tiny_set
+
+area_effect		aeset_meteor_fire
+
+damage			0
+radius			0.2
+mass			0.9
+area			0.5
+accuracy_vs_units		0.001
+accuracy_vs_buildings	0.04
+accuracy_vs_towers      0.05
+fiery					; uncomment this to make all boulders fiery
+min_angle		15
+max_angle		60
+;prefer_high
+velocity		30 75 ;75 ;61
+ground_shatter
+body_piercing
+; rocket		<trail time sec> <spin prob> <spin tick> <max radius dlt> <angle min deg> <angle max deg> <erratic prob> <erratic tick> <erratic max angle>
+rocket			0.0	0.0 0 0.0 0 0 0.0 0 0
+; self_explode	<prob> <min sec> <max sec> [<area effect>]
+self_explode	1 1.0 6.0 air_burst_test
+display			aimed spin 4.0
+effect_only
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;projectile with strong trail;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;attributes       sea_faring, can_withdraw, cannot_skirmish, incendiary
+;stat_pri         10, 6, globadiers_bomb, 80, 6, missile, missile_gunpowder, blunt, none, 25, 1
+;stat_pri_attr    area, ap
+;stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1
+;stat_sec_attr    no
+
+projectile globadiers_bomb
+
+effect					nahptha_bomb_projectile_set
+end_effect 	 			cow_impact_ground_set
+end_man_effect			cow_impact_ground_set
+end_package_effect    	cow_impact_wall_set
+end_shatter_effect		cow_impact_ground_set
+;end_shatter_man_effect		cow_impact_ground_set
+;end_shatter_package_effect		cow_impact_wall_set
+
+area_effect				ae_skaven_globe_impact_set
+damage		0
+radius		0.0
+mass		2.5
+area			1.0
+accuracy_vs_units		0.35
+min_angle	-30
+max_angle	50
+;prefer_high
+velocity	25 30
+ground_shatter
+;body_piercing
+display		aimed
+effect_only
+;model		mods/BOTET/data/models_missile/death_rocket.cas, max
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;thick smoky projectile;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;attributes       sea_faring, hardy, can_withdraw, cannon, artillery, stakes
+;stat_pri         7, 4, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1
+;stat_pri_attr    no
+;stat_sec         25, 0, warp_shot, 300, 13, siege_missile, artillery_gunpowder, blunt, none, ;25, 1
+;stat_sec_attr    ap, bp, area, launching
+
+
+projectile warp_shot
+
+effect 			green_lighting_set
+end_effect				air_burst_impact_wall_explosion_culvern_set
+end_man_effect			green_lighting_man_impact_set
+end_package_effect    	air_burst_impact_wall_explosion_culvern_set
+end_shatter_effect		green_lighting_ground_impact_set
+end_shatter_man_effect		air_burst_impact_wall_explosion_culvern_set
+end_shatter_package_effect	green_lighting_ground_impact_set
+
+
+area_effect				aeset_warpcannon_shot
+damage			200
+damage_to_troops 5
+radius			0.5
+mass			0.7
+area			2.0
+accuracy_vs_units		0.0150
+accuracy_vs_buildings	0.00275
+accuracy_vs_towers      0.00275 
+fiery					; uncomment this to make all boulders fiery
+min_angle		-10
+max_angle		50
+velocity		150
+ground_shatter
+body_piercing		
+display		aimed
+effect_only
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;smoky red projectile;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;attributes       sea_faring, can_withdraw, cannot_skirmish, incendiary, can_swim, frighten_foot, frighten_mounted, extreme_range
+;stat_pri         15, 5, red_water, 150, 40, missile, missile_gunpowder, blunt, none, 25, 1
+;stat_pri_attr    ap, bp, area
+;stat_sec         8, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_attr    ap
+
+
+projectile red_water
+	
+effect 			red_water_set
+end_effect				red_water_ground_impact_set
+end_man_effect			red_water_man_impact_set
+end_package_effect    	red_water_ground_impact_set
+end_shatter_effect		red_water_ground_impact_set
+end_shatter_man_effect		red_water_man_impact_set
+end_shatter_package_effect	red_water_ground_impact_set
+
+area_effect		aeset_phoenix_fire
+damage		25
+radius		1.0
+mass		0.1
+area			2
+;affected_by_rain
+min_angle	-80
+max_angle		70
+velocity	120
+ground_shatter
+body_piercing
+display		aimed
+effect_only
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;flurry of small grey missiles;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;attributes       sea_faring, can_withdraw, cannot_skirmish, incendiary, extreme_range
+;stat_pri         21, 5, dark_magic, 220, 20, missile, missile_gunpowder, blunt, none, 25, 1
+;stat_pri_attr    ap, bp, area
+;stat_sec         14, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_attr    no
+
+projectile dark_magic
+
+effect				boiling_oil_set							;uses static emitter, effect found in descr_walls 
+end_effect			boiling_oil_ground_impact_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    		boiling_oil_ground_impact_set
+end_shatter_effect		boiling_oil_ground_impact_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect	boiling_oil_ground_impact_set
+
+area_effect			aeset_boiling_oil
+damage		0
+radius		0.2
+mass		0.2
+accuracy_vs_units		0.01
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	120 120
+body_piercing
+display		aimed
+effect_only
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;green glow projectile with fire upon target
+;attributes       sea_faring, can_withdraw, cannot_skirmish, incendiary, hide_improved_forest
+;stat_pri         15, 5, forest, 150, 10, missile, missile_gunpowder, blunt, none, 25, 1
+;stat_pri_attr    ap, bp, area, launching
+;stat_sec         10, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_attr    ap
+
+
+projectile forest
+	
+effect 			warhhh_set
+end_effect				air_burst_impact_wall_explosion_culvern_set
+end_man_effect			green_lighting_man_impact_set
+end_package_effect    	air_burst_impact_wall_explosion_culvern_set
+end_shatter_effect		green_lighting_ground_impact_set
+end_shatter_man_effect		air_burst_impact_wall_explosion_culvern_set
+end_shatter_package_effect	green_lighting_ground_impact_set
+
+area_effect		ae_boiling_oil
+damage		0
+radius		1.0
+mass		0.5
+area			2.0
+accuracy_vs_units		0.0225
+;affected_by_rain
+min_angle	-80
+max_angle		70
+velocity	120
+ground_shatter
+body_piercing
+display		aimed
+effect_only
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;blue glow projectile;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;attributes       sea_faring, can_withdraw, cannot_skirmish, incendiary, extreme_range
+;stat_pri         26, 11, phoenix_fire_missile, 200, 20, missile, missile_gunpowder, blunt, ;none, 25, 1
+;stat_pri_attr    ap, bp, area
+;stat_sec         11, 11, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_attr    no
+
+
+
+
+projectile phoenix_fire_missile
+
+effect 			molniya_medium_set_test
+end_effect				phoenix_fire_missile_ground_impact_set
+end_man_effect			phoenix_fire_missile_man_impact_set
+end_package_effect    	phoenix_fire_missile_ground_impact_set
+end_shatter_effect		phoenix_fire_missile_ground_impact_set
+end_shatter_man_effect		phoenix_fire_missile_man_impact_set
+end_shatter_package_effect	phoenix_fire_missile_ground_impact_set
+
+area_effect		aeset_phoenix_fire
+
+damage			0
+radius			1.0
+mass			1.5;0.8
+area			0.0
+accuracy_vs_units		0.02
+accuracy_vs_buildings	0.01
+accuracy_vs_towers      0.015 
+fiery					; uncomment this to make all boulders fiery
+min_angle		-10
+max_angle		80
+velocity		100
+body_piercing
+display			aimed spin 4.0
+effect_only
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;black smoke cannon thick;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;attributes       sea_faring, very_hardy, frighten_foot, frighten_mounted, extreme_range, ;command, mercenary_unit
+;stat_pri         15, 4, steg, 220, 40, siege_missile, artillery_gunpowder, blunt, none, 100, 1
+;stat_pri_attr    launching, ap, area
+;stat_sec         25, 30, no, 0, 0, melee, melee_simple, slashing, axe, 25, 1
+;stat_sec_attr    launching, bp, area
+
+
+projectile steg
+	
+effect 			greek_water_set
+end_effect				greek_water_ground_impact_set
+end_man_effect			greek_water_man_impact_set
+end_package_effect    	greek_water_ground_impact_set
+end_shatter_effect		phoenix_fire_missile_ground_impact_set
+end_shatter_man_effect		phoenix_fire_missile_man_impact_set
+end_shatter_package_effect	phoenix_fire_missile_ground_impact_set
+
+area_effect		aeset_phoenix_fire
+
+damage			1
+damage_to_troops 1
+radius			3.0
+mass			1.5
+area			2.0
+accuracy_vs_units		0.02
+accuracy_vs_buildings	0.01
+accuracy_vs_towers      0.015 
+fiery					; uncomment this to make all boulders fiery
+min_angle		-20
+max_angle		60
+velocity		70
+body_piercing
+display			aimed spin 4.0
+effect_only
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;flamethrower;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;attributes       sea_faring, can_withdraw, incendiary, cannot_skirmish, gunmen, hardy
+;stat_pri         8, 4, flamers_fire, 100, 20, missile, missile_gunpowder, blunt, none, 1000, 1
+;stat_pri_attr    bp
+;stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_attr    no
+
+
+projectile flamers_fire
+
+effect 	greek_fire_set
+end_effect	 greek_fire_ground_impact_set
+end_man_effect	 greek_fire_man_impact_set
+end_package_effect greek_fire_ground_impact_set
+end_shatter_effect	 greek_fire_ground_impact_set
+end_shatter_man_effect	 greek_fire_man_impact_set
+end_shatter_package_effect	greek_fire_ground_impact_set
+
+area_effect	 aeset_greek_fire
+damage	 0
+radius	 0.2
+mass	 0.5
+area	 0.5
+accuracy_vs_units	 0.0525
+affected_by_rain
+fiery
+min_angle	-60
+max_angle	60
+velocity	40
+body_piercing
+display	 aimed
+effect_only
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;nice plume of smoke big arty;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;attributes       sea_faring, can_withdraw, cannot_skirmish, incendiary, extreme_range
+;stat_pri         10, 5, great_snowball, 200, 15, missile, missile_gunpowder, blunt, none, 25, ;1
+;stat_pri_attr    bp, area, launching
+;stat_sec         10, 12, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_attr    no
+
+
+projectile great_snowball
+
+effect 			snowball_medium_set
+end_effect				snow_impact_large_set
+end_man_effect			man_impact_gore_set
+end_package_effect    	wall_snow_impact_medium_set
+end_shatter_effect		snow_impact_large_set
+end_shatter_man_effect		man_impact_gore_set
+end_shatter_package_effect	wall_snow_impact_medium_set
+
+area_effect				ae_mortar_shot
+damage			40
+damage_to_troops 0
+radius			0.5
+mass			1.0
+area			2.0
+accuracy_vs_units		0.03
+accuracy_vs_buildings	0.015
+accuracy_vs_towers      0.025 
+min_angle		-10
+max_angle		80
+prefer_high
+velocity		60 30
+ground_shatter
+body_piercing
+;bounce			0.5 0.6 0.5 0.4
+display			aimed
+effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+;model			data/models_missile/onager_rock.CAS,  max
+;model			data/models_missile/Big_Boulder_high.CAS, 40.0
+;model			data/models_missile/Big_Boulder_med.CAS,  80.0
+;model			data/models_missile/Big_Boulder_low.CAS,  max

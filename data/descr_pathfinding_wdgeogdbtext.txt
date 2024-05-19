@@ -1,0 +1,94 @@
+41   [version_val  5 = rtw, 30 = m2]
+  3     0     0     0    80      [5 headerbytes]
+     0.000   [Height - smooth_ratio_min  ]
+     0.000   [Height - smooth_ratio_max  ]
+     0.000   [Height - slope_flat        ]
+-134217728.000   [Height - slope_steep       ]
+-12737261568.000   [Height - slope_steepest    ]
+     0.000   [Height - step_min          ]
+    -0.000   [Height - step_max          ]
+     0.000   [Ground - slope_flat        ]
+     2.980   [Ground - slope_factor_flat ]
+     0.000   [Ground - slope_factor_steep]
+     2.980   [Ground - curvature_factor  ]
+-142410224.000   [River - valley_factor      ]
+-59991560787238333659018120134656.000   [River - valley_bias        ]
+     0.000   [River - std_height         ]
+     0.000   [River - std_width          ]
+     0.000   [River - tidal_width        ]
+     0.000   [River - ford_width         ]
+# tell says = 77
+
+#----noise factors per hardness type----
+#    nsl         trans       nposmax        nrot        nrotmax       rotmax       nwidth    nwidthmax       [ height    hardnesstype ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  256 m     SWAMP  ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  128 m     SWAMP  ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  64 m      SWAMP  ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  32 m      SWAMP  ] 
+
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  256 m     SAND   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  128 m     SAND   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  64 m      SAND   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  32 m      SAND   ] 
+
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  256 m     SOIL   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  128 m     SOIL   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  64 m      SOIL   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  32 m      SOIL   ] 
+
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  256 m     CLAY   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  128 m     CLAY   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  64 m      CLAY   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  32 m      CLAY   ] 
+
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  256 m     SHALE  ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  128 m     SHALE  ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  64 m      SHALE  ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  32 m      SHALE  ] 
+
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  256 m     ROCK   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  128 m     ROCK   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  64 m      ROCK   ] 
+     0.000        0.000        0.000        0.000        0.000        0.000        0.000        0.000        [  32 m      ROCK   ] 
+
+# tell says = 845
+
+     0.000   [River - minimum_width         ]
+     0.000   [River - maximum_width         ]
+     0.000   [River - mouth_width           ]
+     0.000   [River - source_width          ]
+     0.000   [River - influence_start       ]
+     0.000   [River - influence_end         ]
+     0.000   [River - bridge_influence_start]
+     0.000   [River - bridge_influence_end  ]
+     0.000   [River - bridge_type_a_depth   ]
+     0.000   [River - bridge_type_b_depth   ]
+     0.000   [River - corner_proportion     ]
+     0.000   [River - default_depth         ]
+     0.000   [River - water_bias            ]
+     0.000   [River - ford_depth            ]
+     0.000   [River - ford_length           ]
+     0.000   [height_scale          ]
+     0.000   [vertex_offset_limit   ]
+# tell says = 913
+
+0   [subdivisions]
+0   [value1]
+0 
+     0.000     [regionmin]
+     0.000     [regionmax]
+     0.000     [regionminsquared]
+     0.000     [regionmaxsquared]
+  0.000000   [scalingval]
+# tell says = 943
+
+0   [scaling_type ( 0 = fixed)]
+# tell says = 944
+
+1   [value1]
+     0.000   [scaling_data]
+     0.000   [texture_macro_scale]
+     0.000   [texture_micro_scale]
+
+0   [number of climates = 12 (hard coded)]
+

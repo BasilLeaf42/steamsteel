@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<root>
+   <factor_modifiers>
+      <!--
+        <factor name="SOF_HEALTH">
+            <pip_modifier  value="1.0"/>
+            <castle_modifier value="0.0"/>
+            <city_modifier value="1.0"/>
+			<pip_min       value="0"/>
+			<pip_max       value="25"/>
+        </factor>
+        -->
+      <factor name="SPF_FARMING_LEVEL">
+         <pip_modifier value="1.0"/>
+	   <castle_modifier value="0.8"/>
+	   <city_modifier value="1.0"/>
+	   <pip_min value="0"/>
+         <pip_max value="10"/>
+      </factor>
+      <factor name="SPF_FARMS_BUILT">
+         <pip_modifier value="1.0"/>
+         <castle_modifier value="0.5"/>
+	   <pip_min value="0"/>
+         <pip_max value="10"/>
+      </factor>
+      <factor name="SPF_HEALTH">
+         <pip_modifier value="1.0"/>
+	   <castle_modifier value="0.5"/>
+         <pip_min value="0"/>
+         <pip_max value="10"/>
+      </factor>
+      <factor name="SPF_BUILDINGS">
+         <pip_modifier value="1"/>
+	   <castle_modifier value="0.5"/>
+	   <pip_min value="0"/>
+         <pip_max value="4"/>
+      </factor>
+      <factor name="SPF_TAX_RATE_BONUS">
+         <pip_modifier value="0"/>
+	   <pip_min value="0"/>
+         <pip_max value="0"/>
+      </factor>
+      <factor name="SPF_BUILDINGS_FUN">
+         <pip_modifier value="0"/>
+	   <castle_modifier value="0.5"/>
+         <pip_min value="0"/>
+         <pip_max value="4"/>
+      </factor>
+      <factor name="SPF_GOVERNORS_INFLUENCE">
+         <pip_modifier value="0"/>
+	   <castle_modifier value="0.5"/>
+         <pip_min value="0"/>
+         <pip_max value="4"/>
+      </factor>
+      <factor name="SPF_TRADE">
+         <pip_modifier value="0.2"/>
+         <pip_min value="0"/>
+         <pip_max value="1"/>
+      </factor>
+      <factor name="SPF_SQUALOUR">
+         <pip_modifier value="0.1"/>
+	   <castle_modifier value="0.5"/>
+         <pip_min value="1"/>
+         <pip_max value="20"/>
+      </factor>
+      <factor name="SPF_PLAGUE">
+         <pip_modifier value="0.75"/>
+      </factor>
+      <factor name="SPF_TAX_RATE_PENALTY">
+         <pip_modifier value="0"/>
+      </factor>
+      <factor name="SOF_GARRISON">
+         <pip_modifier value="0.4"/>
+      </factor>
+      <factor name="SOF_BUILDINGS_LAW">
+         <pip_modifier value="1.0"/>
+      </factor>
+      <factor name="SOF_BUILDINGS_FUN">
+         <pip_modifier value="1.0"/>
+      </factor>
+      <factor name="SOF_GOVERNORS_INFLUENCE">
+         <pip_modifier value="0.5"/>
+      </factor>
+      <factor name="SOF_TAX_BONUS">
+         <pip_modifier value="1.0"/>
+	   <pip_min value="0"/>
+         <pip_max value="3"/>
+      </factor>
+      <factor name="SOF_TRIUMPH">
+         <pip_modifier value="1.25"/>
+	   <castle_modifier value="1.25"/>
+      </factor>
+      <factor name="SOF_BOOM">
+         <pip_modifier value="0.1"/>
+         <castle_modifier value="0.5"/>
+      </factor>
+      <factor name="SOF_ENTERTAINED">
+         <pip_modifier value="1.25"/>
+         <castle_modifier value="0.5"/>
+      </factor>
+      <factor name="SOF_HEALTH">
+         <pip_modifier value="0"/>
+      </factor>
+      <factor name="SOF_FEAR">
+         <pip_modifier value="0.2"/>
+      </factor>
+      <factor name="SOF_GLORY">
+         <pip_modifier value="1.25"/>
+      </factor>
+      <factor name="SOF_SQUALOUR">
+         <pip_modifier value="0.08"/>
+	   <castle_modifier value="0.25"/>
+         <pip_min value="0"/>
+         <pip_max value="100"/>
+      </factor>
+      <factor name="SOF_DISTANCE_TO_CAPITAL">
+         <pip_modifier value="0.3"/>
+         <castle_modifier value="0.2"/>
+         <city_modifier value="0.2"/>
+         <pip_min value="0"/>
+         <pip_max value="30"/>
+      </factor>
+      <factor name="SOF_NO_GOVERNANCE">
+         <pip_modifier value="1.25"/>
+      </factor>
+      <factor name="SOF_TAX_PENALTY">
+         <pip_modifier value="1.5"/>
+      </factor>
+      <factor name="SOF_TURMOIL">
+         <pip_modifier value="1.0"/>
+         <pip_min value="0"/>
+         <pip_max value="4"/>
+      </factor>
+      <factor name="SOF_BESIEGED">
+         <pip_modifier value="1.0"/>
+         <castle_modifier value="0.5"/>
+         <pip_min value="0"/>
+         <pip_max value="5"/>
+      </factor>
+      <factor name="SOF_BLOCKADED">
+         <pip_modifier value="1.5"/>
+         <pip_min value="0"/>
+         <pip_max value="25"/>
+      </factor>
+      <factor name="SOF_RELIGIOUS_UNREST">
+         <pip_modifier value="1"/>
+         <castle_modifier value="0.75"/>
+	   <pip_min value="0"/>
+         <pip_max value="100"/>
+      </factor>
+      <factor name="SOF_EXCOMMUNICATION">
+         <pip_modifier value="0"/>
+         <pip_min value="0"/>
+         <pip_max value="0"/>      
+      </factor>
+      <factor name="SIF_FARMS">
+         <pip_modifier value="0.8"/>
+      </factor>
+      <factor name="SIF_TAXES">
+         <pip_modifier value="0.7"/>
+         <castle_modifier value="0.4"/>
+      </factor>
+      <factor name="SIF_MINING">
+         <pip_modifier value="3.0"/>
+      </factor>
+      <factor name="SIF_TRADE">
+         <pip_modifier value="0.5"/>
+         <castle_modifier value="0.3"/>
+      </factor>
+      <factor name="SIF_BUILDINGS">
+         <pip_modifier value="1.0"/>
+      </factor>
+      <factor name="SIF_ADMIN">
+         <pip_modifier value="1.0"/>
+      </factor>
+      <factor name="SIF_WAGES">
+         <pip_modifier value="2.0"/>
+      </factor>
+      <factor name="SIF_UPKEEP">
+         <pip_modifier value="1.0"/>
+      </factor>
+      <factor name="SIF_CORRUPTION">
+         <pip_modifier value="0.5"/>
+         <pip_min value="0"/>
+         <pip_max value="8000"/>
+      </factor>
+      <factor name="SIF_ENTERTAINMENT">
+         <pip_modifier value="1.0"/>
+      </factor>
+      <factor name="SIF_DEVASTATION">
+         <pip_modifier value="5.0"/>
+	 <castle_modifier value="0.8"/>
+         <city_modifier value="2"/>
+         <pip_min value="0"/>
+         <pip_max value="2000"/>
+      </factor>
+   </factor_modifiers>
+   <population_levels>
+      <!-- city -->
+      <level name="village" base="500" upgrade="2000" min="400" max="8000"/>
+      <level name="town" base="6000" upgrade="8000" min="400" max="16000"/>
+      <level name="large_town" base="12000" upgrade="35000" min="400" max="50000"/>
+      <level name="city" base="35000" upgrade="125000" min="400" max="175000"/>
+      <level name="large_city" base="125000" upgrade="500000" min="400" max="450000"/>
+      <level name="huge_city" base="125000" min="400" max="450000"/>
+      <!-- castle -->
+      <level name="moot_and_bailey" base="500" upgrade="1000" min="400" max="1500"/>
+      <level name="wooden_castle" base="1000" upgrade="2500" min="400" max="4000"/>
+      <level name="castle" base="2500" upgrade="9000" min="400" max="12000"/>
+      <level name="fortress" base="9000" upgrade="18000" min="400" max="24000"/>
+      <level name="citadel" base="18000" min="400" max="50000"/>
+   </population_levels>
+</root>

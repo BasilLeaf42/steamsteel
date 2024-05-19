@@ -1,0 +1,999 @@
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
+;non region			based
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+rebel_type			gladiator_uprising
+category			gladiator_revolt
+chance				0
+description			gladiator_uprising
+unit				mex_bers
+
+;======================================================================================
+					
+rebel_type			brigands
+category			brigands
+chance				999
+description			brigands
+unit				mex_bers
+					
+rebel_type			pirates
+category			pirates
+chance				250					
+description			pirates
+unit				pirate ship		
+
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
+;region			based
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+;Taiping, Southern China	
+rebel_type			Livonian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Livonian_Rebels
+unit				merc_tib_temple_guard
+unit				taipingguners
+unit				taipingguners
+unit				taipingguners
+unit				taiping_inf
+unit				taiping_inf
+unit				taiping_inf
+unit				taiping_light
+unit				taiping_light
+unit				byz_armstrong
+
+
+;Big Sword Society, Northern China	
+rebel_type			Chinese_Rebels
+category			peasant_revolt 
+chance				400					
+description			Chinese_Rebels
+unit				qing_vets
+unit				qing_vets
+unit				qing_vets
+unit				qing_vets
+unit				qing_archers
+unit				qing_archers
+unit				qing_swords
+unit				qing_swords
+unit				qing_swords
+unit				byz_armstrong
+
+;Kingdom of Nepal
+rebel_type			Nepal_Rebels
+category			peasant_revolt 
+chance				400					
+description			Nepal_Rebels
+unit				merc_bhutan_warrior
+unit				merc_bhutan_warrior
+unit				merc_bhutan_warrior
+unit				merc_bhutan_warrior
+unit				merc_bhutan_warrior
+
+
+;Tibet
+rebel_type			Tibet_Rebels
+category			peasant_revolt 
+chance				400					
+description			Tibet_Rebels
+unit				tib_militia
+unit				tib_militia
+unit				tib_horse_archer
+unit				tib_roy_inf
+unit				tib_tribal_archer
+unit				tib_tribal_spear
+unit				tib_noble_cav
+
+;Korean rebels, Korea
+rebel_type			Burgundian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Burgundian_Rebels
+unit				korean_rifles_mercs
+unit				korean_rifles_mercs
+unit				korean_rifles_mercs
+unit				korean_rifles_mercs
+unit				korean_archers
+unit				korean_archers
+unit				korean_cav_mercs
+unit				sho_12lb
+unit				sho_armstrong
+
+;Japanese Rebels, Japan
+rebel_type			Anatolian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Anatolian_Rebels
+unit				sho_sam_cav
+unit				sho_sam_spears
+unit				sho_ashigaru
+unit				sho_sam
+unit				sho_sam
+unit				sho_sam_archers
+unit				sho_sam
+unit				sho_ashigaru
+unit				sho_ashigaru
+unit				sho_12lb
+unit				sho_armstrong
+
+;Thai rebels
+rebel_type			Croatian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Croatian_Rebels
+unit				siam_ele_gunner
+unit				siam_agent
+unit				siam_agent
+unit				siam_agent
+unit				siam_agent
+unit				Siam_Archers
+unit				Siam_Archers
+unit				byz_armstrong
+
+;Aceh
+rebel_type			Island_Rebels
+category			peasant_revolt 
+chance				400					
+description			Island_Rebels
+unit				merc_aceh_marines
+unit				merc_aceh_marines
+unit				merc_aceh_noble
+unit				merc_aceh_reg
+unit				merc_aceh_reg
+unit				merc_aceh_reg
+unit				merc_aceh_gold
+unit				merc_aceh_gold
+unit				merc_aceh_warband
+unit				merc_aceh_warband
+unit				merc_aceh_inf
+unit				mus_armstrong
+unit				mus_armstrong
+
+;Brunei
+rebel_type			Brunei_Rebels
+category			peasant_revolt 
+chance				400					
+description			Brunei_Rebels
+unit				merc_aceh_warband
+unit				merc_aceh_warband
+unit				merc_aceh_reg
+unit				merc_aceh_reg
+unit				merc_aceh_reg
+unit				merc_aceh_reg
+
+;Papua New Guinea
+rebel_type			Papua_Rebels
+category			peasant_revolt 
+chance				400					
+description			Papua_Rebels
+unit				merc_papa_bows
+unit				merc_papa_bows
+unit				merc_papa_bows
+unit				merc_papa_bows
+unit				merc_papa_bows
+
+;Philippines
+rebel_type			Philippines_Rebels
+category			peasant_revolt 
+chance				400					
+description			Philippines_Rebels
+unit				german_asia
+unit				german_asia
+unit				german_asia
+unit				german_asia
+unit				german_asia
+unit				fra_armstrong
+unit				fra_12lb
+
+;Burmese rebels
+rebel_type			Iberian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Iberian_Rebels
+unit				burmese_inf
+unit				burmese_inf
+unit				burmese_inf
+unit				merc_burmese_inf
+unit				merc_burmese_inf
+unit				merc_burmese_inf
+unit				byz_armstrong
+
+;Vietnam
+rebel_type			Wallachian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Wallachian_Rebels
+unit				merc_viet_early_inf
+unit				merc_viet_early_inf
+unit				merc_viet_early_inf
+unit				viet_inf
+unit				viet_inf
+unit				viet_inf
+unit				tib_temple_guard
+unit				tib_temple_guard
+unit				tib_temple_guard
+unit				byz_armstrong
+
+;Maori
+rebel_type			Maori_Rebels
+category			peasant_revolt 
+chance				400					
+description			Maori_Rebels
+unit				maori_spearmen
+unit				maori_spearmen
+unit				maori_spearmen
+unit				merc_maori_musketeers
+unit				merc_maori_musketeers
+unit				merc_maori_musketeers
+
+;Mongols
+rebel_type			Mongol_Rebels
+category			peasant_revolt 
+chance				400					
+description			Mongol_Rebels
+unit				mongol_inf
+unit				mongol_hevcav
+unit				mongol_hevcav
+unit				mongol_hevcav
+unit				mongol_bows
+unit				mongol_bows
+unit				kok_armstrong
+
+;Steppe
+rebel_type			Steppe_Rebels
+category			peasant_revolt 
+chance				400					
+description			Steppe_Rebels
+unit				kok_royal_cav
+unit				kok_royal_cav
+unit				merc_kok_royal_cav
+unit				merc_kok_royal_cav
+unit				kok_armstrong
+
+;Bukhara
+rebel_type			Bukhara_Rebels
+category			peasant_revolt 
+chance				400					
+description			Bukhara_Rebels
+unit				kok_royal_cav
+unit				kok_royal_cav
+unit				merc_kok_royal_cav
+unit				merc_kok_royal_cav
+unit				kaz_inf
+unit				kok_ww1
+unit				kok_armstrong
+
+;Khiva
+rebel_type			Khiva_Rebels
+category			peasant_revolt 
+chance				400					
+description			Khiva_Rebels
+unit				kok_royal_cav
+unit				kok_royal_cav
+unit				merc_kok_royal_cav
+unit				merc_kok_royal_cav
+unit				kaz_inf
+unit				kok_ww1
+unit				kok_armstrong
+
+;Turkmen
+rebel_type			Turkmen_Rebels
+category			peasant_revolt 
+chance				400					
+description			Turkmen_Rebels
+unit				kok_royal_cav
+unit				kok_royal_cav
+unit				merc_kok_royal_cav
+unit				merc_kok_royal_cav
+unit				kok_armstrong
+
+;Kazakhs
+rebel_type			Kazakh_Rebels
+category			peasant_revolt 
+chance				400					
+description			Kazakh_Rebels
+unit				merc_kok_royal_cav
+unit				merc_kok_royal_cav
+unit				kaz_cav
+unit				kaz_cav
+unit				kaz_inf
+unit				kok_ww1
+unit				kok_armstrong
+
+;Indian rebels
+rebel_type			Mexican_Rebels
+category			peasant_revolt 
+chance				400					
+description			Mexican_Rebels
+unit				indian_ele
+unit				indian_fanatic
+unit				indian_bow_cav
+unit				india_militia
+unit				india_militia
+unit				india_militia
+unit				india_militia
+unit				ind_armstrong
+
+;Afghan rebels
+rebel_type			Afghan_Rebels
+category			peasant_revolt 
+chance				400					
+description			Afghan_Rebels
+unit				afghan_sword
+unit				pashtun_inf
+unit				pashtun_inf
+unit				pashtun_inf
+unit				afghan_gen
+unit				pashtun_camel_gunner
+unit				afghan_militia
+unit				ind_armstrong
+
+;Persian rebels
+rebel_type			Persian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Persian_Rebels
+unit				afghan_militia
+unit				qajar_foot
+unit				qajar_foot
+unit				qajar_foot
+unit				kok_royal_cav
+unit				kok_royal_cav
+unit				ind_armstrong
+
+;Georgian rebels
+rebel_type			Georgian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Georgian_Rebels
+unit				georgian_inf
+unit				georgian_inf
+unit				georgian_inf
+unit				georgian_inf
+unit				georgian_inf
+unit				merc_rus_georgian_cav
+unit				rus_12lb
+
+;Armenian rebels
+rebel_type			Armenian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Armenian_Rebels
+unit				armenian_inf
+unit				armenian_inf
+unit				armenian_inf
+unit				armenian_inf
+unit				armenian_inf
+unit				rus_12lb
+
+;Turkish rebels
+rebel_type			Turkish_Rebels
+category			peasant_revolt 
+chance				400					
+description			Turkish_Rebels
+unit				arab_brigade
+unit				arab_brigade
+unit				arab_brigade
+unit				turk_lt2
+unit				turk_lt2
+unit				turk_lt2
+unit				mus_12lb
+unit				mus_armstrong
+
+;Arab rebels
+rebel_type			Arab_Rebels
+category			peasant_revolt 
+chance				400					
+description			Arab_Rebels
+unit				merc_arab_brigade
+unit				merc_arab_brigade
+unit				turk_lt2
+unit				turk_lt2
+unit				moroccan_gunner
+unit				moroccan_gunner
+unit				moroccan_camel_gunner
+unit				mus_12lb
+unit				mus_armstrong
+
+;Emirate of Nejd
+rebel_type			Nejd_Rebels
+category			peasant_revolt 
+chance				400					
+description			Nejd_Rebels
+unit				merc_arab_brigade
+unit				merc_arab_brigade
+unit				turk_lt2
+unit				turk_lt2
+unit				moroccan_gunner
+unit				moroccan_gunner
+unit				moroccan_camel_gunner
+unit				mus_12lb
+unit				mus_armstrong
+
+;Sharifate of Mecca
+rebel_type			Mecca_Rebels
+category			peasant_revolt 
+chance				400					
+description			Mecca_Rebels
+unit				merc_arab_brigade
+unit				merc_arab_brigade
+unit				turk_lt2
+unit				turk_lt2
+unit				moroccan_gunner
+unit				moroccan_gunner
+unit				moroccan_camel_gunner
+unit				mus_12lb
+unit				mus_armstrong
+
+;Majarteen Sultanate
+rebel_type			Majarteen_Rebels
+category			peasant_revolt 
+chance				400					
+description			Majarteen_Rebels
+unit				merc_arab_brigade
+unit				merc_arab_brigade
+unit				turk_lt2
+unit				turk_lt2
+unit				moroccan_gunner
+unit				moroccan_gunner
+unit				moroccan_camel_gunner
+unit				mus_12lb
+unit				mus_armstrong
+
+;Kingdom of Imerina
+rebel_type			Imerina_Rebels
+category			peasant_revolt 
+chance				400					
+description			Imerina_Rebels
+unit				african_warband
+unit				african_warband
+unit				merc_aceh_reg
+unit				merc_aceh_reg
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				africa_cav
+unit				africa_cav
+
+;Egyptian rebels
+rebel_type			Fatimid_Rebels
+category			peasant_revolt 
+chance				400					
+description			Fatimid_Rebels
+unit				merc_arab_brigade
+unit				turk_lt2
+unit				moroccan_gunner
+unit				merc_arab_sailors
+unit				merc_arab_sailors
+unit				merc_arab_sailors
+unit				mus_12lb
+unit				mus_armstrong
+
+;Mahdist rebels
+rebel_type			Saharan_Rebels
+category			peasant_revolt 
+chance				400					
+description			Saharan_Rebels
+unit				mahdist_cav
+unit				mahdist_camel_cav
+unit				mahdist_inf
+unit				mahdist_inf
+unit				fra_blacks_az
+unit				fra_blacks_az
+unit				fra_blacks_az
+unit				zul_armstrong
+
+;African rebels
+rebel_type			African_Rebels
+category			peasant_revolt 
+chance				400					
+description			African_Rebels
+unit				african_warband
+unit				african_warband
+unit				african_warband
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				africa_cav
+unit				africa_cav
+
+;Ethiopian rebels
+rebel_type			Native_Rebels
+category			peasant_revolt 
+chance				400					
+description			Native_Rebels
+unit				ethiopian_warband
+unit				ethiopian_warband
+unit				fra_blacks_ab
+unit				fra_blacks_ab
+unit				fra_blacks_ab
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				africa_cav
+unit				africa_cav
+unit				zul_armstrong
+unit				zul_12lb
+
+;Congo Free State
+rebel_type			Flemish_Rebels
+category			peasant_revolt 
+chance				400					
+description			Flemish_Rebels
+unit				merc_fra_blacks
+unit				merc_fra_blacks
+unit				merc_fra_blacks
+unit				merc_fra_blacks
+unit				polish_inf
+unit				fra_12lb
+unit				fra_gatling
+	
+;Liberia
+rebel_type			Liberian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Liberian_Rebels
+unit				merc_fra_blacks
+unit				merc_fra_blacks
+unit				merc_fra_blacks
+unit				merc_fra_blacks
+unit				zul_12lb
+		
+;Tukolor Empire, Mali
+rebel_type			Bohemian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Bohemian_Rebels
+unit				african_warband
+unit				african_warband
+unit				african_warband
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				africa_cav
+unit				zul_armstrong
+
+;Sokoto Caliphate, Chad
+rebel_type			Seljuk_Rebels
+category			peasant_revolt 
+chance				400					
+description			Seljuk_Rebels
+unit				african_warband
+unit				african_warband
+unit				african_warband
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				africa_cav
+unit				zul_armstrong
+
+;Buganda Rebels, Uganda
+rebel_type			Buganda_Rebels
+category			peasant_revolt 
+chance				400					
+description			Buganda_Rebels
+unit				african_warband
+unit				african_warband
+unit				african_warband
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				merc_zulu_rifles
+unit				africa_cav
+unit				zul_armstrong
+
+;Boer Rebels
+rebel_type			Boer_Rebels
+category			peasant_revolt 
+chance				400					
+description			Boer_Rebels
+unit				us_militia_te
+unit				us_militia_te
+unit				boer_guard
+unit				boer_guard
+unit				csa_lancer_te
+unit				us_farmers
+unit				us_farmers
+unit				csa_armstrong
+unit				csa_12lb
+
+;Bulgarian Rebels
+rebel_type			Bulgarian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Bulgarian_Rebels
+unit				merc_bulgarian_inf
+unit				merc_bulgarian_inf
+unit				euro_hussars
+unit				bulgarian_inf
+unit				bulgarian_inf
+unit				bulgarian_inf
+unit				rus_12lb
+unit				rus_12lb
+
+;Serbian Rebels
+rebel_type			Serbian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Serbian_Rebels
+unit				euro_hussars
+unit				merc_serb_inf
+unit				merc_serb_inf
+unit				merc_serb_inf
+unit				merc_serb_inf
+unit				merc_serb_inf
+unit				rus_12lb
+unit				rus_12lb
+
+;Romanian Rebels
+rebel_type			Romanian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Romanian_Rebels
+unit				euro_hussars
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				rus_12lb
+unit				rus_12lb
+
+;Greek Rebels
+rebel_type			Greek_Rebels
+category			peasant_revolt 
+chance				400					
+description			Greek_Rebels
+unit				euro_hussars
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				rus_12lb
+unit				rus_12lb
+
+;Hungarian Rebels
+rebel_type			Magyar_Rebels
+category			peasant_revolt 
+chance				400					
+description			Magyar_Rebels
+unit				balk_cav
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				rus_12lb
+unit				rus_12lb
+
+;Bavarian Rebels
+rebel_type			Bavarian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Bavarian_Rebels
+unit				balk_cav_gr
+unit				jager_inf
+unit				jager_inf
+unit				jager_inf
+unit				rec_bav
+unit				rec_bav
+unit				rus_12lb
+unit				rus_armstrong
+
+;German Confederation
+rebel_type			German_Rebels
+category			peasant_revolt 
+chance				400					
+description			German_Rebels
+unit				balk_cav_gr
+unit				wurt_inf
+unit				wurt_inf
+unit				wurt_inf
+unit				wurt_inf
+unit				wurt_inf
+unit				rus_12lb
+unit				rus_armstrong
+
+;Kingdom of Hanover
+rebel_type			English_Rebels
+category			peasant_revolt 
+chance				400					
+description			English_Rebels
+unit				balk_cav_gr
+unit				hannover_inf
+unit				hannover_inf
+unit				hannover_inf
+unit				hannover_inf
+unit				hannover_inf
+unit				rus_12lb
+unit				rus_armstrong
+
+;Kingdom of Saxony
+rebel_type			Norse_Rebels
+category			peasant_revolt 
+chance				400					
+description			Norse_Rebels
+unit				euro_hussars
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				rus_12lb
+unit				rus_armstrong
+
+;Polish Nationalists
+rebel_type			Polish_Rebels
+category			peasant_revolt 
+chance				400					
+description			Polish_Rebels
+unit				merc_pol_hussars
+unit				merc_pol_hussars
+unit				merc_polish_inf
+unit				merc_polish_inf
+unit				merc_polish_inf
+unit				merc_polish_inf
+unit				merc_polish_inf
+unit				rus_12lb
+unit				rus_armstrong
+
+;Kingdom of Belgium
+rebel_type			French_Rebels
+category			peasant_revolt 
+chance				400					
+description			French_Rebels
+unit				euro_hussars
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				fra_12lb
+unit				fra_armstrong
+
+;Swiss Confederation
+rebel_type			Swiss_Rebels
+category			peasant_revolt 
+chance				400					
+description			Swiss_Rebels
+unit				euro_hussars
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				fra_12lb
+unit				fra_armstrong
+
+;Portugal
+rebel_type			Spanish_Rebels
+category			peasant_revolt 
+chance				400	
+description			Spanish_Rebels			
+unit				merc_port_lancer
+unit				merc_port_inf
+unit				merc_port_inf
+unit				merc_port_inf
+unit				merc_port_inf
+unit				merc_port_inf
+unit				fra_12lb
+unit				fra_armstrong
+
+;Irish Nationalists
+rebel_type			Irish_Rebels
+category			peasant_revolt 
+chance				400					
+description			Irish_Rebels
+unit				euro_hussars
+unit				polish_inf
+unit				polish_inf
+unit				us_farmers
+unit				us_farmers
+unit				us_farmers
+unit				us_farmers
+unit				fra_12lb
+
+;Separatists
+rebel_type			Rus_Rebels
+category			peasant_revolt 
+chance				400					
+description			Rus_Rebels
+unit				euro_hussars
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				rus_12lb
+unit				rus_armstrong
+
+;Papal States
+rebel_type			Italian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Italian_Rebels
+unit				euro_hussars
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				fra_12lb
+unit				fra_armstrong
+
+;Separatists
+rebel_type			Scots_Rebels
+category			peasant_revolt 
+chance				400					
+description			Scots_Rebels
+unit				euro_hussars
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				polish_inf
+unit				fra_12lb
+unit				fra_armstrong
+
+;Separatists
+rebel_type			Welsh_Rebels
+category			peasant_revolt 
+chance				400					
+description			Welsh_Rebels
+unit				us_farmers
+unit				us_farmers
+unit				us_farmers
+unit				us_farmers
+unit				us_farmer_cav
+unit				us_farmer_cav
+unit				usa_12lb
+unit				usa_armstrong
+
+;Separatists
+rebel_type			Latin_Rebels
+category			peasant_revolt 
+chance				400					
+description			Latin_Rebels
+unit				euro_hussars
+unit				mex_bers
+unit				mex_bers
+unit				mex_foot
+unit				mex_foot
+unit				polish_inf
+unit				polish_inf
+unit				fra_12lb
+unit				fra_armstrong
+
+;Native American
+rebel_type			Amerindian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Amerindian_Rebels
+unit				ap_front_cav
+unit				ap_front_cav
+unit				apache_inf
+unit				apache_inf
+unit				apache_inf
+
+;Central American Republics
+rebel_type			American_Rebels
+category			peasant_revolt 
+chance				400					
+description			American_Rebels
+unit				euro_hussars
+unit				mex_bers
+unit				mex_bers
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				fra_12lb
+unit				fra_armstrong
+
+;Columbia
+rebel_type			Columbian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Columbian_Rebels
+unit				euro_hussars
+unit				mex_bers
+unit				mex_bers
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				fra_12lb
+unit				fra_armstrong
+
+;Venezuela
+rebel_type			Venezuelan_Rebels
+category			peasant_revolt 
+chance				400					
+description			Venezuelan_Rebels
+unit				euro_hussars
+unit				mex_bers
+unit				mex_bers
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				fra_12lb
+unit				fra_armstrong
+
+;Ecuador
+rebel_type			Ecuadorian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Ecuadorian_Rebels
+unit				euro_hussars
+unit				mex_bers
+unit				mex_bers
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				fra_12lb
+unit				fra_armstrong
+
+;Bolivia
+rebel_type			Bolivian_Rebels
+category			peasant_revolt 
+chance				400					
+description			Bolivian_Rebels
+unit				euro_hussars
+unit				mex_bers
+unit				mex_bers
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				mex_foot
+unit				fra_12lb
+unit				fra_armstrong
+
+;Paraguay
+rebel_type			Para_Rebels
+category			peasant_revolt 
+chance				400					
+description			Para_Rebels
+unit				euro_hussars
+unit				mex_bers
+unit				mex_bers
+unit				mex_foot
+unit				mex_foot
+unit				merc_para_foot
+unit				merc_para_foot
+unit				fra_12lb
+unit				fra_armstrong
+
+;Chile
+rebel_type			Chilean_Rebels
+category			peasant_revolt 
+chance				400					
+description			Chilean_Rebels
+unit				balk_cav_ch
+unit				merc_balk_cav_ch
+unit				mex_bers
+unit				mex_bers
+unit				mex_foot
+unit				mex_foot
+unit				merc_fra_inf_ch
+unit				merc_fra_inf_ch
+unit				fra_12lb
+unit				fra_armstrong
+
+;Uruguay
+rebel_type			Uru_Rebels
+category			peasant_revolt 
+chance				400					
+description			Uru_Rebels
+unit				balk_cav_ch
+unit				merc_balk_cav_ch
+unit				mex_bers
+unit				mex_bers
+unit				mex_foot
+unit				mex_foot
+unit				merc_uru_inf
+unit				merc_uru_inf
+unit				fra_12lb
+unit				fra_armstrong
+
+
+

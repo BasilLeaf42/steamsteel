@@ -1,0 +1,71 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+
+accent English
+    factions 
+
+accent Scottish
+    factions 
+
+accent French
+    factions 
+
+accent German
+    factions 
+
+accent Mediterranean
+    factions mongols, slave
+
+accent East_European
+    factions  
+
+accent Arabic
+    factions moors, golden
+
+accent Mongolian
+    factions byzantium, cru
+
+accent prussian
+    factions hre, hungary
+	
+accent native
+    factions lith
+
+accent american
+    factions milan, portugala
+	
+accent british
+    factions england
+	
+accent japanese
+    factions papal_states, saxons
+	
+accent france
+    factions france
+	
+accent turkish
+    factions turks, cuman
+	
+accent russian
+    factions russia
+	
+accent italian
+    factions venice
+	
+accent dutch
+    factions portugal, teu
+	
+accent hindi
+    factions bulga
+	
+accent port
+    factions poland
+	
+accent swed
+    factions sicily, normans
+	
+accent farsi
+    factions egypt, timurids
+	
+accent spanish
+    factions spain, denmark, aztecs, scotland
