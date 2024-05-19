@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.bik filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.animinstances filter=lfs diff=lfs merge=lfs -text
+*.world filter=lfs diff=lfs merge=lfs -text
+*.worldcollision filter=lfs diff=lfs merge=lfs -text
+*.worldpathfinding filter=lfs diff=lfs merge=lfs -text
