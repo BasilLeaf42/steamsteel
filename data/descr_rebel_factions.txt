@@ -96,25 +96,13 @@ unit				korean_rifles_mercs
 unit				korean_archers
 unit				korean_archers
 unit				korean_cav_mercs
-unit				sho_12lb
-unit				sho_armstrong
 
 ;Japanese Rebels, Japan
 rebel_type			Anatolian_Rebels
 category			peasant_revolt 
 chance				400					
 description			Anatolian_Rebels
-unit				sho_sam_cav
-unit				sho_sam_spears
-unit				sho_ashigaru
-unit				sho_sam
-unit				sho_sam
-unit				sho_sam_archers
-unit				sho_sam
-unit				sho_ashigaru
-unit				sho_ashigaru
-unit				sho_12lb
-unit				sho_armstrong
+unit				merc_viet_early_inf
 
 ;Thai rebels
 rebel_type			Croatian_Rebels

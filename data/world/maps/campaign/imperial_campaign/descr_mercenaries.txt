@@ -118,6 +118,7 @@ pool Vietnam_n
 
 pool Netherlands
 	regions Hokkaido_Province Edo_Province Kyoto_Province Estonie_Province Akita_Province 
+	unit merc_viet_early_inf		exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 0
 
 pool North_Africa
 	regions Tripolitaine_Province Ceyland_Province Fez_Province Marrakesh_Province
