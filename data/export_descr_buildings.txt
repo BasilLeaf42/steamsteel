@@ -1113,57 +1113,12 @@ building barracks
 	recruit_pool "qing_swords"  0.4   0.04   0.4  0  requires factions { byzantium, }
 
 ;tokugawa
-	recruit_pool "samurai"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_sho_inf"  0   0.01   1  0  requires factions { papal_states, }  and hidden_resource japan
-	recruit_pool "jap_sho_inf2"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_light_inf"  1   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam_cav"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_ashigaru"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam_spears"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_militia"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_cav"  0   0.01   1  0  requires factions { papal_states, }  and event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_dismounted_sam"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_sam_archers"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_spear_inf"  0   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_ww1_inf"  1   0.6   1  0  requires factions { papal_states, }  and event_counter military_reforms_1 1 and hidden_resource japan
 
 ;resupply tokugawa
-	recruit_pool "samurai"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_sho_inf"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_sho_inf2"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_light_inf"  0.6   0.06   0.6  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_cav"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_ashigaru"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_spears"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_militia"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_cav"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_dismounted_sam"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_archers"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_spear_inf"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_ww1_inf"  0.9   0.09   0.9  0  requires factions { papal_states, }
 
 ;meiji
-	recruit_pool "jap_kami"  0   0.01   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_militia"  0   0.02   1  0  requires factions { saxons, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_hussar"  0   0.01   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_bear_militia"  0   0.02   1  0  requires factions { saxons, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_ninja"  0   0.01   1  0  requires factions { saxons, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_guard"  1   0.05   2  0  requires factions { saxons, }  and event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_inf"  1   0.04   1  0  requires factions { saxons, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jp_hussar"  0   0.01   1  0  requires factions { saxons, }  and hidden_resource japan
 
 ;resupply meiji
-	recruit_pool "jap_kami"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_militia"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_marine"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_hussar"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_bear_militia"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_ninja"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_guard"  0.9   0.09   0.9  0  requires factions { saxons, }
-	recruit_pool "jap_inf"  0.8   0.08   0.8  0  requires factions { saxons, }
-	recruit_pool "jp_hussar"  0.2   0.02   0.2  0  requires factions { saxons, }
 
 ;misc
 	recruit_pool "merc_uru_inf"  0   0.02   1  0  requires factions { poland, aztecs, }  and not event_counter military_reforms_1 1 and hidden_resource uruguay
@@ -1840,57 +1795,12 @@ building barracks
 	recruit_pool "qing_swords"  0.4   0.04   0.4  0  requires factions { byzantium, }
 
 ;tokugawa
-	recruit_pool "samurai"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_sho_inf"  0   0.03   1  0  requires factions { papal_states, }  and hidden_resource japan
-	recruit_pool "jap_sho_inf2"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_light_inf"  1   0.09   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam_cav"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_ashigaru"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam_spears"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_militia"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_cav"  0   0.03   1  0  requires factions { papal_states, }  and event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_dismounted_sam"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_sam_archers"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_spear_inf"  0   0.03   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_ww1_inf"  2   0.18   2  0  requires factions { papal_states, }  and event_counter military_reforms_1 1 and hidden_resource japan
 
 ;resupply tokugawa
-	recruit_pool "samurai"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_sho_inf"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_sho_inf2"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_light_inf"  0.6   0.06   0.6  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_cav"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_ashigaru"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_spears"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_militia"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_cav"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_dismounted_sam"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_archers"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_spear_inf"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_ww1_inf"  0.9   0.09   0.9  0  requires factions { papal_states, }
 
 ;meiji
-	recruit_pool "jap_kami"  0   0.03   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_militia"  1   0.06   1  0  requires factions { saxons, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_hussar"  0   0.03   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_bear_militia"  1   0.06   1  0  requires factions { saxons, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_ninja"  0   0.03   1  0  requires factions { saxons, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_guard"  2   0.18   2  0  requires factions { saxons, }  and event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_inf"  1   0.12   1  0  requires factions { saxons, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jp_hussar"  0   0.03   1  0  requires factions { saxons, }  and hidden_resource japan
 
 ;resupply meiji
-	recruit_pool "jap_kami"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_militia"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_marine"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_hussar"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_bear_militia"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_ninja"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_guard"  0.9   0.09   0.9  0  requires factions { saxons, }
-	recruit_pool "jap_inf"  0.8   0.08   0.8  0  requires factions { saxons, }
-	recruit_pool "jp_hussar"  0.2   0.02   0.2  0  requires factions { saxons, }
 
 ;misc
 	recruit_pool "merc_uru_inf"  1   0.06   1  0  requires factions { poland, aztecs, }  and not event_counter military_reforms_1 1 and hidden_resource uruguay
@@ -2570,57 +2480,12 @@ building barracks
 	recruit_pool "qing_swords"  0.4   0.04   0.4  0  requires factions { byzantium, }
 
 ;tokugawa
-	recruit_pool "samurai"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_sho_inf"  1   0.06   1  0  requires factions { papal_states, }  and hidden_resource japan
-	recruit_pool "jap_sho_inf2"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_light_inf"  2   0.18   2  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam_cav"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_ashigaru"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam_spears"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_militia"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_cav"  1   0.06   1  0  requires factions { papal_states, }  and event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_dismounted_sam"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_sam_archers"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_spear_inf"  1   0.06   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_ww1_inf"  4   0.36   4  0  requires factions { papal_states, }  and event_counter military_reforms_1 1 and hidden_resource japan
 
 ;resupply tokugawa
-	recruit_pool "samurai"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_sho_inf"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_sho_inf2"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_light_inf"  0.6   0.06   0.6  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_cav"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_ashigaru"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_spears"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_militia"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_cav"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_dismounted_sam"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_archers"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_spear_inf"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_ww1_inf"  0.9   0.09   0.9  0  requires factions { papal_states, }
 
 ;meiji
-	recruit_pool "jap_kami"  1   0.06   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_militia"  2   0.12   2  0  requires factions { saxons, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_hussar"  1   0.06   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_bear_militia"  2   0.12   2  0  requires factions { saxons, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_ninja"  1   0.06   1  0  requires factions { saxons, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_guard"  4   0.36   4  0  requires factions { saxons, }  and event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_inf"  3   0.24   3  0  requires factions { saxons, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jp_hussar"  1   0.06   1  0  requires factions { saxons, }  and hidden_resource japan
 
 ;resupply meiji
-	recruit_pool "jap_kami"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_militia"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_marine"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_hussar"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_bear_militia"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_ninja"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_guard"  0.9   0.09   0.9  0  requires factions { saxons, }
-	recruit_pool "jap_inf"  0.8   0.08   0.8  0  requires factions { saxons, }
-	recruit_pool "jp_hussar"  0.2   0.02   0.2  0  requires factions { saxons, }
 
 ;misc
 	recruit_pool "merc_uru_inf"  2   0.12   2  0  requires factions { poland, aztecs, }  and not event_counter military_reforms_1 1 and hidden_resource uruguay
@@ -3302,57 +3167,12 @@ building barracks
 	recruit_pool "qing_swords"  0.4   0.04   0.4  0  requires factions { byzantium, }
 
 ;tokugawa
-	recruit_pool "samurai"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_sho_inf"  1   0.1   1  0  requires factions { papal_states, }  and hidden_resource japan
-	recruit_pool "jap_sho_inf2"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_light_inf"  3   0.3   3  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam_cav"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_ashigaru"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam_spears"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_militia"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_cav"  1   0.1   1  0  requires factions { papal_states, }  and event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_sam"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "sho_dismounted_sam"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_sam_archers"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "sho_spear_inf"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_ww1_inf"  6   0.6   6  0  requires factions { papal_states, }  and event_counter military_reforms_1 1 and hidden_resource japan
 
 ;resupply tokugawa
-	recruit_pool "samurai"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_sho_inf"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_sho_inf2"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_light_inf"  0.6   0.06   0.6  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_cav"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_ashigaru"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_spears"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_militia"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_cav"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_dismounted_sam"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_sam_archers"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "sho_spear_inf"  0.2   0.02   0.2  0  requires factions { papal_states, }
-	recruit_pool "jap_ww1_inf"  0.9   0.09   0.9  0  requires factions { papal_states, }
 
 ;meiji
-	recruit_pool "jap_kami"  1   0.1   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_militia"  2   0.2   2  0  requires factions { saxons, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_hussar"  1   0.1   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_bear_militia"  2   0.2   2  0  requires factions { saxons, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_ninja"  1   0.1   1  0  requires factions { saxons, }  and not event_counter military_reforms_1870 1 and hidden_resource japan
-	recruit_pool "jap_guard"  5   0.5   5  0  requires factions { saxons, }  and event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jap_inf"  4   0.4   4  0  requires factions { saxons, }  and not event_counter military_reforms_1 1 and hidden_resource japan
-	recruit_pool "jp_hussar"  1   0.1   1  0  requires factions { saxons, }  and hidden_resource japan
 
 ;resupply meiji
-	recruit_pool "jap_kami"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_militia"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_marine"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_hussar"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_bear_militia"  0.4   0.04   0.4  0  requires factions { saxons, }
-	recruit_pool "jap_ninja"  0.2   0.02   0.2  0  requires factions { saxons, }
-	recruit_pool "jap_guard"  0.9   0.09   0.9  0  requires factions { saxons, }
-	recruit_pool "jap_inf"  0.8   0.08   0.8  0  requires factions { saxons, }
-	recruit_pool "jp_hussar"  0.2   0.02   0.2  0  requires factions { saxons, }
 
 ;misc
 	recruit_pool "merc_uru_inf"  2   0.2   2  0  requires factions { poland, aztecs, }  and not event_counter military_reforms_1 1 and hidden_resource uruguay
@@ -3502,8 +3322,6 @@ building professional_military
 	recruit_pool "sikh_gen"  0   0.05   1  0   requires factions { bulga, }  and hidden_resource india
 	recruit_pool "Siam_bodyguard"  0   0.05   1  0   requires factions { cru, }  and hidden_resource siam
 	recruit_pool "oirat_royal"  0   0.05   1  0   requires factions { byzantium, }  and hidden_resource china
-	recruit_pool "jap_sho_cav"  0   0.05   1  0   requires factions { papal_states, }  and hidden_resource japan
-	recruit_pool "sho_mod_cav"  0   0.05   1  0   requires factions { saxons, }  and hidden_resource japan
             }
             material wooden
             construction  10
@@ -3549,8 +3367,6 @@ building professional_military
 	recruit_pool "sikh_gen"  1   0.1   1  0   requires factions { bulga, }  and hidden_resource india
 	recruit_pool "Siam_bodyguard"  1   0.1   1  0   requires factions { cru, }  and hidden_resource siam
 	recruit_pool "oirat_royal"  1   0.1   1  0   requires factions { byzantium, }  and hidden_resource china
-	recruit_pool "jap_sho_cav"  1   0.1   1  0   requires factions { papal_states, }  and hidden_resource japan
-	recruit_pool "sho_mod_cav"  1   0.1   1  0   requires factions { saxons, }  and hidden_resource japan
             }
             material wooden
             construction  12 
@@ -4901,7 +4717,7 @@ building port
 ;marines
 	recruit_pool "siam_sea"  0   0.02   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 ;marines
-	recruit_pool "jap_marine"  0   0.02   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
+
 ;marines
             }
             material wooden
@@ -5012,7 +4828,7 @@ building port
 ;marines
 	recruit_pool "siam_sea"  0   0.04   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 ;marines
-	recruit_pool "jap_marine"  0   0.04   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
+
 ;marines
             }
             material wooden
@@ -5148,7 +4964,7 @@ building port
 ;marines
 	recruit_pool "siam_sea"  1   0.06   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 ;marines
-	recruit_pool "jap_marine"  0   0.06   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
+
 ;marines
 	recruitment_slots  2
             }
@@ -5290,7 +5106,7 @@ building port
 ;marines
 	recruit_pool "siam_sea"  1   0.1   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 ;marines
-	recruit_pool "jap_marine"  1   0.1   1  0  requires factions { saxons, }  and event_counter military_reforms_1870 1 and hidden_resource japan
+
 ;marines
             }
             material wooden

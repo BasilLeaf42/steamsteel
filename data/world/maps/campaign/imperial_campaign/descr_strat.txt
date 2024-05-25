@@ -8194,35 +8194,23 @@ character	Iemochi Tokugawa, named character, male, leader, age 20, x 284, y 166
 traits		Factionleader 1
 army
 unit		sho_sam_cav				exp 0 armour 0 weapon_lvl 0
-unit		jap_sho_inf				exp 0 armour 0 weapon_lvl 0
-unit		sho_light_inf				exp 0 armour 0 weapon_lvl 0
-unit		sho_spear_inf				exp 0 armour 0 weapon_lvl 0
-unit		sho_armstrong				exp 0 armour 0 weapon_lvl 0
 
 character	random_name, general, male, age 30, x 290, y 166 
 army
-unit		sho_sam					exp 0 armour 0 weapon_lvl 0
-unit		jap_sho_inf2				exp 0 armour 0 weapon_lvl 0
-unit		sho_armstrong				exp 0 armour 0 weapon_lvl 0
+unit		sho_militia					exp 0 armour 0 weapon_lvl 0
 
 character	random_name, general, male, age 30, x 285, y 174
 army
 unit		sho_militia				exp 0 armour 0 weapon_lvl 0
-unit		samurai					exp 0 armour 0 weapon_lvl 0
 
 character	Yoshinobu Tokugawa, named character, male, heir, age 23, x 287, y 181, portrait YoshinobuTokugawa, battle_model mufud_general 
 traits		Factionheir 1
 army
 unit		jap_sho_cav				exp 1 armour 0 weapon_lvl 0
-unit		sho_sam					exp 0 armour 0 weapon_lvl 0
-unit		samurai					exp 0 armour 0 weapon_lvl 0
-unit		sho_armstrong				exp 0 armour 0 weapon_lvl 0
 
 character	Katamori Matsudaira, named character, male, age 24, x 293, y 160, portrait KatamoriMatsudaira, battle_model mufud_general 
 army
 unit		jap_sho_cav				exp 1 armour 0 weapon_lvl 0
-unit		sho_dismounted_sam			exp 0 armour 0 weapon_lvl 0
-unit		sho_sam_archers				exp 0 armour 0 weapon_lvl 0
 
 character	Umakai Tadazumi, admiral, male, age 36, x 288, y 182 
 army
@@ -14758,23 +14746,15 @@ character	Takachika Mori, named character, male, leader, age 43, x 423, y 222, p
 traits		Factionleader 1
 army
 unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-unit		jap_armstrong				exp 0 armour 0 weapon_lvl 0
 
 character	Shinsaku Takasugi, named character, male, heir, age 20, x 425, y 223, portrait ShinsakuTakasugi
 traits		Factionheir 1
 army
 unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-unit		jp_hussar				exp 0 armour 0 weapon_lvl 0
-unit		jap_armstrong				exp 0 armour 0 weapon_lvl 0
 
 character	Hisamitsu Shimazu, named character, male, age 43, x 421, y 215, portrait HisamitsuShimazu, battle_model jp_gen 
 army
 unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-unit		jap_bear_militia			exp 0 armour 0 weapon_lvl 0
-unit		jap_militia				exp 0 armour 0 weapon_lvl 0
-unit		jap_militia				exp 0 armour 0 weapon_lvl 0
-unit		jap_militia				exp 0 armour 0 weapon_lvl 0
-unit		jap_armstrong				exp 0 armour 0 weapon_lvl 0
 
 character	Takamori Saigo, named character, male, age 32, x 419, y 207, portrait TakamoriSaigo
 army
@@ -14783,24 +14763,15 @@ unit		sho_mod_cav				exp 0 armour 0 weapon_lvl 0
 character	Tadayoshi Shimazu, named character, male, age 20, x 422, y 217
 army
 unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-unit		jp_hussar				exp 0 armour 0 weapon_lvl 0
-unit		jap_bear_militia			exp 0 armour 0 weapon_lvl 0
-unit		jap_militia				exp 0 armour 0 weapon_lvl 0
-unit		jap_militia				exp 0 armour 0 weapon_lvl 0
-unit		jap_armstrong				exp 0 armour 0 weapon_lvl 0
 
 
 character	Toshimichi Okubo, named character, male, age 30, x 420, y 218, portrait ToshimichiOkubo, battle_model jp_gen 
 army
 unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-unit		jap_militia				exp 0 armour 0 weapon_lvl 0
-unit		jap_militia				exp 0 armour 0 weapon_lvl 0
-unit		jap_12lb				exp 0 armour 0 weapon_lvl 0
 
 character	Ryoma Sakamoto, named character, male, age 30, x 423, y 218, portrait RyomaSakamoto 
 army
 unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-unit		jap_militia				exp 0 armour 0 weapon_lvl 0
 
 character	Tomomi Iwakura, diplomat, male, age 35, x 428, y 223, portrait TomomiIwakura 
 
@@ -17617,7 +17588,6 @@ unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
 unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
 unit		korean_archers				exp 0 armour 0 weapon_lvl 0
 unit		korean_archers				exp 0 armour 0 weapon_lvl 0
-unit		jap_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Hamheung
 character	sub_faction byzantium, random_name, general, male, age 40, x 417, y 235
@@ -17625,7 +17595,6 @@ army
 unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
 unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
 unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
-unit		jap_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Houseong
 character	sub_faction byzantium, random_name, general, male, age 40, x 416, y 225
@@ -17635,7 +17604,6 @@ unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
 unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
 unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
 unit		korean_archers				exp 0 armour 0 weapon_lvl 0
-unit		jap_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Daegu
 character	sub_faction byzantium, random_name, general, male, age 40, x 418, y 225
@@ -17643,13 +17611,10 @@ army
 unit		korean_cav_mercs				exp 1 armour 0 weapon_lvl 0
 unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
 unit		korean_rifles_mercs				exp 0 armour 0 weapon_lvl 0
-unit		jap_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Okinawa
-character	sub_faction saxons, random_name, general, male, age 40, x 417, y 203
-army
-unit		sho_militia				exp 0 armour 0 weapon_lvl 0
-unit		sho_militia				exp 0 armour 0 weapon_lvl 0
+;character	sub_faction saxons, random_name, general, male, age 40, x 417, y 203
+;army
 
 ;Nanking
 character	sub_faction byzantium, random_name, general, male, age 40, x 403, y 216
@@ -18625,11 +18590,8 @@ unit		merc_ap_front_cav				exp 0 armour 0 weapon_lvl 0
 unit		apache_inf				exp 0 armour 0 weapon_lvl 0
 
 ;Nagoya
-character	sub_faction saxons, Yoshitane Matsudaira, general, male, age 62, x 430, y 223 
-army
-unit		jap_sho_cav				exp 0 armour 0 weapon_lvl 0
-unit		jap_sho_inf2				exp 0 armour 0 weapon_lvl 0
-unit		sho_12lb				exp 0 armour 0 weapon_lvl 0
+;character	sub_faction saxons, Yoshitane Matsudaira, general, male, age 62, x 430, y 223 
+;army
 
 ;Rebel End
 

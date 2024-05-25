@@ -118,7 +118,6 @@ pool Vietnam_n
 
 pool Netherlands
 	regions Hokkaido_Province Edo_Province Kyoto_Province Estonie_Province Akita_Province 
-	unit merc_sho_ashigaru		exp 0 cost 900 replenish 0.05 - 0.1 max 2 initial 1
 
 pool North_Africa
 	regions Tripolitaine_Province Ceyland_Province Fez_Province Marrakesh_Province
