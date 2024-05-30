@@ -13249,6 +13249,67 @@ era 1            byzantium
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ 1860s - Generic Japanese
 
+type             Japan Kachi
+dictionary       Japan_Kachi      ; Japanese Yari Kachi / Japanese Yari Samurai / Japanese Samurai Spearmen (Yari)
+category         infantry
+class            spearmen
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          sho_sam_spears, 64, 0, 1
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, hardy
+formation        1.2, 1.2, 2.0, 2.4, 4, square, phalanx
+stat_health      1, 0
+stat_pri         2, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri_attr    long_pike
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  6, 5, 0, metal
+stat_sec_armour  0, 0, leather
+stat_heat        10
+stat_ground      1, -3, 1, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 900, 200, 120, 95, 900, 1, 300
+armour_ug_levels 0
+armour_ug_models sho_sam_spears
+ownership        saxons, france, slave
+era 0            saxons, france
+era 1            saxons, france
+
+type             Japan Yumitai
+dictionary       Japan_Yumitai      ; Japanese Yumitai (Daikyu longbow, Katana)
+category         infantry
+class            missile
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_missile
+soldier          sho_sam_archers, 40, 0, 1
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw
+formation        1.2, 1.2, 3, 3, 4, square
+stat_health      1, 0
+stat_pri         5, 3, arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri_attr    no
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  4, 5, 0, metal
+stat_sec_armour  0, 0, metal
+stat_heat        10
+stat_ground      1, -3, 1, 0
+stat_mental      4, normal, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 850, 200, 55, 135, 850, 1, 290
+armour_ug_levels 0
+armour_ug_models sho_sam_archers
+ownership        saxons, france, slave
+era 0            saxons, france
+era 1            saxons, france
+
 type             Japan Teppotai
 dictionary       Japan_Teppotai      ; Japanese Teppotai (Smoothbore "Geberu" musket, Katana)
 category         infantry
@@ -13278,9 +13339,45 @@ stat_food        60, 300
 stat_cost        2, 1000, 250, 80, 60, 1000, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Teppotai
-ownership        saxons, slave
-era 0            saxons
-era 1            saxons
+ownership        saxons, france, slave
+era 0            saxons, france
+era 1            saxons, france
+
+type             Japan Seishi
+dictionary       Japan_Seishi      ; Japanese Seishi / Japanese Samurai Cavalry / Japanese Samurai Lancers (Yari, Katana)
+category         cavalry
+class            heavy
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          sho_sam_cav, 24, 0, 1
+officer          samurai_general
+officer          xuanzuduizhang
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, hardy
+move_speed_mod	 0.9
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         8, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  6, 4, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        12
+stat_ground      1, -3, -2, 0
+stat_mental      8, impetuous, untrained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1500, 500, 120, 95, 1500, 1, 500
+armour_ug_levels 0
+armour_ug_models sho_sam_cav
+ownership        saxons, france, slave
+era 0            saxons, france
+era 1            saxons, france
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ 1860s - Ishin Japanese
@@ -13664,7 +13761,7 @@ soldier          Japan_Denshutai_Cavalry, 24, 0, 1
 officer			 Japan_Denshutai_Officer
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_withdraw, guncavalry, start_not_skirmishing, can_formed_charge, hardy, free_upkeep_unit
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, hardy, free_upkeep_unit
 move_speed_mod	 1.0
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
@@ -13693,6 +13790,35 @@ era 1            saxons, france
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ 1870s - Empire of Japan
  
+type             jap_ninja
+dictionary       jap_ninja      ; Battoutai Corps
+category         infantry
+class            light
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          jap_ninja, 40, 0, 1
+attributes       free_upkeep_unit, sea_faring, hide_long_grass, hardy, can_withdraw
+move_speed_mod	 1.15
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         10, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri_attr    ap
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  4, 5, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -3, 1, 0
+stat_mental      8, normal, trained, lock_morale
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1100, 370, 50, 70, 1100, 2, 370
+ownership        saxons, slave
+era 0            saxons, slave
+
 type             jap_kami
 dictionary       jap_kami      ; Japanese Sappers
 category         infantry
