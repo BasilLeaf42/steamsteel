@@ -13448,6 +13448,39 @@ ownership        saxons, slave
 era 0            saxons
 era 1            saxons
 
+type             Japan Yamagunitai
+dictionary       Japan_Yamagunitai      ; Japanese Yamagunitai / Tottori Yamagunitai / Satcho Yamagunitai / Ishin Yamagunitai (Snider Enfield Mk.I* breech-loading rifle, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Yamagunitai, 40, 0, 1.0
+officer			 Japan_Yamagunitai_Officer
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, very_hardy, command
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         28, 0, arquebus_bullet, 230, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         9, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 6, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1600, 530, 80, 60, 1600, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Yamagunitai
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+
 type             Japan Kiheitai
 dictionary       Japan_Kiheitai      ; Japanese Kiheitai / Choshu Kiheitai / Choshu Light Infantry / Satcho Kiheitai / Ishin Kiheitai (Springfield M1861 rifled musket, Katana)
 category         infantry
@@ -13511,6 +13544,43 @@ stat_cost        3, 1800, 600, 80, 60, 1800, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Jinshotai
 ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+
+type             Japan Revolver Kihei Han
+dictionary       Japan_Revolver_Kihei_Han      ; Japanese Revolver Kihei / Ishin Revolver Kihei / Satcho Revolver Kihei (Smith & Wesson No.2 revolver, Katana)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Revolver_Cavalry_Han, 24, 0, 1
+officer          Japan_Shotai_Officer1
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         11, 2, musket_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 5, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        2, 1300, 360, 120, 95, 1200, 1, 30
+armour_ug_levels 0
+armour_ug_models Japan_Revolver_Cavalry_Han
+ownership        saxons, slave 
 era 0            saxons
 era 1            saxons
 
@@ -13746,6 +13816,43 @@ stat_cost        3, 1700, 600, 80, 60, 1700, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Shinsengumi
 ownership        saxons, france, slave
+era 0            saxons, france
+era 1            saxons, france
+
+type             Japan Revolver Kihei
+dictionary       Japan_Revolver_Kihei      ; Japanese Sampeitai Kihei / Tokugawa Sampeitai Kihei / Shogunate Sampeitai Kihei (Smith & Wesson No.2 revolver, Katana)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Revolver_Cavalry, 24, 0, 1
+officer          Japan_Sampeitai_Officer
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         11, 2, musket_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 5, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        2, 1300, 360, 120, 95, 1200, 1, 30
+armour_ug_levels 0
+armour_ug_models Japan_Revolver_Cavalry
+ownership        saxons, france, slave 
 era 0            saxons, france
 era 1            saxons, france
 
