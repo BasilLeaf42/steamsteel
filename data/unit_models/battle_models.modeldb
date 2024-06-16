@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 566 0 0 
+22 serialization::archive 3 0 0 0 0 605 0 0 
 5 blank 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 10 mount_pony 
 1 3 
@@ -22629,20 +22629,20 @@
 43 unit_models/_Units/yet/yet_inf_1g_lod0.mesh 20000 
 2 
 6 aztecs 
-50 unit_models/_Units/yet/texyetes/yet_inf_1g.texyete 
-52 unit_models/_Units/yet/texyetes/yet_inf_1g_n.texyete 
+50 unit_models/_Units/yet/textures/yet_inf_1g.texture 
+52 unit_models/_Units/yet/textures/yet_inf_1g_n.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 slave 
-50 unit_models/_Units/yet/texyetes/yet_inf_1g.texyete 
-52 unit_models/_Units/yet/texyetes/yet_inf_1g_n.texyete 
+50 unit_models/_Units/yet/textures/yet_inf_1g.texture 
+52 unit_models/_Units/yet/textures/yet_inf_1g_n.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 2 
 6 aztecs 
-58 unit_models/_Units/attachments/texyetes/yet_rugbxx.texyete 
-60 unit_models/_Units/attachments/texyetes/yet_rugbxx_n.texyete 0 
+58 unit_models/_Units/attachments/textures/trk_rugbxx.texture 
+60 unit_models/_Units/attachments/textures/trk_rugbxx_n.texture 0 
 5 slave 
-58 unit_models/_Units/attachments/texyetes/yet_rugbxx.texyete 
-60 unit_models/_Units/attachments/texyetes/yet_rugbxx_n.texyete 0 
+58 unit_models/_Units/attachments/textures/trk_rugbxx.texture 
+60 unit_models/_Units/attachments/textures/trk_rugbxx_n.texture 0 
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
@@ -22659,20 +22659,20 @@
 43 unit_models/_Units/yet/yet_cav_1g_lod0.mesh 20000 
 2 
 6 aztecs 
-50 unit_models/_Units/yet/texyetes/yet_cav_1g.texyete 
-52 unit_models/_Units/yet/texyetes/yet_cav_1g_n.texyete 
+50 unit_models/_Units/yet/textures/yet_cav_1g.texture 
+52 unit_models/_Units/yet/textures/yet_cav_1g_n.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 slave 
-50 unit_models/_Units/yet/texyetes/yet_cav_1g.texyete 
-52 unit_models/_Units/yet/texyetes/yet_cav_1g_n.texyete 
+50 unit_models/_Units/yet/textures/yet_cav_1g.texture 
+52 unit_models/_Units/yet/textures/yet_cav_1g_n.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 2 
 6 aztecs 
-58 unit_models/_Units/attachments/texyetes/yet_rugbxx.texyete 
-60 unit_models/_Units/attachments/texyetes/yet_rugbxx_n.texyete 0 
+58 unit_models/_Units/attachments/textures/trk_rugbxx.texture 
+60 unit_models/_Units/attachments/textures/trk_rugbxx_n.texture 0 
 5 slave 
-58 unit_models/_Units/attachments/texyetes/yet_rugbxx.texyete 
-60 unit_models/_Units/attachments/texyetes/yet_rugbxx_n.texyete 0 
+58 unit_models/_Units/attachments/textures/trk_rugbxx.texture 
+60 unit_models/_Units/attachments/textures/trk_rugbxx_n.texture 0 
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
@@ -22689,20 +22689,20 @@
 43 unit_models/_Units/yet/yet_roy_1g_lod0.mesh 20000 
 2 
 6 aztecs 
-50 unit_models/_Units/yet/texyetes/yet_roy_1g.texyete 
-52 unit_models/_Units/yet/texyetes/yet_roy_1g_n.texyete 
+50 unit_models/_Units/yet/textures/yet_roy_1g.texture 
+52 unit_models/_Units/yet/textures/yet_roy_1g_n.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 slave 
-50 unit_models/_Units/yet/texyetes/yet_roy_1g.texyete 
-52 unit_models/_Units/yet/texyetes/yet_roy_1g_n.texyete 
+50 unit_models/_Units/yet/textures/yet_roy_1g.texture 
+52 unit_models/_Units/yet/textures/yet_roy_1g_n.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 2 
 6 aztecs 
-58 unit_models/_Units/attachments/texyetes/yet_rugbxx.texyete 
-60 unit_models/_Units/attachments/texyetes/yet_rugbxx_n.texyete 0 
+58 unit_models/_Units/attachments/textures/trk_rugbxx.texture 
+60 unit_models/_Units/attachments/textures/trk_rugbxx_n.texture 0 
 5 slave 
-58 unit_models/_Units/attachments/texyetes/yet_rugbxx.texyete 
-60 unit_models/_Units/attachments/texyetes/yet_rugbxx_n.texyete 0 
+58 unit_models/_Units/attachments/textures/trk_rugbxx.texture 
+60 unit_models/_Units/attachments/textures/trk_rugbxx_n.texture 0 
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
@@ -22711,7 +22711,7 @@
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-24 oriental_empires_rosters 
+22 south_american_rosters 
 1 1 
 51 unit_models/_Units/austrohungary/ah_scout_lod0.mesh 20000 
 1 
@@ -22731,3 +22731,1173 @@
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
+10 arg_lgt_1g 
+1 4 
+43 unit_models/_Units/arg/arg_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/arg/arg_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/arg/arg_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/arg/arg_lgt_1g_lod0.mesh 20000 
+2 
+6 aztecs 
+50 unit_models/_Units/arg/textures/arg_lgt_1g.texture 
+52 unit_models/_Units/arg/textures/arg_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/arg/textures/arg_lgt_1g.texture 
+52 unit_models/_Units/arg/textures/arg_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 aztecs 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 arg_lgt_1g 
+1 4 
+43 unit_models/_Units/arg/arg_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/arg/arg_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/arg/arg_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/arg/arg_lgt_1g_lod0.mesh 20000 
+2 
+6 aztecs 
+50 unit_models/_Units/arg/textures/arg_lgt_1g.texture 
+52 unit_models/_Units/arg/textures/arg_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/arg/textures/arg_lgt_1g.texture 
+52 unit_models/_Units/arg/textures/arg_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 aztecs 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 bol_cav_1g 
+1 4 
+43 unit_models/_Units/bol/bol_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_cav_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/bol/textures/bol_cav_1g.texture 
+52 unit_models/_Units/bol/textures/bol_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/bol/textures/bol_cav_1g.texture 
+52 unit_models/_Units/bol/textures/bol_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 bol_grd_1g 
+1 4 
+43 unit_models/_Units/bol/bol_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_grd_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/bol/textures/bol_grd_1g.texture 
+52 unit_models/_Units/bol/textures/bol_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/bol/textures/bol_grd_1g.texture 
+52 unit_models/_Units/bol/textures/bol_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 bol_inf_1g 
+1 4 
+43 unit_models/_Units/bol/bol_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_inf_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/bol/textures/bol_inf_1g.texture 
+52 unit_models/_Units/bol/textures/bol_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/bol/textures/bol_inf_1g.texture 
+52 unit_models/_Units/bol/textures/bol_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 bol_roy_1g 
+1 4 
+43 unit_models/_Units/bol/bol_roy_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_roy_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_roy_1g_lod0.mesh 20000 
+43 unit_models/_Units/bol/bol_roy_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/bol/textures/bol_roy_1g.texture 
+52 unit_models/_Units/bol/textures/bol_roy_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/bol/textures/bol_roy_1g.texture 
+52 unit_models/_Units/bol/textures/bol_roy_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 bra_cav_1g 
+1 4 
+43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
+2 
+6 poland 
+50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
+52 unit_models/_Units/bra/textures/bra_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
+52 unit_models/_Units/bra/textures/bra_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 bra_grd_1g 
+1 4 
+43 unit_models/_Units/bra/bra_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_grd_1g_lod0.mesh 20000 
+2 
+6 poland 
+50 unit_models/_Units/bra/textures/bra_grd_1g.texture 
+52 unit_models/_Units/bra/textures/bra_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/bra/textures/bra_grd_1g.texture 
+52 unit_models/_Units/bra/textures/bra_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 bra_inf_1g 
+1 4 
+43 unit_models/_Units/bra/bra_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_inf_1g_lod0.mesh 20000 
+2 
+6 poland 
+50 unit_models/_Units/bra/textures/bra_inf_1g.texture 
+52 unit_models/_Units/bra/textures/bra_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/bra/textures/bra_inf_1g.texture 
+52 unit_models/_Units/bra/textures/bra_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 bra_lgt_1g 
+1 4 
+43 unit_models/_Units/bra/bra_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/bra/bra_lgt_1g_lod0.mesh 20000 
+2 
+6 poland 
+50 unit_models/_Units/bra/textures/bra_lgt_1g.texture 
+52 unit_models/_Units/bra/textures/bra_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/bra/textures/bra_lgt_1g.texture 
+52 unit_models/_Units/bra/textures/bra_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 chi_cav_1g 
+1 4 
+43 unit_models/_Units/chi/chi_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_cav_1g_lod0.mesh 20000 
+2 
+3 teu 
+50 unit_models/_Units/chi/textures/chi_cav_1g.texture 
+52 unit_models/_Units/chi/textures/chi_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/chi/textures/chi_cav_1g.texture 
+52 unit_models/_Units/chi/textures/chi_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 chi_cav_2g 
+1 4 
+43 unit_models/_Units/chi/chi_cav_2g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_cav_2g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_cav_2g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_cav_2g_lod0.mesh 20000 
+2 
+3 teu 
+50 unit_models/_Units/chi/textures/chi_cav_2g.texture 
+52 unit_models/_Units/chi/textures/chi_cav_2g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/chi/textures/chi_cav_2g.texture 
+52 unit_models/_Units/chi/textures/chi_cav_2g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 chi_grd_1g 
+1 4 
+43 unit_models/_Units/chi/chi_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_grd_1g_lod0.mesh 20000 
+2 
+3 teu 
+50 unit_models/_Units/chi/textures/chi_grd_1g.texture 
+52 unit_models/_Units/chi/textures/chi_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/chi/textures/chi_grd_1g.texture 
+52 unit_models/_Units/chi/textures/chi_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 chi_grd_2g 
+1 4 
+43 unit_models/_Units/chi/chi_grd_2g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_grd_2g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_grd_2g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_grd_2g_lod0.mesh 20000 
+2 
+3 teu 
+50 unit_models/_Units/chi/textures/chi_grd_2g.texture 
+52 unit_models/_Units/chi/textures/chi_grd_2g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/chi/textures/chi_grd_2g.texture 
+52 unit_models/_Units/chi/textures/chi_grd_2g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 chi_inf_1g 
+1 4 
+43 unit_models/_Units/chi/chi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_inf_1g_lod0.mesh 20000 
+2 
+3 teu 
+50 unit_models/_Units/chi/textures/chi_inf_1g.texture 
+52 unit_models/_Units/chi/textures/chi_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/chi/textures/chi_inf_1g.texture 
+52 unit_models/_Units/chi/textures/chi_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 chi_inf_2g 
+1 4 
+43 unit_models/_Units/chi/chi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/chi/chi_inf_2g_lod0.mesh 20000 
+2 
+3 teu 
+50 unit_models/_Units/chi/textures/chi_inf_2g.texture 
+52 unit_models/_Units/chi/textures/chi_inf_2g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/chi/textures/chi_inf_2g.texture 
+52 unit_models/_Units/chi/textures/chi_inf_2g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 col_cav_1g 
+1 4 
+43 unit_models/_Units/col/col_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_cav_1g_lod0.mesh 20000 
+2 
+8 portugal 
+50 unit_models/_Units/col/textures/col_cav_1g.texture 
+52 unit_models/_Units/col/textures/col_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/col/textures/col_cav_1g.texture 
+52 unit_models/_Units/col/textures/col_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+8 portugal 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 col_inf_1g 
+1 4 
+43 unit_models/_Units/col/col_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_inf_1g_lod0.mesh 20000 
+2 
+8 portugal 
+50 unit_models/_Units/col/textures/col_inf_1g.texture 
+52 unit_models/_Units/col/textures/col_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/col/textures/col_inf_1g.texture 
+52 unit_models/_Units/col/textures/col_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+8 portugal 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 col_lgt_1g 
+1 4 
+43 unit_models/_Units/col/col_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_lgt_1g_lod0.mesh 20000 
+2 
+8 portugal 
+50 unit_models/_Units/col/textures/col_lgt_1g.texture 
+52 unit_models/_Units/col/textures/col_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/col/textures/col_lgt_1g.texture 
+52 unit_models/_Units/col/textures/col_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+8 portugal 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 col_rec_1g 
+1 4 
+43 unit_models/_Units/col/col_rec_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_rec_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_rec_1g_lod0.mesh 20000 
+43 unit_models/_Units/col/col_rec_1g_lod0.mesh 20000 
+2 
+8 portugal 
+50 unit_models/_Units/col/textures/col_rec_1g.texture 
+52 unit_models/_Units/col/textures/col_rec_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/col/textures/col_rec_1g.texture 
+52 unit_models/_Units/col/textures/col_rec_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+8 portugal 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 ecu_grd_1g 
+1 4 
+43 unit_models/_Units/ecu/ecu_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_grd_1g_lod0.mesh 20000 
+2 
+3 hre 
+50 unit_models/_Units/ecu/textures/ecu_grd_1g.texture 
+52 unit_models/_Units/ecu/textures/ecu_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/ecu/textures/ecu_grd_1g.texture 
+52 unit_models/_Units/ecu/textures/ecu_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 hre 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 ecu_inf_1g 
+1 4 
+43 unit_models/_Units/ecu/ecu_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_inf_1g_lod0.mesh 20000 
+2 
+3 hre 
+50 unit_models/_Units/ecu/textures/ecu_inf_1g.texture 
+52 unit_models/_Units/ecu/textures/ecu_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/ecu/textures/ecu_inf_1g.texture 
+52 unit_models/_Units/ecu/textures/ecu_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 hre 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 ecu_inf_3g 
+1 4 
+43 unit_models/_Units/ecu/ecu_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_inf_3g_lod0.mesh 20000 
+2 
+3 hre 
+50 unit_models/_Units/ecu/textures/ecu_inf_3g.texture 
+52 unit_models/_Units/ecu/textures/ecu_inf_3g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/ecu/textures/ecu_inf_3g.texture 
+52 unit_models/_Units/ecu/textures/ecu_inf_3g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 hre 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 ecu_rec_1g 
+1 4 
+43 unit_models/_Units/ecu/ecu_rec_1g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_rec_1g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_rec_1g_lod0.mesh 20000 
+43 unit_models/_Units/ecu/ecu_rec_1g_lod0.mesh 20000 
+2 
+3 hre 
+50 unit_models/_Units/ecu/textures/ecu_rec_1g.texture 
+52 unit_models/_Units/ecu/textures/ecu_rec_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/ecu/textures/ecu_rec_1g.texture 
+52 unit_models/_Units/ecu/textures/ecu_rec_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+3 hre 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_rugrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 par_cav_1g 
+1 4 
+43 unit_models/_Units/par/par_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_cav_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/par/textures/par_cav_1g.texture 
+52 unit_models/_Units/par/textures/par_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/par/textures/par_cav_1g.texture 
+52 unit_models/_Units/par/textures/par_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 par_grd_1g 
+1 4 
+43 unit_models/_Units/par/par_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_grd_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/par/textures/par_grd_1g.texture 
+52 unit_models/_Units/par/textures/par_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/par/textures/par_grd_1g.texture 
+52 unit_models/_Units/par/textures/par_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 par_inf_1g 
+1 4 
+43 unit_models/_Units/par/par_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_inf_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/par/textures/par_inf_1g.texture 
+52 unit_models/_Units/par/textures/par_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/par/textures/par_inf_1g.texture 
+52 unit_models/_Units/par/textures/par_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 par_rec_1g 
+1 4 
+43 unit_models/_Units/par/par_rec_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_rec_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_rec_1g_lod0.mesh 20000 
+43 unit_models/_Units/par/par_rec_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/par/textures/par_rec_1g.texture 
+52 unit_models/_Units/par/textures/par_rec_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/par/textures/par_rec_1g.texture 
+52 unit_models/_Units/par/textures/par_rec_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 per_cav_1g 
+1 4 
+43 unit_models/_Units/per/per_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_cav_1g_lod0.mesh 20000 
+2 
+7 denmark 
+50 unit_models/_Units/per/textures/per_cav_1g.texture 
+52 unit_models/_Units/per/textures/per_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/per/textures/per_cav_1g.texture 
+52 unit_models/_Units/per/textures/per_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 denmark 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 per_grd_1g 
+1 4 
+43 unit_models/_Units/per/per_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_grd_1g_lod0.mesh 20000 
+2 
+7 denmark 
+50 unit_models/_Units/per/textures/per_grd_1g.texture 
+52 unit_models/_Units/per/textures/per_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/per/textures/per_grd_1g.texture 
+52 unit_models/_Units/per/textures/per_grd_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 denmark 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 per_inf_1g 
+1 4 
+43 unit_models/_Units/per/per_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_inf_1g_lod0.mesh 20000 
+2 
+7 denmark 
+50 unit_models/_Units/per/textures/per_inf_1g.texture 
+52 unit_models/_Units/per/textures/per_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/per/textures/per_inf_1g.texture 
+52 unit_models/_Units/per/textures/per_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 denmark 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 per_lgt_1g 
+1 4 
+43 unit_models/_Units/per/per_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/per_lgt_1g_lod0.mesh 20000 
+2 
+7 denmark 
+50 unit_models/_Units/per/textures/per_lgt_1g.texture 
+52 unit_models/_Units/per/textures/per_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/per/textures/per_lgt_1g.texture 
+52 unit_models/_Units/per/textures/per_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 denmark 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 uru_cav_1g 
+1 4 
+43 unit_models/_Units/per/uru_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/uru_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/uru_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/per/uru_cav_1g_lod0.mesh 20000 
+2 
+7 denmark 
+50 unit_models/_Units/per/textures/uru_cav_1g.texture 
+52 unit_models/_Units/per/textures/uru_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/per/textures/uru_cav_1g.texture 
+52 unit_models/_Units/per/textures/uru_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 denmark 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 uru_cav_1g 
+1 4 
+43 unit_models/_Units/uru/uru_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_cav_1g_lod0.mesh 20000 
+2 
+7 hungary 
+50 unit_models/_Units/uru/textures/uru_cav_1g.texture 
+52 unit_models/_Units/uru/textures/uru_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/uru/textures/uru_cav_1g.texture 
+52 unit_models/_Units/uru/textures/uru_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 hungary 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 uru_inf_1g 
+1 4 
+43 unit_models/_Units/uru/uru_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_inf_1g_lod0.mesh 20000 
+2 
+7 hungary 
+50 unit_models/_Units/uru/textures/uru_inf_1g.texture 
+52 unit_models/_Units/uru/textures/uru_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/uru/textures/uru_inf_1g.texture 
+52 unit_models/_Units/uru/textures/uru_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 hungary 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 uru_lgt_1g 
+1 4 
+43 unit_models/_Units/uru/uru_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_lgt_1g_lod0.mesh 20000 
+2 
+7 hungary 
+50 unit_models/_Units/uru/textures/uru_lgt_1g.texture 
+52 unit_models/_Units/uru/textures/uru_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/uru/textures/uru_lgt_1g.texture 
+52 unit_models/_Units/uru/textures/uru_lgt_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 hungary 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 uru_hus_1g 
+1 4 
+43 unit_models/_Units/uru/uru_hus_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_hus_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_hus_1g_lod0.mesh 20000 
+43 unit_models/_Units/uru/uru_hus_1g_lod0.mesh 20000 
+2 
+7 hungary 
+50 unit_models/_Units/uru/textures/uru_hus_1g.texture 
+52 unit_models/_Units/uru/textures/uru_hus_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/uru/textures/uru_hus_1g.texture 
+52 unit_models/_Units/uru/textures/uru_hus_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 hungary 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 ven_cav_1g 
+1 4 
+43 unit_models/_Units/ven/ven_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/ven/ven_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/ven/ven_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/ven/ven_cav_1g_lod0.mesh 20000 
+2 
+7 england 
+50 unit_models/_Units/ven/textures/ven_cav_1g.texture 
+52 unit_models/_Units/ven/textures/ven_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/ven/textures/ven_cav_1g.texture 
+52 unit_models/_Units/ven/textures/ven_cav_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 england 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 ven_inf_1g 
+1 4 
+43 unit_models/_Units/ven/ven_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/ven/ven_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/ven/ven_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/ven/ven_inf_1g_lod0.mesh 20000 
+2 
+7 england 
+50 unit_models/_Units/ven/textures/ven_inf_1g.texture 
+52 unit_models/_Units/ven/textures/ven_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/ven/textures/ven_inf_1g.texture 
+52 unit_models/_Units/ven/textures/ven_inf_1g_n.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+7 england 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+60 unit_models/_Units/attachments/textures/whi_gbfrxx_n.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
