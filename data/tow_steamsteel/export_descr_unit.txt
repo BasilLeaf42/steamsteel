@@ -13828,7 +13828,7 @@ accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
 soldier          Japan_Revolver_Cavalry, 24, 0, 1
-officer          Japan_Sampeitai_Officer
+officer          Japan_Sampeitai_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
 attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest
