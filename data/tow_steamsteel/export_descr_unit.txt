@@ -660,7 +660,11 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1000, 250, 90, 170, 1000, 2, 250
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
+era 0            saxons, slave
+era 1            saxons, slave
 era 2            saxons, slave
 
 
@@ -693,6 +697,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 475, 30, 40, 1900, 2, 475
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
 era 0            saxons, slave
 era 1            saxons, slave
@@ -727,7 +733,11 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 250, 90, 70, 1000, 2, 250
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
+era 0            saxons, slave
+era 1            saxons, slave
 era 2            saxons, slave
 
 type             jap_gatling
@@ -757,8 +767,12 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 900, 225, 90, 70, 900, 1, 225
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
+era 0            saxons, slave
 era 1            saxons, slave
+era 2            saxons, slave
 
 
 type             jap_150mm
@@ -793,7 +807,11 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
+era 0            saxons, slave
+era 1            saxons, slave
 era 2            saxons, slave
 
 type             jap_armstrong
@@ -824,9 +842,12 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1400, 375, 30, 40, 1400, 2, 375
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
 era 0            saxons, slave
 era 1            saxons, slave
+era 2            saxons, slave
 
 
 type             ind_maxim
@@ -1227,8 +1248,10 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1000, 250, 90, 170, 1000, 2, 250
-ownership        papal_states, slave
-era 2            papal_states, slave
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Shogun
+ownership        saxons, france, slave
+era 2            saxons, france, slave
 
 
 type             sho_12lb
@@ -1259,9 +1282,12 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 475, 30, 40, 1900, 2, 475
-ownership        papal_states, slave
-era 1            papal_states, slave
-era 2            papal_states, slave
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Shogun
+ownership        saxons, france, slave
+era 0            saxons, france, slave
+era 1            saxons, france, slave
+era 2            saxons, france, slave
 
 type             sho_5lb
 dictionary       sho_5lb      ; sho_5lb
@@ -1291,8 +1317,12 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 250, 90, 70, 1000, 2, 250
-ownership        papal_states, slave
-era 2            papal_states, slave
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Shogun
+ownership        saxons, france, slave
+era 0            saxons, france, slave
+era 1            saxons, france, slave
+era 2            saxons, france, slave
 
 type             sho_gatling
 dictionary       sho_gatling      ; sho_gatling
@@ -1320,8 +1350,12 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 900, 225, 90, 70, 900, 1, 225
-ownership        papal_states, slave
-era 1            papal_states, slave
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Shogun
+ownership        saxons, france, slave
+era 0            saxons, france, slave
+era 1            saxons, france, slave
+era 2            saxons, france, slave
 
 type             sho_150mm
 dictionary       sho_150mm      ; sho_150mm
@@ -1356,8 +1390,12 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
-ownership        papal_states, slave
-era 2            papal_states, slave
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Shogun
+ownership        saxons, france, slave
+era 0            saxons, france, slave
+era 1            saxons, france, slave
+era 2            saxons, france, slave
 
 type             sho_armstrong
 dictionary       sho_armstrong      ; sho_armstrong
@@ -1387,9 +1425,12 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1600, 400, 30, 40, 1600, 2, 400
-ownership        papal_states, slave
-era 0            papal_states, slave
-era 1            papal_states, slave
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Shogun
+ownership        saxons, france, slave
+era 0            saxons, france, slave
+era 1            saxons, france, slave
+era 2            saxons, france, slave
 
 type             csa_maxim
 dictionary       csa_maxim      ; csa_maxim
