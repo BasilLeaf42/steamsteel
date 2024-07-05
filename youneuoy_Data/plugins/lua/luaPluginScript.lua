@@ -104,3 +104,11 @@ function distanceFromPoint(character, x, y)
   local hypotenuse = math.sqrt(xSegment^2 + ySegment^2)
   return hypotenuse        
 end
+
+    ---Called after the game loads to menu. New Units
+function onGameInit()
+    modPath=M2TWEOP.getModPath();
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/eopData/unitlimit/japan_test.txt", 1000);
+	
+	M2TWEOPDU.setEntryLocalizedName(1000, "Test Unit")
+end
