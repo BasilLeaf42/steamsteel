@@ -760,12 +760,12 @@ has_family_tree					yes
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						saxons
-culture						chinese
-religion					buddism
+culture						slavic
+religion					orthodox
 symbol						models_strat/symbol_norway.cas
 rebel_symbol				models_strat/symbol_rebels.CAS
-primary_colour				red 225, green 24, blue 24
-secondary_colour			red 225, green 24, blue 24
+primary_colour				red 244, green 248, blue 255
+secondary_colour			red 130, green 1, blue 1
 loading_logo				loading_screen/symbols/symbol128_timurids.tga
 standard_index				21
 logo_index					FACTION_LOGO_SAXONS
@@ -775,7 +775,7 @@ intro_movie					faction/minor.bik
 victory_movie				faction/minor_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
 can_have_princess			no
