@@ -13226,15 +13226,15 @@ stat_cost        3, 600, 200, 50, 70, 600, 1, 200
 ownership        papal_states, slave
 
 
-type             geo_cav_g1
-dictionary       geo_cav_g1      ; Japanese Dragoons (Carbine, Spencer Repeating Rifle)
+type             geo_cav_1g
+dictionary       geo_cav_1g      ; Japanese Dragoons (Carbine, Spencer Repeating Rifle)
 category         cavalry
 class            missile
 voice_type       heavy
 accent      	 russian
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          geo_cav_g1, 27, 0, 1
+soldier          geo_cav_1g, 27, 0, 1
 officer          norse_archers_jun
 officer          aztec_junqshou
 mount            heavy horse
@@ -13264,15 +13264,15 @@ era 2            saxons, slave
 
 
 
-type             geo_grd_g1
-dictionary       geo_grd_g1      ; Black Bear Sharpshooters (Rifle-Musket, Enfield Pattern 1853)
+type             geo_grd_1g
+dictionary       geo_grd_1g      ; Black Bear Sharpshooters (Rifle-Musket, Enfield Pattern 1853)
 category         infantry
 class            missile
 voice_type       Light
 accent      	 russian
 banner faction   main_spear
 banner holy      crusade
-soldier          geo_grd_g1, 30, 0, 1.3
+soldier          geo_grd_1g, 30, 0, 1.3
 attributes       sea_faring, hide_improved_forest, start_not_skirmishing, gunmen, gunpowder_unit, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
@@ -13327,15 +13327,15 @@ ownership        saxons, slave
 era 0            saxons, slave
 
 
-type             geo_inf_g1
-dictionary       geo_inf_g1      ; 	Imperial Japanese Army (Rifle, Type 18 Murata)
+type             geo_inf_1g
+dictionary       geo_inf_1g      ; 	Imperial Japanese Army (Rifle, Type 18 Murata)
 category         infantry
 class            missile
 voice_type       Light
 accent      	 russian
 banner faction   main_spear
 banner holy      crusade
-soldier          geo_inf_g1, 40, 0, 1.3
+soldier          geo_inf_1g, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
@@ -13390,14 +13390,14 @@ stat_cost        3, 2000, 670, 50, 50, 2000, 1, 670
 ownership        saxons, slave
 
 
-type             geo_lgt_g1
-dictionary       geo_lgt_g1      ; Imperial Japanese Army (Rifle-Musket, Enfield Pattern 1853)
+type             geo_lgt_1g
+dictionary       geo_lgt_1g      ; Imperial Japanese Army (Rifle-Musket, Enfield Pattern 1853)
 category         infantry
 class            missile
 voice_type       Light
 accent      	 russian
 banner faction   main_cavalry
-soldier          geo_lgt_g1, 40, 0, 1.2
+soldier          geo_lgt_1g, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0

@@ -523,7 +523,7 @@ building equestrian
 	recruit_pool "afg_cav_1g"  1   0.5   3  0  requires factions { timurids, }    and hidden_resource hellas
 	recruit_pool "indian_ele"  1   0.3   2  0  requires factions { bulga, }  
 	recruit_pool "indian_spear_cav"  1   0.3   2  1  requires factions { bulga, }     
-	recruit_pool "geo_cav_g1"  1   0.4   2  0  requires factions { saxons, }  
+	recruit_pool "geo_cav_1g"  1   0.4   2  0  requires factions { saxons, }  
 	recruit_pool "yet_roy_1g"  1   0.4   2  0  requires factions { teu, }   
 	recruit_pool "jp_hussar"  1   0.5   3  0  requires factions { saxons, } 
 	recruit_pool "kaz_cav"  1   0.5   3  0  requires factions { cuman, }    
@@ -626,7 +626,7 @@ building equestrian
 	recruit_pool "afg_cav_1g"  1   0.5   3  0  requires factions { timurids, }    and hidden_resource hellas
 	recruit_pool "indian_ele"  1   0.3   2  0  requires factions { bulga, }  
 	recruit_pool "indian_spear_cav"  1   0.3   2  1  requires factions { bulga, }     
-	recruit_pool "geo_cav_g1"  1   0.4   2  0  requires factions { saxons, }  
+	recruit_pool "geo_cav_1g"  1   0.4   2  0  requires factions { saxons, }  
 	recruit_pool "yet_roy_1g"  1   0.4   2  0  requires factions { teu, }   
 	recruit_pool "jp_hussar"  1   0.5   3  0  requires factions { saxons, } 
 	recruit_pool "kaz_cav"  1   0.5   3  0  requires factions { cuman, }    
@@ -728,7 +728,7 @@ building equestrian
 	recruit_pool "afg_cav_1g"  1   0.5   3  0  requires factions { timurids, }    and hidden_resource hellas
 	recruit_pool "indian_ele"  1   0.3   2  0  requires factions { bulga, }  
 	recruit_pool "indian_spear_cav"  1   0.3   2  1  requires factions { bulga, }     
-	recruit_pool "geo_cav_g1"  1   0.4   2  0  requires factions { saxons, }  
+	recruit_pool "geo_cav_1g"  1   0.4   2  0  requires factions { saxons, }  
 	recruit_pool "yet_roy_1g"  1   0.4   2  0  requires factions { teu, }   
 	recruit_pool "jp_hussar"  1   0.5   3  0  requires factions { saxons, } 
 	recruit_pool "kaz_cav"  1   0.5   3  0  requires factions { cuman, }    
@@ -824,7 +824,7 @@ building equestrian
 	recruit_pool "afg_cav_1g"  1   0.5   3  0  requires factions { timurids, }    and hidden_resource hellas
 	recruit_pool "indian_ele"  1   0.3   2  0  requires factions { bulga, }  
 	recruit_pool "indian_spear_cav"  1   0.3   2  1  requires factions { bulga, }     
-	recruit_pool "geo_cav_g1"  1   0.4   2  0  requires factions { saxons, }  
+	recruit_pool "geo_cav_1g"  1   0.4   2  0  requires factions { saxons, }  
 	recruit_pool "yet_roy_1g"  1   0.4   2  0  requires factions { teu, }   
 	recruit_pool "jp_hussar"  1   0.5   3  0  requires factions { saxons, } 
 	recruit_pool "kaz_cav"  1   0.5   3  0  requires factions { cuman, }    
@@ -921,7 +921,7 @@ building equestrian
 	recruit_pool "afg_cav_1g"  1   0.5   3  0  requires factions { timurids, }    and hidden_resource hellas
 	recruit_pool "indian_ele"  1   0.3   2  0  requires factions { bulga, }  
 	recruit_pool "indian_spear_cav"  1   0.3   2  1  requires factions { bulga, }     
-	recruit_pool "geo_cav_g1"  1   0.4   2  0  requires factions { saxons, }  
+	recruit_pool "geo_cav_1g"  1   0.4   2  0  requires factions { saxons, }  
 	recruit_pool "yet_roy_1g"  1   0.4   2  0  requires factions { teu, }   
 	recruit_pool "jp_hussar"  1   0.5   3  0  requires factions { saxons, } 
 	recruit_pool "kaz_cav"  1   0.5   3  0  requires factions { cuman, }    
@@ -1102,7 +1102,7 @@ building barracks
 	recruit_pool "indian_fanatic"  1   0.3   2  0  requires factions { bulga, }   and hidden_resource india
 	recruit_pool "indian_new_musk"  1   0.3   2  1  requires factions { bulga, }  and hidden_resource india
 	recruit_pool "it_royals"  1   0.4   3  0  requires factions { hungary, venice, }   
-	recruit_pool "geo_grd_g1"  1   0.15   2  3  requires factions { saxons, }    
+	recruit_pool "geo_grd_1g"  1   0.15   2  3  requires factions { saxons, }    
 	recruit_pool "jap_kami"  1   0.4   2  0  requires factions { saxons, }  
 	recruit_pool "jap_militia"  1   0.15   2  3  requires factions { saxons, }   
 	recruit_pool "kabul_guard"  1   0.15   2  3  requires factions { timurids, }  and event_counter military_reforms_1870 1
@@ -1246,9 +1246,9 @@ building barracks
 	recruit_pool "khi_mil_1g"  1   0.25   2  0  requires factions { portugal, }  
 	recruit_pool "fra_chass"  1   0.25   2  0  requires factions { france, }  
 	recruit_pool "it_royals"  1   0.4   3  0  requires factions { hungary, venice, }   
-	recruit_pool "geo_grd_g1"  1   0.15   2  3  requires factions { saxons, }    
-	recruit_pool "geo_inf_g1"  1   0.3   2  2  requires factions { saxons, }  and event_counter military_reforms_1870 1
-	recruit_pool "geo_lgt_g1"  1   0.4   2  0  requires factions { saxons, }  and event_counter military_reforms_1870 1
+	recruit_pool "geo_grd_1g"  1   0.15   2  3  requires factions { saxons, }    
+	recruit_pool "geo_inf_1g"  1   0.3   2  2  requires factions { saxons, }  and event_counter military_reforms_1870 1
+	recruit_pool "geo_lgt_1g"  1   0.4   2  0  requires factions { saxons, }  and event_counter military_reforms_1870 1
 	recruit_pool "jap_kami"  1   0.4   2  0  requires factions { saxons, }  
 	recruit_pool "jap_militia"  1   0.15   2  3  requires factions { saxons, }   
 	recruit_pool "jap_sho_inf"  1   0.3   1  2  requires factions { papal_states, }
@@ -1439,9 +1439,9 @@ building barracks
 	recruit_pool "fra_chass"  1   0.25   2  0  requires factions { france, }  
 	recruit_pool "it_royals"  1   0.4   3  0  requires factions { hungary, venice, }   
 	recruit_pool "it_royals"  1   0.4   3  1  requires factions { hungary, venice, }    
-	recruit_pool "geo_grd_g1"  1   0.15   2  3  requires factions { saxons, }    
-	recruit_pool "geo_inf_g1"  1   0.3   2  2  requires factions { saxons, }  and event_counter military_reforms_1870 1
-	recruit_pool "geo_lgt_g1"  1   0.4   2  0  requires factions { saxons, }  and event_counter military_reforms_1870 1
+	recruit_pool "geo_grd_1g"  1   0.15   2  3  requires factions { saxons, }    
+	recruit_pool "geo_inf_1g"  1   0.3   2  2  requires factions { saxons, }  and event_counter military_reforms_1870 1
+	recruit_pool "geo_lgt_1g"  1   0.4   2  0  requires factions { saxons, }  and event_counter military_reforms_1870 1
 	recruit_pool "jap_kami"  1   0.4   2  0  requires factions { saxons, }  
 	recruit_pool "jap_militia"  1   0.15   2  3  requires factions { saxons, }   
 	recruit_pool "jap_sho_inf"  1   0.3   1  2  requires factions { papal_states, }
