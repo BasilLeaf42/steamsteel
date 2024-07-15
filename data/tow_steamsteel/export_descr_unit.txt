@@ -13314,11 +13314,11 @@ class            missile
 voice_type       Heavy
 accent      	 japanese
 banner faction   main_missile
-soldier          Japan_Yumitai, 40, 0, 1.1
+soldier          Japan_Yumitai, 48, 0, 1.1
 attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw
 formation        1.2, 1.2, 3, 3, 4, square
 stat_health      1, 0
-stat_pri         5, 3, arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         5, 4, composite_arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
 stat_pri_attr    no
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    no
