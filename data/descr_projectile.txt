@@ -2000,6 +2000,49 @@ velocity	250 300
 display		aimed
 effect_only
 
+projectile buck_ball; (Buck and Ball; Standard load)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.15
+accuracy_vs_units		0.06
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	250 300
+display		aimed
+effect_only
+
+projectile exploding_buck_ball; (Buck and Ball; Buckshot load)
+
+exploding			buck_ball
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.15
+accuracy_vs_units		0.14
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	180 230
+self_explode 1.0 0.1 0.1 buck_ball_effect
+display		aimed
+effect_only
 
 projectile early_arquebus_bullet; (Rifle-Musket)
 
