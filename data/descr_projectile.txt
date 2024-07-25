@@ -1994,7 +1994,7 @@ end_shatter_package_effect		bullet_impact_wall_set
 damage		0
 radius		0.001
 mass		0.25
-accuracy_vs_units		0.08 
+accuracy_vs_units		0.055 
 affected_by_rain
 min_angle	-80
 max_angle	70
