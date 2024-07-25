@@ -462,6 +462,17 @@
 		 <effect delay="2.0">ae_boiling_oil</effect>
       </area_effect>   
 	  <area_effect>    
+         <name>buckshot_effect</name>
+         <type>projectile</type>
+         <projectile_type>musket_bullet</projectile_type>
+         <explosion_force_min>0.1</explosion_force_min>
+         <explosion_force_max>0.1</explosion_force_max>
+         <preserve_momentum>true</preserve_momentum>
+         <direction>horizontal</direction>
+         <scatter_angle>120</scatter_angle>         
+         <projectile_number>8</projectile_number>
+      </area_effect> 
+	  <area_effect>    
          <name>buck_ball_effect</name>
          <type>projectile</type>
          <projectile_type>musket_bullet</projectile_type>
@@ -469,8 +480,19 @@
          <explosion_force_max>0.1</explosion_force_max>
          <preserve_momentum>true</preserve_momentum>
          <direction>horizontal</direction>
-         <scatter_angle>200</scatter_angle>         
-         <projectile_number>4</projectile_number>
+         <scatter_angle>120</scatter_angle>         
+         <projectile_number>5</projectile_number>
+      </area_effect> 
+	  <area_effect>    
+         <name>lemat_buck_effect</name>
+         <type>projectile</type>
+         <projectile_type>musket_bullet</projectile_type>
+         <explosion_force_min>0.1</explosion_force_min>
+         <explosion_force_max>0.1</explosion_force_max>
+         <preserve_momentum>true</preserve_momentum>
+         <direction>horizontal</direction>
+         <scatter_angle>100</scatter_angle>         
+         <projectile_number>6</projectile_number>
       </area_effect> 
       <area_effect>    
          <name>grape_late_shot</name>

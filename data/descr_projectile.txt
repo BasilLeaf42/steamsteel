@@ -1957,6 +1957,76 @@ ground_shatter
 display		aimed
 effect_only
 
+
+projectile buckshot; (Shotgun; Buckshot only)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.15
+accuracy_vs_units		0.11
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	80 130
+self_explode 1.0 0.1 0.1 buckshot_effect
+display		aimed
+effect_only
+
+
+projectile buckshot_slug; (Shotgun; Slugs)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.25
+accuracy_vs_units		0.08 
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	100 150
+display		aimed
+effect_only
+
+
+projectile exploding_buckshot_slug; (Shotgun; Buckshot alternate ammo for Slugs)
+
+exploding			buckshot_slug
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.15
+accuracy_vs_units		0.11
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	80 130
+self_explode 1.0 0.1 0.1 buckshot_effect
+display		aimed
+effect_only
+
+
 projectile hand_gun_bullet ;(Arquebus)
 
 effect					bullet_model_set
@@ -2035,7 +2105,7 @@ end_shatter_package_effect		bullet_impact_wall_set
 damage		0
 radius		0.001
 mass		0.15
-accuracy_vs_units		0.14
+accuracy_vs_units		0.11
 affected_by_rain
 min_angle	-80
 max_angle	70
@@ -2317,6 +2387,51 @@ affected_by_rain
 min_angle	-80
 max_angle	70
 velocity	200
+display		aimed
+effect_only
+
+
+projectile lemat_bullet; (LeMat Revolver; Pistol bullet)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect			bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.11
+accuracy_vs_units		0.0675
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	200
+display		aimed
+effect_only
+
+projectile flaming_lemat_bullet; (LeMat Revolver; Buckshot round)
+
+flaming				lemat_bullet
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect			bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.11
+accuracy_vs_units		0.135
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	150
+self_explode 1.0 0.1 0.1 lemat_buck_effect
 display		aimed
 effect_only
 
