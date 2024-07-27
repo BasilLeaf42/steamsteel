@@ -108,7 +108,9 @@ end
     ---Called after the game loads to menu. New Units
 function onGameInit()
     modPath=M2TWEOP.getModPath();
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/eopData/unitlimit/japan_test.txt", 1000);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/Japan_Heimin_Mob.txt", 1000);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/Japan_Heimin_Partisans.txt", 1001);
 	
-	M2TWEOPDU.setEntryLocalizedName(1000, "Test Unit")
+	M2TWEOPDU.setEntryLocalizedName(1000, "Heimin Mob")
+	M2TWEOPDU.setEntryLocalizedName(1001, "Heimin Partisans")
 end
