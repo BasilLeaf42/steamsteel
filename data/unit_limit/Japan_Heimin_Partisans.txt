@@ -1,5 +1,5 @@
 type             Japan Heimin Partisans
-dictionary       Japan_Heimin_Partisans      ; Japanese Heimin Partisans (Tanegashima teppo, Tanto)
+dictionary       Japan_Heimin_Partisans      ; Japanese Heimin Partisans (Tanegashima teppo arquebus, Tanto)
 category         infantry
 class            missile
 voice_type       Light
@@ -24,7 +24,7 @@ stat_mental      4, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 500, 125, 85, 65, 500, 4, 125
+stat_cost        1, 700, 160, 85, 65, 700, 4, 125
 armour_ug_levels 0
 armour_ug_models Japan_Heimin_Partisans
 ownership        saxons, france, slave

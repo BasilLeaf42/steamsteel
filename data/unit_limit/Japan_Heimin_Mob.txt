@@ -24,7 +24,7 @@ stat_mental      4, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 160, 85, 65, 600, 4, 120
+stat_cost        1, 500, 125, 85, 65, 500, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Heimin_Mob
 ownership        saxons, france, slave
