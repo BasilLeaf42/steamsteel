@@ -21,7 +21,7 @@ stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
 stat_mental      4, low, untrained
-stat_charge_dist 30
+stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 700, 160, 85, 65, 700, 4, 125

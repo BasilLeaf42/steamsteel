@@ -3947,8 +3947,8 @@ end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 event UI_CONTINUE_CAMPAIGN streamed
-folder data/sounds/SFX/campaign_map
-engage_enemy.mp3
+folder data/sounds/SFX/campaign_map/events
+engage_enemies.mp3
 end
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3966,8 +3966,8 @@ end
 
 
 event UI_START_THE_CAMPAIGN streamed
-folder data/sounds/SFX/campaign_map
-engage_enemy.mp3
+folder data/sounds/SFX/campaign_map/events
+engage_enemies.mp3
 end
 
 event UI_SELECT_CAMPAIGN streamed
@@ -4059,8 +4059,8 @@ scroll_arrow.mp3
 end
 
 event UI_START_THE_BATTLE streamed
-folder data/sounds/SFX/campaign_map
-engage_enemy.mp3
+folder data/sounds/SFX/campaign_map/events
+engage_enemies.mp3
 end
 
 

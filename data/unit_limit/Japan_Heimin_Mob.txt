@@ -16,12 +16,12 @@ stat_pri         3, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_pri_attr    spear
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 stat_sec_attr    no
-stat_pri_armour  3, 2, 0, flesh
+stat_pri_armour  3, 1, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
 stat_mental      4, low, untrained
-stat_charge_dist 30
+stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 125, 85, 65, 500, 4, 100

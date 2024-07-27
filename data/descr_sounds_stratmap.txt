@@ -8,7 +8,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-DEFAULT: 3d mindist 10 minPitch .9 maxPitch 1.1 fadein .1 fadeout 1.0 probability 1 volume 0 randomdelay 0  effect_level .25 priority 500
+DEFAULT: 3d mindist 10 minPitch .9 maxPitch 1.1 fadein .1 fadeout 0 probability 1 volume 0 randomdelay 0  effect_level .25 priority 500
 
 
 
@@ -33,9 +33,18 @@ BANK: character_action
 
 			end
 		type admiral
-			event fadein 1.0 fadeout 1.0 volume -45 looped
-				folder data/sounds/SFX/Campaign_Map
-				waves_sailship
+			event
+				folder data/sounds/SFX/Campaign_Map/map_ocean
+				map_ocean_1
+				map_ocean_2
+				map_ocean_3
+				map_ocean_4
+				map_ocean_5
+				map_ocean_6
+				map_ocean_7
+				map_ocean_8
+				map_ocean_9
+				map_ocean_10
 			end
 
 		type assassin diplomat spy
@@ -58,7 +67,7 @@ BANK: character_action
 
 	action attack
 		type admiral
-			event fadein 0 fadeout 5.0
+			event fadein 0 fadeout 0 volume -99 looped
 				folder data/sounds/SFX/Campaign_Map
 				naval_battle
 			end
@@ -139,12 +148,17 @@ BANK: stratmap_terrain
 
 				end
 			looped
-				event volume 0 minPitch .9 maxPitch 1.1 mindist 5
-					folder data/sounds/SFX/environment/ambience
-					desert_wind_01
-					desert_wind_02
-					desert_wind_03
-					
+				event volume -50 minPitch .9 maxPitch 1.1 mindist 5
+					folder data/sounds/SFX/Campaign_Map/map_steppe
+					steppe_1
+					steppe_2
+					steppe_3
+					steppe_4
+					steppe_5
+					steppe_6
+					steppe_7
+					steppe_8
+					steppe_9
 				end
 
 		terrain mountains_high ; mountains_low, hills
@@ -155,7 +169,7 @@ BANK: stratmap_terrain
 
 				end
 			looped
-				event volume -25
+				event volume -75
 					folder data/sounds/SFX/environment/weather
 					Wind_Winter_Light_01
 					Wind_Winter_Light_02
@@ -169,13 +183,27 @@ BANK: stratmap_terrain
 
 				end
 			looped
-				event volume 0 mindist 1 volume -15
-					folder data/sounds/SFX/environment/ambience
-					Jungle_01
-					Jungle_02
-					Jungle_03
-					Jungle_04
-					Jungle_05
+				event volume 0 mindist 1
+					folder data/sounds/SFX/Campaign_Map/map_jungle
+					map_jungle_1
+					map_jungle_2
+					map_jungle_3
+					map_jungle_4
+					map_jungle_5
+					map_jungle_6
+					map_jungle_7
+					map_jungle_8
+					map_jungle_9
+					map_jungle_10
+					map_jungle_11
+					map_jungle_12
+					map_jungle_13
+					map_jungle_14
+					map_jungle_15
+					map_jungle_16
+					map_jungle_17
+					map_jungle_18
+					map_jungle_19
 				end
 
 		terrain forest_sparse
@@ -186,16 +214,18 @@ BANK: stratmap_terrain
 
 				end
 			looped
-				event mindist 3
-					folder data/sounds/SFX/environment/ambience
-					forest_01 volume -15
-					forest_02 volume -15
-					forest_03 volume -25 probability .5
-					forest_04 volume -25 probability .5
-					forest_05 volume -25 probability .5
-					
-					
-
+				event volume 0 mindist 1
+					folder data/sounds/SFX/Campaign_Map/map_forest
+					map_forest_1
+					map_forest_2
+					map_forest_3
+					map_forest_4
+					map_forest_5
+					map_forest_6
+					map_forest_7
+					map_forest_8
+					map_forest_9
+					map_forest_10
 				end
 
 		terrain swamp
@@ -247,10 +277,18 @@ BANK: stratmap_terrain
 
 				end
 			looped
-				event volume 0
-					folder data/sounds/SFX/environment/water
-					;Wave1
-					;Wave2
+				event volume -80
+					folder data/sounds/SFX/Campaign_Map/map_beach
+					map_beach_1
+					map_beach_2
+					map_beach_3
+					map_beach_4
+					map_beach_5
+					map_beach_6
+					map_beach_7
+					map_beach_8
+					map_beach_9
+					map_beach_10
 				end
 
 				
@@ -267,7 +305,7 @@ season winter
 
 
 			looped
-				event volume 0 minPitch .9 maxPitch 1.1 mindist 5
+				event volume -99 minPitch .9 maxPitch 1.1 mindist 5
 					folder data/sounds/SFX/environment/ambience
 					desert_wind_01
 					desert_wind_02
@@ -278,7 +316,7 @@ season winter
 	terrain mountains_high ; mountains_low, hills
 		climates mediterranean, sandy_desert, rocky_desert, unused1, steppe, temperate_deciduous_forest, temperate_coniferous_forest, highland, alpine, tropical, semi_arid
 			ambient
-			event volume -35 probability 1 effect_level .8 mindist 2
+			event volume -50 probability 1 effect_level .8 mindist 2
 				folder data/sounds/SFX/Environment/Animals/winter_strat_animals
 				eagle01
 				eagle02
@@ -292,7 +330,7 @@ season winter
 				end
 
 			looped
-				event volume -25
+				event volume -99
 					folder data/sounds/SFX/environment/weather
 					Wind_Winter_Light_01
 					Wind_Winter_Light_02
@@ -307,13 +345,27 @@ season winter
 
 
 			looped
-				event volume 0 mindist 1 volume -15
-					folder data/sounds/SFX/environment/ambience
-					Jungle_01
-					Jungle_02
-					Jungle_03
-					Jungle_04
-					Jungle_05
+				event volume 0 mindist 1
+					folder data/sounds/SFX/Campaign_Map/map_jungle
+					map_jungle_1
+					map_jungle_2
+					map_jungle_3
+					map_jungle_4
+					map_jungle_5
+					map_jungle_6
+					map_jungle_7
+					map_jungle_8
+					map_jungle_9
+					map_jungle_10
+					map_jungle_11
+					map_jungle_12
+					map_jungle_13
+					map_jungle_14
+					map_jungle_15
+					map_jungle_16
+					map_jungle_17
+					map_jungle_18
+					map_jungle_19
 				end
 
 
@@ -337,7 +389,7 @@ season winter
 
 			climates unused1, steppe, temperate_deciduous_forest, temperate_coniferous_forest,  highland, alpine, tropical
 				ambient
-			event volume -35 probability 1 effect_level 1 mindist 2
+			event volume -99 probability 1 effect_level 1 mindist 2
 				folder data/sounds/SFX/Environment/Animals/winter_strat_animals
 				eagle01
 				eagle02
@@ -405,10 +457,18 @@ season winter
 
 				end
 			looped
-				event volume 0
-					folder data/sounds/SFX/environment/water
-					;Wave1
-					;Wave2
+				event volume -50
+					folder data/sounds/SFX/Campaign_Map/map_beach_winter
+					map_beach_winter_1
+					map_beach_winter_2
+					map_beach_winter_3
+					map_beach_winter_4
+					map_beach_winter_5
+					map_beach_winter_6
+					map_beach_winter_7
+					map_beach_winter_8
+					map_beach_winter_9
+					map_beach_winter_10
 				end
 
 				
@@ -424,20 +484,221 @@ DEFAULT: priority 0 distancepriority -1
 
 BANK: stratmap_object
 
+	; culture	southern_european, northern_european, middle_eastern, mesoamerican, chinese, slavic, asian
+
 	what settlement
-		culture	southern_european, northern_european, middle_eastern, mesoamerican, chinese, slavic
-		level	village, town, large_town
-			event
-				folder data/sounds/SFX/Environment/Structures
-				;village
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		;  		Euro - village
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture northern_european, southern_european, slavic
+		level	village
+			event volume 0 fadein 1 fadeout 1 mindist 1
+				folder data/sounds/SFX/Campaign_Map/ne_village
+				ne_village_1
+				ne_village_2
+				ne_village_3
+				ne_village_4
+				ne_village_5
+				ne_village_6
+				ne_village_7
+				ne_village_9
+			end
+			
+	what settlement
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+	;  		Asian - TOWN
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture chinese
+		level	village, town
+			event volume 0 fadein 1 fadeout 1 mindist 1
+				folder data/sounds/SFX/Campaign_Map/az_town
+				az_town_1
+				az_town_2
+				az_town_3
+				az_town_4
+				az_town_5
+				az_town_6
+				az_town_7
+				az_town_8
+				az_town_9
+				az_town_10
+			end
+
+
+	
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		;  		Mideast - TOWN
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture middle_eastern, asian
+		level	village, town
+			event volume 0 fadein 1 fadeout 1 mindist 1 minPitch 1 maxPitch 1
+				folder data/sounds/SFX/Campaign_Map/me_village
+				me_village_1
+				me_village_2
+				me_village_3
+				me_village_4
+				me_village_5
+				me_village_6
+				me_village_7
+				me_village_8
+				me_village_9
+				me_village_10
+			end
+
+	what settlement	
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		;  		EURO - TOWN
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture southern_european, northern_european, slavic
+		level	town
+			event volume 0 fadein 1 fadeout 1 mindist 1
+				folder data/sounds/SFX/Campaign_Map/ne_town
+				ne_town_1
+				ne_town_2
+				ne_town_3
+				ne_town_4
+				ne_town_5
+				ne_town_6
+				ne_town_7
+				ne_town_8
+				ne_town_9
+				ne_town_10
+			end
+
+	what settlement			
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		;  		EURO - CITY
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture northern_european, southern_european, slavic
+		level	large_town, city, large_city
+			event volume 0 mindist 1 fadein 1 fadeout 3
+				folder data/sounds/SFX/Campaign_Map/ne_city
+				ne_city_1
+				ne_city_2
+				ne_city_3
+				ne_city_4
+				ne_city_5
+				ne_city_6
+				ne_city_7
+				ne_city_8
+				ne_city_9
+			end
+
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		;  		MIDEAST - CITY
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture middle_eastern, asian
+		level	large_town, city, large_city
+			event volume 0 fadein 1 fadeout 1 mindist 1
+				folder data/sounds/SFX/Campaign_Map/me_city
+				me_city_1
+				me_city_2
+				me_city_3
+				me_city_4
+				me_city_5
+				me_city_6
+			end
+
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		;  		ASIAN - CITY
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture chinese
+		level	large_town, city, large_city
+			event volume 0 fadein 1 fadeout 1 mindist 1
+				folder data/sounds/SFX/Campaign_Map/az_city
+				az_city_1
+				az_city_2
+				az_city_3
+				az_city_5
+				az_city_6
+				az_city_7
+				az_city_8
+				az_city_9
 			end
 
 	what settlement
-		culture	southern_european, northern_european, middle_eastern, mesoamerican, chinese, slavic
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		;   EURO - HUGE CITY
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture northern_european, southern_european, slavic
+		level huge_city
+			event volume 0 fadein 1 fadeout 1 mindist 1
+				folder data/sounds/SFX/Campaign_Map/ne_huge_city
+				ne_huge_city_1
+				ne_huge_city_2
+				ne_huge_city_3
+				ne_huge_city_4
+				ne_huge_city_5
+				ne_huge_city_6
+				ne_huge_city_7
+				ne_huge_city_8
+				ne_huge_city_9
+				ne_huge_city_10
+			end
+	
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		;  		ASIAN - HUGE CITY
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture chinese
+		level huge_city
+			event volume 0 fadein 1 fadeout 1 mindist 1 minPitch 1 maxPitch 1
+				folder data/sounds/SFX/Campaign_Map/az_huge_city
+				az_huge_city_1
+				az_huge_city_2
+				az_huge_city_3
+				az_huge_city_4
+				az_huge_city_5
+				az_huge_city_6
+				az_huge_city_7
+				az_huge_city_8
+				az_huge_city_9
+				az_huge_city_10
+			end
+	
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		;  		MIDEAST - HUGE CITY
+		; ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+		culture middle_eastern, asian
+		level huge_city
+			event volume 0 fadein 1 fadeout 1 mindist 1
+				folder data/sounds/SFX/Campaign_Map/me_huge_city
+				me_huge_city_1
+				me_huge_city_2
+				me_huge_city_3
+				me_huge_city_4
+				me_huge_city_5
+			end
+
+;; african settlements 
+
+	what settlement
+		culture	mesoamerican
+		level	village, town, large_town
+			event volume 0 fadein 1 fadeout 1 mindist 1 minPitch 1 maxPitch 1
+				folder data/sounds/SFX/Campaign_Map/af_village
+				af_village_1
+				af_village_2
+				af_village_3
+				af_village_4
+				af_village_5
+				af_village_6
+				af_village_7
+				af_village_8
+			end
+
+	what settlement
+		culture	mesoamerican
 		level city, large_city, huge_city
-			event
-				folder data/sounds/SFX/Environment/Structures
-				;city
+			event volume 0 fadein 1 fadeout 1 mindist 1 minPitch 1 maxPitch 1
+				folder data/sounds/SFX/Campaign_Map/af_city
+				af_city_1
+				af_city_2
+				af_city_3
+				af_city_4
+				af_city_5
+				af_city_6
+				af_city_7
+				af_city_8
 			end
 
 	what port

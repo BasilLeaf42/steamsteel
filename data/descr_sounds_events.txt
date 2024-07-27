@@ -40,13 +40,14 @@ type prisoners_released
 
 type prisoners_executed
 	event 
-			folder data/sounds/SFX/Campaign_Map
-			event_prisoner_execution.mp3
+			folder data/sounds/SFX/Campaign_Map/events
+				event_prisoner_executions.mp3
 			end
 		arrived
 			event 
-				folder data/sounds/SFX/Campaign_Map
-				
+			folder data/sounds/SFX/Campaign_Map/events
+				event_prisoner_executions.mp3
+
 				
 				
 			end
