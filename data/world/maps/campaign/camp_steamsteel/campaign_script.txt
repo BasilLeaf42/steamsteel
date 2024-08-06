@@ -3705,6 +3705,35 @@ end_monitor
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;			Boshin War	;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+set_event_counter ishin_decision_accepted 0
+set_event_counter ishin_decision_declined 0
+    historic_event ishin_decision true
+    while I_EventCounter ishin_decision_accepted = 0 
+        and I_EventCounter ishin_decision_declined = 0 
+    end_while
+    move_strat_camera 435,224
+    if I_EventCounter ishin_decision_accepted = 1
+        add_money saxons, 1000
+        historic_event ishin_chosen factions { saxons, }    
+    end_if
+    if I_EventCounter ishin_decision_declined = 1
+        add_money saxons, 2000
+        console_command capture_settlement Edo
+        console_command capture_settlement Hokkaido
+        console_command capture_settlement Kyoto
+        console_command capture_settlement Kagoshima
+        historic_event shogun_chosen factions { saxons, }
+    end_if
+    terminate_monitor
+end_monitor
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;			Seasons		;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

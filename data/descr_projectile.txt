@@ -2027,6 +2027,28 @@ display		aimed
 effect_only
 
 
+projectile arquebus_levy ;(Trash Arquebus)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.25
+accuracy_vs_units		0.10 
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	150 200
+display		aimed
+effect_only
+
+
 projectile hand_gun_bullet ;(Arquebus)
 
 effect					bullet_model_set
@@ -2063,6 +2085,28 @@ damage		0
 radius		0.001
 mass		0.15
 accuracy_vs_units		0.06
+affected_by_rain
+min_angle	-80
+max_angle	70
+velocity	250 300
+display		aimed
+effect_only
+
+
+projectile smoothbore_musket_pro; (Professional Smoothbore Musket)
+
+effect					bullet_model_set
+end_effect				bullet_impact_ground_set
+end_man_effect			man_impact_tiny_set
+end_package_effect    	bullet_impact_wall_set
+end_shatter_effect		bullet_impact_ground_set
+end_shatter_man_effect		man_impact_tiny_set
+end_shatter_package_effect		bullet_impact_wall_set
+
+damage		0
+radius		0.001
+mass		0.15
+accuracy_vs_units		0.055
 affected_by_rain
 min_angle	-80
 max_angle	70

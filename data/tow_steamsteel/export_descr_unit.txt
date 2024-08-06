@@ -13662,7 +13662,7 @@ officer			 Japan_Sampeitai_Officer
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, smoothbore_musket_pro, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         8, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1

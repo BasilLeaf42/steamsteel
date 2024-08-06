@@ -118,7 +118,8 @@ pool Vietnam_n
 
 pool Netherlands
 	regions Hokkaido_Province Edo_Province Kyoto_Province Estonie_Province Akita_Province 
-	unit merc_viet_early_inf		exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 0
+	unit Japan Heimin Mob		exp 0 cost 500 replenish 0.08 - 0.15 max 2 initial 1
+	unit Japan Heimin Partisans		exp 0 cost 720 replenish 0.05 - 0.12 max 2 initial 1
 
 pool North_Africa
 	regions Tripolitaine_Province Ceyland_Province Fez_Province Marrakesh_Province

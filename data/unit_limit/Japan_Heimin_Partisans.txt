@@ -11,7 +11,7 @@ officer			 Japan_Teppotai_Officer
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 1.8, 1.8, 4, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_levy, 160, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1

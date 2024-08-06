@@ -14626,6 +14626,127 @@ denari	5000
 denari_kings_purse	0
 settlement
 {
+	level city
+	region Akita_Province
+
+	year_founded 0
+	population 32000
+	plan_set default_set
+	faction_creator saxons
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type pro_city_hall pro_town_hall
+	}
+}
+
+character	Naosuke Ii, named character, male, leader, age 44, x 435, y 224, battle_model jp_gen 
+traits		Factionleader 1
+army
+unit		sho_mod_cav							exp 1 armour 0 weapon_lvl 0
+unit		Japan Seishi						exp 1 armour 0 weapon_lvl 0
+unit		Japan Teppotai						exp 2 armour 0 weapon_lvl 0
+unit		Japan Teppotai						exp 1 armour 0 weapon_lvl 0
+unit		Japan Teppotai						exp 1 armour 0 weapon_lvl 0
+unit		Japan Teppotai						exp 0 armour 0 weapon_lvl 0
+unit		Japan Kachi							exp 2 armour 0 weapon_lvl 0
+unit		Japan Kachi							exp 1 armour 0 weapon_lvl 0
+unit		Japan Kachi							exp 1 armour 0 weapon_lvl 0
+unit		sho_armstrong						exp 0 armour 0 weapon_lvl 0
+
+character	Takachika Mori, named character, male, heir, age 43, x 423, y 221, portrait TakachikaMori, battle_model jp_gen 
+traits		Factionleader 1
+army
+unit		sho_mod_cav							exp 1 armour 0 weapon_lvl 0
+unit		Japan Seishi						exp 1 armour 0 weapon_lvl 0
+unit		Japan Teppotai						exp 2 armour 0 weapon_lvl 0
+unit		Japan Teppotai						exp 1 armour 0 weapon_lvl 0
+unit		Japan Teppotai						exp 1 armour 0 weapon_lvl 0
+unit		Japan Heimin Partisans				exp 0 armour 0 weapon_lvl 0
+unit		Japan Kachi							exp 2 armour 0 weapon_lvl 0
+unit		Japan Kachi							exp 1 armour 0 weapon_lvl 0
+unit		Japan Heimin Mob					exp 0 armour 0 weapon_lvl 0
+unit		jap_armstrong						exp 1 armour 0 weapon_lvl 0
+
+;character	Shinsaku Takasugi, named character, male, age 20, x 425, y 222, portrait ShinsakuTakasugi
+;traits		Factionheir 1
+;army
+;unit		sho_mod_cav							exp 1 armour 0 weapon_lvl 0
+unit		Japan Teppotai						exp 2 armour 0 weapon_lvl 0
+unit		Japan Heimin Partisans				exp 1 armour 0 weapon_lvl 0
+unit		Japan Kachi							exp 1 armour 0 weapon_lvl 0
+
+;character	Hisamitsu Shimazu, named character, male, age 43, x 422, y 215, portrait HisamitsuShimazu, battle_model jp_gen 
+;army
+;unit		sho_mod_cav				exp 0 armour 0 weapon_lvl 0
+
+;character	Takamori Saigo, named character, male, age 32, x 419, y 207, portrait TakamoriSaigo
+;army
+;unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
+
+;character	Tadayoshi Shimazu, named character, male, age 20, x 422, y 217
+;army
+;unit		sho_mod_cav				exp 0 armour 0 weapon_lvl 0
+
+;character	Toshimichi Okubo, named character, male, age 30, x 420, y 218, portrait ToshimichiOkubo, battle_model jp_gen 
+;army
+;unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
+
+;character	Ryoma Sakamoto, named character, male, age 30, x 423, y 218, portrait RyomaSakamoto 
+;army
+;unit		sho_mod_cav							exp 0 armour 0 weapon_lvl 0
+unit		Japan Heimin Partisans				exp 1 armour 0 weapon_lvl 0
+
+character	Tomomi Iwakura, diplomat, male, age 35, x 428, y 223, portrait TomomiIwakura 
+
+character	Takara Karasuma, admiral, male, age 36, x 424, y 215 
+army
+unit		ship_steam_corvette			exp 1 armour 0 weapon_lvl 0
+unit		cog					exp 1 armour 1 weapon_lvl 0
+unit		merc galley				exp 1 armour 0 weapon_lvl 0
+unit		turtle ship				exp 1 armour 0 weapon_lvl 0
+
+;character_record		Aiko, 	female, age 40, alive, never_a_leader
+
+;relative 	Hisamitsu Shimazu,	Aiko,	Tadayoshi Shimazu,	end
+
+
+;############# Pagan
+
+
+faction	slave, balanced smith
+ai_label	slave_faction 
+denari	990000
+denari_kings_purse	35000
+
+
+
+;;leftover tokugawa
+settlement
+{
 	level large_city
 	region Estonie_Province
 
@@ -14703,101 +14824,7 @@ settlement
 		type central_bank_guild a_central_bank_guild
 	}
 }
-settlement
-{
-	level city
-	region Akita_Province
 
-	year_founded 0
-	population 32000
-	plan_set default_set
-	faction_creator saxons
-	building
-	{
-		type core_building stone_wall
-	}
-	building
-	{
-		type barracks militia_drill_square
-	}
-	building
-	{
-		type smith blacksmith
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type pro_city_hall pro_town_hall
-	}
-}
-
-character	Takachika Mori, named character, male, leader, age 43, x 423, y 222, portrait TakachikaMori, battle_model jp_gen 
-traits		Factionleader 1
-army
-unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-
-character	Shinsaku Takasugi, named character, male, heir, age 20, x 425, y 223, portrait ShinsakuTakasugi
-traits		Factionheir 1
-army
-unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-
-character	Hisamitsu Shimazu, named character, male, age 43, x 421, y 215, portrait HisamitsuShimazu, battle_model jp_gen 
-army
-unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-
-character	Takamori Saigo, named character, male, age 32, x 419, y 207, portrait TakamoriSaigo
-army
-unit		sho_mod_cav				exp 0 armour 0 weapon_lvl 0
-
-character	Tadayoshi Shimazu, named character, male, age 20, x 422, y 217
-army
-unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-
-
-character	Toshimichi Okubo, named character, male, age 30, x 420, y 218, portrait ToshimichiOkubo, battle_model jp_gen 
-army
-unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-
-character	Ryoma Sakamoto, named character, male, age 30, x 423, y 218, portrait RyomaSakamoto 
-army
-unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
-
-character	Tomomi Iwakura, diplomat, male, age 35, x 428, y 223, portrait TomomiIwakura 
-
-character	Takara Karasuma, admiral, male, age 36, x 424, y 215 
-army
-unit		ship_steam_corvette			exp 1 armour 0 weapon_lvl 0
-unit		cog					exp 1 armour 1 weapon_lvl 0
-unit		merc galley				exp 1 armour 0 weapon_lvl 0
-unit		turtle ship				exp 1 armour 0 weapon_lvl 0
-
-character_record		Aiko, 	female, age 40, alive, never_a_leader
-
-relative 	Hisamitsu Shimazu,	Aiko,	Tadayoshi Shimazu,	end
-
-
-;############# Pagan
-
-
-faction	slave, balanced smith
-ai_label	slave_faction 
-denari	990000
-denari_kings_purse	35000
-
-
-
-;;leftover tokugawa
 settlement
 {
 	level large_town

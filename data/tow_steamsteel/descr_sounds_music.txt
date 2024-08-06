@@ -5009,6 +5009,7 @@ BANK: music_bank
 				folder data/sounds/music/japan
 				Kessen_Eastern_Army_Intro.mp3
 				Kessen_War_Council.mp3
+				Ryuichi_Sakamoto_Yae_no_Sakura_alt.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
@@ -5024,9 +5025,11 @@ BANK: music_bank
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/japan
-				RotR_Battle_Anti_Shogunate_II.mp3
-				RotR_Battle_Satsuma_II.mp3
-				RotR_Battle_Shinsengumi.mp3
+				Battotai.mp3
+				Kessen_Eastern_Army.mp3
+				Kessen_Field_Battle.mp3
+				Kessen_The_Final_Battle.mp3
+				Kessen_Western_Army.mp3
 			end
 
 			
@@ -5082,22 +5085,24 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music/japan
-				Furusawa_Iwao_Rokumeikan.mp3
-				Furusawa_Iwao_Rokumeikan_alt.mp3
 				Hideyuki_Fukasawa_Hakodate.mp3
+				Hideyuki_Fukasawa_Kakunojou_Hitori.mp3
+				Hideyuki_Fukasawa_Omoi.mp3
+				Hideyuki_Fukasawa_Shizuku.mp3
 				Hideyuki_Fukasawa_Yuuyake_no_Kaze.mp3
-				Nichijou_Fuyuppoi_Koukou.mp3
-				Nichijou_Koigokoro_wa_Hinekure_san.mp3
-				Nichijou_Onamidachoudai.mp3
-				Nichijou_Souzou_Ryoku_Zenkai.mp3
-				Nichijou_Yuuganaru_Jikan_Kara_no_Hajimari.mp3
+				Michiru_Karasumori_no_Shuuraku.mp3
+				Michiru_Tsuyukusakoshoten_no_Nichijou.mp3
+				Michiru_Shokeinin_no_Namida.mp3
+				Naoki_Sato_Sora_no_Hate_Made.mp3
+				Naoki_Sato_Utakata_no_Hibi.mp3
+				Ryuichi_Sakamoto_Yae_no_Sakura_shakuhachi.mp3
 			end			
 
 
 		state MUSIC_CAMPAIGN_LOADING
 			event 
 				folder data/sounds/music/japan
-				RotR_Shinsengumi.mp3
+				Ryuichi_Sakamoto_Yae_no_Sakura.mp3
 			end							
 						
 			
