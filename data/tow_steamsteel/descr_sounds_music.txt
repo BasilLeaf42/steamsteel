@@ -5007,6 +5007,7 @@ BANK: music_bank
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music/japan
+				Hideyuki_Fukasawa_Shudai.mp3
 				Kessen_Eastern_Army_Intro.mp3
 				Kessen_War_Council.mp3
 				Ryuichi_Sakamoto_Yae_no_Sakura_alt.mp3
@@ -5091,6 +5092,7 @@ BANK: music_bank
 				Hideyuki_Fukasawa_Shizuku.mp3
 				Hideyuki_Fukasawa_Yuuyake_no_Kaze.mp3
 				Michiru_Karasumori_no_Shuuraku.mp3
+				Michiru_Mura_no_Seikatsu.mp3
 				Michiru_Tsuyukusakoshoten_no_Nichijou.mp3
 				Michiru_Shokeinin_no_Namida.mp3
 				Naoki_Sato_Sora_no_Hate_Made.mp3
@@ -5102,6 +5104,7 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_LOADING
 			event 
 				folder data/sounds/music/japan
+				Michiru_Edo_no_Omomuki_Fuon_na_Machinami.mp3
 				Ryuichi_Sakamoto_Yae_no_Sakura.mp3
 			end							
 						

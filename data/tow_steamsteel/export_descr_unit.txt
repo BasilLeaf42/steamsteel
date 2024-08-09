@@ -13421,6 +13421,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Shotai, 40, 0, 1.0
 officer			 Japan_Shotai_Officer1
+officer			 Japan_Shotai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
@@ -13454,6 +13455,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Satsuma_Hoheitai, 40, 0, 1.0
 officer			 Japan_Satsuma_Hoheitai_Officer1
+officer			 Japan_Satsuma_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, hardy, start_not_skirmishing, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
@@ -13553,6 +13555,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Kiheitai, 30, 0, 1.0
 officer			 Japan_Shotai_Officer1
+officer			 Japan_Shotai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
@@ -13692,6 +13695,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Suzakutai, 40, 0, 1.0
 officer			 Japan_Suzakutai_Officer
+officer			 Japan_Suzakutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
