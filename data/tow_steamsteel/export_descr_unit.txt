@@ -13348,6 +13348,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Teppotai, 40, 0, 1.0
 officer			 Japan_Teppotai_Officer
+officer			 Japan_Teppotai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
@@ -13664,6 +13665,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Sampeitai, 40, 0, 1.0
 officer			 Japan_Sampeitai_Officer
+officer			 Japan_Shogun_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
@@ -13765,6 +13767,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Gakuheitai, 40, 0, 1.0
 officer			 Japan_Gakuheitai_Officer
+officer			 Japan_Shogun_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
@@ -13798,6 +13801,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Denshutai, 40, 0, 1.0
 officer			 Japan_Denshutai_Officer
+officer			 Japan_Shogun_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
@@ -13866,6 +13870,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Shinsengumi, 30, 0, 1.0
 officer			 Japan_Shinsengumi_Officer
+officer			 Japan_Shogun_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, very_hardy, frighten_foot, frighten_mounted
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
