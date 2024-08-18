@@ -1,0 +1,31 @@
+type             Korean Pikemen
+dictionary       Korean_Pikemen      ; Korean Pikemen / Joseon Pikemen
+category         infantry
+class            spearmen
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          Korean_Pikemen, 64, 0, 1.1
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, pike, mercenary_unit
+formation        1.2, 1.2, 2.0, 2.4, 4, square, phalanx
+stat_health      1, 0
+stat_pri         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri_attr    spear, short_pike
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  6, 5, 0, metal
+stat_sec_armour  0, 0, leather
+stat_heat        6
+stat_ground      1, -2, 3, 2
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 800, 170, 120, 95, 800, 4, 100
+armour_ug_levels 0
+armour_ug_models Korean_Pikemen
+ownership        saxons, byzantium, slave
+era 0            byzantium
+era 1            byzantium
+era 2            byzantium
