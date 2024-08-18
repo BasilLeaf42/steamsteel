@@ -15,17 +15,17 @@ secondary_colour			red 255, green 210, blue 0
 loading_logo				loading_screen/symbols/symbol128_spain.tga
 standard_index				7
 logo_index					FACTION_LOGO_SPAIN
-small_logo_index			SMALL_FACTION_LOGO_SPAINA
+small_logo_index			SMALL_FACTION_LOGO_SPAIN
 triumph_value				5
 intro_movie					faction/minor.bik
 victory_movie				faction/spain_win.bik
 defeat_movie				faction/spain_lose.bik
 death_movie					faction/spain_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
 can_have_princess				no
-has_family_tree					yes
+has_family_tree					no
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -46,10 +46,10 @@ intro_movie					faction/minor.bik
 victory_movie				faction/minor_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
-can_have_princess				teutonic
+can_have_princess				no
 has_family_tree					yes
 
 
@@ -75,14 +75,14 @@ custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 can_have_princess			no
-has_family_tree					yes
+has_family_tree					no
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						egypt
-culture						middle_eastern
-religion					shia
+culture						asian
+religion					islam
 symbol						models_strat/symbol_egypt.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 134, green 164, blue 54
@@ -146,18 +146,18 @@ intro_movie					faction/minor.bik
 victory_movie				faction/france_win.bik
 defeat_movie				faction/france_lose.bik
 death_movie					faction/france_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
-can_have_princess			yes
-has_family_tree					yes
+can_have_princess			no
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						hre
 culture						northern_european
-religion					protestant
+religion					pagan
 symbol						models_strat/symbol_holy_roman_empire.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 0, green 0, blue 0
@@ -171,18 +171,18 @@ intro_movie					faction/minor.bik
 victory_movie				faction/hre_win.bik
 defeat_movie				faction/hre_lose.bik
 death_movie					faction/hre_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 can_have_princess			no
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						normans
 culture						northern_european
-religion					protestant
+religion					judaism
 symbol						models_strat/symbol_antioch.cas
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 95, green 138, blue 185
@@ -196,11 +196,11 @@ intro_movie					faction/minor.bik
 victory_movie				faction/prologue_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
-can_have_princess			yes
-has_family_tree					yes
+can_have_princess			no
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -221,7 +221,7 @@ intro_movie					faction/minor.bik
 victory_movie				faction/minor_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 can_have_princess				no
@@ -231,8 +231,8 @@ can_build_siege_towers		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						hungary
-culture						asian
-religion					buddism
+culture						southern_european
+religion					pagan
 symbol						models_strat/symbol_hungary.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 234, green 89, blue 70
@@ -250,7 +250,7 @@ custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 can_have_princess				no
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -297,18 +297,18 @@ intro_movie					faction/minor.bik
 victory_movie				faction/minor_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
-can_have_princess			yes
-has_family_tree					yes
+can_have_princess			no
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						teu
-culture						asian
-religion					islam
+culture						southern_european
+religion					judaism
 symbol						models_strat/symbol_teutonic_order.cas
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 28, green 65, blue 157
@@ -326,14 +326,14 @@ custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 can_have_princess			no
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						sicily
-culture						asian
-religion					islam
+culture						northern_european
+religion					judaism
 symbol						models_strat/symbol_sicily.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 195, green 164, blue 9
@@ -349,16 +349,16 @@ defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
 custom_battle_availability	yes
 can_sap						no
-prefers_naval_invasions		no
+prefers_naval_invasions		yes
 can_have_princess			no
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 
 faction						cuman
 culture						asian
-religion					islam
+religion					shia
 symbol						models_strat/symbol_turks.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 0, green 102, blue 204
@@ -383,8 +383,8 @@ can_build_siege_towers		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						lith
-culture						middle_eastern
-religion					islam
+culture						mesoamerican
+religion					shia
 symbol						models_strat/symbol_moors.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 128, green 90, blue 30
@@ -409,7 +409,7 @@ can_build_siege_towers		no
 
 faction						mongols
 culture						southern_european
-religion					orthodox
+religion					judaism
 symbol						models_strat/symbol_mongols.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 11, green 143, blue 244
@@ -423,7 +423,7 @@ intro_movie					faction/minor.bik
 victory_movie				faction/minor_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
 can_have_princess			yes
@@ -452,13 +452,13 @@ custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 can_have_princess			yes
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						papal_states
 culture						mesoamerican
-religion					buddism
+religion					judaism
 symbol						models_strat/symbol_papacy.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 255, green 255, blue 255
@@ -472,9 +472,9 @@ intro_movie					faction/minor.bik
 victory_movie				faction/minor_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
-prefers_naval_invasions		yes
+prefers_naval_invasions		no
 can_have_princess			no
 has_family_tree					yes
 can_build_siege_towers		no
@@ -482,8 +482,8 @@ can_build_siege_towers		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						portugal
-culture						asian
-religion					islam
+culture						northern_european
+religion					judaism
 symbol						models_strat/symbol_julii.cas
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 225, green 165, blue 0
@@ -501,7 +501,7 @@ custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
 can_have_princess			no
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -526,7 +526,7 @@ custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 can_have_princess				no
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -547,18 +547,18 @@ intro_movie					faction/minor.bik
 victory_movie				faction/venice_win.bik
 defeat_movie				faction/venice_lose.bik
 death_movie					faction/venice_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
 can_have_princess			no
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						aztecs
-culture						asian
-religion					islam
+culture						southern_european
+religion					catholic
 symbol						models_strat/symbol_aztecs.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 77, green 184, blue 194
@@ -574,18 +574,18 @@ defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
 custom_battle_availability	yes
 can_sap						no
-prefers_naval_invasions		no
+prefers_naval_invasions		yes
 can_have_princess				no
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						slave
-culture						asian
-religion					heretic
+culture						chinese
+religion					judaism
 special_faction_type				slave_faction
-symbol						models_strat/symbol_aztecs_rebels.CAS
+symbol						models_strat/symbol_slave.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
 primary_colour				red 93, green 93, blue 93
 secondary_colour			red 93, green 93, blue 93
@@ -648,11 +648,11 @@ intro_movie					faction/minor.bik
 victory_movie				faction/minor_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
-can_have_princess			yes
-has_family_tree					yes
+can_have_princess			no
+has_family_tree					no
 can_build_siege_towers		no
 
 
@@ -674,18 +674,18 @@ intro_movie					faction/minor.bik
 victory_movie				faction/minor_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		no
 can_have_princess			no
-has_family_tree					yes
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						bulga
 culture						asian
-religion					buddism
+religion					shia
 symbol						models_strat/symbol_scythia.CAS
 rebel_symbol				models_strat/symbol_rebels.CAS
 primary_colour				red 234, green 151, blue 80
@@ -710,7 +710,7 @@ can_build_siege_towers		no
 
 faction						portugala
 culture						northern_european
-religion					catholic
+religion					protestant
 symbol						models_strat/symbol_portugal.CAS
 rebel_symbol				models_strat/symbol_rebels.CAS
 primary_colour				red 17, green 65, blue 119
@@ -724,11 +724,11 @@ intro_movie					faction/minor.bik
 victory_movie				faction/minor_win.bik
 defeat_movie				faction/minor_lose.bik
 death_movie					faction/minor_lose.bik
-custom_battle_availability	no
+custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
-can_have_princess			yes
-has_family_tree					yes
+can_have_princess			no
+has_family_tree					no
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -753,19 +753,19 @@ death_movie					faction/england_lose.bik
 custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
-can_have_princess			yes
-has_family_tree					yes
+can_have_princess			no
+has_family_tree					no
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						saxons
-culture						slavic
-religion					orthodox
+culture						chinese
+religion					hindu
 symbol						models_strat/symbol_norway.cas
 rebel_symbol				models_strat/symbol_rebels.CAS
-primary_colour				red 244, green 248, blue 255
-secondary_colour			red 130, green 1, blue 1
+primary_colour				red 225, green 225, blue 225
+secondary_colour			red 225, green 225, blue 225
 loading_logo				loading_screen/symbols/symbol128_timurids.tga
 standard_index				21
 logo_index					FACTION_LOGO_SAXONS
@@ -779,7 +779,7 @@ custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
 can_have_princess			no
-has_family_tree				yes
+has_family_tree				teutonic
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
