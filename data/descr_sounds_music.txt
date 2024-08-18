@@ -5006,30 +5006,31 @@ BANK: music_bank
 			
 		state MUSIC_BATTLE_TENSION
 			event 
-				folder data/sounds/music
-				ss_meiji_deploy1.mp3
-				ss_meiji_deploy2.mp3
-				ss_meiji_deploy3.mp3
+				folder data/sounds/music/japan
+				Hideyuki_Fukasawa_Shudai.mp3
+				Kessen_Eastern_Army_Intro.mp3
+				Kessen_War_Council.mp3
+				Ryuichi_Sakamoto_Yae_no_Sakura_alt.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
-				folder data/sounds/music
-				ss_meiji_march1.mp3
-				ss_meiji_march2.mp3
-				ss_meiji_march3.mp3
-				ss_meiji_march4.mp3
-				ss_meiji_march5.mp3
+				folder data/sounds/music/japan
+				Battotai.mp3
+				Kessen_Eastern_Army.mp3
+				Kessen_Field_Battle.mp3
+				Kessen_The_Final_Battle.mp3
+				Kessen_Western_Army.mp3
 			end
 			
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/japan
-				battle1.mp3
-				battle2.mp3
-				battle3.mp3
-				battle4.mp3
-				battle5.mp3
+				Battotai.mp3
+				Kessen_Eastern_Army.mp3
+				Kessen_Field_Battle.mp3
+				Kessen_The_Final_Battle.mp3
+				Kessen_Western_Army.mp3
 			end
 
 			
@@ -5039,44 +5040,41 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_meiji_victory1.mp3
-				ss_meiji_victory2.mp3
+				Kessen_Victory.mp3
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_meiji_victory1.mp3
-				ss_meiji_victory2.mp3	
+				Kessen_Victory.mp3
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_meiji_victory1.mp3
-				ss_meiji_victory2.mp3	
+				Kessen_Victory.mp3
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
 				folder data/sounds/music/japan
-				battlelost1.mp3
-				battlelost2.mp3			
+				Hideyuki_Fukasawa_Temari_no_Shi.mp3
+				Kessen_Distress.mp3
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
 				folder data/sounds/music/japan
-				battlelost1.mp3
-				battlelost2.mp3
+				Hideyuki_Fukasawa_Temari_no_Shi.mp3
+				Kessen_Distress.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
 				folder data/sounds/music/japan
-				battlelost1.mp3
-				battlelost2.mp3
+				Hideyuki_Fukasawa_Temari_no_Shi.mp3
+				Kessen_Distress.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
 				folder data/sounds/music/japan
-				battledraw1.mp3
-				battledraw2.mp3
+				Hideyuki_Fukasawa_Temari_no_Shi.mp3
+				Kessen_Distress.mp3
 			end
 
 			
@@ -5088,45 +5086,33 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music/japan
-				camp1.mp3
-				camp2.mp3
-				camp3.mp3
-				camp4.mp3
-				camp5.mp3
-				camp6.mp3
-				campaign1.mp3
-				campaign2.mp3
-				campaign3.mp3
-				campaign4.mp3
-				campaign5.mp3
-				campaign6.mp3
-				campaign7.mp3
-				campaign8.mp3
-				campaign9.mp3
-				campaign10.mp3
-				campaign11.mp3
-				campaign12.mp3
-				campaign13.mp3
-				campaign14.mp3
+				Hideyuki_Fukasawa_Hakodate.mp3
+				Hideyuki_Fukasawa_Kakunojou_Hitori.mp3
+				Hideyuki_Fukasawa_Omoi.mp3
+				Hideyuki_Fukasawa_Shizuku.mp3
+				Hideyuki_Fukasawa_Yuuyake_no_Kaze.mp3
+				Michiru_Karasumori_no_Shuuraku.mp3
+				Michiru_Mura_no_Seikatsu.mp3
+				Michiru_Tsuyukusakoshoten_no_Nichijou.mp3
+				Michiru_Shokeinin_no_Namida.mp3
+				Naoki_Sato_Sora_no_Hate_Made.mp3
+				Naoki_Sato_Utakata_no_Hibi.mp3
+				Ryuichi_Sakamoto_Yae_no_Sakura_shakuhachi.mp3
 			end			
 
 
 		state MUSIC_CAMPAIGN_LOADING
 			event 
 				folder data/sounds/music/japan
-				loading1.mp3
-				loading2.mp3
-				loading3.mp3
-				loading4.mp3
+				Michiru_Edo_no_Omomuki_Fuon_na_Machinami.mp3
+				Ryuichi_Sakamoto_Yae_no_Sakura.mp3
 			end							
 						
 			
 		state MUSIC_PREBATTLE_SCROLL
 			event  
 				folder data/sounds/music/japan
-				prebattlescroll1.mp3
-				prebattlescroll2.mp3
-				prebattlescroll3.mp3
+				Kessen_Battle_Strategy.mp3
 			end
 			
 			
@@ -5135,50 +5121,41 @@ BANK: music_bank
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
 				folder data/sounds/music/japan
-				battlewin1.mp3
-				battlewin2.mp3
-							
+				Kessen_Victory.mp3
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
 				folder data/sounds/music/japan
-				battlewin1.mp3
-				battlewin2.mp3
-							
+				Kessen_Victory.mp3
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
 				folder data/sounds/music/japan
-				battlewin1.mp3
-				battlewin2.mp3
-							
+				Kessen_Victory.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
 				folder data/sounds/music/japan
-				battlelost1.mp3
-				battlelost2.mp3
-						
+				Hideyuki_Fukasawa_Temari_no_Shi.mp3
+				Kessen_Distress.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
 				folder data/sounds/music/japan
-				battlelost1.mp3
-				battlelost2.mp3
-						
+				Hideyuki_Fukasawa_Temari_no_Shi.mp3
+				Kessen_Distress.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
 				folder data/sounds/music/japan
-				battlelost1.mp3
-				battlelost2.mp3
-						
+				Hideyuki_Fukasawa_Temari_no_Shi.mp3
+				Kessen_Distress.mp3
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
 				folder data/sounds/music/japan
-				battledraw1.mp3
-				battledraw2.mp3
+				Hideyuki_Fukasawa_Temari_no_Shi.mp3
+				Kessen_Distress.mp3
 			end					
 
 			
