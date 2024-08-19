@@ -1418,6 +1418,77 @@ ownership        saxons, france, slave
 era 0            saxons, france, slave
 era 1            saxons, france, slave
 
+type             Japan Armstrong
+dictionary       Japan_Armstrong      ; Japanese Breech-Loading Rifled Cannon / Tokugawa Breech-Loading Rifled Cannon / Shogunate Breech-Loading Rifled Cannon
+category         siege
+class            missile
+voice_type       Heavy
+accent           american
+banner faction   main_missile
+banner holy      crusade
+soldier          sho_cannon_crew, 20, 4, 1.0
+engine           armstrong
+attributes       sea_faring, gunpowder_unit, cannon, artillery, explode, hide_forest, can_withdraw
+move_speed_mod	 1.3
+formation        1.5, 1.5, 3, 3, 3, square
+stat_health      1, 0
+stat_pri         6, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_pri_attr    ap
+stat_sec         50, 3, basilisk_shot, 1200, 30, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+stat_sec_attr    ap, bp, area, launching
+stat_ter         28, 3, grape_late_shot, 300, 5, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+stat_ter_attr    ap, area
+stat_pri_armour  3, 4, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1900, 475, 30, 40, 1900, 2, 475
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Shogun
+ownership        saxons, france, slave
+era 1            saxons, france
+era 2            saxons, france
+
+type             Japan Armstrong Han
+dictionary       Japan_Armstrong_Han      ; Imperial Japanese Breech-Loading Rifled Cannon / Satcho Breech-Loading Rifled Cannon / Ishin Breech-Loading Rifled Cannon
+category         siege
+class            missile
+voice_type       Heavy
+accent           american
+banner faction   main_missile
+banner holy      crusade
+soldier          sho_cannon_crew, 20, 4, 1.0
+engine           armstrong
+attributes       sea_faring, gunpowder_unit, cannon, artillery, explode, hide_forest, can_withdraw
+move_speed_mod	 1.3
+formation        1.5, 1.5, 3, 3, 3, square
+stat_health      1, 0
+stat_pri         6, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_pri_attr    ap
+stat_sec         50, 3, basilisk_shot, 1200, 30, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+stat_sec_attr    ap, bp, area, launching
+stat_ter         28, 3, grape_late_shot, 300, 5, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+stat_ter_attr    ap, area
+stat_pri_armour  3, 4, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1900, 475, 30, 40, 1900, 2, 475
+armour_ug_levels 0
+armour_ug_models Japan_Arty_Satcho
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+era 2            saxons
+
 type             csa_maxim
 dictionary       csa_maxim      ; csa_maxim
 category         siege
@@ -13444,7 +13515,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Shotai
 ownership        saxons, slave
 era 0            saxons
-era 1            saxons
 
 type             Japan Satsuma Hoheitai
 dictionary       Japan_Satsuma_Hoheitai      ; Japanese Satsuma Hoheitai / Satsuma Infantry / Satcho Satsuma Hoheitai / Ishin Satsuma Hoheitai (Pattern 1860 Wilson-Enfield breech-loading rifle, Katana)
@@ -13478,7 +13548,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Satsuma_Hoheitai
 ownership        saxons, slave
 era 0            saxons
-era 1            saxons
 
 type             Japan Hokokutai
 dictionary       Japan_Hokokutai      ; Japanese Hokokoutai / Enchu Hokokutai / Satcho Hokokutai / Ishin Hokokutai (Snider-Enfield Mk.I* breech-loading rifle, Katana)
@@ -13512,7 +13581,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Hokokutai
 ownership        saxons, slave
 era 0            saxons
-era 1            saxons
 
 type             Japan Yamagunitai
 dictionary       Japan_Yamagunitai      ; Japanese Yamagunitai / Tottori Yamagunitai / Satcho Yamagunitai / Ishin Yamagunitai (Snider Enfield Mk.I* breech-loading rifle, Katana)
@@ -13545,7 +13613,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Yamagunitai
 ownership        saxons, slave
 era 0            saxons
-era 1            saxons
 
 type             Japan Kiheitai
 dictionary       Japan_Kiheitai      ; Japanese Kiheitai / Choshu Kiheitai / Choshu Light Infantry / Satcho Kiheitai / Ishin Kiheitai (Springfield M1861 rifled musket, Katana)
@@ -13579,7 +13646,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Kiheitai
 ownership        saxons, slave
 era 0            saxons
-era 1            saxons
 
 type             Japan Jinshotai
 dictionary       Japan_Jinshotai      ; Japanese Jinshotai / Tosa Jinshotai / Tosa Red Bears / Satcho Jinshotai / Ishin Jinshotai (Spencer M1860 repeating carbine, Katana)
@@ -13613,7 +13679,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Jinshotai
 ownership        saxons, slave
 era 0            saxons
-era 1            saxons
 
 type             Japan Revolver Kihei Han
 dictionary       Japan_Revolver_Kihei_Han      ; Japanese Revolver Kihei / Ishin Revolver Kihei / Satcho Revolver Kihei (Smith & Wesson No.2 revolver, Katana)
@@ -13650,7 +13715,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Revolver_Cavalry_Han
 ownership        saxons, slave 
 era 0            saxons
-era 1            saxons
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ 1860s - Tokugawa Shogunate
@@ -13721,7 +13785,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Suzakutai
 ownership        saxons, france, slave
 era 0            saxons, france
-era 1            saxons, france
 
 type             Japan Nagaoka Hoheitai
 dictionary       Japan_Nagaoka_Hoheitai      ; Japanese Nagaoka Hoheitai / Tokugawa Nagaoka Hoheitai / Shogunate Nagaoka Hoheitai / Nagaoka Infantry (Tabatiere Mle.1853/67 breech-loading rifle, Katana)
@@ -13755,7 +13818,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Nagaoka_Hoheitai
 ownership        saxons, france, slave
 era 0            saxons, france
-era 1            saxons, france
 
 type             Japan Gakuheitai
 dictionary       Japan_Gakuheitai      ; Japanese Gakuheitai / Tokugawa Gakuheitai / Shogunate Gakuheitai / Sendai Gakuheitai (Snider-Enfield Mk.I* breech-loading rifle, Katana)
@@ -13858,7 +13920,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Karasugumi
 ownership        saxons, france, slave
 era 0            saxons, france
-era 1            saxons, france
 
 type             Japan Shinsengumi
 dictionary       Japan_Shinsengumi      ; Japanese Shinsengumi / Tokugawa Shinsengumi / Shogunate Shinsengumi (Starr M1858 breech-loading carbine, Katana)
@@ -13929,7 +13990,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Revolver_Cavalry
 ownership        saxons, france, slave 
 era 0            saxons, france
-era 1            saxons, france
 
 type             Japan Denshutai Kihei
 dictionary       Japan_Denshutai_Kihei      ; Japanese Denshutai Kihei / Tokugawa Denshutai Kihei / Shogunate Denshutai Kihei (Mousqueton Tabatiere Mle.1853/67 breech-loading carbine, Lance)
@@ -13999,8 +14059,8 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1100, 370, 50, 70, 1100, 2, 370
 ownership        saxons, slave
-era 1            saxons, slave
-era 2            saxons, slave
+era 1            saxons
+era 2            saxons
 
 type             jap_kami
 dictionary       jap_kami      ; Japanese Sappers
@@ -14105,7 +14165,7 @@ ownership        saxons, slave
 era 2            saxons
 
 type             jap_marine
-dictionary       jap_marine      ; 	Japanese Marines (Rifle, Type 13 Murata)
+dictionary       jap_marine      ; 	Japanese Marines (Rifle, Snider-Enfield Mk.I)
 category         infantry
 class            missile
 voice_type       Light
