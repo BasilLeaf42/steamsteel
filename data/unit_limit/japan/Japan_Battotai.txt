@@ -1,0 +1,33 @@
+type             Japan Battotai
+dictionary       Japan_Battotai      ; Japanese Battotai
+category         infantry
+class            light
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          Japan_Battotai, 64, 0, 1
+officer			 Japan_Hokokutai_Officer
+officer			 Japan_Hokokutai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, very_hardy, can_withdraw
+move_speed_mod	 1.15
+formation        1.2, 1.2, 3, 3, 5, square
+stat_health      1, 0
+stat_pri         12, 9, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 12, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      24, disciplined, highly_trained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1000, 250, 50, 70, 1000, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Battotai
+ownership        saxons, slave
+era 1            saxons
+era 2            saxons
