@@ -14,7 +14,7 @@ stat_health      1, 0
 stat_pri         37, 0, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
-stat_sec         7, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec         8, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
 stat_pri_armour  3, 5, 0, flesh
 stat_sec_armour  0, 0, flesh

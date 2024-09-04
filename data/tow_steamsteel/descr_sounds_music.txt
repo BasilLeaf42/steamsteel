@@ -5010,6 +5010,8 @@ BANK: music_bank
 				Hideyuki_Fukasawa_Shudai.mp3
 				Kessen_Eastern_Army_Intro.mp3
 				Kessen_War_Council.mp3
+				Michiru_Atarashii_Jidai_wo_Ikiro.mp3
+				Nobuyuki_Nakajima_Dawn_of_Turmoil_War.mp3
 				Ryuichi_Sakamoto_Yae_no_Sakura_alt.mp3
 			end
 			
@@ -5166,7 +5168,7 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_VICTORY
 			event  looped
 				folder data/sounds/music/japan
-				wingame.mp3			
+				Kessen_Victory.mp3			
 			end	
 		state MUSIC_CAMPAIGN_DEFEAT
 			event  looped

@@ -200,7 +200,7 @@ dictionary		2
 strat_model		jp_general
 strat_model		jp_general					; heir
 strat_model		jp_emperor					; leader
-battle_model	jp_gen
+battle_model	Japan_IJA_General
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			england
@@ -422,7 +422,7 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 faction			saxons
 dictionary		2
 strat_model		jp_captain
-battle_model	jp_gen
+battle_model	Japan_IJA_General
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			england

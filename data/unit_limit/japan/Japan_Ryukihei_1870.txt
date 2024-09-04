@@ -7,6 +7,7 @@ accent      	 japanese
 banner faction   main_cavalry
 banner holy      crusade_cavalry
 soldier          Japan_Ryukihei_1870, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, free_upkeep_unit

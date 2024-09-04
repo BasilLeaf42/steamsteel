@@ -7,7 +7,7 @@ accent           japanese
 banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Shinsenryodan, 40, 0, 1.0
-officer			 Japan_Hokokutai_Officer
+officer			 Japan_IJA_Officer
 officer			 Japan_Hokokutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
 formation        1.2, 1.2, 1.2, 1.2, 3, square
@@ -15,9 +15,9 @@ stat_health      1, 0
 stat_pri         30, 0, blunderbuss_shot, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
-stat_sec         9, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec         11, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  3, 8, 0, flesh
+stat_pri_armour  3, 6, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
