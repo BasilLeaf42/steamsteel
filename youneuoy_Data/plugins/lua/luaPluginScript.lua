@@ -111,20 +111,28 @@ function onGameInit()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Heimin_Mob.txt", 1000);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Heimin_Partisans.txt", 1001);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Teppotai_Merc.txt", 1002);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikuguntai_1870.txt", 1003);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1870.txt", 1004);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Tondenhei_1870.txt", 1005);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1870.txt", 1006);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/oroe/Korean_Pikemen.txt", 1007);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/oroe/Korean_Musketeers.txt", 1008);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Shizoku.txt", 1003);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Keishitai_1870.txt", 1004);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Shinsenryodan.txt", 1005);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Battotai.txt", 1006);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikuguntai_1870.txt", 1007);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1870.txt", 1008);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Tondenhei_1870.txt", 1009);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1870.txt", 1010);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/oroe/Korean_Pikemen.txt", 1011);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/oroe/Korean_Musketeers.txt", 1012);
 	
 	M2TWEOPDU.setEntryLocalizedName(1000, "Heimin Mob")
 	M2TWEOPDU.setEntryLocalizedName(1001, "Heimin Partisans")
 	M2TWEOPDU.setEntryLocalizedName(1002, "Teppō Auxiliaries")
-	M2TWEOPDU.setEntryLocalizedName(1003, "Rikuguntai (1870s)")
-	M2TWEOPDU.setEntryLocalizedName(1004, "Goshimpei (1870s)")
-	M2TWEOPDU.setEntryLocalizedName(1005, "Tondenhei (1870s)")
-	M2TWEOPDU.setEntryLocalizedName(1006, "Ryūkihei (1870s)")
-	M2TWEOPDU.setEntryLocalizedName(1007, "Korean Pikemen")
-	M2TWEOPDU.setEntryLocalizedName(1008, "Korean Musketeers")
+	M2TWEOPDU.setEntryLocalizedName(1003, "Shizoku")
+	M2TWEOPDU.setEntryLocalizedName(1004, "Keishitai (1870s)")
+	M2TWEOPDU.setEntryLocalizedName(1005, "Shinsenryodan")
+	M2TWEOPDU.setEntryLocalizedName(1006, "Battōtai")
+	M2TWEOPDU.setEntryLocalizedName(1007, "Rikuguntai (1870s)")
+	M2TWEOPDU.setEntryLocalizedName(1008, "Goshimpei (1870s)")
+	M2TWEOPDU.setEntryLocalizedName(1009, "Tondenhei (1870s)")
+	M2TWEOPDU.setEntryLocalizedName(1010, "Ryūkihei (1870s)")
+	M2TWEOPDU.setEntryLocalizedName(1011, "Joseon Pikemen")
+	M2TWEOPDU.setEntryLocalizedName(1012, "Joseon Musketeers")
 end
