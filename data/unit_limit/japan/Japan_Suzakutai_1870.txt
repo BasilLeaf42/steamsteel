@@ -21,7 +21,7 @@ stat_pri_armour  3, 8, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
-stat_mental      8, disciplined, highly_trained
+stat_mental      10, disciplined, highly_trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300

@@ -1,0 +1,34 @@
+type             Japan Hoppo Keibitai 1870
+dictionary       Japan_Hoppo_Keibitai_1870      ; Hoppo Keibitai (1870) (Chassepot Mle.1866, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Hoppo_Keibitai_1870, 30, 0, 1
+officer			 Japan_Sampeitai_Officer
+officer			 Japan_Shogun_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         20, 0, arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Hoppo_Keibitai_1870
+ownership        saxons, france, slave
+era 1            saxons, france

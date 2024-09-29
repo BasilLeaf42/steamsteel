@@ -13392,9 +13392,9 @@ formation        1.2, 1.2, 3, 3, 4, square
 stat_health      1, 0
 stat_pri         5, 4, composite_arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
 stat_pri_attr    no
-stat_sec         8, 5, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         10, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  5, 7, 0, metal
+stat_pri_armour  5, 6, 0, metal
 stat_sec_armour  0, 0, leather
 stat_heat        6
 stat_ground      1, -2, 3, 2
@@ -13482,6 +13482,44 @@ era 1            saxons, france
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ 1860s - Ishin Japanese
+
+type             Japan Bodyguard IJA
+dictionary       Japan_Bodyguard_IJA      ; Imperial Japanese General and Staff (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_IJA, 4, 0, 1
+officer          Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, general_unit, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_IJA
+ownership        saxons, slave 
+era 0            saxons
+era 1            saxons
+era 2            saxons
 
 type             Japan Shotai
 dictionary       Japan_Shotai      ; Japanese Shotai / Choshu Shotai / Choshu Infantry / Satcho Shotai / Ishin Shotai (Pattern 1853 Enfield rifled musket, Katana)
@@ -13719,6 +13757,44 @@ era 0            saxons
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ 1860s - Tokugawa Shogunate
 
+type             Japan Bodyguard Ezo
+dictionary       Japan_Bodyguard_Ezo      ; Tokugawa Japanese General and Staff (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Ezo, 4, 0, 1
+officer          Japan_Sampeitai_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, general_unit, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Ezo
+ownership        saxons, france, slave 
+era 0            saxons, france
+era 1            saxons, france
+era 2            saxons, france
+
 type             Japan Sampeitai
 dictionary       Japan_Sampeitai      ; Japanese Sampeitai / Tokugawa Sampeitai / Shogunate Sampeitai / Tokugawa Infantry / Shogunate Infantry (Charleville Mle.1822 bis percussion smoothbore musket, Katana)
 category         infantry
@@ -13776,7 +13852,7 @@ stat_pri_armour  3, 8, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
-stat_mental      8, disciplined, highly_trained
+stat_mental      10, disciplined, highly_trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
@@ -13818,6 +13894,42 @@ armour_ug_levels 0
 armour_ug_models Japan_Nagaoka_Hoheitai
 ownership        saxons, france, slave
 era 0            saxons, france
+
+type             Japan Shohotai
+dictionary       Japan_Shohotai      ; Japanese Shohotai / Tokugawa Shohotai / Shogunate Shohotai / Japanese Shōhotai / Tokugawa Shōhotai / Shogunate Shōhotai (Snider-Enfield Mk.I, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Shohotai, 40, 0, 1
+officer			 Japan_Sampeitai_Officer
+officer			 Japan_Shogun_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         28, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Shohotai
+ownership        saxons, france, slave
+era 0            saxons, france
+era 1            saxons, france
 
 type             Japan Gakuheitai
 dictionary       Japan_Gakuheitai      ; Japanese Gakuheitai / Tokugawa Gakuheitai / Shogunate Gakuheitai / Sendai Gakuheitai (Snider-Enfield Mk.I* breech-loading rifle, Katana)
@@ -13938,9 +14050,9 @@ stat_health      1, 0
 stat_pri         27, 2, mounted_arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
-stat_sec         9, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec         10, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  3, 7, 0, flesh
+stat_pri_armour  3, 5, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      1, -2, 3, 2
@@ -13971,13 +14083,13 @@ stat_health      1, 0
 stat_pri         27, 2, mounted_arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
-stat_sec         14, 10, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec         16, 10, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  6, 10, 0, metal
+stat_pri_armour  6, 12, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      1, -2, 3, 2
-stat_mental      9, disciplined, highly_trained
+stat_mental      16, disciplined, highly_trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
@@ -14212,7 +14324,7 @@ soldier          sho_mod_cav, 4, 0, 1
 officer          jp_hussar
 mount            hussar
 mount_effect     elephant -8, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, general_unit, command
+attributes       free_upkeep_unit, sea_faring, hide_forest, general_unit, command, no_custom
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
