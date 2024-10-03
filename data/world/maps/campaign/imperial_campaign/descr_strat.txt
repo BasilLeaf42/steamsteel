@@ -14695,9 +14695,9 @@ unit		jap_armstrong						exp 1 armour 0 weapon_lvl 0
 ;traits		Factionheir 1
 ;army
 ;unit		sho_mod_cav							exp 1 armour 0 weapon_lvl 0
-unit		Japan Teppotai						exp 2 armour 0 weapon_lvl 0
-unit		Japan Heimin Partisans				exp 1 armour 0 weapon_lvl 0
-unit		Japan Kachi							exp 1 armour 0 weapon_lvl 0
+;unit		Japan Teppotai						exp 2 armour 0 weapon_lvl 0
+;unit		Japan Heimin Partisans				exp 1 armour 0 weapon_lvl 0
+;unit		Japan Kachi							exp 1 armour 0 weapon_lvl 0
 
 ;character	Hisamitsu Shimazu, named character, male, age 43, x 422, y 215, portrait HisamitsuShimazu, battle_model jp_gen 
 ;army
@@ -14718,7 +14718,7 @@ unit		Japan Kachi							exp 1 armour 0 weapon_lvl 0
 ;character	Ryoma Sakamoto, named character, male, age 30, x 423, y 218, portrait RyomaSakamoto 
 ;army
 ;unit		sho_mod_cav							exp 0 armour 0 weapon_lvl 0
-unit		Japan Heimin Partisans				exp 1 armour 0 weapon_lvl 0
+;unit		Japan Heimin Partisans				exp 1 armour 0 weapon_lvl 0
 
 character	Tomomi Iwakura, diplomat, male, age 35, x 428, y 223, portrait TomomiIwakura 
 
