@@ -127,11 +127,12 @@ function onGameInit()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hoppo_Keibitai_1870.txt", 1012);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Hohei_1870.txt", 1013);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1870.txt", 1014);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Kihei_1870.txt", 1015);
 	
 	-- Japan (1880s)
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ezo_Rikuguntai_1880.txt", 1015);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Denshutai_1880.txt", 1016);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hoppo_Keibitai_1880.txt", 1017);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ezo_Rikuguntai_1880.txt", 1016);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Denshutai_1880.txt", 1017);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hoppo_Keibitai_1880.txt", 1018);
 	
 	-- Miscellaneous
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/oroe/Korean_Pikemen.txt", 1100);
