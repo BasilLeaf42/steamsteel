@@ -461,8 +461,8 @@ culture						mesoamerican
 religion					judaism
 symbol						models_strat/symbol_papacy.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
-primary_colour				red 255, green 255, blue 255
-secondary_colour			red 255, green 255, blue 255
+primary_colour				red 255, green 241, blue 201
+secondary_colour			red 255, green 240, blue 201
 loading_logo				loading_screen/symbols/symbol128_papal_states.tga
 standard_index				3
 logo_index					FACTION_LOGO_PAPAL_STATES
