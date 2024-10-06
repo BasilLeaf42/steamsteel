@@ -3717,18 +3717,153 @@ set_event_counter ishin_decision_declined 0
     while I_EventCounter ishin_decision_accepted = 0 
         and I_EventCounter ishin_decision_declined = 0 
     end_while
+    hide_ui
+    disable_movie_view
     move_strat_camera 435,224
     if I_EventCounter ishin_decision_accepted = 1
+        show_ui
         add_money saxons, 1000
+        kill_character andonobumasa1
+        wait 0.1
+        kill_character DET_ASSASSINATED iinaosuke1
+        wait 0.8
+        create_unit Hokkaido, Japan Teppotai, num 6, exp 3, arm 0, wep 0
+        create_unit Hokkaido, Japan Kachi, num 4, exp 3, arm 0, wep 0
+        create_unit Hokkaido, Japan Seishi, num 2, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Teppotai, num 8, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Kachi, num 8, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Seishi, num 3, exp 3, arm 0, wep 0
+        create_unit Kyoto, Japan Teppotai, num 8, exp 3, arm 0, wep 0
+        create_unit Kyoto, Japan Kachi, num 8, exp 3, arm 0, wep 0
+        create_unit Kyoto, Japan Seishi, num 2, exp 3, arm 0, wep 0
+        create_unit Reval, Japan Teppotai, num 10, exp 3, arm 0, wep 0
+        create_unit Reval, Japan Kachi, num 6, exp 3, arm 0, wep 0
         historic_event ishin_chosen factions { saxons, }    
     end_if
     if I_EventCounter ishin_decision_declined = 1
+        show_ui
         add_money saxons, 2000
         console_command capture_settlement Edo
         console_command capture_settlement Hokkaido
         console_command capture_settlement Kyoto
         console_command capture_settlement Kagoshima
+        wait 0.1
+        kill_character takachikamori1
+        wait 0.1
+        kill_character motonorimori1
+        wait 0.1
+        kill_character DET_ASSASSINATED iinaosuke1
+        wait 1.5
+        spawn_army
+                faction saxons
+                character Katamori Matsudaira, named character, age 24, x 435, y 229, portrait KatamoriMatsudaira, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Tadayuki Makino, named character, age 35, x 433, y 229, portrait TadayukiMakino, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Yoshikuni Date, named character, age 34, x 436, y 231, portrait YoshikuniDate, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Ayasaburo Takeda, named character, age 33, x 436, y 238, portrait AyasaburoTakeda, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Hisamitsu Shimazu, named character, age 43, x 422, y 215, portrait HisamitsuShimazu, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Takachika Mori, named character, age 41, x 423, y 221, portrait TakachikaMori, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        create_unit Hokkaido, Japan Teppotai, num 2, exp 1, arm 0, wep 0
+        create_unit Hokkaido, Japan Kachi, num 1, exp 1, arm 0, wep 0
+        create_unit Hokkaido, Japan Seishi, num 1, exp 1, arm 0, wep 0
+        create_unit Edo, Japan Teppotai, num 4, exp 1, arm 0, wep 0
+        create_unit Edo, Japan Kachi, num 2, exp 1, arm 0, wep 0
+        create_unit Edo, Japan Seishi, num 2, exp 1, arm 0, wep 0
+        create_unit Kyoto, Japan Teppotai, num 2, exp 1, arm 0, wep 0
+        create_unit Kyoto, Japan Kachi, num 1, exp 1, arm 0, wep 0
+        create_unit Kyoto, Japan Seishi, num 1, exp 1, arm 0, wep 0
+        create_unit Reval, Japan Teppotai, num 2, exp 1, arm 0, wep 0
+        create_unit Reval, Japan Kachi, num 1, exp 1, arm 0, wep 0
+        create_unit Reval, Japan Seishi, num 1, exp 1, arm 0, wep 0
         historic_event shogun_chosen factions { saxons, }
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Tenguto/Mito Rebellion	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 2
+    if I_EventCounter ishin_decision_accepted = 1
+        historic_event ishin_satcho true
+        spawn_army
+                faction saxons
+                character Takamori Takeda, named character, age 38, x 435, y 227, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Satcho Alliance	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 2
+    if I_EventCounter ishin_decision_accepted = 1
+        historic_event ishin_satcho true
+        console_command capture_settlement Kagoshima
+        spawn_army
+                faction saxons
+                character Takamori Saigo, named character, age 38, x 422, y 219, portrait TakamoriSaigo, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Toshimichi Okubo, named character, age 36, x 420, y 218, portrait ToshimichiOkubo, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Hisamitsu Shimazu, named character, age 49, x 422, y 215, portrait HisamitsuShimazu, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Tadayoshi Shimazu, named character, age 26, x 422, y 217, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Ryoma Sakamoto, named character, age 36, x 423, y 218, portrait RyomaSakamoto, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                end
     end_if
     terminate_monitor
 end_monitor
