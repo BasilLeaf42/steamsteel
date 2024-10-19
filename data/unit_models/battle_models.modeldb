@@ -14831,10 +14831,10 @@
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 Japan_Saga_Officer 
 1 4 
-60 unit_models/_units/japan/satsuma_hoheitai_officer1_lod0.mesh 121 
-60 unit_models/_units/japan/satsuma_hoheitai_officer1_lod0.mesh 900 
-60 unit_models/_units/japan/satsuma_hoheitai_officer1_lod0.mesh 2500 
-60 unit_models/_units/japan/satsuma_hoheitai_officer1_lod0.mesh 6400 
+52 unit_models/_units/japan/raijintai_officer_lod0.mesh 121 
+52 unit_models/_units/japan/raijintai_officer_lod0.mesh 900 
+52 unit_models/_units/japan/raijintai_officer_lod0.mesh 2500 
+52 unit_models/_units/japan/raijintai_officer_lod0.mesh 6400 
 4 
 6 saxons 
 59 unit_models/_units/japan/textures/raijintai_officer.texture 

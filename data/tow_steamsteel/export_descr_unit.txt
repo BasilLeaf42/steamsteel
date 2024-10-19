@@ -14124,7 +14124,7 @@ stat_pri_armour  6, 12, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      1, -2, 3, 2
-stat_mental      16, disciplined, highly_trained
+stat_mental      20, disciplined, highly_trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
