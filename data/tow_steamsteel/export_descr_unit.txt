@@ -12952,7 +12952,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade
-soldier          qing_ww1_inf, 40, 0, 1.2
+soldier          qing_ww1_inf, 48, 0, 1.2
 officer          qing_gunners
 attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, affected_by_rain
 formation        1.2, 1.2, 1.2, 1.2, 3, square
@@ -12984,7 +12984,7 @@ class            missile
 voice_type       Light
 banner faction   main_cavalry
 banner holy      crusade
-soldier          qing_gunners, 30, 0, 1
+soldier          qing_gunners, 48, 0, 1
 officer		 jp_gen
 attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, gunmen
 formation        1.4, 1.8, 2.8, 3.6, 3, square
@@ -13017,7 +13017,7 @@ class            missile
 voice_type       Heavy
 banner faction   main_missile
 banner holy      crusade
-soldier          qing_vets, 40, 0, 1
+soldier          qing_vets, 48, 0, 1
 officer          qing_gunners
 attributes       free_upkeep_unit, sea_faring, hide_forest,gunpowder_unit,gunmen, start_not_skirmishing, cannot_skirmish, affected_by_rain
 formation        1.2, 1.2, 1.2, 1.2, 3, square
@@ -13051,7 +13051,7 @@ class            spearmen
 voice_type       Heavy
 banner faction   main_cavalry
 banner holy      crusade
-soldier          qing_pike, 64, 0, 1.2
+soldier          qing_pike, 100, 0, 1.2
 officer          qing_gunners
 attributes       free_upkeep_unit, sea_faring, hide_forest
 formation        1.2, 1.2, 3, 3, 6, square, schiltrom
@@ -13094,7 +13094,7 @@ stat_pri_attr    no
 stat_sec         3, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  2, 2, 0, leather
+stat_pri_armour  3, 3, 0, leather
 ;stat_armour_ex   4, 5, 0, 0, 3, 3, 3, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        4
@@ -13116,7 +13116,7 @@ class            light
 voice_type       General
 banner faction   main_missile
 banner holy      crusade_cavalry
-soldier          oirat_royal, 24, 0, 1
+soldier          oirat_royal, 32, 0, 1
 officer          kok_royal_cav 
 mount            heavy horse
 mount_effect     elephant -4, camel -4
@@ -13216,7 +13216,7 @@ class            missile
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          qing_inf, 40, 0, 1.2
+soldier          qing_inf, 48, 0, 1.2
 officer			 qing_inf
 attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
@@ -13248,7 +13248,7 @@ class            missile
 voice_type       Light
 banner faction   main_missile
 banner holy      crusade
-soldier          qing_inf_upg, 40, 0, 1.2
+soldier          qing_inf_upg, 48, 0, 1.2
 officer          qing_gunners
 attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
@@ -13280,7 +13280,7 @@ class            missile
 voice_type       heavy
 banner faction   main_spear
 banner holy      crusade_cavalry
-soldier          qing_carbs, 24, 0, 1
+soldier          qing_carbs, 32, 0, 1
 officer			 jp_gen
 mount            dragoon
 mount_effect     elephant -4, camel -4

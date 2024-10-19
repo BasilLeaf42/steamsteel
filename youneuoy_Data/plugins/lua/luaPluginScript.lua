@@ -138,7 +138,10 @@ function onGameInit()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Denshutai_1880.txt", 1020);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hoppo_Keibitai_1880.txt", 1021);
 	
+	-- Qing
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/qing/Qing_Tiger_Warriors.txt", 1100);
+	
 	-- Miscellaneous
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/oroe/Korean_Pikemen.txt", 1100);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/oroe/Korean_Musketeers.txt", 1101);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/oroe/Korean_Pikemen.txt", 1101);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/oroe/Korean_Musketeers.txt", 1102);
 end

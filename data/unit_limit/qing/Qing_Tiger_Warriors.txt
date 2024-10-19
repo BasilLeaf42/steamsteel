@@ -1,0 +1,34 @@
+type             Qing Tiger Warriors
+dictionary       Qing_Tiger_Warriors;      Tiger Warriors (Dao)
+category         infantry
+class            light
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade
+soldier          Qing_Tiger_Warriors, 100, 0, 1.1
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, very_hardy, frighten_mounted
+move_speed_mod	 1.4
+formation        1.2, 1.2, 3, 3, 6, square
+stat_health      1, 0
+stat_pri         8, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 5, 4, leather
+;stat_armour_ex   5, 7, 0, 0, 7, 6, 6, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 1, 1
+stat_mental      9, impetuous, untrained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1000, 300, 50, 70, 1000, 3, 100
+armour_ug_levels 0
+armour_ug_models Qing_Tiger_Warriors
+ownership        byzantium, slave
+era 0            byzantium
+era 1            byzantium
+era 2            byzantium
