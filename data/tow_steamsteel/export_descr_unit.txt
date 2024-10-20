@@ -13390,7 +13390,7 @@ soldier          Japan_Yumitai, 48, 0, 1.1
 attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw
 formation        1.2, 1.2, 3, 3, 4, square
 stat_health      1, 0
-stat_pri         5, 4, composite_arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri         6, 4, composite_arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
 stat_pri_attr    no
 stat_sec         10, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    no
@@ -13688,7 +13688,7 @@ ownership        saxons, slave
 era 0            saxons
 
 type             Japan Saga Hoheitai
-dictionary       Japan_Saga_Hoheitai      ; Japanese Raijintai / Tokugawa Raijintai / Shogunate Raijintai (Starr M1858 breech-loading carbine, Katana)
+dictionary       Japan_Saga_Hoheitai      ; Japanese Saga Sogekihei / Saga Skirmishers / Satcho Saga Sogekihei / Ishin Saga Sogekihei / Satcho Sogekihei / Ishin Sogekihei (Starr M1858 breech-loading carbine, Katana)
 category         infantry
 class            missile
 voice_type       Light
