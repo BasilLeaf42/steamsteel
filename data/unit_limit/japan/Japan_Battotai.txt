@@ -25,7 +25,7 @@ stat_mental      24, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 960, 250, 50, 70, 960, 4, 100
+stat_cost        3, 1000, 275, 50, 70, 1000, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Battotai
 ownership        saxons, slave
