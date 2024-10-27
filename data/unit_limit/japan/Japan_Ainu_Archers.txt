@@ -1,0 +1,30 @@
+type             Japan Ainu Archers
+dictionary       Japan_Ainu_Archers      ; Japanese Ainu Archers (Hankyu bow, Spear)
+category         infantry
+class            missile
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_missile
+soldier          Japan_Ainu_Archers, 64, 0, 1.0
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, can_withdraw, hardy, hide_anywhere, mercenary_unit
+formation        1.2, 1.2, 3, 3, 4, square
+stat_health      1, 0
+stat_pri         5, 4, composite_arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri_attr    no
+stat_sec         5, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec_attr    spear, short_pike
+stat_pri_armour  4, 5, 0, metal
+stat_sec_armour  0, 0, leather
+stat_heat        3
+stat_ground      1, -2, 4, 4
+stat_mental      4, normal, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 700, 190, 55, 135, 700, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ainu_Archers
+ownership        saxons, france, slave
+era 0            saxons, france
+era 1            saxons, france
+era 2            saxons, france

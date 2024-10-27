@@ -5012,8 +5012,8 @@ BANK: music_bank
 				Kessen_Eastern_Army_Intro.mp3
 				Kessen_War_Council.mp3
 				Michiru_Atarashii_Jidai_wo_Ikiro.mp3
+				Nobuyuki_Nakajima_Anun.mp3
 				Nobuyuki_Nakajima_Dawn_of_Turmoil_War.mp3
-				Ryuichi_Sakamoto_Yae_no_Sakura_alt.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
@@ -5095,6 +5095,7 @@ BANK: music_bank
 				Hideyuki_Fukasawa_Shizuku.mp3						; Tested
 				Hideyuki_Fukasawa_Yuuyake_no_Kaze.mp3				; Tested
 				Kessen_Eastern_Army_alt.mp3							; Tested
+				Michiru_Joran_Mein_Tema.mp3
 				Michiru_Karasumori_no_Shuuraku.mp3					; Tested
 				Michiru_Mura_no_Seikatsu.mp3						; Tested
 				Michiru_Tsuyukusakoshoten_no_Nichijou.mp3			; Tested
@@ -5105,6 +5106,7 @@ BANK: music_bank
 				Nichijou_Koigokoro_wa_Hinekure_san.mp3				; Tested
 				Nichijou_Souzou_Ryoku_Zenkai.mp3					; Tested
 				Nichijou_Yuuganaru_Jikan_Kara_no_Hajimari.mp3		; Tested
+				Nobuyuki_Nakajima_Rekishi_ni_Nawonokosu_sha_Tachi.mp3
 				Ryuichi_Sakamoto_Yae_no_Sakura_shakuhachi.mp3		; Tested
 			end			
 
@@ -5121,6 +5123,7 @@ BANK: music_bank
 			event  
 				folder data/sounds/music/japan
 				Kessen_Battle_Strategy.mp3
+				Ryuichi_Sakamoto_Yae_no_Sakura_alt.mp3
 			end
 			
 			

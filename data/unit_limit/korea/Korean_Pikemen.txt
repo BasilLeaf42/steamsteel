@@ -25,7 +25,6 @@ stat_food        60, 300
 stat_cost        2, 800, 170, 120, 95, 800, 4, 100
 armour_ug_levels 0
 armour_ug_models Korean_Pikemen
-ownership        saxons, byzantium, slave
-era 0            byzantium
-era 1            byzantium
-era 2            byzantium
+ownership        byzantium, saxons, slave
+era 0            byzantium, saxons
+era 1            byzantium, saxons

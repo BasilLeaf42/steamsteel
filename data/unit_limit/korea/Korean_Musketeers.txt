@@ -26,7 +26,6 @@ stat_food        60, 300
 stat_cost        2, 950, 210, 80, 60, 950, 4, 100
 armour_ug_levels 0
 armour_ug_models Korean_Musketeers
-ownership        saxons, byzantium, slave
-era 0            byzantium
-era 1            byzantium
-era 2            byzantium
+ownership        byzantium, saxons, slave
+era 0            byzantium, saxons
+era 1            byzantium, saxons
