@@ -766,7 +766,6 @@ stat_cost        2, 900, 225, 90, 70, 900, 1, 225
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
-era 0            saxons, slave
 era 1            saxons, slave
 
 
@@ -13976,7 +13975,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Gakuheitai, 40, 0, 1.0
 officer			 Japan_Gakuheitai_Officer
-officer			 Japan_Shogun_Flag
+officer			 Japan_Gakuheitai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
@@ -14109,11 +14108,11 @@ voice_type       Light
 accent           japanese
 banner faction   main_missile
 banner holy      crusade
-soldier          Japan_Shinsengumi, 30, 0, 1.0
+soldier          Japan_Shinsengumi, 40, 0, 1.0
 officer			 Japan_Shinsengumi_Officer
 officer			 Japan_Shinsengumi_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, very_hardy, frighten_foot, frighten_mounted
-formation        1.4, 1.8, 2.8, 3.6, 3, square
+formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
 stat_pri         27, 2, mounted_arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
