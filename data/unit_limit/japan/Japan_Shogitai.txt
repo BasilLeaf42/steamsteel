@@ -8,7 +8,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          Japan_Shogitai, 48, 0, 1.1
 officer			 Japan_Sampeitai_Officer
-officer			 Japan_Shogun_Flag
+officer			 Japan_Shogitai_Flag
 attributes       free_upkeep_unit, sea_faring, hide_improved_forest, very_hardy, can_withdraw
 move_speed_mod	 1.3
 formation        1.2, 1.2, 3, 3, 5, square
