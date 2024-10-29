@@ -13630,6 +13630,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Yamagunitai, 40, 0, 1.0
 officer			 Japan_Yamagunitai_Officer
+officer			 Japan_Yamagunitai_Flag
 officer			 Japan_Tottori_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, very_hardy, command
 formation        1.2, 1.2, 1.2, 1.2, 3, square
