@@ -8,7 +8,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Denshutai_1880, 40, 0, 1.0
 officer			 Japan_Denshutai_Officer_1880
-officer			 Japan_Shogun_Flag
+officer			 Japan_Denshutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0

@@ -5095,7 +5095,7 @@ BANK: music_bank
 				Hideyuki_Fukasawa_Shizuku.mp3						; Tested
 				Hideyuki_Fukasawa_Yuuyake_no_Kaze.mp3				; Tested
 				Kessen_Eastern_Army_alt.mp3							; Tested
-				Michiru_Joran_Mein_Tema.mp3
+				Michiru_Joran_Mein_Tema.mp3							; Tested
 				Michiru_Karasumori_no_Shuuraku.mp3					; Tested
 				Michiru_Mura_no_Seikatsu.mp3						; Tested
 				Michiru_Tsuyukusakoshoten_no_Nichijou.mp3			; Tested
@@ -5104,6 +5104,7 @@ BANK: music_bank
 				Naoki_Sato_Utakata_no_Hibi.mp3						; Tested
 				Nichijou_Fuyuppoi_Koukou.mp3						; Tested
 				Nichijou_Koigokoro_wa_Hinekure_san.mp3				; Tested
+				Nichijou_Onamidachoudai.mp3							; 
 				Nichijou_Souzou_Ryoku_Zenkai.mp3					; Tested
 				Nichijou_Yuuganaru_Jikan_Kara_no_Hajimari.mp3		; Tested
 				Nobuyuki_Nakajima_Rekishi_ni_Nawonokosu_sha_Tachi.mp3
@@ -5182,7 +5183,8 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_DEFEAT
 			event  looped
 				folder data/sounds/music/japan
-				lostgame.mp3
+				Hideyuki_Fukasawa_Temari_no_Shi.mp3
+				Kessen_Distress.mp3
 			end	
 
 

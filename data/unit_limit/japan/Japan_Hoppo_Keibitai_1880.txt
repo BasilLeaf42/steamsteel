@@ -8,7 +8,7 @@ banner faction   main_spear
 banner holy      crusade
 soldier          Japan_Hoppo_Keibitai_1880, 30, 0, 1
 officer			 Japan_Sampeitai_Officer_1880
-officer			 Japan_Shogun_Flag
+officer			 Japan_Sampeitai_Flag
 attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
