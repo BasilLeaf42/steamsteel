@@ -974,7 +974,7 @@ Estonie_Province
 	japan
 	5
 	5
-	religions { catholic 3 orthodox 0 protestant 0 shia 0 islam 0 buddism 2 hindu 95 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 85 pagan 0 heretic 0 judaism 0 }
 Tejo_Province
 	Lisboa
 	hre
@@ -1748,7 +1748,7 @@ Akita_Province
 	japan
 	5
 	5
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 2 hindu 98 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 95 pagan 0 heretic 0 judaism 0 }
 Hokkaido_Province
 	Hokkaido
 	saxons
@@ -1757,7 +1757,7 @@ Hokkaido_Province
 	japan
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 2 hindu 88 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 80 pagan 0 heretic 10 judaism 0 }
 Edo_Province
 	Edo
 	saxons
@@ -1766,7 +1766,7 @@ Edo_Province
 	japan
 	5
 	7
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 2 hindu 98 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 90 pagan 0 heretic 0 judaism 0 }
 Kyoto_Province
 	Kyoto
 	saxons
@@ -1775,4 +1775,4 @@ Kyoto_Province
 	japan
 	5
 	8
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 2 hindu 98 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 15 hindu 85 pagan 0 heretic 0 judaism 0 }
