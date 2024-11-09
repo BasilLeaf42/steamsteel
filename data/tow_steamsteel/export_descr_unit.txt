@@ -10544,10 +10544,10 @@ stat_charge_dist 15
 stat_fire_delay  5000
 stat_food        60, 300
 stat_cost        3, 1200, 400, 200, 200, 1200, 1, 400
-ownership        turks, golden, slave
-era 0            turks, golden
-era 1            turks, golden
-era 2            turks, golden
+ownership        turks, golden, moors, slave
+era 0            turks, golden, moors
+era 1            turks, golden, moors
+era 2            turks, golden, moors
 
 type             moroccan_gunner
 dictionary       moroccan_gunner      ; Arab Tribesmen (Moukhala musket)
