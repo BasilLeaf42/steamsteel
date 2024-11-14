@@ -116,17 +116,21 @@ pool Vietnam_n
 	unit tib_temple_guard			exp 0 cost 800 replenish 0.05 - 0.1 max 2 initial 1 religions { buddism }
 	unit merc_viet_early_inf		exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 0
 
-pool Netherlands
+pool Japan
 	regions Edo_Province Kyoto_Province Estonie_Province Akita_Province 
-	unit Japan Heimin Mob		exp 0 cost 500 replenish 0.08 - 0.15 max 2 initial 1
-	unit Japan Heimin Partisans		exp 0 cost 720 replenish 0.05 - 0.12 max 2 initial 1
-	unit Japan Teppotai Merc		exp 0 cost 1200 replenish 0.05 - 0.12 max 2 initial 1
-	unit Japan Shizoku				exp 0 cost 1600 replenish 0.05 - 0.12 max 2 initial 1
+	unit Japan Teppotai Merc				exp 0 cost 1200 replenish 0.04 - 0.13 max 2 initial 1 end_year 1870
+	unit Japan Shizoku						exp 0 cost 1600 replenish 0.04 - 0.13 max 2 initial 1 start_year 1870
+	unit Japan Heimin Partisans				exp 0 cost 700 replenish 0.06 - 0.19 max 2 initial 1 end_year 1870
+	unit Japan Heimin Partisans Geberu		exp 0 cost 740 replenish 0.06 - 0.19 max 2 initial 1 start_year 1870 end_year 1880
+	unit Japan Heimin Partisans Minieru		exp 0 cost 800 replenish 0.06 - 0.19 max 2 initial 1 start_year 1880
+	unit Japan Heimin Mob					exp 0 cost 500 replenish 0.08 - 0.25 max 2 initial 1
 	
 pool Hokkaido
 	regions Hokkaido_Province
-	unit Japan Ainu Archers		exp 0 cost 540 replenish 0.08 - 0.15 max 2 initial 1
-	unit Japan Ainu Teppo		exp 0 cost 760 replenish 0.05 - 0.12 max 2 initial 1
+	unit Japan Ainu Teppo					exp 0 cost 720 replenish 0.04 - 0.12 max 2 initial 1 end_year 1870
+	unit Japan Ainu Geberu					exp 0 cost 760 replenish 0.04 - 0.12 max 2 initial 1 start_year 1870 end_year 1880
+	unit Japan Ainu Minieru					exp 0 cost 820 replenish 0.04 - 0.12 max 2 initial 1 start_year 1880
+	unit Japan Ainu Archers					exp 0 cost 540 replenish 0.07 - 0.22 max 2 initial 1
 
 pool North_Africa
 	regions Tripolitaine_Province Ceyland_Province Fez_Province Marrakesh_Province

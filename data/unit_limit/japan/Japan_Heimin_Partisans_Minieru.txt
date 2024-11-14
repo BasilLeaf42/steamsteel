@@ -1,12 +1,12 @@
-type             Japan Heimin Partisans
-dictionary       Japan_Heimin_Partisans      ; Japanese Heimin Partisans (Tanegashima teppo arquebus, Tanto)
+type             Japan Heimin Partisans Minieru
+dictionary       Japan_Heimin_Partisans_Minieru      ; Japanese Heimin Partisans (Imported "minieru", Tanto)
 category         infantry
 class            missile
 voice_type       Light
 accent           japanese
 banner faction   main_missile
 banner holy      crusade
-soldier          Japan_Heimin_Partisans, 48, 0, 1.0
+soldier          Japan_Heimin_Partisans_Geberu, 48, 0, 1.0
 officer			 Japan_Teppotai_Officer
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 1.8, 1.8, 4, square
@@ -24,8 +24,8 @@ stat_mental      4, low, untrained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 700, 160, 85, 65, 700, 4, 125
+stat_cost        1, 740, 160, 85, 65, 740, 4, 125
 armour_ug_levels 0
-armour_ug_models Japan_Heimin_Partisans
+armour_ug_models Japan_Heimin_Partisans_Geberu
 ownership        saxons, france, slave
-era 0            saxons, france
+era 2            saxons, france
