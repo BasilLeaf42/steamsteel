@@ -634,7 +634,7 @@ era 2            russia, mongols, normans, hungary, slave
 
 
 type             jap_maxim
-dictionary       jap_maxim      ; jap_maxim
+dictionary       jap_maxim      ; Ishin Japanese Maxim Guns / Ishin Maxim Guns / Satcho Maxim Guns / Imperial Japanese Maxim Guns
 category         siege
 class            missile
 voice_type       Light
@@ -667,7 +667,7 @@ era 2            saxons, slave
 
 
 type             jap_12lb
-dictionary       jap_12lb      ; jap_12lb
+dictionary       jap_12lb      ; Ishin Japanese Breech-Loading Rifled Cannon / Ishin Breech-Loading Rifled Cannon / Satcho Breech-Loading Rifled Cannon / Imperial Japanese Breech-Loading Rifled Cannon
 category         siege
 class            missile
 voice_type       Heavy
@@ -704,7 +704,7 @@ era 2            saxons, slave
 
 
 type             jap_5lb
-dictionary       jap_5lb      ; jap_5lb
+dictionary       jap_5lb      ; Ishin Japanese Mortars / Ishin Mortars / Satcho Mortars / Imperial Japanese Mortars
 category         siege
 class            missile
 voice_type       Heavy
@@ -737,7 +737,7 @@ ownership        saxons, slave
 era 2            saxons, slave
 
 type             jap_gatling
-dictionary       jap_gatling      ; jap_gatling
+dictionary       jap_gatling      ; Ishin Japanese Gatling Guns / Ishin Gatling Guns / Satcho Gatling Guns / Imperial Japanese Gatling Guns
 category         siege
 class            missile
 voice_type       Light
@@ -770,7 +770,7 @@ era 1            saxons, slave
 
 
 type             jap_150mm
-dictionary       jap_150mm      ; jap_150mm
+dictionary       jap_150mm      ; Ishin Japanese Howitzers / Ishin Howitzers / Satcho Howitzers / Imperial Japanese Howitzers
 category         siege
 class            missile
 voice_type       Heavy

@@ -97,12 +97,21 @@ unit				korean_archers
 unit				korean_archers
 unit				korean_cav_mercs
 
-;Japanese Rebels, Japan
+;Japanese Rebels, Mainland Japan
 rebel_type			Anatolian_Rebels
 category			peasant_revolt 
 chance				400					
 description			Anatolian_Rebels
-unit				merc_viet_early_inf
+unit				Japan Revolver Kihei Han
+unit				Japan Shizoku
+unit				Japan Shizoku
+unit				Japan Shizoku
+unit				Japan Heimin Partisans Minieru
+unit				Japan Heimin Partisans Geberu
+unit				Japan Heimin Partisans
+unit				Japan Heimin Mob
+unit				Japan Heimin Mob
+unit				jap_armstrong
 
 ;Thai rebels
 rebel_type			Croatian_Rebels

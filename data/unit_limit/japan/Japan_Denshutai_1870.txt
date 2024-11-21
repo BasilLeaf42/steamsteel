@@ -1,0 +1,33 @@
+type             Japan Denshutai 1870
+dictionary       Japan_Denshutai_1870      ; Japanese Denshutai (1870s) / Tokugawa Denshutai (1870s) / Shogunate Denshutai (1870s) (Gras Mle.1874 breech-loading rifle, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Denshutai, 40, 0, 1.0
+officer			 Japan_Denshutai_Officer
+officer			 Japan_Denshutai_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    spear
+stat_pri_armour  3, 6, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1600, 600, 80, 60, 1600, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Denshutai
+ownership        saxons, france, slave
+era 1            saxons, france
