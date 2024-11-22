@@ -1113,34 +1113,55 @@ building barracks
 	recruit_pool "qing_swords"  0.4   0.04   0.4  0  requires factions { byzantium, }
 
 ; japan shared
-	recruit_pool "Japan Kachi"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Yumitai"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Teppotai"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Seishi"  1   0.17   1  0  requires factions { saxons, }
+	recruit_pool "Japan Kachi"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Yumitai"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Teppotai"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Seishi"  1   0.17   1  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Keishitai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter military_reforms_1870 1
 	
-; japan ishin
-	recruit_pool "Japan Shotai"  1   0.34   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Kiheitai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Satsuma Hoheitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Hokokutai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Yamagunitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Saga Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Jinshotai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Revolver Kihei Han"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
+; japan ishin - 1860s
+	recruit_pool "Japan Shotai"  1   0.34   3  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Kiheitai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Satsuma Hoheitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Hokokutai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Yamagunitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Saga Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Jinshotai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Revolver Kihei Han"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
 	
-; japan shogun
+; japan ishin - 1870s
+	recruit_pool "Japan Battotai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Shinsenryodan"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Rikuguntai 1870"  1   0.34   3  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Rikusentai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Tondenhei 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei Hohei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Ryukihei 1870"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei Kihei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	
+; japan shogun - 1860s
 	recruit_pool "Japan Shogitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Byakkotai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Sampeitai"  1   0.25   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Suzakutai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Byakkotai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Sampeitai"  1   0.25   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Suzakutai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Nagaoka Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
 	recruit_pool "Japan Gakuheitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Denshutai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Karasugumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Denshutai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Karasugumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Raijintai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Revolver Kihei"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Revolver Kihei"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Denshutai Kihei"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	
+; japan shogun - 1870s
+; Nagaoka Hoheitai, Gakuheitai, Raijintai, and Denshutai Kihei from the 1860s remain available
+	recruit_pool "Japan Suzakutai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Shohotai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Kaiso Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Denshutai 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Hoppo Keibitai 1870"  1   0.17   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Ryukihei Shogun 1870"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
 
 ;misc
 	recruit_pool "merc_uru_inf"  0   0.02   1  0  requires factions { poland, aztecs, }  and not event_counter military_reforms_1 1 and hidden_resource uruguay
@@ -1817,34 +1838,55 @@ building barracks
 	recruit_pool "qing_swords"  0.4   0.04   0.4  0  requires factions { byzantium, }
 
 ; japan shared
-	recruit_pool "Japan Kachi"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Yumitai"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Teppotai"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Seishi"  1   0.17   1  0  requires factions { saxons, }
+	recruit_pool "Japan Kachi"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Yumitai"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Teppotai"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Seishi"  1   0.17   1  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Keishitai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter military_reforms_1870 1
 	
-; japan ishin
-	recruit_pool "Japan Shotai"  1   0.34   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Kiheitai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Satsuma Hoheitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Hokokutai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Yamagunitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Saga Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Jinshotai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Revolver Kihei Han"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
+; japan ishin - 1860s
+	recruit_pool "Japan Shotai"  1   0.34   3  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Kiheitai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Satsuma Hoheitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Hokokutai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Yamagunitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Saga Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Jinshotai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Revolver Kihei Han"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
 	
-; japan shogun
+; japan ishin - 1870s
+	recruit_pool "Japan Battotai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Shinsenryodan"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Rikuguntai 1870"  1   0.34   3  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Rikusentai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Tondenhei 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei Hohei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Ryukihei 1870"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei Kihei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	
+; japan shogun - 1860s
 	recruit_pool "Japan Shogitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Byakkotai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Sampeitai"  1   0.25   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Suzakutai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Byakkotai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Sampeitai"  1   0.25   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Suzakutai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Nagaoka Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
 	recruit_pool "Japan Gakuheitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Denshutai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Karasugumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Denshutai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Karasugumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Raijintai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Revolver Kihei"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Revolver Kihei"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Denshutai Kihei"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	
+; japan shogun - 1870s
+; Nagaoka Hoheitai, Gakuheitai, Raijintai, and Denshutai Kihei from the 1860s remain available
+	recruit_pool "Japan Suzakutai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Shohotai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Kaiso Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Denshutai 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Hoppo Keibitai 1870"  1   0.17   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Ryukihei Shogun 1870"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
 
 ;misc
 	recruit_pool "merc_uru_inf"  1   0.06   1  0  requires factions { poland, aztecs, }  and not event_counter military_reforms_1 1 and hidden_resource uruguay
@@ -2524,34 +2566,55 @@ building barracks
 	recruit_pool "qing_swords"  0.4   0.04   0.4  0  requires factions { byzantium, }
 
 ; japan shared
-	recruit_pool "Japan Kachi"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Yumitai"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Teppotai"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Seishi"  1   0.15   1  0  requires factions { saxons, }
+	recruit_pool "Japan Kachi"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Yumitai"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Teppotai"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Seishi"  1   0.17   1  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Keishitai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter military_reforms_1870 1
 	
-; japan ishin
-	recruit_pool "Japan Shotai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Kiheitai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Satsuma Hoheitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Hokokutai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Yamagunitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Saga Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Jinshotai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Revolver Kihei Han"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
+; japan ishin - 1860s
+	recruit_pool "Japan Shotai"  1   0.34   3  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Kiheitai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Satsuma Hoheitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Hokokutai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Yamagunitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Saga Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Jinshotai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Revolver Kihei Han"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
 	
-; japan shogun
+; japan ishin - 1870s
+	recruit_pool "Japan Battotai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Shinsenryodan"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Rikuguntai 1870"  1   0.34   3  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Rikusentai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Tondenhei 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei Hohei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Ryukihei 1870"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei Kihei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	
+; japan shogun - 1860s
 	recruit_pool "Japan Shogitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Byakkotai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Sampeitai"  1   0.25   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Suzakutai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Byakkotai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Sampeitai"  1   0.25   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Suzakutai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Nagaoka Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
 	recruit_pool "Japan Gakuheitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Denshutai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Karasugumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Denshutai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Karasugumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Raijintai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Revolver Kihei"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Revolver Kihei"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Denshutai Kihei"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	
+; japan shogun - 1870s
+; Nagaoka Hoheitai, Gakuheitai, Raijintai, and Denshutai Kihei from the 1860s remain available
+	recruit_pool "Japan Suzakutai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Shohotai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Kaiso Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Denshutai 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Hoppo Keibitai 1870"  1   0.17   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Ryukihei Shogun 1870"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
 
 ;misc
 	recruit_pool "merc_uru_inf"  2   0.12   2  0  requires factions { poland, aztecs, }  and not event_counter military_reforms_1 1 and hidden_resource uruguay
@@ -3233,34 +3296,55 @@ building barracks
 	recruit_pool "qing_swords"  0.4   0.04   0.4  0  requires factions { byzantium, }
 
 ; japan shared
-	recruit_pool "Japan Kachi"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Yumitai"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Teppotai"  1   0.2   2  0  requires factions { saxons, }
-	recruit_pool "Japan Seishi"  1   0.17   1  0  requires factions { saxons, }
+	recruit_pool "Japan Kachi"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Yumitai"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Teppotai"  1   0.2   2  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Seishi"  1   0.17   1  0  requires factions { saxons, } and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Keishitai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter military_reforms_1870 1
 	
-; japan ishin
-	recruit_pool "Japan Shotai"  1   0.34   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Kiheitai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Satsuma Hoheitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Hokokutai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Yamagunitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Saga Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Jinshotai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
-	recruit_pool "Japan Revolver Kihei Han"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1
+; japan ishin - 1860s
+	recruit_pool "Japan Shotai"  1   0.34   3  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Kiheitai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Satsuma Hoheitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Hokokutai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Yamagunitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Saga Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Jinshotai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Revolver Kihei Han"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and not event_counter military_reforms_1870 1
 	
-; japan shogun
+; japan ishin - 1870s
+	recruit_pool "Japan Battotai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Shinsenryodan"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Rikuguntai 1870"  1   0.34   3  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Rikusentai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Tondenhei 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei Hohei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Ryukihei 1870"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Goshimpei Kihei 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_accepted 1 and event_counter military_reforms_1870 1
+	
+; japan shogun - 1860s
 	recruit_pool "Japan Shogitai"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Byakkotai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Sampeitai"  1   0.25   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Suzakutai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Byakkotai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Sampeitai"  1   0.25   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Suzakutai"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Nagaoka Hoheitai"  1   0.15   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
 	recruit_pool "Japan Gakuheitai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Denshutai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Karasugumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Denshutai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
+	recruit_pool "Japan Karasugumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Raijintai"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
-	recruit_pool "Japan Revolver Kihei"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	recruit_pool "Japan Revolver Kihei"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and not event_counter military_reforms_1870 1
 	recruit_pool "Japan Denshutai Kihei"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1
+	
+; japan shogun - 1870s
+; Nagaoka Hoheitai, Gakuheitai, Raijintai, and Denshutai Kihei from the 1860s remain available
+	recruit_pool "Japan Suzakutai 1870"  1   0.2   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Shohotai"  1   0.25   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Kaiso Shinsengumi"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Denshutai 1870"  1   0.13   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Hoppo Keibitai 1870"  1   0.17   2  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
+	recruit_pool "Japan Ryukihei Shogun 1870"  1   0.17   1  0  requires factions { saxons, } and event_counter ishin_decision_declined 1 and event_counter military_reforms_1870 1
 
 ;misc
 	recruit_pool "merc_uru_inf"  2   0.2   2  0  requires factions { poland, aztecs, }  and not event_counter military_reforms_1 1 and hidden_resource uruguay

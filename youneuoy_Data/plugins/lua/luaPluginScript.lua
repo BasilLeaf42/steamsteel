@@ -166,4 +166,8 @@ function onReadGameDbsAtStart()
 	
 	-- Korea / Empire of Korea (1890s to 1900s)
 	
+	-- Ethiopia / Sudan
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/Ethiopia_Sudanese_Warriors.txt", 1200);
+	
+	
 end
