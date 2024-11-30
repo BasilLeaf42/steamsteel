@@ -1033,6 +1033,66 @@ texture				slave, models_strat/textures/SHOGUN_Prom_Ashigaru_NagaeYari_Rebel.tga
 model_flexi_m			models_strat/SHOGUN_Ashigaru_NagaeYari_high.CAS, max
 shadow_model_flexi		models_strat/shadow_sword.CAS, max
 
+; Japan - Generic general (1870)
+type				Japan_General
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_General.tga
+texture				slave, models_strat/textures/Japan_General.tga
+model_flexi_m			models_strat/Japan_General.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+; Japan - Tokugawa Yoshinobu / Yoshinobu Tokugawa
+type				Japan_Tokugawa_Yoshinobu
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Tokugawa_Yoshinobu.tga
+texture				slave, models_strat/textures/Japan_Tokugawa_Yoshinobu.tga
+model_flexi_m			models_strat/Japan_Tokugawa_Yoshinobu.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+; Japan - Kondo Isami / Isami Kondo
+type				Japan_Kondo_Isami
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Kondo_Isami.tga
+texture				slave, models_strat/textures/Japan_Kondo_Isami.tga
+model_flexi_m			models_strat/Japan_Kondo_Isami.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+; Japan - Hijikata Toshizo / Toshizo Hijikata
+type				Japan_Hijikata_Toshizo
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Hijikata_Toshizo.tga
+texture				slave, models_strat/textures/Japan_Hijikata_Toshizo.tga
+model_flexi_m			models_strat/Japan_Hijikata_Toshizo.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+; Japan - Matsudaira Katamori / Katamori Matsudaira
+type				Japan_Matsudaira_Katamori
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Matsudaira_Katamori.tga
+texture				slave, models_strat/textures/Japan_Matsudaira_Katamori.tga
+model_flexi_m			models_strat/Japan_Matsudaira_Katamori.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
+; Japan - Sakamoto Ryoma / Ryoma Sakamoto
+type				Japan_Sakamoto_Ryoma
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Sakamoto_Ryoma.tga
+texture				slave, models_strat/textures/Japan_Sakamoto_Ryoma.tga
+model_flexi_m			models_strat/Japan_Sakamoto_Ryoma.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
 ; Russian Captain
 type				tzar_capt
 skeleton			strat_named_with_army

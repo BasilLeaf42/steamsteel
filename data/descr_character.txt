@@ -197,7 +197,12 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			saxons
 dictionary		2
-strat_model		jp_general
+strat_model		Japan_General
+;strat_model		Japan_Tokugawa_Yoshinobu
+;strat_model		Japan_Kondo_Isami
+;strat_model		Japan_Hijikata_Toshizo
+;strat_model		Japan_Matsudaira_Katamori
+;strat_model		Japan_Sakamoto_Ryoma
 strat_model		jp_general					; heir
 strat_model		jp_emperor					; leader
 battle_model	Japan_IJA_General
