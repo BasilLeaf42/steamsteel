@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 684 0 0 
+22 serialization::archive 3 0 0 0 0 689 0 0 
 5 blank 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 10 mount_pony 
 1 3 
@@ -11334,6 +11334,238 @@
 17 MTW2_Mace_Primary 
 0 
 -1 0 0 0 0 0 0 
+17 Japan_Kondo_Isami 
+1 4 
+46 unit_models/_units/japan/kondo_isami_lod0.mesh 121 
+46 unit_models/_units/japan/kondo_isami_lod0.mesh 900 
+46 unit_models/_units/japan/kondo_isami_lod0.mesh 2500 
+46 unit_models/_units/japan/kondo_isami_lod0.mesh 6400 
+4 
+6 saxons 
+47 unit_models/_units/japan/textures/kondo.texture 
+52 unit_models/_units/japan/textures/kondo_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+6 france 
+47 unit_models/_units/japan/textures/kondo.texture 
+52 unit_models/_units/japan/textures/kondo_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+4 merc 
+47 unit_models/_units/japan/textures/kondo.texture 
+52 unit_models/_units/japan/textures/kondo_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+47 unit_models/_units/japan/textures/kondo.texture 
+52 unit_models/_units/japan/textures/kondo_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/kondo_gear.texture 
+60 unit_models/_units/japan/attachments/kondo_gear_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/kondo_gear.texture 
+60 unit_models/_units/japan/attachments/kondo_gear_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/kondo_gear.texture 
+60 unit_models/_units/japan/attachments/kondo_gear_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/kondo_gear.texture 
+60 unit_models/_units/japan/attachments/kondo_gear_norm.texture 0 
+4 
+4 None 
+14 MTW2_Fast_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 horse 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 camel 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+-1 0 0 0 0 0 0 
+22 Japan_Hijikata_Toshizo 
+1 4 
+51 unit_models/_units/japan/hijikata_toshizo_lod0.mesh 121 
+51 unit_models/_units/japan/hijikata_toshizo_lod0.mesh 900 
+51 unit_models/_units/japan/hijikata_toshizo_lod0.mesh 2500 
+51 unit_models/_units/japan/hijikata_toshizo_lod0.mesh 6400 
+4 
+6 saxons 
+50 unit_models/_units/japan/textures/hijikata.texture 
+55 unit_models/_units/japan/textures/hijikata_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+6 france 
+50 unit_models/_units/japan/textures/hijikata.texture 
+55 unit_models/_units/japan/textures/hijikata_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+4 merc 
+50 unit_models/_units/japan/textures/hijikata.texture 
+55 unit_models/_units/japan/textures/hijikata_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+50 unit_models/_units/japan/textures/hijikata.texture 
+55 unit_models/_units/japan/textures/hijikata_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+58 unit_models/_units/japan/attachments/hijikata_gear.texture 
+63 unit_models/_units/japan/attachments/hijikata_gear_norm.texture 0 
+6 france 
+58 unit_models/_units/japan/attachments/hijikata_gear.texture 
+63 unit_models/_units/japan/attachments/hijikata_gear_norm.texture 0 
+4 merc 
+58 unit_models/_units/japan/attachments/hijikata_gear.texture 
+63 unit_models/_units/japan/attachments/hijikata_gear_norm.texture 0 
+5 slave 
+58 unit_models/_units/japan/attachments/hijikata_gear.texture 
+63 unit_models/_units/japan/attachments/hijikata_gear_norm.texture 0 
+4 
+4 None 
+14 MTW2_Fast_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 horse 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 camel 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+-1 0 0 0 0 0 0 
+25 Japan_Matsudaira_Katamori 
+1 4 
+54 unit_models/_units/japan/matsudaira_katamori_lod0.mesh 121 
+54 unit_models/_units/japan/matsudaira_katamori_lod0.mesh 900 
+54 unit_models/_units/japan/matsudaira_katamori_lod0.mesh 2500 
+54 unit_models/_units/japan/matsudaira_katamori_lod0.mesh 6400 
+4 
+6 saxons 
+50 unit_models/_units/japan/textures/katamori.texture 
+55 unit_models/_units/japan/textures/katamori_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+6 france 
+50 unit_models/_units/japan/textures/katamori.texture 
+55 unit_models/_units/japan/textures/katamori_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+4 merc 
+50 unit_models/_units/japan/textures/katamori.texture 
+55 unit_models/_units/japan/textures/katamori_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+50 unit_models/_units/japan/textures/katamori.texture 
+55 unit_models/_units/japan/textures/katamori_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+58 unit_models/_units/japan/attachments/katamori_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+6 france 
+58 unit_models/_units/japan/attachments/katamori_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+4 merc 
+58 unit_models/_units/japan/attachments/katamori_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+5 slave 
+58 unit_models/_units/japan/attachments/katamori_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+4 
+4 None 
+14 MTW2_Fast_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 horse 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 camel 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+-1 0 0 0 0 0 0 
+20 Japan_Sakamoto_Ryoma 
+1 4 
+49 unit_models/_units/japan/sakamoto_ryoma_lod0.mesh 121 
+49 unit_models/_units/japan/sakamoto_ryoma_lod0.mesh 900 
+49 unit_models/_units/japan/sakamoto_ryoma_lod0.mesh 2500 
+49 unit_models/_units/japan/sakamoto_ryoma_lod0.mesh 6400 
+4 
+6 saxons 
+47 unit_models/_units/japan/textures/ryoma.texture 
+52 unit_models/_units/japan/textures/ryoma_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+6 france 
+47 unit_models/_units/japan/textures/ryoma.texture 
+52 unit_models/_units/japan/textures/ryoma_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+4 merc 
+47 unit_models/_units/japan/textures/ryoma.texture 
+52 unit_models/_units/japan/textures/ryoma_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+47 unit_models/_units/japan/textures/ryoma.texture 
+52 unit_models/_units/japan/textures/ryoma_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/ryoma_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/ryoma_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/ryoma_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/ryoma_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+4 
+4 None 
+14 MTW2_Fast_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 horse 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 camel 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+-1 0 0 0 0 0 0 
 11 Japan_Kachi 
 1 4 
 40 unit_models/_units/japan/kachi_lod0.mesh 121 
@@ -21560,6 +21792,44 @@
 2 
 18 MTW2_Spear_primary 14 fs_test_shield 
 0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+28 Ethiopia_Sudanese_Musketeers 
+1 4 
+53 unit_models/_units/oroe/sudanese_musketeers_lod0.mesh 121 
+53 unit_models/_units/oroe/sudanese_musketeers_lod0.mesh 900 
+53 unit_models/_units/oroe/sudanese_musketeers_lod0.mesh 2500 
+53 unit_models/_units/oroe/sudanese_musketeers_lod0.mesh 6400 
+3 
+12 papal_states 
+49 unit_models/_units/oroe/textures/sudanese.texture 
+54 unit_models/_units/oroe/textures/sudanese_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+49 unit_models/_units/oroe/textures/sudanese.texture 
+54 unit_models/_units/oroe/textures/sudanese_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+49 unit_models/_units/oroe/textures/sudanese.texture 
+54 unit_models/_units/oroe/textures/sudanese_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+3 
+12 papal_states 
+59 unit_models/_units/oroe/attachments/sudanese_musket.texture 
+64 unit_models/_units/oroe/attachments/sudanese_musket_norm.texture 0 
+4 merc 
+59 unit_models/_units/oroe/attachments/sudanese_musket.texture 
+64 unit_models/_units/oroe/attachments/sudanese_musket_norm.texture 0 
+5 slave 
+59 unit_models/_units/oroe/attachments/sudanese_musket.texture 
+64 unit_models/_units/oroe/attachments/sudanese_musket_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 
+20 MTW2_Non_Shield_Fast 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 15 mongols_captain 
 1 4 
