@@ -13451,8 +13451,6 @@ accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
 soldier          Japan_Seishi, 24, 0, 1
-officer          samurai_general
-officer          xuanzuduizhang
 mount            hussar
 mount_effect     elephant -4, camel -4
 attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, hardy
