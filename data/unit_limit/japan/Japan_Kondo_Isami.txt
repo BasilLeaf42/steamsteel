@@ -10,7 +10,7 @@ soldier          Japan_Bodyguard_Ezo, 4, 0, 1
 officer          Japan_Kondo_Isami
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, general_unit, hardy
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
