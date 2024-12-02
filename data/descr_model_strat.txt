@@ -616,9 +616,9 @@ type				japan_merchant
 skeleton			strat_merchant
 scale				0.7
 indiv_range			40
-texture				saxons, models_strat/textures/SHOGUN_Prom_Kusa_Takeda.tga
-texture				papal_states, models_strat/textures/SHOGUN_Prom_Kusa_Takeda.tga
-model_flexi_m			models_strat/Japanese_strat_Kusa.CAS, max
+texture				saxons, models_strat/textures/Japan_Merchant.tga
+texture				papal_states, models_strat/textures/Japan_Merchant.tga
+model_flexi_m			models_strat/Japan_Merchant.CAS, max
 shadow_model_flexi		models_strat/shadow_hand.CAS, max
 
 type				northern_merchant
@@ -1033,6 +1033,16 @@ texture				slave, models_strat/textures/SHOGUN_Prom_Ashigaru_NagaeYari_Rebel.tga
 model_flexi_m			models_strat/SHOGUN_Ashigaru_NagaeYari_high.CAS, max
 shadow_model_flexi		models_strat/shadow_sword.CAS, max
 
+; Japan - Captain (1870)
+type				Japan_Captain
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_General.tga
+texture				slave, models_strat/textures/Japan_General.tga
+model_flexi_m			models_strat/Japan_General.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
 ; Japan - Generic general (1860)
 type				Japan_General_1860
 skeleton			strat_named_with_army
@@ -1123,16 +1133,6 @@ indiv_range			40
 texture				russia, models_strat/textures/jap_brave_rus_high.tga
 texture				slave, models_strat/textures/jap_brave_rus_high.tga
 model_flexi_m			models_strat/jap_brave_rus.CAS, max
-shadow_model_flexi		models_strat/shadow_sword.CAS, max
-
-type				jp_captain
-skeleton			strat_named_with_army
-scale				0.7
-indiv_range			40
-texture				saxons, models_strat/textures/jap_brave.tga
-texture				france, models_strat/textures/jap_brave.tga
-texture				slave, models_strat/textures/jap_brave_rebel.tga
-model_flexi_m			models_strat/jap_brave.CAS, max
 shadow_model_flexi		models_strat/shadow_sword.CAS, max
 
 type				engzaoqi_general
