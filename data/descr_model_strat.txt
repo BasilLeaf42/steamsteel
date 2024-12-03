@@ -105,6 +105,16 @@ texture				slave, models_strat/textures/taiping_bomb.tga
 model_flexi_m			models_strat/taiping_ambassador.CAS, max
 shadow_model_flexi		models_strat/shadow_scroll.CAS, max
 
+; Japan - Diplomat / Japan - Ambassador
+type				Japan_Ambassador
+skeleton			strat_diplomat
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Diplomat.tga
+texture				slave, models_strat/textures/Japan_Diplomat.tga
+model_flexi_m			models_strat/Japan_Diplomat.CAS, max
+shadow_model_flexi		models_strat/shadow_scroll.CAS, max
+
 
 type				ouzhou_ambassador
 skeleton			strat_diplomat
