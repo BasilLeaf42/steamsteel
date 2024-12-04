@@ -257,13 +257,13 @@ texture				russia, models_strat/textures/1648_agent_euro.tga
 model_flexi_m			models_strat/1648_agent.cas, max
 shadow_model_flexi		models_strat/shadow_hand.CAS, max
 
-type				japan_spy
+type				Japan_Spy
 skeleton			strat_spy
 scale				0.7
 indiv_range			40
-texture				saxons, models_strat/textures/SHOGUN_Prom_Ninja_Takeda.tga
-texture				papal_states, models_strat/textures/SHOGUN_Prom_Ninja_Takeda.tga
-model_flexi_m			models_strat/Japanese_strat_Ninja.cas, max
+texture				saxons, models_strat/textures/Japan_Spy.tga
+texture				slave, models_strat/textures/Japan_Spy.tga
+model_flexi_m			models_strat/Japan_Spy.cas, max
 shadow_model_flexi		models_strat/shadow_hand.CAS, max
 
 type				islamic_spy
