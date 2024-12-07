@@ -461,7 +461,7 @@ settlement
 	year_founded 0
 	population 5200
 	plan_set default_set
-	faction_creator bulga
+	faction_creator byzantium
 	building
 	{
 		type core_building wooden_wall
@@ -490,7 +490,7 @@ settlement
 	year_founded 0
 	population 1100
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 	building
 	{
 		type core_building wooden_wall
@@ -507,7 +507,7 @@ settlement
 	year_founded 0
 	population 7400
 	plan_set default_set
-	faction_creator cuman
+	faction_creator byzantium
 	building
 	{
 		type core_building wooden_wall
@@ -524,7 +524,7 @@ settlement
 	year_founded 0
 	population 1100
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 	building
 	{
 		type core_building wooden_wall
@@ -555,7 +555,7 @@ settlement
 	year_founded 0
 	population 600
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 }
 
 ;Yarkhand
@@ -641,7 +641,7 @@ settlement
 	year_founded 0
 	population 600
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 }
 
 
@@ -712,7 +712,7 @@ settlement
 	year_founded 0
 	population 30400
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 	building
 	{
 		type core_building stone_wall
@@ -728,7 +728,7 @@ settlement
 	year_founded 0
 	population 3000
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 	building
 	{
 		type core_building wooden_pallisade
@@ -744,7 +744,7 @@ settlement
 	year_founded 0
 	population 30400
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 	building
 	{
 		type core_building stone_wall
@@ -759,7 +759,7 @@ settlement
 	year_founded 0
 	population 30400
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 	building
 	{
 		type core_building stone_wall
@@ -787,7 +787,7 @@ settlement
 	year_founded 0
 	population 7500
 	plan_set default_set
-	faction_creator cuman
+	faction_creator saxons
 	building
 	{
 		type core_building wooden_wall
@@ -802,7 +802,7 @@ settlement
 	year_founded 0
 	population 7500
 	plan_set default_set
-	faction_creator cuman
+	faction_creator saxons
 	building
 	{
 		type core_building wooden_wall
@@ -817,7 +817,7 @@ settlement
 	year_founded 0
 	population 7500
 	plan_set default_set
-	faction_creator cuman
+	faction_creator saxons
 	building
 	{
 		type core_building wooden_wall
@@ -889,7 +889,7 @@ settlement
 	year_founded 0
 	population 15900
 	plan_set default_set
-	faction_creator bulga
+	faction_creator egypt
 	building
 	{
 		type core_building stone_wall
@@ -905,7 +905,7 @@ settlement
 	year_founded 0
 	population 6400
 	plan_set default_set
-	faction_creator bulga
+	faction_creator egypt
 	building
 	{
 		type core_building wooden_wall
@@ -921,7 +921,7 @@ settlement
 	year_founded 0
 	population 600
 	plan_set default_set
-	faction_creator bulga
+	faction_creator byzantium
 }
 
 
@@ -933,7 +933,7 @@ settlement
 	year_founded 0
 	population 31000
 	plan_set default_set
-	faction_creator bulga
+	faction_creator spain
 	building
 	{
 		type core_building large_stone_wall
@@ -977,7 +977,7 @@ settlement
 	year_founded 0
 	population 600
 	plan_set default_set
-	faction_creator turks
+	faction_creator spain
 }
 
 
@@ -989,7 +989,7 @@ settlement
 	year_founded 0
 	population 7600
 	plan_set default_set
-	faction_creator turks
+	faction_creator byzantium
 	building
 	{
 		type core_building wooden_wall
@@ -1023,7 +1023,7 @@ settlement
 	year_founded 0
 	population 25250
 	plan_set default_set
-	faction_creator turks
+	faction_creator england
 	building
 	{
 		type core_building stone_wall
@@ -1138,7 +1138,7 @@ settlement
 	year_founded 0
 	population 14700
 	plan_set default_set
-	faction_creator egypt
+	faction_creator russia
 	building
 	{
 		type core_building stone_wall
@@ -1153,7 +1153,7 @@ settlement
 	year_founded 0
 	population 3100
 	plan_set default_set
-	faction_creator egypt
+	faction_creator byzantium
 	building
 	{
 		type core_building wooden_pallisade
@@ -1168,7 +1168,7 @@ settlement
 	year_founded 0
 	population 3000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator russia
 	building
 	{
 		type core_building wooden_pallisade
@@ -1183,7 +1183,7 @@ settlement
 	year_founded 0
 	population 15300
 	plan_set default_set
-	faction_creator egypt
+	faction_creator spain
 	building
 	{
 		type core_building stone_wall
@@ -1225,7 +1225,7 @@ settlement
 	year_founded 0
 	population 26300
 	plan_set default_set
-	faction_creator egypt
+	faction_creator spain
 	building
 	{
 		type core_building large_stone_wall
@@ -1240,7 +1240,7 @@ settlement
 	year_founded 0
 	population 14000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator hre
 	building
 	{
 		type core_building stone_wall
@@ -1257,7 +1257,7 @@ settlement
 	year_founded 0
 	population 3300
 	plan_set default_set
-	faction_creator egypt
+	faction_creator byzantium
 	building
 	{
 		type core_building wooden_pallisade
@@ -1273,7 +1273,7 @@ settlement
 	year_founded 0
 	population 12500
 	plan_set default_set
-	faction_creator egypt
+	faction_creator spain
 	building
 	{
 		type core_building stone_wall
@@ -1289,7 +1289,7 @@ settlement
 	year_founded 0
 	population 8200
 	plan_set default_set
-	faction_creator egypt
+	faction_creator byzantium
 	building
 	{
 		type core_building wooden_wall
@@ -1304,7 +1304,7 @@ settlement
 	year_founded 0
 	population 8700
 	plan_set default_set
-	faction_creator egypt
+	faction_creator byzantium
 	building
 	{
 		type core_building wooden_wall
@@ -1332,7 +1332,7 @@ settlement
 	year_founded 0
 	population 14700
 	plan_set default_set
-	faction_creator russia
+	faction_creator spain
 	building
 	{
 		type core_building wooden_pallisade
@@ -1347,7 +1347,7 @@ settlement
 	year_founded 0
 	population 14700
 	plan_set default_set
-	faction_creator russia
+	faction_creator spain
 	building
 	{
 		type core_building wooden_pallisade
@@ -1363,7 +1363,7 @@ settlement
 	year_founded 0
 	population 14700
 	plan_set default_set
-	faction_creator russia
+	faction_creator spain
 	building
 	{
 		type core_building wooden_pallisade
@@ -1378,7 +1378,7 @@ settlement
 	year_founded 0
 	population 14700
 	plan_set default_set
-	faction_creator russia
+	faction_creator spain
 	building
 	{
 		type core_building wooden_pallisade
@@ -1393,7 +1393,7 @@ settlement
 	year_founded 0
 	population 5200
 	plan_set default_set
-	faction_creator russia
+	faction_creator hre
 	building
 	{
 		type core_building wooden_wall
@@ -1409,7 +1409,7 @@ settlement
 	year_founded 0
 	population 1100
 	plan_set default_set
-	faction_creator russia
+	faction_creator spain
 }
 
 settlement
@@ -1420,7 +1420,7 @@ settlement
 	year_founded 0
 	population 3400
 	plan_set default_set
-	faction_creator russia
+	faction_creator spain
 	building
 	{
 		type core_building wooden_pallisade
@@ -1436,7 +1436,7 @@ settlement
 	year_founded 0
 	population 12600
 	plan_set default_set
-	faction_creator russia
+	faction_creator turks
 	building
 	{
 		type core_building wooden_wall
@@ -1451,7 +1451,7 @@ settlement
 	year_founded 0
 	population 6300
 	plan_set default_set
-	faction_creator russia
+	faction_creator england
 	building
 	{
 		type core_building wooden_wall
@@ -1483,7 +1483,7 @@ settlement
 	year_founded 0
 	population 6500
 	plan_set default_set
-	faction_creator russia
+	faction_creator spain
 	building
 	{
 		type core_building wooden_wall
@@ -1498,7 +1498,7 @@ settlement
 	year_founded 0
 	population 10400
 	plan_set default_set
-	faction_creator russia
+	faction_creator spain
 	building
 	{
 		type core_building wooden_pallisade
@@ -1514,7 +1514,7 @@ settlement
 	year_founded 0
 	population 11000
 	plan_set default_set
-	faction_creator russia
+	faction_creator hre
 	building
 	{
 		type core_building stone_wall
@@ -1530,7 +1530,7 @@ settlement
 	year_founded 0
 	population 4700
 	plan_set default_set
-	faction_creator russia
+	faction_creator spain
 	building
 	{
 		type core_building wooden_wall
@@ -1560,7 +1560,7 @@ settlement
 	year_founded 0
 	population 12300
 	plan_set default_set
-	faction_creator cuman
+	faction_creator france
 	building
 	{
 		type core_building wooden_wall
@@ -1576,7 +1576,7 @@ settlement
 	year_founded 0
 	population 600
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 }
 
 
@@ -1588,7 +1588,7 @@ settlement
 	year_founded 0
 	population 24600
 	plan_set default_set
-	faction_creator cuman
+	faction_creator hre
 	building
 	{
 		type core_building large_stone_wall
@@ -1604,7 +1604,7 @@ settlement
 	year_founded 0
 	population 30400
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 	building
 	{
 		type core_building stone_wall
@@ -1621,7 +1621,7 @@ settlement
 	year_founded 0
 	population 15300
 	plan_set default_set
-	faction_creator cuman
+	faction_creator hungary
 	building
 	{
 		type core_building wooden_wall
@@ -1650,7 +1650,7 @@ settlement
 	year_founded 0
 	population 13100
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator cru
 }
 
 
@@ -1663,7 +1663,7 @@ settlement
 	year_founded 0
 	population 13100
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator cru
 }
 
 
@@ -1676,7 +1676,7 @@ settlement
 	year_founded 0
 	population 13100
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator cru
 }
 
 
@@ -1689,7 +1689,7 @@ settlement
 	year_founded 0
 	population 13100
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator cru
 	building
 	{
 		type core_building wooden_wall
@@ -1706,7 +1706,7 @@ settlement
 	year_founded 0
 	population 13100
 	plan_set default_set
-	faction_creator byzantium
+	faction_creator cru
 	building
 	{
 		type core_building wooden_pallisade
@@ -1737,7 +1737,7 @@ settlement
 	year_founded 0
 	population 3100
 	plan_set default_set
-	faction_creator bulga
+	faction_creator hungary
 	building
 	{
 		type core_building wooden_pallisade
@@ -1753,7 +1753,7 @@ settlement
 	year_founded 0
 	population 17200
 	plan_set default_set
-	faction_creator bulga
+	faction_creator spain
 	building
 	{
 		type core_building stone_wall
@@ -1768,7 +1768,7 @@ settlement
 	year_founded 0
 	population 17100
 	plan_set default_set
-	faction_creator bulga
+	faction_creator egypt
 	building
 	{
 		type core_building stone_wall
@@ -1799,7 +1799,7 @@ settlement
 	year_founded 0
 	population 1100
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 	building
 	{
 		type core_building wooden_wall
@@ -1833,12 +1833,14 @@ settlement
 	year_founded 0
 	population 24300
 	plan_set default_set
-	faction_creator egypt
+	faction_creator byzantium
 	building
 	{
 		type core_building large_stone_wall
 	}
 }
+
+
 
 
 
@@ -1850,7 +1852,7 @@ settlement
 	year_founded 0
 	population 17000
 	plan_set default_set
-	faction_creator cuman
+	faction_creator spain
 	building
 	{
 		type core_building wooden_wall
@@ -1865,7 +1867,7 @@ settlement
 	year_founded 0
 	population 7000
 	plan_set default_set
-	faction_creator cuman
+	faction_creator saxons
 	building
 	{
 		type core_building wooden_wall
@@ -1882,7 +1884,7 @@ settlement
 	year_founded 0
 	population 6400
 	plan_set default_set
-	faction_creator cuman
+	faction_creator saxons
 	building
 	{
 		type core_building wooden_wall
@@ -1900,7 +1902,7 @@ settlement
 	year_founded 0
 	population 29700
 	plan_set default_set
-	faction_creator cuman
+	faction_creator poland
 	building
 	{
 		type core_building large_stone_wall
@@ -1933,7 +1935,7 @@ settlement
 	year_founded 0
 	population 5700
 	plan_set default_set
-	faction_creator cuman
+	faction_creator saxons
 	building
 	{
 		type core_building wooden_wall
@@ -1951,7 +1953,7 @@ settlement
 	year_founded 0
 	population 18000
 	plan_set default_set
-	faction_creator bulga
+	faction_creator egypt
 	building
 	{
 		type core_building stone_wall
@@ -1968,7 +1970,7 @@ settlement
 	year_founded 0
 	population 17000
 	plan_set default_set
-	faction_creator cuman
+	faction_creator egypt
 	building
 	{
 		type core_building stone_wall
@@ -1984,7 +1986,7 @@ settlement
 	year_founded 0
 	population 1000
 	plan_set default_set
-	faction_creator bulga
+	faction_creator spain
 }
 
 
@@ -1996,7 +1998,7 @@ settlement
 	year_founded 0
 	population 1100
 	plan_set default_set
-	faction_creator cuman
+	faction_creator turks
 }
 
 
@@ -2018,175 +2020,6 @@ settlement
 	}
 }
 
-
-
-;Khumul
-settlement
-{
-	level town
-	region Khumul_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
-
-
-
-;Gobe Teke
-settlement
-{
-	level town
-	region Gobe_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
-
-
-;Astrabad
-settlement
-{
-	level town
-	region Astrabad_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
-
-
-;Sarakhs
-settlement
-{
-	level village
-	region Sarakhs_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-}
-
-
-;turkenstan
-settlement
-{
-	level village
-	region Turkestan_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-}
-
-
-;tashkent
-settlement
-{
-	level village
-	region Tash_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-}
-
-
-;samarwnad
-settlement
-{
-	level village
-	region Samar_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-}
-
-
-;balkh
-settlement
-{
-	level village
-	region Balkh_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-}
-
-
-;khujand
-settlement
-{
-	level village
-	region Khujand_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-}
-
-
-;tashkorgan
-settlement
-{
-	level village
-	region Muzatagh_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-}
-
-
-;tashkorgan
-settlement
-{
-	level village
-	region Sindh_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-}
-
-
-;tashkorgan
-settlement
-{
-	level village
-	region Quetta_Province
-
-	year_founded 0
-	population 13100
-	plan_set default_set
-	faction_creator cuman
-}
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
