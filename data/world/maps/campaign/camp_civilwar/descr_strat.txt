@@ -344,6 +344,127 @@ settlement
 	faction_creator moors
 }
 
+settlement
+{
+	level village
+	region Hamilton_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Cuyahoga_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Allen_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Peoria_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Sangamon_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Dauphin_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Philadelphia_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Albany_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Onondaga_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Fulton_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Erie_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
 
 character	Philip, named character, male, leader, age 40, x 237, y 48 
 
@@ -510,6 +631,283 @@ settlement
 {
 	level village
 	region Tennessee_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+
+settlement
+{
+	level village
+	region Greenville_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+
+settlement
+{
+	level village
+	region Atlanta_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+
+settlement
+{
+	level village
+	region Chatham_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+
+settlement
+{
+	level village
+	region Jefferson_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+
+settlement
+{
+	level village
+	region Mobile_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+
+settlement
+{
+	level village
+	region BR_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+
+settlement
+{
+	level village
+	region Shreveport_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+
+settlement
+{
+	level village
+	region Warren_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+settlement
+{
+	level village
+	region New_Hanover_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+settlement
+{
+	level village
+	region Guilford_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+settlement
+{
+	level village
+	region Knox_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+settlement
+{
+	level village
+	region Shelby_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+settlement
+{
+	level village
+	region Norfolk_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+settlement
+{
+	level village
+	region Alexandria_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+settlement
+{
+	level village
+	region Fayette_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+settlement
+{
+	level village
+	region Huntington_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Thurston_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Spokane_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Marion_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Weber_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Provo_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Storey_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Sacramento_Province
 
 	year_founded 0
 	population 400
