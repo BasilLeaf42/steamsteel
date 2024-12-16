@@ -154,10 +154,11 @@ function onReadGameDbsAtStart()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hoppo_Keibitai_1880.txt", 1029);
 	
 	-- Japan (Unique generals)
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kondo_Isami.txt", 1050);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hijikata_Toshizo.txt", 1051);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Matsudaira_Katamori.txt", 1052);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Sakamoto_Ryoma.txt", 1053);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Tokugawa_Yoshinobu.txt", 1050);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kondo_Isami.txt", 1051);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hijikata_Toshizo.txt", 1052);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Matsudaira_Katamori.txt", 1053);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Sakamoto_Ryoma.txt", 1054);
 	
 	-- Qing
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/qing/Qing_Tiger_Warriors.txt", 1100);
