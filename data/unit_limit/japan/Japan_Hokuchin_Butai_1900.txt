@@ -1,21 +1,21 @@
-type             Japan Tondenhei 1870
-dictionary       Japan_Tondenhei_1870      ; Tondenhei (1870) (Chassepot Mle.1866, Bayonet)
+type             Japan Hokuchin Butai 1900
+dictionary       Japan_Hokuchin_Butai_1900      ; Hokuchin Butai (1890) (Type 30 Arisaka, Bayonet)
 category         infantry
 class            missile
 voice_type       Light
 accent      	 japanese
 banner faction   main_spear
 banner holy      crusade
-soldier          Japan_Tondenhei_1870, 30, 0, 1
+soldier          Japan_Rikuguntai_7th_1900, 30, 0, 1
 officer			 Japan_IJA_Officer
 officer			 Japan_Hokokutai_Flag
 attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
-;stat_pri_ex      0, 0, 20
+stat_pri         28, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
-stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap, short_pike
 stat_pri_armour  3, 3, 0, flesh
@@ -29,6 +29,6 @@ stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
 armour_ug_levels 0
-armour_ug_models Japan_Tondenhei_1870
+armour_ug_models Japan_Rikuguntai_7th_1900
 ownership        saxons, slave
-era 1            saxons
+era 2            saxons
