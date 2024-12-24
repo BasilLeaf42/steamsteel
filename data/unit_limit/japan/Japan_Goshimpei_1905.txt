@@ -1,12 +1,12 @@
-type             Japan Goshimpei 1870
-dictionary       Japan_Goshimpei_1870      ; Goshimpei (1870) (Mauser Gewehr 71, Bayonet)
+type             Japan Goshimpei 1905
+dictionary       Japan_Goshimpei_1905      ; Goshimpei (Khaki) (Type 38 Arisaka, Bayonet)
 category         infantry
 class            missile
 voice_type       Light
 accent      	 japanese
 banner faction   main_spear
 banner holy      crusade
-soldier          Japan_Goshimpei_1870, 40, 0, 1
+soldier          Japan_Goshimpei_1905, 40, 0, 1
 officer			 Japan_IJA_Officer
 officer			 Japan_Hokokutai_Flag
 attributes       free_upkeep_unit, sea_faring, very_hardy, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
@@ -29,6 +29,6 @@ stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
 armour_ug_levels 0
-armour_ug_models Japan_Goshimpei_1870
+armour_ug_models Japan_Goshimpei_1905
 ownership        saxons, slave
-era 1            saxons
+era 2            saxons
