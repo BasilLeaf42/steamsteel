@@ -1113,6 +1113,16 @@ texture				slave, models_strat/textures/Japan_Matsudaira_Katamori.tga
 model_flexi_m			models_strat/Japan_Matsudaira_Katamori.CAS, max
 shadow_model_flexi		models_strat/shadow_sword.CAS, max
 
+; Japan - Itagaki Taisuke / Taisuke Itagaki
+type				Japan_Itagaki_Taisuke
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Itagaki_Taisuke.tga
+texture				slave, models_strat/textures/Japan_Itagaki_Taisuke.tga
+model_flexi_m			models_strat/Japan_Itagaki_Taisuke.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
 ; Japan - Sakamoto Ryoma / Ryoma Sakamoto
 type				Japan_Sakamoto_Ryoma
 skeleton			strat_named_with_army
