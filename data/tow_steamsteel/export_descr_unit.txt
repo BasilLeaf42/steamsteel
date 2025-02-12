@@ -661,7 +661,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1000, 250, 90, 170, 1000, 2, 250
 armour_ug_levels 0
-armour_ug_models Japan_Arty_Satcho
+armour_ug_models Japan_Arty_IJA
 ownership        saxons, slave
 era 2            saxons, slave
 
@@ -732,7 +732,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 250, 90, 70, 1000, 2, 250
 armour_ug_levels 0
-armour_ug_models Japan_Arty_Satcho
+armour_ug_models Japan_Arty_IJA
 ownership        saxons, slave
 era 2            saxons, slave
 
@@ -802,7 +802,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 armour_ug_levels 0
-armour_ug_models Japan_Arty_Satcho
+armour_ug_models Japan_Arty_IJA
 ownership        saxons, slave
 era 2            saxons, slave
 
@@ -814,7 +814,7 @@ voice_type       Heavy
 accent           japanese
 banner faction   main_missile
 banner holy      crusade
-soldier          jap_cannon_crew, 20, 4, 1.0
+soldier          Japan_Arty_Cast_Iron, 20, 4, 1.0
 engine           cannon
 attributes       sea_faring, gunpowder_unit, cannon, artillery, hide_forest, can_withdraw
 formation        1.5, 1.5, 3, 3, 3, square
@@ -835,9 +835,9 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1400, 375, 30, 40, 1400, 2, 375
 armour_ug_levels 0
-armour_ug_models Japan_Arty_Satcho
-ownership        saxons, slave
-era 0            saxons, slave
+armour_ug_models Japan_Arty_Cast_Iron
+ownership        saxons, france, slave
+era 0            saxons, france, slave
 era 1            saxons, slave
 
 
@@ -1393,7 +1393,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          sho_cannon_crew, 20, 4, 1.0
 engine           cannon
-attributes       sea_faring, gunpowder_unit, cannon, artillery, hide_forest, can_withdraw
+attributes       sea_faring, gunpowder_unit, cannon, artillery, hide_forest, can_withdraw, no_custom
 formation        1.5, 1.5, 3, 3, 3, square
 stat_health      1, 0
 stat_pri         6, 3, no, 0, 0, melee, artillery_gunpowder, piercing, knife, 25, 1.8

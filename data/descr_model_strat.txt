@@ -1113,6 +1113,16 @@ texture				slave, models_strat/textures/Japan_Matsudaira_Katamori.tga
 model_flexi_m			models_strat/Japan_Matsudaira_Katamori.CAS, max
 shadow_model_flexi		models_strat/shadow_sword.CAS, max
 
+; Japan - Saigo Takamori (1860) / Takamori Saigo (1860)
+type				Japan_Saigo_Takamori_1860
+skeleton			strat_named_with_army
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Saigo_Takamori_1860.tga
+texture				slave, models_strat/textures/Japan_Saigo_Takamori_1860.tga
+model_flexi_m			models_strat/Japan_Saigo_Takamori_1860.CAS, max
+shadow_model_flexi		models_strat/shadow_sword.CAS, max
+
 ; Japan - Itagaki Taisuke / Taisuke Itagaki
 type				Japan_Itagaki_Taisuke
 skeleton			strat_named_with_army

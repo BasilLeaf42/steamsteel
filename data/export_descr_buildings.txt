@@ -3592,13 +3592,12 @@ building cannon
 	recruit_pool "rus_gatling"  1   0.01   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource austria or hidden_resource hungary
 
 	; japan ishin
-	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Cast Iron Cannon
+	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, }  
 	recruit_pool "jap_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Muzzle-Loading Rifled Cannon
 	recruit_pool "Japan Armstrong Han"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Breech-Loading Rifled Cannon
 	; recruit_pool "jap_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Gatling Gun
 	
 	; japan shogun
-	recruit_pool "sho_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Cast Iron Cannon
 	recruit_pool "sho_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Muzzle-Loading Rifled Cannon
 	; recruit_pool "Japan Armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Breech-Loading Rifled Cannon
 	recruit_pool "sho_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Gatling Gun
@@ -3609,7 +3608,6 @@ building cannon
 
 	recruit_pool "ind_armstrong"  1   0.01   1  0  requires factions { timurids, }  and not event_counter military_reforms_1890 1 and hidden_resource afghanistan
 
-	recruit_pool "sho_armstrong"  1   0.01   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
 
 	recruit_pool "csa_maxim"  1   0.01   1  0  requires factions { milan, }  and event_counter military_reforms_1890 1 and hidden_resource usa
 	recruit_pool "csa_maxim"  1   0.01   1  0  requires factions { teu, }  and event_counter military_reforms_1890 1 and hidden_resource south_africa
@@ -3664,13 +3662,12 @@ building cannon
 	recruit_pool "rus_armstrong"  0.4   0.04   0.4  0  requires factions { russia, mongols, normans, hungary, hre, }
 
 	; japan ishin
-	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Cast Iron Cannon
+	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, } 
 	recruit_pool "jap_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Muzzle-Loading Rifled Cannon
 	recruit_pool "Japan Armstrong Han"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Breech-Loading Rifled Cannon
 	; recruit_pool "jap_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Gatling Gun
 	
 	; japan shogun
-	recruit_pool "sho_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Cast Iron Cannon
 	recruit_pool "sho_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Muzzle-Loading Rifled Cannon
 	; recruit_pool "Japan Armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Breech-Loading Rifled Cannon
 	recruit_pool "sho_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Gatling Gun
@@ -3687,7 +3684,6 @@ building cannon
 	recruit_pool "sho_5lb"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 	recruit_pool "sho_gatling"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 	recruit_pool "sho_150mm"  0.4   0.04   0.4  0  requires factions { papal_states, } 
-	recruit_pool "sho_armstrong"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 
 	recruit_pool "csa_maxim"  0.4   0.04   0.4  0  requires factions { milan, teu, } 
 	recruit_pool "csa_pompom"  0.4   0.04   0.4  0  requires factions { teu, } 
@@ -3788,13 +3784,12 @@ building cannon
 	recruit_pool "rus_gatling"  1   0.05   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource austria or hidden_resource hungary
 
 	; japan ishin
-	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Cast Iron Cannon
+	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, } 
 	recruit_pool "jap_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Muzzle-Loading Rifled Cannon
 	recruit_pool "Japan Armstrong Han"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Breech-Loading Rifled Cannon
 	; recruit_pool "jap_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Gatling Gun
 	
 	; japan shogun
-	recruit_pool "sho_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Cast Iron Cannon
 	recruit_pool "sho_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Muzzle-Loading Rifled Cannon
 	; recruit_pool "Japan Armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Breech-Loading Rifled Cannon
 	recruit_pool "sho_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Gatling Gun
@@ -3814,7 +3809,6 @@ building cannon
 	recruit_pool "sho_maxim"  1   0.05   1  0  requires factions { papal_states, }  and event_counter military_reforms_1890 1 and hidden_resource japan
 	recruit_pool "sho_5lb"  1   0.05   1  0  requires factions { papal_states, }  and event_counter military_reforms_2 1 and hidden_resource japan
 	recruit_pool "sho_gatling"  1   0.05   1  0  requires factions { papal_states, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource japan
-	recruit_pool "sho_armstrong"  1   0.05   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
 
 	recruit_pool "csa_maxim"  1   0.05   1  0  requires factions { milan, }  and event_counter military_reforms_1890 1 and hidden_resource usa
 	recruit_pool "csa_maxim"  1   0.05   1  0  requires factions { teu, }  and event_counter military_reforms_1890 1 and hidden_resource south_africa
@@ -3896,13 +3890,12 @@ building cannon
 	recruit_pool "rus_armstrong"  0.4   0.04   0.4  0  requires factions { russia, mongols, normans, hungary, hre, }
 
 	; japan ishin
-	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Cast Iron Cannon
+	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, } 
 	recruit_pool "jap_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Muzzle-Loading Rifled Cannon
 	recruit_pool "Japan Armstrong Han"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Breech-Loading Rifled Cannon
 	; recruit_pool "jap_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Gatling Gun
 	
 	; japan shogun
-	recruit_pool "sho_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Cast Iron Cannon
 	recruit_pool "sho_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Muzzle-Loading Rifled Cannon
 	; recruit_pool "Japan Armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Breech-Loading Rifled Cannon
 	recruit_pool "sho_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Gatling Gun
@@ -3919,7 +3912,6 @@ building cannon
 	recruit_pool "sho_5lb"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 	recruit_pool "sho_gatling"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 	recruit_pool "sho_150mm"  0.4   0.04   0.4  0  requires factions { papal_states, } 
-	recruit_pool "sho_armstrong"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 
 	recruit_pool "csa_maxim"  0.4   0.04   0.4  0  requires factions { milan, teu, } 
 	recruit_pool "csa_pompom"  0.4   0.04   0.4  0  requires factions { teu, } 
@@ -4064,13 +4056,12 @@ building cannon
 	recruit_pool "rus_armstrong"  1   0.1   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource austria or hidden_resource hungary
 
 	; japan ishin
-	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Cast Iron Cannon
+	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, } 
 	recruit_pool "jap_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Muzzle-Loading Rifled Cannon
 	recruit_pool "Japan Armstrong Han"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Breech-Loading Rifled Cannon
 	; recruit_pool "jap_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Gatling Gun
 	
 	; japan shogun
-	recruit_pool "sho_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Cast Iron Cannon
 	recruit_pool "sho_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Muzzle-Loading Rifled Cannon
 	; recruit_pool "Japan Armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Breech-Loading Rifled Cannon
 	recruit_pool "sho_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Gatling Gun
@@ -4098,7 +4089,6 @@ building cannon
 	recruit_pool "sho_5lb"  1   0.1   1  0  requires factions { papal_states, }  and event_counter military_reforms_2 1 and hidden_resource japan
 	recruit_pool "sho_gatling"  1   0.1   1  0  requires factions { papal_states, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource japan
 	recruit_pool "sho_150mm"  1   0.1   1  0  requires factions { papal_states, }  and event_counter military_reforms_1890 1 and hidden_resource japan
-	recruit_pool "sho_armstrong"  1   0.1   1  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
 
 	recruit_pool "csa_maxim"  1   0.1   1  0  requires factions { milan, }  and event_counter military_reforms_1890 1 and hidden_resource usa
 	recruit_pool "csa_maxim"  1   0.1   1  0  requires factions { teu, }  and event_counter military_reforms_1890 1 and hidden_resource south_africa
@@ -4220,13 +4210,12 @@ building cannon
 	recruit_pool "rus_armstrong"  0.4   0.04   0.4  0  requires factions { russia, mongols, normans, hungary, hre, }
 
 	; japan ishin
-	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Cast Iron Cannon
+	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, } 
 	recruit_pool "jap_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Muzzle-Loading Rifled Cannon
 	recruit_pool "Japan Armstrong Han"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Breech-Loading Rifled Cannon
 	; recruit_pool "jap_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Gatling Gun
 	
 	; japan shogun
-	recruit_pool "sho_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Cast Iron Cannon
 	recruit_pool "sho_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Muzzle-Loading Rifled Cannon
 	; recruit_pool "Japan Armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Breech-Loading Rifled Cannon
 	recruit_pool "sho_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Gatling Gun
@@ -4243,7 +4232,6 @@ building cannon
 	recruit_pool "sho_5lb"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 	recruit_pool "sho_gatling"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 	recruit_pool "sho_150mm"  0.4   0.04   0.4  0  requires factions { papal_states, } 
-	recruit_pool "sho_armstrong"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 
 	recruit_pool "csa_maxim"  0.4   0.04   0.4  0  requires factions { milan, teu, } 
 	recruit_pool "csa_pompom"  0.4   0.04   0.4  0  requires factions { teu, } 
@@ -4390,13 +4378,12 @@ building cannon
 	recruit_pool "rus_armstrong"  2   0.2   2  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource austria or hidden_resource hungary
 
 	; japan ishin
-	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Cast Iron Cannon
+	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, } 
 	recruit_pool "jap_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Muzzle-Loading Rifled Cannon
 	recruit_pool "Japan Armstrong Han"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Breech-Loading Rifled Cannon
 	; recruit_pool "jap_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Gatling Gun
 	
 	; japan shogun
-	recruit_pool "sho_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Cast Iron Cannon
 	recruit_pool "sho_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Muzzle-Loading Rifled Cannon
 	; recruit_pool "Japan Armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Breech-Loading Rifled Cannon
 	recruit_pool "sho_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Gatling Gun
@@ -4424,7 +4411,6 @@ building cannon
 	recruit_pool "sho_5lb"  2   0.2   2  0  requires factions { papal_states, }  and event_counter military_reforms_2 1 and hidden_resource japan
 	recruit_pool "sho_gatling"  2   0.2   2  0  requires factions { papal_states, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource japan
 	recruit_pool "sho_150mm"  2   0.2   2  0  requires factions { papal_states, }  and event_counter military_reforms_1890 1 and hidden_resource japan
-	recruit_pool "sho_armstrong"  2   0.2   2  0  requires factions { papal_states, }  and not event_counter military_reforms_1 1 and hidden_resource japan
 
 	recruit_pool "csa_maxim"  2   0.2   2  0  requires factions { milan, }  and event_counter military_reforms_1890 1 and hidden_resource usa
 	recruit_pool "csa_maxim"  2   0.2   2  0  requires factions { teu, }  and event_counter military_reforms_1890 1 and hidden_resource south_africa
@@ -4546,13 +4532,12 @@ building cannon
 	recruit_pool "rus_armstrong"  0.4   0.04   0.4  0  requires factions { russia, mongols, normans, hungary, hre, }
 
 	; japan ishin
-	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Cast Iron Cannon
+	recruit_pool "jap_armstrong"  1   0.01   1  0  requires factions { saxons, } 
 	recruit_pool "jap_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Muzzle-Loading Rifled Cannon
 	recruit_pool "Japan Armstrong Han"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Breech-Loading Rifled Cannon
 	; recruit_pool "jap_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_accepted 1 ; Gatling Gun
 	
 	; japan shogun
-	recruit_pool "sho_armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Cast Iron Cannon
 	recruit_pool "sho_12lb"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Muzzle-Loading Rifled Cannon
 	; recruit_pool "Japan Armstrong"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Breech-Loading Rifled Cannon
 	recruit_pool "sho_gatling"  1   0.01   1  0  requires factions { saxons, }  and event_counter ishin_decision_declined 1 ; Gatling Gun
@@ -4569,7 +4554,6 @@ building cannon
 	recruit_pool "sho_5lb"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 	recruit_pool "sho_gatling"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 	recruit_pool "sho_150mm"  0.4   0.04   0.4  0  requires factions { papal_states, } 
-	recruit_pool "sho_armstrong"  0.4   0.04   0.4  0  requires factions { papal_states, } 
 
 	recruit_pool "csa_maxim"  0.4   0.04   0.4  0  requires factions { milan, teu, } 
 	recruit_pool "csa_pompom"  0.4   0.04   0.4  0  requires factions { teu, } 
