@@ -1,12 +1,12 @@
-type             Japan Ryukihei 1870
-dictionary       Japan_Ryukihei_1870      ; Japanese Ryukihei (1870) (Starr M1868 breech-loading carbine, Saber)
+type             Japan Ryukihei 1880
+dictionary       Japan_Ryukihei_1880      ; Japanese Ryukihei (1880) (Type 16 Murata breech-loading carbine, Saber)
 category         cavalry
 class            missile
 voice_type       Heavy
 accent      	 japanese
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Japan_Ryukihei_1870, 24, 0, 1
+soldier          Japan_Ryukihei_1880, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
@@ -31,6 +31,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1200, 500, 80, 60, 1200, 4, 100
 armour_ug_levels 0
-armour_ug_models Japan_Ryukihei_1870
+armour_ug_models Japan_Ryukihei_1880
 ownership        saxons, slave
-era 1            saxons
+era 2            saxons
