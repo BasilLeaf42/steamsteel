@@ -8094,7 +8094,9 @@ building thiefs_guild
             {
                 law_bonus bonus 2
                 agent spy  0 requires factions { all, }  
+				agent assassin  0 requires factions { saxons, }  
                 agent_limit spy 1
+				agent_limit assassin 1
                 income_bonus bonus -300
             }
             material wooden
@@ -8112,7 +8114,9 @@ building thiefs_guild
             {
                 law_bonus bonus 3
                 agent spy  1 requires factions { all, } 
+				agent assassin  1 requires factions { saxons, } 
                 agent_limit spy 1
+				agent_limit assassin 1
                 income_bonus bonus -500
             }
             material wooden
@@ -8130,7 +8134,9 @@ building thiefs_guild
             {
                 law_bonus bonus 4
                 agent spy  2 requires factions { all, } 
+				agent assassin  2 requires factions { saxons, } 
                 agent_limit spy 1
+				agent_limit assassin 1
                 income_bonus bonus -700
             }
             material wooden

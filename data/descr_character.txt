@@ -739,7 +739,8 @@ strat_model		ming_assassin
 
 faction			saxons
 dictionary		2
-strat_model		ninja
+strat_model		Japan_Assassin_Shinsengumi
+;strat_model		Japan_Assassin_Ishin_Shishi
 
 faction			mongols
 dictionary		2

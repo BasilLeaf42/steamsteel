@@ -495,6 +495,24 @@ texture				saxons, models_strat/textures/ninja.tga
 model_flexi_m			models_strat/ninja.cas, max
 shadow_model_flexi		models_strat/shadow_hand.CAS, max
 
+
+type				Japan_Assassin_Shinsengumi
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Assassin_Shinsengumi.tga
+model_flexi_m			models_strat/Japan_Assassin_Shinsengumi.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
+
+type				Japan_Assassin_Ishin_Shishi
+skeleton			strat_assassin
+scale				0.7
+indiv_range			40
+texture				saxons, models_strat/textures/Japan_Assassin_Ishin_Shishi.tga
+model_flexi_m			models_strat/Japan_Assassin_Ishin_Shishi.cas, max
+shadow_model_flexi		models_strat/shadow_hand.CAS, max
+
 ;;;;;;;;;;;;
 ; PRINCESS ;
 ;;;;;;;;;;;;
