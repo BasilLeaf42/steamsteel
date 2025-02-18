@@ -1,12 +1,12 @@
-type             Japan Goshimpei Kihei 1880
-dictionary       Japan_Goshimpei_Kihei_1880      ; Imperial Japanese Goshimpei Kihei (1880s) / Ishin Goshimpei Kihei (1880s) (Type 16 Murata breech-loading carbine, Lance)
+type             Japan Goshimpei Kihei 1905
+dictionary       Japan_Goshimpei_Kihei_1905      ; Imperial Japanese Goshimpei Kihei (Khaki) / Ishin Goshimpei Kihei (Khaki) (Type 38 Arisaka repeating carbine, Lance)
 category         cavalry
 class            missile
 voice_type       Heavy
 accent      	 france
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Japan_Goshimpei_Kihei_1880, 24, 0, 1
+soldier          Japan_Goshimpei_Kihei_1905, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
@@ -31,6 +31,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1600, 600, 80, 60, 1600, 4, 100
 armour_ug_levels 0
-armour_ug_models Japan_Goshimpei_Kihei_1880
+armour_ug_models Japan_Goshimpei_Kihei_1905
 ownership        saxons, slave
 era 2            saxons
