@@ -14,7 +14,7 @@ attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, star
 move_speed_mod	 1.0
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         24, 2, mounted_arquebus_bullet, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         13, 2, mounted_arquebus_bullet, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1

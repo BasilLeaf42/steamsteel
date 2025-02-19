@@ -1,0 +1,32 @@
+type             Japan Koheitai 1900
+dictionary       Japan_Koheitai_1900      ; Imperial Japanese Koheitai (1900s) / Imperial Japanese Sappers (1900s) / Ishin Koheitai (1900s) (Improvised Type 31 shell grenade, Shovel)
+category         infantry
+class            heavy
+voice_type       Light
+accent      	 japanese
+banner faction   main_infantry
+soldier          Japan_Koheitai_1900, 16, 0, 1
+officer			 Japan_IJA_Officer
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, incendiary, start_not_skirmishing, stakes, stakes
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         15, 5, grenade_new, 50, 5, missile, missile_gunpowder, blunt, none, 25, 0.7
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    area, launching, thrown
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 5, 0, flesh
+;stat_armour_ex   4, 0, 0, 0, 5, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 1, 1
+stat_mental      6, normal, highly_trained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1400, 300, 50, 70, 1400, 2, 200
+armour_ug_levels 0
+armour_ug_models Japan_Koheitai_1900
+ownership        saxons, slave 
+era 2            saxons

@@ -14209,38 +14209,6 @@ era 1            saxons, france
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ 1870s - Empire of Japan
- 
-type             jap_kami
-dictionary       jap_kami      ; Japanese Sappers
-category         infantry
-class            heavy
-voice_type       Light
-accent      	 japanese
-banner faction   main_infantry
-soldier          jap_kami, 16, 0, 1
-officer          norse_archers_jun
-attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, incendiary, start_not_skirmishing
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         15, 5, grenade_new, 50, 5, missile, missile_gunpowder, blunt, none, 25, 0.7
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    area, launching, thrown
-stat_sec         10, 6, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap
-stat_pri_armour  3, 5, 0, leather
-;stat_armour_ex   4, 0, 0, 0, 5, 0, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, -2, 1, 1
-stat_mental      8, normal, highly_trained, lock_morale
-stat_charge_dist 40
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 1400, 470, 50, 70, 1400, 1, 470
-ownership        saxons, slave
-era 1            saxons, slave
-era 2            saxons, slave
 
 type             sho_mod_cav
 dictionary       sho_mod_cav      ; Japanese General and Staff
