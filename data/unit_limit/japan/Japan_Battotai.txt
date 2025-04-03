@@ -8,7 +8,7 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          Japan_Battotai, 48, 0, 1
 officer			 Japan_IJA_Officer
-officer			 Japan_Hokokutai_Flag
+officer			 Japan_Keishitai_1870_Flag
 attributes       free_upkeep_unit, sea_faring, hide_improved_forest, very_hardy, can_withdraw
 move_speed_mod	 1.3
 formation        1.2, 1.2, 3, 3, 5, square

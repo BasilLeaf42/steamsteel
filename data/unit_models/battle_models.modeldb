@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 718 0 0 
+22 serialization::archive 3 0 0 0 0 728 0 0 
 5 blank 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 10 mount_pony 
 1 3 
@@ -13823,17 +13823,17 @@
 40 unit_sprites/milan_Musketeers_sprite.spr 
 4 
 6 saxons 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
 6 france 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
 4 merc 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
 5 slave 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
 1 
 4 None 
 14 MTW2_Swordsman 0 
@@ -14001,6 +14001,49 @@
 19 MTW2_Musket_Primary 
 1 
 24 MTW2_2HSwordsman_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+25 Japan_Keishitai_1870_Flag 
+1 4 
+54 unit_models/_units/japan/keishitai_1870_flag_lod0.mesh 121 
+54 unit_models/_units/japan/keishitai_1870_flag_lod0.mesh 900 
+54 unit_models/_units/japan/keishitai_1870_flag_lod0.mesh 2500 
+54 unit_models/_units/japan/keishitai_1870_flag_lod0.mesh 6400 
+4 
+6 saxons 
+56 unit_models/_units/japan/textures/keishitai_1870.texture 
+61 unit_models/_units/japan/textures/keishitai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+56 unit_models/_units/japan/textures/keishitai_1870.texture 
+61 unit_models/_units/japan/textures/keishitai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+56 unit_models/_units/japan/textures/keishitai_1870.texture 
+61 unit_models/_units/japan/textures/keishitai_1870_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+56 unit_models/_units/japan/textures/keishitai_1870.texture 
+61 unit_models/_units/japan/textures/keishitai_1870_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 Japan_Suzakutai_1870 
 1 4 
@@ -14225,6 +14268,49 @@
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+26 Japan_Rikuguntai_1870_Flag 
+1 4 
+55 unit_models/_units/japan/rikuguntai_1870_flag_lod0.mesh 121 
+55 unit_models/_units/japan/rikuguntai_1870_flag_lod0.mesh 900 
+55 unit_models/_units/japan/rikuguntai_1870_flag_lod0.mesh 2500 
+55 unit_models/_units/japan/rikuguntai_1870_flag_lod0.mesh 6400 
+4 
+6 saxons 
+57 unit_models/_units/japan/textures/rikuguntai_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+57 unit_models/_units/japan/textures/rikuguntai_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+57 unit_models/_units/japan/textures/rikuguntai_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+57 unit_models/_units/japan/textures/rikuguntai_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 21 Japan_Rikuguntai_1880 
 1 4 
 50 unit_models/_units/japan/rikuguntai_1880_lod0.mesh 121 
@@ -14269,6 +14355,49 @@
 19 MTW2_Musket_Primary 
 1 
 17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+26 Japan_Rikuguntai_1880_Flag 
+1 4 
+55 unit_models/_units/japan/rikuguntai_1880_flag_lod0.mesh 121 
+55 unit_models/_units/japan/rikuguntai_1880_flag_lod0.mesh 900 
+55 unit_models/_units/japan/rikuguntai_1880_flag_lod0.mesh 2500 
+55 unit_models/_units/japan/rikuguntai_1880_flag_lod0.mesh 6400 
+4 
+6 saxons 
+57 unit_models/_units/japan/textures/rikuguntai_1880.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+57 unit_models/_units/japan/textures/rikuguntai_1880.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+57 unit_models/_units/japan/textures/rikuguntai_1880.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+57 unit_models/_units/japan/textures/rikuguntai_1880.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 21 Japan_Rikuguntai_1890 
 1 4 
@@ -14404,6 +14533,49 @@
 19 MTW2_Musket_Primary 
 1 
 17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+26 Japan_Rikuguntai_1905_Flag 
+1 4 
+55 unit_models/_units/japan/rikuguntai_1880_flag_lod0.mesh 121 
+55 unit_models/_units/japan/rikuguntai_1880_flag_lod0.mesh 900 
+55 unit_models/_units/japan/rikuguntai_1880_flag_lod0.mesh 2500 
+55 unit_models/_units/japan/rikuguntai_1880_flag_lod0.mesh 6400 
+4 
+6 saxons 
+57 unit_models/_units/japan/textures/rikuguntai_1900.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+57 unit_models/_units/japan/textures/rikuguntai_1900.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+57 unit_models/_units/japan/textures/rikuguntai_1900.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+57 unit_models/_units/japan/textures/rikuguntai_1900.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/flag_gear6.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/flag_gear6.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/flag_gear6.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/flag_gear6.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 25 Japan_Rikuguntai_7th_1890 
 1 4 
@@ -14610,17 +14782,107 @@
 40 unit_sprites/milan_Musketeers_sprite.spr 
 4 
 6 saxons 
-64 unit_models/_units/japan/attachments/sampeitai_1880_gear.texture 
-64 unit_models/_units/japan/attachments/denshutai_gear_norm.texture 0 
+65 unit_models/_units/japan/attachments/rikuguntai_1880_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1880_gear_norm.texture 0 
 6 france 
-64 unit_models/_units/japan/attachments/sampeitai_1880_gear.texture 
-64 unit_models/_units/japan/attachments/denshutai_gear_norm.texture 0 
+65 unit_models/_units/japan/attachments/rikuguntai_1880_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1880_gear_norm.texture 0 
 4 merc 
-64 unit_models/_units/japan/attachments/sampeitai_1880_gear.texture 
-64 unit_models/_units/japan/attachments/denshutai_gear_norm.texture 0 
+65 unit_models/_units/japan/attachments/rikuguntai_1880_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1880_gear_norm.texture 0 
 5 slave 
-64 unit_models/_units/japan/attachments/sampeitai_1880_gear.texture 
-64 unit_models/_units/japan/attachments/denshutai_gear_norm.texture 0 
+65 unit_models/_units/japan/attachments/rikuguntai_1880_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1880_gear_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 
+20 MTW2_Halberd_Primary 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+25 Japan_Ezo_Rikuguntai_1900 
+1 4 
+54 unit_models/_units/japan/ezo_rikuguntai_1900_lod0.mesh 121 
+54 unit_models/_units/japan/ezo_rikuguntai_1900_lod0.mesh 900 
+54 unit_models/_units/japan/ezo_rikuguntai_1900_lod0.mesh 2500 
+54 unit_models/_units/japan/ezo_rikuguntai_1900_lod0.mesh 6400 
+4 
+6 saxons 
+56 unit_models/_units/japan/textures/sampeitai_1880.texture 
+61 unit_models/_units/japan/textures/sampeitai_1880_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+56 unit_models/_units/japan/textures/sampeitai_1880.texture 
+61 unit_models/_units/japan/textures/sampeitai_1880_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+56 unit_models/_units/japan/textures/sampeitai_1880.texture 
+61 unit_models/_units/japan/textures/sampeitai_1880_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+56 unit_models/_units/japan/textures/sampeitai_1880.texture 
+61 unit_models/_units/japan/textures/sampeitai_1880_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+65 unit_models/_units/japan/attachments/rikuguntai_1890_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1900_gear_norm.texture 0 
+6 france 
+65 unit_models/_units/japan/attachments/rikuguntai_1890_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1900_gear_norm.texture 0 
+4 merc 
+65 unit_models/_units/japan/attachments/rikuguntai_1890_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1900_gear_norm.texture 0 
+5 slave 
+65 unit_models/_units/japan/attachments/rikuguntai_1890_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1900_gear_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 
+20 MTW2_Halberd_Primary 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+25 Japan_Ezo_Rikuguntai_1905 
+1 4 
+54 unit_models/_units/japan/ezo_rikuguntai_1905_lod0.mesh 121 
+54 unit_models/_units/japan/ezo_rikuguntai_1905_lod0.mesh 900 
+54 unit_models/_units/japan/ezo_rikuguntai_1905_lod0.mesh 2500 
+54 unit_models/_units/japan/ezo_rikuguntai_1905_lod0.mesh 6400 
+4 
+6 saxons 
+56 unit_models/_units/japan/textures/sampeitai_1905.texture 
+61 unit_models/_units/japan/textures/sampeitai_1905_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+56 unit_models/_units/japan/textures/sampeitai_1905.texture 
+61 unit_models/_units/japan/textures/sampeitai_1905_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+56 unit_models/_units/japan/textures/sampeitai_1905.texture 
+61 unit_models/_units/japan/textures/sampeitai_1905_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+56 unit_models/_units/japan/textures/sampeitai_1905.texture 
+61 unit_models/_units/japan/textures/sampeitai_1905_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+65 unit_models/_units/japan/attachments/rikuguntai_1900_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1900_gear_norm.texture 0 
+6 france 
+65 unit_models/_units/japan/attachments/rikuguntai_1900_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1900_gear_norm.texture 0 
+4 merc 
+65 unit_models/_units/japan/attachments/rikuguntai_1900_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1900_gear_norm.texture 0 
+5 slave 
+65 unit_models/_units/japan/attachments/rikuguntai_1900_gear.texture 
+70 unit_models/_units/japan/attachments/rikuguntai_1900_gear_norm.texture 0 
 1 
 4 None 
 14 MTW2_Musket_SS 
@@ -14675,6 +14937,49 @@
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+25 Japan_Goshimpei_1870_Flag 
+1 4 
+54 unit_models/_units/japan/goshimpei_1870_flag_lod0.mesh 121 
+54 unit_models/_units/japan/goshimpei_1870_flag_lod0.mesh 900 
+54 unit_models/_units/japan/goshimpei_1870_flag_lod0.mesh 2500 
+54 unit_models/_units/japan/goshimpei_1870_flag_lod0.mesh 6400 
+4 
+6 saxons 
+56 unit_models/_units/japan/textures/goshimpei_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+56 unit_models/_units/japan/textures/goshimpei_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+56 unit_models/_units/japan/textures/goshimpei_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+56 unit_models/_units/japan/textures/goshimpei_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 Japan_Goshimpei_1880 
 1 4 
 50 unit_models/_units/japan/rikuguntai_1880_lod0.mesh 121 
@@ -14719,6 +15024,49 @@
 19 MTW2_Musket_Primary 
 1 
 17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+25 Japan_Goshimpei_1880_Flag 
+1 4 
+54 unit_models/_units/japan/goshimpei_1880_flag_lod0.mesh 121 
+54 unit_models/_units/japan/goshimpei_1880_flag_lod0.mesh 900 
+54 unit_models/_units/japan/goshimpei_1880_flag_lod0.mesh 2500 
+54 unit_models/_units/japan/goshimpei_1880_flag_lod0.mesh 6400 
+4 
+6 saxons 
+56 unit_models/_units/japan/textures/goshimpei_1880.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+56 unit_models/_units/japan/textures/goshimpei_1880.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+56 unit_models/_units/japan/textures/goshimpei_1880.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+56 unit_models/_units/japan/textures/goshimpei_1880.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 Japan_Goshimpei_1890 
 1 4 
@@ -14854,6 +15202,49 @@
 19 MTW2_Musket_Primary 
 1 
 17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+25 Japan_Goshimpei_1905_Flag 
+1 4 
+54 unit_models/_units/japan/goshimpei_1880_flag_lod0.mesh 121 
+54 unit_models/_units/japan/goshimpei_1880_flag_lod0.mesh 900 
+54 unit_models/_units/japan/goshimpei_1880_flag_lod0.mesh 2500 
+54 unit_models/_units/japan/goshimpei_1880_flag_lod0.mesh 6400 
+4 
+6 saxons 
+57 unit_models/_units/japan/textures/rikuguntai_1900.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+57 unit_models/_units/japan/textures/rikuguntai_1900.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+57 unit_models/_units/japan/textures/rikuguntai_1900.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+57 unit_models/_units/japan/textures/rikuguntai_1900.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/flag_gear5.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 26 Japan_Goshimpei_Hohei_1870 
 1 4 
@@ -15945,6 +16336,49 @@
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+25 Japan_Tondenhei_1870_Flag 
+1 4 
+55 unit_models/_units/japan/rikuguntai_1870_flag_lod0.mesh 121 
+55 unit_models/_units/japan/rikuguntai_1870_flag_lod0.mesh 900 
+55 unit_models/_units/japan/rikuguntai_1870_flag_lod0.mesh 2500 
+55 unit_models/_units/japan/rikuguntai_1870_flag_lod0.mesh 6400 
+4 
+6 saxons 
+56 unit_models/_units/japan/textures/tondenhei_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+56 unit_models/_units/japan/textures/tondenhei_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+56 unit_models/_units/japan/textures/tondenhei_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+56 unit_models/_units/japan/textures/tondenhei_1870.texture 
+62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 Japan_Tondenhei_1880 
 1 4 
 49 unit_models/_units/japan/tondenhei_1880_lod0.mesh 121 
@@ -16678,6 +17112,64 @@
 1 
 24 MTW2_2HSwordsman_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+22 Japan_Kiheitai_Officer 
+1 4 
+51 unit_models/_units/japan/kiheitai_officer_lod0.mesh 121 
+51 unit_models/_units/japan/kiheitai_officer_lod0.mesh 900 
+51 unit_models/_units/japan/kiheitai_officer_lod0.mesh 2500 
+51 unit_models/_units/japan/kiheitai_officer_lod0.mesh 6400 
+4 
+6 saxons 
+58 unit_models/_units/japan/textures/kiheitai_officer.texture 
+63 unit_models/_units/japan/textures/kiheitai_officer_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+6 france 
+58 unit_models/_units/japan/textures/kiheitai_officer.texture 
+63 unit_models/_units/japan/textures/kiheitai_officer_norm.texture 
+40 unit_sprites/spain_Musketeers_sprite.spr 
+4 merc 
+58 unit_models/_units/japan/textures/kiheitai_officer.texture 
+63 unit_models/_units/japan/textures/kiheitai_officer_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+58 unit_models/_units/japan/textures/kiheitai_officer.texture 
+63 unit_models/_units/japan/textures/kiheitai_officer_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+58 unit_models/_units/japan/attachments/kiheitai_gear.texture 
+63 unit_models/_units/japan/attachments/kiheitai_gear_norm.texture 0 
+6 france 
+58 unit_models/_units/japan/attachments/kiheitai_gear.texture 
+63 unit_models/_units/japan/attachments/kiheitai_gear_norm.texture 0 
+4 merc 
+58 unit_models/_units/japan/attachments/kiheitai_gear.texture 
+63 unit_models/_units/japan/attachments/kiheitai_gear_norm.texture 0 
+5 slave 
+58 unit_models/_units/japan/attachments/kiheitai_gear.texture 
+63 unit_models/_units/japan/attachments/kiheitai_gear_norm.texture 0 
+4 
+4 None 
+14 MTW2_Fast_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 horse 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 camel 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+-1 0 0 0 0 0 0 
 19 Japan_Saga_Hoheitai 
 1 4 
 48 unit_models/_units/japan/saga_hoheitai_lod0.mesh 121 
@@ -16877,34 +17369,34 @@
 49 unit_models/_units/japan/jinshotai_flag_lod0.mesh 6400 
 4 
 6 saxons 
-51 unit_models/_units/japan/textures/jinshotai.texture 
-56 unit_models/_units/japan/textures/jinshotai_norm.texture 
+56 unit_models/_units/japan/textures/jinshotai_flag.texture 
+61 unit_models/_units/japan/textures/jinshotai_flag_norm.texture 
 40 unit_sprites/spain_Musketeers_sprite.spr 
 6 france 
-51 unit_models/_units/japan/textures/jinshotai.texture 
-56 unit_models/_units/japan/textures/jinshotai_norm.texture 
+56 unit_models/_units/japan/textures/jinshotai_flag.texture 
+61 unit_models/_units/japan/textures/jinshotai_flag_norm.texture 
 40 unit_sprites/spain_Musketeers_sprite.spr 
 4 merc 
-51 unit_models/_units/japan/textures/jinshotai.texture 
-56 unit_models/_units/japan/textures/jinshotai_norm.texture 
+56 unit_models/_units/japan/textures/jinshotai_flag.texture 
+61 unit_models/_units/japan/textures/jinshotai_flag_norm.texture 
 43 unit_sprites/portugal_Musketeers_sprite.spr 
 5 slave 
-51 unit_models/_units/japan/textures/jinshotai.texture 
-56 unit_models/_units/japan/textures/jinshotai_norm.texture 
+56 unit_models/_units/japan/textures/jinshotai_flag.texture 
+61 unit_models/_units/japan/textures/jinshotai_flag_norm.texture 
 40 unit_sprites/milan_Musketeers_sprite.spr 
 4 
 6 saxons 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+59 unit_models/_units/japan/attachments/jinshotai_gear.texture 
+64 unit_models/_units/japan/attachments/jinshotai_gear_norm.texture 0 
 6 france 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+59 unit_models/_units/japan/attachments/jinshotai_gear.texture 
+64 unit_models/_units/japan/attachments/jinshotai_gear_norm.texture 0 
 4 merc 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+59 unit_models/_units/japan/attachments/jinshotai_gear.texture 
+64 unit_models/_units/japan/attachments/jinshotai_gear_norm.texture 0 
 5 slave 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+59 unit_models/_units/japan/attachments/jinshotai_gear.texture 
+64 unit_models/_units/japan/attachments/jinshotai_gear_norm.texture 0 
 1 
 4 None 
 14 MTW2_Swordsman 0 
@@ -16920,20 +17412,20 @@
 52 unit_models/_units/japan/jinshotai_officer_lod0.mesh 6400 
 4 
 6 saxons 
-51 unit_models/_units/japan/textures/jinshotai.texture 
-56 unit_models/_units/japan/textures/jinshotai_norm.texture 
+55 unit_models/_units/japan/textures/jinshotai_old.texture 
+60 unit_models/_units/japan/textures/jinshotai_old_norm.texture 
 40 unit_sprites/spain_Musketeers_sprite.spr 
 6 france 
-51 unit_models/_units/japan/textures/jinshotai.texture 
-56 unit_models/_units/japan/textures/jinshotai_norm.texture 
+55 unit_models/_units/japan/textures/jinshotai_old.texture 
+60 unit_models/_units/japan/textures/jinshotai_old_norm.texture 
 40 unit_sprites/spain_Musketeers_sprite.spr 
 4 merc 
-51 unit_models/_units/japan/textures/jinshotai.texture 
-56 unit_models/_units/japan/textures/jinshotai_norm.texture 
+55 unit_models/_units/japan/textures/jinshotai_old.texture 
+60 unit_models/_units/japan/textures/jinshotai_old_norm.texture 
 43 unit_sprites/portugal_Musketeers_sprite.spr 
 5 slave 
-51 unit_models/_units/japan/textures/jinshotai.texture 
-56 unit_models/_units/japan/textures/jinshotai_norm.texture 
+55 unit_models/_units/japan/textures/jinshotai_old.texture 
+60 unit_models/_units/japan/textures/jinshotai_old_norm.texture 
 40 unit_sprites/milan_Musketeers_sprite.spr 
 4 
 6 saxons 
@@ -17167,17 +17659,17 @@
 40 unit_sprites/milan_Musketeers_sprite.spr 
 4 
 6 saxons 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
 6 france 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
 4 merc 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
 5 slave 
-55 unit_models/_units/japan/attachments/flag_gear1.texture 
-60 unit_models/_units/japan/attachments/flag_gear1_norm.texture 0 
+55 unit_models/_units/japan/attachments/flag_gear4.texture 
+60 unit_models/_units/japan/attachments/flag_gear4_norm.texture 0 
 1 
 4 None 
 14 MTW2_Swordsman 0 

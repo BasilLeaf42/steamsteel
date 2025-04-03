@@ -1,18 +1,18 @@
-type             Japan Rikuguntai 1870
-dictionary       Japan_Rikuguntai_1870      ; Rikuguntai (1870) (Snider-Enfield Mk.I, Bayonet)
+type             Japan Ezo Rikuguntai 1890
+dictionary       Japan_Ezo_Rikuguntai_1890      ; Tokugawa Rikuguntai (1890) (Type 22 Murata, Bayonet)
 category         infantry
 class            missile
 voice_type       Light
 accent      	 japanese
 banner faction   main_spear
 banner holy      crusade
-soldier          Japan_Rikuguntai_1870, 40, 0, 1
-officer			 Japan_IJA_Officer
-officer			 Japan_Rikuguntai_1870_Flag
+soldier          Japan_Ezo_Rikuguntai_1880, 40, 0, 1
+officer			 Japan_Sampeitai_Officer_1880
+officer			 Japan_Sampeitai_Flag
 attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         28, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -29,6 +29,6 @@ stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
 armour_ug_levels 0
-armour_ug_models Japan_Rikuguntai_1870
-ownership        saxons, slave
-era 1            saxons
+armour_ug_models Japan_Ezo_Rikuguntai_1880
+ownership        saxons, france, slave
+era 2            saxons, france

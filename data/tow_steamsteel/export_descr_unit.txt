@@ -13661,7 +13661,7 @@ accent           japanese
 banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Kiheitai, 30, 0, 1.0
-officer			 Japan_Shotai_Officer1
+officer			 Japan_Kiheitai_Officer
 officer			 Japan_Shotai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing
 formation        1.4, 1.8, 2.8, 3.6, 3, square

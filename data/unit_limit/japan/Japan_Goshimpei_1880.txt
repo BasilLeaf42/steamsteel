@@ -8,7 +8,7 @@ banner faction   main_spear
 banner holy      crusade
 soldier          Japan_Goshimpei_1880, 40, 0, 1
 officer			 Japan_IJA_Officer
-officer			 Japan_Hokokutai_Flag
+officer			 Japan_Goshimpei_1880_Flag
 attributes       free_upkeep_unit, sea_faring, very_hardy, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
