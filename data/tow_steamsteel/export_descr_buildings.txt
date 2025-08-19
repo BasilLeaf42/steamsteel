@@ -8,7 +8,7 @@ building core_building
 {
     levels wooden_pallisade wooden_wall stone_wall large_stone_wall huge_stone_wall 
     {
-        wooden_pallisade city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } 
+        wooden_pallisade city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } 
         {
             capability
             {
@@ -34,7 +34,7 @@ building core_building
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_hard 1
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_very_hard 1
 		       law_bonus bonus -2 requires factions { middle_eastern, asian, chinese, }
-		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }
+		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }
 
             }
             material wooden
@@ -46,7 +46,7 @@ building core_building
                 wooden_wall
             }
         }
-        wooden_wall city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
+        wooden_wall city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
         {
             capability
             {
@@ -75,8 +75,8 @@ building core_building
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_normal 1
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_hard 1
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_very_hard 1
-		       law_bonus bonus -2 requires factions { middle_eastern, asian, chinese, }
-		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }
+		       law_bonus bonus -2 requires factions { middle_eastern, asian, chinese, sino, sea, }
+		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }
             }
             material wooden
             construction  8
@@ -87,7 +87,7 @@ building core_building
                 stone_wall
             }
         }
-        stone_wall city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
+        stone_wall city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
         {
             capability
             {
@@ -114,8 +114,8 @@ building core_building
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_normal 1
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_hard 1
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_very_hard 1
-		       law_bonus bonus -2 requires factions { middle_eastern, asian, chinese, }
-		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }
+		       law_bonus bonus -2 requires factions { middle_eastern, asian, chinese, sino, sea, }
+		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }
             }
             material stone
             construction  12
@@ -126,7 +126,7 @@ building core_building
                 large_stone_wall
             }
         }
-        large_stone_wall city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level city_hall council_chambers or building_present_min_level pro_city_hall pro_council_chambers or building_present_min_level rep_city_hall rep_council_chambers
+        large_stone_wall city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level city_hall council_chambers or building_present_min_level pro_city_hall pro_council_chambers or building_present_min_level rep_city_hall rep_council_chambers
         {
             capability
             {
@@ -152,8 +152,8 @@ building core_building
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_normal 1
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_hard 1
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_very_hard 1
-		       law_bonus bonus -2 requires factions { middle_eastern, asian, chinese, }
-		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }
+		       law_bonus bonus -2 requires factions { middle_eastern, asian, chinese, sino, sea, }
+		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }
             }
             material stone
             construction  16
@@ -164,7 +164,7 @@ building core_building
                 huge_stone_wall
             }
         }
-        huge_stone_wall city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level city_hall council_chambers or building_present_min_level pro_city_hall pro_council_chambers or building_present_min_level rep_city_hall rep_council_chambers 
+        huge_stone_wall city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level city_hall council_chambers or building_present_min_level pro_city_hall pro_council_chambers or building_present_min_level rep_city_hall rep_council_chambers 
         {
             capability
             {
@@ -189,8 +189,8 @@ building core_building
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_normal 1
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_hard 1
 				construction_cost_bonus_wooden bonus 10 requires event_counter is_the_ai 1 and event_counter difficulty_very_hard 1
-		       law_bonus bonus -2 requires factions { middle_eastern, asian, chinese, }
-		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }
+		       law_bonus bonus -2 requires factions { middle_eastern, asian, chinese, sino, sea, }
+		       law_bonus bonus -4 requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }
 
             }
             material stone
@@ -326,7 +326,7 @@ building tower
     convert_to castle_tower
     levels ballista_towers cannon_towers 
     {
-        ballista_towers city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall  
+        ballista_towers city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall  
         {
             convert_to 0
             capability
@@ -410,7 +410,7 @@ building equestrian
 {
     levels earls_stables kings_stables stables knights_stables barons_stables 
     {
-        earls_stables city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level barracks militia_barracks and building_present_min_level smith blacksmith and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
+        earls_stables city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level barracks militia_barracks and building_present_min_level smith blacksmith and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
         {
             capability
             {
@@ -427,7 +427,7 @@ building equestrian
                 kings_stables
             }
         }
-        kings_stables city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }  and building_present_min_level barracks army_barracks and building_present_min_level smith armourer and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall  
+        kings_stables city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }  and building_present_min_level barracks army_barracks and building_present_min_level smith armourer and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall  
         {
             capability
             {
@@ -494,7 +494,7 @@ building barracks
 {
     levels militia_drill_square militia_barracks army_barracks royal_armoury town_watch town_guard city_watch 
     {
-        militia_drill_square city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }  and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
+        militia_drill_square city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }  and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
         {
             capability
             {
@@ -1220,7 +1220,7 @@ building barracks
                 militia_barracks 
             }
         }
-        militia_barracks city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level cannon gunsmith and building_present_min_level hinterland_roads roads and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
+        militia_barracks city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level cannon gunsmith and building_present_min_level hinterland_roads roads and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
         {
             capability
             {
@@ -1948,7 +1948,7 @@ building barracks
                 army_barracks 
             }
         }
-        army_barracks city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }  and building_present_min_level equestrian earls_stables and building_present_min_level professional_military military_academy and building_present_min_level cannon cannon_maker and building_present_min_level hinterland_roads paved_roads and building_present_min_level city_hall council_chambers or building_present_min_level rep_city_hall rep_council_chambers
+        army_barracks city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }  and building_present_min_level equestrian earls_stables and building_present_min_level professional_military military_academy and building_present_min_level cannon cannon_maker and building_present_min_level hinterland_roads paved_roads and building_present_min_level city_hall council_chambers or building_present_min_level rep_city_hall rep_council_chambers
         {
             capability
             {
@@ -2677,7 +2677,7 @@ building barracks
                 royal_armoury
             }
         }
-        royal_armoury city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }   and building_present_min_level equestrian kings_stables and building_present_min_level professional_military officers_academy and building_present_min_level cannon cannon_foundry and building_present_min_level hinterland_roads highways and building_present_min_level city_hall city_hall or building_present_min_level rep_city_hall rep_city_hall
+        royal_armoury city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }   and building_present_min_level equestrian kings_stables and building_present_min_level professional_military officers_academy and building_present_min_level cannon cannon_foundry and building_present_min_level hinterland_roads highways and building_present_min_level city_hall city_hall or building_present_min_level rep_city_hall rep_city_hall
         {
             capability
             {
@@ -3460,7 +3460,7 @@ building professional_military
 {
     levels military_academy officers_academy 
     {
-        military_academy city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }   and building_present_min_level barracks militia_drill_square and building_present_min_level taverns inn and building_present_min_level academic alchemists_lab and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
+        military_academy city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }   and building_present_min_level barracks militia_drill_square and building_present_min_level taverns inn and building_present_min_level academic alchemists_lab and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
         {
             capability
             {
@@ -3504,7 +3504,7 @@ building professional_military
                 officers_academy
             }
         }
-        officers_academy city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }  and building_present_min_level barracks militia_barracks and building_present_min_level taverns tavern and building_present_min_level academic alchemy_school and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
+        officers_academy city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }  and building_present_min_level barracks militia_barracks and building_present_min_level taverns tavern and building_present_min_level academic alchemy_school and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
         {
             capability
             {
@@ -3559,7 +3559,7 @@ building cannon
 {
     levels gunsmith cannon_maker cannon_foundry royal_arsenal 
     {
-        gunsmith city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
+        gunsmith city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
         {
             capability
             {
@@ -3738,7 +3738,7 @@ building cannon
                 cannon_maker
             }
         }
-        cannon_maker city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level smith armourer and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
+        cannon_maker city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level smith armourer and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
         {
             capability
             {
@@ -3967,7 +3967,7 @@ building cannon
                 cannon_foundry
             }
         }
-        cannon_foundry city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and building_present_min_level smith heavy_armourer and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall    
+        cannon_foundry city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and building_present_min_level smith heavy_armourer and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall    
         {
             capability
             {
@@ -4289,7 +4289,7 @@ building cannon
                 royal_arsenal
             }
         }
-        royal_arsenal city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }  and building_present_min_level smith plate_armourer and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall 
+        royal_arsenal city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, }  and building_present_min_level smith plate_armourer and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall 
         {
             capability
             {
@@ -4877,12 +4877,12 @@ building port
 	recruit_pool "cog"  0.5   0.04   0.5 0  requires factions { all, } 
 
 ;local
-	recruit_pool "turtle ship"  1   0.04   1  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.04   1  0  requires factions { chinese, sino, sea, mesoamerican, } and not event_counter military_reforms_1 1
 	recruit_pool "dhow"  1   0.04  1  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.04   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.08   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.04   1  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.08   2  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  1   0.08   2  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  1   0.08   2  0  requires not factions { chinese, sino, sea, mesoamerican, middle_eastern, } 
 
 	recruitment_slots  1
 
@@ -4990,12 +4990,12 @@ building port
 	recruitment_slots  1
 
 ;local
-	recruit_pool "turtle ship"  1   0.04   1  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.04   1  0  requires factions { chinese, sino, sea, mesoamerican, } and not event_counter military_reforms_1 1
 	recruit_pool "dhow"  1   0.04  1  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.04   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.08   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.04   1  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.08   2  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  1   0.08   2  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  1   0.08   2  0  requires not factions { chinese, sino, sea, mesoamerican, middle_eastern, } 
 
 	recruit_pool "gr_inf_mi"  0   0.04   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource csa
 ;marines
@@ -5126,12 +5126,12 @@ building port
 	recruit_pool "cog"  0.5   0.04   0.5 0  requires factions { all, } 
 
 ;local
-	recruit_pool "turtle ship"  1   0.04   1  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.04   1  0  requires factions { chinese, sino, sea, mesoamerican, } and not event_counter military_reforms_1 1
 	recruit_pool "dhow"  1   0.04  1  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.04   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.08   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.04   1  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.08   2  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  1   0.08   2  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  1   0.08   2  0  requires not factions { chinese, sino, sea, mesoamerican, middle_eastern, } 
 
 	recruit_pool "gr_inf_mi"  1   0.06   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource csa
 ;marines
@@ -5268,12 +5268,12 @@ building port
 	recruitment_slots  3
 
 ;local
-	recruit_pool "turtle ship"  1   0.04   1  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.04   1  0  requires factions { chinese, sino, sea, mesoamerican, } and not event_counter military_reforms_1 1
 	recruit_pool "dhow"  1   0.04  1  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.04   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.08   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.04   1  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.08   2  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  1   0.08   2  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  1   0.08   2  0  requires not factions { chinese, sino, sea, mesoamerican, middle_eastern, } 
 
 	recruit_pool "gr_inf_mi"  1   0.1   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource csa
 ;marines
@@ -5415,12 +5415,12 @@ building sea_trade
                 trade_base_income_bonus bonus 1 requires building_present_min_level market great_market
                 trade_base_income_bonus bonus 1 requires building_present_min_level market merchants_quarter
 ;local
-	recruit_pool "turtle ship"  1   0.08   1  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.08   1  0  requires factions { chinese, sino, sea, mesoamerican, } and not event_counter military_reforms_1 1
 	recruit_pool "dhow"  1   0.08  1  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.08   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.16   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.08   1  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.16   2  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  1   0.16   2  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  1   0.16   2  0  requires not factions { chinese, sino, sea, mesoamerican, middle_eastern, } 
             }
             material wooden
             construction  8
@@ -5447,12 +5447,12 @@ building sea_trade
                 trade_base_income_bonus bonus 1 requires building_present_min_level market merchants_quarter
 
 ;local
-	recruit_pool "turtle ship"  1   0.12   1  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.12   1  0  requires factions { chinese, sino, sea, mesoamerican, } and not event_counter military_reforms_1 1
 	recruit_pool "dhow"  1   0.12  1  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.12   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  2   0.24   3  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.12   1  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  2   0.24   3  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  2   0.24   3  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  2   0.24   3  0  requires not factions { chinese, sino, sea, mesoamerican, middle_eastern, } 
 
             }
             material wooden
@@ -5480,12 +5480,12 @@ building sea_trade
                 trade_base_income_bonus bonus 1 requires building_present_min_level market merchants_quarter
 
 ;local
-	recruit_pool "turtle ship"  1   0.2   2  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.2   2  0  requires factions { chinese, sino, sea, mesoamerican, } and not event_counter military_reforms_1 1
 	recruit_pool "dhow"  1   0.2  2  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.2   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  3   0.4   4  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.2   2  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  3   0.4   4  0  requires factions { chinese, sino, sea, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  3   0.4   4  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  3   0.4   4  0  requires not factions { chinese, sino, sea, mesoamerican, middle_eastern, } 
             }
             material wooden
             construction  20
@@ -5588,7 +5588,7 @@ building market
                 agent merchant  0  requires factions { middle_eastern, } 
                 agent merchant  0  requires factions { slavic, } 
                 agent merchant  0  requires factions { mesoamerican, } 
-                agent merchant  0  requires factions { southern_european, asian, chinese, } 
+                agent merchant  0  requires factions { southern_european, asian, chinese, sino, sea, } 
                 trade_base_income_bonus bonus 3
                 agent_limit merchant 1
             }
@@ -5609,7 +5609,7 @@ building market
                 agent merchant  1  requires factions { middle_eastern, } 
                 agent merchant  1  requires factions { slavic, } 
                 agent merchant  1  requires factions { mesoamerican, } 
-                agent merchant  1  requires factions { southern_european, asian, chinese, } 
+                agent merchant  1  requires factions { southern_european, asian, chinese, sino, sea, } 
                 trade_base_income_bonus bonus 4
                 agent_limit merchant 1
             }
@@ -5630,7 +5630,7 @@ building market
                 agent merchant  2  requires factions { middle_eastern, } 
                 agent merchant  2  requires factions { slavic, } 
                 agent merchant  2  requires factions { mesoamerican, } 
-                agent merchant  2  requires factions { southern_european, asian, chinese, } 
+                agent merchant  2  requires factions { southern_european, asian, chinese, sino, sea, } 
                 trade_base_income_bonus bonus 5
                 agent_limit merchant 1
             }
@@ -5659,7 +5659,7 @@ building trading
                 agent merchant  0  requires factions { northern_european, } 
                 agent merchant  0  requires factions { middle_eastern, } 
                 agent merchant  0  requires factions { slavic, } 
-                agent merchant  0  requires factions { southern_european, asian, chinese, } 
+                agent merchant  0  requires factions { southern_european, asian, chinese, sino, sea, } 
                 trade_base_income_bonus bonus 1
                 trade_base_income_bonus bonus 1 requires factions { venice, }
                 agent_limit merchant 1
@@ -7294,7 +7294,7 @@ building airport
 {
     levels airfield aerodrome 
     {
-        airfield city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and event_counter military_reforms_2 1 and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
+        airfield city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and event_counter military_reforms_2 1 and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
         {
             capability
             {
@@ -7309,7 +7309,7 @@ building airport
                 aerodrome
             }
         }
-        aerodrome city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and event_counter military_reforms_2 1 and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
+        aerodrome city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, sino, sea, } and event_counter military_reforms_2 1 and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
         {
             capability
             {
@@ -7340,7 +7340,7 @@ building sheriff_office
                 agent diplomat  0  requires factions { northern_european, } 
                 agent diplomat  0  requires factions { middle_eastern, } 
                 agent diplomat  0  requires factions { slavic, } 
-                agent diplomat  0  requires factions { southern_european, asian, chinese, } 
+                agent diplomat  0  requires factions { southern_european, asian, chinese, sino, sea, } 
                 law_bonus bonus 1
                 population_health_bonus bonus 1
                 agent_limit diplomat 1
@@ -7720,7 +7720,7 @@ building assassins_guild
                 agent assassin  0  requires factions { middle_eastern, } 
                 agent assassin  0  requires factions { slavic, } 
                 agent assassin  0  requires factions { mesoamerican, } 
-                agent assassin  0  requires factions { southern_european, asian, chinese, } 
+                agent assassin  0  requires factions { southern_european, asian, chinese, sino, sea, } 
                 law_bonus bonus 1
                 agent_limit assassin 1
             }
@@ -7741,7 +7741,7 @@ building assassins_guild
                 agent assassin  0  requires factions { middle_eastern, } 
                 agent assassin  0  requires factions { slavic, } 
                 agent assassin  0  requires factions { mesoamerican, } 
-                agent assassin  0  requires factions { southern_european, asian, chinese, } 
+                agent assassin  0  requires factions { southern_european, asian, chinese, sino, sea, } 
                 law_bonus bonus 2
                 agent_limit assassin 1
             }
@@ -7762,7 +7762,7 @@ building assassins_guild
                 agent assassin  1  requires factions { middle_eastern, } 
                 agent assassin  1  requires factions { slavic, } 
                 agent assassin  1  requires factions { mesoamerican, } 
-                agent assassin  1  requires factions { southern_european, asian, chinese, } 
+                agent assassin  1  requires factions { southern_european, asian, chinese, sino, sea, } 
                 law_bonus bonus 3
                 agent_limit assassin 2
             }
@@ -7791,7 +7791,7 @@ building assassins_muslim_guild
                 agent assassin  0  requires factions { middle_eastern, } 
                 agent assassin  0  requires factions { slavic, } 
                 agent assassin  0  requires factions { mesoamerican, } 
-                agent assassin  0  requires factions { southern_european, asian, chinese, } 
+                agent assassin  0  requires factions { southern_european, asian, chinese, sino, sea, } 
 
                 agent_limit assassin 1 
             }
@@ -7812,7 +7812,7 @@ building assassins_muslim_guild
                 agent assassin  0  requires factions { middle_eastern, } 
                 agent assassin  0  requires factions { slavic, } 
                 agent assassin  0  requires factions { mesoamerican, } 
-                agent assassin  0  requires factions { southern_european, asian, chinese, }  
+                agent assassin  0  requires factions { southern_european, asian, chinese, sino, sea, }  
 
                 agent_limit assassin 1
             }
@@ -7833,7 +7833,7 @@ building assassins_muslim_guild
                 agent assassin  1  requires factions { middle_eastern, } 
                 agent assassin  1  requires factions { slavic, } 
                 agent assassin  1  requires factions { mesoamerican, } 
-                agent assassin  1  requires factions { southern_european, asian, chinese, } 
+                agent assassin  1  requires factions { southern_european, asian, chinese, sino, sea, } 
 
                 agent_limit assassin 2
             }
