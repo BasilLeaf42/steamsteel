@@ -850,37 +850,23 @@
 0 
 0 
 -1 0 0 0 0 0 0 
-19 union_irish_brigade 
+10 unused_072 
 1 1 
-50 unit_models/_Units/bnw/usa_irish_bridage_lod0.mesh 20000 
-3 
-6 venice 
-62 unit_models/_Units/bnw/textures/irish_brigade_union_ve.texture 
-61 unit_models/_Units/bnw/textures/irish_brigade_union_n.texture 
-52 unit_sprites/moors_ME_Peasant_Crossbowmen_sprite.spr 
-9 portugala 
-59 unit_models/_Units/bnw/textures/irish_brigade_union.texture 
-61 unit_models/_Units/bnw/textures/irish_brigade_union_n.texture 
-52 unit_sprites/moors_ME_Peasant_Crossbowmen_sprite.spr 
+43 unit_models/_Units/ott/ott_egy_1g_lod0.mesh 20000 
+1 
 5 slave 
-59 unit_models/_Units/bnw/textures/irish_brigade_union.texture 
-61 unit_models/_Units/bnw/textures/irish_brigade_union_n.texture 
-52 unit_sprites/slave_ME_Peasant_Crossbowmen_sprite.spr 
-3 
-6 venice 
-52 unit_models/_Units/bnw/textures/union_weapon.texture 
-54 unit_models/_Units/bnw/textures/union_weapon_n.texture 0 
-9 portugala 
-52 unit_models/_Units/bnw/textures/union_weapon.texture 
-54 unit_models/_Units/bnw/textures/union_weapon_n.texture 0 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+1
 5 slave 
-52 unit_models/_Units/bnw/textures/union_weapon.texture 
-54 unit_models/_Units/bnw/textures/union_weapon_n.texture 0 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+14 MTW2_Musket_SS 9 MTW2_Pike 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -21162,43 +21148,26 @@
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
-20 Cavalerie_Carolineer 
-1 4 
-45 unit_models/_Units/bnw/eva_infantry_lod0.mesh 20000 
-45 unit_models/_Units/bnw/eva_infantry_lod0.mesh 20000 
-45 unit_models/_Units/bnw/eva_infantry_lod0.mesh 20000 
-45 unit_models/_Units/bnw/eva_infantry_lod0.mesh 20000 
-3 
-8 timurids 
-43 unit_models/_Units/bnw/textures/eva.texture 
-45 unit_models/_Units/bnw/textures/eva_n.texture 
-31 unit_sprites/tmp_inf_sprite.spr 
+10 unused_071 
+1 1 
+43 unit_models/_Units/ott/ott_egy_1g_lod0.mesh 20000 
+1 
 5 slave 
-43 unit_models/_Units/bnw/textures/eva.texture 
-45 unit_models/_Units/bnw/textures/eva_n.texture 
-31 unit_sprites/tmp_inf_sprite.spr 
-4 merc 
-43 unit_models/_Units/bnw/textures/eva.texture 
-45 unit_models/_Units/bnw/textures/eva_n.texture 
-31 unit_sprites/tmp_inf_sprite.spr 
-3 
-8 timurids 
-53 unit_models/_Units/bnw/textures/yangqiangdui2.texture 
-55 unit_models/_Units/bnw/textures/yangqiangdui2_n.texture 0 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+1
 5 slave 
-53 unit_models/_Units/bnw/textures/yangqiangdui2.texture 
-55 unit_models/_Units/bnw/textures/yangqiangdui2_n.texture 0 
-4 merc 
-53 unit_models/_Units/bnw/textures/yangqiangdui2.texture 
-55 unit_models/_Units/bnw/textures/yangqiangdui2_n.texture 0 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Musket_3 11 MTW2_2H_Axe 
+14 MTW2_Musket_SS 9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
-19 MTW2_2H_Axe_primary 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
 14 bhutan_warrior 
 1 4 
 40 unit_models/bnw/bhutan_warrior_lod0.mesh 20000 
