@@ -16899,7 +16899,7 @@ stat_health      1, 0
 stat_pri         22, 0, blunderbuss_shot, 230, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
-stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec         2, 1, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1.8
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap, short_pike
 stat_pri_armour  3, 4, 0, leather

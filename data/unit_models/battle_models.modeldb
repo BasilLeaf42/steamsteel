@@ -18360,59 +18360,48 @@
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 13 us_farmer_cav 
-1 1 
-43 unit_models/_Units/bnw/usa_cowboy_lod0.mesh 20000 
-7 
+1 4 
+43 unit_models/_Units/usa/usa_cow_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_cow_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_cow_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_cow_1g_lod0.mesh 20000 
+5 
 9 portugala 
-46 unit_models/_Units/bnw/textures/cowboy.texture 
-48 unit_models/_Units/bnw/textures/cowboy_n.texture 
-50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
-3 teu 
-46 unit_models/_Units/bnw/textures/cowboy.texture 
-48 unit_models/_Units/bnw/textures/cowboy_n.texture 
-50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
-5 milan 
-46 unit_models/_Units/bnw/textures/cowboy.texture 
-48 unit_models/_Units/bnw/textures/cowboy_n.texture 
-50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
-7 denmark 
-49 unit_models/_Units/bnw/textures/cowboy_de.texture 
-48 unit_models/_Units/bnw/textures/cowboy_n.texture 
-50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
-6 poland 
-46 unit_models/_Units/bnw/textures/cowboy.texture 
-48 unit_models/_Units/bnw/textures/cowboy_n.texture 
-50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 slave 
-46 unit_models/_Units/bnw/textures/cowboy.texture 
-48 unit_models/_Units/bnw/textures/cowboy_n.texture 
-50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 milan 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+3 teu 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 4 merc 
-46 unit_models/_Units/bnw/textures/cowboy.texture 
-48 unit_models/_Units/bnw/textures/cowboy_n.texture 
-50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
-7 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 
 9 portugala 
-47 unit_models/_Units/bnw/textures/cowboy2.texture 
-49 unit_models/_Units/bnw/textures/cowboy2_n.texture 0 
-3 teu 
-47 unit_models/_Units/bnw/textures/cowboy2.texture 
-49 unit_models/_Units/bnw/textures/cowboy2_n.texture 0 
-5 milan 
-47 unit_models/_Units/bnw/textures/cowboy2.texture 
-49 unit_models/_Units/bnw/textures/cowboy2_n.texture 0 
-7 denmark 
-50 unit_models/_Units/bnw/textures/cowboy2_de.texture 
-49 unit_models/_Units/bnw/textures/cowboy2_n.texture 0 
-6 poland 
-47 unit_models/_Units/bnw/textures/cowboy2.texture 
-49 unit_models/_Units/bnw/textures/cowboy2_n.texture 0 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 slave 
-47 unit_models/_Units/bnw/textures/cowboy2.texture 
-49 unit_models/_Units/bnw/textures/cowboy2_n.texture 0 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 milan 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 4 merc 
-47 unit_models/_Units/bnw/textures/cowboy2.texture 
-49 unit_models/_Units/bnw/textures/cowboy2_n.texture 0 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 5 Horse 
 16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
@@ -18420,56 +18409,57 @@
 24 MTW2_HR_Arquebus_Primary 
 1 
 18 MTW2_Sword_Primary 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
 10 us_farmers 
-1 3 
-45 unit_models/_Units/bnw/yangqiangdui_lod0.mesh 20000 
-45 unit_models/_Units/bnw/yangqiangdui_lod0.mesh 20000 
-45 unit_models/_Units/bnw/yangqiangdui_lod0.mesh 20000 
+1 4 
+43 unit_models/_Units/usa/usa_cow_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_cow_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_cow_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_cow_1g_lod0.mesh 20000 
 5 
-3 teu 
-52 unit_models/_Units/bnw/textures/yangqiangdui.texture 
-54 unit_models/_Units/bnw/textures/yangqiangdui_n.texture 
-42 unit_sprites/sicily_CS_Cav_Caro_sprite.spr 
 9 portugala 
-52 unit_models/_Units/bnw/textures/yangqiangdui.texture 
-54 unit_models/_Units/bnw/textures/yangqiangdui_n.texture 
-42 unit_sprites/sicily_CS_Cav_Caro_sprite.spr 
-5 milan 
-52 unit_models/_Units/bnw/textures/yangqiangdui.texture 
-54 unit_models/_Units/bnw/textures/yangqiangdui_n.texture 
-42 unit_sprites/sicily_CS_Cav_Caro_sprite.spr 
-4 merc 
-52 unit_models/_Units/bnw/textures/yangqiangdui.texture 
-54 unit_models/_Units/bnw/textures/yangqiangdui_n.texture 
-42 unit_sprites/sicily_CS_Cav_Caro_sprite.spr 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 slave 
-52 unit_models/_Units/bnw/textures/yangqiangdui.texture 
-54 unit_models/_Units/bnw/textures/yangqiangdui_n.texture 
-42 unit_sprites/sicily_CS_Cav_Caro_sprite.spr 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 milan 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+3 teu 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+4 merc 
+50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 
-3 teu 
-53 unit_models/_Units/bnw/textures/yangqiangdui2.texture 
-55 unit_models/_Units/bnw/textures/yangqiangdui2_n.texture 0 
 9 portugala 
-53 unit_models/_Units/bnw/textures/yangqiangdui2.texture 
-55 unit_models/_Units/bnw/textures/yangqiangdui2_n.texture 0 
-5 milan 
-53 unit_models/_Units/bnw/textures/yangqiangdui2.texture 
-55 unit_models/_Units/bnw/textures/yangqiangdui2_n.texture 0 
-4 merc 
-53 unit_models/_Units/bnw/textures/yangqiangdui2.texture 
-55 unit_models/_Units/bnw/textures/yangqiangdui2_n.texture 0 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 slave 
-53 unit_models/_Units/bnw/textures/yangqiangdui2.texture 
-55 unit_models/_Units/bnw/textures/yangqiangdui2_n.texture 0 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 milan 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+4 merc 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-14 MTW2_Musket_SS 9 MTW2_Pike 
+20 MTW2_Fast_Arquebus_3 18 MTW2_Fast_Knifeman 
 1 
-19 MTW2_Musket_Primary 
+21 MTW2_Arquebus_Primary 
 1 
-17 MTW2_Pike_primary 
+18 MTW2_Knife_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 13 sikh_warriors 
 1 1 
