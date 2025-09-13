@@ -185,12 +185,24 @@ function onReadGameDbsAtStart()
 	
 	-- Japan (Unique generals)
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Tokugawa_Yoshinobu.txt", 1080);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kondo_Isami.txt", 1081);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hijikata_Toshizo.txt", 1082);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Matsudaira_Katamori.txt", 1083);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Saigo_Takamori_1860.txt", 1084);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Itagaki_Taisuke.txt", 1085);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Sakamoto_Ryoma.txt", 1086);
+	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Enomoto_Takeaki.txt", 1081);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kondo_Isami.txt", 1082);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hijikata_Toshizo.txt", 1083);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Matsudaira_Katamori.txt", 1084);
+	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kawai_Tsugunosuke.txt", 1085);
+	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Date_Yoshikuni.txt", 1086);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Jules_Brunet.txt", 1087);
+	
+	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Mori_Takachika.txt", 1088);
+	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Takasugi_Shinsaku.txt", 1089);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Saigo_Takamori_1860.txt", 1090);
+	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Okubo_Toshimichi.txt", 1091);
+	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kuroda_Kiyotaka.txt", 1092);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Itagaki_Taisuke.txt", 1093);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Sakamoto_Ryoma.txt", 1094);
+	
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Takeda_Ayasaburo.txt", 1098);
+	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Komatsu_Akihito.txt", 1099);
 	
 	-- Qing
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/qing/Qing_Tiger_Warriors.txt", 1100);
