@@ -1,12 +1,12 @@
-type             Japan Rikuguntai 1870
-dictionary       Japan_Rikuguntai_1870      ; Rikuguntai (1870) (Snider-Enfield Mk.I, Bayonet)
+type             Japan Rikusentai 1890
+dictionary       Japan_Rikusentai_1890      ; Rikusentai (1890) (Type 22 Murata, Bayonet)
 category         infantry
 class            missile
 voice_type       Light
 accent      	 japanese
 banner faction   main_spear
 banner holy      crusade
-soldier          Japan_Rikuguntai_1870, 40, 0, 1
+soldier          Japan_Rikusentai_1900, 40, 0, 1
 officer			 Japan_IJA_Officer
 officer			 Japan_Rikuguntai_1870_Flag
 attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
@@ -29,6 +29,6 @@ stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
 armour_ug_levels 0
-armour_ug_models Japan_Rikusentai_1870
+armour_ug_models Japan_Rikusentai_1880
 ownership        saxons, slave
-era 1            saxons
+era 2            saxons

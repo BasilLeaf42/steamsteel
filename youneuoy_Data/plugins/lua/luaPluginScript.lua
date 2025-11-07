@@ -130,7 +130,7 @@ function onReadGameDbsAtStart()
 	-- Japan (1860s)
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Shogitai.txt", 1010);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Byakkotai.txt", 1011);
-		
+	
 	-- Japan (1870s)
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Battotai.txt", 1012);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Keishitai_1870.txt", 1013);
@@ -151,37 +151,40 @@ function onReadGameDbsAtStart()
 	-- Japan (1880s)
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikuguntai_1880.txt", 1027);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ezo_Rikuguntai_1880.txt", 1028);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Denshutai_1880.txt", 1029);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1880.txt", 1030);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Tondenhei_1880.txt", 1031);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Hohei_1880.txt", 1032);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hoppo_Keibitai_1880.txt", 1033);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1880.txt", 1034);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Kihei_1880.txt", 1035);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikusentai_1880.txt", 1029);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Denshutai_1880.txt", 1030);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1880.txt", 1031);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Tondenhei_1880.txt", 1032);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Hohei_1880.txt", 1033);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hoppo_Keibitai_1880.txt", 1034);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1880.txt", 1035);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Kihei_1880.txt", 1036);
 	
 	-- Japan (1890s)
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikuguntai_1890.txt", 1036);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ezo_Rikuguntai_1890.txt", 1037);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1890.txt", 1038);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hokuchin_Butai_1890.txt", 1039);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1890.txt", 1040);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Kihei_1890.txt", 1041);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikuguntai_1890.txt", 1037);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ezo_Rikuguntai_1890.txt", 1038);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikusentai_1890.txt", 1039);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1890.txt", 1040);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hokuchin_Butai_1890.txt", 1041);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1890.txt", 1042);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Kihei_1890.txt", 1043);
 	
 	-- Japan (1900s)
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikuguntai_1900.txt", 1050);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikuguntai_1905.txt", 1051);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ezo_Rikuguntai_1900.txt", 1052);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ezo_Rikuguntai_1905.txt", 1053);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1900.txt", 1054);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1905.txt", 1055);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hokuchin_Butai_1900.txt", 1056);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hokuchin_Butai_1905.txt", 1057);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1900.txt", 1058);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1905.txt", 1059);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Kihei_1900.txt", 1060);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Kihei_1905.txt", 1061);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Koheitai_1900.txt", 1062);
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Koheitai_1905.txt", 1063);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Rikusentai_1900.txt", 1054);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1900.txt", 1055);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_1905.txt", 1056);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hokuchin_Butai_1900.txt", 1057);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hokuchin_Butai_1905.txt", 1058);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1900.txt", 1059);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Ryukihei_1905.txt", 1060);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Kihei_1900.txt", 1061);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Goshimpei_Kihei_1905.txt", 1062);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Koheitai_1900.txt", 1063);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Koheitai_1905.txt", 1064);
 	
 	-- Japan (Unique generals)
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Tokugawa_Yoshinobu.txt", 1080);
@@ -220,6 +223,5 @@ function onReadGameDbsAtStart()
 	-- Ethiopia / Sudan
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/Ethiopia_Sudanese_Warriors.txt", 1200);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/Ethiopia_Sudanese_Musketeers.txt", 1201);
-	
 	
 end

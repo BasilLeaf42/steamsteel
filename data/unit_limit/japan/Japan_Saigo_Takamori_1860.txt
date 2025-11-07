@@ -6,7 +6,7 @@ voice_type       heavy
 accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
-soldier          Japan_Revolver_Cavalry_Han, 4, 0, 1
+soldier          Japan_Revolver_Cavalry_Han, 8, 0, 1
 officer          Japan_Saigo_Takamori_1860
 mount            hussar
 mount_effect     elephant -4, camel -4
