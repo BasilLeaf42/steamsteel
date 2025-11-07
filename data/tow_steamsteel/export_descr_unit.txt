@@ -13599,7 +13599,7 @@ voice_type       heavy
 accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
-soldier          Japan_Bodyguard_IJA, 24, 0, 1
+soldier          Japan_Bodyguard_IJA, 8, 0, 1
 officer          Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
@@ -13909,7 +13909,7 @@ voice_type       heavy
 accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
-soldier          Japan_Bodyguard_Ezo, 24, 0, 1
+soldier          Japan_Bodyguard_Ezo, 8, 0, 1
 officer          Japan_Sampeitai_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
