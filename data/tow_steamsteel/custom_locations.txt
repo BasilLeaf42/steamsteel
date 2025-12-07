@@ -141,29 +141,3 @@ custom_location		Rocky Mountains
 	summer			no
 }
 
-custom_location		European Grasslands
-{
-	location		121	217
-	image			data/menu/battlefield_pics/plains.tga
-	sett_locked		no
-	climate			temperate_coniferous_forest
-	summer			no
-}
-custom_location		Subtropic Coast
-{
-	location		397	152
-	image			data/menu/battlefield_pics/subtropic_farmland.tga
-	sett_locked		no
-	climate			tropical
-	summer			yes
-}
-custom_location		Tarim Basin
-{
-	location		358	237
-	image			data/menu/battlefield_pics/tarim.tga
-	sett_locked		no
-	climate			sandy_desert
-	summer			yes
-}
-
-
