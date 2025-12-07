@@ -1,0 +1,76 @@
+; clear, storm, blizzard, light fog, heavy fog
+
+;DO NEVER EVER! PUT TWO CUSTOM TILES IN THE SAME REGION, OTHERWISE THE SOUND AND I AM GOING CRAZY!!!!! K :( K
+;
+;EDIT: USE ANY OTHER PROVINCE NAME INSTEAD!!! :)
+
+Zhengding_Province	299	191	taklamakan.wfc			clear		morning
+Apache_Province	345	233	taklamakan.wfc			clear		morning
+Ulan_Bator_Province	351	237	taklamakan.wfc			clear		morning
+Beijing_Province	334	229	taklamakan.wfc			clear		morning
+Tibet_Province	349	228	taklamakan.wfc			clear		morning
+Aksu_Province	359	233	taklamakan.wfc			clear		morning
+Cuzco_Province	360	236	taklamakan.wfc			clear		morning
+Mexico_Province	364	234	taklamakan.wfc			clear		morning
+Brazil_Province	325	235	taklamakan.wfc			clear		morning
+Malmo_Province	331	236	taklamakan.wfc			clear		morning
+Prague_Province	386	201	guilin.wfc			rain		morning
+Toledo_Province	390	203	guilin.wfc			rain		morning
+Lisbon_Province	390	194	guilin.wfc			rain		morning
+Paris_Province	401	204	guilin.wfc			rain		morning
+Venice_Province	384	190	guilin.wfc			rain		morning
+Roman_Province	387	173	guilin.wfc			rain		morning
+Angleterre_Province	377	178	guilin.wfc			rain		morning
+Arhus_Province	374	186	guilin.wfc			rain		morning
+Moscou_Province	374	188	guilin.wfc			rain		morning
+Buda_Province	386	192	guilin.wfc			rain		morning
+Cracow_Province	276	206	nile.wfc			clear		morning
+Caffa_Province	275	203	nile.wfc			clear		morning
+Tabriz_Province	278	198	nile.wfc			clear		morning
+Tashkent_Province	276	188	nile.wfc			clear		morning
+Constantinople_Province	274	184	nile.wfc			clear		morning
+Marrakesh_Province	281	176	nile.wfc			clear		morning
+Cote_Guinee_Province	277	195	nile.wfc			clear		morning
+Mali_Province	276	188	nile.wfc			clear		morning
+Riga_Province	282	171	nile.wfc			clear		morning
+Hollande_Province	274	210	nile.wfc			clear		morning
+Innsbruck_Province	79	232	ww_mesa.wfc			clear		morning
+Stockholm_Province	75	238	ww_mesa.wfc			clear		morning
+Afrique_Sud_Province	91	220	ww_mesa.wfc			clear		morning
+Madagascar_Province	93	215	ww_mesa.wfc			clear		morning
+Mozambique_Province	77	230	ww_mesa.wfc			clear		morning
+Namibie_Province	80	228	ww_mesa.wfc			clear		morning
+Kongo_Province	83	241	ww_mesa.wfc			clear		morning
+Corne_Afrique_Province	84	211	ww_mesa.wfc			clear		morning
+Mombasa_Province	90	208	ww_mesa.wfc			clear		morning
+Kanem_Province	73	229	ww_mesa.wfc			clear		morning
+Afrique_Centrale_Province	78	241	ww_mesa.wfc			clear		morning
+Rhodesie_Province	87	227	ww_mesa.wfc			clear		morning
+Tripolitaine_Province	87	219	ww_mesa.wfc			clear		morning
+Caire_Province	77	237	ww_mesa.wfc			clear		morning
+Jerusalemb_Province	77	236	ww_mesa.wfc			clear		morning
+Damascus_Province	104	216	ww_town.wfc			clear		morning
+Baghdad_Province	106	231	ww_town.wfc			clear		morning
+Qatar_Province	102	209	ww_town.wfc			clear		morning
+Arabie_Province	109	215	ww_town.wfc			clear		morning
+Mecca_Province	96	236	ww_town.wfc			clear		morning
+Yemen_Province	99	220	ww_town.wfc			clear		morning
+Laponie_Province	95	244	ww_town.wfc			clear		morning
+Kandahar_Province	107	219	ww_town.wfc			clear		morning
+Sind_Province	84	244	ww_town.wfc			clear		morning
+Gujerat_Province	112	227	ww_town.wfc			clear		morning
+Decan_Province	66	252	ww_town.wfc			clear		morning
+Mysore_Province	65	250	ww_town.wfc			clear		morning
+Bihar_Province	64	245	ww_town.wfc			clear		morning
+Gondowan_Province	66	230	ww_town.wfc			clear		morning
+Orissa_Province	67	240	ww_town.wfc			clear		morning
+Ceyland_Province	79	241	ww_town.wfc			clear		morning
+Ayudhya_Province	65	248	ww_town.wfc			clear		morning
+Vietnam_Province	69	245	ww_town.wfc			clear		morning
+Lang_sang_Province	64	240	ww_town.wfc			clear		morning
+Lan_na_Province	72	250	ww_town.wfc			clear		morning
+Cambodia_Province	68	229	ww_town.wfc			clear		morning
+Malaysia_Province	88	253	ww_town.wfc			clear		morning
+Brunei_Province	82	242	ww_town.wfc			clear		morning
+Java_Province	64	259	ww_town.wfc			clear		morning
+Papua_Province	68	240	ww_town.wfc			clear		morning

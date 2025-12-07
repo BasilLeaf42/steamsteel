@@ -3,6 +3,88 @@
 ;;; Old placeholder locations
 
 
+
+custom_location		Constantinople (Unique Settlement A + Central Asian Culture)
+{
+	location		272	114
+	image			data/menu/battlefield_pics/cons.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+
+custom_location		London (Unique Settlement B + Central Asian Culture)
+{
+	location		35	286
+	image			data/menu/battlefield_pics/lond.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+
+custom_location		Paris (Village + East Asian Culture)
+{
+	location		237	94
+	image			data/menu/battlefield_pics/pari.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+
+custom_location		New York City (Unique Settlement D + Central Asian Culture)
+{
+	location		230	88
+	image			data/menu/battlefield_pics/nyci.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+
+custom_location		Moscow (Village + Eastern European Culture)
+{
+	location		287	80
+	image			data/menu/battlefield_pics/mosc.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+
+custom_location		Ethiopian Highlands Fort (Unique Settlement A + East Asian Culture)
+{
+	location		288	166
+	image			data/menu/battlefield_pics/ethi.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+
+custom_location		Khyber Pass (Unique Settlement C + East Asian Culture)
+{
+	location		330	211
+	image			data/menu/battlefield_pics/khyb.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+
+custom_location		Tibetan Valley (Unique Settlement D + East Asian Culture)
+{
+	location		332	112
+	image			data/menu/battlefield_pics/tibe.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+
+custom_location		No Man's Land (Unique Settlement C + Central Asian Culture)
+{
+	location		296	250
+	image			data/menu/battlefield_pics/nml.tga
+	sett_locked		no
+	climate			alpine
+	summer			yes
+}
+
 custom_location		The Eurasian Steppe
 {
 	location		296	250
@@ -65,7 +147,7 @@ custom_location		Andes Highlands
 }
 custom_location		River Nile
 {
-	location		278	198
+	location		276	206
 	image			data/menu/battlefield_pics/arab_farmlands.tga
 	sett_locked		no
 	climate			semi_arid
@@ -81,7 +163,7 @@ custom_location		Black Forest
 }
 custom_location		Rice Farms
 {
-	location		775	351
+	location		385	196
 	image			data/menu/battlefield_pics/asian_farmlands.tga
 	sett_locked		no
 	climate			tropical
@@ -122,14 +204,6 @@ custom_location		Sichuan Jungle
 	climate			tropical
 	summer			yes
 }
-custom_location		The Wild West
-{
-	location		151	239
-	image			data/menu/battlefield_pics/na_desert.tga
-	sett_locked		no
-	climate			semi_arid
-	summer			yes
-}
 
 
 custom_location		Rocky Mountains
@@ -140,4 +214,30 @@ custom_location		Rocky Mountains
 	climate			temperate_coniferous_forest
 	summer			no
 }
+
+custom_location		European Grasslands
+{
+	location		121	217
+	image			data/menu/battlefield_pics/plains.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		Subtropic Coast
+{
+	location		397	152
+	image			data/menu/battlefield_pics/subtropic_farmland.tga
+	sett_locked		no
+	climate			tropical
+	summer			yes
+}
+custom_location		Tarim Basin
+{
+	location		299	191
+	image			data/menu/battlefield_pics/tarim.tga
+	sett_locked		no
+	climate			sandy_desert
+	summer			yes
+}
+
 

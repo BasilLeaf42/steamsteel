@@ -9589,6 +9589,8 @@ unit		rus_12lb				exp 0 armour 0 weapon_lvl 0
 character	random_name, general, male, age 45, x 263, y 282
 army
 unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+
+
  
 ;Helsinki
 character	random_name, general, male, age 45, x 268, y 282
@@ -12073,6 +12075,7 @@ unit		kok_armstrong				exp 0 armour 0 weapon_lvl 0
 character	random_name, general, male, age 42, x 326, y 244
 army
 unit		ghulja_inf				exp 0 armour 0 weapon_lvl 0
+
 
 ;Kokand
 character	random_name, general, male, age 42, x 334, y 236
@@ -16003,7 +16006,7 @@ settlement
 	year_founded 0
 	population 15000
 	plan_set default_set
-	faction_creator moors
+	faction_creator lith
 	building
 	{
 		type core_building wooden_wall 
@@ -16565,7 +16568,7 @@ settlement
 	year_founded 0
 	population 3100
 	plan_set default_set
-	faction_creator portugal
+	faction_creator lith
 	building
 	{
 		type core_building wooden_pallisade
