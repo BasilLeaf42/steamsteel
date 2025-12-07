@@ -110,6 +110,7 @@ custom_location		Morocco
 	climate			rocky_desert
 	summer			yes
 }
+
 custom_location		Saharan Sands
 {
 	location		234	203
@@ -118,6 +119,7 @@ custom_location		Saharan Sands
 	climate			sandy_desert
 	summer			yes
 }
+
 custom_location		Mediterranean Coast
 {
 	location		249	220
@@ -127,117 +129,121 @@ custom_location		Mediterranean Coast
 	summer			yes
 }
 
+;custom_location		Amazon River
+;{
+;	location		155	128
+;	image			data/menu/battlefield_pics/amazon.tga
+;	sett_locked		no
+;	climate			tropical
+;	summer			no
+;}
 
-custom_location		Amazon River
-{
-	location		155	128
-	image			data/menu/battlefield_pics/amazon.tga
-	sett_locked		no
-	climate			tropical
-	summer			no
-}
 ;not reddish colors
-custom_location		Andes Highlands
-{
-	location		145	105
-	image			data/menu/battlefield_pics/andies_highlands.tga
-	sett_locked		no
-	climate			tropical
-	summer			no
-}
-custom_location		River Nile
-{
-	location		276	206
-	image			data/menu/battlefield_pics/arab_farmlands.tga
-	sett_locked		no
-	climate			semi_arid
-	summer			yes
-}
-custom_location		Black Forest
-{
-	location		409	286
-	image			data/menu/battlefield_pics/forest.tga
-	sett_locked		no
-	climate			temperate_coniferous_forest
-	summer			yes
-}
-custom_location		Rice Farms
-{
-	location		385	196
-	image			data/menu/battlefield_pics/asian_farmlands.tga
-	sett_locked		no
-	climate			tropical
-	summer			yes
-}
+;custom_location		Andes Highlands
+;{
+;	location		145	105
+;	image			data/menu/battlefield_pics/andies_highlands.tga
+;	sett_locked		no
+;	climate			tropical
+;	summer			no
+;}
+
+;custom_location		River Nile
+;{
+;	location		276	206
+;	image			data/menu/battlefield_pics/arab_farmlands.tga
+;	sett_locked		no
+;	climate			semi_arid
+;	summer			yes
+;}
+
+;custom_location		Black Forest
+;{
+;	location		409	286
+;	image			data/menu/battlefield_pics/forest.tga
+;	sett_locked		no
+;	climate			temperate_coniferous_forest
+;	summer			yes
+;}
+
+;custom_location		Rice Farms
+;{
+;	location		385	196
+;	image			data/menu/battlefield_pics/asian_farmlands.tga
+;	sett_locked		no
+;	climate			tropical
+;	summer			yes
+;}
 
 ;;;dark green by river
-custom_location		Heart of Darkness
-{
-	location		399	147
-	image			data/menu/battlefield_pics/congo_jungle.tga
-	sett_locked		no
-	climate			tropical
-	summer			no
-}
+;custom_location		Heart of Darkness
+;{
+;	location		399	147
+;	image			data/menu/battlefield_pics/congo_jungle.tga
+;	sett_locked		no
+;	climate			tropical
+;	summer			no
+;}
 
-custom_location		Farmlands
-{
-	location		234	247
-	image			data/menu/battlefield_pics/generic_farmlands.tga
-	sett_locked		no
-	climate			temperate_coniferous_forest
-	summer			no
-}
-custom_location		The Hills
-{
-	location		106	224
-	image			data/menu/battlefield_pics/hills.tga
-	sett_locked		no
-	climate			highland
-	summer			yes
-}
-custom_location		Sichuan Jungle
-{
-	location		379	210
-	image			data/menu/battlefield_pics/jungle.tga
-	sett_locked		no
-	climate			tropical
-	summer			yes
-}
+;custom_location		Farmlands
+;{
+;	location		234	247
+;	image			data/menu/battlefield_pics/generic_farmlands.tga
+;	sett_locked		no
+;	climate			temperate_coniferous_forest
+;	summer			no
+;}
 
+;custom_location		The Hills
+;{
+;	location		106	224
+;	image			data/menu/battlefield_pics/hills.tga
+;	sett_locked		no
+;	climate			highland
+;	summer			yes
+;}
 
-custom_location		Rocky Mountains
-{
-	location		35	286
-	image			data/menu/battlefield_pics/na_mountains.tga
-	sett_locked		no
-	climate			temperate_coniferous_forest
-	summer			no
-}
+;custom_location		Sichuan Jungle
+;{
+;	location		379	210
+;	image			data/menu/battlefield_pics/jungle.tga
+;	sett_locked		no
+;	climate			tropical
+;	summer			yes
+;}
 
-custom_location		European Grasslands
-{
-	location		121	217
-	image			data/menu/battlefield_pics/plains.tga
-	sett_locked		no
-	climate			temperate_coniferous_forest
-	summer			no
-}
-custom_location		Subtropic Coast
-{
-	location		397	152
-	image			data/menu/battlefield_pics/subtropic_farmland.tga
-	sett_locked		no
-	climate			tropical
-	summer			yes
-}
-custom_location		Tarim Basin
-{
-	location		299	191
-	image			data/menu/battlefield_pics/tarim.tga
-	sett_locked		no
-	climate			sandy_desert
-	summer			yes
-}
+;custom_location		Rocky Mountains
+;{
+;	location		35	286
+;	image			data/menu/battlefield_pics/na_mountains.tga
+;	sett_locked		no
+;	climate			temperate_coniferous_forest
+;	summer			no
+;}
 
+;custom_location		European Grasslands
+;{
+;	location		121	217
+;	image			data/menu/battlefield_pics/plains.tga
+;	sett_locked		no
+;	climate			temperate_coniferous_forest
+;	summer			no
+;}
 
+;custom_location		Subtropic Coast
+;{
+;	location		397	152
+;	image			data/menu/battlefield_pics/subtropic_farmland.tga
+;	sett_locked		no
+;	climate			tropical
+;	summer			yes
+;}
+
+;custom_location		Tarim Basin
+;{
+;	location		299	191
+;	image			data/menu/battlefield_pics/tarim.tga
+;	sett_locked		no
+;	climate			sandy_desert
+;	summer			yes
+;}
