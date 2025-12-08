@@ -13599,7 +13599,7 @@ voice_type       heavy
 accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
-soldier          Japan_Bodyguard_IJA, 24, 0, 1
+soldier          Japan_Bodyguard_IJA, 8, 0, 1
 officer          Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
@@ -13909,7 +13909,7 @@ voice_type       heavy
 accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
-soldier          Japan_Bodyguard_Ezo, 24, 0, 1
+soldier          Japan_Bodyguard_Ezo, 8, 0, 1
 officer          Japan_Sampeitai_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
@@ -16087,8 +16087,8 @@ class            missile
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
-soldier          viet_early_inf, 40, 0, 0.8
-attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, stakes, mercenary_unit
+soldier          aby_inf_3g, 40, 0, 0.8
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
 stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1

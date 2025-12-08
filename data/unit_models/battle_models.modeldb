@@ -850,23 +850,33 @@
 0 
 0 
 -1 0 0 0 0 0 0 
-10 unused_072 
-1 1 
-43 unit_models/_Units/ott/ott_egy_1g_lod0.mesh 20000 
-1 
-5 slave 
+10 aby_inf_3g 
+1 4 
+43 unit_models/_Units/aby/aby_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/aby/aby_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/aby/aby_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/aby/aby_inf_3g_lod0.mesh 20000 
+2 
+12 papal_states 
+50 unit_models/_Units/aby/textures/aby_inf_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr  
+5 slave 
+50 unit_models/_Units/aby/textures/aby_inf_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-1
+2 
+12 papal_states 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 slave 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-14 MTW2_Musket_SS 9 MTW2_Pike 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
 1 
-19 MTW2_Musket_Primary 
+21 MTW2_Arquebus_Primary 
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
