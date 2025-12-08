@@ -15552,31 +15552,7 @@ era 0            slave, england
 era 1            slave, england
 era 2            slave, england
 
-type             merc_viet_early_inf
-dictionary       merc_viet_early_inf         ;unused
-category         infantry
-class            missile
-voice_type       Light
-banner faction   main_missile
-banner holy      crusade
-soldier          siam_agent, 40, 0, 1
-attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, mercenary_unit, affected_by_rain
-formation        1.2, 1.2, 2.0, 2.4, 3, square
-stat_health      1, 0
-stat_pri         37, 1, hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
-stat_pri_attr    no
-stat_sec         4, 4, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
-stat_sec_attr    no
-stat_pri_armour  3, 2, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        4
-stat_ground      0, -2, 0, -4
-stat_mental      3, impetuous, untrained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        2, 900, 300, 65, 50, 900, 4, 300
-ownership        slave
+
 
 type             merc_siam_agent
 dictionary       merc_siam_agent      ; Mercenary Siamese Arquebusiers (Arquebus)
@@ -16112,6 +16088,39 @@ era 1            slave, papal_states
 era 2            slave, papal_states
 
 
+type             merc_viet_early_inf
+dictionary       merc_viet_early_inf         ;unused
+category         infantry
+class            spearmen
+voice_type       heavy
+banner faction   main_missile
+banner holy      crusade
+soldier          aby_grd_1g, 100, 0, 1.0
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, warcry, start_not_skirmishing, very_hardy
+move_speed_mod	 1.2
+formation        2, 2, 4, 4, 6, square
+stat_health      1, 0
+stat_pri         5, 6, javelin, 60, 1, thrown, missile_mechanical, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    prec, thrown
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    spear
+stat_pri_armour  3, 3, 4, flesh
+;stat_armour_ex   0, 4, 5, 0, 3, 3, 3, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        -1
+stat_ground      0, 0, 0, 0
+stat_mental      5, low, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 800, 100, 65, 50, 800, 4, 200
+ownership        papal_states, slave
+era 0            papal_states, slave
+era 1            papal_states, slave
+era 2            papal_states, slave
+
 type             ethiopian_warband
 dictionary       ethiopian_warband      ; Ethiopian Warband
 category         infantry
@@ -16119,8 +16128,8 @@ class            spearmen
 voice_type       Light
 accent      	 arabic
 banner faction   main_spear
-soldier          african_spearmen, 64, 0, 0.7
-attributes       free_upkeep_unit, sea_faring, hide_long_grass, can_withdraw, mercenary_unit
+soldier          aby_spr_1g, 64, 0, 0.7
+attributes       free_upkeep_unit, sea_faring, hide_long_grass, can_withdraw
 formation        1.2, 1.2, 3, 3, 5, square
 stat_health      1, 0
 stat_pri         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 75, 1
@@ -16136,9 +16145,9 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 700, 175, 85, 65, 700, 4, 175
-ownership        slave, moors, papal_states
-era 1            slave, moors, papal_states
-era 2            slave, moors, papal_states
+ownership        slave, papal_states
+era 1            slave, papal_states
+era 2            slave, papal_states
 
 
 type             merc_arab_sailors

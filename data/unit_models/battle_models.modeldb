@@ -3557,26 +3557,36 @@
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-10 unused_001 
-1 1 
-43 unit_models/_Units/ott/ott_egy_1g_lod0.mesh 20000 
-1 
-5 slave 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
+10 aby_grd_1g 
+1 4 
+43 unit_models/_Units/aby/aby_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/aby/aby_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/aby/aby_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/aby/aby_grd_1g_lod0.mesh 20000 
+2 
+12 papal_states 
+50 unit_models/_Units/aby/textures/aby_grd_1g.texture 
+50 unit_models/_Units/aby/textures/aby_spr_nm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-1
 5 slave 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+50 unit_models/_Units/aby/textures/aby_grd_1g.texture 
+50 unit_models/_Units/aby/textures/aby_spr_nm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2
+12 papal_states 
+50 unit_models/_Units/aby/textures/aby_eqp_1g.texture 
+50 unit_models/_Units/aby/textures/aby_eqp_nm.texture 0 
+5 slave 
+50 unit_models/_Units/aby/textures/aby_eqp_1g.texture 
+50 unit_models/_Units/aby/textures/aby_eqp_nm.texture 0 
 1 
 4 None 
-14 MTW2_Musket_SS 9 MTW2_Pike 
-1 
-19 MTW2_Musket_Primary 
-1 
-17 MTW2_Pike_primary 
-16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 MTW2_Fast_Javelin 14 MTW2_Fast_Mace 
+2 
+20 MTW2_Javelin_primary 14 fs_test_shield 
+2 
+17 MTW2_Mace_Primary 14 fs_test_shield 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002  
 10 aus_inf_sp 
 1 4 
 43 unit_models/_Units/spa/spa_grd_1g_lod0.mesh 20000 
@@ -3607,25 +3617,34 @@
 1 
 17 MTW2_Pike_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-10 unused_001 
-1 1 
-43 unit_models/_Units/ott/ott_egy_1g_lod0.mesh 20000 
-1 
-5 slave 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
+10 aby_spr_1g 
+1 4 
+43 unit_models/_Units/aby/aby_spr_1g_lod0.mesh 20000 
+43 unit_models/_Units/aby/aby_spr_1g_lod0.mesh 20000 
+43 unit_models/_Units/aby/aby_spr_1g_lod0.mesh 20000 
+43 unit_models/_Units/aby/aby_spr_1g_lod0.mesh 20000 
+2 
+12 papal_states 
+50 unit_models/_Units/aby/textures/aby_spr_1g.texture 
+50 unit_models/_Units/aby/textures/aby_spr_nm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-1
 5 slave 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+50 unit_models/_Units/aby/textures/aby_spr_1g.texture 
+50 unit_models/_Units/aby/textures/aby_spr_nm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2
+12 papal_states 
+50 unit_models/_Units/aby/textures/aby_eqp_1g.texture 
+50 unit_models/_Units/aby/textures/aby_eqp_nm.texture 0 
+5 slave 
+50 unit_models/_Units/aby/textures/aby_eqp_1g.texture 
+50 unit_models/_Units/aby/textures/aby_eqp_nm.texture 0 
 1 
 4 None 
-14 MTW2_Musket_SS 9 MTW2_Pike 
-1 
-19 MTW2_Musket_Primary 
-1 
-17 MTW2_Pike_primary 
+10 MTW2_Spear 0 
+2 
+18 MTW2_Spear_primary 14 fs_test_shield 
+0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 8 aus_inf3 
 1 4 
