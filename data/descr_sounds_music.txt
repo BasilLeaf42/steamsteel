@@ -3625,6 +3625,14 @@ BANK: music_bank
 				camp8.mp3
 				camp9.mp3
 				camp10.mp3
+				Civilization_V_Bright_Colours.mp3
+				Civilization_V_Kambu.mp3
+				Civilization_V_Kap_Mai.mp3
+				Civilization_V_Nang_Nahk.mp3
+				Civilization_V_Phatcha.mp3
+				Civilization_V_Rabum_Nokyoung.mp3
+				Civilization_V_Sukhothai.mp3
+				Civilization_V_The_Floating_Temple.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
@@ -5637,7 +5645,7 @@ BANK: music_bank
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/china
-				battle1.mp3S
+				battle1.mp3
 				battle2.mp3
 				battle3.mp3
 				battle4.mp3
@@ -5738,9 +5746,7 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_LOADING
 			event 
 				folder data/sounds/music/china
-				loading1.mp3
-				loading2.mp3
-				loading3.mp3
+				1895_Track_1.mp3
 			end	
 			
 		
