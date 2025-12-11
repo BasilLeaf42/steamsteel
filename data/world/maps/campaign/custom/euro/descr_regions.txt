@@ -1,0 +1,1796 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; This file is entirely composed by hand - errors and bugs are to be expected.
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+region_040
+	sett_040
+	f_rome
+	Roma_Latium
+	52 13 198
+	hr_a, hr_c, hr_d, hr_i, italy
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 10 rel_f 0 rel_g 85 rel_h 5 rel_i 0 rel_x 0 }
+region_170
+	sett_170
+	f_carthage
+	Carthaginian_Zeugitana
+	202 191 17
+	hr_d, hr_e, hr_i, hr_j, punic, royal_core, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 65 rel_h 15 rel_i 10 rel_x 0 }
+region_087
+	sett_087
+	f_makedonia
+	Thessaloi
+	177 83 58
+	hr_a, hr_g, hr_h, hr_i, greek1, achaenleague, deuteroi
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 5 rel_d 0 rel_e 0 rel_f 0 rel_g 0 rel_h 95 rel_i 0 rel_x 0 }
+region_083
+	sett_083
+	f_epeiros
+	Epeirotai
+	83 58 177
+	hr_a, hr_f, hr_g, hr_j, hellen1, deuteroi, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 15 rel_f 0 rel_g 10 rel_h 75 rel_i 0 rel_x 0 }
+region_088
+	sett_088
+	f_kh
+	Athenaioi
+	58 177 106
+	hr_a, hr_g, hr_h, hr_j, greek1, achaenleague
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 0 rel_h 100 rel_i 0 rel_x 0 }
+region_122
+	sett_122
+	f_seleukid
+	Mesopotamian
+	177 58 167
+	hr_river, hr_b, hr_f, hr_g, hr_h, eastern, greek2, hellen2, satrapy, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 30 rel_d 35 rel_e 0 rel_f 0 rel_g 0 rel_h 35 rel_i 0 rel_x 0 }
+region_178
+	sett_178
+	f_ptolemaioi
+	Aigyptioi
+	244 13 214
+	hr_d, hr_g, hr_h, hr_j, hellen1, egypt, satrapy, phalangitai, ioudaioi, nabatu_empire
+	5
+	1
+	religions { rel_a 20 rel_b 0 rel_c 0 rel_d 35 rel_e 0 rel_f 0 rel_g 0 rel_h 45 rel_i 0 rel_x 0 }
+region_140
+	sett_140
+	f_baktria
+	Baktrioi
+	20 155 2
+	hr_c, hr_d, hr_f, hr_j, baktria, eastern, greek2, hellen2, nomadic_migration, satrapy
+	5
+	1
+	religions { rel_a 0 rel_b 10 rel_c 15 rel_d 25 rel_e 0 rel_f 0 rel_g 0 rel_h 45 rel_i 5 rel_x 0 }
+region_114
+	sett_114
+	f_hayasdan
+	Haikh
+	202 61 17
+	hr_b, hr_d, hr_e, hr_j, caucasus, satrapy
+	5
+	1
+	religions { rel_a 0 rel_b 10 rel_c 20 rel_d 65 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_104
+	sett_104
+	f_pontos
+	Pontik
+	87 43 17
+	hr_b, hr_c, hr_f, hr_j, anatolian, hyparchia, pontic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 20 rel_d 60 rel_e 5 rel_f 0 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_154
+	sett_154
+	f_parthia
+	Dahae
+	192 137 84
+	hr_c, hr_f, hr_h, hr_i, daha, mixed, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 15 rel_b 45 rel_c 10 rel_d 30 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_111
+	sett_111
+	f_aedui
+	Aedui
+	31 75 37
+	hr_river, hr_b, hr_d, hr_e, hr_f, celtic, gallic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 90 rel_f 5 rel_g 5 rel_h 0 rel_i 0 rel_x 0 }
+region_024
+	sett_024
+	f_arverni
+	Arverni
+	194 204 127
+	hr_a, hr_d, hr_e, hr_g, celtic, gallic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 95 rel_f 5 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_007
+	sett_007
+	f_casse
+	Dumnones
+	129 123 31
+	hr_river, hr_a, hr_b, hr_c, hr_j, briton, belgic, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 20 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_010
+	sett_010
+	f_lusotannan
+	Vettoni
+	13 198 30
+	hr_a, hr_b, hr_d, hr_g, lusitan
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 20 rel_g 5 rel_h 0 rel_i 75 rel_x 0 }
+region_055
+	sett_055
+	f_sweboz
+	Sweboz
+	232 198 41
+	hr_river, hr_a, hr_c, hr_h, hr_j, mixed, germania, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 20 rel_f 80 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_077
+	sett_077
+	f_getai
+	Getai
+	72 177 58
+	hr_a, hr_e, hr_g, hr_j, dacia, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 10 rel_c 0 rel_d 0 rel_e 5 rel_f 5 rel_g 0 rel_h 15 rel_i 65 rel_x 0 }
+region_193
+	sett_193
+	f_saba
+	Sabaei
+	6 129 61
+	hr_f, hr_g, hr_i, hr_j, arabian, saba_core, nomadic_migration, royal_core
+	5
+	1
+	religions { rel_a 20 rel_b 0 rel_c 15 rel_d 55 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 5 rel_x 0 }
+region_097
+	sett_097
+	f_pergamon
+	Ione_Mysia
+	33 59 131
+	hr_b, hr_c, hr_e, hr_f, anatolian, greek1, satrapy, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 10 rel_d 20 rel_e 0 rel_f 0 rel_g 0 rel_h 70 rel_i 0 rel_x 0 }
+region_148
+	sett_148
+	f_saka
+	Wusun
+	249 105 109
+	hr_c, hr_e, hr_h, hr_i, saka, nomadic_migration, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 90 rel_c 0 rel_d 5 rel_e 0 rel_f 5 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_158
+	sett_158
+	f_sauromatae
+	Rhoxolanii
+	177 58 83
+	hr_c, hr_g, hr_h, hr_j, sarmatian, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 80 rel_c 5 rel_d 5 rel_e 0 rel_f 5 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_167
+	sett_167
+	f_numidia
+	Numidae
+	17 83 202
+	hr_d, hr_e, hr_g, hr_j, numidia, mixed, horde_target, nomadic_migration
+	5
+	1
+	religions { rel_a 15 rel_b 45 rel_c 10 rel_d 0 rel_e 0 rel_f 0 rel_g 20 rel_h 10 rel_i 0 rel_x 0 }
+region_144
+	sett_144
+	f_gandhara
+	Gandharas
+	162 97 102
+	hr_c, hr_e, hr_f, hr_j, indo, nomadic_migration, satrapy, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 5 rel_c 10 rel_d 5 rel_e 0 rel_f 25 rel_g 0 rel_h 10 rel_i 45 rel_x 0 }
+region_162
+	sett_162
+	f_bosporan
+	Bosporitai
+	200 197 155
+	hr_d, hr_e, hr_g, hr_h, greek1, nomadic_migration, pontic, skythian, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 20 rel_c 10 rel_d 10 rel_e 10 rel_f 0 rel_g 0 rel_h 50 rel_i 0 rel_x 0 }
+region_060
+	sett_060
+	f_lugia
+	Silengoz
+	20 80 98
+	hr_river, hr_a, hr_d, hr_e, hr_j, baltic, celtic, mixed, nomadic_migration, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 25 rel_f 75 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_015
+	sett_015
+	f_arevaci
+	Arevaci
+	198 13 35
+	hr_river, hr_a, hr_b, hr_e, hr_g, celtiberia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 5 rel_h 0 rel_i 85 rel_x 0 }
+region_054
+	sett_054
+	f_boii
+	Boii
+	58 150 177
+	hr_river, hr_a, hr_c, hr_h, hr_i, celtic, eastcelt, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 85 rel_f 15 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_189
+	sett_189
+	f_nabatu
+	Nabatu
+	35 244 13
+	hr_e, hr_g, hr_i, hr_j, arabian, mixed, nabatu_empire, nomadic_migration
+	5
+	1
+	religions { rel_a 75 rel_b 0 rel_c 5 rel_d 15 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_001
+	sett_001
+	f_casse
+	Goidilic
+	212 232 41
+	hr_a, hr_b, hr_c, hr_d, briton, celtic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 50 rel_f 50 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_002
+	sett_002
+	f_casse
+	Caledonii
+	43 130 47
+	hr_a, hr_b, hr_c, hr_e, briton, eastcelt
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 40 rel_f 60 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_003
+	sett_003
+	f_getai
+	Histrians
+	6 122 176
+	hr_a, hr_e, hr_f, hr_g, illyria, liburnes
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 25 rel_f 0 rel_g 0 rel_h 10 rel_i 65 rel_x 0 }
+region_004
+	sett_004
+	f_casse
+	Brigantes
+	232 41 198
+	hr_river, hr_a, hr_b, hr_c, hr_g, briton
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 20 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_005
+	sett_005
+	f_casse
+	Ordovices
+	41 232 63
+	hr_a, hr_b, hr_c, hr_h, briton
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 20 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_006
+	sett_006
+	f_casse
+	Dumnonii
+	175 181 24
+	hr_a, hr_b, hr_c, hr_i, briton
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 20 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_008
+	sett_008
+	f_casse
+	Trinovantes
+	232 41 46
+	hr_river, hr_a, hr_b, hr_d, hr_e, briton, belgic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 20 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_009
+	sett_009
+	f_lusotannan
+	Gallaeci
+	13 157 198
+	hr_a, hr_b, hr_d, hr_f, lusitan, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 10 rel_f 70 rel_g 0 rel_h 0 rel_i 20 rel_x 0 }
+region_011
+	sett_011
+	f_lusotannan
+	Iberians
+	245 150 120
+	hr_a, hr_b, hr_d, hr_h, lusitan
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 20 rel_h 0 rel_i 70 rel_x 0 }
+region_012
+	sett_012
+	f_lusotannan
+	Turdetani
+	17 13 198
+	hr_a, hr_b, hr_d, hr_i, iberia, horde_target
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 80 rel_h 0 rel_i 20 rel_x 0 }
+region_013
+	sett_013
+	f_carthage
+	Bastestani
+	187 198 13
+	hr_a, hr_b, hr_d, hr_j, iberia, horde_target, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 50 rel_h 0 rel_i 50 rel_x 0 }
+region_014
+	sett_014
+	f_arevaci
+	Carpetani
+	238 106 8
+	hr_a, hr_b, hr_e, hr_f, celtiberia, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 10 rel_h 0 rel_i 80 rel_x 0 }
+region_016
+	sett_016
+	f_arevaci
+	Asturi
+	182 238 133
+	hr_a, hr_b, hr_e, hr_h, celtiberia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 15 rel_f 30 rel_g 0 rel_h 0 rel_i 55 rel_x 0 }
+region_017
+	sett_017
+	f_arevaci
+	Ilergetes
+	11 83 203
+	hr_a, hr_b, hr_d, hr_i, iberia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 40 rel_f 0 rel_g 0 rel_h 0 rel_i 60 rel_x 0 }
+region_018
+	sett_018
+	f_arevaci
+	Edetani
+	53 100 47
+	hr_a, hr_b, hr_d, hr_j, iberia, horde_target
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 20 rel_f 0 rel_g 35 rel_h 5 rel_i 40 rel_x 0 }
+region_019
+	sett_019
+	f_kh
+	Lacetani
+	13 196 198
+	hr_a, hr_b, hr_e, hr_f, greek2, iberia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 5 rel_h 35 rel_i 60 rel_x 0 }
+region_020
+	sett_020
+	f_aedui
+	Veneti
+	232 41 135
+	hr_a, hr_b, hr_e, hr_g, celtic, gallic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 75 rel_f 25 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_021
+	sett_021
+	f_aedui
+	Pictones
+	68 232 41
+	hr_river, hr_a, hr_b, hr_e, hr_h, celtic, gallic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 20 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_022
+	sett_022
+	f_aedui
+	Aquitani
+	154 162 97
+	hr_river, hr_a, hr_b, hr_e, hr_i, celtic, gallic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 5 rel_g 10 rel_h 5 rel_i 0 rel_x 0 }
+region_023
+	sett_023
+	f_arverni
+	Volcae_Volcallra
+	196 13 198
+	hr_river, hr_a, hr_b, hr_e, hr_j, celtic, gallic, horde_target, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 5 rel_g 10 rel_h 5 rel_i 0 rel_x 0 }
+region_025
+	sett_025
+	f_aedui
+	Biturige
+	68 166 211
+	hr_river, hr_b, hr_d, hr_e, hr_g, celtic, gallic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 95 rel_f 5 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_026
+	sett_026
+	f_aedui
+	Aulerci
+	33 152 75
+	hr_a, hr_b, hr_f, hr_g, celtic, gallic, belgic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 20 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_027
+	sett_027
+	f_aedui
+	Bellovaci
+	232 90 41
+	hr_river, hr_a, hr_b, hr_f, hr_h, celtic, gallic, belgic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 75 rel_f 25 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_028
+	sett_028
+	f_arverni
+	Sequani
+	72 41 232
+	hr_river, hr_a, hr_b, hr_f, hr_i, celtic, gallic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 85 rel_f 15 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_029
+	sett_029
+	f_arverni
+	Allobroge
+	85 114 141
+	hr_a, hr_b, hr_f, hr_j, celtic, gallic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 85 rel_f 15 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_030
+	sett_030
+	f_kh
+	Vocontii
+	117 198 13
+	hr_a, hr_b, hr_g, hr_h, celtic, gallic, greek2, horde_target
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 55 rel_f 5 rel_g 10 rel_h 30 rel_i 0 rel_x 0 }
+region_031
+	sett_031
+	f_aedui
+	Insubre
+	221 232 41
+	hr_river, hr_a, hr_b, hr_g, hr_i, celtic, gallic, eastcelt, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 70 rel_f 25 rel_g 5 rel_h 0 rel_i 0 rel_x 0 }
+region_032
+	sett_032
+	f_aedui
+	Helvetii
+	19 101 241
+	hr_river, hr_a, hr_b, hr_g, hr_j, celtic, eastcelt
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 65 rel_f 35 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_033
+	sett_033
+	f_aedui
+	Konsuantoi
+	63 232 41
+	hr_a, hr_b, hr_h, hr_i, celtic, gallic, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 70 rel_f 30 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_034
+	sett_034
+	f_aedui
+	Nervii
+	6 141 25
+	hr_river, hr_a, hr_b, hr_h, hr_j, celtic, gallic, belgic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 65 rel_f 35 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_035
+	sett_035
+	f_arverni
+	Liguriae
+	157 13 198
+	hr_a, hr_b, hr_i, hr_j, gallic, eastcelt
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 30 rel_f 10 rel_g 20 rel_h 20 rel_i 20 rel_x 0 }
+region_036
+	sett_036
+	f_getai
+	Patavoae
+	13 198 117
+	hr_a, hr_c, hr_d, hr_e, eastcelt, horde_target, liburnes
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 10 rel_f 30 rel_g 10 rel_h 10 rel_i 40 rel_x 0 }
+region_037
+	sett_037
+	f_boii
+	Boii_Galla
+	164 142 123
+	hr_river, hr_a, hr_c, hr_d, hr_f, celtic, gallic, eastcelt, liburnes
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 65 rel_f 10 rel_g 25 rel_h 0 rel_i 0 rel_x 0 }
+region_038
+	sett_038
+	f_rome
+	Etruscans
+	157 198 13
+	hr_a, hr_c, hr_d, hr_g, italy
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 40 rel_f 0 rel_g 40 rel_h 20 rel_i 0 rel_x 0 }
+region_039
+	sett_039
+	f_rome
+	Roma_Umbria
+	198 43 13
+	hr_a, hr_c, hr_d, hr_h, italy, liburnes
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 50 rel_f 10 rel_g 40 rel_h 0 rel_i 0 rel_x 0 }
+region_041
+	sett_041
+	f_rome
+	Roma_Apulia
+	159 160 99
+	hr_a, hr_c, hr_d, hr_j, italy, liburnes
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 60 rel_f 0 rel_g 30 rel_h 10 rel_i 0 rel_x 0 }
+region_042
+	sett_042
+	f_rome
+	Campanians
+	198 13 174
+	hr_a, hr_c, hr_e, hr_f, italy
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 30 rel_f 0 rel_g 30 rel_h 40 rel_i 0 rel_x 0 }
+region_043
+	sett_043
+	f_epeiros
+	Leukanoi
+	13 170 198
+	hr_a, hr_c, hr_e, hr_g, italy, greek2
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 35 rel_f 0 rel_g 15 rel_h 50 rel_i 0 rel_x 0 }
+region_044
+	sett_044
+	f_epeiros
+	Tarentine
+	33 196 58
+	hr_a, hr_c, hr_e, hr_h, italy, greek1
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 40 rel_f 0 rel_g 15 rel_h 45 rel_i 0 rel_x 0 }
+region_045
+	sett_045
+	f_carthage
+	Elim
+	65 17 202
+	hr_a, hr_c, hr_e, hr_i, hr_island, punic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 5 rel_f 0 rel_g 60 rel_h 25 rel_i 10 rel_x 0 }
+region_046
+	sett_046
+	f_epeiros
+	Mamertine
+	177 142 58
+	hr_a, hr_c, hr_e, hr_j, hr_island, greek1
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 10 rel_f 0 rel_g 45 rel_h 45 rel_i 0 rel_x 0 }
+region_047
+	sett_047
+	f_epeiros
+	Syrakousioi
+	198 178 13
+	hr_a, hr_c, hr_f, hr_j, hr_island, greek1, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 5 rel_f 0 rel_g 20 rel_h 70 rel_i 5 rel_x 0 }
+region_048
+	sett_048
+	f_carthage
+	Korsim
+	115 144 78
+	hr_a, hr_c, hr_f, hr_h, hr_island
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 25 rel_f 5 rel_g 50 rel_h 20 rel_i 0 rel_x 0 }
+region_049
+	sett_049
+	f_carthage
+	Shardana
+	198 35 13
+	hr_a, hr_c, hr_f, hr_i, hr_island
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 5 rel_d 0 rel_e 5 rel_f 0 rel_g 80 rel_h 10 rel_i 0 rel_x 0 }
+region_050
+	sett_050
+	f_carthage
+	Baleari
+	41 232 225
+	hr_a, hr_c, hr_f, hr_g, hr_island, iberia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 50 rel_h 50 rel_i 0 rel_x 0 }
+region_051
+	sett_051
+	f_boii
+	Volcae
+	41 162 232
+	hr_river, hr_a, hr_c, hr_g, hr_h, celtic, eastcelt, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 80 rel_f 20 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_052
+	sett_052
+	f_sweboz
+	Heruskoz
+	219 9 68
+	hr_river, hr_a, hr_c, hr_g, hr_i, celtic, germania, belgic, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 45 rel_f 55 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_053
+	sett_053
+	f_boii
+	Hattoz
+	39 67 171
+	hr_river, hr_a, hr_c, hr_g, hr_j, celtic, eastcelt, germania, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 60 rel_f 40 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_056
+	sett_056
+	f_sweboz
+	Kimbrioz
+	232 41 55
+	hr_river, hr_a, hr_c, hr_i, hr_j, germania, mixed, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 55 rel_f 45 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_057
+	sett_057
+	f_sweboz
+	Skandzawarjoz
+	126 115 178
+	hr_a, hr_d, hr_e, hr_f, germania
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 15 rel_f 85 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_058
+	sett_058
+	f_gandhara
+	Madras
+	70 128 64
+	hr_a, hr_d, hr_e, hr_h, indo, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 10 rel_d 10 rel_e 0 rel_f 40 rel_g 0 rel_h 0 rel_i 30 rel_x 0 }
+region_059
+	sett_059
+	f_boii
+	Marcomannoz
+	203 41 232
+	hr_a, hr_d, hr_e, hr_i, celtic, germania, mixed, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 45 rel_f 55 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_061
+	sett_061
+	f_sweboz
+	Gutones
+	69 127 206
+	hr_a, hr_d, hr_f, hr_g, baltic, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 15 rel_f 85 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_062
+	sett_062
+	f_lugia
+	Lugii
+	177 78 58
+	hr_river, hr_a, hr_d, hr_f, hr_h, baltic, nomadic_migration, teutonic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 20 rel_f 80 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_063
+	sett_063
+	f_boii
+	Cotinii
+	33 100 131
+	hr_river, hr_a, hr_d, hr_f, hr_i, celtic, eastcelt, forested, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 25 rel_c 0 rel_d 0 rel_e 50 rel_f 25 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_064
+	sett_064
+	f_lugia
+	Bastarnoz
+	223 192 126
+	hr_a, hr_d, hr_f, hr_j, forested, mixed, nomadic_migration, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 45 rel_c 0 rel_d 0 rel_e 5 rel_f 30 rel_g 0 rel_h 0 rel_i 20 rel_x 0 }
+region_065
+	sett_065
+	f_saka
+	Kuchiya
+	131 33 125
+	hr_c, hr_e, hr_i, hr_j, saka
+	5
+	1
+	religions { rel_a 50 rel_b 35 rel_c 0 rel_d 15 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_066
+	sett_066
+	f_lugia
+	Vendi
+	56 55 51
+	hr_a, hr_d, hr_g, hr_i, baltic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 10 rel_f 90 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_067
+	sett_067
+	f_lugia
+	Seliun
+	58 177 95
+	hr_a, hr_d, hr_g, hr_j, forested
+	5
+	1
+	religions { rel_a 0 rel_b 15 rel_c 0 rel_d 0 rel_e 5 rel_f 80 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_068
+	sett_068
+	f_baktria
+	Bactrians
+	58 89 177
+	hr_a, hr_d, hr_h, hr_i, baktria, eastern, greek2, hellen2, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 15 rel_c 10 rel_d 35 rel_e 0 rel_f 0 rel_g 0 rel_h 35 rel_i 5 rel_x 0 }
+region_069
+	sett_069
+	f_sauromatae
+	Boudinai
+	107 156 168
+	hr_a, hr_d, hr_h, hr_j, forested, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 75 rel_c 0 rel_d 0 rel_e 5 rel_f 20 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_070
+	sett_070
+	f_bosporan
+	Iskutae
+	33 131 116
+	hr_a, hr_d, hr_i, hr_j, skythian, horde_target, mixed, nomadic_migration, pontic, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 60 rel_c 15 rel_d 0 rel_e 5 rel_f 5 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_071
+	sett_071
+	f_boii
+	Nantus_Allobroge
+	171 111 58
+	hr_river, hr_a, hr_e, hr_f, hr_g, celtic, gallic, horde_target
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 70 rel_f 30 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_072
+	sett_072
+	f_boii
+	Treveri
+	230 41 232
+	hr_a, hr_e, hr_f, hr_h, celtic, gallic, belgic, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 75 rel_f 25 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_073
+	sett_073
+	f_boii
+	Autariatae
+	58 173 177
+	hr_river, hr_a, hr_e, hr_f, hr_i, horde_target, celtic, eastcelt, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 30 rel_f 30 rel_g 0 rel_h 0 rel_i 40 rel_x 0 }
+region_074
+	sett_074
+	f_boii
+	Nori
+	131 61 33
+	hr_river, hr_a, hr_e, hr_f, hr_j, celtic, eastcelt, horde_target, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 85 rel_f 15 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_075
+	sett_075
+	f_boii
+	Eraviscii
+	250 128 151
+	hr_river, hr_a, hr_e, hr_g, hr_h, celtic, eastcelt, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 15 rel_c 0 rel_d 0 rel_e 85 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_076
+	sett_076
+	f_getai
+	Agathyrsi
+	72 122 168
+	hr_a, hr_e, hr_g, hr_i, dacia, horde_target, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 10 rel_c 0 rel_d 0 rel_e 10 rel_f 10 rel_g 0 rel_h 10 rel_i 60 rel_x 0 }
+region_078
+	sett_078
+	f_bosporan
+	Crobyzii
+	131 33 38
+	hr_a, hr_e, hr_h, hr_i, dacia, greek2, nomadic_migration, pontic, skythian
+	5
+	1
+	religions { rel_a 0 rel_b 25 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 0 rel_h 35 rel_i 40 rel_x 0 }
+region_079
+	sett_079
+	f_getai
+	Triballi
+	98 101 199
+	hr_a, hr_e, hr_h, hr_j, celtic, eastcelt, nomadic_migration, thrakia
+	5
+	1
+	religions { rel_a 0 rel_b 5 rel_c 0 rel_d 0 rel_e 25 rel_f 0 rel_g 0 rel_h 15 rel_i 55 rel_x 0 }
+region_080
+	sett_080
+	f_getai
+	Scordiscii
+	164 170 3
+	hr_a, hr_e, hr_i, hr_j, celtic, eastcelt, thrakia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 35 rel_f 10 rel_g 0 rel_h 5 rel_i 50 rel_x 0 }
+region_081
+	sett_081
+	f_getai
+	Dalmate
+	193 193 193
+	hr_a, hr_f, hr_g, hr_h, illyria, mixed
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 25 rel_f 50 rel_g 0 rel_h 0 rel_i 25 rel_x 0 }
+region_082
+	sett_082
+	f_epeiros
+	Illyrians
+	61 177 58
+	hr_a, hr_f, hr_g, hr_i, greek2, illyria, liburnes
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 0 rel_h 30 rel_i 60 rel_x 0 }
+region_084
+	sett_084
+	f_kh
+	Aitolioi
+	13 18 244
+	hr_a, hr_f, hr_h, hr_i, greek1, achaenleague
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 5 rel_f 0 rel_g 5 rel_h 90 rel_i 0 rel_x 0 }
+region_085
+	sett_085
+	f_getai
+	Dardanoi
+	131 33 100
+	hr_a, hr_f, hr_h, hr_j, illyria, thrakia, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 5 rel_f 10 rel_g 0 rel_h 25 rel_i 60 rel_x 0 }
+region_086
+	sett_086
+	f_makedonia
+	Makedones
+	177 58 145
+	hr_a, hr_f, hr_i, hr_j, hellen1, phalangitai, deuteroi, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 10 rel_d 0 rel_e 0 rel_f 0 rel_g 0 rel_h 90 rel_i 0 rel_x 0 }
+region_089
+	sett_089
+	f_kh
+	Peloponnesioi
+	225 192 192
+	hr_a, hr_g, hr_i, hr_j, greek1, achaenleague, horde_target
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 0 rel_h 100 rel_i 0 rel_x 0 }
+region_090
+	sett_090
+	f_kh
+	Heilotes
+	244 13 24
+	hr_a, hr_h, hr_i, hr_j, greek1, achaenleague
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 0 rel_h 100 rel_i 0 rel_x 0 }
+region_091
+	sett_091
+	f_kh
+	Kretai
+	193 162 206
+	hr_b, hr_c, hr_d, hr_e, hr_island, greek1, krete
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 0 rel_h 100 rel_i 0 rel_x 0 }
+region_092
+	sett_092
+	f_lugia
+	Wenetwa
+	232 3 67
+	hr_b, hr_c, hr_d, hr_f, forested, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 20 rel_f 80 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_093
+	sett_093
+	f_kh
+	Rhodioi
+	131 33 77
+	hr_b, hr_c, hr_d, hr_g, hr_island, greek1
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 5 rel_d 5 rel_e 0 rel_f 0 rel_g 5 rel_h 85 rel_i 0 rel_x 0 }
+region_094
+	sett_094
+	f_getai
+	Thraike
+	218 246 61
+	hr_b, hr_c, hr_d, hr_h, thrakia, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 25 rel_f 10 rel_g 0 rel_h 25 rel_i 40 rel_x 0 }
+region_095
+	sett_095
+	f_kh
+	Byzantioi
+	118 131 33
+	hr_b, hr_c, hr_d, hr_i, thrakia, greek2
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 5 rel_f 5 rel_g 0 rel_h 50 rel_i 40 rel_x 0 }
+region_096
+	sett_096
+	f_pergamon
+	Bithynoi
+	202 17 122
+	hr_b, hr_c, hr_d, hr_j, anatolian, greek1, thrakia, hyparchia, pontic, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 10 rel_d 15 rel_e 0 rel_f 0 rel_g 0 rel_h 45 rel_i 30 rel_x 0 }
+region_098
+	sett_098
+	f_pergamon
+	Lesbioi
+	162 156 2
+	hr_b, hr_c, hr_e, hr_g, anatolian, greek1, hyparchia, lydian
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 15 rel_d 5 rel_e 0 rel_f 0 rel_g 0 rel_h 80 rel_i 0 rel_x 0 }
+region_099
+	sett_099
+	f_seleukid
+	Ione
+	149 109 127
+	hr_b, hr_c, hr_e, hr_h, anatolian, hellen2, lydian, royal_core, satrapy
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 20 rel_d 20 rel_e 0 rel_f 0 rel_g 0 rel_h 60 rel_i 0 rel_x 0 }
+region_100
+	sett_100
+	f_pergamon
+	Trmmli
+	131 83 77
+	hr_b, hr_c, hr_e, hr_i, anatolian, hellen2, lydian, satrapy
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 10 rel_d 50 rel_e 0 rel_f 0 rel_g 0 rel_h 40 rel_i 0 rel_x 0 }
+region_101
+	sett_101
+	f_pergamon
+	Pamphylioi
+	221 14 63
+	hr_b, hr_c, hr_e, hr_j, anatolian, hellen2, hyparchia, lydian
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 5 rel_d 65 rel_e 0 rel_f 0 rel_g 0 rel_h 30 rel_i 0 rel_x 0 }
+region_102
+	sett_102
+	f_seleukid
+	Phryges
+	242 218 86
+	hr_b, hr_c, hr_f, hr_g, anatolian, hyparchia, lydian
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 15 rel_d 40 rel_e 5 rel_f 0 rel_g 0 rel_h 40 rel_i 0 rel_x 0 }
+region_103
+	sett_103
+	f_arverni
+	Galatai
+	17 165 202
+	hr_b, hr_c, hr_f, hr_h, celtic, eastcelt, hyparchia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 5 rel_d 45 rel_e 45 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_105
+	sett_105
+	f_kh
+	Paphlagone
+	202 156 17
+	hr_b, hr_c, hr_g, hr_h, anatolian, greek1, pontic, hyparchia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 10 rel_d 30 rel_e 0 rel_f 0 rel_g 0 rel_h 60 rel_i 0 rel_x 0 }
+region_106
+	sett_106
+	f_pontos
+	Tzanoi
+	250 229 51
+	hr_b, hr_c, hr_g, hr_i, anatolian, greek2, hyparchia, pontic
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 10 rel_d 70 rel_e 0 rel_f 0 rel_g 0 rel_h 20 rel_i 0 rel_x 0 }
+region_107
+	sett_107
+	f_pontos
+	Kappadokoi
+	177 58 148
+	hr_b, hr_c, hr_g, hr_j, anatolian, satrapy
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 15 rel_d 70 rel_e 0 rel_f 0 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_108
+	sett_108
+	f_pontos
+	Hilakku
+	17 202 52
+	hr_b, hr_c, hr_h, hr_i, anatolian, hellen2, hyparchia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 15 rel_d 50 rel_e 0 rel_f 10 rel_g 0 rel_h 25 rel_i 0 rel_x 0 }
+region_109
+	sett_109
+	f_hayasdan
+	Haikh_Pokr_Hayk
+	26 156 4
+	hr_b, hr_c, hr_h, hr_j, caucasus, hyparchia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 10 rel_d 85 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_110
+	sett_110
+	f_hayasdan
+	Khalybe
+	199 31 143
+	hr_b, hr_c, hr_i, hr_j, caucasus, nomadic_migration, pontic, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 10 rel_c 10 rel_d 65 rel_e 0 rel_f 0 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_112
+	sett_112
+	f_hayasdan
+	Karthouli
+	159 17 28
+	hr_b, hr_d, hr_e, hr_h, caucasus, nomadic_migration, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 10 rel_c 10 rel_d 70 rel_e 0 rel_f 10 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_113
+	sett_113
+	f_hayasdan
+	Aluanukh
+	251 210 147
+	hr_b, hr_d, hr_e, hr_i, caucasus, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 25 rel_c 10 rel_d 60 rel_e 0 rel_f 5 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_115
+	sett_115
+	f_hayasdan
+	Aturpatakana
+	61 239 246
+	hr_b, hr_e, hr_f, hr_g, caucasus, hyparchia, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 20 rel_d 80 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_116
+	sett_116
+	f_hayasdan
+	Haikh_Sophene
+	3 57 209
+	hr_b, hr_e, hr_f, hr_h, caucasus, hyparchia, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 15 rel_d 75 rel_e 0 rel_f 0 rel_g 0 rel_h 10 rel_i 0 rel_x 0 }
+region_117
+	sett_117
+	f_ptolemaioi
+	Kyprioi
+	126 144 111
+	hr_b, hr_e, hr_f, hr_i, hr_island, greek2, hyparchia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 15 rel_d 25 rel_e 0 rel_f 0 rel_g 0 rel_h 60 rel_i 0 rel_x 0 }
+region_118
+	sett_118
+	f_seleukid
+	Syroi
+	13 244 165
+	hr_b, hr_e, hr_f, hr_j, eastern, hellen1, satrapy, phalangitai, ioudaioi, royal_core, nabatu_empire
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 30 rel_d 20 rel_e 0 rel_f 0 rel_g 0 rel_h 50 rel_i 0 rel_x 0 }
+region_119
+	sett_119
+	f_seleukid
+	Aramaye
+	244 203 14
+	hr_b, hr_e, hr_g, hr_h, eastern, hyparchia, horde_target, nabatu_empire
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 30 rel_d 50 rel_e 0 rel_f 0 rel_g 0 rel_h 20 rel_i 0 rel_x 0 }
+region_120
+	sett_120
+	f_seleukid
+	Athuria
+	244 122 13
+	hr_river, hr_b, hr_e, hr_g, hr_i, eastern, hellen2, hyparchia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 25 rel_d 40 rel_e 0 rel_f 0 rel_g 0 rel_h 35 rel_i 0 rel_x 0 }
+region_121
+	sett_121
+	f_hayasdan
+	Kardouchoi
+	194 218 61
+	hr_river, hr_b, hr_e, hr_g, hr_j, eastern, hellen2, hyparchia, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 15 rel_d 75 rel_e 0 rel_f 0 rel_g 0 rel_h 10 rel_i 0 rel_x 0 }
+region_123
+	sett_123
+	f_seleukid
+	Babylonian
+	13 171 244
+	hr_river, hr_b, hr_f, hr_g, hr_i, eastern, horde_target, satrapy, ioudaioi
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 20 rel_d 60 rel_e 0 rel_f 0 rel_g 0 rel_h 20 rel_i 0 rel_x 0 }
+region_124
+	sett_124
+	f_hayasdan
+	Mada
+	58 167 177
+	hr_b, hr_f, hr_g, hr_j, eastern, satrapy, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 25 rel_d 45 rel_e 0 rel_f 5 rel_g 0 rel_h 25 rel_i 0 rel_x 0 }
+region_125
+	sett_125
+	f_seleukid
+	Haltamti
+	72 58 177
+	hr_b, hr_f, hr_h, hr_i, eastern, hellen2, horde_target, satrapy
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 25 rel_d 45 rel_e 0 rel_f 5 rel_g 0 rel_h 25 rel_i 0 rel_x 0 }
+region_126
+	sett_126
+	f_seleukid
+	Chaldaioi
+	183 184 33
+	hr_river, hr_b, hr_f, hr_h, hr_j, eastern, hyparchia, arabian
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 25 rel_d 60 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_127
+	sett_127
+	f_seleukid
+	Parsa
+	232 172 176
+	hr_b, hr_f, hr_i, hr_j, eastern, satrapy, royal_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 30 rel_d 50 rel_e 0 rel_f 0 rel_g 0 rel_h 20 rel_i 0 rel_x 0 }
+region_128
+	sett_128
+	f_seleukid
+	Utian
+	217 188 101
+	hr_b, hr_g, hr_h, hr_i, eastern, hyparchia
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 25 rel_d 60 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_129
+	sett_129
+	f_seleukid
+	Parni
+	211 44 67
+	hr_b, hr_g, hr_i, hr_j, eastern, hyparchia
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 15 rel_d 60 rel_e 0 rel_f 0 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_130
+	sett_130
+	f_parthia
+	Varkana
+	23 124 42
+	hr_b, hr_g, hr_h, hr_j, eastern, horde_target, hyparchia
+	5
+	1
+	religions { rel_a 0 rel_b 25 rel_c 20 rel_d 40 rel_e 0 rel_f 5 rel_g 0 rel_h 10 rel_i 0 rel_x 0 }
+region_131
+	sett_131
+	f_parthia
+	Daha
+	188 46 46
+	hr_b, hr_h, hr_i, hr_j, daha, eastern, hyparchia
+	5
+	1
+	religions { rel_a 0 rel_b 45 rel_c 15 rel_d 35 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_132
+	sett_132
+	f_parthia
+	Parthava
+	117 162 204
+	hr_c, hr_d, hr_e, hr_f, daha, eastern, satrapy
+	5
+	1
+	religions { rel_a 0 rel_b 10 rel_c 20 rel_d 60 rel_e 0 rel_f 0 rel_g 0 rel_h 10 rel_i 0 rel_x 0 }
+region_133
+	sett_133
+	f_parthia
+	Margush
+	25 59 226
+	hr_c, hr_d, hr_e, hr_g, baktria, eastern, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 40 rel_c 10 rel_d 40 rel_e 0 rel_f 0 rel_g 0 rel_h 10 rel_i 0 rel_x 0 }
+region_134
+	sett_134
+	f_seleukid
+	Haraiva
+	3 179 152
+	hr_c, hr_d, hr_e, hr_h, eastern, nomadic_migration, satrapy
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 20 rel_d 50 rel_e 0 rel_f 0 rel_g 0 rel_h 15 rel_i 5 rel_x 0 }
+region_135
+	sett_135
+	f_seleukid
+	Zranka
+	41 68 140
+	hr_c, hr_d, hr_e, hr_i, eastern, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 20 rel_d 70 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_136
+	sett_136
+	f_seleukid
+	Karmana
+	186 45 1
+	hr_c, hr_d, hr_e, hr_j, eastern, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 15 rel_d 60 rel_e 0 rel_f 0 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_137
+	sett_137
+	f_seleukid
+	Mahi_khoran
+	194 177 101
+	hr_c, hr_d, hr_f, hr_g, eastern, hyparchia
+	5
+	1
+	religions { rel_a 20 rel_b 0 rel_c 20 rel_d 50 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 10 rel_x 0 }
+region_138
+	sett_138
+	f_seleukid
+	Rakhvad
+	110 8 8
+	hr_c, hr_d, hr_f, hr_h, eastern, indo, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 15 rel_b 0 rel_c 10 rel_d 50 rel_e 0 rel_f 0 rel_g 0 rel_h 10 rel_i 15 rel_x 0 }
+region_139
+	sett_139
+	f_baktria
+	Uparisena
+	158 128 38
+	hr_c, hr_d, hr_f, hr_i, baktria, hyparchia, horde_target, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 10 rel_d 65 rel_e 0 rel_f 5 rel_g 0 rel_h 10 rel_i 10 rel_x 0 }
+region_141
+	sett_141
+	f_parthia
+	Suguda
+	133 55 61
+	hr_c, hr_e, hr_f, hr_g, baktria, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 30 rel_c 10 rel_d 35 rel_e 0 rel_f 0 rel_g 0 rel_h 25 rel_i 0 rel_x 0 }
+region_142
+	sett_142
+	f_saka
+	Davan
+	1 128 187
+	hr_c, hr_e, hr_f, hr_i, saka, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 55 rel_c 10 rel_d 25 rel_e 0 rel_f 0 rel_g 0 rel_h 10 rel_i 0 rel_x 0 }
+region_143
+	sett_143
+	f_saka
+	Haomavarga
+	158 159 66
+	hr_c, hr_e, hr_f, hr_h, saka, hyparchia, mixed, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 50 rel_c 10 rel_d 35 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_145
+	sett_145
+	f_gandhara
+	Sindhi
+	238 239 158
+	hr_c, hr_e, hr_g, hr_h, indo, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 15 rel_b 0 rel_c 10 rel_d 0 rel_e 0 rel_f 45 rel_g 0 rel_h 0 rel_i 30 rel_x 0 }
+region_146
+	sett_146
+	f_gandhara
+	Sauviras
+	21 190 29
+	hr_c, hr_e, hr_g, hr_i, indo, nomadic_migration, satrapy
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 10 rel_d 0 rel_e 0 rel_f 50 rel_g 0 rel_h 0 rel_i 30 rel_x 0 }
+region_147
+	sett_147
+	f_saka
+	Tuhara
+	155 255 167
+	hr_c, hr_e, hr_g, hr_j, saka, mixed, nomadic_migration
+	5
+	1
+	religions { rel_a 70 rel_b 10 rel_c 0 rel_d 20 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_149
+	sett_149
+	f_saka
+	Kang
+	147 187 95
+	hr_c, hr_e, hr_h, hr_j, saka, mixed, nomadic_migration
+	5
+	1
+	religions { rel_a 20 rel_b 50 rel_c 0 rel_d 30 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_150
+	sett_150
+	f_saka
+	Saka
+	53 37 207
+	hr_c, hr_e, hr_g, hr_i, saka, nomadic_migration
+	5
+	1
+	religions { rel_a 20 rel_b 70 rel_c 0 rel_d 10 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_151
+	sett_151
+	f_sauromatae
+	Alan
+	239 240 100
+	hr_c, hr_f, hr_g, hr_h, sarmatian
+	5
+	1
+	religions { rel_a 15 rel_b 70 rel_c 0 rel_d 15 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_152
+	sett_152
+	f_sauromatae
+	Mazsakat
+	58 177 75
+	hr_c, hr_f, hr_g, hr_i, saka, mixed, nomadic_migration
+	5
+	1
+	religions { rel_a 20 rel_b 30 rel_c 20 rel_d 30 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_153
+	sett_153
+	f_parthia
+	Uvarazmi
+	122 4 85
+	hr_c, hr_f, hr_g, hr_j, daha, mixed, royal_core
+	5
+	1
+	religions { rel_a 15 rel_b 30 rel_c 10 rel_d 35 rel_e 0 rel_f 0 rel_g 0 rel_h 10 rel_i 0 rel_x 0 }
+region_155
+	sett_155
+	f_sauromatae
+	Aorsii
+	205 212 157
+	hr_c, hr_f, hr_h, hr_j, sarmatian
+	5
+	1
+	religions { rel_a 15 rel_b 75 rel_c 0 rel_d 10 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_156
+	sett_156
+	f_gandhara
+	Surashtras
+	96 114 167
+	hr_c, hr_f, hr_i, hr_j, indo, hyparchia, nomadic_migration
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 20 rel_d 0 rel_e 0 rel_f 40 rel_g 0 rel_h 0 rel_i 30 rel_x 0 }
+region_157
+	sett_157
+	f_nabatu
+	Maranitae
+	175 198 15
+	hr_c, hr_g, hr_h, hr_i, arabian, horde_target, nabatu_empire, nomadic_migration
+	5
+	1
+	religions { rel_a 50 rel_b 0 rel_c 35 rel_d 10 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_159
+	sett_159
+	f_sauromatae
+	Iazyg
+	5 116 44
+	hr_c, hr_g, hr_i, hr_j, sarmatian, forested, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 80 rel_c 5 rel_d 5 rel_e 0 rel_f 5 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_160
+	sett_160
+	f_sauromatae
+	Maeot
+	131 89 33
+	hr_c, hr_h, hr_i, hr_j, sarmatian, mixed, nomadic_migration, pontic
+	5
+	1
+	religions { rel_a 0 rel_b 55 rel_c 10 rel_d 15 rel_e 0 rel_f 5 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_161
+	sett_161
+	f_bosporan
+	Tauri
+	17 74 202
+	hr_d, hr_e, hr_f, hr_g, greek2, nomadic_migration, pontic, skythian
+	5
+	1
+	religions { rel_a 0 rel_b 25 rel_c 5 rel_d 30 rel_e 0 rel_f 0 rel_g 0 rel_h 40 rel_i 0 rel_x 0 }
+region_163
+	sett_163
+	f_numidia
+	Maurisi
+	202 126 17
+	hr_d, hr_e, hr_f, hr_i, numidia, mixed, nomadic_migration
+	5
+	1
+	religions { rel_a 20 rel_b 40 rel_c 0 rel_d 0 rel_e 0 rel_f 15 rel_g 25 rel_h 0 rel_i 0 rel_x 0 }
+region_164
+	sett_164
+	f_getai
+	Illyrioi
+	87 43 174
+	hr_a, hr_f, hr_g, hr_j, illyria, liburnes
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 10 rel_f 0 rel_g 0 rel_h 35 rel_i 55 rel_x 0 }
+region_165
+	sett_165
+	f_numidia
+	Masaesyli
+	158 177 26
+	hr_d, hr_e, hr_f, hr_h, numidia, mixed, nomadic_migration
+	5
+	1
+	religions { rel_a 30 rel_b 55 rel_c 10 rel_d 0 rel_e 0 rel_f 0 rel_g 5 rel_h 0 rel_i 0 rel_x 0 }
+region_166
+	sett_166
+	f_carthage
+	Masylian
+	189 71 91
+	hr_d, hr_e, hr_g, hr_i, numidia, horde_target, nomadic_migration
+	5
+	1
+	religions { rel_a 5 rel_b 50 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 35 rel_h 0 rel_i 0 rel_x 0 }
+region_168
+	sett_168
+	f_numidia
+	Gaetulian
+	244 13 138
+	hr_d, hr_e, hr_h, hr_i, numidia
+	5
+	1
+	religions { rel_a 60 rel_b 20 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 5 rel_h 5 rel_i 0 rel_x 0 }
+region_169
+	sett_169
+	f_carthage
+	Carthaginian_Atig
+	50 220 11
+	hr_d, hr_e, hr_h, hr_j, punic, horde_target, nomadic_migration
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 60 rel_h 15 rel_i 15 rel_x 0 }
+region_171
+	sett_171
+	f_carthage
+	Carthaginian
+	31 202 17
+	hr_d, hr_f, hr_g, hr_h, punic, horde_target, nomadic_migration
+	5
+	1
+	religions { rel_a 20 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 50 rel_h 5 rel_i 15 rel_x 0 }
+region_172
+	sett_172
+	f_numidia
+	Garamante
+	220 177 28
+	hr_d, hr_f, hr_g, hr_i, libya
+	5
+	1
+	religions { rel_a 80 rel_b 10 rel_c 0 rel_d 0 rel_e 0 rel_f 10 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_173
+	sett_173
+	f_carthage
+	Carthaginian_Tripolitania
+	202 17 48
+	hr_d, hr_f, hr_g, hr_j, libya, nomadic_migration
+	5
+	1
+	religions { rel_a 35 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 45 rel_h 5 rel_i 15 rel_x 0 }
+region_174
+	sett_174
+	f_ptolemaioi
+	Kyrenaioi
+	244 171 13
+	hr_d, hr_f, hr_h, hr_i, greek1, libya, nomadic_migration
+	5
+	1
+	religions { rel_a 65 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 0 rel_h 35 rel_i 0 rel_x 0 }
+region_175
+	sett_175
+	f_numidia
+	Nasamone
+	47 121 213
+	hr_d, hr_g, hr_h, hr_j, numidia, mixed
+	5
+	1
+	religions { rel_a 35 rel_b 45 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 15 rel_h 5 rel_i 0 rel_x 0 }
+region_176
+	sett_176
+	f_numidia
+	Marmaridai
+	136 125 2
+	hr_d, hr_f, hr_i, hr_j, libya, hyparchia, mixed, nomadic_migration
+	5
+	1
+	religions { rel_a 70 rel_b 0 rel_c 5 rel_d 20 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_177
+	sett_177
+	f_kh
+	Olbiapolitai
+	42 232 77
+	hr_d, hr_g, hr_h, hr_i, greek2, horde_target, nomadic_migration, pontic, skythian
+	5
+	1
+	religions { rel_a 0 rel_b 25 rel_c 5 rel_d 5 rel_e 10 rel_f 5 rel_g 0 rel_h 50 rel_i 0 rel_x 0 }
+region_179
+	sett_179
+	f_ptolemaioi
+	Aigyptioi_Heptanomis
+	122 13 244
+	hr_d, hr_g, hr_i, hr_j, hellen2, egypt, hyparchia, horde_target
+	5
+	1
+	religions { rel_a 10 rel_b 0 rel_c 0 rel_d 50 rel_e 0 rel_f 0 rel_g 0 rel_h 40 rel_i 0 rel_x 0 }
+region_180
+	sett_180
+	f_ptolemaioi
+	Aigyptioi_Thebais
+	241 244 13
+	hr_d, hr_h, hr_i, hr_j, egypt, satrapy, royal_core
+	5
+	1
+	religions { rel_a 15 rel_b 0 rel_c 0 rel_d 70 rel_e 0 rel_f 0 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_181
+	sett_181
+	f_sauromatae
+	Siracae
+	177 170 58
+	hr_e, hr_f, hr_g, hr_h, sarmatian, mixed, nomadic_migration
+	5
+	1
+	religions { rel_a 10 rel_b 80 rel_c 0 rel_d 5 rel_e 0 rel_f 5 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_182
+	sett_182
+	f_ptolemaioi
+	Aigyptioi_Oasis_Megale
+	95 186 228
+	hr_e, hr_f, hr_g, hr_i, libya, egypt, hyparchia
+	5
+	1
+	religions { rel_a 60 rel_b 0 rel_c 5 rel_d 25 rel_e 0 rel_f 0 rel_g 0 rel_h 10 rel_i 0 rel_x 0 }
+region_183
+	sett_183
+	f_ptolemaioi
+	Aigyptioi_Triakontaschoinos
+	166 6 33
+	hr_e, hr_f, hr_g, hr_j, egypt, ethiopia, hyparchia
+	5
+	1
+	religions { rel_a 30 rel_b 0 rel_c 0 rel_d 45 rel_e 0 rel_f 5 rel_g 0 rel_h 20 rel_i 0 rel_x 0 }
+region_184
+	sett_184
+	f_ptolemaioi
+	Kasu
+	86 99 121
+	hr_e, hr_f, hr_h, hr_i, ethiopia, royal_core
+	5
+	1
+	religions { rel_a 45 rel_b 0 rel_c 0 rel_d 50 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_185
+	sett_185
+	f_ptolemaioi
+	Beja
+	71 147 50
+	hr_e, hr_f, hr_h, hr_j, ethiopia
+	5
+	1
+	religions { rel_a 55 rel_b 0 rel_c 0 rel_d 30 rel_e 0 rel_f 0 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_186
+	sett_186
+	f_saba
+	Agazyan
+	195 96 104
+	hr_e, hr_f, hr_i, hr_j, ethiopia, saba_core
+	5
+	1
+	religions { rel_a 45 rel_b 0 rel_c 10 rel_d 20 rel_e 0 rel_f 20 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_187
+	sett_187
+	f_seleukid
+	Medes
+	33 131 128
+	hr_e, hr_g, hr_h, hr_i, eastern, hellen2, hyparchia
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 15 rel_d 70 rel_e 0 rel_f 0 rel_g 0 rel_h 15 rel_i 0 rel_x 0 }
+region_188
+	sett_188
+	f_ptolemaioi
+	Israelites
+	244 13 29
+	hr_e, hr_g, hr_h, hr_j, hellen2, satrapy, horde_target, ioudaioi, nabatu_empire
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 15 rel_d 65 rel_e 0 rel_f 0 rel_g 0 rel_h 20 rel_i 0 rel_x 0 }
+region_190
+	sett_190
+	f_nabatu
+	Palmyrenoi
+	175 171 244
+	hr_e, hr_h, hr_i, hr_j, arabian, mixed, nabatu_empire, nomadic_migration
+	5
+	1
+	religions { rel_a 70 rel_b 0 rel_c 10 rel_d 10 rel_e 0 rel_f 0 rel_g 0 rel_h 10 rel_i 0 rel_x 0 }
+region_191
+	sett_191
+	f_nabatu
+	Bostrans
+	13 244 160
+	hr_f, hr_g, hr_h, hr_i, arabian, nabatu_empire, nomadic_migration
+	5
+	1
+	religions { rel_a 50 rel_b 0 rel_c 10 rel_d 35 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 0 rel_x 0 }
+region_192
+	sett_192
+	f_saba
+	Minaei
+	235 43 43
+	hr_f, hr_g, hr_h, hr_j, arabian, saba_core, nomadic_migration
+	5
+	1
+	religions { rel_a 75 rel_b 0 rel_c 5 rel_d 20 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_194
+	sett_194
+	f_saba
+	Amm
+	180 181 33
+	hr_f, hr_h, hr_i, hr_j, arabian, saba_core
+	5
+	1
+	religions { rel_a 30 rel_b 0 rel_c 15 rel_d 45 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 5 rel_x 0 }
+region_195
+	sett_195
+	f_saba
+	Chatramotitae
+	8 195 166
+	hr_g, hr_h, hr_i, hr_j, arabian, saba_core, nomadic_migration
+	5
+	1
+	religions { rel_a 30 rel_b 0 rel_c 15 rel_d 40 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 15 rel_x 0 }
+region_196
+	sett_196
+	f_saba
+	Maka_Zufar
+	117 204 141
+	hr_b, hr_c, hr_f, hr_i, arabian, saba_core
+	5
+	1
+	religions { rel_a 0 rel_b 0 rel_c 10 rel_d 90 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
+region_197
+	sett_197
+	f_saba
+	Maka_Maketa
+	240 182 100
+	hr_c, hr_d, hr_g, hr_h, arabian, nomadic_migration
+	5
+	1
+	religions { rel_a 45 rel_b 0 rel_c 20 rel_d 25 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 10 rel_x 0 }
+region_198
+	sett_198
+	f_saba
+	Hagara
+	104 184 119
+	hr_c, hr_d, hr_g, hr_i, arabian, mixed, nomadic_migration
+	5
+	1
+	religions { rel_a 60 rel_b 0 rel_c 15 rel_d 15 rel_e 0 rel_f 0 rel_g 0 rel_h 5 rel_i 5 rel_x 0 }
+region_199
+	sett_199
+	f_numidia
+	Imazighen
+	143 80 240
+	no_brigands
+	5
+	1
+	religions { rel_a 100 rel_b 0 rel_c 0 rel_d 0 rel_e 0 rel_f 0 rel_g 0 rel_h 0 rel_i 0 rel_x 0 }
