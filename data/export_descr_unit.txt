@@ -14922,8 +14922,8 @@ stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1200, 400, 120, 95, 1200, 2, 400
-ownership        slave, papal_states
-era 0            papal_states
+ownership        slave, byzantium
+era 0            byzantium
 
 
 type             merc_tib_noble_cav
@@ -14987,8 +14987,8 @@ stat_charge_dist 40
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        1, 1000, 250, 50, 50, 1000, 3, 250
-ownership        slave, papal_states
-era 0            papal_states
+ownership        slave, byzantium
+era 0            byzantium
 
 
 type             taiping_inf
@@ -15018,8 +15018,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1000, 250, 50, 70, 1000, 3, 250
-ownership        slave, papal_states
-era 0            papal_states
+ownership        slave, byzantium
+era 0            byzantium
 
 
 type             taiping_light
@@ -15049,8 +15049,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 600, 200, 50, 70, 600, 2, 200
-ownership        slave, papal_states
-era 0            papal_states
+ownership        slave, byzantium
+era 0            byzantium
 
 
 type             balk_cav_ch
@@ -15145,8 +15145,8 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 640, 180, 50, 70, 640, 1, 180
-ownership        slave, papal_states
-era 0            papal_states
+ownership        slave, byzantium
+era 0            byzantium
 
 
 type             merc_aceh_marines
