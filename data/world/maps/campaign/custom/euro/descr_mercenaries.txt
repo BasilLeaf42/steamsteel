@@ -1,0 +1,508 @@
+; pool    --> name of mercenary pool				
+; regions --> list of regions belonging to pool --> Only include region in one pool; having same region in two pools gets the merc's assigned to only one of the pools				
+; unit    --> name of mercenary unit				
+;         --> exp X                           --> experience level of mercenary unit				
+;         --> cost X                          --> cost to recruit mercenary unit				
+;         --> replenish X - X                 --> upper and lower bounds on pool replenishment rate				
+;         --> max X                           --> maximum pool size for unit				
+;         --> initial X                       --> initial pool size for unit				
+;         --> {optional} start_year X         --> year that unit becomes available {0 indicates no set start year}				
+;         --> {optional} end_year X           --> last year that unit will be available {0 indicates no set end_year}				
+;         --> {optional} religions { A B C }  --> list of faction religions unit is available for {no entries indicates available for all religions}				
+;         --> {optional} crusading            --> {requires one religion to have been specified} unit only available to crusading/jihad armies				
+;         --> {optional} events { A B C}      --> unit only available after all specified events have occurred, event is a string corresponding to descr_events.txt				
+;
+; replenishment rate set uniformly as 2 * 0.03 - 0.045 unit per province in the pool, pools should generally be of 5-10 provinces in size		
+
+pool CelticFringe
+	regions region_001 region_002 region_005		;;; total: 6 * 0.03 - 0.045			
+	unit gaelic cavalry nobles							exp 1 cost 2157 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry british riders					exp 1 cost 1773 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry british companion swordsmen	exp 1 cost 1390 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry british companion spearmen		exp 1 cost 1480 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit gaelic infantry swordsman						exp 1 cost 1373 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit gaelic infantry skirmisher 					exp 1 cost 660 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool England
+	regions region_004 region_006 region_007 region_008		;;; total: 8 * 0.03 - 0.045			
+	unit celtic cavalry curepos							exp 1 cost 2322 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry british riders					exp 1 cost 1773 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry british companion swordsmen	exp 1 cost 1390 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry british companion spearmen		exp 1 cost 1480 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary				exp 1 cost 1845 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry spearman mercenary				exp 1 cost 1200 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry armorican tribesmen			exp 1 cost 1350 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Lusitania
+	regions region_009 region_010 region_011 							;;; total: 6 * 0.03 - 0.045			
+	unit iberian cavalry caetranann epones		exp 1 cost 2241 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry caetranann			exp 1 cost 2025 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry callaecian			exp 1 cost 1350 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry gestikapoinann		exp 1 cost 1725 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry spearman				exp 1 cost 900 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry armorican tribesmen	exp 1 cost 1350 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Iberia
+	regions region_012 region_013 region_017 region_018 region_019 region_050			;;; total: 12 * 0.03 - 0.045
+	unit celtiberian cavalry rider					exp 1 cost 2719 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian cavalry scutarii					exp 1 cost 2775 replenish 0.03 - 0.045 max 1 initial 1 start_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian cavalry caetratii					exp 1 cost 2085 replenish 0.06 - 0.09 max 2 initial 1 end_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian cavalry caetratii					exp 1 cost 2085 replenish 0.03 - 0.045 max 1 initial 1 start_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry caetratii					exp 1 cost 1920 replenish 0.03 - 0.045 max 1 initial 1 start_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry caetratii					exp 1 cost 1920 replenish 0.06 - 0.09 max 2 initial 1 end_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry scutarii swordsman		exp 1 cost 2325 replenish 0.03 - 0.045 max 1 initial 1 start_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry scutarii spearman			exp 1 cost 2025 replenish 0.03 - 0.045 max 1 initial 1 start_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry caetratii spearmen		exp 1 cost 1755 replenish 0.06 - 0.09 max 2 initial 1 start_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry caetratii spearmen		exp 1 cost 1755 replenish 0.09 - 0.135 max 3 initial 1 end_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtiberian infantry dunaminaca swordsmen 	exp 1 cost 2250 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtiberian infantry dunaminaca spearmen	exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry spearman					exp 1 cost 900 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Celtiberia
+	regions region_014 region_015 region_016 								;;; total: 6 * 0.03 - 0.045
+	unit celtiberian cavalry rider					exp 1 cost 2719 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian cavalry cantabrian					exp 1 cost 1688 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtiberian infantry dunaminaca swordsmen 	exp 1 cost 2250 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtiberian infantry dunaminaca spearmen	exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry spearman					exp 1 cost 900 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool NorthGaul
+	regions region_020 region_025 region_026 region_027 region_034    		;;; total: 10 * 0.03 - 0.045 
+	unit celtic cavalry british companions				exp 1 cost 2166 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry british riders					exp 1 cost 1773 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry curepos							exp 1 cost 2322 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry british companion swordsmen	exp 1 cost 1390 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry british companion spearmen		exp 1 cost 1480 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary 			exp 1 cost 1845 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry spearman mercenary 			exp 1 cost 1200 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool CentralGaul
+	regions region_028 region_033 region_072 region_111 ;;; total: 8 * 0.03 - 0.045	
+	unit celtic cavalry curepos						exp 1 cost 2322 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry drutonedammoi mercenary	exp 1 cost 2888 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry veteran					exp 1 cost 1800 replenish 0.03 - 0.045 max 1 initial 1 end year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry chatti veterans			exp 1 cost 1320 replenish 0.03 - 0.045 max 1 initial 1 start year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary 		exp 1 cost 1845 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry spearman mercenary 		exp 1 cost 1200 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool SouthGaul
+	regions region_021 region_022 region_023 region_024 region_029   ;;; total 10 * 0.03 - 0.045 
+	unit celtic cavalry curepos						exp 1 cost 2322 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry drutonedammoi mercenary	exp 1 cost 2888 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry solduros					exp 1 cost 2498 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry gaesatae					exp 1 cost 2520 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry veteran					exp 1 cost 1800 replenish 0.03 - 0.045 max 1 initial 1 end year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry chatti veterans			exp 1 cost 1320 replenish 0.03 - 0.045 max 1 initial 1 start year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary 		exp 1 cost 1845 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry spearman mercenary 		exp 1 cost 1200 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool AlpineGaul
+	regions region_030 region_031 region_032 region_036 region_037 region_071 	;;; total: 12 * 0.03 - 0.045 -2
+	unit celtic cavalry cisalpine					exp 1 cost 2297 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry drutonedammoi mercenary	exp 1 cost 2888 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry gaesatae					exp 1 cost 2520 replenish 0.03 - 0.045 max 1 initial 1 start_year -250 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry veteran					exp 1 cost 1800 replenish 0.06 - 0.09 max 2 initial 1 end year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry chatti veterans			exp 1 cost 1320 replenish 0.06 - 0.09 max 2 initial 1 start year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary 		exp 1 cost 1845 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry uextias					exp 1 cost 1650 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry spearman mercenary 		exp 1 cost 1200 replenish 0.06 - 0.09 max 2 initial 1 start_year -250 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry spearman mercenary 		exp 1 cost 1200 replenish 0.09 - 0.135 max 3 initial 1 end_year -250 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit ligurian infantry spearmen					exp 1 cost 1215 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry balearic slingers			exp 1 cost 558 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i } ; Corsi
+
+pool EastCelt
+	regions  region_051 region_053 region_054 region_063 region_074 region_075		;;; total: 12 * 0.03 - 0.045	
+	unit celtic cavalry curepos						exp 1 cost 2322 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic cavalry light						exp 1 cost 2138 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i } ;; placeholder for Celto-Germanic cavalry
+	unit celtic infantry drutonedammoi mercenary	exp 1 cost 2888 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry gaesatae					exp 1 cost 2520 replenish 0.03 - 0.045 max 1 initial 1 start_year -250 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry veteran					exp 1 cost 1800 replenish 0.06 - 0.09 max 2 initial 1 end year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry chatti veterans			exp 1 cost 1320 replenish 0.06 - 0.09 max 2 initial 1 start year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary 		exp 1 cost 1845 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry uextias					exp 1 cost 1650 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry spearman mercenary 		exp 1 cost 1200 replenish 0.03 - 0.045 max 1 initial 1 start_year -250 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry spearman mercenary 		exp 1 cost 1200 replenish 0.06 - 0.09 max 2 initial 1 end_year -250 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Germania
+	regions region_052 region_055 region_056 region_057 region_059 region_060				;;; total: 12 * 0.03 - 0.045
+	unit germanic cavalry light				exp 1 cost 2138 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit lugian cavalry medium				exp 1 cost 2345 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry curepos				exp 1 cost 2322 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i } ;; Celto-Germanics
+	unit germanic infantry veteran			exp 1 cost 1800 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry skirmisher		exp 1 cost 660 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit lugian infantry veteran			exp 1 cost 2160 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit lugian infantry skirmisher			exp 1 cost 743 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit lugian infantry oksywie			exp 1 cost 1350 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary 	exp 1 cost 1845 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry chatti veterans 	exp 1 cost 1320 replenish 0.03 - 0.045 max 1 initial 1 start_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Lugia
+	regions region_061 region_062 region_064 region_066 region_092		;;; total: 10 * 0.03 - 0.045
+	unit germanic cavalry light					exp 1 cost 2138 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry aorsi horse archers		exp 1 cost 2063 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit lugian infantry veteran				exp 1 cost 2160 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit lugian infantry skirmisher				exp 1 cost 743 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit lugian infantry oksywie				exp 1 cost 1350 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry veteran				exp 1 cost 1800 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry skirmisher			exp 1 cost 660 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool CentralItaliaKorsimLiguria
+	regions region_035 region_038 region_039 region_040 region_048										;;; total: 10 * 0.03 - 0.045
+	unit celtic cavalry cisalpine				exp 1 cost 2297 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic cavalry sabellian				exp 1 cost 2532 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry etruscan				exp 1 cost 2250 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry hustatus				exp 1 cost 2145 replenish 0.03 - 0.045 max 1 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry samnites spearmen		exp 1 cost 2241 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry cohors sociorum		exp 1 cost 3488 replenish 0.03 - 0.045 max 1 initial 1 start_year -200 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry umbro picenian			exp 1 cost 1775 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit ligurian infantry swordsmen			exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit ligurian infantry spearmen				exp 1 cost 1215 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry balearic slingers		exp 1 cost 558 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }	; Corsi
+
+pool SouthItalia
+	regions region_041 region_042 region_043 region_044					;;; total 8 * 0.03 - 0.045
+	unit hellenistic cavalry tarantinoi					exp 1 cost 3095 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic cavalry sabellian						exp 1 cost 2532 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry hippakontistai				exp 1 cost 1688 replenish 0.03 - 0.045 max 1 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry thureopherontes hippeis	exp 1 cost 2025 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry samnites spearmen				exp 1 cost 2241 replenish 0.06 - 0.09 max 2 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry samnites spearmen				exp 1 cost 2241 replenish 0.03 - 0.045 max 1 initial 1 start_year -200 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry cohors sociorum				exp 1 cost 3488 replenish 0.03 - 0.045 max 1 initial 1 start_year -200 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry hustatus						exp 1 cost 2145 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 				exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 				exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry lucanian						exp 1 cost 1350 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i } 
+
+pool SicilyShardin
+	regions region_045 region_046 region_047 region_049	 				;;; total: 8 * 0.03 - 0.045
+	unit hellenistic cavalry tarantinoi				exp 1 cost 3095 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry curepos						exp 1 cost 2322 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }  ; replace with Cisalpine cavalry
+	unit celtiberian cavalry rider					exp 1 cost 2719 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtiberian infantry dunaminaca swordsmen	exp 1 cost 2250 replenish 0.03 - 0.045 max 1 initial 1 end_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry scutarii swordsman		exp 1 cost 2325 replenish 0.03 - 0.045 max 1 initial 1 start_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary	exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai		exp 1 cost 1620 replenish 0.03 - 0.045 max 1 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 			exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 			exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit italic infantry hustatus					exp 1 cost 2145 replenish 0.03 - 0.045 max 1 initial 1 end_year -100 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit ligurian infantry swordsmen				exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit ligurian infantry spearmen					exp 1 cost 1215 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit iberian infantry balearic slingers			exp 1 cost 558 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }	; Corsi
+
+pool HellasIonia
+	regions region_084 region_086 region_087 region_088 region_089 region_090 region_091 region_093 region_095 region_096 region_097 region_098 	;;; total: 24 * 0.03 - 0.045			
+	unit hellenistic cavalry hippeis 					exp 1 cost 2550 replenish 0.03 - 0.045 max 1 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry lonchophoroi hippeis		exp 1 cost 2907 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry thessalikoi				exp 1 cost 3600 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit thracian cavalry prodromoi						exp 1 cost 2625 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry hippakontistai				exp 1 cost 1688 replenish 0.06 - 0.09 max 2 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry thureopherontes hippeis	exp 1 cost 2025 replenish 0.06 - 0.09 max 2 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry curepos							exp 1 cost 2322 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit illyrian infantry skaplinai					exp 1 cost 1985 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary 			exp 1 cost 1845 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit thracian infantry peltastai					exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.09 - 0.135 max 3 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thorakitai				exp 1 cost 2475 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thorakitai				exp 1 cost 2475 replenish 0.06 - 0.09 max 2 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry machairophoroi			exp 1 cost 2100 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi				exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai			exp 1 cost 1620 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai			exp 1 cost 1620 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -242 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry euzonoi					exp 1 cost 1200 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry euzonoi					exp 1 cost 1200 replenish 0.06 - 0.09 max 2 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic missile cretan archers				exp 1 cost 1455 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry cretan					exp 1 cost 1914 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry scythian archers				exp 1 cost 608 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Illyria
+	regions region_003 region_073  region_081 region_082 region_083 region_085 region_164 		;;; total: 14 * 0.03 - 0.045	
+	unit illyrian cavalry hippeis						exp 1 cost 2307 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry curepos							exp 1 cost 2322 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry hippakontistai				exp 1 cost 1688 replenish 0.03 - 0.045 max 1 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry thureopherontes hippeis	exp 1 cost 2025 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit illyrian infantry skaplinai					exp 1 cost 1985 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary 			exp 1 cost 1845 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 				exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry machairophoroi			exp 1 cost 2100 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai			exp 1 cost 1620 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai			exp 1 cost 1620 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -242 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit illyrian infantry peltophoroi					exp 1 cost 1710 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit illyrian infantry hoplitai						exp 1 cost 1650 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit illyrian infantry thureophoroi					exp 1 cost 1728 replenish 0.06 - 0.09 max 2 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit illyrian infantry thureophoroi					exp 1 cost 1728 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit illyrian infantry peltastai					exp 1 cost 1013 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool DaciaThrakia
+	regions region_076 region_077 region_079 region_080 region_094 ;;; total: 10 * 0.03 - 0.045
+	unit thracian cavalry prodromoi					exp 1 cost 2625 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry roxolani riders				exp 1 cost 2438 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit getic cavalry hippotoxotai					exp 1 cost 1560 replenish 0.06 - 0.09 max 2 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit getic cavalry hippotoxotai					exp 1 cost 1560 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry curepos						exp 1 cost 2322 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry scythian horse archers		exp 1 cost 1773 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit illyrian infantry skaplinai				exp 1 cost 1985 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry swordsman mercenary 		exp 1 cost 1845 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit getic infantry komatai toxotai				exp 1 cost 743 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit thracian infantry peltastai				exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit getic infantry getikoi stratiotai			exp 1 cost 1772 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+		
+pool CarthageCore
+	regions region_169 region_170 region_171								;;; total: 6 * 0.03 - 0.045
+	unit numidian cavalry nobles					exp 1 cost 2925 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit numidian cavalry skirmishers				exp 1 cost 1594 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african cavalry libyan						exp 1 cost 1519 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit carthaginian infantry libyan 				exp 1 cost 1485 replenish 0.06 - 0.09 max 2 initial 1 end_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit carthaginian infantry libyan late			exp 1 cost 2100 replenish 0.06 - 0.09 max 2 initial 1 start_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit numidian infantry skirmishers				exp 1 cost 540 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool MauretaniaNumidia			
+	regions region_163 region_165 region_166 region_167 region_168 region_175		;;; total: 12 * 0.03 - 0.045
+	unit numidian cavalry nobles		exp 1 cost 2925 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african cavalry maures			exp 1 cost 1773 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit numidian cavalry skirmishers	exp 1 cost 1594 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african infantry maures		exp 1 cost 960 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit numidian infantry skirmishers	exp 1 cost 540 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit numidian infantry archers		exp 1 cost 476 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african infantry slingers		exp 1 cost 335 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	
+pool Libya
+	regions  region_172 region_173 region_174 region_176 region_182								;;; total: 10 * 0.03 - 0.045
+	unit african cavalry garamantes					exp 1 cost 1500 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit numidian cavalry skirmishers				exp 1 cost 1594 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african cavalry libyan						exp 1 cost 1519 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit carthaginian infantry libyan 				exp 1 cost 1485 replenish 0.03 - 0.045 max 1 initial 1 end_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit carthaginian infantry libyan late			exp 1 cost 2100 replenish 0.03 - 0.045 max 1 initial 1 start_year -237 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african infantry garamantes				exp 1 cost 878 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit carthaginian infantry libyan lonchophoroi	exp 1 cost 900 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african infantry slingers					exp 1 cost 335 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Egypt
+	regions region_178 region_179 region_180 region_183 region_184 region_185 region_186		;;; total: 14 * 0.03 - 0.045	
+	unit hellenistic cavalry thessalikoi				exp 1 cost 3600 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry hippeis					exp 1 cost 2550 replenish 0.03 - 0.045 max 1 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry lonchophoroi hippeis		exp 1 cost 2907 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry curepos							exp 1 cost 2322 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }  ;;Galatians
+	unit african cavalry libyan							exp 1 cost 1519 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.09 - 0.135 max 3 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thorakitai				exp 1 cost 2475 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai			exp 1 cost 1620 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai			exp 1 cost 1620 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -242 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 				exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry machairophoroi			exp 1 cost 2100 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry machairophoroi			exp 1 cost 2100 replenish 0.06 - 0.09 max 2  initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african infantry ethiopian spearmen			exp 1 cost 900 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african infantry ethiopian archers				exp 1 cost 660  replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic missile cretan archers				exp 1 cost 1455 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry galatian raiders				exp 1 cost 1500 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Anatolia
+	regions region_099 region_100 region_101 region_102 region_103 region_104 region_105 region_106 region_107	;;; total: 18 * 0.03 - 0.045
+	unit hellenistic cavalry hippeis 				exp 1 cost 2550 replenish 0.03 - 0.045 max 1 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry lonchophoroi hippeis	exp 1 cost 2907 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry aspet hetselazor			exp 1 cost 2250 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit thracian cavalry prodromoi					exp 1 cost 2625 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry nizakahar ayrudzi			exp 1 cost 1463 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic cavalry curepos						exp 1 cost 2322 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }  ;; Galatians
+	unit thracian infantry peltastai				exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry anatolikoi phyletai		exp 1 cost 840 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry uazali					exp 1 cost 1650 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry galatian raiders			exp 1 cost 1500 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary	exp 1 cost 1875 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary	exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thorakitai			exp 1 cost 2475 replenish 0.03 - 0.045 max 1 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary	exp 1 cost 2700 replenish 0.09 - 0.135 max 3 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary	exp 1 cost 2700 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary	exp 1 cost 2700 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai		exp 1 cost 1620 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai		exp 1 cost 1620 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -242 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 			exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry machairophoroi		exp 1 cost 2100 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry euzonoi				exp 1 cost 1200 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 end year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry euzonoi				exp 1 cost 1200 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry promachoi				exp 1 cost 1238 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic missile cretan archers			exp 1 cost 1455 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Armenia
+	regions region_109 region_110 region_112 region_113 region_114 region_115 								;;; total: 12 * 0.03 - 0.045
+	unit eastern cavalry asiatikoi hippeis			exp 1 cost 2261 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry aspet hetselazor			exp 1 cost 2250 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry nizakahar ayrudzi			exp 1 cost 1463 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry circassian				exp 1 cost 2025 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry kavakaza sparabara		exp 1 cost 1245 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry thanvare kavakaza			exp 1 cost 660 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry anatolikoi phyletai		exp 1 cost 840 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Syria
+	regions region_108 region_116 region_117 region_118 region_119 region_120 region_121 region_122 region_188	;;; total: 18 * 0.03 - 0.045
+	unit hellenistic cavalry thessalikoi				exp 1 cost 3600 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry asiatikoi hippeis				exp 1 cost 2261 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry asiatikoi hippakontistai		exp 1 cost 1463 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry babylonian					exp 1 cost 1800 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry ioudaioi taxeis			exp 1 cost 1350 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry nizagan eranshahr				exp 1 cost 1080 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thorakitai				exp 1 cost 2475 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi				exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai			exp 1 cost 1620 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai			exp 1 cost 1620 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -242 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry euzonoi					exp 1 cost 1200 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 end year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry euzonoi					exp 1 cost 1200 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry promachoi					exp 1 cost 1238 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic missile cretan archers				exp 1 cost 1455 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry cretan					exp 1 cost 1914 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Persia
+	regions region_124 region_125 region_127 region_128 region_129 region_130 region_135 region_136 region_187 ;;; total: 18 * 0.03 - 0.045
+	unit eastern cavalry mada asabara 					exp 1 cost 2813 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry asiatikoi hippeis				exp 1 cost 2261 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry harauvatish asabara			exp 1 cost 1538 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry dahae horse archers				exp 1 cost 1772 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry dahae skirmishers				exp 1 cost 1500 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry babylonian					exp 1 cost 1800 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry nizagan eranshahr				exp 1 cost 1080 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry verkhana kofyaren				exp 1 cost 1215 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry archer						exp 1 cost 720  replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 				exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 				exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry machairophoroi			exp 1 cost 2100 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry machairophoroi			exp 1 cost 2100 replenish 0.06 - 0.09 max 2 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool PersianGulf
+	regions region_123 region_126 region_197 region_198  ;;; total: 8 * 0.03 - 0.045
+	unit arabian cavalry bedouin					exp 1 cost 1688 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry asiatikoi hippakontistai	exp 1 cost 1463 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian east infantry						exp 1 cost 960 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry babylonian				exp 1 cost 1800 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry nizagan eranshahr			exp 1 cost 1080 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry bedouin axemen			exp 1 cost 878 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry bedouin archers			exp 1 cost 720 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	
+pool WestArabia
+	regions region_157 region_189 region_190 region_191 region_192 		;;; total: 10 * 0.03 - 0.045
+	unit arabian cavalry nabataean archers				exp 1 cost 1754 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian camelry bedouin						exp 1 cost 1418 replenish 0.03 - 0.045 max 1 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian cavalry bedouin						exp 1 cost 1688 replenish 0.03 - 0.045 max 1 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian cavalry bedouin						exp 1 cost 1688 replenish 0.06 - 0.09 max 2 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry nabatean spearmen				exp 1 cost 945 replenish 0.06 - 0.09 max 2 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry nabatean spearmen				exp 1 cost 945 replenish 0.03 - 0.045 max 1 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry sword and buckler				exp 1 cost 1200 replenish 0.06 - 0.09 max 2 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry sword and buckler				exp 1 cost 1200 replenish 0.03 - 0.045 max 1 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry thureophoroi					exp 1 cost 1418 replenish 0.06 - 0.09 max 2 initial 1 events { ecThorakitaiReform ecNabatu_Settled } religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry bedouin axemen				exp 1 cost 608 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry bedouin archers				exp 1 cost 720 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry ioudaioi taxeis			exp 1 cost 1350 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool SouthArabia
+	regions region_193 region_194 region_195 region_196 				;;; total: 8 * 0.03 - 0.045
+	unit arabian camelry bedouin					exp 1 cost 1418 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry bedouin axemen			exp 1 cost 878 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry sabaean highlanders		exp 1 cost 1275 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry sabaean lowlanders		exp 1 cost 1575 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit arabian infantry bedouin archers			exp 1 cost 720 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african infantry ethiopian spearmen		exp 1 cost 900 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit african infantry ethiopian archers			exp 1 cost 660 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Skythia
+	regions region_070 region_078 region_160 region_161 region_162 region_177  	;;; total: 12 * 0.03 - 0.045
+	unit steppe cavalry sarmatian retinue					exp 1 cost 3148 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit thracian cavalry prodromoi							exp 1 cost 2625 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry thureopherontes hippotoxotai	exp 1 cost 2625 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry scythian horse archers				exp 1 cost 1773 replenish 0.06 - 0.09 max 2 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry scythian horse archers				exp 1 cost 1773 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic cavalry bastarnae							exp 1 cost 2578 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry roxolani riders						exp 1 cost 2438 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry iwzag riders						exp 1 cost 1731 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry pontikoi hoplitai				exp 1 cost 2430 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit thracian infantry peltastai						exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit celtic infantry dnieper							exp 1 cost 1500 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry maiotian							exp 1 cost 1350 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry sarmatian archers					exp 1 cost 660 replenish 0.03 - 0.045 max 1 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry bastarnae						exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry bastarnae						exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry scythian archers					exp 1 cost 608 replenish 0.03 - 0.045 max 1 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureopherontes toxotai		exp 1 cost 1650 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary			exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi  				exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Sauromatia
+	regions region_067 region_069 region_155 region_158 region_159 region_181  ;;; total: 12 * 0.03 - 0.045
+	unit steppe cavalry aorsi horse archers					exp 1 cost 2063 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry sarmatian horse archers				exp 1 cost 1463 replenish 0.09 - 0.135 max 3 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry sarmatian horse archers				exp 1 cost 1463 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic cavalry bastarnae							exp 1 cost 2578 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic cavalry thureopherontes hippotoxotai	exp 1 cost 2625 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry scythian horse archers				exp 1 cost 1773 replenish 0.06 - 0.09 max 2 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry scythian horse archers				exp 1 cost 1773 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry circassian						exp 1 cost 2025 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry sarmatian archers					exp 1 cost 660 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry sarmatian archers					exp 1 cost 660 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit germanic infantry bastarnae						exp 1 cost 1950 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry scythian archers					exp 1 cost 608 replenish 0.06 - 0.09 max 2 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry scythian archers					exp 1 cost 608 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureopherontes toxotai		exp 1 cost 1650 replenish 0.03 - 0.045 max 1 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Saka
+	regions region_065 region_147 region_148 region_149 region_150 region_151 region_152 region_141 region_142		;;; total: 18 * 0.03 - 0.045
+	unit steppe cavalry dahae horse archers		exp 1 cost 1772 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry dahae skirmishers		exp 1 cost 1500 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry saka horse archers		exp 1 cost 1500 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry saka skirmishers		exp 1 cost 1500 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry saka riders				exp 1 cost 1688 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry harauvatish asabara	exp 1 cost 1538 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry gundi nizagan			exp 1 cost 1688 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry saka archers			exp 1 cost 540 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry saka axemen			exp 1 cost 660 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry kavakaza kofyaren		exp 1 cost 840 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry nizagan bakhtrish		exp 1 cost 1080 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool Baktria
+	regions region_131 region_132 region_133 region_134 region_140 region_143 region_153 region_154 region_068	;;; total: 18 * 0.03 - 0.045	
+	unit eastern cavalry asiatikoi hippeis				exp 1 cost 2261 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry harauvatish asabara			exp 1 cost 1538 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry dahae horse archers				exp 1 cost 1772 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe cavalry dahae skirmishers				exp 1 cost 1500 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry kavakaza kofyaren				exp 1 cost 840 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry nizagan bakhtrish				exp 1 cost 1080 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit steppe infantry parthian archers				exp 1 cost 720 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry peltastai indohellenikoi	exp 1 cost 1463 replenish 0.03 - 0.045 max 1 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry peltastai indohellenikoi	exp 1 cost 1463 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hemithorakitai			exp 1 cost 1620 replenish 0.03 - 0.045 max 1 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry babylonian					exp 1 cost 1800 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry babylonian					exp 1 cost 1800 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.06 - 0.09 max 2 initial 1 end_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry phalangitai mercenary		exp 1 cost 2700 replenish 0.03 - 0.045 max 1 initial 1 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry thureophoroi 				exp 1 cost 1950 replenish 0.06 - 0.09 max 2 initial 1 start_year -257 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry machairophoroi			exp 1 cost 2100 replenish 0.03 - 0.045 max 1 initial 1 start_year -257 end_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry machairophoroi			exp 1 cost 2100 replenish 0.06 - 0.09 max 2 initial 1 start_year -222 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+
+pool India
+	regions region_137 region_138 region_139 region_144 region_145 region_146 region_156 region_058		;;; total: 16 * 0.03 - 0.045
+	unit eastern cavalry asiatikoi hippeis				exp 1 cost 2261 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit indian cavalry light							exp 1 cost 1941 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern cavalry harauvatish asabara			exp 1 cost 1538 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit indian infantry spearmen						exp 1 cost 750 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit indian infantry longbowmen						exp 1 cost 720 replenish 0.03 - 0.045 max 1 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit indian infantry swordsmen						exp 1 cost 1500 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit eastern infantry kavakaza kofyaren				exp 1 cost 840 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry peltastai indohellenikoi	exp 1 cost 1463 replenish 0.06 - 0.09 max 2 initial 1 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai indohellenikoi	exp 1 cost 2475 replenish 0.03 - 0.045 max 1 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai indohellenikoi	exp 1 cost 2475 replenish 0.06 - 0.09 max 2 initial 1 start_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }
+	unit hellenistic infantry hoplitai mercenary		exp 1 cost 1875 replenish 0.03 - 0.045 max 1 initial 1 end_year -200 religions { rel_a rel_b rel_c rel_d rel_e rel_f rel_g rel_h rel_i }

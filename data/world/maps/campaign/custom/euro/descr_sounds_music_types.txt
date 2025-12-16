@@ -1,0 +1,75 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; This file should be in the same folder as descr_regions.txt 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;09/04 - removed all regions entries as they were incomplete and messing up the cultural assignments.
+;10/8/17 - removed the last region entries as they were assigned to non-existant music types.
+
+music_type cul_1
+
+  factions f_makedonia f_epeiros ; f_kh and f_pergamon -- factions have own music type, see below
+  
+music_type cul_2
+
+  factions f_rome
+
+music_type cul_3
+
+  factions f_bosporan ; f_baktria and f_seleukid and f_ptolemaioi -- factions have own music type, see below
+
+music_type cul_4
+
+  factions f_parthia f_hayasdan ; f_gandhara and f_pontos  -- factions have own music type, see below
+
+music_type cul_5
+
+  factions f_aedui f_arverni f_casse f_sweboz f_getai f_lugia f_boii ; f_lusotannan and f_arevaci use the iberia music type, see below
+
+music_type cul_6
+
+	factions f_saka ; f_sauromatae  -- faction has own music type, see below
+
+music_type cul_7
+
+  factions f_saba f_numidia f_nabatu ; f_carthage -- faction has own music type, see below
+
+music_type f_pergamon
+
+  factions f_pergamon
+
+music_type f_baktria
+
+  factions f_baktria
+
+music_type f_ptolemaioi
+
+  factions f_ptolemaioi
+
+music_type f_seleukid
+
+  factions f_seleukid
+
+music_type f_pontos
+
+  factions f_pontos
+
+music_type f_kh
+
+  factions f_kh
+  
+music_type f_carthage
+
+  factions f_carthage
+
+music_type f_sauromatae
+
+  factions f_sauromatae
+
+music_type iberia
+
+  factions f_lusotannan f_arevaci
+
+music_type f_gandhara
+
+  factions f_gandhara
+  

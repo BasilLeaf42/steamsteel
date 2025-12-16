@@ -1,0 +1,15 @@
+There's plenty of things connected to the map tiles in the current build, 
+please make sure not to move any port locations or change their tiles (each port 
+has its own custom battlemap tile). There are 8 wonders in the game so far, 
+make sure not to edit their tiles as well. Keep in mind that every change to 
+the terrain will affect custom battle locations. Some of them may no longer 
+work after specific edits.
+
+If you really need to change them, make sure to check everything before 
+committing any changes. If you move ports go to:
+data\world\maps\campaign\imperial_campaign\custom_tiles_db.txt 
+and change coords of specific port to new ones. Also make sure to check
+custom battle locations of the places you have edited. In this file you
+can also check other custom tiles coords (for wonders etc.)
+
+Thanks :)

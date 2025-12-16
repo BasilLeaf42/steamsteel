@@ -1,0 +1,141 @@
+; clear, cloudy, storm, blizzard, light fog, heavy fog
+; sunrise, morning, midday, afternoon, sunset
+
+;DO NEVER EVER! PUT TWO CUSTOM TILES IN THE SAME REGION, OTHERWISE THE SOUND AND I AM GOING CRAZY!!!!! K :( K
+;
+;EDIT: USE ANY OTHER PROVINCE NAME INSTEAD!!! :)
+
+;Elimya					137	120 mp_map_01.wfc		clear		midday
+Belerion				62	238 belerion.wfc		cloudy		sunset
+Umbria					134	173	umbria.wfc			clear		midday
+
+Peloponnesos			180	134	zeus.wfc			clear		sunrise
+Albion					66	234	stonehenge.wfc		storm		morning
+Karia					211	135	halicarnassus.wfc	cloudy		morning
+Ionia					210	137	artemis.wfc			cloudy		morning
+Rhodos					213	128	colossus.wfc		clear		sunrise
+Babylonia				313	121	gardens.wfc			dusty		morning
+Delta_Neilou			233	96	pharos.wfc			cloudy		sunset
+Heptanomis				237	89	pyramids.wfc		clear		sunrise
+
+
+
+;region_067	181	285	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+;region_002	74	270	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+region_001	56	257	port_cul_5_temperate_deciduous_forest_var_2.wfc	clear	midday
+region_004	77	257	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+region_057	130	255	port_cul_5_temperate_deciduous_forest_var_1.wfc	clear	midday
+region_066	160	253	port_cul_5_temperate_deciduous_forest_var_2.wfc	clear	midday
+;region_061	156	250	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+region_055	128	248	port_cul_5_temperate_deciduous_beech_forest_var_3.wfc	clear	midday
+region_056	114	245	port_cul_5_temperate_deciduous_beech_forest_var_3.wfc	clear	midday
+region_052	96	240	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+;region_155	308	239	port_cul_6_semi_arid_var_2.wfc	clear	midday
+;	(Belerion)	region_005	62	238	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+;region_151	318	238	port_cul_6_semi_arid_var_3.wfc	clear	midday
+;region_034	96	237	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+region_008	81	235	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+;	(Albion)	region_007	66	231	port_cul_5_temperate_deciduous_forest_var_1.wfc	clear	midday
+region_027	85	230	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+;region_181	299	223	port_cul_6_semi_arid_var_3.wfc	clear	midday
+;region_153	321	223	port_cul_4_semi_arid_var_3.wfc	clear	midday
+region_020	69	222	port_cul_5_temperate_deciduous_beech_forest_var_1.wfc	clear	midday
+region_026	72	221	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+;region_070	222	202	port_cul_3_steppe_var_2.wfc	clear	midday
+region_021	62	198	port_cul_5_temperate_deciduous_forest_var_1.wfc	clear	midday
+region_161	225	198	port_cul_3_steppe_var_1.wfc	clear	midday
+;region_160	256	198	port_cul_6_temperate_deciduous_forest_var_1.wfc	clear	midday
+region_177	213	197	port_cul_1_steppe_var_1.wfc	clear	midday
+region_162	239	197	port_cul_3_temperate_deciduous_forest_var_3.wfc	clear	midday
+region_154	351	197	port_cul_4_rocky_desert_var_3.wfc	clear	midday
+region_113	326	196	port_cul_4_mediterranean_var_2.wfc	clear	midday
+;region_009	22	190	port_cul_5_temperate_deciduous_forest_var_3.wfc	clear	midday
+region_110	275	190	port_cul_4_temperate_deciduous_forest_var_3.wfc	clear	midday
+region_074	133	189	port_cul_5_temperate_deciduous_forest_var_1.wfc	clear	midday
+region_022	60	188	port_cul_5_temperate_deciduous_forest_var_2.wfc	clear	midday
+region_036	129	187	port_cul_5_temperate_deciduous_forest_var_2.wfc	clear	midday
+;region_016	41	186	port_cul_5_temperate_deciduous_forest_var_1.wfc	clear	midday
+region_078	209	183	port_cul_3_mediterranean_var_1.wfc	clear	midday
+region_115	328	183	port_cul_4_temperate_deciduous_forest_var_2.wfc	clear	midday
+region_037	127	182	port_cul_5_temperate_deciduous_forest_var_1.wfc	clear	midday
+region_035	110	180	port_cul_5_temperate_deciduous_forest_var_2.wfc	clear	midday
+region_003	144	177	port_cul_5_temperate_deciduous_forest_var_1.wfc	clear	midday
+region_130	353	177	port_cul_4_temperate_deciduous_forest_var_3.wfc	clear	midday
+region_030	90	176	port_cul_1_mediterranean_var_2.wfc	clear	midday
+region_106	253	176	port_cul_4_mediterranean_var_2.wfc	clear	midday
+region_023	81	175	port_cul_5_mediterranean_var_1.wfc	clear	midday
+region_105	233	175	port_cul_1_mediterranean_var_1.wfc	clear	midday
+;	(Umbria)	region_039	134	173	port_cul_2_mediterranean_var_1.wfc	clear	midday
+region_094	207	172	port_cul_5_mediterranean_var_3.wfc	clear	midday
+region_038	118	171	port_cul_2_mediterranean_var_1.wfc	clear	midday
+region_104	229	171	port_cul_4_mediterranean_var_2.wfc	clear	midday
+region_019	81	170	port_cul_1_mediterranean_var_3.wfc	clear	midday
+region_164	157	167	port_cul_5_mediterranean_var_1.wfc	clear	midday
+region_010	10	164	port_cul_5_mediterranean_var_3.wfc	clear	midday
+region_041	141	163	port_cul_2_mediterranean_var_3.wfc	clear	midday
+region_040	125	162	port_cul_2_mediterranean_var_2.wfc	clear	midday
+region_048	111	161	port_cul_7_mediterranean_var_1.wfc	clear	midday
+;region_011	10	159	port_cul_5_mediterranean_var_1.wfc	clear	midday
+region_095	199	159	port_cul_1_mediterranean_var_2.wfc	clear	midday
+region_096	212	159	port_cul_1_mediterranean_var_3.wfc	clear	midday
+region_082	165	156	port_cul_1_mediterranean_var_1.wfc	clear	midday
+region_086	183	156	port_cul_1_mediterranean_var_2.wfc	clear	midday
+region_018	59	155	port_cul_5_mediterranean_var_2.wfc	clear	midday
+region_050	83	154	port_cul_7_mediterranean_var_1.wfc	clear	midday
+region_044	156	154	port_cul_1_mediterranean_var_2.wfc	clear	midday
+region_042	140	152	port_cul_2_mediterranean_var_2.wfc	clear	midday
+region_097	201	149	port_cul_1_mediterranean_var_3.wfc	clear	midday
+region_083	168	148	port_cul_1_mediterranean_var_1.wfc	clear	midday
+region_087	185	146	port_cul_1_mediterranean_var_1.wfc	clear	midday
+region_013	55	145	port_cul_7_mediterranean_var_2.wfc	clear	midday
+region_049	109	145	port_cul_7_mediterranean_var_1.wfc	clear	midday
+region_084	172	143	port_cul_1_mediterranean_var_3.wfc	clear	midday
+region_099	206	141	port_cul_3_mediterranean_var_3.wfc	clear	midday
+region_108	254	141	port_cul_4_mediterranean_var_2.wfc	clear	midday
+region_118	258	140	port_cul_3_mediterranean_var_2.wfc	clear	midday
+region_012	31	139	port_cul_5_mediterranean_var_1.wfc	clear	midday
+region_043	150	138	port_cul_1_mediterranean_var_3.wfc	clear	midday
+region_089	183	138	port_cul_1_mediterranean_var_1.wfc	clear	midday
+region_046	140	137	port_cul_1_mediterranean_var_3.wfc	clear	midday
+region_088	189	137	port_cul_1_mediterranean_var_1.wfc	clear	midday
+region_101	231	136	port_cul_1_steppe_var_1.wfc	clear	midday
+region_163	20	135	port_cul_7_mediterranean_var_2.wfc	clear	midday
+region_098	207	135	port_cul_1_mediterranean_var_2.wfc	clear	midday
+region_045	129	132	port_cul_7_mediterranean_var_3.wfc	clear	midday
+region_100	221	131	port_cul_1_mediterranean_var_2.wfc	clear	midday
+region_166	88	130	port_cul_7_mediterranean_var_3.wfc	clear	midday
+region_167	98	130	port_cul_7_mediterranean_var_2.wfc	clear	midday
+region_169	105	130	port_cul_7_mediterranean_var_3.wfc	clear	midday
+region_090	185	129	port_cul_1_mediterranean_var_2.wfc	clear	midday
+region_165	38	128	port_cul_7_mediterranean_var_1.wfc	clear	midday
+;	(Rhodos)	region_093	213	128	port_cul_1_mediterranean_var_3.wfc	clear	midday
+region_170	119	127	port_cul_7_mediterranean_var_3.wfc	clear	midday
+region_047	139	127	port_cul_1_mediterranean_var_2.wfc	clear	midday
+region_188	261	127	port_cul_3_mediterranean_var_2.wfc	clear	midday
+region_117	241	126	port_cul_3_mediterranean_var_1.wfc	clear	midday
+region_126	345	124	port_cul_3_semi_arid_var_3.wfc	clear	midday
+region_125	350	124	port_cul_3_semi_arid_var_2.wfc	clear	midday
+region_091	193	120	port_cul_1_mediterranean_var_1.wfc	clear	midday
+region_146	461	117	port_cul_4_tropical_indian_var_2.wfc	clear	midday
+region_171	118	114	port_cul_7_mediterranean_var_2.wfc	clear	midday
+;region_127	364	110	port_cul_3_semi_arid_var_1.wfc	clear	midday
+region_136	401	110	port_cul_3_rocky_desert_var_1.wfc	clear	midday
+;region_137	427	108	port_cul_3_rocky_desert_var_2.wfc	clear	midday
+;region_156	503	101	port_cul_4_tropical_indian_var_2.wfc	clear	midday
+region_173	128	99	port_cul_7_mediterranean_var_2.wfc	clear	midday
+;	(Delta_Neilou)	region_178	233	96	port_cul_3_sandy_desert_var_2.wfc	clear	midday
+;region_198	357	96	port_cul_7_sandy_desert_var_1.wfc	clear	midday
+region_176	216	95	port_cul_3_sandy_desert_var_2.wfc	clear	midday
+region_174	171	94	port_cul_3_mediterranean_var_2.wfc	clear	midday
+;region_197	390	93	port_cul_7_sandy_desert_var_2.wfc	clear	midday
+region_179	253	87	port_cul_3_rocky_desert_var_2.wfc	clear	midday
+region_189	266	87	port_cul_7_rocky_desert_var_1.wfc	clear	midday
+region_157	276	73	port_cul_7_semi_arid_var_1.wfc	clear	midday
+;region_180	270	64	port_cul_3_sandy_desert_var_1.wfc	clear	midday
+;region_192	312	37	port_cul_7_rocky_desert_var_3.wfc	clear	midday
+;region_185	291	32	port_cul_3_rocky_desert_var_1.wfc	clear	midday
+;region_195	380	26	port_cul_7_semi_arid_var_2.wfc	clear	midday
+region_193	326	18	port_cul_7_semi_arid_var_3.wfc	clear	midday
+;region_194	366	16	port_cul_7_semi_arid_var_3.wfc	clear	midday
+;region_186	312	10	port_cul_7_rocky_desert_var_3.wfc	clear	midday
+;region_196	351	8	port_cul_7_semi_arid_var_1.wfc	clear	midday

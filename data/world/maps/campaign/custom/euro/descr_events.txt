@@ -1,0 +1,270 @@
+
+; historical events and when they occur
+;
+; Events are followed by a category, and a label
+; labels are used as lookups into historic_events.txt for title and body strings,
+; and also as image names for the event picture
+;
+; Currently supported categories are:
+; counter  - just increase a counter
+; historic - Just generates a message and increase a counter
+; volcano  - triggers a volcano if there is one on the map at the position specified
+; plague   - triggers a plague in settlements at the specified positions
+; emergent_faction - triggers the emergence of the given faction.  This faction must be marked
+;	as emergent in descr_strat.txt
+;
+; event descriptions are followed by a date (year as offset from starting date) or a date range
+; and either a list of positions, or list of regions.  Each position/region specification must appear on
+; a seperate line below the date
+
+
+;test to correct the event format - verified, date is based on years (not turns!) correctly counting with 4TPY
+
+event	historic	ec_yih_271
+date	1 
+
+event	historic	ec_yih_270
+date	2 
+
+event	historic	ec_yih_269
+date	3 
+
+event	historic	ec_yih_268
+date	4 
+
+event	historic	ec_yih_267
+date	5 
+
+event	historic	ec_yih_266
+date	6 
+
+event	historic	ec_yih_265
+date	7 
+
+event	historic	ec_yih_264
+date	8 
+
+event	historic	ec_yih_263
+date	9 
+
+event	historic	ec_yih_262
+date	10 
+
+event	historic	ec_yih_261
+date	11 
+
+event	historic	ec_yih_260
+date	12 
+
+event	historic	ec_yih_259
+date	13 
+
+event	historic	ec_yih_258
+date	14 
+
+event	historic	ec_yih_257
+date	15 
+
+event	historic	ec_yih_256
+date	16 
+
+event	historic	ec_yih_255
+date	17 
+
+event	historic	ec_yih_254
+date	18 
+
+event	historic	ec_yih_253
+date	19 
+
+event	historic	ec_yih_252
+date	20 
+
+event	historic	ec_yih_251
+date	21 
+
+event	historic	ec_yih_250
+date	22 
+
+event	historic	ec_yih_249
+date	23 
+
+event	historic	ec_yih_248
+date	24 
+
+event	historic	ec_yih_247
+date	25 
+
+event	historic	ec_yih_246
+date	26 
+
+event	historic	ec_yih_245
+date	27 
+
+event	historic	ec_yih_244
+date	28 
+
+event	historic	ec_yih_243
+date	29 
+
+event	historic	ec_yih_242
+date	30 
+
+event	historic	ec_yih_241
+date	31 
+
+event	historic	ec_yih_240
+date	32 
+
+event	historic	ec_yih_239
+date	33 
+
+event	historic	ec_yih_238
+date	34 
+
+event	historic	ec_yih_237
+date	35 
+
+event	historic	ec_yih_236
+date	36 
+
+event	historic	ec_yih_235
+date	37 
+
+event	historic	ec_yih_234
+date	38 
+
+event	historic	ec_yih_233
+date	39 
+
+event	historic	ec_yih_232
+date	40 
+
+event	historic	ec_yih_231
+date	41 
+
+event	historic	ec_yih_230
+date	42 
+
+event	historic	ec_yih_229
+date	43 
+
+event	historic	ec_yih_228
+date	44 
+
+event	historic	ec_yih_227
+date	45 
+
+event	historic	ec_yih_226
+date	46 
+
+event	historic	ec_yih_225
+date	47 
+
+event	historic	ec_yih_224
+date	48 
+
+event	historic	ec_yih_223
+date	49 
+
+event	historic	ec_yih_222
+date	50 
+
+event	historic	ec_yih_221
+date	51 
+
+event	historic	ec_yih_220
+date	52 
+
+event	historic	ec_yih_219
+date	53 
+
+event	historic	ec_yih_218
+date	54 
+
+event	historic	ec_yih_217
+date	55 
+
+event	historic	ec_yih_216
+date	56 
+
+event	historic	ec_yih_215
+date	57 
+
+event	historic	ec_yih_214
+date	58 
+
+event	historic	ec_yih_213
+date	59 
+
+event	historic	ec_yih_212
+date	60 
+
+event	historic	ec_yih_211
+date	61 
+
+event	historic	ec_yih_210
+date	62 
+
+event	historic	ec_yih_209
+date	63 
+
+event	historic	ec_yih_208
+date	64 
+
+event	historic	ec_yih_207
+date	65 
+
+event	historic	ec_yih_206
+date	66 
+
+event	historic	ec_yih_205
+date	67 
+
+event	historic	ec_yih_204
+date	68 
+
+event	historic	ec_yih_203
+date	69 
+
+event	historic	ec_yih_202
+date	70 
+
+event	historic	ec_yih_201
+date	71 
+
+event	historic	ec_yih_200
+date	72 
+
+event	historic	ec_yih_199
+date	73 
+
+event	historic	ec_yih_198
+date	74 
+
+event	historic	ec_yih_197
+date	75 
+
+event	historic	ec_yih_196
+date	76 
+
+event	historic	ec_yih_195
+date	77 
+
+event	historic	ec_yih_194
+date	78 
+
+event	historic	ec_yih_193
+date	79 
+
+event	historic	ec_yih_192
+date	80 
+
+event	historic	ec_yih_191
+date	81 
+
+event	historic	ec_yih_190
+date	82 
+
+event	historic	ec_yih_189
+date	83 

@@ -1,0 +1,238 @@
+f_rome
+hold_regions region_040 region_047 region_170 region_015 region_083
+take_regions 40
+outlive f_carthage f_arevaci f_epeiros f_makedonia f_kh f_aedui f_arverni f_pergamon
+short_campaign hold_regions
+take_regions 20
+outlive f_carthage f_arevaci
+
+f_carthage 
+hold_regions region_170 region_043 region_012 region_040 region_175 
+take_regions 40
+outlive f_rome f_arevaci f_numidia f_epeiros
+short_campaign hold_regions
+take_regions 20
+outlive f_rome f_arevaci
+
+f_makedonia 
+hold_regions region_086 region_089 region_090 region_084 region_083 region_088 region_097
+take_regions 40
+outlive f_epeiros f_kh f_pergamon f_getai f_pontos f_ptolemaioi
+short_campaign hold_regions
+take_regions 20
+outlive f_epeiros f_kh
+
+f_epeiros 
+hold_regions region_083 region_084 region_086 region_088 region_040
+take_regions 40
+outlive f_kh f_makedonia f_rome f_getai
+short_campaign hold_regions
+take_regions 20
+outlive f_kh f_makedonia
+
+f_kh 
+hold_regions region_088 region_084 region_086 region_083 region_047
+take_regions 40
+outlive f_makedonia f_epeiros f_bosporan f_pergamon f_pontos
+short_campaign hold_regions
+take_regions 20
+outlive f_makedonia f_epeiros
+
+f_seleukid 
+hold_regions region_122 region_190 region_188 region_178 region_114
+take_regions 40
+outlive f_ptolemaioi f_parthia f_hayasdan f_pontos
+short_campaign hold_regions
+take_regions 20
+outlive f_ptolemaioi
+
+f_ptolemaioi 
+hold_regions region_178 region_190 region_119 region_122 region_097
+take_regions 40
+outlive f_seleukid f_makedonia f_pontos f_pergamon
+short_campaign hold_regions
+take_regions 20
+outlive f_seleukid
+
+f_baktria 
+hold_regions region_140 region_152 region_149 region_134 region_144
+take_regions 40
+outlive f_parthia f_saka f_gandhara
+short_campaign hold_regions
+take_regions 20
+outlive f_parthia f_saka
+
+f_hayasdan 
+hold_regions region_114 region_110 region_109 region_121 region_122
+take_regions 40
+outlive f_seleukid f_parthia f_pontos
+short_campaign hold_regions
+take_regions 20
+outlive f_seleukid
+
+f_pontos 
+hold_regions region_107 region_104 region_105 region_096 region_110 region_109
+take_regions 40
+outlive f_hayasdan f_bosporan f_pergamon f_seleukid
+short_campaign hold_regions
+take_regions 20
+outlive f_hayasdan f_bosporan f_pergamon
+
+f_parthia 
+hold_regions region_154 region_152 region_125 region_134 region_124
+take_regions 40
+outlive f_seleukid f_hayasdan f_baktria
+short_campaign hold_regions
+take_regions 20
+outlive f_seleukid
+
+f_aedui 
+hold_regions region_111 region_026 region_028 region_071 region_022
+take_regions 40
+outlive f_arverni f_boii f_sweboz f_rome
+short_campaign hold_regions
+take_regions 20
+outlive f_arverni f_boii
+
+f_arverni 
+hold_regions region_024 region_023 region_021 region_028 region_053
+take_regions 40
+outlive f_boii f_aedui f_sweboz f_rome
+short_campaign hold_regions
+take_regions 20
+outlive f_aedui f_rome
+
+f_casse 
+hold_regions region_006 region_005 region_008 region_034 region_020
+take_regions 40
+outlive f_aedui f_arverni f_sweboz
+short_campaign hold_regions
+take_regions 20
+outlive f_aedui
+
+f_lusotannan 
+hold_regions region_010 region_009 region_011 region_017 region_013
+take_regions 40
+outlive f_arevaci f_aedui f_arverni
+short_campaign hold_regions
+take_regions 20
+outlive f_arevaci
+
+f_sweboz 
+hold_regions region_055 region_053 region_059 region_034 region_033
+take_regions 40
+outlive f_boii f_lugia f_aedui f_arverni
+short_campaign hold_regions
+take_regions 20
+outlive f_boii f_lugia
+
+f_getai
+hold_regions region_078 region_077 region_076 region_079 region_095 region_074
+take_regions 40
+outlive f_makedonia f_lugia f_epeiros f_boii 
+short_campaign hold_regions
+take_regions 20
+outlive f_makedonia f_lugia
+
+f_saba
+hold_regions region_193 region_195 region_157 region_186 region_198
+take_regions 40
+outlive f_ptolemaioi f_nabatu f_seleukid
+short_campaign hold_regions
+take_regions 20
+outlive f_ptolemaioi
+
+f_saka
+hold_regions region_148 region_152 region_151 region_149 region_144
+take_regions 40
+outlive f_baktria f_gandhara f_parthia
+short_campaign hold_regions
+take_regions 20
+outlive f_baktria f_gandhara
+
+f_sauromatae
+hold_regions region_158 region_151 region_160 region_161 region_078
+take_regions 40
+outlive f_getai f_bosporan f_hayasdan f_parthia
+short_campaign hold_regions
+take_regions 20
+outlive f_getai f_bosporan
+
+f_numidia
+hold_regions region_175 region_165 region_167 region_172 region_182
+take_regions 40
+outlive f_carthage f_ptolemaioi
+short_campaign hold_regions
+take_regions 20
+outlive f_carthage
+
+f_pergamon
+hold_regions region_097 region_096 region_100 region_103 region_086
+take_regions 40
+outlive f_pontos f_kh f_makedonia 
+short_campaign hold_regions 
+take_regions 20
+outlive f_pontos f_kh
+
+f_gandhara
+hold_regions region_144 region_058 region_146 region_139 region_134
+take_regions 40
+outlive f_saka f_baktria f_parthia
+short_campaign hold_regions
+take_regions 20
+outlive f_saka f_baktria
+
+f_lugia
+hold_regions region_062 region_061 region_060 region_064 region_053
+take_regions 40
+outlive f_sweboz f_boii f_getai
+short_campaign hold_regions
+take_regions 20
+outlive f_sweboz f_boii
+
+f_bosporan
+hold_regions region_162 region_161 region_160 region_177 region_095
+take_regions 40
+outlive f_sauromatae f_getai f_makedonia f_pontos
+short_campaign hold_regions
+take_regions 20
+outlive f_sauromatae f_getai
+
+f_arevaci
+hold_regions region_015 region_017 region_018 region_014 region_050
+take_regions 40
+outlive f_lusotannan f_arverni f_aedui
+short_campaign hold_regions
+take_regions 20
+outlive f_lusotannan
+
+f_boii
+hold_regions region_054 region_033 region_074 region_036 region_028
+take_regions 40
+outlive f_sweboz f_rome f_aedui f_arverni
+short_campaign hold_regions
+take_regions 20
+outlive f_sweboz f_rome
+
+f_nabatu
+hold_regions region_189 region_157 region_191 region_190 region_194
+take_regions 40
+outlive f_ptolemaioi f_saba f_seleukid
+short_campaign hold_regions
+take_regions 20
+outlive f_ptolemaioi
+
+f_belgai
+hold_regions
+take_regions 199
+outlive
+short_campaign hold_regions
+take_regions 20
+outlive
+
+slave
+hold_regions
+take_regions 199
+outlive
+short_campaign hold_regions
+take_regions 199

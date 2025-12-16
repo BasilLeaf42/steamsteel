@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<faction_movies>
+	<faction>
+		<name>f_belgai</name>
+		<intro>faction/minor_intro.bik</intro>
+		<victory>faction/minor_win.bik</victory>
+		<defeat>faction/minor_lose.bik</defeat>
+		<death>faction/minor_lose.bik</death>
+	</faction>
+	<faction>
+		<name>f_aedui</name>
+		<intro>faction/aedui_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_arevaci</name>
+		<intro>faction/Areuakoi_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_arverni</name>
+		<intro>faction/Aruernoi_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_baktria</name>
+		<intro>faction/Baktria_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_boii</name>
+		<intro>faction/Boii_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_bosporan</name>
+		<intro>faction/Bosporos_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_carthage</name>
+		<intro>faction/Carthage_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_casse</name>
+		<intro>faction/Pritanoi_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_epeiros</name>
+		<intro>faction/Epeiros_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_gandhara</name>
+		<intro>faction/Taksashila_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_getai</name>
+		<intro>faction/Getai_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_hayasdan</name>
+		<intro>faction/hayasdan_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_kh</name>
+		<intro>faction/KHellenon_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_lugia</name>
+		<intro>faction/Lougiones_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_lusotannan</name>
+		<intro>faction/Lusotannan_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_makedonia</name>
+		<intro>faction/Makedonia_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_nabatu</name>
+		<intro>faction/Nabata_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_numidia</name>
+		<intro>faction/Massylia_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_parthia</name>
+		<intro>faction/Pahlava_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_pergamon</name>
+		<intro>faction/Pergamon_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_pontos</name>
+		<intro>faction/Pontos_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_ptolemaioi</name>
+		<intro>faction/Ptolemaioi_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_rome</name>
+		<intro>faction/Romani_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_saba</name>
+		<intro>faction/Saba_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_saka</name>
+		<intro>faction/saka_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_sauromatae</name>
+		<intro>faction/Sauromatae_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_seleukid</name>
+		<intro>faction/Seleukid_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>f_sweboz</name>
+		<intro>faction/Sweboz_intro.bik</intro>
+		<victory>faction/no_win.bik</victory>
+		<defeat>faction/no_lose.bik</defeat>
+		<death>faction/no_lose.bik</death>
+	</faction>
+
+	<faction>
+		<name>slave</name>
+		<intro>faction/minor_intro.bik</intro>
+		<victory>faction/minor_win.bik</victory>
+		<defeat>faction/minor_lose.bik</defeat>
+		<death>faction/minor_lose.bik</death>
+	</faction>
+</faction_movies>
