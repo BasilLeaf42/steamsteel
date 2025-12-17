@@ -223,5 +223,6 @@ function onReadGameDbsAtStart()
 	-- Ethiopia / Sudan
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/Ethiopia_Sudanese_Warriors.txt", 1200);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/Ethiopia_Sudanese_Musketeers.txt", 1201);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_crb_3g.txt", 1202);
 	
 end
