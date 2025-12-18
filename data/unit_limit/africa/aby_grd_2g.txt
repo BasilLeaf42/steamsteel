@@ -1,0 +1,33 @@
+type             aby_grd_2g
+dictionary       aby_grd_2g     ; Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)
+category         cavalry
+class            heavy
+voice_type       Heavy
+accent      	 arabic
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          aby_grd_2g, 24, 0, 1
+mount            hussar
+mount_effect     elephant -8, camel -4
+attributes       free_upkeep_unit, sea_faring, hide_forest, general_unit, command
+formation        2, 2, 4, 4, 2, square
+stat_health      1, 0
+stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  4, 5, 0, leather
+;stat_armour_ex   8, 9, 0, 0, 6, 4, 4, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      0, -2, -4, 1
+stat_mental      8, normal, highly_trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+ownership        slave, papal_states
+era 1            slave, papal_states
+era 2            slave, papal_states

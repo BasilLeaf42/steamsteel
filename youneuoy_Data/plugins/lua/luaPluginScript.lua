@@ -224,5 +224,11 @@ function onReadGameDbsAtStart()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/Ethiopia_Sudanese_Warriors.txt", 1200);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/Ethiopia_Sudanese_Musketeers.txt", 1201);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_crb_3g.txt", 1202);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_cav_1g.txt", 1203);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_roy_1g.txt", 1204);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_grd_2g.txt", 1205);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_nob_2g.txt", 1206);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_cav_2g.txt", 1207);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_inf_2g.txt", 1208);
 	
 end

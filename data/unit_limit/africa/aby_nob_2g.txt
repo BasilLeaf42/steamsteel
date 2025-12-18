@@ -1,0 +1,31 @@
+type             aby_nob_2g
+dictionary       aby_nob_2g     ; Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 arabic
+banner faction   main_infantry
+banner holy      crusade
+soldier          aby_nob_2g, 40, 0, 1
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         20, 0, musket_bullet, 250, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 5, 0, leather
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 1, 1
+stat_mental      6, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1700, 570, 50, 50, 1700, 2, 570
+ownership        slave, papal_states
+era 1            slave, papal_states
+era 2            slave, papal_states
