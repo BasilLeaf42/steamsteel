@@ -6,7 +6,7 @@ voice_type       heavy
 accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
-soldier          Japan_Bodyguard_Ezo, 8, 0, 1
+soldier          Japan_Bodyguard_Retainers, 8, 0, 1
 officer          Japan_Matsudaira_Katamori
 mount            hussar
 mount_effect     elephant -4, camel -4
@@ -30,6 +30,6 @@ stat_fire_delay  -20000
 stat_food        60, 300
 stat_cost        4, 200, 20, 60, 90, 200, 1,20
 armour_ug_levels 0
-armour_ug_models Japan_Bodyguard_Ezo
+armour_ug_models Japan_Bodyguard_Retainers
 ownership        saxons, france, slave 
 era 0            saxons, france

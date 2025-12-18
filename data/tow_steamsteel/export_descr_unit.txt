@@ -13553,6 +13553,42 @@ ownership        saxons, france, slave
 era 0            saxons, france
 era 1            saxons, france
 
+type             Japan Bodyguard Retainers
+dictionary       Japan_Bodyguard_Retainers      ; Japanese General and Retainers (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Retainers, 8, 0, 1
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy, general_unit
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1, 20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Retainers
+ownership        saxons, france, slave 
+era 0            saxons, france
+
+
 type             Japan Seishi
 dictionary       Japan_Seishi      ; Japanese Seishi / Japanese Samurai Cavalry / Japanese Samurai Lancers (Yari, Katana)
 category         cavalry
@@ -13625,7 +13661,6 @@ stat_cost        4, 200, 20, 60, 90, 200, 1,20
 armour_ug_levels 0
 armour_ug_models Japan_Bodyguard_IJA
 ownership        saxons, slave 
-era 0            saxons
 era 1            saxons
 era 2            saxons
 
@@ -14072,7 +14107,6 @@ stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Shohotai
 ownership        saxons, france, slave
-era 0            saxons, france
 era 1            saxons, france
 
 type             Japan Gakuheitai
