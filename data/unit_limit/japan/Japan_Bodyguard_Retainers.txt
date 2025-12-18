@@ -1,5 +1,5 @@
-type             Japan Saigo Takamori 1860
-dictionary       Japan_Saigo_Takamori_1860      ; Saigo Takamori (1860s) - custom battles only (Smith & Wesson No.2 revolver, Katana)
+type             Japan Bodyguard Retainers
+dictionary       Japan_Bodyguard_Retainers      ; Japanese General and Retainers (Smith & Wesson No.2 revolver, Saber)
 category         cavalry
 class            light
 voice_type       heavy
@@ -7,10 +7,9 @@ accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
 soldier          Japan_Bodyguard_Retainers, 8, 0, 1
-officer          Japan_Saigo_Takamori_1860
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy, general_unit
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -28,8 +27,8 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 45
 stat_fire_delay  -20000
 stat_food        60, 300
-stat_cost        4, 200, 20, 60, 90, 200, 1, 20
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
 armour_ug_levels 0
 armour_ug_models Japan_Bodyguard_Retainers
-ownership        saxons, slave 
-era 0            saxons
+ownership        saxons, france, slave 
+era 0            saxons, france
