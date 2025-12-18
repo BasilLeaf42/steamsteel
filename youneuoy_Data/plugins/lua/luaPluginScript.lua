@@ -12,6 +12,19 @@ require('helpers/tableSave')
 -- Our campaign config table.
 campaignConfig = { ["someConfigValue"] = 5 };
 
+-- Function used to display surname first, given name second (WIP)
+function splitString(inputstr, sep)
+	if sep == nil then sep = "%s"
+		end
+	
+	local t={}
+	
+	for str in string.gmatch(inputstr, "([^"..sep.."]+)") do table.insert(t, str)
+		end
+	
+	return t
+end
+
 -- Fires when loading a save file
 function onLoadSaveFile(paths)
     campaignPopup = true;
@@ -41,9 +54,9 @@ end
 -- Fires when the plugin is first loaded at game start or reloded with CTRL+9+1
 function onPluginLoad()
     M2TWEOP.unlockGameConsoleCommands();
-    -- M2TWEOP.setAncillariesLimit(8);
+    M2TWEOP.setAncillariesLimit(8);
     -- M2TWEOP.setMaxBgSize(100);
-    -- M2TWEOP.setReligionsLimit(50);
+    M2TWEOP.setReligionsLimit(32);
     -- M2TWEOP.setBuildingChainLimit(40);
     -- M2TWEOP.setGuildCooldown(3);
 end
@@ -93,9 +106,67 @@ function onCharacterSelected(eventData)
 			
 		selectedChar.character:reposition(4,101);
 		end
+end
 
+----[[
+function onCharacterTurnEnd(eventData)
+	local characterName
+	
+	-- Reorder character names for Japan (saxons) and China (byzantium)
+	if eventData.faction.name == "saxons" or eventData.faction.name == "byzantium" then
+		print("Reordering Japanese/Chinese character name...")
+		-- eventData.character.localizedDisplayName = "GivenName Surname"
+        characterName = splitString(eventData.character.localizedDisplayName, " ")
+		print(characterName[1])
+		print(characterName[2])
+		
+		-- Do not reorder character name of faction leader/heir, captains ("General"), admirals, or Jules Brunet; ADD WHITE PEOPLE HERE
+		if characterName[1] ~= "Lord"
+			and characterName[1] ~= "Emperor"
+			and characterName[1] ~= "Prince"
+			and characterName[1] ~= "General"
+			and characterName[1] ~= "Admiral"
+			and characterName[1] ~= "Jules"
+			and characterName[2] ~= "Brunet" then
+			eventData.character.localizedDisplayName = characterName[2].." "..characterName[1]
+		end
 	end
+end
+----]]
 
+---[[
+function bodyguardUpgrade(character, newBodyguardType, expLvl, armourLvl, weaponLvl)
+	local expLvl = expLvl or 0;
+	local armourLvl = armourLvl or 0;
+	local weaponLvl = weaponLvl or 0;
+	local originalBodyguard = character.bodyguards;
+	
+	-- Check if we can swap the bodyguard (army must have fewer than 20 generals)
+	if originalBodyguard.army.numOfUnits < 20 then
+		newBodyguard = originalBodyguard.army:createUnit(newBodyguardType, expLvl, armourLvl, weaponLvl);
+		character:setBodyguardUnit(newBodyguard);
+		originalBodyguard:kill();
+	else
+		local tempBodyguard = nil;
+		for i = 0, originalBodyguard.army.numOfUnits - 1, 1 do
+			unit = originalBodyguard.army:getUnit(i);
+			
+			if unit.character == nil then
+				tempBodyguard = unit;
+				break
+			end
+		end
+		
+		-- If the army has 20 generals
+		if tempBodyguard then 
+			character:setBodyguardUnit(tempBodyguard);
+			originalBodyguard:kill();
+			newBodyguard = tempBodyguard.army:createUnit(newBodyguardType, expLvl, armourLvl, weaponLvl);
+			character:setBodyguardUnit(newBodyguard);
+		end
+	end
+end
+---]]
 
 function distanceFromPoint(character, x, y)
   local xChar, yChar = character.character.xCoord, character.character.yCoord
@@ -187,6 +258,7 @@ function onReadGameDbsAtStart()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Koheitai_1905.txt", 1064);
 	
 	-- Japan (Unique generals)
+	
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Tokugawa_Yoshinobu.txt", 1080);
 	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Enomoto_Takeaki.txt", 1081);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kondo_Isami.txt", 1082);
@@ -204,6 +276,7 @@ function onReadGameDbsAtStart()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Itagaki_Taisuke.txt", 1093);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Sakamoto_Ryoma.txt", 1094);
 	
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Bodyguard_Retainers.txt", 1097);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Takeda_Ayasaburo.txt", 1098);
 	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Komatsu_Akihito.txt", 1099);
 	
