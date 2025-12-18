@@ -276,7 +276,7 @@ function onReadGameDbsAtStart()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Itagaki_Taisuke.txt", 1093);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Sakamoto_Ryoma.txt", 1094);
 	
-	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Bodyguard_Retainers.txt", 1097);
+	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Bodyguard_Retainers.txt", 1097);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Takeda_Ayasaburo.txt", 1098);
 	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Komatsu_Akihito.txt", 1099);
 	
