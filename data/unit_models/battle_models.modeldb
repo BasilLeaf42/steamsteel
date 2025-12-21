@@ -9232,17 +9232,24 @@
 43 unit_models/_Units/bra/bra_inf_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_inf_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_inf_1g_lod0.mesh 20000 
-2 
+3 
 6 poland 
 50 unit_models/_Units/bra/textures/bra_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 spain 
+50 unit_models/_Units/spa/textures/spa_col_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 slave 
 50 unit_models/_Units/bra/textures/bra_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-2 
+3 
 6 poland 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 spain 
 58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 slave 
@@ -25561,17 +25568,17 @@
 49 unit_sprites/normans_Dummy_EN_Spearmen_sprite.spr 
 4 
 3 cru 
-54 unit_models/_Units/bnw/textures/xilan_huoqiang.texture 
-56 unit_models/_Units/bnw/textures/xilan_huoqiang_n.texture 0 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 slave 
-54 unit_models/_Units/bnw/textures/xilan_huoqiang.texture 
-56 unit_models/_Units/bnw/textures/xilan_huoqiang_n.texture 0 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 6 aztecs 
-54 unit_models/_Units/bnw/textures/xilan_huoqiang.texture 
-56 unit_models/_Units/bnw/textures/xilan_huoqiang_n.texture 0 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 4 merc 
-54 unit_models/_Units/bnw/textures/xilan_huoqiang.texture 
-56 unit_models/_Units/bnw/textures/xilan_huoqiang_n.texture 0 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
 14 MTW2_Musket_SS 9 MTW2_Pike 
@@ -26919,7 +26926,7 @@
 43 unit_models/_Units/off/fez_off_1g_lod0.mesh 20000 
 43 unit_models/_Units/off/fez_off_1g_lod0.mesh 20000 
 43 unit_models/_Units/off/fez_off_1g_lod0.mesh 20000 
-6 
+8 
 5 turks 
 50 unit_models/_Units/off/textures/ott_off_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
@@ -26944,7 +26951,15 @@
 50 unit_models/_Units/off/textures/afg_off_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-6 
+5 moors 
+50 unit_models/_Units/off/textures/kok_off_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 golden 
+50 unit_models/_Units/off/textures/afg_off_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 
 5 turks 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
@@ -26961,6 +26976,12 @@
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 slave 
+58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 moors 
+58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 golden 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 4 
