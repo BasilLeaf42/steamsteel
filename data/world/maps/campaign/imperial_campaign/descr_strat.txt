@@ -2416,7 +2416,7 @@ settlement
 	year_founded 0
 	population 5000
 	plan_set default_set
-	faction_creator bulga
+	faction_creator cru
 	building
 	{
 		type core_building wooden_pallisade
@@ -12411,7 +12411,7 @@ settlement
 	year_founded 0
 	population 60000
 	plan_set default_set
-	faction_creator portugal
+	faction_creator cru
 	building
 	{
 		type core_building large_stone_wall
@@ -12476,7 +12476,7 @@ settlement
 	year_founded 0
 	population 30000
 	plan_set default_set
-	faction_creator bulga
+	faction_creator cru
 	building
 	{
 		type core_building stone_wall
@@ -15185,7 +15185,7 @@ settlement
 	year_founded 0
 	population 13000
 	plan_set default_set
-	faction_creator bulga
+	faction_creator cru
 	building
 	{
 		type core_building wooden_wall
