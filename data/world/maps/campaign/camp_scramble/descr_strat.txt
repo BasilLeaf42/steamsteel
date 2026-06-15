@@ -37,9 +37,11 @@ playable
 	golden
 	moors
 	spain
+	turks
 	milan
 	cuman
 	russia
+	aztecs
 	cru
 end
 unlockable
@@ -47,6 +49,11 @@ end
 nonplayable
 	slave
 end
+
+
+
+
+
 
 
 start_date	870 summer
@@ -74,95 +81,105 @@ denari	12500
 denari_kings_purse	2500
 settlement
 {
-	level village
-	region Zimbabwe_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator england
-}
-
-settlement
-{
-	level village
-	region South_Kenya_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-settlement
-{
-	level village
-	region West_Kenya_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-settlement
-{
-	level village
-	region East_Kenya_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-settlement
-{
-	level village
-	region Northern_Cape_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator england
-}
-
-settlement
-{
-	level village
+	level huge_city
 	region Southern_Cape_Province
 
 	year_founded 0
-	population 400
+	population 180000
 	plan_set default_set
 	faction_creator england
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type barracks militia_drill_square 
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith armourer
+	}
+	building
+	{
+		type market market 
+	}
 }
+
+
+
 
 settlement
 {
-	level village
+	level city
+	region Aden_Province
+
+	year_founded 0
+	population 55000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
+}
+
+
+
+settlement
+{
+	level city
+	region Sierra_Leone_Province
+
+	year_founded 0
+	population 55000
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
+}
+
+
+
+
+settlement
+{
+	level town
 	region Eastern_Cape_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator england
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
 
-settlement
-{
-	level village
-	region Western_Cape_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator england
-}
 
 
 
-character	William, named character, male, leader, age 40, x 254, y 54  
+
+character	William, named character, male, leader, age 40, x 168, y 235  
 army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
 
@@ -176,24 +193,80 @@ denari	12500
 denari_kings_purse	2500
 settlement
 {
-	level village
+	level city
 	region Addis_Ababa_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator lith
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
+	region Tigray_Province
+
+	year_founded 0
+	population 15000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
+}
+
+
+settlement
+{
+	level large_town
 	region Amhara_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
-	faction_creator lith
+	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
 
 
@@ -204,36 +277,6 @@ army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
 
 
-
-faction	venice, balanced smith
-ai_label		catholic
-denari	12500
-denari_kings_purse	2500
-settlement
-{
-	level village
-	region Eritrea_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
-}
-
-settlement
-{
-	level village
-	region Red_Sea_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
-}
-
-character	William, named character, male, leader, age 40, x 261, y 54  
-army
-unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
 
 faction	portugal, balanced smith
 ai_label		catholic
@@ -252,84 +295,39 @@ settlement
 
 settlement
 {
-	level village
-	region Sofala_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
-}
-
-
-settlement
-{
-	level village
-	region Tete_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-
-settlement
-{
-	level village
-	region Nampula_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-
-settlement
-{
-	level village
-	region Cabo_Delgado_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-
-settlement
-{
-	level village
-	region Lunda_Sul_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
-}
-
-settlement
-{
-	level village
+	level city
 	region Angola_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
 	faction_creator venice
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
 {
-	level village
+	level city
 	region Benguela_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
 }
+
+
+character	William, named character, male, leader, age 40, x 266, y 68  
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
 
 
 faction	france, balanced smith
@@ -339,18 +337,198 @@ denari	8000
 denari_kings_purse	1500
 settlement
 {
-	level village
-	region France
+	level city
+	region Senegal_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator france
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
 }
+
+
+settlement
+{
+	level large_town
+	region Kayes_Province
+
+	year_founded 0
+	population 15000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
+}
+
+
 
 character	Philip, named character, male, leader, age 40, x 253, y 54 
 army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
+
+
+
+faction	venice, balanced smith
+ai_label		catholic
+denari	12500
+denari_kings_purse	2500
+settlement
+{
+	level huge_city
+	region Western_Nigeria_Province
+
+	year_founded 0
+	population 180000
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type barracks militia_drill_square 
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith armourer
+	}
+	building
+	{
+		type market market 
+	}
+}
+
+
+
+character	William, named character, male, leader, age 40, x 346, y 281  
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
+character	William, named character, male, general, age 40, x 353, y 275  
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
+
+faction	turks, balanced smith
+ai_label		catholic
+re_emergent
+denari	8000
+denari_kings_purse	1500
+settlement
+{
+	level large_city
+	region Tripolitania_Province
+
+	year_founded 0
+	population 120000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
+}
+
+
+
+settlement
+{
+	level large_city
+	region Tunis_Province
+
+	year_founded 0
+	population 120000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
+}
+
+
+
+
+character	Philip, named character, male, leader, age 40, x 253, y 362 
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
 
 
 faction	hre, balanced smith
@@ -360,50 +538,56 @@ denari	8000
 denari_kings_purse	1500
 settlement
 {
-	level village
-	region Erongo_Province
+	level large_city
+	region Cyrenaica_Province
 
 	year_founded 0
-	population 400
+	population 120000
 	plan_set default_set
-	faction_creator hre
-}
-
-settlement
-{
-	level village
-	region Namib_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator hre
-}
-
-settlement
-{
-	level village
-	region Dodoma_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator hre
-}
-
-settlement
-{
-	level village
-	region Tanzania_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
+	faction_creator moors
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
 }
 
 
-character	Philip, named character, male, leader, age 40, x 245, y 54 
+
+character	Philip, named character, male, leader, age 40, x 349, y 165 
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
+
+character	Philip, named character, male, heir, age 40, x 354, y 185 
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
+
+character	Philip, named character, male, general, age 40, x 229, y 85 
 army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
 
@@ -414,39 +598,38 @@ denari	8000
 denari_kings_purse	1500
 settlement
 {
-	level village
+	level city
 	region Pretoria_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator teu
+	faction_creator england
+	building
+	{
+		type core_building stone_wall
+	}
 }
+
+
 
 settlement
 {
-	level village
-	region Transvaal_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator teu
-}
-
-settlement
-{
-	level village
+	level city
 	region Orange_Free_State_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator teu
+	faction_creator england
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 
-character	Philip, named character, male, leader, age 40, x 251, y 51 
+character	Philip, named character, male, leader, age 40, x 281, y 60 
 army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
 
@@ -454,31 +637,36 @@ faction	lith, balanced smith
 ai_label		catholic
 denari	8000
 denari_kings_purse	1500
-settlement
-{
-	level village
-	region Eswatini_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
 
 settlement
 {
-	level village
+	level city
 	region Lesotho_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 
 
-character	Philip, named character, male, leader, age 40, x 250, y 50 
+
+
+
+character	Philip, named character, male, leader, age 40, x 218, y 169 
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
+character	Philip, named character, male, heir, age 40, x 216, y 176 
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
+character	Philip, named character, male, general, age 40, x 228, y 181 
 army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
 
@@ -490,56 +678,12 @@ denari_kings_purse	1500
 settlement
 {
 	level village
-	region Boma_Province
+	region Transvaal_Province
 
 	year_founded 0
 	population 400
 	plan_set default_set
-	faction_creator lith
-}
-
-settlement
-{
-	level village
-	region Leopoldsville_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
-}
-
-settlement
-{
-	level village
-	region Lusambo_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-settlement
-{
-	level village
-	region Coquilhatville_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-settlement
-{
-	level village
-	region Stanleyville_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
+	faction_creator teu
 }
 
 
@@ -553,73 +697,125 @@ denari	8000
 denari_kings_purse	1500
 settlement
 {
-	level village
+	level city
 	region Mahajnaca_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
 {
 	level village
+	region France
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+
+settlement
+{
+	level city
 	region Antsiranana_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region North_Toamasina_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
 
+
+
+
+
+
+
+character	Philip, named character, male, leader, age 40, x 390, y 103 
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
+
+faction	aztecs, balanced smith
+ai_label		catholic
+denari	8000
+denari_kings_purse	1500
 settlement
 {
-	level village
+	level town
 	region South_Toamasina_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator lith
-}
-
-settlement
-{
-	level village
-	region Toliara_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-settlement
-{
-	level village
-	region Fianaratsoa_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
 
 
+character	Philip, named character, male, leader, age 40, x 309, y 258 
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
 
-character	Philip, named character, male, leader, age 40, x 254, y 55 
+character	Philip, named character, male, heir, age 40, x 304, y 254 
+army
+unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+
+character	Philip, named character, male, general, age 40, x 313, y 253 
 army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
 
@@ -630,143 +826,127 @@ denari	8000
 denari_kings_purse	1500
 settlement
 {
-	level village
+	level huge_city
 	region Sharqia_Province
 
 	year_founded 0
-	population 400
+	population 180000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type barracks militia_drill_square 
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith armourer
+	}
+	building
+	{
+		type market market 
+	}
 }
 
 
 settlement
 {
-	level village
+	level huge_city
 	region Gharbiya_Province
 
 	year_founded 0
-	population 400
+	population 180000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type barracks militia_drill_square 
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith armourer
+	}
+	building
+	{
+		type market market 
+	}
 }
 
 settlement
 {
-	level village
+	level city
 	region Minya_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Asyut_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
-	faction_creator egypt
-}
-
-settlement
-{
-	level village
-	region Esna_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-
-settlement
-{
-	level village
-	region Sawakin_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-
-settlement
-{
-	level village
-	region Kassala_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
 
 
 settlement
 {
-	level village
-	region Dongola_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-settlement
-{
-	level village
+	level city
 	region Berber_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator egypt
-}
-
-
-settlement
-{
-	level village
-	region Al_Ghazal_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-settlement
-{
-	level village
-	region Sinai_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-settlement
-{
-	level village
-	region Equatoria_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 
@@ -783,24 +963,78 @@ denari	12500
 denari_kings_purse	2500
 settlement
 {
-	level village
+	level city
 	region Oman_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
 {
 	level village
+	region South_Kenya_Province
+
+	year_founded 0
+	population 55000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
+}
+
+
+
+settlement
+{
+	level city
+	region Tanzania_Province
+
+	year_founded 0
+	population 55000
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
+}
+
+
+
+settlement
+{
+	level town
 	region Dhofar_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
-	faction_creator egypt
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
 
 
@@ -816,36 +1050,82 @@ denari	12500
 denari_kings_purse	2500
 settlement
 {
-	level village
+	level large_city
 	region Marrakesh_Province
 
 	year_founded 0
-	population 400
+	population 120000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
 }
+
+
 
 settlement
 {
-	level village
-	region Casablanca_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-settlement
-{
-	level village
+	level large_city
 	region Fes_Province
 
 	year_founded 0
-	population 400
+	population 120000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
 }
 
 
@@ -860,15 +1140,29 @@ ai_label		catholic
 re_emergent
 denari	12500
 denari_kings_purse	2500
+
+
 settlement
 {
 	level village
-	region Tangiers_Province
+	region New_Province5
 
 	year_founded 0
 	population 400
 	plan_set default_set
-	faction_creator egypt
+	faction_creator venice
+}
+
+
+settlement
+{
+	level village
+	region Canary_Isles_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator venice
 }
 
 settlement
@@ -879,8 +1173,9 @@ settlement
 	year_founded 0
 	population 400
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
 }
+
 
 
 character	Philip, named character, male, leader, age 40, x 252, y 75 
@@ -897,13 +1192,17 @@ denari	12500
 denari_kings_purse	2500
 settlement
 {
-	level village
+	level city
 	region Liberia_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator venice
+	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
@@ -930,37 +1229,67 @@ denari	12500
 denari_kings_purse	2500
 settlement
 {
-	level village
+	level large_town
+	region Northern_Nigeria_Province
+
+	year_founded 0
+	population 15000
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
+}
+
+
+settlement
+{
+	level large_town
 	region Burkina_Faso_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
 
-settlement
-{
-	level village
-	region Niger_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-
-settlement
-{
-	level village
-	region Mali_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
 
 
 character	Philip, named character, male, leader, age 40, x 252, y 77 
@@ -976,14 +1305,37 @@ denari	12500
 denari_kings_purse	2500
 settlement
 {
-	level village
-	region Ivory_Coast_Province
+	level large_town
+	region Western_Ghana_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
+
+
 
 
 character	Philip, named character, male, leader, age 40, x 252, y 76 
@@ -995,27 +1347,38 @@ ai_label		catholic
 re_emergent
 denari	12500
 denari_kings_purse	2500
-settlement
-{
-	level village
-	region Western_Ghana_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
 
 settlement
 {
-	level village
-	region Ghana_Province
+	level large_town
+	region Benin_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
 
 
 character	Philip, named character, male, leader, age 40, x 252, y 79 
@@ -1030,57 +1393,74 @@ denari_kings_purse	1000
 
 settlement
 {
-	level village
+	level city
 	region Comoros_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Tabuk_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
-	faction_creator lith
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
 
 settlement
 {
-	level village
+	level city
 	region Al_Balad_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator lith
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
 {
-	level village
+	level city
 	region Sanaa_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator lith
-}
-
-settlement
-{
-	level village
-	region Aden_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 
@@ -1097,25 +1477,63 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Eastern_Zambia_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
+
 
 settlement
 {
-	level village
+	level large_town
 	region Burundi_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
 
 settlement
 {
@@ -1128,29 +1546,7 @@ settlement
 	faction_creator lith
 }
 
-settlement
-{
-	level village
-	region Limpopo_Province
 
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-
-
-settlement
-{
-	level village
-	region Muaritius_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
 
 
 settlement
@@ -1166,13 +1562,17 @@ settlement
 
 settlement
 {
-	level village
+	level city
 	region Timbuktu_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
@@ -1199,14 +1599,35 @@ settlement
 
 settlement
 {
-	level village
+	level large_town
 	region Uganda_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
 
 
 settlement
@@ -1220,17 +1641,6 @@ settlement
 	faction_creator egypt
 }
 
-
-settlement
-{
-	level village
-	region New_Province5
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
 
 
 settlement
@@ -1280,47 +1690,118 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Thamalakane_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
+
 
 settlement
 {
-	level village
+	level large_town
 	region Harare_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
 
 settlement
 {
-	level village
+	level town
 	region Karas_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Otjozondjupa_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
+
 
 
 settlement
@@ -1335,16 +1816,7 @@ settlement
 }
 
 
-settlement
-{
-	level village
-	region Tigray_Province
 
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
 
 
 settlement
@@ -1361,100 +1833,215 @@ settlement
 
 settlement
 {
-	level village
+	level large_town
 	region Djibouti_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
-	faction_creator venice
+	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
 
 
 settlement
 {
-	level village
+	level town
 	region Somaliland_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
 
 
 settlement
 {
-	level village
+	level large_town
 	region Bari_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
 
 
 settlement
 {
-	level village
+	level town
 	region Nugal_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
-	faction_creator egypt
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
+
 
 
 settlement
 {
-	level village
+	level town
 	region Galmudug_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
-	faction_creator egypt
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
+
 
 
 settlement
 {
-	level village
+	level large_town
 	region Hamar_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
 
 
 settlement
 {
-	level village
+	level town
 	region Gambela_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
-
-
-
-settlement
-{
-	level village
-	region Western_Nigeria_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
 
 
 settlement
@@ -1472,40 +2059,49 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Kamerun_Province
 
 	year_founded 0
-	population 400
+	population 4700
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
 
 
 
 settlement
 {
-	level village
+	level city
 	region Wouri_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 
-
-settlement
-{
-	level village
-	region Northern_Nigeria_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
 
 
 
@@ -1521,18 +2117,6 @@ settlement
 }
 
 
-
-
-settlement
-{
-	level village
-	region Tripolitania_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
 
 
 
@@ -1551,58 +2135,7 @@ settlement
 
 
 
-settlement
-{
-	level village
-	region Tunis_Province
 
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-
-
-settlement
-{
-	level village
-	region Kasatina_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-
-
-settlement
-{
-	level village
-	region Algeria_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-
-
-settlement
-{
-	level village
-	region Western_Algeria_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
 
 
 
@@ -1624,31 +2157,6 @@ settlement
 settlement
 {
 	level village
-	region Cyrenaica_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-settlement
-{
-	level village
-	region Canary_Isles_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
-}
-
-
-
-settlement
-{
-	level village
 	region Western_Sahara_Province
 
 	year_founded 0
@@ -1659,80 +2167,111 @@ settlement
 
 
 
-settlement
-{
-	level village
-	region Cabo_Verde_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
-}
-
 
 settlement
 {
-	level village
+	level large_town
 	region Togo_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
 
 
 
 
 settlement
 {
-	level village
+	level large_town
 	region Kenema_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
 	faction_creator lith
-}
-
-
-settlement
-{
-	level village
-	region Benin_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator lith
-}
-
-
-
-settlement
-{
-	level village
-	region Sierra_Leone_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator venice
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
 
 
 
+
+
+
+
+
 settlement
 {
-	level village
+	level large_town
 	region Northern_Ghana_Province
 
 	year_founded 0
-	population 400
+	population 15000
 	plan_set default_set
 	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
 }
+
 
 
 settlement
@@ -1747,30 +2286,6 @@ settlement
 }
 
 
-
-settlement
-{
-	level village
-	region Senegal_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
-
-
-
-settlement
-{
-	level village
-	region Kayes_Province
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator egypt
-}
 
 
 
@@ -1795,7 +2310,7 @@ settlement
 	year_founded 0
 	population 400
 	plan_set default_set
-	faction_creator egypt
+	faction_creator lith
 }
 
 
@@ -1814,8 +2329,138 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Far_North_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+;;upington
+settlement
+{
+	level large_town
+	region Northern_Cape_Province
+
+	year_founded 0
+	population 15000
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
+}
+
+
+
+
+settlement
+{
+	level town
+	region Nothern_Niger_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+
+
+settlement
+{
+	level town
+	region Lunda_Sul_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+
+settlement
+{
+	level village
+	region West_Kenya_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+settlement
+{
+	level village
+	region East_Kenya_Province
 
 	year_founded 0
 	population 400
@@ -1828,8 +2473,452 @@ settlement
 
 settlement
 {
+	level town
+	region Erongo_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+
+
+
+settlement
+{
+	level large_town
+	region Namib_Province
+
+	year_founded 0
+	population 15000
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
+}
+
+
+settlement
+{
 	level village
-	region Nothern_Niger_Province
+	region Dodoma_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+
+settlement
+{
+	level village
+	region Zimbabwe_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+settlement
+{
+	level town
+	region Toliara_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+settlement
+{
+	level town
+	region Western_Cape_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator england
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+
+
+settlement
+{
+	level city
+	region Fianaratsoa_Province
+
+	year_founded 0
+	population 55000
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
+}
+
+settlement
+{
+	level large_city
+	region Algeria_Province
+
+	year_founded 0
+	population 120000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
+}
+
+
+
+settlement
+{
+	level large_city
+	region Kasatina_Province
+
+	year_founded 0
+	population 120000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
+}
+
+
+
+
+
+
+settlement
+{
+	level large_city
+	region Western_Algeria_Province
+
+	year_founded 0
+	population 120000
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
+}
+
+
+settlement
+{
+	level village
+	region Sofala_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+
+settlement
+{
+	level large_town
+	region Tete_Province
+
+	year_founded 0
+	population 15000
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
+}
+
+
+
+settlement
+{
+	level large_town
+	region Nampula_Province
+
+	year_founded 0
+	population 15000
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
+}
+
+
+settlement
+{
+	level village
+	region Cabo_Verde_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+
+
+settlement
+{
+	level large_town
+	region Cabo_Delgado_Province
+
+	year_founded 0
+	population 15000
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
+}
+
+
+settlement
+{
+	level large_city
+	region Tangiers_Province
+
+	year_founded 0
+	population 120000
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
+}
+
+
+
+settlement
+{
+	level village
+	region Casablanca_Province
 
 	year_founded 0
 	population 400
@@ -1842,13 +2931,17 @@ settlement
 
 settlement
 {
-	level village
-	region Balkh_Province
+	level city
+	region Ivory_Coast_Province
 
 	year_founded 0
-	population 400
+	population 55000
 	plan_set default_set
-	faction_creator egypt
+	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 
@@ -1856,18 +2949,334 @@ settlement
 settlement
 {
 	level village
-	region Khujand_Province
+	region Niger_Province
 
 	year_founded 0
 	population 400
 	plan_set default_set
-	faction_creator egypt
+	faction_creator lith
+}
+
+
+settlement
+{
+	level village
+	region Mali_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+
+
+settlement
+{
+	level city
+	region Ghana_Province
+
+	year_founded 0
+	population 55000
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
+}
+
+
+settlement
+{
+	level village
+	region Limpopo_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+
+settlement
+{
+	level village
+	region Eswatini_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+
+settlement
+{
+	level village
+	region Esna_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+
+settlement
+{
+	level town
+	region Sawakin_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
 }
 
 
 
 
+settlement
+{
+	level town
+	region Kassala_Province
 
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+
+
+settlement
+{
+	level village
+	region Dongola_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+
+settlement
+{
+	level village
+	region Al_Ghazal_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+
+settlement
+{
+	level village
+	region Sinai_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator moors
+}
+
+settlement
+{
+	level village
+	region Equatoria_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+settlement
+{
+	level town
+	region Eritrea_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+
+settlement
+{
+	level town
+	region Red_Sea_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+
+settlement
+{
+	level city
+	region Boma_Province
+
+	year_founded 0
+	population 55000
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building stone_wall
+	}
+}
+
+settlement
+{
+	level village
+	region Leopoldsville_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+settlement
+{
+	level town
+	region Lusambo_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator lith
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+
+settlement
+{
+	level village
+	region Coquilhatville_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+settlement
+{
+	level village
+	region Stanleyville_Province
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator lith
+}
+
+
+
+settlement
+{
+	level city
+	region Muaritius_Province
+
+	year_founded 0
+	population 55000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building stone_wall
+	}
+}
 
 
 
