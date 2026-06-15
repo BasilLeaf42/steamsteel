@@ -11265,9 +11265,9 @@
 60 unit_models/_units/japan/attachments/bushi_gear_norm.texture 0 
 1 
 4 None 
-16 MTW2_2HSwordsman 0 
+27 MTW2_Faster_2HSwordsman_Alt 0 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 Japan_Shogitai_Flag 
@@ -11397,11 +11397,11 @@
 1 
 4 None 
 16 MTW2_Fast_Bowman 
-16 MTW2_2HSwordsman 
+27 MTW2_Faster_2HSwordsman_Alt 
 1 
 19 MTW2_Bowman_Primary 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Japan_Seishi 
 1 4 
@@ -12693,11 +12693,11 @@
 1 
 4 None 
 11 MTW2_Musket 
-16 MTW2_2HSwordsman 
+27 MTW2_Faster_2HSwordsman_Alt 
 1 
 19 MTW2_Musket_Primary 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 Japan_Suzakutai_Flag 
 1 4 
@@ -13557,9 +13557,9 @@
 63 unit_models/_units/japan/attachments/battotai_gear_norm.texture 0 
 1 
 4 None 
-16 MTW2_2HSwordsman 0 
+27 MTW2_Faster_2HSwordsman_Alt 0 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 Japan_Shohotai 
@@ -15613,11 +15613,11 @@
 1 
 4 None 
 14 MTW2_Musket_SS 
-16 MTW2_2HSwordsman 
+27 MTW2_Faster_2HSwordsman_Alt 
 1 
 19 MTW2_Musket_Primary 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 22 Japan_Shinsengumi_Flag 
 1 4 
@@ -16874,11 +16874,11 @@
 1 
 4 None 
 11 MTW2_Musket 
-16 MTW2_2HSwordsman 
+27 MTW2_Faster_2HSwordsman_Alt 
 1 
 19 MTW2_Musket_Primary 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 20 Japan_Jinshotai_Flag 
 1 4 
