@@ -11756,12 +11756,12 @@
 63 unit_models/_units/japan/attachments/teppotai_gear_norm.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 
-16 MTW2_2HSwordsman 
+11 MTW2_Musket 
+27 MTW2_Faster_2HSwordsman_Alt 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 19 Japan_Teppotai_Flag 
 1 4 
@@ -11902,12 +11902,12 @@
 63 unit_models/_units/japan/attachments/teppotai_gear_norm.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 
-16 MTW2_2HSwordsman 
+11 MTW2_Musket 
+27 MTW2_Faster_2HSwordsman_Alt 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 12 Japan_Shotai 
 1 4 
@@ -12094,11 +12094,11 @@
 1 
 4 None 
 14 MTW2_Musket_SS 
-16 MTW2_2HSwordsman 
+27 MTW2_Faster_2HSwordsman_Alt 
 1 
 19 MTW2_Musket_Primary 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 18 Japan_Satsuma_Flag 
 1 4 
@@ -16667,12 +16667,12 @@
 63 unit_models/_units/japan/attachments/kiheitai_gear_norm.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 
-16 MTW2_2HSwordsman 
+11 MTW2_Musket 
+27 MTW2_Faster_2HSwordsman_Alt 
 1 
-21 MTW2_Arquebus_Primary 
+19 MTW2_Musket_Primary 
 1 
-24 MTW2_2HSwordsman_Primary 
+28 MTW2_2HSwordsman_Primary_Alt 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 22 Japan_Kiheitai_Officer 
 1 4 
