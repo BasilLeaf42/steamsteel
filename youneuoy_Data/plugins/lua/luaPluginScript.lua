@@ -202,7 +202,7 @@ function onReadGameDbsAtStart()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Shogitai.txt", 1010);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kenyotai.txt", 1070);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Byakkotai.txt", 1011);
-	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kaga_Hoheitai.txt", 1071);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kaga_Hoheitai.txt", 1071);
 	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Matsushiro_Hoheitai.txt", 1072);
 	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Yonezawa.txt", 1073);
 	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Akita_Yumitai.txt", 1073);
