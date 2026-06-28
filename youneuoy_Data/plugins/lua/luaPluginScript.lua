@@ -211,7 +211,7 @@ function onReadGameDbsAtStart()
 	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kochotai.txt", 1076);
 	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hirosaki_Hoheitai.txt", 1077);
 	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Hiroshima_Hoheitai.txt", 1078);
-	-- M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kijutai.txt", 1079);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Kijutai.txt", 1079);
 	
 	-- Japan (1870s)
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/japan/Japan_Battotai.txt", 1012);

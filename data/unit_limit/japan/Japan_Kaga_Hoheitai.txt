@@ -7,7 +7,7 @@ accent           japanese
 banner faction   main_missile
 banner holy      crusade
 soldier          Japan_Kaga_Hoheitai, 40, 0, 1.0
-officer			 Japan_Teppotai_Officer
+officer			 Japan_Denshutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
