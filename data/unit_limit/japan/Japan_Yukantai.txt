@@ -1,12 +1,12 @@
-type             Japan Kaga Hoheitai
-dictionary       Japan_Kaga_Hoheitai      ; Japanese Kaga Hoheitai / Japanese Kaga Infantry (Springfield M1855 rifled musket, Katana)
+type             Japan Yukantai
+dictionary       Japan_Yukantai      ; Japanese Yukantai / Japanese Fukuoka Yukantai (Pattern 1853 Enfield rifled musket, Katana)
 category         infantry
 class            missile
 voice_type       Light
 accent           japanese
 banner faction   main_missile
 banner holy      crusade
-soldier          Japan_Kaga_Hoheitai, 40, 0, 1.0
+soldier          Japan_Yukantai, 40, 0, 1.0
 officer			 Japan_Kijutai_Officer
 officer			 Japan_Kaga_Hoheitai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit
@@ -27,6 +27,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1000, 250, 80, 60, 1000, 4, 100
 armour_ug_levels 0
-armour_ug_models Japan_Kaga_Hoheitai
-ownership        saxons, france, slave
-era 0			 saxons, france
+armour_ug_models Japan_Yukantai
+ownership        saxons, slave
+era 0			 saxons
