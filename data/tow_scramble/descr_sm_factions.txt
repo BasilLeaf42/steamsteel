@@ -106,7 +106,7 @@ has_family_tree					yes
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						cru
-culture						middle_eastern
+culture						mesoamerican
 religion					buddism
 symbol						models_strat/symbol_carthage.cas
 rebel_symbol				models_strat/symbol_slave.CAS
@@ -345,7 +345,7 @@ can_build_siege_towers		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						sicily
-culture						southern_european
+culture						mesoamerican
 religion					protestant
 symbol						models_strat/symbol_sicily.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
@@ -520,7 +520,7 @@ can_build_siege_towers		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						russia
-culture						middle_eastern
+culture						mesoamerican
 religion					islam
 symbol						models_strat/symbol_russia.CAS
 rebel_symbol				models_strat/symbol_slave.CAS
@@ -698,7 +698,7 @@ can_build_siege_towers		no
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction						milan
-culture						southern_european
+culture						mesoamerican
 religion					protestant
 symbol						models_strat/symbol_numidia.cas
 rebel_symbol				models_strat/symbol_rebels.CAS

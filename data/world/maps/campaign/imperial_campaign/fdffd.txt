@@ -1,0 +1,279 @@
+village
+
+;Vancouver
+settlement
+{
+	level village
+	region Lodz_Province
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator england	
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+;settlers
+	building
+	{
+		type brothels brothel
+	}
+	building
+	{
+		type rep_city_hall rep_council_chambers
+	}
+}
+
+settlement 
+{
+	level village
+	region Vijanagar_Province
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator lith
+}
+
+town
+
+settlement 
+{
+	level town
+	region Kanem_Province
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator moors
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type caravan caravan_stop
+	}
+}
+
+
+large town 
+
+settlement
+{
+	level large_town
+	region Panama_Province
+
+	year_founded 0
+	population 15000
+	plan_set default_set
+	faction_creator scotland
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith blacksmith 
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+	building
+	{
+		type hinterland_farms farms 
+	}
+	building
+	{
+		type hinterland_mines mines 
+	}
+	building
+	{
+		type hinterland_plant plantation
+	}
+	building
+	{
+		type academic alchemists_lab 
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+}
+
+
+city
+
+settlement
+{
+	level city
+	region Smolensk_Province
+
+	year_founded 0
+	population 55000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building stone_wall
+	}
+}
+
+
+large city
+
+;Munich
+settlement
+{
+	level large_city
+	region Baviere_Province
+
+	year_founded 0
+	population 120000
+	plan_set default_set
+	faction_creator hre
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type professional_military military_academy 
+	}
+	building
+	{
+		type cannon cannon_maker 
+	}
+	building
+	{
+		type smith armourer 
+	}
+	building
+	{
+		type market fairground 
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
+	building
+	{
+		type academic alchemy_school 
+	}
+;public education
+	building
+	{
+		type taverns inn 
+	}
+	building
+	{
+		type thiefs_guild thieves_guild 
+	}
+	building
+	{
+		type city_hall council_chambers 
+	}
+}
+
+
+huge city
+
+
+
+;Nanking
+settlement
+{
+	level huge_city
+	region Nanjing_Province
+
+	year_founded 0
+	population 180000
+	plan_set default_set
+	faction_creator byzantium
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type barracks militia_drill_square 
+	}
+	building
+	{
+		type cannon gunsmith 
+	}
+	building
+	{
+		type smith armourer
+	}
+	building
+	{
+		type port port 
+	}
+	building
+	{
+		type sea_trade warehouse
+	}
+	building
+	{
+		type market market 
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+	building
+	{
+		type hinterland_farms farms+1 
+	}
+	building
+	{
+		type city_hall council_chambers 
+	}
+	building
+	{
+		type hinterland_wonder nanjing_tower
+	}
+}
