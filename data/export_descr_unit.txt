@@ -866,7 +866,7 @@ stat_mental      4, low, trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1600, 400, 90, 170, 1600, 2, 400
+stat_cost        2, 1000, 250, 90, 170, 1000, 2, 250
 ownership        timurids, bulga, egypt, slave
 
 
@@ -4831,7 +4831,7 @@ soldier          per_grd_1g, 24, 0, 1
 officer          fra_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, gunpowder_unit, hide_forest, hide_improved_forest
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, gunpowder_unit, hide_forest, hide_improved_forest, general_unit, command
 move_speed_mod	 0.8
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
@@ -4855,6 +4855,11 @@ ownership        denmark, slave
 era 0            denmark
 era 1            denmark
 era 2            denmark
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;################ Empire of Brazil / Brazilian Empire
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -6412,7 +6417,7 @@ soldier          usmc, 24, 0, 1
 officer          pru_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, can_formed_charge
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, can_formed_charge, general_unit, command
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         7, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6679,8 +6684,8 @@ stat_cost        3, 1800, 600, 50, 50, 1800, 3, 600
 ownership        hre, slave
 era 2            hre
 
-type             gr_airship 
-dictionary       gr_airship      ; airship
+type             air_reg_3g 
+dictionary       air_reg_3g      ; airship
 category         cavalry
 class            missile
 voice_type       heavy
@@ -6690,7 +6695,7 @@ soldier          no_soldier, 4, 1, 1
 mounted_engine   airship_serpentine
 mount            airship_ironsides
 mount_effect     horse +4, camel +2
-attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
 formation        7, 21, 23, 26, 4, square
 stat_health      9, 9
 stat_pri         11, 3, ribault_shot_traced, 400, 900, siege_missile, artillery_gunpowder, blunt, none, 0, 1
@@ -6708,7 +6713,8 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        100, 500
 stat_cost        3, 5000, 500, 400, 400, 3000, 1, 680
-ownership        slave
+ownership        all
+era 2            all
 
 
 type             gr_colonial
@@ -10359,7 +10365,7 @@ stat_mental      5, impetuous, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 800, 200, 75, 60, 800, 2, 200
+stat_cost        1, 800, 125, 75, 60, 800, 2, 200
 ownership        slave
 
 

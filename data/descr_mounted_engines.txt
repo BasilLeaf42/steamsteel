@@ -85,20 +85,64 @@ shot_sfx			ANIM_Serpentine_Fire
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-type				elephant_rocket_launcher
+; UNUSED - confirmed no EDU unit references this engine. Commented out (not
+; deleted) to free a record slot after hitting descr_mounted_engines.txt's
+; record limit. Restore if a future elephant rocket unit needs it.
+;type				elephant_rocket_launcher
+;culture				all
+;class				rocket_launcher
+;reference_points		siege_engines/Elephant_rocket_lod0.modelReferencePoints
+;missile_pos			0.0 1.0 0.0
+;crew_animations
+;    crank           		Rocket_Crew,  	elephant_crew_reload,	elephant_crew_idle, 
+;    crank_attachment		Right_Load,  	none, 	       		none,	
+;    fire            		Rocket_Crew,  	elephant_crew_fire,	elephant_crew_idle
+;end
+;normal_shots			6	;36 for the bad boy
+;shot_delay			6
+;shot_pfx_front			cannon_shot_rocket_launcher_front
+;shot_pfx_back			cannon_shot_rocket_launcher_back
+;shot_sfx			Rocket_Launcher_Fire
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;#############################################################################
+;############### NEW AIRSHIP FAMILY VARIANTS - added for Steam & Steel #######
+;#############################################################################
+; NOTE: shot_pfx_front / shot_sfx below are PLACEHOLDERS reusing proven,
+; known-working effect names from the existing airship_serpentine /
+; elephant_rocket_launcher entries. Swap in real flame/bomb effects once
+; confirmed to exist in this mod's asset files - do not invent new effect
+; names without verifying the particle/sound asset actually exists.
+;#############################################################################
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; NOTE: scout, flamer, and heavy variants all reuse the existing airship_serpentine
+; entry above rather than duplicating it - the engine file only governs crew
+; animations/effects, not damage/range/cost (that's all in EDU). Removed 3
+; redundant near-identical entries here after hitting descr_mounted_engines.txt's
+; record limit on first load. See export_descr_unit's mounted_engine field for each.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; AERIAL BOMBER - dropped payload for airship_carolina (reuses rocket_launcher
+; class/volley pattern, matching the proven elephant_rocket_launcher entry)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				airship_carolina_bomber
 culture				all
 class				rocket_launcher
-reference_points		siege_engines/Elephant_rocket_lod0.modelReferencePoints
-missile_pos			0.0 1.0 0.0
+missile_pos			0.0 30.0 0.0
 crew_animations
     crank           		Rocket_Crew,  	elephant_crew_reload,	elephant_crew_idle, 
 ;    crank_attachment		Right_Load,  	none, 	       		none,	
     fire            		Rocket_Crew,  	elephant_crew_fire,	elephant_crew_idle
 end
-normal_shots			6	;36 for the bad boy
-shot_delay			6
-shot_pfx_front			cannon_shot_rocket_launcher_front
-shot_pfx_back			cannon_shot_rocket_launcher_back
-shot_sfx			Rocket_Launcher_Fire
+normal_shots			3	;PLACEHOLDER - fewer, heavier payloads than the elephant rocket launcher's 6
+shot_delay			10	;PLACEHOLDER - slower between drops
+shot_pfx_front			cannon_shot_rocket_launcher_front	;reused - proven working effect
+shot_pfx_back			cannon_shot_rocket_launcher_back	;reused - proven working effect
+shot_sfx			Rocket_Launcher_Fire			;reused - proven working effect
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

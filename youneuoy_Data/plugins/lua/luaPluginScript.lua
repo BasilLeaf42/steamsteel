@@ -316,4 +316,11 @@ function onReadGameDbsAtStart()
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_cav_2g.txt", 1207);
 	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/africa/aby_inf_2g.txt", 1208);
 	
+	-- Airships
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/airships/air_reg_1g.txt", 1209);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/airships/air_lgt_1g.txt", 1210);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/airships/air_hvy_3g.txt", 1211);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/airships/air_bmb_1g.txt", 1212);
+	M2TWEOPDU.addEopEduEntryFromFile(modPath.."/data/unit_limit/airships/air_fir_3g.txt", 1213);
+	
 end

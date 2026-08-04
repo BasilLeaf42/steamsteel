@@ -492,9 +492,7 @@ building equestrian
 ;army recruitment, 1-4 only
 building barracks
 {
-    levels militia_drill_square militia_barracks army_barracks royal_armoury town_watch town_guard city_watch 
-    {
-        militia_drill_square city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }  and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
+    militia_drill_square city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, }  and building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall or building_present_min_level rep_city_hall rep_town_hall
         {
             capability
             {
@@ -4762,7 +4760,7 @@ building smith
                 	happiness_bonus bonus -1 requires event_counter military_reforms_1 1 and building_present_min_level hinterland_roads paved_roads or building_present_min_level sea_trade merchants_wharf
 
 
-        	       income_bonus bonus 175
+        	       income_bonus bonus 150
             }
             material wooden
             construction  16
@@ -5416,12 +5414,12 @@ building sea_trade
                 trade_base_income_bonus bonus 1 requires building_present_min_level market great_market
                 trade_base_income_bonus bonus 1 requires building_present_min_level market merchants_quarter
 ;local
-	recruit_pool "turtle ship"  1   0.03   1  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
-	recruit_pool "dhow"  1   0.03  1  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.03   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.03   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.08   1  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "dhow"  1   0.08  1  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.08   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.16   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  1   0.03   1  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  1   0.16   2  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
             }
             material wooden
             construction  8
@@ -5448,12 +5446,12 @@ building sea_trade
                 trade_base_income_bonus bonus 1 requires building_present_min_level market merchants_quarter
 
 ;local
-	recruit_pool "turtle ship"  1   0.04   2  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
-	recruit_pool "dhow"  1   0.04  2  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.04   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  1   0.04   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.12   1  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "dhow"  1   0.12  1  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.12   1  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  2   0.24   3  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  1   0.04   2  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  2   0.24   3  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
 
             }
             material wooden
@@ -5481,12 +5479,12 @@ building sea_trade
                 trade_base_income_bonus bonus 1 requires building_present_min_level market merchants_quarter
 
 ;local
-	recruit_pool "turtle ship"  2   0.05   2  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
-	recruit_pool "dhow"  2   0.05  2  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  2   0.05   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
-	recruit_pool "merc galley"  2   0.05   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
+	recruit_pool "turtle ship"  1   0.2   2  0  requires factions { chinese, mesoamerican, } and not event_counter military_reforms_1 1
+	recruit_pool "dhow"  1   0.2  2  0  requires factions { middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  1   0.2   2  0  requires factions { chinese, mesoamerican, middle_eastern, } and not event_counter military_reforms_1 1
+	recruit_pool "merc galley"  3   0.4   4  0  requires factions { chinese, mesoamerican, middle_eastern, } and event_counter military_reforms_1 1
 
-	recruit_pool "merc galley"  2   0.05   2  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
+	recruit_pool "merc galley"  3   0.4   4  0  requires not factions { chinese, mesoamerican, middle_eastern, } 
             }
             material wooden
             construction  20
@@ -5708,7 +5706,7 @@ building hinterland_roads
             capability
             {
                 road_level 1
-                trade_base_income_bonus bonus 2
+                trade_base_income_bonus bonus 1
                 trade_base_income_bonus bonus 2 requires building_present_min_level market corn_exchange
                 trade_base_income_bonus bonus 1 requires building_present_min_level market market
                 trade_base_income_bonus bonus 1 requires building_present_min_level market fairground
@@ -5728,7 +5726,7 @@ building hinterland_roads
             capability
             {
                 road_level 2
-                trade_base_income_bonus bonus 3
+                trade_base_income_bonus bonus 1
                 trade_base_income_bonus bonus 2 requires building_present_min_level market corn_exchange
                 trade_base_income_bonus bonus 2 requires building_present_min_level market market
                 trade_base_income_bonus bonus 1 requires building_present_min_level market fairground
@@ -5796,8 +5794,8 @@ building hinterland_castle_roads
                 trade_base_income_bonus bonus 2 requires factions { venice, }
             }
             material wooden
-            construction  14 
-            cost  7200 
+            construction  7 
+            cost  2400 
             settlement_min city
             upgrades
             {
@@ -5962,7 +5960,7 @@ building hinterland_castle_mines
                 mine_resource 7
             }
             material wooden
-            construction  14
+            construction  10
             cost  4800 
             settlement_min large_city
             upgrades
@@ -6110,7 +6108,7 @@ building hospital
         {
             capability
             {
-                retrain_cost_bonus bonus 2
+                retrain_cost_bonus bonus 1
                 population_health_bonus bonus 4
                 income_bonus bonus -500
             }
@@ -6156,7 +6154,7 @@ building academic
             capability
             {
                 income_bonus bonus -500
-		    law_bonus bonus 2	
+		    law_bonus bonus 1	
 		construction_cost_bonus_stone bonus 10	
 		construction_cost_bonus_wooden bonus 10	
                 religion_level bonus 0.1 
@@ -6175,7 +6173,7 @@ building academic
             capability
             {
                 income_bonus bonus -700
-		    law_bonus bonus 3	
+		    law_bonus bonus 1	
 		construction_cost_bonus_stone bonus 15	
 		construction_cost_bonus_wooden bonus 15	
                 religion_level bonus 0.2
@@ -6204,8 +6202,6 @@ building temple_protestant
         {
             capability
             {
-                happiness_bonus bonus 1
-                religion_level bonus 2
             }
             material wooden
             construction  8
@@ -6220,8 +6216,6 @@ building temple_protestant
         {
             capability
             {
-                happiness_bonus bonus 2
-                religion_level bonus 4
             }
             material wooden
             construction  10
@@ -6236,8 +6230,6 @@ building temple_protestant
         {
             capability
             {
-                happiness_bonus bonus 3
-                religion_level bonus 6
             }
             material wooden
             construction  12
@@ -6252,8 +6244,6 @@ building temple_protestant
         {
             capability
             {
-                happiness_bonus bonus 4
-                religion_level bonus 8
             }
             material wooden
             construction  14 
@@ -6268,8 +6258,6 @@ building temple_protestant
         {
             capability
             {
-                happiness_bonus bonus 5
-                religion_level bonus 10
             }
             material wooden
             construction  16
@@ -6285,6 +6273,7 @@ building temple_protestant
     }
 }
 
+
 building temple_catholic
 {
     levels small_church church abbey cathedral huge_cathedral 
@@ -6293,8 +6282,6 @@ building temple_catholic
         {
             capability
             {
-                happiness_bonus bonus 1
-                religion_level bonus 2
             }
             material wooden
             construction  8
@@ -6309,8 +6296,6 @@ building temple_catholic
         {
             capability
             {
-                happiness_bonus bonus 2
-                religion_level bonus 4
             }
             material wooden
             construction  10
@@ -6325,8 +6310,6 @@ building temple_catholic
         {
             capability
             {
-                happiness_bonus bonus 3
-                religion_level bonus 6
             }
             material wooden
             construction  12
@@ -6341,8 +6324,6 @@ building temple_catholic
         {
             capability
             {
-                happiness_bonus bonus 4
-                religion_level bonus 8
             }
             material wooden
             construction  14 
@@ -6357,8 +6338,6 @@ building temple_catholic
         {
             capability
             {
-                happiness_bonus bonus 5
-                religion_level bonus 10
             }
             material wooden
             construction  16
@@ -6373,7 +6352,6 @@ building temple_catholic
     {
     }
 }
-
 building temple_catholic_castle
 {
     religion catholic
@@ -6430,8 +6408,6 @@ building temple_orthodox
         {
             capability
             {
-                happiness_bonus bonus 1
-                religion_level bonus 2
             }
             material wooden
             construction  8
@@ -6446,8 +6422,6 @@ building temple_orthodox
         {
             capability
             {
-                happiness_bonus bonus 2
-                religion_level bonus 4
             }
             material wooden
             construction  10
@@ -6462,8 +6436,6 @@ building temple_orthodox
         {
             capability
             {
-                happiness_bonus bonus 3
-                religion_level bonus 6
             }
             material wooden
             construction  12
@@ -6478,8 +6450,6 @@ building temple_orthodox
         {
             capability
             {
-                happiness_bonus bonus 4
-                religion_level bonus 8
             }
             material wooden
             construction  14 
@@ -6494,8 +6464,6 @@ building temple_orthodox
         {
             capability
             {
-                happiness_bonus bonus 5
-                religion_level bonus 10
             }
             material wooden
             construction  16
@@ -6659,7 +6627,7 @@ building temple_muslim
         {
             capability
             {
-                religion_level bonus 2
+                religion_level bonus 1
             }
             material wooden
             construction  6
@@ -6674,7 +6642,7 @@ building temple_muslim
         {
             capability
             {
-                religion_level bonus 4
+                religion_level bonus 1
             }
             material wooden
             construction  7
@@ -6689,7 +6657,7 @@ building temple_muslim
         {
             capability
             {
-                religion_level bonus 6
+                religion_level bonus 1
             }
             material wooden
             construction  10
@@ -6704,7 +6672,7 @@ building temple_muslim
         {
             capability
             {
-                religion_level bonus 8
+                religion_level bonus 1
             }
             material wooden
             construction  12 
@@ -6719,7 +6687,7 @@ building temple_muslim
         {
             capability
             {
-                religion_level bonus 10
+                religion_level bonus 1
             }
             material wooden
             construction  14
@@ -6743,7 +6711,6 @@ building temple_buddism
         {
             capability
             {
-                happiness_bonus bonus 1
                 religion_level bonus 10
             }
             material wooden
@@ -6759,7 +6726,6 @@ building temple_buddism
         {
             capability
             {
-                happiness_bonus bonus 2
                 religion_level bonus 10
             }
             material wooden
@@ -6775,7 +6741,6 @@ building temple_buddism
         {
             capability
             {
-                happiness_bonus bonus 3
                 religion_level bonus 10
             }
             material wooden
@@ -6790,8 +6755,7 @@ building temple_buddism
         b_temple city requires factions { } 
         {
             capability
-            {
-                happiness_bonus bonus 4
+            {			
                 religion_level bonus 10
             }
             material wooden
@@ -6807,7 +6771,6 @@ building temple_buddism
         {
             capability
             {
-                happiness_bonus bonus 5
                 religion_level bonus 10
             }
             material wooden
@@ -6952,7 +6915,7 @@ building taverns
             capability
             {
                 income_bonus bonus -750	
-		    law_bonus bonus 2
+		    law_bonus bonus 1
                 religion_level bonus 0.1	
             }
             material wooden
@@ -6969,7 +6932,7 @@ building taverns
             capability
             {
                 income_bonus bonus -1000	
-		    law_bonus bonus 3	
+		    law_bonus bonus 1	
                 religion_level bonus 0.2
             }
             material wooden
@@ -7830,7 +7793,6 @@ building assassins_muslim_guild
                 agent assassin  0  requires factions { southern_european, asian, chinese, } 
 
                 agent_limit assassin 1 
-                law_bonus bonus 1
             }
             material wooden
             construction  1 
@@ -7852,7 +7814,6 @@ building assassins_muslim_guild
                 agent assassin  0  requires factions { southern_european, asian, chinese, }  
 
                 agent_limit assassin 1
-                law_bonus bonus 2
             }
             material wooden
             construction  6
@@ -7874,7 +7835,6 @@ building assassins_muslim_guild
                 agent assassin  1  requires factions { southern_european, asian, chinese, } 
 
                 agent_limit assassin 2
-                law_bonus bonus 3
             }
             material wooden
             construction  7
@@ -7889,7 +7849,6 @@ building assassins_muslim_guild
     {
     }
 }
-
 building guild_masons_guild
 {
     levels masons_guild m_masons_guild gm_masons_guild 
@@ -8200,11 +8159,6 @@ building guild_explorers_guild
         {
             capability
             {
-                population_growth_bonus bonus 1
-            }
-            faction_capability
-            {
-                income_bonus 200
             }
             material wooden
             construction  1 
@@ -8219,11 +8173,6 @@ building guild_explorers_guild
         {
             capability
             {
-                population_growth_bonus bonus 1
-            }
-            faction_capability
-            {
-                income_bonus 400
             }
             material wooden
             construction  1 
@@ -8238,11 +8187,6 @@ building guild_explorers_guild
         {
             capability
             {
-                population_growth_bonus bonus 2
-            }
-            faction_capability
-            {
-                income_bonus 600
             }
             material wooden
             construction  1 
@@ -8257,7 +8201,6 @@ building guild_explorers_guild
     {
     }
 }
-
 building guild_swordsmiths_guild
 {
     levels swordsmiths_guild m_swordsmiths_guild gm_swordsmiths_guild 
@@ -8330,10 +8273,6 @@ building guild_woodsmens_guild
             {
 
             }
-            faction_capability
-            {
-                archer_bonus 1
-            }
             material wooden
             construction  1 
             cost  2000 
@@ -8351,7 +8290,7 @@ building guild_woodsmens_guild
             }
             faction_capability
             {
-                archer_bonus 2
+                archer_bonus 1
             }
             material wooden
             construction  1 
@@ -8370,7 +8309,7 @@ building guild_woodsmens_guild
             }
             faction_capability
             {
-                archer_bonus 3
+                archer_bonus 2
             }
             material wooden
             construction  1 
@@ -8385,7 +8324,6 @@ building guild_woodsmens_guild
     {
     }
 }
-
 building guild_horse_breeders_guild
 {
     levels horse_breeders_guild m_horse_breeders_guild gm_horse_breeders_guild 
@@ -8616,8 +8554,6 @@ building russian_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -8632,6 +8568,7 @@ building russian_embassy_guild
     {
     }
 }
+
 
 
 building guild_japanese_embassy_guild
@@ -8715,8 +8652,6 @@ building italian_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -8731,6 +8666,7 @@ building italian_embassy_guild
     {
     }
 }
+
 
 
 building spanish_embassy_guild
@@ -8755,8 +8691,6 @@ building spanish_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -8771,6 +8705,7 @@ building spanish_embassy_guild
     {
     }
 }
+
 
 
 building british_embassy_guild
@@ -8795,8 +8730,6 @@ building british_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -8811,6 +8744,8 @@ building british_embassy_guild
     {
     }
 }
+
+
 
 building confederate_embassy_guild
 {
@@ -8834,8 +8769,6 @@ building confederate_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -8850,6 +8783,8 @@ building confederate_embassy_guild
     {
     }
 }
+
+
 
 building american_embassy_guild
 {
@@ -8873,8 +8808,6 @@ building american_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -8889,6 +8822,7 @@ building american_embassy_guild
     {
     }
 }
+
 
 
 building french_embassy_guild
@@ -8913,8 +8847,6 @@ building french_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -8929,6 +8861,8 @@ building french_embassy_guild
     {
     }
 }
+
+
 
 building ottoman_embassy_guild
 {
@@ -8952,8 +8886,6 @@ building ottoman_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -8968,6 +8900,7 @@ building ottoman_embassy_guild
     {
     }
 }
+
 
 
 building prussian_embassy_guild
@@ -8992,8 +8925,6 @@ building prussian_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -9195,7 +9126,7 @@ building constitutional_monarchy_guild
             {
                 law_bonus bonus 3
                 happiness_bonus bonus 1
-                income_bonus bonus 300
+                income_bonus bonus 100
             }
             material wooden
             construction  14
@@ -9216,7 +9147,7 @@ building constitutional_monarchy_guild
             {
                 law_bonus bonus 3
                 happiness_bonus bonus 2
-                income_bonus bonus 500
+                income_bonus bonus 100
             }
             material wooden
             construction  20
@@ -9231,6 +9162,7 @@ building constitutional_monarchy_guild
     {
     }
 }
+
 
 building absolutism_guild 
 {
@@ -9268,7 +9200,7 @@ building absolutism_guild
             {
                 law_bonus bonus 4
                 happiness_bonus bonus -1
-                income_bonus bonus 400 
+                income_bonus bonus 200 
             }
             material wooden
             construction  14
@@ -9288,7 +9220,7 @@ building absolutism_guild
             faction_capability
             {
                 law_bonus bonus 4
-                income_bonus bonus 600
+                income_bonus bonus 200
             }
             material wooden
             construction  20
@@ -9303,6 +9235,7 @@ building absolutism_guild
     {
     }
 }
+
 
 building republicanism_guild 
 {
@@ -9376,6 +9309,7 @@ building republicanism_guild
     }
 }
 
+
 building feudalism_guild 
 {
     religion heretic
@@ -9409,7 +9343,7 @@ building feudalism_guild
             faction_capability
             {
                 law_bonus bonus 1
-                income_bonus bonus -100 
+                income_bonus bonus -300 
             }
             material wooden
             construction  12
@@ -9430,7 +9364,7 @@ building feudalism_guild
             {
                 law_bonus bonus 1
                 happiness_bonus bonus 1
-                income_bonus bonus 100 
+                income_bonus bonus -300 
             }
             material wooden
             construction  16
@@ -9445,6 +9379,7 @@ building feudalism_guild
     {
     }
 }
+
 
 building tribal_guild 
 {
@@ -9479,7 +9414,7 @@ building tribal_guild
             faction_capability
             {
                 happiness_bonus bonus 2
-                income_bonus bonus -100 
+                income_bonus bonus -300 
             }
             material wooden
             construction  8
@@ -9500,7 +9435,7 @@ building tribal_guild
             {
                 happiness_bonus bonus 2
                 law_bonus bonus 1
-                income_bonus bonus 100 
+                income_bonus bonus -300 
             }
             material wooden
             construction  12
@@ -9515,6 +9450,7 @@ building tribal_guild
     {
     }
 }
+
 
 building central_bank_guild 
 {
