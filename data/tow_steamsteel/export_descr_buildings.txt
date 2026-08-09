@@ -507,6 +507,7 @@ building barracks
 	recruit_pool "us_zouave"  0   0.02   1  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "union_irish_brigade"  0   0.01   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_inf"  0   0.02   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "us_inf"  1   0.03   1.5  0  requires factions { portugala, }   and event_counter repeating_rifles 1
 	recruit_pool "us_blacks"  0   0.02   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
 	recruit_pool "us_late_inf"  1   0.03   1  0  requires factions { portugala, }  and event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_front_inf"  1   0.03   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
@@ -534,6 +535,7 @@ building barracks
 	recruit_pool "csa_volunteers"  0   0.01   1  0  requires factions { milan, }  and not event_counter military_reforms_1870 1 and hidden_resource csa
 	recruit_pool "csa_guard"  1   0.03   1  0  requires factions { milan, }  and not event_counter military_reforms_1870 1 and hidden_resource csa
 	recruit_pool "csa_inf"  1   0.03   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "csa_inf"  1.0   0.045   1.5  0  requires factions { milan, }   and event_counter repeating_rifles 1
 	recruit_pool "csa_late_inf"  1   0.04   1  0  requires factions { milan, }  and event_counter military_reforms_1 1 and hidden_resource usa
 
 ;resupply csa
@@ -619,11 +621,13 @@ building barracks
 	recruit_pool "uk_knights"  0   0.02   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_knights"  0   0.02   1  0  requires factions { poland, }  and not event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "uk_gurk"  0   0.01   1  0  requires factions { england, }  and event_counter military_reforms_1890 1 and hidden_resource tibet
+	recruit_pool "uk_gurk"  1   0.03   2.0  0  requires factions { england, }   and event_counter indian_raj 1
 	recruit_pool "uk_roy"  0   0.01   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource uk
 	recruit_pool "uk_sikh_reg"  1   0.03   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource india
 	recruit_pool "uk_high"  0   0.01   1  0  requires factions { england, }  and event_counter military_reforms_1870 1 and hidden_resource scotland
 	recruit_pool "uk_blackwatch"  0   0.01   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource scotland
 	recruit_pool "uk_inf"  1   0.03   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
+	recruit_pool "uk_inf"  1.0   0.045   1.5  0  requires factions { england, }   and event_counter repeating_rifles 1
 
 ;resupply uk
 	recruit_pool "pith_troopers"  0.2   0.02   0.2  0  requires factions { england, }
@@ -661,6 +665,7 @@ building barracks
 	recruit_pool "fra_rec"  0   0.02   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_guard"  0   0.01   1  0  requires factions { france, }   and event_counter military_reforms_1870 1 and hidden_resource france
 	recruit_pool "fra_line_inf"  1   0.04   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
+	recruit_pool "fra_line_inf"  1.0   0.06   1.5  0  requires factions { france, }   and event_counter repeating_rifles 1
 	recruit_pool "fra_chass"  0   0.01   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 
 ;resupply france
@@ -683,7 +688,10 @@ building barracks
 	recruit_pool "gr_carbs"  0   0.01   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "wurt_inf"  0   0.02   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource bavaria
 	recruit_pool "pru_ww1_gren"  0   0.01   1  0  requires factions { hre, }   and event_counter military_reforms_2 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
+	recruit_pool "pru_ww1_gren"  1   0.02   2.0  0  requires factions { hre, }   and event_counter german_empire_proclaimed 1
 	recruit_pool "pru_ww1_inf"  0   0.01   1  0  requires factions { hre, }   and event_counter military_reforms_2 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
+	recruit_pool "pru_ww1_inf"  1   0.015   1.5  0  requires factions { hre, }   and event_counter repeating_rifles 1
+	recruit_pool "pru_ww1_inf"  1   0.02   2.0  0  requires factions { hre, }   and event_counter german_empire_proclaimed 1
 	recruit_pool "bav_inf"  0   0.01   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "gr_inf"  1   0.05   1  0  requires factions { hre, }   and event_counter military_reforms_1 1 and hidden_resource prussia
 	recruit_pool "jager_inf"  0   0.02   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource bavaria
@@ -809,6 +817,8 @@ building barracks
 	recruit_pool "rus_cos_guard_ve"  1   0.04   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
 	recruit_pool "dan_inf_ve"  0   0.01   1  0  requires factions { venice, }  and hidden_resource italy
 	recruit_pool "it_bers"  1   0.04   1  0  requires factions { venice, }  and event_counter military_reforms_1890 1 and hidden_resource italy
+	recruit_pool "it_bers"  1.0   0.06   1.5  0  requires factions { venice, }   and event_counter repeating_rifles 1
+	recruit_pool "it_bers"  1   0.06   1.5  0  requires factions { venice, }   and event_counter italian_unification 1
 	recruit_pool "us_front_inf_it"  0   0.02   1  0  requires factions { venice, }  and not event_counter military_reforms_1870 1 and hidden_resource italy
 	recruit_pool "it_arditi"  0   0.01   1  0  requires factions { venice, }  and event_counter military_reforms_1 1 and hidden_resource italy
 	recruit_pool "libya_inf"  0   0.02   1  0  requires factions { venice, }  and event_counter military_reforms_1 1 and hidden_resource arab
@@ -830,6 +840,7 @@ building barracks
 	recruit_pool "rus_conscript_ru"  1   0.04   1  0  requires factions { russia, }  and not event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "rus_roy_cav_ru"  0   0.01   1  0  requires factions { russia, }  and hidden_resource russia
 	recruit_pool "rus_roy_inf_ru"  0   0.02   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource russia
+	recruit_pool "rus_roy_inf_ru"  1   0.03   1.5  0  requires factions { russia, }   and event_counter repeating_rifles 1
 	recruit_pool "rus_guard"  1   0.04   1  0  requires factions { russia, }  and event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "russ_inf"  0   0.01   1  0  requires factions { russia, }  and hidden_resource russia
 	recruit_pool "rus_cos_guard_ru"  0   0.02   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource russia
@@ -859,6 +870,7 @@ building barracks
 	recruit_pool "aus_jag"  0   0.02   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_lancers"  0   0.01   1  0  requires factions { hungary, }  and hidden_resource austria
 	recruit_pool "aus_inf2"  1   0.03   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria
+	recruit_pool "aus_inf2"  1.0   0.045   1.5  0  requires factions { hungary, }   and event_counter repeating_rifles 1
 	recruit_pool "aus_inf3"  0   0.01   1  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "balk_cav"  0   0.01   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
 	recruit_pool "balk_cav"  0   0.01   1  0  requires factions { mongols, }  and hidden_resource greece
@@ -1089,6 +1101,7 @@ building barracks
 	recruit_pool "qing_ww1_inf"  0   0.01   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource manchuria
 	recruit_pool "qing_gunners"  0   0.02   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 	recruit_pool "qing_vets"  1   0.03   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1890 1 and hidden_resource china
+	recruit_pool "qing_vets"  1.0   0.045   1.5  0  requires factions { byzantium, }   and event_counter taiping_suppressed 1
 	recruit_pool "qing_pike"  0   0.01   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource china
 	recruit_pool "qing_archers"  0   0.02   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1 1 and hidden_resource china
 	recruit_pool "mongols_archer"  0   0.01   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1 1 and hidden_resource manchuria
@@ -1233,6 +1246,7 @@ building barracks
 	recruit_pool "us_zouave"  1   0.06   1  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "union_irish_brigade"  0   0.03   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_inf"  1   0.06   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "us_inf"  1.0   0.09   1.5  0  requires factions { portugala, }   and event_counter repeating_rifles 1
 	recruit_pool "us_blacks"  1   0.06   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
 	recruit_pool "us_late_inf"  1   0.09   1  0  requires factions { portugala, }  and event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_front_inf"  1   0.09   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
@@ -1260,6 +1274,7 @@ building barracks
 	recruit_pool "csa_volunteers"  0   0.03   1  0  requires factions { milan, }  and not event_counter military_reforms_1870 1 and hidden_resource csa
 	recruit_pool "csa_guard"  1   0.09   1  0  requires factions { milan, }  and not event_counter military_reforms_1870 1 and hidden_resource csa
 	recruit_pool "csa_inf"  1   0.09   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "csa_inf"  1.0   0.135   1.5  0  requires factions { milan, }   and event_counter repeating_rifles 1
 	recruit_pool "csa_late_inf"  1   0.12   1  0  requires factions { milan, }  and event_counter military_reforms_1 1 and hidden_resource usa
 
 ;resupply csa
@@ -1345,11 +1360,13 @@ building barracks
 	recruit_pool "uk_knights"  1   0.06   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_knights"  1   0.06   1  0  requires factions { poland, }  and not event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "uk_gurk"  0   0.03   1  0  requires factions { england, }  and event_counter military_reforms_1890 1 and hidden_resource tibet
+	recruit_pool "uk_gurk"  1   0.09   2.0  0  requires factions { england, }   and event_counter indian_raj 1
 	recruit_pool "uk_roy"  0   0.03   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource uk
 	recruit_pool "uk_sikh_reg"  1   0.09   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource india
 	recruit_pool "uk_high"  0   0.03   1  0  requires factions { england, }  and event_counter military_reforms_1870 1 and hidden_resource scotland
 	recruit_pool "uk_blackwatch"  0   0.03   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource scotland
 	recruit_pool "uk_inf"  1   0.09   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
+	recruit_pool "uk_inf"  1.0   0.135   1.5  0  requires factions { england, }   and event_counter repeating_rifles 1
 
 ;resupply uk
 	recruit_pool "pith_troopers"  0.2   0.02   0.2  0  requires factions { england, }
@@ -1387,6 +1404,7 @@ building barracks
 	recruit_pool "fra_rec"  1   0.06   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_guard"  0   0.03   1  0  requires factions { france, }   and event_counter military_reforms_1870 1 and hidden_resource france
 	recruit_pool "fra_line_inf"  1   0.12   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
+	recruit_pool "fra_line_inf"  1.0   0.18   1.5  0  requires factions { france, }   and event_counter repeating_rifles 1
 	recruit_pool "fra_chass"  0   0.03   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 
 ;resupply france
@@ -1409,7 +1427,10 @@ building barracks
 	recruit_pool "gr_carbs"  0   0.03   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "wurt_inf"  1   0.06   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource bavaria
 	recruit_pool "pru_ww1_gren"  0   0.03   1  0  requires factions { hre, }   and event_counter military_reforms_2 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
+	recruit_pool "pru_ww1_gren"  1   0.06   2.0  0  requires factions { hre, }   and event_counter german_empire_proclaimed 1
 	recruit_pool "pru_ww1_inf"  0   0.03   1  0  requires factions { hre, }   and event_counter military_reforms_2 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
+	recruit_pool "pru_ww1_inf"  1   0.045   1.5  0  requires factions { hre, }   and event_counter repeating_rifles 1
+	recruit_pool "pru_ww1_inf"  1   0.06   2.0  0  requires factions { hre, }   and event_counter german_empire_proclaimed 1
 	recruit_pool "bav_inf"  0   0.03   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "gr_inf"  2   0.15   2  0  requires factions { hre, }   and event_counter military_reforms_1 1 and hidden_resource prussia
 	recruit_pool "jager_inf"  1   0.06   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource bavaria
@@ -1535,6 +1556,8 @@ building barracks
 	recruit_pool "rus_cos_guard_ve"  1   0.12   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
 	recruit_pool "dan_inf_ve"  0   0.03   1  0  requires factions { venice, }  and hidden_resource italy
 	recruit_pool "it_bers"  1   0.12   1  0  requires factions { venice, }  and event_counter military_reforms_1890 1 and hidden_resource italy
+	recruit_pool "it_bers"  1.0   0.18   1.5  0  requires factions { venice, }   and event_counter repeating_rifles 1
+	recruit_pool "it_bers"  1   0.18   1.5  0  requires factions { venice, }   and event_counter italian_unification 1
 	recruit_pool "us_front_inf_it"  1   0.06   1  0  requires factions { venice, }  and not event_counter military_reforms_1870 1 and hidden_resource italy
 	recruit_pool "it_arditi"  0   0.03   1  0  requires factions { venice, }  and event_counter military_reforms_1 1 and hidden_resource italy
 	recruit_pool "libya_inf"  1   0.06   1  0  requires factions { venice, }  and event_counter military_reforms_1 1 and hidden_resource arab
@@ -1556,6 +1579,7 @@ building barracks
 	recruit_pool "rus_conscript_ru"  1   0.12   1  0  requires factions { russia, }  and not event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "rus_roy_cav_ru"  0   0.03   1  0  requires factions { russia, }  and hidden_resource russia
 	recruit_pool "rus_roy_inf_ru"  1   0.06   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource russia
+	recruit_pool "rus_roy_inf_ru"  1.0   0.09   1.5  0  requires factions { russia, }   and event_counter repeating_rifles 1
 	recruit_pool "rus_guard"  1   0.12   1  0  requires factions { russia, }  and event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "russ_inf"  0   0.03   1  0  requires factions { russia, }  and hidden_resource russia
 	recruit_pool "rus_cos_guard_ru"  1   0.06   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource russia
@@ -1585,6 +1609,7 @@ building barracks
 	recruit_pool "aus_jag"  1   0.06   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_lancers"  0   0.03   1  0  requires factions { hungary, }  and hidden_resource austria
 	recruit_pool "aus_inf2"  1   0.09   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria
+	recruit_pool "aus_inf2"  1.0   0.135   1.5  0  requires factions { hungary, }   and event_counter repeating_rifles 1
 	recruit_pool "aus_inf3"  0   0.03   1  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "balk_cav"  0   0.03   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
 	recruit_pool "balk_cav"  0   0.03   1  0  requires factions { mongols, }  and hidden_resource greece
@@ -1814,6 +1839,7 @@ building barracks
 	recruit_pool "qing_ww1_inf"  0   0.03   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource manchuria
 	recruit_pool "qing_gunners"  1   0.06   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 	recruit_pool "qing_vets"  1   0.09   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1890 1 and hidden_resource china
+	recruit_pool "qing_vets"  1.0   0.135   1.5  0  requires factions { byzantium, }   and event_counter taiping_suppressed 1
 	recruit_pool "qing_pike"  0   0.03   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource china
 	recruit_pool "qing_archers"  1   0.06   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1 1 and hidden_resource china
 	recruit_pool "mongols_archer"  0   0.03   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1 1 and hidden_resource manchuria
@@ -1961,6 +1987,7 @@ building barracks
 	recruit_pool "us_zouave"  2   0.12   2  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "union_irish_brigade"  1   0.06   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_inf"  2   0.12   2  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "us_inf"  2.0   0.18   3.0  0  requires factions { portugala, }   and event_counter repeating_rifles 1
 	recruit_pool "us_blacks"  2   0.12   2  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
 	recruit_pool "us_late_inf"  2   0.18   2  0  requires factions { portugala, }  and event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_front_inf"  2   0.18   2  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
@@ -1988,6 +2015,7 @@ building barracks
 	recruit_pool "csa_volunteers"  1   0.06   1  0  requires factions { milan, }  and not event_counter military_reforms_1870 1 and hidden_resource csa
 	recruit_pool "csa_guard"  2   0.18   2  0  requires factions { milan, }  and not event_counter military_reforms_1870 1 and hidden_resource csa
 	recruit_pool "csa_inf"  2   0.18   2  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "csa_inf"  2.0   0.27   3.0  0  requires factions { milan, }   and event_counter repeating_rifles 1
 	recruit_pool "csa_late_inf"  3   0.24   3  0  requires factions { milan, }  and event_counter military_reforms_1 1 and hidden_resource usa
 
 ;resupply csa
@@ -2073,11 +2101,13 @@ building barracks
 	recruit_pool "uk_knights"  2   0.12   2  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_knights"  2   0.12   2  0  requires factions { poland, }  and not event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "uk_gurk"  1   0.06   1  0  requires factions { england, }  and event_counter military_reforms_1890 1 and hidden_resource tibet
+	recruit_pool "uk_gurk"  1.0   0.18   2.0  0  requires factions { england, }   and event_counter indian_raj 1
 	recruit_pool "uk_roy"  1   0.06   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource uk
 	recruit_pool "uk_sikh_reg"  2   0.18   2  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource india
 	recruit_pool "uk_high"  1   0.06   1  0  requires factions { england, }  and event_counter military_reforms_1870 1 and hidden_resource scotland
 	recruit_pool "uk_blackwatch"  1   0.06   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource scotland
 	recruit_pool "uk_inf"  2   0.18   2  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
+	recruit_pool "uk_inf"  2.0   0.27   3.0  0  requires factions { england, }   and event_counter repeating_rifles 1
 
 ;resupply uk
 	recruit_pool "pith_troopers"  0.2   0.02   0.2  0  requires factions { england, }
@@ -2115,6 +2145,7 @@ building barracks
 	recruit_pool "fra_rec"  2   0.12   2  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_guard"  1   0.06   1  0  requires factions { france, }   and event_counter military_reforms_1870 1 and hidden_resource france
 	recruit_pool "fra_line_inf"  3   0.24   3  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
+	recruit_pool "fra_line_inf"  3.0   0.36   4.5  0  requires factions { france, }   and event_counter repeating_rifles 1
 	recruit_pool "fra_chass"  1   0.06   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 
 ;resupply france
@@ -2137,7 +2168,10 @@ building barracks
 	recruit_pool "gr_carbs"  1   0.06   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "wurt_inf"  2   0.12   2  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource bavaria
 	recruit_pool "pru_ww1_gren"  1   0.06   1  0  requires factions { hre, }   and event_counter military_reforms_2 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
+	recruit_pool "pru_ww1_gren"  1   0.12   2.0  0  requires factions { hre, }   and event_counter german_empire_proclaimed 1
 	recruit_pool "pru_ww1_inf"  1   0.06   1  0  requires factions { hre, }   and event_counter military_reforms_2 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
+	recruit_pool "pru_ww1_inf"  1.0   0.09   1.5  0  requires factions { hre, }   and event_counter repeating_rifles 1
+	recruit_pool "pru_ww1_inf"  1   0.12   2.0  0  requires factions { hre, }   and event_counter german_empire_proclaimed 1
 	recruit_pool "bav_inf"  1   0.06   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "gr_inf"  3   0.3   3  0  requires factions { hre, }   and event_counter military_reforms_1 1 and hidden_resource prussia
 	recruit_pool "jager_inf"  2   0.12   2  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource bavaria
@@ -2263,6 +2297,8 @@ building barracks
 	recruit_pool "rus_cos_guard_ve"  3   0.24   3  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
 	recruit_pool "dan_inf_ve"  1   0.06   1  0  requires factions { venice, }  and hidden_resource italy
 	recruit_pool "it_bers"  3   0.24   3  0  requires factions { venice, }  and event_counter military_reforms_1890 1 and hidden_resource italy
+	recruit_pool "it_bers"  3.0   0.36   4.5  0  requires factions { venice, }   and event_counter repeating_rifles 1
+	recruit_pool "it_bers"  3   0.36   4.5  0  requires factions { venice, }   and event_counter italian_unification 1
 	recruit_pool "us_front_inf_it"  2   0.12   2  0  requires factions { venice, }  and not event_counter military_reforms_1870 1 and hidden_resource italy
 	recruit_pool "it_arditi"  1   0.06   1  0  requires factions { venice, }  and event_counter military_reforms_1 1 and hidden_resource italy
 	recruit_pool "libya_inf"  2   0.12   2  0  requires factions { venice, }  and event_counter military_reforms_1 1 and hidden_resource arab
@@ -2284,6 +2320,7 @@ building barracks
 	recruit_pool "rus_conscript_ru"  3   0.24   3  0  requires factions { russia, }  and not event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "rus_roy_cav_ru"  1   0.06   1  0  requires factions { russia, }  and hidden_resource russia
 	recruit_pool "rus_roy_inf_ru"  2   0.12   2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource russia
+	recruit_pool "rus_roy_inf_ru"  2.0   0.18   3.0  0  requires factions { russia, }   and event_counter repeating_rifles 1
 	recruit_pool "rus_guard"  3   0.24   3  0  requires factions { russia, }  and event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "russ_inf"  1   0.06   1  0  requires factions { russia, }  and hidden_resource russia
 	recruit_pool "rus_cos_guard_ru"  2   0.12   2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource russia
@@ -2313,6 +2350,7 @@ building barracks
 	recruit_pool "aus_jag"  2   0.12   2  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_lancers"  1   0.06   1  0  requires factions { hungary, }  and hidden_resource austria
 	recruit_pool "aus_inf2"  2   0.18   2  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria
+	recruit_pool "aus_inf2"  2.0   0.27   3.0  0  requires factions { hungary, }   and event_counter repeating_rifles 1
 	recruit_pool "aus_inf3"  1   0.06   1  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "balk_cav"  1   0.06   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
 	recruit_pool "balk_cav"  1   0.06   1  0  requires factions { mongols, }  and hidden_resource greece
@@ -2542,6 +2580,7 @@ building barracks
 	recruit_pool "qing_ww1_inf"  1   0.06   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource manchuria
 	recruit_pool "qing_gunners"  2   0.12   2  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 	recruit_pool "qing_vets"  2   0.18   2  0  requires factions { byzantium, }  and not event_counter military_reforms_1890 1 and hidden_resource china
+	recruit_pool "qing_vets"  2.0   0.27   3.0  0  requires factions { byzantium, }   and event_counter taiping_suppressed 1
 	recruit_pool "qing_pike"  1   0.06   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource china
 	recruit_pool "qing_archers"  2   0.12   2  0  requires factions { byzantium, }  and not event_counter military_reforms_1 1 and hidden_resource china
 	recruit_pool "mongols_archer"  1   0.06   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1 1 and hidden_resource manchuria
@@ -2690,6 +2729,7 @@ building barracks
 	recruit_pool "us_zouave"  2   0.2   2  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "union_irish_brigade"  1   0.1   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_inf"  2   0.2   2  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "us_inf"  2.0   0.3   3.0  0  requires factions { portugala, }   and event_counter repeating_rifles 1
 	recruit_pool "us_blacks"  2   0.2   2  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
 	recruit_pool "us_late_inf"  3   0.3   3  0  requires factions { portugala, }  and event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_front_inf"  3   0.3   3  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
@@ -2717,6 +2757,7 @@ building barracks
 	recruit_pool "csa_volunteers"  1   0.1   1  0  requires factions { milan, }  and not event_counter military_reforms_1870 1 and hidden_resource csa
 	recruit_pool "csa_guard"  3   0.3   3  0  requires factions { milan, }  and not event_counter military_reforms_1870 1 and hidden_resource csa
 	recruit_pool "csa_inf"  3   0.3   3  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "csa_inf"  3.0   0.45   4.5  0  requires factions { milan, }   and event_counter repeating_rifles 1
 	recruit_pool "csa_late_inf"  4   0.4   4  0  requires factions { milan, }  and event_counter military_reforms_1 1 and hidden_resource usa
 
 ;resupply csa
@@ -2802,11 +2843,13 @@ building barracks
 	recruit_pool "uk_knights"  2   0.2   2  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_knights"  2   0.2   2  0  requires factions { poland, }  and not event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "uk_gurk"  1   0.1   1  0  requires factions { england, }  and event_counter military_reforms_1890 1 and hidden_resource tibet
+	recruit_pool "uk_gurk"  1.0   0.3   2.0  0  requires factions { england, }   and event_counter indian_raj 1
 	recruit_pool "uk_roy"  1   0.1   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource uk
 	recruit_pool "uk_sikh_reg"  3   0.3   3  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource india
 	recruit_pool "uk_high"  1   0.1   1  0  requires factions { england, }  and event_counter military_reforms_1870 1 and hidden_resource scotland
 	recruit_pool "uk_blackwatch"  1   0.1   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1 and hidden_resource scotland
 	recruit_pool "uk_inf"  3   0.3   3  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
+	recruit_pool "uk_inf"  3.0   0.45   4.5  0  requires factions { england, }   and event_counter repeating_rifles 1
 
 ;resupply uk
 	recruit_pool "pith_troopers"  0.2   0.02   0.2  0  requires factions { england, }
@@ -2844,6 +2887,7 @@ building barracks
 	recruit_pool "fra_rec"  2   0.2   2  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_guard"  1   0.1   1  0  requires factions { france, }   and event_counter military_reforms_1870 1 and hidden_resource france
 	recruit_pool "fra_line_inf"  4   0.4   4  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
+	recruit_pool "fra_line_inf"  4.0   0.6   6.0  0  requires factions { france, }   and event_counter repeating_rifles 1
 	recruit_pool "fra_chass"  1   0.1   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 
 ;resupply france
@@ -2866,7 +2910,10 @@ building barracks
 	recruit_pool "gr_carbs"  1   0.1   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "wurt_inf"  2   0.2   2  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource bavaria
 	recruit_pool "pru_ww1_gren"  1   0.1   1  0  requires factions { hre, }   and event_counter military_reforms_2 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
+	recruit_pool "pru_ww1_gren"  1   0.2   2.0  0  requires factions { hre, }   and event_counter german_empire_proclaimed 1
 	recruit_pool "pru_ww1_inf"  1   0.1   1  0  requires factions { hre, }   and event_counter military_reforms_2 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
+	recruit_pool "pru_ww1_inf"  1.0   0.15   1.5  0  requires factions { hre, }   and event_counter repeating_rifles 1
+	recruit_pool "pru_ww1_inf"  1   0.2   2.0  0  requires factions { hre, }   and event_counter german_empire_proclaimed 1
 	recruit_pool "bav_inf"  1   0.1   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "gr_inf"  5   0.5   5  0  requires factions { hre, }   and event_counter military_reforms_1 1 and hidden_resource prussia
 	recruit_pool "jager_inf"  2   0.2   2  0  requires factions { hre, }   and event_counter military_reforms_1870 1 and hidden_resource bavaria
@@ -2993,6 +3040,8 @@ building barracks
 	recruit_pool "rus_cos_guard_ve"  4   0.4   4  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
 	recruit_pool "dan_inf_ve"  1   0.1   1  0  requires factions { venice, }  and hidden_resource italy
 	recruit_pool "it_bers"  4   0.4   4  0  requires factions { venice, }  and event_counter military_reforms_1890 1 and hidden_resource italy
+	recruit_pool "it_bers"  4.0   0.6   6.0  0  requires factions { venice, }   and event_counter repeating_rifles 1
+	recruit_pool "it_bers"  4   0.6   6.0  0  requires factions { venice, }   and event_counter italian_unification 1
 	recruit_pool "us_front_inf_it"  2   0.2   2  0  requires factions { venice, }  and not event_counter military_reforms_1870 1 and hidden_resource italy
 	recruit_pool "it_arditi"  1   0.1   1  0  requires factions { venice, }  and event_counter military_reforms_1 1 and hidden_resource italy
 	recruit_pool "libya_inf"  2   0.2   2  0  requires factions { venice, }  and event_counter military_reforms_1 1 and hidden_resource arab
@@ -3014,6 +3063,7 @@ building barracks
 	recruit_pool "rus_conscript_ru"  4   0.4   4  0  requires factions { russia, }  and not event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "rus_roy_cav_ru"  1   0.1   1  0  requires factions { russia, }  and hidden_resource russia
 	recruit_pool "rus_roy_inf_ru"  2   0.2   2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource russia
+	recruit_pool "rus_roy_inf_ru"  2.0   0.3   3.0  0  requires factions { russia, }   and event_counter repeating_rifles 1
 	recruit_pool "rus_guard"  4   0.4   4  0  requires factions { russia, }  and event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "russ_inf"  1   0.1   1  0  requires factions { russia, }  and hidden_resource russia
 	recruit_pool "rus_cos_guard_ru"  2   0.2   2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource russia
@@ -3043,6 +3093,7 @@ building barracks
 	recruit_pool "aus_jag"  2   0.2   2  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_lancers"  1   0.1   1  0  requires factions { hungary, }  and hidden_resource austria
 	recruit_pool "aus_inf2"  3   0.3   3  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria
+	recruit_pool "aus_inf2"  3.0   0.45   4.5  0  requires factions { hungary, }   and event_counter repeating_rifles 1
 	recruit_pool "aus_inf3"  1   0.1   1  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "balk_cav"  1   0.1   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
 	recruit_pool "balk_cav"  1   0.1   1  0  requires factions { mongols, }  and hidden_resource greece
@@ -3272,6 +3323,7 @@ building barracks
 	recruit_pool "qing_ww1_inf"  1   0.1   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource manchuria
 	recruit_pool "qing_gunners"  2   0.2   2  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 	recruit_pool "qing_vets"  3   0.3   3  0  requires factions { byzantium, }  and not event_counter military_reforms_1890 1 and hidden_resource china
+	recruit_pool "qing_vets"  3.0   0.45   4.5  0  requires factions { byzantium, }   and event_counter taiping_suppressed 1
 	recruit_pool "qing_pike"  1   0.1   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource china
 	recruit_pool "qing_archers"  2   0.2   2  0  requires factions { byzantium, }  and not event_counter military_reforms_1 1 and hidden_resource china
 	recruit_pool "mongols_archer"  1   0.1   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1 1 and hidden_resource manchuria
@@ -4675,6 +4727,7 @@ building smith
                 	happiness_bonus bonus -1 requires building_present_min_level hinterland_roads paved_roads or building_present_min_level sea_trade merchants_wharf
 
         	       income_bonus bonus 50
+                income_bonus bonus 25 requires factions { all, } and event_counter railway_boom 1
             }
             material wooden
             construction  6
@@ -5556,6 +5609,12 @@ building market
             {
                 trade_base_income_bonus bonus 1
                 trade_base_income_bonus bonus 1 requires factions { all, } and event_counter american_civil_war 1
+                trade_base_income_bonus bonus 2 requires factions { portugala, } and event_counter manifest_destiny 1
+                trade_base_income_bonus bonus 3 requires factions { england, } and event_counter indian_raj 1
+                trade_base_income_bonus bonus 1 requires factions { all, } and event_counter railway_boom 1
+                law_bonus bonus 2 requires factions { england, } and event_counter indian_raj 1
+                construction_cost_bonus_wooden bonus 2 requires factions { all, } and event_counter steel_revolution 1
+                construction_cost_bonus_stone bonus 2 requires factions { all, } and event_counter steel_revolution 1
             }
             material wooden
             construction  7
@@ -6836,6 +6895,7 @@ building brothels
 	recruit_pool "uk_musket"  1   0.1   1  0  requires factions { england, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 
 ;settler
 	recruit_pool "uk_inf"  1   0.1   1  0  requires factions { england, }  and not event_counter military_reforms_1870 1
+	recruit_pool "uk_inf"  1.0   0.15   1.5  0  requires factions { england, }   and event_counter repeating_rifles 1
 ;settler
 	recruit_pool "uk_pith"  1   0.1   1  0  requires factions { england, }  and event_counter military_reforms_1890 1
 ;settler
@@ -6882,6 +6942,7 @@ building brothels
 	recruit_pool "uk_musket"  1   0.2   2  0  requires factions { england, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 
 ;settler
 	recruit_pool "uk_inf"  1   0.2   2  0  requires factions { england, }  and not event_counter military_reforms_1870 1
+	recruit_pool "uk_inf"  1.0   0.3   3.0  0  requires factions { england, }   and event_counter repeating_rifles 1
 ;settler
 	recruit_pool "uk_pith"  1   0.2   2  0  requires factions { england, }  and event_counter military_reforms_1890 1
 ;settler
@@ -7219,6 +7280,8 @@ building city_hall
             capability
             {
                 law_bonus bonus 4
+                law_bonus bonus 2 requires factions { hre, } and event_counter german_empire_proclaimed 1
+                happiness_bonus bonus -2 requires factions { france, } and event_counter german_empire_proclaimed 1
                 trade_base_income_bonus bonus -2 
 
                 agent diplomat  0  requires factions { all, } 
@@ -7336,15 +7399,6 @@ building airport
             {
 		  trade_base_income_bonus bonus 1
 		  happiness_bonus bonus 1
-            }
-            material wooden
-            construction  12 
-            cost  4800 
-            settlement_min large_town
-            upgrades
-            {
-                aerodrome
-            }
 
 ;--- AIRSHIP RECRUITMENT (1st generation, available once airfield is built) ---
 ;PLACEHOLDER faction split - "Great Powers" get higher caps, everyone else stays scarce.
@@ -7358,6 +7412,15 @@ building airport
 
 	recruit_pool "air_bmb_1g"  0   0.015  2  1  requires factions { england, france, hre, russia, portugala, milan, }
 	recruit_pool "air_bmb_1g"  0   0.01   1  1  requires not factions { england, france, hre, russia, portugala, milan, }
+            }
+            material wooden
+            construction  12 
+            cost  4800 
+            settlement_min large_town
+            upgrades
+            {
+                aerodrome
+            }
         }
         aerodrome city requires factions { northern_european, mesoamerican, middle_eastern, slavic, southern_european, asian, chinese, } and event_counter military_reforms_2 1 and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
         {
@@ -7365,14 +7428,6 @@ building airport
             {
 		  trade_base_income_bonus bonus 2
 		  happiness_bonus bonus 2
-            }
-            material wooden
-            construction  16
-            cost  9600 
-            settlement_min city
-            upgrades
-            {
-            }
 
 ;--- AIRSHIP RECRUITMENT: 1st generation (carried over from airfield) ---
 	recruit_pool "air_reg_1g"  1   0.02   3  1  requires factions { england, france, hre, russia, portugala, milan, }
@@ -7391,8 +7446,16 @@ building airport
 	recruit_pool "air_fir_3g"  0   0.015  2  1  requires factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
 	recruit_pool "air_fir_3g"  0   0.01   1  1  requires not factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
 
-	recruit_pool "air_heavy_3g"  0   0.01   2  1  requires factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
-	recruit_pool "air_heavy_3g"  0   0.008  1  1  requires not factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
+	recruit_pool "air_hvy_3g"  0   0.01   2  1  requires factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
+	recruit_pool "air_hvy_3g"  0   0.008  1  1  requires not factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
+            }
+            material wooden
+            construction  16
+            cost  9600 
+            settlement_min city
+            upgrades
+            {
+            }
         }
     }
     plugins 

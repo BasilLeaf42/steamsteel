@@ -3673,13 +3673,13 @@ script
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-    monitor_event FactionTurnStart I_TurnNumber > 78				;;;;;1880
+    monitor_event FactionTurnStart I_TurnNumber > 2 ; [TESTING: was 78]				;;;;;1880
         historic_event military_reforms_1
         set_event_counter military_reforms_1 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 138	              ;;;;;1900
+    monitor_event FactionTurnStart I_TurnNumber > 4 ; [TESTING: was 158]	              ;;;;;1900
         historic_event military_reforms_2
         set_event_counter military_reforms_2 1
         terminate_monitor
@@ -3691,13 +3691,13 @@ script
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 38	              
+    monitor_event FactionTurnStart I_TurnNumber > 1 ; [TESTING: was 38]	              
         historic_event military_reforms_1870
         set_event_counter military_reforms_1870 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 118	              
+    monitor_event FactionTurnStart I_TurnNumber > 3 ; [TESTING: was 118]	              
         historic_event military_reforms_1890
         set_event_counter military_reforms_1890 1
         terminate_monitor
@@ -3812,9 +3812,8 @@ script
 
     monitor_event FactionTurnStart FactionIsLocal
         and FactionType saxons
-        and I_TurnNumber = 2
+        and I_TurnNumber = 5 ; [TESTING: was 2]
         if I_EventCounter ishin_decision_accepted = 1
-            historic_event ishin_satcho true
             spawn_army
                 faction saxons
                 character Takamori Takeda, named character, age 38, x 435, y 227, battle_model mufud_general 
@@ -3830,7 +3829,7 @@ script
 
     monitor_event FactionTurnStart FactionIsLocal
         and FactionType saxons
-        and I_TurnNumber = 2
+        and I_TurnNumber = 5 ; [TESTING: was 2]
         if I_EventCounter ishin_decision_accepted = 1
             historic_event ishin_satcho true
             console_command capture_settlement Kagoshima
@@ -3880,7 +3879,7 @@ script
 
 
     monitor_event FactionTurnStart FactionType byzantium
-        and I_TurnNumber >= 155
+        and I_TurnNumber >= 13 ; [TESTING: was 155]
 
         spawn_army
             faction byzantium
@@ -3920,9 +3919,6 @@ script
             unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
         end
 
-        historic_event taiping_rebellion		; like this the event message gets displayed to all factions
-        ;;historic_event taiping_rebellion factions { spain, }		; like this only spain sees it (choose one or the other version)
-
         terminate_monitor	; this makes it so the game ignores this script after it fired, good for performance
     end_monitor	
 
@@ -3931,17 +3927,47 @@ script
     ;;;;;;;;;;;;;			Bolshevik Revolution		;;;;;;;;;;;;;;;;;;;;;;;
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+    ; --- Warning 1: unrest growing (~1895) ---
 
     monitor_event FactionTurnStart FactionType slave
-        and I_TurnNumber == 219	; turn numbers in scripts start at 0, so make this 1899 minus start year
+        and I_TurnNumber == 17 ; [TESTING: was 200]
 
-        declare_counter bolsh_army_1
-        declare_counter bolsh_army_2
-        declare_counter bolsh_army_3
+        historic_event bolshevik_warning_1
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Warning 2: strikes and unrest spreading (~1897.5) ---
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 18 ; [TESTING: was 210]
+
+        historic_event bolshevik_warning_2
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Warning 3: on the verge of revolution (~1898.5) ---
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 19 ; [TESTING: was 217]
+
+        historic_event bolshevik_warning_3
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Main uprising (1899): rebel stacks spawn near historically significant Russian
+    ; cities with NO fixed siege order - they act on their own AI judgement and will go
+    ; after whatever settlement is actually nearest/weakest, regardless of who currently
+    ; holds it. This mirrors EBII's "reactive rover" spawning technique.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 20 ; [TESTING: was 219]	; turn numbers in scripts start at 0, so make this 1899 minus start year
 
         spawn_army
             faction slave, sub_faction russia
-            character	random_name, named character, age 35, x 295, y 269
+            character	random_name, named character, age 35, x 309, y 265, label bolsh_army_1
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
@@ -3958,12 +3984,10 @@ script
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
         end
 
-        siege_settlement bolsh_army_1, Moscou, attack
-
 
         spawn_army
             faction slave, sub_faction russia
-            character	random_name, named character, age 35, x 304, y 261
+            character	random_name, named character, age 35, x 277, y 277, label bolsh_army_2
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
@@ -3980,12 +4004,10 @@ script
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
         end
 
-        siege_settlement bolsh_army_2, Smolensk, attack
-
 
         spawn_army
             faction slave, sub_faction russia
-            character	random_name, named character, age 35, x 296, y 285
+            character	random_name, named character, age 35, x 287, y 270, label bolsh_army_3
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
@@ -4001,8 +4023,6 @@ script
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
             unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
         end
-
-        siege_settlement bolsh_army_3, Novgorod, attack
 
 
         historic_event bolshevik_rev		; like this the event message gets displayed to all factions
@@ -4025,7 +4045,7 @@ script
 
 
     monitor_event FactionTurnStart FactionType scotland
-        and I_TurnNumber >= 9
+        and I_TurnNumber >= 8 ; [TESTING: was 9]
 
         historic_event mexican_civil_war true factions { scotland, }
         terminate_monitor
@@ -4057,6 +4077,63 @@ script
 
     end_monitor
 
+    ; --- Decline consequence: France invades anyway, a few turns later ---
+    ; Landing force at Veracruz (Galicie)
+
+    declare_counter french_invasion_veracruz
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter mexican_civil_war_declined = 1
+
+        inc_counter french_invasion_veracruz 1
+
+        if I_CompareCounter french_invasion_veracruz >= 4
+            historic_event french_invasion_begins factions { scotland, }
+
+            spawn_army
+                faction slave, sub_faction france
+                character	random_name, general, age 30, x 101, y 201, label french_invasion_1
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc					exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc					exp 0 armour 0 weapon_lvl 0
+            end
+
+            siege_settlement french_invasion_1, Galicie, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    ; Strike force at Mexico City
+
+    declare_counter french_invasion_mexico_city
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter mexican_civil_war_declined = 1
+
+        inc_counter french_invasion_mexico_city 1
+
+        if I_CompareCounter french_invasion_mexico_city >= 4
+            spawn_army
+                faction slave, sub_faction france
+                character	random_name, general, age 30, x 101, y 198, label french_invasion_2
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	mex_bers					exp 0 armour 0 weapon_lvl 0
+                unit	mex_bers					exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc					exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc					exp 0 armour 0 weapon_lvl 0
+            end
+
+            siege_settlement french_invasion_2, Mexico, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
     monitor_event FactionTurnStart FactionType slave
         and I_EventCounter mexican_civil_war_empire = 1
 
@@ -4065,7 +4142,7 @@ script
         if I_CompareCounter imperial_mexico_army >= 4
             spawn_army
                 faction scotland
-                character	random_name, general, age 30, x 102, y 188
+                character	random_name, general, age 30, x 93, y 202
                 unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
                 unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
                 unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
@@ -4092,7 +4169,7 @@ script
         if I_CompareCounter republican_remnants_army >= 1
             spawn_army
                 faction slave, sub_faction scotland
-                character	random_name, general, age 25, x 98, y 193, label mexloyal1
+                character	random_name, general, age 25, x 101, y 195, label mexloyal1
                 unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
                 unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
                 unit	aus_inf	exp 0 armour 0 weapon_lvl 0
@@ -4122,7 +4199,7 @@ script
         if I_CompareCounter republican_remnants_army2 >= 1
             spawn_army
                 faction slave, sub_faction scotland
-                character	random_name, general, age 25, x 92, y 208, label mexloyal2
+                character	random_name, general, age 25, x 101, y 200, label mexloyal2
                 unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
                 unit	aus_inf	exp 0 armour 0 weapon_lvl 0
                 unit	aus_inf	exp 0 armour 0 weapon_lvl 0
@@ -4158,7 +4235,7 @@ script
 
         historic_event incan_empire factions { denmark, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
 
-        set_event_counter inca_reunited 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter italy_reunited 1" (without quotation marks)
+        set_event_counter inca_reunited 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter inca_reunited 1" (without quotation marks)
         terminate_monitor
     end_monitor
 
@@ -4179,7 +4256,7 @@ script
 
         historic_event byzantine_restoration factions { mongols, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
 
-        set_event_counter byzantium_restored 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter italy_reunited 1" (without quotation marks)
+        set_event_counter byzantium_restored 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter byzantium_restored 1" (without quotation marks)
         terminate_monitor
     end_monitor
 
@@ -4195,7 +4272,20 @@ script
 
         historic_event italian_unification factions { venice, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
 
-        set_event_counter italian_unification 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter italy_reunited 1" (without quotation marks)
+        set_event_counter italian_unification 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter italian_unification 1" (without quotation marks)
+
+        ; Authority: increased international standing
+        set_faction_standing venice england 0.3
+        set_faction_standing england venice 0.3
+        set_faction_standing venice france 0.3
+        set_faction_standing france venice 0.3
+        set_faction_standing venice hre 0.3
+        set_faction_standing hre venice 0.3
+        set_faction_standing venice hungary 0.3
+        set_faction_standing hungary venice 0.3
+        set_faction_standing venice russia 0.3
+        set_faction_standing russia venice 0.3
+
         terminate_monitor
     end_monitor
 	
@@ -4232,27 +4322,14 @@ script
 
         historic_event roman_empire_restored factions { venice, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
 
-        set_event_counter roman_empire_restored 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter italy_reunited 1" (without quotation marks)
+        set_event_counter roman_empire_restored 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter roman_empire_restored 1" (without quotation marks)
         terminate_monitor
     end_monitor
 
 
-    ;########## Germany Unified ##########
-
-    monitor_event FactionTurnStart FactionType hre
-        and I_SettlementOwner Lisboa = hre			; replace Rome with all the italian settlements (the in-engine-names, not the ones displayed ingame!)
-        and I_SettlementOwner Magdeburg = hre
-        and I_SettlementOwner Prague = hre
-        and I_SettlementOwner Hohenstauffen = hre
-        and I_SettlementOwner Bern = hre
-        and I_SettlementOwner Baviere = hre
-        and I_SettlementOwner Hamburg = hre
-
-        historic_event germany_unified factions { hre, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
-
-        set_event_counter germany_unified 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter italy_reunited 1" (without quotation marks)
-        terminate_monitor
-    end_monitor
+    ;########## Germany Unified - MERGED into Franco-Prussian War section's
+    ;########## German Empire resolution trigger (now requires both German
+    ;########## unification AND victory over France) ##########
 
 
     ;########## Timurid reunified ##########
@@ -4277,10 +4354,748 @@ script
 
         historic_event timurid_unified factions { cuman, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
 
-        set_event_counter timurid_unified 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter italy_reunited 1" (without quotation marks)
+        set_event_counter timurid_unified 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter timurid_unified 1" (without quotation marks)
+        terminate_monitor
+    end_monitor
+    ;;;;;;;;;;;;;			American Civil War (1861)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Faction-alive tracking (mirrors EBII's own technique: no heirs = no faction) ---
+
+    monitor_event FactionTurnStart FactionType slave
+        if I_NumberOfHeirs portugala > 0
+            set_event_counter portugala_alive 1
+        end_if
+        if I_NumberOfHeirs portugala < 1
+            set_event_counter portugala_alive 0
+        end_if
+        if I_NumberOfHeirs milan > 0
+            set_event_counter milan_alive 1
+        end_if
+        if I_NumberOfHeirs milan < 1
+            set_event_counter milan_alive 0
+        end_if
+    end_monitor
+
+    ; --- Main trigger: both still alive, ~1861 ---
+    ; NOTE: american_civil_war_begins needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 7 ; [TESTING: was 4]
+        and I_EventCounter portugala_alive = 1
+        and I_EventCounter milan_alive = 1
+
+        historic_event american_civil_war_begins
+
+        set_event_counter american_civil_war 1
+
+        ; European powers gain diplomatic options - closer relations with both sides
+        ; reflecting the war's international significance
+        set_faction_standing england portugala 0.3
+        set_faction_standing portugala england 0.3
+        set_faction_standing england milan 0.3
+        set_faction_standing milan england 0.3
+        set_faction_standing france portugala 0.3
+        set_faction_standing portugala france 0.3
+        set_faction_standing france milan 0.3
+        set_faction_standing milan france 0.3
+        set_faction_standing hre portugala 0.3
+        set_faction_standing portugala hre 0.3
+        set_faction_standing hre milan 0.3
+        set_faction_standing milan hre 0.3
+        set_faction_standing hungary portugala 0.3
+        set_faction_standing portugala hungary 0.3
+        set_faction_standing hungary milan 0.3
+        set_faction_standing milan hungary 0.3
+        set_faction_standing russia portugala 0.3
+        set_faction_standing portugala russia 0.3
+        set_faction_standing russia milan 0.3
+        set_faction_standing milan russia 0.3
+        set_faction_standing venice portugala 0.3
+        set_faction_standing portugala venice 0.3
+        set_faction_standing venice milan 0.3
+        set_faction_standing milan venice 0.3
+        set_faction_standing spain portugala 0.3
+        set_faction_standing portugala spain 0.3
+        set_faction_standing spain milan 0.3
+        set_faction_standing milan spain 0.3
+
+        ; CSA's first wave - 3 guaranteed veteran armies
+        spawn_army
+            faction milan, sub_faction milan
+            character	random_name, named character, age 45, x 125, y 218, label csa_army_1
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction milan, sub_faction milan
+            character	random_name, named character, age 37, x 123, y 221, label csa_army_2
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction milan, sub_faction milan
+            character	random_name, named character, age 43, x 125, y 220, label csa_army_3
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+        end
+
         terminate_monitor
     end_monitor
 
+    ; --- Escalation waves: up to 3 more armies over time, only while the war is
+    ; still ongoing (both factions still alive) ---
+
+    declare_counter csa_escalation_wave_1
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter american_civil_war = 1
+        and I_EventCounter portugala_alive = 1
+        and I_EventCounter milan_alive = 1
+
+        inc_counter csa_escalation_wave_1 1
+
+        if I_CompareCounter csa_escalation_wave_1 >= 12
+            spawn_army
+                faction milan, sub_faction milan
+                character	random_name, named character, age 44, x 123, y 219, label csa_army_4
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_cav					exp 2 armour 0 weapon_lvl 0
+            end
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    declare_counter csa_escalation_wave_2
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter american_civil_war = 1
+        and I_EventCounter portugala_alive = 1
+        and I_EventCounter milan_alive = 1
+
+        inc_counter csa_escalation_wave_2 1
+
+        if I_CompareCounter csa_escalation_wave_2 >= 20
+            spawn_army
+                faction milan, sub_faction milan
+                character	random_name, named character, age 44, x 117, y 216, label csa_army_5
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_cav					exp 2 armour 0 weapon_lvl 0
+            end
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    declare_counter csa_escalation_wave_3
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter american_civil_war = 1
+        and I_EventCounter portugala_alive = 1
+        and I_EventCounter milan_alive = 1
+
+        inc_counter csa_escalation_wave_3 1
+
+        if I_CompareCounter csa_escalation_wave_3 >= 28
+            spawn_army
+                faction milan, sub_faction milan
+                character	random_name, named character, age 40, x 128, y 220, label csa_army_6
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_cav					exp 2 armour 0 weapon_lvl 0
+            end
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    ;;;;;;;;;;;;;			Franco-Prussian War (1870)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Faction-alive tracking ---
+
+    monitor_event FactionTurnStart FactionType slave
+        if I_NumberOfHeirs france > 0
+            set_event_counter france_alive 1
+        end_if
+        if I_NumberOfHeirs france < 1
+            set_event_counter france_alive 0
+        end_if
+        if I_NumberOfHeirs hre > 0
+            set_event_counter hre_alive 1
+        end_if
+        if I_NumberOfHeirs hre < 1
+            set_event_counter hre_alive 0
+        end_if
+    end_monitor
+
+    ; --- War begins: both alive, ~1870 ---
+    ; NOTE: franco_prussian_war_begins needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 9 ; [TESTING: was 38]
+        and I_EventCounter france_alive = 1
+        and I_EventCounter hre_alive = 1
+
+        historic_event franco_prussian_war_begins
+
+        set_event_counter franco_prussian_war 1
+
+        ; Prussian invasion force marches on Paris
+        spawn_army
+            faction slave, sub_faction hre
+            character	random_name, named character, age 69, x 237, y 258, label fpw_army_1
+            unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+            unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+            unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+            unit	pru_ww1_gren					exp 2 armour 0 weapon_lvl 0
+            unit	pru_ww1_gren					exp 2 armour 0 weapon_lvl 0
+            unit	ger_hus						exp 2 armour 0 weapon_lvl 0
+        end
+
+        siege_settlement fpw_army_1, Paris, attack
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Reinforcement wave if the siege drags on ---
+
+    declare_counter fpw_reinforcement_wave
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter franco_prussian_war = 1
+        and I_EventCounter france_alive = 1
+        and I_EventCounter hre_alive = 1
+        and I_EventCounter german_empire_proclaimed < 1
+
+        inc_counter fpw_reinforcement_wave 1
+
+        if I_CompareCounter fpw_reinforcement_wave >= 10
+            spawn_army
+                faction slave, sub_faction hre
+                character	random_name, named character, age 63, x 242, y 258, label fpw_army_2
+                unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+                unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+                unit	pru_ww1_gren					exp 2 armour 0 weapon_lvl 0
+                unit	ger_hus						exp 2 armour 0 weapon_lvl 0
+            end
+
+            siege_settlement fpw_army_2, Paris, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    ; --- Resolution: Prussia has both unified the German states AND won the war
+    ; against France (captured Paris) - German Empire proclaimed ---
+    ; NOTE: german_empire_proclaimed needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType hre
+        and I_EventCounter franco_prussian_war = 1
+        and I_SettlementOwner Paris = hre
+        and I_SettlementOwner Lisboa = hre
+        and I_SettlementOwner Magdeburg = hre
+        and I_SettlementOwner Prague = hre
+        and I_SettlementOwner Hohenstauffen = hre
+        and I_SettlementOwner Baviere = hre
+        and I_SettlementOwner Hamburg = hre
+
+        historic_event german_empire_proclaimed factions { hre, }
+
+        set_event_counter german_empire_proclaimed 1
+
+        ; Authority: increased international standing
+        set_faction_standing hre england 0.3
+        set_faction_standing england hre 0.3
+        set_faction_standing hre hungary 0.3
+        set_faction_standing hungary hre 0.3
+        set_faction_standing hre russia 0.3
+        set_faction_standing russia hre 0.3
+        set_faction_standing hre venice 0.3
+        set_faction_standing venice hre 0.3
+        set_faction_standing hre spain 0.3
+        set_faction_standing spain hre 0.3
+
+        ; Berlin's reparations windfall
+        console_command add_money hre, 15000
+
+        ; France: loses prestige
+        set_faction_standing france england -0.3
+        set_faction_standing england france -0.3
+        set_faction_standing france hungary -0.3
+        set_faction_standing hungary france -0.3
+        set_faction_standing france russia -0.3
+        set_faction_standing russia france -0.3
+        set_faction_standing france venice -0.3
+        set_faction_standing venice france -0.3
+        set_faction_standing france spain -0.3
+        set_faction_standing spain france -0.3
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Possibility of Commune: rebel uprising in Paris after the defeat ---
+    ; NOTE: paris_commune needs a matching entry in historic_events.txt.
+
+    declare_counter paris_commune_timer
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter german_empire_proclaimed = 1
+
+        inc_counter paris_commune_timer 1
+
+        if I_CompareCounter paris_commune_timer >= 4
+            historic_event paris_commune
+
+            spawn_army
+                faction slave, sub_faction france
+                character	random_name, named character, age 35, x 235, y 254, label paris_commune_army
+                unit	fra_inf_sc					exp 1 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 1 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 1 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 1 armour 0 weapon_lvl 0
+            end
+
+            siege_settlement paris_commune_army, Paris, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Mahdist Revolt (1881)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Sudan explodes: several Mahdist stacks, autonomous (no fixed target) ---
+    ; NOTE: mahdist_revolt_begins needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 14 ; [TESTING: was 82]
+
+        historic_event mahdist_revolt_begins
+
+        set_event_counter mahdist_revolt 1
+
+        spawn_army
+            faction slave, sub_faction turks
+            character	random_name, named character, age 37, x 276, y 189, label mahdist_army_1
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_cav					exp 1 armour 0 weapon_lvl 0
+            unit	arab_cav					exp 1 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction slave, sub_faction turks
+            character	random_name, named character, age 36, x 282, y 177, label mahdist_army_2
+            unit	merc_arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	merc_arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_cav					exp 1 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction slave, sub_faction turks
+            character	random_name, named character, age 35, x 279, y 188, label mahdist_army_3
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	merc_arab_brigade					exp 1 armour 0 weapon_lvl 0
+        end
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Britain's mission: relieve/capture Khartoum ---
+    ; NOTE: britain_khartoum_mission and britain_khartoum_success need matching entries
+    ; in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType england
+        and I_EventCounter mahdist_revolt = 1
+        and I_EventCounter britain_khartoum_briefed < 1
+
+        historic_event britain_khartoum_mission factions { england, }
+        set_event_counter britain_khartoum_briefed 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType england
+        and I_EventCounter mahdist_revolt = 1
+        and I_SettlementOwner Khartoum = england
+        and I_EventCounter britain_khartoum_success < 1
+
+        historic_event britain_khartoum_success factions { england, }
+        set_event_counter britain_khartoum_success 1
+
+        set_faction_standing england turks 0.3
+        set_faction_standing turks england 0.3
+        console_command add_money england, 8000
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Ethiopia's mission: repel the Mahdists, capture Khartoum ---
+    ; NOTE: ethiopia_khartoum_mission and ethiopia_khartoum_success need matching
+    ; entries in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType papal_states
+        and I_EventCounter mahdist_revolt = 1
+        and I_EventCounter ethiopia_khartoum_briefed < 1
+
+        historic_event ethiopia_khartoum_mission factions { papal_states, }
+        set_event_counter ethiopia_khartoum_briefed 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType papal_states
+        and I_EventCounter mahdist_revolt = 1
+        and I_SettlementOwner Khartoum = papal_states
+        and I_EventCounter ethiopia_khartoum_success < 1
+
+        historic_event ethiopia_khartoum_success factions { papal_states, }
+        set_event_counter ethiopia_khartoum_success 1
+
+        set_faction_standing papal_states england 0.2
+        set_faction_standing england papal_states 0.2
+        console_command add_money papal_states, 8000
+
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Manifest Destiny		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- USA owns the western territories ---
+    ; NOTE: manifest_destiny needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType portugala
+        and I_SettlementOwner Tongva = portugala			; California
+        and I_SettlementOwner Tualatin = portugala			; Pacific Northwest / Oregon
+        and I_SettlementOwner Utah = portugala
+        and I_SettlementOwner Nuevo_Mexico = portugala		; New Mexico Territory
+        and I_SettlementOwner Comanche = portugala			; Texas
+
+        historic_event manifest_destiny factions { portugala, }
+
+        set_event_counter manifest_destiny 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter manifest_destiny 1" (without quotation marks)
+
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Indian Raj		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Britain secures India ---
+    ; NOTE: indian_raj needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType england
+        and I_SettlementOwner Sind = england			; Karachi
+        and I_SettlementOwner Bangalore = england
+        and I_SettlementOwner Jabalpur = england			; Bhopal
+        and I_SettlementOwner Cuttack = england			; Madras
+        and I_SettlementOwner Jaipur = england
+        and I_SettlementOwner Dehli = england			; Delhi
+        and I_SettlementOwner Bengal = england			; Calcutta
+
+        historic_event indian_raj factions { england, }
+
+        set_event_counter indian_raj 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter indian_raj 1" (without quotation marks)
+
+        ; Authority: increased international standing
+        set_faction_standing england france 0.3
+        set_faction_standing france england 0.3
+        set_faction_standing england hre 0.3
+        set_faction_standing hre england 0.3
+        set_faction_standing england hungary 0.3
+        set_faction_standing hungary england 0.3
+        set_faction_standing england russia 0.3
+        set_faction_standing russia england 0.3
+        set_faction_standing england venice 0.3
+        set_faction_standing venice england 0.3
+
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Technology Events (universal, no faction requirements)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Steel Revolution (~1867.5): cheaper construction, worldwide ---
+    ; NOTE: steel_revolution needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 11 ; [TESTING: was 30]
+
+        historic_event steel_revolution
+
+        set_event_counter steel_revolution 1
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Repeating Rifles (~1865): major powers' line infantry more available ---
+    ; NOTE: repeating_rifles needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 10 ; [TESTING: was 20]
+
+        historic_event repeating_rifles
+
+        set_event_counter repeating_rifles 1
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Railway Boom (~1871.5): industrial and market income, worldwide ---
+    ; NOTE: railway_boom needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 12 ; [TESTING: was 45]
+
+        historic_event railway_boom
+
+        set_event_counter railway_boom 1
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Machine Gun Era (~1884): narrative only - Maxims are already gated by
+    ; military_reforms_1890 throughout the EDB, so this doesn't duplicate that lock ---
+    ; NOTE: machine_gun_era needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 15 ; [TESTING: was 96]
+
+        historic_event machine_gun_era
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Wireless Telegraph (~1897.5): generals worldwide more likely to gain a
+    ; telegraph_operator (Command + Line of Sight) ---
+    ; NOTE: wireless_telegraph needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 16 ; [TESTING: was 150]
+
+        historic_event wireless_telegraph
+
+        set_event_counter wireless_telegraph 1
+
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Civil Unrest (random, all major powers)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; NOTE: civil_unrest needs a matching entry in historic_events.txt.
+    ; Roll a fresh random number each turn for each major power.
+
+    monitor_event FactionTurnEnd FactionType slave
+        generate_random_counter civil_unrest_roll_england 1 20
+        generate_random_counter civil_unrest_roll_france 1 20
+        generate_random_counter civil_unrest_roll_hre 1 20
+        generate_random_counter civil_unrest_roll_hungary 1 20
+        generate_random_counter civil_unrest_roll_russia 1 20
+        generate_random_counter civil_unrest_roll_portugala 1 20
+        generate_random_counter civil_unrest_roll_milan 1 20
+        generate_random_counter civil_unrest_roll_venice 1 20
+    end_monitor
+
+    ; --- england (Londres) ---
+
+    monitor_event FactionTurnStart FactionType england
+        and I_EventCounter civil_unrest_roll_england = 1
+        and I_SettlementOwner Londres = england
+
+        historic_event civil_unrest factions { england, }
+
+        add_settlement_turmoil Londres 12
+        console_command add_money england, -1500
+
+    end_monitor
+
+    ; --- france (Paris) ---
+
+    monitor_event FactionTurnStart FactionType france
+        and I_EventCounter civil_unrest_roll_france = 1
+        and I_SettlementOwner Paris = france
+
+        historic_event civil_unrest factions { france, }
+
+        add_settlement_turmoil Paris 12
+        console_command add_money france, -1500
+
+    end_monitor
+
+    ; --- hre (Magdeburg) ---
+
+    monitor_event FactionTurnStart FactionType hre
+        and I_EventCounter civil_unrest_roll_hre = 1
+        and I_SettlementOwner Magdeburg = hre
+
+        historic_event civil_unrest factions { hre, }
+
+        add_settlement_turmoil Magdeburg 12
+        console_command add_money hre, -1500
+
+    end_monitor
+
+    ; --- hungary (Vienne) ---
+
+    monitor_event FactionTurnStart FactionType hungary
+        and I_EventCounter civil_unrest_roll_hungary = 1
+        and I_SettlementOwner Vienne = hungary
+
+        historic_event civil_unrest factions { hungary, }
+
+        add_settlement_turmoil Vienne 12
+        console_command add_money hungary, -1500
+
+    end_monitor
+
+    ; --- russia (Moscou) ---
+
+    monitor_event FactionTurnStart FactionType russia
+        and I_EventCounter civil_unrest_roll_russia = 1
+        and I_SettlementOwner Moscou = russia
+
+        historic_event civil_unrest factions { russia, }
+
+        add_settlement_turmoil Moscou 12
+        console_command add_money russia, -1500
+
+    end_monitor
+
+    ; --- portugala (Corinth) ---
+
+    monitor_event FactionTurnStart FactionType portugala
+        and I_EventCounter civil_unrest_roll_portugala = 1
+        and I_SettlementOwner Corinth = portugala
+
+        historic_event civil_unrest factions { portugala, }
+
+        add_settlement_turmoil Corinth 12
+        console_command add_money portugala, -1500
+
+    end_monitor
+
+    ; --- milan (Apache) ---
+
+    monitor_event FactionTurnStart FactionType milan
+        and I_EventCounter civil_unrest_roll_milan = 1
+        and I_SettlementOwner Apache = milan
+
+        historic_event civil_unrest factions { milan, }
+
+        add_settlement_turmoil Apache 12
+        console_command add_money milan, -1500
+
+    end_monitor
+
+    ; --- venice (Venice) ---
+
+    monitor_event FactionTurnStart FactionType venice
+        and I_EventCounter civil_unrest_roll_venice = 1
+        and I_SettlementOwner Venice = venice
+
+        historic_event civil_unrest factions { venice, }
+
+        add_settlement_turmoil Venice 12
+        console_command add_money venice, -1500
+
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Taiping Rebellion (1850-1864)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Already underway as the campaign begins (started 1850, ongoing) ---
+    ; NOTE: taiping_rebellion_intensifies needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 6 ; [TESTING: was 2]
+
+        historic_event taiping_rebellion_intensifies
+
+        set_event_counter taiping_rebellion 1
+
+        spawn_army
+            faction slave, sub_faction byzantium
+            character	random_name, named character, age 47, x 398, y 217, label taiping_army_1
+            unit	taiping_inf					exp 2 armour 0 weapon_lvl 0
+            unit	taiping_inf					exp 2 armour 0 weapon_lvl 0
+            unit	taiping_inf					exp 2 armour 0 weapon_lvl 0
+            unit	taipingguners					exp 2 armour 0 weapon_lvl 0
+            unit	taipingguners					exp 2 armour 0 weapon_lvl 0
+            unit	taiping_light					exp 1 armour 0 weapon_lvl 0
+            unit	taiping_w					exp 1 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction slave, sub_faction byzantium
+            character	random_name, named character, age 40, x 401, y 216, label taiping_army_2
+            unit	taiping_inf					exp 1 armour 0 weapon_lvl 0
+            unit	taiping_inf					exp 1 armour 0 weapon_lvl 0
+            unit	taipingguners					exp 1 armour 0 weapon_lvl 0
+            unit	taiping_light					exp 1 armour 0 weapon_lvl 0
+            unit	taiping_w					exp 1 armour 0 weapon_lvl 0
+        end
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Resolution: Qing forces (with Western support under Gordon) retake Nanjing,
+    ; ending the rebellion (historically 1864) ---
+    ; NOTE: taiping_suppressed needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType byzantium
+        and I_EventCounter taiping_rebellion = 1
+        and I_SettlementOwner Nanjing = byzantium
+        and I_EventCounter taiping_suppressed < 1
+
+        historic_event taiping_suppressed factions { byzantium, }
+
+        set_event_counter taiping_suppressed 1
+
+        spawn_army
+            faction byzantium
+            character	random_name, named character, age 31, x 404, y 223, label ever_victorious_army
+            unit	qing_vets					exp 3 armour 0 weapon_lvl 0
+            unit	qing_vets					exp 3 armour 0 weapon_lvl 0
+            unit	qing_ww1_inf					exp 2 armour 0 weapon_lvl 0
+        end
+
+        ; Authority: increased international standing
+        set_faction_standing byzantium england 0.3
+        set_faction_standing england byzantium 0.3
+        set_faction_standing byzantium france 0.3
+        set_faction_standing france byzantium 0.3
+
+        terminate_monitor
+    end_monitor
 
 
 

@@ -1214,6 +1214,7 @@ Ancillary missionary
     Type Religion
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, middle_eastern, asian, chinese
     Description missionary_desc
     EffectsDescription missionary_effects_desc
     Effect Piety  2 
@@ -1223,6 +1224,7 @@ Ancillary jesuit_scholar
     Type Religion
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, middle_eastern, asian, chinese, slavic
     Description jesuit_scholar_desc
     EffectsDescription jesuit_scholar_effects_desc
     Effect Piety  1 
@@ -1233,6 +1235,7 @@ Ancillary anglican_chaplain
     Type Religion
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, middle_eastern, asian, southern_european, chinese, slavic
     Description anglican_chaplain_desc
     EffectsDescription anglican_chaplain_effects_desc
     Effect Piety  1 
@@ -1243,6 +1246,7 @@ Ancillary orthodox_bishop
     Type Religion
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, middle_eastern, asian, northern_european, chinese
     Description orthodox_bishop_desc
     EffectsDescription orthodox_bishop_effects_desc
     Effect Piety  2 
@@ -1253,6 +1257,7 @@ Ancillary buddhist_lama
     Type Religion
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, middle_eastern, northern_european, southern_european, slavic
     Description buddhist_lama_desc
     EffectsDescription buddhist_lama_effects_desc
     Effect Piety  1 
@@ -1263,6 +1268,7 @@ Ancillary hindu_guru
     Type Religion
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, middle_eastern, northern_european, southern_european, chinese, slavic
     Description hindu_guru_desc
     EffectsDescription hindu_guru_effects_desc
     Effect Piety  1 
@@ -1273,6 +1279,7 @@ Ancillary sikh_granthi
     Type Religion
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, middle_eastern, northern_european, southern_european, chinese, slavic
     Description sikh_granthi_desc
     EffectsDescription sikh_granthi_effects_desc
     Effect Piety  1 
@@ -1283,6 +1290,7 @@ Ancillary sufi_mystic
     Type Religion
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, northern_european, southern_european, chinese, slavic
     Description sufi_mystic_desc
     EffectsDescription sufi_mystic_effects_desc
     Effect Piety  1 
@@ -1293,6 +1301,7 @@ Ancillary islamic_jurist
     Type Religion
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, northern_european, southern_european, chinese, slavic
     Description islamic_jurist_desc
     EffectsDescription islamic_jurist_effects_desc
     Effect Piety  1 
@@ -1326,6 +1335,7 @@ Ancillary decorated_veteran
     Type Court
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludedAncillaries war_hero
     Description decorated_veteran_desc
     EffectsDescription decorated_veteran_effects_desc
     Effect TroopMorale  2 
@@ -1336,6 +1346,7 @@ Ancillary war_hero
     Type Court
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludedAncillaries decorated_veteran
     Description war_hero_desc
     EffectsDescription war_hero_effects_desc
     Effect TroopMorale  3 
@@ -1683,6 +1694,7 @@ Ancillary gurkha_instructor
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description gurkha_instructor_desc
     EffectsDescription gurkha_instructor_effects_desc
     Effect TroopMorale  2 
@@ -1693,6 +1705,7 @@ Ancillary cossack_guide
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, mesoamerican, middle_eastern, northern_european, southern_european
     Description cossack_guide_desc
     EffectsDescription cossack_guide_effects_desc
     Effect CavalryCommand  1 
@@ -1703,6 +1716,7 @@ Ancillary zulu_scout
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, middle_eastern, slavic, southern_european
     Description zulu_scout_desc
     EffectsDescription zulu_scout_effects_desc
     Effect LineOfSight  2 
@@ -1713,6 +1727,7 @@ Ancillary bedouin_guide
     Type Court
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, mesoamerican, northern_european, slavic, southern_european
     Description bedouin_guide_desc
     EffectsDescription bedouin_guide_effects_desc
     Effect MovementPoints  2 
@@ -1723,6 +1738,7 @@ Ancillary sikh_drillmaster
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description sikh_drillmaster_desc
     EffectsDescription sikh_drillmaster_effects_desc
     Effect TrainingUnits  1 
@@ -1733,6 +1749,7 @@ Ancillary apache_scout
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic
     Description apache_scout_desc
     EffectsDescription apache_scout_effects_desc
     Effect LineOfSight  2 
@@ -1743,6 +1760,7 @@ Ancillary tibetan_porter
     Type Court
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures mesoamerican, middle_eastern, northern_european, slavic, southern_european
     Description tibetan_porter_desc
     EffectsDescription tibetan_porter_effects_desc
     Effect MovementPoints  2 
@@ -1835,6 +1853,7 @@ Ancillary victoria_cross_recipient
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description victoria_cross_recipient_desc
     EffectsDescription victoria_cross_recipient_effects_desc
     Effect TroopMorale  3 
@@ -1846,6 +1865,7 @@ Ancillary legion_of_honour
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description legion_of_honour_desc
     EffectsDescription legion_of_honour_effects_desc
     Effect TroopMorale  3 
@@ -1857,6 +1877,7 @@ Ancillary iron_cross_hero
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description iron_cross_hero_desc
     EffectsDescription iron_cross_hero_effects_desc
     Effect TroopMorale  3 
@@ -1868,6 +1889,8 @@ Ancillary hero_of_sebastopol
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludedAncillaries veteran_of_the_crimea
+    ExcludeCultures asian, chinese, mesoamerican, southern_european
     Description hero_of_sebastopol_desc
     EffectsDescription hero_of_sebastopol_effects_desc
     Effect TroopMorale  2 
@@ -1878,6 +1901,7 @@ Ancillary hero_of_isandlwana
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, middle_eastern, slavic, southern_european
     Description hero_of_isandlwana_desc
     EffectsDescription hero_of_isandlwana_effects_desc
     Effect TroopMorale  2 
@@ -1888,6 +1912,7 @@ Ancillary hero_of_plevna
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, chinese, mesoamerican, northern_european, southern_european
     Description hero_of_plevna_desc
     EffectsDescription hero_of_plevna_effects_desc
     Effect TroopMorale  2 
@@ -1898,6 +1923,7 @@ Ancillary hero_of_mukden
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, mesoamerican, middle_eastern, northern_european, southern_european
     Description hero_of_mukden_desc
     EffectsDescription hero_of_mukden_effects_desc
     Effect TroopMorale  2 
@@ -1908,6 +1934,8 @@ Ancillary veteran_of_the_crimea
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludedAncillaries hero_of_sebastopol
+    ExcludeCultures asian, chinese, mesoamerican, southern_european
     Description veteran_of_the_crimea_desc
     EffectsDescription veteran_of_the_crimea_effects_desc
     Effect TroopMorale  2 
@@ -1918,6 +1946,7 @@ Ancillary veteran_of_the_taiping_rebellion
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, mesoamerican, middle_eastern, northern_european, slavic, southern_european
     Description veteran_of_the_taiping_rebellion_desc
     EffectsDescription veteran_of_the_taiping_rebellion_effects_desc
     Effect TroopMorale  2 
@@ -1928,6 +1957,7 @@ Ancillary boxer_rebellion_veteran
     Type Military
     Transferable  0 
     Image entertainment_actor.tga
+    ExcludeCultures asian, mesoamerican, middle_eastern, southern_european
     Description boxer_rebellion_veteran_desc
     EffectsDescription boxer_rebellion_veteran_effects_desc
     Effect TroopMorale  2 
@@ -2042,28 +2072,6 @@ Ancillary railway_visionary
     Effect Influence  1 
     Effect Trading  1 
 
-Trigger veteran_sergeant_major_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= army_barracks
-          and Attribute Command > 3
-
-    AcquireAncillary veteran_sergeant_major chance  15 
-
-;------------------------------------------
-Trigger drill_instructor_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= army_barracks
-          and Attribute Command > 2
-
-    AcquireAncillary drill_instructor chance  15 
-
-;------------------------------------------
 Trigger gunnery_officer_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
@@ -2186,17 +2194,6 @@ Trigger pioneer_officer_trig
     AcquireAncillary pioneer_officer chance  12 
 
 ;------------------------------------------
-Trigger veteran_scout_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= army_barracks
-          and Attribute Command > 3
-
-    AcquireAncillary veteran_scout chance  12 
-
-;------------------------------------------
 Trigger telegraph_operator_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
@@ -2218,17 +2215,6 @@ Trigger railway_coordinator_trig
 
     AcquireAncillary railway_coordinator chance  12 
 
-
-;------------------------------------------
-Trigger signal_corps_officer_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= military_academy
-          and Attribute Command > 2
-
-    AcquireAncillary signal_corps_officer chance  12 
 
 ;------------------------------------------
 Trigger sapper_captain_trig
@@ -2952,17 +2938,6 @@ Trigger codebreaker_trig
     AcquireAncillary codebreaker chance  8 
 
 ;------------------------------------------
-Trigger secret_informant_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= thieves_guild
-          and Attribute Command > 2
-
-    AcquireAncillary secret_informant chance  12 
-
-;------------------------------------------
 Trigger local_guide_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
@@ -3077,17 +3052,6 @@ Trigger factory_foreman_trig
     AcquireAncillary factory_foreman chance  12 
 
 ;------------------------------------------
-Trigger mill_owner_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= market
-          and Attribute Command > 2
-
-    AcquireAncillary mill_owner chance  12 
-
-;------------------------------------------
 Trigger steam_mechanic_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
@@ -3099,17 +3063,6 @@ Trigger steam_mechanic_trig
     AcquireAncillary steam_mechanic chance  15 
 
 ;------------------------------------------
-Trigger boiler_engineer_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= armourer
-          and Attribute Command > 2
-
-    AcquireAncillary boiler_engineer chance  12 
-
-;------------------------------------------
 Trigger steelmaster_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
@@ -3119,17 +3072,6 @@ Trigger steelmaster_trig
           and Attribute Command > 3
 
     AcquireAncillary steelmaster chance  10 
-
-;------------------------------------------
-Trigger coal_engineer_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= mines
-          and Attribute Command > 2
-
-    AcquireAncillary coal_engineer chance  12 
 
 ;------------------------------------------
 Trigger railway_surveyor_trig
@@ -3152,17 +3094,6 @@ Trigger harbor_engineer_trig
           and Attribute Command > 3
 
     AcquireAncillary harbor_engineer chance  10 
-
-;------------------------------------------
-Trigger dockmaster_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= port
-          and Attribute Command > 2
-
-    AcquireAncillary dockmaster chance  12 
 
 ;------------------------------------------
 Trigger telegraph_magnate_trig
@@ -3201,28 +3132,12 @@ Trigger gunnery_captain_trig
     AcquireAncillary gunnery_captain chance  20 
 
 ;------------------------------------------
-Trigger admirals_aide_trig
-    WhenToTest AgentCreated
-    Condition IsAdmiral
-          and SettlementBuildingExists >= port
-
-    AcquireAncillary admirals_aide chance  20 
-
-;------------------------------------------
 Trigger naval_engineer_trig
     WhenToTest AgentCreated
     Condition IsAdmiral
           and SettlementBuildingExists >= dockyard
 
     AcquireAncillary naval_engineer chance  15 
-
-;------------------------------------------
-Trigger harbor_pilot_trig
-    WhenToTest AgentCreated
-    Condition IsAdmiral
-          and SettlementBuildingExists >= port
-
-    AcquireAncillary harbor_pilot chance  20 
 
 ;------------------------------------------
 Trigger veteran_helmsman_trig
@@ -3258,17 +3173,6 @@ Trigger merchant_captain_trig
 
 ;------------------------------------------
 
-Trigger askari_veteran_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= army_barracks
-          and Attribute Command > 2
-
-    AcquireAncillary askari_veteran chance  10 
-
-;------------------------------------------
 Trigger gurkha_instructor_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
@@ -3278,17 +3182,6 @@ Trigger gurkha_instructor_trig
           and Attribute Command > 3
 
     AcquireAncillary gurkha_instructor chance  8 
-
-;------------------------------------------
-Trigger boer_tracker_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= army_barracks
-          and Attribute Command > 2
-
-    AcquireAncillary boer_tracker chance  10 
 
 ;------------------------------------------
 Trigger cossack_guide_trig
@@ -3335,17 +3228,6 @@ Trigger sikh_drillmaster_trig
     AcquireAncillary sikh_drillmaster chance  10 
 
 ;------------------------------------------
-Trigger maori_pathfinder_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= army_barracks
-          and Attribute Command > 2
-
-    AcquireAncillary maori_pathfinder chance  10 
-
-;------------------------------------------
 Trigger apache_scout_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
@@ -3368,18 +3250,6 @@ Trigger tibetan_porter_trig
     AcquireAncillary tibetan_porter chance  12 
 
 ;------------------------------------------
-Trigger sherpa_guide_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= mines
-          and Attribute Command > 2
-
-    AcquireAncillary sherpa_guide chance  12 
-
-;------------------------------------------
-
 Trigger antiquarian_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
@@ -3400,17 +3270,6 @@ Trigger linguist_trig
           and Attribute Command > 2
 
     AcquireAncillary linguist chance  10 
-
-;------------------------------------------
-Trigger archaeologist_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and EndedInSettlement
-          and RemainingMPPercentage = 100
-          and SettlementBuildingExists >= alchemy_school
-          and Attribute Command > 2
-
-    AcquireAncillary archaeologist chance  10 
 
 ;------------------------------------------
 Trigger orientalist_trig
@@ -3483,6 +3342,7 @@ Trigger military_theorist_trig
 Trigger victoria_cross_recipient_trig
     WhenToTest PostBattle
     Condition IsGeneral
+          and CharFactionType england
           and WonBattle
           and GeneralFoughtInCombat
           and BattleOdds < 0.4
@@ -3493,6 +3353,7 @@ Trigger victoria_cross_recipient_trig
 Trigger legion_of_honour_trig
     WhenToTest PostBattle
     Condition IsGeneral
+          and CharFactionType france
           and WonBattle
           and GeneralFoughtInCombat
           and BattleOdds < 0.4
@@ -3503,6 +3364,7 @@ Trigger legion_of_honour_trig
 Trigger iron_cross_hero_trig
     WhenToTest PostBattle
     Condition IsGeneral
+          and CharFactionType hre
           and WonBattle
           and GeneralFoughtInCombat
           and BattleOdds < 0.4
@@ -3704,16 +3566,6 @@ Trigger railway_visionary_trig
 ;------------------------------------------
 
 
-Trigger drill_instructor_war_mobilization_trig
-    WhenToTest CharacterTurnEnd
-    Condition IsGeneral
-          and CharFactionType portugala
-          and event_counter american_civil_war 1
-
-    AcquireAncillary drill_instructor chance  25 
-
-;------------------------------------------
-
 Trigger logistics_officer_manifest_destiny_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
@@ -3721,5 +3573,14 @@ Trigger logistics_officer_manifest_destiny_trig
           and event_counter manifest_destiny 1
 
     AcquireAncillary logistics_officer chance  25 
+
+;------------------------------------------
+
+Trigger telegraph_operator_wireless_telegraph_trig
+    WhenToTest CharacterTurnEnd
+    Condition IsGeneral
+          and event_counter wireless_telegraph 1
+
+    AcquireAncillary telegraph_operator chance  20 
 
 ;------------------------------------------
