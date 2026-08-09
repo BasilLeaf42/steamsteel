@@ -9,7 +9,7 @@
 Ancillary academic_advisor
     Type Academic
     Transferable  0 
-    Image academic_scholar.tga
+    Image academic_advisor.tga
     Description academic_advisor_desc
     EffectsDescription academic_advisor_effects_desc
     Effect Trading  5 
@@ -19,7 +19,7 @@ Ancillary academic_advisor
 Ancillary actor
     Type Entertain
     Transferable  0 
-    Image entertainment_actor.tga
+    Image actor.tga
     Description actor_desc
     EffectsDescription actor_effects_desc
     Effect LocalPopularity  1 
@@ -28,7 +28,7 @@ Ancillary actor
 Ancillary adultress
     Type Sex
     Transferable  0 
-    Image sex_expensivewoman.tga
+    Image adultress.tga
     Description adultress_desc
     EffectsDescription adultress_effects_desc
     Effect Chivalry -1 
@@ -40,7 +40,7 @@ Ancillary adultress
 Ancillary adultress_foreign
     Type Sex
     Transferable  0 
-    Image sex_cheapwoman.tga
+    Image adultress_foreign.tga
     Description adultress_foreign_desc
     EffectsDescription adultress_foreign_effects_desc
     Effect Chivalry -1 
@@ -53,7 +53,7 @@ Ancillary adultress_foreign
 Ancillary apothecary
     Type Health
     Transferable  0 
-    Image academic_alchemist.tga
+    Image apothecary.tga
     ExcludedAncillaries astrologer
     Description apothecary_desc
     EffectsDescription apothecary_effects_desc
@@ -64,7 +64,7 @@ Ancillary apothecary
 Ancillary architect
     Type Academic
     Transferable  0 
-    Image civil_master.tga
+    Image architect.tga
     Description architect_desc
     EffectsDescription architect_effects_desc
     Effect Construction  10 
@@ -74,7 +74,7 @@ Ancillary architect
 Ancillary armour_custom
     Type Item
     Transferable  0 
-    Image item_armour.tga
+    Image armour_custom.tga
     ExcludedAncillaries armour_ornate
     Description armour_custom_desc
     EffectsDescription armour_custom_effects_desc
@@ -84,7 +84,7 @@ Ancillary armour_custom
 Ancillary armour_ornate
     Type Item
     Transferable  0 
-    Image item_armour.tga
+    Image armour_ornate.tga
     ExcludedAncillaries armour_custom
     Description armour_ornate_desc
     EffectsDescription armour_ornate_effects_desc
@@ -95,7 +95,7 @@ Ancillary armour_ornate
 Ancillary artist
     Type Entertain
     Transferable  0 
-    Image entertainment_artist.tga
+    Image artist.tga
     Description artist_desc
     EffectsDescription artist_effects_desc
     Effect LocalPopularity  1 
@@ -106,7 +106,7 @@ Ancillary artist
 Ancillary assassins_apprentice
     Type Security
     Transferable  0 
-    Image espionage.tga
+    Image assassins_apprentice.tga
     Description assassins_apprentice_desc
     EffectsDescription assassins_apprentice_effects_desc
     Effect Assassination  1 
@@ -115,7 +115,7 @@ Ancillary assassins_apprentice
 Ancillary assassins_blade
     Type Item
     Transferable  0 
-    Image item_knife.tga
+    Image assassins_blade.tga
     Description assassins_blade_desc
     EffectsDescription assassins_blade_effects_desc
     Effect Assassination  1 
@@ -124,7 +124,7 @@ Ancillary assassins_blade
 Ancillary astrologer
     Type Academic
     Transferable  0 
-    Image academic_scholar.tga
+    Image astrologer.tga
     ExcludedAncillaries apothecary
     Description astrologer_desc
     EffectsDescription astrologer_effects_desc
@@ -135,7 +135,7 @@ Ancillary astrologer
 Ancillary bard
     Type Entertain
     Transferable  0 
-    Image entertainment_bard.tga
+    Image bard.tga
     Description bard_desc
     EffectsDescription bard_effects_desc
     Effect TroopMorale  1 
@@ -145,7 +145,7 @@ Ancillary bard
 Ancillary beguiling_bard
     Type Entertain
     Transferable  0 
-    Image entertainment_bard.tga
+    Image beguiling_bard.tga
     Description beguiling_bard_desc
     EffectsDescription beguiling_bard_effects_desc
     Effect Subterfuge  1 
@@ -155,7 +155,7 @@ Ancillary beguiling_bard
 Ancillary black_stallion
     Type Pet
     Transferable  0 
-    Image animals_horse.tga
+    Image black_stallion.tga
     Description black_stallion_desc
     EffectsDescription black_stallion_effects_desc
     Effect MovementPoints  5 
@@ -164,7 +164,7 @@ Ancillary black_stallion
 Ancillary bodyguard
     Type Security
     Transferable  0 
-    Image security_eliteguard.tga
+    Image bodyguard.tga
     Description bodyguard_desc
     EffectsDescription bodyguard_effects_desc
     Effect PersonalSecurity  2 
@@ -174,7 +174,7 @@ Ancillary bodyguard
 Ancillary caravan_driver
     Type Money
     Transferable  0 
-    Image civil_merchant.tga
+    Image caravan_driver.tga
     Description caravan_driver_desc
     EffectsDescription caravan_driver_effects_desc
     Effect MovementPoints  5 
@@ -184,7 +184,7 @@ Ancillary caravan_driver
 Ancillary chastity_belt
     Type Sex
     Transferable  0 
-    Image item_chastitybelt.tga
+    Image chastity_belt.tga
     Description chastity_belt_desc
     EffectsDescription chastity_belt_effects_desc
     Effect Charm -1 
@@ -194,7 +194,7 @@ Ancillary chastity_belt
 Ancillary courtesan
     Type Sex
     Transferable  0 
-    Image sex_cheapwoman.tga
+    Image courtesan.tga
     Description courtesan_desc
     EffectsDescription courtesan_effects_desc
     Effect Subterfuge  1 
@@ -203,7 +203,7 @@ Ancillary courtesan
 Ancillary crooked_judge
     Type Court
     Transferable  0 
-    Image civil_master.tga
+    Image crooked_judge.tga
     Description crooked_judge_desc
     EffectsDescription crooked_judge_effects_desc
     Effect Unrest  1 
@@ -213,7 +213,7 @@ Ancillary crooked_judge
 Ancillary dancer
     Type Entertain
     Transferable  0 
-    Image sex_cheapwoman.tga
+    Image dancer.tga
     Description dancer_desc
     EffectsDescription dancer_effects_desc
     Effect Subterfuge  2 
@@ -222,7 +222,7 @@ Ancillary dancer
 Ancillary delicate_blade
     Type Item
     Transferable  0 
-    Image item_knife.tga
+    Image delicate_blade.tga
     Description delicate_blade_desc
     EffectsDescription delicate_blade_effects_desc
     Effect PersonalSecurity  1 
@@ -231,7 +231,7 @@ Ancillary delicate_blade
 Ancillary diplomatic_escort
     Type Military
     Transferable  0 
-    Image security_eliteguard.tga
+    Image diplomatic_escort.tga
     Description diplomatic_escort_desc
     EffectsDescription diplomatic_escort_effects_desc
     Effect LineOfSight  1 
@@ -241,7 +241,7 @@ Ancillary diplomatic_escort
 Ancillary doctor
     Type Health
     Transferable  0 
-    Image civil_master.tga
+    Image doctor.tga
     Description doctor_desc
     EffectsDescription doctor_effects_desc
     Effect Fertility  1 
@@ -251,7 +251,7 @@ Ancillary doctor
 Ancillary drillmaster
     Type Military
     Transferable  0 
-    Image warrior_captain.tga
+    Image drillmaster.tga
     Description drillmaster_desc
     EffectsDescription drillmaster_effects_desc
     Effect MovementPoints  5 
@@ -261,7 +261,7 @@ Ancillary drillmaster
 Ancillary eunuch
     Type Court
     Transferable  0 
-    Image court_eunuch.tga
+    Image eunuch.tga
 	ExcludeCultures middle_eastern, northern_european, slavic, mesoamerican, southern_european, asian
     Description eunuch_desc
     EffectsDescription eunuch_effects_desc
@@ -272,7 +272,7 @@ Ancillary eunuch
 Ancillary evil_mother-in-law
     Type Family
     Transferable  0 
-    Image court_elderlylady.tga
+    Image evil_mother-in-law.tga
     Description evil_mother-in-law_desc
     EffectsDescription evil_mother-in-law_effects_desc
     Effect Authority -1 
@@ -282,7 +282,7 @@ Ancillary evil_mother-in-law
 Ancillary explosives
     Type Item
     Transferable  0 
-    Image item_explosive.tga
+    Image explosives.tga
     Description explosives_desc
     EffectsDescription explosives_effects_desc
     Effect Sabotage  1 
@@ -291,7 +291,7 @@ Ancillary explosives
 Ancillary faithful_servant
     Type Security
     Transferable  0 
-    Image court_servant.tga
+    Image faithful_servant.tga
     Description faithful_servant_desc
     EffectsDescription faithful_servant_effects_desc
     Effect Charm  1 
@@ -300,7 +300,7 @@ Ancillary faithful_servant
 Ancillary false_documents
     Type Item
     Transferable  0 
-    Image item_documents.tga
+    Image false_documents.tga
     Description false_documents_desc
     EffectsDescription false_documents_effects_desc
     Effect Subterfuge  1 
@@ -309,7 +309,7 @@ Ancillary false_documents
 Ancillary fool_brilliant
     Type Court
     Transferable  0 
-    Image entertainment_jester.tga
+    Image fool_brilliant.tga
     ExcludedAncillaries master_of_assassins
     Description fool_brilliant_desc
     EffectsDescription fool_brilliant_effects_desc
@@ -320,7 +320,7 @@ Ancillary fool_brilliant
 Ancillary handgun
     Type Item
     Transferable  0 
-    Image item_pistol.tga
+    Image handgun.tga
     Description handgun_desc
     EffectsDescription handgun_effects_desc
     Effect Assassination  1
@@ -330,7 +330,7 @@ Ancillary handgun
 Ancillary herald
     Type Court
     Transferable  0 
-    Image court_noble.tga
+    Image herald.tga
     Description herald_desc
     EffectsDescription herald_effects_desc
     Effect Authority  1 
@@ -339,7 +339,7 @@ Ancillary herald
 Ancillary lancebearer
     Type Security
     Transferable  0 
-    Image warrior_squire.tga
+    Image lancebearer.tga
     Description lancebearer_desc
     EffectsDescription lancebearer_effects_desc
     Effect CavalryCommand  1 
@@ -348,7 +348,7 @@ Ancillary lancebearer
 Ancillary librarian
     Type Academic
     Transferable  0 
-    Image academic_student.tga
+    Image librarian.tga
     Description librarian_desc
     EffectsDescription librarian_effects_desc
     Effect Piety  1 
@@ -357,7 +357,7 @@ Ancillary librarian
 Ancillary magician
     Type Magic
     Transferable  0 
-    Image religious_mysticfigure.tga
+    Image magician.tga
     ExcludeCultures middle_eastern, asian, chinese
     Description magician_desc
     EffectsDescription magician_effects_desc
@@ -368,7 +368,7 @@ Ancillary magician
 Ancillary master_mason
     Type Money
     Transferable  0 
-    Image civil_master.tga
+    Image master_mason.tga
     Description master_mason_desc
     EffectsDescription master_mason_effects_desc
     Effect Construction  10 
@@ -377,7 +377,7 @@ Ancillary master_mason
 Ancillary master_of_assassins
     Type Security
     Transferable  0 
-    Image warrior_naval.tga
+    Image master_of_assassins.tga
     ExcludedAncillaries fool_brilliant
     Description master_of_assassins_desc
     EffectsDescription master_of_assassins_effects_desc
@@ -388,7 +388,7 @@ Ancillary master_of_assassins
 Ancillary mathematician
     Type Money
     Transferable  0 
-    Image academic_scholar.tga
+    Image mathematician.tga
     ExcludedAncillaries tutor
     Description mathematician_desc
     EffectsDescription mathematician_effects_desc
@@ -400,7 +400,7 @@ Ancillary mathematician
 Ancillary mentor
     Type Court
     Transferable  0 
-    Image knight_older.tga
+    Image mentor.tga
     Description mentor_desc
     EffectsDescription mentor_effects_desc
     Effect Piety  2
@@ -409,7 +409,7 @@ Ancillary mentor
 Ancillary nosy_mother
     Type Family
     Transferable  0 
-    Image court_elderlylady.tga
+    Image nosy_mother.tga
     Description nosy_mother_desc
     EffectsDescription nosy_mother_effects_desc
     Effect Authority -1 
@@ -419,7 +419,7 @@ Ancillary nosy_mother
 Ancillary obsessed_suitor
     Type Sex
     Transferable  0 
-    Image sex_yangman.tga
+    Image obsessed_suitor.tga
     Description obsessed_suitor_desc
     EffectsDescription obsessed_suitor_effects_desc
     Effect Charm -1 
@@ -429,7 +429,7 @@ Ancillary obsessed_suitor
 Ancillary ordinance_master
     Type Military
     Transferable  0 
-    Image warrior_militariengineer.tga
+    Image ordinance_master.tga
     Description ordinance_master_desc
     EffectsDescription ordinance_master_effects_desc
     Effect GunpowderCommand  1 
@@ -439,7 +439,7 @@ Ancillary ordinance_master
 Ancillary overseer
     Type Money
     Transferable  0 
-    Image court_noble.tga
+    Image overseer.tga
     Description overseer_desc
     EffectsDescription overseer_effects_desc
     Effect Construction  1 
@@ -450,7 +450,7 @@ Ancillary overseer
 Ancillary pet_bloodhound
     Type Pet
     Transferable  0 
-    Image animals_ward.tga
+    Image pet_bloodhound.tga
     Description pet_bloodhound_desc
     EffectsDescription pet_bloodhound_effects_desc
     Effect Subterfuge  2 
@@ -461,7 +461,7 @@ Ancillary pet_bloodhound
 Ancillary pet_guarddog
     Type Pet
     Transferable  0 
-    Image animals_ward.tga
+    Image pet_guarddog.tga
     Description pet_guarddog_desc
     EffectsDescription pet_guarddog_effects_desc
     Effect PersonalSecurity  2 
@@ -470,7 +470,7 @@ Ancillary pet_guarddog
 Ancillary pet_monkey
     Type Pet
     Transferable  0 
-    Image animals_monkey.tga
+    Image pet_monkey.tga
     Description pet_monkey_desc
     EffectsDescription pet_monkey_effects_desc
     Effect Subterfuge  1 
@@ -479,7 +479,7 @@ Ancillary pet_monkey
 Ancillary poisoner
     Type Politics
     Transferable  0 
-    Image academic_alchemist.tga
+    Image poisoner.tga
     Description poisoner_desc
     EffectsDescription poisoner_effects_desc
     Effect Subterfuge  2 
@@ -488,7 +488,7 @@ Ancillary poisoner
 Ancillary quartermaster
     Type Military
     Transferable  0 
-    Image warrior_captain.tga
+    Image quartermaster.tga
     Description quartermaster_desc
     EffectsDescription quartermaster_effects_desc
     Effect MovementPoints  3 
@@ -498,7 +498,7 @@ Ancillary quartermaster
 Ancillary scout
     Type Military
     Transferable  0 
-    Image warrior_woodsman.tga
+    Image scout.tga
     Description scout_desc
     EffectsDescription scout_effects_desc
     Effect Ambush  1 
@@ -508,7 +508,7 @@ Ancillary scout
 Ancillary shipwright
     Type Naval
     Transferable  0 
-    Image civil_master.tga
+    Image shipwright.tga
     Description shipwright_desc
     EffectsDescription shipwright_effects_desc
     Effect NavalCommand  1 
@@ -517,7 +517,7 @@ Ancillary shipwright
 Ancillary siege_engineer
     Type Military
     Transferable  0 
-    Image warrior_militariengineer.tga
+    Image siege_engineer.tga
     Description siege_engineer_desc
     EffectsDescription siege_engineer_effects_desc
     Effect SiegeAttack  1 
@@ -527,7 +527,7 @@ Ancillary siege_engineer
 Ancillary slaver
     Type Money
     Transferable  0 
-    Image court_eunuch.tga
+    Image slaver.tga
     ExcludeCultures northern_european, slavic, mesoamerican, southern_european, chinese
     Description slaver_desc
     EffectsDescription slaver_effects_desc
@@ -537,7 +537,7 @@ Ancillary slaver
 Ancillary spyglass
     Type Item
     Transferable  0 
-    Image item_spyglass.tga
+    Image spyglass.tga
     Description spyglass_desc
     EffectsDescription spyglass_effects_desc
     Effect LineOfSight  2 
@@ -546,7 +546,7 @@ Ancillary spyglass
 Ancillary stunning_handmaiden
     Type Sex
     Transferable  0 
-    Image sex_expensivewoman.tga
+    Image stunning_handmaiden.tga
     Description stunning_handmaiden_desc
     EffectsDescription stunning_handmaiden_effects_desc
     Effect Charm -1 
@@ -555,7 +555,7 @@ Ancillary stunning_handmaiden
 Ancillary swift_steed
     Type Pet
     Transferable  0 
-    Image animals_horse.tga
+    Image swift_steed.tga
     Description swift_steed_desc
     EffectsDescription swift_steed_effects_desc
     Effect MovementPoints  3 
@@ -565,7 +565,7 @@ Ancillary swift_steed
 Ancillary tax_farmer
     Type Money
     Transferable  0 
-    Image civil_admin.tga
+    Image tax_farmer.tga
     ExcludedAncillaries treasurer
     Description tax_farmer_desc
     EffectsDescription tax_farmer_effects_desc
@@ -576,7 +576,7 @@ Ancillary tax_farmer
 Ancillary torturer
     Type Court
     Transferable  0 
-    Image court_executioner.tga
+    Image torturer.tga
     Description torturer_desc
     EffectsDescription torturer_effects_desc
     Effect Chivalry -3 
@@ -589,7 +589,7 @@ Ancillary torturer
 Ancillary translator
     Type Diplomacy
     Transferable  0 
-    Image civil_admin.tga
+    Image translator.tga
     Description translator_desc
     EffectsDescription translator_effects_desc
     Effect Influence  2 
@@ -598,7 +598,7 @@ Ancillary translator
 Ancillary treasurer
     Type Money
     Transferable  0 
-    Image civil_admin.tga
+    Image treasurer.tga
     ExcludedAncillaries tax_farmer
     Description treasurer_desc
     EffectsDescription treasurer_effects_desc
@@ -609,7 +609,7 @@ Ancillary treasurer
 Ancillary trick_abacus
     Type Item
     Transferable  0 
-    Image item_abacus.tga
+    Image trick_abacus.tga
     Description trick_abacus_desc
     EffectsDescription trick_abacus_effects_desc
     Effect Finance  1 
@@ -618,7 +618,7 @@ Ancillary trick_abacus
 Ancillary trusty_steed
     Type Pet
     Transferable  0 
-    Image animals_horse.tga
+    Image trusty_steed.tga
     Description trusty_steed_desc
     EffectsDescription trusty_steed_effects_desc
     Effect MovementPoints  1 
@@ -628,7 +628,7 @@ Ancillary trusty_steed
 Ancillary tutor
     Type Academic
     Transferable  0 
-    Image academic_scholar.tga
+    Image tutor.tga
     ExcludedAncillaries mathematician
     Description tutor_desc
     EffectsDescription tutor_effects_desc
@@ -639,7 +639,7 @@ Ancillary tutor
 Ancillary yappy_little_dog
     Type Pet
     Transferable  0 
-    Image animals_yappylittledog.tga
+    Image yappy_little_dog.tga
     Description yappy_little_dog_desc
     EffectsDescription yappy_little_dog_effects_desc
     Effect Charm -1 
@@ -652,7 +652,7 @@ Ancillary yappy_little_dog
 Ancillary campaign_cartographer
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image campaign_cartographer.tga
     Description campaign_cartographer_desc
     EffectsDescription campaign_cartographer_effects_desc
     Effect MovementPoints  1 
@@ -662,7 +662,7 @@ Ancillary campaign_cartographer
 Ancillary brigade_adjutant
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image brigade_adjutant.tga
     Description brigade_adjutant_desc
     EffectsDescription brigade_adjutant_effects_desc
     Effect Command  1 
@@ -672,7 +672,7 @@ Ancillary brigade_adjutant
 Ancillary gunnery_officer
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image gunnery_officer.tga
     Description gunnery_officer_desc
     EffectsDescription gunnery_officer_effects_desc
     Effect ArtilleryCommand  2 
@@ -681,7 +681,7 @@ Ancillary gunnery_officer
 Ancillary cavalry_instructor
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image cavalry_instructor.tga
     Description cavalry_instructor_desc
     EffectsDescription cavalry_instructor_effects_desc
     Effect CavalryCommand  2 
@@ -690,7 +690,7 @@ Ancillary cavalry_instructor
 Ancillary pioneer_officer
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image pioneer_officer.tga
     Description pioneer_officer_desc
     EffectsDescription pioneer_officer_effects_desc
     Effect SiegeEngineering  40 
@@ -700,7 +700,7 @@ Ancillary pioneer_officer
 Ancillary logistics_officer
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image logistics_officer.tga
     Description logistics_officer_desc
     EffectsDescription logistics_officer_effects_desc
     Effect MovementPoints  2 
@@ -710,7 +710,7 @@ Ancillary logistics_officer
 Ancillary balloon_observer
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image balloon_observer.tga
     Description balloon_observer_desc
     EffectsDescription balloon_observer_effects_desc
     Effect LineOfSight  2 
@@ -720,7 +720,7 @@ Ancillary balloon_observer
 Ancillary telegraph_operator
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image telegraph_operator.tga
     Description telegraph_operator_desc
     EffectsDescription telegraph_operator_effects_desc
     Effect Command  1 
@@ -730,7 +730,7 @@ Ancillary telegraph_operator
 Ancillary railway_coordinator
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image railway_coordinator.tga
     Description railway_coordinator_desc
     EffectsDescription railway_coordinator_effects_desc
     Effect MovementPoints  4 
@@ -739,7 +739,7 @@ Ancillary railway_coordinator
 Ancillary combat_engineer
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image combat_engineer.tga
     Description combat_engineer_desc
     EffectsDescription combat_engineer_effects_desc
     Effect SiegeEngineering  30 
@@ -749,7 +749,7 @@ Ancillary combat_engineer
 Ancillary sapper_captain
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image sapper_captain.tga
     Description sapper_captain_desc
     EffectsDescription sapper_captain_effects_desc
     Effect SiegeAttack  2 
@@ -758,7 +758,7 @@ Ancillary sapper_captain
 Ancillary naval_liaison
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image naval_liaison.tga
     Description naval_liaison_desc
     EffectsDescription naval_liaison_effects_desc
     Effect NavalCommand  1 
@@ -768,7 +768,7 @@ Ancillary naval_liaison
 Ancillary staff_college_graduate
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image staff_college_graduate.tga
     Description staff_college_graduate_desc
     EffectsDescription staff_college_graduate_effects_desc
     Effect Command  2 
@@ -777,7 +777,7 @@ Ancillary staff_college_graduate
 Ancillary intelligence_officer
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image intelligence_officer.tga
     Description intelligence_officer_desc
     EffectsDescription intelligence_officer_effects_desc
     Effect LineOfSight  1 
@@ -790,7 +790,7 @@ Ancillary intelligence_officer
 Ancillary steam_engineer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image steam_engineer.tga
     Description steam_engineer_desc
     EffectsDescription steam_engineer_effects_desc
     Effect Construction  5 
@@ -800,7 +800,7 @@ Ancillary steam_engineer
 Ancillary mechanical_engineer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image mechanical_engineer.tga
     Description mechanical_engineer_desc
     EffectsDescription mechanical_engineer_effects_desc
     Effect Construction  5 
@@ -810,7 +810,7 @@ Ancillary mechanical_engineer
 Ancillary metallurgist
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image metallurgist.tga
     Description metallurgist_desc
     EffectsDescription metallurgist_effects_desc
     Effect Mining  10 
@@ -820,7 +820,7 @@ Ancillary metallurgist
 Ancillary chemist
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image chemist.tga
     Description chemist_desc
     EffectsDescription chemist_effects_desc
     Effect GunpowderCommand  2 
@@ -829,7 +829,7 @@ Ancillary chemist
 Ancillary ballistics_expert
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image ballistics_expert.tga
     Description ballistics_expert_desc
     EffectsDescription ballistics_expert_effects_desc
     Effect ArtilleryCommand  2 
@@ -838,7 +838,7 @@ Ancillary ballistics_expert
 Ancillary telegraph_engineer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image telegraph_engineer.tga
     Description telegraph_engineer_desc
     EffectsDescription telegraph_engineer_effects_desc
     Effect Trading  5 
@@ -848,7 +848,7 @@ Ancillary telegraph_engineer
 Ancillary locomotive_designer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image locomotive_designer.tga
     Description locomotive_designer_desc
     EffectsDescription locomotive_designer_effects_desc
     Effect MovementPoints  2 
@@ -858,7 +858,7 @@ Ancillary locomotive_designer
 Ancillary naval_architect
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image naval_architect.tga
     Description naval_architect_desc
     EffectsDescription naval_architect_effects_desc
     Effect NavalCommand  2 
@@ -867,7 +867,7 @@ Ancillary naval_architect
 Ancillary electrical_pioneer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image electrical_pioneer.tga
     Description electrical_pioneer_desc
     EffectsDescription electrical_pioneer_effects_desc
     Effect Trading  5 
@@ -877,7 +877,7 @@ Ancillary electrical_pioneer
 Ancillary industrial_magnate
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image industrial_magnate.tga
     Description industrial_magnate_desc
     EffectsDescription industrial_magnate_effects_desc
     Effect Trading  10 
@@ -890,7 +890,7 @@ Ancillary industrial_magnate
 Ancillary visionary_inventor
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image visionary_inventor.tga
     Description visionary_inventor_desc
     EffectsDescription visionary_inventor_effects_desc
     Effect SiegeEngineering  50 
@@ -901,7 +901,7 @@ Ancillary visionary_inventor
 Ancillary experimental_aviator
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image experimental_aviator.tga
     Description experimental_aviator_desc
     EffectsDescription experimental_aviator_effects_desc
     Effect LineOfSight  2 
@@ -911,7 +911,7 @@ Ancillary experimental_aviator
 Ancillary airship_designer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image airship_designer.tga
     Description airship_designer_desc
     EffectsDescription airship_designer_effects_desc
     Effect Construction  10 
@@ -921,7 +921,7 @@ Ancillary airship_designer
 Ancillary maxim_gun_consultant
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image maxim_gun_consultant.tga
     Description maxim_gun_consultant_desc
     EffectsDescription maxim_gun_consultant_effects_desc
     Effect GunpowderCommand  3 
@@ -930,7 +930,7 @@ Ancillary maxim_gun_consultant
 Ancillary diesel_pioneer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image diesel_pioneer.tga
     Description diesel_pioneer_desc
     EffectsDescription diesel_pioneer_effects_desc
     Effect MovementPoints  2 
@@ -943,7 +943,7 @@ Ancillary diesel_pioneer
 Ancillary arctic_explorer
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image arctic_explorer.tga
     Description arctic_explorer_desc
     EffectsDescription arctic_explorer_effects_desc
     Effect MovementPoints  2 
@@ -953,7 +953,7 @@ Ancillary arctic_explorer
 Ancillary african_explorer
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image african_explorer.tga
     Description african_explorer_desc
     EffectsDescription african_explorer_effects_desc
     Effect MovementPoints  2 
@@ -963,7 +963,7 @@ Ancillary african_explorer
 Ancillary himalayan_mountaineer
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image himalayan_mountaineer.tga
     Description himalayan_mountaineer_desc
     EffectsDescription himalayan_mountaineer_effects_desc
     Effect MovementPoints  1 
@@ -973,7 +973,7 @@ Ancillary himalayan_mountaineer
 Ancillary royal_geographer
     Type Diplomacy
     Transferable  0 
-    Image entertainment_actor.tga
+    Image royal_geographer.tga
     Description royal_geographer_desc
     EffectsDescription royal_geographer_effects_desc
     Effect LineOfSight  2 
@@ -983,7 +983,7 @@ Ancillary royal_geographer
 Ancillary cartographer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image cartographer.tga
     Description cartographer_desc
     EffectsDescription cartographer_effects_desc
     Effect LineOfSight  2 
@@ -992,7 +992,7 @@ Ancillary cartographer
 Ancillary naturalist
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image naturalist.tga
     Description naturalist_desc
     EffectsDescription naturalist_effects_desc
     Effect LineOfSight  1 
@@ -1002,7 +1002,7 @@ Ancillary naturalist
 Ancillary big_game_hunter
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image big_game_hunter.tga
     Description big_game_hunter_desc
     EffectsDescription big_game_hunter_effects_desc
     Effect TroopMorale  1 
@@ -1015,7 +1015,7 @@ Ancillary big_game_hunter
 Ancillary livingstone_expedition_veteran
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image livingstone_expedition_veteran.tga
     Description livingstone_expedition_veteran_desc
     EffectsDescription livingstone_expedition_veteran_effects_desc
     Effect MovementPoints  3 
@@ -1026,7 +1026,7 @@ Ancillary livingstone_expedition_veteran
 Ancillary polar_expedition_survivor
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image polar_expedition_survivor.tga
     Description polar_expedition_survivor_desc
     EffectsDescription polar_expedition_survivor_effects_desc
     Effect MovementPoints  2 
@@ -1037,7 +1037,7 @@ Ancillary polar_expedition_survivor
 Ancillary silk_road_explorer
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image silk_road_explorer.tga
     Description silk_road_explorer_desc
     EffectsDescription silk_road_explorer_effects_desc
     Effect Trading  10 
@@ -1051,7 +1051,7 @@ Ancillary silk_road_explorer
 Ancillary colonial_secretary
     Type Politics
     Transferable  0 
-    Image entertainment_actor.tga
+    Image colonial_secretary.tga
     Description colonial_secretary_desc
     EffectsDescription colonial_secretary_effects_desc
     Effect Authority  2 
@@ -1061,7 +1061,7 @@ Ancillary colonial_secretary
 Ancillary district_commissioner
     Type Politics
     Transferable  0 
-    Image entertainment_actor.tga
+    Image district_commissioner.tga
     Description district_commissioner_desc
     EffectsDescription district_commissioner_effects_desc
     Effect Law  2 
@@ -1071,7 +1071,7 @@ Ancillary district_commissioner
 Ancillary customs_officer
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image customs_officer.tga
     Description customs_officer_desc
     EffectsDescription customs_officer_effects_desc
     Effect TaxCollection  10 
@@ -1080,7 +1080,7 @@ Ancillary customs_officer
 Ancillary census_official
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image census_official.tga
     Description census_official_desc
     EffectsDescription census_official_effects_desc
     Effect TaxCollection  5 
@@ -1090,7 +1090,7 @@ Ancillary census_official
 Ancillary railway_commissioner
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image railway_commissioner.tga
     Description railway_commissioner_desc
     EffectsDescription railway_commissioner_effects_desc
     Effect Construction  10 
@@ -1100,7 +1100,7 @@ Ancillary railway_commissioner
 Ancillary telegraph_superintendent
     Type Politics
     Transferable  0 
-    Image entertainment_actor.tga
+    Image telegraph_superintendent.tga
     Description telegraph_superintendent_desc
     EffectsDescription telegraph_superintendent_effects_desc
     Effect Law  1 
@@ -1110,7 +1110,7 @@ Ancillary telegraph_superintendent
 Ancillary civil_engineer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image civil_engineer.tga
     Description civil_engineer_desc
     EffectsDescription civil_engineer_effects_desc
     Effect Construction  10 
@@ -1120,7 +1120,7 @@ Ancillary civil_engineer
 Ancillary provincial_governor
     Type Politics
     Transferable  0 
-    Image entertainment_actor.tga
+    Image provincial_governor.tga
     Description provincial_governor_desc
     EffectsDescription provincial_governor_effects_desc
     Effect Authority  2 
@@ -1134,7 +1134,7 @@ Ancillary provincial_governor
 Ancillary railway_baron
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image railway_baron.tga
     Description railway_baron_desc
     EffectsDescription railway_baron_effects_desc
     Effect Trading  10 
@@ -1144,7 +1144,7 @@ Ancillary railway_baron
 Ancillary banker
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image banker.tga
     Description banker_desc
     EffectsDescription banker_effects_desc
     Effect Finance  3 
@@ -1153,7 +1153,7 @@ Ancillary banker
 Ancillary shipping_tycoon
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image shipping_tycoon.tga
     Description shipping_tycoon_desc
     EffectsDescription shipping_tycoon_effects_desc
     Effect Trading  10 
@@ -1163,7 +1163,7 @@ Ancillary shipping_tycoon
 Ancillary merchant_prince
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image merchant_prince.tga
     Description merchant_prince_desc
     EffectsDescription merchant_prince_effects_desc
     Effect Trading  10 
@@ -1173,7 +1173,7 @@ Ancillary merchant_prince
 Ancillary rubber_planter
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image rubber_planter.tga
     Description rubber_planter_desc
     EffectsDescription rubber_planter_effects_desc
     Effect Farming  5 
@@ -1183,7 +1183,7 @@ Ancillary rubber_planter
 Ancillary diamond_prospector
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image diamond_prospector.tga
     Description diamond_prospector_desc
     EffectsDescription diamond_prospector_effects_desc
     Effect Mining  10 
@@ -1193,7 +1193,7 @@ Ancillary diamond_prospector
 Ancillary gold_prospector
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image gold_prospector.tga
     Description gold_prospector_desc
     EffectsDescription gold_prospector_effects_desc
     Effect Mining  10 
@@ -1203,7 +1203,7 @@ Ancillary gold_prospector
 Ancillary coal_mine_owner
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image coal_mine_owner.tga
     Description coal_mine_owner_desc
     EffectsDescription coal_mine_owner_effects_desc
     Effect Mining  10 
@@ -1213,7 +1213,7 @@ Ancillary coal_mine_owner
 Ancillary missionary
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image missionary.tga
     ExcludeCultures mesoamerican, middle_eastern, asian, chinese
     Description missionary_desc
     EffectsDescription missionary_effects_desc
@@ -1223,7 +1223,7 @@ Ancillary missionary
 Ancillary jesuit_scholar
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image jesuit_scholar.tga
     ExcludeCultures mesoamerican, middle_eastern, asian, chinese, slavic
     Description jesuit_scholar_desc
     EffectsDescription jesuit_scholar_effects_desc
@@ -1234,7 +1234,7 @@ Ancillary jesuit_scholar
 Ancillary anglican_chaplain
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image anglican_chaplain.tga
     ExcludeCultures mesoamerican, middle_eastern, asian, southern_european, chinese, slavic
     Description anglican_chaplain_desc
     EffectsDescription anglican_chaplain_effects_desc
@@ -1245,7 +1245,7 @@ Ancillary anglican_chaplain
 Ancillary orthodox_bishop
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image orthodox_bishop.tga
     ExcludeCultures mesoamerican, middle_eastern, asian, northern_european, chinese
     Description orthodox_bishop_desc
     EffectsDescription orthodox_bishop_effects_desc
@@ -1256,7 +1256,7 @@ Ancillary orthodox_bishop
 Ancillary buddhist_lama
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image buddhist_lama.tga
     ExcludeCultures mesoamerican, middle_eastern, northern_european, southern_european, slavic
     Description buddhist_lama_desc
     EffectsDescription buddhist_lama_effects_desc
@@ -1267,7 +1267,7 @@ Ancillary buddhist_lama
 Ancillary hindu_guru
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image hindu_guru.tga
     ExcludeCultures mesoamerican, middle_eastern, northern_european, southern_european, chinese, slavic
     Description hindu_guru_desc
     EffectsDescription hindu_guru_effects_desc
@@ -1278,7 +1278,7 @@ Ancillary hindu_guru
 Ancillary sikh_granthi
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image sikh_granthi.tga
     ExcludeCultures mesoamerican, middle_eastern, northern_european, southern_european, chinese, slavic
     Description sikh_granthi_desc
     EffectsDescription sikh_granthi_effects_desc
@@ -1289,7 +1289,7 @@ Ancillary sikh_granthi
 Ancillary sufi_mystic
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image sufi_mystic.tga
     ExcludeCultures mesoamerican, northern_european, southern_european, chinese, slavic
     Description sufi_mystic_desc
     EffectsDescription sufi_mystic_effects_desc
@@ -1300,7 +1300,7 @@ Ancillary sufi_mystic
 Ancillary islamic_jurist
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image islamic_jurist.tga
     ExcludeCultures mesoamerican, northern_european, southern_european, chinese, slavic
     Description islamic_jurist_desc
     EffectsDescription islamic_jurist_effects_desc
@@ -1311,7 +1311,7 @@ Ancillary islamic_jurist
 Ancillary temple_caretaker
     Type Religion
     Transferable  0 
-    Image entertainment_actor.tga
+    Image temple_caretaker.tga
     Description temple_caretaker_desc
     EffectsDescription temple_caretaker_effects_desc
     Effect Piety  1 
@@ -1324,7 +1324,7 @@ Ancillary temple_caretaker
 Ancillary noble_patron
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image noble_patron.tga
     Description noble_patron_desc
     EffectsDescription noble_patron_effects_desc
     Effect Influence  1 
@@ -1334,7 +1334,7 @@ Ancillary noble_patron
 Ancillary decorated_veteran
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image decorated_veteran.tga
     ExcludedAncillaries war_hero
     Description decorated_veteran_desc
     EffectsDescription decorated_veteran_effects_desc
@@ -1345,7 +1345,7 @@ Ancillary decorated_veteran
 Ancillary war_hero
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image war_hero.tga
     ExcludedAncillaries decorated_veteran
     Description war_hero_desc
     EffectsDescription war_hero_effects_desc
@@ -1356,7 +1356,7 @@ Ancillary war_hero
 Ancillary influential_politician
     Type Politics
     Transferable  0 
-    Image entertainment_actor.tga
+    Image influential_politician.tga
     Description influential_politician_desc
     EffectsDescription influential_politician_effects_desc
     Effect Authority  1 
@@ -1366,7 +1366,7 @@ Ancillary influential_politician
 Ancillary parliamentarian
     Type Politics
     Transferable  0 
-    Image entertainment_actor.tga
+    Image parliamentarian.tga
     Description parliamentarian_desc
     EffectsDescription parliamentarian_effects_desc
     Effect Law  1 
@@ -1376,7 +1376,7 @@ Ancillary parliamentarian
 Ancillary royal_favourite
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image royal_favourite.tga
     Description royal_favourite_desc
     EffectsDescription royal_favourite_effects_desc
     Effect Authority  1 
@@ -1386,7 +1386,7 @@ Ancillary royal_favourite
 Ancillary court_chamberlain
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image court_chamberlain.tga
     Description court_chamberlain_desc
     EffectsDescription court_chamberlain_effects_desc
     Effect Authority  1 
@@ -1396,7 +1396,7 @@ Ancillary court_chamberlain
 Ancillary governor_general
     Type Politics
     Transferable  0 
-    Image entertainment_actor.tga
+    Image governor_general.tga
     Description governor_general_desc
     EffectsDescription governor_general_effects_desc
     Effect Authority  3 
@@ -1407,7 +1407,7 @@ Ancillary governor_general
 Ancillary ambassador_extraordinary
     Type Diplomacy
     Transferable  0 
-    Image entertainment_actor.tga
+    Image ambassador_extraordinary.tga
     Description ambassador_extraordinary_desc
     EffectsDescription ambassador_extraordinary_effects_desc
     Effect Influence  3 
@@ -1420,7 +1420,7 @@ Ancillary ambassador_extraordinary
 Ancillary foreign_attache
     Type Diplomacy
     Transferable  0 
-    Image entertainment_actor.tga
+    Image foreign_attache.tga
     Description foreign_attache_desc
     EffectsDescription foreign_attache_effects_desc
     Effect Influence  1 
@@ -1430,7 +1430,7 @@ Ancillary foreign_attache
 Ancillary cipher_expert
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image cipher_expert.tga
     Description cipher_expert_desc
     EffectsDescription cipher_expert_effects_desc
     Effect Subterfuge  2 
@@ -1439,7 +1439,7 @@ Ancillary cipher_expert
 Ancillary codebreaker
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image codebreaker.tga
     Description codebreaker_desc
     EffectsDescription codebreaker_effects_desc
     Effect Subterfuge  2 
@@ -1449,7 +1449,7 @@ Ancillary codebreaker
 Ancillary local_guide
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image local_guide.tga
     Description local_guide_desc
     EffectsDescription local_guide_effects_desc
     Effect LineOfSight  1 
@@ -1459,7 +1459,7 @@ Ancillary local_guide
 Ancillary smuggler
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image smuggler.tga
     Description smuggler_desc
     EffectsDescription smuggler_effects_desc
     Effect Subterfuge  1 
@@ -1469,7 +1469,7 @@ Ancillary smuggler
 Ancillary arms_dealer
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image arms_dealer.tga
     Description arms_dealer_desc
     EffectsDescription arms_dealer_effects_desc
     Effect GunpowderCommand  1 
@@ -1479,7 +1479,7 @@ Ancillary arms_dealer
 Ancillary revolutionary_sympathizer
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image revolutionary_sympathizer.tga
     Description revolutionary_sympathizer_desc
     EffectsDescription revolutionary_sympathizer_effects_desc
     Effect Subterfuge  1 
@@ -1489,7 +1489,7 @@ Ancillary revolutionary_sympathizer
 Ancillary double_agent
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image double_agent.tga
     Description double_agent_desc
     EffectsDescription double_agent_effects_desc
     Effect Subterfuge  2 
@@ -1499,7 +1499,7 @@ Ancillary double_agent
 Ancillary great_game_operative
     Type Diplomacy
     Transferable  0 
-    Image entertainment_actor.tga
+    Image great_game_operative.tga
     Description great_game_operative_desc
     EffectsDescription great_game_operative_effects_desc
     Effect Influence  1 
@@ -1512,7 +1512,7 @@ Ancillary great_game_operative
 Ancillary master_spy
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image master_spy.tga
     Description master_spy_desc
     EffectsDescription master_spy_effects_desc
     Effect Command  1 
@@ -1523,7 +1523,7 @@ Ancillary master_spy
 Ancillary invisible_network
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image invisible_network.tga
     Description invisible_network_desc
     EffectsDescription invisible_network_effects_desc
     Effect Subterfuge  3 
@@ -1533,7 +1533,7 @@ Ancillary invisible_network
 Ancillary veteran_intelligence_chief
     Type Security
     Transferable  0 
-    Image entertainment_actor.tga
+    Image veteran_intelligence_chief.tga
     Description veteran_intelligence_chief_desc
     EffectsDescription veteran_intelligence_chief_effects_desc
     Effect Command  1 
@@ -1547,7 +1547,7 @@ Ancillary veteran_intelligence_chief
 Ancillary factory_foreman
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image factory_foreman.tga
     Description factory_foreman_desc
     EffectsDescription factory_foreman_effects_desc
     Effect Construction  5 
@@ -1557,7 +1557,7 @@ Ancillary factory_foreman
 Ancillary steam_mechanic
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image steam_mechanic.tga
     Description steam_mechanic_desc
     EffectsDescription steam_mechanic_effects_desc
     Effect Construction  1 
@@ -1567,7 +1567,7 @@ Ancillary steam_mechanic
 Ancillary steelmaster
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image steelmaster.tga
     Description steelmaster_desc
     EffectsDescription steelmaster_effects_desc
     Effect Mining  10 
@@ -1577,7 +1577,7 @@ Ancillary steelmaster
 Ancillary railway_surveyor
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image railway_surveyor.tga
     Description railway_surveyor_desc
     EffectsDescription railway_surveyor_effects_desc
     Effect MovementPoints  1 
@@ -1587,7 +1587,7 @@ Ancillary railway_surveyor
 Ancillary harbor_engineer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image harbor_engineer.tga
     Description harbor_engineer_desc
     EffectsDescription harbor_engineer_effects_desc
     Effect Construction  10 
@@ -1597,7 +1597,7 @@ Ancillary harbor_engineer
 Ancillary telegraph_magnate
     Type Money
     Transferable  0 
-    Image entertainment_actor.tga
+    Image telegraph_magnate.tga
     Description telegraph_magnate_desc
     EffectsDescription telegraph_magnate_effects_desc
     Effect Trading  10 
@@ -1610,7 +1610,7 @@ Ancillary telegraph_magnate
 Ancillary master_navigator
     Type Naval
     Transferable  0 
-    Image entertainment_actor.tga
+    Image master_navigator.tga
     Description master_navigator_desc
     EffectsDescription master_navigator_effects_desc
     Effect NavalCommand  1 
@@ -1621,7 +1621,7 @@ Ancillary master_navigator
 Ancillary marine_officer
     Type Naval
     Transferable  0 
-    Image entertainment_actor.tga
+    Image marine_officer.tga
     Description marine_officer_desc
     EffectsDescription marine_officer_effects_desc
     Effect NavalCommand  1 
@@ -1631,7 +1631,7 @@ Ancillary marine_officer
 Ancillary gunnery_captain
     Type Naval
     Transferable  0 
-    Image entertainment_actor.tga
+    Image gunnery_captain.tga
     Description gunnery_captain_desc
     EffectsDescription gunnery_captain_effects_desc
     Effect NavalCommand  2 
@@ -1640,7 +1640,7 @@ Ancillary gunnery_captain
 Ancillary naval_engineer
     Type Naval
     Transferable  0 
-    Image entertainment_actor.tga
+    Image naval_engineer.tga
     Description naval_engineer_desc
     EffectsDescription naval_engineer_effects_desc
     Effect NavalCommand  1 
@@ -1650,7 +1650,7 @@ Ancillary naval_engineer
 Ancillary veteran_helmsman
     Type Naval
     Transferable  0 
-    Image entertainment_actor.tga
+    Image veteran_helmsman.tga
     Description veteran_helmsman_desc
     EffectsDescription veteran_helmsman_effects_desc
     Effect NavalCommand  1 
@@ -1660,7 +1660,7 @@ Ancillary veteran_helmsman
 Ancillary convoy_commander
     Type Naval
     Transferable  0 
-    Image entertainment_actor.tga
+    Image convoy_commander.tga
     Description convoy_commander_desc
     EffectsDescription convoy_commander_effects_desc
     Effect NavalCommand  2 
@@ -1670,7 +1670,7 @@ Ancillary convoy_commander
 Ancillary arctic_navigator
     Type Naval
     Transferable  0 
-    Image entertainment_actor.tga
+    Image arctic_navigator.tga
     Description arctic_navigator_desc
     EffectsDescription arctic_navigator_effects_desc
     Effect NavalCommand  1 
@@ -1680,7 +1680,7 @@ Ancillary arctic_navigator
 Ancillary merchant_captain
     Type Naval
     Transferable  0 
-    Image entertainment_actor.tga
+    Image merchant_captain.tga
     Description merchant_captain_desc
     EffectsDescription merchant_captain_effects_desc
     Effect NavalCommand  1 
@@ -1693,7 +1693,7 @@ Ancillary merchant_captain
 Ancillary gurkha_instructor
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image gurkha_instructor.tga
     ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description gurkha_instructor_desc
     EffectsDescription gurkha_instructor_effects_desc
@@ -1704,7 +1704,7 @@ Ancillary gurkha_instructor
 Ancillary cossack_guide
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image cossack_guide.tga
     ExcludeCultures asian, chinese, mesoamerican, middle_eastern, northern_european, southern_european
     Description cossack_guide_desc
     EffectsDescription cossack_guide_effects_desc
@@ -1715,7 +1715,7 @@ Ancillary cossack_guide
 Ancillary zulu_scout
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image zulu_scout.tga
     ExcludeCultures asian, chinese, middle_eastern, slavic, southern_european
     Description zulu_scout_desc
     EffectsDescription zulu_scout_effects_desc
@@ -1726,7 +1726,7 @@ Ancillary zulu_scout
 Ancillary bedouin_guide
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image bedouin_guide.tga
     ExcludeCultures asian, chinese, mesoamerican, northern_european, slavic, southern_european
     Description bedouin_guide_desc
     EffectsDescription bedouin_guide_effects_desc
@@ -1737,7 +1737,7 @@ Ancillary bedouin_guide
 Ancillary sikh_drillmaster
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image sikh_drillmaster.tga
     ExcludeCultures chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description sikh_drillmaster_desc
     EffectsDescription sikh_drillmaster_effects_desc
@@ -1748,7 +1748,7 @@ Ancillary sikh_drillmaster
 Ancillary apache_scout
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image apache_scout.tga
     ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic
     Description apache_scout_desc
     EffectsDescription apache_scout_effects_desc
@@ -1759,7 +1759,7 @@ Ancillary apache_scout
 Ancillary tibetan_porter
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image tibetan_porter.tga
     ExcludeCultures mesoamerican, middle_eastern, northern_european, slavic, southern_european
     Description tibetan_porter_desc
     EffectsDescription tibetan_porter_effects_desc
@@ -1769,7 +1769,7 @@ Ancillary tibetan_porter
 Ancillary antiquarian
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image antiquarian.tga
     Description antiquarian_desc
     EffectsDescription antiquarian_effects_desc
     Effect Authority  1 
@@ -1779,7 +1779,7 @@ Ancillary antiquarian
 Ancillary linguist
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image linguist.tga
     Description linguist_desc
     EffectsDescription linguist_effects_desc
     Effect Influence  1 
@@ -1789,7 +1789,7 @@ Ancillary linguist
 Ancillary orientalist
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image orientalist.tga
     Description orientalist_desc
     EffectsDescription orientalist_effects_desc
     Effect Influence  1 
@@ -1799,7 +1799,7 @@ Ancillary orientalist
 Ancillary ethnographer
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image ethnographer.tga
     Description ethnographer_desc
     EffectsDescription ethnographer_effects_desc
     Effect LocalPopularity  1 
@@ -1809,7 +1809,7 @@ Ancillary ethnographer
 Ancillary museum_curator
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image museum_curator.tga
     Description museum_curator_desc
     EffectsDescription museum_curator_effects_desc
     Effect Authority  1 
@@ -1819,7 +1819,7 @@ Ancillary museum_curator
 Ancillary historian
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image historian.tga
     Description historian_desc
     EffectsDescription historian_effects_desc
     Effect Authority  1 
@@ -1829,7 +1829,7 @@ Ancillary historian
 Ancillary university_professor
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image university_professor.tga
     Description university_professor_desc
     EffectsDescription university_professor_effects_desc
     Effect TrainingAgents  2 
@@ -1839,7 +1839,7 @@ Ancillary university_professor
 Ancillary military_theorist
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image military_theorist.tga
     Description military_theorist_desc
     EffectsDescription military_theorist_effects_desc
     Effect Command  1 
@@ -1852,7 +1852,7 @@ Ancillary military_theorist
 Ancillary victoria_cross_recipient
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image victoria_cross_recipient.tga
     ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description victoria_cross_recipient_desc
     EffectsDescription victoria_cross_recipient_effects_desc
@@ -1864,7 +1864,7 @@ Ancillary victoria_cross_recipient
 Ancillary legion_of_honour
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image legion_of_honour.tga
     ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description legion_of_honour_desc
     EffectsDescription legion_of_honour_effects_desc
@@ -1876,7 +1876,7 @@ Ancillary legion_of_honour
 Ancillary iron_cross_hero
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image iron_cross_hero.tga
     ExcludeCultures asian, chinese, mesoamerican, middle_eastern, slavic, southern_european
     Description iron_cross_hero_desc
     EffectsDescription iron_cross_hero_effects_desc
@@ -1888,7 +1888,7 @@ Ancillary iron_cross_hero
 Ancillary hero_of_sebastopol
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image hero_of_sebastopol.tga
     ExcludedAncillaries veteran_of_the_crimea
     ExcludeCultures asian, chinese, mesoamerican, southern_european
     Description hero_of_sebastopol_desc
@@ -1900,7 +1900,7 @@ Ancillary hero_of_sebastopol
 Ancillary hero_of_isandlwana
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image hero_of_isandlwana.tga
     ExcludeCultures asian, chinese, middle_eastern, slavic, southern_european
     Description hero_of_isandlwana_desc
     EffectsDescription hero_of_isandlwana_effects_desc
@@ -1911,7 +1911,7 @@ Ancillary hero_of_isandlwana
 Ancillary hero_of_plevna
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image hero_of_plevna.tga
     ExcludeCultures asian, chinese, mesoamerican, northern_european, southern_european
     Description hero_of_plevna_desc
     EffectsDescription hero_of_plevna_effects_desc
@@ -1922,7 +1922,7 @@ Ancillary hero_of_plevna
 Ancillary hero_of_mukden
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image hero_of_mukden.tga
     ExcludeCultures asian, mesoamerican, middle_eastern, northern_european, southern_european
     Description hero_of_mukden_desc
     EffectsDescription hero_of_mukden_effects_desc
@@ -1933,7 +1933,7 @@ Ancillary hero_of_mukden
 Ancillary veteran_of_the_crimea
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image veteran_of_the_crimea.tga
     ExcludedAncillaries hero_of_sebastopol
     ExcludeCultures asian, chinese, mesoamerican, southern_european
     Description veteran_of_the_crimea_desc
@@ -1945,7 +1945,7 @@ Ancillary veteran_of_the_crimea
 Ancillary veteran_of_the_taiping_rebellion
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image veteran_of_the_taiping_rebellion.tga
     ExcludeCultures asian, mesoamerican, middle_eastern, northern_european, slavic, southern_european
     Description veteran_of_the_taiping_rebellion_desc
     EffectsDescription veteran_of_the_taiping_rebellion_effects_desc
@@ -1956,7 +1956,7 @@ Ancillary veteran_of_the_taiping_rebellion
 Ancillary boxer_rebellion_veteran
     Type Military
     Transferable  0 
-    Image entertainment_actor.tga
+    Image boxer_rebellion_veteran.tga
     ExcludeCultures asian, mesoamerican, middle_eastern, southern_european
     Description boxer_rebellion_veteran_desc
     EffectsDescription boxer_rebellion_veteran_effects_desc
@@ -1970,7 +1970,7 @@ Ancillary boxer_rebellion_veteran
 Ancillary elephant_handler
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image elephant_handler.tga
     Description elephant_handler_desc
     EffectsDescription elephant_handler_effects_desc
     Effect MovementPoints  1 
@@ -1980,7 +1980,7 @@ Ancillary elephant_handler
 Ancillary airship_enthusiast
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image airship_enthusiast.tga
     Description airship_enthusiast_desc
     EffectsDescription airship_enthusiast_effects_desc
     Effect LineOfSight  1 
@@ -1989,7 +1989,7 @@ Ancillary airship_enthusiast
 Ancillary steam_tinkerer
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image steam_tinkerer.tga
     Description steam_tinkerer_desc
     EffectsDescription steam_tinkerer_effects_desc
     Effect Construction  1 
@@ -1998,7 +1998,7 @@ Ancillary steam_tinkerer
 Ancillary explorers_club_member
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image explorers_club_member.tga
     Description explorers_club_member_desc
     EffectsDescription explorers_club_member_effects_desc
     Effect Influence  1 
@@ -2008,7 +2008,7 @@ Ancillary explorers_club_member
 Ancillary royal_society_fellow
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image royal_society_fellow.tga
     Description royal_society_fellow_desc
     EffectsDescription royal_society_fellow_effects_desc
     Effect Authority  1 
@@ -2018,7 +2018,7 @@ Ancillary royal_society_fellow
 Ancillary fossil_hunter
     Type Academic
     Transferable  0 
-    Image entertainment_actor.tga
+    Image fossil_hunter.tga
     Description fossil_hunter_desc
     EffectsDescription fossil_hunter_effects_desc
     Effect Authority  1 
@@ -2027,7 +2027,7 @@ Ancillary fossil_hunter
 Ancillary orchid_collector
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image orchid_collector.tga
     Description orchid_collector_desc
     EffectsDescription orchid_collector_effects_desc
     Effect LocalPopularity  1 
@@ -2036,7 +2036,7 @@ Ancillary orchid_collector
 Ancillary gentleman_adventurer
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image gentleman_adventurer.tga
     Description gentleman_adventurer_desc
     EffectsDescription gentleman_adventurer_effects_desc
     Effect TroopMorale  1 
@@ -2046,7 +2046,7 @@ Ancillary gentleman_adventurer
 Ancillary treasure_hunter
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image treasure_hunter.tga
     Description treasure_hunter_desc
     EffectsDescription treasure_hunter_effects_desc
     Effect Finance  1 
@@ -2056,7 +2056,7 @@ Ancillary treasure_hunter
 Ancillary jungle_physician
     Type Health
     Transferable  0 
-    Image entertainment_actor.tga
+    Image jungle_physician.tga
     Description jungle_physician_desc
     EffectsDescription jungle_physician_effects_desc
     Effect Health  1 
@@ -2066,7 +2066,7 @@ Ancillary jungle_physician
 Ancillary railway_visionary
     Type Court
     Transferable  0 
-    Image entertainment_actor.tga
+    Image railway_visionary.tga
     Description railway_visionary_desc
     EffectsDescription railway_visionary_effects_desc
     Effect Influence  1 
