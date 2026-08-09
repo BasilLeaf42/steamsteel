@@ -3124,7 +3124,7 @@ building barracks
 	recruit_pool "dutch_pith"  5   0.5   5  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
 	recruit_pool "dutch_inf"  0.8   0.08  0.8 0  requires factions { portugal, }
 	recruit_pool "nl_roy"  1   0.1   1  0  requires factions { portugal, }  and not event_counter military_reforms_1 1 and hidden_resource netherlands
-	recruit_pool "dutch_inf"  0.32   0.032   0.32  0  requires factions { portugal, }  and recruit_pool "nl_roy"  1   0.1   1  0  requires factions { portugal, }  and not event_counter military_reforms_1 1 and not hidden_resource netherlands
+	recruit_pool "dutch_inf"  0.32   0.032   0.32  0  requires factions { portugal, }  and not event_counter military_reforms_1 1 and not hidden_resource netherlands
 	recruit_pool "dutch_ww1"  1   0.1   1  0  requires factions { portugal, }  and event_counter military_reforms_2 1 and hidden_resource netherlands
 	recruit_pool "dutch_askari"  2   0.2   2  0  requires factions { portugal, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies
 	recruit_pool "dutch_askari2"  2   0.2   2  0  requires factions { portugal, }  and not event_counter military_reforms_1870 1 and hidden_resource east_indies
@@ -7624,8 +7624,8 @@ building airport
 	recruit_pool "air_fir_3g"  0   0.015  2  1  requires factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
 	recruit_pool "air_fir_3g"  0   0.01   1  1  requires not factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
 
-	recruit_pool "air_heavy_3g"  0   0.01   2  1  requires factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
-	recruit_pool "air_heavy_3g"  0   0.008  1  1  requires not factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
+	recruit_pool "air_hvy_3g"  0   0.01   2  1  requires factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
+	recruit_pool "air_hvy_3g"  0   0.008  1  1  requires not factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
             }
             material wooden
             construction  16
