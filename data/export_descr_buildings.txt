@@ -8889,8 +8889,7 @@ building russian_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
+                recruit_pool "russ_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -8989,8 +8988,7 @@ building italian_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
+                recruit_pool "it_bers"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -9030,8 +9028,7 @@ building spanish_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
+                recruit_pool "spa_regu"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -9071,8 +9068,7 @@ building british_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
+                recruit_pool "uk_musket"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -9112,8 +9108,7 @@ building confederate_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
+                recruit_pool "csa_militia"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -9153,8 +9148,7 @@ building american_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
+                recruit_pool "us_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -9194,8 +9188,7 @@ building french_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
+                recruit_pool "fra_rec"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -9235,8 +9228,7 @@ building ottoman_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
-                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
+                recruit_pool "otto_jan_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -9276,7 +9268,6 @@ building prussian_embassy_guild
         {
             capability
             {
-                ;PLACEHOLDER - replace "gr_inf" with actual nation-specific colonial unit(s)
                 recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
@@ -9875,5 +9866,3 @@ building central_bank_guild
     {
     }
 }
-
-

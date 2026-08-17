@@ -1241,7 +1241,7 @@ stat_food        60, 300
 stat_cost        2, 1000, 250, 90, 170, 1000, 2, 250
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, slave
+ownership        saxons, france, papal_states, slave
 era 2            saxons, france, slave
 
 
@@ -1276,7 +1276,7 @@ stat_food        60, 300
 stat_cost        4, 1900, 475, 30, 40, 1900, 2, 475
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, slave
+ownership        saxons, france, papal_states, slave
 era 0            saxons, france, slave
 era 1            saxons, france, slave
 
@@ -1310,7 +1310,7 @@ stat_food        60, 300
 stat_cost        3, 1000, 250, 90, 70, 1000, 2, 250
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, slave
+ownership        saxons, france, papal_states, slave
 era 2            saxons, france, slave
 
 type             sho_gatling
@@ -1341,7 +1341,7 @@ stat_food        60, 300
 stat_cost        2, 900, 225, 90, 70, 900, 1, 225
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, slave
+ownership        saxons, france, papal_states, slave
 era 0            saxons, france, slave
 era 1            saxons, france, slave
 
@@ -1380,7 +1380,7 @@ stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, slave
+ownership        saxons, france, papal_states, slave
 era 2            saxons, france, slave
 
 type             sho_armstrong
@@ -3650,7 +3650,7 @@ stat_charge_dist 45
 stat_fire_delay  -20000
 stat_food        60, 300
 stat_cost        4, 1500, 500, 120, 95, 1500, 2, 500
-ownership        portugala, slave
+ownership        portugala, scotland, slave
 era 0            portugala
 era 1            portugala
 era 2            portugala
@@ -3721,7 +3721,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 200, 20, 60, 90, 200, 1,20
-ownership        england, slave
+ownership        england, portugala, slave
 era 0            england, slave
 era 0            england, slave
 era 0            england, slave
@@ -3757,7 +3757,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 1400, 470, 50, 50, 1400, 2, 470
-ownership        portugala, slave
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, slave
 era 0            portugala
 era 1            portugala
 
@@ -4071,7 +4071,7 @@ stat_charge_dist 40
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        3, 1700, 570, 120, 120, 1700, 2, 570
-ownership        milan
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons
 era 1            milan
 era 2            milan
 
@@ -4423,7 +4423,7 @@ stat_charge_dist 40
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        2, 1500, 375, 50, 50, 1500, 3, 375
-ownership        slave
+ownership        scotland, slave
 
 
 type             uk_knights_sc
@@ -4897,7 +4897,7 @@ stat_charge_dist 40
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost         2, 1100, 225, 50, 50, 1100, 2, 225
-ownership        slave
+ownership        poland, slave
 
 
 
@@ -5430,7 +5430,7 @@ stat_charge_dist 40
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        3, 1600, 540, 50, 100, 1600, 2, 540
-ownership        england, slave
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, slave
 era 1		 england, slave
 
 
@@ -5499,7 +5499,7 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1500, 500, 200, 160, 1500, 1, 500
-ownership        slave
+ownership        england, poland, slave
 
 
 type             uk_sikhs
@@ -5567,7 +5567,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1100, 370, 60, 90, 1100, 2, 370
-ownership        poland, slave
+ownership        poland, england, slave
 era 0            poland
 era 1            poland
 
@@ -5916,7 +5916,7 @@ stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 2000, 670, 120, 95, 2000, 2, 670
-ownership        poland, sicily
+ownership        poland, sicily, france, scotland
 era 2            poland, sicily
 
 type             fra_cav2
@@ -5983,7 +5983,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1800, 600, 50, 50, 1800, 4, 600
-ownership        france, slave
+ownership        france, poland, slave
 era 2            france
 
 
@@ -6016,7 +6016,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1800, 600, 50, 50, 1800, 4, 600
-ownership        france, slave
+ownership        france, aztecs, slave
 era 2            france
 
 
@@ -6222,7 +6222,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1300, 325, 50, 50, 1300, 2, 325
-ownership        france
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons
 era 0            france
 
 
@@ -6681,7 +6681,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1800, 600, 50, 50, 1800, 3, 600
-ownership        hre, slave
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, slave
 era 2            hre
 
 type             air_reg_3g 
@@ -7137,7 +7137,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1400, 470, 50, 50, 1400, 3, 470
-ownership        spain, slave
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, slave
 era 0            spain
 era 1            spain
 
@@ -7497,7 +7497,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1500, 500, 50, 50, 1500, 1, 500
-ownership        slave
+ownership        portugal, slave
 
 
 
@@ -8310,7 +8310,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1400, 470, 50, 50, 1400, 1, 470
-ownership        hungary, slave
+ownership        hungary, mongols, slave
 era 0            hungary
 era 1            hungary
 era 2            hungary
@@ -8380,7 +8380,7 @@ stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1700, 570, 120, 95, 1700, 1, 570
-ownership        mongols, slave
+ownership        mongols, hungary, slave
 era 2            mongols, 
 
 
@@ -8600,7 +8600,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1700, 570, 50, 50, 1700, 4, 570
-ownership        venice, slave
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, slave
 era 2            venice
 
 
@@ -8883,7 +8883,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1500, 500, 50, 50, 1500, 1, 500
-ownership        portugala, portugal, milan, poland, teu, slave
+ownership        portugala, portugal, milan, poland, teu, russia, slave
 era 1            portugala, portugal, milan, poland, teu, slave
 era 2            portugala, portugal, milan, poland, teu, slave
 
@@ -9097,7 +9097,7 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1400, 470, 200, 160, 1400, 1, 470
-ownership        russia, slave
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, slave
 era 0            russia
 era 1            russia
 era 2            russia
@@ -9482,7 +9482,7 @@ stat_charge_dist 40
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        3, 1600, 540, 50, 50, 1600, 1, 540
-ownership        england, mongols, spain, slave
+ownership        england, mongols, spain, hungary, normans, slave
 era 1            england, mongols, spain, slave
 era 2            england, mongols, spain, slave
 
@@ -9663,7 +9663,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1300, 440, 60, 90, 1300, 2,440
-ownership        mongols, slave
+ownership        mongols, hungary, slave
 era 0            mongols
 era 1            mongols
 era 2            mongols
@@ -10637,7 +10637,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1500, 500, 50, 50, 1500, 3, 500
-ownership        turks, slave
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, slave
 era 1            turks
 
 
@@ -12655,7 +12655,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 900, 225, 75, 60, 900, 2, 225
-ownership        slave
+ownership        bulga, slave
 era 0            slave
 era 1            slave
 era 2            slave
@@ -12760,7 +12760,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1500, 500, 50, 50, 1500, 2, 500
-ownership        cru, slave
+ownership        cru, byzantium, slave
 era 1            cru
 era 2            cru
 ;unit_info        7, 0, 14
@@ -15589,7 +15589,7 @@ stat_charge_dist 30
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost         2, 1100, 275, 50, 50, 1100, 1, 275
-ownership        slave, england
+ownership        england, france, slave
 era 0            slave, england
 era 1            slave, england
 era 2            slave, england
@@ -15724,7 +15724,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 800, 200, 65, 50, 800, 4, 200
-ownership        slave
+ownership        england, slave
 
 type             merc_maori_spearmen
 dictionary       merc_maori_spearmen      ;  Maori Warriors
@@ -16360,7 +16360,7 @@ stat_charge_dist 40
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        2, 1400, 350, 50, 50, 1400, 1, 350
-ownership        slave, england, venice, spain
+ownership        england, venice, spain, france, hre, slave
 era 0            slave
 era 1            slave, england, venice, spain
 era 2            slave, england, venice, spain,

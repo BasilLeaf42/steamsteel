@@ -14,15 +14,15 @@ music_type ss_qing
 
 factions byzantium
 
-music_type ss_arabic
-
-
-factions moors golden
-
 music_type ss_zulu
 
 
 factions lith
+
+music_type ss_arabic
+
+
+factions moors golden papal_states
 
 music_type steppe
 
@@ -57,7 +57,7 @@ factions poland
 music_type ss_denmark
 
 
-factions sicily
+factions sicily normans
 
 music_type ss_dutch
 
@@ -98,16 +98,6 @@ music_type ss_spain
 
 
 factions spain
-
-music_type ss_shogun
-
-
-factions papal_states
-
-music_type ss_sweden
-
-
-factions normans
 
 music_type ss_union
 

@@ -107,344 +107,20 @@ BANK: music_bank
 			
 		state MUSIC_BATTLE_TENSION
 			event 
-				folder data/sounds/music/battle
-				tension1.mp3
-				tension2.mp3
-				tension3.mp3
-				tension4.mp3
-			end
-			
-		state MUSIC_BATTLE_MOBILIZE
-			event 
-				folder data/sounds/music/battle
-				move1.mp3
-				move2.mp3
-				move3.mp3
-			end
-			
-		state MUSIC_BATTLE_BATTLE
-			event 
-				folder data/sounds/music/battle
-				battle1.mp3
-				battle2.mp3
-				battle3.mp3
-				battle4.mp3
-				battle5.mp3
-				battle6.mp3
-				battle7.mp3
-				battle8.mp3
-			end
-
-			
-;;;; BATTLE MAP RESULT			
-			
-		
-		state MUSIC_RESULT_WIN_CLOSE
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-				
-			end
-		state MUSIC_RESULT_WIN_AVERAGE
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-				
-			end
-		state MUSIC_RESULT_WIN_CRUSHING
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-				
-			end
-		state MUSIC_RESULT_LOSE_CLOSE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end
-		state MUSIC_RESULT_LOSE_AVERAGE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end
-		state MUSIC_RESULT_LOSE_CRUSHING
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end
-		state MUSIC_RESULT_DRAW
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end
-
-			
-			
-;;; CAMPMAP
-						
-			
-			
-		state MUSIC_STRATMAP_SUMMER
-			event delay 5 
-				folder data/sounds/music/europa
-				campaign1.mp3
-				campaign2.mp3
-				campaign3.mp3
-				campaign4.mp3
-				campaign5.mp3
-				campaign6.mp3
-				campaign7.mp3
-				campaign8.mp3
-				campaign9.mp3
-				campaign10.mp3
-				campaign11.mp3
-				campaign12.mp3
-				campaign13.mp3
-				campaign14.mp3
-			end			
-
-		state MUSIC_STRATMAP_WINTER
-			event delay 5 
-				folder data/sounds/music/europa
-				campaign1.mp3
-				campaign2.mp3
-				campaign3.mp3
-				campaign4.mp3
-				campaign5.mp3
-				campaign6.mp3
-				campaign7.mp3
-				campaign8.mp3
-				campaign9.mp3
-				campaign10.mp3
-				campaign11.mp3
-				campaign12.mp3
-				campaign13.mp3
-				campaign14.mp3
-			end
-
-
-		state MUSIC_CAMPAIGN_LOADING
-			event 
-				folder data/sounds/music/europa
-				loading1.mp3
-				loading2.mp3
-				loading3.mp3
-			end							
-						
-			
-		state MUSIC_PREBATTLE_SCROLL
-			event  
 				folder data/sounds/music
-				prebattlescroll1.mp3
-				prebattlescroll2.mp3
-				prebattlescroll3.mp3
-			end
-			
-			
-			
-			
-		state MUSIC_RESULT_STRAT_WIN_CLOSE
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3							
-			end
-		state MUSIC_RESULT_STRAT_WIN_AVERAGE
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-							
-			end
-		state MUSIC_RESULT_STRAT_WIN_CRUSHING
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-							
-			end
-		state MUSIC_RESULT_STRAT_LOSE_CLOSE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
-			end
-		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
-			end
-		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
-			end
-		state MUSIC_RESULT_STRAT_DRAW
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end					
-
-			
-;;; CAMPAIGN RESULT			
-			
-			
-			
-		state MUSIC_CAMPAIGN_VICTORY
-			event  looped
-				folder data/sounds/music
-				wingame.mp3			
-			end	
-		state MUSIC_CAMPAIGN_DEFEAT
-			event  looped
-				folder data/sounds/music
-				lostgame.mp3
-			end
-
-;;; CREDITS
-
-	state MUSIC_CREDITS1 delay 3
-			event 
-				folder data/sounds/music
-				(Credits)_We_are_all_one.mp3
-			end	
-			
-	state MUSIC_CREDITS2
-			event 
-				folder data/sounds/music
-				(Arabic_Battle_1)_Crack_your_head_with_a_Tabla.mp3
-				(Arabic_Battle_2)_Wind_Cuts.mp3
-				(Arabic_Lose_1)_Fly_Away.mp3
-				(Arabic_Mobilize_1)_High_Winds.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
-				(Arabic_Tension_1)_Kebabka.mp3
-				(Arabic_Tension_2)_Starsand.mp3
-				(Arabic_Win_1)_Balalip.mp3
-				(Aztec_Battle_1)_Battle_of_Tollan.mp3
-				(Aztec_Battle_2)_Clash_of_Nahual.mp3			
-				(Aztec_Lose_1)_Muahyan.mp3
-				(Aztec_Mobilize_1)_Inca.mp3
-				(Aztec_Mobilize_2)_Lakota_Lambada.mp3
-				(Aztec_Mobilize_3)_Jaguar_Jig.mp3			
-				(Aztec_Tension_1)_Octli.mp3
-				(Aztec_Tension_2)_Memories_of_Mictlan.mp3
-				(Aztec_Win_1)_Mextli_Mambo.mp3
-				(Euro_Battle_1)_Duke_of_Death.mp3
-				(Euro_Battle_2)_Nothing_Left.mp3
-				(Euro_Battle_3)_Crusaders.mp3
-				(Euro_Camp_Battle_1)_Destiny.mp3
-				(Arabic_Camp_Battle_1)_Honour_Of_Sultan.mp3	
-				(Credits)_We_are_all_one.mp3
-				(Euro_Lose_1)_Duty.mp3
-				(Euro_Lose_2)_Spirit_Fingers.mp3
-				(Euro_Lose_3)_Did_they_have_to_die_today.mp3
-				(Euro_Mobilize_1)_Sister_Davul.mp3
-				(Euro_Mobilize_2)_Solenka.mp3
-				(Euro_Mobilize_3)_This_is_it.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_01.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_02.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_03.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_04.mp3
-				(Euro_Strat_Map_2)_Grey_Meadow_01.mp3
-				(Euro_Strat_Map_2)_Grey_Meadow_02.mp3
-				(Euro_Strat_Map_3)_Lilly_01.mp3
-				(Euro_Strat_Map_3)_Lilly_02.mp3
-				(Euro_Strat_Map_4)_Peter_The_Piper.mp3
-				(Euro_Tension_1)_BladeGrass.mp3
-				(Euro_Tension_2)_Call_Of_The_Sheep.mp3
-				(Euro_Tension_3)_Fear_Frozen.mp3
-				(Euro_Win_1)_Going_Home.mp3
-				(Frontend_1)_bnw_menu.mp3
-				(Mediterranean_Battle_1)_Lifted_To_The_Hotplate.mp3
-				(Mediterranean_Lose_1)_Cordone.mp3
-				(Mediterranean_Mobilize_1)_Mare_Nostrum.mp3
-				(Mediterranean_Mobilize_2)_Death_Lullaby.mp3
-				(Mediterranean_Mobilize_2)_Song_For_Toomba.mp3
-				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
-				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
-				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
-				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
-				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
-				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3
-				(Mediterranean_Tension_1)_By_The_Marmara.mp3
-				(Mediterranean_Tension_2)_Secret_Sandals.mp3
-				(Mediterranean_Win_1)_Grab_Your_Castanets.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_01.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_02.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_03.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_04.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_05.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_06.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_07.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_08.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_09.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_10.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_11.mp3
-				(Euro_Loading_2)_The_Widow.mp3
-				
-			end
-
-
-;;;;;;;;;;;;;;;;;;;;; danish music ;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
-			
-			
-	music_type ss_denmark
-
-		state MUSIC_FRONTEND
-			event 
-				folder data/sounds/music
-				(Frontend_1)_bnw_menu.mp3
-				(Frontend_1)_bnw_menu.mp3
-			end
-
-			
-;;; BAttlE MAP			
-			
-			
-		state MUSIC_BATTLE_TENSION
-			event 
-				folder data/sounds/music/battle
-				tension1.mp3
-				tension2.mp3
-				tension3.mp3
-				tension4.mp3
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_denmark_march1.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
-			
+
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/battle
@@ -465,48 +141,47 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_denmark_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_denmark_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_denmark_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 
 			
@@ -518,47 +193,27 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ss_denmark_camp1.mp3
-				ss_denmark_camp2.mp3
-				ss_denmark_camp3.mp3
-				ss_denmark_camp5.mp3
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				ss_denmark_camp1.mp3
-				ss_denmark_camp2.mp3
-				ss_denmark_camp3.mp3
-				ss_denmark_camp5.mp3
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
 			end
 
 
@@ -585,47 +240,46 @@ BANK: music_bank
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_denmark_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3							
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_denmark_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_denmark_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end					
 
 			
@@ -656,82 +310,208 @@ BANK: music_bank
 			event 
 				folder data/sounds/music
 				(Arabic_Battle_1)_Crack_your_head_with_a_Tabla.mp3
-				(Arabic_Battle_2)_Wind_Cuts.mp3
-				(Arabic_Lose_1)_Fly_Away.mp3
-				(Arabic_Mobilize_1)_High_Winds.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
-				(Arabic_Tension_1)_Kebabka.mp3
-				(Arabic_Tension_2)_Starsand.mp3
-				(Arabic_Win_1)_Balalip.mp3
-				(Aztec_Battle_1)_Battle_of_Tollan.mp3
-				(Aztec_Battle_2)_Clash_of_Nahual.mp3			
-				(Aztec_Lose_1)_Muahyan.mp3
-				(Aztec_Mobilize_1)_Inca.mp3
-				(Aztec_Mobilize_2)_Lakota_Lambada.mp3
-				(Aztec_Mobilize_3)_Jaguar_Jig.mp3			
-				(Aztec_Tension_1)_Octli.mp3
-				(Aztec_Tension_2)_Memories_of_Mictlan.mp3
-				(Aztec_Win_1)_Mextli_Mambo.mp3
-				(Euro_Battle_1)_Duke_of_Death.mp3
-				(Euro_Battle_2)_Nothing_Left.mp3
-				(Euro_Battle_3)_Crusaders.mp3
-				(Euro_Camp_Battle_1)_Destiny.mp3
-				(Arabic_Camp_Battle_1)_Honour_Of_Sultan.mp3	
-				(Credits)_We_are_all_one.mp3
-				(Euro_Lose_1)_Duty.mp3
-				(Euro_Lose_2)_Spirit_Fingers.mp3
-				(Euro_Lose_3)_Did_they_have_to_die_today.mp3
-				(Euro_Mobilize_1)_Sister_Davul.mp3
-				(Euro_Mobilize_2)_Solenka.mp3
-				(Euro_Mobilize_3)_This_is_it.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_01.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_02.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_03.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_04.mp3
-				(Euro_Strat_Map_2)_Grey_Meadow_01.mp3
-				(Euro_Strat_Map_2)_Grey_Meadow_02.mp3
-				(Euro_Strat_Map_3)_Lilly_01.mp3
-				(Euro_Strat_Map_3)_Lilly_02.mp3
-				(Euro_Strat_Map_4)_Peter_The_Piper.mp3
-				(Euro_Tension_1)_BladeGrass.mp3
-				(Euro_Tension_2)_Call_Of_The_Sheep.mp3
-				(Euro_Tension_3)_Fear_Frozen.mp3
-				(Euro_Win_1)_Going_Home.mp3
-				(Frontend_1)_bnw_menu.mp3
-				(Mediterranean_Battle_1)_Lifted_To_The_Hotplate.mp3
-				(Mediterranean_Lose_1)_Cordone.mp3
-				(Mediterranean_Mobilize_1)_Mare_Nostrum.mp3
-				(Mediterranean_Mobilize_2)_Death_Lullaby.mp3
-				(Mediterranean_Mobilize_2)_Song_For_Toomba.mp3
-				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
-				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
-				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
-				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
-				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
-				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3
-				(Mediterranean_Tension_1)_By_The_Marmara.mp3
-				(Mediterranean_Tension_2)_Secret_Sandals.mp3
-				(Mediterranean_Win_1)_Grab_Your_Castanets.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_01.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_02.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_03.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_04.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_05.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_06.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_07.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_08.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_09.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_10.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_11.mp3
-				(Euro_Loading_2)_The_Widow.mp3
 				
 			end
 
+
+;;;;;;;;;;;;;;;;;;;;; danish music ;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
+			
+			
+;;; BAttlE MAP			
+			
+			
+		state MUSIC_BATTLE_TENSION
+			event 
+				folder data/sounds/music
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
+			end
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event 
+				folder data/sounds/music
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
+			end
+
+		state MUSIC_BATTLE_BATTLE
+			event 
+				folder data/sounds/music/battle
+				battle1.mp3
+				battle2.mp3
+				battle3.mp3
+				battle4.mp3
+				battle5.mp3
+				battle6.mp3
+				battle7.mp3
+				battle8.mp3
+			end
+
+			
+;;;; BATTLE MAP RESULT			
+			
+		
+		state MUSIC_RESULT_WIN_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+				
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+				
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+				
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_DRAW
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+
+			
+			
+;;; CAMPMAP
+						
+			
+			
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5 
+				folder data/sounds/music
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+			end			
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5 
+				folder data/sounds/music
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+			end
+
+
+		state MUSIC_CAMPAIGN_LOADING
+			event 
+				folder data/sounds/music
+				europa_loading1.mp3
+				europa_loading2.mp3
+				europa_loading3.mp3
+			end							
+						
+			
+		state MUSIC_PREBATTLE_SCROLL
+			event  
+				folder data/sounds/music
+				prebattlescroll1.mp3
+				prebattlescroll2.mp3
+				prebattlescroll3.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+							
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+							
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end					
+
+			
+;;; CAMPAIGN RESULT			
+			
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+				wingame.mp3			
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+				lostgame.mp3
+			end
 
 
 ;;;;;;;;;;;;;;;;;;;;; dutch music ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;			
@@ -742,19 +522,22 @@ BANK: music_bank
 			
 ;;; BAttlE MAP			
 			
-			
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_dutch_deploy1.mp3
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_dutch_march1.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
-			
+
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/battle
@@ -775,48 +558,47 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_dutch_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_dutch_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_dutch_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 
 			
@@ -828,39 +610,37 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
 			end
 
 
@@ -887,47 +667,46 @@ BANK: music_bank
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_dutch_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_dutch_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_dutch_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3			
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3			
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end					
 
 			
@@ -944,94 +723,6 @@ BANK: music_bank
 			event  looped
 				folder data/sounds/music
 				lostgame.mp3
-			end
-
-;;; CREDITS
-
-	state MUSIC_CREDITS1 delay 3
-			event 
-				folder data/sounds/music
-				(Credits)_We_are_all_one.mp3
-			end	
-			
-	state MUSIC_CREDITS2
-			event 
-				folder data/sounds/music
-				(Arabic_Battle_1)_Crack_your_head_with_a_Tabla.mp3
-				(Arabic_Battle_2)_Wind_Cuts.mp3
-				(Arabic_Lose_1)_Fly_Away.mp3
-				(Arabic_Mobilize_1)_High_Winds.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
-				(Arabic_Tension_1)_Kebabka.mp3
-				(Arabic_Tension_2)_Starsand.mp3
-				(Arabic_Win_1)_Balalip.mp3
-				(Aztec_Battle_1)_Battle_of_Tollan.mp3
-				(Aztec_Battle_2)_Clash_of_Nahual.mp3			
-				(Aztec_Lose_1)_Muahyan.mp3
-				(Aztec_Mobilize_1)_Inca.mp3
-				(Aztec_Mobilize_2)_Lakota_Lambada.mp3
-				(Aztec_Mobilize_3)_Jaguar_Jig.mp3			
-				(Aztec_Tension_1)_Octli.mp3
-				(Aztec_Tension_2)_Memories_of_Mictlan.mp3
-				(Aztec_Win_1)_Mextli_Mambo.mp3
-				(Euro_Battle_1)_Duke_of_Death.mp3
-				(Euro_Battle_2)_Nothing_Left.mp3
-				(Euro_Battle_3)_Crusaders.mp3
-				(Euro_Camp_Battle_1)_Destiny.mp3
-				(Arabic_Camp_Battle_1)_Honour_Of_Sultan.mp3	
-				(Credits)_We_are_all_one.mp3
-				(Euro_Lose_1)_Duty.mp3
-				(Euro_Lose_2)_Spirit_Fingers.mp3
-				(Euro_Lose_3)_Did_they_have_to_die_today.mp3
-				(Euro_Mobilize_1)_Sister_Davul.mp3
-				(Euro_Mobilize_2)_Solenka.mp3
-				(Euro_Mobilize_3)_This_is_it.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_01.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_02.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_03.mp3
-				(Euro_Strat_Map_1)_Field_Of_Blood_04.mp3
-				(Euro_Strat_Map_2)_Grey_Meadow_01.mp3
-				(Euro_Strat_Map_2)_Grey_Meadow_02.mp3
-				(Euro_Strat_Map_3)_Lilly_01.mp3
-				(Euro_Strat_Map_3)_Lilly_02.mp3
-				(Euro_Strat_Map_4)_Peter_The_Piper.mp3
-				(Euro_Tension_1)_BladeGrass.mp3
-				(Euro_Tension_2)_Call_Of_The_Sheep.mp3
-				(Euro_Tension_3)_Fear_Frozen.mp3
-				(Euro_Win_1)_Going_Home.mp3
-				(Frontend_1)_bnw_menu.mp3
-				(Mediterranean_Battle_1)_Lifted_To_The_Hotplate.mp3
-				(Mediterranean_Lose_1)_Cordone.mp3
-				(Mediterranean_Mobilize_1)_Mare_Nostrum.mp3
-				(Mediterranean_Mobilize_2)_Death_Lullaby.mp3
-				(Mediterranean_Mobilize_2)_Song_For_Toomba.mp3
-				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
-				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
-				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
-				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
-				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
-				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3
-				(Mediterranean_Tension_1)_By_The_Marmara.mp3
-				(Mediterranean_Tension_2)_Secret_Sandals.mp3
-				(Mediterranean_Win_1)_Grab_Your_Castanets.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_01.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_02.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_03.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_04.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_05.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_06.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_07.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_08.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_09.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_10.mp3
-				(Euro_Strat_Map_5)_Devil's_Harp_11.mp3
-				(Euro_Loading_2)_The_Widow.mp3
-				
 			end
 
 
@@ -1076,55 +767,41 @@ BANK: music_bank
 		
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				reuslts_af.mp3
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				reuslts_af.mp3
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				reuslts_af.mp3
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				reuslts_af.mp3
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				reuslts_af.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				reuslts_af.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				reuslts_af.mp3
 			end
 
 			
@@ -1170,9 +847,6 @@ BANK: music_bank
 				prebattlescroll3.mp3
 			end
 			
-			
-			
-			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
 				folder data/sounds/music
@@ -1192,31 +866,26 @@ BANK: music_bank
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3	
+				folder data/sounds/music
+				results_af.mp3
+	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_af.mp3
+	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_af.mp3
+
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3	
+				folder data/sounds/music
+				results_af.mp3
 			end					
 
 			
@@ -1246,18 +915,20 @@ BANK: music_bank
 			
 		state MUSIC_BATTLE_TENSION
 			event 
-				folder data/sounds/music/battle
-				tension1.mp3
-				tension2.mp3
-				tension3.mp3
-				tension4.mp3
+				folder data/sounds/music
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_boer_march1.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
+
 			
 		state MUSIC_BATTLE_BATTLE
 			event 
@@ -1278,55 +949,48 @@ BANK: music_bank
 		
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 
 			
@@ -1338,31 +1002,39 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ss_boer_camp1.mp3
-				ss_boer_camp2.mp3
-				ss_boer_camp3.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
 				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
 				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3	
-				ss_boer_camp5.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				ss_boer_camp1.mp3
-				ss_boer_camp2.mp3
-				ss_boer_camp3.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
 				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
 				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3	
-				ss_boer_camp5.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
 			end
 
 
@@ -1466,22 +1138,21 @@ BANK: music_bank
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_csa_deploy1.mp3
-				ss_csa_deploy2.mp3
-				ss_csa_deploy3.mp3
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_csa_march1.mp3
-				ss_csa_march2.mp3
-				ss_csa_march3.mp3
-				ss_csa_march4.mp3
-				ss_csa_march5.mp3
-				ss_csa_march6.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
-			
+
+
+
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/battle
@@ -1502,48 +1173,47 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_csa_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_csa_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_csa_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 
 			
@@ -1555,55 +1225,67 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ss_csa_camp1.mp3
-				ss_csa_camp2.mp3
-				ss_csa_camp3.mp3
-				ss_csa_camp4.mp3
-				ss_csa_camp5.mp3
-				ss_csa_camp6.mp3
-				ss_csa_camp7.mp3
-				ss_csa_camp8.mp3
-				ss_csa_camp9.mp3
-				ss_union_camp5.mp3
-				ss_csa_camp10.mp3
 				ss_csa_camp11.mp3
 				ss_csa_camp12.mp3
 				ss_csa_camp13.mp3
-				ss_csa_camp14.mp3
 				ss_csa_camp15.mp3
 				ss_csa_camp16.mp3
 				ss_csa_camp17.mp3
-				ss_csa_camp18.mp3
 				ss_csa_camp19.mp3
 				ss_csa_camp20.mp3
-				ss_csa_camp21.mp3
+				generic_american_001.mp3
+				generic_american_002.mp3
+				generic_american_003.mp3
+				generic_american_004.mp3
+				generic_american_005.mp3
+				generic_american_006.mp3
+				generic_american_007.mp3
+				generic_american_008.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_anglo_01.mp3
+				generic_euro_anglo_02.mp3
+				generic_euro_anglo_03.mp3
+				generic_euro_anglo_04.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				ss_csa_camp1.mp3
-				ss_csa_camp2.mp3
-				ss_csa_camp3.mp3
-				ss_csa_camp4.mp3
-				ss_union_camp5.mp3
-				ss_csa_camp5.mp3
-				ss_csa_camp6.mp3
-				ss_csa_camp7.mp3
-				ss_csa_camp8.mp3
-				ss_csa_camp9.mp3
-				ss_csa_camp10.mp3
 				ss_csa_camp11.mp3
 				ss_csa_camp12.mp3
 				ss_csa_camp13.mp3
-				ss_csa_camp14.mp3
 				ss_csa_camp15.mp3
 				ss_csa_camp16.mp3
 				ss_csa_camp17.mp3
-				ss_csa_camp18.mp3
 				ss_csa_camp19.mp3
 				ss_csa_camp20.mp3
-				ss_csa_camp21.mp3
+				generic_american_001.mp3
+				generic_american_002.mp3
+				generic_american_003.mp3
+				generic_american_004.mp3
+				generic_american_005.mp3
+				generic_american_006.mp3
+				generic_american_007.mp3
+				generic_american_008.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_anglo_01.mp3
+				generic_euro_anglo_02.mp3
+				generic_euro_anglo_03.mp3
+				generic_euro_anglo_04.mp3
 			end
 
 
@@ -1630,47 +1312,46 @@ BANK: music_bank
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_csa_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_csa_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_csa_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end					
 
 			
@@ -1699,27 +1380,22 @@ BANK: music_bank
 
 ;;; BAttlE MAP			
 			
-			
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_gb_deploy1.mp3
-				ss_gb_deploy2.mp3
-				ss_gb_deploy3.mp3
-				ss_gb_deploy4.mp3
-				ss_gb_deploy5.mp3
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_gb_march1.mp3
-				ss_gb_march2.mp3
-				ss_gb_march3.mp3
-				ss_gb_march4.mp3
-				ss_gb_march5.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
-			
+
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/battle
@@ -1740,51 +1416,47 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_gb_victory1.mp3
-				ss_gb_victory2.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_gb_victory1.mp3
-				ss_gb_victory2.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_gb_victory1.mp3
-				ss_gb_victory2.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end
 
 			
@@ -1796,33 +1468,51 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ss_gb_camp1.mp3
-				ss_gb_camp2.mp3
-				ss_gb_camp3.mp3
-				ss_gb_camp4.mp3
-				ss_gb_camp5.mp3
-				ss_gb_camp6.mp3
-				ss_gb_camp7.mp3
-				ss_gb_camp8.mp3
-				ss_gb_camp9.mp3
-				ss_gb_camp10.mp3
-				ss_gb_camp11.mp3
+				generic_american_001.mp3
+				generic_american_002.mp3
+				generic_american_003.mp3
+				generic_american_004.mp3
+				generic_american_005.mp3
+				generic_american_006.mp3
+				generic_american_007.mp3
+				generic_american_008.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_anglo_01.mp3
+				generic_euro_anglo_02.mp3
+				generic_euro_anglo_03.mp3
+				generic_euro_anglo_04.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				ss_gb_camp1.mp3
-				ss_gb_camp2.mp3
-				ss_gb_camp3.mp3
-				ss_gb_camp4.mp3
-				ss_gb_camp5.mp3
-				ss_gb_camp6.mp3
-				ss_gb_camp7.mp3
-				ss_gb_camp8.mp3
-				ss_gb_camp9.mp3
-				ss_gb_camp10.mp3
-				ss_gb_camp11.mp3
+				generic_american_001.mp3
+				generic_american_002.mp3
+				generic_american_003.mp3
+				generic_american_004.mp3
+				generic_american_005.mp3
+				generic_american_006.mp3
+				generic_american_007.mp3
+				generic_american_008.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_anglo_01.mp3
+				generic_euro_anglo_02.mp3
+				generic_euro_anglo_03.mp3
+				generic_euro_anglo_04.mp3
 			end
 
 
@@ -1848,54 +1538,47 @@ BANK: music_bank
 			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3							
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3							
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3			
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end					
 
 			
@@ -1924,25 +1607,23 @@ BANK: music_bank
 			
 ;;; BAttlE MAP			
 			
-			
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_hungary_deploy1.mp3
-				ss_hungary_deploy2.mp3
-				ss_hungary_deploy3.mp3
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_hungary_march1.mp3
-				ss_hungary_march2.mp3
-				ss_hungary_march3.mp3
-				ss_hungary_march4.mp3
-				ss_hungary_march5.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
-			
+
+
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/battle
@@ -1963,48 +1644,47 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_hungary_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_hungary_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_hungary_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 
 			
@@ -2016,53 +1696,55 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ss_hungary_camp1.mp3
-				ss_hungary_camp2.mp3
-				ss_hungary_camp3.mp3
-				ss_hungary_camp4.mp3
-				ss_hungary_camp5.mp3
-				ss_hungary_camp6.mp3
-				ss_hungary_camp7.mp3'
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_american_001.mp3
+				generic_american_002.mp3
+				generic_american_003.mp3
+				generic_american_004.mp3
+				generic_american_005.mp3
+				generic_american_006.mp3
+				generic_american_007.mp3
+				generic_american_008.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3				
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				ss_hungary_camp1.mp3
-				ss_hungary_camp2.mp3
-				ss_hungary_camp3.mp3
-				ss_hungary_camp4.mp3
-				ss_hungary_camp5.mp3
-				ss_hungary_camp6.mp3
-				ss_hungary_camp7.mp3
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_american_001.mp3
+				generic_american_002.mp3
+				generic_american_003.mp3
+				generic_american_004.mp3
+				generic_american_005.mp3
+				generic_american_006.mp3
+				generic_american_007.mp3
+				generic_american_008.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3
 			end
 
 
@@ -2088,54 +1770,47 @@ BANK: music_bank
 			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3							
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3								
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end					
 
 			
@@ -2165,24 +1840,22 @@ BANK: music_bank
 			
 ;;; BAttlE MAP			
 			
-			
 		state MUSIC_BATTLE_TENSION
 			event 
-				folder data/sounds/music/battle
-				tension1.mp3
-				tension2.mp3
-				tension3.mp3
-				tension4.mp3
+				folder data/sounds/music
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
-				folder data/sounds/music/battle
-				move1.mp3
-				move2.mp3
-				move3.mp3
+				folder data/sounds/music
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
-			
+
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/battle
@@ -2202,55 +1875,48 @@ BANK: music_bank
 		
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 
 			
@@ -2262,9 +1928,6 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ss_greece_camp1.mp3
-				ss_greece_camp2.mp3
-				ss_greece_camp3.mp3
 				ss_greece_camp4.mp3
 				ss_greece_camp5.mp3
 				ss_greece_camp6.mp3
@@ -2274,15 +1937,20 @@ BANK: music_bank
 				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
 				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
-				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3	
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3				
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				ss_greece_camp1.mp3
-				ss_greece_camp2.mp3
-				ss_greece_camp3.mp3
 				ss_greece_camp4.mp3
 				ss_greece_camp5.mp3
 				ss_greece_camp6.mp3
@@ -2292,7 +1960,15 @@ BANK: music_bank
 				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
 				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
-				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3	
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3			
 			end
 
 
@@ -2318,54 +1994,47 @@ BANK: music_bank
 			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3							
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3							
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end					
 
 			
@@ -2394,27 +2063,24 @@ BANK: music_bank
 	music_type ss_france
 
 			
-;;; BAttlE MAP			
-			
-			
+;;; BAttlE MAP	
+		
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_france_deploy1.mp3
-				ss_france_deploy2.mp3
-				ss_france_deploy3.mp3
-				ss_france_deploy4.mp3
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_france_march1.mp3
-				ss_france_march2.mp3
-				ss_france_march3.mp3
-				ss_france_march4.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
-			
+
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/battle
@@ -2435,48 +2101,47 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_france_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_france_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_france_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end
 
 			
@@ -2488,521 +2153,45 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ss_france_camp1.mp3
-				ss_france_camp2.mp3
-				ss_france_camp2.mp3
-				ss_france_camp5.mp3
-				ss_france_camp6.mp3
-				ss_france_camp7.mp3
-				ss_france_camp8.mp3
-				ss_france_camp9.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
 				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
-				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3	
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3				
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				ss_france_camp1.mp3
-				ss_france_camp2.mp3
-				ss_france_camp2.mp3
-				ss_france_camp5.mp3
-				ss_france_camp6.mp3
-				ss_france_camp7.mp3
-				ss_france_camp8.mp3
-				ss_france_camp9.mp3
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3	
-			end
-
-
-		state MUSIC_CAMPAIGN_LOADING
-			event 
-				folder data/sounds/music/europa
-				loading1.mp3
-				loading2.mp3
-				loading3.mp3
-			end							
-						
-			
-		state MUSIC_PREBATTLE_SCROLL
-			event  
-				folder data/sounds/music
-				prebattlescroll1.mp3
-				prebattlescroll2.mp3
-				prebattlescroll3.mp3
-			end
-			
-			
-			
-			
-		state MUSIC_RESULT_STRAT_WIN_CLOSE
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3							
-			end
-		state MUSIC_RESULT_STRAT_WIN_AVERAGE
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-							
-			end
-		state MUSIC_RESULT_STRAT_WIN_CRUSHING
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-							
-			end
-		state MUSIC_RESULT_STRAT_LOSE_CLOSE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
-			end
-		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
-			end
-		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
-			end
-		state MUSIC_RESULT_STRAT_DRAW
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end					
-
-			
-;;; CAMPAIGN RESULT			
-			
-			
-			
-		state MUSIC_CAMPAIGN_VICTORY
-			event  looped
-				folder data/sounds/music
-				wingame.mp3			
-			end	
-		state MUSIC_CAMPAIGN_DEFEAT
-			event  looped
-				folder data/sounds/music
-				lostgame.mp3
-			end
-
-
-;;;;;;;;;;;;;;;;;union music;;;;;;;;;;;;;;;;;;;;;;;;;
-
-	music_type ss_union
-			
-			
-;;; BAttlE MAP			
-			
-			
-		state MUSIC_BATTLE_TENSION
-			event 
-				folder data/sounds/music
-				ss_union_deploy1.mp3
-				ss_union_deploy2.mp3
-			end
-			
-		state MUSIC_BATTLE_MOBILIZE
-			event 
-				folder data/sounds/music
-				ss_union_march1.mp3
-				ss_union_march2.mp3
-				ss_union_march3.mp3
-
-			end
-			
-		state MUSIC_BATTLE_BATTLE
-			event 
-				folder data/sounds/music/battle
-				battle1.mp3
-				battle2.mp3
-				battle3.mp3
-				battle4.mp3
-				battle5.mp3
-				battle6.mp3
-				battle7.mp3
-				battle8.mp3
-			end
-
-			
-;;;; BATTLE MAP RESULT			
-			
-		
-		state MUSIC_RESULT_WIN_CLOSE
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-				
-			end
-		state MUSIC_RESULT_WIN_AVERAGE
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-				
-			end
-		state MUSIC_RESULT_WIN_CRUSHING
-			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
-				
-			end
-		state MUSIC_RESULT_LOSE_CLOSE
-			event 
-				folder data/sounds/music
-				ss_union_defeat1.mp3
-			end
-		state MUSIC_RESULT_LOSE_AVERAGE
-			event 
-				folder data/sounds/music
-				ss_union_defeat1.mp3
-			end
-		state MUSIC_RESULT_LOSE_CRUSHING
-			event 
-				folder data/sounds/music
-				ss_union_defeat1.mp3
-			end
-		state MUSIC_RESULT_DRAW
-			event 
-				folder data/sounds/music
-				ss_union_defeat1.mp3
-			end
-
-			
-			
-;;; CAMPMAP
-						
-			
-			
-		state MUSIC_STRATMAP_SUMMER
-			event delay 5 
-				folder data/sounds/music
-				ss_union_camp1.mp3
-				ss_union_camp2.mp3
-				ss_union_camp3.mp3
-				ss_union_camp4.mp3
-				ss_union_camp5.mp3
-				ss_union_camp6.mp3
-				ss_union_camp7.mp3
-				ss_union_camp8.mp3
-				ss_union_camp9.mp3
-				ss_union_camp10.mp3
-
-			end			
-
-		state MUSIC_STRATMAP_WINTER
-			event delay 5 
-				folder data/sounds/music
-				ss_union_camp1.mp3
-				ss_union_camp2.mp3
-				ss_union_camp3.mp3
-				ss_union_camp4.mp3
-				ss_union_camp5.mp3
-				ss_union_camp6.mp3
-				ss_union_camp7.mp3
-				ss_union_camp8.mp3
-				ss_union_camp9.mp3
-				ss_union_camp10.mp3
-
-			end
-
-
-		state MUSIC_CAMPAIGN_LOADING
-			event 
-				folder data/sounds/music/europa
-				loading1.mp3
-				loading2.mp3
-				loading3.mp3
-			end							
-						
-			
-		state MUSIC_PREBATTLE_SCROLL
-			event  
-				folder data/sounds/music
-				prebattlescroll1.mp3
-				prebattlescroll2.mp3
-				prebattlescroll3.mp3
-			end
-			
-			
-			
-			
-		state MUSIC_RESULT_STRAT_WIN_CLOSE
-			event 
-				folder data/sounds/music
-				ss_union_march3.mp3
-			end
-		state MUSIC_RESULT_STRAT_WIN_AVERAGE
-			event 
-				folder data/sounds/music
-				ss_union_march3.mp3
-							
-			end
-		state MUSIC_RESULT_STRAT_WIN_CRUSHING
-			event 
-				folder data/sounds/music
-				ss_union_march3.mp3
-							
-			end
-		state MUSIC_RESULT_STRAT_LOSE_CLOSE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
-			end
-		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
-			end
-		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
-			end
-		state MUSIC_RESULT_STRAT_DRAW
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end					
-
-			
-;;; CAMPAIGN RESULT			
-			
-			
-			
-		state MUSIC_CAMPAIGN_VICTORY
-			event  looped
-				folder data/sounds/music
-				wingame.mp3			
-			end	
-		state MUSIC_CAMPAIGN_DEFEAT
-			event  looped
-				folder data/sounds/music
-				lostgame.mp3
-			end
-
-;;;;;;;;;;;;;;;;;;russian music;;;;;;;;;;;;;;;;;;;;;;;;;
-
-	music_type ss_russia
-			
-			
-;;; BAttlE MAP			
-			
-			
-		state MUSIC_BATTLE_TENSION
-			event 
-				folder data/sounds/music
-				ss_russia_deploy1.mp3
-				ss_russia_deploy2.mp3
-				ss_russia_deploy3.mp3
-				ss_russia_deploy4.mp3
-				ss_russia_deploy5.mp3
-				ss_russia_deploy6.mp3
-			end
-			
-		state MUSIC_BATTLE_MOBILIZE
-			event 
-				folder data/sounds/music
-				ss_russia_march1.mp3
-				ss_russia_march2.mp3
-				ss_russia_march3.mp3
-				ss_russia_march4.mp3
-				ss_russia_march5.mp3
-			end
-			
-		state MUSIC_BATTLE_BATTLE
-			event 
-				folder data/sounds/music/battle
-				battle1.mp3
-				battle2.mp3
-				battle3.mp3
-				battle4.mp3
-				battle5.mp3
-				battle6.mp3
-				battle7.mp3
-				battle8.mp3
-			end
-
-			
-;;;; BATTLE MAP RESULT			
-			
-		
-		state MUSIC_RESULT_WIN_CLOSE
-			event 
-				folder data/sounds/music
-				ss_russia_victory1.mp3
-				ss_russia_victory2.mp3
-				ss_russia_victory3.mp3
-				
-			end
-		state MUSIC_RESULT_WIN_AVERAGE
-			event 
-				folder data/sounds/music
-				ss_russia_victory1.mp3
-				ss_russia_victory2.mp3
-				ss_russia_victory3.mp3
-				
-			end
-		state MUSIC_RESULT_WIN_CRUSHING
-			event 
-				folder data/sounds/music
-				victory1.mp3
-				victory2.mp3
-				victory3.mp3
-				
-			end
-		state MUSIC_RESULT_LOSE_CLOSE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end
-		state MUSIC_RESULT_LOSE_AVERAGE
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end
-		state MUSIC_RESULT_LOSE_CRUSHING
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end
-		state MUSIC_RESULT_DRAW
-			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
-			end
-
-			
-			
-;;; CAMPMAP
-						
-			
-			
-		state MUSIC_STRATMAP_SUMMER
-			event delay 5 
-				folder data/sounds/music
-				ss_russia_camp1.mp3
-				ss_russia_camp2.mp3
-				ss_russia_camp3.mp3
-				ss_russia_camp4.mp3
-				ss_russia_camp5.mp3
-				ss_russia_camp6.mp3
-				ss_russia_camp7.mp3
-				ss_russia_camp8.mp3
-				ss_russia_camp9.mp3
-				ss_russia_camp10.mp3
-				ss_russia_camp11.mp3
-				ss_russia_camp12.mp3
-				ss_russia_camp13.mp3
-				ss_russia_camp14.mp3
-				ss_russia_camp15.mp3
-				ss_russia_camp16.mp3
-				ss_russia_camp17.mp3
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
-			end			
-
-		state MUSIC_STRATMAP_WINTER
-			event delay 5 
-				folder data/sounds/music
-				ss_russia_camp1.mp3
-				ss_russia_camp2.mp3
-				ss_russia_camp3.mp3
-				ss_russia_camp4.mp3
-				ss_russia_camp5.mp3
-				ss_russia_camp6.mp3
-				ss_russia_camp7.mp3
-				ss_russia_camp8.mp3
-				ss_russia_camp9.mp3
-				ss_russia_camp10.mp3
-				ss_russia_camp11.mp3
-				ss_russia_camp12.mp3
-				ss_russia_camp13.mp3
-				ss_russia_camp14.mp3
-				ss_russia_camp15.mp3
-				ss_russia_camp16.mp3
-				ss_russia_camp17.mp3
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
+				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
+				(Mediterranean_Strat_Map_2)_Vineyard_02.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_01.mp3
+				(Mediterranean_Strat_Map_3)_Whispers_In_The_Grove_02.mp3
 			end
 
 
@@ -3029,53 +2218,507 @@ BANK: music_bank
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_russia_victory2.mp3
-				ss_russia_victory1.mp3
-				ss_russia_victory3.mp3							
+				results_eu.mp3
+				results_eu2.mp3							
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_russia_victory2.mp3
-				ss_russia_victory1.mp3
-				ss_russia_victory3.mp3	
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_russia_victory2.mp3
-				ss_russia_victory1.mp3
-				ss_russia_victory3.mp3	
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end					
+
+			
+;;; CAMPAIGN RESULT			
+			
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+				wingame.mp3			
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+				lostgame.mp3
+			end
+
+
+;;;;;;;;;;;;;;;;;union music;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type ss_union
+			
+			
+;;; BAttlE MAP			
+			
+		state MUSIC_BATTLE_TENSION
+			event 
+				folder data/sounds/music
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
+			end
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event 
+				folder data/sounds/music
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
+			end
+
+
+
+		state MUSIC_BATTLE_BATTLE
+			event 
 				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				battle1.mp3
+				battle2.mp3
+				battle3.mp3
+				battle4.mp3
+				battle5.mp3
+				battle6.mp3
+				battle7.mp3
+				battle8.mp3
+			end
+
+			
+;;;; BATTLE MAP RESULT			
+			
+		
+		state MUSIC_RESULT_WIN_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+				
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+				
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+				
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_DRAW
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+
+			
+			
+;;; CAMPMAP
+						
+			
+			
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5 
+				folder data/sounds/music
+				ss_union_camp4.mp3
+				ss_union_camp5.mp3
+				ss_union_camp7.mp3
+				ss_union_camp8.mp3
+				generic_american_001.mp3
+				generic_american_002.mp3
+				generic_american_003.mp3
+				generic_american_004.mp3
+				generic_american_005.mp3
+				generic_american_006.mp3
+				generic_american_007.mp3
+				generic_american_008.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_anglo_01.mp3
+				generic_euro_anglo_02.mp3
+				generic_euro_anglo_03.mp3
+				generic_euro_anglo_04.mp3
+			end			
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5 
+				folder data/sounds/music
+				ss_union_camp4.mp3
+				ss_union_camp5.mp3
+				ss_union_camp7.mp3
+				ss_union_camp8.mp3
+				generic_american_001.mp3
+				generic_american_002.mp3
+				generic_american_003.mp3
+				generic_american_004.mp3
+				generic_american_005.mp3
+				generic_american_006.mp3
+				generic_american_007.mp3
+				generic_american_008.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_anglo_01.mp3
+				generic_euro_anglo_02.mp3
+				generic_euro_anglo_03.mp3
+				generic_euro_anglo_04.mp3
+			end
+
+
+		state MUSIC_CAMPAIGN_LOADING
+			event 
+				folder data/sounds/music
+				europa_loading1.mp3
+				europa_loading2.mp3
+				europa_loading3.mp3
+			end							
+						
+			
+		state MUSIC_PREBATTLE_SCROLL
+			event  
+				folder data/sounds/music
+				prebattlescroll1.mp3
+				prebattlescroll2.mp3
+				prebattlescroll3.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+							
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+							
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end					
+
+			
+;;; CAMPAIGN RESULT			
+			
+			
+			
+		state MUSIC_CAMPAIGN_VICTORY
+			event  looped
+				folder data/sounds/music
+				wingame.mp3			
+			end	
+		state MUSIC_CAMPAIGN_DEFEAT
+			event  looped
+				folder data/sounds/music
+				lostgame.mp3
+			end
+
+;;;;;;;;;;;;;;;;;;russian music;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	music_type ss_russia
+			
+			
+;;; BAttlE MAP			
+			
+		state MUSIC_BATTLE_TENSION
+			event 
+				folder data/sounds/music
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
+			end
+			
+		state MUSIC_BATTLE_MOBILIZE
+			event 
+				folder data/sounds/music
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
+			end
+
+
+
+		state MUSIC_BATTLE_BATTLE
+			event 
+				folder data/sounds/music/battle
+				battle1.mp3
+				battle2.mp3
+				battle3.mp3
+				battle4.mp3
+				battle5.mp3
+				battle6.mp3
+				battle7.mp3
+				battle8.mp3
+			end
+
+			
+;;;; BATTLE MAP RESULT			
+			
+		
+		state MUSIC_RESULT_WIN_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+				
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+				
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+				
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+
+			
+			
+;;; CAMPMAP
+						
+			
+			
+		state MUSIC_STRATMAP_SUMMER
+			event delay 5 
+				folder data/sounds/music
+				ss_russia_camp5.mp3
+				ss_russia_camp8.mp3
+				ss_russia_camp9.mp3
+				ss_russia_camp11.mp3
+				ss_russia_camp15.mp3
+				ss_russia_camp16.mp3
+				ss_russia_camp17.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
+			end			
+
+		state MUSIC_STRATMAP_WINTER
+			event delay 5 
+				folder data/sounds/music
+				ss_russia_camp5.mp3
+				ss_russia_camp8.mp3
+				ss_russia_camp9.mp3
+				ss_russia_camp11.mp3
+				ss_russia_camp15.mp3
+				ss_russia_camp16.mp3
+				ss_russia_camp17.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
+			end
+
+
+		state MUSIC_CAMPAIGN_LOADING
+			event 
+				folder data/sounds/music
+				europa_loading1.mp3
+				europa_loading2.mp3
+				europa_loading3.mp3
+			end							
+						
+			
+		state MUSIC_PREBATTLE_SCROLL
+			event  
+				folder data/sounds/music
+				prebattlescroll1.mp3
+				prebattlescroll2.mp3
+				prebattlescroll3.mp3
+			end
+			
+			
+			
+			
+		state MUSIC_RESULT_STRAT_WIN_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3							
+			end
+		state MUSIC_RESULT_STRAT_WIN_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
+							
+			end
+		state MUSIC_RESULT_STRAT_WIN_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+							
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
+			end
+		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
+			end
+		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
+			end
+		state MUSIC_RESULT_STRAT_DRAW
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end					
 
 			
@@ -3109,19 +2752,19 @@ BANK: music_bank
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_spain_deploy1.mp3
-				ss_spain_deploy2.mp3
-				ss_spain_deploy3.mp3
-				ss_spain_deploy4.mp3
-				ss_spain_deploy5.mp3
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_spain_march1.mp3
-				ss_spain_march2.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
+
 			
 		state MUSIC_BATTLE_BATTLE
 			event 
@@ -3139,23 +2782,20 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_spain_victory1.mp3
-				ss_spain_victory2.mp3
-				ss_spain_victory3.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_spain_victory1.mp3
-				ss_spain_victory2.mp3
-				ss_spain_victory3.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_spain_victory1.mp3
-				ss_spain_victory2.mp3
-				ss_spain_victory3.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
@@ -3288,13 +2928,14 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_VICTORY
 			event  looped
 				folder data/sounds/music
-				
-							
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 		state MUSIC_CAMPAIGN_DEFEAT
 			event  looped
 				folder data/sounds/music
-		
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 			
 	
@@ -3308,30 +2949,20 @@ BANK: music_bank
 
 ;;; BAttlE MAP			
 			
-			
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_samerica_deploy1.mp3
-				ss_samerica_deploy2.mp3
-				ss_samerica_deploy3.mp3
-				ss_samerica_deploy4.mp3
-				ss_samerica_deploy5.mp3
-				ss_samerica_deploy6.mp3
-              
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_samerica_march1.mp3
-				ss_samerica_march2.mp3
-				ss_samerica_march3.mp3
-				ss_samerica_march4.mp3
-				ss_samerica_march5.mp3
-				ss_samerica_march6.mp3
-				ss_samerica_march7.mp3
-				ss_samerica_march8.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
 			
 		state MUSIC_BATTLE_BATTLE
@@ -3350,37 +2981,44 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_samerica_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_samerica_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_samerica_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
 				folder data/sounds/music
-				(Mediterranean_Lose_1)_Cordone.mp3
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
 				folder data/sounds/music
-				(Mediterranean_Lose_1)_Cordone.mp3
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
 				folder data/sounds/music
-				(Mediterranean_Lose_1)_Cordone.mp3
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
 				folder data/sounds/music
-				(Mediterranean_Lose_1)_Cordone.mp3
+				results_eu.mp3
+				results_eu2.mp3
 			end
 
 			
@@ -3497,13 +3135,14 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_VICTORY
 			event  looped
 				folder data/sounds/music
-				
-							
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 		state MUSIC_CAMPAIGN_DEFEAT
 			event  looped
 				folder data/sounds/music
-		
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 			
 	
@@ -3753,14 +3392,17 @@ BANK: music_bank
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_otto_deploy1.mp3
+				tension_arab_001.mp3
+				tension_arab_002.mp3
+				tension_arab_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_otto_march1.mp3
-				ss_otto_march2.mp3
+				deployment_arab_001.mp3
+				deployment_arab_002.mp3
+				deployment_arab_003.mp3
 			end
 			
 		state MUSIC_BATTLE_BATTLE
@@ -3779,52 +3421,38 @@ BANK: music_bank
 					
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 
 			
@@ -3835,43 +3463,63 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music/Islam
-				ss_otto_camp1.mp3
-				ss_otto_camp2.mp3
-				ss_otto_camp3.mp3
-				ss_otto_camp4.mp3
-				ss_otto_camp5.mp3
-				Campaign1.mp3
-				Campaign2.mp3
-				Campaign3.mp3
-				Campaign4.mp3
-				Campaign5.mp3
-				Campaign6.mp3
-				Campaign7.mp3
-				Campaign8.mp3
-				Campaign9.mp3
-				Campaign10.mp3
-				Campaign11.mp3
+				camp_arabic_001.mp3
+				camp_arabic_002.mp3
+				camp_arabic_003.mp3
+				camp_arabic_004.mp3
+				camp_arabic_005.mp3
+				camp_arabic_006.mp3
+				camp_arabic_007.mp3
+				camp_arabic_008.mp3
+				camp_arabic_009.mp3
+				camp_arabic_010.mp3
+				camp_arabic_011.mp3
+				camp_arabic_012.mp3
+				camp_arabic_013.mp3
+				camp_arabic_014.mp3
+				camp_arabic_015.mp3
+				camp_arabic_016.mp3
+				camp_arabic_017.mp3
+				camp_arabic_018.mp3
+				camp_arabic_019.mp3
+				camp_arabic_020.mp3
+				camp_arabic_021.mp3
+				camp_arabic_022.mp3
+				camp_arabic_023.mp3
+				camp_arabic_024.mp3
+				camp_arabic_025.mp3
+				camp_arabic_026.mp3
 			end	
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music/Islam
-				ss_otto_camp1.mp3
-				ss_otto_camp2.mp3
-				ss_otto_camp3.mp3
-				ss_otto_camp4.mp3
-				ss_otto_camp5.mp3
-				Campaign1.mp3
-				Campaign2.mp3
-				Campaign3.mp3
-				Campaign4.mp3
-				Campaign5.mp3
-				Campaign6.mp3
-				Campaign7.mp3
-				Campaign8.mp3
-				Campaign9.mp3
-				Campaign10.mp3
-				Campaign11.mp3
+				camp_arabic_001.mp3
+				camp_arabic_002.mp3
+				camp_arabic_003.mp3
+				camp_arabic_004.mp3
+				camp_arabic_005.mp3
+				camp_arabic_006.mp3
+				camp_arabic_007.mp3
+				camp_arabic_008.mp3
+				camp_arabic_009.mp3
+				camp_arabic_010.mp3
+				camp_arabic_011.mp3
+				camp_arabic_012.mp3
+				camp_arabic_013.mp3
+				camp_arabic_014.mp3
+				camp_arabic_015.mp3
+				camp_arabic_016.mp3
+				camp_arabic_017.mp3
+				camp_arabic_018.mp3
+				camp_arabic_019.mp3
+				camp_arabic_020.mp3
+				camp_arabic_021.mp3
+				camp_arabic_022.mp3
+				camp_arabic_023.mp3
+				camp_arabic_024.mp3
+				camp_arabic_025.mp3
+				camp_arabic_026.mp3
 			end
 			
 		state MUSIC_CAMPAIGN_LOADING
@@ -3890,56 +3538,40 @@ BANK: music_bank
 			end
 			
 			
-			
-			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3	
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3	
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3		
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_ar.mp3	
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3			
+				folder data/sounds/music
+				results_ar.mp3		
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_ar.mp3	
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_ar.mp3	
 			end	
 
 			
@@ -3949,13 +3581,14 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_VICTORY
 			event  looped
 				folder data/sounds/music
-				
-							
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 		state MUSIC_CAMPAIGN_DEFEAT
 			event  looped
 				folder data/sounds/music
-		
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 			
 	
@@ -3972,18 +3605,20 @@ BANK: music_bank
 			
 		state MUSIC_BATTLE_TENSION
 			event 
-				folder data/sounds/music/Islam
-				tension1.mp3
-				tension2.mp3
+				folder data/sounds/music
+				tension_arab_001.mp3
+				tension_arab_002.mp3
+				tension_arab_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
-				folder data/sounds/music/Islam
-				mobilize1.mp3
-				mobilize2.mp3
-				mobilize3.mp3
+				folder data/sounds/music
+				deployment_arab_001.mp3
+				deployment_arab_002.mp3
+				deployment_arab_003.mp3
 			end
+			
 			
 		state MUSIC_BATTLE_BATTLE
 			event 
@@ -4001,52 +3636,38 @@ BANK: music_bank
 					
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 
 			
@@ -4056,44 +3677,64 @@ BANK: music_bank
 			
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
-				folder data/sounds/music/Islam
-				camp1.mp3
-				camp2.mp3
-				camp3.mp3
-				camp4.mp3
-				camp5.mp3
-				Campaign1.mp3
-				Campaign2.mp3
-				Campaign3.mp3
-				Campaign4.mp3
-				Campaign5.mp3
-				Campaign6.mp3
-				Campaign7.mp3
-				Campaign8.mp3
-				Campaign9.mp3
-				Campaign10.mp3
-				Campaign11.mp3
+				folder data/sounds/music
+				camp_arabic_001.mp3
+				camp_arabic_002.mp3
+				camp_arabic_003.mp3
+				camp_arabic_004.mp3
+				camp_arabic_005.mp3
+				camp_arabic_006.mp3
+				camp_arabic_007.mp3
+				camp_arabic_008.mp3
+				camp_arabic_009.mp3
+				camp_arabic_010.mp3
+				camp_arabic_011.mp3
+				camp_arabic_012.mp3
+				camp_arabic_013.mp3
+				camp_arabic_014.mp3
+				camp_arabic_015.mp3
+				camp_arabic_016.mp3
+				camp_arabic_017.mp3
+				camp_arabic_018.mp3
+				camp_arabic_019.mp3
+				camp_arabic_020.mp3
+				camp_arabic_021.mp3
+				camp_arabic_022.mp3
+				camp_arabic_023.mp3
+				camp_arabic_024.mp3
+				camp_arabic_025.mp3
+				camp_arabic_026.mp3
 			end	
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
-				folder data/sounds/music/Islam
-				camp1.mp3
-				camp2.mp3
-				camp3.mp3
-				camp4.mp3
-				camp5.mp3
-				Campaign1.mp3
-				Campaign2.mp3
-				Campaign3.mp3
-				Campaign4.mp3
-				Campaign5.mp3
-				Campaign6.mp3
-				Campaign7.mp3
-				Campaign8.mp3
-				Campaign9.mp3
-				Campaign10.mp3
-				Campaign11.mp3
+				folder data/sounds/music
+				camp_arabic_001.mp3
+				camp_arabic_002.mp3
+				camp_arabic_003.mp3
+				camp_arabic_004.mp3
+				camp_arabic_005.mp3
+				camp_arabic_006.mp3
+				camp_arabic_007.mp3
+				camp_arabic_008.mp3
+				camp_arabic_009.mp3
+				camp_arabic_010.mp3
+				camp_arabic_011.mp3
+				camp_arabic_012.mp3
+				camp_arabic_013.mp3
+				camp_arabic_014.mp3
+				camp_arabic_015.mp3
+				camp_arabic_016.mp3
+				camp_arabic_017.mp3
+				camp_arabic_018.mp3
+				camp_arabic_019.mp3
+				camp_arabic_020.mp3
+				camp_arabic_021.mp3
+				camp_arabic_022.mp3
+				camp_arabic_023.mp3
+				camp_arabic_024.mp3
+				camp_arabic_025.mp3
+				camp_arabic_026.mp3
 			end
 			
 		state MUSIC_CAMPAIGN_LOADING
@@ -4116,52 +3757,38 @@ BANK: music_bank
 			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3	
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3	
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/Islam
-				Win1.mp3
-				Win2.mp3
-				Win3.mp3		
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3			
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/Islam
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_ar.mp3
 			end	
 
 			
@@ -4171,13 +3798,14 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_VICTORY
 			event  looped
 				folder data/sounds/music
-				
-							
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 		state MUSIC_CAMPAIGN_DEFEAT
 			event  looped
 				folder data/sounds/music
-		
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 			
 	
@@ -4193,21 +3821,18 @@ BANK: music_bank
 			
 		state MUSIC_BATTLE_TENSION
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_tension1.mp3
-                                		Mongol_tension2.mp3
-                                		Mongol_tension3.mp3
-                                		Mongol_tension4.mp3
-                                		Mongol_tension5.mp3
+				folder data/sounds/music
+				tension_indian_001.mp3
+				tension_indian_002.mp3
+				tension_indian_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
-			event
-				folder data/sounds/music/mongol
-                                		Mongol_Mobilize_1.mp3
-                                		Mongol_Mobilize_2.mp3
-                                		Mongol_Mobilize_3.mp3
-                                		Mongol_Mobilize_4.mp3
+			event 
+				folder data/sounds/music
+				deployment_indian_001.mp3
+				deployment_indian_002.mp3
+				deployment_indian_003.mp3
 			end
 			
 		state MUSIC_BATTLE_BATTLE
@@ -4227,52 +3852,38 @@ BANK: music_bank
 					
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Win_1.mp3
-                                		Mongol_Win_2.mp3
-                                		Mongol_Win_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Win_1.mp3
-                                		Mongol_Win_2.mp3
-                                		Mongol_Win_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Win_1.mp3
-                                		Mongol_Win_2.mp3
-                                		Mongol_Win_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Lose_1.mp3
-                                		Mongol_Lose_2.mp3
-                                		Mongol_Lose_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Lose_1.mp3
-                                		Mongol_Lose_2.mp3
-                                		Mongol_Lose_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Lose_1.mp3
-                                		Mongol_Lose_2.mp3
-                                		Mongol_Lose_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Lose_1.mp3
-                                		Mongol_Lose_2.mp3
-                                		Mongol_Lose_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 
 			
@@ -4293,11 +3904,75 @@ BANK: music_bank
                 ss_afghan_camp8.mp3
                 ss_afghan_camp9.mp3
                 ss_afghan_camp10.mp3
+				generic_ca_001.mp3
+				generic_ca_002.mp3
+				generic_ca_003.mp3
+				generic_ca_004.mp3
+				generic_ca_005.mp3
+				generic_ca_006.mp3
+				generic_ca_007.mp3
+				generic_ca_008.mp3
+				generic_ca_009.mp3
+				generic_ca_010.mp3
+				generic_ca_011.mp3
+				generic_ca_012.mp3
+				generic_ca_013.mp3
+				generic_ca_014.mp3
+				generic_ca_015.mp3
+				generic_ca_016.mp3
+				generic_ca_017.mp3
+				generic_ca_018.mp3
+				generic_ca_019.mp3
+				generic_ca_020.mp3
+				generic_ca_021.mp3
+				generic_ca_022.mp3
+				ca_campaign1.mp3
+				ca_campaign2.mp3
+				ca_campaign3.mp3
+				ca_campaign4.mp3
+				ca_campaign5.mp3
+				ca_campaign6.mp3
+				ca_campaign7.mp3
+				ca_campaign8.mp3
+				ca_campaign9.mp3
+				ca_campaign10.mp3
 			end	
 		
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
-				folder data/sounds/music			
+				folder data/sounds/music
+				generic_ca_001.mp3
+				generic_ca_002.mp3
+				generic_ca_003.mp3
+				generic_ca_004.mp3
+				generic_ca_005.mp3
+				generic_ca_006.mp3
+				generic_ca_007.mp3
+				generic_ca_008.mp3
+				generic_ca_009.mp3
+				generic_ca_010.mp3
+				generic_ca_011.mp3
+				generic_ca_012.mp3
+				generic_ca_013.mp3
+				generic_ca_014.mp3
+				generic_ca_015.mp3
+				generic_ca_016.mp3
+				generic_ca_017.mp3
+				generic_ca_018.mp3
+				generic_ca_019.mp3
+				generic_ca_020.mp3
+				generic_ca_021.mp3
+				generic_ca_022.mp3
+				ca_campaign1.mp3
+				ca_campaign2.mp3
+				ca_campaign3.mp3
+				ca_campaign4.mp3
+				ca_campaign5.mp3
+				ca_campaign6.mp3
+				ca_campaign7.mp3
+				ca_campaign8.mp3
+				ca_campaign9.mp3
+				ca_campaign10.mp3				
                 ss_afghan_camp1.mp3
                 ss_afghan_camp2.mp3
                 ss_afghan_camp3.mp3
@@ -4332,53 +4007,39 @@ BANK: music_bank
 			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Win_1.mp3
-                                		Mongol_Win_2.mp3
-                                		Mongol_Win_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Win_1.mp3
-                                		Mongol_Win_2.mp3
-                                		Mongol_Win_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Win_1.mp3
-                                		Mongol_Win_2.mp3
-                                		Mongol_Win_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Lose_1.mp3
-                                		Mongol_Lose_2.mp3
-                                		Mongol_Lose_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Lose_1.mp3
-                                		Mongol_Lose_2.mp3
-                                		Mongol_Lose_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Lose_1.mp3
-                                		Mongol_Lose_2.mp3
-                                		Mongol_Lose_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/mongol
-                                		Mongol_Lose_1.mp3
-                                		Mongol_Lose_2.mp3
-                                		Mongol_Lose_3.mp3
+				folder data/sounds/music
+				results_ca.mp3
 			end	
 
 			
@@ -4408,18 +4069,18 @@ BANK: music_bank
 			
 		state MUSIC_BATTLE_TENSION
 			event 
-				folder data/sounds/music/india
-				tension1.mp3
-				tension2.mp3
-				tension3.mp3
+				folder data/sounds/music
+				tension_indian_001.mp3
+				tension_indian_002.mp3
+				tension_indian_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
-				folder data/sounds/music/Islam
-				mobilize1.mp3
-				mobilize2.mp3
-				mobilize3.mp3
+				folder data/sounds/music
+				deployment_indian_001.mp3
+				deployment_indian_002.mp3
+				deployment_indian_003.mp3
 			end
 			
 		state MUSIC_BATTLE_BATTLE
@@ -4438,42 +4099,42 @@ BANK: music_bank
 		
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				ca_win1.mp3
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				ca_win1.mp3
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				ca_win1.mp3
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				ca_lose1.mp3
 				
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				ca_lose1.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				ca_lose1.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				ca_lose1.mp3
 			end
 
 			
@@ -4484,46 +4145,84 @@ BANK: music_bank
 			
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
-				folder data/sounds/music/india
-				campaign1.mp3
-				camp1.mp3
-				camp2.mp3
-				camp3.mp3
-				campaign2.mp3
-				campaign3.mp3
-				campaign4.mp3
-				campaign5.mp3
-				campaign6.mp3
-				campaign7.mp3
-				campaign8.mp3
-				campaign9.mp3
-				campaign10.mp3
+				folder data/sounds/music
+				generic_ca_001.mp3
+				generic_ca_002.mp3
+				generic_ca_003.mp3
+				generic_ca_004.mp3
+				generic_ca_005.mp3
+				generic_ca_006.mp3
+				generic_ca_007.mp3
+				generic_ca_008.mp3
+				generic_ca_009.mp3
+				generic_ca_010.mp3
+				generic_ca_011.mp3
+				generic_ca_012.mp3
+				generic_ca_013.mp3
+				generic_ca_014.mp3
+				generic_ca_015.mp3
+				generic_ca_016.mp3
+				generic_ca_017.mp3
+				generic_ca_018.mp3
+				generic_ca_019.mp3
+				generic_ca_020.mp3
+				generic_ca_021.mp3
+				generic_ca_022.mp3
+				ca_campaign1.mp3
+				ca_campaign2.mp3
+				ca_campaign3.mp3
+				ca_campaign4.mp3
+				ca_campaign5.mp3
+				ca_campaign6.mp3
+				ca_campaign7.mp3
+				ca_campaign8.mp3
+				ca_campaign9.mp3
+				ca_campaign10.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
-				folder data/sounds/music/india
-				campaign1.mp3
-				camp1.mp3
-				camp2.mp3
-				camp3.mp3
-				campaign2.mp3
-				campaign3.mp3
-				campaign4.mp3
-				campaign5.mp3
-				campaign6.mp3
-				campaign7.mp3
-				campaign8.mp3
-				campaign9.mp3
-				campaign10.mp3
+				folder data/sounds/music
+				generic_ca_001.mp3
+				generic_ca_002.mp3
+				generic_ca_003.mp3
+				generic_ca_004.mp3
+				generic_ca_005.mp3
+				generic_ca_006.mp3
+				generic_ca_007.mp3
+				generic_ca_008.mp3
+				generic_ca_009.mp3
+				generic_ca_010.mp3
+				generic_ca_011.mp3
+				generic_ca_012.mp3
+				generic_ca_013.mp3
+				generic_ca_014.mp3
+				generic_ca_015.mp3
+				generic_ca_016.mp3
+				generic_ca_017.mp3
+				generic_ca_018.mp3
+				generic_ca_019.mp3
+				generic_ca_020.mp3
+				generic_ca_021.mp3
+				generic_ca_022.mp3
+				ca_campaign1.mp3
+				ca_campaign2.mp3
+				ca_campaign3.mp3
+				ca_campaign4.mp3
+				ca_campaign5.mp3
+				ca_campaign6.mp3
+				ca_campaign7.mp3
+				ca_campaign8.mp3
+				ca_campaign9.mp3
+				ca_campaign10.mp3
 			end
 
 
 		state MUSIC_CAMPAIGN_LOADING
 			event 
-				folder data/sounds/music/india
-				loading1.mp3
-				loading2.mp3
+				folder data/sounds/music
+				ca_loading1.mp3
+				ca_loading2.mp3
 			end							
 						
 			
@@ -4540,43 +4239,43 @@ BANK: music_bank
 			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/india
-				win1.mp3							
+				folder data/sounds/music
+				ca_win1.mp3							
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				ca_win1.mp3
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				ca_win1.mp3
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				ca_lose1.mp3
 						
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				ca_lose1.mp3
 						
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				ca_lose1.mp3
 						
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/india
-				lose1.mp3	
+				folder data/sounds/music
+				ca_lose1.mp3	
 			end					
 
 			
@@ -4606,20 +4305,21 @@ BANK: music_bank
 ;;; BAttlE MAP			
 			
 			
+			
 		state MUSIC_BATTLE_TENSION
 			event 
-				folder data/sounds/music/india
-				tension1.mp3
-				tension2.mp3
-				tension3.mp3
+				folder data/sounds/music
+				tension_arab_001.mp3
+				tension_arab_002.mp3
+				tension_arab_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
-				folder data/sounds/music/Islam
-				mobilize1.mp3
-				mobilize2.mp3
-				mobilize3.mp3
+				folder data/sounds/music
+				deployment_arab_001.mp3
+				deployment_arab_002.mp3
+				deployment_arab_003.mp3
 			end
 			
 		state MUSIC_BATTLE_BATTLE
@@ -4638,42 +4338,44 @@ BANK: music_bank
 		
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
-				folder data/sounds/music/india
-				win1.mp3
-				
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				results_ca.mp3
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/india
-				win1.mp3
-				
+				folder data/sounds/music
+				results_ca.mp3
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
+				ca_lose1.mp3
 				
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
+				ca_lose1.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
+				ca_lose1.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
+				ca_lose1.mp3
 			end
 
 			
@@ -4689,18 +4391,42 @@ BANK: music_bank
                 ss_afghan_camp2.mp3
                 ss_afghan_camp3.mp3
                 ss_afghan_camp4.mp3
-                ss_afghan_camp5.mp3
 				ss_afghan_camp6.mp3
-                ss_afghan_camp7.mp3
                 ss_afghan_camp8.mp3
                 ss_afghan_camp9.mp3
                 ss_afghan_camp10.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
+				generic_ca_001.mp3
+				generic_ca_002.mp3
+				generic_ca_003.mp3
+				generic_ca_004.mp3
+				generic_ca_005.mp3
+				generic_ca_006.mp3
+				generic_ca_007.mp3
+				generic_ca_008.mp3
+				generic_ca_009.mp3
+				generic_ca_010.mp3
+				generic_ca_011.mp3
+				generic_ca_012.mp3
+				generic_ca_013.mp3
+				generic_ca_014.mp3
+				generic_ca_015.mp3
+				generic_ca_016.mp3
+				generic_ca_017.mp3
+				generic_ca_018.mp3
+				generic_ca_019.mp3
+				generic_ca_020.mp3
+				generic_ca_021.mp3
+				generic_ca_022.mp3
+				ca_campaign1.mp3
+				ca_campaign2.mp3
+				ca_campaign3.mp3
+				ca_campaign4.mp3
+				ca_campaign5.mp3
+				ca_campaign6.mp3
+				ca_campaign7.mp3
+				ca_campaign8.mp3
+				ca_campaign9.mp3
+				ca_campaign10.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
@@ -4710,26 +4436,50 @@ BANK: music_bank
                 ss_afghan_camp2.mp3
                 ss_afghan_camp3.mp3
                 ss_afghan_camp4.mp3
-                ss_afghan_camp5.mp3
 				ss_afghan_camp6.mp3
-                ss_afghan_camp7.mp3
                 ss_afghan_camp8.mp3
                 ss_afghan_camp9.mp3
                 ss_afghan_camp10.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
+				generic_ca_001.mp3
+				generic_ca_002.mp3
+				generic_ca_003.mp3
+				generic_ca_004.mp3
+				generic_ca_005.mp3
+				generic_ca_006.mp3
+				generic_ca_007.mp3
+				generic_ca_008.mp3
+				generic_ca_009.mp3
+				generic_ca_010.mp3
+				generic_ca_011.mp3
+				generic_ca_012.mp3
+				generic_ca_013.mp3
+				generic_ca_014.mp3
+				generic_ca_015.mp3
+				generic_ca_016.mp3
+				generic_ca_017.mp3
+				generic_ca_018.mp3
+				generic_ca_019.mp3
+				generic_ca_020.mp3
+				generic_ca_021.mp3
+				generic_ca_022.mp3
+				ca_campaign1.mp3
+				ca_campaign2.mp3
+				ca_campaign3.mp3
+				ca_campaign4.mp3
+				ca_campaign5.mp3
+				ca_campaign6.mp3
+				ca_campaign7.mp3
+				ca_campaign8.mp3
+				ca_campaign9.mp3
+				ca_campaign10.mp3
 			end	
 
 
 		state MUSIC_CAMPAIGN_LOADING
 			event 
-				folder data/sounds/music/india
-				loading1.mp3
-				loading2.mp3
+				folder data/sounds/music
+				ca_loading1.mp3
+				ca_loading2.mp3
 			end							
 						
 			
@@ -4746,43 +4496,47 @@ BANK: music_bank
 			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/india
-				win1.mp3							
+				folder data/sounds/music
+				results_ca.mp3							
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				results_ca.mp3
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				results_ca.mp3
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
+				ca_lose1.mp3
 						
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
+				ca_lose1.mp3
 						
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
+				ca_lose1.mp3
 						
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/india
-				lose1.mp3	
+				folder data/sounds/music
+				results_ar.mp3
+				ca_lose1.mp3
 			end					
 
 			
@@ -4811,23 +4565,22 @@ BANK: music_bank
 			
 ;;; BAttlE MAP			
 			
-			
 		state MUSIC_BATTLE_TENSION
 			event 
-				folder data/sounds/music/india
-				tension1.mp3
-				tension2.mp3
-				tension3.mp3
+				folder data/sounds/music
+				tension_arab_001.mp3
+				tension_arab_002.mp3
+				tension_arab_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
-				folder data/sounds/music/Islam
-				mobilize1.mp3
-				mobilize2.mp3
-				mobilize3.mp3
+				folder data/sounds/music
+				deployment_arab_001.mp3
+				deployment_arab_002.mp3
+				deployment_arab_003.mp3
 			end
-			
+
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/Islam
@@ -4844,42 +4597,42 @@ BANK: music_bank
 		
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				results_ca.mp3
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				results_ca.mp3
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				results_ca.mp3
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
 				
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
 			end
 
 			
@@ -4891,47 +4644,71 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ss_qajar_camp1.mp3
-				ss_qajar_camp2.mp3
-				ss_qajar_camp3.mp3
-				ss_qajar_camp4.mp3
-				ss_qajar_camp5.mp3
-				ss_qajar_camp6.mp3
-				ss_qajar_camp7.mp3
-				ss_qajar_camp8.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
+				camp_arabic_001.mp3
+				camp_arabic_002.mp3
+				camp_arabic_003.mp3
+				camp_arabic_004.mp3
+				camp_arabic_005.mp3
+				camp_arabic_006.mp3
+				camp_arabic_007.mp3
+				camp_arabic_008.mp3
+				camp_arabic_009.mp3
+				camp_arabic_010.mp3
+				camp_arabic_011.mp3
+				camp_arabic_012.mp3
+				camp_arabic_013.mp3
+				camp_arabic_014.mp3
+				camp_arabic_015.mp3
+				camp_arabic_016.mp3
+				camp_arabic_017.mp3
+				camp_arabic_018.mp3
+				camp_arabic_019.mp3
+				camp_arabic_020.mp3
+				camp_arabic_021.mp3
+				camp_arabic_022.mp3
+				camp_arabic_023.mp3
+				camp_arabic_024.mp3
+				camp_arabic_025.mp3
+				camp_arabic_026.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				ss_qajar_camp1.mp3
-				ss_qajar_camp2.mp3
-				ss_qajar_camp3.mp3
-				ss_qajar_camp4.mp3
-				ss_qajar_camp5.mp3
-				ss_qajar_camp6.mp3
-				ss_qajar_camp7.mp3
-				ss_qajar_camp8.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
+				camp_arabic_001.mp3
+				camp_arabic_002.mp3
+				camp_arabic_003.mp3
+				camp_arabic_004.mp3
+				camp_arabic_005.mp3
+				camp_arabic_006.mp3
+				camp_arabic_007.mp3
+				camp_arabic_008.mp3
+				camp_arabic_009.mp3
+				camp_arabic_010.mp3
+				camp_arabic_011.mp3
+				camp_arabic_012.mp3
+				camp_arabic_013.mp3
+				camp_arabic_014.mp3
+				camp_arabic_015.mp3
+				camp_arabic_016.mp3
+				camp_arabic_017.mp3
+				camp_arabic_018.mp3
+				camp_arabic_019.mp3
+				camp_arabic_020.mp3
+				camp_arabic_021.mp3
+				camp_arabic_022.mp3
+				camp_arabic_023.mp3
+				camp_arabic_024.mp3
+				camp_arabic_025.mp3
+				camp_arabic_026.mp3
 			end
 
 
 		state MUSIC_CAMPAIGN_LOADING
 			event 
-				folder data/sounds/music/india
-				loading1.mp3
-				loading2.mp3
+				folder data/sounds/music
+				ca_loading1.mp3
+				ca_loading2.mp3
 			end							
 						
 			
@@ -4944,47 +4721,45 @@ BANK: music_bank
 			end
 			
 			
-			
-			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/india
-				win1.mp3							
+				folder data/sounds/music
+				results_ca.mp3							
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				results_ca.mp3
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/india
-				win1.mp3
+				folder data/sounds/music
+				results_ca.mp3
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
 						
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
 						
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/india
-				lose1.mp3
+				folder data/sounds/music
+				results_ar.mp3
 						
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/india
-				lose1.mp3	
+				folder data/sounds/music
+				results_ar.mp3	
 			end					
 
 			
@@ -5118,6 +4893,31 @@ BANK: music_bank
 				Nichijou_Yuuganaru_Jikan_Kara_no_Hajimari.mp3		; Tested
 				Nobuyuki_Nakajima_Rekishi_ni_Nawonokosu_sha_Tachi.mp3
 				Ryuichi_Sakamoto_Yae_no_Sakura_shakuhachi.mp3		; Tested
+			end
+		state MUSIC_STRATMAP_WINTER
+			event delay 5 
+				folder data/sounds/music/japan
+				Hideyuki_Fukasawa_Hakodate.mp3						; Tested
+				Hideyuki_Fukasawa_Kakunojou_Hitori.mp3				; Tested
+				Hideyuki_Fukasawa_Omoi.mp3							; Tested
+				Hideyuki_Fukasawa_Shizuku.mp3						; Tested
+				Hideyuki_Fukasawa_Yuuyake_no_Kaze.mp3				; Tested
+				Michiru_Aishou_no_Hateni.mp3						; 
+				Michiru_Joran_Mein_Tema.mp3							; Tested
+				Michiru_Karasumori_no_Shuuraku.mp3					; Tested
+				Michiru_Mura_no_Seikatsu.mp3						; Tested
+				Michiru_Tsuyukusakoshoten_no_Nichijou.mp3			; Tested
+				Michiru_Shokeinin_no_Namida.mp3						; Tested
+				Naoki_Sato_Sora_no_Hate_Made.mp3					; Tested
+				Naoki_Sato_Utakata_no_Hibi.mp3						; Tested
+				Nichijou_Fuyuppoi_Koukou.mp3						; Tested
+				Nichijou_Koigokoro_wa_Hinekure_san.mp3				; Tested
+				Nichijou_Nichijou_no_Bokkateki_Ongaku.mp3			; 
+				Nichijou_Onamidachoudai.mp3							; Tested
+				Nichijou_Souzou_Ryoku_Zenkai.mp3					; Tested
+				Nichijou_Yuuganaru_Jikan_Kara_no_Hajimari.mp3		; Tested
+				Nobuyuki_Nakajima_Rekishi_ni_Nawonokosu_sha_Tachi.mp3
+				Ryuichi_Sakamoto_Yae_no_Sakura_shakuhachi.mp3		; Tested
 			end			
 
 
@@ -5206,25 +5006,22 @@ BANK: music_bank
 
 ;;; BAttlE MAP			
 			
-			
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_sweden_deploy1.mp3
-				ss_sweden_deploy2.mp3
-				ss_sweden_deploy3.mp3
-				ss_sweden_deploy4.mp3
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_sweden_march1.mp3
-				ss_sweden_march2.mp3
-				ss_sweden_march3.mp3
-				ss_sweden_march4.mp3
-				ss_sweden_march5.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
+
 			
 		state MUSIC_BATTLE_BATTLE
 			event 
@@ -5246,43 +5043,47 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_sweden_victory1.mp3
-				ss_sweden_victory2.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_sweden_victory1.mp3
-				ss_sweden_victory2.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_sweden_victory1.mp3
-				ss_sweden_victory2.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
 				folder data/sounds/music
-				ss_sweden_defeat1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_sweden_defeat1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_sweden_defeat1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_DRAW
 			event 
 				folder data/sounds/music
-				ss_sweden_defeat1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 
 			
@@ -5294,40 +5095,28 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
 				
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
 
 			end
 
@@ -5354,54 +5143,47 @@ BANK: music_bank
 			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3							
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3							
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3			
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3			
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end					
 
 			
@@ -5510,6 +5292,24 @@ BANK: music_bank
 			
 			
 		state MUSIC_STRATMAP_SUMMER
+			event delay 5 
+				folder data/sounds/music/japan
+				campaign1.mp3
+				campaign2.mp3
+				campaign3.mp3
+				campaign4.mp3
+				campaign5.mp3
+				campaign6.mp3
+				campaign7.mp3
+				campaign8.mp3
+				campaign9.mp3
+				campaign10.mp3
+				campaign11.mp3
+				campaign12.mp3
+				campaign13.mp3
+				campaign14.mp3
+			end
+		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music/japan
 				campaign1.mp3
@@ -5808,13 +5608,15 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_VICTORY
 			event looped 
 				folder data/sounds/music
-							
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 			
 		state MUSIC_CAMPAIGN_DEFEAT
 			event looped 
 				folder data/sounds/music
-		
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 
 
@@ -5829,21 +5631,22 @@ BANK: music_bank
 
 ;;; BAttlE MAP			
 			
-			
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_brazil_deploy1.mp3
-              
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_brazil_march1.mp3
-				ss_brazil_march2.mp3
-                ss_brazil_march3.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
+
 			
 		state MUSIC_BATTLE_BATTLE
 			event 
@@ -5876,22 +5679,26 @@ BANK: music_bank
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
 				folder data/sounds/music
-				(Mediterranean_Lose_1)_Cordone.mp3
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
 				folder data/sounds/music
-				(Mediterranean_Lose_1)_Cordone.mp3
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
 				folder data/sounds/music
-				(Mediterranean_Lose_1)_Cordone.mp3
+				results_eu.mp3
+				results_eu2.mp3
 			end
 		state MUSIC_RESULT_DRAW
 			event 
 				folder data/sounds/music
-				(Mediterranean_Lose_1)_Cordone.mp3
+				results_eu.mp3
+				results_eu2.mp3
 			end
 
 			
@@ -5901,8 +5708,19 @@ BANK: music_bank
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				bra_camp1.mp3
-				bra_camp2.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
@@ -5914,8 +5732,19 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				bra_camp1.mp3
-				bra_camp2.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
@@ -5983,13 +5812,14 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_VICTORY
 			event  looped
 				folder data/sounds/music
-				
-							
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 		state MUSIC_CAMPAIGN_DEFEAT
 			event  looped
 				folder data/sounds/music
-		
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 			
 	
@@ -6007,26 +5837,22 @@ BANK: music_bank
 
 ;;; BAttlE MAP			
 			
-			
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_italy_deploy1.mp3
-				ss_italy_deploy2.mp3
-				ss_italy_deploy3.mp3
-              
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_italy_march1.mp3
-				ss_italy_march2.mp3
-                ss_italy_march3.mp3
-                ss_italy_march4.mp3
-                ss_italy_march5.mp3
-                ss_italy_march6.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
+
 			
 		state MUSIC_BATTLE_BATTLE
 			event 
@@ -6037,13 +5863,67 @@ BANK: music_bank
 				(Euro_Battle_3)_Crusaders.mp3
 			end
 
+		state MUSIC_RESULT_WIN_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+		state MUSIC_RESULT_WIN_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+		state MUSIC_RESULT_WIN_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+		state MUSIC_RESULT_LOSE_CLOSE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+		state MUSIC_RESULT_LOSE_AVERAGE
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+		state MUSIC_RESULT_LOSE_CRUSHING
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+		state MUSIC_RESULT_DRAW
+			event 
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
+			end
+
 ;;; CAMPMAP			
 			
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				bra_camp1.mp3
-				bra_camp2.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
@@ -6055,8 +5935,19 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				bra_camp1.mp3
-				bra_camp2.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_01.mp3
 				(Mediterranean_Strat_Map_1)_Olivia_02.mp3
 				(Mediterranean_Strat_Map_2)_Vineyard_01.mp3
@@ -6077,8 +5968,6 @@ BANK: music_bank
 				folder data/sounds/music
 				(Euro_Camp_Battle_1)_Destiny.mp3
 			end
-			
-			
 			
 			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
@@ -6124,13 +6013,14 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_VICTORY
 			event  looped
 				folder data/sounds/music
-				
-							
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 		state MUSIC_CAMPAIGN_DEFEAT
 			event  looped
 				folder data/sounds/music
-		
+				results_eu.mp3
+				results_eu2.mp3
 			end	
 			
 
@@ -6146,19 +6036,19 @@ BANK: music_bank
 		state MUSIC_BATTLE_TENSION
 			event 
 				folder data/sounds/music
-				ss_prussia_deploy1.mp3
-				ss_prussia_deploy2.mp3
+				euro_deployment_001.mp3
+				euro_deployment_002.mp3
+				euro_deployment_003.mp3
 			end
 			
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				ss_prussia_march1.mp3
-				ss_prussia_march2.mp3
-				ss_prussia_march3.mp3
-				ss_prussia_march4.mp3
+				deployment_euro_002.mp3
+				deployment_euro_001.mp3
+				deployment_euro_003.mp3
 			end
-			
+
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music/battle
@@ -6179,48 +6069,47 @@ BANK: music_bank
 		state MUSIC_RESULT_WIN_CLOSE
 			event 
 				folder data/sounds/music
-				ss_prussia_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_AVERAGE
 			event 
 				folder data/sounds/music
-				ss_prussia_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_WIN_CRUSHING
 			event 
 				folder data/sounds/music
-				ss_prussia_victory1.mp3
+				results_eu.mp3
+				results_eu2.mp3	
 				
 			end
 		state MUSIC_RESULT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 
 			
@@ -6232,56 +6121,37 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ss_prussia_camp1.mp3
-				ss_prussia_camp2.mp3
-				ss_prussia_camp3.mp3
-				ss_prussia_camp4.mp3
-				ss_prussia_camp5.mp3
-				ss_prussia_camp6.mp3
-				ss_prussia_camp7.mp3
-				ss_prussia_camp8.mp3
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
-
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
 			end			
 
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
-				ss_prussia_camp1.mp3
-				ss_prussia_camp2.mp3
-				ss_prussia_camp3.mp3
-				ss_prussia_camp4.mp3
-				ss_prussia_camp5.mp3
-				ss_prussia_camp6.mp3
-				ss_prussia_camp7.mp3
-				ss_prussia_camp8.mp3
-				europa_campaign1.mp3
-				europa_campaign2.mp3
-				europa_campaign3.mp3
-				europa_campaign4.mp3
-				europa_campaign5.mp3
-				europa_campaign6.mp3
-				europa_campaign7.mp3
-				europa_campaign8.mp3
-				europa_campaign9.mp3
-				europa_campaign10.mp3
-				europa_campaign11.mp3
-				europa_campaign12.mp3
-				europa_campaign13.mp3
-				europa_campaign14.mp3
+				generic_euro_001.mp3
+				generic_euro_002.mp3
+				generic_euro_003.mp3
+				generic_euro_004.mp3
+				generic_euro_005.mp3
+				generic_euro_006.mp3
+				generic_euro_007.mp3
+				generic_euro_008.mp3
+				generic_euro_christian_01.mp3
+				generic_euro_christian_02.mp3
+				generic_euro_christian_03.mp3
+				generic_euro_christian_04.mp3
+				generic_euro_christian_05.mp3
 			end
 
 
@@ -6302,59 +6172,49 @@ BANK: music_bank
 				prebattlescroll3.mp3
 			end
 			
-			
-			
-			
 		state MUSIC_RESULT_STRAT_WIN_CLOSE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3							
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3								
 			end
 		state MUSIC_RESULT_STRAT_WIN_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_WIN_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				win1.mp3
-				win2.mp3
-				win3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 							
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CLOSE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_LOSE_AVERAGE
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3		
 			end
 		state MUSIC_RESULT_STRAT_LOSE_CRUSHING
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3		
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3	
 			end
 		state MUSIC_RESULT_STRAT_DRAW
 			event 
-				folder data/sounds/music/battle
-				lose1.mp3
-				lose2.mp3
-				lose3.mp3
+				folder data/sounds/music
+				results_eu.mp3
+				results_eu2.mp3
 			end					
 
 			

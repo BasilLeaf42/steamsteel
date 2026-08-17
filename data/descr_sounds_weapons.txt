@@ -1503,7 +1503,21 @@ weapon_type arrow_tower
 		flaming fly
 			event mindist 8 volume -10 priority 100 distancepriority 0 fadein .35 fadeout .5 probability 1 
 				folder data/sounds/SFX/Individual/Siege_Engines
-				cannon_fly_flaming_02
+				Projectile1_01
+				Projectile1_02
+				Projectile1_03
+				Projectile1_04
+				Projectile1_05
+				Projectile1_06
+				Projectile1_07
+				Projectile1_08
+				Projectile1_09
+				Projectile1_10
+				Projectile1_11
+				Projectile1_12
+				Projectile1_13
+				Projectile1_14
+				Projectile1_15
 			end
 
 ;;;;;;;;;;;;;;;			
@@ -1511,15 +1525,47 @@ weapon_type arrow_tower
 		hit building
 			event mindist 20 priority 200 volume 0 distancepriority 0 randomdelay 0 probability 1 
 				folder data/sounds/SFX/Individual/Siege_Engines
-				Cannon_hit_stone_01
-				Cannon_hit_stone_02
+				Hit_Ground01
+				Hit_Ground02
+				Hit_Ground03
+				Hit_Ground04
+				Hit_Ground05
+				Hit_Ground06
+				Hit_Ground07
+				Hit_Ground08
+				Hit_Ground09
+				Hit_Ground10
+				Hit_Ground11
+				Hit_Ground12
+				Hit_Ground13
+				Hit_Ground14
+				Hit_Ground15
+				Hit_Ground16
+				Hit_Ground17
+				Hit_Ground18
 			end
 
 		flaming hit building
 			event mindist 20 priority 200 volume 0 distancepriority 0 randomdelay 0 probability 1
 				folder data/sounds/SFX/Individual/Siege_Engines
-				Cannon_hit_ground_fiery_01
-				Cannon_hit_ground_fiery_02
+				Hit_Ground01
+				Hit_Ground02
+				Hit_Ground03
+				Hit_Ground04
+				Hit_Ground05
+				Hit_Ground06
+				Hit_Ground07
+				Hit_Ground08
+				Hit_Ground09
+				Hit_Ground10
+				Hit_Ground11
+				Hit_Ground12
+				Hit_Ground13
+				Hit_Ground14
+				Hit_Ground15
+				Hit_Ground16
+				Hit_Ground17
+				Hit_Ground18
 			end
 	
 						
@@ -1528,65 +1574,93 @@ weapon_type arrow_tower
 		hit flesh, leather
 			event mindist 2 priority 200 volume -15 distancepriority 0 probability 1 randomdelay 0
 				folder data/sounds/SFX/Individual/Siege_Engines
-				Cannon_hit_flesh_01
-				Cannon_hit_flesh_02
-				Cannon_hit_flesh_03
-				Cannon_hit_flesh_04
-				Cannon_hit_flesh_05
-				Cannon_hit_flesh_06
-				Cannon_hit_flesh_07
-				Cannon_hit_flesh_08
-				Cannon_hit_flesh_09
-				Cannon_hit_flesh_10
-				Cannon_hit_flesh_11
+				Hit_Ground01
+				Hit_Ground02
+				Hit_Ground03
+				Hit_Ground04
+				Hit_Ground05
+				Hit_Ground06
+				Hit_Ground07
+				Hit_Ground08
+				Hit_Ground09
+				Hit_Ground10
+				Hit_Ground11
+				Hit_Ground12
+				Hit_Ground13
+				Hit_Ground14
+				Hit_Ground15
+				Hit_Ground16
+				Hit_Ground17
+				Hit_Ground18
 				end
 
 		flaming hit flesh, leather
 			event mindist 2 priority 200 volume -15 distancepriority 0 probability 1 randomdelay 0
 				folder data/sounds/SFX/Individual/Siege_Engines
-				Cannon_hit_flesh_01
-				Cannon_hit_flesh_02
-				Cannon_hit_flesh_03
-				Cannon_hit_flesh_04
-				Cannon_hit_flesh_05
-				Cannon_hit_flesh_06
-				Cannon_hit_flesh_07
-				Cannon_hit_flesh_08
-				Cannon_hit_flesh_09
-				Cannon_hit_flesh_10
-				Cannon_hit_flesh_11
+				Hit_Ground01
+				Hit_Ground02
+				Hit_Ground03
+				Hit_Ground04
+				Hit_Ground05
+				Hit_Ground06
+				Hit_Ground07
+				Hit_Ground08
+				Hit_Ground09
+				Hit_Ground10
+				Hit_Ground11
+				Hit_Ground12
+				Hit_Ground13
+				Hit_Ground14
+				Hit_Ground15
+				Hit_Ground16
+				Hit_Ground17
+				Hit_Ground18
 				end
 				
 		death_hit flesh
 			event mindist 2 priority 200 volume -15 distancepriority 0 probability 1 randomdelay 0
 				folder data/sounds/SFX/Individual/Siege_Engines
-				Cannon_hit_flesh_01
-				Cannon_hit_flesh_02
-				Cannon_hit_flesh_03
-				Cannon_hit_flesh_04
-				Cannon_hit_flesh_05
-				Cannon_hit_flesh_06
-				Cannon_hit_flesh_07
-				Cannon_hit_flesh_08
-				Cannon_hit_flesh_09
-				Cannon_hit_flesh_10
-				Cannon_hit_flesh_11
+				Hit_Ground01
+				Hit_Ground02
+				Hit_Ground03
+				Hit_Ground04
+				Hit_Ground05
+				Hit_Ground06
+				Hit_Ground07
+				Hit_Ground08
+				Hit_Ground09
+				Hit_Ground10
+				Hit_Ground11
+				Hit_Ground12
+				Hit_Ground13
+				Hit_Ground14
+				Hit_Ground15
+				Hit_Ground16
+				Hit_Ground17
+				Hit_Ground18
 				end
 		
 		flaming death_hit flesh
 			event mindist 2 priority 200 volume -15 distancepriority 0 probability 1 randomdelay 0
 				folder data/sounds/SFX/Individual/Siege_Engines
-				Cannon_hit_flesh_01
-				Cannon_hit_flesh_02
-				Cannon_hit_flesh_03
-				Cannon_hit_flesh_04
-				Cannon_hit_flesh_05
-				Cannon_hit_flesh_06
-				Cannon_hit_flesh_07
-				Cannon_hit_flesh_08
-				Cannon_hit_flesh_09
-				Cannon_hit_flesh_10
-				Cannon_hit_flesh_11
+				Hit_Ground01
+				Hit_Ground02
+				Hit_Ground03
+				Hit_Ground04
+				Hit_Ground05
+				Hit_Ground06
+				Hit_Ground07
+				Hit_Ground08
+				Hit_Ground09
+				Hit_Ground10
+				Hit_Ground11
+				Hit_Ground12
+				Hit_Ground13
+				Hit_Ground14
+				Hit_Ground15
+				Hit_Ground16
+				Hit_Ground17
+				Hit_Ground18
 				end
 		
 ;;; wood;;;;;;;;;;;				

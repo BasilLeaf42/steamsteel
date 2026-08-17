@@ -3570,7 +3570,7 @@ Trigger logistics_officer_manifest_destiny_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
           and CharFactionType portugala
-          and event_counter manifest_destiny 1
+          and I_EventCounter manifest_destiny = 1
 
     AcquireAncillary logistics_officer chance  25 
 
@@ -3579,7 +3579,7 @@ Trigger logistics_officer_manifest_destiny_trig
 Trigger telegraph_operator_wireless_telegraph_trig
     WhenToTest CharacterTurnEnd
     Condition IsGeneral
-          and event_counter wireless_telegraph 1
+          and I_EventCounter wireless_telegraph = 1
 
     AcquireAncillary telegraph_operator chance  20 
 

@@ -3,6 +3,7 @@ dictionary       air_reg_1g      ; airship
 category         cavalry
 class            missile
 voice_type       heavy
+accent      	 English
 banner faction   main_cavalry
 banner holy      crusade_cavalry
 soldier          no_soldier, 4, 1, 1

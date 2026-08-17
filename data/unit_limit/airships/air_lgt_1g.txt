@@ -3,6 +3,7 @@ dictionary       air_lgt_1g      ; Scout Airship (light, fast-firing)
 category         cavalry
 class            missile
 voice_type       heavy
+accent      	 English
 banner faction   main_cavalry
 banner holy      crusade_cavalry
 soldier          no_soldier, 4, 1, 1

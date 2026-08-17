@@ -148,7 +148,7 @@ BANK: stratmap_terrain
 
 				end
 			looped
-				event volume -50 minPitch .9 maxPitch 1.1 mindist 5
+				event volume -20 minPitch .9 maxPitch 1.1 mindist 5
 					folder data/sounds/SFX/Campaign_Map/map_steppe
 					steppe_1
 					steppe_2
@@ -277,7 +277,7 @@ BANK: stratmap_terrain
 
 				end
 			looped
-				event volume -80
+				event volume 0
 					folder data/sounds/SFX/Campaign_Map/map_beach
 					map_beach_1
 					map_beach_2
@@ -305,7 +305,7 @@ season winter
 
 
 			looped
-				event volume -99 minPitch .9 maxPitch 1.1 mindist 5
+				event volume -20 minPitch .9 maxPitch 1.1 mindist 5
 					folder data/sounds/SFX/environment/ambience
 					desert_wind_01
 					desert_wind_02
