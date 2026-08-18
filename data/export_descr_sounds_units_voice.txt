@@ -937,16 +937,14 @@ BANK: unit_voice
                            vocal Group_Order_Attack confirm
                                     event 
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
-                                                  airship_horn_short.wav
-                                                  English_Heavy_Group_Order_Attack_2.wav
-												  airship_horn_short.wav
+                                                  airship_short.wav
+												  airship_short.wav
                                     end
                            vocal Group_Order_Attack_Fast confirm
                                     event 
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
-                                                  airship_horn_long.wav
-                                                  English_Heavy_Group_Order_Attack_Fast_2.wav
-                                                  airship_horn_long.wav
+                                                  airship_full.wav
+                                                  airship_full.wav
                                     end
                            vocal Group_Order_Halt confirm
                                     event 
@@ -957,16 +955,15 @@ BANK: unit_voice
                            vocal Group_Order_Missile_Attack confirm
                                     event 
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
-                                                  airship_horn_short.wav
-                                                  English_Heavy_Group_Order_Attack_Fast_2.wav
-                                                  airship_horn_short.wav
+                                                  airship_short.wav
+                                                  airship_short.wav
                                     end
                            vocal Group_Order_Missile_Attack_Fast confirm
                                     event 
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
-                                                  airship_horn_long.wav
+                                                  airship_full.wav
                                                   English_Heavy_Group_Order_Attack_Fast_2.wav
-                                                  airship_horn_long.wav
+                                                  airship_full.wav
                                     end
                            vocal Group_Order_Move confirm
                                     event 
@@ -1007,7 +1004,7 @@ BANK: unit_voice
                            vocal Group_Select_Engines
                                     event 
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
-                                                  airship_horn_long.wav
+                                                  airship_full.wav
                                     end
                            vocal Group_Select_Infantry
                                     event 
@@ -1018,8 +1015,8 @@ BANK: unit_voice
                            vocal Group_Select_Missiles
                                     event 
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
-                                                  airship_horn_long.wav
-                                                  airship_horn_long.wav
+                                                  airship_full.wav
+                                                  airship_full.wav
                                     end
                            vocal Group_State_Brace_Off confirm
                                     event 
@@ -1235,15 +1232,15 @@ BANK: unit_voice
                            vocal Unit_Attack confirm
                                     event 
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
-                                                  airship_horn_short.wav
-                                                  airship_horn_short.wav
+                                                  airship_short.wav
+                                                  airship_short.wav
                                                   English_Heavy_Unit_Attack_2.wav
                                     end
                            vocal Unit_Attack_Fast confirm
                                     event 
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
-                                                  airship_horn_long.wav
-                                                  airship_horn_long.wav
+                                                  airship_full.wav
+                                                  airship_full.wav
                                                   English_Heavy_Unit_Attack_Fast_2.wav
                                     end
                            vocal Unit_Completed
@@ -1303,44 +1300,38 @@ BANK: unit_voice
                            vocal Unit_Missile_Fire
                                     event mindist 2
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
-                                                  airship_horn_long.wav
-                                                  airship_horn_short.wav
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                            vocal Unit_Missile_Move_Into_Range confirm
                                     event 
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_Unit_Missile_Move_Into_Range_1.wav
-                                                  English_Heavy_Unit_Missile_Move_Into_Range_2.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                            vocal Unit_Missile_Move_Into_Range_Fast confirm
                                     event 
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_Unit_Missile_Move_Into_Range_Fast_1.wav
-                                                  English_Heavy_Unit_Missile_Move_Into_Range_Fast_2.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                            vocal Unit_Missile_Ready
                                     event mindist 2
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_Unit_Missile_Ready_1.wav
-                                                  English_Heavy_Unit_Missile_Ready_2.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                            vocal Unit_Move confirm
                                     event 
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_Unit_Move_1.wav
-                                                  English_Heavy_Unit_Move_2.wav
-                                                  English_Heavy_Unit_Move_3.wav
-                                                  English_Heavy_Unit_Move_4.wav
-                                                  English_Heavy_Unit_Move_5.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                            vocal Unit_Move_Fast confirm
                                     event 
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_Unit_Move_Fast_1.wav
-                                                  English_Heavy_Unit_Move_Fast_2.wav
-                                                  English_Heavy_Unit_Move_Fast_3.wav
-                                                  English_Heavy_Unit_Move_Fast_4.wav
-                                                  English_Heavy_Unit_Move_Fast_5.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                            vocal Unit_Rally confirm
                                     event 
@@ -1491,39 +1482,39 @@ BANK: unit_voice
                                     end
                                     unit air_hvy_3g
                                     event
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_english_knights_1.wav
-                                                  English_Heavy_english_knights_2.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                                     unit air_fir_3g
                                     event
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_Generic_Knights_1.wav
-                                                  English_Heavy_Generic_Knights_2.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                                     unit air_bmb_1g
                                     event
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_Generic_Knights_1.wav
-                                                  English_Heavy_Generic_Knights_2.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                                     unit air_reg_1g
                                     event
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_Generic_Knights_1.wav
-                                                  English_Heavy_Generic_Knights_2.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                                     unit air_reg_3g
                                     event
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_Generic_Knights_1.wav
-                                                  English_Heavy_Generic_Knights_2.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                                     unit air_lgt_1g
                                     event
-                                             folder data/sounds/Voice/Human/Localized/Battle_Map
-                                                  English_Heavy_mercenary_knights_1.wav
-                                                  English_Heavy_mercenary_knights_2.wav
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/Airships
+                                                  airship_full.wav
+                                                  airship_short.wav
                                     end
                                     unit NE Mortar
                                     event
