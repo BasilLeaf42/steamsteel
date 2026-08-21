@@ -15,5 +15,15 @@ xcopy %M4TW%\faction_symbols\faction_symbols_steamsteel %M4TW%\faction_symbols /
 xcopy %M2TW%\text_steamsteel %M2TW%\ /r /y /q
 xcopy %M7TW%\map_steamsteel %M7TW%\base /r /y /q
 xcopy %M7TW%\campaign\camp_steamsteel %M7TW%\campaign\imperial_campaign /r /y /q
-ECHO Launching
-"M2TWEOP GUI.exe"
+:Start
+cd ..\..
+IF EXIST kingdoms.exe (start kingdoms.exe @%0\..\steamsteel.cfg) ELSE (
+IF EXIST medieval2.exe (
+start medieval2.exe @%0\..\steamsteel.cfg) ELSE (
+    echo ERROR: Cannot find the M2TW or Kingdoms executable.
+    echo Steam and Steel may be installed into the wrong folder.
+  )
+)
+--io.file_first
+:End
+exit

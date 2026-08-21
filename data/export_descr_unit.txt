@@ -175,6 +175,7 @@
 ;################ Empire of Japan (Ishin Japan / The Satcho Alliance / Imperial Japan / The Tokugawa Shogunate)
 ;################ Rebels & Mercenaries
 ;################ Shared
+;################ Ethiopia
 
 
 
@@ -663,7 +664,7 @@ stat_cost        2, 1000, 250, 90, 170, 1000, 2, 250
 armour_ug_levels 0
 armour_ug_models Japan_Arty_IJA
 ownership        saxons, slave
-era 2            saxons, slave
+era 2            saxons slave
 
 
 type             jap_12lb
@@ -698,9 +699,9 @@ stat_cost        4, 1900, 475, 30, 40, 1900, 2, 475
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
-era 0            saxons, slave
-era 1            saxons, slave
-era 2            saxons, slave
+era 0            saxons slave
+era 1            saxons slave
+era 2            saxons slave
 
 
 type             jap_5lb
@@ -734,7 +735,7 @@ stat_cost        3, 1000, 250, 90, 70, 1000, 2, 250
 armour_ug_levels 0
 armour_ug_models Japan_Arty_IJA
 ownership        saxons, slave
-era 2            saxons, slave
+era 2            saxons slave
 
 type             jap_gatling
 dictionary       jap_gatling      ; Ishin Japanese Gatling Guns / Ishin Gatling Guns / Satcho Gatling Guns / Imperial Japanese Gatling Guns
@@ -766,7 +767,7 @@ stat_cost        2, 900, 225, 90, 70, 900, 1, 225
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
-era 1            saxons, slave
+era 1            saxons slave
 
 
 type             jap_150mm
@@ -804,7 +805,7 @@ stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 armour_ug_levels 0
 armour_ug_models Japan_Arty_IJA
 ownership        saxons, slave
-era 2            saxons, slave
+era 2            saxons slave
 
 type             jap_armstrong
 dictionary       jap_armstrong      ; Ishin Japanese Cast Iron Cannon / Ishin Cast Iron Cannon / Satcho Cast Iron Cannon
@@ -836,9 +837,9 @@ stat_food        60, 300
 stat_cost        4, 1400, 375, 30, 40, 1400, 2, 375
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Cast_Iron
-ownership        saxons, france, slave
-era 0            saxons, france, slave
-era 1            saxons, slave
+ownership        saxons, slave
+era 0            saxons slave
+era 1            saxons slave
 
 
 type             ind_maxim
@@ -1241,8 +1242,8 @@ stat_food        60, 300
 stat_cost        2, 1000, 250, 90, 170, 1000, 2, 250
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, papal_states, slave
-era 2            saxons, france, slave
+ownership        saxons, slave
+era 2            saxons slave
 
 
 type             sho_12lb
@@ -1276,9 +1277,9 @@ stat_food        60, 300
 stat_cost        4, 1900, 475, 30, 40, 1900, 2, 475
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, papal_states, slave
-era 0            saxons, france, slave
-era 1            saxons, france, slave
+ownership        saxons, slave
+era 0            saxons slave
+era 1            saxons slave
 
 type             sho_5lb
 dictionary       sho_5lb      ; sho_5lb
@@ -1310,8 +1311,8 @@ stat_food        60, 300
 stat_cost        3, 1000, 250, 90, 70, 1000, 2, 250
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, papal_states, slave
-era 2            saxons, france, slave
+ownership        saxons, slave
+era 2            saxons slave
 
 type             sho_gatling
 dictionary       sho_gatling      ; sho_gatling
@@ -1341,9 +1342,9 @@ stat_food        60, 300
 stat_cost        2, 900, 225, 90, 70, 900, 1, 225
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, papal_states, slave
-era 0            saxons, france, slave
-era 1            saxons, france, slave
+ownership        saxons, slave
+era 0            saxons slave
+era 1            saxons slave
 
 type             sho_150mm
 dictionary       sho_150mm      ; sho_150mm
@@ -1380,8 +1381,8 @@ stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, papal_states, slave
-era 2            saxons, france, slave
+ownership        saxons, slave
+era 2            saxons slave
 
 type             sho_armstrong
 dictionary       sho_armstrong      ; sho_armstrong
@@ -1413,9 +1414,9 @@ stat_food        60, 300
 stat_cost        4, 1600, 400, 30, 40, 1600, 2, 400
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, slave
-era 0            saxons, france, slave
-era 1            saxons, france, slave
+ownership        saxons, slave
+era 0            saxons slave
+era 1            saxons slave
 
 type             Japan Armstrong
 dictionary       Japan_Armstrong      ; Japanese Breech-Loading Rifled Cannon / Tokugawa Breech-Loading Rifled Cannon / Shogunate Breech-Loading Rifled Cannon
@@ -1448,9 +1449,9 @@ stat_food        60, 300
 stat_cost        4, 1900, 475, 30, 40, 1900, 2, 475
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, france, slave
-era 1            saxons, france
-era 2            saxons, france
+ownership        saxons, slave
+era 1            saxons
+era 2            saxons
 
 type             Japan Armstrong Han
 dictionary       Japan_Armstrong_Han      ; Imperial Japanese Breech-Loading Rifled Cannon / Satcho Breech-Loading Rifled Cannon / Ishin Breech-Loading Rifled Cannon
@@ -13034,6 +13035,42 @@ era 1            cru, england
 
 
 
+type             Qing Tiger Warriors
+dictionary       Qing_Tiger_Warriors;      Tiger Warriors (Dao)
+category         infantry
+class            light
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade
+soldier          Qing_Tiger_Warriors, 100, 0, 1.1
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, very_hardy, frighten_mounted
+move_speed_mod	 1.4
+formation        1.2, 1.2, 3, 3, 6, square
+stat_health      1, 0
+stat_pri         8, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 5, 4, leather
+;stat_armour_ex   5, 7, 0, 0, 7, 6, 6, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 1, 1
+stat_mental      9, impetuous, untrained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1000, 300, 50, 70, 1000, 3, 100
+armour_ug_levels 0
+armour_ug_models Qing_Tiger_Warriors
+ownership        byzantium, slave
+era 0            byzantium
+era 1            byzantium
+era 2            byzantium
+
+
 type             mongol_bows
 dictionary       mongol_bows      ; Mongol Bowmen
 category         infantry
@@ -13493,9 +13530,9 @@ stat_food        60, 300
 stat_cost        2, 900, 200, 120, 95, 900, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Kachi
-ownership        saxons, france, slave
-era 0            saxons, france
-era 1            saxons, france
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
 
 type             Japan Yumitai
 dictionary       Japan_Yumitai      ; Japanese Yumitai (Daikyu longbow, Katana)
@@ -13523,9 +13560,9 @@ stat_food        60, 300
 stat_cost        2, 850, 195, 55, 135, 850, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Yumitai
-ownership        saxons, france, slave
-era 0            saxons, france
-era 1            saxons, france
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
 
 type             Japan Teppotai
 dictionary       Japan_Teppotai      ; Japanese Teppotai (Smoothbore "Geberu" musket, Katana)
@@ -13557,9 +13594,9 @@ stat_food        60, 300
 stat_cost        2, 1000, 220, 80, 60, 1000, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Teppotai
-ownership        saxons, france, slave
-era 0            saxons, france
-era 1            saxons, france
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
 
 type             Japan Bodyguard Retainers
 dictionary       Japan_Bodyguard_Retainers      ; Japanese General and Retainers (Smith & Wesson No.2 revolver, Saber)
@@ -13593,8 +13630,8 @@ stat_food        60, 300
 stat_cost        4, 200, 20, 60, 90, 200, 1, 20
 armour_ug_levels 0
 armour_ug_models Japan_Bodyguard_Retainers
-ownership        saxons, france, slave 
-era 0            saxons, france
+ownership        saxons, slave 
+era 0            saxons
 
 
 type             Japan Seishi
@@ -13628,9 +13665,9 @@ stat_food        60, 300
 stat_cost        3, 1500, 500, 120, 95, 1500, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Seishi
-ownership        saxons, france, slave
-era 0            saxons, france
-era 1            saxons, france
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ 1860s - Ishin Japanese
@@ -13977,10 +14014,10 @@ stat_food        60, 300
 stat_cost        4, 200, 20, 60, 90, 200, 1,20
 armour_ug_levels 0
 armour_ug_models Japan_Bodyguard_Ezo
-ownership        saxons, france, slave 
-era 0            saxons, france
-era 1            saxons, france
-era 2            saxons, france
+ownership        saxons, slave 
+era 0            saxons
+era 1            saxons
+era 2            saxons
 
 type             Japan Sampeitai
 dictionary       Japan_Sampeitai      ; Japanese Sampeitai / Tokugawa Sampeitai / Shogunate Sampeitai / Tokugawa Infantry / Shogunate Infantry (Charleville Mle.1822 bis percussion smoothbore musket, Katana)
@@ -14012,9 +14049,9 @@ stat_food        60, 300
 stat_cost        2, 1100, 270, 80, 60, 1100, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Sampeitai
-ownership        saxons, france, slave
-era 0            saxons, france
-era 1            saxons, france
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
 
 type             Japan Suzakutai
 dictionary       Japan_Suzakutai      ; Japanese Suzakutai / Tokugawa Suzakutai / Shogunate Suzakutai / Aizu Suzakutai / Aizu Infantry (Bavarian Gewehr M-1842 rifled musket, Katana)
@@ -14046,8 +14083,8 @@ stat_food        60, 300
 stat_cost        2, 1300, 300, 80, 60, 1300, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Suzakutai
-ownership        saxons, france, slave
-era 0            saxons, france
+ownership        saxons, slave
+era 0            saxons
 
 type             Japan Nagaoka Hoheitai
 dictionary       Japan_Nagaoka_Hoheitai      ; Japanese Nagaoka Hoheitai / Tokugawa Nagaoka Hoheitai / Shogunate Nagaoka Hoheitai / Nagaoka Infantry (Tabatiere Mle.1853/67 breech-loading rifle, Katana)
@@ -14079,8 +14116,8 @@ stat_food        60, 300
 stat_cost        2, 1400, 480, 80, 60, 1400, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Nagaoka_Hoheitai
-ownership        saxons, france, slave
-era 0            saxons, france
+ownership        saxons, slave
+era 0            saxons
 
 type             Japan Shohotai
 dictionary       Japan_Shohotai      ; Japanese Shohotai / Tokugawa Shohotai / Shogunate Shohotai / Japanese Shōhotai / Tokugawa Shōhotai / Shogunate Shōhotai (Snider-Enfield Mk.I, Bayonet)
@@ -14114,8 +14151,8 @@ stat_food        60, 300
 stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Shohotai
-ownership        saxons, france, slave
-era 1            saxons, france
+ownership        saxons, slave
+era 1            saxons
 
 type             Japan Gakuheitai
 dictionary       Japan_Gakuheitai      ; Japanese Gakuheitai / Tokugawa Gakuheitai / Shogunate Gakuheitai / Sendai Gakuheitai (Snider-Enfield Mk.I* breech-loading rifle, Katana)
@@ -14147,9 +14184,9 @@ stat_food        60, 300
 stat_cost        3, 1500, 530, 80, 60, 1500, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Gakuheitai
-ownership        saxons, france, slave
-era 0            saxons, france
-era 1            saxons, france
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
 
 type             Japan Denshutai
 dictionary       Japan_Denshutai      ; Japanese Denshutai / Tokugawa Denshutai / Shogunate Denshutai (Chassepot Mle.1866 breech-loading rifle, Bayonet)
@@ -14182,9 +14219,9 @@ stat_food        60, 300
 stat_cost        3, 1600, 600, 80, 60, 1600, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Denshutai
-ownership        saxons, france, slave
-era 0            saxons, france
-era 1            saxons, france
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
 
 type             Japan Karasugumi
 dictionary       Japan_Karasugumi      ; Japanese Karasugumi / Tokugawa Karasugumi / Shogunate Karasugumi / Sendai Karasugumi (Pattern 1861 Enfield rifled carbine, Katana)
@@ -14216,8 +14253,8 @@ stat_food        60, 300
 stat_cost        2, 1360, 460, 80, 60, 1360, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Karasugumi
-ownership        saxons, france, slave
-era 0            saxons, france
+ownership        saxons, slave
+era 0            saxons
 
 type             Japan Raijintai
 dictionary       Japan_Raijintai      ; Japanese Raijintai / Tokugawa Raijintai / Shogunate Raijintai (Starr M1858 breech-loading carbine, Katana)
@@ -14249,8 +14286,8 @@ stat_food        60, 300
 stat_cost        3, 1700, 600, 80, 60, 1700, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Raijintai
-ownership        saxons, france, slave
-era 0            saxons, france
+ownership        saxons, slave
+era 0            saxons
 
 type             Japan Shinsengumi
 dictionary       Japan_Shinsengumi      ; Japanese Shinsengumi / Tokugawa Shinsengumi / Shogunate Shinsengumi (Starr M1858 breech-loading carbine, Katana)
@@ -14282,9 +14319,9 @@ stat_food        60, 300
 stat_cost        3, 1700, 600, 80, 60, 1700, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Shinsengumi
-ownership        saxons, france, slave
-era 0            saxons, france
-era 1            saxons, france
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
 
 type             Japan Revolver Kihei
 dictionary       Japan_Revolver_Kihei      ; Japanese Sampeitai Kihei / Tokugawa Sampeitai Kihei / Shogunate Sampeitai Kihei (Smith & Wesson No.2 revolver, Katana)
@@ -14319,8 +14356,8 @@ stat_food        60, 300
 stat_cost        2, 1300, 360, 120, 95, 1200, 1, 30
 armour_ug_levels 0
 armour_ug_models Japan_Revolver_Cavalry
-ownership        saxons, france, slave 
-era 0            saxons, france
+ownership        saxons, slave 
+era 0            saxons
 
 type             Japan Denshutai Kihei
 dictionary       Japan_Denshutai_Kihei      ; Japanese Denshutai Kihei / Tokugawa Denshutai Kihei / Shogunate Denshutai Kihei (Mousqueton Tabatiere Mle.1853/67 breech-loading carbine, Lance)
@@ -14356,9 +14393,9 @@ stat_food        60, 300
 stat_cost        4, 1600, 600, 80, 60, 1600, 4, 100
 armour_ug_levels 0
 armour_ug_models Japan_Denshutai_Cavalry
-ownership        saxons, france, slave
-era 0            saxons, france
-era 1            saxons, france
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ 1870s - Empire of Japan
@@ -14398,6 +14435,2723 @@ ownership        saxons, slave
 era 0            saxons
 era 1            saxons
 era 2            saxons
+
+
+;################ unit limit 
+
+type             Japan Ainu Archers
+dictionary       Japan_Ainu_Archers      ; Japanese Ainu Archers (Hankyu bow, Spear)
+category         infantry
+class            missile
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_missile
+soldier          Japan_Ainu_Archers, 64, 0, 1.0
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, can_withdraw, hardy, hide_anywhere, mercenary_unit
+formation        1.2, 1.2, 3, 3, 4, square
+stat_health      1, 0
+stat_pri         5, 4, composite_arrow, 140, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri_attr    no
+stat_sec         5, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec_attr    spear, short_pike
+stat_pri_armour  4, 5, 0, metal
+stat_sec_armour  0, 0, leather
+stat_heat        3
+stat_ground      1, -2, 4, 4
+stat_mental      4, normal, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 700, 190, 55, 135, 700, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ainu_Archers
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Ainu Geberu
+dictionary       Japan_Ainu_Geberu      ; Japanese Ainu Hunters (Geberu) (Imported "geberu", Tanto)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Ainu_Geberu, 40, 0, 1.0
+attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hide_anywhere, mercenary_unit, hardy
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         37, 0, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  4, 4, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      1, -2, 4, 4
+stat_mental      4, normal, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 920, 195, 80, 60, 920, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ainu_Geberu
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Ainu Minieru
+dictionary       Japan_Ainu_Minieru      ; Japanese Ainu Hunters (Minieru) (Imported "minieru", Tanto)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Ainu_Geberu, 40, 0, 1.0
+attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hide_anywhere, mercenary_unit, hardy
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         37, 0, early_arquebus_bullet, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  4, 4, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      1, -2, 4, 4
+stat_mental      4, normal, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 940, 195, 80, 60, 940, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ainu_Geberu
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ainu Teppo
+dictionary       Japan_Ainu_Teppo      ; Japanese Ainu Hunters (Teppo) (Tanegashima teppo, Tanto)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Ainu_Teppo, 40, 0, 1.0
+attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hide_anywhere, mercenary_unit, hardy
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         37, 1, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  4, 4, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        3
+stat_ground      1, -2, 4, 4
+stat_mental      4, normal, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 900, 195, 80, 60, 900, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ainu_Teppo
+ownership        saxons, slave
+era 0            saxons
+
+
+type             Japan Battotai
+dictionary       Japan_Battotai      ; Japanese Battotai
+category         infantry
+class            light
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          Japan_Battotai, 48, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Keishitai_1870_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, very_hardy, can_withdraw
+move_speed_mod	 1.3
+formation        1.2, 1.2, 3, 3, 5, square
+stat_health      1, 0
+stat_pri         16, 10, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 13, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      24, disciplined, highly_trained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1000, 275, 50, 70, 1000, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Battotai
+ownership        saxons, slave
+era 1            saxons
+era 2            saxons
+
+
+
+
+type             Japan Byakkotai
+dictionary       Japan_Byakkotai      ; Japanese Byakkotai (Smoothbore "Geberu" musket, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Byakkotai, 40, 0, 1.0
+officer			 Japan_Suzakutai_Officer
+officer			 Japan_Suzakutai_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         37, 0, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         8, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 5, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1000, 220, 80, 60, 1000, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Byakkotai
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+
+
+type             Japan Denshutai 1870
+dictionary       Japan_Denshutai_1870      ; Japanese Denshutai (1870s) / Tokugawa Denshutai (1870s) / Shogunate Denshutai (1870s) (Gras Mle.1874 breech-loading rifle, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Denshutai, 40, 0, 1.0
+officer			 Japan_Denshutai_Officer
+officer			 Japan_Denshutai_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    spear
+stat_pri_armour  3, 6, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1600, 600, 80, 60, 1600, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Denshutai
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Denshutai 1880
+dictionary       Japan_Denshutai_1880      ; Japanese Denshutai (1880s) / Tokugawa Denshutai (1880s) / Shogunate Denshutai (1880s) (Type 13 Murata breech-loading rifle, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Denshutai_1880, 40, 0, 1.0
+officer			 Japan_Denshutai_Officer_1880
+officer			 Japan_Denshutai_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    spear
+stat_pri_armour  3, 6, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1600, 600, 80, 60, 1600, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Denshutai_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Enomoto Takeaki
+dictionary       Japan_Enomoto_Takeaki      ; Enomoto Takeaki - custom battles only (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Ezo, 8, 0, 1
+officer          Japan_Enomoto_Takeaki
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Ezo
+ownership        saxons, slave 
+era 0            saxons
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Ezo Rikuguntai 1880
+dictionary       Japan_Ezo_Rikuguntai_1880      ; Tokugawa Rikuguntai (1880) (Type 13 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Ezo_Rikuguntai_1880, 40, 0, 1
+officer			 Japan_Sampeitai_Officer_1880
+officer			 Japan_Sampeitai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ezo_Rikuguntai_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ezo Rikuguntai 1890
+dictionary       Japan_Ezo_Rikuguntai_1890      ; Tokugawa Rikuguntai (1890) (Type 22 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Ezo_Rikuguntai_1880, 40, 0, 1
+officer			 Japan_Sampeitai_Officer_1880
+officer			 Japan_Sampeitai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ezo_Rikuguntai_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ezo Rikuguntai 1900
+dictionary       Japan_Ezo_Rikuguntai_1900      ; Tokugawa Rikuguntai (1900) (Type 30 Arisaka, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Ezo_Rikuguntai_1900, 40, 0, 1
+officer			 Japan_Sampeitai_Officer_1880
+officer			 Japan_Sampeitai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ezo_Rikuguntai_1900
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ezo Rikuguntai 1905
+dictionary       Japan_Ezo_Rikuguntai_1905      ; Tokugawa Rikuguntai (Khaki) (Type 38 Arisaka, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Ezo_Rikuguntai_1905, 40, 0, 1
+officer			 Japan_Sampeitai_Officer_1880
+officer			 Japan_Sampeitai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ezo_Rikuguntai_1905
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Goshimpei 1870
+dictionary       Japan_Goshimpei_1870      ; Goshimpei (1870) (Mauser Gewehr 71, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Goshimpei_1870, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Goshimpei_1870_Flag
+attributes       free_upkeep_unit, sea_faring, very_hardy, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         20, 0, musket_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_1870
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Goshimpei 1880
+dictionary       Japan_Goshimpei_1880      ; Goshimpei (1880) (Type 18 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Goshimpei_1880, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Goshimpei_1880_Flag
+attributes       free_upkeep_unit, sea_faring, very_hardy, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         20, 0, musket_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Goshimpei 1890
+dictionary       Japan_Goshimpei_1890      ; Goshimpei (1890) (Type 22 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Goshimpei_1890, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Goshimpei_1880_Flag
+attributes       free_upkeep_unit, sea_faring, very_hardy, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         13, 0, musket_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_1890
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Goshimpei 1900
+dictionary       Japan_Goshimpei_1900      ; Goshimpei (1900) (Type 30 Arisaka, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Goshimpei_1900, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Goshimpei_1880_Flag
+attributes       free_upkeep_unit, sea_faring, very_hardy, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         10, 0, musket_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_1900
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Goshimpei 1905
+dictionary       Japan_Goshimpei_1905      ; Goshimpei (Khaki) (Type 38 Arisaka, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Goshimpei_1905, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Goshimpei_1905_Flag
+attributes       free_upkeep_unit, sea_faring, very_hardy, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         10, 0, musket_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_1905
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Goshimpei Hohei 1870
+dictionary       Japan_Goshimpei_Hohei_1870      ; Imperial Japanese Goshimpei Hohei (1870s) / Imperial Japanese Guard Artillerymen (1870s) / Ishin Goshimpei Hohei (1870s) (Spencer M1860 repeating carbine, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Goshimpei_Hohei_1870, 30, 0, 1.0
+officer			 Japan_IJA_Officer
+officer			 Japan_Goshimpei_1870_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, hardy
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         24, 0, blunderbuss_shot, 230, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         9, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 8, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1760, 600, 80, 60, 1760, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_Hohei_1870
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Goshimpei Hohei 1880
+dictionary       Japan_Goshimpei_Hohei_1880      ; Imperial Japanese Goshimpei Hohei (1880s) / Imperial Japanese Guard Artillerymen (1880s) / Ishin Goshimpei Hohei (1880s) (Spencer M1860 repeating carbine, Saber)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Goshimpei_Hohei_1880, 30, 0, 1.0
+officer			 Japan_IJA_Officer
+officer			 Japan_Goshimpei_1880_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, hardy
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         24, 0, blunderbuss_shot, 230, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         9, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 8, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1760, 600, 80, 60, 1760, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_Hohei_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Goshimpei Kihei 1870
+dictionary       Japan_Goshimpei_Kihei_1870      ; Imperial Japanese Goshimpei Kihei (1870s) / Ishin Goshimpei Kihei (1870s) (Spencer M1860 lever-action carbine, Lance)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 france
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Goshimpei_Kihei_1870, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, hardy, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         24, 2, mounted_arquebus_bullet, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1600, 600, 80, 60, 1600, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_Kihei_1870
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Goshimpei Kihei 1880
+dictionary       Japan_Goshimpei_Kihei_1880      ; Imperial Japanese Goshimpei Kihei (1880s) / Ishin Goshimpei Kihei (1880s) (Type 16 Murata breech-loading carbine, Lance)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 france
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Goshimpei_Kihei_1880, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, hardy, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         24, 2, mounted_arquebus_bullet, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1600, 600, 80, 60, 1600, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_Kihei_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Goshimpei Kihei 1890
+dictionary       Japan_Goshimpei_Kihei_1890      ; Imperial Japanese Goshimpei Kihei (1890s) / Ishin Goshimpei Kihei (1890s) (Type 22 Murata repeating carbine, Lance)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 france
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Goshimpei_Kihei_1880, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, hardy, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, mounted_arquebus_bullet, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1600, 600, 80, 60, 1600, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_Kihei_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Goshimpei Kihei 1900
+dictionary       Japan_Goshimpei_Kihei_1900      ; Imperial Japanese Goshimpei Kihei (1900s) / Ishin Goshimpei Kihei (1900s) (Type 30 Arisaka repeating carbine, Lance)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 france
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Goshimpei_Kihei_1900, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, hardy, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         10, 2, mounted_arquebus_bullet, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1600, 600, 80, 60, 1600, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_Kihei_1900
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Goshimpei Kihei 1905
+dictionary       Japan_Goshimpei_Kihei_1905      ; Imperial Japanese Goshimpei Kihei (Khaki) / Ishin Goshimpei Kihei (Khaki) (Type 38 Arisaka repeating carbine, Lance)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 france
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Goshimpei_Kihei_1905, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, hardy, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         10, 2, mounted_arquebus_bullet, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1600, 600, 80, 60, 1600, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Goshimpei_Kihei_1905
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Heimin Mob
+dictionary       Japan_Heimin_Mob      ; Japanese Heimin Mob (Yari)
+category         infantry
+class            spearmen
+voice_type       Light
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          Japan_Heimin_Mob, 100, 0, 0.9
+officer			 Japan_Teppotai_Officer
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, can_withdraw, mercenary_unit
+formation        1.2, 1.2, 2.0, 2.4, 6, square
+stat_health      1, 0
+stat_pri         3, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    spear
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 1, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      4, low, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 500, 125, 85, 65, 500, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Heimin_Mob
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Heimin Partisans
+dictionary       Japan_Heimin_Partisans      ; Japanese Heimin Partisans (Tanegashima teppo arquebus, Tanto)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Heimin_Partisans, 48, 0, 1.0
+officer			 Japan_Teppotai_Officer
+attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, free_upkeep_unit, mercenary_unit
+formation        1.2, 1.2, 1.8, 1.8, 4, square
+stat_health      1, 0
+stat_pri         37, 0, arquebus_levy, 160, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 3, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      4, low, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 700, 160, 85, 65, 700, 4, 125
+armour_ug_levels 0
+armour_ug_models Japan_Heimin_Partisans
+ownership        saxons, slave
+era 0            saxons
+
+
+type             Japan Heimin Partisans Geberu
+dictionary       Japan_Heimin_Partisans_Geberu      ; Japanese Heimin Partisans (Imported "geberu", Tanto)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Heimin_Partisans_Geberu, 48, 0, 1.0
+officer			 Japan_Teppotai_Officer
+attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, free_upkeep_unit, mercenary_unit
+formation        1.2, 1.2, 1.8, 1.8, 4, square
+stat_health      1, 0
+stat_pri         37, 0, arquebus_levy, 160, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 3, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      4, low, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 720, 160, 85, 65, 720, 4, 125
+armour_ug_levels 0
+armour_ug_models Japan_Heimin_Partisans_Geberu
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Heimin Partisans Minieru
+dictionary       Japan_Heimin_Partisans_Minieru      ; Japanese Heimin Partisans (Imported "minieru", Tanto)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Heimin_Partisans_Geberu, 48, 0, 1.0
+officer			 Japan_Teppotai_Officer
+attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, free_upkeep_unit, mercenary_unit
+formation        1.2, 1.2, 1.8, 1.8, 4, square
+stat_health      1, 0
+stat_pri         37, 0, arquebus_levy, 160, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 3, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      4, low, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 740, 160, 85, 65, 740, 4, 125
+armour_ug_levels 0
+armour_ug_models Japan_Heimin_Partisans_Geberu
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Hijikata Toshizo
+dictionary       Japan_Hijikata_Toshizo      ; Hijikata Toshizo - custom battles only (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Ezo, 8, 0, 1
+officer          Japan_Hijikata_Toshizo
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Ezo
+ownership        saxons, slave 
+era 0            saxons
+
+
+type             Japan Hokuchin Butai 1890
+dictionary       Japan_Hokuchin_Butai_1890      ; Hokuchin Butai (1890) (Type 22 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikuguntai_7th_1890, 30, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1880_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         13, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikuguntai_7th_1890
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Hokuchin Butai 1900
+dictionary       Japan_Hokuchin_Butai_1900      ; Hokuchin Butai (1890) (Type 30 Arisaka, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikuguntai_7th_1900, 30, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1880_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         10, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikuguntai_7th_1900
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Hokuchin Butai 1905
+dictionary       Japan_Hokuchin_Butai_1905      ; Hokuchin Butai (1905) (Type 38 Arisaka, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikuguntai_7th_1905, 30, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1905_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         10, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikuguntai_7th_1905
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Hoppo Keibitai 1870
+dictionary       Japan_Hoppo_Keibitai_1870      ; Hoppo Keibitai (1870) (Chassepot Mle.1866, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Hoppo_Keibitai_1870, 30, 0, 1
+officer			 Japan_Sampeitai_Officer
+officer			 Japan_Sampeitai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         20, 0, arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Hoppo_Keibitai_1870
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Hoppo Keibitai 1880
+dictionary       Japan_Hoppo_Keibitai_1880      ; Hoppo Keibitai (1880) (Type 13 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Hoppo_Keibitai_1880, 30, 0, 1
+officer			 Japan_Sampeitai_Officer_1880
+officer			 Japan_Sampeitai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         20, 0, arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Hoppo_Keibitai_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ishin Shishi
+dictionary       Japan_Ishin_Shishi      ; Japanese Ishin Shishi
+category         infantry
+class            heavy
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          Japan_Ronin, 48, 0, 1.1
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, can_withdraw, hide_anywhere
+move_speed_mod	 1.3
+formation        1.2, 1.2, 3, 3, 5, square
+stat_health      1, 0
+stat_pri         12, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 12, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, impetuous, untrained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 820, 190, 50, 70, 820, 4, 120
+armour_ug_levels 0
+armour_ug_models Japan_Ronin
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+
+
+type             Japan Itagaki Taisuke
+dictionary       Japan_Itagaki_Taisuke      ; Itagaki Taisuke - custom battles only (Smith & Wesson No.2 revolver, Katana)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Kochotai, 8, 0, 1
+officer          Japan_Itagaki_Taisuke
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1, 20
+armour_ug_levels 0
+armour_ug_models Japan_Kochotai
+ownership        saxons, slave 
+era 0            saxons
+
+
+type             Japan Jules Brunet
+dictionary       Japan_Jules_Brunet      ; Jules Brunet - custom battles only (Lefaucheux Mle.1858 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Ezo, 8, 0, 1
+officer          Japan_Jules_Brunet
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Ezo
+ownership        saxons, slave 
+era 0            saxons
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Kaga Hoheitai
+dictionary       Japan_Kaga_Hoheitai      ; Japanese Kaga Hoheitai / Japanese Kaga Infantry (Springfield M1855 rifled musket, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Kaga_Hoheitai, 40, 0, 1.0
+officer			 Japan_Kijutai_Officer
+officer			 Japan_Kaga_Hoheitai_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         37, 0, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         8, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 5, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      5, normal, trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1000, 250, 80, 60, 1000, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Kaga_Hoheitai
+ownership        saxons, slave
+era 0			 saxons,
+
+
+type             Japan Kaiso Shinsengumi
+dictionary       Japan_Kaiso_Shinsengumi      ; Japanese Kaiso Shinsengumi / Tokugawa Kaiso Shinsengumi / Shogunate Kaiso Shinsengumi (Dreyse Zundnadelgewehr M-1865, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Kaiso_Shinsengumi, 40, 0, 1.0
+officer			 Japan_Shinsengumi_Officer
+officer			 Japan_Shinsengumi_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, very_hardy, frighten_foot, frighten_mounted
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         27, 2, mounted_arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         16, 10, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  6, 12, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        5
+stat_ground      1, -2, 3, 2
+stat_mental      24, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1700, 600, 80, 60, 1700, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Kaiso_Shinsengumi
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Keishitai 1870
+dictionary       Japan_Keishitai_1870      ; Japanese Keishitai (Pattern 1853 Enfield rifled musket, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Keishitai_1870, 40, 0, 1.0
+officer			 Japan_IJA_Officer
+officer			 Japan_Keishitai_1870_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         28, 0, early_arquebus_bullet, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         9, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 6, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      5, normal, trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1000, 240, 80, 60, 1000, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Keishitai_1870
+ownership        saxons, slave
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Kenyotai
+dictionary       Japan_Kenyotai      ; Japanese Ken'yotai / Ogaki Ken'yotai
+category         infantry
+class            heavy
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          Japan_Kenyotai, 48, 0, 1.1
+officer			 Japan_Kijutai_Officer
+officer			 Japan_Kenyotai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, very_hardy, can_withdraw
+move_speed_mod	 1.3
+formation        1.2, 1.2, 3, 3, 5, square
+stat_health      1, 0
+stat_pri         16, 9, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 13, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      20, impetuous, highly_trained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1000, 295, 50, 70, 1000, 4, 120
+armour_ug_levels 0
+armour_ug_models Japan_Kenyotai
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+
+
+type             Japan Kijutai
+dictionary       Japan_Kijutai      ; Japanese Kijutai / Shonai Kijutai (Whitworth Rifle w/ Davidson Scope rifled musket, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Kijutai, 30, 0, 1.0
+officer			 Japan_Kijutai_Officer
+officer			 Japan_Denshutai_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         37, 0, quality_early_arquebus_bullet, 250, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         9, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 7, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1240, 340, 80, 60, 1240, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Kijutai
+ownership        saxons, slave
+era 0            saxons
+
+
+type             Japan Koheitai 1900
+dictionary       Japan_Koheitai_1900      ; Imperial Japanese Koheitai (1900s) / Imperial Japanese Sappers (1900s) / Ishin Koheitai (1900s) (Improvised Type 31 shell grenade, Shovel)
+category         infantry
+class            heavy
+voice_type       Light
+accent      	 japanese
+banner faction   main_infantry
+soldier          Japan_Koheitai_1900, 16, 0, 1
+officer			 Japan_IJA_Officer
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, incendiary, start_not_skirmishing, stakes, stakes
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         15, 5, grenade_new, 50, 5, missile, missile_gunpowder, blunt, none, 25, 0.7
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    area, launching, thrown
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 5, 0, flesh
+;stat_armour_ex   4, 0, 0, 0, 5, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 1, 1
+stat_mental      6, normal, highly_trained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1400, 300, 50, 70, 1400, 2, 200
+armour_ug_levels 0
+armour_ug_models Japan_Koheitai_1900
+ownership        saxons, slave 
+era 2            saxons
+
+
+type             Japan Koheitai 1905
+dictionary       Japan_Koheitai_1905      ; Imperial Japanese Koheitai (Khaki) / Imperial Japanese Sappers (Khaki) / Ishin Koheitai (Khaki) (Improvised Type 31 shell grenade, Shovel)
+category         infantry
+class            heavy
+voice_type       Light
+accent      	 japanese
+banner faction   main_infantry
+soldier          Japan_Koheitai_1905, 16, 0, 1
+officer			 Japan_IJA_Officer
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, incendiary, start_not_skirmishing, stakes, stakes
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         15, 5, grenade_new, 50, 5, missile, missile_gunpowder, blunt, none, 25, 0.7
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    area, launching, thrown
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, slashing, axe, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  3, 5, 0, flesh
+;stat_armour_ex   4, 0, 0, 0, 5, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 1, 1
+stat_mental      6, normal, highly_trained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1400, 300, 50, 70, 1400, 2, 200
+armour_ug_levels 0
+armour_ug_models Japan_Koheitai_1905
+ownership        saxons, slave 
+era 2            saxons
+
+
+type             Japan Kondo Isami
+dictionary       Japan_Kondo_Isami      ; Kondo Isami - custom battles only (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Retainers, 8, 0, 1
+officer          Japan_Kondo_Isami
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Retainers
+ownership        saxons, slave 
+era 0            saxons
+
+
+type             Japan Matsudaira Katamori
+dictionary       Japan_Matsudaira_Katamori      ; Matsudaira Katamori - custom battles only (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Retainers, 8, 0, 1
+officer          Japan_Matsudaira_Katamori
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Retainers
+ownership        saxons, slave 
+era 0            saxons
+
+
+type             Japan Matsushiro Hoheitai
+dictionary       Japan_Matsushiro_Hoheitai      ; Japanese Matsushiro Hoheitai / Japanese Matsushiro Infantry (Springfield M1861 rifled musket, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Matsushiro_Hoheitai, 40, 0, 1.0
+officer			 Japan_Kijutai_Officer
+officer			 Japan_Kaga_Hoheitai_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         37, 0, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         8, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 5, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      5, normal, trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1000, 250, 80, 60, 1000, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Matsushiro_Hoheitai
+ownership        saxons, slave
+era 0			 saxons,
+
+
+type             Japan Rikuguntai 1870
+dictionary       Japan_Rikuguntai_1870      ; Rikuguntai (1870) (Snider-Enfield Mk.I, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikuguntai_1870, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1870_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         28, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikusentai_1870
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Rikuguntai 1880
+dictionary       Japan_Rikuguntai_1880      ; Rikuguntai (1880) (Type 18 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikuguntai_1880, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1880_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikuguntai_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Rikuguntai 1890
+dictionary       Japan_Rikuguntai_1890      ; Rikuguntai (1890) (Type 22 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikuguntai_1890, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1880_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         13, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikuguntai_1890
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Rikuguntai 1900
+dictionary       Japan_Rikuguntai_1900      ; Rikuguntai (1900) (Type 30 Arisaka, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikuguntai_1900, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1880_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         10, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikuguntai_1900
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Rikuguntai 1905
+dictionary       Japan_Rikuguntai_1905      ; Rikuguntai (1905) (Type 38 Arisaka, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikuguntai_1905, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1905_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         10, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikuguntai_1905
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Rikusentai 1870
+dictionary       Japan_Rikusentai_1870      ; Rikusentai (1870) (Snider-Enfield Mk.I, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikusentai_1870, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Hokokutai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         28, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikusentai_1870
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Rikusentai 1880
+dictionary       Japan_Rikusentai_1880      ; Rikusentai (1880) (Type 13 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikusentai_1880, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1870_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         28, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikusentai_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Rikusentai 1890
+dictionary       Japan_Rikusentai_1890      ; Rikusentai (1890) (Type 22 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikusentai_1900, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1870_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         28, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikusentai_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Rikusentai 1900
+dictionary       Japan_Rikusentai_1900      ; Rikusentai (1900) (Type 35 Arisaka, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Rikusentai_1900, 40, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1870_Flag
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         28, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Rikusentai_1900
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ronin
+dictionary       Japan_Ronin      ; Japanese Ronin
+category         infantry
+class            heavy
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          Japan_Ronin, 48, 0, 1.1
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, can_withdraw, mercenary_unit
+move_speed_mod	 1.3
+formation        1.2, 1.2, 3, 3, 5, square
+stat_health      1, 0
+stat_pri         12, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 10, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, impetuous, untrained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 900, 280, 50, 70, 900, 4, 120
+armour_ug_levels 0
+armour_ug_models Japan_Ronin
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+
+
+type             Japan Ryukihei 1870
+dictionary       Japan_Ryukihei_1870      ; Japanese Ryukihei (1870) (Starr M1868 breech-loading carbine, Saber)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Ryukihei_1870, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         26, 2, mounted_arquebus_bullet, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1200, 500, 80, 60, 1200, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ryukihei_1870
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Ryukihei 1880
+dictionary       Japan_Ryukihei_1880      ; Japanese Ryukihei (1880) (Type 16 Murata breech-loading carbine, Saber)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Ryukihei_1880, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         20, 2, mounted_arquebus_bullet, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1200, 500, 80, 60, 1200, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ryukihei_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ryukihei 1890
+dictionary       Japan_Ryukihei_1890      ; Japanese Ryukihei (1890) (Type 22 Murata repeating carbine, Saber)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Ryukihei_1880, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, mounted_arquebus_bullet, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1200, 500, 80, 60, 1200, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ryukihei_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ryukihei 1900
+dictionary       Japan_Ryukihei_1900      ; Japanese Ryukihei (1900) (Type 30 Arisaka repeating carbine, Saber)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Ryukihei_1900, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         10, 2, mounted_arquebus_bullet, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1200, 500, 80, 60, 1200, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ryukihei_1900
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ryukihei 1905
+dictionary       Japan_Ryukihei_1905      ; Japanese Ryukihei (Khaki) (Type 38 Arisaka repeating carbine, Saber)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Ryukihei_1905, 24, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         10, 2, mounted_arquebus_bullet, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1200, 500, 80, 60, 1200, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ryukihei_1905
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Ryukihei Shogun 1870
+dictionary       Japan_Ryukihei_Shogun_1870      ; Japanese Ryukihei (1870) (Starr M1868 breech-loading carbine, Saber)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Ryukihei_Shogun_1870, 24, 0, 1
+officer			 Japan_Sampeitai_Officer_Cav
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, free_upkeep_unit
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         26, 2, mounted_arquebus_bullet, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  3, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1200, 500, 80, 60, 1200, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Ryukihei_Shogun_1870
+ownership        saxons, slave
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Saigo Takamori 1860
+dictionary       Japan_Saigo_Takamori_1860      ; Saigo Takamori (1860s) - custom battles only (Smith & Wesson No.2 revolver, Katana)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Retainers, 8, 0, 1
+officer          Japan_Saigo_Takamori_1860
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1, 20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Retainers
+ownership        saxons, slave 
+era 0            saxons
+
+type             Japan Sakamoto Ryoma
+dictionary       Japan_Sakamoto_Ryoma      ; Sakamoto Ryoma - custom battles only (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Kochotai, 8, 0, 1
+officer          Japan_Sakamoto_Ryoma
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Kochotai
+ownership        saxons, slave 
+era 0            saxons
+
+type             Japan Shinsenryodan
+dictionary       Japan_Shinsenryodan      ; Japanese Shinsenryodan (Dreyse M-1842 breech-loading rifle, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Shinsenryodan, 40, 0, 1.0
+officer			 Japan_IJA_Officer
+officer			 Japan_Keishitai_1870_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         30, 0, blunderbuss_shot, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         11, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 6, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, impetuous, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1200, 275, 80, 60, 1200, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Shinsenryodan
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Shogitai
+dictionary       Japan_Shogitai      ; Japanese Shogitai
+category         infantry
+class            heavy
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          Japan_Shogitai, 48, 0, 1.1
+officer			 Japan_Sampeitai_Officer
+officer			 Japan_Shogitai_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, very_hardy, can_withdraw
+move_speed_mod	 1.3
+formation        1.2, 1.2, 3, 3, 5, square
+stat_health      1, 0
+stat_pri         16, 9, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_pri_attr    no
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  6, 13, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      20, impetuous, highly_trained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1100, 300, 50, 70, 1100, 4, 120
+armour_ug_levels 0
+armour_ug_models Japan_Shogitai
+ownership        saxons, slave
+era 0            saxons
+era 1            saxons
+
+
+type             Japan Shizoku
+dictionary       Japan_Shizoku      ; Japanese Shizoku (Snider-Enfield Mk.I breech-loading rifle, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Shizoku, 40, 0, 1.0
+officer			 Japan_IJA_Officer
+officer			 Japan_Shizoku_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, hardy, start_not_skirmishing, cannot_skirmish, mercenary_unit
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         28, 0, blunderbuss_shot, 230, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         10, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 7, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1400, 450, 80, 60, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Shizoku
+ownership        saxons, slave
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Suzakutai 1870
+dictionary       Japan_Suzakutai_1870      ; Japanese Suzakutai (1870s) (Dreyse M-1862 breech-loading rifle, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Suzakutai_1870, 40, 0, 1.0
+officer			 Japan_Suzakutai_Officer
+officer			 Japan_Suzakutai_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, hardy
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         30, 0, blunderbuss_shot, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         12, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 8, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      10, disciplined, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1300, 300, 80, 60, 1300, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Suzakutai_1870
+ownership        saxons, slave
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Takeda Ayasaburo
+dictionary       Japan_Takeda_Ayasaburo      ; Takeda Ayasaburo - custom battles only (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Ezo, 8, 0, 1
+officer          Japan_Takeda_Ayasaburo
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Ezo
+ownership        saxons, slave 
+era 0            saxons
+era 1            saxons
+era 2            saxons
+
+
+type             Japan Teppotai Merc
+dictionary       Japan_Teppotai_Merc      ; Japanese Teppotai / Japanese Auxiliaries (Smoothbore "Geberu" musket, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Teppotai, 40, 0, 1.0
+officer			 Japan_Teppotai_Officer
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, mercenary_unit
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         37, 0, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         8, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 5, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      5, normal, trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1000, 250, 80, 60, 1000, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Teppotai
+ownership        saxons, slave
+era 0			 saxons,
+
+
+type             Japan Tokugawa Yoshinobu
+dictionary       Japan_Tokugawa_Yoshinobu      ; Tokugawa Yoshinobu - custom battles only (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Ezo, 8, 0, 1
+officer          Japan_Tokugawa_Yoshinobu
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Ezo
+ownership        saxons, slave 
+era 0            saxons
+
+
+type             Japan Tondenhei 1870
+dictionary       Japan_Tondenhei_1870      ; Tondenhei (1870) (Chassepot Mle.1866, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Tondenhei_1870, 30, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Tondenhei_1870_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         20, 0, arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Tondenhei_1870
+ownership        saxons, slave
+era 1            saxons
+
+
+type             Japan Tondenhei 1880
+dictionary       Japan_Tondenhei_1880      ; Tondenhei (1880) (Type 18 Murata, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Japan_Tondenhei_1880, 30, 0, 1
+officer			 Japan_IJA_Officer
+officer			 Japan_Rikuguntai_1880_Flag
+attributes       free_upkeep_unit, sea_faring, hide_improved_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         20, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 400, 200, 200, 1400, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Tondenhei_1880
+ownership        saxons, slave
+era 2            saxons
+
+
+type             Japan Yukantai
+dictionary       Japan_Yukantai      ; Japanese Yukantai / Japanese Fukuoka Yukantai (Pattern 1853 Enfield rifled musket, Katana)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Japan_Yukantai, 40, 0, 1.0
+officer			 Japan_Kijutai_Officer
+officer			 Japan_Kaga_Hoheitai_Flag
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         37, 0, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         8, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 5, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      5, normal, trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1000, 250, 80, 60, 1000, 4, 100
+armour_ug_levels 0
+armour_ug_models Japan_Yukantai
+ownership        saxons, slave
+era 0			 saxons
+
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -17002,4 +19756,632 @@ stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        2, 1300, 325, 500, 500, 1300, 2, 325
 ownership        slave
+
+;################ Ethiopia
+
+
+type             aby_cav_1g
+dictionary       aby_cav_1g      ; African Cavalry
+category         cavalry
+class            missile
+voice_type       Light
+accent      	 arabic
+banner faction   main_cavalry
+soldier          aby_cav_1g, 24, 0, 1
+mount            heavy horse
+mount_effect     elephant -2, camel -4
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         6, 2, javelin, 65, 6, thrown, missile_mechanical, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    thrown
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 3, 1, leather
+;stat_armour_ex   4, 5, 0, 0, 7, 4, 4, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 3, -1, -3
+stat_mental      4, low, untrained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 700, 240, 200, 160, 700, 2, 240
+ownership        papal_states, slave
+era 0            papal_states
+era 1            papal_states
+era 2            papal_states
+
+
+type             aby_cav_2g
+dictionary       aby_cav_2g      ; Ethiopian Dragoons (Carbine, Mauser M1871)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 arabic
+banner faction   main_missile
+banner holy      crusade_cavalry
+soldier          aby_cav_2g, 24, 0, 1
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, stakes, hide_forest
+move_speed_mod	 0.9
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         20, 2, quality_mounted_arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         7, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1800, 600, 120, 95, 1800, 1, 600
+ownership        papal_states, slave
+era 1            papal_states
+era 2            papal_states
+
+
+
+type             aby_crb_3g
+dictionary       aby_crb_3g      ; Ethiopian Dragoons (Carbine, Mauser M1871)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 arabic
+banner faction   main_missile
+banner holy      crusade_cavalry
+soldier          aby_crb_3g, 24, 0, 1
+officer          pru_off_1g
+officer          eur_pri_1g
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, stakes, hide_forest
+move_speed_mod	 0.9
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         20, 2, quality_mounted_arquebus_bullet, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         7, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, -2, -4, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 1800, 600, 120, 95, 1800, 1, 600
+ownership        papal_states, slave
+era 1            papal_states
+era 2            papal_states
+
+
+type             aby_grd_2g
+dictionary       aby_grd_2g     ; Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)
+category         cavalry
+class            heavy
+voice_type       Heavy
+accent      	 arabic
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          aby_grd_2g, 24, 0, 1
+mount            hussar
+mount_effect     elephant -8, camel -4
+attributes       free_upkeep_unit, sea_faring, hide_forest, general_unit, command
+formation        2, 2, 4, 4, 2, square
+stat_health      1, 0
+stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  4, 5, 0, leather
+;stat_armour_ex   8, 9, 0, 0, 6, 4, 4, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      0, -2, -4, 1
+stat_mental      8, normal, highly_trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+ownership        slave, papal_states
+era 1            slave, papal_states
+era 2            slave, papal_states
+
+
+type             aby_inf_2g
+dictionary       aby_inf_2g     ; Ethiopian Rifles (Rifle, Fusil Modèle 1874 Gras)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 arabic
+banner faction   main_infantry
+banner holy      crusade
+soldier          aby_inf_2g, 40, 0, 1
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         20, 0, musket_bullet, 250, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 5, 0, leather
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 1, 1
+stat_mental      6, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1700, 570, 50, 50, 1700, 2, 570
+ownership        slave, papal_states
+era 1            slave, papal_states
+era 2            slave, papal_states
+
+
+
+type             aby_nob_2g
+dictionary       aby_nob_2g     ; Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 arabic
+banner faction   main_infantry
+banner holy      crusade
+soldier          aby_nob_2g, 40, 0, 1
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         20, 0, musket_bullet, 250, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 5, 0, leather
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 1, 1
+stat_mental      6, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1700, 570, 50, 50, 1700, 2, 570
+ownership        slave, papal_states
+era 1            slave, papal_states
+era 2            slave, papal_states
+
+
+type             aby_roy_1g
+dictionary       aby_roy_1g      ; African Cavalry
+category         cavalry
+class            missile
+voice_type       Light
+accent      	 arabic
+banner faction   main_cavalry
+soldier          aby_roy_1g, 24, 0, 1
+mount            heavy horse
+mount_effect     elephant -2, camel -4
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         6, 2, javelin, 65, 6, thrown, missile_mechanical, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    thrown
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  2, 3, 1, leather
+;stat_armour_ex   4, 5, 0, 0, 7, 4, 4, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      1, 3, -1, -3
+stat_mental      4, low, untrained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 700, 240, 200, 160, 700, 2, 240
+ownership        papal_states, slave
+era 0            papal_states
+era 1            papal_states
+era 2            papal_states
+
+
+type             Ethiopia Sudanese Musketeers
+dictionary       Ethiopia_Sudanese_Musketeers      ; Sudanese Musketeers (Flintlock musket, Kaskara and shield)
+category         infantry
+class            missile
+voice_type       Light
+accent           arabic
+banner faction   main_missile
+banner holy      crusade
+soldier          Ethiopia_Sudanese_Musketeers, 48, 0, 0.8
+attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, free_upkeep_unit, mercenary_unit, hardy
+formation        1.2, 1.2, 1.8, 1.8, 4, square
+stat_health      1, 0
+stat_pri         37, 0, arquebus_levy, 160, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 4, 3, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      2, 2, 1, -3
+stat_mental      4, impetuous, untrained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 700, 140, 85, 65, 700, 4, 125
+armour_ug_levels 0
+armour_ug_models Ethiopia_Sudanese_Musketeers
+ownership        papal_states, slave
+era 0            papal_states
+era 1            papal_states
+era 2            papal_states
+
+
+type             Ethiopia Sudanese Warriors
+dictionary       Ethiopia_Sudanese_Warriors      ; Sudanese Warriors (Spear and shield)
+category         infantry
+class            spearmen
+voice_type       Light
+accent      	 arabic
+banner faction   main_spear
+soldier          Ethiopia_Sudanese_Warriors, 80, 0, 0.85
+attributes       free_upkeep_unit, sea_faring, hide_long_grass, can_withdraw, mercenary_unit, hardy
+formation        1.2, 1.2, 3, 3, 5, square
+stat_health      1, 0
+stat_pri         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 0.6
+stat_pri_attr    spear
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 1
+stat_sec_attr    no
+stat_pri_armour  3, 4, 4, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      2, 2, 1, -3
+stat_mental      5, impetuous, untrained
+stat_charge_dist 6
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 700, 120, 85, 65, 700, 4, 100
+armour_ug_levels 0
+armour_ug_models Ethiopia_Sudanese_Warriors
+ownership        papal_states, moors, slave
+era 0            papal_states, moors
+era 1            papal_states, moors
+era 2            papal_states, moors
+
+
+;################ Airships
+
+type             air_bmb_1g 
+dictionary       air_bmb_1g      ; Aerial Bomber Airship
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_carolina_bomber
+mount            airship_carolina
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
+formation        7, 21, 23, 26, 4, square
+stat_health      10, 10
+stat_pri         14, 4, fire_mag_meteor, 420, 1000, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      95, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        4, 6000, 600, 450, 450, 4000, 1, 800
+ownership        all
+era 2            all
+
+type             air_fir_3g 
+dictionary       air_fir_3g      ; Fire Sprayer Airship (PLACEHOLDER - close-range incendiary)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_serpentine
+mount            airship_virginia
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
+formation        7, 21, 23, 26, 4, square
+stat_health      7, 7
+stat_pri         6, 2, flamers_fire, 150, 600, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      85, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        3, 4200, 450, 350, 350, 2800, 1, 600
+ownership        all
+era 2            all
+
+
+type             air_hvy_3g 
+dictionary       air_hvy_3g      ; Heavy Juggernaut Airship (PLACEHOLDER - slow, devastating single gun)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_serpentine
+mount            airship_monitor
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
+formation        7, 21, 23, 26, 4, square
+stat_health      14, 14
+stat_pri         18, 5, howitzer_shot, 450, 1200, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      100, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        4, 7000, 700, 500, 500, 4500, 1, 900
+ownership        all
+era 2            all
+
+
+
+type             air_lgt_1g 
+dictionary       air_lgt_1g      ; Scout Airship (light, fast-firing)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_serpentine
+mount            airship_junk
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
+formation        7, 21, 23, 26, 4, square
+stat_health      6, 6
+stat_pri         8, 3, ribault_shot, 350, 700, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      80, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        2, 3000, 350, 300, 300, 2000, 1, 500
+ownership        all
+era 2            all
+
+
+type             air_reg_1g 
+dictionary       air_reg_1g      ; airship
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_serpentine
+mount            airship_air_reg_1g
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, can_swim, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit 
+formation        7, 21, 23, 26, 4, square
+stat_health      9, 9
+stat_pri         11, 3, ribault_shot_traced, 400, 900, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         20, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    area, launching, ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      100, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        3, 5000, 500, 400, 400, 3000, 1, 680
+ownership        all
+era 2            all
+
+
+
+
+
+
+;################ korea
+
+
+type             Korean Byeolgigun
+dictionary       Korean_Byeolgigun      ; Byeolgigun (Snider-Enfield Mk.I, Bayonet)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 japanese
+banner faction   main_spear
+banner holy      crusade
+soldier          Korean_Byeolgigun, 40, 0, 1
+attributes       free_upkeep_unit, sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, mercenary_unit
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         28, 0, blunderbuss_shot, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, flesh
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1500, 440, 200, 200, 1500, 2, 100
+armour_ug_levels 0
+armour_ug_models Korean_Byeolgigun
+ownership        byzantium, saxons, slave
+era 2            byzantium, saxons
+
+
+
+type             Korean Gimagungsu
+dictionary       Korean_Gimagungsu		; Gimagungsu (Gakgung composite bow, Sword)
+category         cavalry
+class            missile
+voice_type       Light
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Korean_Gimagungsu, 24, 0, 1
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, mercenary_unit
+move_speed_mod	 0.9
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         4, 2, cav_composite_arrow, 90, 35, missile, missile_mechanical, piercing, none, 25, 1
+stat_pri_attr    no
+stat_sec         3, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  3, 2, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      0, 1, -3, 2
+stat_mental      4, low, untrained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 840, 250, 90, 70, 840, 4, 300
+armour_ug_levels 0
+armour_ug_models Korean_Gimagungsu
+ownership        byzantium, saxons, slave
+era 0            byzantium, saxons
+era 1            byzantium, saxons
+
+
+type             Korean Musketeers
+dictionary       Korean_Musketeers      ; Korean Musketeers / Joseon Musketeers (Smoothbore musket, sword)
+category         infantry
+class            missile
+voice_type       Light
+accent           japanese
+banner faction   main_missile
+banner holy      crusade
+soldier          Korean_Musketeers, 40, 0, 1.0
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, free_upkeep_unit, mercenary_unit
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         37, 0, quality_hand_gun_bullet, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         6, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  5, 4, 2, metal
+stat_sec_armour  0, 0, leather
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      5, normal, trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 950, 210, 80, 60, 950, 4, 100
+armour_ug_levels 0
+armour_ug_models Korean_Musketeers
+ownership        byzantium, saxons, slave
+era 0            byzantium, saxons
+era 1            byzantium, saxons
+
+
+type             Korean Pikemen
+dictionary       Korean_Pikemen      ; Korean Pikemen / Joseon Pikemen
+category         infantry
+class            spearmen
+voice_type       Heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade
+soldier          Korean_Pikemen, 64, 0, 1.1
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, pike, mercenary_unit
+formation        1.2, 1.2, 2.0, 2.4, 4, square, phalanx
+stat_health      1, 0
+stat_pri         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri_attr    spear, short_pike
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+stat_sec_attr    no
+stat_pri_armour  6, 5, 0, metal
+stat_sec_armour  0, 0, leather
+stat_heat        6
+stat_ground      1, -2, 3, 2
+stat_mental      6, normal, highly_trained
+stat_charge_dist 12
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 800, 170, 120, 95, 800, 4, 100
+armour_ug_levels 0
+armour_ug_models Korean_Pikemen
+ownership        byzantium, saxons, slave
+era 0            byzantium, saxons
+era 1            byzantium, saxons
 
