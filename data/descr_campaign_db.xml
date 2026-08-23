@@ -184,7 +184,7 @@
         <end_turn_modifier float = "0.0001"/>
         <excommunicated_modifier float = "30"/>
         <new_leader_modifier float = "10"/>
-        <max_effective_loyalty float = 10.0"/>
+        <max_effective_loyalty float = "10.0"/>
         <rebel_region_modifier float = "0.001"/>
         <shadow_region_modifier float = "1.1"/>
         <rebel_border_modifier float = "1.1"/>
@@ -271,9 +271,9 @@
       <required_jihad_piety int="6"/>
       <max_disband_progress float="20.0"/>
       <near_target_no_disband_distance float="4.0"/>
-      <disband_progress_window float="3"/>
-      <crusade_called_start_turn float="20"/>
-      <jihad_called_start_turn float="20"/>
+      <disband_progress_window uint="3"/>
+      <crusade_called_start_turn int="20"/>
+      <jihad_called_start_turn int="20"/>
       <movement_points_modifier float="2.0"/>
    </crusades>
     <ai>

@@ -114,11 +114,11 @@ resource        textiles,	229,	264
 ;#### Montreal
 resource        timber,	125,	253
 resource        timber,	140,	253
-resource        fish,	155,  260
-resource        tin,	135,	248
-resource        tin,	136,	250
-resource        gold,	152,	247
-resource        gold,	123,	252
+resource        timber,	155,  260
+resource        timber,	135,	248
+resource        timber,	136,	250
+resource        grain,	152,	247
+resource        grain,	123,	252
 resource        grain,	136,	248
 resource        grain,	128,	244
 resource        furs,	129,	250		
@@ -149,7 +149,7 @@ resource        furs,	81,  284
 resource        timber,	61,  263
 resource        timber,	64,  267
 resource        timber,	69,  258
-resource        grain,	69,  261
+resource        timber,	69,  261
 resource        gold,	69,  254
 resource        gold,	65,  257
 resource        gold,	85,  264
@@ -160,7 +160,7 @@ resource        furs,	55,  274
 ;#### Perth
 resource        gold,	408,  81
 resource        gold,	409,  72
-resource        gold,	408,  74
+resource        wool,	408,  74
 resource        wool,	403,  68	
 resource        tin,	407,	93
 resource        tin,	403,	61
@@ -168,9 +168,9 @@ resource        tin,	401,	66
 resource        tin,	471,	94
 
 ;#### Brisbane
-resource        coal,	450,  80
-resource        coal,	447,  83
-resource        coal,	444,  90
+resource        wool,	450,  80
+resource        wool,	447,  83
+resource        gold,	444,  90
 resource        gold,	451,  77
 resource        wool,	443,  85	
 resource        wool,	434,  90
@@ -181,15 +181,15 @@ resource        grain,	447,	92
 resource        grain,	452,	79
 
 ;#### Sydney
-resource        coal,	451,  72
-resource        coal,	450,  69
-resource        coal,	448,  57
+resource        wool,	451,  72
+resource        wool,	450,  69
+resource        wool,	448,  57
 resource        gold,	443,  55
 resource        gold,	444,  64
 resource        gold,	447,  60
-resource        tin,	447,	63
-resource        tin,	444,	45
-resource        grain,	447,	74
+resource        wool,	447,	63
+resource        gold,	444,	45
+resource        gold,	447,	74
 resource        wool,	447,	72
 
 ;Kingston
@@ -199,81 +199,81 @@ resource        wine,	131,  183
 resource        wine,	132,  184
 
 ;Capetown
-resource        amber,	259,  73
-resource        amber,	255,  77
-resource        amber,	256,  73
-resource        amber,	257,  79
-resource        tin,	257,  66
+resource        chocolate,	259,  73
+resource        chocolate,	255,  77
+resource        chocolate,	256,  73
+resource        chocolate,	257,  79
+resource        grain,	257,  66
 resource        grain,	266,  70
-resource        wool,	262,  69
-resource        wool,	270,  73
+resource        grain,	262,  69
+resource        grain,	270,  73
 
 ;Valletta
 resource        fish,	250,  225
 
 ;Malacca
-resource        fish,	380,  148
-resource        spices,	379,  152
-resource        gold,	380,  154
-resource        gold,	381,  152
+resource        tin,	380,  148
+resource        tin,	379,  152
+resource        slaves,	380,  154
+resource        sugar,	381,  152
 
 ;Hong Kong
-resource        tobacco,	394,  192
+resource        dyes,	394,  192
 resource        textiles,	393,  192
 
 ;Wellington
-resource        coal,	480,  42
-resource        gold,	477,  37
-resource        tin,	486,	52
-resource        fish,	486,	48
+resource        wool,	480,  42
+resource        wool,	477,  37
+resource        timber,	486,	52
+resource        timber,	486,	48
 resource        wool,	478,	39
 
 ;Calcutta
-resource        coal,	360,  202
-resource        tobacco,	350,  206
-resource        tobacco,	349,  208
-resource        sugar,	348,  201
+resource        dyes,	360,  202
+resource        dyes,	350,  206
+resource        spices,	349,  208
+resource        cotton,	348,  201
 resource        cotton,	355,  197
 resource        spices,	360,  194
 
 ;Bhopal
-resource        tobacco,	349,  199
-resource        sugar,	351,  197
-resource        sugar,	354,  193
+resource        cotton,	349,  199
+resource        dyes,	351,  197
+resource        dyes,	354,  193
 resource        cotton,	348,  188
 resource        cotton,	348,  198
-resource        spices,	351,  191
+resource        dyes,	351,  191
 
 ;Madras
-resource        tobacco,	354,  188
-resource        sugar,	352,  186
-resource        sugar,	345,  184
+resource        cotton,	354,  188
+resource        cotton,	352,  186
+resource        spices,	345,  184
 resource        spices,	349,  184
 resource        spices,	344,  167
 resource        cotton,	345,  176
 resource        cotton,	349,  158
-resource        grain,	343,  169
+resource        spices,	343,  169
 
 ;Delhi
-resource        elephants,	338,  209
+resource        grain,	338,  209
 resource        cotton,	343,  212
 resource        cotton,	340,  217
-resource        spices,	343,  203
-resource        tobacco,	343,  210
+resource        grain,	343,  203
+resource        grain,	343,  210
 
 ;Karachi
-resource        tobacco,	335,  209
-resource        silk,	332,  201
-resource        elephants,	333,  206
-resource        sugar,	333,  193
-resource        wool,	337,  197
+resource        cotton,	335,  209
+resource        cotton,	332,  201
+resource        cotton,	333,  206
+resource        grain,	333,  193
+resource        grain,	337,  197
 
 ;Bangalore
-resource        elephants,	338,  188
+resource        silk,	338,  188
 resource        cotton,	342,  193
 resource        cotton,	342,  189
-resource        spices,	339,  184
-resource        sugar,	339,  180
+resource        silk,	339,  184
+resource        cotton,	339,  180
 resource        silk,	343,  282
 
 ;Jaipur
@@ -302,64 +302,64 @@ resource        silk,	320,  224
 resource        wool,	325,  218
 
 ;Ulundi
-resource        wool,	285,  104
-resource        tobacco,	280,  95
+resource        ivory,	285,  104
+resource        cotton,	280,  95
 
 ;Luanda
-resource        amber,	260,  139
-resource        amber,	263,  132
-resource        fish,	251,  119
-resource        wool,	251,  127
-resource        sugar,	257,  117
+resource        slaves,	260,  139
+resource        slaves,	263,  132
+resource        slaves,	251,  119
+resource        ivory,	251,  127
+resource        ivory,	257,  117
 resource        ivory,	264,  113
 
 ;Bloemfontein
-resource        amber,	265,  75
-resource        amber,	264,  78
-resource        tin,	262,  76
-resource        sugar,	264,  74
+resource        chocolate,	265,  75
+resource        chocolate,	264,  78
+resource        wool,	262,  76
+resource        wool,	264,  74
 
 ;Pretoria
-resource        amber,	269,  81
-resource        amber,	270,  84
+resource        gold,	269,  81
+resource        chocolate,	270,  84
 resource        gold,	274,  85
-resource        grain,	267,  81
+resource        wool,	267,  81
 
 ;Angra Pequena
-resource        gold,	252,  97
-resource        fish,	252,  90
-resource        ivory,	262,  105
-resource        grain,	255,  95
+resource        chocolate,	252,  97
+resource        chocolate,	252,  90
+resource        wool,	262,  105
+resource        wool,	255,  95
 
 ;Bulawayo
 resource        gold,	269,  97
 resource        gold,	274,  101
-resource        amber,	267,  90
-resource        grain,	270,  94
-resource        tin,	271,  124
-resource        tin,	270,  131
-resource        wool,	265,  90
+resource        chocolate,	267,  90
+resource        chocolate,	270,  94
+resource        chocolate,	271,  124
+resource        chocolate,	270,  131
+resource        gold,	265,  90
 
 ;Amsterdam
-resource        tin,	240,  265
-resource        fish,	238,  262
+resource        textiles,	240,  265
+resource        textiles,	238,  262
 resource        textiles,	239,  258
-resource        iron,	239,  262
-resource        iron,	236,  260
+resource        wool,	239,  262
+resource        wool,	236,  260
 
 ;Banda Aceh
-resource        coal,	379,  141
-resource        sugar,	381,  134
-resource        spices,	376,  147
+resource        slaves,	379,  141
+resource        slaves,	381,  134
+resource        tobacco,	376,  147
 resource        slaves,	381,  137
-resource        fish,	371,  152
+resource        tobacco,	371,  152
 
 ;Batavia
 resource        sugar,	389,  125
 resource        sugar,	393,  126
 resource        spices,	393,  124
-resource        slaves,	394,  124
-resource        fish,	394,  125
+resource        wine,	394,  124
+resource        wine,	394,  125
 
 ;Makasar
 resource        coal,	399,  139
@@ -369,35 +369,35 @@ resource        spices,	406,  137
 resource        camels,	409,  132
 
 ;Kuching
-resource        fish,	393,  148
-resource        coal,	395,  147
-resource        spices,	399,  151
+resource        slaves,	393,  148
+resource        slaves,	395,  147
+resource        timber,	399,  151
 
 ;Moresby
 resource        gold,	441,  127
 resource        fish,	438,  122
 
 ;Madrid
-resource        gold,	222,  237
-resource        wine,	223,  237
-resource        fish,	226,  242
-resource        iron,	223,  242
+resource        grain,	222,  237
+resource        grain,	223,  237
+resource        wool,	226,  242
+resource        wool,	223,  242
 
 ;Compostela
 resource        coal,	222,  241
 resource        fish,	218,  241
 
 ;Barcelona
-resource        coal,	229,  235
-resource        iron,	233,  239
+resource        textiles,	229,  235
+resource        cotton,	233,  239
 resource        textiles,	230,  238
-resource        wine,	228,  234
+resource        cotton,	228,  234
 
 ;Seville
-resource        wine,	228,  232
+resource        grain,	228,  232
 resource        wool,	227,  228
-resource        fish,	222,  227
-resource        coal,	224,  232
+resource        grain,	222,  227
+resource        wool,	224,  232
 
 ;Porto
 resource        gold,	219,  234
@@ -409,52 +409,52 @@ resource        fish,	218,  234
 resource        sugar,	127,  194
 resource        tobacco,	129,  193
 resource        tobacco,	133,  190
-resource        fish,	124,  195
+resource        sugar,	124,  195
 
 ;Santo Domingo
-resource        gold,	141,  186
+resource        sugar,	141,  186
 resource        sugar,	142,  186
-resource        fish,	139,  187
+resource        wine,	139,  187
 
 ;Manila
-resource        spices,	407,  183
-resource        fish,	412,  165
-resource        gold,	407,  179
-resource        tin,	414,  161
+resource        tobacco,	407,  183
+resource        tobacco,	412,  165
+resource        tobacco,	407,  179
+resource        tobacco,	414,  161
 
 ;Paris
-resource        coal,	236,  256
-resource        coal,	232,  255
-resource        fish,	226,  253
+resource        textiles,	236,  256
+resource        textiles,	232,  255
+resource        textiles,	226,  253
 resource        textiles,	238,  255
-resource        sulfur,	229,  251
-resource        wine,	231,  251
-resource        silver,	231,  254
+resource        silk,	229,  251
+resource        silk,	231,  251
+resource        silk,	231,  254
 
 ;Bordeaux
-resource        textiles,	231,  249
-resource        textiles,	230,  242
-resource        sulfur,	230,  248
-resource        wine,	231,  243
+resource        grain,	231,  249
+resource        grain,	230,  242
+resource        grain,	230,  248
+resource        wool,	231,  243
 resource        wool,	232,  250
 
 ;Lyon
-resource        wine,	236,  252
-resource        wine,	235,  250
+resource        grain,	236,  252
+resource        silk,	235,  250
 resource        grain,	235,  252
-resource        textiles,	240,  252
+resource        silk,	240,  252
 
 ;Marseille
-resource        sulfur,	234,  242
-resource        wine,	237,  245
+resource        textiles,	234,  242
+resource        grain,	237,  245
 resource        grain,	234,  244
 resource        textiles,	239,  244
 
 ;Algiers
-resource        coal,	232,  217
-resource        coal,	236,  218
+resource        grain,	232,  217
+resource        grain,	236,  218
 resource        wool,	234,  224
-resource        elephants,	238,  223
+resource        wool,	238,  223
 resource        grain,	241,  224
 
 ;Dakar
@@ -463,16 +463,16 @@ resource        gold,	211,  175
 resource        wool,	215,  165
 
 ;Saigon
-resource        gold,	386,  178
-resource        fish,	390,  172
+resource        grain,	386,  178
+resource        grain,	390,  172
 resource        slaves,	389,  175
 resource        slaves,	388,  168
 
 ;Hanoi
-resource        dogs,	385,  189
-resource        fish,	385,  184
-resource        elephants,	386,  182
-resource        slaves,	381,  189
+resource        coal,	385,  189
+resource        coal,	385,  184
+resource        grain,	386,  182
+resource        grain,	381,  189
 
 ;Luang Prabang
 resource        wool,	377,  184
@@ -486,38 +486,38 @@ resource        spices,	383,  174
 
 ;Bangkok
 resource        tin,	373,  185
-resource        fish,	379,  173
-resource        spices,	375,  182
-resource        elephants,	377,  179
-resource        dogs,	374,  160
+resource        grain,	379,  173
+resource        grain,	375,  182
+resource        grain,	377,  179
+resource        tin,	374,  160
 
 ;Mandalay
 resource        slaves,	364,  199
-resource        wool,	366,  202
+resource        spices,	366,  202
 resource        spices,	367,  191
-resource        fish,	369,  180
+resource        slaves,	369,  180
 
 ;Kagoshima
-resource        iron,	422,  216
-resource        tin,	422,  217
-resource        textiles,	422,  218
-resource        fish,	422,  219
+resource        coal,	422,  216
+resource        coal,	422,  217
+resource        spices,	422,  218
+resource        spices,	422,  219
 
 ;Kyoto
-resource        iron,	429,  225
-resource        tin,	424,  223
-resource        textiles,	426,  221
-resource        fish,	424,  219
-resource        timber,	430,  222
+resource        silk,	429,  225
+resource        silk,	424,  223
+resource        silk,	426,  221
+resource        spices,	424,  219
+resource        spices,	430,  222
 
 ;Edo
-resource        dyes,	435,  228
-resource        wool,	432,  226
+resource        textiles,	435,  228
+resource        silk,	432,  226
 resource        textiles,	433,  224
-resource        fish,	433,  225
+resource        silk,	433,  225
 
 ;Akita
-resource        timber,	436,  236
+resource        timber,	435,  238
 resource        iron,	436,  235
 resource        fish,	435,  232
 
@@ -527,21 +527,21 @@ resource        furs,	438,  242
 resource        fish,	438,  246
 
 ;Pyongyang
-resource        timber,	419,  237
-resource        tin,	416,  233
-resource        wool,	415,  230
+resource        iron,	419,  237
+resource        iron,	416,  233
+resource        grain,	415,  230
 
 ;Hanseong
-resource        fish,	415,  223
-resource        textiles,	418,  225
-resource        dyes,	416,  227
+resource        grain,	415,  223
+resource        grain,	418,  225
+resource        silk,	416,  227
 
 ;Jilin
-resource        gold,	408,  242
-resource        wool,	411,  244
-resource        fish,	428,  245
-resource        furs,	419,  260
-resource        timber,	407,  257
+resource        coal,	408,  242
+resource        coal,	411,  244
+resource        coal,	428,  245
+resource        iron,	419,  260
+resource        iron,	407,  257
 
 ;Bayan Tumen
 resource        wool,	400,  247
@@ -554,51 +554,51 @@ resource        wool,	386,  236
 resource        elephants,	377,  233
 
 ;Peking
-resource        coal,	398,  228
-resource        gold,	404,  227
+resource        grain,	398,  228
+resource        grain,	404,  227
 resource        grain,	395,  230
-resource        wool,	398,  232
-resource        fish,	410,  235
+resource        textiles,	398,  232
+resource        textiles,	410,  235
 resource        textiles,	403,  234
 
 ;Nanking
-resource        grain,	401,  223
-resource        fish,	406,  218
-resource        textiles,	404,  213
-resource        wool,	405,  208
-resource        elephants,	401,  218
+resource        silk,	401,  223
+resource        silk,	406,  218
+resource        silk,	404,  213
+resource        spices,	405,  208
+resource        spices,	401,  218
 
 ;Xi'an
-resource        silk,	386,  219
+resource        dyes,	386,  219
 resource        wool,	394,  222
 resource        grain,	394,  216
-resource        timber,	383,  216
-resource        textiles,	396,  217
+resource        dyes,	383,  216
+resource        dyes,	396,  217
 
 ;Fuzhou
-resource        fish,	405,  204
-resource        elephants,	401,  198
-resource        grain,	395,  198
-resource        grain,	398,  198
-resource        dogs,	399,  195
+resource        spices,	405,  204
+resource        spices,	401,  198
+resource        spices,	395,  198
+resource        silk,	398,  198
+resource        silk,	399,  195
 
 ;Guiyang
-resource        tin,	387,  203
-resource        coal,	386,  199
-resource        elephants,	389,  204
-resource        wool,	393,  204
-resource        dogs,	389,  193
+resource        spices,	387,  203
+resource        spices,	386,  199
+resource        spices,	389,  204
+resource        grain,	393,  204
+resource        grain,	389,  193
 
 ;Chengdu
-resource        tin,	380,  205
-resource        elephants,	389,  204
+resource        grain,	380,  205
+resource        grain,	389,  204
 resource        spices,	386,  207
-resource        spices,	384,  199
+resource        silk,	384,  199
 
 ;Kunming
-resource        gold,	374,  200
-resource        wool,	371,  202
-resource        grain,	374,  195
+resource        spices,	374,  200
+resource        tin,	371,  202
+resource        dyes,	374,  195
 resource        spices,	378,  201
 
 ;Urga
@@ -613,8 +613,8 @@ resource        elephants,	365,  243
 resource        wool,	368,  231
 
 ;Kashgar
-resource        wool,	343,  234
-resource        furs,	347,  226
+resource        silk,	343,  234
+resource        cotton,	347,  226
 
 ;Lhasa
 resource        slaves,	366,  212
@@ -622,35 +622,35 @@ resource        wool,	370,  217
 resource        wool,	367,  209
 
 ;Bandar Abbas
-resource        fish,	315,  202
+resource        silk,	315,  202
 resource        silk,	314,  206
 resource        wool,	317,  209
 
 ;Isfahan
-resource        fish,	307,  206
+resource        silk,	307,  206
 resource        silk,	306,  216
-resource        wool,	307,  215
-resource        silver,	310,  204
-resource        tin,	309,  212
+resource        silk,	307,  215
+resource        textiles,	310,  204
+resource        textiles,	309,  212
 
 ;Tehran
 resource        wool,	318,  224
-resource        elephants,	309,  225
+resource        silk,	309,  225
 resource        silk,	306,  223
-resource        silver,	313,  219
+resource        grain,	313,  219
 
 ;Tabriz
 resource        silk,	298,  226
-resource        elephants,	300,  228
+resource        silk,	300,  228
 resource        wool,	301,  222
-resource        fish,	303,  226
+resource        grain,	303,  226
 
 ;Fez
-resource        tin,	220,  216
-resource        fish,	220,  219
+resource        grain,	220,  216
+resource        grain,	220,  219
 resource        grain,	218,  215
-resource        spices,	221,  217
-resource        wine,	222,  221
+resource        wool,	221,  217
+resource        wool,	222,  221
 
 ;Marrakesh
 resource        wool,	218,  209
@@ -659,10 +659,10 @@ resource        grain,	210,  202
 resource        wine,	220,  209
 
 ;Monrovia
-resource        fish,	218,  154
-resource        chocolate,	219,  160
-resource        cotton,	215,  161
-resource        wine,	227,  157
+resource        slaves,	218,  154
+resource        slaves,	219,  160
+resource        ivory,	215,  161
+resource        ivory,	227,  157
 
 ;Timbuktu
 resource        chocolate,	218,  174
@@ -672,25 +672,25 @@ resource        gold,	220,  172
 resource        gold,	224,  172
 
 ;Suleja
-resource        fish,	234,  158
-resource        slaves,	245,  161
-resource        chocolate,	243,  164
-resource        wine,	240,  160
+resource        ivory,	234,  158
+resource        ivory,	245,  161
+resource        cotton,	243,  164
+resource        cotton,	240,  160
 
 ;Faya
-resource        wool,	243,  174
-resource        wine,	254,  169
+resource        slaves,	243,  174
+resource        ivory,	254,  169
 
 ;Yaounde
-resource        chocolate,	246,  148
+resource        ivory,	246,  148
 resource        slaves,	253,  157
 resource        slaves,	252,  149
 
 ;Leopoldville
-resource        fish,	245,  146
+resource        chocolate,	245,  146
 resource        slaves,	259,  145
 resource        slaves,	262,  150
-resource        slaves,	267,  142
+resource        chocolate,	267,  142
 resource        ivory,	272,  158
 resource        ivory,	273,  144
 
@@ -706,14 +706,14 @@ resource        elephants,	317,  194
 resource        silver,	313,  185
 
 ;Sana'a
-resource        chocolate,	298,  173
-resource        spices,	294,  179
+resource        wine,	298,  173
+resource        wool,	294,  179
 
 ;Gondar
-resource        chocolate,	282,  167
-resource        chocolate,	289,  165
-resource        ivory,	280,  160
-resource        furs,	291,  160
+resource        wine,	282,  167
+resource        wine,	289,  165
+resource        wool,	280,  160
+resource        wool,	291,  160
 
 ;Hobyo
 resource        fish,	302,  166
@@ -722,10 +722,10 @@ resource        furs,	290,  150
 resource        furs,	295,  148
 
 ;Zanzibar
-resource        fish,	292,  141
-resource        silver,	288,  134
-resource        furs,	284,  117
-resource        slaves,	287,  139
+resource        ivory,	292,  141
+resource        wool,	288,  134
+resource        wool,	284,  117
+resource        wool,	287,  139
 resource        ivory,	283,  144
 resource        ivory,	283,  136
 
@@ -746,12 +746,12 @@ resource        grain,	276,  206
 resource        cotton,	276,  213
 resource        cotton,	276,  209
 resource        cotton,	270,  213
-resource        wool,	278,  201
+resource        grain,	278,  201
 
 ;Khartoum
-resource        elephants,	280,  189
+resource        cotton,	280,  189
 resource        wool,	283,  184
-resource        ivory,	275,  175
+resource        cotton,	275,  175
 
 ;Mecca
 resource        fish,	287,  196
@@ -759,21 +759,21 @@ resource        wool,	284,  205
 
 ;Damascus
 resource        silk,	290,  219
-resource        fish,	282,  217
-resource        elephants,	283,  218
-resource        wine,	284,  219
+resource        grain,	282,  217
+resource        grain,	283,  218
+resource        grain,	284,  219
 resource        wool,	288,  214
 
 ;Baghdad
-resource        elephants,	296,  219
-resource        fish,	300,  210
-resource        wool,	296,  217
-resource        silk,	300,  217
+resource        grain,	296,  219
+resource        grain,	300,  210
+resource        furs,	296,  217
+resource        furs,	300,  217
 
 ;Aleppo
-resource        fish,	283,  222
-resource        timber,	284,  225
-resource        wool,	287,  224
+resource        silk,	283,  222
+resource        silk,	284,  225
+resource        cotton,	287,  224
 
 ;Van
 resource        elephants,	293,  228
@@ -782,29 +782,29 @@ resource        furs,	291,  230
 
 ;Kayseri
 resource        grain,	279,  233
-resource        fish,	279,  226
+resource        grain,	279,  226
 resource        silk,	285,  229
-resource        tin,	286,  228
-resource        wine,	275,  232
+resource        grain,	286,  228
+resource        wool,	275,  232
 
 ;Trebizond
-resource        fish,	284,  237
-resource        wool,	286,  235
+resource        tobacco,	284,  237
+resource        tobacco,	286,  235
 resource        grain,	282,  235
-resource        dogs,	290,  236
+resource        grain,	290,  236
 
 ;Constantinople
-resource        tin,	274,  236
+resource        textiles,	274,  236
 resource        grain,	276,  236
-resource        wool,	273,  234
-resource        silk,	270,  239
-resource        wine,	275,  234
-resource        elephants,	268,  237
+resource        textiles,	273,  234
+resource        textiles,	270,  239
+resource        grain,	275,  234
+resource        grain,	268,  237
 
 ;Sofia
 resource        grain,	264,  242
 resource        wool,	268,  243
-resource        fish,	272,  242
+resource        grain,	272,  242
 
 ;Thessaloniki
 resource        grain,	266,  238
@@ -813,16 +813,16 @@ resource        textiles,	262,  239
 resource        wine,	260,  236
 
 ;Smyrna
-resource        fish,	273,  227
-resource        wool,	273,  229
-resource        grain,	272,  232
+resource        tobacco,	273,  227
+resource        tobacco,	273,  229
+resource        silk,	272,  232
 
 ;Athens
 resource        wool,	262,  234
-resource        wine,	263,  233
-resource        tin,	262,  232
-resource        textiles,	263,  232
-resource        fish,	264,  226
+resource        grain,	263,  233
+resource        grain,	262,  232
+resource        wool,	263,  232
+resource        silk,	264,  226
 resource        grain,	263,  228
 
 ;Belgrade
@@ -838,43 +838,43 @@ resource        fish,	244,  233
 
 ;Naples
 resource        grain,	249,  238
-resource        wine,	255,  233
-resource        wool,	251,  238
-resource        textiles,	253,  238
-resource        iron,	253,  236
+resource        grain,	255,  233
+resource        grain,	251,  238
+resource        silk,	253,  238
+resource        silk,	253,  236
 
 ;Rome
 resource        grain,	247,  244
-resource        textiles,	249,  242
-resource        wine,	249,  240
-resource        fish,	246,  242
+resource        grain,	249,  242
+resource        wool,	249,  240
+resource        wool,	246,  242
 
 ;Milan
-resource        grain,	240,  247
-resource        wine,	241,  244
-resource        gold,	242,  246
-resource        wool,	243,  248
-resource        fish,	241,  243
+resource        textiles,	240,  247
+resource        textiles,	241,  244
+resource        textiles,	242,  246
+resource        silk,	243,  248
+resource        silk,	241,  243
 
 ;Venice
-resource        fish,	248,  245
-resource        grain,	245,  248
-resource        wool,	246,  246
+resource        silk,	248,  245
+resource        silk,	245,  248
+resource        textiles,	246,  246
 resource        textiles,	249,  248
 
 ;Vienna
 resource        textiles,	248,  250
 resource        iron,	251,  248
-resource        grain,	254,  247
-resource        fish,	252,  246
-resource        coal,	254,  249
+resource        textiles,	254,  247
+resource        textiles,	252,  246
+resource        iron,	254,  249
 
 ;Budapest
 resource        wool,	261,  253
 resource        grain,	255,  254
-resource        timber,	260,  252
-resource        textiles,	255,  252
-resource        coal,	257,  253
+resource        grain,	260,  252
+resource        grain,	255,  252
+resource        wool,	257,  253
 
 ;Lamberg
 resource        coal,	256,  256
@@ -883,52 +883,52 @@ resource        wool,	259,  255
 resource        timber,	265,  255
 
 ;Bucharest 
-resource        wool,	269,  251
-resource        wool,	259,  241
-resource        wine,	263,  246
+resource        grain,	269,  251
+resource        furs,	259,  241
+resource        furs,	263,  246
 resource        grain,	267,  249
 
 ;Prague
 resource        textiles,	254,  260
-resource        iron,	250,  259
-resource        tin,	251,  257
-resource        grain,	252,  256
+resource        coal,	250,  259
+resource        coal,	251,  257
+resource        textiles,	252,  256
 
 ;Zurich
 resource        wool,	243,  250
-resource        grain,	243,  252
+resource        textiles,	243,  252
 resource        textiles,	242,  252
-resource        iron,	243,  254
-resource        timber,	245,  249
+resource        textiles,	243,  254
+resource        wool,	245,  249
 
 ;Munich
-resource        coal,	249,  255
-resource        coal,	247,  254
-resource        iron,	248,  253
+resource        grain,	249,  255
+resource        grain,	247,  254
+resource        wool,	248,  253
 resource        grain,	250,  253
-resource        sulfur,	245,  252
+resource        textiles,	245,  252
 
 ;Cologne
-resource        grain,	248,  257
-resource        tin,	246,  256
+resource        coal,	248,  257
+resource        coal,	246,  256
 resource        iron,	246,  257
 resource        textiles,	245,  259
-resource        sulfur,	241,  257
-resource        wool,	241,  255
+resource        iron,	241,  257
+resource        textiles,	241,  255
 
 ;Hamburg
-resource        iron,	243,  262
-resource        coal,	245,  263
-resource        tin,	246,  266
-resource        sulfur,	245,  265
-resource        fish,	243,  266
+resource        wool,	243,  262
+resource        wool,	245,  263
+resource        wool,	246,  266
+resource        grain,	245,  265
+resource        grain,	243,  266
 
 ;Berlin
-resource        iron,	249,  264
-resource        sulfur,	254,  266
+resource        textiles,	249,  264
+resource        textiles,	254,  266
 resource        textiles,	254,  264
-resource        grain,	252,  264
-resource        fish,	252,  266
+resource        coal,	252,  264
+resource        coal,	252,  266
 
 ;Konigsberg
 resource        grain,	257,  263
@@ -937,23 +937,23 @@ resource        fish,	256,  268
 resource        timber,	255,  260
 
 ;Copenhagen
-resource        textiles,	246,  271
-resource        iron,	244,  271
+resource        wool,	246,  271
+resource        wool,	244,  271
 resource        wool,	244,  272
-resource        fish,	243,  273
+resource        grain,	243,  273
 resource        grain,	243,  270
 
 ;Stockholm
-resource        tin,	253,  278
-resource        tin,	256,  294
-resource        textiles,	253,  275
-resource        fish,	254,  284
-resource        wool,	247,  278
+resource        iron,	253,  278
+resource        iron,	256,  294
+resource        iron,	253,  275
+resource        timber,	254,  284
+resource        timber,	247,  278
  
 ;Bergen
-resource        tin,	241,  285
-resource        textiles,	246,  281
-resource        fish,	239,  282
+resource        timber,	241,  285
+resource        wool,	246,  281
+resource        wool,	239,  282
 resource        timber,	244,  280
  
 ;Trondheim
@@ -973,21 +973,21 @@ resource        furs,	279,  290
 resource        timber,	273,  294
  
 ;Riga
-resource        fish,	262,  274
+resource        timber,	262,  274
 resource        timber,	268,  275
-resource        textiles,	268,  278
-resource        iron,	263,  272
+resource        grain,	268,  278
+resource        grain,	263,  272
  
 ;Vilna
-resource        iron,	263,  268
-resource        textiles,	262,  265
-resource        dyes,	270,  270
-resource        wool,	271,  266
+resource        grain,	263,  268
+resource        grain,	262,  265
+resource        timber,	270,  270
+resource        timber,	271,  266
  
 ;Kiev
 resource        grain,	276,  253
 resource        grain,	274,  256
-resource        wine,	273,  260
+resource        grain,	273,  260
 resource        grain,	279,  258
  
 ;Sevastopol
@@ -995,32 +995,32 @@ resource        coal,	287,  256
 resource        coal,	283,  258
 resource        coal,	284,  253
 resource        grain,	279,  251
-resource        fish,	282,  246
+resource        grain,	282,  246
  
 ;St Petersburg
 resource        textiles,	279,  275
-resource        iron,	275,  280
+resource        textiles,	275,  280
 resource        timber,	282,  275
-resource        fish,	281,  284
+resource        timber,	281,  284
  
 ;Moscow
-resource        timber,	294,  267
-resource        furs,	294,  277
+resource        textiles,	294,  267
+resource        textiles,	294,  277
 resource        grain,	282,  263
-resource        sulfur,	285,  267
-resource        wool,	289,  262
+resource        textiles,	285,  267
+resource        grain,	289,  262
  
 ;Astrakhan
 resource        wool,	296,  258
-resource        coal,	297,  241
-resource        fish,	288,  243
+resource        grain,	297,  241
+resource        wool,	288,  243
 resource        grain,	293,  246
  
 ;Tiflis
-resource        wine,	297,  232
-resource        dyes,	297,  231
-resource        wool,	295,  234
-resource        fish,	301,  236
+resource        textiles,	297,  232
+resource        textiles,	297,  231
+resource        silk,	295,  234
+resource        silk,	301,  236
  
 ;Pustozersk
 resource        timber,	326,  289
@@ -1028,13 +1028,13 @@ resource        fish,	309,  298
 resource        furs,	299,  283
  
 ;Kazan
-resource        tin,	311,  276
-resource        dyes,	311,  268
-resource        tin,	311,  260
+resource        grain,	311,  276
+resource        grain,	311,  268
+resource        wool,	311,  260
  
 ;Guryev
-resource        tin,	310,  252
-resource        gold,	318,  253
+resource        furs,	310,  252
+resource        furs,	318,  253
 resource        wool,	321,  251
  
 ;Dadym
@@ -1043,8 +1043,8 @@ resource        furs,	361,  296
 resource        wool,	366,  296
  
 ;Tyumen
-resource        gold,	353,  263
-resource        wool,	339,  271
+resource        iron,	353,  263
+resource        iron,	339,  271
 resource        timber,	355,  262
  
 ;Akmolinsk
@@ -1054,35 +1054,35 @@ resource        coal,	350,  255
 resource        timber,	331,  252
  
 ;Verniy
-resource        gold,	336,  242
-resource        gold,	339,  244
+resource        wool,	336,  242
+resource        wool,	339,  244
 resource        grain,	345,  243
  
 ;Aulie-Ata
 resource        wool,	329,  247
-resource        gold,	332,  246
-resource        timber,	324,  245
-resource        furs,	325,  246
+resource        cotton,	332,  246
+resource        cotton,	324,  245
+resource        wool,	325,  246
  
 ;Tashkent
-resource        elephants,	331,  237
-resource        wool,	317,  241
-resource        gold,	336,  236
+resource        cotton,	331,  237
+resource        cotton,	317,  241
+resource        silk,	336,  236
  
 ;Khiva
-resource        timber,	309,  247
+resource        cotton,	309,  247
 resource        wool,	317,  241
-resource        fish,	307,  242
+resource        cotton,	307,  242
  
 ;Bukhara
-resource        wool,	326,  240
-resource        gold,	327,  233
-resource        elephants,	331,  231
+resource        cotton,	326,  240
+resource        cotton,	327,  233
+resource        silk,	331,  231
  
 ;Merv
-resource        spices,	320,  228
+resource        cotton,	320,  228
 resource        wool,	324,  225
-resource        fish,	309,  233
+resource        cotton,	309,  233
  
 ;Irkutsk
 resource        wool,	363,  274
@@ -1096,132 +1096,132 @@ resource        grain,	408,  291
  
 ;Vladiovostok
 resource        timber,	425,  266
-resource        fish,	435,  256
-resource        gold,	440,  283
+resource        timber,	435,  256
+resource        coal,	440,  283
 resource        coal,	438,  256
  
 ;Boston
-resource        fish,	149,  253
+resource        textiles,	149,  253
 resource        textiles,	139,  244
 resource        textiles,	140,  238
-resource        iron,	136,  241
-resource        grain,	140,  246
+resource        cotton,	136,  241
+resource        cotton,	140,  246
  
 ;New York
 resource        textiles,	134,  236
-resource        iron,	132,  233
+resource        textiles,	132,  233
 resource        coal,	132,  239
  
 ;Washington
-resource        textiles,	131,  228
-resource        cotton,	129,  225
-resource        grain,	128,  229
-resource        fish,	132,  224
+resource        coal,	131,  228
+resource        iron,	129,  225
+resource        iron,	128,  229
+resource        furs,	132,  224
 resource        coal,	125,  229
  
 ;Chicago
-resource        furs,	120,  245
-resource        fish,	114,  244
+resource        grain,	120,  245
+resource        grain,	114,  244
 resource        grain,	111,  237
-resource        textiles,	113,  240
-resource        tin,	110,  247
+resource        iron,	113,  240
+resource        iron,	110,  247
  
 ;Omaha
-resource        coal,	92,  247
+resource        grain,	92,  247
 resource        grain,	102,  241
-resource        wine,	99,  232
+resource        wool,	99,  232
 resource        wool,	105,  236
  
 ;Tulsa
-resource        coal,	113,  225
-resource        coal,	92,  247
+resource        grain,	113,  225
+resource        furs,	92,  247
 resource        grain,	104,  232
 resource        wool,	100,  228
  
 ;Salt Lake City
-resource        gold,	79,  228
-resource        coal,	81,  233
-resource        gold,	73,  237
-resource        tin,	75,  236
+resource        silver,	79,  228
+resource        silver,	81,  233
+resource        wool,	73,  237
+resource        wool,	75,  236
  
 ;Portland
-resource        dyes,	64,  249
-resource        gold,	76,  246
-resource        fish,	64,  244
+resource        timber,	64,  249
+resource        timber,	76,  246
+resource        grain,	64,  244
 resource        grain,	69,  244
  
 ;San Fraincisco
 resource        gold,	65,  236
 resource        gold,	69,  238
 resource        gold,	69,  229
-resource        wine,	70,  224
+resource        grain,	70,  224
 resource        grain,	73,  221
-resource        fish,	72,  220
+resource        grain,	72,  220
  
 ;Tuscon
-resource        gold,	80,  222
-resource        dyes,	81,  217
-resource        wool,	89,  216
+resource        silver,	80,  222
+resource        silver,	81,  217
+resource        fish,	89,  216
  
 ;Richmond
 resource        coal,	125,  224
 resource        coal,	123,  221
-resource        cotton,	128,  223
-resource        cotton,	130,  222
-resource        cotton,	127,  220
+resource        tobacco,	128,  223
+resource        tobacco,	130,  222
+resource        tobacco,	127,  220
  
 ;Atlanta
 resource        cotton,	122,  218
 resource        cotton,	125,  218
 resource        tobacco,	121,  215
-resource        fish,	125,  215
-resource        grain,	115,  218
+resource        cotton,	125,  215
+resource        tobacco,	115,  218
  
 ;Savannah
-resource        dyes,	125,  204
+resource        tobacco,	125,  204
 resource        cotton,	120,  213
 resource        tobacco,	122,  213
-resource        fish,	125,  210
-resource        wine,	124,  207
+resource        tobacco,	125,  210
+resource        timber,	124,  207
 
 ;New Orleans
-resource        coal,	110,  216
-resource        tobacco,	107,  215
-resource        grain,	112,  214
-resource        wine,	115,  214
-resource        fish,	112,  210
+resource        sugar,	110,  216
+resource        sugar,	107,  215
+resource        sugar,	112,  214
+resource        cotton,	115,  214
+resource        cotton,	112,  210
 
 ;Houston
-resource        gold,	100,  206
-resource        grain,	101,  215
-resource        grain,	101,  213
-resource        wine,	106,  212
-resource        wool,	96,  212
+resource        cotton,	100,  206
+resource        cotton,	101,  215
+resource        cotton,	101,  213
+resource        furs,	106,  212
+resource        furs,	96,  212
 
 ;Monterrey
-resource        gold,	83,  214
-resource        tobacco,	100,  200
+resource        silver,	83,  214
+resource        silver,	100,  200
 resource        fish,	81,  200
-resource        wool,	94,  206
+resource        fish,	94,  206
 
 ;Mexico City
-resource        amber,	98,  197
-resource        chocolate,	100,  195
+resource        silver,	98,  197
+resource        silver,	100,  195
 resource        grain,	93,  186
-resource        sugar,	98,  184
+resource        grain,	98,  184
 
 ;Veracruz
-resource        tin,	99,  183
-resource        fish,	115,  191
-resource        chocolate,	114,  184
-resource        tobacco,	111,  184
+resource        wine,	99,  183
+resource        wine,	115,  191
+resource        sugar,	114,  184
+resource        sugar,	111,  184
 resource        wine,	106,  182
 
 ;Guatemala
-resource        gold,	119,  173
-resource        tobacco,	121,  170
-resource        chocolate,	115,  178
-resource        fish,	117,  177
+resource        wine,	119,  173
+resource        wine,	121,  170
+resource        sugar,	115,  178
+resource        sugar,	117,  177
 
 ;Panama
 resource        gold,	129,  162
@@ -1230,49 +1230,49 @@ resource        chocolate,	122,  165
 
 ;Bogota
 resource        gold,	134,  161
-resource        fish,	135,  167
-resource        chocolate,	139,  151
-resource        tobacco,	143,  154
+resource        wine,	135,  167
+resource        wine,	139,  151
+resource        gold,	143,  154
 
 ;Caracas
-resource        gold,	144,  166
-resource        fish,	156,  160
-resource        tobacco,	151,  154
-resource        sugar,	160,  153
+resource        wine,	144,  166
+resource        wine,	156,  160
+resource        wine,	151,  154
+resource        wine,	160,  153
 
 ;Lima
 resource        gold,	129,  139
-resource        timber,	136,  128
-resource        fish,	126,  132
-resource        wine,	130,  134
-resource        chocolate,	133,  129
+resource        silver,	136,  128
+resource        silver,	126,  132
+resource        silver,	130,  134
+resource        gold,	133,  129
 
 ;Cuzco
-resource        gold,	136,  114
-resource        tin,	133,  121
+resource        silver,	136,  114
+resource        silver,	133,  121
 resource        wool,	141,  117
-resource        chocolate,	141,  124
-resource        camels,	143,  122
+resource        silver,	141,  124
+resource        wool,	143,  122
 
 ;Antofagasta
-resource        tin,	142,  95
-resource        dyes,	143,  89
+resource        sulfur,	142,  95
+resource        sulfur,	143,  89
 resource        fish,	142,  81
-resource        wool,	142,  85
+resource        silver,	142,  85
 
 ;Santiago
-resource        textiles,	140,  64
-resource        tin,	141,  73
-resource        wool,	141,  61
-resource        wine,	137,  54
+resource        fish,	140,  64
+resource        fish,	141,  73
+resource        sulfur,	141,  61
+resource        grain,	137,  54
 
 ;Buenos Aires
-resource        tin,	158,  79
-resource        textiles,	158,  56
+resource        grain,	158,  79
+resource        grain,	158,  56
 resource        grain,	155,  76
-resource        wine,	151,  85
-resource        tobacco,	152,  66
-resource        fish,	159,  61
+resource        wool,	151,  85
+resource        wool,	152,  66
+resource        wool,	159,  61
 
 ;Bahia Blanca
 resource        gold,	145,  31
@@ -1280,10 +1280,10 @@ resource        fish,	151,  43
 resource        furs,	146,  53
 
 ;La Paz
-resource        gold,	151,  112
-resource        timber,	148,  114
-resource        furs,	156,  109
-resource        chocolate,	148,  105
+resource        tin,	151,  112
+resource        tin,	148,  114
+resource        silver,	156,  109
+resource        silver,	148,  105
 
 ;Asuncion
 resource        wine,	157,  101
@@ -1292,28 +1292,28 @@ resource        chocolate,	163,  95
 
 ;Montevideo
 resource        grain,	162,  64
-resource        fish,	166,  65
+resource        wool,	166,  65
 resource        wool,	161,  70
 
 ;Manaus
-resource        timber,	159,  131
-resource        tin,	161,  125
-resource        wool,	165,  122
-resource        camels,	158,  117
+resource        slaves,	159,  131
+resource        slaves,	161,  125
+resource        slaves,	165,  122
+resource        slaves,	158,  117
 
 ;Salvador
-resource        gold,	185,  117
-resource        textiles,	192,  121
-resource        dogs,	187,  106
-resource        fish,	188,  130
-resource        chocolate,	172,  135
+resource        sugar,	185,  117
+resource        sugar,	192,  121
+resource        sugar,	187,  106
+resource        wine,	188,  130
+resource        cotton,	172,  135
 
 ;Rio de Janiero
-resource        tin,	183,  101
-resource        dyes,	180,  98
-resource        wool,	173,  88
-resource        grain,	167,  74
-resource        tobacco,	165,  79
+resource        wine,	183,  101
+resource        wine,	180,  98
+resource        wine,	173,  88
+resource        sugar,	167,  74
+resource        sugar,	165,  79
 
 ;resource end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -13506,7 +13506,7 @@ unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Fuzhou
-character	Baozhen Wu, named character, male, age 45, x 404 y 202
+character	Baozhen Wu, named character, male, age 45, x 404, y 202
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13515,7 +13515,7 @@ unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Xiamen
-character	random_name, general, male, age 45, x 400 y 197
+character	random_name, general, male, age 45, x 400, y 197
 army
 unit		qing_inf_upg				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13524,7 +13524,7 @@ unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Shanghai
-character	Bingkun Wang, named character, male, age 45, x 406 y 215
+character	Bingkun Wang, named character, male, age 45, x 406, y 215
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13536,33 +13536,33 @@ unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Taipei
-character	random_name, general, male, age 45, x 408 y 199
+character	random_name, general, male, age 45, x 408, y 199
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Takao
-character	random_name, general, male, age 45, x 406 y 195
+character	random_name, general, male, age 45, x 406, y 195
 army
 unit		qing_swords				exp 0 armour 0 weapon_lvl 0
 
 ;Canton
-character	random_name, general, male, age 45, x 394 y 195
+character	random_name, general, male, age 45, x 394, y 195
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Haikou
-character	random_name, general, male, age 45, x 391 y 187
+character	random_name, general, male, age 45, x 391, y 187
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Guiyang
-character	Xinga Nie, named character, male, age 45, x 388 y 201
+character	Xinga Nie, named character, male, age 45, x 388, y 201
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13570,7 +13570,7 @@ unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		qing_swords				exp 0 armour 0 weapon_lvl 0
 
 ;Changsha
-character	random_name, general, male, age 45, x 392 y 202
+character	random_name, general, male, age 45, x 392, y 202
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
@@ -13579,27 +13579,27 @@ unit		qing_pike				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Guilin
-character	random_name, general, male, age 45, x 391 y 198
+character	random_name, general, male, age 45, x 391, y 198
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_swords				exp 0 armour 0 weapon_lvl 0
 
 ;Chengdu
-character	Zhan_ao Zhao, named character, male, age 45, x 381 y 210
+character	Zhan_ao Zhao, named character, male, age 45, x 381, y 210
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 
 ;Chongqing
-character	random_name, general, male, age 45, x 382 y 207
+character	random_name, general, male, age 45, x 382, y 207
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Kunming
-character	Zhongyuan Liu, named character, male, age 45, x 375 y 197
+character	Zhongyuan Liu, named character, male, age 45, x 375, y 197
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13607,45 +13607,45 @@ unit		qing_swords				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 
 ;Dali
-character	random_name, general, male, age 45, x 370 y 204
+character	random_name, general, male, age 45, x 370, y 204
 army
 unit		merc_burmese_inf				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 
 ;Lanzhou
-character	Fuheng Sengge, named character, male, age 45, x 380 y 233
+character	Fuheng Sengge, named character, male, age 45, x 380, y 233
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 
 ;Kuku-Khoto
-character	random_name, general, male, age 45, x 393 y 235
+character	random_name, general, male, age 45, x 393, y 235
 army
 unit		mongols_archer				exp 0 armour 0 weapon_lvl 0
 
 ;Urga
-character	Yunfei Kong, named character, male, age 45, x 377 y 251
+character	Yunfei Kong, named character, male, age 45, x 377, y 251
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		mongol_inf				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 
 ;Urumqi
-character	Shicheng Ma, named character, male, age 45, x 363 y 243
+character	Shicheng Ma, named character, male, age 45, x 363, y 243
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_ww1_inf				exp 0 armour 0 weapon_lvl 0
 
 ;Kashgar
-character	Xinyi Fu, named character, male, age 45, x 341 y 232
+character	Xinyi Fu, named character, male, age 45, x 341, y 232
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		merc_tib_inf				exp 0 armour 0 weapon_lvl 0
 
 ;Lhasa
-character	Zhongming He, named character, male, age 45, x 363 y 209
+character	Zhongming He, named character, male, age 45, x 363, y 209
 army
 unit		merc_tib_noble_cav				exp 0 armour 0 weapon_lvl 0
 unit		tib_militia				exp 0 armour 0 weapon_lvl 0
@@ -13653,13 +13653,13 @@ unit		merc_tib_inf				exp 0 armour 0 weapon_lvl 0
 unit		tib_roy_inf				exp 0 armour 0 weapon_lvl 0
 
 ;Xining
-character	Guoquan Duan, named character, male, age 45, x 367 y 234
+character	Guoquan Duan, named character, male, age 45, x 367, y 234
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 
 ;Bagan Tumen
-character	Yongfu Kong, named character, male, age 45, x 389 y 254
+character	Yongfu Kong, named character, male, age 45, x 389, y 254
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		mongol_inf				exp 0 armour 0 weapon_lvl 0
@@ -14719,6 +14719,7 @@ unit		turtle ship				exp 1 armour 0 weapon_lvl 0
 
 
 character_record		Iemochi Tokugawa, 	male, age 14, alive
+character_record		Nobumasa Ando, 	male, age 41, alive
 character_record		Haruhisa Tokugawa, 	male, age 43, dead 44
 character_record		Aki, 	female, age 43, dead 44, never_a_leader
 character_record		Narihiro Tokugawa, 	male, age 60, dead 1, never_a_leader

@@ -1242,7 +1242,7 @@ stat_food        60, 300
 stat_cost        2, 1000, 250, 90, 170, 1000, 2, 250
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, slave
+ownership        saxons, papal_states, slave
 era 2            saxons slave
 
 
@@ -1277,7 +1277,7 @@ stat_food        60, 300
 stat_cost        4, 1900, 475, 30, 40, 1900, 2, 475
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, slave
+ownership        saxons, papal_states, slave
 era 0            saxons slave
 era 1            saxons slave
 
@@ -1311,7 +1311,7 @@ stat_food        60, 300
 stat_cost        3, 1000, 250, 90, 70, 1000, 2, 250
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, slave
+ownership        saxons, papal_states, slave
 era 2            saxons slave
 
 type             sho_gatling
@@ -1342,7 +1342,7 @@ stat_food        60, 300
 stat_cost        2, 900, 225, 90, 70, 900, 1, 225
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, slave
+ownership        saxons, papal_states, slave
 era 0            saxons slave
 era 1            saxons slave
 
@@ -1381,7 +1381,7 @@ stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
-ownership        saxons, slave
+ownership        saxons, papal_states, slave
 era 2            saxons slave
 
 type             sho_armstrong
@@ -2772,7 +2772,7 @@ stat_food        60, 300
 stat_cost        10, 1700, 340, 200, 200, 1700, 1, 340
 armour_ug_levels 0
 armour_ug_models gr_inf
-ownership        all
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons
 
 
 
@@ -3400,7 +3400,7 @@ stat_food        60, 300
 stat_cost        3, 500, 100, 100, 200, 500, 1, 100
 armour_ug_levels 0, 2
 armour_ug_models gr_inf, gr_inf
-ownership        all 
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, chinese, mesoamerican, middle_eastern
 
 
 type             merc cog
@@ -3463,7 +3463,7 @@ stat_food        60, 300
 stat_cost        3, 500, 100, 100, 200, 500, 1, 100
 armour_ug_levels 0
 armour_ug_models gr_inf
-ownership        all 
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, chinese, mesoamerican
 
 
 
@@ -3495,7 +3495,7 @@ stat_food        60, 300
 stat_cost        3, 500, 100, 100, 200, 500, 1, 100
 armour_ug_levels 0
 armour_ug_models gr_inf
-ownership        all 
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons, middle_eastern
 
 
 
@@ -6714,7 +6714,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        100, 500
 stat_cost        3, 5000, 500, 400, 400, 3000, 1, 680
-ownership        all
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons
 era 2            all
 
 
@@ -13598,41 +13598,6 @@ ownership        saxons, slave
 era 0            saxons
 era 1            saxons
 
-type             Japan Bodyguard Retainers
-dictionary       Japan_Bodyguard_Retainers      ; Japanese General and Retainers (Smith & Wesson No.2 revolver, Saber)
-category         cavalry
-class            light
-voice_type       heavy
-accent      	 japanese
-banner faction   main_infantry
-banner holy      crusade_cavalry
-soldier          Japan_Bodyguard_Retainers, 8, 0, 1
-mount            hussar
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy, general_unit
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap
-stat_pri_armour  4, 6, 0, flesh
-;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, -2, 3, 2
-stat_mental      8, disciplined, highly_trained
-stat_charge_dist 45
-stat_fire_delay  -20000
-stat_food        60, 300
-stat_cost        4, 200, 20, 60, 90, 200, 1, 20
-armour_ug_levels 0
-armour_ug_models Japan_Bodyguard_Retainers
-ownership        saxons, slave 
-era 0            saxons
-
 
 type             Japan Seishi
 dictionary       Japan_Seishi      ; Japanese Seishi / Japanese Samurai Cavalry / Japanese Samurai Lancers (Yari, Katana)
@@ -14602,6 +14567,40 @@ era 1            saxons
 era 2            saxons
 
 
+type             Japan Bodyguard Retainers
+dictionary       Japan_Bodyguard_Retainers      ; Japanese General and Retainers (Smith & Wesson No.2 revolver, Saber)
+category         cavalry
+class            light
+voice_type       heavy
+accent      	 japanese
+banner faction   main_infantry
+banner holy      crusade_cavalry
+soldier          Japan_Bodyguard_Retainers, 8, 0, 1
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, hardy, general_unit
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, quality_pistol_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 6, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        4, 200, 20, 60, 90, 200, 1,20
+armour_ug_levels 0
+armour_ug_models Japan_Bodyguard_Retainers
+ownership        saxons, slave 
+era 0            saxons
 
 
 type             Japan Byakkotai
@@ -20105,7 +20104,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        100, 500
 stat_cost        4, 6000, 600, 450, 450, 4000, 1, 800
-ownership        all
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons
 era 2            all
 
 type             air_fir_3g 
@@ -20138,7 +20137,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        100, 500
 stat_cost        3, 4200, 450, 350, 350, 2800, 1, 600
-ownership        all
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons
 era 2            all
 
 
@@ -20172,7 +20171,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        100, 500
 stat_cost        4, 7000, 700, 500, 500, 4500, 1, 900
-ownership        all
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons
 era 2            all
 
 
@@ -20207,7 +20206,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        100, 500
 stat_cost        2, 3000, 350, 300, 300, 2000, 1, 500
-ownership        all
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons
 era 2            all
 
 
@@ -20241,7 +20240,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        100, 500
 stat_cost        3, 5000, 500, 400, 400, 3000, 1, 680
-ownership        all
+ownership        portugala, milan, scotland, aztecs, poland, denmark, england, france, hre, hungary, venice, russia, moors, turks, timurids, egypt, bulga, cuman, byzantium, normans, sicily, lith, teu, cru, mongols, spain, portugal, golden, papal_states, saxons
 era 2            all
 
 

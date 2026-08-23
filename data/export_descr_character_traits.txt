@@ -2705,9 +2705,6 @@ Trigger V0100_Standard_Battle_Any_Loss_VnV_Trigger
           and BattleOdds > 0.66
 
     Affects BadCommander  1  Chance  50 
-	Affects StrategicSkill  -1  Chance  50 
-	Affects TacticalSkill  -1  Chance  50 
-	Affects LogisticalSkill  -1  Chance  50 
 ;------------------------------------------
 Trigger governing12
     WhenToTest CharacterTurnEnd

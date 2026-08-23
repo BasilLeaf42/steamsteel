@@ -16,54 +16,54 @@ item				data/models_strat/resource_silver.CAS
 icon				data/ui/resources/resource_silver.tga
 
 type				fish
-trade_value			7
+trade_value			14
 item				data/models_strat/resource_fish.CAS
 icon				data/ui/resources/resource_fish.tga
 
 type				furs
-trade_value			5
-item				data/models_strat/resource_fur.CAS
+trade_value			13
+item				data/models_strat/oil.CAS
 icon				data/ui/resources/resource_fur.tga
 
 ;Agronomy
 type				grain
-trade_value			9
+trade_value			13
 item				data/models_strat/resource_grain.CAS
 icon				data/ui/resources/resource_grain.tga
 
 ;wood
 type				timber
-trade_value			8
+trade_value			10
 item				data/models_strat/resource_timber.CAS
 icon				data/ui/resources/resource_timber.tga
 
 ;Capital Goods
 type				iron
-trade_value			12
+trade_value			15
 item				data/models_strat/resource_iron.CAS
 icon				data/ui/resources/resource_iron.tga
 
 type				ivory
-trade_value			6
+trade_value			8
 item				data/models_strat/resource_ivory.CAS
 icon				data/ui/resources/resource_ivory.tga
 
 ;Horticulture
 type				wine
 trade_value			8
-item				data/models_strat/resource_wine.CAS
+item				data/models_strat/coffee.CAS
 icon				data/ui/resources/resource_wine.tga
 
 ;Rubber
 type				slaves
-trade_value			7
-item				data/models_strat/resource_slave.CAS
+trade_value			12
+item				data/models_strat/rubber.CAS
 icon				data/ui/resources/resource_slaves.tga
 
 ;chocolate
 type				chocolate
-trade_value			8
-item				data/models_strat/resource_chocolate1.cas
+trade_value			13
+item				data/models_strat/diamond_min.cas
 icon				data/ui/resources/resource_chocolate1.tga
 
 ;honey
@@ -80,49 +80,49 @@ icon				data/ui/resources/resource_marble.tga
 
 ;Light Industry
 type				textiles
-trade_value			12
+trade_value			10
 item				data/models_strat/textiles.cas
 icon				data/ui/resources/textiles.tga
 
 ;Chemicals
 type				dyes
-trade_value			8
-item				data/models_strat/resource_dye.CAS
+trade_value			7
+item				data/models_strat/poppy.CAS
 icon				data/ui/resources/resource_dyes.tga
 has_mine
 
 ; tobacco
 type				tobacco
-trade_value			12
+trade_value			8
 item				data/models_strat/resource_tobacoo1.cas
 icon				data/ui/resources/resource_tobacco1.tga
 
 type				silk
-trade_value			8
+trade_value			9
 item				data/models_strat/resource_silk.CAS
 icon				data/ui/resources/resource_silk.tga
 
 type				sugar
-trade_value			10
+trade_value			9
 item				data/models_strat/resource_sugar.CAS
 icon				data/ui/resources/resource_sugar.tga
 
 ;Weapons
 type				sulfur
-trade_value			7
+trade_value			14
 item				data/models_strat/resource_sulphur.CAS
 icon				data/ui/resources/resource_sulfur.tga
 
 ;Minerals
 type				tin
-trade_value			15
+trade_value			9
 item				data/models_strat/resource_tin.CAS
 icon				data/ui/resources/resource_tin.tga
 has_mine
 
 type				spices
-trade_value			10
-item				data/models_strat/resource_spices.CAS
+trade_value			8
+item				data/models_strat/TEA.CAS
 icon				data/ui/resources/resource_spices.tga
 
 type				cotton
@@ -138,8 +138,8 @@ icon				data/ui/resources/resource_amber.tga
 has_mine
 
 type				coal
-trade_value			7
-item				data/models_strat/resource_marble.CAS
+trade_value			15
+item				data/models_strat/coal.CAS
 icon				data/ui/resources/resource_marble.tga
 has_mine
 
