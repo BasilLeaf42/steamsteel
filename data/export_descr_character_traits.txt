@@ -120,6 +120,26 @@ Trait Factionheir
         Effect Level 1
 
 ;------------------------------------------
+Trait Exheir
+    Characters family
+    AntiTraits Factionheir
+
+    Level Passed_Over
+        Description Passed_Over_desc
+        EffectsDescription Passed_Over_effects_desc
+        Threshold  1
+
+        Effect Loyalty  -1
+
+    Level Bitter_Claimant
+        Description Bitter_Claimant_desc
+        EffectsDescription Bitter_Claimant_effects_desc
+        Threshold  3
+
+        Effect Loyalty  -2
+        Effect Influence  -1
+
+;------------------------------------------
 Trait NaturalEnergy
     Characters family
     Hidden
@@ -3174,3 +3194,19 @@ Trigger merchantinit9
           and Trait LegalDealer = 1
 
     Affects LegalDealer  1  Chance  33 
+;------------------------------------------
+Trigger Exheir_Reinherited_Trigger
+    WhenToTest BecomesFactionHeir
+
+    Condition Trait Exheir = 1
+
+    Affects Factionheir  1  Chance  100
+
+;------------------------------------------
+Trigger Exheir_Disinherited_Trigger
+    WhenToTest CeasedFactionHeir
+
+    Condition not Trait Exheir = 1
+          and not IsFactionLeader
+
+    Affects Exheir  2  Chance  100

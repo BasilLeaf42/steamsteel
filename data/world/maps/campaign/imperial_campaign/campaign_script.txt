@@ -3874,10 +3874,6 @@ script
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-    declare_counter boxer_army_1
-    declare_counter boxer_army_2
-
-
     monitor_event FactionTurnStart FactionType byzantium
         and I_TurnNumber >= 13 ; [TESTING: was 155]
 
