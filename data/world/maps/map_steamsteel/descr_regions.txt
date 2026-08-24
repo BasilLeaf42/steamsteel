@@ -11,7 +11,7 @@ Dakota_Province
 	usa
 	5
 	5
-	religions { catholic 10 orthodox 75 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 20 orthodox 0 protestant 75 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Zhengding_Province
 	Zhengding
 	portugala
@@ -20,7 +20,7 @@ Zhengding_Province
 	usa, amerindian
 	5
 	3
-	religions { catholic 5 orthodox 40 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 40 judaism 0 }
+	religions { catholic 15 orthodox 0 protestant 80 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Apache_Province
 	Apache
 	milan
@@ -29,7 +29,7 @@ Apache_Province
 	csa, usa
 	5
 	4
-	religions { catholic 5 orthodox 60 protestant 0 shia 0 islam 0 buddism 30 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 70 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Granada_Province
 	Granada
 	milan
@@ -38,7 +38,7 @@ Granada_Province
 	csa, usa
 	5
 	4
-	religions { catholic 5 orthodox 60 protestant 0 shia 0 islam 0 buddism 30 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 65 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Abenaki_Province
 	Abenaki
 	portugala
@@ -47,7 +47,7 @@ Abenaki_Province
 	usa
 	5
 	5
-	religions { catholic 10 orthodox 75 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 35 orthodox 0 protestant 60 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Algarve_Province
 	Silves
 	portugala
@@ -56,7 +56,7 @@ Algarve_Province
 	usa
 	5
 	6
-	religions { catholic 10 orthodox 75 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 40 orthodox 0 protestant 50 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
 Corinth_Province
 	Corinth
 	hungary
@@ -65,7 +65,7 @@ Corinth_Province
 	usa, csa
 	5
 	4
-	religions { catholic 5 orthodox 80 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 25 orthodox 0 protestant 70 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Tualatin_Province
 	Tualatin
 	portugala
@@ -74,7 +74,7 @@ Tualatin_Province
 	usa, amerindian
 	5
 	4
-	religions { catholic 5 orthodox 40 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 40 judaism 0 }
+	religions { catholic 15 orthodox 0 protestant 80 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Tongva_Province
 	Tongva
 	portugala
@@ -83,7 +83,7 @@ Tongva_Province
 	usa, amerindian
 	5
 	5
-	religions { catholic 35 orthodox 40 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 30 orthodox 0 protestant 55 shia 0 islam 0 buddism 10 hindu 0 pagan 0 heretic 5 judaism 0 }
 Kansas_Province
 	Kansas
 	portugala
@@ -92,7 +92,7 @@ Kansas_Province
 	usa, amerindian
 	5
 	3
-	religions { catholic 5 orthodox 40 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 40 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 75 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Utah_Province
 	Utah
 	portugala
@@ -101,7 +101,7 @@ Utah_Province
 	usa, amerindian
 	5
 	2
-	religions { catholic 5 orthodox 40 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 40 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 90 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
 Nuevo_Mexico_Province
 	Nuevo_Mexico
 	portugala
@@ -110,7 +110,7 @@ Nuevo_Mexico_Province
 	usa, amerindian
 	5
 	2
-	religions { catholic 35 orthodox 40 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 60 orthodox 0 protestant 25 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Augustine_Province
 	Augustine
 	milan
@@ -119,7 +119,7 @@ Augustine_Province
 	csa, usa
 	5
 	3
-	religions { catholic 35 orthodox 40 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 10 orthodox 0 protestant 60 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Choctaw_Province
 	Choctaw
 	milan
@@ -128,7 +128,7 @@ Choctaw_Province
 	csa, usa
 	5
 	3
-	religions { catholic 35 orthodox 40 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 60 orthodox 0 protestant 20 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Comanche_Province
 	Comanche
 	milan
@@ -137,7 +137,7 @@ Comanche_Province
 	csa, usa, amerindian
 	5
 	4
-	religions { catholic 35 orthodox 40 protestant 0 shia 0 islam 5 buddism 5 hindu 5 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 30 orthodox 0 protestant 60 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Alaska_Province
 	Anchorage
 	russia
@@ -146,7 +146,7 @@ Alaska_Province
 	amerindian, usa, russia
 	5
 	0
-	religions { catholic 0 orthodox 0 protestant 20 shia 0 islam 0 buddism 20 hindu 0 pagan 0 heretic 60 judaism 0 }
+	religions { catholic 0 orthodox 50 protestant 5 shia 45 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Arctic_Province
 	Inuit
 	england
@@ -155,7 +155,7 @@ Arctic_Province
 	amerindian, canada
 	5
 	0
-	religions { catholic 5 orthodox 75 protestant 0 shia 0 islam 5 buddism 2 hindu 3 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 10 shia 85 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Ruperts_land_Province
 	York_factory
 	england
@@ -164,7 +164,7 @@ Ruperts_land_Province
 	amerindian, canada
 	5
 	0
-	religions { catholic 5 orthodox 75 protestant 0 shia 0 islam 5 buddism 2 hindu 3 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 10 orthodox 0 protestant 10 shia 80 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Quebec_Province
 	Quebec
 	england
@@ -173,7 +173,7 @@ Quebec_Province
 	canada
 	5
 	3
-	religions { catholic 20 orthodox 65 protestant 0 shia 0 islam 5 buddism 2 hindu 3 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 55 orthodox 0 protestant 40 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Lodz_Province
 	Lodz
 	england
@@ -182,7 +182,7 @@ Lodz_Province
 	amerindian, canada
 	5
 	3
-	religions { catholic 5 orthodox 75 protestant 0 shia 0 islam 5 buddism 2 hindu 3 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 70 shia 15 islam 0 buddism 10 hindu 0 pagan 0 heretic 0 judaism 0 }
 Xining_Province
 	Xining
 	byzantium
@@ -191,7 +191,7 @@ Xining_Province
 	steppe
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 0 buddism 10 hindu 0 pagan 0 heretic 30 judaism 30 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 20 islam 0 buddism 80 hindu 0 pagan 0 heretic 0 judaism 0 }
 Yinchuan_Province
 	Yinchuan
 	byzantium
@@ -200,7 +200,7 @@ Yinchuan_Province
 	steppe, mongolia, china
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 20 islam 0 buddism 10 hindu 0 pagan 0 heretic 30 judaism 40 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 25 buddism 60 hindu 0 pagan 0 heretic 0 judaism 0 }
 Beijing_Province
 	Beijing
 	byzantium
@@ -209,7 +209,7 @@ Beijing_Province
 	manchuria, china
 	5
 	8
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 20 hindu 0 pagan 0 heretic 0 judaism 80 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 85 hindu 0 pagan 0 heretic 15 judaism 0 }
 Xian_Province
 	Xian
 	byzantium
@@ -218,7 +218,7 @@ Xian_Province
 	china
 	5
 	7
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 0 pagan 0 heretic 5 judaism 65 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 25 buddism 70 hindu 0 pagan 0 heretic 5 judaism 0 }
 Zhengzhou_Province
 	Zhengzhou
 	spain
@@ -227,7 +227,7 @@ Zhengzhou_Province
 	sub_sahara
 	5
 	2
-	religions { catholic 25 orthodox 0 protestant 0 shia 0 islam 0 buddism 15 hindu 10 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 40 orthodox 0 protestant 0 shia 60 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Nanjing_Province
 	Nanjing
 	byzantium
@@ -236,7 +236,7 @@ Nanjing_Province
 	china
 	5
 	8
-	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 40 hindu 0 pagan 0 heretic 0 judaism 50 }
+	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 0 buddism 85 hindu 0 pagan 0 heretic 10 judaism 0 }
 Hankou_Province
 	Hankou
 	lith
@@ -245,7 +245,7 @@ Hankou_Province
 	sub_sahara, south_africa
 	5
 	2
-	religions { catholic 0 orthodox 3 protestant 0 shia 0 islam 0 buddism 5 hindu 2 pagan 0 heretic 90 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 15 shia 85 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Kunming_Province
 	Kunming
 	byzantium
@@ -254,7 +254,7 @@ Kunming_Province
 	china
 	5
 	5
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 0 pagan 0 heretic 5 judaism 60 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 15 buddism 70 hindu 0 pagan 0 heretic 0 judaism 0 }
 Chengdu_Province
 	Chengdu
 	byzantium
@@ -263,7 +263,7 @@ Chengdu_Province
 	china
 	5
 	6
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 0 pagan 0 heretic 5 judaism 60 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 10 islam 0 buddism 85 hindu 0 pagan 0 heretic 5 judaism 0 }
 Guiyang_Province
 	Guiyang
 	byzantium
@@ -272,7 +272,7 @@ Guiyang_Province
 	china
 	5
 	5
-	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 30 hindu 0 pagan 0 heretic 5 judaism 60 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 0 buddism 80 hindu 0 pagan 0 heretic 5 judaism 0 }
 Fuzhou_Province
 	Fuzhou
 	byzantium
@@ -281,7 +281,7 @@ Fuzhou_Province
 	china
 	5
 	7
-	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 40 hindu 0 pagan 0 heretic 0 judaism 50 }
+	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 0 buddism 88 hindu 0 pagan 0 heretic 7 judaism 0 }
 Guangzhou_Province
 	Guangzhou
 	byzantium
@@ -290,7 +290,7 @@ Guangzhou_Province
 	china
 	5
 	4
-	religions { catholic 2 orthodox 20 protestant 0 shia 0 islam 0 buddism 5 hindu 1 pagan 0 heretic 2 judaism 70 }
+	religions { catholic 5 orthodox 0 protestant 10 shia 0 islam 0 buddism 80 hindu 0 pagan 0 heretic 5 judaism 0 }
 Qarshi_Province
 	Qarshi
 	byzantium
@@ -299,7 +299,7 @@ Qarshi_Province
 	none
 	5
 	4
-	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 0 buddism 45 hindu 0 pagan 0 heretic 0 judaism 50 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 65 hindu 0 pagan 0 heretic 30 judaism 0 }
 Korea_Province
 	Korea
 	byzantium
@@ -308,7 +308,7 @@ Korea_Province
 	none
 	5
 	4
-	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 0 buddism 45 hindu 0 pagan 0 heretic 0 judaism 50 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 70 hindu 0 pagan 0 heretic 25 judaism 0 }
 Mexico_Province
 	Mexico
 	scotland
@@ -317,7 +317,7 @@ Mexico_Province
 	mexico, s_america
 	5
 	4
-	religions { catholic 85 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Galicie_Province
 	Galicie
 	scotland
@@ -326,7 +326,7 @@ Galicie_Province
 	mexico, s_america
 	5
 	3
-	religions { catholic 75 orthodox 10 protestant 0 shia 0 islam 0 buddism 10 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Veracruz_Province
 	Veracruz
 	scotland
@@ -335,7 +335,7 @@ Veracruz_Province
 	mexico, s_america
 	5
 	4
-	religions { catholic 85 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 80 orthodox 0 protestant 0 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Bolgar_Province
 	Bolgar
 	scotland
@@ -344,7 +344,7 @@ Bolgar_Province
 	s_america
 	5
 	3
-	religions { catholic 65 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Panama_Province
 	Panama
 	scotland
@@ -353,7 +353,7 @@ Panama_Province
 	s_america
 	5
 	3
-	religions { catholic 55 orthodox 0 protestant 0 shia 0 islam 0 buddism 40 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 70 orthodox 0 protestant 0 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Havana_Province
 	Havana
 	spain
@@ -362,7 +362,7 @@ Havana_Province
 	cuba, s_america
 	5
 	4
-	religions { catholic 40 orthodox 0 protestant 0 shia 0 islam 0 buddism 50 hindu 0 pagan 0 heretic 5 judaism 5 }
+	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Santa_Marta_Province
 	Santa_Marta
 	denmark
@@ -371,7 +371,7 @@ Santa_Marta_Province
 	s_america
 	5
 	4
-	religions { catholic 60 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Cholula_Province
 	Cholula
 	denmark
@@ -380,7 +380,7 @@ Cholula_Province
 	s_america
 	5
 	4
-	religions { catholic 60 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Peru_Province
 	Lima
 	denmark
@@ -389,7 +389,7 @@ Peru_Province
 	s_america, peru
 	5
 	4
-	religions { catholic 80 orthodox 0 protestant 0 shia 0 islam 0 buddism 15 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 South_Peru_Province
 	Cuzco
 	denmark
@@ -398,7 +398,7 @@ South_Peru_Province
 	s_america, peru
 	5
 	4
-	religions { catholic 75 orthodox 0 protestant 0 shia 0 islam 0 buddism 20 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 60 orthodox 0 protestant 0 shia 40 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Bolivia_Province
 	Lapaz
 	denmark
@@ -407,7 +407,7 @@ Bolivia_Province
 	s_america
 	5
 	4
-	religions { catholic 65 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 55 orthodox 0 protestant 0 shia 45 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Paraguay_Province
 	Asuncion
 	aztecs
@@ -416,7 +416,7 @@ Paraguay_Province
 	s_america, paraguay
 	5
 	4
-	religions { catholic 65 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Cuzco_Province
 	Antofagasta
 	aztecs
@@ -425,7 +425,7 @@ Cuzco_Province
 	s_america
 	5
 	4
-	religions { catholic 65 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Moravie_Province
 	Moravie
 	aztecs
@@ -434,7 +434,7 @@ Moravie_Province
 	s_america
 	5
 	5
-	religions { catholic 65 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Sao_Paulo_Province
 	Sao_Paulo
 	aztecs
@@ -443,7 +443,7 @@ Sao_Paulo_Province
 	s_america, uruguay
 	5
 	4
-	religions { catholic 65 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 85 orthodox 0 protestant 10 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Rio_Plata_Province
 	Buenos_Aires
 	aztecs
@@ -452,7 +452,7 @@ Rio_Plata_Province
 	s_america
 	5
 	5
-	religions { catholic 80 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 10 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 90 orthodox 0 protestant 5 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Rio_Negro_Province
 	Rio_Negro
 	aztecs
@@ -461,7 +461,7 @@ Rio_Negro_Province
 	s_america, argentina
 	5
 	3
-	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 0 pagan 0 heretic 80 judaism 0 }
+	religions { catholic 70 orthodox 0 protestant 0 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Salvador_Province
 	Salvador
 	poland
@@ -470,7 +470,7 @@ Salvador_Province
 	s_america, brazil
 	5
 	4
-	religions { catholic 70 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 10 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 65 orthodox 0 protestant 0 shia 35 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Rio_Janeiro_Province
 	Rio_Janeiro
 	poland
@@ -479,7 +479,7 @@ Rio_Janeiro_Province
 	s_america, brazil
 	5
 	5
-	religions { catholic 70 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 10 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 80 orthodox 0 protestant 0 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Potosi_Province
 	Potosi
 	poland
@@ -488,7 +488,7 @@ Potosi_Province
 	s_america, brazil
 	5
 	2
-	religions { catholic 40 orthodox 0 protestant 0 shia 0 islam 0 buddism 20 hindu 10 pagan 0 heretic 30 judaism 0 }
+	religions { catholic 60 orthodox 0 protestant 0 shia 40 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 W_aust_Province
 	Perth
 	england
@@ -497,7 +497,7 @@ W_aust_Province
 	anzac
 	5
 	2
-	religions { catholic 5 orthodox 70 protestant 0 shia 0 islam 5 buddism 3 hindu 5 pagan 0 heretic 10 judaism 2 }
+	religions { catholic 15 orthodox 0 protestant 80 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Lan_na_Province
 	Chiang_mai
 	england
@@ -506,7 +506,7 @@ Lan_na_Province
 	anzac
 	5
 	2
-	religions { catholic 5 orthodox 70 protestant 0 shia 0 islam 5 buddism 3 hindu 5 pagan 0 heretic 10 judaism 2 }
+	religions { catholic 20 orthodox 0 protestant 75 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 New_zealand_Province
 	Wellington
 	england
@@ -515,7 +515,7 @@ New_zealand_Province
 	anzac
 	5
 	2
-	religions { catholic 5 orthodox 70 protestant 0 shia 0 islam 5 buddism 3 hindu 5 pagan 0 heretic 10 judaism 2 }
+	religions { catholic 15 orthodox 0 protestant 65 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Gujerat_Province
 	Ahmadabad
 	england
@@ -524,7 +524,7 @@ Gujerat_Province
 	anzac
 	5
 	3
-	religions { catholic 5 orthodox 70 protestant 0 shia 0 islam 5 buddism 3 hindu 5 pagan 0 heretic 10 judaism 2 }
+	religions { catholic 20 orthodox 0 protestant 75 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Ayudhya_Province
 	Bangkok
 	cru
@@ -533,7 +533,7 @@ Ayudhya_Province
 	siam, indochina
 	5
 	6
-	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 0 pagan 0 heretic 10 judaism 75 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 90 hindu 0 pagan 0 heretic 10 judaism 0 }
 Taungoo_Province
 	Taungoo
 	cru
@@ -542,7 +542,7 @@ Taungoo_Province
 	indochina, india
 	5
 	6
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 65 judaism 30 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 12 islam 0 buddism 88 hindu 0 pagan 0 heretic 0 judaism 0 }
 Vietnam_Province
 	Ha_noi
 	cru
@@ -551,7 +551,7 @@ Vietnam_Province
 	indochina
 	5
 	5
-	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 55 judaism 30 }
+	religions { catholic 15 orthodox 0 protestant 0 shia 0 islam 0 buddism 80 hindu 0 pagan 0 heretic 5 judaism 0 }
 Lang_sang_Province
 	Vianga_chan
 	cru
@@ -560,7 +560,7 @@ Lang_sang_Province
 	indochina
 	5
 	5
-	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 55 judaism 30 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 10 islam 0 buddism 90 hindu 0 pagan 0 heretic 0 judaism 0 }
 Cambodia_Province
 	Angkor
 	cru
@@ -569,7 +569,7 @@ Cambodia_Province
 	indochina
 	5
 	5
-	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 55 judaism 30 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 8 islam 0 buddism 92 hindu 0 pagan 0 heretic 0 judaism 0 }
 Malaysia_Province
 	Kuala_lumpur
 	byzantium
@@ -578,7 +578,7 @@ Malaysia_Province
 	east_indies, indochina
 	5
 	4
-	religions { catholic 5 orthodox 5 protestant 0 shia 45 islam 0 buddism 20 hindu 0 pagan 0 heretic 5 judaism 20 }
+	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 60 buddism 25 hindu 0 pagan 0 heretic 0 judaism 10 }
 Brunei_Province
 	Sarawak
 	cru
@@ -587,7 +587,7 @@ Brunei_Province
 	east_indies
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 60 islam 0 buddism 10 hindu 0 pagan 0 heretic 5 judaism 25 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 50 islam 30 buddism 20 hindu 0 pagan 0 heretic 0 judaism 0 }
 Java_Province
 	Jakarta
 	cru
@@ -596,7 +596,7 @@ Java_Province
 	east_indies
 	5
 	6
-	religions { catholic 0 orthodox 0 protestant 0 shia 50 islam 0 buddism 10 hindu 20 pagan 0 heretic 5 judaism 15 }
+	religions { catholic 0 orthodox 0 protestant 5 shia 10 islam 85 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Papua_Province
 	Jayapura
 	england
@@ -605,7 +605,7 @@ Papua_Province
 	none
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 95 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 5 shia 95 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Philipines_Province
 	Philipines
 	byzantium
@@ -614,7 +614,7 @@ Philipines_Province
 	east_indies
 	5
 	2
-	religions { catholic 25 orthodox 0 protestant 0 shia 10 islam 0 buddism 10 hindu 0 pagan 0 heretic 45 judaism 10 }
+	religions { catholic 85 orthodox 0 protestant 0 shia 5 islam 10 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Hamburg_Province
 	Hamburg
 	hre
@@ -623,7 +623,7 @@ Hamburg_Province
 	hanover, europe
 	5
 	6
-	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 90 buddism 0 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 90 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Bern_Province
 	Bern
 	hre
@@ -632,7 +632,7 @@ Bern_Province
 	prussia, europe
 	5
 	4
-	religions { catholic 20 orthodox 0 protestant 0 shia 0 islam 20 buddism 10 hindu 50 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 40 orthodox 0 protestant 55 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Hohenstauffen_Province
 	Hohenstauffen
 	hre
@@ -641,7 +641,7 @@ Hohenstauffen_Province
 	prussia, europe
 	5
 	5
-	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 90 buddism 0 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 70 orthodox 0 protestant 25 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Baviere_Province
 	Baviere
 	hre
@@ -650,7 +650,7 @@ Baviere_Province
 	europe, bavaria
 	5
 	5
-	religions { catholic 15 orthodox 0 protestant 0 shia 0 islam 80 buddism 0 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 85 orthodox 0 protestant 10 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Magdeburg_Province
 	Magdeburg
 	hre
@@ -659,7 +659,7 @@ Magdeburg_Province
 	prussia, europe
 	5
 	6
-	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 90 buddism 0 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 15 orthodox 0 protestant 80 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Zaragoza_Province
 	Zaragoza
 	spain
@@ -668,7 +668,7 @@ Zaragoza_Province
 	europe, spain
 	5
 	4
-	religions { catholic 60 orthodox 0 protestant 0 shia 2 islam 3 buddism 3 hindu 32 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 92 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 8 judaism 0 }
 Leon_Province
 	Leon
 	spain
@@ -677,7 +677,7 @@ Leon_Province
 	europe, spain
 	5
 	3
-	religions { catholic 90 orthodox 0 protestant 0 shia 3 islam 0 buddism 2 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 96 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 4 judaism 0 }
 Toledo_Province
 	Burgos
 	spain
@@ -686,7 +686,7 @@ Toledo_Province
 	europe, spain
 	5
 	5
-	religions { catholic 90 orthodox 0 protestant 0 shia 3 islam 0 buddism 2 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Cordoba_Province
 	Cordoba
 	spain
@@ -695,7 +695,7 @@ Cordoba_Province
 	europe, spain
 	5
 	3
-	religions { catholic 87 orthodox 0 protestant 0 shia 5 islam 3 buddism 3 hindu 2 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 5 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Hollande_Province
 	Hollande
 	portugal
@@ -704,7 +704,7 @@ Hollande_Province
 	europe, netherlands
 	5
 	5
-	religions { catholic 10 orthodox 1 protestant 0 shia 0 islam 2 buddism 2 hindu 85 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 30 orthodox 0 protestant 65 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Lisbon_Province
 	Lisbon
 	spain
@@ -713,7 +713,7 @@ Lisbon_Province
 	europe
 	5
 	4
-	religions { catholic 53 orthodox 1 protestant 0 shia 0 islam 1 buddism 0 hindu 45 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Jamaica_Province
 	Kingston
 	england
@@ -722,7 +722,7 @@ Jamaica_Province
 	amerindian
 	5
 	2
-	religions { catholic 2 orthodox 30 protestant 0 shia 0 islam 2 buddism 60 hindu 2 pagan 0 heretic 4 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 60 shia 35 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Paris_Province
 	Paris
 	france
@@ -731,7 +731,7 @@ Paris_Province
 	europe, france
 	5
 	6
-	religions { catholic 90 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 85 orthodox 0 protestant 5 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
 Dijon_Province
 	Lyon
 	france
@@ -740,7 +740,7 @@ Dijon_Province
 	europe, france
 	5
 	4
-	religions { catholic 80 orthodox 0 protestant 0 shia 0 islam 10 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 88 orthodox 0 protestant 5 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 7 judaism 0 }
 Bordeaux_Province
 	Bordeaux
 	france
@@ -749,7 +749,7 @@ Bordeaux_Province
 	europe, france
 	5
 	5
-	religions { catholic 90 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 90 orthodox 0 protestant 5 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Marseille_Province
 	Marseille
 	france
@@ -758,7 +758,7 @@ Marseille_Province
 	europe, france
 	5
 	5
-	religions { catholic 90 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 80 orthodox 0 protestant 0 shia 0 islam 10 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
 Milan_Province
 	Milan
 	venice
@@ -767,7 +767,7 @@ Milan_Province
 	europe, italy
 	5
 	5
-	religions { catholic 85 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 10 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Venice_Province
 	Venice
 	venice
@@ -776,7 +776,7 @@ Venice_Province
 	austria, italy, europe
 	5
 	5
-	religions { catholic 75 orthodox 0 protestant 0 shia 0 islam 10 buddism 12 hindu 3 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Sudan_Province
 	Khartoum
 	golden
@@ -785,7 +785,7 @@ Sudan_Province
 	arab, sub_sahara
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 40 islam 0 buddism 10 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 25 islam 75 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Roman_Province
 	Rome
 	venice
@@ -794,7 +794,7 @@ Roman_Province
 	europe, italy
 	5
 	6
-	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 98 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 2 judaism 0 }
 Cagliari_Province
 	Cagliari
 	venice
@@ -803,7 +803,7 @@ Cagliari_Province
 	europe, italy
 	5
 	4
-	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Naples_Province
 	Naples
 	venice
@@ -812,7 +812,7 @@ Naples_Province
 	europe, italy
 	5
 	5
-	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Edinburgh_Province
 	Edinburgh
 	england
@@ -821,7 +821,7 @@ Edinburgh_Province
 	scotland, uk, europe
 	5
 	3
-	religions { catholic 10 orthodox 52 protestant 0 shia 0 islam 5 buddism 5 hindu 25 pagan 0 heretic 2 judaism 1 }
+	religions { catholic 8 orthodox 0 protestant 90 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 2 judaism 0 }
 Angleterre_Province
 	Londres
 	england
@@ -830,7 +830,7 @@ Angleterre_Province
 	uk, europe
 	5
 	6
-	religions { catholic 10 orthodox 70 protestant 0 shia 2 islam 4 buddism 4 hindu 6 pagan 0 heretic 2 judaism 2 }
+	religions { catholic 10 orthodox 0 protestant 85 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 York_Province
 	York
 	england
@@ -839,7 +839,7 @@ York_Province
 	uk, europe
 	5
 	4
-	religions { catholic 12 orthodox 68 protestant 0 shia 2 islam 4 buddism 4 hindu 10 pagan 0 heretic 2 judaism 2 }
+	religions { catholic 15 orthodox 0 protestant 80 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Islande_Province
 	Islande
 	scotland
@@ -848,7 +848,7 @@ Islande_Province
 	uk, europe
 	5
 	3
-	religions { catholic 50 orthodox 30 protestant 0 shia 0 islam 0 buddism 2 hindu 15 pagan 0 heretic 2 judaism 1 }
+	religions { catholic 88 orthodox 0 protestant 10 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 2 judaism 0 }
 Arhus_Province
 	Arhus
 	sicily
@@ -857,7 +857,7 @@ Arhus_Province
 	europe, denmark
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 15 buddism 5 hindu 80 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 3 orthodox 0 protestant 92 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Vestlandet_Province
 	Stavenger
 	normans
@@ -866,7 +866,7 @@ Vestlandet_Province
 	norway, europe
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 65 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 95 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Tromso_Province
 	Tromso
 	normans
@@ -875,7 +875,7 @@ Tromso_Province
 	norway, europe
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 65 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 90 shia 5 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Nuuk_Province
 	Godthab
 	venice
@@ -884,7 +884,7 @@ Nuuk_Province
 	europe
 	5
 	2
-	religions { catholic 40 orthodox 30 protestant 0 shia 0 islam 0 buddism 10 hindu 20 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 95 orthodox 0 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Stockholm_Province
 	Birka
 	normans
@@ -893,7 +893,7 @@ Stockholm_Province
 	sweden, europe
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 90 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 95 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 NFinlande_Province
 	NFinlande
 	russia
@@ -902,7 +902,7 @@ NFinlande_Province
 	russia, europe
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 20 shia 0 islam 0 buddism 25 hindu 55 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 5 protestant 90 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Laponie_Province
 	Muramamsk
 	russia
@@ -911,7 +911,7 @@ Laponie_Province
 	russia, europe
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 60 shia 0 islam 0 buddism 5 hindu 30 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 0 orthodox 60 protestant 0 shia 35 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Prague_Province
 	Prague
 	hungary
@@ -920,7 +920,7 @@ Prague_Province
 	europe, austria
 	5
 	4
-	religions { catholic 5 orthodox 0 protestant 55 shia 0 islam 30 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 80 orthodox 0 protestant 15 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Innsbruck_Province
 	Vienne
 	hungary
@@ -929,7 +929,7 @@ Innsbruck_Province
 	europe, austria
 	5
 	6
-	religions { catholic 10 orthodox 0 protestant 30 shia 0 islam 50 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 85 orthodox 0 protestant 8 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 7 judaism 0 }
 Cracow_Province
 	Cracow
 	hungary
@@ -938,7 +938,7 @@ Cracow_Province
 	europe, austria
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 60 shia 0 islam 20 buddism 10 hindu 10 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 85 orthodox 5 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
 Pomeranie_Province
 	Pomeranie
 	russia
@@ -947,7 +947,7 @@ Pomeranie_Province
 	russia, europe
 	5
 	4
-	religions { catholic 60 orthodox 0 protestant 20 shia 0 islam 5 buddism 15 hindu 0 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 60 orthodox 15 protestant 0 shia 0 islam 10 buddism 0 hindu 0 pagan 0 heretic 15 judaism 0 }
 Kiev_Province
 	Kiev
 	russia
@@ -956,7 +956,7 @@ Kiev_Province
 	russia, europe
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 50 shia 0 islam 0 buddism 45 hindu 0 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 5 orthodox 85 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
 Smolensk_Province
 	Smolensk
 	russia
@@ -965,7 +965,7 @@ Smolensk_Province
 	russia, europe
 	5
 	3
-	religions { catholic 70 orthodox 0 protestant 25 shia 0 islam 0 buddism 3 hindu 2 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 10 orthodox 85 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Estonie_Province
 	Reval
 	saxons
@@ -974,7 +974,7 @@ Estonie_Province
 	japan
 	5
 	5
-	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 85 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 60 pagan 0 heretic 0 judaism 0 }
 Tejo_Province
 	Lisboa
 	hre
@@ -983,7 +983,7 @@ Tejo_Province
 	prussia, europe
 	5
 	4
-	religions { catholic 10 orthodox 0 protestant 30 shia 0 islam 50 buddism 10 hindu 0 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 10 orthodox 0 protestant 85 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Riga_Province
 	Riga
 	hre
@@ -992,7 +992,7 @@ Riga_Province
 	russia, europe
 	5
 	3
-	religions { catholic 20 orthodox 0 protestant 60 shia 0 islam 0 buddism 40 hindu 0 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 20 orthodox 15 protestant 60 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Buda_Province
 	Buda
 	hungary
@@ -1001,7 +1001,7 @@ Buda_Province
 	europe, hungary
 	5
 	5
-	religions { catholic 15 orthodox 0 protestant 30 shia 5 islam 10 buddism 0 hindu 40 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 65 orthodox 10 protestant 20 shia 0 islam 5 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Brann_Province
 	Brann
 	hungary
@@ -1010,7 +1010,7 @@ Brann_Province
 	europe, hungary
 	5
 	4
-	religions { catholic 5 orthodox 0 protestant 5 shia 0 islam 5 buddism 30 hindu 55 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 5 orthodox 85 protestant 0 shia 0 islam 5 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Mesie_Province
 	Belgrad
 	hungary
@@ -1019,7 +1019,7 @@ Mesie_Province
 	albania
 	5
 	4
-	religions { catholic 15 orthodox 0 protestant 50 shia 15 islam 0 buddism 10 hindu 10 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 80 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Sofia_Province
 	Sofia
 	mongols
@@ -1028,7 +1028,7 @@ Sofia_Province
 	ottoman, bulgaria
 	5
 	4
-	religions { catholic 5 orthodox 0 protestant 40 shia 25 islam 0 buddism 20 hindu 10 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 80 protestant 0 shia 0 islam 18 buddism 0 hindu 0 pagan 0 heretic 2 judaism 0 }
 Constantinople_Province
 	Constantinople
 	turks
@@ -1037,7 +1037,7 @@ Constantinople_Province
 	ottoman, greece
 	5
 	6
-	religions { catholic 0 orthodox 0 protestant 0 shia 70 islam 0 buddism 15 hindu 15 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 5 orthodox 25 protestant 0 shia 0 islam 65 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Thessalonica_Province
 	Thessalonica
 	mongols
@@ -1046,7 +1046,7 @@ Thessalonica_Province
 	ottoman, greece, bulgaria
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 0 buddism 10 hindu 60 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 55 protestant 0 shia 0 islam 40 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Hellenie_Province
 	Hellenie
 	mongols
@@ -1055,7 +1055,7 @@ Hellenie_Province
 	greece
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 10 islam 0 buddism 5 hindu 85 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 92 protestant 0 shia 0 islam 5 buddism 0 hindu 0 pagan 0 heretic 3 judaism 0 }
 Novgorod_Province
 	Novgorod
 	russia
@@ -1064,7 +1064,7 @@ Novgorod_Province
 	russia, europe
 	5
 	5
-	religions { catholic 0 orthodox 0 protestant 90 shia 0 islam 0 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 88 protestant 5 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 7 judaism 0 }
 Volgograd_Province
 	Volgograd
 	portugala
@@ -1073,7 +1073,7 @@ Volgograd_Province
 	sub_sahara
 	5
 	2
-	religions { catholic 0 orthodox 10 protestant 0 shia 0 islam 0 buddism 40 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 25 shia 60 islam 15 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Moscou_Province
 	Moscou
 	russia
@@ -1082,7 +1082,7 @@ Moscou_Province
 	russia, europe
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 90 shia 0 islam 0 buddism 5 hindu 5 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 90 protestant 0 shia 0 islam 5 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Iaroslavl_Province
 	Iaroslavl
 	cru
@@ -1091,7 +1091,7 @@ Iaroslavl_Province
 	east_indies
 	5
 	5
-	religions { catholic 0 orthodox 0 protestant 0 shia 65 islam 0 buddism 10 hindu 10 pagan 0 heretic 5 judaism 10 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 70 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Arkhangelsk_Province
 	Arkhangelsk
 	russia
@@ -1100,7 +1100,7 @@ Arkhangelsk_Province
 	russia
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 70 shia 0 islam 0 buddism 20 hindu 0 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 0 orthodox 70 protestant 0 shia 25 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Ufa_Province
 	Ufa
 	russia
@@ -1109,7 +1109,7 @@ Ufa_Province
 	russia, steppe
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 50 shia 20 islam 0 buddism 20 hindu 0 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 0 orthodox 55 protestant 0 shia 5 islam 40 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Tyumen_Province
 	Tyumen
 	russia
@@ -1118,7 +1118,7 @@ Tyumen_Province
 	russia, steppe
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 10 shia 20 islam 0 buddism 5 hindu 0 pagan 0 heretic 65 judaism 0 }
+	religions { catholic 0 orthodox 80 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Siberia_Province
 	Siberia
 	russia
@@ -1127,7 +1127,7 @@ Siberia_Province
 	siberia, steppe
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 10 shia 20 islam 0 buddism 5 hindu 0 pagan 0 heretic 65 judaism 0 }
+	religions { catholic 0 orthodox 60 protestant 0 shia 35 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Caffa_Province
 	Caffa
 	russia
@@ -1136,7 +1136,7 @@ Caffa_Province
 	fish, russia
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 55 shia 20 islam 5 buddism 10 hindu 0 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 0 orthodox 80 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Kyptchak_Province
 	Kyptchak
 	russia
@@ -1145,7 +1145,7 @@ Kyptchak_Province
 	russia, steppe
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 20 shia 20 islam 0 buddism 5 hindu 0 pagan 0 heretic 55 judaism 0 }
+	religions { catholic 0 orthodox 30 protestant 0 shia 5 islam 65 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Sarkel_Province
 	Sarkel
 	russia
@@ -1154,7 +1154,7 @@ Sarkel_Province
 	russia, europe
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 45 shia 20 islam 0 buddism 5 hindu 0 pagan 0 heretic 30 judaism 0 }
+	religions { catholic 0 orthodox 45 protestant 0 shia 15 islam 40 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Tibet_Province
 	Tibet
 	cuman
@@ -1163,7 +1163,7 @@ Tibet_Province
 	tibet
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 10 islam 0 buddism 30 hindu 0 pagan 0 heretic 50 judaism 10 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 95 hindu 0 pagan 0 heretic 0 judaism 0 }
 Turfan_Province
 	Turfan
 	cuman
@@ -1172,7 +1172,7 @@ Turfan_Province
 	steppe
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 0 buddism 30 hindu 0 pagan 0 heretic 30 judaism 10 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 10 islam 70 buddism 20 hindu 0 pagan 0 heretic 0 judaism 0 }
 Karakorum_Province
 	Karakorum
 	cuman
@@ -1181,7 +1181,7 @@ Karakorum_Province
 	mongolia, steppe
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 20 hindu 0 pagan 0 heretic 65 judaism 15 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 0 buddism 85 hindu 0 pagan 0 heretic 0 judaism 0 }
 Ulan_Bator_Province
 	Ulan_Bator
 	cuman
@@ -1190,7 +1190,7 @@ Ulan_Bator_Province
 	mongolia, steppe
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 20 hindu 0 pagan 0 heretic 60 judaism 20 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 0 buddism 70 hindu 0 pagan 0 heretic 0 judaism 0 }
 Irkutsk_Province
 	Irkutsk
 	cuman
@@ -1199,7 +1199,7 @@ Irkutsk_Province
 	steppe, siberia, mongolia
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 10 shia 20 islam 0 buddism 20 hindu 0 pagan 0 heretic 40 judaism 10 }
+	religions { catholic 0 orthodox 60 protestant 0 shia 30 islam 0 buddism 10 hindu 0 pagan 0 heretic 0 judaism 0 }
 Ulan_Ude_Province
 	Ulan_Ude
 	russia
@@ -1208,7 +1208,7 @@ Ulan_Ude_Province
 	steppe, siberia, mongolia
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 20 shia 10 islam 0 buddism 20 hindu 0 pagan 0 heretic 40 judaism 10 }
+	religions { catholic 0 orthodox 55 protestant 0 shia 30 islam 0 buddism 15 hindu 0 pagan 0 heretic 0 judaism 0 }
 Shen_Province
 	Shenyang
 	byzantium
@@ -1217,7 +1217,7 @@ Shen_Province
 	manchuria, steppe
 	5
 	5
-	religions { catholic 0 orthodox 0 protestant 5 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 0 judaism 90 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 0 buddism 75 hindu 0 pagan 0 heretic 10 judaism 0 }
 Khabarovsk_Province
 	Boli
 	russia
@@ -1226,7 +1226,7 @@ Khabarovsk_Province
 	steppe, siberia, manchuria
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 30 shia 0 islam 0 buddism 10 hindu 0 pagan 0 heretic 20 judaism 40 }
+	religions { catholic 0 orthodox 65 protestant 0 shia 15 islam 0 buddism 20 hindu 0 pagan 0 heretic 0 judaism 0 }
 Antioch_Province
 	Antioch
 	turks
@@ -1235,7 +1235,7 @@ Antioch_Province
 	middle_east, arab, ottoman
 	5
 	3
-	religions { catholic 7 orthodox 2 protestant 1 shia 40 islam 0 buddism 9 hindu 1 pagan 0 heretic 40 judaism 0 }
+	religions { catholic 5 orthodox 15 protestant 0 shia 0 islam 80 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Jerusalemb_Province
 	Jerusalemb
 	teu
@@ -1244,7 +1244,7 @@ Jerusalemb_Province
 	sub_sahara, south_africa
 	5
 	3
-	religions { catholic 0 orthodox 15 protestant 0 shia 0 islam 0 buddism 10 hindu 30 pagan 0 heretic 45 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 65 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Damascus_Province
 	Damascus
 	golden
@@ -1253,7 +1253,7 @@ Damascus_Province
 	middle_east, arab, ottoman
 	5
 	4
-	religions { catholic 2 orthodox 2 protestant 1 shia 45 islam 0 buddism 9 hindu 1 pagan 0 heretic 40 judaism 0 }
+	religions { catholic 0 orthodox 10 protestant 0 shia 0 islam 85 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Domrep_Province
 	Sandom
 	spain
@@ -1262,7 +1262,7 @@ Domrep_Province
 	cuba, s_america
 	5
 	3
-	religions { catholic 50 orthodox 0 protestant 0 shia 0 islam 0 buddism 40 hindu 6 pagan 0 heretic 4 judaism 0 }
+	religions { catholic 80 orthodox 0 protestant 0 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Smyrna_Province
 	Smyrna
 	turks
@@ -1271,7 +1271,7 @@ Smyrna_Province
 	none
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 55 islam 0 buddism 10 hindu 35 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 5 orthodox 40 protestant 0 shia 0 islam 55 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Anatolie_Province
 	Konia
 	turks
@@ -1280,7 +1280,7 @@ Anatolie_Province
 	middle_east, ottoman
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 80 islam 0 buddism 10 hindu 10 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 8 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 2 judaism 0 }
 Trebizond_Province
 	Trebizond
 	turks
@@ -1289,7 +1289,7 @@ Trebizond_Province
 	middle_east, ottoman
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 60 islam 0 buddism 10 hindu 25 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 0 orthodox 30 protestant 0 shia 0 islam 65 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Mecca_Province
 	Mecca
 	golden
@@ -1298,7 +1298,7 @@ Mecca_Province
 	middle_east, arab
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 50 islam 0 buddism 10 hindu 0 pagan 0 heretic 40 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 99 buddism 0 hindu 0 pagan 0 heretic 1 judaism 0 }
 Arabie_Province
 	Arabie
 	golden
@@ -1307,7 +1307,7 @@ Arabie_Province
 	middle_east, arab
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 0 shia 55 islam 0 buddism 5 hindu 0 pagan 0 heretic 40 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 98 buddism 0 hindu 0 pagan 0 heretic 2 judaism 0 }
 Yemen_Province
 	Yemen
 	turks
@@ -1316,7 +1316,7 @@ Yemen_Province
 	middle_east, arab
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 45 islam 0 buddism 5 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 97 buddism 0 hindu 0 pagan 0 heretic 3 judaism 0 }
 Qatar_Province
 	Qatar
 	golden
@@ -1325,7 +1325,7 @@ Qatar_Province
 	middle_east, arab, muscat
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 75 islam 0 buddism 15 hindu 0 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Yerevan_Province
 	Manzikirt
 	turks
@@ -1334,7 +1334,7 @@ Yerevan_Province
 	middle_east, arab, ottoman, armenia
 	5
 	3
-	religions { catholic 10 orthodox 0 protestant 0 shia 30 islam 0 buddism 25 hindu 20 pagan 0 heretic 15 judaism 0 }
+	religions { catholic 0 orthodox 15 protestant 0 shia 0 islam 85 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Baghdad_Province
 	Baghdad
 	golden
@@ -1343,7 +1343,7 @@ Baghdad_Province
 	middle_east, arab, ottoman
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 40 islam 0 buddism 25 hindu 0 pagan 0 heretic 35 judaism 0 }
+	religions { catholic 0 orthodox 5 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Baku_Province
 	Baku
 	egypt
@@ -1352,7 +1352,7 @@ Baku_Province
 	georgia, armenia, russia, ottoman
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 30 shia 20 islam 0 buddism 10 hindu 20 pagan 0 heretic 20 judaism 0 }
+	religions { catholic 0 orthodox 85 protestant 0 shia 0 islam 10 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
 Korasan_Province
 	Korasan
 	cuman
@@ -1361,7 +1361,7 @@ Korasan_Province
 	steppe, kokand, russia
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 5 shia 20 islam 0 buddism 25 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 10 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Khwarzam_Province
 	Urgentch
 	cuman
@@ -1370,7 +1370,7 @@ Khwarzam_Province
 	steppe, kokand, russia
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 5 shia 20 islam 0 buddism 25 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 5 protestant 0 shia 0 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Tashkent_Province
 	Tashkent
 	cuman
@@ -1379,7 +1379,7 @@ Tashkent_Province
 	steppe, kokand, russia
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 5 shia 20 islam 0 buddism 5 hindu 0 pagan 0 heretic 70 judaism 0 }
+	religions { catholic 0 orthodox 5 protestant 0 shia 5 islam 90 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Bukhara_Province
 	Bukhara
 	cuman
@@ -1388,7 +1388,7 @@ Bukhara_Province
 	steppe, russia
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 5 shia 20 islam 0 buddism 25 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 5 protestant 0 shia 0 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Arqin_Province
 	Arqin
 	cuman
@@ -1397,7 +1397,7 @@ Arqin_Province
 	steppe, russia
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 10 shia 20 islam 0 buddism 5 hindu 0 pagan 0 heretic 65 judaism 0 }
+	religions { catholic 0 orthodox 35 protestant 0 shia 5 islam 60 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Astana_Province
 	Astana
 	cuman
@@ -1406,7 +1406,7 @@ Astana_Province
 	steppe, kokand, russia
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 5 shia 20 islam 0 buddism 5 hindu 0 pagan 0 heretic 70 judaism 0 }
+	religions { catholic 0 orthodox 10 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Almaty_Province
 	Almaty
 	cuman
@@ -1415,7 +1415,7 @@ Almaty_Province
 	steppe, russia
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 10 shia 20 islam 0 buddism 5 hindu 0 pagan 0 heretic 65 judaism 0 }
+	religions { catholic 0 orthodox 25 protestant 0 shia 5 islam 70 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Aksu_Province
 	Aksu
 	cuman
@@ -1424,7 +1424,7 @@ Aksu_Province
 	steppe
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 25 islam 0 buddism 10 hindu 0 pagan 0 heretic 60 judaism 5 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 95 buddism 5 hindu 0 pagan 0 heretic 0 judaism 0 }
 Tabriz_Province
 	Tabriz
 	egypt
@@ -1433,7 +1433,7 @@ Tabriz_Province
 	persia, georgia
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 60 islam 0 buddism 15 hindu 0 pagan 0 heretic 25 judaism 0 }
+	religions { catholic 0 orthodox 5 protestant 0 shia 0 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Ajan_Province
 	Teheran
 	egypt
@@ -1442,7 +1442,7 @@ Ajan_Province
 	persia, middle_east
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 60 islam 0 buddism 15 hindu 0 pagan 0 heretic 25 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Fais_Province
 	Esfahan
 	egypt
@@ -1451,7 +1451,7 @@ Fais_Province
 	persia, middle_east
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 60 islam 0 buddism 15 hindu 0 pagan 0 heretic 25 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 4 islam 96 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Kerman_Province
 	Kerman
 	egypt
@@ -1460,7 +1460,7 @@ Kerman_Province
 	persia, middle_east
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 60 islam 0 buddism 15 hindu 0 pagan 0 heretic 25 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Herat_Province
 	Herat
 	timurids
@@ -1469,7 +1469,7 @@ Herat_Province
 	afghanistan
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 45 islam 0 buddism 5 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 3 islam 97 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Kandahar_Province
 	Kandahar
 	timurids
@@ -1478,7 +1478,7 @@ Kandahar_Province
 	afghanistan
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 65 islam 0 buddism 5 hindu 0 pagan 0 heretic 30 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Baluchistan_Province
 	Baluchistan
 	turks
@@ -1487,7 +1487,7 @@ Baluchistan_Province
 	afghanistan
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 65 islam 0 buddism 5 hindu 0 pagan 0 heretic 30 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 4 islam 96 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Sind_Province
 	Sind
 	bulga
@@ -1496,7 +1496,7 @@ Sind_Province
 	india
 	5
 	7
-	religions { catholic 1 orthodox 4 protestant 0 shia 60 islam 0 buddism 15 hindu 0 pagan 0 heretic 20 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
 Dehli_Province
 	Dehli
 	bulga
@@ -1505,7 +1505,7 @@ Dehli_Province
 	india
 	5
 	8
-	religions { catholic 1 orthodox 4 protestant 0 shia 30 islam 0 buddism 15 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 45 buddism 0 hindu 0 pagan 0 heretic 15 judaism 40 }
 Rajputana_Province
 	Jaipur
 	bulga
@@ -1514,7 +1514,7 @@ Rajputana_Province
 	india
 	5
 	6
-	religions { catholic 1 orthodox 4 protestant 0 shia 30 islam 0 buddism 15 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 0 judaism 85 }
 Bihar_Province
 	Bihar
 	bulga
@@ -1523,7 +1523,7 @@ Bihar_Province
 	east_indies
 	5
 	5
-	religions { catholic 0 orthodox 0 protestant 0 shia 70 islam 0 buddism 5 hindu 0 pagan 0 heretic 25 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 8 islam 92 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Gondowan_Province
 	Jabalpur
 	bulga
@@ -1532,7 +1532,7 @@ Gondowan_Province
 	india
 	5
 	7
-	religions { catholic 1 orthodox 4 protestant 0 shia 30 islam 0 buddism 15 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 30 buddism 0 hindu 0 pagan 0 heretic 0 judaism 65 }
 Bengal_Province
 	Bengal
 	bulga
@@ -1541,7 +1541,7 @@ Bengal_Province
 	india
 	5
 	8
-	religions { catholic 1 orthodox 4 protestant 0 shia 20 islam 0 buddism 15 hindu 0 pagan 0 heretic 60 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 55 buddism 0 hindu 0 pagan 0 heretic 0 judaism 40 }
 Decan_Province
 	Bombay
 	cru
@@ -1550,7 +1550,7 @@ Decan_Province
 	indochina
 	5
 	4
-	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 70 judaism 20 }
+	religions { catholic 20 orthodox 0 protestant 0 shia 0 islam 0 buddism 75 hindu 0 pagan 0 heretic 5 judaism 0 }
 Mysore_Province
 	Bangalore
 	bulga
@@ -1559,7 +1559,7 @@ Mysore_Province
 	india
 	5
 	7
-	religions { catholic 1 orthodox 4 protestant 0 shia 20 islam 0 buddism 15 hindu 0 pagan 0 heretic 60 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 5 shia 0 islam 20 buddism 0 hindu 0 pagan 0 heretic 0 judaism 70 }
 Vijanagar_Province
 	Madras
 	lith
@@ -1568,7 +1568,7 @@ Vijanagar_Province
 	sub_sahara
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 5 hindu 0 pagan 0 heretic 90 judaism 0 }
+	religions { catholic 10 orthodox 0 protestant 0 shia 75 islam 15 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Orissa_Province
 	Cuttack
 	bulga
@@ -1577,7 +1577,7 @@ Orissa_Province
 	india
 	5
 	7
-	religions { catholic 1 orthodox 4 protestant 0 shia 20 islam 0 buddism 15 hindu 0 pagan 0 heretic 60 judaism 0 }
+	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 0 judaism 75 }
 Ceyland_Province
 	Ceyland
 	golden
@@ -1586,7 +1586,7 @@ Ceyland_Province
 	sub_sahara, arab, north_africa
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 50 islam 0 buddism 5 hindu 0 pagan 0 heretic 45 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Caire_Province
 	Caire
 	golden
@@ -1595,7 +1595,7 @@ Caire_Province
 	middle_east, arab, north_africa, egypt
 	5
 	5
-	religions { catholic 1 orthodox 0 protestant 0 shia 50 islam 0 buddism 40 hindu 4 pagan 0 heretic 5 judaism 0 }
+	religions { catholic 2 orthodox 10 protestant 0 shia 0 islam 88 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Tripolitaine_Province
 	Tripoli
 	moors
@@ -1604,7 +1604,7 @@ Tripolitaine_Province
 	middle_east, arab, north_africa
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 40 islam 0 buddism 10 hindu 0 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 97 buddism 0 hindu 0 pagan 0 heretic 3 judaism 0 }
 Fez_Province
 	Fez
 	moors
@@ -1613,7 +1613,7 @@ Fez_Province
 	middle_east, morocco, north_africa
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 80 islam 0 buddism 10 hindu 3 pagan 0 heretic 7 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Marrakesh_Province
 	Marrakesh
 	moors
@@ -1622,7 +1622,7 @@ Marrakesh_Province
 	middle_east, morocco, north_africa
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 70 islam 0 buddism 10 hindu 3 pagan 0 heretic 17 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Krasnodar_Province
 	Krasnodar
 	moors
@@ -1631,7 +1631,7 @@ Krasnodar_Province
 	middle_east, arab, north_africa
 	5
 	4
-	religions { catholic 20 orthodox 0 protestant 0 shia 50 islam 0 buddism 7 hindu 3 pagan 0 heretic 20 judaism 0 }
+	religions { catholic 8 orthodox 0 protestant 0 shia 0 islam 92 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Kongo_Province
 	M_Banza_Kongo
 	lith
@@ -1640,7 +1640,7 @@ Kongo_Province
 	sub_sahara
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 20 islam 0 buddism 10 hindu 0 pagan 0 heretic 70 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 5 shia 45 islam 50 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Corne_Afrique_Province
 	Berbera
 	lith
@@ -1649,7 +1649,7 @@ Corne_Afrique_Province
 	sub_sahara
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 20 islam 0 buddism 60 hindu 0 pagan 0 heretic 20 judaism 0 }
+	religions { catholic 0 orthodox 55 protestant 0 shia 10 islam 35 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Mombasa_Province
 	Mombasa
 	golden
@@ -1658,7 +1658,7 @@ Mombasa_Province
 	arab, sub_sahara, muscat
 	5
 	3
-	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 0 buddism 50 hindu 0 pagan 0 heretic 20 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 85 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Kanem_Province
 	Ngala
 	moors
@@ -1667,7 +1667,7 @@ Kanem_Province
 	sub_sahara
 	5
 	1
-	religions { catholic 0 orthodox 0 protestant 0 shia 50 islam 0 buddism 10 hindu 0 pagan 0 heretic 40 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 90 islam 10 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Afrique_Centrale_Province
 	Kampala
 	portugal
@@ -1676,7 +1676,7 @@ Afrique_Centrale_Province
 	sub_sahara
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 20 hindu 5 pagan 0 heretic 70 judaism 0 }
+	religions { catholic 10 orthodox 0 protestant 0 shia 90 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Rhodesie_Province
 	Lusaka
 	teu
@@ -1685,7 +1685,7 @@ Rhodesie_Province
 	sub_sahara, south_africa
 	5
 	2
-	religions { catholic 0 orthodox 10 protestant 0 shia 0 islam 0 buddism 10 hindu 30 pagan 0 heretic 50 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 60 shia 35 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Afrique_Sud_Province
 	Cape
 	england
@@ -1694,7 +1694,7 @@ Afrique_Sud_Province
 	sub_sahara, south_africa
 	5
 	3
-	religions { catholic 0 orthodox 30 protestant 0 shia 0 islam 0 buddism 20 hindu 30 pagan 0 heretic 20 judaism 0 }
+	religions { catholic 5 orthodox 0 protestant 55 shia 30 islam 10 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Madagascar_Province
 	Mahajanga
 	lith
@@ -1703,7 +1703,7 @@ Madagascar_Province
 	sub_sahara
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 25 hindu 0 pagan 0 heretic 70 judaism 0 }
+	religions { catholic 20 orthodox 0 protestant 10 shia 70 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Mozambique_Province
 	Angoche
 	spain
@@ -1712,7 +1712,7 @@ Mozambique_Province
 	sub_sahara, zululand, south_africa
 	5
 	2
-	religions { catholic 15 orthodox 5 protestant 0 shia 0 islam 0 buddism 15 hindu 5 pagan 0 heretic 60 judaism 0 }
+	religions { catholic 15 orthodox 0 protestant 0 shia 80 islam 5 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Namibie_Province
 	Gd_Namaqualand
 	lith
@@ -1721,7 +1721,7 @@ Namibie_Province
 	sub_sahara, south_africa
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 0 pagan 0 heretic 95 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 10 shia 90 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Mali_Province
 	Tombouktou
 	moors
@@ -1730,7 +1730,7 @@ Mali_Province
 	sub_sahara, north_africa
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 60 islam 0 buddism 5 hindu 0 pagan 0 heretic 35 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 35 islam 65 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Cote_Guinee_Province
 	Kansala
 	lith
@@ -1739,7 +1739,7 @@ Cote_Guinee_Province
 	sub_sahara, north_africa
 	5
 	2
-	religions { catholic 0 orthodox 0 protestant 0 shia 60 islam 0 buddism 15 hindu 0 pagan 0 heretic 25 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 40 islam 60 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
 Akita_Province
 	Akita
 	saxons
@@ -1748,7 +1748,7 @@ Akita_Province
 	japan
 	5
 	5
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 5 hindu 95 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 65 pagan 0 heretic 5 judaism 0 }
 Hokkaido_Province
 	Hokkaido
 	saxons
@@ -1757,7 +1757,7 @@ Hokkaido_Province
 	japan
 	5
 	4
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 80 pagan 0 heretic 10 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 0 buddism 20 hindu 50 pagan 0 heretic 0 judaism 0 }
 Edo_Province
 	Edo
 	saxons
@@ -1766,7 +1766,7 @@ Edo_Province
 	japan
 	5
 	7
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 10 hindu 90 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 60 pagan 0 heretic 5 judaism 0 }
 Kyoto_Province
 	Kyoto
 	saxons
@@ -1775,4 +1775,4 @@ Kyoto_Province
 	japan
 	5
 	8
-	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 15 hindu 85 pagan 0 heretic 0 judaism 0 }
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 60 pagan 0 heretic 5 judaism 0 }

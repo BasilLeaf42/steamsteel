@@ -185,15 +185,15 @@
         <excommunicated_modifier float = "30"/>
         <new_leader_modifier float = "10"/>
         <max_effective_loyalty float = "10.0"/>
-        <rebel_region_modifier float = "0.001"/>
+        <rebel_region_modifier float = "2.0"/>
         <shadow_region_modifier float = "1.1"/>
         <rebel_border_modifier float = "1.1"/>
         <shadow_border_modifier float = "1.1"/>
         <num_units_modifier float = "1.05"/>
-        <captain_modifier float = "0.001"/>
+        <captain_modifier float = "0.4"/>
         <min_revolt_chance float = "0"/>
-        <max_revolt_chance float = "0.001"/>
-        <ai_revolt_modifier float = "0.001"/>
+        <max_revolt_chance float = "80.0"/>
+        <ai_revolt_modifier float = "0.25"/>
         <revolt_additional_armies bool = "false"/>
         <revolt_crusading_armies bool = "false"/>
     </revolt>
