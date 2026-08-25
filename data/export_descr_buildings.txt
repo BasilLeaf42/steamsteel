@@ -8867,6 +8867,44 @@ building hinterland_wonder
     }
 }
 
+building russian_embassy_guild
+{
+    levels c_russian_embassy_guild e_russian_embassy_guild  
+    {
+        c_russian_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                e_russian_embassy_guild
+            }
+        }
+        e_russian_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+                recruit_pool "russ_inf"  1   0.03   1  1  requires factions { all, }
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+
 
 
 building guild_japanese_embassy_guild
@@ -8928,19 +8966,323 @@ building guild_japanese_embassy_guild
 
 
 
+building italian_embassy_guild
+{
+    levels c_italian_embassy_guild e_italian_embassy_guild  
+    {
+        c_italian_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                e_italian_embassy_guild
+            }
+        }
+        e_italian_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+                recruit_pool "it_bers"  1   0.03   1  1  requires factions { all, }
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
 
 
 
+building spanish_embassy_guild
+{
+    levels c_spanish_embassy_guild e_spanish_embassy_guild  
+    {
+        c_spanish_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                e_spanish_embassy_guild
+            }
+        }
+        e_spanish_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+                recruit_pool "spa_regu"  1   0.03   1  1  requires factions { all, }
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
 
 
 
+building british_embassy_guild
+{
+    levels c_british_embassy_guild e_british_embassy_guild  
+    {
+        c_british_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                e_british_embassy_guild
+            }
+        }
+        e_british_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+                recruit_pool "uk_musket"  1   0.03   1  1  requires factions { all, }
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
 
 
 
+building confederate_embassy_guild
+{
+    levels c_confederate_embassy_guild e_confederate_embassy_guild  
+    {
+        c_confederate_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                e_confederate_embassy_guild
+            }
+        }
+        e_confederate_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+                recruit_pool "csa_militia"  1   0.03   1  1  requires factions { all, }
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
 
 
 
+building american_embassy_guild
+{
+    levels c_american_embassy_guild e_american_embassy_guild  
+    {
+        c_american_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                e_american_embassy_guild
+            }
+        }
+        e_american_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+                recruit_pool "us_inf"  1   0.03   1  1  requires factions { all, }
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
 
+
+
+building french_embassy_guild
+{
+    levels c_french_embassy_guild e_french_embassy_guild  
+    {
+        c_french_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                e_french_embassy_guild
+            }
+        }
+        e_french_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+                recruit_pool "fra_rec"  1   0.03   1  1  requires factions { all, }
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+
+
+
+building ottoman_embassy_guild
+{
+    levels c_ottoman_embassy_guild e_ottoman_embassy_guild  
+    {
+        c_ottoman_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                e_ottoman_embassy_guild
+            }
+        }
+        e_ottoman_embassy_guild city requires factions { }  
+        {
+            capability
+            {
+                recruit_pool "otto_jan_inf"  1   0.03   1  1  requires factions { all, }
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
+
+
+
+building prussian_embassy_guild
+{
+    levels c_prussian_embassy_guild e_prussian_embassy_guild  
+    {
+        c_prussian_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+            }
+            material wooden
+            construction  1 
+            cost  1000 
+            settlement_min city
+            upgrades
+            {
+                e_prussian_embassy_guild
+            }
+        }
+        e_prussian_embassy_guild city requires factions { } 
+        {
+            capability
+            {
+                recruit_pool "gr_inf"  1   0.03   1  1  requires factions { all, }
+            }
+            material wooden
+            construction  1 
+            cost  3000 
+            settlement_min large_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
 
 ;government
 ;centralism

@@ -2781,7 +2781,7 @@ soldier          berdan_inf, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         28, 0, quality_early_arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -2816,7 +2816,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         26, 2, mounted_arquebus_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         26, 2, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -2852,7 +2852,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, general_unit, command
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
-stat_pri         20, 2, quality_mounted_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         20, 2, musket_carbine_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -2887,7 +2887,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         20, 2, mounted_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         20, 2, musket_carbine_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -2921,7 +2921,7 @@ soldier          us_zouave, 30, 0, 1.2
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen,start_not_skirmishing, hardy, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         35, 0, quality_early_arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         35, 0, rifled_musket_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -2954,7 +2954,7 @@ soldier          union_irish_brigade, 40, 0, 1.2
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen,start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -2988,7 +2988,7 @@ officer          francejunqshou
 attributes       sea_faring, hide_forest, gunpowder_unit，start_not_skirmishing, gunmen, stakes, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -3023,7 +3023,7 @@ officer          francejunqshou
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, quality_hand_gun_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, musket_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -3056,7 +3056,7 @@ soldier          us_colo_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         25, 0, blunderbuss_shot, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         25, 0, musket_carbine_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -3090,7 +3090,7 @@ soldier          us_late_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         21, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         21, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -3123,7 +3123,7 @@ soldier          us_front_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -3155,7 +3155,7 @@ soldier          us_militia, 40, 0, 0.9
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         13, 0, musket_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         13, 0, rifle_bullet_a, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 30, 1
 stat_sec_attr    ap, short_pike
@@ -3184,7 +3184,7 @@ soldier          apache_inf, 30, 0, 1
 attributes       sea_faring, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, hardy, hide_long_grass
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         28, 1, early_arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         28, 1, rifled_musket_bullet_c, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -3260,7 +3260,7 @@ soldier          us_zouave, 30, 0, 1.2
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen,start_not_skirmishing, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         28, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -3292,7 +3292,7 @@ soldier          csa_militia, 40, 0, 1.2
 attributes       sea_faring, hide_forest, gunmen,start_not_skirmishing, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         21, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         21, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -3329,7 +3329,7 @@ mount_effect     elephant -8, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, stakes
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         25, 2, mounted_arquebus_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         25, 2, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    ap
@@ -3360,7 +3360,7 @@ soldier          usmc, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -3427,7 +3427,7 @@ soldier          csa_guard, 40, 0, 1.2
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen,start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -3462,7 +3462,7 @@ officer          russia_qi
 attributes       sea_faring, start_not_skirmishing, gunmen, stakes, gunpowder_unit, hide_forest
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -3495,7 +3495,7 @@ soldier          us_late_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square
 stat_health      1, 0
-stat_pri         21, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         21, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -3533,7 +3533,7 @@ officer          mex_army
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square
 stat_health      1, 0
-stat_pri         11, 0, arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         11, 0, rifle_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -3565,7 +3565,7 @@ soldier          fra_inf_sc, 40, 0, 1.3
 attributes       sea_faring, hide_forest, ,gunmen, start_not_skirmishing, cannot_skirmish, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         20, 0, blunderbuss_shot, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, musket_carbine_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -3635,7 +3635,7 @@ soldier          mex_natl_guard, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         39, 0, quality_hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         39, 0, musket_bullet_c, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -3668,7 +3668,7 @@ soldier          aus_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit,gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 4, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 4, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -3701,7 +3701,7 @@ soldier          it_bers, 30, 0, 1.2
 attributes       sea_faring, hide_improved_forest, start_not_skirmishing, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         31, 0, early_arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         31, 0, rifled_musket_bullet_c, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -3734,7 +3734,7 @@ soldier          peru_foot, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         24, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         24, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -3771,7 +3771,7 @@ soldier          peru_conscript, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         20, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -3804,7 +3804,7 @@ soldier          us_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         36, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         36, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -3837,7 +3837,7 @@ soldier          peru_foot, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         22, 0, blunderbuss_shot, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         22, 0, musket_carbine_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -3872,7 +3872,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, gunpowder_unit
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         20, 2, mounted_arquebus_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         20, 2, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -3907,7 +3907,7 @@ soldier          peru_early_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit,gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         30, 4, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 4, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -4009,7 +4009,7 @@ soldier          peru_roy_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         12, 0, musket_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         12, 0, rifle_bullet_a, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         9, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -4082,7 +4082,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, very_hardy, can_withdraw,can_formed_charge, start_not_skirmishing,hide_long_grass,gunpowder_unit,general_unit 
 formation        1, 4.4, 3, 6, 3, square
 stat_health      2, 0
-stat_pri         10, 4, arquebus_bullet, 150, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         10, 4, rifle_bullet_b, 150, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    no
 stat_sec         10, 15, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -4119,7 +4119,7 @@ soldier          port_inf_colo, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         40, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         40, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4152,7 +4152,7 @@ soldier          port_guard, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         40, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         40, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4185,7 +4185,7 @@ soldier          port_rec, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         40, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         40, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4218,7 +4218,7 @@ soldier          fra_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, gunpowder_unit,gunmen,start_not_skirmishing, cannot_skirmish, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4256,7 +4256,7 @@ soldier          us_zouave, 30, 0, 1.2
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen,start_not_skirmishing, hardy, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4291,7 +4291,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         38, 2, mounted_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         38, 2, musket_carbine_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -4324,7 +4324,7 @@ soldier          arg_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, gunpowder_unit,gunmen,start_not_skirmishing, cannot_skirmish, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         38, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         38, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4393,7 +4393,7 @@ soldier          dutch_pith, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen,stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         12, 0, arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         12, 0, rifle_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -4425,7 +4425,7 @@ soldier          arg_guard, 40, 0, 1.2
 attributes       sea_faring, hide_forest ,gunmen, start_not_skirmishing, cannot_skirmish, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         22, 0, blunderbuss_shot, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         22, 0, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4463,7 +4463,7 @@ soldier          pith_troopers, 30, 0, 0.9
 attributes       sea_faring, hide_forest, hardy, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 2, square
 stat_health      1, 0
-stat_pri         28, 0, musket_bullet, 300, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_a, 300, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -4497,7 +4497,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hardy, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         11, 4, musket_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         11, 4, rifle_bullet_a, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap, prec
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -4529,7 +4529,7 @@ mount_effect     elephant -4, horse +4
 attributes       sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hardy, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         11, 4, musket_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         11, 4, rifle_bullet_a, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap, prec
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -4596,7 +4596,7 @@ soldier          uk_musket, 40, 0, 1.3
 attributes       sea_faring, hide_forest, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         28, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
 stat_sec_attr    ap, short_pike
@@ -4627,7 +4627,7 @@ officer          BRIT_FootA_Bugler1
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         12, 0, musket_bullet, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         12, 0, rifle_bullet_a, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -4693,7 +4693,7 @@ officer          yindujunguan
 attributes       sea_faring, hide_forest, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 2, square
 stat_health      1, 0
-stat_pri         28, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4725,7 +4725,7 @@ soldier          uk_indians, 50, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen
 formation        1.2, 1.2, 1.2, 1.2, 4, square, shield_wall
 stat_health      1, 0
-stat_pri         12, 0, hand_gun_bullet, 160, 5, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         12, 0, arquebus_bullet_b, 160, 5, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -4795,7 +4795,7 @@ soldier          uk_sailor, 40, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 2, square 
 stat_health      1, 0
-stat_pri         28, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -4828,7 +4828,7 @@ soldier          uk_gurk, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, hardy
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         12, 0, flintlock_bullet, 340, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         12, 0, magazine_rifle_bullet_s, 340, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4860,7 +4860,7 @@ soldier          coldcreek_guard, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         28, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4894,7 +4894,7 @@ officer          yindujunguan
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen,start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -4927,7 +4927,7 @@ officer          BRIT_FootA_Officer
 attributes       sea_faring, hide_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 2, square 
 stat_health      1, 0
-stat_pri         28, 0, musket_bullet, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_a, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -4961,7 +4961,7 @@ officer          BRIT_FootA_Officer
 attributes       sea_faring, hide_forest, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes,gunpowder_unit
 formation        1.2, 1.2, 1.2, 1.2, 2, square 
 stat_health      1, 0
-stat_pri         28, 0, quality_early_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -4995,7 +4995,7 @@ officer          BRIT_FootA_Bugler1
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         12, 0, musket_bullet, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         12, 0, rifle_bullet_a, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5065,7 +5065,7 @@ officer          BRIT_FootA_Bugler1
 attributes       sea_faring, hide_forest, gunpowder_unit，start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 2, square
 stat_health      1, 0
-stat_pri         28, 0, arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5104,7 +5104,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, stakes, start_not_skirmishing, gunmen, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         13, 2, caliver_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
+stat_pri         13, 2, rifle_carbine_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -5136,7 +5136,7 @@ soldier          fra_pith, 40, 0, 1.2
 attributes       sea_faring, start_not_skirmishing, cannot_skirmish, gunmen, stakes, hide_forest
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         13, 0, musket_bullet, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         13, 0, rifle_bullet_a, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5168,7 +5168,7 @@ soldier          fra_ww1_inf, 30, 0, 1.2
 attributes       sea_faring, hide_forest, hardy,start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         13, 0, musket_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         13, 0, rifle_bullet_a, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5202,7 +5202,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, gunpowder_unit, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 2, mounted_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 2, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -5234,7 +5234,7 @@ soldier          fra_sailors, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -5338,7 +5338,7 @@ officer          francejunqshou
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -5371,7 +5371,7 @@ soldier          fra_rec, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, blunderbuss_shot, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5403,7 +5403,7 @@ soldier          fra_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, blunderbuss_shot, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, musket_carbine_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5436,7 +5436,7 @@ soldier          fra_guard, 30, 0, 1.2
 attributes       sea_faring, hide_forest, gunmen,start_not_skirmishing, hardy, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         20, 0, musket_bullet, 340, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_a, 340, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -5468,7 +5468,7 @@ soldier          fra_inf_sc, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         13, 0, musket_bullet, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         13, 0, rifle_bullet_a, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5500,7 +5500,7 @@ soldier          fra_line_in2, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, blunderbuss_shot, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -5534,7 +5534,7 @@ soldier          uru_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, gunmen, start_not_skirmishing, hardy, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -5647,7 +5647,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         20, 2, quality_mounted_arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         20, 2, musket_carbine_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -5680,7 +5680,7 @@ soldier          wurt_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5747,7 +5747,7 @@ soldier          pru_ww1_inf, 30, 0, 1.2
 attributes       sea_faring, hide_long_grass, stakes, start_not_skirmishing, cannot_skirmish, gunmen, hardy
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         11, 0, caliver_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         11, 0, rifle_carbine_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -5781,7 +5781,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         20, 0, musket_bullet, 320, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_a, 320, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5816,7 +5816,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square
 stat_health      1, 0
-stat_pri         11, 0, musket_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         11, 0, rifle_bullet_a, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5849,7 +5849,7 @@ soldier          gr_colonial, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, hide_forest
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         11, 0, flintlock_bullet, 330, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         11, 0, magazine_rifle_bullet_s, 330, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -5881,7 +5881,7 @@ soldier          jag_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4. 3, square
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5915,7 +5915,7 @@ soldier          rec_bav, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_b, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -5950,7 +5950,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         20, 0, musket_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_a, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6019,7 +6019,7 @@ soldier          hannover_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6090,7 +6090,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         30, 0, blunderbuss_shot, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 0, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6130,7 +6130,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, can_withdraw
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         11, 0, flintlock_bullet, 350, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         11, 0, magazine_rifle_bullet_s, 350, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6166,7 +6166,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         11, 2, caliver_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
+stat_pri         11, 2, rifle_carbine_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 5, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -6200,7 +6200,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, can_withdraw, gunpowder_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6236,7 +6236,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring,  can_withdraw, guncavalry, can_formed_charge, start_not_skirmishing, gunmen, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         11, 2, caliver_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
+stat_pri         11, 2, rifle_carbine_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         11, 5, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -6270,7 +6270,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_withdraw
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6304,7 +6304,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_withdraw
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         22, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         22, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6339,7 +6339,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, gunmen, gunpowder_unit, start_not_skirmishing, stakes, can_withdraw
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap	
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6373,7 +6373,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_withdraw
 formation        1.2, 1.4, 2.4, 2.8, 3, square
 stat_health      1, 0
-stat_pri         11, 0, musket_bullet, 290, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         11, 0, rifle_bullet_a, 290, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6408,7 +6408,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit, gunmen, stakes, can_withdraw
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         28, 4, quality_early_arquebus_bullet , 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 4, rifled_musket_bullet_b , 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6444,7 +6444,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, general_unit, command, hide_forest
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
-stat_pri         11, 2, musket_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         11, 2, rifle_bullet_a, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -6482,7 +6482,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, gunpowder_unit, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         28, 2, mounted_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         28, 2, musket_carbine_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -6520,7 +6520,7 @@ soldier          dutch_pith, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen,stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         20, 0, musket_bullet, 260, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_a, 260, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6552,7 +6552,7 @@ soldier          coldcreek_guard, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         37, 5, arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 5, rifle_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6586,7 +6586,7 @@ soldier          dutch_ww1, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen,stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         10, 0, musket_bullet, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         10, 0, rifle_bullet_a, 280, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6619,7 +6619,7 @@ soldier          mex_natl_guard, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         20, 0, rifle_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -6652,7 +6652,7 @@ soldier          fra_inf_sc, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -6683,7 +6683,7 @@ soldier          dutch_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         30, 0, blunderbuss_shot, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 0, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6716,7 +6716,7 @@ soldier          nl_colonial, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, hardy
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, musket_bullet, 280, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifle_bullet_a, 280, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6751,7 +6751,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, gunpowder_unit, can_formed_charge, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 2, mounted_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 2, musket_carbine_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 5, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -6825,7 +6825,7 @@ soldier          fra_guard_si, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, gunpowder_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6857,7 +6857,7 @@ soldier          aus_inf_si, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         34, 4, blunderbuss_shot, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         34, 4, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6889,7 +6889,7 @@ soldier          rus_cos_guard, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 4, square, shield_wall
 stat_health      1, 0
-stat_pri         34, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         34, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6923,7 +6923,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         30, 2, mounted_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         30, 2, musket_carbine_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -6958,7 +6958,7 @@ soldier          viking_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         10, 0, musket_bullet, 290, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         10, 0, rifle_bullet_a, 290, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         9, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -6991,7 +6991,7 @@ officer          francejunqshou
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         13, 4, musket_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         13, 4, rifle_bullet_a, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7028,7 +7028,7 @@ soldier          rus_cos_guard_no, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.0, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         22, 0, arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         22, 0, rifle_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7063,7 +7063,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         35, 4, blunderbuss_shot, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         35, 4, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -7098,7 +7098,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         22, 2, quality_mounted_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         22, 2, musket_carbine_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -7203,7 +7203,7 @@ soldier          swe_guard, 30, 0, 1
 attributes       sea_faring, hide_improved_forest, start_not_skirmishing, gunpowder_unit, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         22, 4, quality_early_arquebus_bullet, 300, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         22, 4, rifled_musket_bullet_b, 300, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7236,7 +7236,7 @@ soldier          norwegian_inf, 40, 0, 0.9
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         13, 4, musket_bullet, 290, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         13, 4, rifle_bullet_a, 290, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -7268,7 +7268,7 @@ soldier          swed_inf2, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         22, 4, blunderbuss_shot, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         22, 4, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7307,7 +7307,7 @@ officer          BRIT_CavMI_Officer
 attributes       sea_faring, hide_forest, hardy,start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         20, 0, musket_bullet, 310, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_a, 310, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7339,7 +7339,7 @@ soldier          greek_hoplite, 30, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         13, 4, musket_bullet, 340, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         13, 4, rifle_bullet_a, 340, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7403,7 +7403,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, gunmen, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 2, mounted_arquebus_bullet, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 2, musket_carbine_bullet_c, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -7436,7 +7436,7 @@ soldier          rom_guard, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         26, 0, quality_early_arquebus_bullet, 280, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         26, 0, rifled_musket_bullet_b, 280, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7468,7 +7468,7 @@ soldier          dutch_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -7501,7 +7501,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         11, 2, quality_mounted_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
+stat_pri         11, 2, musket_carbine_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -7533,7 +7533,7 @@ soldier          greek_early_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit,gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 4, quality_hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 4, musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7575,7 +7575,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         18, 2, mounted_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         18, 2, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -7610,7 +7610,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunpowder_unit,start_not_skirmishing, general_unit, command, hide_forest
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
-stat_pri         11, 2, musket_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         11, 2, rifle_bullet_a, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap, prec
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -7646,7 +7646,7 @@ officer          Eastern_General
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         35, 0, blunderbuss_shot, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         35, 0, musket_carbine_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7715,7 +7715,7 @@ soldier          it_bers, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.0, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         18, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         18, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7747,7 +7747,7 @@ soldier          it_roman, 40, 0, 0.8
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.0, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         18, 4, musket_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         18, 4, rifle_bullet_a, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         9, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -7781,7 +7781,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         35, 0, early_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         35, 0, rifled_musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -7815,7 +7815,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         10, 0, flintlock_bullet, 350, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         10, 0, magazine_rifle_bullet_s, 350, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -7847,7 +7847,7 @@ soldier          arab_sailors, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         10, 0, arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
+stat_pri         10, 0, rifle_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -7883,7 +7883,7 @@ soldier          rus_conscript, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -7952,7 +7952,7 @@ soldier          georgian_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 1, quality_hand_gun_bullet, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         37, 1, musket_bullet_c, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -8023,7 +8023,7 @@ soldier          rus_sailors, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         19, 0, blunderbuss_shot, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         19, 0, musket_carbine_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -8093,7 +8093,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -8130,7 +8130,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 2, mounted_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 2, musket_carbine_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -8164,7 +8164,7 @@ soldier          rus_roy_inf_ru, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -8197,7 +8197,7 @@ soldier          rus_guard, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         12, 4, arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         12, 4, rifle_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -8266,7 +8266,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunpowder_unit, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -8301,7 +8301,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 4, square, shield_wall
 stat_health      1, 0
-stat_pri         12, 0, arquebus_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         12, 0, rifle_bullet_b, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -8334,7 +8334,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         12, 0, arquebus_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         12, 0, rifle_bullet_b, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -8365,7 +8365,7 @@ soldier          rus_lat_inf_ru, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         19, 0, early_arquebus_bullet, 240, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         19, 0, rifled_musket_bullet_c, 240, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -8400,7 +8400,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         11, 2, musket_bullet, 600, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         11, 2, rifle_bullet_a, 600, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -8539,7 +8539,7 @@ soldier          dutch_militia, 40, 0, 0.8
 attributes       sea_faring, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, stakes, hide_forest
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         26, 0, quality_early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         26, 0, rifled_musket_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -8570,7 +8570,7 @@ soldier          rom_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         26, 0, quality_early_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         26, 0, rifled_musket_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -8638,7 +8638,7 @@ officer          nanjungeneralzhang
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -8670,7 +8670,7 @@ soldier          austro_sailor, 40, 0, 1.3
 attributes       sea_faring, hide_forest, hardy,start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         27, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         27, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -8775,7 +8775,7 @@ soldier          ah_jag, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 4, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 4, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -8808,7 +8808,7 @@ soldier          aus_inf3, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square
 stat_health      1, 0
-stat_pri         11, 4, musket_bullet, 290, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         11, 4, rifle_bullet_a, 290, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -8876,7 +8876,7 @@ soldier          ah_scout, 40, 0, 0.8
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen,start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         26, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         26, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -8915,7 +8915,7 @@ soldier          black_guard, 40, 0, 1.2
 attributes       sea_faring, hide_forest, hardy,start_not_skirmishing, cannot_skirmish, gunmen, stakes, can_withdraw
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifle_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -8947,7 +8947,7 @@ soldier          fra_blacks, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         20, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -8979,7 +8979,7 @@ soldier          d_fra_for_cav, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, can_withdraw
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         30, 0, blunderbuss_shot, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 0, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -9012,7 +9012,7 @@ soldier          arab_sailors, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -9048,7 +9048,7 @@ mount_effect     elephant -4, horse +4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, affected_by_rain, general_unit, guncavalry, gunpowder_unit, frighten_mounted, command, stakes
 formation        2.0, 2, 4, 4, 3, square
 stat_health      1
-stat_pri         37, 2, camel_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 2, harquebus_bullet_c, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         5, 2, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -9079,7 +9079,7 @@ soldier          moroccan_gunner, 30, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, hardy, is_peasant
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_early_arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -9116,7 +9116,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, hide_forest, guncavalry, start_not_skirmishing, general_unit, gunmen, gunpowder_unit, command, stakes
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 2, mounted_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 2, musket_carbine_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -9221,7 +9221,7 @@ officer          BRIT_FootA_Bearer1
 attributes       sea_faring, hide_forest, gunmen, start_not_skirmishing, hardy, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square
 stat_health      1, 0
-stat_pri         11, 0, musket_bullet, 290, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         11, 0, rifle_bullet_a, 290, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -9325,7 +9325,7 @@ attributes       sea_faring, frighten_mounted, can_withdraw, wagon_fort, command
 move_speed_mod   0.001
 formation        2, 12, 2, 12, 1, horde
 stat_health      1, 3
-stat_pri         37, 0, quality_early_arquebus_bullet, 250, 60, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_b, 250, 60, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 1
 stat_sec_attr    no
@@ -9358,7 +9358,7 @@ officer          BRIT_FootA_Bearer1
 attributes       sea_faring, hide_forest, gunmen,start_not_skirmishing, hardy, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         17, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         17, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -9392,7 +9392,7 @@ soldier          boer_guard, 30, 0, 1.3
 attributes       sea_faring, hide_long_grass, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         21, 0, flintlock_bullet, 340, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         21, 0, magazine_rifle_bullet_s, 340, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -9463,7 +9463,7 @@ soldier          zulu_ww1_inf, 64, 0, 1.2
 attributes       sea_faring, hide_long_grass, hardy, gunpowder_unit, start_not_skirmishing, cannot_skirmish, gunmen
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         9, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -9627,7 +9627,7 @@ attributes       sea_faring, start_not_skirmishing, gunmen, gunpowder_unit, stak
 move_speed_mod	 1.15
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -9661,7 +9661,7 @@ attributes      sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, s
 move_speed_mod	 1.15
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex     0, 0, 0
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -9693,7 +9693,7 @@ attributes      sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, m
 move_speed_mod	 1.15
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex     0, 0, 0
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -9730,7 +9730,7 @@ soldier          bulgarian_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         26, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         26, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -9763,7 +9763,7 @@ soldier          armenian_inf, 30, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, rifled_musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -9797,7 +9797,7 @@ soldier          otto_jan_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, hide_forest, command, gunpowder_unit 
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 230, 10, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 230, 10, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -9831,7 +9831,7 @@ mount_effect     elephant -4, horse +4
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, affected_by_rain, guncavalry, frighten_mounted, stakes
 formation        2, 2, 4, 4, 3, square
 stat_health      1
-stat_pri         37, 2, camel_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 2, harquebus_bullet_c, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         4, 2, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -9861,7 +9861,7 @@ soldier          moroccan_gunner, 40, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -9900,7 +9900,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, can_formed_charge, start_not_skirmishing, gunmen, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         11, 2, mounted_arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
+stat_pri         11, 2, musket_carbine_bullet_c, 260, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -9932,7 +9932,7 @@ soldier          turk_lt2, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, blunderbuss_shot, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, musket_carbine_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -9964,7 +9964,7 @@ soldier          otto_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, stakes, start_not_skirmishing, cannot_skirmish, gunmen
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         12, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         12, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -10029,7 +10029,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, gunpowder_unit, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 2, mounted_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 2, musket_carbine_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -10103,7 +10103,7 @@ soldier          serb_guard_early, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         40, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         40, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -10137,7 +10137,7 @@ soldier          serb_inf_early, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         40, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         40, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -10172,7 +10172,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, guncavalry, gunmen, gunpowder_unit, start_not_skirmishing, hide_forest, stakes
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         24, 2, mounted_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         24, 2, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -10209,7 +10209,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         28, 2, mounted_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         28, 2, musket_carbine_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -10241,7 +10241,7 @@ soldier          otto_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         28, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -10282,7 +10282,7 @@ soldier          qajar_foot, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -10317,7 +10317,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, can_formed_charge, start_not_skirmishing, gunmen, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         11, 2, quality_mounted_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         11, 2, musket_carbine_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -10350,7 +10350,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, stakes, start_not_skirmishing, cannot_skirmish, gunmen
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, quality_early_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         20, 0, rifled_musket_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -10385,7 +10385,7 @@ officer          russia_qi
 attributes       sea_faring, hide_improved_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         20, 0, musket_bullet, 310, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         20, 0, rifle_bullet_a, 310, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -10455,7 +10455,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, command, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -10489,7 +10489,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, stakes, start_not_skirmishing
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -10524,7 +10524,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -10563,7 +10563,7 @@ soldier          afghan_sword, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, blunderbuss_shot, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -10596,7 +10596,7 @@ soldier          pashtun_inf, 30, 0, 1
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         43, 0, hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         43, 0, arquebus_bullet_b, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -10771,7 +10771,7 @@ mount_effect     elephant -4, horse +4
 attributes       sea_faring, hide_forest, gunpowder_unit, can_withdraw, affected_by_rain, guncavalry, frighten_mounted, stakes
 formation        2.0, 4.4, 3.0, 6.0, 4, square
 stat_health      1, 0
-stat_pri         37, 2, camel_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 2, harquebus_bullet_c, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -10802,7 +10802,7 @@ soldier          moroccan_gunner, 30, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         13, 0, arquebus_bullet, 300, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         13, 0, rifle_bullet_b, 300, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -10835,7 +10835,7 @@ officer          fuhan_general
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -10868,7 +10868,7 @@ soldier          afghan_militia, 30, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, stakes, hide_long_grass
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -10902,7 +10902,7 @@ soldier          kabul_guard, 40, 0, 1.3
 attributes       sea_faring, start_not_skirmishing, cannot_skirmish, gunmen, stakes, hide_forest
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         28, 0, arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -10977,7 +10977,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, guncavalry, gunmen, gunpowder_unit, start_not_skirmishing, hide_forest, stakes
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         24, 2, mounted_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         24, 2, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -11011,7 +11011,7 @@ soldier          bul_inf_early, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -11045,7 +11045,7 @@ soldier          bul_guard_early, 30, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         40, 0, quality_early_arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         40, 0, rifled_musket_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -11079,7 +11079,7 @@ officer          fuhan_general
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         37, 4, quality_hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 4, musket_bullet_c, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -11115,7 +11115,7 @@ mount_effect     elephant -4, horse +4
 attributes       sea_faring, hardy, can_withdraw, guncavalry, stakes, gunmen, gunpowder_unit, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, camel_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, harquebus_bullet_c, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -11149,7 +11149,7 @@ soldier          buk_guard, 30, 0, 0.9
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, stakes, hide_long_grass
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -11181,7 +11181,7 @@ soldier          ghulja_inf, 30, 0, 1.3
 attributes       sea_faring, hide_improved_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -11287,7 +11287,7 @@ soldier          turkmen_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         37, 1, quality_hand_gun_bullet, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         37, 1, musket_bullet_c, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -11321,7 +11321,7 @@ officer          fuhan_general
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -11354,7 +11354,7 @@ officer          fuhan_general
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         19, 4, arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         19, 4, rifle_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -11389,7 +11389,7 @@ attributes       sea_faring, frighten_mounted, can_withdraw, affected_by_rain, w
 move_speed_mod   0.01
 formation        2, 12, 4, 14, 1, square
 stat_health      1, 3
-stat_pri         43, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         43, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 0, 1
 stat_sec_attr    no
@@ -11561,7 +11561,7 @@ soldier          rajput_snipers,30, 0, 1.3
 attributes       sea_faring, hide_improved_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -11595,7 +11595,7 @@ soldier          indian_new_musk, 40, 0, 1, 0.35, 1.6
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, gunpowder_unit, stakes, gunmen, affected_by_rain
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1
-stat_pri         37, 1, hand_gun_bullet, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 1, arquebus_bullet_b, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, -25, 0.2
 stat_sec_attr    no
@@ -11627,7 +11627,7 @@ officer          yindujunguan
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, musket_bullet_c, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_sec_attr    ap, short_pike
@@ -11693,7 +11693,7 @@ soldier          sikh_warriors, 40, 0, 0.9
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         28, 0, blunderbuss_shot, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, musket_carbine_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -11725,7 +11725,7 @@ soldier          sikh_warriors, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, mercenary_unit, stakes
 formation        1.0, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -11793,7 +11793,7 @@ mount_effect     horse +4, camel +2
 attributes       sea_faring, can_withdraw, can_run_amok, frighten_foot, frighten_mounted, gunpowder_unit
 formation        6, 4, 12, 10, 2, horde
 stat_health      1, 3
-stat_pri         37, 1, quality_hand_gun_bullet, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 1, musket_bullet_c, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         15, 8, no, 0, 0, melee, melee_simple, piercing, none, 25, 1
 stat_sec_attr    area, launching, ap
@@ -11858,7 +11858,7 @@ soldier          india_militia, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         43, 0, hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         43, 0, arquebus_bullet_b, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -11900,7 +11900,7 @@ mount_effect     horse +4, camel +2
 attributes       sea_faring, can_withdraw, can_run_amok, frighten_foot, frighten_mounted, gunpowder_unit
 formation        6, 4, 12, 10, 2, horde
 stat_health      1, 3
-stat_pri         37, 1, quality_hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 1, musket_bullet_c, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         15, 8, no, 0, 0, melee, melee_simple, piercing, none, 25, 1
 stat_sec_attr    area, launching, ap
@@ -11930,7 +11930,7 @@ soldier          fra_vietna, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         20, 0, arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         20, 0, rifle_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -11962,7 +11962,7 @@ soldier          siam_sea, 40, 0, 1.2
 attributes       sea_faring, hide_forest, gunpowder_unit, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -11994,7 +11994,7 @@ soldier          siam_late_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         28, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -12026,7 +12026,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunmen,start_not_skirmishing, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         28, 2, mounted_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         28, 2, musket_carbine_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -12057,7 +12057,7 @@ soldier          siam_agent, 40, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -12089,7 +12089,7 @@ soldier          viet_inf, 40, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, musket_bullet_c, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 4, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -12123,7 +12123,7 @@ officer          siam_inf
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen,start_not_skirmishing, cannot_skirmish, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, musket_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifle_bullet_a, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -12216,7 +12216,7 @@ soldier          burmese_inf, 30, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, rifled_musket_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 4, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -12285,7 +12285,7 @@ soldier          qing_ww1_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         43, 0, hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         43, 0, arquebus_bullet_b, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap, launching
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -12316,7 +12316,7 @@ soldier          qing_gunners, 30, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         30, 0, blunderbuss_shot, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 0, musket_carbine_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
@@ -12348,7 +12348,7 @@ soldier          qing_vets, 40, 0, 1
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -12513,7 +12513,7 @@ soldier          mongol_inf, 40, 0, 1
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -12545,7 +12545,7 @@ soldier          qing_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         13, 0, arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         13, 0, rifle_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -12576,7 +12576,7 @@ soldier          qing_inf_upg, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -12609,7 +12609,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         13, 2, mounted_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         13, 2, musket_carbine_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -12751,7 +12751,7 @@ officer          xuanzuduizhang
 attributes       sea_faring, hide_forest,start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         30, 0, blunderbuss_shot, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 0, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -12786,7 +12786,7 @@ officer          xuanzuduizhang
 attributes       sea_faring, hide_forest, gunpowder_unit, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -12817,7 +12817,7 @@ soldier          sho_light_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.3
@@ -12884,7 +12884,7 @@ soldier          sho_ashigaru, 40, 0, 1, 0.35, 1.6
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, stakes, gunpowder_unit, gunmen, stakes, affected_by_rain
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1
-stat_pri         37, 1, quality_hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 1, musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, -25, 0.2
 stat_sec_attr    no
@@ -12914,7 +12914,7 @@ soldier          sho_ashigaru, 40, 0, 1, 0.35, 1.6
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, stakes, gunpowder_unit, gunmen, stakes, affected_by_rain, mercenary_unit
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1
-stat_pri         37, 1, quality_hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 1, musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, -25, 0.2
 stat_sec_attr    no
@@ -13006,7 +13006,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         11, 2, musket_bullet, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         11, 2, rifle_bullet_a, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap, prec
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -13039,7 +13039,7 @@ soldier          sho_sam, 40, 0, 1
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen,stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         43, 0, hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         43, 0, arquebus_bullet_b, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
 stat_sec_attr    no
@@ -13128,7 +13128,7 @@ soldier          sho_spear_inf, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 2, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
@@ -13160,7 +13160,7 @@ soldier          jap_ww1_inf, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         30, 0, arquebus_bullet, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 0, rifle_bullet_b, 250, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         8, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
 stat_sec_attr    ap, short_pike
@@ -13226,7 +13226,7 @@ soldier          jap_militia, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
@@ -13294,7 +13294,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, guncavalry, gunmen, gunpowder_unit, start_not_skirmishing, hide_forest, stakes
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         24, 2, mounted_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         24, 2, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -13328,7 +13328,7 @@ soldier          jap_bear_militia, 30, 0, 1.3
 attributes       sea_faring, hide_improved_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -13391,7 +13391,7 @@ soldier          jap_guard, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         13, 0, arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri         13, 0, rifle_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.3
@@ -13423,7 +13423,7 @@ soldier          jap_gas, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         10, 0, musket_bullet, 290, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         10, 0, rifle_bullet_a, 290, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.3
@@ -13453,7 +13453,7 @@ soldier          jap_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.3
@@ -13564,7 +13564,7 @@ officer          otto_inf
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, quality_early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
@@ -13596,7 +13596,7 @@ officer          otto_inf
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, mercenary_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, quality_early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
@@ -13628,7 +13628,7 @@ soldier          csa_volunteers, 40, 0, 1.2
 attributes       sea_faring, hide_forest, gunmen, start_not_skirmishing, mercenary_unit, stakes, can_withdraw
 formation        1.2, 1.4, 2.4, 2.8, 3, square
 stat_health      1, 0
-stat_pri         28, 0, arquebus_bullet, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifle_bullet_b, 260, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -13661,7 +13661,7 @@ mount_effect     horse +6
 attributes       sea_faring, hide_forest, hardy, fire_by_rank，start_not_skirmishing, gunmen, stakes, stakes
 formation        1.0, 1.2, 1.0, 1.2, 2, square, shield_wall
 stat_health      1, 0
-stat_pri         19, 0, flintlock_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         19, 0, magazine_rifle_bullet_s, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         12, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -13695,7 +13695,7 @@ soldier          german_asia, 30, 0, 1.3
 attributes       sea_faring, hide_improved_forest, stakes, can_withdraw, gunpowder_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
@@ -13728,7 +13728,7 @@ soldier          crusade_mercs, 40, 0, 1.2
 attributes       sea_faring, hide_forest, hardy,start_not_skirmishing, cannot_skirmish, gunmen, stakes, mercenary_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         30, 0, blunderbuss_shot, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 0, musket_carbine_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -13792,7 +13792,7 @@ soldier          otto_arab_brig, 50, 0, 1.3
 attributes       sea_faring, hide_forest, hardy, fire_by_rank,start_not_skirmishing, cannot_skirmish 
 formation        1.2, 1.2, 2.4, 2.4, 4,horde
 stat_health      1, 0
-stat_pri         18, 0, flintlock_bullet, 200, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         18, 0, magazine_rifle_bullet_s, 200, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         10, 6, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
@@ -13891,7 +13891,7 @@ soldier          fra_inf_sc, 40, 0, 1.3
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, mercenary_unit, stakes, can_withdraw
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -13920,7 +13920,7 @@ soldier          fra_inf_sc, 40, 0, 1.3
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, mercenary_unit, stakes, can_withdraw
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -13978,7 +13978,7 @@ soldier          arab_brigade, 40, 0, 1, 0.35, 1.6
 attributes       sea_faring, hide_forest, can_withdraw, start_not_skirmishing, gunpowder_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 1
-stat_pri         37, 0, quality_hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, -25, 0.2
 stat_sec_attr    no
@@ -14005,7 +14005,7 @@ soldier          india_light_musk, 30, 0, 1, 0.35, 1.6
 attributes       sea_faring, hide_improved_forest, can_withdraw, start_not_skirmishing, gunpowder_unit, gunmen, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1
-stat_pri         37, 1, quality_hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 1, musket_bullet_c, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, -25, 0.2
 stat_sec_attr    no
@@ -14035,7 +14035,7 @@ soldier          it_chasseurs, 20, 0, 1.3
 attributes       sea_faring, hide_forest, hardy,start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 2.4, 2.4, 4, horde
 stat_health      1, 0
-stat_pri         23, 0, musket_bullet, 220, 10, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         23, 0, rifle_bullet_a, 220, 10, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap,bp,area
 stat_sec         7, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -14228,7 +14228,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, start_not_skirmishing, gunmen, stakes, guncavalry, hide_forest, mercenary_unit, gunpowder_unit
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         26, 2, mounted_arquebus_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         26, 2, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -14258,7 +14258,7 @@ soldier          korean_rifles, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         28, 0, blunderbuss_shot, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, musket_carbine_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -14291,7 +14291,7 @@ soldier          korean_rifles, 40, 0, 1.3
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square 
 stat_health      1, 0
-stat_pri         28, 0, blunderbuss_shot, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, musket_carbine_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -14356,7 +14356,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, mercenary_unit, stakes, gunpowder_unit
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         28, 2, mounted_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         28, 2, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -14391,7 +14391,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, mercenary_unit, stakes, gunpowder_unit
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         28, 2, mounted_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         28, 2, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -14480,7 +14480,7 @@ soldier          taipinggunner, 40, 0, 1
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -14633,7 +14633,7 @@ soldier          aceh_marines, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, mercenary_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, musket_bullet_c, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -14664,7 +14664,7 @@ soldier          aceh_noble, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, mercenary_unit, stakes, gunpowder_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -14693,7 +14693,7 @@ soldier          aceh_reg, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, mercenary_unit, gunpowder_unit, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -14860,7 +14860,7 @@ officer          russia_qi
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit,gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
@@ -14919,7 +14919,7 @@ soldier          tib_inf, 40, 0, 1
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -14951,7 +14951,7 @@ soldier          tib_inf, 40, 0, 1
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen, mercenary_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 1, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -15011,7 +15011,7 @@ soldier          tib_roy_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, gunpowder_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         43, 0, hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         43, 0, arquebus_bullet_b, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap, launching
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -15074,7 +15074,7 @@ soldier          burmese_inf, 30, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, mercenary_unit ,stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, rifled_musket_bullet_c, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -15108,7 +15108,7 @@ soldier          viet_early_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, mercenary_unit, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 1, hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 1, arquebus_bullet_b, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    no
 stat_sec         4, 4, no, 0, 0, melee, melee_simple, piercing, knife, 25, 1
 stat_sec_attr    no
@@ -15135,7 +15135,7 @@ soldier          siam_agent, 40, 0, 0.8
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes, mercenary_unit
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -15198,7 +15198,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, gunmen, mercenary_unit, stakes, gunpowder_unit, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         24, 2, quality_mounted_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         24, 2, musket_carbine_bullet_b, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -15291,7 +15291,7 @@ soldier          maori_musketeers, 30, 0, 1.3
 attributes       sea_faring, hide_long_grass, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
 stat_sec_attr    no
@@ -15319,7 +15319,7 @@ soldier          maori_musketeers, 30, 0, 1.3
 attributes       sea_faring, hide_long_grass, gunpowder_unit, gunmen, start_not_skirmishing, mercenary_unit, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
 stat_sec_attr    no
@@ -15562,7 +15562,7 @@ soldier          uk_sailor, 40, 0, 1.2
 attributes       sea_faring, hide_forest, gunpowder_unit, start_not_skirmishing, cannot_skirmish, gunmen, mercenary_unit, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -15630,7 +15630,7 @@ soldier          kashgar_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, musket_bullet_c, 180, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -15661,7 +15661,7 @@ soldier          fra_blacks, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, quality_hand_gun_bullet, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, musket_bullet_c, 170, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -15691,7 +15691,7 @@ soldier          arab_sailors, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, mercenary_unit, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         32, 0, arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         32, 0, rifle_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -15725,7 +15725,7 @@ soldier          para_foot, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         38, 0, quality_hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         38, 0, musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -15754,7 +15754,7 @@ soldier          para_foot, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, mercenary_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         38, 0, quality_hand_gun_bullet, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         38, 0, musket_bullet_c, 200, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -15785,7 +15785,7 @@ soldier          kaz_inf, 40, 0, 1
 attributes       sea_faring, hide_long_grass, gunpowder_unit, gunmen, start_not_skirmishing, stakes, mercenary_unit
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -15817,7 +15817,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, stakes, gunmen, mercenary_unit, gunpowder_unit
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 0, hand_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 0, arquebus_bullet_b, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -15847,7 +15847,7 @@ soldier          fra_blacks, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, mercenary_unit, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square 
 stat_health      1, 0
-stat_pri         32, 0, arquebus_bullet, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         32, 0, rifle_bullet_b, 240, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, axe, 25, 1
@@ -15880,7 +15880,7 @@ soldier          polish_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         30, 0, blunderbuss_shot, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 0, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -15909,7 +15909,7 @@ soldier          polish_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, mercenary_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         30, 0, blunderbuss_shot, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         30, 0, musket_carbine_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -15939,7 +15939,7 @@ soldier          bulgarian_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, start_not_skirmishing, gunpowder_unit, gunmen, stakes, mercenary_unit, slave
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         26, 0, early_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         26, 0, rifled_musket_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
@@ -15969,7 +15969,7 @@ soldier          aus_inf_sp, 40, 0, 0.8
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, mercenary_unit, stakes
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         28, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         28, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
@@ -15999,7 +15999,7 @@ soldier          otto_inf, 30, 0, 1.3
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 1, quality_hand_gun_bullet, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         37, 1, musket_bullet_c, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -16089,7 +16089,7 @@ mount_effect     elephant -4, horse +4
 attributes       sea_faring, hide_forest, can_withdraw, cantabrian_circle, affected_by_rain, general_unit, guncavalry, gunpowder_unit, frighten_mounted, stakes
 formation        2.0, 2, 4, 4, 3, square
 stat_health      1
-stat_pri         37, 2, camel_gun_bullet, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         37, 2, harquebus_bullet_c, 160, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 stat_pri_attr    ap
 stat_sec         5, 2, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -16154,7 +16154,7 @@ soldier          Cavalerie_Carolineer, 40, 0, 1
 attributes       sea_faring, hide_forest,gunpowder_unit,gunmen
 formation        1.0, 1.2, 1.0, 1.2, 2, square
 stat_health      1, 0
-stat_pri         16, 0, musket_bullet, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         16, 0, rifle_bullet_a, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         9, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 0.4
@@ -16224,7 +16224,7 @@ soldier          georgian_inf, 40, 0, 1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, mercenary_unit, stakes
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         37, 1, quality_hand_gun_bullet, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         37, 1, musket_bullet_c, 190, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -16256,7 +16256,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, hardy, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, gunmen, mercenary_unit, stakes, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 2, mounted_arquebus_bullet, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         37, 2, musket_carbine_bullet_c, 220, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -16286,7 +16286,7 @@ soldier          us_farmers, 30, 0, 1.2
 attributes       sea_faring, hide_forest, gunpowder_unit, gunmen, mercenary_unit, stakes
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         26, 0, quality_arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         26, 0, rifle_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         7, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -16318,7 +16318,7 @@ soldier          apache_inf, 30, 0, 1
 attributes       sea_faring, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, stakes, hardy, mercenary_unit, hide_long_grass
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 1, quality_early_arquebus_bullet, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         37, 1, rifled_musket_bullet_b, 270, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -16348,7 +16348,7 @@ soldier          serb_inf, 40, 0, 1.2
 attributes       sea_faring, hide_forest, start_not_skirmishing, cannot_skirmish, gunmen, mercenary_unit, stakes, gunpowder_unit
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, early_arquebus_bullet, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 210, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -16418,7 +16418,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, start_not_skirmishing, gunmen, stakes, guncavalry, hide_forest
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         15, 2, mounted_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         15, 2, musket_carbine_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
@@ -16452,7 +16452,7 @@ soldier          us_farmers, 40, 0, 1.2
 attributes       sea_faring, hide_forest, gunmen, stakes
 formation        1.2, 1.4, 2.4, 2.8, 3, square
 stat_health      1, 0
-stat_pri         22, 0, early_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         22, 0, rifled_musket_bullet_c, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 20
 stat_pri_attr    ap
 stat_sec         6, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -16488,7 +16488,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, hide_forest, stakes
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         20, 2, quality_mounted_arquebus_bullet, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri         20, 2, musket_carbine_bullet_b, 230, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
 stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
