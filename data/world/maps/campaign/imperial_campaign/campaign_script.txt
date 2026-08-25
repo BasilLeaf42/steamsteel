@@ -3918,6 +3918,169 @@ script
         terminate_monitor	; this makes it so the game ignores this script after it fired, good for performance
     end_monitor	
 
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;			Russian Overextension		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ; Russia starts with ~20-21 settlements. As it grows well beyond that,
+    ; the sheer scale of the empire outstrips its administrative and logistical
+    ; capacity. Each stage fires once, escalating in severity. Uses settlement
+    ; turmoil + treasury drain (which can't just be "mowed down" militarily)
+    ; alongside a rebel army for visible, narrative weight.
+    ; NOTE: russian_overextension_1/2/3/4 need matching entries in historic_events.txt
+
+    ; --- Stage 1: 26+ settlements ---
+
+    monitor_event FactionTurnStart FactionType russia
+        and I_NumberOfSettlements russia >= 26
+
+        historic_event russian_overextension_1 factions { russia, }
+
+        add_settlement_turmoil "St Petersburg" 8
+        console_command add_money russia, -2000
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Stage 2: 31+ settlements ---
+
+    monitor_event FactionTurnStart FactionType russia
+        and I_NumberOfSettlements russia >= 31
+
+        historic_event russian_overextension_2 factions { russia, }
+
+        add_settlement_turmoil "St Petersburg" 10
+        add_settlement_turmoil Moscow 10
+        console_command add_money russia, -3500
+
+        spawn_army
+            faction slave, sub_faction russia
+            character	random_name, named character, age 35, x 280, y 280, label overext_army_1
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+        end
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Stage 3: 36+ settlements ---
+
+    monitor_event FactionTurnStart FactionType russia
+        and I_NumberOfSettlements russia >= 36
+
+        historic_event russian_overextension_3 factions { russia, }
+
+        add_settlement_turmoil "St Petersburg" 12
+        add_settlement_turmoil Moscow 12
+        add_settlement_turmoil Kiev 12
+        console_command add_money russia, -5000
+
+        spawn_army
+            faction slave, sub_faction russia
+            character	random_name, named character, age 35, x 278, y 302, label overext_army_2
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction slave, sub_faction russia
+            character	random_name, named character, age 35, x 286, y 269, label overext_army_3
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+        end
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Stage 4: 41+ settlements ---
+
+    monitor_event FactionTurnStart FactionType russia
+        and I_NumberOfSettlements russia >= 41
+
+        historic_event russian_overextension_4 factions { russia, }
+
+        add_settlement_turmoil "St Petersburg" 15
+        add_settlement_turmoil Moscow 15
+        add_settlement_turmoil Kiev 15
+        add_settlement_turmoil Kazan 15
+        console_command add_money russia, -8000
+
+        spawn_army
+            faction slave, sub_faction russia
+            character	random_name, named character, age 35, x 280, y 280, label overext_army_4
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction slave, sub_faction russia
+            character	random_name, named character, age 35, x 278, y 302, label overext_army_5
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction slave, sub_faction russia
+            character	random_name, named character, age 35, x 286, y 269, label overext_army_6
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+        end
+
+        terminate_monitor
+    end_monitor
+
+
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;;;;;;;;;;;;;			Bolshevik Revolution		;;;;;;;;;;;;;;;;;;;;;;;

@@ -3247,7 +3247,7 @@ unit		cog				exp 4 armour 1  weapon_lvl 0
 unit		cog				exp 4 armour 1  weapon_lvl 0
 
 
-faction	scotland, balanced henry
+faction	scotland, balanced stalin
 ai_label		 catholic
 denari 3000
 denari_kings_purse	0
@@ -3572,7 +3572,7 @@ unit		cog				exp 1 armour 0 weapon_lvl 0
 unit		cog				exp 1 armour 0 weapon_lvl 0
 
 ;Boers
-faction	teu, bureaucrat genghis
+faction	teu, bureaucrat stalin
 ai_label	judaism
 denari	2000
 denari_kings_purse	0
@@ -3725,7 +3725,7 @@ army
 unit		us_farmers				exp 0 armour 0 weapon_lvl 0
 
 ;Sweden Norway
-faction	normans, balanced smith
+faction	normans, craftsman stalin
 ai_label	judaism
 denari	4000
 denari_kings_purse	0
@@ -4036,7 +4036,7 @@ unit		cog				exp 1 armour 1 weapon_lvl 0
 unit		cog				exp 1 armour 0 weapon_lvl 0
 
 ;Prussia
-faction	hre, balanced stalin 
+faction	hre, bureaucrat stalin
 ai_label	pagan
 denari	6000
 denari_kings_purse	0
@@ -4410,7 +4410,7 @@ unit		cog				exp 1 armour 0 weapon_lvl 0
 unit		cog				exp 1 armour 0 weapon_lvl 0
 
 ;Peru
-faction	denmark, balanced smith
+faction	denmark, fortified smith
 ai_label    catholic
 denari	3000
 denari_kings_purse	0
@@ -4634,7 +4634,7 @@ unit		cog				exp 1 armour 0 weapon_lvl 0
 ;############# Catholic
 
 
-faction	france, balanced smith
+faction	france, balanced napoleon
 ai_label	catholic 
 denari	8000
 denari_kings_purse	0
@@ -5371,7 +5371,7 @@ unit		cog				exp 2 armour 1  weapon_lvl 0
 unit		cog				exp 2 armour 1  weapon_lvl 0
 
 
-faction	hungary, balanced smith
+faction	hungary, balanced stalin
 ai_label	pagan
 denari	6000
 denari_kings_purse	0
@@ -5939,7 +5939,7 @@ unit		cog				exp 3 armour 1 weapon_lvl 0
 unit		cog				exp 3 armour 1 weapon_lvl 0
 
 
-faction	venice, balanced smith
+faction	venice, trader smith
 ai_label	catholic 
 denari	4000
 denari_kings_purse	0
@@ -6274,7 +6274,7 @@ unit		cog				exp 1 armour 1 weapon_lvl 0
 unit		cog				exp 1 armour 1 weapon_lvl 0
 
 
-faction	spain, balanced smith
+faction	spain, balanced napoleon
 ai_label	catholic 
 denari	6000
 denari_kings_purse	0
@@ -6886,7 +6886,7 @@ unit		cog				exp 1 armour 0 weapon_lvl 0
 unit		cog				exp 1 armour 0 weapon_lvl 0
 
 
-faction	portugala, balanced smith
+faction	portugala, balanced stalin
 ai_label		 protestant 
 denari	6000
 denari_kings_purse	0
@@ -7824,7 +7824,7 @@ unit		ship_steam_corvette		exp 2 armour 0 weapon_lvl 0
 unit		cog		exp 2 armour 0 weapon_lvl 0
 
 
-faction	poland, balanced smith
+faction	poland, balanced stalin
 ai_label		 catholic 
 denari	4000
 denari_kings_purse	0
@@ -8132,7 +8132,7 @@ character_record		Eva, 	female, age 70, alive, never_a_leader
 relative 	Pedro, 	Eva,	Pedro Augusto, Fernanado Codax, end
 
 
-faction	papal_states, balanced smith
+faction	papal_states, trader napoleon
 ai_label		hindu
 denari	3000
 denari_kings_purse	0
@@ -8220,7 +8220,7 @@ unit		sho_mod_cav				exp 0 armour 0 weapon_lvl 0
 
 ;############# Orthodox
 
-faction	russia, balanced smith
+faction	russia, comfort henry
 ai_label	orthodox 
 denari	6000
 denari_kings_purse	0
@@ -10200,7 +10200,7 @@ character_record		Farzana, 	female, age 50, alive, 3, never_a_leader
 relative	Muhammad Khan,	Farzana,	Arslan Khan,	end
 
 ;Indian Principalities
-faction	bulga, trader mao
+faction	bulga, trader napoleon
 ai_label	shia
 denari	8000
 denari_kings_purse	0
@@ -10347,7 +10347,7 @@ character_record		Lakshmi, 	female, age 50, alive, never_a_leader
 relative	Sher Ali,	Lakshmi,	Ajavapal Ali,	end
 
 
-faction	moors, trader mao
+faction	moors, trader saladin
 ai_label	islam 
 denari	 2000
 denari_kings_purse	0
@@ -10512,7 +10512,7 @@ character_record		Saheena, 	female, age 55, alive, never_a_leader
 relative 	Muhammad Al_Hasan,	Saheena,	Abdallah Al_Hasan,	end
 
 ;Ottoman
-faction	turks, trader smith
+faction	turks, trader stalin
 ai_label	islam 
 denari	6000
 denari_kings_purse	0
@@ -11548,7 +11548,7 @@ unit		ship_sail_corvette				exp 0 armour 0 weapon_lvl 0
 unit		cog				exp 0 armour 1 weapon_lvl 0
 
 
-faction	egypt, trader smith
+faction	egypt, trader napoleon
 ai_label	islam
 denari	3000
 denari_kings_purse	0
@@ -11868,7 +11868,7 @@ character_record		Melike, 	female, age 58, alive, 3, never_a_leader
 relative 	Nasir ad_Din,	Melike,	Mustafa ad_Din, Mehmed ad_Din, Bayezid ad_Din, end
 
 
-faction	lith, trader mao
+faction	lith, trader wyvadslaw
 ai_label	shia
 denari	2000
 denari_kings_purse	200
@@ -12087,7 +12087,7 @@ character_record		Maidar, 	female, age 51, alive, never_a_leader
 relative	Muhammad Khan,	Maidar,	Khodhun Khan,	end
 
 
-faction	golden, sailor smith
+faction	golden, trader genghis
 ai_label	islam
 denari	2000
 denari_kings_purse	0
@@ -12291,7 +12291,7 @@ character_record		Anya, 	female, age 50, dead 5, never_a_leader
 relative 	Barghash bin_Said,	Anya,	Thuwaini bin_Said,	end
 
 
-faction	portugal, sailor smith
+faction	portugal, sailor napoleon
 ai_label	judaism
 denari	4000
 denari_kings_purse	0
@@ -12607,7 +12607,7 @@ unit		ship_sail_corvette				exp 2 armour 1 weapon_lvl 0
 unit		cog				exp 2 armour 1 weapon_lvl 0
 unit		cog				exp 2 armour 1 weapon_lvl 0
 
-faction	sicily, balanced smith
+faction	sicily, balanced napoleon
 ai_label	judaism
 denari	3000
 denari_kings_purse	0
@@ -12765,7 +12765,7 @@ unit		cog				exp 3 armour 1 weapon_lvl 0
 
 ;############# Buddist
 
-faction	byzantium, trader mao
+faction	byzantium, trader stalin
 ai_label	buddist
 denari	6000
 denari_kings_purse	0
@@ -13681,7 +13681,7 @@ unit		merc galley				exp 0 armour 1 weapon_lvl 0
 unit		turtle ship				exp 0 armour 0 weapon_lvl 0
 
 
-faction	milan, balanced smith
+faction	milan, balanced stalin
 ai_label	protestant
 denari	3000
 denari_kings_purse	0
@@ -14181,7 +14181,7 @@ unit		cog		exp 2 armour 1 weapon_lvl 0
 unit		merc galley		exp 2 armour 0 weapon_lvl 0
 
 
-faction	mongols, balanced smith
+faction	mongols, balanced napoleon
 ai_label	judaism
 denari	2000
 denari_kings_purse	0
@@ -14322,7 +14322,7 @@ character_record		Aspasia, 	female, age 50, dead 5, never_a_leader
 relative 	Otto Friedrich, 	Aspasia,		George,	end
 
 
-faction	cru, trader smith
+faction	cru, trader napoleon
 ai_label	buddist
 denari	2400
 denari_kings_purse	0
@@ -14478,7 +14478,7 @@ character_record		Sawatdirat, 	female, age 52, alive, never_a_leader
 relative	Mongkut,	Sawatdirat,	Chulalongkorn,	end
 
 
-faction	aztecs, trader smith
+faction	aztecs, trader henry
 ai_label	catholic
 denari	3000
 denari_kings_purse	0
@@ -14611,7 +14611,7 @@ unit		ship_sail_corvette				exp 1 armour 0 weapon_lvl 0
 unit		cog				exp 1 armour 0 weapon_lvl 0
 
 
-faction	saxons, trader smith
+faction	saxons, trader stalin
 ai_label		hindu
 denari	5000
 denari_kings_purse	0
