@@ -16471,3 +16471,222 @@ stat_food        60, 300
 stat_cost        2, 1300, 325, 500, 500, 1300, 2, 325
 ownership        slave
 
+; ============================================================================
+; AIRSHIP UNITS — moved from Steamsteel; not enabled for recruitment
+; ============================================================================
+
+type             air_reg_3g 
+dictionary       air_reg_3g ; airship
+category         cavalry
+class            missile
+voice_type       heavy
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_serpentine
+mount            airship_ironsides
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
+formation        7, 21, 23, 26, 4, square
+stat_health      9, 9
+stat_pri         11, 3, ribault_shot_traced, 400, 900, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         20, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    area, launching, ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      100, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        3, 5000, 500, 400, 400, 3000, 1, 680
+ownership        all
+era 2            all
+
+
+type             air_bmb_1g 
+dictionary       air_bmb_1g ; Aerial Bomber Airship
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_carolina_bomber
+mount            airship_carolina
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
+formation        7, 21, 23, 26, 4, square
+stat_health      10, 10
+stat_pri         14, 4, fire_mag_meteor, 420, 1000, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      95, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        4, 6000, 600, 450, 450, 4000, 1, 800
+ownership        all
+era 2            all
+
+type             air_fir_3g 
+dictionary       air_fir_3g ; Fire Sprayer Airship (PLACEHOLDER - close-range incendiary)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_serpentine
+mount            airship_virginia
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
+formation        7, 21, 23, 26, 4, square
+stat_health      7, 7
+stat_pri         6, 2, flamers_fire, 150, 600, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      85, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        3, 4200, 450, 350, 350, 2800, 1, 600
+ownership        all
+era 2            all
+
+
+type             air_hvy_3g 
+dictionary       air_hvy_3g ; Heavy Juggernaut Airship (PLACEHOLDER - slow, devastating single gun)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_serpentine
+mount            airship_monitor
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
+formation        7, 21, 23, 26, 4, square
+stat_health      14, 14
+stat_pri         18, 5, howitzer_shot, 450, 1200, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      100, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        4, 7000, 700, 500, 500, 4500, 1, 900
+ownership        all
+era 2            all
+
+
+
+type             air_lgt_1g 
+dictionary       air_lgt_1g ; Scout Airship (light, fast-firing)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_serpentine
+mount            airship_junk
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit
+formation        7, 21, 23, 26, 4, square
+stat_health      6, 6
+stat_pri         8, 3, ribault_shot, 350, 700, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      80, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        2, 3000, 350, 300, 300, 2000, 1, 500
+ownership        all
+era 2            all
+
+
+type             air_reg_1g 
+dictionary       air_reg_1g ; airship
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 English
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          no_soldier, 4, 1, 1
+mounted_engine   airship_serpentine
+mount            airship_air_reg_1g
+mount_effect     horse +4, camel +2
+attributes       free_upkeep_unit, sea_faring, can_swim, hide_forest, can_withdraw, frighten_foot, frighten_mounted, cantabrian_circle, gunpowder_unit, mercenary_unit 
+formation        7, 21, 23, 26, 4, square
+stat_health      9, 9
+stat_pri         11, 3, ribault_shot_traced, 400, 900, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp, area, thrown
+stat_sec         20, 8, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    area, launching, ap
+stat_pri_armour  5, 5, 0, metal
+stat_sec_armour  13, 3, flesh
+stat_heat        1
+stat_ground      0, 2, -4, -4
+stat_mental      100, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        100, 500
+stat_cost        3, 5000, 500, 400, 400, 3000, 1, 680
+ownership        all
+era 2            all
+
+
+
+
+
+
+;################ korea
+
+
+; ============================================================================
+; Mercenary / unowned (unowned) — infantry and cavalry
+; ============================================================================
+
+

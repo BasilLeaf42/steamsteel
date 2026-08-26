@@ -18,7 +18,7 @@ xcopy %M7TW%\campaign\camp_steamsteel %M7TW%\campaign\imperial_campaign /r /y /q
 :Start
 cd ..\..
 IF EXIST M2EX.exe (
-start "" M2EX.exe --io.file_first --features.mod=mods/steamsteel) ELSE (
+start "" M2EX.exe --features.mod=mods/steamsteel) ELSE (
     echo ERROR: Cannot find the M2TW or Kingdoms executable.
     echo Steam and Steel may be installed into the wrong folder.
 )

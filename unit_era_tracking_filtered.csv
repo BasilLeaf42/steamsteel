@@ -218,11 +218,11 @@ Oman,golden,otto_cav,otto_cav,"Sultan's Horse Guard (Carbine, Pattern 1851 Minie
 Morocco,moors,africa_cav,africa_cav,African Cavalry,cavalry,Yes,Yes,Yes
 Oman,golden,africa_cav,africa_cav,African Cavalry,cavalry,Yes,Yes,Yes
 Zulu,lith,africa_cav,africa_cav,African Cavalry,cavalry,Yes,Yes,Yes
-Tokugawa,papal_states,africa_cav,africa_cav,African Cavalry,cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,africa_cav,africa_cav,African Cavalry,cavalry,Yes,Yes,Yes
 Morocco,moors,african_warband,african_warband,African Warband,infantry,Yes,Yes,Yes
 Zulu,lith,african_warband,african_warband,African Warband,infantry,Yes,Yes,Yes
 Oman,golden,african_warband,african_warband,African Warband,infantry,Yes,Yes,Yes
-Tokugawa,papal_states,african_warband,african_warband,African Warband,infantry,Yes,Yes,Yes
+Ethiopia,papal_states,african_warband,african_warband,African Warband,infantry,Yes,Yes,Yes
 Boers,teu,csa_volunteers_te,csa_volunteers_te,"Boer Kommando (Magazine Rifle, Mauser Model 1895 'Boer')",infantry,No,No,Yes
 Boers,teu,csa_lancer_te,csa_lancer_te,Boer General and Staff,cavalry,Yes,Yes,Yes
 Boers,teu,boer_wagon,boer_wagon,"Laager (Rifle-Musket, Pattern 1853 Enfield)",cavalry,Yes,Yes,Yes
@@ -491,7 +491,7 @@ Qing,byzantium,tib_roy_inf,tib_roy_inf,Tibetan Noble Infantry (Gingal),infantry,
 Turkestan,cuman,tib_roy_inf,tib_roy_inf,Tibetan Noble Infantry (Gingal),infantry,Yes,Yes,Yes
 Ottoman,turks,mahdist_inf,mahdist_inf,Mahdist Warriors,infantry,Yes,Yes,Yes
 Oman,golden,mahdist_inf,mahdist_inf,Mahdist Warriors,infantry,Yes,Yes,Yes
-Tokugawa,papal_states,mahdist_inf,mahdist_inf,Mahdist Warriors,infantry,Yes,Yes,Yes
+Ethiopia,papal_states,mahdist_inf,mahdist_inf,Mahdist Warriors,infantry,Yes,Yes,Yes
 Britain,england,merc_burmese_inf,merc_burmese_inf,"Burmese Irregulars (Rifle-Musket, Fusil Minie)",infantry,Yes,Yes,Yes
 Britain,england,merc_indian_fanatic,merc_indian_fanatic,Akali Warriors,infantry,Yes,No,No
 Union,portugala,merc_ap_front_cav,merc_ap_front_cav,"Indian Scout Cavalry (Carbine, Spencer M1860)",cavalry,Yes,Yes,Yes
@@ -513,10 +513,10 @@ Qing,byzantium,merc_kashgar_inf,merc_kashgar_inf,"Kashgar Musketeers (Musket, M-
 Turkestan,cuman,merc_kashgar_inf,merc_kashgar_inf,"Kashgar Musketeers (Musket, M-1844 Mod. Percussion)",infantry,Yes,Yes,Yes
 Ottoman,turks,fra_blacks_az,fra_blacks_az,"Dervishes (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,No,Yes
 Oman,golden,fra_blacks_az,fra_blacks_az,"Dervishes (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,No,Yes
-Tokugawa,papal_states,fra_blacks_az,fra_blacks_az,"Dervishes (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,No,Yes
-Tokugawa,papal_states,fra_blacks_ab,fra_blacks_ab,"Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
-Tokugawa,papal_states,merc_viet_early_inf,merc_viet_early_inf,unused,infantry,Yes,Yes,Yes
-Tokugawa,papal_states,ethiopian_warband,ethiopian_warband,Ethiopian Warband,infantry,No,Yes,Yes
+Ethiopia,papal_states,fra_blacks_az,fra_blacks_az,"Dervishes (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,No,Yes
+Ethiopia,papal_states,fra_blacks_ab,fra_blacks_ab,"Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
+Ethiopia,papal_states,merc_viet_early_inf,merc_viet_early_inf,unused,infantry,Yes,Yes,Yes
+Ethiopia,papal_states,ethiopian_warband,ethiopian_warband,Ethiopian Warband,infantry,No,Yes,Yes
 Britain,england,merc_arab_sailors,merc_arab_sailors,"Khedival Infantry (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,Yes,Yes
 Ottoman,turks,merc_arab_sailors,merc_arab_sailors,"Khedival Infantry (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,Yes,Yes
 Morocco,moors,merc_arab_sailors,merc_arab_sailors,"Khedival Infantry (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,Yes,Yes
@@ -541,10 +541,10 @@ Spain,spain,merc_port_inf,merc_port_inf,"Portuguese Infantry (Rifle, Snider-Enfi
 Qing,byzantium,mercs_tib_monks,mercs_tib_monks,Warrior monks whose discipline and faith make them resolute defenders of Tibet.,infantry,Yes,Yes,Yes
 Ottoman,turks,mahdist_camel_cav,mahdist_camel_cav,Mahdist Camelry (Harquebus),cavalry,Yes,Yes,Yes
 Oman,golden,mahdist_camel_cav,mahdist_camel_cav,Mahdist Camelry (Harquebus),cavalry,Yes,Yes,Yes
-Tokugawa,papal_states,mahdist_camel_cav,mahdist_camel_cav,Mahdist Camelry (Harquebus),cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,mahdist_camel_cav,mahdist_camel_cav,Mahdist Camelry (Harquebus),cavalry,Yes,Yes,Yes
 Ottoman,turks,mahdist_cav,mahdist_cav,Mahdist Cavalry,cavalry,Yes,Yes,Yes
 Oman,golden,mahdist_cav,mahdist_cav,Mahdist Cavalry,cavalry,Yes,Yes,Yes
-Tokugawa,papal_states,mahdist_cav,mahdist_cav,Mahdist Cavalry,cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,mahdist_cav,mahdist_cav,Mahdist Cavalry,cavalry,Yes,Yes,Yes
 Qing,byzantium,oirat_cav,oirat_cav,Oirat Lancers,cavalry,Yes,Yes,Yes
 Russia,russia,oirat_cav,oirat_cav,Oirat Lancers,cavalry,Yes,Yes,Yes
 Russia,russia,merc_georgian_inf,merc_georgian_inf,"Georgian Mercenaries (Musket, M-1844 Mod. Percussion)",infantry,Yes,Yes,Yes
@@ -567,15 +567,15 @@ Confederates,milan,us_farmer_cav,us_farmer_cav,"Settler Cavalry (Carbine, Maynar
 Boers,teu,us_farmer_cav,us_farmer_cav,"Settler Cavalry (Carbine, Maynard M1858)",cavalry,Yes,Yes,Yes
 Boers,teu,us_farmers,us_farmers,"Rural Militia (Rifle, Remington Rolling Block)",infantry,Yes,Yes,No
 Confederates,milan,us_farmers,us_farmers,"Rural Militia (Rifle, Remington Rolling Block)",infantry,No,Yes,Yes
-Tokugawa,papal_states,aby_cav_1g,aby_cav_1g,African Cavalry,cavalry,Yes,Yes,Yes
-Tokugawa,papal_states,aby_cav_2g,aby_cav_2g,"Ethiopian Dragoons (Carbine, Mauser M1871)",cavalry,No,Yes,Yes
-Tokugawa,papal_states,aby_crb_3g,aby_crb_3g,"Ethiopian Dragoons (Carbine, Mauser M1871)",cavalry,No,Yes,Yes
-Tokugawa,papal_states,aby_grd_2g,aby_grd_2g,"Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)",cavalry,No,Yes,Yes
-Tokugawa,papal_states,aby_inf_2g,aby_inf_2g,"Ethiopian Rifles (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
-Tokugawa,papal_states,aby_nob_2g,aby_nob_2g,"Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
-Tokugawa,papal_states,aby_roy_1g,aby_roy_1g,African Cavalry,cavalry,Yes,Yes,Yes
-Tokugawa,papal_states,Ethiopia Sudanese Musketeers,Ethiopia_Sudanese_Musketeers,"Sudanese Musketeers (Flintlock musket, Kaskara and shield)",infantry,Yes,Yes,Yes
-Tokugawa,papal_states,Ethiopia Sudanese Warriors,Ethiopia_Sudanese_Warriors,Sudanese Warriors (Spear and shield),infantry,Yes,Yes,Yes
+Ethiopia,papal_states,aby_cav_1g,aby_cav_1g,African Cavalry,cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,aby_cav_2g,aby_cav_2g,"Ethiopian Dragoons (Carbine, Mauser M1871)",cavalry,No,Yes,Yes
+Ethiopia,papal_states,aby_crb_3g,aby_crb_3g,"Ethiopian Dragoons (Carbine, Mauser M1871)",cavalry,No,Yes,Yes
+Ethiopia,papal_states,aby_grd_2g,aby_grd_2g,"Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)",cavalry,No,Yes,Yes
+Ethiopia,papal_states,aby_inf_2g,aby_inf_2g,"Ethiopian Rifles (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
+Ethiopia,papal_states,aby_nob_2g,aby_nob_2g,"Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
+Ethiopia,papal_states,aby_roy_1g,aby_roy_1g,African Cavalry,cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,Ethiopia Sudanese Musketeers,Ethiopia_Sudanese_Musketeers,"Sudanese Musketeers (Flintlock musket, Kaskara and shield)",infantry,Yes,Yes,Yes
+Ethiopia,papal_states,Ethiopia Sudanese Warriors,Ethiopia_Sudanese_Warriors,Sudanese Warriors (Spear and shield),infantry,Yes,Yes,Yes
 Morocco,moors,Ethiopia Sudanese Warriors,Ethiopia_Sudanese_Warriors,Sudanese Warriors (Spear and shield),infantry,Yes,Yes,Yes
 Qing,byzantium,Korean Byeolgigun,Korean_Byeolgigun,"Byeolgigun (Snider-Enfield Mk.I, Bayonet)",infantry,No,No,Yes
 Meiji,saxons,Korean Byeolgigun,Korean_Byeolgigun,"Byeolgigun (Snider-Enfield Mk.I, Bayonet)",infantry,No,No,Yes
