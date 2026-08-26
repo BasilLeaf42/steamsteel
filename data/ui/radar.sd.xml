@@ -1,0 +1,6 @@
+<sprite_definitions version="7">
+  <page file="radarpage_01.tga" w="32" h="16">
+    <sprite name="RADAR_DOT" x="0" y="0" w="16" h="16" alpha="1"/>
+    <sprite name="RADAR_DOT_GENERAL" x="16" y="0" w="16" h="16" alpha="1"/>
+  </page>
+</sprite_definitions>

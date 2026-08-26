@@ -772,14 +772,14 @@ logo_index					FACTION_LOGO_SAXONS
 small_logo_index			SMALL_FACTION_LOGO_SAXONS
 triumph_value				5
 intro_movie					faction/minor.bik
-victory_movie				faction/england_win.bik
-defeat_movie				faction/england_lose.bik
-death_movie					faction/england_lose.bik
+victory_movie				faction/minor_win.bik
+defeat_movie				faction/minor_lose.bik
+death_movie					faction/minor_lose.bik
 custom_battle_availability	yes
 can_sap						no
 prefers_naval_invasions		yes
 can_have_princess			no
-has_family_tree				yes
+has_family_tree				teutonic
 can_build_siege_towers		no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

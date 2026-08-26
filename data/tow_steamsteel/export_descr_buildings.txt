@@ -499,12 +499,14 @@ building barracks
             capability
             {
 ;us
-	recruit_pool "berdan_inf"  0   0.01   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
-	recruit_pool "ap_front_cav"  0   0.01   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
+	recruit_pool "berdan_inf"  0   0.01   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "berdan_inf_milan"  0   0.01   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "ap_front_cav"  0   0.01   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
+	recruit_pool "ap_front_cav_milan"  0   0.01   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
 	recruit_pool "us_scout_cav"  0   0.02   1  0  requires factions { portugala, }  and hidden_resource usa
-	recruit_pool "us_scout_cav"  0   0.02   1  0  requires factions { scotland, }  and not event_counter military_reforms_1 1 and hidden_resource mexico
+	recruit_pool "us_scout_cav_scotland"  0   0.02   1  0  requires factions { scotland, }  and not event_counter military_reforms_1 1 and hidden_resource mexico
 	recruit_pool "us_zouave"  0   0.02   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
-	recruit_pool "us_zouave"  0   0.02   1  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
+	recruit_pool "us_zouave_france"  0   0.02   1  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "union_irish_brigade"  0   0.01   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_inf"  0   0.02   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
 	recruit_pool "us_inf"  0.0   0.008   0.4  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and not hidden_resource usa
@@ -518,10 +520,14 @@ building barracks
 	recruit_pool "apache_inf"  0   0.01   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
 
 ;resupply us
-	recruit_pool "berdan_inf"  0.2   0.02   0.2  0  requires factions { portugala, milan, }
-	recruit_pool "ap_front_cav"  0.2   0.02   0.2  0  requires factions { portugala, milan, }  
-	recruit_pool "us_scout_cav"  0.4   0.04   0.4  0  requires factions { portugala, scotland, }  
-	recruit_pool "us_zouave"  0.4   0.04   0.4  0  requires factions { portugala, france, }  
+	recruit_pool "berdan_inf"  0.2   0.02   0.2  0  requires factions { portugala, }
+	recruit_pool "berdan_inf_milan"  0.2   0.02   0.2  0  requires factions { milan, }
+	recruit_pool "ap_front_cav"  0.2   0.02   0.2  0  requires factions { portugala, }  
+	recruit_pool "ap_front_cav_milan"  0.2   0.02   0.2  0  requires factions { milan, }  
+	recruit_pool "us_scout_cav"  0.4   0.04   0.4  0  requires factions { portugala, }  
+	recruit_pool "us_scout_cav_scotland"  0.4   0.04   0.4  0  requires factions { scotland, }  
+	recruit_pool "us_zouave"  0.4   0.04   0.4  0  requires factions { portugala, }  
+	recruit_pool "us_zouave_france"  0.4   0.04   0.4  0  requires factions { france, }  
 	recruit_pool "union_irish_brigade"  0.2   0.02   0.2  0  requires factions { portugala, }  
 	recruit_pool "us_inf"  0.4   0.04   0.4  0  requires factions { portugala, }  
 	recruit_pool "us_blacks"  0.4   0.04   0.4  0  requires factions { portugala, }  
@@ -580,8 +586,8 @@ building barracks
 	recruit_pool "tzar_inf"  0.0   0.008   0.4  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and not hidden_resource peru
 	recruit_pool "peru_foot"  0   0.02   1  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and hidden_resource peru
 	recruit_pool "peru_foot"  0.0   0.008   0.4  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and not hidden_resource peru
-	recruit_pool "peru_foot"  0   0.02   1  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and hidden_resource argentina
-	recruit_pool "peru_foot"  0.0   0.008   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and not hidden_resource argentina
+	recruit_pool "peru_foot_aztecs"  0   0.02   1  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and hidden_resource argentina
+	recruit_pool "peru_foot_aztecs"  0.0   0.008   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and not hidden_resource argentina
 	recruit_pool "peru_carb"  0   0.01   1  0  requires factions { denmark, }  and hidden_resource peru
 	recruit_pool "peru_early_inf"  1   0.6   1  0  requires factions { denmark, }  and not event_counter military_reforms_1870 1 and hidden_resource peru
 	recruit_pool "peru_early_inf"  0.4   0.24   0.4  0  requires factions { denmark, }  and not event_counter military_reforms_1870 1 and not hidden_resource peru
@@ -590,7 +596,8 @@ building barracks
 ;resupply peru
 	recruit_pool "rus_conscript_de"  0.8   0.08   0.8  0  requires factions { denmark, }
 	recruit_pool "tzar_inf"  0.4   0.04   0.4  0  requires factions { denmark, }
-	recruit_pool "peru_foot"  0.4   0.04   0.4  0  requires factions { denmark, aztecs, }
+	recruit_pool "peru_foot"  0.4   0.04   0.4  0  requires factions { denmark, }
+	recruit_pool "peru_foot_aztecs"  0.4   0.04   0.4  0  requires factions { aztecs, }
 	recruit_pool "peru_carb"  0.2   0.02   0.2  0  requires factions { denmark, }
 	recruit_pool "peru_early_inf"  0.9   0.09   0.9  0  requires factions { denmark, }
 	recruit_pool "bol_hussar"  0.2   0.02   0.2  0  requires factions { denmark, }
@@ -626,15 +633,13 @@ building barracks
 ;uk
 	recruit_pool "pith_troopers"  0   0.01   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "l_pith_cav"  0   0.02   1  0  requires factions { england, }  and event_counter military_reforms_1 1 and hidden_resource uk or hidden_resource canada or hidden_resource anzac or hidden_resource south_africa
-	recruit_pool "l_pith_cav"  0   0.02   1  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
-	recruit_pool "l_pith_cav"  0   0.02   1  0  requires factions { aztecs, }   and event_counter military_reforms_1 1 and hidden_resource argentina
+	recruit_pool "l_pith_cav_portugal"  0   0.02   1  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
+	recruit_pool "l_pith_cav_aztecs"  0   0.02   1  0  requires factions { aztecs, }   and event_counter military_reforms_1 1 and hidden_resource argentina
 	recruit_pool "l_pith_cam"  0   0.02   1  0  requires factions { england, }   and event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "l_brit_cav"  0   0.01   1  0  requires factions { england, }  and event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_guard"  1   0.03   1  0  requires factions { england, }  and event_counter military_reforms_1 1
-	recruit_pool "uk_ww1_heavy"  0   0.02   1  0  requires factions { england, }  and event_counter military_reforms_2 1 and hidden_resource uk
-	recruit_pool "uk_ww1_heavy"  0   0.02   1  0  requires factions { poland, }  and event_counter military_reforms_2 1 and hidden_resource brazil
 	recruit_pool "uk_sikhs"  1   0.03   1  0  requires factions { england, }  and event_counter military_reforms_1870 1 and hidden_resource india
-	recruit_pool "uk_knights"  0   0.02   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
+	recruit_pool "uk_knights_england"  0   0.02   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_knights"  0   0.02   1  0  requires factions { poland, }  and not event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "uk_gurk"  0   0.01   1  0  requires factions { england, }  and event_counter military_reforms_1890 1 and hidden_resource tibet
 	recruit_pool "uk_gurk"  1   0.03   2.0  0  requires factions { england, }   and event_counter indian_raj 1
@@ -648,14 +653,16 @@ building barracks
 
 ;resupply uk
 	recruit_pool "pith_troopers"  0.2   0.02   0.2  0  requires factions { england, }
-	recruit_pool "l_pith_cav"  0.4   0.04   0.4  0  requires factions { england, portugal, aztecs, }
+	recruit_pool "l_pith_cav"  0.4   0.04   0.4  0  requires factions { england, }
+	recruit_pool "l_pith_cav_portugal"  0.4   0.04   0.4  0  requires factions { portugal, }
+	recruit_pool "l_pith_cav_aztecs"  0.4   0.04   0.4  0  requires factions { aztecs, }
 	recruit_pool "l_pith_cam"  0.4   0.04   0.4  0  requires factions { england, }
 	recruit_pool "l_brit_cav"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_musket"  0.6   0.06   0.6  0  requires factions { england, }
 	recruit_pool "uk_guard"  0.6   0.06   0.6  0  requires factions { england, }
-	recruit_pool "uk_ww1_heavy"  0.4   0.04   0.4  0  requires factions { england, poland, }
 	recruit_pool "uk_sikhs"  0.6   0.06   0.6  0  requires factions { england, }
-	recruit_pool "uk_knights"  0.4   0.04   0.4  0  requires factions { england, poland, }
+	recruit_pool "uk_knights_england"  0.4   0.04   0.4  0  requires factions { england, }
+	recruit_pool "uk_knights"  0.4   0.04   0.4  0  requires factions { poland, }
 	recruit_pool "uk_sailor"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_gurk"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_roy"  0.2   0.02   0.2  0  requires factions { england, }
@@ -667,19 +674,19 @@ building barracks
 
 ;france
 	recruit_pool "fra_cav"  0   0.02   1  0  requires factions { france, }   and event_counter military_reforms_1 1 and hidden_resource france
-	recruit_pool "fra_cav"  0   0.02   1  0  requires factions { scotland, }   and event_counter military_reforms_1 1 and hidden_resource mexico
-	recruit_pool "fra_cav"  0   0.02   1  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
-	recruit_pool "fra_cav"  0   0.02   1  0  requires factions { sicily, }   and event_counter military_reforms_1 1 and hidden_resource denmark
+	recruit_pool "fra_cav_scotland"  0   0.02   1  0  requires factions { scotland, }   and event_counter military_reforms_1 1 and hidden_resource mexico
+	recruit_pool "fra_cav_poland"  0   0.02   1  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
+	recruit_pool "fra_cav_sicily"  0   0.02   1  0  requires factions { sicily, }   and event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "fra_pith"  1   0.04   1  0  requires factions { france, }   and event_counter military_reforms_1 1 and hidden_resource france
-	recruit_pool "fra_pith"  1   0.04   1  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
+	recruit_pool "fra_pith_poland"  1   0.04   1  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "fra_ww1_inf"  0   0.01   1  0  requires factions { france, }   and event_counter military_reforms_2 1 and hidden_resource france
 	recruit_pool "fra_ww1_inf"  0.0   0.004   0.4  0  requires factions { france, }  and event_counter military_reforms_2 1 and not hidden_resource france
-	recruit_pool "fra_ww1_inf"  0   0.01   1  0  requires factions { aztecs, }   and event_counter military_reforms_2 1 and hidden_resource argentina
-	recruit_pool "fra_ww1_inf"  0.0   0.004   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_2 1 and not hidden_resource argentina
+	recruit_pool "fra_ww1_inf_aztecs"  0   0.01   1  0  requires factions { aztecs, }   and event_counter military_reforms_2 1 and hidden_resource argentina
+	recruit_pool "fra_ww1_inf_aztecs"  0.0   0.004   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_2 1 and not hidden_resource argentina
 	recruit_pool "fra_carbs"  0   0.02   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_hus_2"  0   0.01   1  0  requires factions { france, }   and not event_counter military_reforms_1870 1 and hidden_resource france
-	recruit_pool "fra_hus_2"  0   0.01   1  0  requires factions { spain, }   and not event_counter military_reforms_1870 1 and hidden_resource spain
-	recruit_pool "fra_hus_2"  0   0.01   1  0  requires factions { aztecs, }   and not event_counter military_reforms_1870 1 and hidden_resource argentina
+	recruit_pool "spa_cuirassiers_early"  0   0.01   1  0  requires factions { spain, }   and not event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "fra_hus_2_aztecs"  0   0.01   1  0  requires factions { aztecs, }   and not event_counter military_reforms_1870 1 and hidden_resource argentina
 	recruit_pool "fra_blacks_fr"  0   0.01   1  0  requires factions { france, }   and not event_counter military_reforms_1870 1 and hidden_resource sub_sahara
 	recruit_pool "fra_rec"  0   0.02   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_rec"  0.0   0.008   0.4  0  requires factions { france, }  and not event_counter military_reforms_1 1 and not hidden_resource france
@@ -690,12 +697,20 @@ building barracks
 	recruit_pool "fra_chass"  0   0.01   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 
 ;resupply france
-	recruit_pool "fra_cav"  0.4   0.04   0.4  0  requires factions { france, scotland, poland, sicily, }
-	recruit_pool "fra_pith"  0.8   0.08   0.8  0  requires factions { france, poland, }
-	recruit_pool "fra_ww1_inf"  0.2   0.02   0.2  0  requires factions { france, aztecs, }
+	recruit_pool "fra_cav"  0.4   0.04   0.4  0  requires factions { france, }
+	recruit_pool "fra_cav_scotland"  0.4   0.04   0.4  0  requires factions { scotland, }
+	recruit_pool "fra_cav_poland"  0.4   0.04   0.4  0  requires factions { poland, }
+	recruit_pool "fra_cav_sicily"  0.4   0.04   0.4  0  requires factions { sicily, }
+	recruit_pool "fra_pith"  0.8   0.08   0.8  0  requires factions { france, }
+	recruit_pool "fra_pith_poland"  0.8   0.08   0.8  0  requires factions { poland, }
+	recruit_pool "fra_ww1_inf"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_ww1_inf_aztecs"  0.2   0.02   0.2  0  requires factions { aztecs, }
 	recruit_pool "fra_carbs"  0.4   0.04   0.4  0  requires factions { france, }
-	recruit_pool "fra_sailors"  0.2   0.02   0.2  0  requires factions { france, denmark, }
-	recruit_pool "fra_hus_2"  0.2   0.02   0.2  0  requires factions { france, spain, aztecs, }
+	recruit_pool "fra_sailors"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_sailors_denmark"  0.2   0.02   0.2  0  requires factions { denmark, }
+	recruit_pool "fra_hus_2"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "spa_cuirassiers_early"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "fra_hus_2_aztecs"  0.2   0.02   0.2  0  requires factions { aztecs, }
 	recruit_pool "fra_blacks_fr"  0.2   0.02   0.2  0  requires factions { france, }
 	recruit_pool "fra_rec"  0.4   0.04   0.4  0  requires factions { france, }
 	recruit_pool "fra_inf_fr"  0.2   0.02   0.2  0  requires factions { france, }
@@ -742,32 +757,32 @@ building barracks
 	recruit_pool "siam_riflemen_gr"  0.9   0.09   0.9  0  requires factions { hre, }
 
 ;spain
-	recruit_pool "uk_sailor_sp"  0   0.02   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource cuba
-	recruit_pool "us_front_cav_sp"  0   0.01   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource spain
-	recruit_pool "spa_regu"  1   0.03   1  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "segunda_inf"  0   0.01   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 and hidden_resource spain
-	recruit_pool "spa_inf_late"  1   0.03   1  0  requires factions { spain, }  and event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "spa_inf_late"  0.4   0.012   0.4  0  requires factions { spain, }  and event_counter military_reforms_1 1 and not hidden_resource spain
-	recruit_pool "aus_inf_sp"  0   0.02   1  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "spa_scout_cav"  0   0.01   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies or hidden_resource cuba or hidden_resource s_america
+	recruit_pool "cuban_inf_high"  0   0.02   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource cuba
+	recruit_pool "spa_cav_high"  0   0.01   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource spain
+	recruit_pool "spa_inf_early"  1   0.03   1  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_milicia_nacional_early"  0   0.01   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "spa_inf_high"  1   0.03   1  0  requires factions { spain, }  and event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_inf_high"  0.4   0.012   0.4  0  requires factions { spain, }  and event_counter military_reforms_1 1 and not hidden_resource spain
+	recruit_pool "spa_caz_early"  0   0.02   1  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_col_cav_mid"  0   0.01   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies or hidden_resource cuba or hidden_resource s_america
 
 ;resupply spain
-	recruit_pool "uk_sailor_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "us_front_cav_sp"  0.2   0.02   0.2  0  requires factions { spain, }
-	recruit_pool "spa_regu"  0.6   0.06   0.6  0  requires factions { spain, }
-	recruit_pool "fra_inf_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "spa_nafrica"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "segunda_inf"  0.2   0.02   0.2  0  requires factions { spain, }
-	recruit_pool "spa_inf_late"  0.6   0.06   0.6  0  requires factions { spain, }
-	recruit_pool "aus_inf_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "spa_scout_cav"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "cuban_inf_high"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_cav_high"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "spa_inf_early"  0.6   0.06   0.6  0  requires factions { spain, }
+	recruit_pool "spa_col_inf_early"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_col_inf_high"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_milicia_nacional_early"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "spa_inf_high"  0.6   0.06   0.6  0  requires factions { spain, }
+	recruit_pool "spa_caz_early"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_col_cav_mid"  0.2   0.02   0.2  0  requires factions { spain, }
 
 ;netherlands
 	recruit_pool "dutch_pith"  1   0.05   1  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
 	recruit_pool "nl_roy"  0   0.01   1  0  requires factions { portugal, }  and not event_counter military_reforms_1 1 and hidden_resource netherlands
 	recruit_pool "dutch_ww1"  0   0.01   1  0  requires factions { portugal, }  and event_counter military_reforms_2 1 and hidden_resource netherlands
 	recruit_pool "dutch_askari"  0   0.02   1  0  requires factions { portugal, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies
-	recruit_pool "maori_spearmen"  0   0.02   1  0  requires factions { england, }  and hidden_resource anzac
+	recruit_pool "merc_maori_spearmen"  0   0.02   1  0  requires factions { england, }  and hidden_resource anzac
 	recruit_pool "dutch_askari2"  0   0.02   1  0  requires factions { portugal, }  and not event_counter military_reforms_1870 1 and hidden_resource east_indies
 	recruit_pool "dutch_inf"  1   0.04   1  0  requires factions { portugal, }  and not event_counter military_reforms_1 1 and hidden_resource netherlands
 	recruit_pool "dutch_inf"  0.4   0.016   0.4  0  requires factions { portugal, }  and not event_counter military_reforms_1 1 and not hidden_resource netherlands
@@ -789,7 +804,7 @@ building barracks
 	recruit_pool "aus_inf_si"  0   0.02   1  0  requires factions { sicily, }  and not event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "rus_cos_guard_si"  1   0.05   1  0  requires factions { sicily, }  and event_counter military_reforms_1870 1 and hidden_resource denmark
 	recruit_pool "dan_cav"  0   0.01   1  0  requires factions { sicily, }  and not event_counter military_reforms_1 1 and hidden_resource denmark
-	recruit_pool "dan_cav"  0   0.01   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
+	recruit_pool "dan_cav_hungary"  0   0.01   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "dan_inf"  0   0.02   1  0  requires factions { sicily, }  and event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "dan_inf"  0.0   0.008   0.4  0  requires factions { sicily, }  and event_counter military_reforms_1 1 and not hidden_resource denmark
 
@@ -797,7 +812,8 @@ building barracks
 	recruit_pool "fra_guard_si"  0.9   0.09   0.9  0  requires factions { sicily, }
 	recruit_pool "aus_inf_si"  0.4   0.04   0.4  0  requires factions { sicily, }
 	recruit_pool "rus_cos_guard_si"  0.9   0.09   0.9  0  requires factions { sicily, }
-	recruit_pool "dan_cav"  0.2   0.02   0.2  0  requires factions { sicily, hungary, }
+	recruit_pool "dan_cav"  0.2   0.02   0.2  0  requires factions { sicily, }
+	recruit_pool "dan_cav_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "dan_inf"  0.4   0.04   0.4  0  requires factions { sicily, }
 
 ;sweden-norway
@@ -825,11 +841,11 @@ building barracks
 	recruit_pool "greek_roy"  0.0   0.004   0.4  0  requires factions { mongols, }  and event_counter military_reforms_1890 1 and not hidden_resource greece
 	recruit_pool "greek_guard_cav"  0   0.01   1  0  requires factions { mongols, }  and not event_counter military_reforms_1 1
 	recruit_pool "rom_guard"  0   0.01   1  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1
-	recruit_pool "rom_guard"  0   0.01   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1
+	recruit_pool "rom_guard_hungary"  0   0.01   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1
 	recruit_pool "swed_inf"  1   0.04   1  0  requires factions { mongols, }  and event_counter military_reforms_1870 1 and hidden_resource greece
 	recruit_pool "swed_inf"  0.4   0.016   0.4  0  requires factions { mongols, }  and event_counter military_reforms_1870 1 and not hidden_resource greece
 	recruit_pool "rom_cav"  0   0.01   1  0  requires factions { mongols, }  and event_counter military_reforms_1 1 and hidden_resource greece
-	recruit_pool "rom_cav"  0   0.01   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
+	recruit_pool "rom_cav_hungary"  0   0.01   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "greek_early_inf"  1   0.04   1  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1 and hidden_resource greece
 	recruit_pool "greek_early_inf"  0.4   0.016   0.4  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1 and not hidden_resource greece
 
@@ -837,9 +853,11 @@ building barracks
 	recruit_pool "evzones_inf"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "greek_roy"  0.2   0.02   0.2  0  requires factions { mongols, }
 	recruit_pool "greek_guard_cav"  0.2   0.02   0.2  0  requires factions { mongols, }
-	recruit_pool "rom_guard"  0.2   0.02   0.2  0  requires factions { mongols, hungary, }
+	recruit_pool "rom_guard"  0.2   0.02   0.2  0  requires factions { mongols, }
+	recruit_pool "rom_guard_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "swed_inf"  0.8   0.08   0.8  0  requires factions { mongols, }
-	recruit_pool "rom_cav"  0.2   0.02   0.2  0  requires factions { mongols, hungary, }
+	recruit_pool "rom_cav"  0.2   0.02   0.2  0  requires factions { mongols, }
+	recruit_pool "rom_cav_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "greek_early_inf"  0.8   0.08   0.8  0  requires factions { mongols, }
 
 ;italy
@@ -867,7 +885,7 @@ building barracks
 	recruit_pool "rus_conscript"  1   0.03   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource siberia
 	recruit_pool "rus_conscript"  0.4   0.012   0.4  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and not hidden_resource siberia
 	recruit_pool "rus_cos_hussar"  0   0.01   1  0  requires factions { russia, }  and hidden_resource steppe
-	recruit_pool "georgian_inf"  0   0.01   1  0  requires factions { russia, }  and hidden_resource georgia
+	recruit_pool "georgian_inf_russia"  0   0.01   1  0  requires factions { russia, }  and hidden_resource georgia
 	recruit_pool "rus_gen_cav"  0   0.02   1  0  requires factions { russia, }  and hidden_resource russia or hidden_resource steppe 
 	recruit_pool "rus_conscript_ru"  1   0.04   1  0  requires factions { russia, }  and not event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "rus_roy_cav_ru"  0   0.01   1  0  requires factions { russia, }  and hidden_resource russia
@@ -884,7 +902,7 @@ building barracks
 ;resupply russia
 	recruit_pool "rus_conscript"  0.6   0.06   0.6  0  requires factions { russia, }
 	recruit_pool "rus_cos_hussar"  0.2   0.02   0.2  0  requires factions { russia, }
-	recruit_pool "georgian_inf"  0.2   0.02   0.2  0  requires factions { russia, }
+	recruit_pool "georgian_inf_russia"  0.2   0.02   0.2  0  requires factions { russia, }
 	recruit_pool "rus_gen_cav"  0.4   0.04   0.4  0  requires factions { russia, }
 	recruit_pool "rus_sailors"  0.2   0.02   0.2  0  requires factions { russia, }
 	recruit_pool "rus_conscript_ru"  0.8   0.08   0.8  0  requires factions { russia, }
@@ -902,7 +920,9 @@ building barracks
 	recruit_pool "dutch_militia"  0   0.02   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "dutch_militia"  0.0   0.008   0.4  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1 and not hidden_resource austria and not hidden_resource hungary
 	recruit_pool "rom_inf"  0   0.02   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource hungary
-	recruit_pool "it_royals"  0   0.02   1  0  requires factions { hungary, venice, mongols, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals_hungary"  0   0.02   1  0  requires factions { hungary, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals"  0   0.02   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals_mongols"  0   0.02   1  0  requires factions { mongols, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
 	recruit_pool "aus_jag"  0   0.02   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_lancers"  0   0.01   1  0  requires factions { hungary, }  and hidden_resource austria
 	recruit_pool "aus_inf2"  1   0.03   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria
@@ -911,19 +931,24 @@ building barracks
 	recruit_pool "aus_inf3"  0   0.01   1  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_inf3"  0.0   0.004   0.4  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and not hidden_resource austria and not hidden_resource hungary
 	recruit_pool "balk_cav"  0   0.01   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
-	recruit_pool "balk_cav"  0   0.01   1  0  requires factions { mongols, }  and hidden_resource greece
+	recruit_pool "balk_cav_mongols"  0   0.01   1  0  requires factions { mongols, }  and hidden_resource greece
 	recruit_pool "kaiserjager"  0   0.02   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1 and hidden_resource austria
 
 ;resupply austria-hungary
 	recruit_pool "dutch_militia"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "rom_inf"  0.4   0.04   0.4  0  requires factions { hungary, }
-	recruit_pool "it_royals"  0.4   0.04   0.4  0  requires factions { hungary, venice, mongols, }
+	recruit_pool "it_royals_hungary"  0.4   0.04   0.4  0  requires factions { hungary, }
+	recruit_pool "it_royals"  0.4   0.04   0.4  0  requires factions { venice, }
+	recruit_pool "it_royals_mongols"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "aus_jag"  0.4   0.04   0.4  0  requires factions { hungary, }
-	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, normans, spain, }
+	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, }
+	recruit_pool "austro_sailor_normans"  0.2   0.02   0.2  0  requires factions { normans, }
+	recruit_pool "austro_sailor_spain"  0.2   0.02   0.2  0  requires factions { spain, }
 	recruit_pool "aus_lancers"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "aus_inf2"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "aus_inf3"  0.2   0.02   0.2  0  requires factions { hungary, }
-	recruit_pool "balk_cav"  0.2   0.02   0.2  0  requires factions { hungary, mongols, }
+	recruit_pool "balk_cav"  0.2   0.02   0.2  0  requires factions { hungary, }
+	recruit_pool "balk_cav_mongols"  0.2   0.02   0.2  0  requires factions { mongols, }
 	recruit_pool "kaiserjager"  0.4   0.04   0.4  0  requires factions { hungary, }
 
 ;morocco
@@ -937,7 +962,8 @@ building barracks
 
 ;resupply morocco
 	recruit_pool "black_guard"  0.8   0.08   0.8  0  requires factions { moors, }
-	recruit_pool "fra_blacks"  0.2   0.02   0.2  0  requires factions { moors, turks, }
+	recruit_pool "fra_blacks"  0.2   0.02   0.2  0  requires factions { moors, }
+	recruit_pool "fra_blacks_turks"  0.2   0.02   0.2  0  requires factions { turks, }
 	recruit_pool "d_fra_for_cav"  0.8   0.08   0.8  0  requires factions { moors, }
 	recruit_pool "moroccan_camel_roy"  0.2   0.02   0.2  0  requires factions { moors, }
 	recruit_pool "skif_inf"  0.4   0.04   0.4  0  requires factions { moors, }
@@ -974,12 +1000,17 @@ building barracks
 	recruit_pool "merc_zulu_rifles"  0.4   0.04   0.4  0  requires factions { teu, golden, lith, }
 
 ;ottoman
-	recruit_pool "bulgarian_inf"  0   0.02   1  0  requires factions { hungary, russia, mongols, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
-	recruit_pool "armenian_inf"  0   0.02   1  0  requires factions { russia, mongols, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
+	recruit_pool "bulgarian_inf"  0   0.02   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "bulgarian_inf_russia"  0   0.02   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "bulgarian_inf_mongols"  0   0.02   1  0  requires factions { mongols, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "armenian_inf_russia"  0   0.02   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
+	recruit_pool "armenian_inf"  0   0.02   1  0  requires factions { mongols, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
 	recruit_pool "arab_sailors"  0   0.02   1  0  requires factions { turks, }  and not event_counter military_reforms_1870 1 and hidden_resource ottoman
 	recruit_pool "otto_jan_inf"  0   0.02   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource ottoman
-	recruit_pool "moroccan_camel_gunner"  0   0.01   1  0  requires factions { turks, golden, } and hidden_resource arab and hidden_resource middle_east
-	recruit_pool "moroccan_gunner"  0   0.02   1  0  requires factions { turks, golden, } and hidden_resource arab
+	recruit_pool "moroccan_camel_gunner"  0   0.01   1  0  requires factions { turks, } and hidden_resource arab and hidden_resource middle_east
+	recruit_pool "moroccan_camel_gunner_golden"  0   0.01   1  0  requires factions { golden, } and hidden_resource arab and hidden_resource middle_east
+	recruit_pool "moroccan_gunner"  0   0.02   1  0  requires factions { turks, } and hidden_resource arab
+	recruit_pool "moroccan_gunner_golden"  0   0.02   1  0  requires factions { golden, } and hidden_resource arab
 	recruit_pool "ertu_cav"  0   0.01   1  0  requires factions { turks, }  and event_counter military_reforms_1890 1 and hidden_resource ottoman
 	recruit_pool "arab_brigade"  1   0.03   1  0  requires factions { turks, }  and not event_counter military_reforms_1870 1 and not hidden_resource ottoman
 	recruit_pool "turk_lt2"  1   0.03   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
@@ -989,12 +1020,17 @@ building barracks
 	recruit_pool "otto_cav_tu"  0   0.01   1  0  requires factions { turks, }  and not event_counter military_reforms_1890 1 and hidden_resource ottoman
 
 ;resupply ottoman
-	recruit_pool "bulgarian_inf"  0.4   0.04   0.4  0  requires factions { hungary, russia, mongols, }
-	recruit_pool "armenian_inf"  0.4   0.04   0.4  0  requires factions { russia, mongols, }
+	recruit_pool "bulgarian_inf"  0.4   0.04   0.4  0  requires factions { hungary, }
+	recruit_pool "bulgarian_inf_russia"  0.4   0.04   0.4  0  requires factions { russia, }
+	recruit_pool "bulgarian_inf_mongols"  0.4   0.04   0.4  0  requires factions { mongols, }
+	recruit_pool "armenian_inf_russia"  0.4   0.04   0.4  0  requires factions { russia, }
+	recruit_pool "armenian_inf"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "arab_sailors"  0.4   0.04   0.4  0  requires factions { turks, }
 	recruit_pool "otto_jan_inf"  0.4   0.04   0.4  0  requires factions { turks, }
-	recruit_pool "moroccan_camel_gunner"  0.2   0.02   0.2  0  requires factions { turks, golden, }
-	recruit_pool "moroccan_gunner"  0.4   0.04   0.4  0  requires factions { turks, golden, }
+	recruit_pool "moroccan_camel_gunner"  0.2   0.02   0.2  0  requires factions { turks, }
+	recruit_pool "moroccan_camel_gunner_golden"  0.2   0.02   0.2  0  requires factions { golden, }
+	recruit_pool "moroccan_gunner"  0.4   0.04   0.4  0  requires factions { turks, }
+	recruit_pool "moroccan_gunner_golden"  0.4   0.04   0.4  0  requires factions { golden, }
 	recruit_pool "ertu_cav"  0.2   0.02   0.2  0  requires factions { turks, }
 	recruit_pool "arab_brigade"  0.6   0.06   0.6  0  requires factions { turks, }
 	recruit_pool "turk_lt2"  0.6   0.06   0.6  0  requires factions { turks, }
@@ -1115,7 +1151,7 @@ building barracks
 
 ;siam
 	recruit_pool "siam_ele_gunner"  0   0.01   1  0  requires factions { cru, }  and hidden_resource siam
-	recruit_pool "fra_vietna"  0   0.01   1  0  requires factions { france, }  and event_counter military_reforms_1870 1 and hidden_resource indochina
+	recruit_pool "fra_vietna_france"  0   0.01   1  0  requires factions { france, }  and event_counter military_reforms_1870 1 and hidden_resource indochina
 	recruit_pool "fra_vietna"  0   0.01   1  0  requires factions { cru, }  and event_counter military_reforms_1 1 and hidden_resource indochina
 	recruit_pool "siam_late_inf"  1   0.04   1  0  requires factions { cru, }  and event_counter military_reforms_1 1 and hidden_resource siam
 	recruit_pool "siam_late_inf"  0.4   0.016   0.4  0  requires factions { cru, }  and event_counter military_reforms_1 1 and not hidden_resource siam
@@ -1125,20 +1161,23 @@ building barracks
 	recruit_pool "siam_inf"  0   0.02   1  0  requires factions { cru, }  and not event_counter military_reforms_1 1 and hidden_resource siam
 	recruit_pool "siam_inf"  0.0   0.008   0.4  0  requires factions { cru, }  and not event_counter military_reforms_1 1 and not hidden_resource siam
 	recruit_pool "Siam_Archers"  0   0.02   1  0  requires factions { cru, }  and not event_counter military_reforms_1870 1 and hidden_resource siam
-	recruit_pool "burmese_inf"  0   0.01   1  0  requires factions { cru, england, }  and hidden_resource indochina
+	recruit_pool "burmese_inf"  0   0.01   1  0  requires factions { cru, }  and hidden_resource indochina
 
 ;resupply siam
 	recruit_pool "siam_ele_gunner"  0.2   0.02   0.2  0  requires factions { cru, }
-	recruit_pool "fra_vietna"  0.2   0.02   0.2  0  requires factions { france, cru, }
-	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { byzantium, cru, }
-	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { byzantium, cru, }
+	recruit_pool "fra_vietna_france"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_vietna"  0.2   0.02   0.2  0  requires factions { cru, }
+	recruit_pool "siam_sea_byzantium"  0.2   0.02   0.2  0  requires factions { byzantium, }
+	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { cru, }
+	recruit_pool "siam_sea_byzantium"  0.2   0.02   0.2  0  requires factions { byzantium, }
+	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_late_inf"  0.8   0.08   0.8  0  requires factions { cru, }
 	recruit_pool "siam_late_cav"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_agent"  0.4   0.04   0.4  0  requires factions { cru, }
 	recruit_pool "viet_inf"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_inf"  0.4   0.04   0.4  0  requires factions { cru, }
 	recruit_pool "Siam_Archers"  0.4   0.04   0.4  0  requires factions { cru, }
-	recruit_pool "burmese_inf"  0.2   0.02   0.2  0  requires factions { cru, england, }
+	recruit_pool "burmese_inf"  0.2   0.02   0.2  0  requires factions { cru, }
 
 ;qing
 	recruit_pool "mongol_bows"  0   0.01   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource mongolia
@@ -1241,8 +1280,8 @@ building barracks
 	recruit_pool "merc_fra_blacks"  0   0.02   1  0  requires factions { england, france, hre, venice, spain, }  and event_counter military_reforms_1870 1 and hidden_resource sub_sahara
 	recruit_pool "merc_fra_for_cav"  0   0.01   1  0  requires factions { france, }  and hidden_resource arab
 	recruit_pool "euro_hussars"  0   0.01   1  0  requires factions { spain, }  and not event_counter military_reforms_1890 1 and hidden_resource spain
-	recruit_pool "euro_hussars"  0   0.01   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
-	recruit_pool "euro_hussars"  0   0.01   1  0  requires factions { normans, }  and not event_counter military_reforms_1890 1 and hidden_resource sweden or hidden_resource norway
+	recruit_pool "euro_hussars_venice"  0   0.01   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
+	recruit_pool "euro_hussars_normans"  0   0.01   1  0  requires factions { normans, }  and not event_counter military_reforms_1890 1 and hidden_resource sweden or hidden_resource norway
 
 ;resupply misc
 	recruit_pool "merc_uru_inf"  0.4   0.04   0.4  0  requires factions { poland, aztecs, }
@@ -1262,7 +1301,9 @@ building barracks
 	recruit_pool "merc_eng_for_cav"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "merc_fra_blacks"  0.4   0.04   0.4  0  requires factions { england, france, hre, venice, spain, }
 	recruit_pool "merc_fra_for_cav"  0.2   0.02   0.2  0  requires factions { france, }
-	recruit_pool "euro_hussars"  0.2   0.02   0.2  0  requires factions { spain, venice, normans, }
+	recruit_pool "euro_hussars"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "euro_hussars_venice"  0.2   0.02   0.2  0  requires factions { venice, }
+	recruit_pool "euro_hussars_normans"  0.2   0.02   0.2  0  requires factions { normans, }
 	recruit_pool "us_farmer_cav"  0.4   0.04   0.4  0  requires factions { milan, teu, }
 	recruit_pool "us_farmers"  0.4   0.04   0.4  0  requires factions { milan, teu, }
 
@@ -1284,12 +1325,14 @@ building barracks
             capability
             {
 ;us
-	recruit_pool "berdan_inf"  0   0.03   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
-	recruit_pool "ap_front_cav"  0   0.03   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
+	recruit_pool "berdan_inf"  0   0.03   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "berdan_inf_milan"  0   0.03   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "ap_front_cav"  0   0.03   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
+	recruit_pool "ap_front_cav_milan"  0   0.03   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
 	recruit_pool "us_scout_cav"  1   0.06   1  0  requires factions { portugala, }  and hidden_resource usa
-	recruit_pool "us_scout_cav"  1   0.06   1  0  requires factions { scotland, }  and not event_counter military_reforms_1 1 and hidden_resource mexico
+	recruit_pool "us_scout_cav_scotland"  1   0.06   1  0  requires factions { scotland, }  and not event_counter military_reforms_1 1 and hidden_resource mexico
 	recruit_pool "us_zouave"  1   0.06   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
-	recruit_pool "us_zouave"  1   0.06   1  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
+	recruit_pool "us_zouave_france"  1   0.06   1  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "union_irish_brigade"  0   0.03   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_inf"  1   0.06   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
 	recruit_pool "us_inf"  0.4   0.024   0.4  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and not hidden_resource usa
@@ -1303,10 +1346,14 @@ building barracks
 	recruit_pool "apache_inf"  0   0.03   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
 
 ;resupply us
-	recruit_pool "berdan_inf"  0.2   0.02   0.2  0  requires factions { portugala, milan, }
-	recruit_pool "ap_front_cav"  0.2   0.02   0.2  0  requires factions { portugala, milan, }  
-	recruit_pool "us_scout_cav"  0.4   0.04   0.4  0  requires factions { portugala, scotland, }  
-	recruit_pool "us_zouave"  0.4   0.04   0.4  0  requires factions { portugala, france, }  
+	recruit_pool "berdan_inf"  0.2   0.02   0.2  0  requires factions { portugala, }
+	recruit_pool "berdan_inf_milan"  0.2   0.02   0.2  0  requires factions { milan, }
+	recruit_pool "ap_front_cav"  0.2   0.02   0.2  0  requires factions { portugala, }  
+	recruit_pool "ap_front_cav_milan"  0.2   0.02   0.2  0  requires factions { milan, }  
+	recruit_pool "us_scout_cav"  0.4   0.04   0.4  0  requires factions { portugala, }  
+	recruit_pool "us_scout_cav_scotland"  0.4   0.04   0.4  0  requires factions { scotland, }  
+	recruit_pool "us_zouave"  0.4   0.04   0.4  0  requires factions { portugala, }  
+	recruit_pool "us_zouave_france"  0.4   0.04   0.4  0  requires factions { france, }  
 	recruit_pool "union_irish_brigade"  0.2   0.02   0.2  0  requires factions { portugala, }  
 	recruit_pool "us_inf"  0.4   0.04   0.4  0  requires factions { portugala, }  
 	recruit_pool "us_blacks"  0.4   0.04   0.4  0  requires factions { portugala, }  
@@ -1365,8 +1412,8 @@ building barracks
 	recruit_pool "tzar_inf"  0.4   0.024   0.4  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and not hidden_resource peru
 	recruit_pool "peru_foot"  1   0.06   1  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and hidden_resource peru
 	recruit_pool "peru_foot"  0.4   0.024   0.4  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and not hidden_resource peru
-	recruit_pool "peru_foot"  1   0.06   1  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and hidden_resource argentina
-	recruit_pool "peru_foot"  0.4   0.024   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and not hidden_resource argentina
+	recruit_pool "peru_foot_aztecs"  1   0.06   1  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and hidden_resource argentina
+	recruit_pool "peru_foot_aztecs"  0.4   0.024   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and not hidden_resource argentina
 	recruit_pool "peru_carb"  0   0.03   1  0  requires factions { denmark, }  and hidden_resource peru
 	recruit_pool "peru_early_inf"  2   0.18   2  0  requires factions { denmark, }  and not event_counter military_reforms_1870 1 and hidden_resource peru
 	recruit_pool "peru_early_inf"  0.8   0.072   0.8  0  requires factions { denmark, }  and not event_counter military_reforms_1870 1 and not hidden_resource peru
@@ -1375,7 +1422,8 @@ building barracks
 ;resupply peru
 	recruit_pool "rus_conscript_de"  0.8   0.08   0.8  0  requires factions { denmark, }
 	recruit_pool "tzar_inf"  0.4   0.04   0.4  0  requires factions { denmark, }
-	recruit_pool "peru_foot"  0.4   0.04   0.4  0  requires factions { denmark, aztecs, }
+	recruit_pool "peru_foot"  0.4   0.04   0.4  0  requires factions { denmark, }
+	recruit_pool "peru_foot_aztecs"  0.4   0.04   0.4  0  requires factions { aztecs, }
 	recruit_pool "peru_carb"  0.2   0.02   0.2  0  requires factions { denmark, }
 	recruit_pool "peru_early_inf"  0.9   0.09   0.9  0  requires factions { denmark, }
 	recruit_pool "bol_hussar"  0.2   0.02   0.2  0  requires factions { denmark, }
@@ -1411,15 +1459,13 @@ building barracks
 ;uk
 	recruit_pool "pith_troopers"  0   0.03   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "l_pith_cav"  1   0.06   1  0  requires factions { england, }  and event_counter military_reforms_1 1 and hidden_resource uk or hidden_resource canada or hidden_resource anzac or hidden_resource south_africa
-	recruit_pool "l_pith_cav"  1   0.06   1  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
-	recruit_pool "l_pith_cav"  1   0.06   1  0  requires factions { aztecs, }   and event_counter military_reforms_1 1 and hidden_resource argentina
+	recruit_pool "l_pith_cav_portugal"  1   0.06   1  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
+	recruit_pool "l_pith_cav_aztecs"  1   0.06   1  0  requires factions { aztecs, }   and event_counter military_reforms_1 1 and hidden_resource argentina
 	recruit_pool "l_pith_cam"  1   0.06   1  0  requires factions { england, }   and event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "l_brit_cav"  0   0.03   1  0  requires factions { england, }  and event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_guard"  1   0.09   1  0  requires factions { england, }  and event_counter military_reforms_1 1
-	recruit_pool "uk_ww1_heavy"  1   0.06   1  0  requires factions { england, }  and event_counter military_reforms_2 1 and hidden_resource uk
-	recruit_pool "uk_ww1_heavy"  1   0.06   1  0  requires factions { poland, }  and event_counter military_reforms_2 1 and hidden_resource brazil
 	recruit_pool "uk_sikhs"  1   0.09   1  0  requires factions { england, }  and event_counter military_reforms_1870 1 and hidden_resource india
-	recruit_pool "uk_knights"  1   0.06   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
+	recruit_pool "uk_knights_england"  1   0.06   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_knights"  1   0.06   1  0  requires factions { poland, }  and not event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "uk_gurk"  0   0.03   1  0  requires factions { england, }  and event_counter military_reforms_1890 1 and hidden_resource tibet
 	recruit_pool "uk_gurk"  1   0.09   2.0  0  requires factions { england, }   and event_counter indian_raj 1
@@ -1433,14 +1479,16 @@ building barracks
 
 ;resupply uk
 	recruit_pool "pith_troopers"  0.2   0.02   0.2  0  requires factions { england, }
-	recruit_pool "l_pith_cav"  0.4   0.04   0.4  0  requires factions { england, portugal, aztecs, }
+	recruit_pool "l_pith_cav"  0.4   0.04   0.4  0  requires factions { england, }
+	recruit_pool "l_pith_cav_portugal"  0.4   0.04   0.4  0  requires factions { portugal, }
+	recruit_pool "l_pith_cav_aztecs"  0.4   0.04   0.4  0  requires factions { aztecs, }
 	recruit_pool "l_pith_cam"  0.4   0.04   0.4  0  requires factions { england, }
 	recruit_pool "l_brit_cav"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_musket"  0.6   0.06   0.6  0  requires factions { england, }
 	recruit_pool "uk_guard"  0.6   0.06   0.6  0  requires factions { england, }
-	recruit_pool "uk_ww1_heavy"  0.4   0.04   0.4  0  requires factions { england, poland, }
 	recruit_pool "uk_sikhs"  0.6   0.06   0.6  0  requires factions { england, }
-	recruit_pool "uk_knights"  0.4   0.04   0.4  0  requires factions { england, poland, }
+	recruit_pool "uk_knights_england"  0.4   0.04   0.4  0  requires factions { england, }
+	recruit_pool "uk_knights"  0.4   0.04   0.4  0  requires factions { poland, }
 	recruit_pool "uk_sailor"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_gurk"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_roy"  0.2   0.02   0.2  0  requires factions { england, }
@@ -1452,19 +1500,19 @@ building barracks
 
 ;france
 	recruit_pool "fra_cav"  1   0.06   1  0  requires factions { france, }   and event_counter military_reforms_1 1 and hidden_resource france
-	recruit_pool "fra_cav"  1   0.06   1  0  requires factions { scotland, }   and event_counter military_reforms_1 1 and hidden_resource mexico
-	recruit_pool "fra_cav"  1   0.06   1  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
-	recruit_pool "fra_cav"  1   0.06   1  0  requires factions { sicily, }   and event_counter military_reforms_1 1 and hidden_resource denmark
+	recruit_pool "fra_cav_scotland"  1   0.06   1  0  requires factions { scotland, }   and event_counter military_reforms_1 1 and hidden_resource mexico
+	recruit_pool "fra_cav_poland"  1   0.06   1  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
+	recruit_pool "fra_cav_sicily"  1   0.06   1  0  requires factions { sicily, }   and event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "fra_pith"  1   0.12   1  0  requires factions { france, }   and event_counter military_reforms_1 1 and hidden_resource france
-	recruit_pool "fra_pith"  1   0.12   1  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
+	recruit_pool "fra_pith_poland"  1   0.12   1  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "fra_ww1_inf"  0   0.03   1  0  requires factions { france, }   and event_counter military_reforms_2 1 and hidden_resource france
 	recruit_pool "fra_ww1_inf"  0.0   0.012   0.4  0  requires factions { france, }  and event_counter military_reforms_2 1 and not hidden_resource france
-	recruit_pool "fra_ww1_inf"  0   0.03   1  0  requires factions { aztecs, }   and event_counter military_reforms_2 1 and hidden_resource argentina
-	recruit_pool "fra_ww1_inf"  0.0   0.012   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_2 1 and not hidden_resource argentina
+	recruit_pool "fra_ww1_inf_aztecs"  0   0.03   1  0  requires factions { aztecs, }   and event_counter military_reforms_2 1 and hidden_resource argentina
+	recruit_pool "fra_ww1_inf_aztecs"  0.0   0.012   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_2 1 and not hidden_resource argentina
 	recruit_pool "fra_carbs"  1   0.06   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_hus_2"  0   0.03   1  0  requires factions { france, }   and not event_counter military_reforms_1870 1 and hidden_resource france
-	recruit_pool "fra_hus_2"  0   0.03   1  0  requires factions { spain, }   and not event_counter military_reforms_1870 1 and hidden_resource spain
-	recruit_pool "fra_hus_2"  0   0.03   1  0  requires factions { aztecs, }   and not event_counter military_reforms_1870 1 and hidden_resource argentina
+	recruit_pool "spa_cuirassiers_early"  0   0.03   1  0  requires factions { spain, }   and not event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "fra_hus_2_aztecs"  0   0.03   1  0  requires factions { aztecs, }   and not event_counter military_reforms_1870 1 and hidden_resource argentina
 	recruit_pool "fra_blacks_fr"  0   0.03   1  0  requires factions { france, }   and not event_counter military_reforms_1870 1 and hidden_resource sub_sahara
 	recruit_pool "fra_rec"  1   0.06   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_rec"  0.4   0.024   0.4  0  requires factions { france, }  and not event_counter military_reforms_1 1 and not hidden_resource france
@@ -1475,12 +1523,20 @@ building barracks
 	recruit_pool "fra_chass"  0   0.03   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 
 ;resupply france
-	recruit_pool "fra_cav"  0.4   0.04   0.4  0  requires factions { france, scotland, poland, sicily, }
-	recruit_pool "fra_pith"  0.8   0.08   0.8  0  requires factions { france, poland, }
-	recruit_pool "fra_ww1_inf"  0.2   0.02   0.2  0  requires factions { france, aztecs, }
+	recruit_pool "fra_cav"  0.4   0.04   0.4  0  requires factions { france, }
+	recruit_pool "fra_cav_scotland"  0.4   0.04   0.4  0  requires factions { scotland, }
+	recruit_pool "fra_cav_poland"  0.4   0.04   0.4  0  requires factions { poland, }
+	recruit_pool "fra_cav_sicily"  0.4   0.04   0.4  0  requires factions { sicily, }
+	recruit_pool "fra_pith"  0.8   0.08   0.8  0  requires factions { france, }
+	recruit_pool "fra_pith_poland"  0.8   0.08   0.8  0  requires factions { poland, }
+	recruit_pool "fra_ww1_inf"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_ww1_inf_aztecs"  0.2   0.02   0.2  0  requires factions { aztecs, }
 	recruit_pool "fra_carbs"  0.4   0.04   0.4  0  requires factions { france, }
-	recruit_pool "fra_sailors"  0.2   0.02   0.2  0  requires factions { france, denmark, }
-	recruit_pool "fra_hus_2"  0.2   0.02   0.2  0  requires factions { france, spain, aztecs, }
+	recruit_pool "fra_sailors"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_sailors_denmark"  0.2   0.02   0.2  0  requires factions { denmark, }
+	recruit_pool "fra_hus_2"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "spa_cuirassiers_early"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "fra_hus_2_aztecs"  0.2   0.02   0.2  0  requires factions { aztecs, }
 	recruit_pool "fra_blacks_fr"  0.2   0.02   0.2  0  requires factions { france, }
 	recruit_pool "fra_rec"  0.4   0.04   0.4  0  requires factions { france, }
 	recruit_pool "fra_inf_fr"  0.2   0.02   0.2  0  requires factions { france, }
@@ -1527,25 +1583,25 @@ building barracks
 	recruit_pool "siam_riflemen_gr"  0.9   0.09   0.9  0  requires factions { hre, }
 
 ;spain
-	recruit_pool "uk_sailor_sp"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource cuba
-	recruit_pool "us_front_cav_sp"  0   0.03   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource spain
-	recruit_pool "spa_regu"  1   0.09   1  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "segunda_inf"  0   0.03   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 and hidden_resource spain
-	recruit_pool "spa_inf_late"  1   0.09   1  0  requires factions { spain, }  and event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "spa_inf_late"  0.4   0.036   0.4  0  requires factions { spain, }  and event_counter military_reforms_1 1 and not hidden_resource spain
-	recruit_pool "aus_inf_sp"  1   0.06   1  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "spa_scout_cav"  0   0.03   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies or hidden_resource cuba or hidden_resource s_america
+	recruit_pool "cuban_inf_high"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource cuba
+	recruit_pool "spa_cav_high"  0   0.03   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource spain
+	recruit_pool "spa_inf_early"  1   0.09   1  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_milicia_nacional_early"  0   0.03   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "spa_inf_high"  1   0.09   1  0  requires factions { spain, }  and event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_inf_high"  0.4   0.036   0.4  0  requires factions { spain, }  and event_counter military_reforms_1 1 and not hidden_resource spain
+	recruit_pool "spa_caz_early"  1   0.06   1  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_col_cav_mid"  0   0.03   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies or hidden_resource cuba or hidden_resource s_america
 
 ;resupply spain
-	recruit_pool "uk_sailor_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "us_front_cav_sp"  0.2   0.02   0.2  0  requires factions { spain, }
-	recruit_pool "spa_regu"  0.6   0.06   0.6  0  requires factions { spain, }
-	recruit_pool "fra_inf_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "spa_nafrica"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "segunda_inf"  0.2   0.02   0.2  0  requires factions { spain, }
-	recruit_pool "spa_inf_late"  0.6   0.06   0.6  0  requires factions { spain, }
-	recruit_pool "aus_inf_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "spa_scout_cav"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "cuban_inf_high"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_cav_high"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "spa_inf_early"  0.6   0.06   0.6  0  requires factions { spain, }
+	recruit_pool "spa_col_inf_early"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_col_inf_high"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_milicia_nacional_early"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "spa_inf_high"  0.6   0.06   0.6  0  requires factions { spain, }
+	recruit_pool "spa_caz_early"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_col_cav_mid"  0.2   0.02   0.2  0  requires factions { spain, }
 
 ;netherlands
 	recruit_pool "dutch_pith"  2   0.15   2  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
@@ -1573,7 +1629,7 @@ building barracks
 	recruit_pool "aus_inf_si"  1   0.06   1  0  requires factions { sicily, }  and not event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "rus_cos_guard_si"  2   0.15   2  0  requires factions { sicily, }  and event_counter military_reforms_1870 1 and hidden_resource denmark
 	recruit_pool "dan_cav"  0   0.03   1  0  requires factions { sicily, }  and not event_counter military_reforms_1 1 and hidden_resource denmark
-	recruit_pool "dan_cav"  0   0.03   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
+	recruit_pool "dan_cav_hungary"  0   0.03   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "dan_inf"  1   0.06   1  0  requires factions { sicily, }  and event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "dan_inf"  0.4   0.024   0.4  0  requires factions { sicily, }  and event_counter military_reforms_1 1 and not hidden_resource denmark
 
@@ -1581,7 +1637,8 @@ building barracks
 	recruit_pool "fra_guard_si"  0.9   0.09   0.9  0  requires factions { sicily, }
 	recruit_pool "aus_inf_si"  0.4   0.04   0.4  0  requires factions { sicily, }
 	recruit_pool "rus_cos_guard_si"  0.9   0.09   0.9  0  requires factions { sicily, }
-	recruit_pool "dan_cav"  0.2   0.02   0.2  0  requires factions { sicily, hungary, }
+	recruit_pool "dan_cav"  0.2   0.02   0.2  0  requires factions { sicily, }
+	recruit_pool "dan_cav_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "dan_inf"  0.4   0.04   0.4  0  requires factions { sicily, }
 
 ;sweden-norway
@@ -1609,11 +1666,11 @@ building barracks
 	recruit_pool "greek_roy"  0.0   0.012   0.4  0  requires factions { mongols, }  and event_counter military_reforms_1890 1 and not hidden_resource greece
 	recruit_pool "greek_guard_cav"  0   0.03   1  0  requires factions { mongols, }  and not event_counter military_reforms_1 1
 	recruit_pool "rom_guard"  0   0.03   1  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1
-	recruit_pool "rom_guard"  0   0.03   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1
+	recruit_pool "rom_guard_hungary"  0   0.03   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1
 	recruit_pool "swed_inf"  1   0.12   1  0  requires factions { mongols, }  and event_counter military_reforms_1870 1 and hidden_resource greece
 	recruit_pool "swed_inf"  0.4   0.048   0.4  0  requires factions { mongols, }  and event_counter military_reforms_1870 1 and not hidden_resource greece
 	recruit_pool "rom_cav"  0   0.03   1  0  requires factions { mongols, }  and event_counter military_reforms_1 1 and hidden_resource greece
-	recruit_pool "rom_cav"  0   0.03   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
+	recruit_pool "rom_cav_hungary"  0   0.03   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "greek_early_inf"  1   0.12   1  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1 and hidden_resource greece
 	recruit_pool "greek_early_inf"  0.4   0.048   0.4  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1 and not hidden_resource greece
 
@@ -1621,9 +1678,11 @@ building barracks
 	recruit_pool "evzones_inf"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "greek_roy"  0.2   0.02   0.2  0  requires factions { mongols, }
 	recruit_pool "greek_guard_cav"  0.2   0.02   0.2  0  requires factions { mongols, }
-	recruit_pool "rom_guard"  0.2   0.02   0.2  0  requires factions { mongols, hungary, }
+	recruit_pool "rom_guard"  0.2   0.02   0.2  0  requires factions { mongols, }
+	recruit_pool "rom_guard_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "swed_inf"  0.8   0.08   0.8  0  requires factions { mongols, }
-	recruit_pool "rom_cav"  0.2   0.02   0.2  0  requires factions { mongols, hungary, }
+	recruit_pool "rom_cav"  0.2   0.02   0.2  0  requires factions { mongols, }
+	recruit_pool "rom_cav_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "greek_early_inf"  0.8   0.08   0.8  0  requires factions { mongols, }
 
 ;italy
@@ -1651,7 +1710,7 @@ building barracks
 	recruit_pool "rus_conscript"  1   0.09   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource siberia
 	recruit_pool "rus_conscript"  0.4   0.036   0.4  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and not hidden_resource siberia
 	recruit_pool "rus_cos_hussar"  0   0.03   1  0  requires factions { russia, }  and hidden_resource steppe
-	recruit_pool "georgian_inf"  0   0.03   1  0  requires factions { russia, }  and hidden_resource georgia
+	recruit_pool "georgian_inf_russia"  0   0.03   1  0  requires factions { russia, }  and hidden_resource georgia
 	recruit_pool "rus_gen_cav"  1   0.06   1  0  requires factions { russia, }  and hidden_resource russia or hidden_resource steppe 
 	recruit_pool "rus_conscript_ru"  1   0.12   1  0  requires factions { russia, }  and not event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "rus_roy_cav_ru"  0   0.03   1  0  requires factions { russia, }  and hidden_resource russia
@@ -1668,7 +1727,7 @@ building barracks
 ;resupply russia
 	recruit_pool "rus_conscript"  0.6   0.06   0.6  0  requires factions { russia, }
 	recruit_pool "rus_cos_hussar"  0.2   0.02   0.2  0  requires factions { russia, }
-	recruit_pool "georgian_inf"  0.2   0.02   0.2  0  requires factions { russia, }
+	recruit_pool "georgian_inf_russia"  0.2   0.02   0.2  0  requires factions { russia, }
 	recruit_pool "rus_gen_cav"  0.4   0.04   0.4  0  requires factions { russia, }
 	recruit_pool "rus_sailors"  0.2   0.02   0.2  0  requires factions { russia, }
 	recruit_pool "rus_conscript_ru"  0.8   0.08   0.8  0  requires factions { russia, }
@@ -1686,7 +1745,9 @@ building barracks
 	recruit_pool "dutch_militia"  1   0.06   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "dutch_militia"  0.4   0.024   0.4  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1 and not hidden_resource austria and not hidden_resource hungary
 	recruit_pool "rom_inf"  1   0.06   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource hungary
-	recruit_pool "it_royals"  1   0.06   1  0  requires factions { hungary, venice, mongols, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals_hungary"  1   0.06   1  0  requires factions { hungary, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals"  1   0.06   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals_mongols"  1   0.06   1  0  requires factions { mongols, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
 	recruit_pool "aus_jag"  1   0.06   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_lancers"  0   0.03   1  0  requires factions { hungary, }  and hidden_resource austria
 	recruit_pool "aus_inf2"  1   0.09   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria
@@ -1695,19 +1756,24 @@ building barracks
 	recruit_pool "aus_inf3"  0   0.03   1  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_inf3"  0.0   0.012   0.4  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and not hidden_resource austria and not hidden_resource hungary
 	recruit_pool "balk_cav"  0   0.03   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
-	recruit_pool "balk_cav"  0   0.03   1  0  requires factions { mongols, }  and hidden_resource greece
+	recruit_pool "balk_cav_mongols"  0   0.03   1  0  requires factions { mongols, }  and hidden_resource greece
 	recruit_pool "kaiserjager"  1   0.06   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1 and hidden_resource austria
 
 ;resupply austria-hungary
 	recruit_pool "dutch_militia"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "rom_inf"  0.4   0.04   0.4  0  requires factions { hungary, }
-	recruit_pool "it_royals"  0.4   0.04   0.4  0  requires factions { hungary, venice, mongols, }
+	recruit_pool "it_royals_hungary"  0.4   0.04   0.4  0  requires factions { hungary, }
+	recruit_pool "it_royals"  0.4   0.04   0.4  0  requires factions { venice, }
+	recruit_pool "it_royals_mongols"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "aus_jag"  0.4   0.04   0.4  0  requires factions { hungary, }
-	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, normans, spain, }
+	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, }
+	recruit_pool "austro_sailor_normans"  0.2   0.02   0.2  0  requires factions { normans, }
+	recruit_pool "austro_sailor_spain"  0.2   0.02   0.2  0  requires factions { spain, }
 	recruit_pool "aus_lancers"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "aus_inf2"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "aus_inf3"  0.2   0.02   0.2  0  requires factions { hungary, }
-	recruit_pool "balk_cav"  0.2   0.02   0.2  0  requires factions { hungary, mongols, }
+	recruit_pool "balk_cav"  0.2   0.02   0.2  0  requires factions { hungary, }
+	recruit_pool "balk_cav_mongols"  0.2   0.02   0.2  0  requires factions { mongols, }
 	recruit_pool "kaiserjager"  0.4   0.04   0.4  0  requires factions { hungary, }
 
 ;morocco
@@ -1721,7 +1787,8 @@ building barracks
 
 ;resupply morocco
 	recruit_pool "black_guard"  0.8   0.08   0.8  0  requires factions { moors, }
-	recruit_pool "fra_blacks"  0.2   0.02   0.2  0  requires factions { moors, turks, }
+	recruit_pool "fra_blacks"  0.2   0.02   0.2  0  requires factions { moors, }
+	recruit_pool "fra_blacks_turks"  0.2   0.02   0.2  0  requires factions { turks, }
 	recruit_pool "d_fra_for_cav"  0.8   0.08   0.8  0  requires factions { moors, }
 	recruit_pool "moroccan_camel_roy"  0.2   0.02   0.2  0  requires factions { moors, }
 	recruit_pool "skif_inf"  0.4   0.04   0.4  0  requires factions { moors, }
@@ -1758,12 +1825,17 @@ building barracks
 	recruit_pool "merc_zulu_rifles"  0.4   0.04   0.4  0  requires factions { teu, golden, lith, }
 
 ;ottoman
-	recruit_pool "bulgarian_inf"  1   0.06   1  0  requires factions { hungary, russia, mongols, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
-	recruit_pool "armenian_inf"  1   0.06   1  0  requires factions { russia, mongols, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
+	recruit_pool "bulgarian_inf"  1   0.06   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "bulgarian_inf_russia"  1   0.06   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "bulgarian_inf_mongols"  1   0.06   1  0  requires factions { mongols, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "armenian_inf_russia"  1   0.06   1  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
+	recruit_pool "armenian_inf"  1   0.06   1  0  requires factions { mongols, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
 	recruit_pool "arab_sailors"  1   0.06   1  0  requires factions { turks, }  and not event_counter military_reforms_1870 1 and hidden_resource ottoman
 	recruit_pool "otto_jan_inf"  1   0.06   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource ottoman
-	recruit_pool "moroccan_camel_gunner"  0   0.03   1  0  requires factions { turks, golden, } and hidden_resource arab
-	recruit_pool "moroccan_gunner"  1   0.06   1  0  requires factions { turks, golden, } and hidden_resource arab
+	recruit_pool "moroccan_camel_gunner"  0   0.03   1  0  requires factions { turks, } and hidden_resource arab
+	recruit_pool "moroccan_camel_gunner_golden"  0   0.03   1  0  requires factions { golden, } and hidden_resource arab
+	recruit_pool "moroccan_gunner"  1   0.06   1  0  requires factions { turks, } and hidden_resource arab
+	recruit_pool "moroccan_gunner_golden"  1   0.06   1  0  requires factions { golden, } and hidden_resource arab
 	recruit_pool "ertu_cav"  0   0.03   1  0  requires factions { turks, }  and event_counter military_reforms_1890 1 and hidden_resource ottoman
 	recruit_pool "arab_brigade"  1   0.09   1  0  requires factions { turks, }  and not event_counter military_reforms_1870 1 and not hidden_resource ottoman
 	recruit_pool "turk_lt2"  1   0.09   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
@@ -1773,12 +1845,17 @@ building barracks
 	recruit_pool "otto_cav_tu"  0   0.03   1  0  requires factions { turks, }  and not event_counter military_reforms_1890 1 and hidden_resource ottoman
 
 ;resupply ottoman
-	recruit_pool "bulgarian_inf"  0.4   0.04   0.4  0  requires factions { hungary, russia, mongols, }
-	recruit_pool "armenian_inf"  0.4   0.04   0.4  0  requires factions { russia, mongols, }
+	recruit_pool "bulgarian_inf"  0.4   0.04   0.4  0  requires factions { hungary, }
+	recruit_pool "bulgarian_inf_russia"  0.4   0.04   0.4  0  requires factions { russia, }
+	recruit_pool "bulgarian_inf_mongols"  0.4   0.04   0.4  0  requires factions { mongols, }
+	recruit_pool "armenian_inf_russia"  0.4   0.04   0.4  0  requires factions { russia, }
+	recruit_pool "armenian_inf"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "arab_sailors"  0.4   0.04   0.4  0  requires factions { turks, }
 	recruit_pool "otto_jan_inf"  0.4   0.04   0.4  0  requires factions { turks, }
-	recruit_pool "moroccan_camel_gunner"  0.2   0.02   0.2  0  requires factions { turks, golden, }
-	recruit_pool "moroccan_gunner"  0.4   0.04   0.4  0  requires factions { turks, golden, }
+	recruit_pool "moroccan_camel_gunner"  0.2   0.02   0.2  0  requires factions { turks, }
+	recruit_pool "moroccan_camel_gunner_golden"  0.2   0.02   0.2  0  requires factions { golden, }
+	recruit_pool "moroccan_gunner"  0.4   0.04   0.4  0  requires factions { turks, }
+	recruit_pool "moroccan_gunner_golden"  0.4   0.04   0.4  0  requires factions { golden, }
 	recruit_pool "ertu_cav"  0.2   0.02   0.2  0  requires factions { turks, }
 	recruit_pool "arab_brigade"  0.6   0.06   0.6  0  requires factions { turks, }
 	recruit_pool "turk_lt2"  0.6   0.06   0.6  0  requires factions { turks, }
@@ -1899,7 +1976,7 @@ building barracks
 
 ;siam
 	recruit_pool "siam_ele_gunner"  0   0.03   1  0  requires factions { cru, }  and hidden_resource siam
-	recruit_pool "fra_vietna"  0   0.03   1  0  requires factions { france, }  and event_counter military_reforms_1870 1 and hidden_resource indochina
+	recruit_pool "fra_vietna_france"  0   0.03   1  0  requires factions { france, }  and event_counter military_reforms_1870 1 and hidden_resource indochina
 	recruit_pool "fra_vietna"  0   0.03   1  0  requires factions { cru, }  and event_counter military_reforms_1 1 and hidden_resource indochina
 	recruit_pool "siam_late_inf"  1   0.12   1  0  requires factions { cru, }  and event_counter military_reforms_1 1 and hidden_resource siam
 	recruit_pool "siam_late_inf"  0.4   0.048   0.4  0  requires factions { cru, }  and event_counter military_reforms_1 1 and not hidden_resource siam
@@ -1909,19 +1986,21 @@ building barracks
 	recruit_pool "siam_inf"  1   0.06   1  0  requires factions { cru, }  and not event_counter military_reforms_1 1 and hidden_resource siam
 	recruit_pool "siam_inf"  0.4   0.024   0.4  0  requires factions { cru, }  and not event_counter military_reforms_1 1 and not hidden_resource siam
 	recruit_pool "Siam_Archers"  1   0.06   1  0  requires factions { cru, }  and not event_counter military_reforms_1870 1 and hidden_resource siam
-	recruit_pool "burmese_inf"  0   0.03   1  0  requires factions { cru, england, }  and hidden_resource indochina
+	recruit_pool "burmese_inf"  0   0.03   1  0  requires factions { cru, }  and hidden_resource indochina
 
 ;resupply siam
 	recruit_pool "siam_ele_gunner"  0.2   0.02   0.2  0  requires factions { cru, }
-	recruit_pool "fra_vietna"  0.2   0.02   0.2  0  requires factions { france, cru, }
-	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { byzantium, cru, }
+	recruit_pool "fra_vietna_france"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_vietna"  0.2   0.02   0.2  0  requires factions { cru, }
+	recruit_pool "siam_sea_byzantium"  0.2   0.02   0.2  0  requires factions { byzantium, }
+	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_late_inf"  0.8   0.08   0.8  0  requires factions { cru, }
 	recruit_pool "siam_late_cav"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_agent"  0.4   0.04   0.4  0  requires factions { cru, }
 	recruit_pool "viet_inf"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_inf"  0.4   0.04   0.4  0  requires factions { cru, }
 	recruit_pool "Siam_Archers"  0.4   0.04   0.4  0  requires factions { cru, }
-	recruit_pool "burmese_inf"  0.2   0.02   0.2  0  requires factions { cru, england, }
+	recruit_pool "burmese_inf"  0.2   0.02   0.2  0  requires factions { cru, }
 
 ;qing
 	recruit_pool "mongol_bows"  0   0.03   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource mongolia
@@ -2024,8 +2103,8 @@ building barracks
 	recruit_pool "merc_fra_blacks"  1   0.06   1  0  requires factions { england, france, hre, venice, spain, }  and event_counter military_reforms_1870 1 and hidden_resource sub_sahara
 	recruit_pool "merc_fra_for_cav"  0   0.03   1  0  requires factions { france, }  and hidden_resource arab
 	recruit_pool "euro_hussars"  0   0.03   1  0  requires factions { spain, }  and not event_counter military_reforms_1890 1 and hidden_resource spain
-	recruit_pool "euro_hussars"  0   0.03   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
-	recruit_pool "euro_hussars"  0   0.03   1  0  requires factions { normans, }  and not event_counter military_reforms_1890 1 and hidden_resource sweden or hidden_resource norway
+	recruit_pool "euro_hussars_venice"  0   0.03   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
+	recruit_pool "euro_hussars_normans"  0   0.03   1  0  requires factions { normans, }  and not event_counter military_reforms_1890 1 and hidden_resource sweden or hidden_resource norway
 
 ;resupply misc
 	recruit_pool "merc_uru_inf"  0.4   0.04   0.4  0  requires factions { poland, aztecs, }
@@ -2045,7 +2124,9 @@ building barracks
 	recruit_pool "merc_eng_for_cav"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "merc_fra_blacks"  0.4   0.04   0.4  0  requires factions { england, france, hre, venice, spain, }
 	recruit_pool "merc_fra_for_cav"  0.2   0.02   0.2  0  requires factions { france, }
-	recruit_pool "euro_hussars"  0.2   0.02   0.2  0  requires factions { spain, venice, normans, }
+	recruit_pool "euro_hussars"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "euro_hussars_venice"  0.2   0.02   0.2  0  requires factions { venice, }
+	recruit_pool "euro_hussars_normans"  0.2   0.02   0.2  0  requires factions { normans, }
 	recruit_pool "us_farmer_cav"  0.4   0.04   0.4  0  requires factions { milan, teu, }
 	recruit_pool "us_farmers"  0.4   0.04   0.4  0  requires factions { milan, teu, }
  
@@ -2070,12 +2151,14 @@ building barracks
             capability
             {
 ;us
-	recruit_pool "berdan_inf"  1   0.06   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
-	recruit_pool "ap_front_cav"  1   0.06   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
+	recruit_pool "berdan_inf"  1   0.06   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "berdan_inf_milan"  1   0.06   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "ap_front_cav"  1   0.06   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
+	recruit_pool "ap_front_cav_milan"  1   0.06   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
 	recruit_pool "us_scout_cav"  2   0.12   2  0  requires factions { portugala, }  and hidden_resource usa
-	recruit_pool "us_scout_cav"  2   0.12   2  0  requires factions { scotland, }  and not event_counter military_reforms_1 1 and hidden_resource mexico
+	recruit_pool "us_scout_cav_scotland"  2   0.12   2  0  requires factions { scotland, }  and not event_counter military_reforms_1 1 and hidden_resource mexico
 	recruit_pool "us_zouave"  2   0.12   2  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
-	recruit_pool "us_zouave"  2   0.12   2  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
+	recruit_pool "us_zouave_france"  2   0.12   2  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "union_irish_brigade"  1   0.06   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_inf"  2   0.12   2  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
 	recruit_pool "us_inf"  0.8   0.048   0.8  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and not hidden_resource usa
@@ -2089,10 +2172,14 @@ building barracks
 	recruit_pool "apache_inf"  1   0.06   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
 
 ;resupply us
-	recruit_pool "berdan_inf"  0.2   0.02   0.2  0  requires factions { portugala, milan, }
-	recruit_pool "ap_front_cav"  0.2   0.02   0.2  0  requires factions { portugala, milan, }  
-	recruit_pool "us_scout_cav"  0.4   0.04   0.4  0  requires factions { portugala, scotland, }  
-	recruit_pool "us_zouave"  0.4   0.04   0.4  0  requires factions { portugala, france, }  
+	recruit_pool "berdan_inf"  0.2   0.02   0.2  0  requires factions { portugala, }
+	recruit_pool "berdan_inf_milan"  0.2   0.02   0.2  0  requires factions { milan, }
+	recruit_pool "ap_front_cav"  0.2   0.02   0.2  0  requires factions { portugala, }  
+	recruit_pool "ap_front_cav_milan"  0.2   0.02   0.2  0  requires factions { milan, }  
+	recruit_pool "us_scout_cav"  0.4   0.04   0.4  0  requires factions { portugala, }  
+	recruit_pool "us_scout_cav_scotland"  0.4   0.04   0.4  0  requires factions { scotland, }  
+	recruit_pool "us_zouave"  0.4   0.04   0.4  0  requires factions { portugala, }  
+	recruit_pool "us_zouave_france"  0.4   0.04   0.4  0  requires factions { france, }  
 	recruit_pool "union_irish_brigade"  0.2   0.02   0.2  0  requires factions { portugala, }  
 	recruit_pool "us_inf"  0.4   0.04   0.4  0  requires factions { portugala, }  
 	recruit_pool "us_blacks"  0.4   0.04   0.4  0  requires factions { portugala, }  
@@ -2151,8 +2238,8 @@ building barracks
 	recruit_pool "tzar_inf"  0.8   0.048   0.8  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and not hidden_resource peru
 	recruit_pool "peru_foot"  2   0.12   2  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and hidden_resource peru
 	recruit_pool "peru_foot"  0.8   0.048   0.8  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and not hidden_resource peru
-	recruit_pool "peru_foot"  2   0.12   2  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and hidden_resource argentina
-	recruit_pool "peru_foot"  0.8   0.048   0.8  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and not hidden_resource argentina
+	recruit_pool "peru_foot_aztecs"  2   0.12   2  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and hidden_resource argentina
+	recruit_pool "peru_foot_aztecs"  0.8   0.048   0.8  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and not hidden_resource argentina
 	recruit_pool "peru_carb"  1   0.06   1  0  requires factions { denmark, }  and hidden_resource peru
 	recruit_pool "peru_early_inf"  4   0.36   4  0  requires factions { denmark, }  and not event_counter military_reforms_1870 1 and hidden_resource peru
 	recruit_pool "peru_early_inf"  1.6   0.144   1.6  0  requires factions { denmark, }  and not event_counter military_reforms_1870 1 and not hidden_resource peru
@@ -2161,7 +2248,8 @@ building barracks
 ;resupply peru
 	recruit_pool "rus_conscript_de"  0.8   0.08   0.8  0  requires factions { denmark, }
 	recruit_pool "tzar_inf"  0.4   0.04   0.4  0  requires factions { denmark, }
-	recruit_pool "peru_foot"  0.4   0.04   0.4  0  requires factions { denmark, aztecs, }
+	recruit_pool "peru_foot"  0.4   0.04   0.4  0  requires factions { denmark, }
+	recruit_pool "peru_foot_aztecs"  0.4   0.04   0.4  0  requires factions { aztecs, }
 	recruit_pool "peru_carb"  0.2   0.02   0.2  0  requires factions { denmark, }
 	recruit_pool "peru_early_inf"  0.9   0.09   0.9  0  requires factions { denmark, }
 	recruit_pool "bol_hussar"  0.2   0.02   0.2  0  requires factions { denmark, }
@@ -2197,15 +2285,13 @@ building barracks
 ;uk
 	recruit_pool "pith_troopers"  1   0.06   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "l_pith_cav"  2   0.12   2  0  requires factions { england, }  and event_counter military_reforms_1 1 and hidden_resource uk or hidden_resource canada or hidden_resource anzac or hidden_resource south_africa
-	recruit_pool "l_pith_cav"  2   0.12   2  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
-	recruit_pool "l_pith_cav"  2   0.12   2  0  requires factions { aztecs, }   and event_counter military_reforms_1 1 and hidden_resource argentina
+	recruit_pool "l_pith_cav_portugal"  2   0.12   2  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
+	recruit_pool "l_pith_cav_aztecs"  2   0.12   2  0  requires factions { aztecs, }   and event_counter military_reforms_1 1 and hidden_resource argentina
 	recruit_pool "l_pith_cam"  2   0.12   2  0  requires factions { england, }   and event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "l_brit_cav"  1   0.06   1  0  requires factions { england, }  and event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_guard"  2   0.18   2  0  requires factions { england, }  and event_counter military_reforms_1 1
-	recruit_pool "uk_ww1_heavy"  2   0.12   2  0  requires factions { england, }  and event_counter military_reforms_2 1 and hidden_resource uk
-	recruit_pool "uk_ww1_heavy"  2   0.12   2  0  requires factions { poland, }  and event_counter military_reforms_2 1 and hidden_resource brazil
 	recruit_pool "uk_sikhs"  2   0.18   2  0  requires factions { england, }  and event_counter military_reforms_1870 1 and hidden_resource india
-	recruit_pool "uk_knights"  2   0.12   2  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
+	recruit_pool "uk_knights_england"  2   0.12   2  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_knights"  2   0.12   2  0  requires factions { poland, }  and not event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "uk_gurk"  1   0.06   1  0  requires factions { england, }  and event_counter military_reforms_1890 1 and hidden_resource tibet
 	recruit_pool "uk_gurk"  1.0   0.18   2.0  0  requires factions { england, }   and event_counter indian_raj 1
@@ -2219,14 +2305,16 @@ building barracks
 
 ;resupply uk
 	recruit_pool "pith_troopers"  0.2   0.02   0.2  0  requires factions { england, }
-	recruit_pool "l_pith_cav"  0.4   0.04   0.4  0  requires factions { england, portugal, aztecs, }
+	recruit_pool "l_pith_cav"  0.4   0.04   0.4  0  requires factions { england, }
+	recruit_pool "l_pith_cav_portugal"  0.4   0.04   0.4  0  requires factions { portugal, }
+	recruit_pool "l_pith_cav_aztecs"  0.4   0.04   0.4  0  requires factions { aztecs, }
 	recruit_pool "l_pith_cam"  0.4   0.04   0.4  0  requires factions { england, }
 	recruit_pool "l_brit_cav"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_musket"  0.6   0.06   0.6  0  requires factions { england, }
 	recruit_pool "uk_guard"  0.6   0.06   0.6  0  requires factions { england, }
-	recruit_pool "uk_ww1_heavy"  0.4   0.04   0.4  0  requires factions { england, poland, }
 	recruit_pool "uk_sikhs"  0.6   0.06   0.6  0  requires factions { england, }
-	recruit_pool "uk_knights"  0.4   0.04   0.4  0  requires factions { england, poland, }
+	recruit_pool "uk_knights_england"  0.4   0.04   0.4  0  requires factions { england, }
+	recruit_pool "uk_knights"  0.4   0.04   0.4  0  requires factions { poland, }
 	recruit_pool "uk_sailor"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_gurk"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_roy"  0.2   0.02   0.2  0  requires factions { england, }
@@ -2238,19 +2326,19 @@ building barracks
 
 ;france
 	recruit_pool "fra_cav"  2   0.12   2  0  requires factions { france, }   and event_counter military_reforms_1 1 and hidden_resource france
-	recruit_pool "fra_cav"  2   0.12   2  0  requires factions { scotland, }   and event_counter military_reforms_1 1 and hidden_resource mexico
-	recruit_pool "fra_cav"  2   0.12   2  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
-	recruit_pool "fra_cav"  2   0.12   2  0  requires factions { sicily, }   and event_counter military_reforms_1 1 and hidden_resource denmark
+	recruit_pool "fra_cav_scotland"  2   0.12   2  0  requires factions { scotland, }   and event_counter military_reforms_1 1 and hidden_resource mexico
+	recruit_pool "fra_cav_poland"  2   0.12   2  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
+	recruit_pool "fra_cav_sicily"  2   0.12   2  0  requires factions { sicily, }   and event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "fra_pith"  3   0.24   3  0  requires factions { france, }   and event_counter military_reforms_1 1 and hidden_resource france
-	recruit_pool "fra_pith"  3   0.24   3  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
+	recruit_pool "fra_pith_poland"  3   0.24   3  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "fra_ww1_inf"  1   0.06   1  0  requires factions { france, }   and event_counter military_reforms_2 1 and hidden_resource france
 	recruit_pool "fra_ww1_inf"  0.4   0.024   0.4  0  requires factions { france, }  and event_counter military_reforms_2 1 and not hidden_resource france
-	recruit_pool "fra_ww1_inf"  1   0.06   1  0  requires factions { aztecs, }   and event_counter military_reforms_2 1 and hidden_resource argentina
-	recruit_pool "fra_ww1_inf"  0.4   0.024   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_2 1 and not hidden_resource argentina
+	recruit_pool "fra_ww1_inf_aztecs"  1   0.06   1  0  requires factions { aztecs, }   and event_counter military_reforms_2 1 and hidden_resource argentina
+	recruit_pool "fra_ww1_inf_aztecs"  0.4   0.024   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_2 1 and not hidden_resource argentina
 	recruit_pool "fra_carbs"  2   0.12   2  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_hus_2"  1   0.06   1  0  requires factions { france, }   and not event_counter military_reforms_1870 1 and hidden_resource france
-	recruit_pool "fra_hus_2"  1   0.06   1  0  requires factions { spain, }   and not event_counter military_reforms_1870 1 and hidden_resource spain
-	recruit_pool "fra_hus_2"  1   0.06   1  0  requires factions { aztecs, }   and not event_counter military_reforms_1870 1 and hidden_resource argentina
+	recruit_pool "spa_cuirassiers_early"  1   0.06   1  0  requires factions { spain, }   and not event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "fra_hus_2_aztecs"  1   0.06   1  0  requires factions { aztecs, }   and not event_counter military_reforms_1870 1 and hidden_resource argentina
 	recruit_pool "fra_blacks_fr"  1   0.06   1  0  requires factions { france, }   and not event_counter military_reforms_1870 1 and hidden_resource sub_sahara
 	recruit_pool "fra_rec"  2   0.12   2  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_rec"  0.8   0.048   0.8  0  requires factions { france, }  and not event_counter military_reforms_1 1 and not hidden_resource france
@@ -2261,12 +2349,20 @@ building barracks
 	recruit_pool "fra_chass"  1   0.06   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 
 ;resupply france
-	recruit_pool "fra_cav"  0.4   0.04   0.4  0  requires factions { france, scotland, poland, sicily, }
-	recruit_pool "fra_pith"  0.8   0.08   0.8  0  requires factions { france, poland, }
-	recruit_pool "fra_ww1_inf"  0.2   0.02   0.2  0  requires factions { france, aztecs, }
+	recruit_pool "fra_cav"  0.4   0.04   0.4  0  requires factions { france, }
+	recruit_pool "fra_cav_scotland"  0.4   0.04   0.4  0  requires factions { scotland, }
+	recruit_pool "fra_cav_poland"  0.4   0.04   0.4  0  requires factions { poland, }
+	recruit_pool "fra_cav_sicily"  0.4   0.04   0.4  0  requires factions { sicily, }
+	recruit_pool "fra_pith"  0.8   0.08   0.8  0  requires factions { france, }
+	recruit_pool "fra_pith_poland"  0.8   0.08   0.8  0  requires factions { poland, }
+	recruit_pool "fra_ww1_inf"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_ww1_inf_aztecs"  0.2   0.02   0.2  0  requires factions { aztecs, }
 	recruit_pool "fra_carbs"  0.4   0.04   0.4  0  requires factions { france, }
-	recruit_pool "fra_sailors"  0.2   0.02   0.2  0  requires factions { france, denmark, }
-	recruit_pool "fra_hus_2"  0.2   0.02   0.2  0  requires factions { france, spain, aztecs, }
+	recruit_pool "fra_sailors"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_sailors_denmark"  0.2   0.02   0.2  0  requires factions { denmark, }
+	recruit_pool "fra_hus_2"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "spa_cuirassiers_early"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "fra_hus_2_aztecs"  0.2   0.02   0.2  0  requires factions { aztecs, }
 	recruit_pool "fra_blacks_fr"  0.2   0.02   0.2  0  requires factions { france, }
 	recruit_pool "fra_rec"  0.4   0.04   0.4  0  requires factions { france, }
 	recruit_pool "fra_inf_fr"  0.2   0.02   0.2  0  requires factions { france, }
@@ -2313,25 +2409,25 @@ building barracks
 	recruit_pool "siam_riflemen_gr"  0.9   0.09   0.9  0  requires factions { hre, }
 
 ;spain
-	recruit_pool "uk_sailor_sp"  2   0.12   2  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource cuba
-	recruit_pool "us_front_cav_sp"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource spain
-	recruit_pool "spa_regu"  2   0.18   2  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "segunda_inf"  1   0.06   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 and hidden_resource spain
-	recruit_pool "spa_inf_late"  2   0.18   2  0  requires factions { spain, }  and event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "spa_inf_late"  0.8   0.072   0.8  0  requires factions { spain, }  and event_counter military_reforms_1 1 and not hidden_resource spain
-	recruit_pool "aus_inf_sp"  2   0.12   2  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "spa_scout_cav"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies or hidden_resource cuba or hidden_resource s_america
+	recruit_pool "cuban_inf_high"  2   0.12   2  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource cuba
+	recruit_pool "spa_cav_high"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource spain
+	recruit_pool "spa_inf_early"  2   0.18   2  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_milicia_nacional_early"  1   0.06   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "spa_inf_high"  2   0.18   2  0  requires factions { spain, }  and event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_inf_high"  0.8   0.072   0.8  0  requires factions { spain, }  and event_counter military_reforms_1 1 and not hidden_resource spain
+	recruit_pool "spa_caz_early"  2   0.12   2  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_col_cav_mid"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies or hidden_resource cuba or hidden_resource s_america
 
 ;resupply spain
-	recruit_pool "uk_sailor_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "us_front_cav_sp"  0.2   0.02   0.2  0  requires factions { spain, }
-	recruit_pool "spa_regu"  0.6   0.06   0.6  0  requires factions { spain, }
-	recruit_pool "fra_inf_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "spa_nafrica"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "segunda_inf"  0.2   0.02   0.2  0  requires factions { spain, }
-	recruit_pool "spa_inf_late"  0.6   0.06   0.6  0  requires factions { spain, }
-	recruit_pool "aus_inf_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "spa_scout_cav"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "cuban_inf_high"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_cav_high"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "spa_inf_early"  0.6   0.06   0.6  0  requires factions { spain, }
+	recruit_pool "spa_col_inf_early"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_col_inf_high"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_milicia_nacional_early"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "spa_inf_high"  0.6   0.06   0.6  0  requires factions { spain, }
+	recruit_pool "spa_caz_early"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_col_cav_mid"  0.2   0.02   0.2  0  requires factions { spain, }
 
 ;netherlands
 	recruit_pool "dutch_pith"  3   0.3   3  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
@@ -2359,7 +2455,7 @@ building barracks
 	recruit_pool "aus_inf_si"  2   0.12   2  0  requires factions { sicily, }  and not event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "rus_cos_guard_si"  3   0.3   3  0  requires factions { sicily, }  and event_counter military_reforms_1870 1 and hidden_resource denmark
 	recruit_pool "dan_cav"  1   0.06   1  0  requires factions { sicily, }  and not event_counter military_reforms_1 1 and hidden_resource denmark
-	recruit_pool "dan_cav"  1   0.06   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
+	recruit_pool "dan_cav_hungary"  1   0.06   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "dan_inf"  2   0.12   2  0  requires factions { sicily, }  and event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "dan_inf"  0.8   0.048   0.8  0  requires factions { sicily, }  and event_counter military_reforms_1 1 and not hidden_resource denmark
 
@@ -2367,7 +2463,8 @@ building barracks
 	recruit_pool "fra_guard_si"  0.9   0.09   0.9  0  requires factions { sicily, }
 	recruit_pool "aus_inf_si"  0.4   0.04   0.4  0  requires factions { sicily, }
 	recruit_pool "rus_cos_guard_si"  0.9   0.09   0.9  0  requires factions { sicily, }
-	recruit_pool "dan_cav"  0.2   0.02   0.2  0  requires factions { sicily, hungary, }
+	recruit_pool "dan_cav"  0.2   0.02   0.2  0  requires factions { sicily, }
+	recruit_pool "dan_cav_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "dan_inf"  0.4   0.04   0.4  0  requires factions { sicily, }
 
 ;sweden-norway
@@ -2395,11 +2492,11 @@ building barracks
 	recruit_pool "greek_roy"  0.4   0.024   0.4  0  requires factions { mongols, }  and event_counter military_reforms_1890 1 and not hidden_resource greece
 	recruit_pool "greek_guard_cav"  1   0.06   1  0  requires factions { mongols, }  and not event_counter military_reforms_1 1
 	recruit_pool "rom_guard"  1   0.06   1  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1
-	recruit_pool "rom_guard"  1   0.06   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1
+	recruit_pool "rom_guard_hungary"  1   0.06   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1
 	recruit_pool "swed_inf"  3   0.24   3  0  requires factions { mongols, }  and event_counter military_reforms_1870 1 and hidden_resource greece
 	recruit_pool "swed_inf"  1.2   0.096   1.2  0  requires factions { mongols, }  and event_counter military_reforms_1870 1 and not hidden_resource greece
 	recruit_pool "rom_cav"  1   0.06   1  0  requires factions { mongols, }  and event_counter military_reforms_1 1 and hidden_resource greece
-	recruit_pool "rom_cav"  1   0.06   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
+	recruit_pool "rom_cav_hungary"  1   0.06   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "greek_early_inf"  3   0.24   3  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1 and hidden_resource greece
 	recruit_pool "greek_early_inf"  1.2   0.096   1.2  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1 and not hidden_resource greece
 
@@ -2407,9 +2504,11 @@ building barracks
 	recruit_pool "evzones_inf"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "greek_roy"  0.2   0.02   0.2  0  requires factions { mongols, }
 	recruit_pool "greek_guard_cav"  0.2   0.02   0.2  0  requires factions { mongols, }
-	recruit_pool "rom_guard"  0.2   0.02   0.2  0  requires factions { mongols, hungary, }
+	recruit_pool "rom_guard"  0.2   0.02   0.2  0  requires factions { mongols, }
+	recruit_pool "rom_guard_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "swed_inf"  0.8   0.08   0.8  0  requires factions { mongols, }
-	recruit_pool "rom_cav"  0.2   0.02   0.2  0  requires factions { mongols, hungary, }
+	recruit_pool "rom_cav"  0.2   0.02   0.2  0  requires factions { mongols, }
+	recruit_pool "rom_cav_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "greek_early_inf"  0.8   0.08   0.8  0  requires factions { mongols, }
 
 ;italy
@@ -2437,7 +2536,7 @@ building barracks
 	recruit_pool "rus_conscript"  2   0.18   2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource siberia
 	recruit_pool "rus_conscript"  0.8   0.072   0.8  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and not hidden_resource siberia
 	recruit_pool "rus_cos_hussar"  1   0.06   1  0  requires factions { russia, }  and hidden_resource steppe
-	recruit_pool "georgian_inf"  1   0.06   1  0  requires factions { russia, }  and hidden_resource georgia
+	recruit_pool "georgian_inf_russia"  1   0.06   1  0  requires factions { russia, }  and hidden_resource georgia
 	recruit_pool "rus_gen_cav"  2   0.12   2  0  requires factions { russia, }  and hidden_resource russia or hidden_resource steppe 
 	recruit_pool "rus_conscript_ru"  3   0.24   3  0  requires factions { russia, }  and not event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "rus_roy_cav_ru"  1   0.06   1  0  requires factions { russia, }  and hidden_resource russia
@@ -2454,7 +2553,7 @@ building barracks
 ;resupply russia
 	recruit_pool "rus_conscript"  0.6   0.06   0.6  0  requires factions { russia, }
 	recruit_pool "rus_cos_hussar"  0.2   0.02   0.2  0  requires factions { russia, }
-	recruit_pool "georgian_inf"  0.2   0.02   0.2  0  requires factions { russia, }
+	recruit_pool "georgian_inf_russia"  0.2   0.02   0.2  0  requires factions { russia, }
 	recruit_pool "rus_gen_cav"  0.4   0.04   0.4  0  requires factions { russia, }
 	recruit_pool "rus_sailors"  0.2   0.02   0.2  0  requires factions { russia, }
 	recruit_pool "rus_conscript_ru"  0.8   0.08   0.8  0  requires factions { russia, }
@@ -2472,7 +2571,9 @@ building barracks
 	recruit_pool "dutch_militia"  2   0.12   2  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "dutch_militia"  0.8   0.048   0.8  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1 and not hidden_resource austria and not hidden_resource hungary
 	recruit_pool "rom_inf"  2   0.12   2  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource hungary
-	recruit_pool "it_royals"  2   0.12   2  0  requires factions { hungary, venice, mongols, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals_hungary"  2   0.12   2  0  requires factions { hungary, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals"  2   0.12   2  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals_mongols"  2   0.12   2  0  requires factions { mongols, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
 	recruit_pool "aus_jag"  2   0.12   2  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_lancers"  1   0.06   1  0  requires factions { hungary, }  and hidden_resource austria
 	recruit_pool "aus_inf2"  2   0.18   2  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria
@@ -2481,19 +2582,24 @@ building barracks
 	recruit_pool "aus_inf3"  1   0.06   1  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_inf3"  0.4   0.024   0.4  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and not hidden_resource austria and not hidden_resource hungary
 	recruit_pool "balk_cav"  1   0.06   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
-	recruit_pool "balk_cav"  1   0.06   1  0  requires factions { mongols, }  and hidden_resource greece
+	recruit_pool "balk_cav_mongols"  1   0.06   1  0  requires factions { mongols, }  and hidden_resource greece
 	recruit_pool "kaiserjager"  2   0.12   2  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1 and hidden_resource austria
 
 ;resupply austria-hungary
 	recruit_pool "dutch_militia"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "rom_inf"  0.4   0.04   0.4  0  requires factions { hungary, }
-	recruit_pool "it_royals"  0.4   0.04   0.4  0  requires factions { hungary, venice, mongols, }
+	recruit_pool "it_royals_hungary"  0.4   0.04   0.4  0  requires factions { hungary, }
+	recruit_pool "it_royals"  0.4   0.04   0.4  0  requires factions { venice, }
+	recruit_pool "it_royals_mongols"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "aus_jag"  0.4   0.04   0.4  0  requires factions { hungary, }
-	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, normans, spain, }
+	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, }
+	recruit_pool "austro_sailor_normans"  0.2   0.02   0.2  0  requires factions { normans, }
+	recruit_pool "austro_sailor_spain"  0.2   0.02   0.2  0  requires factions { spain, }
 	recruit_pool "aus_lancers"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "aus_inf2"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "aus_inf3"  0.2   0.02   0.2  0  requires factions { hungary, }
-	recruit_pool "balk_cav"  0.2   0.02   0.2  0  requires factions { hungary, mongols, }
+	recruit_pool "balk_cav"  0.2   0.02   0.2  0  requires factions { hungary, }
+	recruit_pool "balk_cav_mongols"  0.2   0.02   0.2  0  requires factions { mongols, }
 	recruit_pool "kaiserjager"  0.4   0.04   0.4  0  requires factions { hungary, }
 
 ;morocco
@@ -2507,7 +2613,8 @@ building barracks
 
 ;resupply morocco
 	recruit_pool "black_guard"  0.8   0.08   0.8  0  requires factions { moors, }
-	recruit_pool "fra_blacks"  0.2   0.02   0.2  0  requires factions { moors, turks, }
+	recruit_pool "fra_blacks"  0.2   0.02   0.2  0  requires factions { moors, }
+	recruit_pool "fra_blacks_turks"  0.2   0.02   0.2  0  requires factions { turks, }
 	recruit_pool "d_fra_for_cav"  0.8   0.08   0.8  0  requires factions { moors, }
 	recruit_pool "moroccan_camel_roy"  0.2   0.02   0.2  0  requires factions { moors, }
 	recruit_pool "skif_inf"  0.4   0.04   0.4  0  requires factions { moors, }
@@ -2544,12 +2651,17 @@ building barracks
 	recruit_pool "merc_zulu_rifles"  0.4   0.04   0.4  0  requires factions { teu, golden, lith, }
 
 ;ottoman
-	recruit_pool "bulgarian_inf"  2   0.12   2  0  requires factions { hungary, russia, mongols, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
-	recruit_pool "armenian_inf"  2   0.12   2  0  requires factions { russia, mongols, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
+	recruit_pool "bulgarian_inf"  2   0.12   2  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "bulgarian_inf_russia"  2   0.12   2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "bulgarian_inf_mongols"  2   0.12   2  0  requires factions { mongols, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "armenian_inf_russia"  2   0.12   2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
+	recruit_pool "armenian_inf"  2   0.12   2  0  requires factions { mongols, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
 	recruit_pool "arab_sailors"  2   0.12   2  0  requires factions { turks, }  and not event_counter military_reforms_1870 1 and hidden_resource ottoman
 	recruit_pool "otto_jan_inf"  2   0.12   2  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource ottoman
-	recruit_pool "moroccan_camel_gunner"  1   0.06   1  0  requires factions { turks, golden, } and hidden_resource arab
-	recruit_pool "moroccan_gunner"  2   0.12   2  0  requires factions { turks, golden, } and hidden_resource arab
+	recruit_pool "moroccan_camel_gunner"  1   0.06   1  0  requires factions { turks, } and hidden_resource arab
+	recruit_pool "moroccan_camel_gunner_golden"  1   0.06   1  0  requires factions { golden, } and hidden_resource arab
+	recruit_pool "moroccan_gunner"  2   0.12   2  0  requires factions { turks, } and hidden_resource arab
+	recruit_pool "moroccan_gunner_golden"  2   0.12   2  0  requires factions { golden, } and hidden_resource arab
 	recruit_pool "ertu_cav"  1   0.06   1  0  requires factions { turks, }  and event_counter military_reforms_1890 1 and hidden_resource ottoman
 	recruit_pool "arab_brigade"  2   0.18   2  0  requires factions { turks, }  and not event_counter military_reforms_1870 1 and not hidden_resource ottoman
 	recruit_pool "turk_lt2"  2   0.18   2  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
@@ -2559,12 +2671,17 @@ building barracks
 	recruit_pool "otto_cav_tu"  1   0.06   1  0  requires factions { turks, }  and not event_counter military_reforms_1890 1 and hidden_resource ottoman
 
 ;resupply ottoman
-	recruit_pool "bulgarian_inf"  0.4   0.04   0.4  0  requires factions { hungary, russia, mongols, }
-	recruit_pool "armenian_inf"  0.4   0.04   0.4  0  requires factions { russia, mongols, }
+	recruit_pool "bulgarian_inf"  0.4   0.04   0.4  0  requires factions { hungary, }
+	recruit_pool "bulgarian_inf_russia"  0.4   0.04   0.4  0  requires factions { russia, }
+	recruit_pool "bulgarian_inf_mongols"  0.4   0.04   0.4  0  requires factions { mongols, }
+	recruit_pool "armenian_inf_russia"  0.4   0.04   0.4  0  requires factions { russia, }
+	recruit_pool "armenian_inf"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "arab_sailors"  0.4   0.04   0.4  0  requires factions { turks, }
 	recruit_pool "otto_jan_inf"  0.4   0.04   0.4  0  requires factions { turks, }
-	recruit_pool "moroccan_camel_gunner"  0.2   0.02   0.2  0  requires factions { turks, golden, }
-	recruit_pool "moroccan_gunner"  0.4   0.04   0.4  0  requires factions { turks, golden, }
+	recruit_pool "moroccan_camel_gunner"  0.2   0.02   0.2  0  requires factions { turks, }
+	recruit_pool "moroccan_camel_gunner_golden"  0.2   0.02   0.2  0  requires factions { golden, }
+	recruit_pool "moroccan_gunner"  0.4   0.04   0.4  0  requires factions { turks, }
+	recruit_pool "moroccan_gunner_golden"  0.4   0.04   0.4  0  requires factions { golden, }
 	recruit_pool "ertu_cav"  0.2   0.02   0.2  0  requires factions { turks, }
 	recruit_pool "arab_brigade"  0.6   0.06   0.6  0  requires factions { turks, }
 	recruit_pool "turk_lt2"  0.6   0.06   0.6  0  requires factions { turks, }
@@ -2685,7 +2802,7 @@ building barracks
 
 ;siam
 	recruit_pool "siam_ele_gunner"  1   0.06   1  0  requires factions { cru, }  and hidden_resource siam
-	recruit_pool "fra_vietna"  1   0.06   1  0  requires factions { france, }  and event_counter military_reforms_1870 1 and hidden_resource indochina
+	recruit_pool "fra_vietna_france"  1   0.06   1  0  requires factions { france, }  and event_counter military_reforms_1870 1 and hidden_resource indochina
 	recruit_pool "fra_vietna"  1   0.06   1  0  requires factions { cru, }  and event_counter military_reforms_1 1 and hidden_resource indochina
 	recruit_pool "siam_late_inf"  3   0.24   3  0  requires factions { cru, }  and event_counter military_reforms_1 1 and hidden_resource siam
 	recruit_pool "siam_late_inf"  1.2   0.096   1.2  0  requires factions { cru, }  and event_counter military_reforms_1 1 and not hidden_resource siam
@@ -2695,19 +2812,21 @@ building barracks
 	recruit_pool "siam_inf"  2   0.12   2  0  requires factions { cru, }  and not event_counter military_reforms_1 1 and hidden_resource siam
 	recruit_pool "siam_inf"  0.8   0.048   0.8  0  requires factions { cru, }  and not event_counter military_reforms_1 1 and not hidden_resource siam
 	recruit_pool "Siam_Archers"  2   0.12   2  0  requires factions { cru, }  and not event_counter military_reforms_1870 1 and hidden_resource siam
-	recruit_pool "burmese_inf"  1   0.06   1  0  requires factions { cru, england, }  and hidden_resource indochina
+	recruit_pool "burmese_inf"  1   0.06   1  0  requires factions { cru, }  and hidden_resource indochina
 
 ;resupply siam
 	recruit_pool "siam_ele_gunner"  0.2   0.02   0.2  0  requires factions { cru, }
-	recruit_pool "fra_vietna"  0.2   0.02   0.2  0  requires factions { france, cru, }
-	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { byzantium, cru, }
+	recruit_pool "fra_vietna_france"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_vietna"  0.2   0.02   0.2  0  requires factions { cru, }
+	recruit_pool "siam_sea_byzantium"  0.2   0.02   0.2  0  requires factions { byzantium, }
+	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_late_inf"  0.8   0.08   0.8  0  requires factions { cru, }
 	recruit_pool "siam_late_cav"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_agent"  0.4   0.04   0.4  0  requires factions { cru, }
 	recruit_pool "viet_inf"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_inf"  0.4   0.04   0.4  0  requires factions { cru, }
 	recruit_pool "Siam_Archers"  0.4   0.04   0.4  0  requires factions { cru, }
-	recruit_pool "burmese_inf"  0.2   0.02   0.2  0  requires factions { cru, england, }
+	recruit_pool "burmese_inf"  0.2   0.02   0.2  0  requires factions { cru, }
 
 ;qing
 	recruit_pool "mongol_bows"  1   0.06   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource mongolia
@@ -2810,8 +2929,8 @@ building barracks
 	recruit_pool "merc_fra_blacks"  2   0.12   2  0  requires factions { england, france, hre, venice, spain, }  and event_counter military_reforms_1870 1 and hidden_resource sub_sahara
 	recruit_pool "merc_fra_for_cav"  1   0.06   1  0  requires factions { france, }  and hidden_resource arab
 	recruit_pool "euro_hussars"  1   0.06   1  0  requires factions { spain, }  and not event_counter military_reforms_1890 1 and hidden_resource spain
-	recruit_pool "euro_hussars"  1   0.06   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
-	recruit_pool "euro_hussars"  1   0.06   1  0  requires factions { normans, }  and not event_counter military_reforms_1890 1 and hidden_resource sweden or hidden_resource norway
+	recruit_pool "euro_hussars_venice"  1   0.06   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
+	recruit_pool "euro_hussars_normans"  1   0.06   1  0  requires factions { normans, }  and not event_counter military_reforms_1890 1 and hidden_resource sweden or hidden_resource norway
 
 ;resupply misc
 	recruit_pool "merc_uru_inf"  0.4   0.04   0.4  0  requires factions { poland, aztecs, }
@@ -2831,7 +2950,9 @@ building barracks
 	recruit_pool "merc_eng_for_cav"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "merc_fra_blacks"  0.4   0.04   0.4  0  requires factions { england, france, hre, venice, spain, }
 	recruit_pool "merc_fra_for_cav"  0.2   0.02   0.2  0  requires factions { france, }
-	recruit_pool "euro_hussars"  0.2   0.02   0.2  0  requires factions { spain, venice, normans, }
+	recruit_pool "euro_hussars"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "euro_hussars_venice"  0.2   0.02   0.2  0  requires factions { venice, }
+	recruit_pool "euro_hussars_normans"  0.2   0.02   0.2  0  requires factions { normans, }
 	recruit_pool "us_farmer_cav"  0.4   0.04   0.4  0  requires factions { milan, teu, }
 	recruit_pool "us_farmers"  0.4   0.04   0.4  0  requires factions { milan, teu, }
 
@@ -2857,12 +2978,14 @@ building barracks
             capability
             {
 ;us
-	recruit_pool "berdan_inf"  1   0.1   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
-	recruit_pool "ap_front_cav"  1   0.1   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
+	recruit_pool "berdan_inf"  1   0.1   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "berdan_inf_milan"  1   0.1   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource usa
+	recruit_pool "ap_front_cav"  1   0.1   1  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
+	recruit_pool "ap_front_cav_milan"  1   0.1   1  0  requires factions { milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
 	recruit_pool "us_scout_cav"  2   0.2   2  0  requires factions { portugala, }  and hidden_resource usa
-	recruit_pool "us_scout_cav"  2   0.2   2  0  requires factions { scotland, }  and not event_counter military_reforms_1 1 and hidden_resource mexico
+	recruit_pool "us_scout_cav_scotland"  2   0.2   2  0  requires factions { scotland, }  and not event_counter military_reforms_1 1 and hidden_resource mexico
 	recruit_pool "us_zouave"  2   0.2   2  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
-	recruit_pool "us_zouave"  2   0.2   2  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
+	recruit_pool "us_zouave_france"  2   0.2   2  0  requires factions { france, }  and not event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "union_irish_brigade"  1   0.1   1  0  requires factions { portugala, }  and not event_counter military_reforms_1870 1 and hidden_resource usa
 	recruit_pool "us_inf"  2   0.2   2  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and hidden_resource usa
 	recruit_pool "us_inf"  0.8   0.08   0.8  0  requires factions { portugala, }  and not event_counter military_reforms_1 1 and not hidden_resource usa
@@ -2876,10 +2999,14 @@ building barracks
 	recruit_pool "apache_inf"  1   0.1   1  0  requires factions { portugala, milan, }  and not event_counter military_reforms_1 1 and hidden_resource amerindian
 
 ;resupply us
-	recruit_pool "berdan_inf"  0.2   0.02   0.2  0  requires factions { portugala, milan, }
-	recruit_pool "ap_front_cav"  0.2   0.02   0.2  0  requires factions { portugala, milan, }  
-	recruit_pool "us_scout_cav"  0.4   0.04   0.4  0  requires factions { portugala, scotland, }  
-	recruit_pool "us_zouave"  0.4   0.04   0.4  0  requires factions { portugala, france, }  
+	recruit_pool "berdan_inf"  0.2   0.02   0.2  0  requires factions { portugala, }
+	recruit_pool "berdan_inf_milan"  0.2   0.02   0.2  0  requires factions { milan, }
+	recruit_pool "ap_front_cav"  0.2   0.02   0.2  0  requires factions { portugala, }  
+	recruit_pool "ap_front_cav_milan"  0.2   0.02   0.2  0  requires factions { milan, }  
+	recruit_pool "us_scout_cav"  0.4   0.04   0.4  0  requires factions { portugala, }  
+	recruit_pool "us_scout_cav_scotland"  0.4   0.04   0.4  0  requires factions { scotland, }  
+	recruit_pool "us_zouave"  0.4   0.04   0.4  0  requires factions { portugala, }  
+	recruit_pool "us_zouave_france"  0.4   0.04   0.4  0  requires factions { france, }  
 	recruit_pool "union_irish_brigade"  0.2   0.02   0.2  0  requires factions { portugala, }  
 	recruit_pool "us_inf"  0.4   0.04   0.4  0  requires factions { portugala, }  
 	recruit_pool "us_blacks"  0.4   0.04   0.4  0  requires factions { portugala, }  
@@ -2938,8 +3065,8 @@ building barracks
 	recruit_pool "tzar_inf"  0.8   0.08   0.8  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and not hidden_resource peru
 	recruit_pool "peru_foot"  2   0.2   2  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and hidden_resource peru
 	recruit_pool "peru_foot"  0.8   0.08   0.8  0  requires factions { denmark, }  and event_counter military_reforms_1870 1 and not hidden_resource peru
-	recruit_pool "peru_foot"  2   0.2   2  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and hidden_resource argentina
-	recruit_pool "peru_foot"  0.8   0.08   0.8  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and not hidden_resource argentina
+	recruit_pool "peru_foot_aztecs"  2   0.2   2  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and hidden_resource argentina
+	recruit_pool "peru_foot_aztecs"  0.8   0.08   0.8  0  requires factions { aztecs, }  and event_counter military_reforms_1870 1 and not hidden_resource argentina
 	recruit_pool "peru_carb"  1   0.1   1  0  requires factions { denmark, }  and hidden_resource peru
 	recruit_pool "peru_early_inf"  6   0.6   6  0  requires factions { denmark, }  and not event_counter military_reforms_1870 1 and hidden_resource peru
 	recruit_pool "peru_early_inf"  2.4   0.24   2.4  0  requires factions { denmark, }  and not event_counter military_reforms_1870 1 and not hidden_resource peru
@@ -2948,7 +3075,8 @@ building barracks
 ;resupply peru
 	recruit_pool "rus_conscript_de"  0.8   0.08   0.8  0  requires factions { denmark, }
 	recruit_pool "tzar_inf"  0.4   0.04   0.4  0  requires factions { denmark, }
-	recruit_pool "peru_foot"  0.4   0.04   0.4  0  requires factions { denmark, aztecs, }
+	recruit_pool "peru_foot"  0.4   0.04   0.4  0  requires factions { denmark, }
+	recruit_pool "peru_foot_aztecs"  0.4   0.04   0.4  0  requires factions { aztecs, }
 	recruit_pool "peru_carb"  0.2   0.02   0.2  0  requires factions { denmark, }
 	recruit_pool "peru_early_inf"  0.9   0.09   0.9  0  requires factions { denmark, }
 	recruit_pool "bol_hussar"  0.2   0.02   0.2  0  requires factions { denmark, }
@@ -2984,15 +3112,13 @@ building barracks
 ;uk
 	recruit_pool "pith_troopers"  1   0.1   1  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "l_pith_cav"  2   0.2   2  0  requires factions { england, }  and event_counter military_reforms_1 1 and hidden_resource uk or hidden_resource canada or hidden_resource anzac or hidden_resource south_africa
-	recruit_pool "l_pith_cav"  2   0.2   2  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
-	recruit_pool "l_pith_cav"  2   0.2   2  0  requires factions { aztecs, }   and event_counter military_reforms_1 1 and hidden_resource argentina
+	recruit_pool "l_pith_cav_portugal"  2   0.2   2  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
+	recruit_pool "l_pith_cav_aztecs"  2   0.2   2  0  requires factions { aztecs, }   and event_counter military_reforms_1 1 and hidden_resource argentina
 	recruit_pool "l_pith_cam"  2   0.2   2  0  requires factions { england, }   and event_counter military_reforms_1 1 and hidden_resource arab
 	recruit_pool "l_brit_cav"  1   0.1   1  0  requires factions { england, }  and event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_guard"  3   0.3   3  0  requires factions { england, }  and event_counter military_reforms_1 1
-	recruit_pool "uk_ww1_heavy"  2   0.2   2  0  requires factions { england, }  and event_counter military_reforms_2 1 and hidden_resource uk
-	recruit_pool "uk_ww1_heavy"  2   0.2   2  0  requires factions { poland, }  and event_counter military_reforms_2 1 and hidden_resource brazil
 	recruit_pool "uk_sikhs"  3   0.3   3  0  requires factions { england, }  and event_counter military_reforms_1870 1 and hidden_resource india
-	recruit_pool "uk_knights"  2   0.2   2  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
+	recruit_pool "uk_knights_england"  2   0.2   2  0  requires factions { england, }  and not event_counter military_reforms_1 1 and hidden_resource uk
 	recruit_pool "uk_knights"  2   0.2   2  0  requires factions { poland, }  and not event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "uk_gurk"  1   0.1   1  0  requires factions { england, }  and event_counter military_reforms_1890 1 and hidden_resource tibet
 	recruit_pool "uk_gurk"  1.0   0.3   2.0  0  requires factions { england, }   and event_counter indian_raj 1
@@ -3006,14 +3132,16 @@ building barracks
 
 ;resupply uk
 	recruit_pool "pith_troopers"  0.2   0.02   0.2  0  requires factions { england, }
-	recruit_pool "l_pith_cav"  0.4   0.04   0.4  0  requires factions { england, portugal, aztecs, }
+	recruit_pool "l_pith_cav"  0.4   0.04   0.4  0  requires factions { england, }
+	recruit_pool "l_pith_cav_portugal"  0.4   0.04   0.4  0  requires factions { portugal, }
+	recruit_pool "l_pith_cav_aztecs"  0.4   0.04   0.4  0  requires factions { aztecs, }
 	recruit_pool "l_pith_cam"  0.4   0.04   0.4  0  requires factions { england, }
 	recruit_pool "l_brit_cav"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_musket"  0.6   0.06   0.6  0  requires factions { england, }
 	recruit_pool "uk_guard"  0.6   0.06   0.6  0  requires factions { england, }
-	recruit_pool "uk_ww1_heavy"  0.4   0.04   0.4  0  requires factions { england, poland, }
 	recruit_pool "uk_sikhs"  0.6   0.06   0.6  0  requires factions { england, }
-	recruit_pool "uk_knights"  0.4   0.04   0.4  0  requires factions { england, poland, }
+	recruit_pool "uk_knights_england"  0.4   0.04   0.4  0  requires factions { england, }
+	recruit_pool "uk_knights"  0.4   0.04   0.4  0  requires factions { poland, }
 	recruit_pool "uk_sailor"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_gurk"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "uk_roy"  0.2   0.02   0.2  0  requires factions { england, }
@@ -3025,19 +3153,19 @@ building barracks
 
 ;france
 	recruit_pool "fra_cav"  2   0.2   2  0  requires factions { france, }   and event_counter military_reforms_1 1 and hidden_resource france
-	recruit_pool "fra_cav"  2   0.2   2  0  requires factions { scotland, }   and event_counter military_reforms_1 1 and hidden_resource mexico
-	recruit_pool "fra_cav"  2   0.2   2  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
-	recruit_pool "fra_cav"  2   0.2   2  0  requires factions { sicily, }   and event_counter military_reforms_1 1 and hidden_resource denmark
+	recruit_pool "fra_cav_scotland"  2   0.2   2  0  requires factions { scotland, }   and event_counter military_reforms_1 1 and hidden_resource mexico
+	recruit_pool "fra_cav_poland"  2   0.2   2  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
+	recruit_pool "fra_cav_sicily"  2   0.2   2  0  requires factions { sicily, }   and event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "fra_pith"  4   0.4   4  0  requires factions { france, }   and event_counter military_reforms_1 1 and hidden_resource france
-	recruit_pool "fra_pith"  4   0.4   4  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
+	recruit_pool "fra_pith_poland"  4   0.4   4  0  requires factions { poland, }   and event_counter military_reforms_1 1 and hidden_resource brazil
 	recruit_pool "fra_ww1_inf"  1   0.1   1  0  requires factions { france, }   and event_counter military_reforms_2 1 and hidden_resource france
 	recruit_pool "fra_ww1_inf"  0.4   0.04   0.4  0  requires factions { france, }  and event_counter military_reforms_2 1 and not hidden_resource france
-	recruit_pool "fra_ww1_inf"  1   0.1   1  0  requires factions { aztecs, }   and event_counter military_reforms_2 1 and hidden_resource argentina
-	recruit_pool "fra_ww1_inf"  0.4   0.04   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_2 1 and not hidden_resource argentina
+	recruit_pool "fra_ww1_inf_aztecs"  1   0.1   1  0  requires factions { aztecs, }   and event_counter military_reforms_2 1 and hidden_resource argentina
+	recruit_pool "fra_ww1_inf_aztecs"  0.4   0.04   0.4  0  requires factions { aztecs, }  and event_counter military_reforms_2 1 and not hidden_resource argentina
 	recruit_pool "fra_carbs"  2   0.2   2  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_hus_2"  1   0.1   1  0  requires factions { france, }   and not event_counter military_reforms_1870 1 and hidden_resource france
-	recruit_pool "fra_hus_2"  1   0.1   1  0  requires factions { spain, }   and not event_counter military_reforms_1870 1 and hidden_resource spain
-	recruit_pool "fra_hus_2"  1   0.1   1  0  requires factions { aztecs, }   and not event_counter military_reforms_1870 1 and hidden_resource argentina
+	recruit_pool "spa_cuirassiers_early"  1   0.1   1  0  requires factions { spain, }   and not event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "fra_hus_2_aztecs"  1   0.1   1  0  requires factions { aztecs, }   and not event_counter military_reforms_1870 1 and hidden_resource argentina
 	recruit_pool "fra_blacks_fr"  1   0.1   1  0  requires factions { france, }   and not event_counter military_reforms_1870 1 and hidden_resource sub_sahara
 	recruit_pool "fra_rec"  2   0.2   2  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 	recruit_pool "fra_rec"  0.8   0.08   0.8  0  requires factions { france, }  and not event_counter military_reforms_1 1 and not hidden_resource france
@@ -3048,12 +3176,20 @@ building barracks
 	recruit_pool "fra_chass"  1   0.1   1  0  requires factions { france, }   and not event_counter military_reforms_1 1 and hidden_resource france
 
 ;resupply france
-	recruit_pool "fra_cav"  0.4   0.04   0.4  0  requires factions { france, scotland, poland, sicily, }
-	recruit_pool "fra_pith"  0.8   0.08   0.8  0  requires factions { france, poland, }
-	recruit_pool "fra_ww1_inf"  0.2   0.02   0.2  0  requires factions { france, aztecs, }
+	recruit_pool "fra_cav"  0.4   0.04   0.4  0  requires factions { france, }
+	recruit_pool "fra_cav_scotland"  0.4   0.04   0.4  0  requires factions { scotland, }
+	recruit_pool "fra_cav_poland"  0.4   0.04   0.4  0  requires factions { poland, }
+	recruit_pool "fra_cav_sicily"  0.4   0.04   0.4  0  requires factions { sicily, }
+	recruit_pool "fra_pith"  0.8   0.08   0.8  0  requires factions { france, }
+	recruit_pool "fra_pith_poland"  0.8   0.08   0.8  0  requires factions { poland, }
+	recruit_pool "fra_ww1_inf"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_ww1_inf_aztecs"  0.2   0.02   0.2  0  requires factions { aztecs, }
 	recruit_pool "fra_carbs"  0.4   0.04   0.4  0  requires factions { france, }
-	recruit_pool "fra_sailors"  0.2   0.02   0.2  0  requires factions { france, denmark, }
-	recruit_pool "fra_hus_2"  0.2   0.02   0.2  0  requires factions { france, spain, aztecs, }
+	recruit_pool "fra_sailors"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_sailors_denmark"  0.2   0.02   0.2  0  requires factions { denmark, }
+	recruit_pool "fra_hus_2"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "spa_cuirassiers_early"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "fra_hus_2_aztecs"  0.2   0.02   0.2  0  requires factions { aztecs, }
 	recruit_pool "fra_blacks_fr"  0.2   0.02   0.2  0  requires factions { france, }
 	recruit_pool "fra_rec"  0.4   0.04   0.4  0  requires factions { france, }
 	recruit_pool "fra_inf_fr"  0.2   0.02   0.2  0  requires factions { france, }
@@ -3100,25 +3236,25 @@ building barracks
 	recruit_pool "siam_riflemen_gr"  0.9   0.09   0.9  0  requires factions { hre, }
 
 ;spain
-	recruit_pool "uk_sailor_sp"  2   0.2   2  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource cuba
-	recruit_pool "us_front_cav_sp"  1   0.1   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource spain
-	recruit_pool "spa_regu"  3   0.3   3  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "segunda_inf"  1   0.1   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 and hidden_resource spain
-	recruit_pool "spa_inf_late"  3   0.3   3  0  requires factions { spain, }  and event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "spa_inf_late"  1.2   0.12   1.2  0  requires factions { spain, }  and event_counter military_reforms_1 1 and not hidden_resource spain
-	recruit_pool "aus_inf_sp"  2   0.2   2  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
-	recruit_pool "spa_scout_cav"  1   0.1   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies or hidden_resource cuba or hidden_resource s_america
+	recruit_pool "cuban_inf_high"  2   0.2   2  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource cuba
+	recruit_pool "spa_cav_high"  1   0.1   1  0  requires factions { spain, }  and event_counter military_reforms_1890 1 and hidden_resource spain
+	recruit_pool "spa_inf_early"  3   0.3   3  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_milicia_nacional_early"  1   0.1   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "spa_inf_high"  3   0.3   3  0  requires factions { spain, }  and event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_inf_high"  1.2   0.12   1.2  0  requires factions { spain, }  and event_counter military_reforms_1 1 and not hidden_resource spain
+	recruit_pool "spa_caz_early"  2   0.2   2  0  requires factions { spain, }  and not event_counter military_reforms_1 1 and hidden_resource spain
+	recruit_pool "spa_col_cav_mid"  1   0.1   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource east_indies or hidden_resource cuba or hidden_resource s_america
 
 ;resupply spain
-	recruit_pool "uk_sailor_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "us_front_cav_sp"  0.2   0.02   0.2  0  requires factions { spain, }
-	recruit_pool "spa_regu"  0.6   0.06   0.6  0  requires factions { spain, }
-	recruit_pool "fra_inf_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "spa_nafrica"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "segunda_inf"  0.2   0.02   0.2  0  requires factions { spain, }
-	recruit_pool "spa_inf_late"  0.6   0.06   0.6  0  requires factions { spain, }
-	recruit_pool "aus_inf_sp"  0.4   0.04   0.4  0  requires factions { spain, }
-	recruit_pool "spa_scout_cav"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "cuban_inf_high"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_cav_high"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "spa_inf_early"  0.6   0.06   0.6  0  requires factions { spain, }
+	recruit_pool "spa_col_inf_early"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_col_inf_high"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_milicia_nacional_early"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "spa_inf_high"  0.6   0.06   0.6  0  requires factions { spain, }
+	recruit_pool "spa_caz_early"  0.4   0.04   0.4  0  requires factions { spain, }
+	recruit_pool "spa_col_cav_mid"  0.2   0.02   0.2  0  requires factions { spain, }
 
 ;netherlands
 	recruit_pool "dutch_pith"  5   0.5   5  0  requires factions { portugal, }  and event_counter military_reforms_1 1 and hidden_resource netherlands
@@ -3148,7 +3284,7 @@ building barracks
 	recruit_pool "aus_inf_si"  2   0.2   2  0  requires factions { sicily, }  and not event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "rus_cos_guard_si"  5   0.5   5  0  requires factions { sicily, }  and event_counter military_reforms_1870 1 and hidden_resource denmark
 	recruit_pool "dan_cav"  1   0.1   1  0  requires factions { sicily, }  and not event_counter military_reforms_1 1 and hidden_resource denmark
-	recruit_pool "dan_cav"  1   0.1   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
+	recruit_pool "dan_cav_hungary"  1   0.1   1  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "dan_inf"  2   0.2   2  0  requires factions { sicily, }  and event_counter military_reforms_1 1 and hidden_resource denmark
 	recruit_pool "dan_inf"  0.8   0.08   0.8  0  requires factions { sicily, }  and event_counter military_reforms_1 1 and not hidden_resource denmark
 
@@ -3156,7 +3292,8 @@ building barracks
 	recruit_pool "fra_guard_si"  0.9   0.09   0.9  0  requires factions { sicily, }
 	recruit_pool "aus_inf_si"  0.4   0.04   0.4  0  requires factions { sicily, }
 	recruit_pool "rus_cos_guard_si"  0.9   0.09   0.9  0  requires factions { sicily, }
-	recruit_pool "dan_cav"  0.2   0.02   0.2  0  requires factions { sicily, hungary, }
+	recruit_pool "dan_cav"  0.2   0.02   0.2  0  requires factions { sicily, }
+	recruit_pool "dan_cav_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "dan_inf"  0.4   0.04   0.4  0  requires factions { sicily, }
 
 ;sweden-norway
@@ -3184,11 +3321,11 @@ building barracks
 	recruit_pool "greek_roy"  0.4   0.04   0.4  0  requires factions { mongols, }  and event_counter military_reforms_1890 1 and not hidden_resource greece
 	recruit_pool "greek_guard_cav"  1   0.1   1  0  requires factions { mongols, }  and not event_counter military_reforms_1 1
 	recruit_pool "rom_guard"  1   0.1   1  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1
-	recruit_pool "rom_guard"  1   0.1   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1
+	recruit_pool "rom_guard_hungary"  1   0.1   1  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1
 	recruit_pool "swed_inf"  4   0.4   4  0  requires factions { mongols, }  and event_counter military_reforms_1870 1 and hidden_resource greece
 	recruit_pool "swed_inf"  1.6   0.16   1.6  0  requires factions { mongols, }  and event_counter military_reforms_1870 1 and not hidden_resource greece
 	recruit_pool "rom_cav"  1   0.1   1  0  requires factions { mongols, }  and event_counter military_reforms_1 1 and hidden_resource greece
-	recruit_pool "rom_cav"  1   0.1   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
+	recruit_pool "rom_cav_hungary"  1   0.1   1  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "greek_early_inf"  4   0.4   4  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1 and hidden_resource greece
 	recruit_pool "greek_early_inf"  1.6   0.16   1.6  0  requires factions { mongols, }  and not event_counter military_reforms_1870 1 and not hidden_resource greece
 
@@ -3196,9 +3333,11 @@ building barracks
 	recruit_pool "evzones_inf"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "greek_roy"  0.2   0.02   0.2  0  requires factions { mongols, }
 	recruit_pool "greek_guard_cav"  0.2   0.02   0.2  0  requires factions { mongols, }
-	recruit_pool "rom_guard"  0.2   0.02   0.2  0  requires factions { mongols, hungary, }
+	recruit_pool "rom_guard"  0.2   0.02   0.2  0  requires factions { mongols, }
+	recruit_pool "rom_guard_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "swed_inf"  0.8   0.08   0.8  0  requires factions { mongols, }
-	recruit_pool "rom_cav"  0.2   0.02   0.2  0  requires factions { mongols, hungary, }
+	recruit_pool "rom_cav"  0.2   0.02   0.2  0  requires factions { mongols, }
+	recruit_pool "rom_cav_hungary"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "greek_early_inf"  0.8   0.08   0.8  0  requires factions { mongols, }
 
 ;italy
@@ -3226,7 +3365,7 @@ building barracks
 	recruit_pool "rus_conscript"  3   0.3   3  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource siberia
 	recruit_pool "rus_conscript"  1.2   0.12   1.2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and not hidden_resource siberia
 	recruit_pool "rus_cos_hussar"  1   0.1   1  0  requires factions { russia, }  and hidden_resource steppe
-	recruit_pool "georgian_inf"  1   0.1   1  0  requires factions { russia, }  and hidden_resource georgia
+	recruit_pool "georgian_inf_russia"  1   0.1   1  0  requires factions { russia, }  and hidden_resource georgia
 	recruit_pool "rus_gen_cav"  2   0.2   2  0  requires factions { russia, }  and hidden_resource russia or hidden_resource steppe 
 	recruit_pool "rus_conscript_ru"  4   0.4   4  0  requires factions { russia, }  and not event_counter military_reforms_1870 1 and hidden_resource russia
 	recruit_pool "rus_roy_cav_ru"  1   0.1   1  0  requires factions { russia, }  and hidden_resource russia
@@ -3243,7 +3382,7 @@ building barracks
 ;resupply russia
 	recruit_pool "rus_conscript"  0.6   0.06   0.6  0  requires factions { russia, }
 	recruit_pool "rus_cos_hussar"  0.2   0.02   0.2  0  requires factions { russia, }
-	recruit_pool "georgian_inf"  0.2   0.02   0.2  0  requires factions { russia, }
+	recruit_pool "georgian_inf_russia"  0.2   0.02   0.2  0  requires factions { russia, }
 	recruit_pool "rus_gen_cav"  0.4   0.04   0.4  0  requires factions { russia, }
 	recruit_pool "rus_sailors"  0.2   0.02   0.2  0  requires factions { russia, }
 	recruit_pool "rus_conscript_ru"  0.8   0.08   0.8  0  requires factions { russia, }
@@ -3261,7 +3400,9 @@ building barracks
 	recruit_pool "dutch_militia"  2   0.2   2  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "dutch_militia"  0.8   0.08   0.8  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1 and not hidden_resource austria and not hidden_resource hungary
 	recruit_pool "rom_inf"  2   0.2   2  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource hungary
-	recruit_pool "it_royals"  2   0.2   2  0  requires factions { hungary, venice, mongols, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals_hungary"  2   0.2   2  0  requires factions { hungary, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals"  2   0.2   2  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
+	recruit_pool "it_royals_mongols"  2   0.2   2  0  requires factions { mongols, }  and not event_counter military_reforms_1890 1 and hidden_resource albania
 	recruit_pool "aus_jag"  2   0.2   2  0  requires factions { hungary, }  and event_counter military_reforms_1 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_lancers"  1   0.1   1  0  requires factions { hungary, }  and hidden_resource austria
 	recruit_pool "aus_inf2"  3   0.3   3  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria
@@ -3270,19 +3411,24 @@ building barracks
 	recruit_pool "aus_inf3"  1   0.1   1  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and hidden_resource austria or hidden_resource hungary
 	recruit_pool "aus_inf3"  0.4   0.04   0.4  0  requires factions { hungary, }  and event_counter military_reforms_2 1 and not hidden_resource austria and not hidden_resource hungary
 	recruit_pool "balk_cav"  1   0.1   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
-	recruit_pool "balk_cav"  1   0.1   1  0  requires factions { mongols, }  and hidden_resource greece
+	recruit_pool "balk_cav_mongols"  1   0.1   1  0  requires factions { mongols, }  and hidden_resource greece
 	recruit_pool "kaiserjager"  2   0.2   2  0  requires factions { hungary, }  and not event_counter military_reforms_1870 1 and hidden_resource austria
 
 ;resupply austria-hungary
 	recruit_pool "dutch_militia"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "rom_inf"  0.4   0.04   0.4  0  requires factions { hungary, }
-	recruit_pool "it_royals"  0.4   0.04   0.4  0  requires factions { hungary, venice, mongols, }
+	recruit_pool "it_royals_hungary"  0.4   0.04   0.4  0  requires factions { hungary, }
+	recruit_pool "it_royals"  0.4   0.04   0.4  0  requires factions { venice, }
+	recruit_pool "it_royals_mongols"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "aus_jag"  0.4   0.04   0.4  0  requires factions { hungary, }
-	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, normans, spain, }
+	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, }
+	recruit_pool "austro_sailor_normans"  0.2   0.02   0.2  0  requires factions { normans, }
+	recruit_pool "austro_sailor_spain"  0.2   0.02   0.2  0  requires factions { spain, }
 	recruit_pool "aus_lancers"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "aus_inf2"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "aus_inf3"  0.2   0.02   0.2  0  requires factions { hungary, }
-	recruit_pool "balk_cav"  0.2   0.02   0.2  0  requires factions { hungary, mongols, }
+	recruit_pool "balk_cav"  0.2   0.02   0.2  0  requires factions { hungary, }
+	recruit_pool "balk_cav_mongols"  0.2   0.02   0.2  0  requires factions { mongols, }
 	recruit_pool "kaiserjager"  0.4   0.04   0.4  0  requires factions { hungary, }
 
 ;morocco
@@ -3296,7 +3442,8 @@ building barracks
 
 ;resupply morocco
 	recruit_pool "black_guard"  0.8   0.08   0.8  0  requires factions { moors, }
-	recruit_pool "fra_blacks"  0.2   0.02   0.2  0  requires factions { moors, turks, }
+	recruit_pool "fra_blacks"  0.2   0.02   0.2  0  requires factions { moors, }
+	recruit_pool "fra_blacks_turks"  0.2   0.02   0.2  0  requires factions { turks, }
 	recruit_pool "d_fra_for_cav"  0.8   0.08   0.8  0  requires factions { moors, }
 	recruit_pool "moroccan_camel_roy"  0.2   0.02   0.2  0  requires factions { moors, }
 	recruit_pool "skif_inf"  0.4   0.04   0.4  0  requires factions { moors, }
@@ -3333,12 +3480,17 @@ building barracks
 	recruit_pool "merc_zulu_rifles"  0.4   0.04   0.4  0  requires factions { teu, golden, lith, }
 
 ;ottoman
-	recruit_pool "bulgarian_inf"  2   0.2   2  0  requires factions { hungary, russia, mongols, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
-	recruit_pool "armenian_inf"  2   0.2   2  0  requires factions { russia, mongols, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
+	recruit_pool "bulgarian_inf"  2   0.2   2  0  requires factions { hungary, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "bulgarian_inf_russia"  2   0.2   2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "bulgarian_inf_mongols"  2   0.2   2  0  requires factions { mongols, }  and not event_counter military_reforms_1 1 and hidden_resource bulgaria
+	recruit_pool "armenian_inf_russia"  2   0.2   2  0  requires factions { russia, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
+	recruit_pool "armenian_inf"  2   0.2   2  0  requires factions { mongols, }  and not event_counter military_reforms_1 1 and hidden_resource armenia
 	recruit_pool "arab_sailors"  2   0.2   2  0  requires factions { turks, }  and not event_counter military_reforms_1870 1 and hidden_resource ottoman
 	recruit_pool "otto_jan_inf"  2   0.2   2  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1 and hidden_resource ottoman
-	recruit_pool "moroccan_camel_gunner"  1   0.1   1  0  requires factions { turks, golden, } and hidden_resource arab
-	recruit_pool "moroccan_gunner"  2   0.2   2  0  requires factions { turks, golden, } and hidden_resource arab
+	recruit_pool "moroccan_camel_gunner"  1   0.1   1  0  requires factions { turks, } and hidden_resource arab
+	recruit_pool "moroccan_camel_gunner_golden"  1   0.1   1  0  requires factions { golden, } and hidden_resource arab
+	recruit_pool "moroccan_gunner"  2   0.2   2  0  requires factions { turks, } and hidden_resource arab
+	recruit_pool "moroccan_gunner_golden"  2   0.2   2  0  requires factions { golden, } and hidden_resource arab
 	recruit_pool "ertu_cav"  1   0.1   1  0  requires factions { turks, }  and event_counter military_reforms_1890 1 and hidden_resource ottoman
 	recruit_pool "arab_brigade"  3   0.3   3  0  requires factions { turks, }  and not event_counter military_reforms_1870 1 and not hidden_resource ottoman
 	recruit_pool "turk_lt2"  3   0.3   3  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
@@ -3348,12 +3500,17 @@ building barracks
 	recruit_pool "otto_cav_tu"  1   0.1   1  0  requires factions { turks, }  and not event_counter military_reforms_1890 1 and hidden_resource ottoman
 
 ;resupply ottoman
-	recruit_pool "bulgarian_inf"  0.4   0.04   0.4  0  requires factions { hungary, russia, mongols, }
-	recruit_pool "armenian_inf"  0.4   0.04   0.4  0  requires factions { russia, mongols, }
+	recruit_pool "bulgarian_inf"  0.4   0.04   0.4  0  requires factions { hungary, }
+	recruit_pool "bulgarian_inf_russia"  0.4   0.04   0.4  0  requires factions { russia, }
+	recruit_pool "bulgarian_inf_mongols"  0.4   0.04   0.4  0  requires factions { mongols, }
+	recruit_pool "armenian_inf_russia"  0.4   0.04   0.4  0  requires factions { russia, }
+	recruit_pool "armenian_inf"  0.4   0.04   0.4  0  requires factions { mongols, }
 	recruit_pool "arab_sailors"  0.4   0.04   0.4  0  requires factions { turks, }
 	recruit_pool "otto_jan_inf"  0.4   0.04   0.4  0  requires factions { turks, }
-	recruit_pool "moroccan_camel_gunner"  0.2   0.02   0.2  0  requires factions { turks, golden, }
-	recruit_pool "moroccan_gunner"  0.4   0.04   0.4  0  requires factions { turks, golden, }
+	recruit_pool "moroccan_camel_gunner"  0.2   0.02   0.2  0  requires factions { turks, }
+	recruit_pool "moroccan_camel_gunner_golden"  0.2   0.02   0.2  0  requires factions { golden, }
+	recruit_pool "moroccan_gunner"  0.4   0.04   0.4  0  requires factions { turks, }
+	recruit_pool "moroccan_gunner_golden"  0.4   0.04   0.4  0  requires factions { golden, }
 	recruit_pool "ertu_cav"  0.2   0.02   0.2  0  requires factions { turks, }
 	recruit_pool "arab_brigade"  0.6   0.06   0.6  0  requires factions { turks, }
 	recruit_pool "turk_lt2"  0.6   0.06   0.6  0  requires factions { turks, }
@@ -3474,7 +3631,7 @@ building barracks
 
 ;siam
 	recruit_pool "siam_ele_gunner"  1   0.1   1  0  requires factions { cru, }  and hidden_resource siam
-	recruit_pool "fra_vietna"  1   0.1   1  0  requires factions { france, }  and event_counter military_reforms_1870 1 and hidden_resource indochina
+	recruit_pool "fra_vietna_france"  1   0.1   1  0  requires factions { france, }  and event_counter military_reforms_1870 1 and hidden_resource indochina
 	recruit_pool "fra_vietna"  1   0.1   1  0  requires factions { cru, }  and event_counter military_reforms_1 1 and hidden_resource indochina
 	recruit_pool "siam_late_inf"  4   0.4   4  0  requires factions { cru, }  and event_counter military_reforms_1 1 and hidden_resource siam
 	recruit_pool "siam_late_inf"  1.6   0.16   1.6  0  requires factions { cru, }  and event_counter military_reforms_1 1 and not hidden_resource siam
@@ -3484,19 +3641,21 @@ building barracks
 	recruit_pool "siam_inf"  2   0.2   2  0  requires factions { cru, }  and not event_counter military_reforms_1 1 and hidden_resource siam
 	recruit_pool "siam_inf"  0.8   0.08   0.8  0  requires factions { cru, }  and not event_counter military_reforms_1 1 and not hidden_resource siam
 	recruit_pool "Siam_Archers"  2   0.2   2  0  requires factions { cru, }  and not event_counter military_reforms_1870 1 and hidden_resource siam
-	recruit_pool "burmese_inf"  1   0.1   1  0  requires factions { cru, england, }  and hidden_resource indochina
+	recruit_pool "burmese_inf"  1   0.1   1  0  requires factions { cru, }  and hidden_resource indochina
 
 ;resupply siam
 	recruit_pool "siam_ele_gunner"  0.2   0.02   0.2  0  requires factions { cru, }
-	recruit_pool "fra_vietna"  0.2   0.02   0.2  0  requires factions { france, cru, }
-	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { byzantium, cru, }
+	recruit_pool "fra_vietna_france"  0.2   0.02   0.2  0  requires factions { france, }
+	recruit_pool "fra_vietna"  0.2   0.02   0.2  0  requires factions { cru, }
+	recruit_pool "siam_sea_byzantium"  0.2   0.02   0.2  0  requires factions { byzantium, }
+	recruit_pool "siam_sea"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_late_inf"  0.8   0.08   0.8  0  requires factions { cru, }
 	recruit_pool "siam_late_cav"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_agent"  0.4   0.04   0.4  0  requires factions { cru, }
 	recruit_pool "viet_inf"  0.2   0.02   0.2  0  requires factions { cru, }
 	recruit_pool "siam_inf"  0.4   0.04   0.4  0  requires factions { cru, }
 	recruit_pool "Siam_Archers"  0.4   0.04   0.4  0  requires factions { cru, }
-	recruit_pool "burmese_inf"  0.2   0.02   0.2  0  requires factions { cru, england, }
+	recruit_pool "burmese_inf"  0.2   0.02   0.2  0  requires factions { cru, }
 
 ;qing
 	recruit_pool "mongol_bows"  1   0.1   1  0  requires factions { byzantium, }  and not event_counter military_reforms_1870 1 and hidden_resource mongolia
@@ -3599,8 +3758,8 @@ building barracks
 	recruit_pool "merc_fra_blacks"  2   0.2   2  0  requires factions { england, france, hre, venice, spain, }  and event_counter military_reforms_1870 1 and hidden_resource sub_sahara
 	recruit_pool "merc_fra_for_cav"  1   0.1   1  0  requires factions { france, }  and hidden_resource arab
 	recruit_pool "euro_hussars"  1   0.1   1  0  requires factions { spain, }  and not event_counter military_reforms_1890 1 and hidden_resource spain
-	recruit_pool "euro_hussars"  1   0.1   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
-	recruit_pool "euro_hussars"  1   0.1   1  0  requires factions { normans, }  and not event_counter military_reforms_1890 1 and hidden_resource sweden or hidden_resource norway
+	recruit_pool "euro_hussars_venice"  1   0.1   1  0  requires factions { venice, }  and not event_counter military_reforms_1890 1 and hidden_resource italy
+	recruit_pool "euro_hussars_normans"  1   0.1   1  0  requires factions { normans, }  and not event_counter military_reforms_1890 1 and hidden_resource sweden or hidden_resource norway
 
 ;resupply misc
 	recruit_pool "merc_uru_inf"  0.4   0.04   0.4  0  requires factions { poland, aztecs, }
@@ -3620,7 +3779,9 @@ building barracks
 	recruit_pool "merc_eng_for_cav"  0.2   0.02   0.2  0  requires factions { england, }
 	recruit_pool "merc_fra_blacks"  0.4   0.04   0.4  0  requires factions { england, france, hre, venice, spain, }
 	recruit_pool "merc_fra_for_cav"  0.2   0.02   0.2  0  requires factions { france, }
-	recruit_pool "euro_hussars"  0.2   0.02   0.2  0  requires factions { spain, venice, normans, }
+	recruit_pool "euro_hussars"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "euro_hussars_venice"  0.2   0.02   0.2  0  requires factions { venice, }
+	recruit_pool "euro_hussars_normans"  0.2   0.02   0.2  0  requires factions { normans, }
 	recruit_pool "us_farmer_cav"  0.4   0.04   0.4  0  requires factions { milan, teu, }
 	recruit_pool "us_farmers"  0.4   0.04   0.4  0  requires factions { milan, teu, }
 
@@ -3708,8 +3869,8 @@ building professional_military
 	recruit_pool "gaucho_cav"  0   0.05   1  0  requires factions { aztecs, }  and hidden_resource argentina
 	recruit_pool "uk_pith_knights"  0   0.05   1  0  requires factions { england, }  and hidden_resource uk
 	recruit_pool "fra_hussar"  0   0.05   1  0  requires factions { france, }  and hidden_resource france
-	recruit_pool "fra_hussar"  0   0.05   1  0  requires factions { sicily, }  and hidden_resource denmark
-	recruit_pool "fra_hussar"  0   0.05   1  0  requires factions { mongols, }  and hidden_resource greece
+	recruit_pool "fra_hussar_sicily"  0   0.05   1  0  requires factions { sicily, }  and hidden_resource denmark
+	recruit_pool "fra_hussar_mongols"  0   0.05   1  0  requires factions { mongols, }  and hidden_resource greece
 	recruit_pool "otto_sipahi"  0   0.05   1  0  requires factions { hre, }  and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "civil_guard"  0   0.05   1  0  requires factions { spain, }  and hidden_resource spain
 	recruit_pool "balk_cav_nl"  0   0.05   1  0  requires factions { portugal, }  and hidden_resource netherlands
@@ -3719,7 +3880,7 @@ building professional_military
 	recruit_pool "rus_sib_cossacks"  0   0.05   1  0  requires factions { egypt, }  and hidden_resource persia
 	recruit_pool "aus_ulhans"  0   0.05   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
 	recruit_pool "otto_cav"  0   0.05   1  0  requires factions { moors, }  and hidden_resource morocco
-	recruit_pool "otto_cav"  0   0.05   1  0  requires factions { golden, }  and hidden_resource muscat
+	recruit_pool "otto_cav_golden"  0   0.05   1  0  requires factions { golden, }  and hidden_resource muscat
 	recruit_pool "csa_lancer_te"  0   0.05   1  0  requires factions { teu, }  and hidden_resource south_africa
 	recruit_pool "zulu_elite"  0   0.05   1  0  requires factions { lith, }  and hidden_resource zululand
 	recruit_pool "turk_lt"  0   0.05   1  0  requires factions { turks, }  and hidden_resource ottoman
@@ -3753,8 +3914,8 @@ building professional_military
 	recruit_pool "gaucho_cav"  1   0.1   1  0  requires factions { aztecs, }  and hidden_resource argentina
 	recruit_pool "uk_pith_knights"  1   0.1   1  0  requires factions { england, }  and hidden_resource uk
 	recruit_pool "fra_hussar"  1   0.1   1  0  requires factions { france, }  and hidden_resource france
-	recruit_pool "fra_hussar"  1   0.1   1  0  requires factions { sicily, }  and hidden_resource denmark
-	recruit_pool "fra_hussar"  1   0.1   1  0  requires factions { mongols, }  and hidden_resource greece
+	recruit_pool "fra_hussar_sicily"  1   0.1   1  0  requires factions { sicily, }  and hidden_resource denmark
+	recruit_pool "fra_hussar_mongols"  1   0.1   1  0  requires factions { mongols, }  and hidden_resource greece
 	recruit_pool "otto_sipahi"  1   0.1   1  0  requires factions { hre, }  and hidden_resource prussia or hidden_resource bavaria or hidden_resource hanover
 	recruit_pool "civil_guard"  1   0.1   1  0  requires factions { spain, }  and hidden_resource spain
 	recruit_pool "balk_cav_nl"  1   0.1   1  0  requires factions { portugal, }  and hidden_resource netherlands
@@ -3764,7 +3925,7 @@ building professional_military
 	recruit_pool "rus_sib_cossacks"  1   0.1   1  0  requires factions { egypt, }  and hidden_resource persia
 	recruit_pool "aus_ulhans"  1   0.1   1  0  requires factions { hungary, }  and hidden_resource austria or hidden_resource hungary
 	recruit_pool "otto_cav"  1   0.1   1  0  requires factions { moors, }  and hidden_resource morocco
-	recruit_pool "otto_cav"  1   0.1   1  0  requires factions { golden, }  and hidden_resource muscat
+	recruit_pool "otto_cav_golden"  1   0.1   1  0  requires factions { golden, }  and hidden_resource muscat
 	recruit_pool "csa_lancer_te"  1   0.1   1  0  requires factions { teu, }  and hidden_resource south_africa
 	recruit_pool "zulu_elite"  1   0.1   1  0  requires factions { lith, }  and hidden_resource zululand
 	recruit_pool "turk_lt"  1   0.1   1  0  requires factions { turks, }  and hidden_resource ottoman
@@ -5128,7 +5289,7 @@ building port
 ;marines
 	recruit_pool "fra_sailors"  0   0.02   1  0  requires factions { france, }   and event_counter military_reforms_1870 1 and hidden_resource france
 ;marines
-	recruit_pool "fra_sailors"  0   0.02   1  0  requires factions { denmark, }   and event_counter military_reforms_1870 1 and hidden_resource peru
+	recruit_pool "fra_sailors_denmark"  0   0.02   1  0  requires factions { denmark, }   and event_counter military_reforms_1870 1 and hidden_resource peru
 ;marines
 	recruit_pool "gr_sailor"  0   0.02   1  0  requires factions { hre, }
 ;marines
@@ -5138,19 +5299,19 @@ building port
 ;marines 
 	recruit_pool "austro_sailor"  0   0.02   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria or hidden_resource hungary
 ;marines
-	recruit_pool "austro_sailor"  0   0.02   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
+	recruit_pool "austro_sailor_normans"  0   0.02   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
 ;marines
-	recruit_pool "austro_sailor"  0   0.02   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "austro_sailor_spain"  0   0.02   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
 ;marines
 	recruit_pool "fra_blacks"  0   0.02   1  0  requires factions { moors, }  and event_counter military_reforms_1870 1 and hidden_resource morocco
 ;marines
-	recruit_pool "fra_blacks"  0   0.02   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
+	recruit_pool "fra_blacks_turks"  0   0.02   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
 ;marines
 	recruit_pool "gr_inf_eg"  0   0.02   1  0  requires factions { egypt, }  and event_counter military_reforms_1870 1 and hidden_resource persia
 ;marines
 	recruit_pool "siam_sea"  0   0.02   1  0  requires factions { cru, }  and event_counter military_reforms_1870 1 and hidden_resource siam
 ;marines
-	recruit_pool "siam_sea"  0   0.02   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
+	recruit_pool "siam_sea_byzantium"  0   0.02   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 ;marines
 
 ;marines
@@ -5238,7 +5399,7 @@ building port
 ;marines
 	recruit_pool "fra_sailors"  0   0.04   1  0  requires factions { france, }   and event_counter military_reforms_1870 1 and hidden_resource france
 ;marines
-	recruit_pool "fra_sailors"  0   0.04   1  0  requires factions { denmark, }   and event_counter military_reforms_1870 1 and hidden_resource peru
+	recruit_pool "fra_sailors_denmark"  0   0.04   1  0  requires factions { denmark, }   and event_counter military_reforms_1870 1 and hidden_resource peru
 ;marines
 	recruit_pool "gr_sailor"  0   0.04   1  0  requires factions { hre, }
 ;marines
@@ -5248,19 +5409,19 @@ building port
 ;marines 
 	recruit_pool "austro_sailor"  0   0.04   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria or hidden_resource hungary
 ;marines
-	recruit_pool "austro_sailor"  0   0.04   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
+	recruit_pool "austro_sailor_normans"  0   0.04   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
 ;marines
-	recruit_pool "austro_sailor"  0   0.04   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "austro_sailor_spain"  0   0.04   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
 ;marines
 	recruit_pool "fra_blacks"  0   0.04   1  0  requires factions { moors, }  and event_counter military_reforms_1870 1 and hidden_resource morocco
 ;marines
-	recruit_pool "fra_blacks"  0   0.04   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
+	recruit_pool "fra_blacks_turks"  0   0.04   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
 ;marines
 	recruit_pool "gr_inf_eg"  0   0.04   1  0  requires factions { egypt, }  and event_counter military_reforms_1870 1 and hidden_resource persia
 ;marines
 	recruit_pool "siam_sea"  0   0.04   1  0  requires factions { cru, }  and event_counter military_reforms_1870 1 and hidden_resource siam
 ;marines
-	recruit_pool "siam_sea"  0   0.04   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
+	recruit_pool "siam_sea_byzantium"  0   0.04   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 ;marines
 
 ;marines
@@ -5373,7 +5534,7 @@ building port
 ;marines
 	recruit_pool "fra_sailors"  1   0.06   1  0  requires factions { france, }   and event_counter military_reforms_1870 1 and hidden_resource france
 ;marines
-	recruit_pool "fra_sailors"  1   0.06   1  0  requires factions { denmark, }   and event_counter military_reforms_1870 1 and hidden_resource peru
+	recruit_pool "fra_sailors_denmark"  1   0.06   1  0  requires factions { denmark, }   and event_counter military_reforms_1870 1 and hidden_resource peru
 ;marines
 	recruit_pool "gr_sailor"  1   0.06   1  0  requires factions { hre, }
 ;marines
@@ -5383,19 +5544,19 @@ building port
 ;marines 
 	recruit_pool "austro_sailor"  1   0.06   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria or hidden_resource hungary
 ;marines
-	recruit_pool "austro_sailor"  1   0.06   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
+	recruit_pool "austro_sailor_normans"  1   0.06   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
 ;marines
-	recruit_pool "austro_sailor"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "austro_sailor_spain"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
 ;marines
 	recruit_pool "fra_blacks"  1   0.06   1  0  requires factions { moors, }  and event_counter military_reforms_1870 1 and hidden_resource morocco
 ;marines
-	recruit_pool "fra_blacks"  1   0.06   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
+	recruit_pool "fra_blacks_turks"  1   0.06   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
 ;marines
 	recruit_pool "gr_inf_eg"  1   0.06   1  0  requires factions { egypt, }  and event_counter military_reforms_1870 1 and hidden_resource persia
 ;marines
 	recruit_pool "siam_sea"  1   0.06   1  0  requires factions { cru, }  and event_counter military_reforms_1870 1 and hidden_resource siam
 ;marines
-	recruit_pool "siam_sea"  1   0.06   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
+	recruit_pool "siam_sea_byzantium"  1   0.06   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 ;marines
 
 ;marines
@@ -5514,7 +5675,7 @@ building port
 ;marines
 	recruit_pool "fra_sailors"  1   0.1   1  0  requires factions { france, }   and event_counter military_reforms_1870 1 and hidden_resource france
 ;marines
-	recruit_pool "fra_sailors"  1   0.1   1  0  requires factions { denmark, }   and event_counter military_reforms_1870 1 and hidden_resource peru
+	recruit_pool "fra_sailors_denmark"  1   0.1   1  0  requires factions { denmark, }   and event_counter military_reforms_1870 1 and hidden_resource peru
 ;marines
 	recruit_pool "gr_sailor"  1   0.1   1  0  requires factions { hre, }
 ;marines
@@ -5524,19 +5685,19 @@ building port
 ;marines 
 	recruit_pool "austro_sailor"  1   0.1   1  0  requires factions { hungary, }  and event_counter military_reforms_1870 1 and hidden_resource austria or hidden_resource hungary
 ;marines
-	recruit_pool "austro_sailor"  1   0.1   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
+	recruit_pool "austro_sailor_normans"  1   0.1   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
 ;marines
-	recruit_pool "austro_sailor"  1   0.1   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "austro_sailor_spain"  1   0.1   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
 ;marines
 	recruit_pool "fra_blacks"  1   0.1   1  0  requires factions { moors, }  and event_counter military_reforms_1870 1 and hidden_resource morocco
 ;marines
-	recruit_pool "fra_blacks"  1   0.1   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
+	recruit_pool "fra_blacks_turks"  1   0.1   1  0  requires factions { turks, }  and event_counter military_reforms_1870 1 and hidden_resource ottoman
 ;marines
 	recruit_pool "gr_inf_eg"  1   0.1   1  0  requires factions { egypt, }  and event_counter military_reforms_1870 1 and hidden_resource persia
 ;marines
 	recruit_pool "siam_sea"  1   0.1   1  0  requires factions { cru, }  and event_counter military_reforms_1870 1 and hidden_resource siam
 ;marines
-	recruit_pool "siam_sea"  1   0.1   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
+	recruit_pool "siam_sea_byzantium"  1   0.1   1  0  requires factions { byzantium, }  and event_counter military_reforms_1870 1 and hidden_resource china
 ;marines
 
 ;marines
@@ -7085,9 +7246,9 @@ building brothels
 ;settler
 	recruit_pool "gr_lancer"  0   0.03   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 
 ;settler
-	recruit_pool "fra_inf_sp"  0   0.06   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 
+	recruit_pool "spa_col_inf_early"  0   0.06   1  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 
 ;settler
-	recruit_pool "spa_nafrica"  0   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 
+	recruit_pool "spa_col_inf_high"  0   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 
 ;settler
 	recruit_pool "boer_wagon"  0   0.06   1  0  requires factions { teu, }  and hidden_resource south_africa
 ;settler
@@ -7132,9 +7293,9 @@ building brothels
 ;settler
 	recruit_pool "gr_lancer"  0   0.1   1  0  requires factions { hre, }   and event_counter military_reforms_1870 1 
 ;settler
-	recruit_pool "fra_inf_sp"  1   0.2   2  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 
+	recruit_pool "spa_col_inf_early"  1   0.2   2  0  requires factions { spain, }  and not event_counter military_reforms_1870 1 
 ;settler
-	recruit_pool "spa_nafrica"  1   0.2   2  0  requires factions { spain, }  and event_counter military_reforms_1870 1 
+	recruit_pool "spa_col_inf_high"  1   0.2   2  0  requires factions { spain, }  and event_counter military_reforms_1870 1 
 ;settler
 	recruit_pool "boer_wagon"  1   0.2   2  0  requires factions { teu, }  and hidden_resource south_africa
 ;settler
@@ -7575,21 +7736,6 @@ building airport
         {
             capability
             {
-		  trade_base_income_bonus bonus 1
-		  happiness_bonus bonus 1
-
-;--- AIRSHIP RECRUITMENT (1st generation, available once airfield is built) ---
-;PLACEHOLDER faction split - "Great Powers" get higher caps, everyone else stays scarce.
-;Adjust the faction lists below once you've settled on your actual great-power roster.
-
-	recruit_pool "air_reg_1g"  1   0.02   3  1  requires factions { england, france, hre, russia, portugala, milan, }
-	recruit_pool "air_reg_1g"  0   0.01   1  1  requires not factions { england, france, hre, russia, portugala, milan, }
-
-	recruit_pool "air_lgt_1g"  1   0.03   4  1  requires factions { england, france, hre, russia, portugala, milan, }
-	recruit_pool "air_lgt_1g"  1   0.02   2  1  requires not factions { england, france, hre, russia, portugala, milan, }
-
-	recruit_pool "air_bmb_1g"  0   0.015  2  1  requires factions { england, france, hre, russia, portugala, milan, }
-	recruit_pool "air_bmb_1g"  0   0.01   1  1  requires not factions { england, france, hre, russia, portugala, milan, }
             }
             material wooden
             construction  12 
@@ -7604,28 +7750,6 @@ building airport
         {
             capability
             {
-		  trade_base_income_bonus bonus 2
-		  happiness_bonus bonus 2
-
-;--- AIRSHIP RECRUITMENT: 1st generation (carried over from airfield) ---
-	recruit_pool "air_reg_1g"  1   0.02   3  1  requires factions { england, france, hre, russia, portugala, milan, }
-	recruit_pool "air_reg_1g"  0   0.01   1  1  requires not factions { england, france, hre, russia, portugala, milan, }
-
-	recruit_pool "air_lgt_1g"  1   0.03   4  1  requires factions { england, france, hre, russia, portugala, milan, }
-	recruit_pool "air_lgt_1g"  1   0.02   2  1  requires not factions { england, france, hre, russia, portugala, milan, }
-
-	recruit_pool "air_bmb_1g"  0   0.015  2  1  requires factions { england, france, hre, russia, portugala, milan, }
-	recruit_pool "air_bmb_1g"  0   0.01   1  1  requires not factions { england, france, hre, russia, portugala, milan, }
-
-;--- AIRSHIP RECRUITMENT: 2nd generation (requires military_reforms_1890, aerodrome-only) ---
-	recruit_pool "air_reg_3g"  1   0.02   3  1  requires factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
-	recruit_pool "air_reg_3g"  0   0.01   1  1  requires not factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
-
-	recruit_pool "air_fir_3g"  0   0.015  2  1  requires factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
-	recruit_pool "air_fir_3g"  0   0.01   1  1  requires not factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
-
-	recruit_pool "air_hvy_3g"  0   0.01   2  1  requires factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
-	recruit_pool "air_hvy_3g"  0   0.008  1  1  requires not factions { england, france, hre, russia, portugala, milan, } and event_counter military_reforms_1890 1
             }
             material wooden
             construction  16
@@ -9028,7 +9152,7 @@ building spanish_embassy_guild
         {
             capability
             {
-                recruit_pool "spa_regu"  1   0.03   1  1  requires factions { all, }
+                recruit_pool "spa_inf_early"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 

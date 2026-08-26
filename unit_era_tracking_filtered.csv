@@ -1,0 +1,587 @@
+﻿Historical Faction,Internal Faction,Unit Type,Dictionary,Unit Name,Category,Era 0 (1860),Era 1 (1870),Era 2 (1880)
+Union,portugala,berdan_inf,berdan_inf,"Berdan Sharpshooters (Rifle-Musket, Model 1861 Springfield)",infantry,Yes,Yes,No
+Confederates,milan,berdan_inf,berdan_inf,"Berdan Sharpshooters (Rifle-Musket, Model 1861 Springfield)",infantry,Yes,Yes,No
+Union,portugala,ap_front_cav,ap_front_cav,"Indian Scout Cavalry (Carbine, Burnside)",cavalry,Yes,Yes,No
+Confederates,milan,ap_front_cav,ap_front_cav,"Indian Scout Cavalry (Carbine, Burnside)",cavalry,Yes,No,No
+Union,portugala,us_front_cav,us_front_cav,United States General and Staff. this should be an elite cavalry unit,cavalry,Yes,Yes,Yes
+Union,portugala,us_scout_cav,us_scout_cav,"Dragoons (Carbine, Henry Rifle)",cavalry,Yes,Yes,Yes
+Union,portugala,us_zouave,us_zouave,"Zouaves (Rifle-Musket, Fusil Minié)",infantry,Yes,No,No
+France,france,us_zouave,us_zouave,"Zouaves (Rifle-Musket, Fusil Minié)",infantry,Yes,Yes,No
+Britain,england,union_irish_brigade,union_irish_brigade,"Irish Brigade (Rifle-Musket, Lorenz Model 1854)",cavalry,Yes,No,No
+Union,portugala,us_inf,us_inf,"United States Army Regulars (Rifle-Musket, Springfield Model 1861)",infantry,Yes,Yes,No
+Union,portugala,us_blacks,us_blacks,"Union Colored Infantry (Rifle-Musket, Springfield Model 1855)",infantry,Yes,Yes,No
+Union,portugala,us_colo_inf,us_colo_inf,"United States Marines (Rifle, Joslyn Model 1865)",infantry,Yes,Yes,Yes
+Union,portugala,us_late_inf,us_late_inf,"National Guard (Rifle, Springfield Model 1873)",infantry,No,Yes,Yes
+Union,portugala,us_front_inf,us_front_inf,"Union State Militia (Rifle-Musket, Enfield Pattern 1853)",cavalry,Yes,No,No
+Union,portugala,us_militia,us_militia,"United States Army Regulars (Magazine Rifle, M1898 Krag–Jørgensen)",infantry,No,No,Yes
+Union,portugala,apache_inf,apache_inf,"Indian Scouts (Rifle-Musket, Pattern 1853 Enfield)",infantry,Yes,Yes,No
+Confederates,milan,apache_inf,apache_inf,"Indian Scouts (Rifle-Musket, Pattern 1853 Enfield)",infantry,Yes,No,No
+Confederates,milan,csa_lancer,csa_lancer,Confederate General and Staff,cavalry,Yes,Yes,Yes
+Confederates,milan,csa_zouave,csa_zouave,"Louisiana Tigers (Rifle-Musket, Model 1841 Mississippi)",infantry,Yes,No,No
+Confederates,milan,csa_militia,csa_militia,"Army of the Confederate States of America (Rifle, Springfield Model 1873)",infantry,No,Yes,Yes
+Confederates,milan,csa_cav,csa_cav,"Confederate Cavalry (Carbine, Sharps Model 1853)",cavalry,Yes,Yes,Yes
+Confederates,milan,gr_inf_mi,gr_inf_mi,"Confederate Marines (Rifle-Musket, Model 1855 Springfield)",infantry,Yes,Yes,No
+Confederates,milan,csa_volunteers,csa_volunteers,Texan Sappers,infantry,Yes,No,No
+Confederates,milan,csa_guard,csa_guard,"Army of Northern Virginia (Rifle-Musket, Enfield Pattern 1853)",infantry,Yes,No,No
+Confederates,milan,csa_inf,csa_inf,"Confederate States Militia (Rifle-Musket, Model 1854 Lorenz)",infantry,Yes,Yes,No
+Confederates,milan,csa_late_inf,csa_late_inf,"Confederate States Militia (Rifle, Springfield Model 1884)",infantry,No,No,Yes
+Mexico,scotland,mex_army,mex_army,"Federal Infantry (Magazine Rifle, Model 1895 Mauser)",infantry,No,No,Yes
+Mexico,scotland,mex_carbs,mex_carbs,"Carbineers (Carbine, Carabine Modèle 1886 Lebel)",cavalry,Yes,Yes,Yes
+Mexico,scotland,mx_pistoleer,mx_pistoleer,Mexican Hussars,cavalry,Yes,Yes,Yes
+Mexico,scotland,uk_knights_sc,uk_knights_sc,Mexican General and Staff,cavalry,Yes,Yes,Yes
+Mexico,scotland,mex_natl_guard,mex_natl_guard,"State National Guard (Musket, Brown Bess Pattern 1839)",infantry,Yes,No,No
+Mexico,scotland,aus_inf,aus_inf,"Federal Infantry (Rifle-Musket, Springfield Model 1861)",infantry,Yes,Yes,No
+Mexico,scotland,mex_bers,mex_bers,"Cazadores (Flintlock Rifle, Baker Pattern 1800)",infantry,Yes,Yes,No
+Mexico,scotland,mex_foot,mex_foot,"Rural Militia (Rifle, Remington Rolling Block)",infantry,Yes,Yes,Yes
+Peru,denmark,mex_foot,mex_foot,"Rural Militia (Rifle, Remington Rolling Block)",infantry,Yes,Yes,Yes
+Brazil,poland,mex_foot,mex_foot,"Rural Militia (Rifle, Remington Rolling Block)",infantry,Yes,Yes,Yes
+Argentina,aztecs,mex_foot,mex_foot,"Rural Militia (Rifle, Remington Rolling Block)",infantry,Yes,Yes,Yes
+Peru,denmark,rus_conscript_de,rus_conscript_de,"Peruvian Infantry (Rifle, Fusil modèle 1866 Chassepot ""Castañón"" Mod. Comblain II)",infantry,No,Yes,Yes
+Peru,denmark,tzar_inf,tzar_inf,"Guardia Nacional (Rifle-Musket, Prussian Model 1839/55 Minie)",infantry,No,Yes,Yes
+Peru,denmark,peru_foot,peru_foot,"Frontier Guards (Rifle, Remington Rolling Block)",infantry,No,Yes,Yes
+Argentina,aztecs,peru_foot,peru_foot,"Frontier Guards (Rifle, Remington Rolling Block)",infantry,No,Yes,Yes
+Peru,denmark,peru_carb,peru_carb,"Lanceros de Torata Carbineers (Carbine, Henry Rifle)",cavalry,Yes,Yes,Yes
+Peru,denmark,peru_early_inf,peru_early_inf,"Peruvian Infantry (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,No,No
+Peru,denmark,bol_hussar,bol_hussar,Cuirassiers,cavalry,Yes,Yes,No
+Peru,denmark,peru_hussars,peru_hussars,Peruvian General and Staff,cavalry,Yes,Yes,Yes
+Brazil,poland,fra_hussar_po,fra_hussar_po,Brazilian General and Staff,cavalry,Yes,Yes,Yes
+Brazil,poland,boer_guard_po,boer_guard_po,"Cacadores (Rifle-Musket, Pattern 1853 Enfield)",infantry,Yes,Yes,No
+Brazil,poland,fra_guard_po,fra_guard_po,"Imperial Guard (Rifle, Fusil modèle 1866 Chassepot)",infantry,Yes,Yes,Yes
+Brazil,poland,fra_inf,fra_inf,"Fuzileiros (Rifle-Musket, Pattern 1853 Enfield)",infantry,Yes,Yes,No
+Argentina,aztecs,us_zouave_az,us_zouave_az,"Argentine Zouaves (Musket, Pattern 1842 Brown Bess)",infantry,Yes,Yes,No
+Argentina,aztecs,arg_carb,arg_carb,"Argentine Carbineers (Carbine, M1842/51 musketoon)",cavalry,Yes,Yes,No
+Argentina,aztecs,arg_inf,arg_inf,"Argentine Infantry (Rifle-Musket, M1842 Chatellerault)",infantry,Yes,Yes,No
+Argentina,aztecs,gaucho_cav,gaucho_cav,Argentine General and Staff,cavalry,Yes,Yes,Yes
+Brazil,poland,gaucho_cav,gaucho_cav,Argentine General and Staff,cavalry,Yes,Yes,Yes
+Peru,denmark,gaucho_cav,gaucho_cav,Argentine General and Staff,cavalry,Yes,Yes,Yes
+Argentina,aztecs,argie_pith,argie_pith,"Argentine Infantry (Magazine Rifle, Mauser Modelo 1891)",infantry,No,No,Yes
+Argentina,aztecs,arg_guard,arg_guard,"Guardia de Presidente (Rifle, Remington Rolling Block)",infantry,Yes,Yes,Yes
+Britain,england,pith_troopers,pith_troopers,"Green Jackets (Rifle-Musket, Pattern 1853 Enfield)",infantry,Yes,Yes,No
+Britain,england,l_pith_cav,l_pith_cav,Reformed Light Cavalry,cavalry,No,No,Yes
+Netherlands,portugal,l_pith_cav,l_pith_cav,Reformed Light Cavalry,cavalry,No,No,Yes
+Argentina,aztecs,l_pith_cav,l_pith_cav,Reformed Light Cavalry,cavalry,No,No,Yes
+Britain,england,l_pith_cam,l_pith_cam,Imperial Camel Corps,cavalry,No,No,Yes
+Britain,england,l_brit_cav,l_brit_cav,Reformed Heavy Cavalry,cavalry,No,No,Yes
+Britain,england,uk_musket,uk_musket,"Imperial Infantry (Rifle, Martini-Henry MKI)",infantry,No,Yes,No
+Britain,england,uk_guard,uk_guard,"British Infantry (Magazine Rifle, Lee–Metford)",infantry,No,No,Yes
+Britain,england,uk_sikhs,uk_sikhs,"British Indian Army (Rifle, Snider–Enfield)",infantry,No,Yes,Yes
+Brazil,poland,uk_knights,uk_knights,Regiment of Horse,cavalry,Yes,Yes,No
+Britain,england,uk_sailor,uk_sailor,"Royal Marines (Rifle, Martini-Henry Mk I)",infantry,No,Yes,Yes
+Britain,england,uk_gurk,uk_gurk,"Gurkhas (Magazine Rifle, Lee–Enfield)",infantry,No,No,Yes
+Britain,england,uk_roy,uk_roy,"Foot Guards Regiment (Rifle-Musket, Pattern 1858 Enfield)",infantry,Yes,No,No
+Britain,england,uk_sikh_reg,uk_sikh_reg,"British Indian Army (Rifle-Musket, Enfield Pattern 1859)",infantry,Yes,No,No
+Britain,england,uk_high,uk_high,"Highland Regiment (Rifle, Martini–Henry MK III)",infantry,No,Yes,Yes
+Britain,england,uk_blackwatch,uk_blackwatch,"Highland Regiment (Rifle-Musket, Pattern 1858 Enfield)",infantry,Yes,No,No
+Britain,england,uk_pith,uk_pith,"Commonwealth Infantry (Magazine Rifle, Lee–Enfield)",infantry,No,No,Yes
+Britain,england,uk_pith_knights,uk_pith_knights,British General and Staff,cavalry,Yes,Yes,Yes
+Britain,england,uk_inf,uk_inf,"British Infantry (Rifle, Snider–Enfield)",infantry,Yes,Yes,No
+Brazil,poland,fra_cav,fra_cav,"Carbineers (Carbine, Carabine Modèle 1886 Lebel)",cavalry,No,No,Yes
+Denmark,sicily,fra_cav,fra_cav,"Carbineers (Carbine, Carabine Modèle 1886 Lebel)",cavalry,No,No,Yes
+France,france,fra_cav2,fra_cav2,"Carbineers (Carbine, Carabine Modèle 1886 Lebel)",cavalry,No,No,Yes
+Brazil,poland,fra_cav2,fra_cav2,"Carbineers (Carbine, Carabine Modèle 1886 Lebel)",cavalry,No,No,Yes
+France,france,fra_pith,fra_pith,"Fusiliers (Magazine Rifle, Fusil Modèle 1886 Lebel)",infantry,No,No,Yes
+France,france,fra_ww1_inf,fra_ww1_inf,"Poilus NEEDS UPDATEd states, changed to riflemen",infantry,No,No,Yes
+France,france,fra_carbs,fra_carbs,"Chasseurs à Cheval (Carbine, Carabine modèle 1867 Tabatière)",cavalry,Yes,Yes,No
+France,france,fra_sailors,fra_sailors,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,Yes,Yes
+Peru,denmark,fra_sailors,fra_sailors,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,Yes,Yes
+Argentina,aztecs,fra_sailors,fra_sailors,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,Yes,Yes
+Mexico,scotland,fra_sailors,fra_sailors,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,Yes,Yes
+Aus-Hun,hungary,fra_sailors,fra_sailors,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,Yes,Yes
+Italy,venice,fra_sailors,fra_sailors,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,Yes,Yes
+France,france,fra_hus_2,fra_hus_2,Cuirassiers updated: added pistol primary swrod seconedary,cavalry,Yes,No,No
+Argentina,aztecs,fra_hus_2,fra_hus_2,Cuirassiers updated: added pistol primary swrod seconedary,cavalry,Yes,No,No
+Spain,spain,fra_hus_2,fra_hus_2,Cuirassiers updated: added pistol primary swrod seconedary,cavalry,Yes,No,No
+France,france,fra_hussar,fra_hussar,General and Staff,cavalry,Yes,Yes,Yes
+Denmark,sicily,fra_hussar,fra_hussar,General and Staff,cavalry,Yes,Yes,Yes
+Greece,mongols,fra_hussar,fra_hussar,General and Staff,cavalry,Yes,Yes,Yes
+France,france,fra_blacks_fr,fra_blacks_fr,"Tirailleurs Senegalais (Rifle-musket, Fusil Minié)",infantry,Yes,No,No
+France,france,fra_rec,fra_rec,"Garde Nationale (Rifle, Fusil modèle 1864 Tabatière)",infantry,Yes,No,No
+France,france,fra_inf_fr,fra_inf_fr,"Légion Entrangère (Rifle, Fusil modèle 1866 Chassepot)",infantry,Yes,Yes,No
+France,france,fra_guard,fra_guard,"Grenadier (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
+France,france,fra_inf_fl,fra_inf_fl,"Légion Entrangère (Magazine Rifle, Fusil Modèle 1886 Lebel)",infantry,No,No,Yes
+France,france,fra_line_inf,fra_line_inf,"Fusiliers (Rifle, Fusil modèle 1864 Tabatière)",infantry,Yes,Yes,No
+France,france,fra_chass,fra_chass,"Chasseurs à pied (Rifle, Fusil modèle 1866 Chassepot)",infantry,Yes,Yes,No
+Prussia,hre,otto_sipahi,otto_sipahi,German General and Staff,cavalry,Yes,Yes,Yes
+Prussia,hre,gr_gren,gr_gren,"Pioniere (Rifle, Zündnadelpioniergewehr U/M Dreyse)",infantry,Yes,Yes,No
+Prussia,hre,gr_carbs,gr_carbs,"Prussian Dragoons (Carbine, Mauser M1871)",cavalry,No,Yes,Yes
+Prussia,hre,wurt_inf,wurt_inf,"Wurttemberg Infantry (Needle Gun, M-1865 Dreyse)",infantry,No,Yes,Yes
+Prussia,hre,pru_ww1_gren,pru_ww1_gren,Sturmtruppen Pioniere,infantry,No,No,Yes
+Prussia,hre,pru_ww1_inf,pru_ww1_inf,Sturmtruppen,infantry,No,No,Yes
+Prussia,hre,bav_inf,bav_inf,"Jager (Rifle, Gewehr M1871)",infantry,No,Yes,Yes
+Prussia,hre,gr_inf,gr_inf,"Prussian Riflemen (Magazine Rifle, Gewehr M1898)",infantry,No,No,Yes
+Prussia,hre,gr_colonial,gr_colonial,"Schutztruppe (Magazine Rifle, Gewehr M1888)",infantry,No,No,Yes
+Prussia,hre,jager_inf,jager_inf,"Bavarian Regulars (Rifle, M1869 ""Aptiertes"")",infantry,Yes,Yes,Yes
+Prussia,hre,rec_bav,rec_bav,"Bavarian Landwehr (Rifle, Werder M1869)",infantry,No,Yes,Yes
+Prussia,hre,gr_sailor,gr_sailor,"Seesoldaten (Rifle, Gewehr M1871)",infantry,No,Yes,Yes
+Prussia,hre,balk_cav_gr,balk_cav_gr,German Hussars,cavalry,Yes,Yes,Yes
+Prussia,hre,ger_hus,ger_hus,German Cuirassiers,cavalry,Yes,No,No
+Prussia,hre,hannover_inf,hannover_inf,"Hannoverian Infanterieregimente (Rifle, Gewehr M1871)",infantry,No,Yes,Yes
+Prussia,hre,gr_lancer,gr_lancer,Colonial Lancers,cavalry,No,No,Yes
+Prussia,hre,siam_riflemen_gr,siam_riflemen_gr,"Prussian Riflemen (Needle Gun, M-1849 Dreyse)",infantry,Yes,Yes,No
+Spain,spain,uk_sailor_sp,uk_sailor_sp,"Cuban Infantry (Magazine Rifle, Fusil Mauser M1895)",infantry,No,No,Yes
+Spain,spain,us_front_cav_sp,us_front_cav_sp,"Spanish Cavalry (Carbine, Tercerola Mauser M1893)",cavalry,No,No,Yes
+Spain,spain,spa_regu,spa_regu,"Spanish Infantry (Rifle-Musket, Fusil Modelo 1859 Minie)",infantry,Yes,Yes,No
+Spain,spain,fra_inf_sp,fra_inf_sp,"Spanish Colonial Infantry (Rifle-Musket, Fusil Modelo 1846 trans. 1857)",infantry,Yes,No,No
+Spain,spain,spa_nafrica,spa_nafrica,"Spanish Colonial Infantry (Rifle, Fusil Remington M1868)",infantry,No,Yes,Yes
+Spain,spain,segunda_inf,segunda_inf,"Segunda Regiment (Rifle-Musket, Fusil Modelo 1859 Minie)",infantry,Yes,No,No
+Spain,spain,spa_inf_late,spa_inf_late,"Spanish Infantry (Magazine Rifle, Fusil Mauser M1893)",infantry,No,No,Yes
+Spain,spain,aus_inf_sp,aus_inf_sp,"Spanish Cazadores (Rifle-Musket, Carabina Modelo 1857)",infantry,Yes,Yes,No
+Spain,spain,civil_guard,civil_guard,Spanish General and Staff,cavalry,Yes,Yes,Yes
+Spain,spain,spa_scout_cav,spa_scout_cav,"Spanish Colonial Cavalry (Carbine, Tercerola Remington M1868)",cavalry,No,Yes,Yes
+Netherlands,portugal,dutch_pith,dutch_pith,"Line Regiment (Magazine Rifle, M1870/87 Beaumont-Vitali)",infantry,No,No,Yes
+Netherlands,portugal,nl_roy,nl_roy,"Garderegiment (Rifle, P53 Enfield Mod. Snider)",infantry,Yes,Yes,No
+Netherlands,portugal,dutch_askari,dutch_askari,"Royal Netherlands East Indies Army (Rifle, Beaumontgeweer M1873 Colonial)",infantry,No,Yes,Yes
+Netherlands,portugal,dutch_askari2,dutch_askari2,"Royal Netherlands East Indies Army (Rifle-Musket, P53 Enfield)",infantry,Yes,No,No
+Netherlands,portugal,dutch_inf,dutch_inf,"Line Regiment (Needle Gun, M-1860 Dreyse)",infantry,Yes,Yes,No
+Netherlands,portugal,nl_colonial,nl_colonial,"Dutch Marines (Rifle, Fusil Minié Mod. Snider)",infantry,No,Yes,Yes
+Netherlands,portugal,nl_carbs,nl_carbs,Dutch carbineers,cavalry,Yes,Yes,No
+Netherlands,portugal,balk_cav_nl,balk_cav_nl,Dutch General and Staff,cavalry,Yes,Yes,Yes
+Denmark,sicily,fra_guard_si,fra_guard_si,"Danish Infantry (Rifle-Musket, M1822 Mod. Minié)",infantry,Yes,No,No
+Denmark,sicily,aus_inf_si,aus_inf_si,"Chasseurs (Rifle, Tapriffel M/1848)",infantry,Yes,Yes,No
+Denmark,sicily,rus_cos_guard_si,rus_cos_guard_si,"Danish Infantry (Rifle, Tapriffel M1864)",infantry,No,Yes,Yes
+Denmark,sicily,dan_cav,dan_cav,"Carbineers (Carbine, Lorenz Model 1854)",cavalry,Yes,Yes,No
+Aus-Hun,hungary,dan_cav,dan_cav,"Carbineers (Carbine, Lorenz Model 1854)",cavalry,Yes,Yes,No
+Denmark,sicily,dan_inf,dan_inf,"Danish Royal Guard (Magazine Rifle, Krag–Jørgensen M1889)",infantry,No,No,Yes
+Swe-Nor,normans,rus_cos_guard_no,rus_cos_guard_no,"Swedish Infantry (Rifle, Remington Rolling Block Swedish)",infantry,No,Yes,Yes
+Swe-Nor,normans,swed_roy,swed_roy,"Norwegian Infantry (Rifle, Kammerlader M1849/55)",infantry,Yes,Yes,No
+Swe-Nor,normans,fra_carbs_no,fra_carbs_no,"Life Regiment Dragoons (Carbine, Remington Rolling Block Swedish M1870)",cavalry,No,Yes,Yes
+Swe-Nor,normans,rus_imp_cav_no,rus_imp_cav_no,Swede-Norwegian General and Staff,cavalry,Yes,Yes,Yes
+Swe-Nor,normans,rus_sib_cossacks_no,rus_sib_cossacks_no,Regiment of Horse,cavalry,Yes,Yes,No
+Swe-Nor,normans,swe_guard,swe_guard,"Swedish Jager (Rifle-Musket, Wrede Percussion)",infantry,Yes,No,No
+Swe-Nor,normans,norwegian_inf,norwegian_inf,"Norwegian Infantry (Magazine Rifle, Krag–Jørgensen)",infantry,No,No,Yes
+Swe-Nor,normans,swed_inf2,swed_inf2,"Swedish Infantry (Rifle, Wrede Percussion Mod.)",infantry,Yes,No,No
+Greece,mongols,evzones_inf,evzones_inf,"Evzones (Rifle, M1872 Mylonas)",infantry,No,Yes,Yes
+Greece,mongols,greek_roy,greek_roy,Hellenic Sappers,infantry,No,No,Yes
+Greece,mongols,greek_guard_cav,greek_guard_cav,"Hellenic Carbineers (Carbine, Nafplion M1833)",cavalry,Yes,Yes,No
+Aus-Hun,hungary,rom_guard,rom_guard,"Skirmishers (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,Yes
+Greece,mongols,swed_inf,swed_inf,"Hellenic Infantry (Rifle, Gras Steyr)",infantry,No,Yes,Yes
+Greece,mongols,rom_cav,rom_cav,"Dragoons (Carbine, Mannlicher M1888)",cavalry,No,No,Yes
+Greece,mongols,greek_early_inf,greek_early_inf,"Hellenic Infantry (Musket, Ktoros M1837 caplock)",infantry,Yes,No,No
+Italy,venice,it_carbs,it_carbs,Carabinieri,cavalry,No,Yes,Yes
+Italy,venice,it_pistoleer,it_pistoleer,Italian General and Staff,cavalry,Yes,Yes,Yes
+Italy,venice,rus_cos_guard_ve,rus_cos_guard_ve,"Italian Infantry (Rifle-Musket, Fucile di Fanteria Modello 1860)",infantry,Yes,Yes,No
+Italy,venice,dan_inf_ve,dan_inf_ve,Guastatori Pioneers,infantry,Yes,Yes,Yes
+Italy,venice,it_bers,it_bers,"Italian Infantry (Magazine Rifle, Carcano Fucile di Fanteria Modello 1891)",infantry,No,No,Yes
+Italy,venice,us_front_inf_it,us_front_inf_it,"Risorgimento Volunteers (Rifle-Musket, Fucile di Fanteria Modello 1860)",infantry,Yes,No,No
+Italy,venice,it_arditi,it_arditi,"Alpini (Magazine Rifle, Carcano Fucile di Fanteria Modello 1891)",infantry,No,No,Yes
+Italy,venice,libya_inf,libya_inf,"Libyan Infantry (Magazine Rifle, M1870/87 Vetterli-Vitali)",infantry,No,No,Yes
+Russia,russia,rus_conscript,rus_conscript,"Siberian Riflemen (Rifle-Musket, M-1857 Six Line)",infantry,Yes,Yes,No
+Russia,russia,rus_cos_hussar,rus_cos_hussar,Tartar Auxililaries,cavalry,Yes,Yes,Yes
+Ottoman,turks,georgian_inf,georgian_inf,"Georgian Partisans (Musket, M-1844 Mod. Percussion)",infantry,Yes,No,No
+Russia,russia,georgian_inf,georgian_inf,"Georgian Partisans (Musket, M-1844 Mod. Percussion)",infantry,Yes,Yes,Yes
+Russia,russia,rus_gen_cav,rus_gen_cav,Cossacks,cavalry,Yes,Yes,Yes
+Union,portugala,rus_sailors,rus_sailors,"Naval Infantry (Rifle, Berdan I)",infantry,No,Yes,Yes
+Netherlands,portugal,rus_sailors,rus_sailors,"Naval Infantry (Rifle, Berdan I)",infantry,No,Yes,Yes
+Confederates,milan,rus_sailors,rus_sailors,"Naval Infantry (Rifle, Berdan I)",infantry,No,Yes,Yes
+Brazil,poland,rus_sailors,rus_sailors,"Naval Infantry (Rifle, Berdan I)",infantry,No,Yes,Yes
+Boers,teu,rus_sailors,rus_sailors,"Naval Infantry (Rifle, Berdan I)",infantry,No,Yes,Yes
+Russia,russia,rus_imp_cav,rus_imp_cav,Russian General and Staff,cavalry,Yes,Yes,Yes
+Russia,russia,rus_conscript_ru,rus_conscript_ru,"Russian Infantry (Rifle-Musket, M-1854 Rifled Percussion)",infantry,Yes,No,No
+Russia,russia,rus_roy_cav_ru,rus_roy_cav_ru,"Dragoons (Carbine, Dragoon Musket M-1854)",cavalry,Yes,Yes,No
+Russia,russia,rus_roy_inf_ru,rus_roy_inf_ru,"Russian Skirmishers (Rifle-Musket, M-1856 Jaeger Percussion)",infantry,Yes,Yes,No
+Russia,russia,rus_guard,rus_guard,"Russian Infantry (Rifle, M1869 Russian Krnka)",infantry,No,Yes,Yes
+Russia,russia,russ_inf,russ_inf,Udarniki Pionery,infantry,Yes,Yes,Yes
+Russia,russia,rus_cos_guard_ru,rus_cos_guard_ru,"Leib Guard (Rifle, M-1854 Rifled Percussion Musket)",infantry,Yes,Yes,No
+Russia,russia,rus_lat_inf_ru,rus_lat_inf_ru,"Siberian Riflemen (Magazine Rifle, Mosin–Nagant M1891)",infantry,No,No,Yes
+Russia,russia,rus_georgian_cav,rus_georgian_cav,Caucasian Cavalry,cavalry,Yes,Yes,Yes
+Ottoman,turks,rus_georgian_cav,rus_georgian_cav,Caucasian Cavalry,cavalry,Yes,No,No
+Qajar,egypt,rus_sib_cossacks,rus_sib_cossacks,Qajari Horse Guard,cavalry,Yes,Yes,Yes
+Aus-Hun,hungary,dutch_militia,dutch_militia,"Imperial Infantry (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,No
+Aus-Hun,hungary,rom_inf,rom_inf,"Royal Hungarian Honvéd (Rifle, Wänzl Model 1862)",infantry,No,Yes,Yes
+Aus-Hun,hungary,it_royals,it_royals,Albanian Guerrillas,infantry,Yes,Yes,Yes
+Italy,venice,it_royals,it_royals,Albanian Guerrillas,infantry,Yes,Yes,Yes
+Greece,mongols,it_royals,it_royals,Albanian Guerrillas,infantry,Yes,Yes,Yes
+Aus-Hun,hungary,aus_jag,aus_jag,"Imperial and Royal Army/Common Army (Magazine Rifle, Mannlicher Model 1886)",infantry,No,No,Yes
+Britain,england,austro_sailor,austro_sailor,"Marines (Rifle, Lorenz Model 1862 Wänzl)",infantry,No,Yes,Yes
+Greece,mongols,austro_sailor,austro_sailor,"Marines (Rifle, Lorenz Model 1862 Wänzl)",infantry,No,Yes,Yes
+Spain,spain,austro_sailor,austro_sailor,"Marines (Rifle, Lorenz Model 1862 Wänzl)",infantry,No,Yes,Yes
+Aus-Hun,hungary,aus_lancers,aus_lancers,Austrian Ulhans,cavalry,Yes,Yes,Yes
+Aus-Hun,hungary,aus_ulhans,aus_ulhans,Imperial and Royal General and Staff,cavalry,Yes,Yes,Yes
+Aus-Hun,hungary,aus_inf2,aus_inf2,"Imperial Austrian Landwehr (Rifle, M1867 Werndl–Holub)",infantry,No,Yes,Yes
+Aus-Hun,hungary,aus_inf3,aus_inf3,"Jagdkommandos (Magazine Rifle, Mannlicher M1895)",infantry,Yes,Yes,Yes
+Greece,mongols,balk_cav,balk_cav,Hussars,cavalry,Yes,Yes,Yes
+Aus-Hun,hungary,kaiserjager,kaiserjager,"Grenzers (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,No,No
+Morocco,moors,black_guard,black_guard,Cherifian Army (Musket),infantry,Yes,No,No
+Morocco,moors,fra_blacks,fra_blacks,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,No,Yes
+Ottoman,turks,fra_blacks,fra_blacks,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,No,Yes
+Morocco,moors,d_fra_for_cav,d_fra_for_cav,"Moroccan Infantry (Rifle, Fusil modèle 1864 Tabatière)",infantry,No,Yes,Yes
+Morocco,moors,moroccan_camel_roy,moroccan_camel_roy,Moroccan Camelry (Harquebus),cavalry,Yes,Yes,Yes
+Britain,england,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
+France,france,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
+Spain,spain,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
+Ottoman,turks,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
+Oman,golden,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
+Morocco,moors,skif_inf,skif_inf,Rif Skirmishers (Hand-Crafted Long-Gun),infantry,Yes,Yes,No
+Morocco,moors,skif_inf1,skif_inf1,"Rif Skirmishers (Magazine Rifle, Mauser M1890 Turkish)",infantry,No,No,Yes
+Morocco,moors,otto_cav,otto_cav,"Sultan's Horse Guard (Carbine, Pattern 1851 Minie)",cavalry,Yes,Yes,Yes
+Oman,golden,otto_cav,otto_cav,"Sultan's Horse Guard (Carbine, Pattern 1851 Minie)",cavalry,Yes,Yes,Yes
+Morocco,moors,africa_cav,africa_cav,African Cavalry,cavalry,Yes,Yes,Yes
+Oman,golden,africa_cav,africa_cav,African Cavalry,cavalry,Yes,Yes,Yes
+Zulu,lith,africa_cav,africa_cav,African Cavalry,cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,africa_cav,africa_cav,African Cavalry,cavalry,Yes,Yes,Yes
+Morocco,moors,african_warband,african_warband,African Warband,infantry,Yes,Yes,Yes
+Zulu,lith,african_warband,african_warband,African Warband,infantry,Yes,Yes,Yes
+Oman,golden,african_warband,african_warband,African Warband,infantry,Yes,Yes,Yes
+Ethiopia,papal_states,african_warband,african_warband,African Warband,infantry,Yes,Yes,Yes
+Boers,teu,csa_volunteers_te,csa_volunteers_te,"Boer Kommando (Magazine Rifle, Mauser Model 1895 'Boer')",infantry,No,No,Yes
+Boers,teu,csa_lancer_te,csa_lancer_te,Boer General and Staff,cavalry,Yes,Yes,Yes
+Boers,teu,boer_wagon,boer_wagon,"Laager (Rifle-Musket, Pattern 1853 Enfield)",cavalry,Yes,Yes,Yes
+Boers,teu,us_militia_te,us_militia_te,"Boer Kommando (Rifle, Vetterli Modell 1867)",infantry,Yes,Yes,No
+Boers,teu,boer_guard,boer_guard,"Boer Sharpshooters (Rifle, Westley Richards)",infantry,No,No,Yes
+Zulu,lith,zulu_cav,zulu_cav,Mounted Zulu Scouts,cavalry,No,Yes,Yes
+Zulu,lith,zulu_royals,zulu_royals,Elder Warrior Impi,infantry,Yes,Yes,Yes
+Zulu,lith,zulu_spearmen,zulu_spearmen,Xhosa Impi,infantry,Yes,Yes,Yes
+Zulu,lith,zulu_guard,zulu_guard,Zulu Impi,infantry,Yes,Yes,Yes
+Zulu,lith,zulu_elite,zulu_elite,Impi Commander and Officers (Trade Musket),infantry,Yes,Yes,Yes
+Zulu,lith,zulu_rifles,zulu_rifles,Isibhamu Inbutho,infantry,No,No,Yes
+Boers,teu,merc_zulu_rifles,merc_zulu_rifles,"Tribal auxiliaries (Rifle-Musket, Pattern 1853 Enfield)",infantry,Yes,Yes,Yes
+Oman,golden,merc_zulu_rifles,merc_zulu_rifles,"Tribal auxiliaries (Rifle-Musket, Pattern 1853 Enfield)",infantry,No,Yes,Yes
+Zulu,lith,merc_zulu_rifles,merc_zulu_rifles,"Tribal auxiliaries (Rifle-Musket, Pattern 1853 Enfield)",infantry,No,No,Yes
+Aus-Hun,hungary,bulgarian_inf,bulgarian_inf,"Bulgarian Infantry (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,No
+Greece,mongols,bulgarian_inf,bulgarian_inf,"Bulgarian Infantry (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,No
+Russia,russia,bulgarian_inf,bulgarian_inf,"Bulgarian Infantry (Rifle-Musket, Lorenz Model 1854)",infantry,No,Yes,No
+Russia,russia,armenian_inf,armenian_inf,"Armenian Irregulars (Skirmishers, Hand-Crafted Musket)",infantry,Yes,Yes,Yes
+Ottoman,turks,arab_sailors,arab_sailors,"Mansure Line Infantry (Rifle-Musket, Pattern 1851 Minie)",infantry,Yes,No,No
+Ottoman,turks,otto_jan_inf,otto_jan_inf,"Nizamiye (Rifle, Peabody-Martini M1872)",infantry,No,Yes,No
+Ottoman,turks,moroccan_camel_gunner,moroccan_camel_gunner,Bedouin Camelry (Harquebus),cavalry,Yes,Yes,Yes
+Oman,golden,moroccan_camel_gunner,moroccan_camel_gunner,Bedouin Camelry (Harquebus),cavalry,Yes,Yes,Yes
+Morocco,moors,moroccan_camel_gunner,moroccan_camel_gunner,Bedouin Camelry (Harquebus),cavalry,Yes,Yes,Yes
+Ottoman,turks,moroccan_gunner,moroccan_gunner,Arab Tribesmen (Moukhala musket),infantry,Yes,Yes,Yes
+Oman,golden,moroccan_gunner,moroccan_gunner,Arab Tribesmen (Moukhala musket),infantry,Yes,Yes,Yes
+Ottoman,turks,ertu_cav,ertu_cav,"Süvari (Carbine, Mauser M1893)",cavalry,No,No,Yes
+Ottoman,turks,arab_brigade,arab_brigade,Mustahfiz (Musket),infantry,Yes,No,No
+Ottoman,turks,turk_lt2,turk_lt2,"Mustahfiz (Rifle, Snider–Enfield)",infantry,No,Yes,Yes
+Ottoman,turks,otto_inf_tu,otto_inf_tu,"Nizamiye (Magazine Rifle, Mauser M1890)",infantry,No,No,Yes
+Ottoman,turks,bashi_inf,bashi_inf,Bashi-Bazouks,infantry,Yes,Yes,Yes
+Ottoman,turks,otto_cav_tu,otto_cav_tu,"Süvari (Carbine, Winchester Model 1866)",cavalry,No,Yes,No
+Ottoman,turks,turk_lt,turk_lt,Ertuğrul Regiment,cavalry,Yes,Yes,Yes
+Oman,golden,us_zouave_go,us_zouave_go,"Omani Line Infantry (Rifle-Musket, Enfield Pattern 1853)",infantry,Yes,Yes,No
+Oman,golden,omani_roy,omani_roy,"Omani Palace Infantry (Musket, Brown Bess Pattern 1842)",infantry,Yes,Yes,No
+Oman,golden,omani_cav,omani_cav,"Omani Dragoons (Carbine, Martini Henry MkIII)",cavalry,No,No,Yes
+Oman,golden,otto_inf,otto_inf,"Anglo-Omani Infantry (Rifle, Martini-Henry MkIII)",infantry,No,No,Yes
+Qajar,egypt,qajar_foot,qajar_foot,Qajari Militia (Arquebus),infantry,Yes,No,No
+Qajar,egypt,gr_inf_eg,gr_inf_eg,"Austro-Persian Corps (Rifle, M1867 Werndl–Holub)",infantry,No,No,Yes
+Qajar,egypt,qajar_lt,qajar_lt,"Qajari Sharpshooters (Rifle, Mauser Model 1871)",infantry,No,No,Yes
+Qajar,egypt,rus_georgian_cav_eg,rus_georgian_cav_eg,Persian Cossack Brigade,cavalry,No,Yes,Yes
+Qajar,egypt,qajar_inf,qajar_inf,"Dynastic Guards (Rifle-Musket, M-1854 Percussion)",infantry,Yes,Yes,No
+Qajar,egypt,rus_guard_eg,rus_guard_eg,"Qajari Regulars (Musket, Pattern 1842 Brown Bess)",infantry,Yes,Yes,No
+Qajar,egypt,us_zouave_eg,us_zouave_eg,"Persian Marines (Rifle-Musket, Enfield Pattern 1853)",infantry,No,Yes,Yes
+Afganistan,timurids,afghan_sword,afghan_sword,"Afghan Nobles (Rifle, Snider-Enfield)",infantry,No,Yes,Yes
+Afganistan,timurids,pashtun_inf,pashtun_inf,Pashtun Tribesmen (Wall Gun),infantry,Yes,Yes,Yes
+Afganistan,timurids,afghan_gen,afghan_gen,Afghan Noble Cavalry,cavalry,Yes,Yes,Yes
+Afganistan,timurids,herat_inf,herat_inf,Herat Thunderers,infantry,Yes,No,No
+Afganistan,timurids,afghan_cav,afghan_cav,Afghan Regular Cavalry,cavalry,No,Yes,Yes
+Afganistan,timurids,pashtun_camel_gunner,pashtun_camel_gunner,Pashtun Camelry (Harquebus),cavalry,Yes,Yes,Yes
+Afganistan,timurids,afghan_gunner,afghan_gunner,"Afghan Irregulars (Magazine Rifle, Mauser M1890 Turkish)",infantry,No,No,Yes
+Afganistan,timurids,afghan_rifles,afghan_rifles,"Afghan Regulars (Musket, Brown Bess)",infantry,Yes,Yes,No
+Afganistan,timurids,afghan_militia,afghan_militia,Tajik Hillmen (Hand-crafted Long-Gun),infantry,Yes,Yes,Yes
+Qajar,egypt,afghan_militia,afghan_militia,Tajik Hillmen (Hand-crafted Long-Gun),infantry,Yes,Yes,No
+Afganistan,timurids,kabul_guard,kabul_guard,"Afghan Regulars (Rifle, Martini-Henry MKI)",infantry,No,No,Yes
+Turkestan,cuman,kok_royal_cav,kok_royal_cav,Turcomen Cavalry,cavalry,Yes,Yes,Yes
+Turkestan,cuman,kaz_cav,kaz_cav,Kazakh Cavalry (harquebus),cavalry,Yes,Yes,Yes
+Turkestan,cuman,kok_spears,kok_spears,Noker Spearmen,infantry,Yes,No,No
+Turkestan,cuman,kaz_inf,kaz_inf,Kazakh Infantry (Arquebus),infantry,Yes,No,No
+Turkestan,cuman,kok_ww1,kok_ww1,"Bahadors (Musket, M-1828)",infantry,Yes,Yes,No
+Turkestan,cuman,uyghur_camel_cav,uyghur_camel_cav,Central Asian camel riders armed with arquebuses and renowned for their endurance across the desert.,cavalry,Yes,Yes,Yes
+Turkestan,cuman,buk_guard,buk_guard,Darkhan Tribesmen (Hand-crafted Long-Gun),infantry,Yes,No,No
+Turkestan,cuman,ghulja_inf,ghulja_inf,Ghuljan Tribesmen (Arquebus),infantry,Yes,Yes,No
+Turkestan,cuman,kok_cav,kok_cav,Jigit Cavalry,cavalry,Yes,Yes,Yes
+Turkestan,cuman,kok_rcav,kok_rcav,"Keshikchi Cavalry, gen bodyguard",cavalry,Yes,Yes,Yes
+Turkestan,cuman,turkmen_inf,turkmen_inf,"Turcomen Musketeers (Musket, Matchlock)",infantry,Yes,Yes,No
+Turkestan,cuman,kashgar_inf,kashgar_inf,"Russified Infantry (Musket, M-1844 Mod. Percussion)",infantry,No,Yes,No
+Turkestan,cuman,kok_inf,kok_inf,"Russified Infantry (Rifle, Berdan II Cossack)",infantry,No,No,Yes
+Turkestan,cuman,camel_wagon,camel_wagon,Camel Wagon Barrier (Wall Gun),cavalry,Yes,Yes,Yes
+Indian Princely States,bulga,indian_bow_cav,indian_bow_cav,Indian Bow Cavalry,cavalry,Yes,Yes,Yes
+Afganistan,timurids,indian_bow_cav,indian_bow_cav,Indian Bow Cavalry,cavalry,Yes,Yes,Yes
+Indian Princely States,bulga,indian_spear_cav,indian_spear_cav,Indian Lancers,cavalry,No,Yes,Yes
+Britain,england,indian_spear_cav,indian_spear_cav,Indian Lancers,cavalry,Yes,Yes,Yes
+Indian Princely States,bulga,Sikh_heavy_cavalry,Sikh_heavy_cavalry,Sikh Heavy Cavalry,cavalry,Yes,No,No
+Indian Princely States,bulga,indian_spears,indian_spears,Hyderabad Spearmen,infantry,Yes,No,No
+Indian Princely States,bulga,indian_heavy_banduqchis,indian_heavy_banduqchis,Rajput Skirmishers (Hand-crafted Long Gun),infantry,Yes,Yes,Yes
+Indian Princely States,bulga,indian_new_musk,indian_new_musk,Professional Maratha infantry trained in European drill and equipped with Brown Bess muskets.,infantry,Yes,Yes,Yes
+Indian Princely States,bulga,india_sepoy,india_sepoy,"Ex-Company Sepoys (Musket, Brown Bess)",infantry,Yes,No,No
+Indian Princely States,bulga,sikh_gen,sikh_gen,Indian Princely Cavalry,cavalry,Yes,Yes,Yes
+Indian Princely States,bulga,sikh_warriors,sikh_warriors,"Sikh Guard Regiment (Rifle, Martini-Henry Pass-Made)",infantry,No,Yes,Yes
+Indian Princely States,bulga,indian_fanatic,indian_fanatic,Akali Warriors,infantry,Yes,No,No
+Indian Princely States,bulga,indian_ele,indian_ele,Sultan's Elephants,cavalry,Yes,Yes,Yes
+Siam,cru,siam_ele_gunner,siam_ele_gunner,Siamese War Elephants (Musket),cavalry,Yes,Yes,Yes
+France,france,fra_vietna,fra_vietna,"Tirailleurs Indochinois (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,Yes,Yes
+Siam,cru,siam_sea,siam_sea,"Marines (Rifle, Snider-Enfield)",infantry,No,Yes,Yes
+Siam,cru,siam_late_inf,siam_late_inf,"Royal Thai Army (Rifle, Martini–Henry Mk I)",infantry,No,No,Yes
+Siam,cru,siam_late_cav,siam_late_cav,"Royal Carbineers (Carbine, Snider–Enfield)",cavalry,No,No,Yes
+Siam,cru,siam_agent,siam_agent,Siamese Militia (Arquebus),infantry,Yes,Yes,No
+Siam,cru,viet_inf,viet_inf,"Vietnamese Infantry (Musket, Matchlock)",infantry,Yes,Yes,No
+France,france,viet_inf,viet_inf,"Vietnamese Infantry (Musket, Matchlock)",infantry,Yes,No,No
+Siam,cru,siam_inf,siam_inf,"Royal Thai Army (Rifle-Musket, Pattern 1853 Enfield)",infantry,Yes,Yes,No
+Siam,cru,Siam_bodyguard,Siam_bodyguard,Royal Thai Cuirassiers,cavalry,Yes,Yes,No
+Siam,cru,Siam_Archers,Siam_Archers,Thai Militia,infantry,Yes,No,No
+Siam,cru,burmese_inf,burmese_inf,"Burmese Irregulars (Rifle-Musket, Pattern 1851 Minie)",infantry,Yes,Yes,No
+Britain,england,burmese_inf,burmese_inf,"Burmese Irregulars (Rifle-Musket, Pattern 1851 Minie)",infantry,Yes,Yes,No
+Qing,byzantium,Qing Tiger Warriors,Qing_Tiger_Warriors,Fanatical shock troops wearing tiger skins.,infantry,Yes,Yes,Yes
+Qing,byzantium,mongol_bows,mongol_bows,Mongol Bowmen,infantry,Yes,No,No
+Qing,byzantium,qing_ww1_inf,qing_ww1_inf,Bordered Blue Banner 'Bird' Gunners (Gingal),infantry,Yes,No,No
+Qing,byzantium,qing_gunners,qing_gunners,"Imperial Needle Gunners (Needle Gun, Dreyse M/41)",infantry,No,Yes,Yes
+Qing,byzantium,qing_vets,qing_vets,Green Banner Arquebusiers (Arquebus),infantry,Yes,Yes,Yes
+Qing,byzantium,qing_pike,qing_pike,Xiang Spearmen,infantry,Yes,No,No
+Qing,byzantium,qing_archers,qing_archers,Green Banner Archers,infantry,Yes,Yes,No
+Qing,byzantium,oirat_royal,oirat_royal,Qing Cavalry,cavalry,Yes,Yes,Yes
+Qing,byzantium,mongols_archer,mongols_archer,Manchurian Archers,infantry,Yes,Yes,No
+Qing,byzantium,mongol_inf,mongol_inf,Mongol Musketeers (Matchlock Musket),infantry,Yes,Yes,No
+Qing,byzantium,qing_inf,qing_inf,"New Imperial Army (Magazine Rifle, Hanyang 88)",infantry,No,No,Yes
+Qing,byzantium,qing_inf_upg,qing_inf_upg,"Huai Line Infantry (Rifle-musket, Fusil Minié)",infantry,Yes,Yes,No
+Qing,byzantium,qing_carbs,qing_carbs,"Beiyang Dragoons (Carbine, Hanyang 88)",cavalry,No,No,Yes
+Qing,byzantium,qing_swords,qing_swords,Green Banner Conscripts,infantry,Yes,Yes,No
+Meiji,saxons,Japan Kachi,Japan_Kachi,Japanese Yari Kachi / Japanese Yari Samurai / Japanese Samurai Spearmen (Yari),infantry,Yes,Yes,No
+Meiji,saxons,Japan Yumitai,Japan_Yumitai,"Japanese Yumitai (Daikyu longbow, Katana)",infantry,Yes,Yes,No
+Meiji,saxons,Japan Teppotai,Japan_Teppotai,"Japanese Teppotai (Smoothbore ""Geberu"" musket, Katana)",infantry,Yes,Yes,No
+Meiji,saxons,Japan Seishi,Japan_Seishi,"Japanese Seishi / Japanese Samurai Cavalry / Japanese Samurai Lancers (Yari, Katana)",cavalry,Yes,Yes,No
+Meiji,saxons,Japan Bodyguard IJA,Japan_Bodyguard_IJA,"Imperial Japanese General and Staff (Smith & Wesson No.2 Revolver, Saber)",cavalry,No,Yes,Yes
+Meiji,saxons,Japan Shotai,Japan_Shotai,"Japanese Shotai / Choshu Shotai / Choshu Infantry / Satcho Shotai / Ishin Shotai (Pattern 1853 Enfield rifled musket, Bayonet)",infantry,Yes,No,No
+Meiji,saxons,Japan Satsuma Hoheitai,Japan_Satsuma_Hoheitai,"Japanese Satsuma Hoheitai / Satsuma Infantry / Satcho Satsuma Hoheitai / Ishin Satsuma Hoheitai (Pattern 1860 Wilson-Enfield breech-loading rifle, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Hokokutai,Japan_Hokokutai,"Japanese Hokokoutai / Enchu Hokokutai / Satcho Hokokutai / Ishin Hokokutai (Albini-Braendlin M-1867 breech-loading rifle, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Yamagunitai,Japan_Yamagunitai,"Japanese Yamagunitai / Tottori Yamagunitai / Satcho Yamagunitai / Ishin Yamagunitai (Snider Enfield Mk.I* breech-loading rifle, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Kiheitai,Japan_Kiheitai,"Japanese Kiheitai / Choshu Kiheitai / Choshu Light Infantry / Satcho Kiheitai / Ishin Kiheitai (Springfield M1861 rifled musket, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Saga Hoheitai,Japan_Saga_Hoheitai,"Japanese Saga Sogekihei / Saga Skirmishers / Satcho Saga Sogekihei / Ishin Saga Sogekihei / Satcho Sogekihei / Ishin Sogekihei (Starr M1858 breech-loading carbine, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Jinshotai,Japan_Jinshotai,"Japanese Jinshotai / Tosa Jinshotai / Tosa Red Bears / Satcho Jinshotai / Ishin Jinshotai (Spencer M1860 repeating carbine, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Revolver Kihei Han,Japan_Revolver_Kihei_Han,"Japanese Revolver Kihei / Ishin Revolver Kihei / Satcho Revolver Kihei (Smith & Wesson No.2 revolver, Katana)",cavalry,Yes,No,No
+Meiji,saxons,Japan Bodyguard Ezo,Japan_Bodyguard_Ezo,"Tokugawa Japanese General and Staff (Smith & Wesson No.2 revolver, Saber)",cavalry,Yes,Yes,Yes
+Meiji,saxons,Japan Sampeitai,Japan_Sampeitai,"Japanese Sampeitai / Tokugawa Sampeitai / Shogunate Sampeitai / Tokugawa Infantry / Shogunate Infantry (Charleville Mle.1822 bis percussion smoothbore musket, Katana)",infantry,Yes,Yes,No
+Meiji,saxons,Japan Suzakutai,Japan_Suzakutai,"Japanese Suzakutai / Tokugawa Suzakutai / Shogunate Suzakutai / Aizu Suzakutai / Aizu Infantry (Bavarian Gewehr M-1842 rifled musket, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Nagaoka Hoheitai,Japan_Nagaoka_Hoheitai,"Japanese Nagaoka Hoheitai / Tokugawa Nagaoka Hoheitai / Shogunate Nagaoka Hoheitai / Nagaoka Infantry (Tabatiere Mle.1853/67 breech-loading rifle, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Shohotai,Japan_Shohotai,"Japanese Shohotai / Tokugawa Shohotai / Shogunate Shohotai / Japanese Shōhotai / Tokugawa Shōhotai / Shogunate Shōhotai (Snider-Enfield Mk.I, Bayonet)",infantry,No,Yes,No
+Meiji,saxons,Japan Gakuheitai,Japan_Gakuheitai,"Japanese Gakuheitai / Tokugawa Gakuheitai / Shogunate Gakuheitai / Sendai Gakuheitai (Snider-Enfield Mk.I* breech-loading rifle, Katana)",infantry,Yes,Yes,No
+Meiji,saxons,Japan Denshutai,Japan_Denshutai,"Japanese Denshutai / Tokugawa Denshutai / Shogunate Denshutai (Chassepot Mle.1866 breech-loading rifle, Bayonet)",infantry,Yes,Yes,No
+Meiji,saxons,Japan Karasugumi,Japan_Karasugumi,"Japanese Karasugumi / Tokugawa Karasugumi / Shogunate Karasugumi / Sendai Karasugumi (Pattern 1861 Enfield rifled carbine, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Raijintai,Japan_Raijintai,"Japanese Raijintai / Tokugawa Raijintai / Shogunate Raijintai (Starr M1858 breech-loading carbine, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Shinsengumi,Japan_Shinsengumi,"Japanese Shinsengumi / Tokugawa Shinsengumi / Shogunate Shinsengumi (Starr M1858 breech-loading carbine, Katana)",infantry,Yes,Yes,No
+Meiji,saxons,Japan Revolver Kihei,Japan_Revolver_Kihei,"Japanese Sampeitai Kihei / Tokugawa Sampeitai Kihei / Shogunate Sampeitai Kihei (Smith & Wesson No.2 revolver, Katana)",cavalry,Yes,No,No
+Meiji,saxons,Japan Denshutai Kihei,Japan_Denshutai_Kihei,"Japanese Denshutai Kihei / Tokugawa Denshutai Kihei / Shogunate Denshutai Kihei (Mousqueton Tabatiere Mle.1853/67 breech-loading carbine, Lance)",cavalry,Yes,Yes,No
+Meiji,saxons,sho_mod_cav,sho_mod_cav,Japanese General and Staff,cavalry,Yes,Yes,Yes
+Meiji,saxons,Japan Ainu Archers,Japan_Ainu_Archers,"Japanese Ainu Archers (Hankyu bow, Spear)",infantry,Yes,Yes,Yes
+Meiji,saxons,Japan Ainu Geberu,Japan_Ainu_Geberu,Japanese Ainu Hunters (Geberu),infantry,No,Yes,No
+Meiji,saxons,Japan Ainu Minieru,Japan_Ainu_Minieru,Japanese Ainu Hunters (Minieru),infantry,No,No,Yes
+Meiji,saxons,Japan Ainu Teppo,Japan_Ainu_Teppo,Japanese Ainu Hunters (Teppo),infantry,Yes,No,No
+Meiji,saxons,Japan Battotai,Japan_Battotai,Japanese Battotai,infantry,No,Yes,Yes
+Meiji,saxons,Japan Bodyguard Retainers,Japan_Bodyguard_Retainers,"Japanese General and Retainers (Smith & Wesson No.2 revolver, Saber)",cavalry,Yes,No,No
+Meiji,saxons,Japan Byakkotai,Japan_Byakkotai,"Japanese Byakkotai (Smoothbore ""Geberu"" musket, Katana)",infantry,Yes,Yes,No
+Meiji,saxons,Japan Denshutai 1870,Japan_Denshutai_1870,Japanese Denshutai (1870s),infantry,No,Yes,No
+Meiji,saxons,Japan Denshutai 1880,Japan_Denshutai_1880,Japanese Denshutai (1880s),infantry,No,No,Yes
+Meiji,saxons,Japan Enomoto Takeaki,Japan_Enomoto_Takeaki,"Enomoto Takeaki - custom battles only (Smith & Wesson No.2 revolver, Saber)",cavalry,Yes,Yes,Yes
+Meiji,saxons,Japan Ezo Rikuguntai 1880,Japan_Ezo_Rikuguntai_1880,Tokugawa Rikuguntai (1880),infantry,No,No,Yes
+Meiji,saxons,Japan Ezo Rikuguntai 1890,Japan_Ezo_Rikuguntai_1890,Tokugawa Rikuguntai (1890),infantry,No,No,Yes
+Meiji,saxons,Japan Ezo Rikuguntai 1900,Japan_Ezo_Rikuguntai_1900,Tokugawa Rikuguntai (1900),infantry,No,No,Yes
+Meiji,saxons,Japan Ezo Rikuguntai 1905,Japan_Ezo_Rikuguntai_1905,Tokugawa Rikuguntai (Khaki),infantry,No,No,Yes
+Meiji,saxons,Japan Goshimpei 1870,Japan_Goshimpei_1870,Goshimpei (1870),infantry,No,Yes,No
+Meiji,saxons,Japan Goshimpei 1880,Japan_Goshimpei_1880,Goshimpei (1880),infantry,No,No,Yes
+Meiji,saxons,Japan Goshimpei 1890,Japan_Goshimpei_1890,Goshimpei (1890),infantry,No,No,Yes
+Meiji,saxons,Japan Goshimpei 1900,Japan_Goshimpei_1900,Goshimpei (1900),infantry,No,No,Yes
+Meiji,saxons,Japan Goshimpei 1905,Japan_Goshimpei_1905,Goshimpei (Khaki),infantry,No,No,Yes
+Meiji,saxons,Japan Goshimpei Hohei 1870,Japan_Goshimpei_Hohei_1870,Imperial Japanese Goshimpei Hohei (1870s),infantry,No,Yes,No
+Meiji,saxons,Japan Goshimpei Hohei 1880,Japan_Goshimpei_Hohei_1880,Imperial Japanese Goshimpei Hohei (1880s),infantry,No,No,Yes
+Meiji,saxons,Japan Goshimpei Kihei 1870,Japan_Goshimpei_Kihei_1870,Imperial Japanese Goshimpei Kihei (1870s),cavalry,No,Yes,No
+Meiji,saxons,Japan Goshimpei Kihei 1880,Japan_Goshimpei_Kihei_1880,Imperial Japanese Goshimpei Kihei (1880s),cavalry,No,No,Yes
+Meiji,saxons,Japan Goshimpei Kihei 1890,Japan_Goshimpei_Kihei_1890,Imperial Japanese Goshimpei Kihei (1890s),cavalry,No,No,Yes
+Meiji,saxons,Japan Goshimpei Kihei 1900,Japan_Goshimpei_Kihei_1900,Imperial Japanese Goshimpei Kihei (1900s),cavalry,No,No,Yes
+Meiji,saxons,Japan Goshimpei Kihei 1905,Japan_Goshimpei_Kihei_1905,Imperial Japanese Goshimpei Kihei (Khaki),cavalry,No,No,Yes
+Meiji,saxons,Japan Heimin Mob,Japan_Heimin_Mob,Japanese Heimin Mob (Yari),infantry,Yes,Yes,Yes
+Meiji,saxons,Japan Heimin Partisans,Japan_Heimin_Partisans,"Japanese Heimin Partisans (Tanegashima teppo arquebus, Tanto)",infantry,Yes,No,No
+Meiji,saxons,Japan Heimin Partisans Geberu,Japan_Heimin_Partisans_Geberu,"Japanese Heimin Partisans (Imported ""geberu"", Tanto)",infantry,No,Yes,No
+Meiji,saxons,Japan Heimin Partisans Minieru,Japan_Heimin_Partisans_Minieru,"Japanese Heimin Partisans (Imported ""minieru"", Tanto)",infantry,No,No,Yes
+Meiji,saxons,Japan Hijikata Toshizo,Japan_Hijikata_Toshizo,"Hijikata Toshizo - custom battles only (Smith & Wesson No.2 revolver, Saber)",cavalry,Yes,No,No
+Meiji,saxons,Japan Hokuchin Butai 1890,Japan_Hokuchin_Butai_1890,Hokuchin Butai (1890),infantry,No,No,Yes
+Meiji,saxons,Japan Hokuchin Butai 1900,Japan_Hokuchin_Butai_1900,Hokuchin Butai (1890),infantry,No,No,Yes
+Meiji,saxons,Japan Hokuchin Butai 1905,Japan_Hokuchin_Butai_1905,Hokuchin Butai (1905),infantry,No,No,Yes
+Meiji,saxons,Japan Hoppo Keibitai 1870,Japan_Hoppo_Keibitai_1870,Hoppo Keibitai (1870),infantry,No,Yes,No
+Meiji,saxons,Japan Hoppo Keibitai 1880,Japan_Hoppo_Keibitai_1880,Hoppo Keibitai (1880),infantry,No,No,Yes
+Meiji,saxons,Japan Ishin Shishi,Japan_Ishin_Shishi,Japanese Ishin Shishi,infantry,Yes,Yes,No
+Meiji,saxons,Japan Itagaki Taisuke,Japan_Itagaki_Taisuke,"Itagaki Taisuke - custom battles only (Smith & Wesson No.2 revolver, Katana)",cavalry,Yes,No,No
+Meiji,saxons,Japan Jules Brunet,Japan_Jules_Brunet,"Jules Brunet - custom battles only (Lefaucheux Mle.1858 revolver, Saber)",cavalry,Yes,Yes,Yes
+Meiji,saxons,Japan Kaga Hoheitai,Japan_Kaga_Hoheitai,"Japanese Kaga Hoheitai / Japanese Kaga Infantry (Springfield M1855 rifled musket, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Kaiso Shinsengumi,Japan_Kaiso_Shinsengumi,"Japanese Kaiso Shinsengumi / Tokugawa Kaiso Shinsengumi / Shogunate Kaiso Shinsengumi (Dreyse Zundnadelgewehr M-1865, Katana)",infantry,Yes,Yes,Yes
+Meiji,saxons,Japan Keishitai 1870,Japan_Keishitai_1870,"Japanese Keishitai (Pattern 1853 Enfield rifled musket, Katana)",infantry,No,Yes,Yes
+Meiji,saxons,Japan Kenyotai,Japan_Kenyotai,Japanese Ken'yotai / Ogaki Ken'yotai,infantry,Yes,Yes,No
+Meiji,saxons,Japan Kijutai,Japan_Kijutai,"Japanese Kijutai / Shonai Kijutai (Whitworth Rifle w/ Davidson Scope rifled musket, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Koheitai 1900,Japan_Koheitai_1900,Imperial Japanese Koheitai (1900s),infantry,No,No,Yes
+Meiji,saxons,Japan Koheitai 1905,Japan_Koheitai_1905,Imperial Japanese Koheitai (Khaki),infantry,No,No,Yes
+Meiji,saxons,Japan Kondo Isami,Japan_Kondo_Isami,"Kondo Isami - custom battles only (Smith & Wesson No.2 revolver, Saber)",cavalry,Yes,No,No
+Meiji,saxons,Japan Matsudaira Katamori,Japan_Matsudaira_Katamori,"Matsudaira Katamori - custom battles only (Smith & Wesson No.2 revolver, Saber)",cavalry,Yes,No,No
+Meiji,saxons,Japan Matsushiro Hoheitai,Japan_Matsushiro_Hoheitai,"Japanese Matsushiro Hoheitai / Japanese Matsushiro Infantry (Springfield M1861 rifled musket, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Rikuguntai 1870,Japan_Rikuguntai_1870,Rikuguntai (1870),infantry,No,Yes,No
+Meiji,saxons,Japan Rikuguntai 1880,Japan_Rikuguntai_1880,Rikuguntai (1880),infantry,No,No,Yes
+Meiji,saxons,Japan Rikuguntai 1890,Japan_Rikuguntai_1890,Rikuguntai (1890),infantry,No,No,Yes
+Meiji,saxons,Japan Rikuguntai 1900,Japan_Rikuguntai_1900,Rikuguntai (1900),infantry,No,No,Yes
+Meiji,saxons,Japan Rikuguntai 1905,Japan_Rikuguntai_1905,Rikuguntai (1905),infantry,No,No,Yes
+Meiji,saxons,Japan Rikusentai 1870,Japan_Rikusentai_1870,Rikusentai (1870),infantry,No,Yes,No
+Meiji,saxons,Japan Rikusentai 1880,Japan_Rikusentai_1880,Rikusentai (1880),infantry,No,No,Yes
+Meiji,saxons,Japan Rikusentai 1890,Japan_Rikusentai_1890,Rikusentai (1890),infantry,No,No,Yes
+Meiji,saxons,Japan Rikusentai 1900,Japan_Rikusentai_1900,Rikusentai (1900),infantry,No,No,Yes
+Meiji,saxons,Japan Ronin,Japan_Ronin,Japanese Ronin,infantry,Yes,Yes,No
+Meiji,saxons,Japan Ryukihei 1870,Japan_Ryukihei_1870,Japanese Ryukihei (1870),cavalry,No,Yes,No
+Meiji,saxons,Japan Ryukihei 1880,Japan_Ryukihei_1880,Japanese Ryukihei (1880),cavalry,No,No,Yes
+Meiji,saxons,Japan Ryukihei 1890,Japan_Ryukihei_1890,Japanese Ryukihei (1890),cavalry,No,No,Yes
+Meiji,saxons,Japan Ryukihei 1900,Japan_Ryukihei_1900,Japanese Ryukihei (1900),cavalry,No,No,Yes
+Meiji,saxons,Japan Ryukihei 1905,Japan_Ryukihei_1905,Japanese Ryukihei (Khaki),cavalry,No,No,Yes
+Meiji,saxons,Japan Ryukihei Shogun 1870,Japan_Ryukihei_Shogun_1870,Japanese Ryukihei (1870),cavalry,No,Yes,Yes
+Meiji,saxons,Japan Saigo Takamori 1860,Japan_Saigo_Takamori_1860,Saigo Takamori (1860s),cavalry,Yes,No,No
+Meiji,saxons,Japan Sakamoto Ryoma,Japan_Sakamoto_Ryoma,"Sakamoto Ryoma - custom battles only (Smith & Wesson No.2 revolver, Saber)",cavalry,Yes,No,No
+Meiji,saxons,Japan Shinsenryodan,Japan_Shinsenryodan,"Japanese Shinsenryodan (Dreyse M-1842 breech-loading rifle, Katana)",infantry,No,Yes,No
+Meiji,saxons,Japan Shogitai,Japan_Shogitai,Japanese Shogitai,infantry,Yes,Yes,No
+Meiji,saxons,Japan Shizoku,Japan_Shizoku,"Japanese Shizoku (Snider-Enfield Mk.I breech-loading rifle, Katana)",infantry,No,Yes,Yes
+Meiji,saxons,Japan Suzakutai 1870,Japan_Suzakutai_1870,Japanese Suzakutai (1870s),infantry,No,Yes,Yes
+Meiji,saxons,Japan Takeda Ayasaburo,Japan_Takeda_Ayasaburo,"Takeda Ayasaburo - custom battles only (Smith & Wesson No.2 revolver, Saber)",cavalry,Yes,Yes,Yes
+Meiji,saxons,Japan Teppotai Merc,Japan_Teppotai_Merc,"Japanese Teppotai / Japanese Auxiliaries (Smoothbore ""Geberu"" musket, Katana)",infantry,Yes,No,No
+Meiji,saxons,Japan Tokugawa Yoshinobu,Japan_Tokugawa_Yoshinobu,"Tokugawa Yoshinobu - custom battles only (Smith & Wesson No.2 revolver, Saber)",cavalry,Yes,No,No
+Meiji,saxons,Japan Tondenhei 1870,Japan_Tondenhei_1870,Tondenhei (1870),infantry,No,Yes,No
+Meiji,saxons,Japan Tondenhei 1880,Japan_Tondenhei_1880,Tondenhei (1880),infantry,No,No,Yes
+Meiji,saxons,Japan Yukantai,Japan_Yukantai,"Japanese Yukantai / Japanese Fukuoka Yukantai (Pattern 1853 Enfield rifled musket, Katana)",infantry,Yes,No,No
+Brazil,poland,merc_uru_inf,merc_uru_inf,"Uruguayan Infantry (Rifle-Musktet, Pattern 1853 Enfield)",infantry,Yes,Yes,No
+Argentina,aztecs,merc_uru_inf,merc_uru_inf,"Uruguayan Infantry (Rifle-Musktet, Pattern 1853 Enfield)",infantry,Yes,Yes,No
+Britain,england,volunteers_te,volunteers_te,"Boer Auxililaries (Rifle, Martini-Henry Mk II)",infantry,No,Yes,Yes
+Spain,spain,german_asia,german_asia,"Filipino Rebels (Rifle-Musket, Fusil Modelo 1846 trans. 1857)",infantry,Yes,Yes,Yes
+Union,portugala,german_asia,german_asia,"Filipino Rebels (Rifle-Musket, Fusil Modelo 1846 trans. 1857)",infantry,Yes,Yes,Yes
+Qing,byzantium,mongol_hevcav,mongol_hevcav,Mongolian Tribal Cavalry,cavalry,Yes,Yes,Yes
+Russia,russia,mongol_hevcav,mongol_hevcav,Mongolian Tribal Cavalry,cavalry,Yes,Yes,Yes
+Britain,england,merc_port_lancer,merc_port_lancer,Portuguese Lanceiros,cavalry,Yes,Yes,Yes
+Spain,spain,merc_port_lancer,merc_port_lancer,Portuguese Lanceiros,cavalry,Yes,Yes,Yes
+Britain,england,merc_bhutan_warrior,merc_bhutan_warrior,Hardy Himalayan warriors renowned for mountain warfare and fierce determination.,infantry,Yes,Yes,Yes
+Indian Princely States,bulga,merc_bhutan_warrior,merc_bhutan_warrior,Hardy Himalayan warriors renowned for mountain warfare and fierce determination.,infantry,Yes,Yes,Yes
+Britain,england,merc_papa_bows,merc_papa_bows,Papua New Guinea Natives,infantry,No,No,Yes
+Prussia,hre,merc_papa_bows,merc_papa_bows,Papua New Guinea Natives,infantry,No,No,Yes
+Russia,russia,merc_mongol_bows,merc_mongol_bows,merc_mongol_bows,infantry,Yes,Yes,Yes
+Qing,byzantium,merc_mongol_bows,merc_mongol_bows,merc_mongol_bows,infantry,Yes,Yes,Yes
+Russia,russia,merc_pol_hussars,merc_pol_hussars,Polish Hussars,cavalry,Yes,Yes,Yes
+Prussia,hre,merc_pol_hussars,merc_pol_hussars,Polish Hussars,cavalry,Yes,Yes,Yes
+Aus-Hun,hungary,merc_pol_hussars,merc_pol_hussars,Polish Hussars,cavalry,Yes,Yes,Yes
+Union,portugala,merc_us_farmer_cav,merc_us_farmer_cav,"Settler Cavalry (Carbine, Burnside)",cavalry,Yes,Yes,Yes
+Confederates,milan,merc_us_farmer_cav,merc_us_farmer_cav,"Settler Cavalry (Carbine, Burnside)",cavalry,Yes,Yes,Yes
+Meiji,saxons,korean_rifles_mercs,korean_rifles_mercs,"Korean Imperial Army (Rifle, Snider–Enfield)",infantry,No,No,Yes
+Qing,byzantium,korean_archers,korean_archers,Korean Archers,infantry,Yes,Yes,Yes
+Meiji,saxons,korean_archers,korean_archers,Korean Archers,infantry,No,No,Yes
+Meiji,saxons,korean_cav_mercs,korean_cav_mercs,"Korean Cavalry (Carbine, Snider–Enfield)",cavalry,No,No,Yes
+Qing,byzantium,merc_tib_temple_guard,merc_tib_temple_guard,Taiping Cavalry,cavalry,Yes,No,No
+Qing,byzantium,merc_tib_noble_cav,merc_tib_noble_cav,Tibetan Noble Horse-Archers,cavalry,Yes,Yes,Yes
+Turkestan,cuman,merc_tib_noble_cav,merc_tib_noble_cav,Tibetan Noble Horse-Archers,cavalry,Yes,Yes,Yes
+Qing,byzantium,taipingguners,taipingguners,"Taiping Arquebusiers (""Bird"" Arquebus)",infantry,Yes,No,No
+Qing,byzantium,taiping_inf,taiping_inf,Taiping Heavenly Warriors,infantry,Yes,No,No
+Qing,byzantium,taiping_light,taiping_light,Taiping Skirmishers,infantry,Yes,No,No
+Qing,byzantium,taiping_w,taiping_w,Taiping Female Warriors,infantry,Yes,No,No
+Siam,cru,merc_aceh_marines,merc_aceh_marines,"Aceh Marines (Rifle, Snider–Enfield)",infantry,No,Yes,Yes
+Britain,england,merc_aceh_marines,merc_aceh_marines,"Aceh Marines (Rifle, Snider–Enfield)",infantry,No,Yes,Yes
+Netherlands,portugal,merc_aceh_marines,merc_aceh_marines,"Aceh Marines (Rifle, Snider–Enfield)",infantry,No,Yes,Yes
+Siam,cru,merc_aceh_noble,merc_aceh_noble,"Aceh Nobles (Rifle-Musket, Pattern 1851 Minie)",infantry,Yes,Yes,Yes
+Britain,england,merc_aceh_noble,merc_aceh_noble,"Aceh Nobles (Rifle-Musket, Pattern 1851 Minie)",infantry,Yes,Yes,Yes
+Netherlands,portugal,merc_aceh_noble,merc_aceh_noble,"Aceh Nobles (Rifle-Musket, Pattern 1851 Minie)",infantry,Yes,Yes,Yes
+Siam,cru,merc_aceh_reg,merc_aceh_reg,Malay Militia (African Trade Musket),infantry,Yes,Yes,Yes
+Britain,england,merc_aceh_reg,merc_aceh_reg,Malay Militia (African Trade Musket),infantry,Yes,Yes,Yes
+Netherlands,portugal,merc_aceh_reg,merc_aceh_reg,Malay Militia (African Trade Musket),infantry,Yes,Yes,Yes
+Siam,cru,merc_aceh_gold,merc_aceh_gold,Golden Warriors,infantry,Yes,Yes,Yes
+Britain,england,merc_aceh_gold,merc_aceh_gold,Golden Warriors,infantry,Yes,Yes,Yes
+Netherlands,portugal,merc_aceh_gold,merc_aceh_gold,Golden Warriors,infantry,Yes,Yes,Yes
+Siam,cru,merc_aceh_warband,merc_aceh_warband,Malay Warband / Aceh Warband,infantry,Yes,Yes,Yes
+Britain,england,merc_aceh_warband,merc_aceh_warband,Malay Warband / Aceh Warband,infantry,Yes,Yes,Yes
+Netherlands,portugal,merc_aceh_warband,merc_aceh_warband,Malay Warband / Aceh Warband,infantry,Yes,Yes,Yes
+Siam,cru,merc_aceh_inf,merc_aceh_inf,Aceh Greek Fire Squad,infantry,No,Yes,Yes
+Qing,byzantium,tib_militia,tib_militia,Tibetan Militia,infantry,Yes,Yes,Yes
+Turkestan,cuman,tib_militia,tib_militia,Tibetan Militia,infantry,Yes,Yes,Yes
+Qing,byzantium,merc_tib_inf,merc_tib_inf,"Tibetan Arquebusiers (""Bird"" Arquebus)",infantry,Yes,Yes,Yes
+Turkestan,cuman,merc_tib_inf,merc_tib_inf,"Tibetan Arquebusiers (""Bird"" Arquebus)",infantry,Yes,Yes,Yes
+Qing,byzantium,tib_horse_archer,tib_horse_archer,Kangba Horse Archers,cavalry,Yes,Yes,Yes
+Turkestan,cuman,tib_horse_archer,tib_horse_archer,Kangba Horse Archers,cavalry,Yes,Yes,Yes
+Qing,byzantium,tib_roy_inf,tib_roy_inf,Tibetan Noble Infantry (Gingal),infantry,Yes,Yes,Yes
+Turkestan,cuman,tib_roy_inf,tib_roy_inf,Tibetan Noble Infantry (Gingal),infantry,Yes,Yes,Yes
+Ottoman,turks,mahdist_inf,mahdist_inf,Mahdist Warriors,infantry,Yes,Yes,Yes
+Oman,golden,mahdist_inf,mahdist_inf,Mahdist Warriors,infantry,Yes,Yes,Yes
+Ethiopia,papal_states,mahdist_inf,mahdist_inf,Mahdist Warriors,infantry,Yes,Yes,Yes
+Britain,england,merc_burmese_inf,merc_burmese_inf,"Burmese Irregulars (Rifle-Musket, Fusil Minie)",infantry,Yes,Yes,Yes
+Britain,england,merc_indian_fanatic,merc_indian_fanatic,Akali Warriors,infantry,Yes,No,No
+Union,portugala,merc_ap_front_cav,merc_ap_front_cav,"Indian Scout Cavalry (Carbine, Spencer M1860)",cavalry,Yes,Yes,Yes
+Confederates,milan,merc_ap_front_cav,merc_ap_front_cav,"Indian Scout Cavalry (Carbine, Spencer M1860)",cavalry,Yes,Yes,Yes
+Britain,england,merc_maori_spearmen,merc_maori_spearmen,Maori Warriors,infantry,Yes,Yes,Yes
+Britain,england,merc_maori_musketeers,merc_maori_musketeers,"Maori Musketeers (Musket, Brown Bess Percussion)",infantry,Yes,Yes,Yes
+Qing,byzantium,tib_tribal_archer,tib_tribal_archer,Traditional bowmen skilled in mountain skirmishing and accurate archery.,infantry,Yes,Yes,Yes
+Turkestan,cuman,tib_tribal_archer,tib_tribal_archer,Traditional bowmen skilled in mountain skirmishing and accurate archery.,infantry,Yes,Yes,Yes
+Qing,byzantium,tib_temple_guard,tib_temple_guard,"Veteran irregulars renowned for ambushes, jungle warfare, and relentless determination.",infantry,Yes,Yes,Yes
+Qing,byzantium,tib_heavy_spear,tib_heavy_spear,Tibetan Heavy Spearmen,infantry,Yes,Yes,Yes
+Turkestan,cuman,tib_heavy_spear,tib_heavy_spear,Tibetan Heavy Spearmen,infantry,Yes,Yes,Yes
+Spain,spain,merc_island_jihadist,merc_island_jihadist,Sandatahanes,infantry,Yes,Yes,Yes
+Union,portugala,merc_island_jihadist,merc_island_jihadist,Sandatahanes,infantry,Yes,Yes,Yes
+Qing,byzantium,merc_kok_royal_cav,merc_kok_royal_cav,Tartar cavalry,cavalry,Yes,Yes,Yes
+Qajar,egypt,merc_kok_royal_cav,merc_kok_royal_cav,Tartar cavalry,cavalry,Yes,Yes,Yes
+Afganistan,timurids,merc_kok_royal_cav,merc_kok_royal_cav,Tartar cavalry,cavalry,Yes,Yes,Yes
+Russia,russia,merc_kok_royal_cav,merc_kok_royal_cav,Tartar cavalry,cavalry,Yes,Yes,Yes
+Qing,byzantium,merc_kashgar_inf,merc_kashgar_inf,"Kashgar Musketeers (Musket, M-1844 Mod. Percussion)",infantry,Yes,Yes,Yes
+Turkestan,cuman,merc_kashgar_inf,merc_kashgar_inf,"Kashgar Musketeers (Musket, M-1844 Mod. Percussion)",infantry,Yes,Yes,Yes
+Ottoman,turks,fra_blacks_az,fra_blacks_az,"Dervishes (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,No,Yes
+Oman,golden,fra_blacks_az,fra_blacks_az,"Dervishes (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,No,Yes
+Ethiopia,papal_states,fra_blacks_az,fra_blacks_az,"Dervishes (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,No,Yes
+Ethiopia,papal_states,fra_blacks_ab,fra_blacks_ab,"Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
+Ethiopia,papal_states,merc_viet_early_inf,merc_viet_early_inf,unused,infantry,Yes,Yes,Yes
+Ethiopia,papal_states,ethiopian_warband,ethiopian_warband,Ethiopian Warband,infantry,No,Yes,Yes
+Britain,england,merc_arab_sailors,merc_arab_sailors,"Khedival Infantry (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,Yes,Yes
+Ottoman,turks,merc_arab_sailors,merc_arab_sailors,"Khedival Infantry (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,Yes,Yes
+Morocco,moors,merc_arab_sailors,merc_arab_sailors,"Khedival Infantry (Rifle, No. 1 Remington .43 Egyptian)",infantry,No,Yes,Yes
+Argentina,aztecs,merc_para_foot,merc_para_foot,"Paraguayian Infantry (Musket, Brown Bess Percussion)",infantry,Yes,Yes,Yes
+Brazil,poland,merc_para_foot,merc_para_foot,"Paraguayian Infantry (Musket, Brown Bess Percussion)",infantry,Yes,Yes,Yes
+Russia,russia,merc_kaz_inf,merc_kaz_inf,Steppe marksmen armed with arquebuses and skilled in mobile skirmishing.,infantry,Yes,Yes,Yes
+Qajar,egypt,merc_kaz_inf,merc_kaz_inf,Steppe marksmen armed with arquebuses and skilled in mobile skirmishing.,infantry,Yes,Yes,Yes
+Turkestan,cuman,merc_kaz_inf,merc_kaz_inf,Steppe marksmen armed with arquebuses and skilled in mobile skirmishing.,infantry,Yes,Yes,Yes
+Russia,russia,merc_kaz_cav,merc_kaz_cav,Kazakh Cavalry (harquebus),cavalry,Yes,Yes,Yes
+Qajar,egypt,merc_kaz_cav,merc_kaz_cav,Kazakh Cavalry (harquebus),cavalry,Yes,Yes,Yes
+Turkestan,cuman,merc_kaz_cav,merc_kaz_cav,Kazakh Cavalry (harquebus),cavalry,Yes,Yes,Yes
+Britain,england,merc_fra_blacks,merc_fra_blacks,"Askari (Rifle, Remington M1868)",infantry,No,Yes,Yes
+Italy,venice,merc_fra_blacks,merc_fra_blacks,"Askari (Rifle, Remington M1868)",infantry,No,Yes,Yes
+Spain,spain,merc_fra_blacks,merc_fra_blacks,"Askari (Rifle, Remington M1868)",infantry,No,Yes,Yes
+Russia,russia,merc_polish_inf,merc_polish_inf,"Polish Infantry (Needle Gun, Dreyse M/41)",infantry,Yes,Yes,Yes
+Prussia,hre,merc_polish_inf,merc_polish_inf,"Polish Infantry (Needle Gun, Dreyse M/41)",infantry,Yes,Yes,Yes
+Aus-Hun,hungary,merc_polish_inf,merc_polish_inf,"Polish Infantry (Needle Gun, Dreyse M/41)",infantry,Yes,Yes,Yes
+Ottoman,turks,merc_bulgarian_inf,merc_bulgarian_inf,"Bulgarian Infantry (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,Yes
+Aus-Hun,hungary,merc_bulgarian_inf,merc_bulgarian_inf,"Bulgarian Infantry (Rifle-Musket, Lorenz Model 1854)",infantry,No,No,Yes
+Britain,england,merc_port_inf,merc_port_inf,"Portuguese Infantry (Rifle, Snider-Enfield)",infantry,Yes,Yes,Yes
+Spain,spain,merc_port_inf,merc_port_inf,"Portuguese Infantry (Rifle, Snider-Enfield)",infantry,Yes,Yes,Yes
+Qing,byzantium,mercs_tib_monks,mercs_tib_monks,Warrior monks whose discipline and faith make them resolute defenders of Tibet.,infantry,Yes,Yes,Yes
+Ottoman,turks,mahdist_camel_cav,mahdist_camel_cav,Mahdist Camelry (Harquebus),cavalry,Yes,Yes,Yes
+Oman,golden,mahdist_camel_cav,mahdist_camel_cav,Mahdist Camelry (Harquebus),cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,mahdist_camel_cav,mahdist_camel_cav,Mahdist Camelry (Harquebus),cavalry,Yes,Yes,Yes
+Ottoman,turks,mahdist_cav,mahdist_cav,Mahdist Cavalry,cavalry,Yes,Yes,Yes
+Oman,golden,mahdist_cav,mahdist_cav,Mahdist Cavalry,cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,mahdist_cav,mahdist_cav,Mahdist Cavalry,cavalry,Yes,Yes,Yes
+Qing,byzantium,oirat_cav,oirat_cav,Oirat Lancers,cavalry,Yes,Yes,Yes
+Russia,russia,oirat_cav,oirat_cav,Oirat Lancers,cavalry,Yes,Yes,Yes
+Russia,russia,merc_georgian_inf,merc_georgian_inf,"Georgian Mercenaries (Musket, M-1844 Mod. Percussion)",infantry,Yes,Yes,Yes
+Ottoman,turks,merc_georgian_inf,merc_georgian_inf,"Georgian Mercenaries (Musket, M-1844 Mod. Percussion)",infantry,Yes,Yes,Yes
+France,france,merc_fra_for_cav,merc_fra_for_cav,"Spahi (Carbine, Tabatière 1867)",cavalry,Yes,Yes,Yes
+Britain,england,merc_eng_for_cav,merc_eng_for_cav,"Khedival Cavalry (Carbine, Martini-Henry)",cavalry,No,Yes,Yes
+Ottoman,turks,merc_eng_for_cav,merc_eng_for_cav,"Khedival Cavalry (Carbine, Martini-Henry)",cavalry,No,Yes,Yes
+Argentina,aztecs,merc_us_farmers,merc_us_farmers,"Filibusters (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,Yes
+Peru,denmark,merc_us_farmers,merc_us_farmers,"Filibusters (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,Yes
+Brazil,poland,merc_us_farmers,merc_us_farmers,"Filibusters (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,Yes
+Mexico,scotland,merc_us_farmers,merc_us_farmers,"Filibusters (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,Yes
+Union,portugala,merc_apache_inf,merc_apache_inf,"Apache Mercenaries (Skirmisher, M1819 Hall)",infantry,Yes,Yes,Yes
+Confederates,milan,merc_apache_inf,merc_apache_inf,"Apache Mercenaries (Skirmisher, M1819 Hall)",infantry,Yes,Yes,Yes
+Russia,russia,merc_serb_inf,merc_serb_inf,"Serbian Infantry (Rifle-Musket, M-1854 Percussion)",infantry,Yes,Yes,Yes
+Ottoman,turks,merc_serb_inf,merc_serb_inf,"Serbian Infantry (Rifle-Musket, M-1854 Percussion)",infantry,Yes,No,No
+Spain,spain,euro_hussars,euro_hussars,Lancers,cavalry,Yes,Yes,No
+Italy,venice,euro_hussars,euro_hussars,Lancers,cavalry,Yes,Yes,No
+Swe-Nor,normans,euro_hussars,euro_hussars,Lancers,cavalry,Yes,Yes,No
+Confederates,milan,us_farmer_cav,us_farmer_cav,"Settler Cavalry (Carbine, Maynard M1858)",cavalry,No,Yes,Yes
+Boers,teu,us_farmer_cav,us_farmer_cav,"Settler Cavalry (Carbine, Maynard M1858)",cavalry,Yes,Yes,Yes
+Boers,teu,us_farmers,us_farmers,"Rural Militia (Rifle, Remington Rolling Block)",infantry,Yes,Yes,No
+Confederates,milan,us_farmers,us_farmers,"Rural Militia (Rifle, Remington Rolling Block)",infantry,No,Yes,Yes
+Ethiopia,papal_states,aby_cav_1g,aby_cav_1g,African Cavalry,cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,aby_cav_2g,aby_cav_2g,"Ethiopian Dragoons (Carbine, Mauser M1871)",cavalry,No,Yes,Yes
+Ethiopia,papal_states,aby_crb_3g,aby_crb_3g,"Ethiopian Dragoons (Carbine, Mauser M1871)",cavalry,No,Yes,Yes
+Ethiopia,papal_states,aby_grd_2g,aby_grd_2g,"Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)",cavalry,No,Yes,Yes
+Ethiopia,papal_states,aby_inf_2g,aby_inf_2g,"Ethiopian Rifles (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
+Ethiopia,papal_states,aby_nob_2g,aby_nob_2g,"Ethiopian Regulars (Rifle, Fusil Modèle 1874 Gras)",infantry,No,Yes,Yes
+Ethiopia,papal_states,aby_roy_1g,aby_roy_1g,African Cavalry,cavalry,Yes,Yes,Yes
+Ethiopia,papal_states,Ethiopia Sudanese Musketeers,Ethiopia_Sudanese_Musketeers,"Sudanese Musketeers (Flintlock musket, Kaskara and shield)",infantry,Yes,Yes,Yes
+Ethiopia,papal_states,Ethiopia Sudanese Warriors,Ethiopia_Sudanese_Warriors,Sudanese Warriors (Spear and shield),infantry,Yes,Yes,Yes
+Morocco,moors,Ethiopia Sudanese Warriors,Ethiopia_Sudanese_Warriors,Sudanese Warriors (Spear and shield),infantry,Yes,Yes,Yes
+Qing,byzantium,Korean Byeolgigun,Korean_Byeolgigun,"Byeolgigun (Snider-Enfield Mk.I, Bayonet)",infantry,No,No,Yes
+Meiji,saxons,Korean Byeolgigun,Korean_Byeolgigun,"Byeolgigun (Snider-Enfield Mk.I, Bayonet)",infantry,No,No,Yes
+Qing,byzantium,Korean Gimagungsu,Korean_Gimagungsu,"Gimagungsu (Gakgung composite bow, Sword)",cavalry,Yes,Yes,No
+Meiji,saxons,Korean Gimagungsu,Korean_Gimagungsu,"Gimagungsu (Gakgung composite bow, Sword)",cavalry,Yes,Yes,No
+Qing,byzantium,Korean Musketeers,Korean_Musketeers,"Korean Musketeers / Joseon Musketeers (Smoothbore musket, sword)",infantry,Yes,Yes,No
+Meiji,saxons,Korean Musketeers,Korean_Musketeers,"Korean Musketeers / Joseon Musketeers (Smoothbore musket, sword)",infantry,Yes,Yes,No
+Qing,byzantium,Korean Pikemen,Korean_Pikemen,Korean Pikemen / Joseon Pikemen,infantry,Yes,Yes,No
+Meiji,saxons,Korean Pikemen,Korean_Pikemen,Korean Pikemen / Joseon Pikemen,infantry,Yes,Yes,No

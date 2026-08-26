@@ -82,8 +82,7 @@ unit				tib_horse_archer
 unit				tib_roy_inf
 unit				tib_tribal_archer
 unit				tib_tribal_spear
-unit				tib_noble_cav
-
+unit				merc_tib_noble_cav
 ;Korean rebels, Korea
 rebel_type			Burgundian_Rebels
 category			peasant_revolt 
@@ -216,9 +215,9 @@ rebel_type			Maori_Rebels
 category			peasant_revolt 
 chance				400					
 description			Maori_Rebels
-unit				maori_spearmen
-unit				maori_spearmen
-unit				maori_spearmen
+unit				merc_maori_spearmen
+unit				merc_maori_spearmen
+unit				merc_maori_spearmen
 unit				merc_maori_musketeers
 unit				merc_maori_musketeers
 unit				merc_maori_musketeers
