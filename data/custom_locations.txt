@@ -20,7 +20,7 @@ custom_location		London (Unique Settlement B + Central Asian Culture)
 	summer			no
 }
 
-custom_location		Paris (Village + East Asian Culture)
+custom_location		Paris (Unique Settlement D + East Asian Culture)
 {
 	location		237	94
 	image			data/menu/battlefield_pics/pari.tga
@@ -38,7 +38,7 @@ custom_location		New York City (Unique Settlement D + Central Asian Culture)
 	summer			no
 }
 
-custom_location		Moscow (Village + Eastern European Culture)
+custom_location		Moscow (Unique Settlement E + East Asian Culture)
 {
 	location		287	80
 	image			data/menu/battlefield_pics/mosc.tga
