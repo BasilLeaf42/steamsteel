@@ -155,648 +155,55 @@
 ;################ Kingdom of Prussia / North German Confederation / The German Empire
 ;################ Kingdom of Spain / The Spanish Empire
 
-; Spain standardised period variants. New records deliberately retain their predecessor soldier/model assets.
-type             spa_milicia_nacional_early
-dictionary       spa_milicia_nacional_early ; Segunda Regiment (Rifle-Musket, Fusil Modelo 1859 Minie)
-category         infantry
-class            missile
-voice_type       Light
-accent      	 spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          segunda_inf, 40, 0, 1.3
-officer          shk_off_1g
-officer          eur_pri_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, gunpowder_unit, start_not_skirmishing, cannot_skirmish, can_withdraw
-formation        1.2, 1.2, 1.2, 1.2, 3, square
-stat_health      1, 0
-stat_pri         37, 0, rifled_musket_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap	
-stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 2, 0, leather
-;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      0, 0, 0, 0
-stat_mental      3, low, trained
-stat_charge_dist 40
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        2, 1000, 334, 100, 100, 1000, 1, 334
-ownership        spain
-era 0            spain
 
-type             spa_milicia_nacional_mid
-dictionary       spa_milicia_nacional_mid
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          segunda_inf, 40, 0, 1.3
-attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw
-formation        1.2, 1.2, 2.0, 2.4, 3, square
-stat_health      1, 0
-stat_pri         24, 0, rifle_bullet_c, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 2, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      0, 0, 0, 0
-stat_mental      3, low, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        2, 1300, 434, 100, 100, 1300, 1, 434
-ownership        spain
-era 1            spain
 
-type             spa_milicia_nacional_high
-dictionary       spa_milicia_nacional_high
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          segunda_inf, 40, 0, 1.3
-attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw
-formation        1.2, 1.4, 2.4, 2.8, 3, square
-stat_health      1, 0
-stat_pri         13, 0, magazine_rifle_bullet_c, 260, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 2, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      0, 0, 0, 0
-stat_mental      3, low, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        2, 1600, 534, 100, 100, 1600, 1, 534
-ownership        spain
-era 2            spain
 
-type             spa_inf_early
-dictionary       spa_inf_early
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          spa_regu, 40, 0, 1.3
-officer          shk_off_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
-formation        1.2, 1.2, 1.2, 1.2, 3, square
-stat_health      1, 0
-stat_pri         24, 0, rifled_musket_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 3, 400
-ownership        spain, slave
-era 0            spain
 
-type             spa_inf_mid
-dictionary       spa_inf_mid
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          spa_regu, 40, 0, 1.3
-officer          shk_off_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
-formation        1.2, 1.2, 2.0, 2.4, 3, square
-stat_health      1, 0
-stat_pri         24, 0, rifle_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1500, 500, 100, 100, 1500, 3, 500
-ownership        spain, slave
-era 1            spain
 
-type             spa_inf_high
-dictionary       spa_inf_high
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          spa_regu, 40, 0, 1.3
-officer          shk_off_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
-formation        1.2, 1.4, 2.4, 2.8, 3, square
-stat_health      1, 0
-stat_pri         24, 0, magazine_rifle_bullet_b, 260, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1800, 600, 100, 100, 1800, 3, 600
-ownership        spain, slave
-era 2            spain
 
-type             spa_col_inf_early
-dictionary       spa_col_inf_early ; Spanish Colonial Infantry (Rifle-Musket, Fusil Modelo 1846 trans. 1857)
-category         infantry
-class            missile
-voice_type       Light
-accent      	 spanish
-banner faction   main_cavalry
-banner holy      crusade
-soldier          fra_inf1, 40, 0, 1.3
-officer          shk_off_1g
-officer          eur_pri_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
-formation        1.2, 1.2, 1.2, 1.2, 3, square
-stat_health      1, 0
-stat_pri         37, 0, rifled_musket_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap, short_pike
-stat_pri_armour  3, 3, 0, leather
-;stat_armour_ex   0, 4, 0, 0, 1, 0, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 40
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        2, 1100, 367, 100, 100, 1100, 2, 367
-ownership        spain
-era 0            spain
 
-type             spa_col_inf_mid
-dictionary       spa_col_inf_mid
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          fra_inf1, 40, 0, 1.3
-officer          shk_off_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
-formation        1.2, 1.2, 2.0, 2.4, 3, square
-stat_health      1, 0
-stat_pri         24, 0, rifle_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        2, 1400, 467, 100, 100, 1400, 2, 467
-ownership        spain
-era 1            spain
 
-type             spa_col_inf_high
-dictionary       spa_col_inf_high ; Spanish Colonial Infantry (Magazine Rifle, Fusil Mauser M1893)
-category         infantry
-class            missile
-voice_type       Light
-accent      	 spanish
-banner faction   main_cavalry
-banner holy      crusade
-soldier          spa_nafrica, 40, 0, 1.3
-officer          shk_off_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_withdraw, hardy
-formation        1.2, 1.4, 2.4, 2.8, 3, square
-stat_health      1, 0
-stat_pri         13, 0, magazine_rifle_bullet_b, 260, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-;stat_armour_ex   0, 4, 0, 0, 1, 0, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      2, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 40
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1700, 567, 100, 100, 1700, 3, 567
-ownership        spain
-era 2            spain
 
-type             spa_caz_early
-dictionary       spa_caz_early
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          aus_inf_sp, 30, 0, 1
-officer          shk_off_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
-formation        1.4, 1.8, 2.8, 3.6, 3, square
-stat_health      1, 0
-stat_pri         24, 0, rifled_musket_bullet_s, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1400, 467, 100, 100, 1400, 3, 467
-ownership        spain, slave
-era 0            spain
 
-type             spa_caz_mid
-dictionary       spa_caz_mid
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          aus_inf_sp, 30, 0, 1
-officer          shk_off_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
-formation        1.4, 1.8, 2.8, 3.6, 3, square
-stat_health      1, 0
-stat_pri         24, 0, rifle_bullet_s, 280, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1700, 567, 100, 100, 1700, 3, 567
-ownership        spain, slave
-era 1            spain
 
-type             spa_caz_high
-dictionary       spa_caz_high
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          aus_inf_sp, 30, 0, 1
-officer          shk_off_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
-formation        1.4, 1.8, 2.8, 3.6, 3, square
-stat_health      1, 0
-stat_pri         24, 0, magazine_rifle_bullet_s, 300, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      1, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 2000, 667, 100, 100, 2000, 3, 667
-ownership        spain, slave
-era 2            spain
 
-type             cuban_inf_early
-dictionary       cuban_inf_early
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          cuban_inf, 30, 0, 1.2
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, start_not_skirmishing, gunmen, cannot_skirmish, hardy
-formation        1.2, 1.2, 1.2, 1.2, 3, square
-stat_health      1, 0
-stat_pri         37, 0, rifled_musket_bullet_s, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      2, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1300, 434, 100, 100, 1300, 2, 434
-ownership        spain, slave
-era 0            spain
 
-type             cuban_inf_mid
-dictionary       cuban_inf_mid
-category         infantry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          cuban_inf, 30, 0, 1.2
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, start_not_skirmishing, gunmen, cannot_skirmish, hardy
-formation        1.2, 1.2, 2.0, 2.4, 3, square
-stat_health      1, 0
-stat_pri         24, 0, rifle_bullet_s, 280, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-stat_pri_attr    ap
-stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 3, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      2, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1600, 534, 100, 100, 1600, 2, 534
-ownership        spain, slave
-era 1            spain
 
-type             cuban_inf_high
-dictionary       cuban_inf_high ; Cuban Infantry (Magazine Rifle, Fusil Mauser M1895)
-category         infantry
-class            missile
-voice_type       Light
-accent      	 spanish
-banner faction   main_infantry
-banner holy      crusade
-soldier          cuban_inf, 30, 0, 1.2
-officer          shk_off_1g
-attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, start_not_skirmishing, gunmen, stakes, can_withdraw, hardy
-formation        1.2, 1.4, 2.4, 2.8, 3, square
-stat_health      1, 0
-stat_pri         13, 0, magazine_rifle_bullet_s, 300, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
-;stat_pri_ex      0, 0, 20
-stat_pri_attr    ap
-stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap, short_pike
-stat_pri_armour  3, 3, 0, leather
-;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      2, 1, 1, 1
-stat_mental      4, normal, trained
-stat_charge_dist 30
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 1900, 634, 100, 100, 1900, 2, 634
-ownership        spain, slave
-era 2            spain
 
-type             spa_cav_early
-dictionary       spa_cav_early
-category         cavalry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          us_front_cav_sp, 24, 0, 1
-mount            dragoon
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, hide_forest, hardy
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
-stat_pri_attr    ap
-stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-stat_sec_attr    ap
-stat_pri_armour  4, 4, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, 0, -5, 0
-stat_mental      4, normal, trained
-stat_charge_dist 45
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
-ownership        spain
-era 0            spain
 
-type             spa_cav_mid
-dictionary       spa_cav_mid
-category         cavalry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          us_front_cav_sp, 24, 0, 1
-mount            dragoon
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, hide_forest, hardy
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         24, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
-stat_pri_attr    ap
-stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-stat_sec_attr    ap
-stat_pri_armour  4, 4, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, 0, -5, 0
-stat_mental      4, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
-ownership        spain
-era 1            spain
 
-type             spa_cav_high
-dictionary       spa_cav_high ; Spanish Cavalry (Magazine Carbine, Tercerola Mauser M1893)
-category         cavalry
-class            missile
-voice_type       Light
-accent      	 spanish
-banner faction   main_cavalry
-banner holy      crusade_cavalry
-soldier          us_front_cav_sp, 24, 0, 1
-officer          shk_off_1g
-mount            dragoon
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, hide_forest, hardy
-move_speed_mod	 0.9
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set,  50, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap
-stat_pri_armour  4, 4, 0, flesh
-;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, 0, -5, 0
-stat_mental      4, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
-ownership        spain, slave
-era 2            spain
 
-type             spa_col_cav_early
-dictionary       spa_col_cav_early
-category         cavalry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_missile
-banner holy      crusade_cavalry
-soldier          spa_scout_cav, 24, 0, 1
-mount            dragoon
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, hide_forest, hide_improved_forest, hardy
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
-stat_pri_attr    ap
-stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-stat_sec_attr    ap
-stat_pri_armour  4, 4, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, 0, -5, 0
-stat_mental      4, normal, trained
-stat_charge_dist 45
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1100, 367, 100, 100, 1100, 1, 367
-ownership        spain
-era 0            spain
 
-type             spa_col_cav_mid
-dictionary       spa_col_cav_mid ; Spanish Colonial Cavalry (Carbine, Tercerola Remington M1868)
-category         cavalry
-class            missile
-voice_type       Light
-accent      	 spanish
-banner faction   main_missile
-banner holy      crusade_cavalry
-soldier          spa_scout_cav, 24, 0, 1
-officer          shk_off_1g
-officer          eur_pri_1g
-mount            dragoon
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, stakes, gunpowder_unit, hide_forest, hide_improved_forest, hardy
-move_speed_mod	 0.9
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         24, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap
-stat_pri_armour  4, 4, 0, flesh
-;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, 0, -5, 0
-stat_mental      4, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 1100, 367, 100, 100, 1100, 1, 367
-ownership        spain
-era 1            spain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;################ Kingdom of the Netherlands 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-type             spa_col_cav_high
-dictionary       spa_col_cav_high
-category         cavalry
-class            missile
-voice_type       Light
-accent           spanish
-banner faction   main_missile
-banner holy      crusade_cavalry
-soldier          spa_scout_cav, 24, 0, 1
-mount            dragoon
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, gunmen, hide_forest, hide_improved_forest, hardy
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
-stat_pri_attr    ap
-stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-stat_sec_attr    ap
-stat_pri_armour  4, 4, 0, leather
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, 0, -5, 0
-stat_mental      4, normal, trained
-stat_charge_dist 45
-stat_fire_delay  0
-stat_food        60, 300
-stat_cost        3, 1100, 367, 100, 100, 1100, 1, 367
-ownership        spain
-era 2            spain
 
 ;################ Kingdom of the Netherlands 
 ;################ Kingdom of Denmark
@@ -828,104 +235,6 @@ era 2            spain
 ;################ ARTY
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-type             spa_cuirassiers_early
-dictionary       spa_cuirassiers_early
-category         cavalry
-class            heavy
-voice_type       heavy
-accent      	 france
-banner faction   main_infantry
-banner holy      crusade_cavalry
-soldier          bol_hussar, 24, 0, 1
-mount            hussar
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, general_unit, hardy
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         37, 2, rifled_musket_carbine_bullet_b, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap
-stat_pri_armour  7, 5, 0, metal
-;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, -2, 3, 2
-stat_mental      6, disciplined, highly_trained
-stat_charge_dist 45
-stat_fire_delay  -20000
-stat_food        60, 300
-stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
-ownership        spain, slave
-era 0            spain
-
-type             spa_cuirassiers_mid
-dictionary       spa_cuirassiers_mid
-category         cavalry
-class            heavy
-voice_type       heavy
-accent      	 france
-banner faction   main_infantry
-banner holy      crusade_cavalry
-soldier          bol_hussar, 24, 0, 1
-mount            hussar
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, hide_forest, command, general_unit, hardy
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         37, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap
-stat_pri_armour  7, 5, 0, metal
-;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, -2, 3, 2
-stat_mental      6, disciplined, highly_trained
-stat_charge_dist 45
-stat_fire_delay  -20000
-stat_food        60, 300
-stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
-ownership        spain, slave
-era 1            spain
-
-type             spa_cuirassiers_high
-dictionary       spa_cuirassiers_high
-category         cavalry
-class            heavy
-voice_type       heavy
-accent      	 france
-banner faction   main_infantry
-banner holy      crusade_cavalry
-soldier          bol_hussar, 24, 0, 1
-mount            hussar
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, start_not_skirmishing, hide_forest, command, general_unit, hardy
-formation        2, 2, 4, 4, 3, square
-stat_health      1, 0
-stat_pri         37, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap
-stat_pri_armour  7, 5, 0, metal
-;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, -2, 3, 2
-stat_mental      6, disciplined, highly_trained
-stat_charge_dist 45
-stat_fire_delay  -20000
-stat_food        60, 300
-stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
-ownership        spain, slave
-era 2            spain
 
 type             fra_maxim
 dictionary       fra_maxim ; Maxim Gun
@@ -7628,7 +6937,7 @@ era 1            england
 
 
 type             arab_cav
-dictionary       arab_cav ; Arab Cavalry
+dictionary       arab_cav ; Arab Faris (Revolver Lefaucheux Mle 1858, Sabre)
 category         cavalry
 class            missile
 voice_type       Heavy
@@ -7638,29 +6947,26 @@ banner holy      crusade_cavalry
 soldier          omani_cav, 24, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, command, mercenary_unit, hardy
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, mercenary_unit
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         37, 2, musket_carbine_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri_attr    ap, prec
+stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap
-stat_pri_armour  4, 6, 0, flesh
+stat_pri_armour  4, 4, 0, leather
 ;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
-stat_ground      1, 0, -5, 1
-stat_mental      8, disciplined, highly_trained
+stat_ground      0, 0, 0, 0
+stat_mental      3, low, trained
 stat_charge_dist 45
 stat_fire_delay  -20000
 stat_food        60, 300
-stat_cost        4, 200, 20, 60, 90, 200, 1,20
-ownership        england, france, spain, turks, golden, slave
-era 0            england, france, spain, turks, golden
-era 1            england, france, spain, turks, golden
-era 2            england, france, spain, turks, golden, venice
+stat_cost        2, 1000, 334, 100, 100, 1000, 1, 334
+ownership        slave
 
 
 type             volunteers_te
@@ -7696,8 +7002,92 @@ era 1            england
 era 2            england
 
 
-type             merc_port_lancer
-dictionary       merc_port_lancer ; Portuguese Lanceiros
+type             merc_port_inf_early
+dictionary       merc_port_inf_early ; Fuzileiros Portugueses (Rifle-Musket, Espingarda Enfield 14 mm m/1859)
+category         infantry
+class            missile
+voice_type       Light
+banner faction   main_spear
+banner holy      crusade
+soldier          port_inf_colo, 40, 0, 0.8
+officer          Eastern_General
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, mercenary_unit, stakes
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         29, 0, rifled_musket_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 40
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1200, 400, 100, 100, 1200, 3, 400
+ownership        slave, england, spain
+era 0            england, spain
+
+type             merc_port_inf_mid
+dictionary       merc_port_inf_mid ; Fuzileiros Portugueses (Rifle, Espingarda Snider 14 mm m/1872)
+category         infantry
+class            missile
+voice_type       Light
+banner faction   main_spear
+banner holy      crusade
+soldier          port_inf_colo_mid, 40, 0, 0.8
+officer          Eastern_General
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, mercenary_unit, stakes
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         29, 0, rifle_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 40
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1500, 500, 100, 100, 1500, 3, 500
+ownership        slave, england, spain
+era 1            england, spain
+
+type             merc_port_inf_high
+dictionary       merc_port_inf_high ; Fuzileiros Portugueses (Magazine Rifle, Espingarda de Infantaria Kropatschek 8 mm m/1886)
+category         infantry
+class            missile
+voice_type       Light
+banner faction   main_spear
+banner holy      crusade
+soldier          port_inf_colo, 40, 0, 0.8
+officer          Eastern_General
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, cannot_skirmish, mercenary_unit, stakes
+formation        1.2, 1.4, 2.4, 2.8, 3, square
+stat_health      1, 0
+stat_pri         13, 0, magazine_rifle_bullet_b, 260, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 40
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1800, 600, 100, 100, 1800, 3, 600
+ownership        slave, england, spain
+era 2            england, spain
+
+type             merc_port_cav_early
+dictionary       merc_port_cav_early ; Carabineiros Portugueses (Rifle-Musket Carbine, Carabina de Cavalaria Westley-Richards 11 mm m/1867)
 category         cavalry
 class            missile
 voice_type       heavy
@@ -7708,30 +7098,145 @@ soldier          gr_lancer, 24, 0, 1
 officer          Eastern_General
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, stakes, start_not_skirmishing, gunmen, hide_forest, mercenary_unit
-move_speed_mod	 0.9
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, mercenary_unit
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         13, 2, rifle_carbine_bullet_b, 270, 35, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
-;stat_pri_ex      0, 0, 0
+stat_pri         21, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 stat_pri_attr    ap
-stat_sec         7, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
-;stat_sec_ex      0, 0, 0
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    ap
-stat_pri_armour  4, 5, 0, flesh
-;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_pri_armour  4, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
-stat_ground      1, 0, -5, 0
-stat_mental      7, disciplined, highly_trained
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 45
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
+ownership        slave, england, spain
+era 0            england, spain
+
+type             merc_port_cav_mid
+dictionary       merc_port_cav_mid ; Carabineiros Portugueses (Rifle Carbine, Carabina Snider de Cavalaria m/1873)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 prussian
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          gr_lancer, 24, 0, 1
+officer          Eastern_General
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, mercenary_unit
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         29, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 2000, 670, 120, 95, 2000, 2, 670
+stat_cost        3, 1700, 567, 100, 100, 1700, 1, 567
 ownership        slave, england, spain
-era 0			 england, spain
-era 1			 england, spain
-era 2			 england, spain
+era 1            england, spain
+
+type             merc_port_cav_high
+dictionary       merc_port_cav_high ; Carabineiros Portugueses (Magazine Carbine, Carabina de Cavalaria Kropatschek 8 mm m/1886)
+category         cavalry
+class            missile
+voice_type       heavy
+accent      	 prussian
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          gr_lancer, 24, 0, 1
+officer          Eastern_General
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, mercenary_unit
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 2000, 667, 100, 100, 2000, 1, 667
+ownership        slave, england, spain
+era 2            england, spain
+
+; Compatibility aliases for scenarios and rebel templates that still use the legacy Portuguese IDs.
+; They are hidden from custom battle; the visible shared roster uses the early/mid/high records above.
+type             merc_port_inf
+dictionary       merc_port_inf_compat ; Fuzileiros Portugueses (Rifle-Musket, Espingarda Enfield 14 mm m/1859, legacy compatibility alias)
+category         infantry
+class            missile
+voice_type       Light
+banner faction   main_spear
+banner holy      crusade
+soldier          port_inf_colo, 40, 0, 0.8
+officer          Eastern_General
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, no_custom, mercenary_unit, stakes
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         29, 0, rifled_musket_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 40
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1200, 400, 100, 100, 1200, 3, 400
+ownership        slave
+
+type             merc_port_lancer
+dictionary       merc_port_cav_compat ; Carabineiros Portugueses (Rifle-Musket Carbine, Carabina de Cavalaria Westley-Richards 11 mm m/1867, legacy compatibility alias)
+category         cavalry
+class            missile
+voice_type       heavy
+accent           prussian
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          gr_lancer, 24, 0, 1
+officer          Eastern_General
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, no_custom, mercenary_unit
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         21, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 45
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
+ownership        slave
 
 type             merc_bhutan_warrior
 dictionary       merc_bhutan_warrior ; Hardy Himalayan warriors renowned for mountain warfare and fierce determination.
@@ -7986,44 +7491,11 @@ stat_charge_dist 40
 stat_fire_delay  -100000
 stat_food        60, 300
 stat_cost        2, 1400, 350, 50, 50, 1400, 1, 350
-ownership        england, venice, spain, france, hre, slave
+ownership        england, venice, france, hre, slave
 era 0            slave
-era 1            slave, england, venice, spain
-era 2            slave, england, venice, spain,
+era 1            slave, england, venice
+era 2            slave, england, venice
 
-
-type             merc_port_inf
-dictionary       merc_port_inf ; Portuguese Infantry (Rifle, Snider-Enfield)
-category         infantry
-class            missile
-voice_type       Light
-banner faction   main_spear
-banner holy      crusade
-soldier          port_inf_colo, 40, 0, 0.8
-officer          Eastern_General
-attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, start_not_skirmishing, gunmen, mercenary_unit, stakes
-formation        1.2, 1.2, 1.2, 1.2, 3, square
-stat_health      1, 0
-stat_pri         29, 0, musket_carbine_bullet_c, 210, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap, short_pike
-stat_pri_armour  3, 3, 0, leather
-;stat_armour_ex   0, 4, 0, 0, 7, 0, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        0
-stat_ground      0, 0, 0, 0
-stat_mental      6, disciplined, trained
-stat_charge_dist 40
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        2, 1500, 500, 50, 50, 1500, 4, 500
-ownership        slave, england, spain
-era 0			 england, spain
-era 1			 england, spain
-era 2			 england, spain
 
 type             merc_eng_for_cav
 dictionary       merc_eng_for_cav ; Khedival Cavalry (Carbine, Martini-Henry)
@@ -9318,45 +8790,741 @@ era 1            hre
 ; Spain (spain) — infantry and cavalry
 ; ============================================================================
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; Standardised Spanish infantry and cavalry tree
+
+type             spa_milicia_nacional_early
+dictionary       spa_milicia_nacional_early ; Guardia Civil (Rifle-Musket, Carabina Rayada Modelo 1857)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          segunda_inf, 40, 0, 1.3
+officer          shk_off_1g
+officer          eur_pri_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, gunpowder_unit, start_not_skirmishing, cannot_skirmish, can_withdraw
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         29, 0, rifled_musket_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap	
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 2, 0, leather
+;stat_armour_ex   0, 4, 5, 0, 1, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      3, low, trained
+stat_charge_dist 40
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        2, 1000, 334, 100, 100, 1000, 1, 334
+ownership        spain
+era 0            spain
+
+type             spa_milicia_nacional_mid
+dictionary       spa_milicia_nacional_mid ; Guardia Civil (Rifle, Fusil Remington Modelo 1868)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          segunda_inf_mid, 40, 0, 1.3
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         24, 0, rifle_bullet_c, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 2, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      3, low, trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        2, 1300, 434, 100, 100, 1300, 1, 434
+ownership        spain
+era 1            spain
+
+type             spa_milicia_nacional_high
+dictionary       spa_milicia_nacional_high ; Guardia Civil (Magazine Rifle, Fusil Mauser Modelo 1893)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          segunda_inf, 40, 0, 1.3
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw
+formation        1.2, 1.4, 2.4, 2.8, 3, square
+stat_health      1, 0
+stat_pri         13, 0, magazine_rifle_bullet_c, 260, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 2, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      3, low, trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        2, 1600, 534, 100, 100, 1600, 1, 534
+ownership        spain
+era 2            spain
+
+type             spa_inf_early
+dictionary       spa_inf_early ; Fusileros (Rifle-Musket, Fusil Rayado Modelo 1859, sistema Minié)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          spa_regu, 40, 0, 1.3
+officer          shk_off_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         29, 0, rifled_musket_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1200, 400, 100, 100, 1200, 3, 400
+ownership        spain, slave
+era 0            spain
+
+type             spa_inf_mid
+dictionary       spa_inf_mid ; Fusileros (Rifle, Fusil Remington Modelo 1868)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          spa_regu_mid, 40, 0, 1.3
+officer          shk_off_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         24, 0, rifle_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1500, 500, 100, 100, 1500, 3, 500
+ownership        spain, slave
+era 1            spain
+
+type             spa_inf_high
+dictionary       spa_inf_high ; Fusileros (Magazine Rifle, Fusil Mauser Modelo 1893)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          spa_regu, 40, 0, 1.3
+officer          shk_off_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
+formation        1.2, 1.4, 2.4, 2.8, 3, square
+stat_health      1, 0
+stat_pri         13, 0, magazine_rifle_bullet_b, 260, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1800, 600, 100, 100, 1800, 3, 600
+ownership        spain, slave
+era 2            spain
+
+type             spa_col_inf_early
+dictionary       spa_col_inf_early ; Infantería Indígenas (Rifle-Musket, Fusil Modelo 1846 trans. 1857)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 spanish
+banner faction   main_cavalry
+banner holy      crusade
+soldier          fra_inf1, 40, 0, 1.3
+officer          shk_off_1g
+officer          eur_pri_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         37, 0, rifled_musket_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, leather
+;stat_armour_ex   0, 4, 0, 0, 1, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 40
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        2, 1100, 367, 100, 100, 1100, 2, 367
+ownership        spain
+era 0            spain
+
+type             spa_col_inf_mid
+dictionary       spa_col_inf_mid ; Infantería Indígenas (Rifle, Fusil Remington Modelo 1868)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          spa_col_inf_mid, 40, 0, 1.3
+officer          shk_off_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         24, 0, rifle_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        2, 1400, 467, 100, 100, 1400, 2, 467
+ownership        spain
+era 1            spain
+
+type             spa_col_inf_high
+dictionary       spa_col_inf_high ; Infantería Indígenas (Magazine Rifle, Fusil Mauser Modelo 1893)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 spanish
+banner faction   main_cavalry
+banner holy      crusade
+soldier          spa_nafrica, 40, 0, 1.3
+officer          shk_off_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_withdraw, hardy
+formation        1.2, 1.4, 2.4, 2.8, 3, square
+stat_health      1, 0
+stat_pri         13, 0, magazine_rifle_bullet_b, 260, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 3, 0, leather
+;stat_armour_ex   0, 4, 0, 0, 1, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 40
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1700, 567, 100, 100, 1700, 3, 567
+ownership        spain
+era 2            spain
+
+type             spa_caz_early
+dictionary       spa_caz_early ; Cazadores (Rifle-Musket, Carabina Rayada Modelo 1857)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          aus_inf_sp, 30, 0, 1
+officer          shk_off_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         29, 0, rifled_musket_bullet_a, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1200, 400, 100, 100, 1200, 3, 400
+ownership        spain, slave
+era 0            spain
+
+type             spa_caz_mid
+dictionary       spa_caz_mid ; Cazadores (Rifle, Fusil Remington Modelo 1868)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          aus_inf_sp_mid, 30, 0, 1
+officer          shk_off_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         24, 0, rifle_bullet_a, 280, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1500, 500, 100, 100, 1500, 3, 500
+ownership        spain, slave
+era 1            spain
+
+type             spa_caz_high
+dictionary       spa_caz_high ; Cazadores (Magazine Rifle, Fusil Mauser Modelo 1893)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          aus_inf_sp, 30, 0, 1
+officer          shk_off_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, gunmen, start_not_skirmishing, cannot_skirmish, can_withdraw, hardy
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         13, 0, magazine_rifle_bullet_a, 300, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1800, 600, 100, 100, 1800, 3, 600
+ownership        spain, slave
+era 2            spain
+
+type             cuban_inf_high
+dictionary       cuban_inf_high ; Cuban Infantry (Magazine Rifle, Fusil Mauser Modelo 1893)
+category         infantry
+class            missile
+voice_type       Light
+accent      	 spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          cuban_inf, 30, 0, 1.2
+officer          shk_off_1g
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, start_not_skirmishing, gunmen, cannot_skirmish, stakes, can_withdraw, hardy
+formation        1.4, 1.8, 2.8, 3.6, 3, square
+stat_health      1, 0
+stat_pri         13, 0, magazine_rifle_bullet_s, 300, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+;stat_pri_ex      0, 0, 20
+stat_pri_attr    ap
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, short_pike
+stat_pri_armour  3, 3, 0, leather
+;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1900, 634, 100, 100, 1900, 2, 634
+ownership        spain, slave
+era 2            spain
+
+type             austro_sailor_spain_early
+dictionary       austro_sailor_spain_early ; Infantería de Marina (Rifle-Musket, Carabina Rayada Modelo 1857 de Infantería de Marina)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          austro_sailor_spain_early, 40, 0, 1.3
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, hardy
+formation        1.2, 1.2, 1.2, 1.2, 3, square
+stat_health      1, 0
+stat_pri         29, 0, rifled_musket_bullet_a, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         8, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
+ownership        spain, slave
+era 0            spain
+
+type             austro_sailor_spain_mid
+dictionary       austro_sailor_spain_mid ; Infantería de Marina (Rifle, Fusil Remington Modelo 1868)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          austro_sailor_spain_mid, 40, 0, 1.3
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish, hardy
+formation        1.2, 1.2, 2.0, 2.4, 3, square
+stat_health      1, 0
+stat_pri         24, 0, rifle_bullet_a, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         8, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1700, 567, 100, 100, 1700, 1, 567
+ownership        spain, slave
+era 1            spain
+
+type             austro_sailor_spain_high
+dictionary       austro_sailor_spain_high ; Infantería de Marina (Magazine Rifle, Fusil Mauser Modelo 1893)
+category         infantry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_infantry
+banner holy      crusade
+soldier          austro_sailor_spain_high, 40, 0, 1.3
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish, hardy
+formation        1.2, 1.4, 2.4, 2.8, 3, square
+stat_health      1, 0
+stat_pri         13, 0, magazine_rifle_bullet_a, 260, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         8, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 2000, 667, 100, 100, 2000, 1, 667
+ownership        spain, slave
+era 2            spain
+
+type             spa_cav_early
+dictionary       spa_cav_early ; Carabineros (Rifle-Musket Carbine, Carabina Rayada Modelo 1857)
+category         cavalry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          us_front_cav_sp, 24, 0, 1
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 45
+stat_fire_delay  -100000
+stat_food        60, 300
+stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
+ownership        spain
+era 0            spain
+
+type             spa_cav_mid
+dictionary       spa_cav_mid ; Carabineros (Rifle Carbine, Tercerola Remington Modelo 1868)
+category         cavalry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          us_front_cav_sp, 24, 0, 1
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         24, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1700, 567, 100, 100, 1700, 1, 567
+ownership        spain
+era 1            spain
+
+type             spa_cav_high
+dictionary       spa_cav_high ; Carabineros (Magazine Carbine, Carabina Mauser Modelo 1895)
+category         cavalry
+class            missile
+voice_type       Light
+accent      	 spanish
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          us_front_cav_sp, 24, 0, 1
+officer          shk_off_1g
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, hide_forest, hardy
+move_speed_mod	 0.9
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, leather
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 2000, 667, 100, 100, 2000, 1, 667
+ownership        spain, slave
+era 2            spain
+
+type             spa_col_cav_mid
+dictionary       spa_col_cav_mid ; Caballería Indígenas (Revolver Lefaucheux Modelo 1858, Sabre)
+category         cavalry
+class            missile
+voice_type       Light
+accent           spanish
+banner faction   main_missile
+banner holy      crusade_cavalry
+soldier          spa_scout_cav, 24, 0, 1
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, hide_improved_forest, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri_attr    ap, prec
+stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      4, normal, trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        3, 1100, 367, 100, 100, 1100, 1, 367
+ownership        spain
+era 0            spain
+era 1            spain
+era 2            spain
+
+type             euro_hussars
+dictionary       euro_hussars ; Lanceros (Revolver Lefaucheux Modelo 1858, Sabre)
+category         cavalry
+class            heavy
+voice_type       heavy
+accent      	 spanish
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          spa_lancer, 24, 0, 1
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri_attr    ap, prec
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec_attr    ap
+stat_pri_armour  4, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
+ownership        spain, slave
+era 0            spain
+era 1            spain
+era 2            spain
+
+type             spa_cuirassiers_early
+dictionary       spa_cuirassiers_early ; Coracero (Revolver Lefaucheux Modelo 1858, Sabre)
+category         cavalry
+class            heavy
+voice_type       heavy
+accent      	 france
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          bol_hussar, 24, 0, 1
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, hardy
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, prec
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  7, 5, 0, metal
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        3, 1700, 567, 100, 100, 1700, 1, 567
+ownership        spain, slave
+era 0            spain
+era 1            spain
+era 2            spain
+
 type             civil_guard
-dictionary       civil_guard ; Spanish General and Staff
+dictionary       civil_guard ; General y Estado Mayor (Revolver Lefaucheux Modelo 1858, Sabre)
 category         cavalry
 class            light
 voice_type       heavy
 accent      	 spanish
-banner faction   main_infantry
+banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          it_carbs, 24, 0, 1
+soldier          spa_general_staff, 4, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, general_unit, command, hide_forest
-formation        2, 2, 4, 4, 2, square
+attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, hide_forest
+formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
-stat_pri         20, 2, rifle_bullet_a, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
+stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_pri_attr    ap, prec
+stat_sec         7, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap
-stat_pri_armour  4, 5, 0, leather
+stat_pri_armour  4, 4, 0, leather
 ;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
-stat_ground      1, 0, -5, 0
-stat_mental      10, disciplined, highly_trained
+stat_ground      0, 0, 0, 0
+stat_mental      6, disciplined, highly_trained
 stat_charge_dist 45
 stat_fire_delay  -20000
 stat_food        60, 300
-stat_cost        4, 300, 30, 120, 95, 300, 1, 30
+stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
 ownership        spain 
 era 0            spain
 era 1            spain
 era 2            spain
 
-
 type             german_asia
-dictionary       german_asia ; Filipino Rebels (Rifle-Musket, Fusil Modelo 1846 trans. 1857)
+dictionary       german_asia ; Filipino Auxiliaries (Rifle-Musket, Fusil Modelo 1846 trans. 1857)
 category         infantry
 class            missile
 voice_type       Light
@@ -9364,25 +9532,25 @@ banner faction   main_infantry
 banner holy      crusade
 soldier          german_asia, 30, 0, 1.3
 officer          Eastern_General
-attributes       free_upkeep_unit, sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, mercenary_unit
+attributes       free_upkeep_unit, sea_faring, hide_forest, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, mercenary_unit
 formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 0, rifled_musket_bullet_c, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_b, 260, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
-stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 1, 0.4
+stat_sec         2, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap, short_pike
-stat_pri_armour  3, 3, 0, flesh
+stat_pri_armour  3, 2, 0, leather
 ;stat_armour_ex   0, 4, 0, 0, 1, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        0
-stat_ground      1, 1, 1, 1
-stat_mental      5, impetuous, trained
+stat_ground      0, 0, 0, 0
+stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  -100000
 stat_food        60, 300
-stat_cost        2, 1000, 250, 50, 50, 1000, 2, 250
+stat_cost        2, 900, 300, 100, 100, 900, 2, 300
 ownership        slave, spain, portugala
 era 0            slave, spain, portugala
 era 1            slave, spain, portugala
@@ -9414,80 +9582,18 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1100, 225, 50, 120, 1100, 1, 225
-ownership        slave, spain, portugala
-era 0            slave, spain, portugala
-era 1            slave, spain, portugala
-era 2            slave, spain, portugala
+ownership        slave, portugala
+era 0            slave, portugala
+era 1            slave, portugala
+era 2            slave, portugala
 
 
 
-type             euro_hussars
-dictionary       euro_hussars
-category         cavalry
-class            light
-voice_type       heavy
-accent      	 spanish
-banner faction   main_infantry
-banner holy      crusade_cavalry
-soldier          euro_hussars, 24, 0, 1
-officer          bol_hussar
-mount            hussar
-mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, can_withdraw, guncavalry, gunpowder_unit, start_not_skirmishing, general_unit, command, hide_forest
-formation        2, 2, 4, 4, 2, square
-stat_health      1, 0
-stat_pri         20, 2, rifle_bullet_a, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         8, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap
-stat_pri_armour  4, 5, 0, leather
-;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, 0, -5, 0
-stat_mental      8, disciplined, highly_trained
-stat_charge_dist 45
-stat_fire_delay  -20000
-stat_food        60, 300
-stat_cost        4, 300, 30, 120, 95, 300, 1, 30
-ownership        spain, slave
-era 0            spain
-era 1            spain
 
 
 
-type             austro_sailor_spain
-dictionary       austro_sailor_spain
-category         infantry
-class            missile
-voice_type       Light
-banner faction   main_infantry
-banner holy      crusade
-soldier          austro_sailor, 40, 0, 1.3
-attributes       free_upkeep_unit, sea_faring, hardy, start_not_skirmishing, cannot_skirmish, gunmen, stakes
-formation        1.2, 1.2, 2.0, 2.4, 3, square
-stat_health      1, 0
-stat_pri         27, 0, rifle_bullet_b, 250, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
-;stat_pri_ex      0, 0, 0
-stat_pri_attr    ap
-stat_sec         8, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    short_pike, ap
-stat_pri_armour  3, 5, 0, leather
-;stat_armour_ex   0, 4, 0, 0, 1, 0, 0, flesh
-stat_sec_armour  0, 0, flesh
-stat_heat        2
-stat_ground      1, 1, 1, 1
-stat_mental      8, disciplined, highly_trained
-stat_charge_dist 40
-stat_fire_delay  -100000
-stat_food        60, 300
-stat_cost        3, 1600, 540, 50, 50, 1600, 1, 540
-ownership        spain, slave
-era 1            spain
-era 2            spain
+
+
 
 
 ; ============================================================================
@@ -22493,5 +22599,4 @@ stat_cost        2, 1300, 325, 500, 500, 1300, 2, 325
 ownership        slave
 
 ;################ Ethiopia
-
 

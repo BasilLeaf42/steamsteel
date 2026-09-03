@@ -10,17 +10,19 @@ function Get-DamageTarget([string]$description, [string]$projectile) {
     $mm = $null
 
     # Named arms and cartridges.  Keep specific variants before family names.
-    if ($d -match 'martini.{0,3}henry|peabody-martini') { $mm = 11.43 }
-    elseif ($d -match 'snider|pattern 1853 enfield|p53 enfield|enfield pattern 1853|wilson-enfield|pattern 1858 enfield|pattern 1859 enfield') { $mm = 14.7 }
+    if ($d -match 'pistol|revolver') { return 20 }
+    elseif ($d -match 'fusil (?:español )?rayado modelo 1859|carabina rayada modelo 1857') { $mm = 14.8 }
+    elseif ($d -match 'martini.{0,3}henry|peabody-martini') { $mm = 11.43 }
+    elseif ($d -match 'snider|pattern 1853 enfield|p53 enfield|enfield pattern 1853|wilson-enfield|pattern 1858 enfield|pattern 1859 enfield|espingarda enfield.*m/1859') { $mm = 14.7 }
     elseif ($d -match 'brown bess') { $mm = 19.05 }
     elseif ($d -match 'baker') { $mm = 15.88 }
     elseif ($d -match 'whitworth') { $mm = 11.46 }
     elseif ($d -match 'chassepot|\bgras\b') { $mm = 11.0 }
     elseif ($d -match 'tabati.re') { $mm = 14.7 }
     elseif ($d -match 'remington rolling block swedish') { $mm = 12.17 }
-    elseif ($d -match 'remington rolling block|remington m1868|tercerola remington|no\. 1 remington') { $mm = 12.7 }
+    elseif ($d -match 'remington rolling block|remington m1868|remington modelo 1868|tercerola remington|no\. 1 remington') { $mm = 12.7 }
     elseif ($d -match 'mauser m1871|mauser model 1871') { $mm = 11.15 }
-    elseif ($d -match 'mauser m1890|mauser model 1895|mauser modelo 1891|mauser m1893|fusil mauser|tercerola mauser') { $mm = 7.65 }
+    elseif ($d -match 'mauser m1890|mauser model 1895|mauser modelo 1895|mauser modelo 1891|mauser m1893|fusil mauser|carabina mauser|tercerola mauser') { $mm = 7.65 }
     elseif ($d -match 'lebel') { $mm = 8.0 }
     elseif ($d -match 'lee.{0,3}metford|lee.{0,3}enfield') { $mm = 7.7 }
     elseif ($d -match 'gewehr m1888|gewehr m1898|hanyang 88|mosin') { $mm = 7.92 }
@@ -36,7 +38,7 @@ function Get-DamageTarget([string]$description, [string]$projectile) {
     elseif ($d -match 'werder') { $mm = 11.5 }
     elseif ($d -match 'w.nz(l|l)') { $mm = 14.0 }
     elseif ($d -match 'mylonas') { $mm = 11.15 }
-    elseif ($d -match 'westley richards') { $mm = 11.43 }
+    elseif ($d -match 'westley.?richards') { $mm = 11.43 }
     elseif ($d -match 'joslyn') { $mm = 14.22 }
     elseif ($d -match 'henry rifle|winchester model 1866') { $mm = 11.18 }
     elseif ($d -match 'spencer') { $mm = 14.22 }
@@ -65,7 +67,7 @@ $utf8NoBom = [System.Text.UTF8Encoding]::new($false)
 $lines = [System.Collections.Generic.List[string]]([System.IO.File]::ReadAllLines($edu, $utf8NoBom))
 $type = ''; $description = ''; $changes = @(); $unresolved = @()
 for ($i = 0; $i -lt $lines.Count; $i++) {
-    if ($lines[$i] -match '^type\s+(\S+)') { $type = $Matches[1]; continue }
+    if ($lines[$i] -match '^type\s+(\S+)') { $type = $Matches[1]; $description = ''; continue }
     if ($lines[$i] -match '^dictionary\s+\S+\s*;\s*(.*)$') { $description = $Matches[1]; continue }
     if ($lines[$i] -notmatch '^(stat_pri\s+)(\d+)(\s*,\s*\d+\s*,\s*([^,]+),.*\bmissile\b.*)$') { continue }
     # Regex operations inside Get-DamageTarget overwrite PowerShell's automatic

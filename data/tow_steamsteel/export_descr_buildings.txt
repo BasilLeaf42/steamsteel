@@ -943,7 +943,7 @@ building barracks
 	recruit_pool "aus_jag"  0.4   0.04   0.4  0  requires factions { hungary, }
 	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "austro_sailor_normans"  0.2   0.02   0.2  0  requires factions { normans, }
-	recruit_pool "austro_sailor_spain"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "austro_sailor_spain_mid"  0.2   0.02   0.2  0  requires factions { spain, }
 	recruit_pool "aus_lancers"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "aus_inf2"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "aus_inf3"  0.2   0.02   0.2  0  requires factions { hungary, }
@@ -1768,7 +1768,7 @@ building barracks
 	recruit_pool "aus_jag"  0.4   0.04   0.4  0  requires factions { hungary, }
 	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "austro_sailor_normans"  0.2   0.02   0.2  0  requires factions { normans, }
-	recruit_pool "austro_sailor_spain"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "austro_sailor_spain_mid"  0.2   0.02   0.2  0  requires factions { spain, }
 	recruit_pool "aus_lancers"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "aus_inf2"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "aus_inf3"  0.2   0.02   0.2  0  requires factions { hungary, }
@@ -2594,7 +2594,7 @@ building barracks
 	recruit_pool "aus_jag"  0.4   0.04   0.4  0  requires factions { hungary, }
 	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "austro_sailor_normans"  0.2   0.02   0.2  0  requires factions { normans, }
-	recruit_pool "austro_sailor_spain"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "austro_sailor_spain_mid"  0.2   0.02   0.2  0  requires factions { spain, }
 	recruit_pool "aus_lancers"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "aus_inf2"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "aus_inf3"  0.2   0.02   0.2  0  requires factions { hungary, }
@@ -3423,7 +3423,7 @@ building barracks
 	recruit_pool "aus_jag"  0.4   0.04   0.4  0  requires factions { hungary, }
 	recruit_pool "austro_sailor"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "austro_sailor_normans"  0.2   0.02   0.2  0  requires factions { normans, }
-	recruit_pool "austro_sailor_spain"  0.2   0.02   0.2  0  requires factions { spain, }
+	recruit_pool "austro_sailor_spain_mid"  0.2   0.02   0.2  0  requires factions { spain, }
 	recruit_pool "aus_lancers"  0.2   0.02   0.2  0  requires factions { hungary, }
 	recruit_pool "aus_inf2"  0.6   0.06   0.6  0  requires factions { hungary, }
 	recruit_pool "aus_inf3"  0.2   0.02   0.2  0  requires factions { hungary, }
@@ -5301,7 +5301,7 @@ building port
 ;marines
 	recruit_pool "austro_sailor_normans"  0   0.02   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
 ;marines
-	recruit_pool "austro_sailor_spain"  0   0.02   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "austro_sailor_spain_mid"  0   0.02   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
 ;marines
 	recruit_pool "fra_blacks"  0   0.02   1  0  requires factions { moors, }  and event_counter military_reforms_1870 1 and hidden_resource morocco
 ;marines
@@ -5411,7 +5411,7 @@ building port
 ;marines
 	recruit_pool "austro_sailor_normans"  0   0.04   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
 ;marines
-	recruit_pool "austro_sailor_spain"  0   0.04   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "austro_sailor_spain_mid"  0   0.04   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
 ;marines
 	recruit_pool "fra_blacks"  0   0.04   1  0  requires factions { moors, }  and event_counter military_reforms_1870 1 and hidden_resource morocco
 ;marines
@@ -5546,7 +5546,7 @@ building port
 ;marines
 	recruit_pool "austro_sailor_normans"  1   0.06   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
 ;marines
-	recruit_pool "austro_sailor_spain"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "austro_sailor_spain_mid"  1   0.06   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
 ;marines
 	recruit_pool "fra_blacks"  1   0.06   1  0  requires factions { moors, }  and event_counter military_reforms_1870 1 and hidden_resource morocco
 ;marines
@@ -5687,7 +5687,7 @@ building port
 ;marines
 	recruit_pool "austro_sailor_normans"  1   0.1   1  0  requires factions { normans, }  and event_counter military_reforms_1870 1 and hidden_resource sweden or hidden_resource norway
 ;marines
-	recruit_pool "austro_sailor_spain"  1   0.1   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
+	recruit_pool "austro_sailor_spain_mid"  1   0.1   1  0  requires factions { spain, }  and event_counter military_reforms_1870 1 and hidden_resource spain
 ;marines
 	recruit_pool "fra_blacks"  1   0.1   1  0  requires factions { moors, }  and event_counter military_reforms_1870 1 and hidden_resource morocco
 ;marines

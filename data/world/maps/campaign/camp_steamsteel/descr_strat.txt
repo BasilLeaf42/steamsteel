@@ -6710,143 +6710,143 @@ traits		Factionleader 1
 army
 unit		civil_guard				exp 1 armour 0 weapon_lvl 0
 unit		fra_hus_2				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		aus_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_caz_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Seville
 character	Pedro_Antonio de_Oraa_Lecumberri, named character, male, age 30, x 222, y 229
 army
 unit		civil_guard				exp 1 armour 0 weapon_lvl 0
-unit		segunda_inf				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
+unit		spa_milicia_nacional_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
-unit		aus_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_caz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Barcelona
 character	Pedro_Agustin Gutierrez_de_la_Concha_e_Irigoyen, named character, male, age 30, x 233, y 237
 army
 unit		civil_guard				exp 1 armour 0 weapon_lvl 0
 unit		euro_hussars				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		segunda_inf				exp 0 armour 0 weapon_lvl 0
-unit		aus_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_milicia_nacional_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_caz_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Santiago de Compostela
 character	Francisco_de_Paula de_la_Pezuela_Grinan_y_Sanchez, named character, male, age 42, x 220, y 240
 army
 unit		civil_guard				exp 1 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		segunda_inf				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_milicia_nacional_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Bilbao
 character	random_name, general, male, age 40, x 227, y 241
 army
 unit		fra_hus_2				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		segunda_inf				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		aus_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_milicia_nacional_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_caz_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Leon
 character	random_name, general, male, age 40, x 223, y 240
 army
-unit		segunda_inf				exp 0 armour 0 weapon_lvl 0
+unit		spa_milicia_nacional_early				exp 0 armour 0 weapon_lvl 0
 
 ;Marcia
 character	random_name, general, male, age 40, x 227, y 229
 army
-unit		segunda_inf				exp 0 armour 0 weapon_lvl 0
+unit		spa_milicia_nacional_early				exp 0 armour 0 weapon_lvl 0
 
 ;Valencia
 character	random_name, general, male, age 40, x 229, y 233
 army
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
 
 ;Zaragoza
 character	Diego de_Lersundi_y_Hormaechea, named character, male, age 40, x 230, y 238
 army
 unit		civil_guard				exp 1 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
-unit		aus_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_caz_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Palma
 character	random_name, general, male, age 40, x 237, y 234
 army
-unit		segunda_inf				exp 0 armour 0 weapon_lvl 0
+unit		spa_milicia_nacional_early				exp 0 armour 0 weapon_lvl 0
 
 ;Havana
 character	Domingo Gomez_Damas, named character, male, age 40, x 125, y 195
 army
 unit		civil_guard				exp 1 armour 0 weapon_lvl 0
 unit		euro_hussars				exp 0 armour 0 weapon_lvl 0
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Santiago
 character	random_name, general, male, age 40, x 133, y 189
 army
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
-unit		aus_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_caz_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Puerta Rico
 character	random_name, general, male, age 40, x 148, y 184
 army
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
 
 ;Manila
 character	Juan_Pablo Cabrera_y_Grino, named character, male, age 40, x 407, y 175
 army
 unit		civil_guard				exp 1 armour 0 weapon_lvl 0
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Cebu
 character	random_name, general, male, age 40, x 413, y 165
 army
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
 
 ;Davao
 character	random_name, general, male, age 40, x 413, y 158
 army
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
 
 ;Canary Islands
 character	random_name, general, male, age 40, x 205, y 208
 army
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
 
 ;Canary Islands
 character	random_name, general, male, age 40, x 208, y 206
 army
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sidi Ifni
 character	random_name, general, male, age 40, x 212, y 204
 army
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
 
 ;Ceuta
 character	Isidro Chacon_y_Chacon, named character, male, age 40, x 225, y 222
 army
 unit		civil_guard				exp 1 armour 0 weapon_lvl 0
 unit		euro_hussars				exp 0 armour 0 weapon_lvl 0
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
-unit		fra_inf_sp				exp 0 armour 0 weapon_lvl 0
-unit		aus_inf_sp				exp 0 armour 0 weapon_lvl 0
-unit		spa_regu				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_col_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_caz_early				exp 0 armour 0 weapon_lvl 0
+unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Santiago de Compostela
@@ -17211,19 +17211,19 @@ unit		merc_maori_musketeers				exp 0 armour 0 weapon_lvl 0
 ;Macau
 character	sub_faction poland, random_name, general, male, age 30, x 391, y 193
 army
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Goa
 character	sub_faction poland, random_name, general, male, age 40, x 339, y 180
 army
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Nepal
@@ -17250,10 +17250,10 @@ unit		ind_armstrong			exp 0 armour 0 weapon_lvl 0
 ;Mozambique
 character	sub_faction poland, random_name, general, male, age 40, x 287, y 106
 army
-unit		merc_port_lancer				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_cav_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
@@ -17262,7 +17262,7 @@ unit		fra_armstrong				exp 0 armour 0 weapon_lvl 0
 ;Sofala
 character	sub_faction poland, random_name, general, male, age 40, x 281, y 98
 army
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
@@ -17271,10 +17271,10 @@ unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 ;Luanda
 character	sub_faction poland, random_name, general, male, age 40, x 250, y 124
 army
-unit		merc_port_lancer				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_cav_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
@@ -17283,7 +17283,7 @@ unit		fra_armstrong				exp 0 armour 0 weapon_lvl 0
 ;Sao Salvador
 character	sub_faction poland, random_name, general, male, age 40, x 247, y 136
 army
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
@@ -17292,15 +17292,15 @@ unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 ;Benguela
 character	sub_faction poland, random_name, general, male, age 40, x 251, y 117
 army
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 
 ;Mocamedes
 character	sub_faction poland, random_name, general, male, age 40, x 250, y 111
 army
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
 unit		merc_fra_blacks				exp 0 armour 0 weapon_lvl 0
@@ -17400,10 +17400,10 @@ unit		ind_armstrong				exp 0 armour 0 weapon_lvl 0
 ;Dili
 character	sub_faction poland, random_name, general, male, age 30, x 414, y 121
 army
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Kuching
@@ -17450,13 +17450,13 @@ unit		merc_papa_bows				exp 0 armour 0 weapon_lvl 0
 ;Lisbon
 character	sub_faction poland, random_name, general, male, age 40, x 218, y 231
 army
-unit		merc_port_lancer				exp 1 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_cav_early				exp 1 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 unit		fra_armstrong				exp 0 armour 0 weapon_lvl 1
@@ -17464,12 +17464,12 @@ unit		fra_armstrong				exp 0 armour 0 weapon_lvl 1
 ;Porto
 character	sub_faction poland, random_name, general, male, age 40, x 218, y 234
 army
-unit		merc_port_lancer				exp 1 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
-unit		merc_port_inf				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_cav_early				exp 1 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
+unit		merc_port_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 unit		fra_armstrong				exp 0 armour 0 weapon_lvl 1
 unit		fra_armstrong				exp 0 armour 0 weapon_lvl 1

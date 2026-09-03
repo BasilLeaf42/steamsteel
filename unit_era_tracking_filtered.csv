@@ -1,4 +1,4 @@
-﻿Historical Faction,Internal Faction,Unit Type,Dictionary,Unit Name,Category,Era 0 (1860),Era 1 (1870),Era 2 (1880)
+Historical Faction,Internal Faction,Unit Type,Dictionary,Unit Name,Category,Era 0 (1860),Era 1 (1870),Era 2 (1880)
 Union,portugala,berdan_inf,berdan_inf,"Berdan Sharpshooters (Rifle-Musket, Model 1861 Springfield)",infantry,Yes,Yes,No
 Confederates,milan,berdan_inf,berdan_inf,"Berdan Sharpshooters (Rifle-Musket, Model 1861 Springfield)",infantry,Yes,Yes,No
 Union,portugala,ap_front_cav,ap_front_cav,"Indian Scout Cavalry (Carbine, Burnside)",cavalry,Yes,Yes,No
@@ -90,7 +90,6 @@ Aus-Hun,hungary,fra_sailors,fra_sailors,"Fusiliers-Marins (Rifle, Fusil modèle 
 Italy,venice,fra_sailors,fra_sailors,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,Yes,Yes
 France,france,fra_hus_2,fra_hus_2,Cuirassiers updated: added pistol primary swrod seconedary,cavalry,Yes,No,No
 Argentina,aztecs,fra_hus_2,fra_hus_2,Cuirassiers updated: added pistol primary swrod seconedary,cavalry,Yes,No,No
-Spain,spain,fra_hus_2,fra_hus_2,Cuirassiers updated: added pistol primary swrod seconedary,cavalry,Yes,No,No
 France,france,fra_hussar,fra_hussar,General and Staff,cavalry,Yes,Yes,Yes
 Denmark,sicily,fra_hussar,fra_hussar,General and Staff,cavalry,Yes,Yes,Yes
 Greece,mongols,fra_hussar,fra_hussar,General and Staff,cavalry,Yes,Yes,Yes
@@ -118,16 +117,42 @@ Prussia,hre,ger_hus,ger_hus,German Cuirassiers,cavalry,Yes,No,No
 Prussia,hre,hannover_inf,hannover_inf,"Hannoverian Infanterieregimente (Rifle, Gewehr M1871)",infantry,No,Yes,Yes
 Prussia,hre,gr_lancer,gr_lancer,Colonial Lancers,cavalry,No,No,Yes
 Prussia,hre,siam_riflemen_gr,siam_riflemen_gr,"Prussian Riflemen (Needle Gun, M-1849 Dreyse)",infantry,Yes,Yes,No
-Spain,spain,uk_sailor_sp,uk_sailor_sp,"Cuban Infantry (Magazine Rifle, Fusil Mauser M1895)",infantry,No,No,Yes
-Spain,spain,us_front_cav_sp,us_front_cav_sp,"Spanish Cavalry (Carbine, Tercerola Mauser M1893)",cavalry,No,No,Yes
-Spain,spain,spa_regu,spa_regu,"Spanish Infantry (Rifle-Musket, Fusil Modelo 1859 Minie)",infantry,Yes,Yes,No
-Spain,spain,fra_inf_sp,fra_inf_sp,"Spanish Colonial Infantry (Rifle-Musket, Fusil Modelo 1846 trans. 1857)",infantry,Yes,No,No
-Spain,spain,spa_nafrica,spa_nafrica,"Spanish Colonial Infantry (Rifle, Fusil Remington M1868)",infantry,No,Yes,Yes
-Spain,spain,segunda_inf,segunda_inf,"Segunda Regiment (Rifle-Musket, Fusil Modelo 1859 Minie)",infantry,Yes,No,No
-Spain,spain,spa_inf_late,spa_inf_late,"Spanish Infantry (Magazine Rifle, Fusil Mauser M1893)",infantry,No,No,Yes
-Spain,spain,aus_inf_sp,aus_inf_sp,"Spanish Cazadores (Rifle-Musket, Carabina Modelo 1857)",infantry,Yes,Yes,No
-Spain,spain,civil_guard,civil_guard,Spanish General and Staff,cavalry,Yes,Yes,Yes
-Spain,spain,spa_scout_cav,spa_scout_cav,"Spanish Colonial Cavalry (Carbine, Tercerola Remington M1868)",cavalry,No,Yes,Yes
+"Spain","spain","fra_maxim","fra_maxim","Maxim Gun","siege","No","No","Yes"
+"Spain","spain","fra_12lb","fra_12lb","Muzzle-loading Rifled Cannon","siege","Yes","Yes","No"
+"Spain","spain","fra_5lb","fra_5lb","Mortar","siege","No","No","Yes"
+"Spain","spain","fra_gatling","fra_gatling","Mitrailleuse","siege","No","Yes","No"
+"Spain","spain","fra_150mm","fra_150mm","Howitzers","siege","No","No","Yes"
+"Spain","spain","fra_armstrong","fra_armstrong","Breech-Loading Rifled Cannon","siege","No","Yes","Yes"
+"Spain","spain","merc_port_inf_early","merc_port_inf_early","Fuzileiros Portugueses (Rifle-Musket, Espingarda Enfield 14 mm m/1859)","infantry","Yes","No","No"
+"Spain","spain","merc_port_inf_mid","merc_port_inf_mid","Fuzileiros Portugueses (Rifle, Espingarda Snider 14 mm m/1872)","infantry","No","Yes","No"
+"Spain","spain","merc_port_inf_high","merc_port_inf_high","Fuzileiros Portugueses (Magazine Rifle, Espingarda de Infantaria Kropatschek 8 mm m/1886)","infantry","No","No","Yes"
+"Spain","spain","merc_port_cav_early","merc_port_cav_early","Carabineiros Portugueses (Rifle-Musket Carbine, Carabina de Cavalaria Westley-Richards 11 mm m/1867)","cavalry","Yes","No","No"
+"Spain","spain","merc_port_cav_mid","merc_port_cav_mid","Carabineiros Portugueses (Rifle Carbine, Carabina Snider de Cavalaria m/1873)","cavalry","No","Yes","No"
+"Spain","spain","merc_port_cav_high","merc_port_cav_high","Carabineiros Portugueses (Magazine Carbine, Carabina de Cavalaria Kropatschek 8 mm m/1886)","cavalry","No","No","Yes"
+"Spain","spain","spa_milicia_nacional_early","spa_milicia_nacional_early","Guardia Civil (Rifle-Musket, Carabina Rayada Modelo 1857)","infantry","Yes","No","No"
+"Spain","spain","spa_milicia_nacional_mid","spa_milicia_nacional_mid","Guardia Civil (Rifle, Fusil Remington Modelo 1868)","infantry","No","Yes","No"
+"Spain","spain","spa_milicia_nacional_high","spa_milicia_nacional_high","Guardia Civil (Magazine Rifle, Fusil Mauser Modelo 1893)","infantry","No","No","Yes"
+"Spain","spain","spa_inf_early","spa_inf_early","Fusileros (Rifle-Musket, Fusil Rayado Modelo 1859, sistema Minié)","infantry","Yes","No","No"
+"Spain","spain","spa_inf_mid","spa_inf_mid","Fusileros (Rifle, Fusil Remington Modelo 1868)","infantry","No","Yes","No"
+"Spain","spain","spa_inf_high","spa_inf_high","Fusileros (Magazine Rifle, Fusil Mauser Modelo 1893)","infantry","No","No","Yes"
+"Spain","spain","spa_col_inf_early","spa_col_inf_early","Infantería Indígenas (Rifle-Musket, Fusil Modelo 1846 trans. 1857)","infantry","Yes","No","No"
+"Spain","spain","spa_col_inf_mid","spa_col_inf_mid","Infantería Indígenas (Rifle, Fusil Remington Modelo 1868)","infantry","No","Yes","No"
+"Spain","spain","spa_col_inf_high","spa_col_inf_high","Infantería Indígenas (Magazine Rifle, Fusil Mauser Modelo 1893)","infantry","No","No","Yes"
+"Spain","spain","spa_caz_early","spa_caz_early","Cazadores (Rifle-Musket, Carabina Rayada Modelo 1857)","infantry","Yes","No","No"
+"Spain","spain","spa_caz_mid","spa_caz_mid","Cazadores (Rifle, Fusil Remington Modelo 1868)","infantry","No","Yes","No"
+"Spain","spain","spa_caz_high","spa_caz_high","Cazadores (Magazine Rifle, Fusil Mauser Modelo 1893)","infantry","No","No","Yes"
+"Spain","spain","cuban_inf_high","cuban_inf_high","Cuban Infantry (Magazine Rifle, Fusil Mauser Modelo 1893)","infantry","No","No","Yes"
+"Spain","spain","austro_sailor_spain_early","austro_sailor_spain_early","Infantería de Marina (Rifle-Musket, Carabina Rayada Modelo 1857 de Infantería de Marina)","infantry","Yes","No","No"
+"Spain","spain","austro_sailor_spain_mid","austro_sailor_spain_mid","Infantería de Marina (Rifle, Fusil Remington Modelo 1868)","infantry","No","Yes","No"
+"Spain","spain","austro_sailor_spain_high","austro_sailor_spain_high","Infantería de Marina (Magazine Rifle, Fusil Mauser Modelo 1893)","infantry","No","No","Yes"
+"Spain","spain","spa_cav_early","spa_cav_early","Carabineros (Rifle-Musket Carbine, Carabina Rayada Modelo 1857)","cavalry","Yes","No","No"
+"Spain","spain","spa_cav_mid","spa_cav_mid","Carabineros (Rifle Carbine, Tercerola Remington Modelo 1868)","cavalry","No","Yes","No"
+"Spain","spain","spa_cav_high","spa_cav_high","Carabineros (Magazine Carbine, Carabina Mauser Modelo 1895)","cavalry","No","No","Yes"
+"Spain","spain","spa_col_cav_mid","spa_col_cav_mid","Caballería Indígenas (Revolver Lefaucheux Modelo 1858, Sabre)","cavalry","Yes","Yes","Yes"
+"Spain","spain","euro_hussars","euro_hussars","Lanceros (Revolver Lefaucheux Modelo 1858, Sabre)","cavalry","Yes","Yes","Yes"
+"Spain","spain","spa_cuirassiers_early","spa_cuirassiers_early","Coracero (Revolver Lefaucheux Modelo 1858, Sabre)","cavalry","Yes","Yes","Yes"
+"Spain","spain","civil_guard","civil_guard","General y Estado Mayor (Revolver Lefaucheux Modelo 1858, Sabre)","cavalry","Yes","Yes","Yes"
+"Spain","spain","german_asia","german_asia","Filipino Auxiliaries (Rifle-Musket, Fusil Modelo 1846 trans. 1857)","infantry","Yes","Yes","Yes"
 Netherlands,portugal,dutch_pith,dutch_pith,"Line Regiment (Magazine Rifle, M1870/87 Beaumont-Vitali)",infantry,No,No,Yes
 Netherlands,portugal,nl_roy,nl_roy,"Garderegiment (Rifle, P53 Enfield Mod. Snider)",infantry,Yes,Yes,No
 Netherlands,portugal,dutch_askari,dutch_askari,"Royal Netherlands East Indies Army (Rifle, Beaumontgeweer M1873 Colonial)",infantry,No,Yes,Yes
@@ -194,7 +219,6 @@ Greece,mongols,it_royals,it_royals,Albanian Guerrillas,infantry,Yes,Yes,Yes
 Aus-Hun,hungary,aus_jag,aus_jag,"Imperial and Royal Army/Common Army (Magazine Rifle, Mannlicher Model 1886)",infantry,No,No,Yes
 Britain,england,austro_sailor,austro_sailor,"Marines (Rifle, Lorenz Model 1862 Wänzl)",infantry,No,Yes,Yes
 Greece,mongols,austro_sailor,austro_sailor,"Marines (Rifle, Lorenz Model 1862 Wänzl)",infantry,No,Yes,Yes
-Spain,spain,austro_sailor,austro_sailor,"Marines (Rifle, Lorenz Model 1862 Wänzl)",infantry,No,Yes,Yes
 Aus-Hun,hungary,aus_lancers,aus_lancers,Austrian Ulhans,cavalry,Yes,Yes,Yes
 Aus-Hun,hungary,aus_ulhans,aus_ulhans,Imperial and Royal General and Staff,cavalry,Yes,Yes,Yes
 Aus-Hun,hungary,aus_inf2,aus_inf2,"Imperial Austrian Landwehr (Rifle, M1867 Werndl–Holub)",infantry,No,Yes,Yes
@@ -206,11 +230,6 @@ Morocco,moors,fra_blacks,fra_blacks,"Fusiliers-Marins (Rifle, Fusil modèle 1866
 Ottoman,turks,fra_blacks,fra_blacks,"Fusiliers-Marins (Rifle, Fusil modèle 1866 Chassepot)",infantry,No,No,Yes
 Morocco,moors,d_fra_for_cav,d_fra_for_cav,"Moroccan Infantry (Rifle, Fusil modèle 1864 Tabatière)",infantry,No,Yes,Yes
 Morocco,moors,moroccan_camel_roy,moroccan_camel_roy,Moroccan Camelry (Harquebus),cavalry,Yes,Yes,Yes
-Britain,england,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
-France,france,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
-Spain,spain,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
-Ottoman,turks,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
-Oman,golden,arab_cav,arab_cav,Arab Cavalry,cavalry,Yes,Yes,Yes
 Morocco,moors,skif_inf,skif_inf,Rif Skirmishers (Hand-Crafted Long-Gun),infantry,Yes,Yes,No
 Morocco,moors,skif_inf1,skif_inf1,"Rif Skirmishers (Magazine Rifle, Mauser M1890 Turkish)",infantry,No,No,Yes
 Morocco,moors,otto_cav,otto_cav,"Sultan's Horse Guard (Carbine, Pattern 1851 Minie)",cavalry,Yes,Yes,Yes
@@ -437,12 +456,15 @@ Meiji,saxons,Japan Yukantai,Japan_Yukantai,"Japanese Yukantai / Japanese Fukuoka
 Brazil,poland,merc_uru_inf,merc_uru_inf,"Uruguayan Infantry (Rifle-Musktet, Pattern 1853 Enfield)",infantry,Yes,Yes,No
 Argentina,aztecs,merc_uru_inf,merc_uru_inf,"Uruguayan Infantry (Rifle-Musktet, Pattern 1853 Enfield)",infantry,Yes,Yes,No
 Britain,england,volunteers_te,volunteers_te,"Boer Auxililaries (Rifle, Martini-Henry Mk II)",infantry,No,Yes,Yes
-Spain,spain,german_asia,german_asia,"Filipino Rebels (Rifle-Musket, Fusil Modelo 1846 trans. 1857)",infantry,Yes,Yes,Yes
-Union,portugala,german_asia,german_asia,"Filipino Rebels (Rifle-Musket, Fusil Modelo 1846 trans. 1857)",infantry,Yes,Yes,Yes
+Union,portugala,german_asia,german_asia,"Filipino Auxiliaries (Rifle-Musket, Fusil Modelo 1846 trans. 1857)",infantry,Yes,Yes,Yes
 Qing,byzantium,mongol_hevcav,mongol_hevcav,Mongolian Tribal Cavalry,cavalry,Yes,Yes,Yes
 Russia,russia,mongol_hevcav,mongol_hevcav,Mongolian Tribal Cavalry,cavalry,Yes,Yes,Yes
-Britain,england,merc_port_lancer,merc_port_lancer,Portuguese Lanceiros,cavalry,Yes,Yes,Yes
-Spain,spain,merc_port_lancer,merc_port_lancer,Portuguese Lanceiros,cavalry,Yes,Yes,Yes
+Britain,england,merc_port_inf_early,merc_port_inf_early,"Fuzileiros Portugueses (Rifle-Musket, Espingarda Enfield 14 mm m/1859)",infantry,Yes,No,No
+Britain,england,merc_port_inf_mid,merc_port_inf_mid,"Fuzileiros Portugueses (Rifle, Espingarda Snider 14 mm m/1872)",infantry,No,Yes,No
+Britain,england,merc_port_inf_high,merc_port_inf_high,"Fuzileiros Portugueses (Magazine Rifle, Espingarda de Infantaria Kropatschek 8 mm m/1886)",infantry,No,No,Yes
+Britain,england,merc_port_cav_early,merc_port_cav_early,"Carabineiros Portugueses (Rifle-Musket Carbine, Westley-Richards 11 mm m/1867, Sabre)",cavalry,Yes,No,No
+Britain,england,merc_port_cav_mid,merc_port_cav_mid,"Carabineiros Portugueses (Rifle Carbine, Carabina Snider de Cavalaria m/1873, Sabre)",cavalry,No,Yes,No
+Britain,england,merc_port_cav_high,merc_port_cav_high,"Carabineiros Portugueses (Magazine Carbine, Carabina de Cavalaria Kropatschek 8 mm m/1886, Sabre)",cavalry,No,No,Yes
 Britain,england,merc_bhutan_warrior,merc_bhutan_warrior,Hardy Himalayan warriors renowned for mountain warfare and fierce determination.,infantry,Yes,Yes,Yes
 Indian Princely States,bulga,merc_bhutan_warrior,merc_bhutan_warrior,Hardy Himalayan warriors renowned for mountain warfare and fierce determination.,infantry,Yes,Yes,Yes
 Britain,england,merc_papa_bows,merc_papa_bows,Papua New Guinea Natives,infantry,No,No,Yes
@@ -503,7 +525,6 @@ Turkestan,cuman,tib_tribal_archer,tib_tribal_archer,Traditional bowmen skilled i
 Qing,byzantium,tib_temple_guard,tib_temple_guard,"Veteran irregulars renowned for ambushes, jungle warfare, and relentless determination.",infantry,Yes,Yes,Yes
 Qing,byzantium,tib_heavy_spear,tib_heavy_spear,Tibetan Heavy Spearmen,infantry,Yes,Yes,Yes
 Turkestan,cuman,tib_heavy_spear,tib_heavy_spear,Tibetan Heavy Spearmen,infantry,Yes,Yes,Yes
-Spain,spain,merc_island_jihadist,merc_island_jihadist,Sandatahanes,infantry,Yes,Yes,Yes
 Union,portugala,merc_island_jihadist,merc_island_jihadist,Sandatahanes,infantry,Yes,Yes,Yes
 Qing,byzantium,merc_kok_royal_cav,merc_kok_royal_cav,Tartar cavalry,cavalry,Yes,Yes,Yes
 Qajar,egypt,merc_kok_royal_cav,merc_kok_royal_cav,Tartar cavalry,cavalry,Yes,Yes,Yes
@@ -530,14 +551,11 @@ Qajar,egypt,merc_kaz_cav,merc_kaz_cav,Kazakh Cavalry (harquebus),cavalry,Yes,Yes
 Turkestan,cuman,merc_kaz_cav,merc_kaz_cav,Kazakh Cavalry (harquebus),cavalry,Yes,Yes,Yes
 Britain,england,merc_fra_blacks,merc_fra_blacks,"Askari (Rifle, Remington M1868)",infantry,No,Yes,Yes
 Italy,venice,merc_fra_blacks,merc_fra_blacks,"Askari (Rifle, Remington M1868)",infantry,No,Yes,Yes
-Spain,spain,merc_fra_blacks,merc_fra_blacks,"Askari (Rifle, Remington M1868)",infantry,No,Yes,Yes
 Russia,russia,merc_polish_inf,merc_polish_inf,"Polish Infantry (Needle Gun, Dreyse M/41)",infantry,Yes,Yes,Yes
 Prussia,hre,merc_polish_inf,merc_polish_inf,"Polish Infantry (Needle Gun, Dreyse M/41)",infantry,Yes,Yes,Yes
 Aus-Hun,hungary,merc_polish_inf,merc_polish_inf,"Polish Infantry (Needle Gun, Dreyse M/41)",infantry,Yes,Yes,Yes
 Ottoman,turks,merc_bulgarian_inf,merc_bulgarian_inf,"Bulgarian Infantry (Rifle-Musket, Lorenz Model 1854)",infantry,Yes,Yes,Yes
 Aus-Hun,hungary,merc_bulgarian_inf,merc_bulgarian_inf,"Bulgarian Infantry (Rifle-Musket, Lorenz Model 1854)",infantry,No,No,Yes
-Britain,england,merc_port_inf,merc_port_inf,"Portuguese Infantry (Rifle, Snider-Enfield)",infantry,Yes,Yes,Yes
-Spain,spain,merc_port_inf,merc_port_inf,"Portuguese Infantry (Rifle, Snider-Enfield)",infantry,Yes,Yes,Yes
 Qing,byzantium,mercs_tib_monks,mercs_tib_monks,Warrior monks whose discipline and faith make them resolute defenders of Tibet.,infantry,Yes,Yes,Yes
 Ottoman,turks,mahdist_camel_cav,mahdist_camel_cav,Mahdist Camelry (Harquebus),cavalry,Yes,Yes,Yes
 Oman,golden,mahdist_camel_cav,mahdist_camel_cav,Mahdist Camelry (Harquebus),cavalry,Yes,Yes,Yes
@@ -560,9 +578,8 @@ Union,portugala,merc_apache_inf,merc_apache_inf,"Apache Mercenaries (Skirmisher,
 Confederates,milan,merc_apache_inf,merc_apache_inf,"Apache Mercenaries (Skirmisher, M1819 Hall)",infantry,Yes,Yes,Yes
 Russia,russia,merc_serb_inf,merc_serb_inf,"Serbian Infantry (Rifle-Musket, M-1854 Percussion)",infantry,Yes,Yes,Yes
 Ottoman,turks,merc_serb_inf,merc_serb_inf,"Serbian Infantry (Rifle-Musket, M-1854 Percussion)",infantry,Yes,No,No
-Spain,spain,euro_hussars,euro_hussars,Lancers,cavalry,Yes,Yes,No
-Italy,venice,euro_hussars,euro_hussars,Lancers,cavalry,Yes,Yes,No
-Swe-Nor,normans,euro_hussars,euro_hussars,Lancers,cavalry,Yes,Yes,No
+Italy,venice,euro_hussars_venice,euro_hussars_venice,Lancers,cavalry,Yes,Yes,No
+Swe-Nor,normans,euro_hussars_normans,euro_hussars_normans,Lancers,cavalry,Yes,Yes,No
 Confederates,milan,us_farmer_cav,us_farmer_cav,"Settler Cavalry (Carbine, Maynard M1858)",cavalry,No,Yes,Yes
 Boers,teu,us_farmer_cav,us_farmer_cav,"Settler Cavalry (Carbine, Maynard M1858)",cavalry,Yes,Yes,Yes
 Boers,teu,us_farmers,us_farmers,"Rural Militia (Rifle, Remington Rolling Block)",infantry,Yes,Yes,No

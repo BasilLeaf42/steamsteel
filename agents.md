@@ -2,6 +2,7 @@
 
 ## Cautions
 The existing systems are a patchwork, consider potential conflicts when making programmatic changes.
+Be sparing with tokens and output; excessive context and verbosity can degrade instruction compliance.
 
 ## Faction conversion
 
@@ -77,17 +78,19 @@ Cavalry:					2, 2, 4, 4, 3, square
 
 3. Morale
 
-Militia: 2-5 (default 3), low-normal (default low), untrained-trained (default trained)
-Regular: 3-6 (default 4), normal-high (default normal), trained-disciplined (default trained)
-Elite: 5-8 (default 6), normal-high (default high), disciplined
+EDU syntax is `stat_mental morale, discipline, training`. Valid discipline tokens are `low`, `normal`, `disciplined`, and `impetuous`; `high` is not a valid EDU token. Valid training tokens are `untrained`, `trained`, and `highly_trained`.
 
-Note that non-line/western units may have impetuous
+Militia: morale 2-5 (default row: `3, low, trained`)
+Regular: morale 3-6 (default row: `4, normal, trained`)
+Elite: morale 5-8 (default row: `6, disciplined, highly_trained`)
+
+Note that non-line/western units may have `impetuous` discipline.
 
 4. Projectile row:
 
 In short, era 0 is for rifled_muskets/early breechloaders, era 1 is for rifles, and era 2 is for magazine rifles. However obselecence is entirely possible.
 
-Projectiles: The tiering system uses the designations c, b, a, and s to represent ascending levels of troop training and role proficiency, which directly correspond to increased projectile accuracy. The tiers largely correspond to Militia, Regular, Elite, and Sharpshoopers/Skirmishers.
+Projectiles: The tiering system uses the designations c, b, a, and s to represent ascending accuracy. Base quality is Militia = c, Regular = b, Elite = a. Apply role modifiers separately: Skirmisher = +1 tier; Sharpshooter = +2 tiers. Skirmishers are not automatically sharpshooters and receive no sharpshooter cost premium.
 
 * arquebus_bullet_c, arquebus_bullet_b, arquebus_bullet_a
 * harquebus_bullet_c, harquebus_bullet_b, harquebus_bullet_a
@@ -117,6 +120,7 @@ Early Rifle: Rifle-musket a base, projectile down 1 tier
 Cavalry: projectile down 1 tier, range -20  
 
 Note sharpshooters are not elite units, the type designation only affects projectiles.
+Pistols use `magazine_rifle_bullet_c`, 60 range, 15 ammunition, and `musket_shot_set`; copy the rest of the row from a matching pistol-armed precedent.
 
 5. Melee
 Attack (militia): 2-4 (default 3), 2-4 (charge, default 2)
@@ -127,7 +131,9 @@ Armour (militia): 3, 2-4 (default 2), 0, leather
 Armour (regular): 3, 3-5 (default 3), 0, leather
 Armour (elite): 3, 4-6 (default 4), 0, leather
 Armour (Cavalry): 4, 3-6 (default 4), 0, leather
-Armour (Cuirassiers): 7, 4-6 (default 5), 0, armoured 
+Armour (Cuirassiers): 7, 4-6 (default 5), 0, metal
+
+`metal` is the valid armour sound token for armoured troops; `armoured` causes EDU parsing failures.
 
 For non-western style units, ask for clarification
 
@@ -155,6 +161,21 @@ By type: Militia = -200, Regular = +-0, Elite = +200
 Faction modifiers will be applied when balancing particular factions
 
 Cost of upkeep: Total cost/3 for professional units, Total cost/3 otherwise; same as over-recruitment penalty
+
+## Unit-balancing workflow
+
+1. Inventory the canonical EDU entry and every related dictionary, era/ownership, EDB, campaign, mercenary-pool, modeldb, and UI-card reference. Treat `data/tow_steamsteel` as canonical for database files and `camp_steamsteel` as canonical for campaign files; mirror them to the runtime root and `imperial_campaign` only after validation.
+2. Before editing, record the unit's quality, battlefield role, national/colonial/auxiliary/mercenary status, era availability, named weapon, and whether its records or assets are shared.
+3. Ask the user before proceeding whenever any of those classifications are unclear, a modifier might stack in more than one way, a shared edit affects other factions, a name conflicts with equipment, historical equipment lacks a supported precedent, EDB scope is uncertain, or the model does not visibly support the intended weapons.
+4. Use `early`, `mid`, and `high` for tiered internal type/dictionary/model names and eras 0, 1, and 2 respectively. New variants inherit the predecessor's assets; create a distinct soldier/modeldb entry when its reload animation differs.
+5. Select a specific named weapon, find a same-weapon or closest same-faction/era precedent, and copy its complete weapon row before applying only the documented projectile/range modifiers. Calculate cost explicitly from the baseline and modifiers, then reconcile any `descr_mercenaries.txt` pool-cost override.
+6. Validate duplicate types/dictionaries, ownership/era lists, valid EDU tokens, referenced assets, modeldb counts and length checksums, localization cache handling, and exact equality of canonical/runtime copies. Recheck the game log after launch.
+
+Mercenary units with the `mercenary_unit` attribute can be recruited through EDB or mercenary pools without factional EDU ownership. EDU ownership and era assignments control their custom-battle availability, so do not conflate those scopes.
+
+### Spain modifiers
+
+National Spanish infantry receives +1 melee and +1 charge. Colonial units instead receive -1 melee and -100 cost. Cazadores are regular-quality skirmishers; Cuban Infantry are regular-quality colonial sharpshooters and a late-only independent lineage.
 
 ##Modeldb Formatting:
 
