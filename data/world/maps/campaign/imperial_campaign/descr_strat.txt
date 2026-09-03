@@ -13506,7 +13506,7 @@ unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Fuzhou
-character	Baozhen Wu, named character, male, age 45, x 404 y 202
+character	Baozhen Wu, named character, male, age 45, x 404, y 202
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13515,7 +13515,7 @@ unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Xiamen
-character	random_name, general, male, age 45, x 400 y 197
+character	random_name, general, male, age 45, x 400, y 197
 army
 unit		qing_inf_upg				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13524,7 +13524,7 @@ unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Shanghai
-character	Bingkun Wang, named character, male, age 45, x 406 y 215
+character	Bingkun Wang, named character, male, age 45, x 406, y 215
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13536,33 +13536,33 @@ unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Taipei
-character	random_name, general, male, age 45, x 408 y 199
+character	random_name, general, male, age 45, x 408, y 199
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Takao
-character	random_name, general, male, age 45, x 406 y 195
+character	random_name, general, male, age 45, x 406, y 195
 army
 unit		qing_swords				exp 0 armour 0 weapon_lvl 0
 
 ;Canton
-character	random_name, general, male, age 45, x 394 y 195
+character	random_name, general, male, age 45, x 394, y 195
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Haikou
-character	random_name, general, male, age 45, x 391 y 187
+character	random_name, general, male, age 45, x 391, y 187
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Guiyang
-character	Xinga Nie, named character, male, age 45, x 388 y 201
+character	Xinga Nie, named character, male, age 45, x 388, y 201
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13570,7 +13570,7 @@ unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		qing_swords				exp 0 armour 0 weapon_lvl 0
 
 ;Changsha
-character	random_name, general, male, age 45, x 392 y 202
+character	random_name, general, male, age 45, x 392, y 202
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
@@ -13579,27 +13579,27 @@ unit		qing_pike				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Guilin
-character	random_name, general, male, age 45, x 391 y 198
+character	random_name, general, male, age 45, x 391, y 198
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_swords				exp 0 armour 0 weapon_lvl 0
 
 ;Chengdu
-character	Zhan_ao Zhao, named character, male, age 45, x 381 y 210
+character	Zhan_ao Zhao, named character, male, age 45, x 381, y 210
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 
 ;Chongqing
-character	random_name, general, male, age 45, x 382 y 207
+character	random_name, general, male, age 45, x 382, y 207
 army
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Kunming
-character	Zhongyuan Liu, named character, male, age 45, x 375 y 197
+character	Zhongyuan Liu, named character, male, age 45, x 375, y 197
 army
 unit		oirat_royal				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
@@ -13607,45 +13607,45 @@ unit		qing_swords				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 
 ;Dali
-character	random_name, general, male, age 45, x 370 y 204
+character	random_name, general, male, age 45, x 370, y 204
 army
 unit		merc_burmese_inf				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 
 ;Lanzhou
-character	Fuheng Sengge, named character, male, age 45, x 380 y 233
+character	Fuheng Sengge, named character, male, age 45, x 380, y 233
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		qing_archers				exp 0 armour 0 weapon_lvl 0
 
 ;Kuku-Khoto
-character	random_name, general, male, age 45, x 393 y 235
+character	random_name, general, male, age 45, x 393, y 235
 army
 unit		mongols_archer				exp 0 armour 0 weapon_lvl 0
 
 ;Urga
-character	Yunfei Kong, named character, male, age 45, x 377 y 251
+character	Yunfei Kong, named character, male, age 45, x 377, y 251
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		mongol_inf				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 
 ;Urumqi
-character	Shicheng Ma, named character, male, age 45, x 363 y 243
+character	Shicheng Ma, named character, male, age 45, x 363, y 243
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		qing_ww1_inf				exp 0 armour 0 weapon_lvl 0
 
 ;Kashgar
-character	Xinyi Fu, named character, male, age 45, x 341 y 232
+character	Xinyi Fu, named character, male, age 45, x 341, y 232
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 unit		merc_tib_inf				exp 0 armour 0 weapon_lvl 0
 
 ;Lhasa
-character	Zhongming He, named character, male, age 45, x 363 y 209
+character	Zhongming He, named character, male, age 45, x 363, y 209
 army
 unit		merc_tib_noble_cav				exp 0 armour 0 weapon_lvl 0
 unit		tib_militia				exp 0 armour 0 weapon_lvl 0
@@ -13653,13 +13653,13 @@ unit		merc_tib_inf				exp 0 armour 0 weapon_lvl 0
 unit		tib_roy_inf				exp 0 armour 0 weapon_lvl 0
 
 ;Xining
-character	Guoquan Duan, named character, male, age 45, x 367 y 234
+character	Guoquan Duan, named character, male, age 45, x 367, y 234
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		qing_vets				exp 0 armour 0 weapon_lvl 0
 
 ;Bagan Tumen
-character	Yongfu Kong, named character, male, age 45, x 389 y 254
+character	Yongfu Kong, named character, male, age 45, x 389, y 254
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
 unit		mongol_inf				exp 0 armour 0 weapon_lvl 0
