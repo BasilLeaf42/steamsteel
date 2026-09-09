@@ -1,9 +1,0 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;
-;; Animation event file
-;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-event SOUND ANIM_Gate_portcullis_move_up 0 0
-event SOUND ANIM_Gate_metal_DESTROYED 0 0
-event SOUND ANIM_Gate_portcullis_UP 66 66
