@@ -16456,7 +16456,7 @@ ownership        russia, slave
 era 0            russia
 
 type             rus_pekhota_mid
-dictionary       rus_pekhota_mid ; Pekhota (Mid; Russian Krnka M1869)
+dictionary       rus_pekhota_mid ; Pekhota (Mid; Russian M1856/69 Krnka conversion)
 category         infantry
 class            missile
 voice_type       Light
@@ -16469,7 +16469,7 @@ officer          russia_qi
 attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         29, 0, rifle_bullet_c, 240, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
 stat_sec_attr    short_pike, ap
@@ -16481,7 +16481,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1300, 433, 100, 100, 1300, 4, 433
+stat_cost        3, 1000, 333, 100, 100, 1000, 4, 333
 ownership        russia, slave
 era 1            russia
 
@@ -17558,6 +17558,20 @@ ownership        slave
 
 ; Legacy internal-name compatibility (not assigned to custom-battle eras)
 
+; Legacy internal-name compatibility (not assigned to custom-battle eras)
+
+; Legacy internal-name compatibility (not assigned to custom-battle eras)
+
+; Legacy internal-name compatibility (not assigned to custom-battle eras)
+
+; Legacy internal-name compatibility (not assigned to custom-battle eras)
+
+; Legacy internal-name compatibility (not assigned to custom-battle eras)
+
+; Legacy internal-name compatibility (not assigned to custom-battle eras)
+
+; Legacy internal-name compatibility (not assigned to custom-battle eras)
+
 type             rus_conscript
 dictionary       rus_conscript ; Sibirskiye Strelki (Early; Russian M1857 Six-Line Rifle-Musket)
 category         infantry
@@ -17765,7 +17779,7 @@ stat_cost        3, 1000, 333, 100, 100, 1000, 2, 333
 ownership        slave
 
 type             rus_guard
-dictionary       rus_guard ; Pekhota (Mid; Russian Krnka M1869)
+dictionary       rus_guard ; Pekhota (Mid; Russian M1856/69 Krnka conversion)
 category         infantry
 class            missile
 voice_type       Light
@@ -17778,7 +17792,7 @@ officer          russia_qi
 attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, start_not_skirmishing, cannot_skirmish
 formation        1.2, 1.2, 2.0, 2.4, 3, square
 stat_health      1, 0
-stat_pri         29, 0, rifle_bullet_c, 240, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         37, 0, rifled_musket_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
 stat_sec_attr    short_pike, ap
@@ -17790,7 +17804,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1300, 433, 100, 100, 1300, 4, 433
+stat_cost        3, 1000, 333, 100, 100, 1000, 4, 333
 ownership        slave
 
 type             russ_inf
@@ -18152,42 +18166,34 @@ era 1            russia
 
 
 type             georgian_inf_russia
-dictionary       georgian_inf_russia
+dictionary       georgian_inf_russia ; Georgian Militia (M1844 percussion musket)
 category         infantry
 class            missile
 voice_type       Light
-accent      	 russian
+accent           russian
 banner faction   main_missile
 banner holy      crusade
-soldier          georgian_inf, 40, 0, 1
-attributes       free_upkeep_unit, sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, cannot_skirmish, gunmen
-formation        1.2, 1.2, 2.0, 2.4, 3, square
+soldier          georgian_inf, 30, 0, 1
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_withdraw, gunpowder_unit, gunmen, start_not_skirmishing
+formation        1.4, 1.8, 2.8, 3.6, 3, square
 stat_health      1, 0
-stat_pri         37, 1, musket_bullet_c, 190, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
-;stat_pri_ex      0, 0, 20
+stat_pri         37, 0, musket_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
-stat_sec         5, 3, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
-;stat_sec_ex      0, 0, 0
-stat_sec_attr    ap, short_pike
-stat_pri_armour  3, 3, 0, flesh
-;stat_armour_ex   0, 5, 0, 0, 3, 0, 0, flesh
+stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1.2
+stat_sec_attr    short_pike, ap
+stat_pri_armour  3, 2, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
-stat_ground      1, 1, -1, -2
-stat_mental      5, impetuous, trained
-stat_charge_dist 6
+stat_ground      0, 0, 0, 0
+stat_mental      3, low, trained
+stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 340, 200, 160, 1000, 1, 340
+stat_cost        3, 800, 267, 100, 100, 800, 1, 267
 ownership        russia, slave
 era 0            russia
 era 1            russia
 era 2            russia
-
-
-; ============================================================================
-; Aus-Hun (hungary) — infantry and cavalry
-; ============================================================================
 
 type             fra_sailors_hungary
 dictionary       fra_sailors_hungary

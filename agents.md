@@ -154,7 +154,7 @@ Infantry (Magazine Rifle):	260, smokeless_shot_set
 
 Skirmishers: projectile up 1 tiers, range + 40
 Sharpshooter: projectile up 2 tiers, range + 40
-Early Rifle: Rifle-musket a base, projectile down 1 tier
+Early rifle or converted breechloader: use the rifle-musket ballistic and cost baseline, with projectile accuracy down 1 tier before faction modifiers. A later conversion date does not promote an obsolete converted muzzle-loader to the full rifle tier; retain the parent arm's range and ballistic limitations unless evidence supports otherwise. Do not use stat_fire_delay to simulate weapon unreliability; nonzero values are engine-unsafe in this project. Do not misrepresent mechanical unreliability as reduced carried ammunition.
 Cavalry: projectile down 1 tier, range -20  
 
 Note sharpshooters are not elite units, the type designation only affects projectiles.
@@ -290,7 +290,7 @@ Greece uses a modified C-tier baseline: apply the C-tier -1 projectile accuracy 
 
 ### Russia modifiers
 
-Russia is C tier. Russian core units receive -200 cost beyond the complete C-tier package and receive no additional morale modifier. Cossacks use militia-quality baselines. Siberian Riflemen form a complete early, mid, and late lineage; they receive -1 additional melee attack and a total Russian cost modifier of -300 rather than stacking -300 on top of the normal -200. The universal fixed cost of 200 for a four-man General-and-Staff unit overrides Russia's cost modifier. Regional and ethnic auxiliaries remain separate from the national core roster unless explicitly assigned their own treatment.
+Russia is C tier. Russian core units receive -200 cost beyond the complete C-tier package and receive no additional morale modifier. Cossacks use militia-quality baselines. Siberian Riflemen form a complete early, mid, and late lineage; they receive -1 additional melee attack and a total Russian cost modifier of -300 rather than stacking -300 on top of the normal -200. The universal fixed cost of 200 for a four-man General-and-Staff unit overrides Russia's cost modifier. Regional and ethnic auxiliaries remain separate from the national core roster unless explicitly assigned their own treatment. The M1856/69 Krnka is an early-quality converted breechloader: use the rifle-musket baseline, reduced accuracy, 220 range, normal carried ammunition, and zero firing delay; represent its documented extraction and fouling problems through the deliberately low ballistic tier rather than an engine-unsafe firing-delay value. Georgian Militia remain a separate regional auxiliary and use militia-quality skirmisher rules without terrain bonuses.
 
 ##Modeldb Formatting:
 
