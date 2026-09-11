@@ -1,0 +1,1197 @@
+[
+  {
+    "group_id": "card_000_86ade9bf36",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_000_86ade9bf36.png",
+    "assigned_unit": "uk_camel_corps_high",
+    "target": "data/ui/units/england/#uk_camel_corps_high.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_camel_corps_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 3
+  },
+  {
+    "group_id": "card_001_6dd870e96b",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_001_6dd870e96b.png",
+    "assigned_unit": "uk_dragoon_early",
+    "target": "data/ui/units/england/#uk_dragoon_early.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_dragoon_early.tga",
+      "data/ui/units/england/#uk_dragoon_mid.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 2
+  },
+  {
+    "group_id": "card_002_57d571d144",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_002_57d571d144.png",
+    "assigned_unit": "uk_dragoon_high",
+    "target": "data/ui/units/england/#uk_dragoon_high.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_dragoon_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_003_b252264a94",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_003_b252264a94.png",
+    "assigned_unit": "uk_foot_early",
+    "target": "data/ui/units/england/#uk_foot_early.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_foot_early.tga",
+      "data/ui/units/england/#uk_foot_mid.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_004_f312b15720",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_004_f312b15720.png",
+    "assigned_unit": "uk_foot_high",
+    "target": "data/ui/units/england/#uk_foot_high.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_foot_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 2
+  },
+  {
+    "group_id": "card_005_42f6fc50cf",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_005_42f6fc50cf.png",
+    "assigned_unit": "uk_general",
+    "target": "data/ui/units/england/#uk_general.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_general.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 27
+  },
+  {
+    "group_id": "card_006_874a131be9",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_006_874a131be9.png",
+    "assigned_unit": "uk_guard_early",
+    "target": "data/ui/units/england/#uk_guard_early.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_guard_early.tga",
+      "data/ui/units/england/#uk_guard_mid.tga",
+      "data/ui/units/england/#uk_guard_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 2
+  },
+  {
+    "group_id": "card_007_2654df809a",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_007_2654df809a.png",
+    "assigned_unit": "uk_gurkhas_high",
+    "target": "data/ui/units/england/#uk_gurkhas_high.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_gurkhas_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_008_d804d40a53",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_008_d804d40a53.png",
+    "assigned_unit": "uk_highlanders_early",
+    "target": "data/ui/units/england/#uk_highlanders_early.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_highlanders_early.tga",
+      "data/ui/units/england/#uk_highlanders_mid.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_009_e6feab6f3f",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_009_e6feab6f3f.png",
+    "assigned_unit": "uk_highlanders_high",
+    "target": "data/ui/units/england/#uk_highlanders_high.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_highlanders_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_010_80976d1955",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_010_80976d1955.png",
+    "assigned_unit": "uk_hussars_early",
+    "target": "data/ui/units/england/#uk_hussars_early.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_hussars_early.tga",
+      "data/ui/units/england/#uk_hussars_mid.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_011_fb0b286a95",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_011_fb0b286a95.png",
+    "assigned_unit": "uk_hussars_high",
+    "target": "data/ui/units/england/#uk_hussars_high.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_hussars_high.tga",
+      "data/ui/units/portugal/#net_dragonders.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 3
+  },
+  {
+    "group_id": "card_012_f7cf993e3b",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_012_f7cf993e3b.png",
+    "assigned_unit": "uk_imperial_foot_early",
+    "target": "data/ui/units/england/#uk_imperial_foot_early.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_imperial_foot_early.tga",
+      "data/ui/units/england/#uk_imperial_foot_mid.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_013_3ceda484ec",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_013_3ceda484ec.png",
+    "assigned_unit": "uk_imperial_foot_high",
+    "target": "data/ui/units/england/#uk_imperial_foot_high.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_imperial_foot_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_014_efa25b8bfa",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_014_efa25b8bfa.png",
+    "assigned_unit": "uk_indian_foot_early",
+    "target": "data/ui/units/england/#uk_indian_foot_early.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_indian_foot_early.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_015_c83ac4dbbe",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_015_c83ac4dbbe.png",
+    "assigned_unit": "uk_indian_foot_mid",
+    "target": "data/ui/units/england/#uk_indian_foot_mid.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_indian_foot_mid.tga",
+      "data/ui/units/england/#uk_indian_foot_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_016_ca73d4d8fd",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_016_ca73d4d8fd.png",
+    "assigned_unit": "uk_indian_lancers",
+    "target": "data/ui/units/england/#uk_indian_lancers.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_indian_lancers.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_017_47f26ee4ab",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_017_47f26ee4ab.png",
+    "assigned_unit": "uk_light_early",
+    "target": "data/ui/units/england/#uk_light_early.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_light_early.tga",
+      "data/ui/units/england/#uk_light_mid.tga",
+      "data/ui/units/england/#uk_light_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 2
+  },
+  {
+    "group_id": "card_018_d0dcc79944",
+    "faction": "england",
+    "source": "tools/card_generation_refs/card_018_d0dcc79944.png",
+    "assigned_unit": "uk_marines_early",
+    "target": "data/ui/units/england/#uk_marines_early.tga",
+    "all_original_members": [
+      "data/ui/units/england/#uk_marines_early.tga",
+      "data/ui/units/england/#uk_marines_mid.tga",
+      "data/ui/units/england/#uk_marines_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_019_87e72fec96",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_019_87e72fec96.png",
+    "assigned_unit": "fra_carabiniers_early",
+    "target": "data/ui/units/france/#fra_carabiniers_early.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_carabiniers_early.tga",
+      "data/ui/units/france/#fra_carabiniers_mid.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 19
+  },
+  {
+    "group_id": "card_020_048b9b3812",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_020_048b9b3812.png",
+    "assigned_unit": "fra_carabiniers_high",
+    "target": "data/ui/units/france/#fra_carabiniers_high.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_carabiniers_high.tga",
+      "data/ui/units/mongols/#gre_carbineers_mid.tga",
+      "data/ui/units/mongols/#gre_carbineers_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 23
+  },
+  {
+    "group_id": "card_021_bbf12332c8",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_021_bbf12332c8.png",
+    "assigned_unit": "fra_chasseurs_mid",
+    "target": "data/ui/units/france/#fra_chasseurs_mid.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_chasseurs_early.tga",
+      "data/ui/units/france/#fra_chasseurs_mid.tga",
+      "data/ui/units/france/#fra_chasseurs_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 31
+  },
+  {
+    "group_id": "card_022_564fa6667b",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_022_564fa6667b.png",
+    "assigned_unit": "fra_fusiliers_early",
+    "target": "data/ui/units/france/#fra_fusiliers_early.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_fusiliers_early.tga",
+      "data/ui/units/france/#fra_fusiliers_mid.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 28
+  },
+  {
+    "group_id": "card_023_847898915d",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_023_847898915d.png",
+    "assigned_unit": "fra_fusiliers_high",
+    "target": "data/ui/units/france/#fra_fusiliers_high.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_fusiliers_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 19
+  },
+  {
+    "group_id": "card_024_6e6d4149f1",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_024_6e6d4149f1.png",
+    "assigned_unit": "fra_garde_mobile_early",
+    "target": "data/ui/units/france/#fra_garde_mobile_early.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_garde_mobile_early.tga",
+      "data/ui/units/france/#fra_garde_nationale_mid.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 25
+  },
+  {
+    "group_id": "card_025_cb2043c287",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_025_cb2043c287.png",
+    "assigned_unit": "fra_general_staff",
+    "target": "data/ui/units/france/#fra_general_staff.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_general_staff.tga",
+      "data/ui/units/sicily/#dan_general.tga",
+      "data/ui/units/mongols/#gre_general_staff.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 23
+  },
+  {
+    "group_id": "card_026_f25d91f2bc",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_026_f25d91f2bc.png",
+    "assigned_unit": "fra_guard",
+    "target": "data/ui/units/france/#fra_guard.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_guard.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 21
+  },
+  {
+    "group_id": "card_027_8ad5616b5f",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_027_8ad5616b5f.png",
+    "assigned_unit": "fra_guard_grenadiers_early",
+    "target": "data/ui/units/france/#fra_guard_grenadiers_early.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_guard_grenadiers_early.tga",
+      "data/ui/units/france/#fra_guard_grenadiers_mid.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 18
+  },
+  {
+    "group_id": "card_028_ce5e353a8f",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_028_ce5e353a8f.png",
+    "assigned_unit": "fra_hussards",
+    "target": "data/ui/units/france/#fra_hussards.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_hussards.tga",
+      "data/ui/units/france/#fra_chasseurs_cheval.tga",
+      "data/ui/units/portugal/#net_huzaren.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 20
+  },
+  {
+    "group_id": "card_029_5141efe0b5",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_029_5141efe0b5.png",
+    "assigned_unit": "fra_indochinois_high",
+    "target": "data/ui/units/france/#fra_indochinois_high.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_indochinois_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 13
+  },
+  {
+    "group_id": "card_030_15ebf35e95",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_030_15ebf35e95.png",
+    "assigned_unit": "fra_legion_early",
+    "target": "data/ui/units/france/#fra_legion_early.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_legion_early.tga",
+      "data/ui/units/france/#fra_legion_mid.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 26
+  },
+  {
+    "group_id": "card_031_c0f366a4b8",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_031_c0f366a4b8.png",
+    "assigned_unit": "fra_legion_high",
+    "target": "data/ui/units/france/#fra_legion_high.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_legion_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 26
+  },
+  {
+    "group_id": "card_032_fea6751cf6",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_032_fea6751cf6.png",
+    "assigned_unit": "fra_marins_early",
+    "target": "data/ui/units/france/#fra_marins_early.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_marins_early.tga",
+      "data/ui/units/france/#fra_marins_mid.tga",
+      "data/ui/units/france/#fra_marins_high.tga",
+      "data/ui/units/sicily/#dan_marines_early.tga",
+      "data/ui/units/sicily/#dan_marines_mid.tga",
+      "data/ui/units/sicily/#dan_marines_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 22
+  },
+  {
+    "group_id": "card_033_05e311f27d",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_033_05e311f27d.png",
+    "assigned_unit": "fra_senegalais_early",
+    "target": "data/ui/units/france/#fra_senegalais_early.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_senegalais_early.tga",
+      "data/ui/units/france/#fra_senegalais_mid.tga",
+      "data/ui/units/france/#fra_senegalais_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 7
+  },
+  {
+    "group_id": "card_034_c101429a68",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_034_c101429a68.png",
+    "assigned_unit": "fra_spahis_early",
+    "target": "data/ui/units/france/#fra_spahis_early.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_spahis_early.tga",
+      "data/ui/units/france/#fra_spahis_mid.tga",
+      "data/ui/units/france/#fra_spahis_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 17
+  },
+  {
+    "group_id": "card_035_6f46547c91",
+    "faction": "france",
+    "source": "tools/card_generation_refs/card_035_6f46547c91.png",
+    "assigned_unit": "fra_zouaves_mid",
+    "target": "data/ui/units/france/#fra_zouaves_mid.tga",
+    "all_original_members": [
+      "data/ui/units/france/#fra_zouaves_early.tga",
+      "data/ui/units/france/#fra_zouaves_mid.tga",
+      "data/ui/units/france/#fra_zouaves_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 24
+  },
+  {
+    "group_id": "card_036_4a96264c2c",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_036_4a96264c2c.png",
+    "assigned_unit": "pru_bavarian_fusiliere_mid",
+    "target": "data/ui/units/hre/#pru_bavarian_fusiliere_mid.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_bavarian_fusiliere_mid.tga",
+      "data/ui/units/hre/#pru_bavarian_fusiliere_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_037_c6f92e0a1e",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_037_c6f92e0a1e.png",
+    "assigned_unit": "pru_bavarian_landwehr_mid",
+    "target": "data/ui/units/hre/#pru_bavarian_landwehr_mid.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_bavarian_landwehr_mid.tga",
+      "data/ui/units/hre/#pru_bavarian_landwehr_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_038_9592564024",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_038_9592564024.png",
+    "assigned_unit": "pru_dragoner_early",
+    "target": "data/ui/units/hre/#pru_dragoner_early.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_dragoner_early.tga",
+      "data/ui/units/hre/#pru_dragoner_mid.tga",
+      "data/ui/units/hre/#pru_dragoner_high.tga",
+      "data/ui/units/portugal/#net_karabiniers_early.tga",
+      "data/ui/units/portugal/#net_karabiniers_mid.tga",
+      "data/ui/units/portugal/#net_karabiniers_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_039_725ccd7bbd",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_039_725ccd7bbd.png",
+    "assigned_unit": "pru_fusiliere_early",
+    "target": "data/ui/units/hre/#pru_fusiliere_early.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_fusiliere_early.tga",
+      "data/ui/units/hre/#pru_fusiliere_mid.tga",
+      "data/ui/units/hre/#pru_seesoldaten_early.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_040_ebfa624c17",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_040_ebfa624c17.png",
+    "assigned_unit": "pru_fusiliere_high",
+    "target": "data/ui/units/hre/#pru_fusiliere_high.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_fusiliere_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_041_efeacccd77",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_041_efeacccd77.png",
+    "assigned_unit": "pru_general_staff",
+    "target": "data/ui/units/hre/#pru_general_staff.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_general_staff.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 32
+  },
+  {
+    "group_id": "card_042_bd6e3046fc",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_042_bd6e3046fc.png",
+    "assigned_unit": "pru_hannover_mid",
+    "target": "data/ui/units/hre/#pru_hannover_mid.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_hannover_mid.tga",
+      "data/ui/units/hre/#pru_hannover_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_043_028f8f3ac1",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_043_028f8f3ac1.png",
+    "assigned_unit": "pru_husaren",
+    "target": "data/ui/units/hre/#pru_husaren.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_husaren.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_044_fa64a9c562",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_044_fa64a9c562.png",
+    "assigned_unit": "pru_jaeger_early",
+    "target": "data/ui/units/hre/#pru_jaeger_early.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_jaeger_early.tga",
+      "data/ui/units/hre/#pru_jaeger_mid.tga",
+      "data/ui/units/hre/#pru_jaeger_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_045_24f245fb12",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_045_24f245fb12.png",
+    "assigned_unit": "pru_kolonialreiter_high",
+    "target": "data/ui/units/hre/#pru_kolonialreiter_high.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_kolonialreiter_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_046_471f298b65",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_046_471f298b65.png",
+    "assigned_unit": "pru_kuerassiere",
+    "target": "data/ui/units/hre/#pru_kuerassiere.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_kuerassiere.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 2
+  },
+  {
+    "group_id": "card_047_ed219034e7",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_047_ed219034e7.png",
+    "assigned_unit": "pru_pioniere_early",
+    "target": "data/ui/units/hre/#pru_pioniere_early.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_pioniere_early.tga",
+      "data/ui/units/hre/#pru_pioniere_mid.tga",
+      "data/ui/units/hre/#pru_pioniere_high.tga",
+      "data/ui/units/hre/#pru_gardegrenadiere_early.tga",
+      "data/ui/units/hre/#pru_gardegrenadiere_mid.tga",
+      "data/ui/units/hre/#pru_gardegrenadiere_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_048_122677d61d",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_048_122677d61d.png",
+    "assigned_unit": "pru_schutztruppe_high",
+    "target": "data/ui/units/hre/#pru_schutztruppe_high.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_schutztruppe_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 3
+  },
+  {
+    "group_id": "card_049_6311492461",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_049_6311492461.png",
+    "assigned_unit": "pru_seesoldaten_mid",
+    "target": "data/ui/units/hre/#pru_seesoldaten_mid.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_seesoldaten_mid.tga",
+      "data/ui/units/hre/#pru_seesoldaten_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_050_0d256c65d3",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_050_0d256c65d3.png",
+    "assigned_unit": "pru_sturmpioniere_high",
+    "target": "data/ui/units/hre/#pru_sturmpioniere_high.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_sturmpioniere_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_051_7fdb4f9189",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_051_7fdb4f9189.png",
+    "assigned_unit": "pru_sturmtruppen_high",
+    "target": "data/ui/units/hre/#pru_sturmtruppen_high.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_sturmtruppen_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_052_7a098f4473",
+    "faction": "hre",
+    "source": "tools/card_generation_refs/card_052_7a098f4473.png",
+    "assigned_unit": "pru_wuerttemberg_mid",
+    "target": "data/ui/units/hre/#pru_wuerttemberg_mid.tga",
+    "all_original_members": [
+      "data/ui/units/hre/#pru_wuerttemberg_mid.tga",
+      "data/ui/units/hre/#pru_wuerttemberg_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_053_434d0d6cd2",
+    "faction": "mongols",
+    "source": "tools/card_generation_refs/card_053_434d0d6cd2.png",
+    "assigned_unit": "gre_evzones_early",
+    "target": "data/ui/units/mongols/#gre_evzones_early.tga",
+    "all_original_members": [
+      "data/ui/units/mongols/#gre_evzones_early.tga",
+      "data/ui/units/mongols/#gre_evzones_mid.tga",
+      "data/ui/units/mongols/#gre_evzones_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_054_963ff99340",
+    "faction": "mongols",
+    "source": "tools/card_generation_refs/card_054_963ff99340.png",
+    "assigned_unit": "gre_lancers",
+    "target": "data/ui/units/mongols/#gre_lancers.tga",
+    "all_original_members": [
+      "data/ui/units/mongols/#gre_lancers.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_055_b27193234f",
+    "faction": "mongols",
+    "source": "tools/card_generation_refs/card_055_b27193234f.png",
+    "assigned_unit": "gre_line_early",
+    "target": "data/ui/units/mongols/#gre_line_early.tga",
+    "all_original_members": [
+      "data/ui/units/mongols/#gre_line_early.tga",
+      "data/ui/units/mongols/#gre_line_mid.tga",
+      "data/ui/units/mongols/#gre_line_high.tga",
+      "data/ui/units/mongols/#gre_ethnofylaki_early.tga",
+      "data/ui/units/mongols/#gre_efedroi_mid.tga",
+      "data/ui/units/mongols/#gre_efedroi_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 3
+  },
+  {
+    "group_id": "card_056_76c512055c",
+    "faction": "mongols",
+    "source": "tools/card_generation_refs/card_056_76c512055c.png",
+    "assigned_unit": "gre_royal_escort",
+    "target": "data/ui/units/mongols/#gre_royal_escort.tga",
+    "all_original_members": [
+      "data/ui/units/mongols/#gre_royal_escort.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_057_5a27a0e785",
+    "faction": "mongols",
+    "source": "tools/card_generation_refs/card_057_5a27a0e785.png",
+    "assigned_unit": "gre_sappers_high",
+    "target": "data/ui/units/mongols/#gre_sappers_high.tga",
+    "all_original_members": [
+      "data/ui/units/mongols/#gre_sappers_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 2
+  },
+  {
+    "group_id": "card_058_6f0fbe8e4f",
+    "faction": "normans",
+    "source": "tools/card_generation_refs/card_058_6f0fbe8e4f.png",
+    "assigned_unit": "nor_line_early",
+    "target": "data/ui/units/normans/#nor_line_early.tga",
+    "all_original_members": [
+      "data/ui/units/normans/#nor_line_early.tga",
+      "data/ui/units/normans/#nor_line_mid.tga",
+      "data/ui/units/normans/#swe_guard_early.tga",
+      "data/ui/units/normans/#swe_guard_mid.tga",
+      "data/ui/units/normans/#swe_guard_high.tga",
+      "data/ui/units/normans/#nor_guard_early.tga",
+      "data/ui/units/normans/#nor_guard_mid.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_059_5f0542d0ff",
+    "faction": "normans",
+    "source": "tools/card_generation_refs/card_059_5f0542d0ff.png",
+    "assigned_unit": "nor_line_high",
+    "target": "data/ui/units/normans/#nor_line_high.tga",
+    "all_original_members": [
+      "data/ui/units/normans/#nor_line_high.tga",
+      "data/ui/units/normans/#nor_guard_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_060_e724972bd3",
+    "faction": "normans",
+    "source": "tools/card_generation_refs/card_060_e724972bd3.png",
+    "assigned_unit": "swe_general_staff",
+    "target": "data/ui/units/normans/#swe_general_staff.tga",
+    "all_original_members": [
+      "data/ui/units/normans/#swe_general_staff.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 35
+  },
+  {
+    "group_id": "card_061_f1b28b09af",
+    "faction": "normans",
+    "source": "tools/card_generation_refs/card_061_f1b28b09af.png",
+    "assigned_unit": "swe_hussars",
+    "target": "data/ui/units/normans/#swe_hussars.tga",
+    "all_original_members": [
+      "data/ui/units/normans/#swe_hussars.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_062_e4b9ee00c6",
+    "faction": "normans",
+    "source": "tools/card_generation_refs/card_062_e4b9ee00c6.png",
+    "assigned_unit": "swe_lifeguard_horse",
+    "target": "data/ui/units/normans/#swe_lifeguard_horse.tga",
+    "all_original_members": [
+      "data/ui/units/normans/#swe_lifeguard_horse.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_063_04b3c57a1f",
+    "faction": "normans",
+    "source": "tools/card_generation_refs/card_063_04b3c57a1f.png",
+    "assigned_unit": "swe_line_early",
+    "target": "data/ui/units/normans/#swe_line_early.tga",
+    "all_original_members": [
+      "data/ui/units/normans/#swe_line_early.tga",
+      "data/ui/units/normans/#swe_line_mid.tga",
+      "data/ui/units/normans/#swe_line_high.tga",
+      "data/ui/units/normans/#swe_bevaring_early.tga",
+      "data/ui/units/normans/#swe_bevaring_mid.tga",
+      "data/ui/units/normans/#swe_bevaring_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_064_9a9e2b0a93",
+    "faction": "portugal",
+    "source": "tools/card_generation_refs/card_064_9a9e2b0a93.png",
+    "assigned_unit": "net_general_staff",
+    "target": "data/ui/units/portugal/#net_general_staff.tga",
+    "all_original_members": [
+      "data/ui/units/portugal/#net_general_staff.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 27
+  },
+  {
+    "group_id": "card_065_e7dcebe2b2",
+    "faction": "portugal",
+    "source": "tools/card_generation_refs/card_065_e7dcebe2b2.png",
+    "assigned_unit": "net_grenadiers_early",
+    "target": "data/ui/units/portugal/#net_grenadiers_early.tga",
+    "all_original_members": [
+      "data/ui/units/portugal/#net_grenadiers_early.tga",
+      "data/ui/units/portugal/#net_grenadiers_mid.tga",
+      "data/ui/units/portugal/#net_grenadiers_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 21
+  },
+  {
+    "group_id": "card_066_072ed272a4",
+    "faction": "portugal",
+    "source": "tools/card_generation_refs/card_066_072ed272a4.png",
+    "assigned_unit": "net_jagers_early",
+    "target": "data/ui/units/portugal/#net_jagers_early.tga",
+    "all_original_members": [
+      "data/ui/units/portugal/#net_jagers_early.tga",
+      "data/ui/units/portugal/#net_jagers_mid.tga",
+      "data/ui/units/portugal/#net_jagers_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 20
+  },
+  {
+    "group_id": "card_067_9fa3a964f0",
+    "faction": "portugal",
+    "source": "tools/card_generation_refs/card_067_9fa3a964f0.png",
+    "assigned_unit": "net_knil_early",
+    "target": "data/ui/units/portugal/#net_knil_early.tga",
+    "all_original_members": [
+      "data/ui/units/portugal/#net_knil_early.tga",
+      "data/ui/units/portugal/#net_knil_mid.tga",
+      "data/ui/units/portugal/#net_knil_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 23
+  },
+  {
+    "group_id": "card_068_07cfd61232",
+    "faction": "portugal",
+    "source": "tools/card_generation_refs/card_068_07cfd61232.png",
+    "assigned_unit": "net_line_early",
+    "target": "data/ui/units/portugal/#net_line_early.tga",
+    "all_original_members": [
+      "data/ui/units/portugal/#net_line_early.tga",
+      "data/ui/units/portugal/#net_line_mid.tga",
+      "data/ui/units/portugal/#net_schutterij_early.tga",
+      "data/ui/units/portugal/#net_schutterij_mid.tga",
+      "data/ui/units/portugal/#net_schutterij_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 21
+  },
+  {
+    "group_id": "card_069_e9c19036d8",
+    "faction": "portugal",
+    "source": "tools/card_generation_refs/card_069_e9c19036d8.png",
+    "assigned_unit": "net_line_high",
+    "target": "data/ui/units/portugal/#net_line_high.tga",
+    "all_original_members": [
+      "data/ui/units/portugal/#net_line_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 22
+  },
+  {
+    "group_id": "card_070_1a7212941d",
+    "faction": "portugal",
+    "source": "tools/card_generation_refs/card_070_1a7212941d.png",
+    "assigned_unit": "net_mariniers_early",
+    "target": "data/ui/units/portugal/#net_mariniers_early.tga",
+    "all_original_members": [
+      "data/ui/units/portugal/#net_mariniers_early.tga",
+      "data/ui/units/portugal/#net_mariniers_mid.tga",
+      "data/ui/units/portugal/#net_mariniers_high.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 22
+  },
+  {
+    "group_id": "card_071_180d880024",
+    "faction": "sicily",
+    "source": "tools/card_generation_refs/card_071_180d880024.png",
+    "assigned_unit": "dan_cuirassier",
+    "target": "data/ui/units/sicily/#dan_cuirassier.tga",
+    "all_original_members": [
+      "data/ui/units/sicily/#dan_cuirassier.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_072_f216e2196c",
+    "faction": "sicily",
+    "source": "tools/card_generation_refs/card_072_f216e2196c.png",
+    "assigned_unit": "dan_dragoon_early",
+    "target": "data/ui/units/sicily/#dan_dragoon_early.tga",
+    "all_original_members": [
+      "data/ui/units/sicily/#dan_dragoon_early.tga",
+      "data/ui/units/sicily/#dan_dragoon_mid.tga",
+      "data/ui/units/sicily/#dan_dragoon_high.tga",
+      "data/ui/units/normans/#swe_dragoons_early.tga",
+      "data/ui/units/normans/#swe_dragoons_mid.tga",
+      "data/ui/units/normans/#swe_dragoons_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_073_35c0d0daa2",
+    "faction": "sicily",
+    "source": "tools/card_generation_refs/card_073_35c0d0daa2.png",
+    "assigned_unit": "dan_fod_early",
+    "target": "data/ui/units/sicily/#dan_fod_early.tga",
+    "all_original_members": [
+      "data/ui/units/sicily/#dan_fod_early.tga",
+      "data/ui/units/sicily/#dan_fod_mid.tga",
+      "data/ui/units/sicily/#dan_fod_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_074_127dcd142d",
+    "faction": "sicily",
+    "source": "tools/card_generation_refs/card_074_127dcd142d.png",
+    "assigned_unit": "dan_guard_early",
+    "target": "data/ui/units/sicily/#dan_guard_early.tga",
+    "all_original_members": [
+      "data/ui/units/sicily/#dan_guard_early.tga",
+      "data/ui/units/sicily/#dan_guard_mid.tga",
+      "data/ui/units/sicily/#dan_guard_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_075_f48e3973ff",
+    "faction": "sicily",
+    "source": "tools/card_generation_refs/card_075_f48e3973ff.png",
+    "assigned_unit": "dan_hussars",
+    "target": "data/ui/units/sicily/#dan_hussars.tga",
+    "all_original_members": [
+      "data/ui/units/sicily/#dan_hussars.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_076_9c7c876a2d",
+    "faction": "sicily",
+    "source": "tools/card_generation_refs/card_076_9c7c876a2d.png",
+    "assigned_unit": "dan_light_early",
+    "target": "data/ui/units/sicily/#dan_light_early.tga",
+    "all_original_members": [
+      "data/ui/units/sicily/#dan_light_early.tga",
+      "data/ui/units/sicily/#dan_light_mid.tga",
+      "data/ui/units/sicily/#dan_light_high.tga",
+      "data/ui/units/normans/#swe_jagare_early.tga",
+      "data/ui/units/normans/#swe_jagare_mid.tga",
+      "data/ui/units/normans/#swe_jagare_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_077_6a57ed9386",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_077_6a57ed9386.png",
+    "assigned_unit": "austro_sailor_spain_early",
+    "target": "data/ui/units/spain/#austro_sailor_spain_early.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#austro_sailor_spain_early.tga",
+      "data/ui/units/spain/#austro_sailor_spain_mid.tga",
+      "data/ui/units/spain/#austro_sailor_spain_high.tga",
+      "data/ui/units/mongols/#gre_marines_early.tga",
+      "data/ui/units/mongols/#gre_marines_mid.tga",
+      "data/ui/units/mongols/#gre_marines_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_078_e9e7be82b0",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_078_e9e7be82b0.png",
+    "assigned_unit": "civil_guard",
+    "target": "data/ui/units/spain/#civil_guard.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#civil_guard.tga"
+    ],
+    "status": "preserved_reference_after_visual_replacement",
+    "perceptual_distance": 30
+  },
+  {
+    "group_id": "card_079_dd3bc651c1",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_079_dd3bc651c1.png",
+    "assigned_unit": "cuban_inf_high",
+    "target": "data/ui/units/spain/#cuban_inf_high.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#cuban_inf_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_080_b76ea90243",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_080_b76ea90243.png",
+    "assigned_unit": "euro_hussars",
+    "target": "data/ui/units/spain/#euro_hussars.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#euro_hussars.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_081_8637501474",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_081_8637501474.png",
+    "assigned_unit": "spa_cav_early",
+    "target": "data/ui/units/spain/#spa_cav_early.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#spa_cav_early.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_082_35836ac766",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_082_35836ac766.png",
+    "assigned_unit": "spa_cav_mid",
+    "target": "data/ui/units/spain/#spa_cav_mid.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#spa_cav_mid.tga",
+      "data/ui/units/spain/#spa_cav_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_083_d604b70880",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_083_d604b70880.png",
+    "assigned_unit": "spa_caz_early",
+    "target": "data/ui/units/spain/#spa_caz_early.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#spa_caz_early.tga",
+      "data/ui/units/spain/#spa_caz_mid.tga",
+      "data/ui/units/spain/#spa_caz_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_084_74eb8414de",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_084_74eb8414de.png",
+    "assigned_unit": "spa_col_cav_mid",
+    "target": "data/ui/units/spain/#spa_col_cav_mid.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#spa_col_cav_mid.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_085_72e6eba2fd",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_085_72e6eba2fd.png",
+    "assigned_unit": "spa_col_inf_early",
+    "target": "data/ui/units/spain/#spa_col_inf_early.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#spa_col_inf_early.tga",
+      "data/ui/units/spain/#spa_col_inf_mid.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_086_705447bc85",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_086_705447bc85.png",
+    "assigned_unit": "spa_col_inf_high",
+    "target": "data/ui/units/spain/#spa_col_inf_high.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#spa_col_inf_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 1
+  },
+  {
+    "group_id": "card_087_8374e2bf2e",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_087_8374e2bf2e.png",
+    "assigned_unit": "spa_cuirassiers_early",
+    "target": "data/ui/units/spain/#spa_cuirassiers_early.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#spa_cuirassiers_early.tga",
+      "data/ui/units/france/#fra_cuirassiers.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_088_eb6ce1143a",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_088_eb6ce1143a.png",
+    "assigned_unit": "spa_inf_early",
+    "target": "data/ui/units/spain/#spa_inf_early.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#spa_inf_early.tga",
+      "data/ui/units/spain/#spa_inf_mid.tga",
+      "data/ui/units/spain/#spa_inf_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  },
+  {
+    "group_id": "card_089_69250c9f36",
+    "faction": "spain",
+    "source": "tools/card_generation_refs/card_089_69250c9f36.png",
+    "assigned_unit": "spa_milicia_nacional_early",
+    "target": "data/ui/units/spain/#spa_milicia_nacional_early.tga",
+    "all_original_members": [
+      "data/ui/units/spain/#spa_milicia_nacional_early.tga",
+      "data/ui/units/spain/#spa_milicia_nacional_mid.tga",
+      "data/ui/units/spain/#spa_milicia_nacional_high.tga"
+    ],
+    "status": "active_on_most_appropriate_unit",
+    "perceptual_distance": 0
+  }
+]

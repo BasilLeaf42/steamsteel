@@ -2704,12 +2704,12 @@ settlement
 character	George F_Milne, named character, male, leader, age 51, battle_model BRIT_FootA_Officer, x 230, y 261
 traits		Factionleader 1
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_knights				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_hussars_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
@@ -2717,292 +2717,292 @@ unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 character	Albert M_Harper, named character, male, heir, age 47, x 227, y 266
 traits		Factionheir 1
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_knights				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_hussars_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Hong Kong
 character	Walter Haig, named character, male, age 30, x 394, y 192
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Edinburgh
 character	Alfred N_MacCracken, named character, male, age 37, x 225, y 273
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf					exp 0 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early					exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Dublin
 character	Nicholas Phipps_Hornby, named character, male, age 44, x 221, y 265
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Colombo
 character	random_name, general, male, age 30, x 347, y 158
 army
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Malacca
 character	Philip Grierson, named character, male, age 30, x 381, y 146
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Singapore
 character	random_name, general, male, age 30, x 382, y 144
 army
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Cape Town
 character	Cecil W_Chetwode, named character, male, age 30, x 258, y 63
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_knights				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_hussars_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Perth
 character	Thomas J_Murray, named character, male, age 40, x 401, y 68
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Wellington
 character	Edward Haig, named character, male, age 43, x 486, y 49
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Vancouver
 character	Norris N_MacCracken, named character, male, age 42, x 66, y 254
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Montreal
 character	Hubert C_Shaw, named character, male, age 43, x 131, y 245
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_knights				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_hussars_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;York Factory
 character	Francis N_Macready, named character, male, age 40, x 112, y 272
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
 
 ;Yellowknife
 character	Edmund H_Allenby, named character, male, age 40, x 77, y 288
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sydney
 character	Douglas Fergusson, named character, male, age 30, x 450, y 62
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Brisbane
 character	Howard Scott_Kerr, named character, male, age 30, x 454, y 78
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Valletta
 character	Alfred C_Monro, named character, male, age 55, x 252, y 225
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Falklands
 character	random_name, general, male, age 30, x 159, y 22
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Kingston
 character	Charles D_Findlay, named character, male, age 43, x 132, y 184
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Port Said
 character	Edward B_Haking, named character, male, age 30, x 277, y 214
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
 
 ;Gibraltar
 character	Hubert L_Lindsay, named character, age 56, x 222, y 226
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Southampton
 character	random_name, general, age 45, x 228, y 260
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Sheffield
 character	random_name, general, age 45, x 229, y 264
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Leeds
 character	random_name, general, age 45, x 228, y 268
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Newcastle
 character	random_name, general, age 45, x 227, y 270
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Aberdeen
 character	random_name, general, age 45, x 227, y 275
 army
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
 
 ;Glasgow
 character	random_name, general, age 45, x 223, y 274
 army
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
 
 ;Belfast
 character	random_name, general, age 45, x 220, y 269
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Toronto
 character	Arthur Phipps_Hornby, named character, age 45, x 126, y 243
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Ottawa
 character	random_name, general, age 45, x 133, y 247
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Calgary
 character	random_name, general, age 45, x 80, y 256
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Winnipeg
 character	random_name, general, age 45, x 102, y 253
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Canberra
 character	random_name, general, age 45, x 445, y 61
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Melbourne
 character	random_name, general, age 45, x 441, y 56
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Georgetown
 character	James H_Davies, named character, age 45, x 158, y 157
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Queenstown
 character	random_name, general, age 45, x 270, y 71
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_zulu_rifles				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Kimberly
 character	random_name, general, age 45, x 263, y 79
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Freetown
 character	Samuel N_Congreve, named character, age 45, x 213, y 161
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_zulu_rifles				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Cape Coast
 character	random_name, general, age 45, x 227, y 155
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_zulu_rifles				exp 0 armour 0 weapon_lvl 0
 
 ;Accra
 character	random_name, general, age 45, x 229, y 156
 army
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_zulu_rifles				exp 0 armour 0 weapon_lvl 0
 
 ;Zanzibar
 character	George M_Wilson, named character, age 45, x 291, y 131
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
 
 ;Aden
 character	random_name, general, age 45, x 299, y 174
 army
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		merc_arab_brigade				exp 0 armour 0 weapon_lvl 0
 
 ;Shariah
@@ -3013,97 +3013,97 @@ unit		merc_arab_brigade				exp 0 armour 0 weapon_lvl 0
 ;Labuan
 character	random_name, general, age 45, x 397, y 152
 army
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Auckland
 character	random_name, general, age 45, x 487, y 53
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Calcutta
 character	Thomas Phipps_Hornby, named character, age 45, x 358, y 200
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_hussars_early				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Chittagong
 character	random_name, general, age 45, x 361, y 196
 army
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Tricomalee
 character	random_name, general, age 45, x 349, y 160
 army
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Bhopal
 character	Samuel Forestier_Walker, named character, age 45, x 345, y 195
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Madras
 character	Robert E_Bingham, named character, age 45, x 346, y 181
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Delhi
 character	Horace P_Pulteney, named character, age 45, x 341, y 208
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		pith_troopers				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_light_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_armstrong				exp 0 armour 0 weapon_lvl 1
 
 ;Peshawar
 character	random_name, general, age 45, x 338, y 216
 army
-unit		uk_blackwatch				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_highlanders_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Karachi
 character	John M_Harper, named character, age 45, x 331, y 200
 army
-unit		uk_pith_knights				exp 1 armour 0 weapon_lvl 0
-unit		indian_spear_cav				exp 0 armour 0 weapon_lvl 0
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_general				exp 1 armour 0 weapon_lvl 0
+unit		uk_indian_lancers				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Rangoon
 character	random_name, general, age 45, x 371, y 181
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Bombay
 character	random_name, general, age 45, x 338, y 189
 army
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Kedah
 character	random_name, general, age 45, x 376, y 158
 army
-unit		uk_sikh_reg				exp 0 armour 0 weapon_lvl 0
+unit		uk_indian_foot_early				exp 0 armour 0 weapon_lvl 0
 
 ;Turks and Caicos
 character	random_name, general, age 45, x 137, y 190
 army
-unit		uk_inf				exp 0 armour 0 weapon_lvl 0
+unit		uk_foot_early				exp 0 armour 0 weapon_lvl 0
 
 character	Howard E_Edmunds, admiral, male, age 42, x 220, y 262
 army
@@ -5776,7 +5776,7 @@ character	Franz_Joseph, named character, male, leader, age 54, battle_model fran
 traits		Factionleader 1
 army
 unit		aus_ulhans				exp 1 armour 0 weapon_lvl 0
-unit		dan_cav				exp 0 armour 0 weapon_lvl 0
+unit		dan_dragoon_early				exp 0 armour 0 weapon_lvl 0
 unit		aus_lancers				exp 0 armour 0 weapon_lvl 0
 unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
 unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
@@ -12710,11 +12710,11 @@ character	Christian Frederik, named character, male, leader, age 52, battle_mode
 traits		Factionleader 1
 army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
-unit		fra_guard_si				exp 0 armour 0 weapon_lvl 0
-unit		fra_guard_si				exp 0 armour 0 weapon_lvl 0
-unit		aus_inf_si				exp 0 armour 0 weapon_lvl 0
-unit		aus_inf_si				exp 0 armour 0 weapon_lvl 0
-unit		dan_cav				exp 0 armour 0 weapon_lvl 0
+unit		dan_fod_early				exp 0 armour 0 weapon_lvl 0
+unit		dan_fod_early				exp 0 armour 0 weapon_lvl 0
+unit		dan_light_early				exp 0 armour 0 weapon_lvl 0
+unit		dan_light_early				exp 0 armour 0 weapon_lvl 0
+unit		dan_dragoon_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Kiel
@@ -12722,34 +12722,34 @@ character	Frederik, named character, male, heir, age 30, x 245, y 267
 traits		Factionheir 1
 army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
-unit		aus_inf_si				exp 0 armour 0 weapon_lvl 0
-unit		fra_guard_si				exp 0 armour 0 weapon_lvl 0
+unit		dan_light_early				exp 0 armour 0 weapon_lvl 0
+unit		dan_fod_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Odense
 character	random_name, general, male, age 40, x 246, y 269
 army
-unit		aus_inf_si				exp 0 armour 0 weapon_lvl 0
+unit		dan_light_early				exp 0 armour 0 weapon_lvl 0
 
 ;Schleswig
 character	random_name, general, male, age 40, x 244, y 269
 army
-unit		fra_guard_si				exp 0 armour 0 weapon_lvl 0
+unit		dan_fod_early				exp 0 armour 0 weapon_lvl 0
 
 ;Aarhus
 character	random_name, general, male, age 40, x 245, y 272
 army
-unit		fra_guard_si				exp 0 armour 0 weapon_lvl 0
+unit		dan_fod_early				exp 0 armour 0 weapon_lvl 0
 
 ;Nuuk
 character	random_name, general, male, age 40, x 167, y 299
 army
-unit		fra_guard_si				exp 0 armour 0 weapon_lvl 0
+unit		dan_fod_early				exp 0 armour 0 weapon_lvl 0
 
 ;Reykjavik
 character	random_name, general, male, age 40, x 213, y 290
 army
-unit		fra_guard_si				exp 0 armour 0 weapon_lvl 0
+unit		dan_fod_early				exp 0 armour 0 weapon_lvl 0
 
 ;Copenhagen Fleet
 character	Joachim van_Dockum, admiral, male, age 46, x 242, y 271

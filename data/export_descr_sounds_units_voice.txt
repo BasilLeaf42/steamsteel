@@ -5937,6 +5937,204 @@ BANK: unit_voice
                                                   inf_unit_selection_1.wav
                                                   inf_unit_selection_2.wav
                                     end
+                                    unit fra_fusiliers_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_fusiliers_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_fusiliers_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_garde_mobile_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_garde_nationale_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_zouaves_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_zouaves_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_zouaves_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_chasseurs_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_chasseurs_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_chasseurs_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_guard_grenadiers_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_guard_grenadiers_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_legion_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_legion_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_legion_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_marins_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_marins_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_marins_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_senegalais_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_senegalais_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_senegalais_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_indochinois_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_cuirassiers
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_hussards
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_chasseurs_cheval
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_carabiniers_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_carabiniers_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_carabiniers_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_spahis_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_spahis_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_spahis_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
+                                    unit fra_general_staff
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/french
+                                                  inf_unit_selection_1.wav
+                                                  inf_unit_selection_2.wav
+                                    end
                                     unit Bohemond of Taranto
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map
@@ -23016,6 +23214,270 @@ BANK: unit_voice
                                                   art_unit_selection_short_2_2.wav
                                     end
                                     unit siam_riflemen_gr
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_gardegrenadiere_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_gardegrenadiere_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_gardegrenadiere_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_fusiliere_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_fusiliere_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_fusiliere_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_pioniere_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_pioniere_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_pioniere_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_jaeger_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_jaeger_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_jaeger_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_seesoldaten_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_seesoldaten_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_seesoldaten_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_wuerttemberg_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_wuerttemberg_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_bavarian_fusiliere_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_bavarian_fusiliere_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_bavarian_landwehr_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_bavarian_landwehr_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_hannover_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_hannover_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_sturmpioniere_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_schutztruppe_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_sturmtruppen_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_kuerassiere
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_husaren
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_dragoner_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_dragoner_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_dragoner_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_kolonialreiter_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit pru_general_staff
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/prussian
                                                   art_unit_selection_1.wav
@@ -50581,6 +51043,174 @@ BANK: unit_voice
                                                   art_unit_selection_short_2_1.wav
                                                   art_unit_selection_short_2_2.wav
                                     end
+                                    unit net_line_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_line_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_line_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_grenadiers_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_grenadiers_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_grenadiers_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_jagers_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_jagers_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_jagers_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_mariniers_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_mariniers_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_mariniers_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_schutterij_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_schutterij_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_schutterij_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_knil_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_knil_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_knil_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_dragonders
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_huzaren
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_karabiniers_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_karabiniers_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_karabiniers_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit net_general_staff
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
                                     unit nl_carbs
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/dutch
@@ -66047,7 +66677,7 @@ BANK: unit_voice
                                                   art_unit_selection_short_2_1.wav
                                                   art_unit_selection_short_2_2.wav
                                     end
-                                    unit dan_inf
+                                    unit dan_guard_high
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   art_unit_selection_1.wav
@@ -66081,7 +66711,7 @@ BANK: unit_voice
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   unit_specific_selection_cuirassiers.wav
                                     end
-                                    unit fra_guard_si
+                                    unit dan_fod_early
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   art_unit_selection_1.wav
@@ -66102,7 +66732,199 @@ BANK: unit_voice
                                                   art_unit_selection_short_2_1.wav
                                                   art_unit_selection_short_2_2.wav
                                     end
-                                    unit aus_inf_si
+                                    unit swe_line_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_line_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_line_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit nor_line_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit nor_line_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit nor_line_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_bevaring_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_bevaring_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_bevaring_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_jagare_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_jagare_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_jagare_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_guard_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_guard_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_guard_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit nor_guard_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit nor_guard_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit nor_guard_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_hussars
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_dragoons_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_dragoons_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_dragoons_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_lifeguard_horse
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit swe_general_staff
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/swed
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit dan_light_early
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   art_unit_selection_1.wav
@@ -67030,7 +67852,7 @@ BANK: unit_voice
                                                   dra_unit_selection_short_2_1.wav
                                                   dra_unit_selection_short_2_2.wav
                                     end
-                                    unit dan_inf
+                                    unit dan_guard_high
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   dra_unit_selection_1.wav
@@ -67064,7 +67886,7 @@ BANK: unit_voice
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   unit_specific_selection_cuirassiers.wav
                                     end
-                                    unit fra_guard_si
+                                    unit dan_fod_early
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   dra_unit_selection_1.wav
@@ -67085,7 +67907,7 @@ BANK: unit_voice
                                                   dra_unit_selection_short_2_1.wav
                                                   dra_unit_selection_short_2_2.wav
                                     end
-                                    unit aus_inf_si
+                                    unit dan_light_early
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   dra_unit_selection_1.wav
@@ -68032,7 +68854,7 @@ BANK: unit_voice
                                                   inf_unit_selection_short_2_1.wav
                                                   inf_unit_selection_short_2_2.wav
                                     end
-                                    unit dan_inf
+                                    unit dan_guard_high
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   inf_unit_selection_1.wav
@@ -68066,7 +68888,7 @@ BANK: unit_voice
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   unit_specific_selection_cuirassiers.wav
                                     end
-                                    unit fra_guard_si
+                                    unit dan_fod_early
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   inf_unit_selection_1.wav
@@ -68087,7 +68909,7 @@ BANK: unit_voice
                                                   inf_unit_selection_short_2_1.wav
                                                   inf_unit_selection_short_2_2.wav
                                     end
-                                    unit aus_inf_si
+                                    unit dan_light_early
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/swed
                                                   inf_unit_selection_1.wav

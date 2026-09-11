@@ -1,0 +1,1287 @@
+[
+  {
+    "id": "card_000_86ade9bf36",
+    "representative": "uk_camel_corps_high",
+    "faction": "england",
+    "nation": "British",
+    "name": "Imperial Camel Corps (Late; Magazine Carbine, Lee–Metford)",
+    "role": "carbine cavalry",
+    "weapon": "Magazine Carbine, Lee–Metford",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_000_86ade9bf36.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_camel_corps_high.tga"
+    ]
+  },
+  {
+    "id": "card_001_6dd870e96b",
+    "representative": "uk_dragoon_early",
+    "faction": "england",
+    "nation": "British",
+    "name": "Dragoons (Early) (Pistol, Adams Revolver; Sabre)",
+    "role": "pistol cavalry",
+    "weapon": "Sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_001_6dd870e96b.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_dragoon_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_dragoon_mid.tga"
+    ]
+  },
+  {
+    "id": "card_002_57d571d144",
+    "representative": "uk_dragoon_high",
+    "faction": "england",
+    "nation": "British",
+    "name": "Dragoons (Late; Pistol, Adams Revolver; Sabre)",
+    "role": "pistol cavalry",
+    "weapon": "Sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_002_57d571d144.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_dragoon_high.tga"
+    ]
+  },
+  {
+    "id": "card_003_b252264a94",
+    "representative": "uk_foot_early",
+    "faction": "england",
+    "nation": "British",
+    "name": "Foot (Early; Rifle-Musket, Pattern 1853 Enfield)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Pattern 1853 Enfield",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_003_b252264a94.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_foot_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_foot_mid.tga"
+    ]
+  },
+  {
+    "id": "card_004_f312b15720",
+    "representative": "uk_foot_high",
+    "faction": "england",
+    "nation": "British",
+    "name": "Foot (Late; Magazine Rifle, Lee–Metford Mk I)",
+    "role": "infantry",
+    "weapon": "Magazine Rifle, Lee–Metford Mk I",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_004_f312b15720.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_foot_high.tga"
+    ]
+  },
+  {
+    "id": "card_005_42f6fc50cf",
+    "representative": "uk_general",
+    "faction": "england",
+    "nation": "British",
+    "name": "British General and Staff (Adams Revolver, Sabre)",
+    "role": "general",
+    "weapon": "Adams Revolver, Sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_005_42f6fc50cf.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_general.tga"
+    ]
+  },
+  {
+    "id": "card_006_874a131be9",
+    "representative": "uk_guard_early",
+    "faction": "england",
+    "nation": "British",
+    "name": "Foot Guards (Early; Rifle-Musket, Pattern 1858 Enfield)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Pattern 1858 Enfield",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_006_874a131be9.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_guard_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_guard_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_guard_high.tga"
+    ]
+  },
+  {
+    "id": "card_007_2654df809a",
+    "representative": "uk_gurkhas_high",
+    "faction": "england",
+    "nation": "British",
+    "name": "Gurkhas (Late; Magazine Rifle, Lee–Enfield Mk I)",
+    "role": "infantry",
+    "weapon": "Magazine Rifle, Lee–Enfield Mk I",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_007_2654df809a.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_gurkhas_high.tga"
+    ]
+  },
+  {
+    "id": "card_008_d804d40a53",
+    "representative": "uk_highlanders_early",
+    "faction": "england",
+    "nation": "British",
+    "name": "Highlanders (Early; Rifle-Musket, Pattern 1858 Enfield)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Pattern 1858 Enfield",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_008_d804d40a53.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_highlanders_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_highlanders_mid.tga"
+    ]
+  },
+  {
+    "id": "card_009_e6feab6f3f",
+    "representative": "uk_highlanders_high",
+    "faction": "england",
+    "nation": "British",
+    "name": "Highlanders (Late; Magazine Rifle, Lee–Metford Mk I)",
+    "role": "infantry",
+    "weapon": "Magazine Rifle, Lee–Metford Mk I",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_009_e6feab6f3f.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_highlanders_high.tga"
+    ]
+  },
+  {
+    "id": "card_010_80976d1955",
+    "representative": "uk_hussars_early",
+    "faction": "england",
+    "nation": "British",
+    "name": "Hussars (Early; Pistol, Adams Revolver; Sabre)",
+    "role": "pistol cavalry",
+    "weapon": "Sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_010_80976d1955.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_hussars_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_hussars_mid.tga"
+    ]
+  },
+  {
+    "id": "card_011_fb0b286a95",
+    "representative": "uk_hussars_high",
+    "faction": "england",
+    "nation": "British",
+    "name": "Hussars (Late; Pistol, Adams Revolver; Sabre)",
+    "role": "pistol cavalry",
+    "weapon": "Sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_011_fb0b286a95.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_hussars_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_dragonders.tga"
+    ]
+  },
+  {
+    "id": "card_012_f7cf993e3b",
+    "representative": "uk_imperial_foot_early",
+    "faction": "england",
+    "nation": "British",
+    "name": "Imperial Foot (Early; Rifle-Musket, Pattern 1853 Enfield)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Pattern 1853 Enfield",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_012_f7cf993e3b.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_imperial_foot_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_imperial_foot_mid.tga"
+    ]
+  },
+  {
+    "id": "card_013_3ceda484ec",
+    "representative": "uk_imperial_foot_high",
+    "faction": "england",
+    "nation": "British",
+    "name": "Imperial Foot (Late; Magazine Rifle, Lee–Enfield Mk I)",
+    "role": "infantry",
+    "weapon": "Magazine Rifle, Lee–Enfield Mk I",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_013_3ceda484ec.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_imperial_foot_high.tga"
+    ]
+  },
+  {
+    "id": "card_014_efa25b8bfa",
+    "representative": "uk_indian_foot_early",
+    "faction": "england",
+    "nation": "British",
+    "name": "Indian Foot (Early; Rifle-Musket, Enfield Pattern 1859)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Enfield Pattern 1859",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_014_efa25b8bfa.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_indian_foot_early.tga"
+    ]
+  },
+  {
+    "id": "card_015_c83ac4dbbe",
+    "representative": "uk_indian_foot_mid",
+    "faction": "england",
+    "nation": "British",
+    "name": "Indian Foot (Mid; Rifle, Snider–Enfield Mk III)",
+    "role": "infantry",
+    "weapon": "Rifle, Snider–Enfield Mk III",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_015_c83ac4dbbe.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_indian_foot_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_indian_foot_high.tga"
+    ]
+  },
+  {
+    "id": "card_016_ca73d4d8fd",
+    "representative": "uk_indian_lancers",
+    "faction": "england",
+    "nation": "British",
+    "name": "Indian Lancers (Lance, Sabre)",
+    "role": "lancer cavalry",
+    "weapon": "Lance, Sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_016_ca73d4d8fd.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_indian_lancers.tga"
+    ]
+  },
+  {
+    "id": "card_017_47f26ee4ab",
+    "representative": "uk_light_early",
+    "faction": "england",
+    "nation": "British",
+    "name": "Light Foot (Early; Rifle-Musket, Pattern 1853 Enfield)",
+    "role": "infantry skirmisher",
+    "weapon": "Rifle-Musket, Pattern 1853 Enfield",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_017_47f26ee4ab.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_light_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_light_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_light_high.tga"
+    ]
+  },
+  {
+    "id": "card_018_d0dcc79944",
+    "representative": "uk_marines_early",
+    "faction": "england",
+    "nation": "British",
+    "name": "Royal Marines (Early; Rifle-Musket, Pattern 1853 Enfield)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Pattern 1853 Enfield",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_018_d0dcc79944.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_marines_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_marines_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\england\\#uk_marines_high.tga"
+    ]
+  },
+  {
+    "id": "card_019_87e72fec96",
+    "representative": "fra_carabiniers_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Carabiniers (Early; Carabine de cavalerie modèle 1853)",
+    "role": "carbine cavalry",
+    "weapon": "Carabine de cavalerie modèle 1853",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_019_87e72fec96.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_carabiniers_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_carabiniers_mid.tga"
+    ]
+  },
+  {
+    "id": "card_020_048b9b3812",
+    "representative": "fra_carabiniers_high",
+    "faction": "france",
+    "nation": "French",
+    "name": "Carabiniers (Late; Mousqueton de cavalerie modèle 1890 Berthier)",
+    "role": "carbine cavalry",
+    "weapon": "Mousqueton de cavalerie modèle 1890 Berthier",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_020_048b9b3812.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_carabiniers_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_carbineers_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_carbineers_high.tga"
+    ]
+  },
+  {
+    "id": "card_021_bbf12332c8",
+    "representative": "fra_chasseurs_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Chasseurs à pied (Early; Rifle-Musket, Carabine de chasseurs modèle 1859)",
+    "role": "infantry skirmisher",
+    "weapon": "Rifle-Musket, Carabine de chasseurs modèle 1859",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_021_bbf12332c8.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_chasseurs_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_chasseurs_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_chasseurs_high.tga"
+    ]
+  },
+  {
+    "id": "card_022_564fa6667b",
+    "representative": "fra_fusiliers_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Fusiliers (Early; Rifle-Musket, Fusil d’infanterie modèle 1857)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Fusil d’infanterie modèle 1857",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_022_564fa6667b.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_fusiliers_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_fusiliers_mid.tga"
+    ]
+  },
+  {
+    "id": "card_023_847898915d",
+    "representative": "fra_fusiliers_high",
+    "faction": "france",
+    "nation": "French",
+    "name": "Fusiliers (Late; Magazine Rifle, Fusil modèle 1886 Lebel)",
+    "role": "infantry",
+    "weapon": "Magazine Rifle, Fusil modèle 1886 Lebel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_023_847898915d.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_fusiliers_high.tga"
+    ]
+  },
+  {
+    "id": "card_024_6e6d4149f1",
+    "representative": "fra_garde_mobile_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Garde mobile (Early; Rifle-Musket, Fusil modèle 1857)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Fusil modèle 1857",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_024_6e6d4149f1.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_garde_mobile_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_garde_nationale_mid.tga"
+    ]
+  },
+  {
+    "id": "card_025_cb2043c287",
+    "representative": "fra_general_staff",
+    "faction": "france",
+    "nation": "French",
+    "name": "Général et état-major (Revolver Lefaucheux modèle 1858 et sabre)",
+    "role": "general",
+    "weapon": "Revolver Lefaucheux modèle 1858 et sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_025_cb2043c287.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_general_staff.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_general.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_general_staff.tga"
+    ]
+  },
+  {
+    "id": "card_026_f25d91f2bc",
+    "representative": "fra_guard",
+    "faction": "france",
+    "nation": "French",
+    "name": "Sapeurs",
+    "role": "infantry skirmisher",
+    "weapon": "the weapon shown in the reference",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_026_f25d91f2bc.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_guard.tga"
+    ]
+  },
+  {
+    "id": "card_027_8ad5616b5f",
+    "representative": "fra_guard_grenadiers_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Grenadiers de la Garde impériale (Early; Rifle-Musket, Fusil modèle 1857)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Fusil modèle 1857",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_027_8ad5616b5f.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_guard_grenadiers_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_guard_grenadiers_mid.tga"
+    ]
+  },
+  {
+    "id": "card_028_ce5e353a8f",
+    "representative": "fra_hussards",
+    "faction": "france",
+    "nation": "French",
+    "name": "Hussards (Revolver Lefaucheux modèle 1858 et sabre)",
+    "role": "pistol cavalry",
+    "weapon": "Revolver Lefaucheux modèle 1858 et sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_028_ce5e353a8f.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_hussards.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_chasseurs_cheval.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_huzaren.tga"
+    ]
+  },
+  {
+    "id": "card_029_5141efe0b5",
+    "representative": "fra_indochinois_high",
+    "faction": "france",
+    "nation": "French",
+    "name": "Tirailleurs indochinois (Late; Rifle, Fusil modèle 1874 Gras)",
+    "role": "infantry",
+    "weapon": "Rifle, Fusil modèle 1874 Gras",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_029_5141efe0b5.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_indochinois_high.tga"
+    ]
+  },
+  {
+    "id": "card_030_15ebf35e95",
+    "representative": "fra_legion_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Légion étrangère (Early; Rifle-Musket, Fusil modèle 1853 T)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Fusil modèle 1853 T",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_030_15ebf35e95.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_legion_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_legion_mid.tga"
+    ]
+  },
+  {
+    "id": "card_031_c0f366a4b8",
+    "representative": "fra_legion_high",
+    "faction": "france",
+    "nation": "French",
+    "name": "Légion étrangère (Late; Magazine Rifle, Fusil modèle 1886 Lebel)",
+    "role": "infantry",
+    "weapon": "Magazine Rifle, Fusil modèle 1886 Lebel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_031_c0f366a4b8.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_legion_high.tga"
+    ]
+  },
+  {
+    "id": "card_032_fea6751cf6",
+    "representative": "fra_marins_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Fusiliers marins (Early; Rifle-Musket, Fusil de marine modèle 1857)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Fusil de marine modèle 1857",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_032_fea6751cf6.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_marins_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_marins_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_marins_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_marines_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_marines_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_marines_high.tga"
+    ]
+  },
+  {
+    "id": "card_033_05e311f27d",
+    "representative": "fra_senegalais_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Tirailleurs sénégalais (Early; Rifle-Musket, Fusil modèle 1842 T)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Fusil modèle 1842 T",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_033_05e311f27d.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_senegalais_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_senegalais_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_senegalais_high.tga"
+    ]
+  },
+  {
+    "id": "card_034_c101429a68",
+    "representative": "fra_spahis_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Spahis (Early; Carabine de cavalerie modèle 1857)",
+    "role": "carbine cavalry",
+    "weapon": "Carabine de cavalerie modèle 1857",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_034_c101429a68.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_spahis_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_spahis_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_spahis_high.tga"
+    ]
+  },
+  {
+    "id": "card_035_6f46547c91",
+    "representative": "fra_zouaves_early",
+    "faction": "france",
+    "nation": "French",
+    "name": "Zouaves (Early; Rifle-Musket, Fusil de voltigeur modèle 1857)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Fusil de voltigeur modèle 1857",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_035_6f46547c91.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_zouaves_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_zouaves_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_zouaves_high.tga"
+    ]
+  },
+  {
+    "id": "card_036_4a96264c2c",
+    "representative": "pru_bavarian_fusiliere_mid",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Bayerische Füsiliere (Mid; Aptiertes Gewehr M/69)",
+    "role": "infantry",
+    "weapon": "Aptiertes Gewehr M/69",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_036_4a96264c2c.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_bavarian_fusiliere_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_bavarian_fusiliere_high.tga"
+    ]
+  },
+  {
+    "id": "card_037_c6f92e0a1e",
+    "representative": "pru_bavarian_landwehr_mid",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Bayerische Landwehr (Mid; Werdergewehr M/69)",
+    "role": "infantry",
+    "weapon": "Werdergewehr M/69",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_037_c6f92e0a1e.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_bavarian_landwehr_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_bavarian_landwehr_high.tga"
+    ]
+  },
+  {
+    "id": "card_038_9592564024",
+    "representative": "pru_dragoner_early",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Preußische Dragoner (Early; Zündnadelkarabiner M/57)",
+    "role": "carbine cavalry",
+    "weapon": "Zündnadelkarabiner M/57",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_038_9592564024.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_dragoner_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_dragoner_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_dragoner_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_karabiniers_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_karabiniers_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_karabiniers_high.tga"
+    ]
+  },
+  {
+    "id": "card_039_725ccd7bbd",
+    "representative": "pru_fusiliere_early",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Preußische Füsiliere (Early; Zündnadelgewehr M/41)",
+    "role": "infantry",
+    "weapon": "Zündnadelgewehr M/41",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_039_725ccd7bbd.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_fusiliere_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_fusiliere_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_seesoldaten_early.tga"
+    ]
+  },
+  {
+    "id": "card_040_ebfa624c17",
+    "representative": "pru_fusiliere_high",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Preußische Füsiliere (Late; Gewehr 98)",
+    "role": "infantry",
+    "weapon": "Gewehr 98",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_040_ebfa624c17.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_fusiliere_high.tga"
+    ]
+  },
+  {
+    "id": "card_041_efeacccd77",
+    "representative": "pru_general_staff",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "General und Stab (Zündnadelpistole M/57 und Säbel)",
+    "role": "general",
+    "weapon": "Zündnadelpistole M/57 und Säbel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_041_efeacccd77.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_general_staff.tga"
+    ]
+  },
+  {
+    "id": "card_042_bd6e3046fc",
+    "representative": "pru_hannover_mid",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Hannoversche Füsiliere (Mid; Gewehr M/71)",
+    "role": "infantry",
+    "weapon": "Gewehr M/71",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_042_bd6e3046fc.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_hannover_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_hannover_high.tga"
+    ]
+  },
+  {
+    "id": "card_043_028f8f3ac1",
+    "representative": "pru_husaren",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Preußische Husaren (Zündnadelpistole M/57 und Säbel)",
+    "role": "pistol cavalry",
+    "weapon": "Zündnadelpistole M/57 und Säbel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_043_028f8f3ac1.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_husaren.tga"
+    ]
+  },
+  {
+    "id": "card_044_fa64a9c562",
+    "representative": "pru_jaeger_early",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Preußische Jäger (Early; Zündnadelbüchse M/54)",
+    "role": "infantry skirmisher",
+    "weapon": "Zündnadelbüchse M/54",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_044_fa64a9c562.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_jaeger_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_jaeger_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_jaeger_high.tga"
+    ]
+  },
+  {
+    "id": "card_045_24f245fb12",
+    "representative": "pru_kolonialreiter_high",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Kolonialreiter (Late; Karabiner 88 und Säbel)",
+    "role": "carbine cavalry",
+    "weapon": "Karabiner 88 und Säbel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_045_24f245fb12.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_kolonialreiter_high.tga"
+    ]
+  },
+  {
+    "id": "card_046_471f298b65",
+    "representative": "pru_kuerassiere",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Preußische Kürassiere (Zündnadelpistole M/57 und Säbel)",
+    "role": "pistol cavalry",
+    "weapon": "Zündnadelpistole M/57 und Säbel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_046_471f298b65.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_kuerassiere.tga"
+    ]
+  },
+  {
+    "id": "card_047_ed219034e7",
+    "representative": "pru_pioniere_early",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Preußische Pioniere (Early; Zündnadelpioniergewehr U/M)",
+    "role": "infantry",
+    "weapon": "Zündnadelpioniergewehr U/M",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_047_ed219034e7.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_pioniere_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_pioniere_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_pioniere_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_gardegrenadiere_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_gardegrenadiere_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_gardegrenadiere_high.tga"
+    ]
+  },
+  {
+    "id": "card_048_122677d61d",
+    "representative": "pru_schutztruppe_high",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Schutztruppe (Late; Gewehr 88)",
+    "role": "infantry skirmisher",
+    "weapon": "Gewehr 88",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_048_122677d61d.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_schutztruppe_high.tga"
+    ]
+  },
+  {
+    "id": "card_049_6311492461",
+    "representative": "pru_seesoldaten_mid",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Seesoldaten (Mid; Gewehr M/71)",
+    "role": "infantry",
+    "weapon": "Gewehr M/71",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_049_6311492461.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_seesoldaten_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_seesoldaten_high.tga"
+    ]
+  },
+  {
+    "id": "card_050_0d256c65d3",
+    "representative": "pru_sturmpioniere_high",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Sturmpioniere (Late; Gewehr 98)",
+    "role": "infantry",
+    "weapon": "Gewehr 98",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_050_0d256c65d3.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_sturmpioniere_high.tga"
+    ]
+  },
+  {
+    "id": "card_051_7fdb4f9189",
+    "representative": "pru_sturmtruppen_high",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Sturmtruppen (Spät)",
+    "role": "infantry skirmisher",
+    "weapon": "Spät",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_051_7fdb4f9189.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_sturmtruppen_high.tga"
+    ]
+  },
+  {
+    "id": "card_052_7a098f4473",
+    "representative": "pru_wuerttemberg_mid",
+    "faction": "hre",
+    "nation": "Prussian or German",
+    "name": "Württembergische Füsiliere (Mid; Zündnadelgewehr M/65)",
+    "role": "infantry",
+    "weapon": "Zündnadelgewehr M/65",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_052_7a098f4473.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_wuerttemberg_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\hre\\#pru_wuerttemberg_high.tga"
+    ]
+  },
+  {
+    "id": "card_053_434d0d6cd2",
+    "representative": "gre_evzones_early",
+    "faction": "mongols",
+    "nation": "Greek",
+    "name": "Evzones (Early; Greek Minié Rifle-Musket)",
+    "role": "infantry skirmisher",
+    "weapon": "Greek Minié Rifle-Musket",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_053_434d0d6cd2.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_evzones_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_evzones_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_evzones_high.tga"
+    ]
+  },
+  {
+    "id": "card_054_963ff99340",
+    "representative": "gre_lancers",
+    "faction": "mongols",
+    "nation": "Greek",
+    "name": "Ipparchía Lonchistón (lance and sabre)",
+    "role": "lancer cavalry",
+    "weapon": "lance and sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_054_963ff99340.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_lancers.tga"
+    ]
+  },
+  {
+    "id": "card_055_b27193234f",
+    "representative": "gre_line_early",
+    "faction": "mongols",
+    "nation": "Greek",
+    "name": "Pezikó (Early; Greek Minié Rifle-Musket)",
+    "role": "infantry",
+    "weapon": "Greek Minié Rifle-Musket",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_055_b27193234f.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_line_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_line_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_line_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_ethnofylaki_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_efedroi_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_efedroi_high.tga"
+    ]
+  },
+  {
+    "id": "card_056_76c512055c",
+    "representative": "gre_royal_escort",
+    "faction": "mongols",
+    "nation": "Greek",
+    "name": "Ágima (Lefaucheux M1854 revolver and sabre)",
+    "role": "pistol cavalry",
+    "weapon": "Lefaucheux M1854 revolver and sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_056_76c512055c.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_royal_escort.tga"
+    ]
+  },
+  {
+    "id": "card_057_5a27a0e785",
+    "representative": "gre_sappers_high",
+    "faction": "mongols",
+    "nation": "Greek",
+    "name": "Michanikó (Late; Incendiary equipment)",
+    "role": "infantry",
+    "weapon": "Incendiary equipment",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_057_5a27a0e785.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_sappers_high.tga"
+    ]
+  },
+  {
+    "id": "card_058_6f0fbe8e4f",
+    "representative": "nor_line_early",
+    "faction": "normans",
+    "nation": "Swedish or Norwegian",
+    "name": "Norsk linjeinfanteri (Early; Kammerlader m/1849/55)",
+    "role": "infantry",
+    "weapon": "Kammerlader m/1849/55",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_058_6f0fbe8e4f.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#nor_line_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#nor_line_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_guard_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_guard_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_guard_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#nor_guard_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#nor_guard_mid.tga"
+    ]
+  },
+  {
+    "id": "card_059_5f0542d0ff",
+    "representative": "nor_line_high",
+    "faction": "normans",
+    "nation": "Swedish or Norwegian",
+    "name": "Norsk linjeinfanteri (Late; Krag–Jørgensen m/1894)",
+    "role": "infantry",
+    "weapon": "Krag–Jørgensen m/1894",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_059_5f0542d0ff.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#nor_line_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#nor_guard_high.tga"
+    ]
+  },
+  {
+    "id": "card_060_e724972bd3",
+    "representative": "swe_general_staff",
+    "faction": "normans",
+    "nation": "Swedish or Norwegian",
+    "name": "General och stab (Revolver m/1871 och sabel)",
+    "role": "general",
+    "weapon": "Revolver m/1871 och sabel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_060_e724972bd3.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_general_staff.tga"
+    ]
+  },
+  {
+    "id": "card_061_f1b28b09af",
+    "representative": "swe_hussars",
+    "faction": "normans",
+    "nation": "Swedish or Norwegian",
+    "name": "Livregementets husarer (Pistol m/1850 och sabel)",
+    "role": "pistol cavalry",
+    "weapon": "Pistol m/1850 och sabel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_061_f1b28b09af.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_hussars.tga"
+    ]
+  },
+  {
+    "id": "card_062_e4b9ee00c6",
+    "representative": "swe_lifeguard_horse",
+    "faction": "normans",
+    "nation": "Swedish or Norwegian",
+    "name": "Livgardet till häst (Revolver m/1871 och sabel)",
+    "role": "pistol cavalry",
+    "weapon": "Revolver m/1871 och sabel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_062_e4b9ee00c6.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_lifeguard_horse.tga"
+    ]
+  },
+  {
+    "id": "card_063_04b3c57a1f",
+    "representative": "swe_line_early",
+    "faction": "normans",
+    "nation": "Swedish or Norwegian",
+    "name": "Svenskt linjeinfanteri (Early; Gevär m/1860)",
+    "role": "infantry",
+    "weapon": "Gevär m/1860",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_063_04b3c57a1f.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_line_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_line_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_line_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_bevaring_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_bevaring_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_bevaring_high.tga"
+    ]
+  },
+  {
+    "id": "card_064_9a9e2b0a93",
+    "representative": "net_general_staff",
+    "faction": "portugal",
+    "nation": "Dutch",
+    "name": "Generaal en Staf (Revolver M1873 en sabel)",
+    "role": "general",
+    "weapon": "Revolver M1873 en sabel",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_064_9a9e2b0a93.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_general_staff.tga"
+    ]
+  },
+  {
+    "id": "card_065_e7dcebe2b2",
+    "representative": "net_grenadiers_early",
+    "faction": "portugal",
+    "nation": "Dutch",
+    "name": "Grenadiers (Early; Getrokken Geweer No. 1)",
+    "role": "infantry",
+    "weapon": "Getrokken Geweer No. 1",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_065_e7dcebe2b2.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_grenadiers_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_grenadiers_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_grenadiers_high.tga"
+    ]
+  },
+  {
+    "id": "card_066_072ed272a4",
+    "representative": "net_jagers_early",
+    "faction": "portugal",
+    "nation": "Dutch",
+    "name": "Jagers (Early; Getrokken Geweer No. 1)",
+    "role": "infantry skirmisher",
+    "weapon": "Getrokken Geweer No. 1",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_066_072ed272a4.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_jagers_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_jagers_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_jagers_high.tga"
+    ]
+  },
+  {
+    "id": "card_067_9fa3a964f0",
+    "representative": "net_knil_early",
+    "faction": "portugal",
+    "nation": "Dutch",
+    "name": "Koninklijk Nederlands-Indisch Leger (Early; Pattern 1853 Enfield)",
+    "role": "infantry",
+    "weapon": "Pattern 1853 Enfield",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_067_9fa3a964f0.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_knil_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_knil_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_knil_high.tga"
+    ]
+  },
+  {
+    "id": "card_068_07cfd61232",
+    "representative": "net_line_early",
+    "faction": "portugal",
+    "nation": "Dutch",
+    "name": "Infanterie van Linie (Early; Getrokken Geweer No. 1)",
+    "role": "infantry",
+    "weapon": "Getrokken Geweer No. 1",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_068_07cfd61232.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_line_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_line_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_schutterij_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_schutterij_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_schutterij_high.tga"
+    ]
+  },
+  {
+    "id": "card_069_e9c19036d8",
+    "representative": "net_line_high",
+    "faction": "portugal",
+    "nation": "Dutch",
+    "name": "Infanterie van Linie (Late; Beaumont-Vitaligeweer M1871/88)",
+    "role": "infantry",
+    "weapon": "Beaumont-Vitaligeweer M1871/88",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_069_e9c19036d8.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_line_high.tga"
+    ]
+  },
+  {
+    "id": "card_070_1a7212941d",
+    "representative": "net_mariniers_early",
+    "faction": "portugal",
+    "nation": "Dutch",
+    "name": "Korps Mariniers (Early; Getrokken Marinegeweer No. 1)",
+    "role": "infantry",
+    "weapon": "Getrokken Marinegeweer No. 1",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_070_1a7212941d.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_mariniers_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_mariniers_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\portugal\\#net_mariniers_high.tga"
+    ]
+  },
+  {
+    "id": "card_071_180d880024",
+    "representative": "dan_cuirassier",
+    "faction": "sicily",
+    "nation": "Danish",
+    "name": "Livgarden til Hest (Revolver Lefaucheux M/1858, Sabre)",
+    "role": "pistol cavalry",
+    "weapon": "Revolver Lefaucheux M/1858, Sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_071_180d880024.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_cuirassier.tga"
+    ]
+  },
+  {
+    "id": "card_072_f216e2196c",
+    "representative": "dan_dragoon_early",
+    "faction": "sicily",
+    "nation": "Danish",
+    "name": "Dragoner (Early; Rifle-Musket Carbine, Lorenz M/1854)",
+    "role": "carbine cavalry",
+    "weapon": "Rifle-Musket Carbine, Lorenz M/1854",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_072_f216e2196c.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_dragoon_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_dragoon_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_dragoon_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_dragoons_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_dragoons_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_dragoons_high.tga"
+    ]
+  },
+  {
+    "id": "card_073_35c0d0daa2",
+    "representative": "dan_fod_early",
+    "faction": "sicily",
+    "nation": "Danish",
+    "name": "Fod (Early; Rifle-Musket, M1822 Mod. Minié)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, M1822 Mod. Minié",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_073_35c0d0daa2.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_fod_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_fod_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_fod_high.tga"
+    ]
+  },
+  {
+    "id": "card_074_127dcd142d",
+    "representative": "dan_guard_early",
+    "faction": "sicily",
+    "nation": "Danish",
+    "name": "Livgarde til Fods (Early; Rifle-Musket, M/1848/54)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, M/1848/54",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_074_127dcd142d.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_guard_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_guard_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_guard_high.tga"
+    ]
+  },
+  {
+    "id": "card_075_f48e3973ff",
+    "representative": "dan_hussars",
+    "faction": "sicily",
+    "nation": "Danish",
+    "name": "Gardehusarer (Revolver Lefaucheux M/1858, Sabre)",
+    "role": "pistol cavalry",
+    "weapon": "Revolver Lefaucheux M/1858, Sabre",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_075_f48e3973ff.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_hussars.tga"
+    ]
+  },
+  {
+    "id": "card_076_9c7c876a2d",
+    "representative": "dan_light_early",
+    "faction": "sicily",
+    "nation": "Danish",
+    "name": "Lette Fod (Early; Rifle-Musket, M/1848/54)",
+    "role": "infantry skirmisher",
+    "weapon": "Rifle-Musket, M/1848/54",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_076_9c7c876a2d.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_light_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_light_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\sicily\\#dan_light_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_jagare_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_jagare_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\normans\\#swe_jagare_high.tga"
+    ]
+  },
+  {
+    "id": "card_077_6a57ed9386",
+    "representative": "austro_sailor_spain_early",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "austro_sailor_spain_early",
+    "role": "infantry",
+    "weapon": "the weapon shown in the reference",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_077_6a57ed9386.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#austro_sailor_spain_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#austro_sailor_spain_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#austro_sailor_spain_high.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_marines_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_marines_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mongols\\#gre_marines_high.tga"
+    ]
+  },
+  {
+    "id": "card_078_e9e7be82b0",
+    "representative": "civil_guard",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "General y Estado Mayor",
+    "role": "general",
+    "weapon": "the weapon shown in the reference",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_078_e9e7be82b0.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#civil_guard.tga"
+    ]
+  },
+  {
+    "id": "card_079_dd3bc651c1",
+    "representative": "cuban_inf_high",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "Cuban Infantry (Magazine Rifle, Fusil Mauser M1895)",
+    "role": "infantry skirmisher",
+    "weapon": "Magazine Rifle, Fusil Mauser M1895",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_079_dd3bc651c1.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#cuban_inf_high.tga"
+    ]
+  },
+  {
+    "id": "card_080_b76ea90243",
+    "representative": "euro_hussars",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "Lanceros",
+    "role": "lancer cavalry",
+    "weapon": "the weapon shown in the reference",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_080_b76ea90243.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#euro_hussars.tga"
+    ]
+  },
+  {
+    "id": "card_081_8637501474",
+    "representative": "spa_cav_early",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "Carabineros (Early)",
+    "role": "carbine cavalry",
+    "weapon": "Early",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_081_8637501474.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_cav_early.tga"
+    ]
+  },
+  {
+    "id": "card_082_35836ac766",
+    "representative": "spa_cav_mid",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "Carabineros (Mid)",
+    "role": "carbine cavalry",
+    "weapon": "Mid",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_082_35836ac766.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_cav_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_cav_high.tga"
+    ]
+  },
+  {
+    "id": "card_083_d604b70880",
+    "representative": "spa_caz_early",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "spa_caz_early",
+    "role": "infantry skirmisher",
+    "weapon": "the weapon shown in the reference",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_083_d604b70880.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_caz_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_caz_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_caz_high.tga"
+    ]
+  },
+  {
+    "id": "card_084_74eb8414de",
+    "representative": "spa_col_cav_mid",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "Caballería Indígenas",
+    "role": "pistol cavalry",
+    "weapon": "the weapon shown in the reference",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_084_74eb8414de.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_col_cav_mid.tga"
+    ]
+  },
+  {
+    "id": "card_085_72e6eba2fd",
+    "representative": "spa_col_inf_early",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "Spanish Colonial Infantry (Rifle-Musket, Fusil Modelo 1846 trans. 1857)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Fusil Modelo 1846 trans. 1857",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_085_72e6eba2fd.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_col_inf_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_col_inf_mid.tga"
+    ]
+  },
+  {
+    "id": "card_086_705447bc85",
+    "representative": "spa_col_inf_high",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "Spanish Colonial Infantry (Magazine Rifle, Fusil Mauser M1893)",
+    "role": "infantry",
+    "weapon": "Magazine Rifle, Fusil Mauser M1893",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_086_705447bc85.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_col_inf_high.tga"
+    ]
+  },
+  {
+    "id": "card_087_8374e2bf2e",
+    "representative": "spa_cuirassiers_early",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "Coracero",
+    "role": "pistol cavalry",
+    "weapon": "the weapon shown in the reference",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_087_8374e2bf2e.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_cuirassiers_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\france\\#fra_cuirassiers.tga"
+    ]
+  },
+  {
+    "id": "card_088_eb6ce1143a",
+    "representative": "spa_inf_early",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "spa_inf_early",
+    "role": "infantry",
+    "weapon": "the weapon shown in the reference",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_088_eb6ce1143a.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_inf_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_inf_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_inf_high.tga"
+    ]
+  },
+  {
+    "id": "card_089_69250c9f36",
+    "representative": "spa_milicia_nacional_early",
+    "faction": "spain",
+    "nation": "Spanish",
+    "name": "Segunda Regiment (Rifle-Musket, Fusil Modelo 1859 Minie)",
+    "role": "infantry",
+    "weapon": "Rifle-Musket, Fusil Modelo 1859 Minie",
+    "reference": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\card_generation_refs\\card_089_69250c9f36.png",
+    "members": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_milicia_nacional_early.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_milicia_nacional_mid.tga",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\spain\\#spa_milicia_nacional_high.tga"
+    ]
+  }
+]

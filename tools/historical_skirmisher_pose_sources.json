@@ -1,0 +1,44 @@
+[
+  {
+    "id": "kneel_aim_waud_1860_65",
+    "role": "infantry skirmisher kneeling aim",
+    "source_url": "https://www.loc.gov/pictures/item/2004660926/",
+    "source_file": "tools/historical_card_refs/skirmisher_poses/kneeling_aim_waud_1860_65.jpg",
+    "source_title": "A kneeling rifleman",
+    "creator": "Alfred R. Waud",
+    "source_date": "between 1860 and 1865",
+    "licence": "No known restrictions on publication; Public Domain Mark",
+    "depicted_subject": "Civil War-era sharpshooter kneeling on the right knee and aiming a long rifle",
+    "mapping_note": "Approved for a compact kneeling aiming composition. Preserve the right-knee-down stance, left elbow braced on the raised left knee, right hand at the trigger wrist, left hand under the fore-end, butt at the shoulder, and rifle orientation.",
+    "status": "approved"
+  },
+  {
+    "id": "kneel_aim_photo_1871",
+    "role": "infantry skirmisher kneeling aim",
+    "source_url": "https://www.loc.gov/pictures/item/2022654838/",
+    "source_file": "tools/historical_card_refs/skirmisher_poses/kneeling_aim_photo_1871.jpg",
+    "source_title": "Gems of American life: man kneeling in the snow and aiming a gun",
+    "creator": "F. L. Stubbs, publisher; photographer unidentified",
+    "source_date": "1871",
+    "licence": "No known restrictions on publication",
+    "depicted_subject": "Period photographic stereograph of a man firing a long gun from one knee",
+    "mapping_note": "Approved as photographic evidence for anatomy and two-handed rifle handling. Preserve the right-knee-down stance, left forearm braced on the raised knee, cheek weld, shoulder contact, trigger-hand position, and support hand beneath the fore-end; replace civilian clothing and the exact firearm from the unit-specific references.",
+    "base_file": "tools/historical_card_pilots/fra_chasseurs_early.png",
+    "base_status": "approved",
+    "base_note": "Approved early French Chasseur master for this pose. Reuse by localized uniform/equipment edits while preserving anatomy, grip, shoulder contact, and rifle geometry when compatible.",
+    "status": "approved"
+  },
+  {
+    "id": "kneel_drill_plate_xvi_1862",
+    "role": "infantry skirmisher kneeling ready and present",
+    "source_url": "https://archive.org/details/cihm_34208/page/n208/mode/1up",
+    "source_file": "tools/historical_card_refs/skirmisher_poses/kneeling_drill_plate_xvi_1862.jpg",
+    "source_title": "Field Exercise and Evolutions of Infantry, Plate XVI",
+    "creator": "Great Britain War Office",
+    "source_date": "1862",
+    "licence": "Public domain",
+    "depicted_subject": "Official British infantry drill plate showing front- and rear-rank kneeling ready and present positions",
+    "mapping_note": "Approved for the four illustrated kneeling drill compositions. Select one complete figure and preserve its knee placement, torso angle, arm positions, rifle orientation, and named ready or present action; do not combine limbs or weapon positions from different figures.",
+    "status": "approved"
+  }
+]
