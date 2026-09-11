@@ -38823,6 +38823,246 @@ BANK: unit_voice
                                                   art_unit_selection_short_2_1.wav
                                                   art_unit_selection_short_2_2.wav
                                     end
+                                    unit ita_line_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_line_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_line_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_milizia_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_milizia_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_milizia_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_granatieri_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_granatieri_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_granatieri_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_bersaglieri_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_bersaglieri_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_bersaglieri_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_alpini_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_alpini_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_marina_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_marina_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_marina_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_zappatori_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_zappatori_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_zappatori_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_garibaldini_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_arditi_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_ascari_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_libici_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_cavalleggeri
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_lancieri
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_general_staff
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_carabinieri_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_carabinieri_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit ita_carabinieri_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/italian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
                                     unit it_roman
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/italian
@@ -47884,6 +48124,278 @@ BANK: unit_voice
                                                   art_unit_selection_short_2_2.wav
                                     end
                                     unit rus_conscript_ru
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_pekhota_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_pekhota_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_pekhota_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_opolchenie_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_opolchenie_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_opolchenie_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_leib_guard_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_leib_guard_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_leib_guard_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_grenadery_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_grenadery_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_grenadery_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_strelki_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_strelki_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_strelki_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_marines_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_marines_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_marines_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_sapery_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_sapery_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_sapery_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_siberian_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_siberian_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_siberian_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_draguny_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_draguny_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_draguny_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_kazaki_early
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_kazaki_mid
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_kazaki_high
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_gusary
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_ulany
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_guard_cuirassiers
+                                    event
+                                             folder data/sounds/Voice/Human/Localized/Battle_Map/russian
+                                                  art_unit_selection_1.wav
+                                                  art_unit_selection_2.wav
+                                                  art_unit_selection_short_2_1.wav
+                                                  art_unit_selection_short_2_2.wav
+                                    end
+                                    unit rus_general_staff
                                     event
                                              folder data/sounds/Voice/Human/Localized/Battle_Map/russian
                                                   art_unit_selection_1.wav

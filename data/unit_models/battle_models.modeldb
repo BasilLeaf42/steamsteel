@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 932 0 0 
+22 serialization::archive 3 0 0 0 0 996 0 0 
 5 blank 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 10 mount_pony 
 1 3 
@@ -1100,11 +1100,11 @@
 5 spain 
 50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 5 spain 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -1130,11 +1130,11 @@
 5 spain 
 50 unit_models/_Units/aus/textures/aus_lan_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_lan_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 5 spain 
 58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
@@ -1197,11 +1197,11 @@
 8 timurids 
 50 unit_models/_Units/afg/textures/afg_lan_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/afg/textures/afg_lan_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 8 timurids 
 58 unit_models/_Units/attachments/textures/afg_rugbxx.texture 
@@ -3450,11 +3450,11 @@
 7 mongols 
 50 unit_models/_Units/gre/textures/gre_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/gre/textures/gre_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 7 mongols 
 58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
@@ -3756,19 +3756,19 @@
 5 turks 
 50 unit_models/_Units/ott/textures/ott_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 golden 
 50 unit_models/_Units/oma/textures/oma_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 moors 
 50 unit_models/_Units/ott/textures/mor_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/ott/textures/ott_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 5 turks 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
@@ -3963,11 +3963,11 @@
 7 england 
 50 unit_models/_Units/eng/textures/eng_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/eng/textures/eng_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 7 england 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -3992,15 +3992,15 @@
 6 aztecs 
 50 unit_models/_Units/mex/textures/mex_lan_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 scotland 
 50 unit_models/_Units/mex/textures/mex_lan_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/arg/textures/mex_lan_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 6 aztecs 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -4133,11 +4133,11 @@
 12 papal_states 
 50 unit_models/_Units/aby/textures/aby_inf_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr  
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aby/textures/aby_inf_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 12 papal_states 
 58 unit_models/_Units/attachments/textures/afr_grfrgb.texture 
@@ -4163,11 +4163,11 @@
 7 england 
 50 unit_models/_Units/eng/textures/eng_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/eng/textures/eng_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 7 england 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -4194,11 +4194,11 @@
 12 papal_states 
 50 unit_models/_Units/aby/textures/aby_grd_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr  
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aby/textures/aby_grd_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 12 papal_states 
 58 unit_models/_Units/attachments/textures/afr_grfrgb.texture 
@@ -4447,11 +4447,11 @@
 3 cru 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 cru 
 58 unit_models/_Units/attachments/textures/sea_gbfr02.texture 
@@ -4478,15 +4478,15 @@
 6 venice 
 50 unit_models/_Units/usa/textures/usa_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/usa/textures/usa_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-41 unit_sprites/slave_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 9 portugala
 50 unit_models/_Units/usa/textures/usa_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-41 unit_sprites/slave_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 6 venice 
 58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
@@ -4693,11 +4693,11 @@
 12 papal_states 
 50 unit_models/_Units/aby/textures/aby_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr  
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aby/textures/aby_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 12 papal_states 
 58 unit_models/_Units/attachments/textures/afr_grfrgb.texture 
@@ -4957,15 +4957,15 @@
 7 normans 
 50 unit_models/_Units/sve/textures/sve_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 mongols 
 50 unit_models/_Units/sve/textures/sve_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/sve/textures/sve_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 7 normans 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -4995,11 +4995,11 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -5239,11 +5239,11 @@
 5 spain 
 50 unit_models/_Units/spa/textures/spa_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/spa/textures/spa_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 5 spain 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -5270,15 +5270,15 @@
 3 cru 
 50 unit_models/_Units/sia/textures/sia_inf_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 england 
 50 unit_models/_Units/sia/textures/sia_inf_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/sia/textures/sia_inf_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 3 cru 
 58 unit_models/_Units/attachments/textures/sea_gbfr02.texture 
@@ -5306,11 +5306,11 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -5362,11 +5362,11 @@
 9 byzantium 
 50 unit_models/_Units/qin/textures/qin_cav_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/qin/textures/qin_cav_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 9 byzantium 
 57 unit_models/_Units/attachments/textures/chin_head.texture 
@@ -5865,11 +5865,11 @@
 6 russia 
 50 unit_models/_Units/rus/textures/rus_cos_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/rus/textures/rus_cos_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 6 russia 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -5896,11 +5896,11 @@
 7 normans 
 50 unit_models/_Units/sve/textures/sve_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/sve/textures/sve_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 7 normans 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -6357,15 +6357,15 @@
 8 timurids 
 50 unit_models/_Units/afg/textures/afg_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 bulga 
 50 unit_models/_Units/afg/textures/afg_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/afg/textures/afg_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 8 timurids 
 58 unit_models/_Units/attachments/textures/afg_rugbxx.texture 
@@ -6440,23 +6440,23 @@
 7 hungary 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 sicily 
 50 unit_models/_Units/dan/textures/dan_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 mongols 
 50 unit_models/_Units/gre/textures/gre_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 hungary 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -6528,19 +6528,19 @@
 7 hungary 
 50 unit_models/_Units/aus/textures/aus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 sicily 
 50 unit_models/_Units/dan/textures/dan_crb_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 normans 
 50 unit_models/_Units/sve/textures/sve_crb_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 7 hungary 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -6705,11 +6705,11 @@
 6 aztecs 
 51 unit_models/_Units/bnw/textures/NY_zuafu_az.texture 
 50 unit_models/_Units/bnw/textures/NY_zuafu_n.texture 
-40 unit_sprites/denmark_Huscarls_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 51 unit_models/_Units/bnw/textures/NY_zuafu_az.texture 
 50 unit_models/_Units/bnw/textures/NY_zuafu_n.texture 
-40 unit_sprites/denmark_Huscarls_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 6 aztecs 
 52 unit_models/_Units/bnw/textures/union_weapon.texture 
@@ -7361,23 +7361,23 @@
 7 denmark 
 50 unit_models/_Units/per/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 aztecs 
 50 unit_models/_Units/arg/textures/arg_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 spain 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 denmark 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -7786,11 +7786,11 @@
 6 russia 
 50 unit_models/_Units/rus/textures/rus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/rus/textures/rus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 6 russia 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -8293,11 +8293,11 @@
 6 russia 
 50 unit_models/_Units/rus/textures/rus_cos_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/rus/textures/rus_cos_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 6 russia 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -8449,19 +8449,19 @@
 6 france 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 moors 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 france 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
@@ -8553,19 +8553,19 @@
 4 lith 
 54 unit_models/_Units/bnw/textures/light_ethiopia.texture 
 50 unit_models/_Units/bnw/textures/light_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 moors 
 54 unit_models/_Units/bnw/textures/light_ethiopia.texture 
 50 unit_models/_Units/bnw/textures/light_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 54 unit_models/_Units/bnw/textures/light_ethiopia.texture 
 50 unit_models/_Units/bnw/textures/light_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 54 unit_models/_Units/bnw/textures/light_ethiopia.texture 
 50 unit_models/_Units/bnw/textures/light_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 4 lith 
 53 unit_models/_Units/bnw/textures/gear_ethiopia.texture 
@@ -8597,11 +8597,11 @@
 8 timurids 
 50 unit_models/_Units/afg/textures/afg_cav_1a.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/afg/textures/afg_cav_1a.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 8 timurids 
 50 unit_models/_Units/afg/textures/afg_cav_1b.texture 
@@ -8691,11 +8691,11 @@
 12 papal_states 
 50 unit_models/_Units/aby/textures/aby_spr_1g.texture 
 50 unit_models/_Units/aby/textures/aby_spr_nm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aby/textures/aby_spr_1g.texture 
 50 unit_models/_Units/aby/textures/aby_spr_nm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2
 12 papal_states 
 50 unit_models/_Units/aby/textures/aby_eqp_1g.texture 
@@ -8748,15 +8748,15 @@
 5 bulga 
 47 unit_models/bnw/textures/muslim_warrior.texture 
 49 unit_models/bnw/textures/muslim_warrior_n.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 47 unit_models/bnw/textures/muslim_warrior.texture 
 49 unit_models/bnw/textures/muslim_warrior_n.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 47 unit_models/bnw/textures/muslim_warrior.texture 
 49 unit_models/bnw/textures/muslim_warrior_n.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 5 bulga 
 47 unit_models/bnw/textures/muslim_warrior.texture 
@@ -8814,19 +8814,19 @@
 5 cuman 
 47 unit_models/_Units/bnw/textures/agubai1.texture 
 49 unit_models/_Units/bnw/textures/agubai1_n.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 timurids 
 47 unit_models/_Units/bnw/textures/agubai1.texture 
 49 unit_models/_Units/bnw/textures/agubai1_n.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal 
 47 unit_models/_Units/bnw/textures/agubai1.texture 
 49 unit_models/_Units/bnw/textures/agubai1_n.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 47 unit_models/_Units/bnw/textures/agubai1.texture 
 49 unit_models/_Units/bnw/textures/agubai1_n.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 5 cuman 
 46 unit_models/_Units/bnw/textures/agubai.texture 
@@ -8958,11 +8958,11 @@
 12 papal_states 
 50 unit_models/_Units/aby/textures/aby_grd_1g.texture 
 50 unit_models/_Units/aby/textures/aby_spr_nm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aby/textures/aby_grd_1g.texture 
 50 unit_models/_Units/aby/textures/aby_spr_nm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2
 12 papal_states 
 50 unit_models/_Units/aby/textures/aby_eqp_1g.texture 
@@ -9008,11 +9008,11 @@
 5 bulga 
 41 unit_models/bnw/textures/xike_cav.texture 
 43 unit_models/bnw/textures/xike_cav_n.texture 
-31 unit_sprites/tmp_inf_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 41 unit_models/bnw/textures/xike_cav.texture 
 43 unit_models/bnw/textures/xike_cav_n.texture 
-31 unit_sprites/tmp_inf_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 5 bulga 
 41 unit_models/bnw/textures/xike_cav.texture 
@@ -9350,15 +9350,15 @@
 6 france 
 50 unit_models/_Units/fra/textures/fra_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal 
 50 unit_models/_Units/net/textures/net_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/fra/textures/fra_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 6 france 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -9416,11 +9416,11 @@
 8 scotland 
 50 unit_models/_Units/mex/textures/mex_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/mex/textures/mex_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-41 unit_sprites/slave_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 8 scotland 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -10231,15 +10231,15 @@
 6 golden 
 50 unit_models/_Units/oma/textures/oma_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/oma/textures/oma_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/oma/textures/oma_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 6 golden 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
@@ -10269,15 +10269,15 @@
 5 cuman 
 52 unit_models/_units/bnw/textures/hasake_noble.texture 
 54 unit_models/_units/bnw/textures/hasake_noble_n.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 52 unit_models/_units/bnw/textures/hasake_noble.texture 
 54 unit_models/_units/bnw/textures/hasake_noble_n.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 52 unit_models/_units/bnw/textures/hasake_noble.texture 
 54 unit_models/_units/bnw/textures/hasake_noble_n.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 5 cuman 
 53 unit_models/_units/bnw/textures/hasake_noble2.texture 
@@ -11812,19 +11812,19 @@
 6 saxons 
 47 unit_models/_units/japan/textures/bushi.texture 
 52 unit_models/_units/japan/textures/bushi_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 47 unit_models/_units/japan/textures/bushi.texture 
 52 unit_models/_units/japan/textures/bushi_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 47 unit_models/_units/japan/textures/bushi.texture 
 52 unit_models/_units/japan/textures/bushi_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 47 unit_models/_units/japan/textures/bushi.texture 
 52 unit_models/_units/japan/textures/bushi_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 55 unit_models/_units/japan/attachments/bushi_gear.texture 
@@ -15485,19 +15485,19 @@
 6 saxons 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1870.texture 
 67 unit_models/_units/japan/textures/goshimpei_kihei_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1870.texture 
 67 unit_models/_units/japan/textures/goshimpei_kihei_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1870.texture 
 67 unit_models/_units/japan/textures/goshimpei_kihei_1870_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1870.texture 
 67 unit_models/_units/japan/textures/goshimpei_kihei_1870_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 70 unit_models/_units/japan/attachments/goshimpei_kihei_1870_gear.texture 
@@ -15530,19 +15530,19 @@
 6 saxons 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 70 unit_models/_units/japan/attachments/goshimpei_kihei_1880_gear.texture 
@@ -15575,19 +15575,19 @@
 6 saxons 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 62 unit_models/_units/japan/textures/goshimpei_kihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 70 unit_models/_units/japan/attachments/goshimpei_kihei_1900_gear.texture 
@@ -15620,19 +15620,19 @@
 6 saxons 
 55 unit_models/_units/japan/textures/ryukihei_1905.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 55 unit_models/_units/japan/textures/ryukihei_1905.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 55 unit_models/_units/japan/textures/ryukihei_1905.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 55 unit_models/_units/japan/textures/ryukihei_1905.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 70 unit_models/_units/japan/attachments/goshimpei_kihei_1900_gear.texture 
@@ -17051,19 +17051,19 @@
 6 saxons 
 55 unit_models/_units/japan/textures/ryukihei_1870.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 55 unit_models/_units/japan/textures/ryukihei_1870.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 55 unit_models/_units/japan/textures/ryukihei_1870.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 55 unit_models/_units/japan/textures/ryukihei_1870.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 63 unit_models/_units/japan/attachments/ryukihei_1870_gear.texture 
@@ -17096,19 +17096,19 @@
 6 saxons 
 55 unit_models/_units/japan/textures/ryukihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 55 unit_models/_units/japan/textures/ryukihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 55 unit_models/_units/japan/textures/ryukihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 55 unit_models/_units/japan/textures/ryukihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 65 unit_models/_units/japan/attachments/rikuguntai_1880_gear.texture 
@@ -17141,19 +17141,19 @@
 6 saxons 
 55 unit_models/_units/japan/textures/ryukihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 55 unit_models/_units/japan/textures/ryukihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 55 unit_models/_units/japan/textures/ryukihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 55 unit_models/_units/japan/textures/ryukihei_1880.texture 
 60 unit_models/_units/japan/textures/ryukihei_1880_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 63 unit_models/_units/japan/attachments/ryukihei_1900_gear.texture 
@@ -17186,19 +17186,19 @@
 6 saxons 
 55 unit_models/_units/japan/textures/ryukihei_1905.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 55 unit_models/_units/japan/textures/ryukihei_1905.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 55 unit_models/_units/japan/textures/ryukihei_1905.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 55 unit_models/_units/japan/textures/ryukihei_1905.texture 
 62 unit_models/_units/japan/textures/rikuguntai_1870_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 63 unit_models/_units/japan/attachments/ryukihei_1900_gear.texture 
@@ -17231,19 +17231,19 @@
 6 saxons 
 62 unit_models/_units/japan/textures/ryukihei_shogun_1870.texture 
 67 unit_models/_units/japan/textures/ryukihei_shogun_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 62 unit_models/_units/japan/textures/ryukihei_shogun_1870.texture 
 67 unit_models/_units/japan/textures/ryukihei_shogun_1870_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 62 unit_models/_units/japan/textures/ryukihei_shogun_1870.texture 
 67 unit_models/_units/japan/textures/ryukihei_shogun_1870_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 62 unit_models/_units/japan/textures/ryukihei_shogun_1870.texture 
 67 unit_models/_units/japan/textures/ryukihei_shogun_1870_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 saxons 
 63 unit_models/_units/japan/attachments/ryukihei_1870_gear.texture 
@@ -18113,11 +18113,11 @@
 6 russia 
 50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 6 russia 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -18205,11 +18205,11 @@
 6 saxons 
 48 unit_models/_Units/bnw/textures/jap_thqb.texture 
 50 unit_models/_Units/bnw/textures/jap_thqb_n.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 48 unit_models/_Units/bnw/textures/jap_kabn.texture 
 50 unit_models/_Units/bnw/textures/jap_kabn_n.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 6 saxons 
 52 unit_models/_Units/bnw/textures/jap_navewuqi.texture 
@@ -18675,11 +18675,11 @@
 9 portugala 
 50 unit_models/_Units/usa/textures/usa_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/usa/textures/usa_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 9 portugala 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -18725,15 +18725,15 @@
 6 venice 
 50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 spain 
 50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 6 venice 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -18762,15 +18762,15 @@
 9 portugala 
 50 unit_models/_Units/usa/textures/usa_nat_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 milan 
 50 unit_models/_Units/csa/textures/csa_nat_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/usa/textures/usa_nat_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 9 portugala 
 58 unit_models/_Units/attachments/textures/red_spusxx.texture 
@@ -18796,15 +18796,15 @@
 9 portugala 
 46 unit_models/_Units/bnw/textures/us_cav.texture 
 48 unit_models/_Units/bnw/textures/us_cav_n.texture 
-40 unit_sprites/denmark_Huscarls_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 spain 
 49 unit_models/_Units/bnw/textures/us_cav_sp.texture 
 48 unit_models/_Units/bnw/textures/us_cav_n.texture 
-38 unit_sprites/slave_Huscarls_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 46 unit_models/_Units/bnw/textures/us_cav.texture 
 48 unit_models/_Units/bnw/textures/us_cav_n.texture 
-38 unit_sprites/slave_Huscarls_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 9 portugala 
 52 unit_models/_Units/bnw/textures/union_weapon.texture 
@@ -19234,23 +19234,23 @@
 7 england 
 50 unit_models/_Units/eng/textures/eng_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal 
 50 unit_models/_Units/net/textures/net_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 aztecs 
 50 unit_models/_Units/arg/textures/arg_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 poland 
 50 unit_models/_Units/eng/textures/eng_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/eng/textures/eng_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 england 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -19282,11 +19282,11 @@
 6 russia 
 62 unit_models/_Units/bnw/textures/russian_bolsh_infantry.texture 
 64 unit_models/_Units/bnw/textures/russian_elite_infantry_n.texture 
-49 unit_sprites/russia_Cossack_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 62 unit_models/_Units/bnw/textures/russian_bolsh_infantry.texture 
 64 unit_models/_Units/bnw/textures/russian_elite_infantry_n.texture 
-49 unit_sprites/russia_Cossack_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 6 russia 
 63 unit_models/_Units/bnw/textures/russian_bolsh_infantry2.texture 
@@ -19309,19 +19309,19 @@
 6 venice 
 51 unit_models/_Units/bnw/textures/hun_hussars.texture 
 53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 51 unit_models/_Units/bnw/textures/hun_hussars.texture 
 53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
-41 unit_sprites/slave_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 spain
 51 unit_models/_Units/bnw/textures/hun_hussars.texture 
 53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
-41 unit_sprites/slave_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal
 51 unit_models/_Units/bnw/textures/hun_hussars.texture 
 53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
-41 unit_sprites/slave_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 venice 
 51 unit_models/_Units/bnw/textures/aus_weapons.texture 
@@ -19353,11 +19353,11 @@
 8 scotland 
 50 unit_models/_Units/mex/textures/mex_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/mex/textures/mex_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 8 scotland 
 58 unit_models/_Units/attachments/textures/lat_gbfrxx.texture 
@@ -19507,23 +19507,23 @@
 9 portugala 
 50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 milan 
 50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 teu 
 50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/usa/textures/usa_cow_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 9 portugala 
 58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
@@ -19683,19 +19683,19 @@
 7 normans 
 50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 venice 
 50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 spain 
 50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 7 normans 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -20303,19 +20303,19 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_crb_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 teu 
 50 unit_models/_Units/tra/textures/tra_cav_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/por/textures/por_col_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_crb_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -22138,27 +22138,27 @@
 5 turks 
 49 unit_models/_Units/otto/textures/otto_reg.texture 
 64 unit_models/_Units/portugal/textures/england_jiangpifu_n.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 moors 
 55 unit_models/_Units/otto/textures/otto_reg_moors.texture 
 64 unit_models/_Units/portugal/textures/england_jiangpifu_n.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 timurids 
 49 unit_models/_Units/otto/textures/otto_reg.texture 
 64 unit_models/_Units/portugal/textures/england_jiangpifu_n.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 golden 
 56 unit_models/_Units/otto/textures/otto_reg_golden.texture 
 64 unit_models/_Units/portugal/textures/england_jiangpifu_n.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 49 unit_models/_Units/otto/textures/otto_reg.texture 
 64 unit_models/_Units/portugal/textures/england_jiangpifu_n.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc
 49 unit_models/_Units/otto/textures/otto_reg.texture 
 64 unit_models/_Units/portugal/textures/england_jiangpifu_n.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 
 5 turks 
 55 unit_models/_Units/portugal/textures/port_inf_3.texture 
@@ -22196,15 +22196,15 @@
 7 england 
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 poland 
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 7 england 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -22600,15 +22600,15 @@
 5 turks 
 50 unit_models/_Units/ott/textures/ott_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/ott/textures/ott_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/ott/textures/ott_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 5 turks 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
@@ -23452,15 +23452,15 @@
 9 byzantium 
 52 unit_models/_units/korea/textures/gimagungsu.texture 
 57 unit_models/_units/korea/textures/gimagungsu_norm.texture 
-40 unit_sprites/spain_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 52 unit_models/_units/korea/textures/gimagungsu.texture 
 57 unit_models/_units/korea/textures/gimagungsu_norm.texture 
-43 unit_sprites/portugal_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 52 unit_models/_units/korea/textures/gimagungsu.texture 
 57 unit_models/_units/korea/textures/gimagungsu_norm.texture 
-40 unit_sprites/milan_Musketeers_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 9 byzantium 
 60 unit_models/_units/korea/attachments/gimagungsu_gear.texture 
@@ -24502,11 +24502,11 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -24533,11 +24533,11 @@
 5 egypt 
 50 unit_models/_Units/qaj/textures/qaj_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/qaj/textures/qaj_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 5 egypt 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
@@ -24591,15 +24591,15 @@
 5 milan 
 50 unit_models/_Units/csa/textures/csa_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 teu 
 50 unit_models/_Units/csa/textures/csa_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/csa/textures/csa_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 5 milan 
 58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
@@ -24629,15 +24629,15 @@
 5 cuman 
 50 unit_models/_Units/buk/textures/buk_roy_01.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 scotland 
 50 unit_models/_Units/buk/textures/buk_roy_01.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/buk/textures/buk_roy_01.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 5 cuman 
 50 unit_models/_Units/buk/textures/buk_roy_02.texture 
@@ -26219,15 +26219,15 @@
 5 cuman 
 50 unit_models/_Units/tur/textures/tur_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/tur/textures/tur_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/tur/textures/tur_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 5 cuman 
 58 unit_models/_Units/attachments/textures/tkc_rugbxx.texture 
@@ -26401,15 +26401,15 @@
 3 cru 
 50 unit_models/_Units/sia/textures/sia_col_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 milan 
 50 unit_models/_Units/sia/textures/sia_col_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/sia/textures/sia_col_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 3 cru 
 58 unit_models/_Units/attachments/textures/sea_gbfr02.texture 
@@ -30049,15 +30049,15 @@
 7 denmark 
 50 unit_models/_Units/per/textures/per_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 scotland 
 50 unit_models/_Units/per/textures/mex_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/per/textures/per_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 7 denmark 
 58 unit_models/_Units/attachments/textures/lat_gbfrxx.texture 
@@ -30086,11 +30086,11 @@
 7 denmark 
 50 unit_models/_Units/per/textures/per_grd_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/per/textures/per_grd_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 7 denmark 
 58 unit_models/_Units/attachments/textures/lat_gbfrxx.texture 
@@ -30634,23 +30634,23 @@
 7 hungary 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 sicily 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 mongols 
 50 unit_models/_Units/gre/textures/gre_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 hungary 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -30686,11 +30686,11 @@
 6 sicily 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 6 sicily 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -30931,11 +30931,11 @@
 7 england 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 7 england 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -30962,11 +30962,11 @@
 7 england 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 7 england 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -30993,23 +30993,23 @@
 7 england 
 50 unit_models/_Units/eng/textures/eng_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal 
 50 unit_models/_Units/net/textures/net_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 aztecs 
 50 unit_models/_Units/arg/textures/arg_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 poland 
 50 unit_models/_Units/eng/textures/eng_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/eng/textures/eng_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 england 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -31045,11 +31045,11 @@
 7 england 
 50 unit_models/_Units/eng/textures/eng_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/eng/textures/eng_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 7 england 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -32082,23 +32082,23 @@
 7 denmark 
 50 unit_models/_Units/per/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 aztecs 
 50 unit_models/_Units/arg/textures/arg_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 spain 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 denmark 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -32134,15 +32134,15 @@
 6 france 
 50 unit_models/_Units/fra/textures/fra_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal 
 50 unit_models/_Units/net/textures/net_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/fra/textures/fra_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 6 france 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -32171,15 +32171,15 @@
 6 france 
 50 unit_models/_Units/fra/textures/fra_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal 
 50 unit_models/_Units/net/textures/net_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/fra/textures/fra_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 6 france 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -32333,19 +32333,19 @@
 6 france 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 moors 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 france 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
@@ -32377,19 +32377,19 @@
 6 france 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 moors 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 france 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
@@ -32421,19 +32421,19 @@
 6 france 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 moors 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 france 
 58 unit_models/_Units/attachments/textures/per_rugbxx.texture 
@@ -32465,23 +32465,23 @@
 7 hungary 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 sicily 
 50 unit_models/_Units/dan/textures/dan_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 mongols 
 50 unit_models/_Units/gre/textures/gre_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 hungary 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -33286,11 +33286,11 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -33317,11 +33317,11 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -33347,11 +33347,11 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -33377,11 +33377,11 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -33407,11 +33407,11 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -33437,19 +33437,19 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_crb_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 teu 
 50 unit_models/_Units/tra/textures/tra_cav_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 merc 
 50 unit_models/_Units/por/textures/por_col_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_crb_3g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -33481,11 +33481,11 @@
 3 hre 
 50 unit_models/_Units/pru/textures/pru_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_gen_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 3 hre 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -34233,23 +34233,23 @@
 7 england 
 50 unit_models/_Units/eng/textures/eng_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal 
 50 unit_models/_Units/net/textures/net_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 aztecs 
 50 unit_models/_Units/arg/textures/arg_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 poland 
 50 unit_models/_Units/eng/textures/eng_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/eng/textures/eng_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 england 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -34284,15 +34284,15 @@
 6 france 
 50 unit_models/_Units/fra/textures/fra_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal 
 50 unit_models/_Units/net/textures/net_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/fra/textures/fra_hus_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 6 france 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -34321,11 +34321,11 @@
 8 portugal 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 8 portugal 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -34351,11 +34351,11 @@
 8 portugal 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 8 portugal 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -34381,11 +34381,11 @@
 8 portugal 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/pru/textures/pru_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 2 
 8 portugal 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -34408,19 +34408,19 @@
 6 venice 
 51 unit_models/_Units/bnw/textures/hun_hussars.texture 
 53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
-41 unit_sprites/milan_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 51 unit_models/_Units/bnw/textures/hun_hussars.texture 
 53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
-41 unit_sprites/slave_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 spain
 51 unit_models/_Units/bnw/textures/hun_hussars.texture 
 53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
-41 unit_sprites/slave_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 8 portugal
 51 unit_models/_Units/bnw/textures/hun_hussars.texture 
 53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
-41 unit_sprites/slave_Italian_MAA_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 6 venice 
 51 unit_models/_Units/bnw/textures/aus_weapons.texture 
@@ -35166,19 +35166,19 @@
 7 normans 
 50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 venice 
 50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 spain 
 50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 7 normans 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
@@ -35210,19 +35210,19 @@
 7 hungary 
 50 unit_models/_Units/aus/textures/aus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 sicily 
 50 unit_models/_Units/dan/textures/dan_crb_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 normans 
 50 unit_models/_Units/sve/textures/sve_crb_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 7 hungary 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -35254,19 +35254,19 @@
 7 hungary 
 50 unit_models/_Units/aus/textures/aus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 sicily 
 50 unit_models/_Units/dan/textures/dan_crb_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 normans 
 50 unit_models/_Units/sve/textures/sve_crb_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 7 hungary 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -35298,19 +35298,19 @@
 7 hungary 
 50 unit_models/_Units/aus/textures/aus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 sicily 
 50 unit_models/_Units/dan/textures/dan_crb_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 normans 
 50 unit_models/_Units/sve/textures/sve_crb_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_crb_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 4 
 7 hungary 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -35342,15 +35342,15 @@
 7 normans 
 50 unit_models/_Units/sve/textures/sve_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 mongols 
 50 unit_models/_Units/sve/textures/sve_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/sve/textures/sve_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 7 normans 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -35380,15 +35380,15 @@
 7 normans 
 50 unit_models/_Units/sve/textures/sve_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 mongols 
 50 unit_models/_Units/sve/textures/sve_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/sve/textures/sve_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 3 
 7 normans 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -35815,23 +35815,23 @@
 7 hungary 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 sicily 
 50 unit_models/_Units/dan/textures/dan_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 mongols 
 50 unit_models/_Units/gre/textures/gre_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 hungary 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -35968,23 +35968,23 @@
 7 hungary 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 sicily 
 50 unit_models/_Units/dan/textures/dan_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 7 mongols 
 50 unit_models/_Units/gre/textures/gre_cav_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 6 france 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 slave 
 50 unit_models/_Units/aus/textures/aus_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
-46 unit_sprites/england_Feudal_Knights_sprite.spr 
+35 unit_sprites/tmp_cavalry_sprite.spr 
 5 
 7 hungary 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
@@ -36004,6 +36004,2199 @@
 1 
 5 Horse 
 14 MTW2_HR_Pistol 13 MTW2_HR_Sword 
+1 
+22 MTW2_HR_Pistol_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
+14 ita_line_early 
+1 4 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+12 ita_line_mid 
+1 4 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+13 ita_line_high 
+1 4 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_lgt_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_lgt_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 ita_milizia_early 
+1 4 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 ita_milizia_mid 
+1 4 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 ita_milizia_high 
+1 4 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+20 ita_granatieri_early 
+1 4 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_gir_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_gir_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+18 ita_granatieri_mid 
+1 4 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_gir_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_gir_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+19 ita_granatieri_high 
+1 4 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_gir_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_gir_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+21 ita_bersaglieri_early 
+1 4 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_lgt_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_lgt_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+19 ita_bersaglieri_mid 
+1 4 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_lgt_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_lgt_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+15 MTW2_Musket_SSK 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+20 ita_bersaglieri_high 
+1 4 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_lgt_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_lgt_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_lgt_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+15 MTW2_Musket_SSK 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+14 ita_alpini_mid 
+1 4 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_3g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_3g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+15 MTW2_Musket_SSK 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 ita_alpini_high 
+1 4 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_3g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_3g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+15 MTW2_Musket_SSK 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 ita_marina_early 
+1 4 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+7 
+6 france 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 denmark 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 aztecs 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 scotland 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 hungary 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 venice 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 
+6 france 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 denmark 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 aztecs 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+8 scotland 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 hungary 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+14 ita_marina_mid 
+1 4 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+7 
+6 france 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 denmark 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 aztecs 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 scotland 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 hungary 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 venice 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 
+6 france 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 denmark 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 aztecs 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+8 scotland 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 hungary 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 ita_marina_high 
+1 4 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
+7 
+6 france 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 denmark 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 aztecs 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 scotland 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 hungary 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 venice 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 
+6 france 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 denmark 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 aztecs 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+8 scotland 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 hungary 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+19 ita_zappatori_early 
+1 4 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 ita_zappatori_mid 
+1 4 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+18 ita_zappatori_high 
+1 4 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_2g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+21 ita_garibaldini_early 
+1 4 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_gir_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_gir_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_gir_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 ita_arditi_high 
+1 4 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_inf_3g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_inf_3g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_inf_3g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 ita_ascari_high 
+1 4 
+43 unit_models/_Units/koi/koi_ask_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_ask_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_ask_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_ask_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_ask_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_ask_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0
+1 
+4 None 
+18 MTW2_Fast_Arquebus 16 MTW2_2HSwordsman
+1 
+21 MTW2_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 ita_libici_high 
+1 4 
+43 unit_models/_Units/koi/koi_ask_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_ask_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_ask_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_ask_1g_lod0.mesh 20000 
+2 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_ask_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_ask_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 venice 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/afr_grfrgb.texture
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0
+1 
+4 None 
+18 MTW2_Fast_Arquebus 16 MTW2_2HSwordsman
+1 
+21 MTW2_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 ita_cavalleggeri 
+1 4 
+43 unit_models/_Units/koi/koi_pis_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_pis_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_pis_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_pis_1g_lod0.mesh 20000 
+4 
+7 normans 
+50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 spain 
+50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_pis_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+4 
+7 normans 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 spain 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+14 MTW2_HR_Pistol 13 MTW2_HR_Sword 
+1 
+22 MTW2_HR_Pistol_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+12 ita_lancieri 
+1 4 
+43 unit_models/_Units/aus/aus_lan_1g_lod0.mesh 20000 
+43 unit_models/_Units/aus/aus_lan_1g_lod0.mesh 20000 
+43 unit_models/_Units/aus/aus_lan_1g_lod0.mesh 20000 
+43 unit_models/_Units/aus/aus_lan_1g_lod0.mesh 20000 
+3 
+6 venice 
+50 unit_models/_Units/aus/textures/aus_lan_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+43 unit_sprites/russia_Druzhina_ug1_sprite.spr 
+5 milan 
+50 unit_models/_Units/aus/textures/aus_lan_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+43 unit_sprites/russia_Druzhina_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/aus/textures/aus_lan_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+43 unit_sprites/russia_Druzhina_ug1_sprite.spr 
+3 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 milan 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+13 MTW2_HR_Lance 13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 14 fs_test_shield 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 ita_general_staff 
+1 1 
+44 unit_models/_Units/bnw/hun_hussars_lod0.mesh 20000 
+4 
+6 venice 
+51 unit_models/_Units/bnw/textures/hun_hussars.texture 
+53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+51 unit_models/_Units/bnw/textures/hun_hussars.texture 
+53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 spain
+51 unit_models/_Units/bnw/textures/hun_hussars.texture 
+53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+8 portugal
+51 unit_models/_Units/bnw/textures/hun_hussars.texture 
+53 unit_models/_Units/bnw/textures/hun_hussard_n.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+4 
+6 venice 
+51 unit_models/_Units/bnw/textures/aus_weapons.texture 
+53 unit_models/_Units/bnw/textures/aus_weapons_n.texture 0 
+5 slave 
+51 unit_models/_Units/bnw/textures/aus_weapons.texture 
+53 unit_models/_Units/bnw/textures/aus_weapons_n.texture 0 
+5 spain 
+51 unit_models/_Units/bnw/textures/aus_weapons.texture 
+53 unit_models/_Units/bnw/textures/aus_weapons_n.texture 0 
+8 portugal
+51 unit_models/_Units/bnw/textures/aus_weapons.texture 
+53 unit_models/_Units/bnw/textures/aus_weapons_n.texture 0 
+1 
+5 Horse 
+14 MTW2_HR_Pistol 13 MTW2_HR_Sword 
+1 
+22 MTW2_HR_Pistol_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+21 ita_carabinieri_early 
+1 4 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+3 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 spain 
+50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+3 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 spain 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
+1 
+24 MTW2_HR_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+19 ita_carabinieri_mid 
+1 4 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+3 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 spain 
+50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+3 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 spain 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
+1 
+24 MTW2_HR_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+20 ita_carabinieri_high 
+1 4 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/koi/koi_crb_1g_lod0.mesh 20000 
+3 
+6 venice 
+50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 spain 
+50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/koi/textures/koi_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+3 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 spain 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
+1 
+24 MTW2_HR_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
+17 rus_pekhota_early 
+1 4 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 rus_pekhota_mid 
+1 4 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 rus_pekhota_high 
+1 4 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+20 rus_opolchenie_early 
+1 4 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+18 rus_opolchenie_mid 
+1 4 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+19 rus_opolchenie_high 
+1 4 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+20 rus_leib_guard_early 
+1 4 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+18 rus_leib_guard_mid 
+1 4 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+19 rus_leib_guard_high 
+1 4 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+19 rus_grenadery_early 
+1 4 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 rus_grenadery_mid 
+1 4 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+18 rus_grenadery_high 
+1 4 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_grd_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_grd_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 rus_strelki_early 
+1 4 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 rus_strelki_mid 
+1 4 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+15 MTW2_Musket_SSK 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 rus_strelki_high 
+1 4 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_mil_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_mil_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+15 MTW2_Musket_SSK 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 rus_marines_early 
+1 4 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+6 
+9 portugala 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 milan 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 portugal 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 poland 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+3 teu 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 
+9 portugala 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 milan 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+8 portugal
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 poland 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 rus_marines_mid 
+1 4 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+6 
+9 portugala 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 milan 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 portugal 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 poland 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+3 teu 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 
+9 portugala 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 milan 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+8 portugal
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 poland 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 rus_marines_high 
+1 4 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_nav_1g_lod0.mesh 20000 
+6 
+9 portugala 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 milan 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 portugal 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 poland 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+3 teu 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/usa/textures/usa_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 
+9 portugala 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 milan 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+8 portugal
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 poland 
+58 unit_models/_Units/attachments/textures/lat_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+19 MTW2_Musket_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 rus_sapery_early 
+1 4 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+14 rus_sapery_mid 
+1 4 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 rus_sapery_high 
+1 4 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_inf_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+18 rus_siberian_early 
+1 4 
+43 unit_models/_Units/rus/rus_col_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_col_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_col_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_col_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_col_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_col_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 rus_siberian_mid 
+1 4 
+43 unit_models/_Units/rus/rus_col_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_col_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_col_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_col_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_col_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_col_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+14 MTW2_Musket_SS 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 rus_siberian_high 
+1 4 
+43 unit_models/_Units/rus/rus_col_2g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_col_2g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_col_2g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_col_2g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_col_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_col_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+4 None 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+1 
+21 MTW2_Arquebus_Primary 
+1 
+17 MTW2_Pike_primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 rus_draguny_early 
+1 4 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
+1 
+24 MTW2_HR_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 rus_draguny_mid 
+1 4 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
+1 
+24 MTW2_HR_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 rus_draguny_high 
+1 4 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
+1 
+24 MTW2_HR_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+16 rus_kazaki_early 
+1 4 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
+1 
+24 MTW2_HR_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+14 rus_kazaki_mid 
+1 4 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
+1 
+24 MTW2_HR_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+15 rus_kazaki_high 
+1 4 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_crb_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_crb_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+16 MTW2_CR_Arquebus 13 MTW2_CR_Sword 
+1 
+24 MTW2_HR_Arquebus_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 rus_gusary 
+1 4 
+43 unit_models/_Units/rus/rus_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_cav_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Sword 
+1 
+22 MTW2_HR_Pistol_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+9 rus_ulany 
+1 4 
+43 unit_models/_Units/aus/aus_lan_1g_lod0.mesh 20000 
+43 unit_models/_Units/aus/aus_lan_1g_lod0.mesh 20000 
+43 unit_models/_Units/aus/aus_lan_1g_lod0.mesh 20000 
+43 unit_models/_Units/aus/aus_lan_1g_lod0.mesh 20000 
+3 
+6 russia 
+50 unit_models/_Units/aus/textures/aus_lan_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 milan 
+50 unit_models/_Units/aus/textures/aus_lan_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/aus/textures/aus_lan_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+3 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 milan 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+13 MTW2_HR_Lance 13 MTW2_HR_Sword 
+2 
+21 MTW2_HR_Lance_Primary 14 fs_test_shield 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+21 rus_guard_cuirassiers 
+1 4 
+43 unit_models/_Units/fra/fra_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/fra/fra_cav_1g_lod0.mesh 20000 
+5 
+7 denmark 
+50 unit_models/_Units/per/textures/fra_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+6 russia 
+50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+6 aztecs 
+50 unit_models/_Units/arg/textures/arg_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 spain 
+50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/fra/textures/fra_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 
+7 denmark 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 aztecs 
+58 unit_models/_Units/attachments/textures/lat_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 spain 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Sword 
+1 
+22 MTW2_HR_Pistol_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+17 rus_general_staff 
+1 4 
+43 unit_models/_Units/rus/rus_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_cav_1g_lod0.mesh 20000 
+43 unit_models/_Units/rus/rus_cav_1g_lod0.mesh 20000 
+2 
+6 russia 
+50 unit_models/_Units/rus/textures/rus_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+5 slave 
+50 unit_models/_Units/rus/textures/rus_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+2 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+1 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Sword 
 1 
 22 MTW2_HR_Pistol_Primary 
 1 

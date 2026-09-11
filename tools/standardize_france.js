@@ -80,7 +80,7 @@ function cavalry(u) {
   const isCarbine = u.armament === 'carbine';
   const attrs = ['free_upkeep_unit', 'sea_faring', 'hide_forest', 'can_withdraw', 'guncavalry', 'gunmen', 'start_not_skirmishing', 'cannot_skirmish'];
   if (u.muzzle) attrs.push('gunpowder_unit');
-  if (isCarbine) attrs.push('stakes');
+  if (isCarbine && u.period === 'high') attrs.push('stakes');
   if (u.general) attrs.push('general_unit', 'command');
   const primary = isCarbine
     ? `${u.damage}, 2, ${u.projectile}, ${u.range}, ${u.ammo}, missile, missile_gunpowder, piercing, none, ${u.smoke}, 25, 1`
@@ -167,7 +167,7 @@ const cav = [
   {type:'fra_spahis_early', label:'Spahis', period:'early', weapon:'Carabine de cavalerie modèle 1857', className:'light', armament:'carbine', melee:4, charge:3, defence:4, morale:5, discipline:'low', training:'trained', cost:1300, muzzle:true, damage:37, projectile:'rifled_musket_carbine_bullet_c', range:200, ammo:35, smoke:'musket_shot_set'},
   {type:'fra_spahis_mid', label:'Spahis', period:'mid', weapon:'Carabine modèle 1866 Chassepot', className:'light', armament:'carbine', melee:4, charge:3, defence:4, morale:5, discipline:'low', training:'trained', cost:1600, damage:20, projectile:'rifle_carbine_bullet_c', range:220, ammo:35, smoke:'musket_shot_set'},
   {type:'fra_spahis_high', label:'Spahis', period:'high', weapon:'Carabine modèle 1874 Gras', className:'light', armament:'carbine', melee:4, charge:3, defence:4, morale:5, discipline:'low', training:'trained', cost:1600, damage:20, projectile:'rifle_carbine_bullet_c', range:220, ammo:35, smoke:'musket_shot_set'},
-  {type:'fra_general_staff', label:'Général et état-major', weapon:'Revolver Lefaucheux modèle 1858 et sabre', className:'heavy', armament:'pistol', melee:8, charge:5, defence:5, morale:8, discipline:'normal', training:'highly_trained', cost:200, general:true},
+  {type:'fra_general_staff', label:'Général et état-major', weapon:'Revolver Lefaucheux modèle 1858 et sabre', className:'light', armament:'pistol', melee:8, charge:5, defence:5, morale:8, discipline:'normal', training:'highly_trained', cost:200, general:true},
 ];
 
 const sapeurs = `type             fra_guard

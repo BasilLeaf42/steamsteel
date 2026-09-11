@@ -20,7 +20,7 @@ function infantry(u) {
   const attrs=['free_upkeep_unit','sea_faring','hide_forest'];
   if(u.muzzle) attrs.push('gunpowder_unit');
   attrs.push('gunmen','start_not_skirmishing','cannot_skirmish');
-  if(u.period==='high') attrs.push('stakes');
+  if(u.period==='high' || /pioniere/.test(u.type)) attrs.push('stakes');
   if(u.special) attrs.push(...u.special);
   const officers=['officer          pru_off_1g'];
   if(u.period!=='high') officers.push('officer          russia_qi');
@@ -61,7 +61,7 @@ function cavalry(u) {
   const gun=u.armament==='carbine'||u.armament==='pistol';
   const attrs=['free_upkeep_unit','sea_faring','hide_forest','can_withdraw'];
   if(gun) attrs.push('guncavalry','gunmen','start_not_skirmishing','cannot_skirmish');
-  if(u.armament==='carbine') attrs.push('stakes');
+  if(u.armament==='carbine' && u.period==='high') attrs.push('stakes');
   if(u.general) attrs.push('general_unit','command');
   const officers=['officer          otto_sipahi'];
   const rows=gun ? [
@@ -124,7 +124,7 @@ const cav=[
   {type:'pru_dragoner_mid',label:'Preußische Dragoner',period:'mid',weapon:'Karabiner M/71',className:'heavy',armament:'carbine',damage:20,projectile:'rifle_carbine_bullet_b',range:220,ammo:35,smoke:'musket_shot_set',melee:6,charge:4,defence:5,morale:5,discipline:'disciplined',training:'trained',cost:1700,mount:'dragoon'},
   {type:'pru_dragoner_high',label:'Preußische Dragoner',period:'high',weapon:'Karabiner 88',className:'heavy',armament:'carbine',damage:13,projectile:'magazine_rifle_carbine_bullet_b',range:240,ammo:40,smoke:'smokeless_shot_set',melee:6,charge:4,defence:5,morale:5,discipline:'disciplined',training:'trained',cost:2000,mount:'dragoon'},
   {type:'pru_kolonialreiter_high',label:'Kolonialreiter',period:'high',weapon:'Karabiner 88 und Säbel',className:'light',armament:'carbine',damage:13,projectile:'magazine_rifle_carbine_bullet_b',range:240,ammo:40,smoke:'smokeless_shot_set',melee:6,charge:4,defence:5,morale:5,discipline:'disciplined',training:'trained',cost:2000,mount:'dragoon'},
-  {type:'pru_general_staff',label:'General und Stab',weapon:'Zündnadelpistole M/57 und Säbel',className:'heavy',armament:'pistol',damage:20,projectile:'magazine_rifle_bullet_c',range:60,ammo:15,smoke:'musket_shot_set',melee:8,charge:5,defence:5,morale:7,discipline:'disciplined',training:'highly_trained',cost:200,general:true,mount:'hussar'},
+  {type:'pru_general_staff',label:'General und Stab',weapon:'Zündnadelpistole M/57 und Säbel',className:'light',armament:'pistol',damage:20,projectile:'magazine_rifle_bullet_c',range:60,ammo:15,smoke:'musket_shot_set',melee:8,charge:5,defence:5,morale:7,discipline:'disciplined',training:'highly_trained',cost:200,general:true,mount:'hussar'},
 ];
 const storm=grenadeUnit({type:'pru_sturmtruppen_high',label:'Sturmtruppen'});
 
