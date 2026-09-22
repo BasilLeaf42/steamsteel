@@ -1,0 +1,10 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_VOICE     Individual_Grunt      3      3                     
+event SOUND_BANK      unit_march      4      4                     
+event SOUND_BANK      unit_march     10     10                     
+event SOUND_BANK      unit_march     14     14                     

@@ -3884,39 +3884,39 @@ script
         spawn_army
             faction byzantium
             character	random_name, named character, age 35, x 399, y 230
-            unit	qing_carbs							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
-            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
-            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
-            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
-            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
-            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_green_banner_horse							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_village_braves							exp 0 armour 0 weapon_lvl 0
+            unit	qing_village_braves							exp 0 armour 0 weapon_lvl 0
+            unit	qing_village_braves							exp 0 armour 0 weapon_lvl 0
+            unit	qing_green_banner_gunmen							exp 0 armour 0 weapon_lvl 0
+            unit	qing_green_banner_gunmen							exp 0 armour 0 weapon_lvl 0
+            unit	qing_green_banner_gunmen							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
         end
 
         spawn_army
             faction byzantium
             character	random_name, named character, age 35, x 404, y 236
-            unit	qing_carbs							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
-            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
-            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
-            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
-            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
-            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
-            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_green_banner_horse							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_village_braves							exp 0 armour 0 weapon_lvl 0
+            unit	qing_village_braves							exp 0 armour 0 weapon_lvl 0
+            unit	qing_village_braves							exp 0 armour 0 weapon_lvl 0
+            unit	qing_green_banner_gunmen							exp 0 armour 0 weapon_lvl 0
+            unit	qing_green_banner_gunmen							exp 0 armour 0 weapon_lvl 0
+            unit	qing_green_banner_gunmen							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
+            unit	qing_xiang_huai_mid							exp 0 armour 0 weapon_lvl 0
         end
 
         terminate_monitor	; this makes it so the game ignores this script after it fired, good for performance
@@ -5083,9 +5083,9 @@ script
         spawn_army
             faction byzantium
             character	random_name, named character, age 31, x 404, y 223, label ever_victorious_army
-            unit	qing_vets					exp 3 armour 0 weapon_lvl 0
-            unit	qing_vets					exp 3 armour 0 weapon_lvl 0
-            unit	qing_ww1_inf					exp 2 armour 0 weapon_lvl 0
+            unit	qing_green_banner_gunmen					exp 3 armour 0 weapon_lvl 0
+            unit	qing_green_banner_gunmen					exp 3 armour 0 weapon_lvl 0
+            unit	qing_baqi_gunmen					exp 2 armour 0 weapon_lvl 0
         end
 
         ; Authority: increased international standing

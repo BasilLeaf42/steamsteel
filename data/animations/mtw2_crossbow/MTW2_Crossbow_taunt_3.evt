@@ -1,0 +1,11 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_VOICE     Individual_Taunt     16     26                     
+event SOUND_BANK      unit_march     42     42                     
+event SOUND_BANK      unit_march     75     75                     
+event SOUND_BANK      unit_march     98     98                     
+event SOUND_BANK      unit_march    121    121                     

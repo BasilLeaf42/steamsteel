@@ -1,0 +1,962 @@
+[
+  {
+    "type": "merc_us_farmer_cav",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_us_farmer_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_us_farmer_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_ap_front_cav",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_ap_front_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_ap_front_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_apache_inf",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_apache_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_apache_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_uru_inf",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_uru_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_uru_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_para_foot",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_para_foot.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_para_foot.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_us_farmers",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_us_farmers.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_us_farmers.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_port_inf_early",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_port_inf_early.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_port_inf_early.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_port_inf_mid",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_port_inf_mid.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_port_inf_mid.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_port_inf_high",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_port_inf_high.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_port_inf_high.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_port_cav_early",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_port_cav_early.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_port_cav_early.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_port_cav_mid",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_port_cav_mid.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_port_cav_mid.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_port_cav_high",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_port_cav_high.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_port_cav_high.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_port_inf",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_port_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_port_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_port_lancer",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_port_lancer.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_port_lancer.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_bhutan_warrior",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_bhutan_warrior.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_bhutan_warrior.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_papa_bows",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_papa_bows.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_papa_bows.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_burmese_inf",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_burmese_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_burmese_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_indian_fanatic",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_indian_fanatic.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_indian_fanatic.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_maori_spearmen",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_maori_spearmen.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_maori_spearmen.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_maori_musketeers",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_maori_musketeers.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_maori_musketeers.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_arab_sailors",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_arab_sailors.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_arab_sailors.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_fra_blacks",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_fra_blacks.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_fra_blacks.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_eng_for_cav",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_eng_for_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_eng_for_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_fra_for_cav",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_fra_for_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_fra_for_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_mongol_bows",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_mongol_bows.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_mongol_bows.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_pol_hussars",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_pol_hussars.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_pol_hussars.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_polish_inf",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_polish_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_polish_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_georgian_inf",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_georgian_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_georgian_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_serb_inf",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_serb_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_serb_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_bulgarian_inf",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_bulgarian_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_bulgarian_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_kok_royal_cav",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_kok_royal_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_kok_royal_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_kashgar_inf",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_kashgar_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_kashgar_inf.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_rus_georgian_cav",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_rus_georgian_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_rus_georgian_cav.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_zulu_spearmen",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_zulu_spearmen.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_zulu_spearmen.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": false
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_sikh_warriors",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_sikh_warriors.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_sikh_warriors.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_fra_inf_ch",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_fra_inf_ch.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_fra_inf_ch.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_arab_brigade",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_arab_brigade.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_arab_brigade.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_balk_cav_ch",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_balk_cav_ch.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_balk_cav_ch.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_siam_agent",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_siam_agent.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_siam_agent.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  },
+  {
+    "type": "merc_uk_sailor",
+    "copies": [
+      {
+        "path": "data\\ui\\units\\mercs\\#merc_uk_sailor.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      },
+      {
+        "path": "data\\ui\\units\\slave\\#merc_uk_sailor.tga",
+        "size": [
+          48,
+          64
+        ],
+        "mode": "RGBA",
+        "canonical_corners": true
+      }
+    ],
+    "identical": true
+  }
+]

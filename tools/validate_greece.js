@@ -2,7 +2,7 @@ const fs=require('fs'),path=require('path');
 const root=path.resolve(__dirname,'..'),eduC=path.join(root,'data/tow_steamsteel/export_descr_unit.txt'),eduR=path.join(root,'data/export_descr_unit.txt'),modelP=path.join(root,'data/unit_models/battle_models.modeldb'),locP=path.join(root,'data/text/export_units.txt');
 const expected=['gre_line_early','gre_line_mid','gre_line_high','gre_ethnofylaki_early','gre_efedroi_mid','gre_efedroi_high','gre_evzones_early','gre_evzones_mid','gre_evzones_high','gre_marines_early','gre_marines_mid','gre_marines_high','gre_lancers','gre_royal_escort','gre_carbineers_mid','gre_carbineers_high','gre_general_staff','gre_sappers_high'];
 const aliases=['fra_hussar_mongols','evzones_inf','greek_roy','greek_guard_cav','swed_inf','rom_cav','greek_early_inf'];
-const auxiliaries=['armenian_inf','rom_guard','it_royals_mongols','austro_sailor_mongols','balk_cav_mongols','bulgarian_inf_mongols'];
+const auxiliaries=['armenian_inf','rom_guard','it_royals_mongols','balk_cav_mongols','bulgarian_inf_mongols'];
 const edu=fs.readFileSync(eduC,'utf8').replace(/\r\n/g,'\n'),model=fs.readFileSync(modelP,'utf8').replace(/\r\n/g,'\n');
 const fail=[],ok=(x,m)=>{if(!x)fail.push(m);};
 function block(type){const starts=[...edu.matchAll(/^type\s+(\S+)/gm)];const i=starts.findIndex(x=>x[1]===type);return i<0?'':edu.slice(starts[i].index,i+1<starts.length?starts[i+1].index:edu.length);}

@@ -1,0 +1,4 @@
+<task_id>                        dds_to_texture_directory
+<directory_in>                   "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\mesh_work\\pistol_texture_dds"
+<directory_out>                  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\mesh_work\\atlas_texture"
+<directory_out_increment>        no

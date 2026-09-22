@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           ANIM_Crossbow_Load     33     33                     
+event SOUND           ANIM_Crossbow_Wind     53     53                     
+event SOUND           ANIM_Crossbow_Wind     86     86                     
+event SOUND           ANIM_Crossbow_Wind    122    122                     
+event SOUND           ANIM_Crossbow_Wind    156    156                     
+event SOUND           ANIM_Crossbow_Wind_End    189    189                     

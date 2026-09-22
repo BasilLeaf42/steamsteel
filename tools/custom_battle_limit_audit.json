@@ -1,0 +1,1403 @@
+[
+  {
+    "faction": "Union",
+    "code": "portugala",
+    "eras": [
+      {
+        "era": 0,
+        "types": 11,
+        "total": 14,
+        "core": 14,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "uni_state_volunteers_early:3",
+          "uni_volunteer_cavalry_early:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 7,
+        "total": 10,
+        "core": 10,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "uni_regulars_mid:2",
+          "uni_national_guard_mid:3"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 5,
+        "total": 8,
+        "core": 8,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "uni_regulars_high:2",
+          "uni_national_guard_high:3"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Confederates",
+    "code": "milan",
+    "eras": [
+      {
+        "era": 0,
+        "types": 8,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "csa_state_volunteers_early:3",
+          "csa_state_cavalry_early:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 4,
+        "total": 7,
+        "core": 7,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "csa_state_guard_mid:3",
+          "csa_state_cavalry_mid:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 4,
+        "total": 7,
+        "core": 7,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "csa_state_guard_high:3",
+          "csa_state_cavalry_high:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Mexico",
+    "code": "scotland",
+    "eras": [
+      {
+        "era": 0,
+        "types": 7,
+        "total": 12,
+        "core": 10,
+        "mercenary": 2,
+        "artillery": 0,
+        "multi": [
+          "mex_natl_guard:3",
+          "mex_federal_early:3",
+          "merc_us_farmers:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 7,
+        "total": 11,
+        "core": 9,
+        "mercenary": 2,
+        "artillery": 0,
+        "multi": [
+          "mex_state_guard_mid:2",
+          "mex_federal_mid:3",
+          "merc_us_farmers:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 7,
+        "total": 12,
+        "core": 10,
+        "mercenary": 2,
+        "artillery": 0,
+        "multi": [
+          "mex_army:3",
+          "mex_state_guard_mid:2",
+          "mex_provincial_levies:2",
+          "merc_us_farmers:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Peru",
+    "code": "denmark",
+    "eras": [
+      {
+        "era": 0,
+        "types": 7,
+        "total": 12,
+        "core": 12,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "per_line_early:3",
+          "per_guard_early:3",
+          "per_montoneros_early:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 8,
+        "total": 13,
+        "core": 13,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "per_line_mid:3",
+          "per_guard_mid:3",
+          "per_montoneros_mid:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 7,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "per_line_high:3",
+          "per_guard_high:3"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Brazil",
+    "code": "poland",
+    "eras": [
+      {
+        "era": 0,
+        "types": 7,
+        "total": 13,
+        "core": 13,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "bra_line_early:3",
+          "bra_volunteers_early:3",
+          "bra_guard_early:3"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 7,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "bra_line_mid:3",
+          "bra_guard_mid:3"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 6,
+        "total": 10,
+        "core": 10,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "bra_line_high:3",
+          "bra_guard_high:3"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Argentina",
+    "code": "aztecs",
+    "eras": [
+      {
+        "era": 0,
+        "types": 7,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "arg_line_early:3",
+          "arg_national_guard_early:3"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 7,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "arg_line_mid:3",
+          "arg_national_guard_mid:3"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 5,
+        "total": 8,
+        "core": 8,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "arg_line_high:3",
+          "arg_national_guard_high:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Britain",
+    "code": "england",
+    "eras": [
+      {
+        "era": 0,
+        "types": 20,
+        "total": 25,
+        "core": 13,
+        "mercenary": 12,
+        "artillery": 0,
+        "multi": [
+          "uk_foot_early:3",
+          "merc_port_inf:2",
+          "merc_maori_spearmen:2",
+          "merc_maori_musketeers:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 24,
+        "total": 30,
+        "core": 15,
+        "mercenary": 15,
+        "artillery": 0,
+        "multi": [
+          "uk_foot_mid:3",
+          "merc_port_inf:2",
+          "merc_maori_spearmen:2",
+          "merc_maori_musketeers:2",
+          "merc_arab_sailors:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 27,
+        "total": 33,
+        "core": 17,
+        "mercenary": 16,
+        "artillery": 0,
+        "multi": [
+          "uk_foot_high:3",
+          "merc_port_inf:2",
+          "merc_maori_spearmen:2",
+          "merc_maori_musketeers:2",
+          "merc_arab_sailors:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "France",
+    "code": "france",
+    "eras": [
+      {
+        "era": 0,
+        "types": 15,
+        "total": 15,
+        "core": 15,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": []
+      },
+      {
+        "era": 1,
+        "types": 15,
+        "total": 15,
+        "core": 15,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": []
+      },
+      {
+        "era": 2,
+        "types": 14,
+        "total": 14,
+        "core": 14,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": []
+      }
+    ]
+  },
+  {
+    "faction": "Prussia",
+    "code": "hre",
+    "eras": [
+      {
+        "era": 0,
+        "types": 11,
+        "total": 12,
+        "core": 9,
+        "mercenary": 3,
+        "artillery": 0,
+        "multi": [
+          "merc_polish_inf:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 15,
+        "total": 16,
+        "core": 13,
+        "mercenary": 3,
+        "artillery": 0,
+        "multi": [
+          "merc_polish_inf:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 20,
+        "total": 21,
+        "core": 17,
+        "mercenary": 4,
+        "artillery": 0,
+        "multi": [
+          "merc_polish_inf:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Spain",
+    "code": "spain",
+    "eras": [
+      {
+        "era": 0,
+        "types": 14,
+        "total": 17,
+        "core": 12,
+        "mercenary": 5,
+        "artillery": 0,
+        "multi": [
+          "merc_port_inf:2",
+          "spa_inf_early:2",
+          "spa_caz_early:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 14,
+        "total": 17,
+        "core": 12,
+        "mercenary": 5,
+        "artillery": 0,
+        "multi": [
+          "merc_port_inf:2",
+          "spa_inf_mid:2",
+          "spa_caz_mid:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 15,
+        "total": 18,
+        "core": 13,
+        "mercenary": 5,
+        "artillery": 0,
+        "multi": [
+          "merc_port_inf:2",
+          "spa_inf_high:2",
+          "spa_caz_high:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Netherlands",
+    "code": "portugal",
+    "eras": [
+      {
+        "era": 0,
+        "types": 14,
+        "total": 20,
+        "core": 13,
+        "mercenary": 7,
+        "artillery": 0,
+        "multi": [
+          "net_line_early:3",
+          "net_schutterij_early:2",
+          "merc_aceh_reg:3",
+          "merc_aceh_warband:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 16,
+        "total": 22,
+        "core": 13,
+        "mercenary": 9,
+        "artillery": 0,
+        "multi": [
+          "net_line_mid:3",
+          "net_schutterij_mid:2",
+          "merc_aceh_reg:3",
+          "merc_aceh_warband:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 16,
+        "total": 22,
+        "core": 13,
+        "mercenary": 9,
+        "artillery": 0,
+        "multi": [
+          "net_line_high:3",
+          "net_schutterij_high:2",
+          "merc_aceh_reg:3",
+          "merc_aceh_warband:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Denmark",
+    "code": "sicily",
+    "eras": [
+      {
+        "era": 0,
+        "types": 8,
+        "total": 10,
+        "core": 10,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "dan_fod_early:3"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 8,
+        "total": 10,
+        "core": 10,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "dan_fod_mid:3"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 8,
+        "total": 10,
+        "core": 10,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "dan_fod_high:3"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Sweden–Norway",
+    "code": "normans",
+    "eras": [
+      {
+        "era": 0,
+        "types": 10,
+        "total": 15,
+        "core": 15,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "swe_line_early:3",
+          "nor_line_early:3",
+          "swe_bevaring_early:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 10,
+        "total": 15,
+        "core": 15,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "swe_line_mid:3",
+          "nor_line_mid:3",
+          "swe_bevaring_mid:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 10,
+        "total": 15,
+        "core": 15,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "swe_line_high:3",
+          "nor_line_high:3",
+          "swe_bevaring_high:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Greece",
+    "code": "mongols",
+    "eras": [
+      {
+        "era": 0,
+        "types": 7,
+        "total": 10,
+        "core": 10,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "gre_line_early:3",
+          "gre_ethnofylaki_early:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 8,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "gre_line_mid:3",
+          "gre_efedroi_mid:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 9,
+        "total": 12,
+        "core": 12,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "gre_line_high:3",
+          "gre_efedroi_high:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Italy",
+    "code": "venice",
+    "eras": [
+      {
+        "era": 0,
+        "types": 11,
+        "total": 14,
+        "core": 14,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "ita_line_early:3",
+          "ita_milizia_early:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 12,
+        "total": 15,
+        "core": 14,
+        "mercenary": 1,
+        "artillery": 0,
+        "multi": [
+          "ita_line_mid:3",
+          "ita_milizia_mid:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 15,
+        "total": 18,
+        "core": 17,
+        "mercenary": 1,
+        "artillery": 0,
+        "multi": [
+          "ita_line_high:3",
+          "ita_milizia_high:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Russia",
+    "code": "russia",
+    "eras": [
+      {
+        "era": 0,
+        "types": 22,
+        "total": 34,
+        "core": 24,
+        "mercenary": 10,
+        "artillery": 0,
+        "multi": [
+          "rus_pekhota_early:4",
+          "rus_opolchenie_early:2",
+          "rus_strelki_early:2",
+          "merc_polish_inf:2",
+          "merc_georgian_inf:2",
+          "merc_serb_inf:2",
+          "mongol_hevcav:4",
+          "merc_kok_royal_cav:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 23,
+        "total": 35,
+        "core": 25,
+        "mercenary": 10,
+        "artillery": 0,
+        "multi": [
+          "rus_pekhota_mid:4",
+          "rus_opolchenie_mid:2",
+          "rus_strelki_mid:2",
+          "merc_polish_inf:2",
+          "merc_georgian_inf:2",
+          "merc_serb_inf:2",
+          "mongol_hevcav:4",
+          "merc_kok_royal_cav:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 22,
+        "total": 34,
+        "core": 24,
+        "mercenary": 10,
+        "artillery": 0,
+        "multi": [
+          "rus_pekhota_high:4",
+          "rus_opolchenie_high:2",
+          "rus_strelki_high:2",
+          "merc_polish_inf:2",
+          "merc_georgian_inf:2",
+          "merc_serb_inf:2",
+          "mongol_hevcav:4",
+          "merc_kok_royal_cav:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Austria–Hungary",
+    "code": "hungary",
+    "eras": [
+      {
+        "era": 0,
+        "types": 9,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "aus_line_early:3"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 10,
+        "total": 12,
+        "core": 12,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "aus_line_mid:3"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 10,
+        "total": 12,
+        "core": 12,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "aus_line_high:3"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Morocco",
+    "code": "moors",
+    "eras": [
+      {
+        "era": 0,
+        "types": 9,
+        "total": 14,
+        "core": 14,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "mor_askar_early:3",
+          "mor_makhzen_early:3",
+          "mor_tribal_levy:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 9,
+        "total": 14,
+        "core": 14,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "mor_askar_mid:3",
+          "mor_makhzen_mid:3",
+          "mor_tribal_levy:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 8,
+        "total": 12,
+        "core": 12,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "mor_askar_high:3",
+          "mor_makhzen_high:2",
+          "mor_tribal_levy:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Boers",
+    "code": "teu",
+    "eras": [
+      {
+        "era": 0,
+        "types": 5,
+        "total": 11,
+        "core": 8,
+        "mercenary": 3,
+        "artillery": 0,
+        "multi": [
+          "boer_mounted_kommando_early:2",
+          "boer_wagon:2",
+          "boer_kommando_early:3",
+          "merc_zulu_rifles:3"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 5,
+        "total": 11,
+        "core": 8,
+        "mercenary": 3,
+        "artillery": 0,
+        "multi": [
+          "boer_mounted_kommando_mid:2",
+          "boer_kommando_mid:3",
+          "boer_wagon:2",
+          "merc_zulu_rifles:3"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 6,
+        "total": 12,
+        "core": 9,
+        "mercenary": 3,
+        "artillery": 0,
+        "multi": [
+          "boer_mounted_kommando_high:2",
+          "boer_kommando_high:3",
+          "boer_wagon:2",
+          "merc_zulu_rifles:3"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Zulu",
+    "code": "lith",
+    "eras": [
+      {
+        "era": 0,
+        "types": 4,
+        "total": 7,
+        "core": 7,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "zulu_spearmen:2",
+          "zulu_guard:3"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 4,
+        "total": 7,
+        "core": 7,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "zulu_spearmen:2",
+          "zulu_guard:3"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 5,
+        "total": 8,
+        "core": 8,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "zulu_spearmen:2",
+          "zulu_guard:3"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Ottoman",
+    "code": "turks",
+    "eras": [
+      {
+        "era": 0,
+        "types": 10,
+        "total": 13,
+        "core": 13,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "ott_nizamiye_early:3",
+          "ott_redif_early:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 10,
+        "total": 13,
+        "core": 13,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "ott_nizamiye_mid:3",
+          "ott_redif_mid:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 10,
+        "total": 13,
+        "core": 13,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "ott_nizamiye_high:3",
+          "ott_redif_high:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Oman",
+    "code": "golden",
+    "eras": [
+      {
+        "era": 0,
+        "types": 6,
+        "total": 9,
+        "core": 9,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "oma_baluchi_musketeers:2",
+          "oma_regular_early:3"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 7,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "oma_baluchi_musketeers:2",
+          "oma_regular_mid:3",
+          "oma_zanzibar_mid:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 7,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "oma_baluchi_musketeers:2",
+          "oma_regular_high:3",
+          "oma_zanzibar_high:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Qajar",
+    "code": "egypt",
+    "eras": [
+      {
+        "era": 0,
+        "types": 7,
+        "total": 12,
+        "core": 12,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "qaj_tofangchi:3",
+          "qaj_sarbaz_early:3",
+          "afghan_militia:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 10,
+        "total": 15,
+        "core": 15,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "qaj_tofangchi:3",
+          "qaj_sarbaz_mid:3",
+          "afghan_militia:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 9,
+        "total": 13,
+        "core": 13,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "qaj_tofangchi:3",
+          "qaj_sarbaz_high:3"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Afghanistan",
+    "code": "timurids",
+    "eras": [
+      {
+        "era": 0,
+        "types": 8,
+        "total": 16,
+        "core": 14,
+        "mercenary": 2,
+        "artillery": 0,
+        "multi": [
+          "afg_lashkar_qawmi:3",
+          "afg_tajik_hillmen:2",
+          "afg_pashtun_wall_gunners:2",
+          "afg_regular_early:3",
+          "afg_tribal_cavalry:2",
+          "merc_kok_royal_cav:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 10,
+        "total": 18,
+        "core": 16,
+        "mercenary": 2,
+        "artillery": 0,
+        "multi": [
+          "afg_lashkar_qawmi:3",
+          "afg_tajik_hillmen:2",
+          "afg_pashtun_wall_gunners:2",
+          "afg_regular_mid:3",
+          "afg_tribal_cavalry:2",
+          "merc_kok_royal_cav:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 12,
+        "total": 20,
+        "core": 18,
+        "mercenary": 2,
+        "artillery": 0,
+        "multi": [
+          "afg_lashkar_qawmi:3",
+          "afg_tajik_hillmen:2",
+          "afg_pashtun_wall_gunners:2",
+          "afg_regular_high:3",
+          "afg_tribal_cavalry:2",
+          "merc_kok_royal_cav:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Turkestan",
+    "code": "cuman",
+    "eras": [
+      {
+        "era": 0,
+        "types": 9,
+        "total": 14,
+        "core": 14,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "kok_royal_cav:2",
+          "kok_spears:2",
+          "kok_cav:3",
+          "turkmen_inf:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 8,
+        "total": 13,
+        "core": 13,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "kok_royal_cav:2",
+          "kok_cav:3",
+          "turkmen_inf:2",
+          "kashgar_inf:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 6,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "kok_royal_cav:2",
+          "kok_cav:3",
+          "kok_inf:3"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Indian Princely States",
+    "code": "bulga",
+    "eras": [
+      {
+        "era": 0,
+        "types": 11,
+        "total": 15,
+        "core": 15,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "indian_bow_cav:2",
+          "indian_spears:2",
+          "indian_new_musk:2",
+          "india_sepoy:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 10,
+        "total": 12,
+        "core": 12,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "indian_bow_cav:2",
+          "indian_new_musk:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 6,
+        "total": 6,
+        "core": 6,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": []
+      }
+    ]
+  },
+  {
+    "faction": "Siam",
+    "code": "cru",
+    "eras": [
+      {
+        "era": 0,
+        "types": 7,
+        "total": 11,
+        "core": 11,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "siam_sword_cav:2",
+          "siam_agent:2",
+          "siam_inf:2",
+          "Siam_Archers:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 7,
+        "total": 10,
+        "core": 10,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "siam_sword_cav:2",
+          "siam_inf:2",
+          "Siam_Archers:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 6,
+        "total": 7,
+        "core": 7,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "siam_late_inf:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Qing",
+    "code": "byzantium",
+    "eras": [
+      {
+        "era": 0,
+        "types": 32,
+        "total": 60,
+        "core": 51,
+        "mercenary": 9,
+        "artillery": 0,
+        "multi": [
+          "qing_baqi_gunmen:2",
+          "qing_green_banner_gunmen:4",
+          "qing_green_banner_spears:2",
+          "qing_green_banner_archers:2",
+          "oirat_royal:2",
+          "qing_village_braves:3",
+          "qing_xiang_huai_early:3",
+          "qing_eight_banner_cavalry:2",
+          "mongol_hevcav:4",
+          "taipingguners:3",
+          "taiping_inf:3",
+          "taiping_light:2",
+          "tib_militia:2",
+          "merc_tib_inf:2",
+          "merc_kok_royal_cav:2",
+          "merc_kashgar_inf:2",
+          "qing_green_banner_horse:4",
+          "Korean:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 25,
+        "total": 44,
+        "core": 36,
+        "mercenary": 8,
+        "artillery": 0,
+        "multi": [
+          "qing_baqi_gunmen:2",
+          "qing_xiang_huai_mid:2",
+          "oirat_royal:2",
+          "qing_green_banner_regulars:3",
+          "qing_village_braves:3",
+          "qing_eight_banner_cavalry:2",
+          "mongol_hevcav:4",
+          "tib_militia:2",
+          "merc_tib_inf:2",
+          "merc_kok_royal_cav:2",
+          "merc_kashgar_inf:2",
+          "qing_green_banner_horse:4",
+          "Korean:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 26,
+        "total": 50,
+        "core": 42,
+        "mercenary": 8,
+        "artillery": 0,
+        "multi": [
+          "qing_baqi_gunmen:2",
+          "oirat_royal:2",
+          "qing_new_army:4",
+          "qing_village_braves:3",
+          "qing_green_banner_late:4",
+          "qing_beiyang_infantry:4",
+          "qing_eight_banner_cavalry:2",
+          "mongol_hevcav:4",
+          "tib_militia:2",
+          "merc_tib_inf:2",
+          "merc_kok_royal_cav:2",
+          "merc_kashgar_inf:2",
+          "qing_green_banner_horse:4"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Ethiopia",
+    "code": "papal_states",
+    "eras": [
+      {
+        "era": 0,
+        "types": 13,
+        "total": 23,
+        "core": 21,
+        "mercenary": 2,
+        "artillery": 0,
+        "multi": [
+          "mahdist_inf:2",
+          "fra_blacks_az:2",
+          "eth_rifled_musketeers:2",
+          "merc_viet_early_inf:2",
+          "ethiopian_warband:3",
+          "aby_cav_1g:3",
+          "Ethiopia:2",
+          "Ethiopia:2"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 14,
+        "total": 25,
+        "core": 23,
+        "mercenary": 2,
+        "artillery": 0,
+        "multi": [
+          "mahdist_inf:2",
+          "fra_blacks_az:2",
+          "fra_blacks_ab:2",
+          "eth_rifled_musketeers:2",
+          "merc_viet_early_inf:2",
+          "ethiopian_warband:3",
+          "aby_cav_1g:3",
+          "Ethiopia:2",
+          "Ethiopia:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 15,
+        "total": 26,
+        "core": 24,
+        "mercenary": 2,
+        "artillery": 0,
+        "multi": [
+          "mahdist_inf:2",
+          "fra_blacks_az:2",
+          "fra_blacks_ab:2",
+          "eth_rifled_musketeers:2",
+          "merc_viet_early_inf:2",
+          "ethiopian_warband:3",
+          "aby_cav_1g:3",
+          "Ethiopia:2",
+          "Ethiopia:2"
+        ]
+      }
+    ]
+  },
+  {
+    "faction": "Meiji",
+    "code": "saxons",
+    "eras": [
+      {
+        "era": 0,
+        "types": 54,
+        "total": 61,
+        "core": 61,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "Korean:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:3"
+        ]
+      },
+      {
+        "era": 1,
+        "types": 44,
+        "total": 56,
+        "core": 56,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "Korean:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:3",
+          "Japan:2",
+          "Japan:2"
+        ]
+      },
+      {
+        "era": 2,
+        "types": 52,
+        "total": 67,
+        "core": 67,
+        "mercenary": 0,
+        "artillery": 0,
+        "multi": [
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:3",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2",
+          "Japan:2"
+        ]
+      }
+    ]
+  }
+]

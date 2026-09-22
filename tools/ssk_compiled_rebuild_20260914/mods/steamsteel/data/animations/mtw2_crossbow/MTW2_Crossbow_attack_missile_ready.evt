@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_BANK      unit_march     21     21                     
+event SOUND           ANIM_Crossbow_Wind     61     61                     
+event SOUND           ANIM_Crossbow_Wind_End    116    116                     
+event SOUND_AMBIENT   human_cloth    127    127                     
+event SOUND_AMBIENT   human_armour_clink    127    127                     
+event SOUND           ANIM_Crossbow_Load    153    153                     

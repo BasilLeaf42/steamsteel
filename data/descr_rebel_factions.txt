@@ -255,8 +255,8 @@ unit				kok_royal_cav
 unit				kok_royal_cav
 unit				merc_kok_royal_cav
 unit				merc_kok_royal_cav
-unit				kaz_inf
-unit				kok_ww1
+unit				turkmen_inf
+unit				turkmen_inf
 unit				kok_armstrong
 
 ;Khiva
@@ -268,8 +268,8 @@ unit				kok_royal_cav
 unit				kok_royal_cav
 unit				merc_kok_royal_cav
 unit				merc_kok_royal_cav
-unit				kaz_inf
-unit				kok_ww1
+unit				turkmen_inf
+unit				turkmen_inf
 unit				kok_armstrong
 
 ;Turkmen
@@ -290,10 +290,10 @@ chance				400
 description			Kazakh_Rebels
 unit				merc_kok_royal_cav
 unit				merc_kok_royal_cav
-unit				kaz_cav
-unit				kaz_cav
-unit				kaz_inf
-unit				kok_ww1
+unit				kok_cav
+unit				kok_cav
+unit				turkmen_inf
+unit				turkmen_inf
 unit				kok_armstrong
 
 ;Indian rebels

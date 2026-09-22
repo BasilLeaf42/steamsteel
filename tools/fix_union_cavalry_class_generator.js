@@ -1,0 +1,14 @@
+const fs=require('fs'),path=require('path');
+const p=path.join(__dirname,'standardize_union.js');
+let s=fs.readFileSync(p,'utf8');
+const command="'category         cavalry',`class            ${u.pistolSpear?'light':'missile'}`,'voice_type       Heavy'";
+if(!s.includes(command))throw Error('Command class pattern missing');
+s=s.replace(command,"'category         cavalry','class            light','voice_type       Heavy'");
+const scout="dictionary       ${u.type} ; ${u.label} (Colt Revolver and spear)";
+s=s.replace(scout,"dictionary       ${u.type} ; ${u.label} (Colt Army Model 1860 revolver and spear)");
+const marker="].join('\\n');return [\n`type             ${u.type}`,`dictionary       ${u.type} ; ${u.label} (${u.eras.length===1?E[u.p].label+'; ':''}${u.w.name} and sabre)`,'category         cavalry','class            light'";
+const replacement="].join('\\n');return [\n`type             ${u.type}`,`dictionary       ${u.type} ; ${u.label} (${u.eras.length===1?E[u.p].label+'; ':''}${u.w.name} and sabre)`,'category         cavalry','class            missile'";
+if(!s.includes(marker))throw Error('Ordinary cavalry class pattern missing');
+s=s.replace(marker,replacement);
+fs.writeFileSync(p,s);
+console.log('Fixed Union generator: command/pistol light, genuine carbine cavalry missile.');

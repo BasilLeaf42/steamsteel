@@ -1,0 +1,5142 @@
+;
+; Campaign script
+;
+script
+
+    ;show the whole map
+    restrict_strat_radar false
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and CampaignDifficulty = easy
+        set_event_counter difficulty_easy 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and CampaignDifficulty = medium
+        set_event_counter difficulty_normal 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and CampaignDifficulty = hard
+        set_event_counter difficulty_hard 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and CampaignDifficulty = very_hard
+        set_event_counter difficulty_very_hard 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        set_event_counter is_the_ai 0
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart not FactionIsLocal
+        set_event_counter is_the_ai 1
+        terminate_monitor
+    end_monitor
+
+
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;		       Economy      			;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+    monitor_event FactionTurnStart FactionType portugala
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements portugala < 4
+        and I_TurnNumber < 20
+
+        console_command add_money portugala, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType milan
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements milan < 4
+        and I_TurnNumber < 20
+
+        console_command add_money milan, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType scotland
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements scotland < 4
+        and I_TurnNumber < 20
+
+        console_command add_money scotland, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType denmark
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements denmark < 4
+        and I_TurnNumber < 20
+
+        console_command add_money denmark, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType poland
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements poland < 4
+        and I_TurnNumber < 20
+
+        console_command add_money poland, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType aztecs
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements aztecs < 4
+        and I_TurnNumber < 20
+
+        console_command add_money aztecs, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType england
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements england < 4
+        and I_TurnNumber < 20
+
+        console_command add_money england, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType france
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements france < 4
+        and I_TurnNumber < 20
+
+        console_command add_money france, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType hre
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements hre < 4
+        and I_TurnNumber < 20
+
+        console_command add_money hre, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType spain
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements spain < 4
+        and I_TurnNumber < 20
+
+        console_command add_money spain, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType portugal
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements portugal < 4
+        and I_TurnNumber < 20
+
+        console_command add_money portugal, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType sicily
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements sicily < 4
+        and I_TurnNumber < 20
+
+        console_command add_money sicily, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType normans
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements normans < 4
+        and I_TurnNumber < 20
+
+        console_command add_money normans, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType mongols
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements mongols < 4
+        and I_TurnNumber < 20
+
+        console_command add_money mongols, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType venice
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements venice < 4
+        and I_TurnNumber < 20
+
+        console_command add_money venice, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType russia
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements russia < 4
+        and I_TurnNumber < 20
+
+        console_command add_money russia, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType hungary
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements hungary < 4
+        and I_TurnNumber < 20
+
+        console_command add_money hungary, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType moors
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements moors < 4
+        and I_TurnNumber < 20
+
+        console_command add_money moors, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType teu
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements teu < 4
+        and I_TurnNumber < 20
+
+        console_command add_money teu, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType lith
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements lith < 4
+        and I_TurnNumber < 20
+
+        console_command add_money lith, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType turks
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements turks < 4
+        and I_TurnNumber < 20
+
+        console_command add_money turks, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType golden
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements golden < 4
+        and I_TurnNumber < 20
+
+        console_command add_money golden, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType egypt
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements egypt < 4
+        and I_TurnNumber < 20
+
+        console_command add_money egypt, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType timurids
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements timurids < 4
+        and I_TurnNumber < 20
+
+        console_command add_money timurids, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType cuman
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements cuman < 4
+        and I_TurnNumber < 20
+
+        console_command add_money cuman, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType bulga
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements bulga < 4
+        and I_TurnNumber < 20
+
+        console_command add_money bulga, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType cru
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements cru < 4
+        and I_TurnNumber < 20
+
+        console_command add_money cru, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType byzantium
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements byzantium < 4
+        and I_TurnNumber < 20
+
+        console_command add_money byzantium, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType papal_states
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements papal_states < 4
+        and I_TurnNumber < 20
+
+        console_command add_money papal_states, 6000
+
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType saxons
+        and not FactionIsLocal
+        and Treasury < 3000
+        and I_NumberOfSettlements saxons < 4
+        and I_TurnNumber < 20
+
+        console_command add_money saxons, 6000
+
+    end_monitor
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;City Income Bonus
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    monitor_event SettlementTurnStart FactionType portugala
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money portugala, 10000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType milan
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money milan, 10000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType scotland
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money scotland, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType denmark
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money denmark, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType poland
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money poland, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType aztecs
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money aztecs, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType england
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money england, 10000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType france
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money france, 10000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType hre
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money hre, 10000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType spain
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money spain, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType portugal
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money portugal, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType sicily
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money sicily, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType normans
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money normans, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType mongols
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money mongols, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType venice
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money venice, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType russia
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money russia, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType hungary
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money hungary, 10000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType moors
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money moors, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType teu
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money teu, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType lith
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money lith, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType turks
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money turks, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType golden
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money golden, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType egypt
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money egypt, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType timurids
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money timurids, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType cuman
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money cuman, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType bulga
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money bulga, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType cru
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money cru, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType byzantium
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money byzantium, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType papal_states
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money papal_states, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType saxons
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money saxons, 5000
+
+    end_monitor
+
+    monitor_event SettlementTurnStart FactionType slave
+        and not FactionIsLocal
+        and Treasury < 5000
+
+        console_command add_money slave, 10000
+
+    end_monitor
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;Inflation
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money portugala, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money milan, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money scotland, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money denmark, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money poland, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money aztecs, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money england, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money france, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money hre, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money spain, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money portugal, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money sicily, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money normans, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money mongols, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money venice, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money russia, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money hungary, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money moors, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money teu, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money lith, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money turks, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money golden, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money egypt, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money timurids, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money cuman, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money bulga, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money cru, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money byzantium, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money papal_states, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and not FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money saxons, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money portugala, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money milan, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money scotland, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money denmark, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money poland, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money aztecs, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money england, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money france, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money hre, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money spain, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money portugal, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money sicily, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money normans, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money mongols, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money venice, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money russia, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money hungary, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money moors, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money teu, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money lith, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money turks, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money golden, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money egypt, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money timurids, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money cuman, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money bulga, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money cru, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money byzantium, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money papal_states, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and not FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money saxons, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money portugala, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money milan, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money scotland, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money denmark, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money poland, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money aztecs, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money england, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money france, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money hre, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money spain, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money portugal, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money sicily, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money normans, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money mongols, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money venice, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money russia, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money hungary, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money moors, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money teu, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money lith, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money turks, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money golden, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money egypt, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money timurids, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money cuman, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money bulga, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money cru, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money byzantium, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money papal_states, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and not FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money saxons, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money portugala, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money milan, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money scotland, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money denmark, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money poland, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money aztecs, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money england, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money france, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money hre, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money spain, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money portugal, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money sicily, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money normans, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money mongols, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money venice, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money russia, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money hungary, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money moors, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money teu, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money lith, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money turks, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money golden, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money egypt, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money timurids, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money cuman, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money bulga, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money cru, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money byzantium, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money papal_states, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and not FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money saxons, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money portugala, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money milan, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money scotland, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money denmark, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money poland, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money aztecs, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money england, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money france, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money hre, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money spain, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money portugal, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money sicily, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money normans, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money mongols, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money venice, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money russia, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money hungary, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money moors, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money teu, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money lith, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money turks, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money golden, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money egypt, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money timurids, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money cuman, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money bulga, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money cru, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money byzantium, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money papal_states, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and not FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money saxons, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money portugala, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money milan, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money scotland, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money denmark, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money poland, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money aztecs, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money england, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money france, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money hre, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money spain, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money portugal, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money sicily, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money normans, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money mongols, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money venice, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money russia, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money hungary, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money moors, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money teu, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money lith, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money turks, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money golden, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money egypt, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money timurids, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money cuman, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money bulga, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money cru, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money byzantium, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money papal_states, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and not FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money saxons, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money portugala, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money milan, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money scotland, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money denmark, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money poland, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money aztecs, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money england, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money france, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money hre, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money spain, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money portugal, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money sicily, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money normans, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money mongols, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money venice, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money russia, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money hungary, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money moors, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money teu, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money lith, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money turks, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money golden, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money egypt, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money timurids, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money cuman, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money bulga, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money cru, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money byzantium, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money papal_states, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and FactionIsLocal
+        and Treasury > 50000
+
+        console_command add_money saxons, -10000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money portugala, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money milan, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money scotland, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money denmark, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money poland, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money aztecs, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money england, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money france, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money hre, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money spain, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money portugal, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money sicily, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money normans, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money mongols, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money venice, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money russia, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money hungary, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money moors, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money teu, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money lith, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money turks, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money golden, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money egypt, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money timurids, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money cuman, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money bulga, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money cru, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money byzantium, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money papal_states, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and FactionIsLocal
+        and Treasury > 100000
+
+        console_command add_money saxons, -20000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money portugala, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money milan, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money scotland, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money denmark, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money poland, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money aztecs, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money england, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money france, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money hre, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money spain, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money portugal, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money sicily, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money normans, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money mongols, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money venice, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money russia, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money hungary, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money moors, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money teu, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money lith, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money turks, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money golden, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money egypt, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money timurids, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money cuman, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money bulga, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money cru, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money byzantium, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money papal_states, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and FactionIsLocal
+        and Treasury > 150000
+
+        console_command add_money saxons, -30000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money portugala, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money milan, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money scotland, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money denmark, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money poland, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money aztecs, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money england, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money france, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money hre, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money spain, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money portugal, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money sicily, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money normans, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money mongols, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money venice, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money russia, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money hungary, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money moors, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money teu, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money lith, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money turks, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money golden, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money egypt, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money timurids, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money cuman, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money bulga, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money cru, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money byzantium, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money papal_states, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and FactionIsLocal
+        and Treasury > 200000
+
+        console_command add_money saxons, -40000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money portugala, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money milan, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money scotland, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money denmark, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money poland, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money aztecs, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money england, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money france, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money hre, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money spain, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money portugal, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money sicily, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money normans, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money mongols, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money venice, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money russia, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money hungary, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money moors, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money teu, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money lith, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money turks, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money golden, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money egypt, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money timurids, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money cuman, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money bulga, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money cru, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money byzantium, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money papal_states, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and FactionIsLocal
+        and Treasury > 250000
+
+        console_command add_money saxons, -50000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugala
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money portugala, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType milan
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money milan, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType scotland
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money scotland, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType denmark
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money denmark, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType poland
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money poland, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType aztecs
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money aztecs, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType england
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money england, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType france
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money france, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hre
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money hre, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType spain
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money spain, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType portugal
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money portugal, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType sicily
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money sicily, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType normans
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money normans, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType mongols
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money mongols, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType venice
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money venice, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType russia
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money russia, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType hungary
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money hungary, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType moors
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money moors, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType teu
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money teu, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType lith
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money lith, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType turks
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money turks, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType golden
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money golden, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType egypt
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money egypt, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType timurids
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money timurids, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cuman
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money cuman, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType bulga
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money bulga, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType cru
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money cru, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType byzantium
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money byzantium, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType papal_states
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money papal_states, -90000
+
+    end_monitor
+
+    monitor_event FactionTurnEnd FactionType saxons
+        and FactionIsLocal
+        and Treasury > 300000
+
+        console_command add_money saxons, -90000
+
+    end_monitor
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;			Faction Intros          ;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType spain
+        historic_event SPAIN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType portugal
+        historic_event DUTCH_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType sicily
+        historic_event DANISH_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType byzantium
+        historic_event QING_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType hre
+        historic_event PRUSSIAN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType milan
+        historic_event CSA_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType hungary
+        historic_event AH_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType venice
+        historic_event ITALIAN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType aztecs
+        historic_event ARGENTINA_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType england
+        historic_event BRITAIN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType moors
+        historic_event MOROCCO_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType lith
+        historic_event ZULU_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType teu
+        historic_event BOER_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType turks
+        historic_event OTTOMAN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType golden
+        historic_event OMANI_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType egypt
+        historic_event QAJARI_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType cuman
+        historic_event TURKESTAN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType russia
+        historic_event RUSSIAN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType portugala
+        historic_event USA_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType scotland
+        historic_event MEXICO_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType denmark
+        historic_event PERU_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType poland
+        historic_event BRAZIL_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType normans
+        historic_event SWEDEN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType mongols
+        historic_event GREEK_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType cru
+        historic_event THAI_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType bulga
+        historic_event INDIAN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType timurids
+        historic_event AFGHAN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType france
+        historic_event FRANCE_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType papal_states
+        historic_event SHOGUN_EVENT
+        terminate_monitor
+    end_monitor
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        and FactionType saxons
+        historic_event MEIJI_EVENT
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;			Military Reforms		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+    monitor_event FactionTurnStart I_TurnNumber > 2 ; [TESTING: was 78]				;;;;;1880
+        historic_event military_reforms_1
+        set_event_counter military_reforms_1 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 4 ; [TESTING: was 158]	              ;;;;;1900
+        historic_event military_reforms_2
+        set_event_counter military_reforms_2 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 0	              
+        historic_event military_reforms_1860
+        set_event_counter military_reforms_1860 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 1 ; [TESTING: was 38]	              
+        historic_event military_reforms_1870
+        set_event_counter military_reforms_1870 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 3 ; [TESTING: was 118]	              
+        historic_event military_reforms_1890
+        set_event_counter military_reforms_1890 1
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;			Boshin War	;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+    monitor_event FactionTurnStart FactionIsLocal
+        and FactionType saxons
+        set_event_counter ishin_decision_accepted 0
+        set_event_counter ishin_decision_declined 0
+        historic_event ishin_decision true
+        while I_EventCounter ishin_decision_accepted = 0 
+            and I_EventCounter ishin_decision_declined = 0 
+        end_while
+        hide_ui
+        disable_movie_view
+        move_strat_camera 435,224
+        if I_EventCounter ishin_decision_accepted = 1
+            show_ui
+            add_money saxons, 1000
+            kill_character andonobumasa1
+            wait 0.1
+            kill_character DET_ASSASSINATED iinaosuke1
+            wait 0.8
+            create_unit Hokkaido, Japan Teppotai, num 6, exp 3, arm 0, wep 0
+            create_unit Hokkaido, Japan Kachi, num 4, exp 3, arm 0, wep 0
+            create_unit Hokkaido, Japan Seishi, num 2, exp 3, arm 0, wep 0
+            create_unit Edo, Japan Teppotai, num 8, exp 3, arm 0, wep 0
+            create_unit Edo, Japan Kachi, num 8, exp 3, arm 0, wep 0
+            create_unit Edo, Japan Seishi, num 3, exp 3, arm 0, wep 0
+            create_unit Kyoto, Japan Teppotai, num 8, exp 3, arm 0, wep 0
+            create_unit Kyoto, Japan Kachi, num 8, exp 3, arm 0, wep 0
+            create_unit Kyoto, Japan Seishi, num 2, exp 3, arm 0, wep 0
+            create_unit Reval, Japan Teppotai, num 10, exp 3, arm 0, wep 0
+            create_unit Reval, Japan Kachi, num 6, exp 3, arm 0, wep 0
+            historic_event ishin_chosen factions { saxons, }    
+        end_if
+        if I_EventCounter ishin_decision_declined = 1
+            show_ui
+            add_money saxons, 2000
+            console_command capture_settlement Edo
+            console_command capture_settlement Hokkaido
+            console_command capture_settlement Kyoto
+            console_command capture_settlement Kagoshima
+            wait 0.1
+            kill_character takachikamori1
+            wait 0.1
+            kill_character motonorimori1
+            wait 0.1
+            kill_character DET_ASSASSINATED iinaosuke1
+            wait 1.5
+            spawn_army
+                faction saxons
+                character Katamori Matsudaira, named character, age 24, x 435, y 229, portrait KatamoriMatsudaira, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            spawn_army
+                faction saxons
+                character Tadayuki Makino, named character, age 35, x 433, y 229, portrait TadayukiMakino, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            spawn_army
+                faction saxons
+                character Yoshikuni Date, named character, age 34, x 436, y 231, portrait YoshikuniDate, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            spawn_army
+                faction saxons
+                character Ayasaburo Takeda, named character, age 33, x 436, y 238, portrait AyasaburoTakeda, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            spawn_army
+                faction saxons
+                character Hisamitsu Shimazu, named character, age 43, x 422, y 215, portrait HisamitsuShimazu, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            spawn_army
+                faction saxons
+                character Takachika Mori, named character, age 41, x 423, y 221, portrait TakachikaMori, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            create_unit Hokkaido, Japan Teppotai, num 2, exp 1, arm 0, wep 0
+            create_unit Hokkaido, Japan Kachi, num 1, exp 1, arm 0, wep 0
+            create_unit Hokkaido, Japan Seishi, num 1, exp 1, arm 0, wep 0
+            create_unit Edo, Japan Teppotai, num 4, exp 1, arm 0, wep 0
+            create_unit Edo, Japan Kachi, num 2, exp 1, arm 0, wep 0
+            create_unit Edo, Japan Seishi, num 2, exp 1, arm 0, wep 0
+            create_unit Kyoto, Japan Teppotai, num 2, exp 1, arm 0, wep 0
+            create_unit Kyoto, Japan Kachi, num 1, exp 1, arm 0, wep 0
+            create_unit Kyoto, Japan Seishi, num 1, exp 1, arm 0, wep 0
+            create_unit Reval, Japan Teppotai, num 2, exp 1, arm 0, wep 0
+            create_unit Reval, Japan Kachi, num 1, exp 1, arm 0, wep 0
+            create_unit Reval, Japan Seishi, num 1, exp 1, arm 0, wep 0
+            historic_event shogun_chosen factions { saxons, }
+        end_if
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Tenguto/Mito Rebellion	;;;;;;;;;;;;;;;;;;;;;;;
+
+    monitor_event FactionTurnStart FactionIsLocal
+        and FactionType saxons
+        and I_TurnNumber = 5 ; [TESTING: was 2]
+        if I_EventCounter ishin_decision_accepted = 1
+            spawn_army
+                faction saxons
+                character Takamori Takeda, named character, age 38, x 435, y 227, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+        end_if
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Satcho Alliance	;;;;;;;;;;;;;;;;;;;;;;;
+
+    monitor_event FactionTurnStart FactionIsLocal
+        and FactionType saxons
+        and I_TurnNumber = 5 ; [TESTING: was 2]
+        if I_EventCounter ishin_decision_accepted = 1
+            historic_event ishin_satcho true
+            console_command capture_settlement Kagoshima
+            spawn_army
+                faction saxons
+                character Takamori Saigo, named character, age 38, x 422, y 219, portrait TakamoriSaigo, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            spawn_army
+                faction saxons
+                character Toshimichi Okubo, named character, age 36, x 420, y 218, portrait ToshimichiOkubo, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            spawn_army
+                faction saxons
+                character Hisamitsu Shimazu, named character, age 49, x 422, y 215, portrait HisamitsuShimazu, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            spawn_army
+                faction saxons
+                character Tadayoshi Shimazu, named character, age 26, x 422, y 217, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+            spawn_army
+                faction saxons
+                character Ryoma Sakamoto, named character, age 36, x 423, y 218, portrait RyomaSakamoto, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+            end
+        end_if
+        terminate_monitor
+    end_monitor
+
+
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;			Boxer Rebellion		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+    declare_counter boxer_army_1
+    declare_counter boxer_army_2
+
+
+    monitor_event FactionTurnStart FactionType byzantium
+        and I_TurnNumber >= 13 ; [TESTING: was 155]
+
+        spawn_army
+            faction byzantium
+            character	random_name, named character, age 35, x 399, y 230
+            unit	qing_carbs							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
+            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
+            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
+            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
+            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
+            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction byzantium
+            character	random_name, named character, age 35, x 404, y 236
+            unit	qing_carbs							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
+            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
+            unit	qing_swords							exp 0 armour 0 weapon_lvl 0
+            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
+            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
+            unit	qing_vets							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+            unit	qing_gunners							exp 0 armour 0 weapon_lvl 0
+        end
+
+        terminate_monitor	; this makes it so the game ignores this script after it fired, good for performance
+    end_monitor	
+
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;			Bolshevik Revolution		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Warning 1: unrest growing (~1895) ---
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 17 ; [TESTING: was 200]
+
+        historic_event bolshevik_warning_1
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Warning 2: strikes and unrest spreading (~1897.5) ---
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 18 ; [TESTING: was 210]
+
+        historic_event bolshevik_warning_2
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Warning 3: on the verge of revolution (~1898.5) ---
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 19 ; [TESTING: was 217]
+
+        historic_event bolshevik_warning_3
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Main uprising (1899): rebel stacks spawn near historically significant Russian
+    ; cities with NO fixed siege order - they act on their own AI judgement and will go
+    ; after whatever settlement is actually nearest/weakest, regardless of who currently
+    ; holds it. This mirrors EBII's "reactive rover" spawning technique.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 20 ; [TESTING: was 219]	; turn numbers in scripts start at 0, so make this 1899 minus start year
+
+        spawn_army
+            faction slave, sub_faction russia
+            character	random_name, named character, age 35, x 309, y 265, label bolsh_army_1
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+        end
+
+
+        spawn_army
+            faction slave, sub_faction russia
+            character	random_name, named character, age 35, x 277, y 277, label bolsh_army_2
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+        end
+
+
+        spawn_army
+            faction slave, sub_faction russia
+            character	random_name, named character, age 35, x 287, y 270, label bolsh_army_3
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+            unit	bolsh_cav							exp 0 armour 0 weapon_lvl 0
+        end
+
+
+        historic_event bolshevik_rev		; like this the event message gets displayed to all factions
+        ;;historic_event bolshevik_rev factions { spain, }		; like this only spain sees it (choose one or the other version)
+
+        terminate_monitor	; this makes it so the game ignores this script after it fired, good for performance
+    end_monitor	
+
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;			Mexican civil war		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; change the turn number & faction
+    ; put "and event_counter imperial_mexico 1" behind your imperial units in the EDB (without quotation marks)
+    ; & "and not event_counter imperial_mexico 1" behind the non-imperial ones
+    ; if there are units that only come after you have chosen to remain republican, add a new event_counter in the declined if-statement and use that as well
+
+    declare_counter imperial_mexico_army
+
+
+    monitor_event FactionTurnStart FactionType scotland
+        and I_TurnNumber >= 8 ; [TESTING: was 9]
+
+        historic_event mexican_civil_war true factions { scotland, }
+        terminate_monitor
+
+    end_monitor
+
+    monitor_event EventCounter EventCounterType mexican_civil_war_accepted
+        and I_EventCounter mexican_civil_war_accepted = 1
+
+        historic_event mexican_civil_war_empire factions { scotland, }
+        set_event_counter imperial_mexico 1
+        set_faction_standing scotland france 1.0
+        set_faction_standing france scotland 1.0
+        set_faction_standing scotland milan 1.0
+        set_faction_standing milan scotland 1.0
+        set_faction_standing scotland portugala -1.0
+        set_faction_standing portugala scotland -1.0
+        terminate_monitor
+
+    end_monitor
+
+    monitor_event EventCounter EventCounterType mexican_civil_war_declined
+        and I_EventCounter mexican_civil_war_declined = 1
+
+        historic_event mexican_civil_war_republic factions { scotland, }
+        set_faction_standing scotland portugala 1.0
+        set_faction_standing portugala scotland 1.0
+        terminate_monitor
+
+    end_monitor
+
+    ; --- Decline consequence: France invades anyway, a few turns later ---
+    ; Landing force at Veracruz (Galicie)
+
+    declare_counter french_invasion_veracruz
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter mexican_civil_war_declined = 1
+
+        inc_counter french_invasion_veracruz 1
+
+        if I_CompareCounter french_invasion_veracruz >= 4
+            historic_event french_invasion_begins factions { scotland, }
+
+            spawn_army
+                faction slave, sub_faction france
+                character	random_name, general, age 30, x 101, y 201, label french_invasion_1
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc					exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc					exp 0 armour 0 weapon_lvl 0
+            end
+
+            siege_settlement french_invasion_1, Galicie, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    ; Strike force at Mexico City
+
+    declare_counter french_invasion_mexico_city
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter mexican_civil_war_declined = 1
+
+        inc_counter french_invasion_mexico_city 1
+
+        if I_CompareCounter french_invasion_mexico_city >= 4
+            spawn_army
+                faction slave, sub_faction france
+                character	random_name, general, age 30, x 101, y 198, label french_invasion_2
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 0 armour 0 weapon_lvl 0
+                unit	mex_bers					exp 0 armour 0 weapon_lvl 0
+                unit	mex_bers					exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc					exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc					exp 0 armour 0 weapon_lvl 0
+            end
+
+            siege_settlement french_invasion_2, Mexico, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter mexican_civil_war_empire = 1
+
+        inc_counter imperial_mexico_army 1
+
+        if I_CompareCounter imperial_mexico_army >= 4
+            spawn_army
+                faction scotland
+                character	random_name, general, age 30, x 93, y 202
+                unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
+                unit	mex_bers	exp 0 armour 0 weapon_lvl 0
+                unit	mex_bers	exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc	exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc	exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc	exp 0 armour 0 weapon_lvl 0
+                unit	fra_inf_sc	exp 0 armour 0 weapon_lvl 0
+            end
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    declare_counter republican_remnants_army
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter mexican_civil_war_empire = 1
+
+        inc_counter republican_remnants_army 1
+
+        if I_CompareCounter republican_remnants_army >= 1
+            spawn_army
+                faction slave, sub_faction scotland
+                character	random_name, general, age 25, x 101, y 195, label mexloyal1
+                unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
+                unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
+                unit	aus_inf	exp 0 armour 0 weapon_lvl 0
+                unit	aus_inf	exp 0 armour 0 weapon_lvl 0
+                unit	aus_inf	exp 0 armour 0 weapon_lvl 0
+                unit	mex_natl_guard	exp 0 armour 0 weapon_lvl 0
+                unit	mex_natl_guard	exp 0 armour 0 weapon_lvl 0
+                unit	mex_natl_guard	exp 0 armour 0 weapon_lvl 0
+                unit	mex_natl_guard	exp 0 armour 0 weapon_lvl 0
+                unit	mex_natl_guard	exp 0 armour 0 weapon_lvl 0
+
+            end    
+
+            siege_settlement mexloyal1, Mexico, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    declare_counter republican_remnants_army2
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter mexican_civil_war_empire = 1
+
+        inc_counter republican_remnants_army2 1
+
+        if I_CompareCounter republican_remnants_army2 >= 1
+            spawn_army
+                faction slave, sub_faction scotland
+                character	random_name, general, age 25, x 101, y 200, label mexloyal2
+                unit	uk_knights_sc	exp 0 armour 0 weapon_lvl 0
+                unit	aus_inf	exp 0 armour 0 weapon_lvl 0
+                unit	aus_inf	exp 0 armour 0 weapon_lvl 0
+                unit	mex_natl_guard	exp 0 armour 0 weapon_lvl 0
+                unit	mex_natl_guard	exp 0 armour 0 weapon_lvl 0
+                unit	mex_natl_guard	exp 0 armour 0 weapon_lvl 0
+                unit	mex_natl_guard	exp 0 armour 0 weapon_lvl 0
+
+            end
+
+            siege_settlement mexloyal2, Galicie, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    ;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;			Restorations & Unifications			;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+    ;########## Reunification of Incan Empire ##########
+
+    monitor_event FactionTurnStart FactionType denmark
+        and I_SettlementOwner Antofagasta = denmark			; replace Rome with all the italian settlements (the in-engine-names, not the ones displayed ingame!)
+        and I_SettlementOwner Lima = denmark
+        and I_SettlementOwner Cholula = denmark
+        and I_SettlementOwner Moravie = denmark
+        and I_SettlementOwner Cuzco = denmark
+        and I_SettlementOwner Lapaz = denmark
+
+        historic_event incan_empire factions { denmark, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
+
+        set_event_counter inca_reunited 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter inca_reunited 1" (without quotation marks)
+        terminate_monitor
+    end_monitor
+
+
+
+
+    ;########## Byzantium Restored ##########
+
+    monitor_event FactionTurnStart FactionType mongols
+        and I_SettlementOwner Rome = mongols			; replace Rome with all the italian settlements (the in-engine-names, not the ones displayed ingame!)
+        and I_SettlementOwner Constantinople = mongols
+        and I_SettlementOwner Hellenie = mongols
+        and I_SettlementOwner Smyrna = mongols
+        and I_SettlementOwner Thessalonica = mongols
+        and I_SettlementOwner Konia = mongols
+        and I_SettlementOwner Trebizond = mongols
+        and I_SettlementOwner Baku = mongols
+
+        historic_event byzantine_restoration factions { mongols, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
+
+        set_event_counter byzantium_restored 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter byzantium_restored 1" (without quotation marks)
+        terminate_monitor
+    end_monitor
+
+
+    ;########## Italian Reunification ##########
+
+    monitor_event FactionTurnStart FactionType venice
+        and I_SettlementOwner Rome = venice			; replace Rome with all the italian settlements (the in-engine-names, not the ones displayed ingame!)
+        and I_SettlementOwner Venice = venice
+        and I_SettlementOwner Naples = venice
+        and I_SettlementOwner Cagliari = venice
+        and I_SettlementOwner Milan = venice
+
+        historic_event italian_unification factions { venice, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
+
+        set_event_counter italian_unification 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter italian_unification 1" (without quotation marks)
+
+        ; Authority: increased international standing
+        set_faction_standing venice england 0.3
+        set_faction_standing england venice 0.3
+        set_faction_standing venice france 0.3
+        set_faction_standing france venice 0.3
+        set_faction_standing venice hre 0.3
+        set_faction_standing hre venice 0.3
+        set_faction_standing venice hungary 0.3
+        set_faction_standing hungary venice 0.3
+        set_faction_standing venice russia 0.3
+        set_faction_standing russia venice 0.3
+
+        terminate_monitor
+    end_monitor
+	
+    ;########## Roman Empire Reunification ##########
+
+    monitor_event FactionTurnStart FactionType venice
+        and I_SettlementOwner Rome = venice			; replace Rome with all the italian settlements (the in-engine-names, not the ones displayed ingame!)
+        and I_SettlementOwner Constantinople = venice
+        and I_SettlementOwner Hellenie = venice
+        and I_SettlementOwner Smyrna = venice
+        and I_SettlementOwner Thessalonica = venice
+        and I_SettlementOwner Konia = venice
+        and I_SettlementOwner Trebizond = venice
+        and I_SettlementOwner Baku = venice
+        and I_SettlementOwner Cordoba = venice
+        and I_SettlementOwner Zaragoza = venice
+        and I_SettlementOwner Burgos = venice
+        and I_SettlementOwner Lisbon = venice
+        and I_SettlementOwner Leon = venice
+        and I_SettlementOwner Bordeaux = venice
+        and I_SettlementOwner Marseille = venice
+        and I_SettlementOwner Milan = venice
+        and I_SettlementOwner Venice = venice
+        and I_SettlementOwner Belgrad = venice
+        and I_SettlementOwner Buda = venice
+        and I_SettlementOwner Antioch = venice
+        and I_SettlementOwner Damascus = venice
+        and I_SettlementOwner Caire = venice
+        and I_SettlementOwner Tripoli = venice
+        and I_SettlementOwner Krasnodar = venice
+        and I_SettlementOwner Fez = venice
+        and I_SettlementOwner Cagliari = venice
+        and I_SettlementOwner Vienne = venice
+
+        historic_event roman_empire_restored factions { venice, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
+
+        set_event_counter roman_empire_restored 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter roman_empire_restored 1" (without quotation marks)
+        terminate_monitor
+    end_monitor
+
+
+    ;########## Germany Unified - MERGED into Franco-Prussian War section's
+    ;########## German Empire resolution trigger (now requires both German
+    ;########## unification AND victory over France) ##########
+
+
+    ;########## Timurid reunified ##########
+
+    monitor_event FactionTurnStart FactionType cuman
+        and I_SettlementOwner Arqin = cuman			; replace Rome with all the italian settlements (the in-engine-names, not the ones displayed ingame!)
+        and I_SettlementOwner Astana = cuman
+        and I_SettlementOwner Urgentch = cuman
+        and I_SettlementOwner Bukhara = cuman
+        and I_SettlementOwner Korasan = cuman
+        and I_SettlementOwner Teheran = cuman
+        and I_SettlementOwner Esfahan = cuman
+        and I_SettlementOwner Baku = cuman
+        and I_SettlementOwner Tabriz = cuman
+        and I_SettlementOwner Manzikirt = cuman
+        and I_SettlementOwner Baghdad = cuman
+        and I_SettlementOwner Kerman = cuman
+        and I_SettlementOwner Baluchistan = cuman
+        and I_SettlementOwner Kandahar = cuman
+        and I_SettlementOwner Tashkent = cuman
+        and I_SettlementOwner Almaty = cuman
+
+        historic_event timurid_unified factions { cuman, }		; remember to have all historic events localised in historic_events.txt, or this will be a crash!
+
+        set_event_counter timurid_unified 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter timurid_unified 1" (without quotation marks)
+        terminate_monitor
+    end_monitor
+    ;;;;;;;;;;;;;			American Civil War (1861)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Faction-alive tracking (mirrors EBII's own technique: no heirs = no faction) ---
+
+    monitor_event FactionTurnStart FactionType slave
+        if I_NumberOfHeirs portugala > 0
+            set_event_counter portugala_alive 1
+        end_if
+        if I_NumberOfHeirs portugala < 1
+            set_event_counter portugala_alive 0
+        end_if
+        if I_NumberOfHeirs milan > 0
+            set_event_counter milan_alive 1
+        end_if
+        if I_NumberOfHeirs milan < 1
+            set_event_counter milan_alive 0
+        end_if
+    end_monitor
+
+    ; --- Main trigger: both still alive, ~1861 ---
+    ; NOTE: american_civil_war_begins needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 7 ; [TESTING: was 4]
+        and I_EventCounter portugala_alive = 1
+        and I_EventCounter milan_alive = 1
+
+        historic_event american_civil_war_begins
+
+        set_event_counter american_civil_war 1
+
+        ; European powers gain diplomatic options - closer relations with both sides
+        ; reflecting the war's international significance
+        set_faction_standing england portugala 0.3
+        set_faction_standing portugala england 0.3
+        set_faction_standing england milan 0.3
+        set_faction_standing milan england 0.3
+        set_faction_standing france portugala 0.3
+        set_faction_standing portugala france 0.3
+        set_faction_standing france milan 0.3
+        set_faction_standing milan france 0.3
+        set_faction_standing hre portugala 0.3
+        set_faction_standing portugala hre 0.3
+        set_faction_standing hre milan 0.3
+        set_faction_standing milan hre 0.3
+        set_faction_standing hungary portugala 0.3
+        set_faction_standing portugala hungary 0.3
+        set_faction_standing hungary milan 0.3
+        set_faction_standing milan hungary 0.3
+        set_faction_standing russia portugala 0.3
+        set_faction_standing portugala russia 0.3
+        set_faction_standing russia milan 0.3
+        set_faction_standing milan russia 0.3
+        set_faction_standing venice portugala 0.3
+        set_faction_standing portugala venice 0.3
+        set_faction_standing venice milan 0.3
+        set_faction_standing milan venice 0.3
+        set_faction_standing spain portugala 0.3
+        set_faction_standing portugala spain 0.3
+        set_faction_standing spain milan 0.3
+        set_faction_standing milan spain 0.3
+
+        ; CSA's first wave - 3 guaranteed veteran armies
+        spawn_army
+            faction milan, sub_faction milan
+            character	random_name, named character, age 45, x 125, y 218, label csa_army_1
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction milan, sub_faction milan
+            character	random_name, named character, age 37, x 123, y 221, label csa_army_2
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction milan, sub_faction milan
+            character	random_name, named character, age 43, x 125, y 220, label csa_army_3
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_inf					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+            unit	csa_cav					exp 3 armour 0 weapon_lvl 0
+        end
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Escalation waves: up to 3 more armies over time, only while the war is
+    ; still ongoing (both factions still alive) ---
+
+    declare_counter csa_escalation_wave_1
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter american_civil_war = 1
+        and I_EventCounter portugala_alive = 1
+        and I_EventCounter milan_alive = 1
+
+        inc_counter csa_escalation_wave_1 1
+
+        if I_CompareCounter csa_escalation_wave_1 >= 12
+            spawn_army
+                faction milan, sub_faction milan
+                character	random_name, named character, age 44, x 123, y 219, label csa_army_4
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_cav					exp 2 armour 0 weapon_lvl 0
+            end
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    declare_counter csa_escalation_wave_2
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter american_civil_war = 1
+        and I_EventCounter portugala_alive = 1
+        and I_EventCounter milan_alive = 1
+
+        inc_counter csa_escalation_wave_2 1
+
+        if I_CompareCounter csa_escalation_wave_2 >= 20
+            spawn_army
+                faction milan, sub_faction milan
+                character	random_name, named character, age 44, x 117, y 216, label csa_army_5
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_cav					exp 2 armour 0 weapon_lvl 0
+            end
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    declare_counter csa_escalation_wave_3
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter american_civil_war = 1
+        and I_EventCounter portugala_alive = 1
+        and I_EventCounter milan_alive = 1
+
+        inc_counter csa_escalation_wave_3 1
+
+        if I_CompareCounter csa_escalation_wave_3 >= 28
+            spawn_army
+                faction milan, sub_faction milan
+                character	random_name, named character, age 40, x 128, y 220, label csa_army_6
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_inf					exp 2 armour 0 weapon_lvl 0
+                unit	csa_cav					exp 2 armour 0 weapon_lvl 0
+            end
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    ;;;;;;;;;;;;;			Franco-Prussian War (1870)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Faction-alive tracking ---
+
+    monitor_event FactionTurnStart FactionType slave
+        if I_NumberOfHeirs france > 0
+            set_event_counter france_alive 1
+        end_if
+        if I_NumberOfHeirs france < 1
+            set_event_counter france_alive 0
+        end_if
+        if I_NumberOfHeirs hre > 0
+            set_event_counter hre_alive 1
+        end_if
+        if I_NumberOfHeirs hre < 1
+            set_event_counter hre_alive 0
+        end_if
+    end_monitor
+
+    ; --- War begins: both alive, ~1870 ---
+    ; NOTE: franco_prussian_war_begins needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 9 ; [TESTING: was 38]
+        and I_EventCounter france_alive = 1
+        and I_EventCounter hre_alive = 1
+
+        historic_event franco_prussian_war_begins
+
+        set_event_counter franco_prussian_war 1
+
+        ; Prussian invasion force marches on Paris
+        spawn_army
+            faction slave, sub_faction hre
+            character	random_name, named character, age 69, x 237, y 258, label fpw_army_1
+            unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+            unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+            unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+            unit	pru_ww1_gren					exp 2 armour 0 weapon_lvl 0
+            unit	pru_ww1_gren					exp 2 armour 0 weapon_lvl 0
+            unit	ger_hus						exp 2 armour 0 weapon_lvl 0
+        end
+
+        siege_settlement fpw_army_1, Paris, attack
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Reinforcement wave if the siege drags on ---
+
+    declare_counter fpw_reinforcement_wave
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter franco_prussian_war = 1
+        and I_EventCounter france_alive = 1
+        and I_EventCounter hre_alive = 1
+        and I_EventCounter german_empire_proclaimed < 1
+
+        inc_counter fpw_reinforcement_wave 1
+
+        if I_CompareCounter fpw_reinforcement_wave >= 10
+            spawn_army
+                faction slave, sub_faction hre
+                character	random_name, named character, age 63, x 242, y 258, label fpw_army_2
+                unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+                unit	pru_ww1_inf					exp 2 armour 0 weapon_lvl 0
+                unit	pru_ww1_gren					exp 2 armour 0 weapon_lvl 0
+                unit	ger_hus						exp 2 armour 0 weapon_lvl 0
+            end
+
+            siege_settlement fpw_army_2, Paris, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+    ; --- Resolution: Prussia has both unified the German states AND won the war
+    ; against France (captured Paris) - German Empire proclaimed ---
+    ; NOTE: german_empire_proclaimed needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType hre
+        and I_EventCounter franco_prussian_war = 1
+        and I_SettlementOwner Paris = hre
+        and I_SettlementOwner Lisboa = hre
+        and I_SettlementOwner Magdeburg = hre
+        and I_SettlementOwner Prague = hre
+        and I_SettlementOwner Hohenstauffen = hre
+        and I_SettlementOwner Baviere = hre
+        and I_SettlementOwner Hamburg = hre
+
+        historic_event german_empire_proclaimed factions { hre, }
+
+        set_event_counter german_empire_proclaimed 1
+
+        ; Authority: increased international standing
+        set_faction_standing hre england 0.3
+        set_faction_standing england hre 0.3
+        set_faction_standing hre hungary 0.3
+        set_faction_standing hungary hre 0.3
+        set_faction_standing hre russia 0.3
+        set_faction_standing russia hre 0.3
+        set_faction_standing hre venice 0.3
+        set_faction_standing venice hre 0.3
+        set_faction_standing hre spain 0.3
+        set_faction_standing spain hre 0.3
+
+        ; Berlin's reparations windfall
+        console_command add_money hre, 15000
+
+        ; France: loses prestige
+        set_faction_standing france england -0.3
+        set_faction_standing england france -0.3
+        set_faction_standing france hungary -0.3
+        set_faction_standing hungary france -0.3
+        set_faction_standing france russia -0.3
+        set_faction_standing russia france -0.3
+        set_faction_standing france venice -0.3
+        set_faction_standing venice france -0.3
+        set_faction_standing france spain -0.3
+        set_faction_standing spain france -0.3
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Possibility of Commune: rebel uprising in Paris after the defeat ---
+    ; NOTE: paris_commune needs a matching entry in historic_events.txt.
+
+    declare_counter paris_commune_timer
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_EventCounter german_empire_proclaimed = 1
+
+        inc_counter paris_commune_timer 1
+
+        if I_CompareCounter paris_commune_timer >= 4
+            historic_event paris_commune
+
+            spawn_army
+                faction slave, sub_faction france
+                character	random_name, named character, age 35, x 235, y 254, label paris_commune_army
+                unit	fra_inf_sc					exp 1 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 1 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 1 armour 0 weapon_lvl 0
+                unit	fra_inf_sc					exp 1 armour 0 weapon_lvl 0
+            end
+
+            siege_settlement paris_commune_army, Paris, attack
+
+            terminate_monitor
+        end_if
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Mahdist Revolt (1881)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Sudan explodes: several Mahdist stacks, autonomous (no fixed target) ---
+    ; NOTE: mahdist_revolt_begins needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 14 ; [TESTING: was 82]
+
+        historic_event mahdist_revolt_begins
+
+        set_event_counter mahdist_revolt 1
+
+        spawn_army
+            faction slave, sub_faction turks
+            character	random_name, named character, age 37, x 276, y 189, label mahdist_army_1
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_cav					exp 1 armour 0 weapon_lvl 0
+            unit	arab_cav					exp 1 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction slave, sub_faction turks
+            character	random_name, named character, age 36, x 282, y 177, label mahdist_army_2
+            unit	merc_arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	merc_arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_cav					exp 1 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction slave, sub_faction turks
+            character	random_name, named character, age 35, x 279, y 188, label mahdist_army_3
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	arab_brigade					exp 1 armour 0 weapon_lvl 0
+            unit	merc_arab_brigade					exp 1 armour 0 weapon_lvl 0
+        end
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Britain's mission: relieve/capture Khartoum ---
+    ; NOTE: britain_khartoum_mission and britain_khartoum_success need matching entries
+    ; in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType england
+        and I_EventCounter mahdist_revolt = 1
+        and I_EventCounter britain_khartoum_briefed < 1
+
+        historic_event britain_khartoum_mission factions { england, }
+        set_event_counter britain_khartoum_briefed 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType england
+        and I_EventCounter mahdist_revolt = 1
+        and I_SettlementOwner Khartoum = england
+        and I_EventCounter britain_khartoum_success < 1
+
+        historic_event britain_khartoum_success factions { england, }
+        set_event_counter britain_khartoum_success 1
+
+        set_faction_standing england turks 0.3
+        set_faction_standing turks england 0.3
+        console_command add_money england, 8000
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Ethiopia's mission: repel the Mahdists, capture Khartoum ---
+    ; NOTE: ethiopia_khartoum_mission and ethiopia_khartoum_success need matching
+    ; entries in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType papal_states
+        and I_EventCounter mahdist_revolt = 1
+        and I_EventCounter ethiopia_khartoum_briefed < 1
+
+        historic_event ethiopia_khartoum_mission factions { papal_states, }
+        set_event_counter ethiopia_khartoum_briefed 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart FactionType papal_states
+        and I_EventCounter mahdist_revolt = 1
+        and I_SettlementOwner Khartoum = papal_states
+        and I_EventCounter ethiopia_khartoum_success < 1
+
+        historic_event ethiopia_khartoum_success factions { papal_states, }
+        set_event_counter ethiopia_khartoum_success 1
+
+        set_faction_standing papal_states england 0.2
+        set_faction_standing england papal_states 0.2
+        console_command add_money papal_states, 8000
+
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Manifest Destiny		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- USA owns the western territories ---
+    ; NOTE: manifest_destiny needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType portugala
+        and I_SettlementOwner Tongva = portugala			; California
+        and I_SettlementOwner Tualatin = portugala			; Pacific Northwest / Oregon
+        and I_SettlementOwner Utah = portugala
+        and I_SettlementOwner Nuevo_Mexico = portugala		; New Mexico Territory
+        and I_SettlementOwner Comanche = portugala			; Texas
+
+        historic_event manifest_destiny factions { portugala, }
+
+        set_event_counter manifest_destiny 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter manifest_destiny 1" (without quotation marks)
+
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Indian Raj		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Britain secures India ---
+    ; NOTE: indian_raj needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType england
+        and I_SettlementOwner Sind = england			; Karachi
+        and I_SettlementOwner Bangalore = england
+        and I_SettlementOwner Jabalpur = england			; Bhopal
+        and I_SettlementOwner Cuttack = england			; Madras
+        and I_SettlementOwner Jaipur = england
+        and I_SettlementOwner Dehli = england			; Delhi
+        and I_SettlementOwner Bengal = england			; Calcutta
+
+        historic_event indian_raj factions { england, }
+
+        set_event_counter indian_raj 1			; use this in the EDB behind your 'recruit_pool' of the desired units as "and event_counter indian_raj 1" (without quotation marks)
+
+        ; Authority: increased international standing
+        set_faction_standing england france 0.3
+        set_faction_standing france england 0.3
+        set_faction_standing england hre 0.3
+        set_faction_standing hre england 0.3
+        set_faction_standing england hungary 0.3
+        set_faction_standing hungary england 0.3
+        set_faction_standing england russia 0.3
+        set_faction_standing russia england 0.3
+        set_faction_standing england venice 0.3
+        set_faction_standing venice england 0.3
+
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Technology Events (universal, no faction requirements)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Steel Revolution (~1867.5): cheaper construction, worldwide ---
+    ; NOTE: steel_revolution needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 11 ; [TESTING: was 30]
+
+        historic_event steel_revolution
+
+        set_event_counter steel_revolution 1
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Repeating Rifles (~1865): major powers' line infantry more available ---
+    ; NOTE: repeating_rifles needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 10 ; [TESTING: was 20]
+
+        historic_event repeating_rifles
+
+        set_event_counter repeating_rifles 1
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Railway Boom (~1871.5): industrial and market income, worldwide ---
+    ; NOTE: railway_boom needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 12 ; [TESTING: was 45]
+
+        historic_event railway_boom
+
+        set_event_counter railway_boom 1
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Machine Gun Era (~1884): narrative only - Maxims are already gated by
+    ; military_reforms_1890 throughout the EDB, so this doesn't duplicate that lock ---
+    ; NOTE: machine_gun_era needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 15 ; [TESTING: was 96]
+
+        historic_event machine_gun_era
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Wireless Telegraph (~1897.5): generals worldwide more likely to gain a
+    ; telegraph_operator (Command + Line of Sight) ---
+    ; NOTE: wireless_telegraph needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 16 ; [TESTING: was 150]
+
+        historic_event wireless_telegraph
+
+        set_event_counter wireless_telegraph 1
+
+        terminate_monitor
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Civil Unrest (random, all major powers)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; NOTE: civil_unrest needs a matching entry in historic_events.txt.
+    ; Roll a fresh random number each turn for each major power.
+
+    monitor_event FactionTurnEnd FactionType slave
+        generate_random_counter civil_unrest_roll_england 1 20
+        generate_random_counter civil_unrest_roll_france 1 20
+        generate_random_counter civil_unrest_roll_hre 1 20
+        generate_random_counter civil_unrest_roll_hungary 1 20
+        generate_random_counter civil_unrest_roll_russia 1 20
+        generate_random_counter civil_unrest_roll_portugala 1 20
+        generate_random_counter civil_unrest_roll_milan 1 20
+        generate_random_counter civil_unrest_roll_venice 1 20
+    end_monitor
+
+    ; --- england (Londres) ---
+
+    monitor_event FactionTurnStart FactionType england
+        and I_EventCounter civil_unrest_roll_england = 1
+        and I_SettlementOwner Londres = england
+
+        historic_event civil_unrest factions { england, }
+
+        add_settlement_turmoil Londres 12
+        console_command add_money england, -1500
+
+    end_monitor
+
+    ; --- france (Paris) ---
+
+    monitor_event FactionTurnStart FactionType france
+        and I_EventCounter civil_unrest_roll_france = 1
+        and I_SettlementOwner Paris = france
+
+        historic_event civil_unrest factions { france, }
+
+        add_settlement_turmoil Paris 12
+        console_command add_money france, -1500
+
+    end_monitor
+
+    ; --- hre (Magdeburg) ---
+
+    monitor_event FactionTurnStart FactionType hre
+        and I_EventCounter civil_unrest_roll_hre = 1
+        and I_SettlementOwner Magdeburg = hre
+
+        historic_event civil_unrest factions { hre, }
+
+        add_settlement_turmoil Magdeburg 12
+        console_command add_money hre, -1500
+
+    end_monitor
+
+    ; --- hungary (Vienne) ---
+
+    monitor_event FactionTurnStart FactionType hungary
+        and I_EventCounter civil_unrest_roll_hungary = 1
+        and I_SettlementOwner Vienne = hungary
+
+        historic_event civil_unrest factions { hungary, }
+
+        add_settlement_turmoil Vienne 12
+        console_command add_money hungary, -1500
+
+    end_monitor
+
+    ; --- russia (Moscou) ---
+
+    monitor_event FactionTurnStart FactionType russia
+        and I_EventCounter civil_unrest_roll_russia = 1
+        and I_SettlementOwner Moscou = russia
+
+        historic_event civil_unrest factions { russia, }
+
+        add_settlement_turmoil Moscou 12
+        console_command add_money russia, -1500
+
+    end_monitor
+
+    ; --- portugala (Corinth) ---
+
+    monitor_event FactionTurnStart FactionType portugala
+        and I_EventCounter civil_unrest_roll_portugala = 1
+        and I_SettlementOwner Corinth = portugala
+
+        historic_event civil_unrest factions { portugala, }
+
+        add_settlement_turmoil Corinth 12
+        console_command add_money portugala, -1500
+
+    end_monitor
+
+    ; --- milan (Apache) ---
+
+    monitor_event FactionTurnStart FactionType milan
+        and I_EventCounter civil_unrest_roll_milan = 1
+        and I_SettlementOwner Apache = milan
+
+        historic_event civil_unrest factions { milan, }
+
+        add_settlement_turmoil Apache 12
+        console_command add_money milan, -1500
+
+    end_monitor
+
+    ; --- venice (Venice) ---
+
+    monitor_event FactionTurnStart FactionType venice
+        and I_EventCounter civil_unrest_roll_venice = 1
+        and I_SettlementOwner Venice = venice
+
+        historic_event civil_unrest factions { venice, }
+
+        add_settlement_turmoil Venice 12
+        console_command add_money venice, -1500
+
+    end_monitor
+
+
+    ;;;;;;;;;;;;;			Taiping Rebellion (1850-1864)		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    ; --- Already underway as the campaign begins (started 1850, ongoing) ---
+    ; NOTE: taiping_rebellion_intensifies needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType slave
+        and I_TurnNumber == 6 ; [TESTING: was 2]
+
+        historic_event taiping_rebellion_intensifies
+
+        set_event_counter taiping_rebellion 1
+
+        spawn_army
+            faction slave, sub_faction byzantium
+            character	random_name, named character, age 47, x 398, y 217, label taiping_army_1
+            unit	taiping_inf					exp 2 armour 0 weapon_lvl 0
+            unit	taiping_inf					exp 2 armour 0 weapon_lvl 0
+            unit	taiping_inf					exp 2 armour 0 weapon_lvl 0
+            unit	taipingguners					exp 2 armour 0 weapon_lvl 0
+            unit	taipingguners					exp 2 armour 0 weapon_lvl 0
+            unit	taiping_light					exp 1 armour 0 weapon_lvl 0
+            unit	taiping_w					exp 1 armour 0 weapon_lvl 0
+        end
+
+        spawn_army
+            faction slave, sub_faction byzantium
+            character	random_name, named character, age 40, x 401, y 216, label taiping_army_2
+            unit	taiping_inf					exp 1 armour 0 weapon_lvl 0
+            unit	taiping_inf					exp 1 armour 0 weapon_lvl 0
+            unit	taipingguners					exp 1 armour 0 weapon_lvl 0
+            unit	taiping_light					exp 1 armour 0 weapon_lvl 0
+            unit	taiping_w					exp 1 armour 0 weapon_lvl 0
+        end
+
+        terminate_monitor
+    end_monitor
+
+    ; --- Resolution: Qing forces (with Western support under Gordon) retake Nanjing,
+    ; ending the rebellion (historically 1864) ---
+    ; NOTE: taiping_suppressed needs a matching entry in historic_events.txt.
+
+    monitor_event FactionTurnStart FactionType byzantium
+        and I_EventCounter taiping_rebellion = 1
+        and I_SettlementOwner Nanjing = byzantium
+        and I_EventCounter taiping_suppressed < 1
+
+        historic_event taiping_suppressed factions { byzantium, }
+
+        set_event_counter taiping_suppressed 1
+
+        spawn_army
+            faction byzantium
+            character	random_name, named character, age 31, x 404, y 223, label ever_victorious_army
+            unit	qing_vets					exp 3 armour 0 weapon_lvl 0
+            unit	qing_vets					exp 3 armour 0 weapon_lvl 0
+            unit	qing_ww1_inf					exp 2 armour 0 weapon_lvl 0
+        end
+
+        ; Authority: increased international standing
+        set_faction_standing byzantium england 0.3
+        set_faction_standing england byzantium 0.3
+        set_faction_standing byzantium france 0.3
+        set_faction_standing france byzantium 0.3
+
+        terminate_monitor
+    end_monitor
+
+
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;			Seasons		;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+    ; Seasonal Turn Script
+
+    declare_counter seasonal_turn
+    set_counter seasonal_turn 1
+
+    monitor_event PreFactionTurnStart FactionIsLocal
+        if I_CompareCounter seasonal_turn == 1
+            console_command season winter
+        end_if
+
+        if I_CompareCounter seasonal_turn == 2
+            console_command season summer
+        end_if
+
+        if I_CompareCounter seasonal_turn == 3
+            console_command season summer
+        end_if
+
+        if I_CompareCounter seasonal_turn == 4
+            console_command season summer
+        end_if
+
+        inc_counter seasonal_turn 1
+        if I_CompareCounter seasonal_turn == 5
+            set_counter seasonal_turn 1
+        end_if
+    end_monitor
+
+
+
+
+
+    ; === DO NOT ADD ANYTHING BELOW THIS LINE! ===
+
+    wait_monitors
+end_script

@@ -1,0 +1,10 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event DETACH          bone_Lelbow     10     10                     
+event SOUND_AMBIENT   human_cloth     14     14                     
+event SOUND_AMBIENT   human_armour_clink     14     14                     
+event SOUND_BANK      unit_march     15     15                     

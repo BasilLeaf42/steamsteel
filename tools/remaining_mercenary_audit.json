@@ -1,0 +1,267 @@
+{
+  "audited": 40,
+  "ships": 2,
+  "clean": 40,
+  "withIssues": 0,
+  "issueCounts": {
+    "naval: outside land-unit balance": 2
+  },
+  "units": [
+    {
+      "type": "merc galley",
+      "display": "Armed Merchantman",
+      "category": "ship",
+      "issues": [
+        "naval: outside land-unit balance"
+      ]
+    },
+    {
+      "type": "merc cog",
+      "display": "Merchant Gunboat",
+      "category": "ship",
+      "issues": [
+        "naval: outside land-unit balance"
+      ]
+    },
+    {
+      "type": "merc_us_farmer_cav",
+      "display": "Settler Cavalry",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_ap_front_cav",
+      "display": "Indian Scout Cavalry",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_apache_inf",
+      "display": "Apache Mercenaries",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_uru_inf",
+      "display": "Uruguayan Infantry",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_para_foot",
+      "display": "Paraguayan Infantry",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_us_farmers",
+      "display": "Filibusters",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_port_inf_early",
+      "display": "Fuzileiros Portugueses (Early)",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_port_inf_mid",
+      "display": "Fuzileiros Portugueses (Mid)",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_port_inf_high",
+      "display": "Fuzileiros Portugueses (Late)",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_port_cav_early",
+      "display": "Carabineiros Portugueses (Early)",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_port_cav_mid",
+      "display": "Carabineiros Portugueses (Mid)",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_port_cav_high",
+      "display": "Carabineiros Portugueses (Late)",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_port_inf",
+      "display": "Fuzileiros Portugueses",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_port_lancer",
+      "display": "Carabineiros Portugueses",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_bhutan_warrior",
+      "display": "Bhutanese Warriors",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_papa_bows",
+      "display": "Melanesian Scouts",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_burmese_inf",
+      "display": "Burmese Irregulars",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_indian_fanatic",
+      "display": "Akali Warriors",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_maori_spearmen",
+      "display": "Maori Warriors",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_maori_musketeers",
+      "display": "Maori Musketeers",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_arab_sailors",
+      "display": "Khedival Infantry",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_fra_blacks",
+      "display": "Askari",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_eng_for_cav",
+      "display": "Khedival Cavalry",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_fra_for_cav",
+      "display": "Spahis",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_mongol_bows",
+      "display": "Mongol Bowmen",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_pol_hussars",
+      "display": "Polish Hussars",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_polish_inf",
+      "display": "Polish Infantry",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_georgian_inf",
+      "display": "Georgian Mercenaries",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_serb_inf",
+      "display": "Serbian Infantry",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_bulgarian_inf",
+      "display": "Bulgarian Infantry",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_kok_royal_cav",
+      "display": "Tartar Cavalry",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_kashgar_inf",
+      "display": "Kashgar Musketeers",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_rus_georgian_cav",
+      "display": "Caucasian Cavalry",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_zulu_spearmen",
+      "display": "Xhosa Impi",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_sikh_warriors",
+      "display": "Ex-Company Sikh Sepoys",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_fra_inf_ch",
+      "display": "Chilean Infantry",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_arab_brigade",
+      "display": "Bedouin Irregulars",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_balk_cav_ch",
+      "display": "Chilean Hussars",
+      "category": "cavalry",
+      "issues": []
+    },
+    {
+      "type": "merc_siam_agent",
+      "display": "Mercenary Siamese Arquebusiers",
+      "category": "infantry",
+      "issues": []
+    },
+    {
+      "type": "merc_uk_sailor",
+      "display": "Merchant Marine",
+      "category": "infantry",
+      "issues": []
+    }
+  ]
+}

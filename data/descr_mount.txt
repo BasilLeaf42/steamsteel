@@ -454,12 +454,12 @@ dead_radius			3.5
 tusk_z				3.0
 tusk_radius			1.2
 riders				6
-rider_offset			0, -15.5, -1.05
-rider_offset			0, -1.5, -1.2
-rider_offset			0.8, -1.5, -1.2		;y was 1.54
-rider_offset			1.6, -1.5, -1.2
-rider_offset			2.4, -1.5, -1.2
-rider_offset			3.2, -1.5, -1.2
+rider_offset            0, 0.5, -1.05
+rider_offset            0, 0.5, -1.2
+rider_offset            0.8, 0.5, -1.2
+rider_offset            1.6, 0.5, -1.2
+rider_offset            2.4, 0.5, -1.2
+rider_offset            3.2, 0.5, -1.2
 
 type				camel_wagon
 class				elephant

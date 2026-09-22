@@ -1,0 +1,41 @@
+IWTE read me (February 4th, 2025)
+===============
+
+IWTE is a python based editor to support the modding community in their efforts to modify the Total war Games  Rome, Medieval 2 and Rome Remastered.
+
+IWTE dsclaimer
+IWTE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+
+IWTE is a python based application which makes use of the following libraries. 
+Please see the licence for each item for more detail (available on their respective web sites). :
+Access to the software is obtained from thier respective sites.
+Python     PSF
+Numpy      BSD-3
+Scipy      BSD-3
+PySide6    LGPLv3
+Lz4        BSD-3
+Pillow     HPND
+
+
+The below executables can be called by IWTE. They are provided as is via Nvidia (see Nvidea_licence.pdf). 
+You can also obtain them from the Nvidia site https://developer.nvidia.com/legacy-texture-tools
+nvdtx.exe
+Readdxt.eve
+
+
+The below executable can be called by IWTE. It is provided as is and is subject to the MIT licence. 
+Newer versions can be obtained from the microsoft site (https://github.com/Microsoft/DirectXTex/wiki/Texconv).
+It is used to handle certain texture conversions.
+Texconv.exe
+
+
+
+
+
+
+
+
+
+
+

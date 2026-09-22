@@ -1,0 +1,6 @@
+<task_id>                                           extract_to_mesh
+<extract_file_full_path_in>                         "C:\Program Files (x86)\Steam\steamapps\common\Medieval II Total War\mods\steamsteel\tools\mesh_work\boer_general_carbine\boer_mounted_kommando.glb"
+<directory_out>                                     "C:\Program Files (x86)\Steam\steamapps\common\Medieval II Total War\mods\steamsteel\data\unit_models\_Units\bnw"
+<mesh_file_name_out>                                "boer_mounted_kommando_lod0.mesh"
+<mesh_type>                                         unit
+<mesh_double_texture>                               yes

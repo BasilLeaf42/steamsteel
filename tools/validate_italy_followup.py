@@ -32,6 +32,14 @@ for name, block in blocks.items():
         assert re.search(r'^category\s+cavalry$', block, flags=re.M), f'{name}: general not cavalry'
         assert re.search(r'^class\s+light$', block, flags=re.M), f'{name}: general not light cavalry'
 
+for name in ('ita_line_early','ita_line_mid','ita_line_high'):
+    assert re.search(r'^stat_mental\s+3, normal, trained$', blocks[name], flags=re.M), f'{name}: ordinary Italian morale nerf missing'
+for name in ('ita_milizia_early','ita_milizia_mid','ita_milizia_high'):
+    assert re.search(r'^stat_mental\s+2, low, trained$', blocks[name], flags=re.M), f'{name}: Italian militia morale nerf missing'
+for name in ('ita_cavalleggeri','ita_lancieri','ita_carabinieri_early','ita_carabinieri_mid','ita_carabinieri_high'):
+    assert re.search(r'^stat_mental\s+3, normal, trained$', blocks[name], flags=re.M), f'{name}: ordinary Italian cavalry morale nerf missing'
+assert re.search(r'^stat_mental\s+6, disciplined, highly_trained$', blocks['ita_general_staff'], flags=re.M), 'ita_general_staff: general should retain elite morale'
+
 model = (ROOT / 'data/unit_models/battle_models.modeldb').read_text(encoding='utf-8', errors='replace').replace('\r', '')
 declared = int(re.match(r'^22 serialization::archive 3 0 0 0 0 (\d+) 0 0', model).group(1))
 headers = [m for m in re.finditer(r'^(\d+) ([^\s;]+)\s*\n\d+ \d+\s*$', model, flags=re.M) if int(m.group(1)) == len(m.group(2))]

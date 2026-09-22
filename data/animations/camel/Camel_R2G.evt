@@ -1,0 +1,10 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_BANK      animal_footstep_run      1      2   RANDOM            
+event SOUND_BANK      animal_footstep_run      2      3   RANDOM            
+event SOUND_BANK      animal_footstep_run      6      7   RANDOM            
+event SOUND_BANK      animal_footstep_run      7      8                     

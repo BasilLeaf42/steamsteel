@@ -1,0 +1,17 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           ANIM_SWOOSH     20     20                     
+event SOUND_VOICE     Individual_Attack_Scream     45     45                     
+event SOUND_BANK      unit_march     50     50                     
+event SOUND           ANIM_SWOOSH     53     53                     
+event SOUND           ANIM_STAB     56     56                     
+event SOUND           ANIM_SWOOSH     71     71                     
+event SOUND_VOICE     Individual_Attack_Grunt     95     95                     
+event SOUND           ANIM_SWOOSH     96     96                     
+event SOUND           ANIM_STAB     98     98                     
+event SOUND           ANIM_SCRAPE     98     98                     
+event SOUND_BANK      unit_march    129    129                     

@@ -1,0 +1,1476 @@
+{
+  "changedCount": 0,
+  "unresolvedCount": 182,
+  "missingCount": 2,
+  "changed": [],
+  "unresolved": [
+    {
+      "key": "fra_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Automatic machine gun whose devastating sustained fire dominates the modern battlefield."
+    },
+    {
+      "key": "fra_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-loading Rifled Cannon",
+      "comment": "Muzzle-loading Rifled Cannon",
+      "short": "Muzzle-loading rifled cannons that have a good range and can inflict good damage against tight formations, they can also use grapeshot."
+    },
+    {
+      "key": "col_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Colonial Rifled Muzzle-Loading Cannon",
+      "comment": "Colonial Rifled Muzzle-Loading Cannon",
+      "short": "Reliable rifled artillery offering improved range and accuracy over older smoothbore cannon."
+    },
+    {
+      "key": "fra_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "fra_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mitrailleuse",
+      "comment": "Mitrailleuse",
+      "short": "Early Machineguns that deal massive damage to close formations and have decent range."
+    },
+    {
+      "key": "fra_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges."
+    },
+    {
+      "key": "fra_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Breech-Loading Rifled Cannon",
+      "comment": "Breech-Loading Rifled Cannon",
+      "short": "Breech-Loading Rifled Cannon"
+    },
+    {
+      "key": "rus_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "rus_pompom",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Pom-pom",
+      "comment": "Pom-pom",
+      "short": "Early autocannon that fires explosive shells and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "rus_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-loading Rifled Cannon",
+      "comment": "Muzzle-loading Rifled Cannon",
+      "short": "Muzzle-loading rifled cannons that have a good range and can inflict good damage against tight formations, they can also use grapeshot."
+    },
+    {
+      "key": "rus_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "rus_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Gorlov Gun",
+      "comment": "Gorlov Gun",
+      "short": "Gatling Gun Crew"
+    },
+    {
+      "key": "rus_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges."
+    },
+    {
+      "key": "rus_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Breech-Loading Rifled Cannon",
+      "comment": "Breech-Loading Rifled Cannon",
+      "short": "Breech-Loading Rifled Cannon"
+    },
+    {
+      "key": "jap_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies.\\nISHIN ONLY"
+    },
+    {
+      "key": "jap_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-Loading Rifled Cannon",
+      "comment": "Muzzle-Loading Rifled Cannon",
+      "short": "Muzzle-loading rifled cannons that have a good range and can inflict good damage against tight formations, they can also use grapeshot.\\nISHIN ONLY"
+    },
+    {
+      "key": "jap_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage.\\nISHIN ONLY"
+    },
+    {
+      "key": "jap_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Gatling Gun",
+      "comment": "Gatling Gun",
+      "short": "Early Machineguns that deal massive damage to close formations and have decent range.\\nISHIN ONLY"
+    },
+    {
+      "key": "jap_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges.\\nISHIN ONLY"
+    },
+    {
+      "key": "jap_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Cast Iron Cannon",
+      "comment": "Cast Iron Cannon",
+      "short": "Archaic cast iron cannons modeled after those introduced to Japan by the Portuguese, still in use during the late Edo period."
+    },
+    {
+      "key": "ind_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "ind_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-Loading Smoothbore Cannon",
+      "comment": "Muzzle-Loading Smoothbore Cannon",
+      "short": "Traditional smoothbore artillery that remains effective despite its growing obsolescence."
+    },
+    {
+      "key": "ind_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Massive heavy artillery designed to demolish fortifications and dominate the battlefield at extreme range."
+    },
+    {
+      "key": "ind_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "ind_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Gatling Gun",
+      "comment": "Gatling Gun",
+      "short": "Early Machineguns that deal massive damage to close formations and have decent range."
+    },
+    {
+      "key": "ind_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Cast Bronze Cannon",
+      "comment": "Cast Bronze Cannon",
+      "short": "Old Bronze Cannon firing solid shot"
+    },
+    {
+      "key": "kok_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "kok_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-Loading Smoothbore Cannon",
+      "comment": "Muzzle-Loading Smoothbore Cannon",
+      "short": "Older Smoothbore Muzzleloaders"
+    },
+    {
+      "key": "kok_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "kok_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges."
+    },
+    {
+      "key": "kok_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Cast Bronze Cannon",
+      "comment": "Cast Bronze Cannon",
+      "short": "Old Bronze Cannon firing solid shot"
+    },
+    {
+      "key": "sho_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies.\\nTOKUGAWA ONLY"
+    },
+    {
+      "key": "eth_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Detachment",
+      "comment": "Maxim Detachment",
+      "short": "Maxim Detachment."
+    },
+    {
+      "key": "sho_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-Loading Rifled Cannon",
+      "comment": "Muzzle-Loading Rifled Cannon",
+      "short": "Muzzle-loading rifled cannons that have a good range and can inflict good damage against tight formations, they can also use grapeshot.\\nTOKUGAWA ONLY"
+    },
+    {
+      "key": "eth_rifled_gun",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Captured Rifled Field Gun",
+      "comment": "Captured Rifled Field Gun",
+      "short": "Captured Rifled Field Gun."
+    },
+    {
+      "key": "sho_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage.\\nTOKUGAWA ONLY"
+    },
+    {
+      "key": "sho_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Gatling Gun",
+      "comment": "Gatling Gun",
+      "short": "Early Machineguns that deal massive damage to close formations and have decent range.\\nTOKUGAWA ONLY"
+    },
+    {
+      "key": "sho_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges.\\nTOKUGAWA ONLY"
+    },
+    {
+      "key": "sho_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Cast Iron Cannon",
+      "comment": "Cast Iron Cannon",
+      "short": "Old Iron Cannon firing a mixture of solid shot and modern explosive shells\\nTOKUGAWA ONLY"
+    },
+    {
+      "key": "eth_field_gun",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Cast-Iron Field Gun",
+      "comment": "Cast-Iron Field Gun",
+      "short": "Cast-Iron Field Gun."
+    },
+    {
+      "key": "Japan_Armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Breech-Loading Rifled Cannon",
+      "comment": "Breech-Loading Rifled Cannon",
+      "short": "Breech-Loading Rifled Cannon\\nTOKUGAWA ONLY"
+    },
+    {
+      "key": "Japan_Armstrong_Han",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Breech-Loading Rifled Cannon",
+      "comment": "Breech-Loading Rifled Cannon",
+      "short": "Breech-Loading Rifled Cannon\\nISHIN ONLY"
+    },
+    {
+      "key": "csa_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "csa_pompom",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Pom-pom",
+      "comment": "Pom-pom",
+      "short": "Early autocannon that fires explosive shells and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "csa_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-loading Rifled Cannon",
+      "comment": "Muzzle-loading Rifled Cannon",
+      "short": "Muzzle-loading rifled cannons that have a good range and can inflict good damage against tight formations, they can also use grapeshot."
+    },
+    {
+      "key": "csa_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "csa_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges."
+    },
+    {
+      "key": "csa_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Breech-Loading Rifled Cannon",
+      "comment": "Breech-Loading Rifled Cannon",
+      "short": "Breech-Loading Rifled Cannon"
+    },
+    {
+      "key": "usa_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "usa_pompom",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Pom-pom",
+      "comment": "Pom-pom",
+      "short": "Early autocannon that fires explosive shells and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "usa_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-loading Rifled Cannon",
+      "comment": "Muzzle-loading Rifled Cannon",
+      "short": "Muzzle-loading rifled cannons that have a good range and can inflict good damage against tight formations, they can also use grapeshot."
+    },
+    {
+      "key": "usa_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "usa_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Gatling Gun",
+      "comment": "Gatling Gun",
+      "short": "Early Machineguns that deal massive damage to close formations and have decent range."
+    },
+    {
+      "key": "usa_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges."
+    },
+    {
+      "key": "usa_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Breech-Loading Rifled Cannon",
+      "comment": "Breech-Loading Rifled Cannon",
+      "short": "Breech-Loading Rifled Cannon"
+    },
+    {
+      "key": "eng_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "eng_pompom",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Pom-pom",
+      "comment": "Pom-pom",
+      "short": "Early autocannon that fires explosive shells and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "eng_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-loading Rifled Cannon",
+      "comment": "Muzzle-loading Rifled Cannon",
+      "short": "Muzzle-loading rifled cannons that have a good range and can inflict good damage against tight formations, they can also use grapeshot."
+    },
+    {
+      "key": "eng_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "eng_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Gatling Gun",
+      "comment": "Gatling Gun",
+      "short": "Early Machineguns that deal massive damage to close formations and have decent range."
+    },
+    {
+      "key": "eng_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges."
+    },
+    {
+      "key": "eng_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Breech-Loading Rifled Cannon",
+      "comment": "Breech-Loading Rifled Cannon",
+      "short": "Breech-Loading Rifled Cannon"
+    },
+    {
+      "key": "byz_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "siam_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Maxim Gun."
+    },
+    {
+      "key": "byz_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-Loading Smoothbore Cannon",
+      "comment": "Muzzle-Loading Smoothbore Cannon",
+      "short": "Older Smoothbore Muzzleloaders"
+    },
+    {
+      "key": "siam_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-Loading Smoothbore Cannon",
+      "comment": "Muzzle-Loading Smoothbore Cannon",
+      "short": "Muzzle-Loading Smoothbore Cannon."
+    },
+    {
+      "key": "byz_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "siam_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Mortar."
+    },
+    {
+      "key": "byz_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Gatling Gun",
+      "comment": "Gatling Gun",
+      "short": "Early Machineguns that deal massive damage to close formations and have decent range."
+    },
+    {
+      "key": "byz_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges."
+    },
+    {
+      "key": "byz_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Cast Iron Cannon",
+      "comment": "Cast Iron Cannon",
+      "short": "Old Iron Cannon firing a mixture of solid shot and modern explosive shells"
+    },
+    {
+      "key": "siam_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Bronze Field Cannon",
+      "comment": "Bronze Field Cannon",
+      "short": "Bronze Field Cannon."
+    },
+    {
+      "key": "mus_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Maxim Crew"
+    },
+    {
+      "key": "mus_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-Loading Smoothbore Cannon",
+      "comment": "Muzzle-Loading Smoothbore Cannon",
+      "short": "Older Smoothbore Muzzleloaders"
+    },
+    {
+      "key": "mus_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "mus_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Gatling Gun",
+      "comment": "Gatling Gun",
+      "short": "Early Machineguns that deal massive damage to close formations and have decent range."
+    },
+    {
+      "key": "mus_150mm",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Howitzers",
+      "comment": "Howitzers",
+      "short": "Heavy artillery that has a massive range and fires big projectiles, very useful for sieges."
+    },
+    {
+      "key": "mus_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Cast Iron Cannon",
+      "comment": "Cast Iron Cannon",
+      "short": "Old Iron Cannon firing a mixture of solid shot and modern explosive shells"
+    },
+    {
+      "key": "zul_maxim",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Maxim Gun",
+      "comment": "Maxim Gun",
+      "short": "Late Machinegun that improves the range and uses a new recoil-operated firing system, effective against large number of enemies."
+    },
+    {
+      "key": "zul_12lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Muzzle-Loading Smoothbore Cannon",
+      "comment": "Muzzle-Loading Smoothbore Cannon",
+      "short": "Older Smoothbore Muzzleloaders"
+    },
+    {
+      "key": "zul_5lb",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Mortar",
+      "comment": "Mortar",
+      "short": "Short barrel, large range and parabolic trajectory, these guns can inflict good damage at very long distances without risking to receive damage."
+    },
+    {
+      "key": "zul_gatling",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Gatling Gun",
+      "comment": "Gatling Gun",
+      "short": "Early Machineguns that deal massive damage to close formations and have decent range."
+    },
+    {
+      "key": "zul_armstrong",
+      "category": "siege",
+      "firearmFamily": null,
+      "name": "Cast Bronze Cannon",
+      "comment": "Cast Bronze Cannon",
+      "short": "Old Bronze Cannon firing solid shot"
+    },
+    {
+      "key": "ship_sail_sotl",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Ship of the Line",
+      "comment": "Ship of the Line",
+      "short": "Sail Ship of the Line"
+    },
+    {
+      "key": "caravel",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Steam Ship of the Line",
+      "comment": "Steam Ship of the Line",
+      "short": "Steam Ship of the Line"
+    },
+    {
+      "key": "ladya",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Broadside Ironclad",
+      "comment": "Broadside Ironclad",
+      "short": "Early armoured warships whose iron plating rendered traditional wooden fleets obsolete."
+    },
+    {
+      "key": "carrack",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Turret Ironclad",
+      "comment": "Turret Ironclad",
+      "short": "Turret Ironclad"
+    },
+    {
+      "key": "ship_pre_dreadnought",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Pre-Dreadnought",
+      "comment": "Pre-Dreadnought",
+      "short": "Pre-Dreadnought"
+    },
+    {
+      "key": "gun_holk",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Dreadnought",
+      "comment": "Dreadnought",
+      "short": "Revolutionary all-big-gun battleships combining immense firepower, heavy armour, and powerful engines."
+    },
+    {
+      "key": "dragon_boat",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Wooden Sail Frigate",
+      "comment": "Wooden Sail Frigate",
+      "short": "Wooden Sail Frigate"
+    },
+    {
+      "key": "grande_carrack",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Wooden Steam Frigate",
+      "comment": "Wooden Steam Frigate",
+      "short": "Wooden Steam Frigate"
+    },
+    {
+      "key": "ship_iron_frigate",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Iron-hulled Frigate",
+      "comment": "Iron-hulled Frigate",
+      "short": "Iron-hulled Frigate"
+    },
+    {
+      "key": "ship_armoured_frigate",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Armoured Frigate",
+      "comment": "Armoured Frigate",
+      "short": "Ocean-going frigates protected by iron armour and armed to overpower lighter warships."
+    },
+    {
+      "key": "ship_protected_cruiser",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Protected Cruiser",
+      "comment": "Protected Cruiser",
+      "short": "Protected Cruiser"
+    },
+    {
+      "key": "ship_armoured_cruiser",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Armoured Cruiser",
+      "comment": "Armoured Cruiser",
+      "short": "Large armoured cruisers capable of hunting lesser ships and supporting the main battle fleet."
+    },
+    {
+      "key": "ship_sail_corvette",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Wooden Sail Corvette",
+      "comment": "Wooden Sail Corvette",
+      "short": "Wooden Sail Corvette"
+    },
+    {
+      "key": "ship_steam_corvette",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Wooden Steam Corvette",
+      "comment": "Wooden Steam Corvette",
+      "short": "Wooden Steam Corvette"
+    },
+    {
+      "key": "ship_composite_corvette",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Composite Corvette",
+      "comment": "Composite Corvette",
+      "short": "Hybrid warships with iron frames and wooden hulls, built for long-range patrol and escort duties."
+    },
+    {
+      "key": "ship_ironclad_corvette",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Ironclad Ram",
+      "comment": "Ironclad Ram",
+      "short": "Ironclad Ram"
+    },
+    {
+      "key": "ship_unprotected_cruiser",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Unprotected Cruiser",
+      "comment": "Unprotected Cruiser",
+      "short": "Unprotected Cruiser"
+    },
+    {
+      "key": "ship_destroyer",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Torpedo Boat Destroyer",
+      "comment": "Torpedo Boat Destroyer",
+      "short": "Torpedo Boat Destroyer"
+    },
+    {
+      "key": "ship_torpedo",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Torpedo Boat",
+      "comment": "Torpedo Boat",
+      "short": "Torpedo Boat"
+    },
+    {
+      "key": "cog",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Gunboat",
+      "comment": "Gunboat",
+      "short": "Small warships built for coastal patrols, river warfare, and supporting land operations."
+    },
+    {
+      "key": "ship_monitor",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Monitor",
+      "comment": "Monitor",
+      "short": "Monitor"
+    },
+    {
+      "key": "pirate_ship",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Pirate Ship",
+      "comment": "Pirate Ship",
+      "short": "Pirate Ship"
+    },
+    {
+      "key": "merc_galley",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Armed Merchantman",
+      "comment": "Armed Merchantman",
+      "short": "Merchant ships carrying defensive armament to safeguard valuable cargo across dangerous seas."
+    },
+    {
+      "key": "merc_cog",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Merchant Gunboat",
+      "comment": "Merchant Gunboat",
+      "short": "Light escort vessels protecting merchant shipping from pirates and coastal raiders."
+    },
+    {
+      "key": "turtle_ship",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Armed Junk",
+      "comment": "Armed Junk",
+      "short": "Traditional Asian sailing warships armed with cannon for coastal defence and patrol duties."
+    },
+    {
+      "key": "dhow",
+      "category": "ship",
+      "firearmFamily": null,
+      "name": "Dhow",
+      "comment": "Dhow",
+      "short": "Traditional lateen-rigged vessels valued for trade, transport, and coastal patrol across the Indian Ocean."
+    },
+    {
+      "key": "us_front_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "United States General and Staff",
+      "comment": "United States General and Staff. this should be an elite cavalry unit",
+      "short": "United States General and Staff. this should be an elite cavalry unit"
+    },
+    {
+      "key": "csa_lancer",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Confederate General and Staff",
+      "comment": "Confederate General and Staff",
+      "short": "Confederate General and Staff"
+    },
+    {
+      "key": "csa_volunteers",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Texan Sappers",
+      "comment": "Texan Sappers",
+      "short": "Texan Sappers"
+    },
+    {
+      "key": "bol_hussar",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Cuirassiers",
+      "comment": "Cuirassiers",
+      "short": "Cuirassiers"
+    },
+    {
+      "key": "fra_hussar_po",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Brazilian General and Staff",
+      "comment": "Brazilian General and Staff",
+      "short": "Brazilian General and Staff"
+    },
+    {
+      "key": "uk_knights",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Regiment of Horse",
+      "comment": "",
+      "short": "Regiment of Horse"
+    },
+    {
+      "key": "gaucho_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "General and Staff",
+      "comment": "Argentine General and Staff",
+      "short": "Argentine General and Staff"
+    },
+    {
+      "key": "ind_bhutan_warrior",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Druk Pahlam",
+      "comment": "Druk Pahlam",
+      "short": "Bhutanese sword-and-shield auxiliaries."
+    },
+    {
+      "key": "merc_maori_spearmen",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Maori Warriors",
+      "comment": "Maori Warriors (Spears and Shields)",
+      "short": "Maori Warriors (Spears and Shields)"
+    },
+    {
+      "key": "pru_sturmtruppen_high",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Sturmtruppen (Late)",
+      "comment": "Sturmtruppen (Late)",
+      "short": "Sturmtruppen (Handgranaten)"
+    },
+    {
+      "key": "pru_ww1_inf",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Sturmtruppen (Late)",
+      "comment": "Sturmtruppen (Late)",
+      "short": "Sturmtruppen (Handgranaten)"
+    },
+    {
+      "key": "qaj_general_staff",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Farmandeh va Setad",
+      "comment": "Farmandeh va Setad (mounted command)",
+      "short": "Farmandeh va Setad (mounted command retinue)"
+    },
+    {
+      "key": "gre_sappers_high",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Michanikó (Late)",
+      "comment": "Michanikó (Late; Incendiary equipment)",
+      "short": "Michanikó (Late) (Incendiary equipment)"
+    },
+    {
+      "key": "greek_roy",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Michanikó (Late)",
+      "comment": "Michanikó (Late; Incendiary equipment)",
+      "short": "Michanikó (Late) (Incendiary equipment)"
+    },
+    {
+      "key": "it_royals_mongols",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Albanian Guerrillas",
+      "comment": "",
+      "short": "Albanian Guerrillas"
+    },
+    {
+      "key": "ita_lancieri",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Lancieri",
+      "comment": "Lancieri (lancia e sciabola)",
+      "short": "Lancieri (lancia e sciabola)"
+    },
+    {
+      "key": "it_royals",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Albanian Guerrillas",
+      "comment": "",
+      "short": "Albanian Guerrillas"
+    },
+    {
+      "key": "rus_georgian_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Caucasian Cavalry",
+      "comment": "",
+      "short": "Caucasian Cavalry"
+    },
+    {
+      "key": "aus_ulanen",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Ulanen",
+      "comment": "Ulanen (Lanze und Saebel)",
+      "short": "Ulanen (Lanze und Säbel)"
+    },
+    {
+      "key": "it_royals_hungary",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Albanian Guerrillas",
+      "comment": "",
+      "short": "Albanian Guerrillas"
+    },
+    {
+      "key": "aus_lancers",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Austrian Uhlans",
+      "comment": "",
+      "short": "Austrian Ulhans"
+    },
+    {
+      "key": "mor_tribal_levy",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Haraka Qabaliyya",
+      "comment": "Haraka Qabaliyya",
+      "short": "Haraka Qabaliyya"
+    },
+    {
+      "key": "africa_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "African Cavalry",
+      "comment": "African Cavalry",
+      "short": "African Cavalry"
+    },
+    {
+      "key": "african_warband",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "African Warband",
+      "comment": "African Warband",
+      "short": "African Warband"
+    },
+    {
+      "key": "zulu_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Mounted Zulu Scouts",
+      "comment": "Mounted Zulu Scouts",
+      "short": "Mounted Zulu Scouts"
+    },
+    {
+      "key": "zulu_royals",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Amabutho Amadala",
+      "comment": "Amabutho Amadala",
+      "short": "Amabutho Amadala"
+    },
+    {
+      "key": "zulu_spearmen",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Amabutho amaXhosa",
+      "comment": "Amabutho amaXhosa",
+      "short": "Amabutho amaXhosa"
+    },
+    {
+      "key": "zulu_guard",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Amabutho amaZulu",
+      "comment": "Amabutho amaZulu",
+      "short": "Amabutho amaZulu"
+    },
+    {
+      "key": "rus_georgian_cav_turks",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Caucasian Cavalry",
+      "comment": "",
+      "short": "Caucasian Cavalry"
+    },
+    {
+      "key": "bashi_inf",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Bashi-Bazouks",
+      "comment": "Bashi-Bazouks",
+      "short": "Bashi-Bazouks"
+    },
+    {
+      "key": "afg_general_staff",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Sipahsalar va Setad",
+      "comment": "Sipahsalar va Setad (mounted command)",
+      "short": "Sipahsalar va Setad"
+    },
+    {
+      "key": "afghan_gen",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Afghan Noble Cavalry",
+      "comment": "Afghan Noble Cavalry",
+      "short": "Afghan Noble Cavalry"
+    },
+    {
+      "key": "herat_inf",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Herat Thunderers",
+      "comment": "Herat Thunderers",
+      "short": "Herat Thunderers"
+    },
+    {
+      "key": "afghan_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Afghan Regular Cavalry",
+      "comment": "Afghan Regular Cavalry",
+      "short": "Afghan Regular Cavalry"
+    },
+    {
+      "key": "kok_spears",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Cherik Nayzadorlar",
+      "comment": "Cherik Nayzadorlar",
+      "short": "Early spear levies of the khanate."
+    },
+    {
+      "key": "kok_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Jigitlar",
+      "comment": "Jigitlar",
+      "short": "Steppe lance-and-sabre cavalry."
+    },
+    {
+      "key": "kok_rcav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Qorboshi va Mulozimlar",
+      "comment": "Qorboshi va Mulozimlar",
+      "short": "The commander and his mounted staff."
+    },
+    {
+      "key": "indian_spear_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Risala Lancers",
+      "comment": "Risala Lancers",
+      "short": "Indian Lancers"
+    },
+    {
+      "key": "Sikh_heavy_cavalry",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Khalsa Gorchara",
+      "comment": "Khalsa Gorchara",
+      "short": "Sikh Heavy Cavalry"
+    },
+    {
+      "key": "indian_spears",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Lashkar Nayzabaz",
+      "comment": "Lashkar Nayzabaz",
+      "short": "Hyderabad Spearmen"
+    },
+    {
+      "key": "sikh_gen",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Maharaja aur Lashkar",
+      "comment": "Maharaja aur Lashkar",
+      "short": "Indian Princely Cavalry"
+    },
+    {
+      "key": "indian_fanatic",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Akali Jatha",
+      "comment": "Akali Jatha",
+      "short": "Akali Warriors"
+    },
+    {
+      "key": "siam_sword_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Thahan Ma Krabi",
+      "comment": "Thahan Ma Krabi",
+      "short": "Thahan Ma Krabi."
+    },
+    {
+      "key": "merc_aceh_inf",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Aceh Greek Fire Squad",
+      "comment": "Aceh Greek-Fire Squad",
+      "short": "Regular incendiary infantry, Greek fire projector"
+    },
+    {
+      "key": "Qing_Tiger_Warriors",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Tiger Shieldbearers",
+      "comment": "Fanatical shock troops wearing tiger skins.",
+      "short": "Fanatical shock troops wearing tiger skins."
+    },
+    {
+      "key": "mongol_bows",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Mongol Bowmen",
+      "comment": "Mongol Bowmen",
+      "short": "Mongol Bowmen"
+    },
+    {
+      "key": "qing_green_banner_spears",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Green Banner Spearmen",
+      "comment": "Green Banner Spearmen",
+      "short": "Militia spearmen"
+    },
+    {
+      "key": "qing_green_banner_archers",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Green Banner Archers",
+      "comment": "Green Banner Archers",
+      "short": "Militia archers"
+    },
+    {
+      "key": "oirat_royal",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Qing Cavalry",
+      "comment": "Qing Cavalry",
+      "short": "Qing Cavalry"
+    },
+    {
+      "key": "qing_cavalry_general",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Qing General and Staff",
+      "comment": "Qing General and Staff",
+      "short": "Mounted command unit"
+    },
+    {
+      "key": "mongols_archer",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Manchurian Archers",
+      "comment": "Manchurian Archers",
+      "short": "Manchurian Archers"
+    },
+    {
+      "key": "qing_village_braves",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Village Braves",
+      "comment": "Village Braves",
+      "short": "Militia infantry with hand weapons"
+    },
+    {
+      "key": "qing_eight_banner_cavalry",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Eight Banner Cavalry",
+      "comment": "Eight Banner Cavalry",
+      "short": "Banner horse archers"
+    },
+    {
+      "key": "mongol_hevcav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Mongolian Tribal Cavalry",
+      "comment": "Mongolian Tribal Cavalry",
+      "short": "Mongolian Tribal Cavalry"
+    },
+    {
+      "key": "qing_green_banner_horse",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Green Banner Horse Squadron",
+      "comment": "Green Banner Horse Squadron",
+      "short": "Militia lancers"
+    },
+    {
+      "key": "ethiopian_warband",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Č̣äwa",
+      "comment": "Č̣äwa",
+      "short": "Ethiopian Warband"
+    },
+    {
+      "key": "aby_cav_1g",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Oromo Horsemen",
+      "comment": "Oromo Horsemen",
+      "short": "African Cavalry"
+    },
+    {
+      "key": "aby_roy_1g",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Shewan Horsemen",
+      "comment": "Shewan Horsemen",
+      "short": "African Cavalry"
+    },
+    {
+      "key": "Japan_Kachi",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Kachi",
+      "comment": "Japanese Yari Kachi / Japanese Yari Samurai / Japanese Samurai Spearmen (Yari)",
+      "short": "Japanese Yari Kachi / Japanese Yari Samurai / Japanese Samurai Spearmen (Yari)"
+    },
+    {
+      "key": "Japan_Yumitai",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Yumitai",
+      "comment": "Japanese Yumitai (Daikyu longbow, Katana)",
+      "short": "Japanese Yumitai (Daikyu longbow, Katana)"
+    },
+    {
+      "key": "Japan_Seishi",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Seishi",
+      "comment": "Japanese Seishi / Japanese Samurai Cavalry / Japanese Samurai Lancers (Yari, Katana)",
+      "short": "Japanese Seishi / Japanese Samurai Cavalry / Japanese Samurai Lancers (Yari, Katana)"
+    },
+    {
+      "key": "sho_mod_cav",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Japanese General and Staff",
+      "comment": "Japanese General and Staff",
+      "short": "Japanese General and Staff"
+    },
+    {
+      "key": "Japan_Battotai",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Battotai",
+      "comment": "Japanese Battotai",
+      "short": "Japanese Battotai"
+    },
+    {
+      "key": "Japan_Heimin_Mob",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Heimin Mob",
+      "comment": "Heimin Mob (Yari)",
+      "short": "Militia melee infantry, yari"
+    },
+    {
+      "key": "Japan_Ishin_Shishi",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Ishin Shishi",
+      "comment": "Japanese Ishin Shishi",
+      "short": "Japanese Ishin Shishi"
+    },
+    {
+      "key": "Japan_Kenyotai",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Ogaki Ken'yotai",
+      "comment": "Japanese Ken'yotai / Ogaki Ken'yotai",
+      "short": "Japanese Ken'yotai / Ogaki Ken'yotai"
+    },
+    {
+      "key": "Japan_Koheitai_1900",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Koheitai (1900s)",
+      "comment": "Imperial Japanese Koheitai (1900s)",
+      "short": "Imperial Japanese Koheitai (1900s)"
+    },
+    {
+      "key": "Japan_Koheitai_1905",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Koheitai (Khaki)",
+      "comment": "Imperial Japanese Koheitai (Khaki)",
+      "short": "Imperial Japanese Koheitai (Khaki)"
+    },
+    {
+      "key": "Japan_Ronin",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Ronin",
+      "comment": "Ronin (Katana)",
+      "short": "Regular melee infantry, katana"
+    },
+    {
+      "key": "Japan_Shogitai",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Shogitai",
+      "comment": "Japanese Shogitai",
+      "short": "Japanese Shogitai"
+    },
+    {
+      "key": "Elephant_Artillery",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Elephant Artillery",
+      "comment": "Elephant Artillery",
+      "short": "Elephant Artillery"
+    },
+    {
+      "key": "balk_cav_ch",
+      "category": "cavalry",
+      "firearmFamily": null,
+      "name": "Húsares de la Muerte",
+      "comment": "Chilean Death Hussars",
+      "short": "Chilean Death Hussars"
+    },
+    {
+      "key": "tib_tribal_spear",
+      "category": "infantry",
+      "firearmFamily": null,
+      "name": "Tibetan Tribal Spearmen",
+      "comment": "Tibetan Tribal Spearmen",
+      "short": "Tibetan Tribal Spearmen"
+    }
+  ],
+  "missing": [
+    {
+      "key": "kok_gatling",
+      "visible": true,
+      "short": false
+    },
+    {
+      "key": "csa_gatling",
+      "visible": true,
+      "short": false
+    }
+  ]
+}

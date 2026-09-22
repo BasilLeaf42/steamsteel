@@ -1,0 +1,10 @@
+from pathlib import Path
+import json
+from PIL import Image
+R=Path(__file__).resolve().parents[1]; M=R/'tools/card_generation_sources/argentina_20260915'; C=R/'data/ui/units/aztecs'; reg=R/'tools/historical_card_sources.json'
+rows=[('arg_cavalry_early','Caballería de Línea (Early)','Pattern 1842/51 percussion cavalry musketoon'),('arg_cavalry_mid','Caballería de Línea (Mid)','Remington Rolling Block cavalry carbine'),('arg_cavalry_high','Caballería de Línea (Late)','Mauser Modelo Argentino 1891 cavalry carbine')]
+for uid,name,w in rows:
+ im=Image.open(M/f'{uid}_master.png').convert('RGBA').crop((4,8,1084,1448)).resize((48,64),Image.Resampling.LANCZOS); im.save(C/f'#{uid}.tga',format='TGA')
+data=json.loads(reg.read_text(encoding='utf-8')); ids={x[0] for x in rows}; data=[x for x in data if x.get('id') not in ids]
+for uid,name,w in rows:data.append(dict(id=uid,unit_type=uid,card_file=f'data/ui/units/aztecs/#{uid}.tga',faction='aztecs',name=name,role='mounted carbine cavalry',weapon=w,source_url='https://www.memoria.fahce.unlp.edu.ar/tesis/te.1417/te.1417.pdf',source_file='tools/historical_card_refs/argentina_army_1862_1880.pdf',source_title='El proceso de profesionalización del Ejército Argentino (1862-1880)',creator='Argentine military-history thesis repository, Universidad Nacional de La Plata',source_date='historical study covering 1862-1880',licence='Institutional repository reference use',depicted_subject='Argentine Army cavalry organization and equipment',pose_source_id='',mapping_note='Distinct mounted period composition; horse and tack visible and the exact period carbine is held clearly with coherent two-handed handling.',status='card-approved',generated_file=f'tools/card_generation_sources/argentina_20260915/{uid}_master.png',crop_box=[4,8,1084,1448]))
+reg.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('Installed 3 distinct Argentine carbine cavalry cards.')

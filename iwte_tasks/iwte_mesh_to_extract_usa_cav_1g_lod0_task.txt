@@ -1,0 +1,6 @@
+<task_id>                                           mesh_to_extract                                                      #  
+<mesh_file_full_path_in>                            "C:\Program Files (x86)\Steam\steamapps\common\Medieval II Total War\mods\steamsteel\data\unit_models\_Units\usa\usa_cav_1g_lod0.mesh"   #  
+<mesh_double_texture>                               yes                                                                  #  
+<directory_out>                                     "C:\Program Files (x86)\Steam\steamapps\common\Medieval II Total War\mods\steamsteel\tools\mesh_work\boer_general_carbine"   #  
+<extract_file_name_out>                             "usa_cav_1g.glb"                                                     #  
+<create_text_file>                                  full                                                                 #  

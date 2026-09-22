@@ -1,0 +1,10 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           ANIM_Musket_Ammo     15     15                     
+event SOUND           ANIM_Musket_Gunpowder     30     30                     
+event SOUND           ANIM_Musket_cock    104    104                     
+event SOUND_BANK      unit_march    117    117                     

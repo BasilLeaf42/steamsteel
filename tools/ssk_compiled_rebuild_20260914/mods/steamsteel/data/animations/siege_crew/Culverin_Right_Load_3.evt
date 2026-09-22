@@ -1,0 +1,11 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           ANIM_cannon_load_ball      0      0                     
+event SOUND           ANIM_cannon_ball_roll      5      5                     
+event SOUND_BANK      unit_march     34     34                     
+event SOUND_BANK      unit_march     44     44                     
+event SOUND_BANK      unit_march     54     54                     

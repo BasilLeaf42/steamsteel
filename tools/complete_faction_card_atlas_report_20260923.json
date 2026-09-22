@@ -1,0 +1,211 @@
+{
+  "copied": [
+    {
+      "target": "data\\ui\\units\\england\\#col_12lb.tga",
+      "donor": "data\\ui\\units\\mercs\\#col_12lb.tga"
+    },
+    {
+      "target": "data\\ui\\units\\france\\#col_12lb.tga",
+      "donor": "data\\ui\\units\\mercs\\#col_12lb.tga"
+    },
+    {
+      "target": "data\\ui\\units\\portugal\\#col_12lb.tga",
+      "donor": "data\\ui\\units\\mercs\\#col_12lb.tga"
+    }
+  ],
+  "missing": [],
+  "pages": [
+    {
+      "faction": "portugala",
+      "title": "Union",
+      "count": 26,
+      "path": "tools\\all_small_unit_cards_20260923\\portugala.png"
+    },
+    {
+      "faction": "milan",
+      "title": "Confederates",
+      "count": 20,
+      "path": "tools\\all_small_unit_cards_20260923\\milan.png"
+    },
+    {
+      "faction": "scotland",
+      "title": "Mexico",
+      "count": 20,
+      "path": "tools\\all_small_unit_cards_20260923\\scotland.png"
+    },
+    {
+      "faction": "denmark",
+      "title": "Peru",
+      "count": 23,
+      "path": "tools\\all_small_unit_cards_20260923\\denmark.png"
+    },
+    {
+      "faction": "poland",
+      "title": "Brazil",
+      "count": 24,
+      "path": "tools\\all_small_unit_cards_20260923\\poland.png"
+    },
+    {
+      "faction": "aztecs",
+      "title": "Argentina",
+      "count": 22,
+      "path": "tools\\all_small_unit_cards_20260923\\aztecs.png"
+    },
+    {
+      "faction": "england",
+      "title": "Britain",
+      "count": 58,
+      "path": "tools\\all_small_unit_cards_20260923\\england.png"
+    },
+    {
+      "faction": "france",
+      "title": "France",
+      "count": 44,
+      "path": "tools\\all_small_unit_cards_20260923\\france.png"
+    },
+    {
+      "faction": "hre",
+      "title": "Prussia",
+      "count": 44,
+      "path": "tools\\all_small_unit_cards_20260923\\hre.png"
+    },
+    {
+      "faction": "spain",
+      "title": "Spain",
+      "count": 37,
+      "path": "tools\\all_small_unit_cards_20260923\\spain.png"
+    },
+    {
+      "faction": "portugal",
+      "title": "Netherlands",
+      "count": 37,
+      "path": "tools\\all_small_unit_cards_20260923\\portugal.png"
+    },
+    {
+      "faction": "sicily",
+      "title": "Denmark",
+      "count": 24,
+      "path": "tools\\all_small_unit_cards_20260923\\sicily.png"
+    },
+    {
+      "faction": "normans",
+      "title": "Sweden–Norway",
+      "count": 30,
+      "path": "tools\\all_small_unit_cards_20260923\\normans.png"
+    },
+    {
+      "faction": "mongols",
+      "title": "Greece",
+      "count": 24,
+      "path": "tools\\all_small_unit_cards_20260923\\mongols.png"
+    },
+    {
+      "faction": "venice",
+      "title": "Italy",
+      "count": 38,
+      "path": "tools\\all_small_unit_cards_20260923\\venice.png"
+    },
+    {
+      "faction": "russia",
+      "title": "Russia",
+      "count": 49,
+      "path": "tools\\all_small_unit_cards_20260923\\russia.png"
+    },
+    {
+      "faction": "hungary",
+      "title": "Austria–Hungary",
+      "count": 29,
+      "path": "tools\\all_small_unit_cards_20260923\\hungary.png"
+    },
+    {
+      "faction": "moors",
+      "title": "Morocco",
+      "count": 24,
+      "path": "tools\\all_small_unit_cards_20260923\\moors.png"
+    },
+    {
+      "faction": "teu",
+      "title": "Boers",
+      "count": 17,
+      "path": "tools\\all_small_unit_cards_20260923\\teu.png"
+    },
+    {
+      "faction": "lith",
+      "title": "Zulu",
+      "count": 5,
+      "path": "tools\\all_small_unit_cards_20260923\\lith.png"
+    },
+    {
+      "faction": "turks",
+      "title": "Ottoman Empire",
+      "count": 30,
+      "path": "tools\\all_small_unit_cards_20260923\\turks.png"
+    },
+    {
+      "faction": "golden",
+      "title": "Oman",
+      "count": 20,
+      "path": "tools\\all_small_unit_cards_20260923\\golden.png"
+    },
+    {
+      "faction": "egypt",
+      "title": "Qajar Persia",
+      "count": 14,
+      "path": "tools\\all_small_unit_cards_20260923\\egypt.png"
+    },
+    {
+      "faction": "timurids",
+      "title": "Afghanistan",
+      "count": 14,
+      "path": "tools\\all_small_unit_cards_20260923\\timurids.png"
+    },
+    {
+      "faction": "cuman",
+      "title": "Turkestan",
+      "count": 15,
+      "path": "tools\\all_small_unit_cards_20260923\\cuman.png"
+    },
+    {
+      "faction": "bulga",
+      "title": "Indian Princely States",
+      "count": 17,
+      "path": "tools\\all_small_unit_cards_20260923\\bulga.png"
+    },
+    {
+      "faction": "cru",
+      "title": "Siam",
+      "count": 15,
+      "path": "tools\\all_small_unit_cards_20260923\\cru.png"
+    },
+    {
+      "faction": "byzantium",
+      "title": "Qing",
+      "count": 46,
+      "path": "tools\\all_small_unit_cards_20260923\\byzantium.png"
+    },
+    {
+      "faction": "papal_states",
+      "title": "Ethiopia",
+      "count": 19,
+      "path": "tools\\all_small_unit_cards_20260923\\papal_states.png"
+    },
+    {
+      "faction": "saxons",
+      "title": "Japan",
+      "count": 124,
+      "path": "tools\\all_small_unit_cards_20260923\\saxons.png"
+    },
+    {
+      "faction": "mercs",
+      "title": "Mercenaries",
+      "count": 629,
+      "path": "tools\\all_small_unit_cards_20260923\\mercs.png"
+    },
+    {
+      "faction": "slave",
+      "title": "Slave/Rebel",
+      "count": 1209,
+      "path": "tools\\all_small_unit_cards_20260923\\slave.png"
+    }
+  ]
+}

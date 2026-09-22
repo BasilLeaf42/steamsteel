@@ -1,0 +1,1 @@
+const fs=require('fs'),path=require('path');const p=path.join(__dirname,'audit_remaining_mercenaries.js');let s=fs.readFileSync(p,'utf8');s=s.replace("/ \\(Early|Mid|Late\\)$/","/ \\((?:Early|Mid|Late)\\)$/");fs.writeFileSync(p,s);

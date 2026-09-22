@@ -1,0 +1,10 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           ANIM_SWOOSH      1      1                     
+event SOUND_VOICE     Individual_Attack_Grunt     11     11   RANDOM            
+event SOUND           ANIM_SWOOSH     13     13                     
+event SOUND           ANIM_SCRAPE     15     15   RANDOM            

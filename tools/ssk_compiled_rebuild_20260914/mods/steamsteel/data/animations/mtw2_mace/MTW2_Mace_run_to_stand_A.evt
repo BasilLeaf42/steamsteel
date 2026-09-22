@@ -1,0 +1,10 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_BANK      unit_run      2      2   RANDOM            
+event SOUND_BANK      unit_run     10     10   RANDOM            
+event SOUND_BANK      unit_march     17     18   RANDOM            
+event SOUND_BANK      unit_march     33     34   RANDOM            

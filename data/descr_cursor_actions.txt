@@ -1,5 +1,5 @@
  ;; S = Select
-;; NA = Not Allowed
+;; Na = Not Allowed
 ;; NM = Move not allowed (may be same as NA)
 ;; Mov = Move
 ;; Mov+ = Move cursor + number of turns needed to arrive
@@ -108,14 +108,14 @@ selected army
 	over allied
 	{
 		default						A
-		garrisoned_settlement		NA (S)	tooltip cannot_break_alliance
-		garrisoned_fort				NA (S)	tooltip cannot_break_alliance
-		sieged_settlement			NA (S)	tooltip cannot_break_alliance
-		sieged_fort					NA (S)	tooltip cannot_break_alliance
-		army						NA (S)	tooltip cannot_break_alliance
-		family						NA (S)	tooltip cannot_break_alliance	
-		settlement					NA (S)	tooltip cannot_break_alliance
-		fort						NA (S)	tooltip cannot_break_alliance
+		garrisoned_settlement		Na (S)	tooltip cannot_break_alliance
+		garrisoned_fort				Na (S)	tooltip cannot_break_alliance
+		sieged_settlement			Na (S)	tooltip cannot_break_alliance
+		sieged_fort					Na (S)	tooltip cannot_break_alliance
+		army						Na (S)	tooltip cannot_break_alliance
+		family						Na (S)	tooltip cannot_break_alliance	
+		settlement					Na (S)	tooltip cannot_break_alliance
+		fort						Na (S)	tooltip cannot_break_alliance
 		diplomat					Mov
 		princess					Mov
 		merchant					Mov
@@ -190,10 +190,10 @@ selected admiral
 		sea							Na Na					tooltip armies_cannot_go_on_sea
 		rally_point					Na						tooltip navies_cannot_move_on_land
 		naval_rally_point			Mov
-		admiral						NA (S)	tooltip cannot_break_alliance
-		garrisoned_ship				NA (S)	tooltip cannot_break_alliance
-		dock						NA (S)	tooltip cannot_break_alliance						
-		garrisoned_dock				NA (S)	tooltip cannot_break_alliance
+		admiral						Na (S)	tooltip cannot_break_alliance
+		garrisoned_ship				Na (S)	tooltip cannot_break_alliance
+		dock						Na (S)	tooltip cannot_break_alliance						
+		garrisoned_dock				Na (S)	tooltip cannot_break_alliance
 	}
 }
 
@@ -250,10 +250,10 @@ selected garrisoned_ship
 
 		land						Disem Disem			tooltip disembark_army
 		sea							Mov Mov
-		admiral						NA (S)	tooltip cannot_break_alliance
-		garrisoned_ship				NA (S)	tooltip cannot_break_alliance
-		dock						NA (S)	tooltip cannot_break_alliance
-		garrisoned_dock				NA (S)	tooltip cannot_break_alliance
+		admiral						Na (S)	tooltip cannot_break_alliance
+		garrisoned_ship				Na (S)	tooltip cannot_break_alliance
+		dock						Na (S)	tooltip cannot_break_alliance
+		garrisoned_dock				Na (S)	tooltip cannot_break_alliance
 		rally_point					Disem			tooltip disembark_army
 		naval_rally_point			Mov
 		port						Disem			tooltip disembark_army
@@ -936,14 +936,14 @@ selected family
 	{
 		default Mission Na
 
-		garrisoned_settlement		NA (S)	tooltip cannot_break_alliance
-		garrisoned_fort				NA (S)	tooltip cannot_break_alliance
-		sieged_settlement			NA (S)	tooltip cannot_break_alliance
-		sieged_fort					NA (S)	tooltip cannot_break_alliance
-		army						NA (S)	tooltip cannot_break_alliance
-		family						NA (S)	tooltip cannot_break_alliance	
-		settlement					NA (S)	tooltip cannot_break_alliance
-		fort						NA (S)	tooltip cannot_break_alliance
+		garrisoned_settlement		Na (S)	tooltip cannot_break_alliance
+		garrisoned_fort				Na (S)	tooltip cannot_break_alliance
+		sieged_settlement			Na (S)	tooltip cannot_break_alliance
+		sieged_fort					Na (S)	tooltip cannot_break_alliance
+		army						Na (S)	tooltip cannot_break_alliance
+		family						Na (S)	tooltip cannot_break_alliance	
+		settlement					Na (S)	tooltip cannot_break_alliance
+		fort						Na (S)	tooltip cannot_break_alliance
 		land						Mov Mov
 		sea							Mov Mov
 		rally_point					Mov

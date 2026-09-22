@@ -1,0 +1,14 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_BANK      animal_footstep_run      2      4   RANDOM            
+event SHOCKWAVE       2      2      2                     
+event SOUND_BANK      animal_footstep_run      8     10   RANDOM            
+event SHOCKWAVE       8      8      8                     
+event SOUND_BANK      animal_footstep_run     12     14   RANDOM            
+event SHOCKWAVE       12     12     12                     
+event SOUND_BANK      animal_footstep_run     18     20                     
+event SHOCKWAVE       18     18     18                     

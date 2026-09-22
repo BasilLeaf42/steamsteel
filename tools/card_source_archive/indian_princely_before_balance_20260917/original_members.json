@@ -1,0 +1,28 @@
+{
+  "archived_from": "data/ui/units/bulga",
+  "members": [
+    "indian_bow_cav",
+    "indian_spear_cav",
+    "Sikh_heavy_cavalry",
+    "indian_spears",
+    "indian_heavy_banduqchis",
+    "indian_new_musk",
+    "india_sepoy",
+    "sikh_gen",
+    "sikh_warriors",
+    "indian_fanatic",
+    "indian_ele",
+    "india_militia",
+    "ind_bhutan_warrior",
+    "ind_armstrong",
+    "ind_12lb",
+    "ind_5lb",
+    "ind_maxim"
+  ],
+  "generated_replacements": [
+    "indian_bow_cav",
+    "indian_spear_cav",
+    "indian_heavy_banduqchis",
+    "india_militia"
+  ]
+}

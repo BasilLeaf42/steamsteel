@@ -1,0 +1,13 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_BANK      unit_march     19     19                     
+event SOUND_VOICE     Individual_Celebrate     20     30                     
+event SOUND_BANK      unit_march     67     67                     
+event SOUND_BANK      unit_march     82     82                     
+event SOUND_BANK      unit_march     89     89                     
+event SOUND_BANK      unit_march    124    124                     
+event SOUND_BANK      unit_march    137    137                     

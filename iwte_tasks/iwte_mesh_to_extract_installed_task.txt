@@ -1,0 +1,6 @@
+<task_id>                                           mesh_to_extract                                                      #  
+<mesh_file_full_path_in>                            "C:\Users\kwoks\AppData\Local\Temp\qing_chu_dreyse\installed.mesh"   #  
+<mesh_double_texture>                               yes                                                                  #  
+<directory_out>                                     "C:\Users\kwoks\AppData\Local\Temp\qing_chu_dreyse\audit"            #  
+<extract_file_name_out>                             "installed.glb"                                                      #  
+<create_text_file>                                  full                                                                 #  

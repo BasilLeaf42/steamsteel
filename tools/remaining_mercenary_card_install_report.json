@@ -1,0 +1,202 @@
+[
+  {
+    "type": "merc_us_farmer_cav",
+    "source": "data\\ui\\units\\mercs\\#merc_us_farmer_cav.tga",
+    "background_pixels_replaced": 2655
+  },
+  {
+    "type": "merc_ap_front_cav",
+    "source": "data\\ui\\units\\portugala\\#us_scout_cav.tga",
+    "background_pixels_replaced": 1083
+  },
+  {
+    "type": "merc_apache_inf",
+    "source": "data\\ui\\units\\portugala\\#apache_inf.tga",
+    "background_pixels_replaced": 1020
+  },
+  {
+    "type": "merc_uru_inf",
+    "source": "data\\ui\\units\\mercs\\#merc_uru_inf.tga",
+    "background_pixels_replaced": 2876
+  },
+  {
+    "type": "merc_para_foot",
+    "source": "data\\ui\\units\\mercs\\#merc_para_foot.tga",
+    "background_pixels_replaced": 2686
+  },
+  {
+    "type": "merc_us_farmers",
+    "source": "data\\ui\\units\\mercs\\#merc_us_farmers.tga",
+    "background_pixels_replaced": 2076
+  },
+  {
+    "type": "merc_port_inf_early",
+    "source": "data\\ui\\units\\mercs\\#merc_port_inf_early.tga",
+    "background_pixels_replaced": 3001
+  },
+  {
+    "type": "merc_port_inf_mid",
+    "source": "data\\ui\\units\\mercs\\#merc_port_inf_mid.tga",
+    "background_pixels_replaced": 3001
+  },
+  {
+    "type": "merc_port_inf_high",
+    "source": "data\\ui\\units\\mercs\\#merc_port_inf_high.tga",
+    "background_pixels_replaced": 3001
+  },
+  {
+    "type": "merc_port_cav_early",
+    "source": "data\\ui\\units\\mercs\\#merc_port_cav_early.tga",
+    "background_pixels_replaced": 985
+  },
+  {
+    "type": "merc_port_cav_mid",
+    "source": "data\\ui\\units\\mercs\\#merc_port_cav_mid.tga",
+    "background_pixels_replaced": 985
+  },
+  {
+    "type": "merc_port_cav_high",
+    "source": "data\\ui\\units\\mercs\\#merc_port_cav_high.tga",
+    "background_pixels_replaced": 985
+  },
+  {
+    "type": "merc_port_inf",
+    "source": "data\\ui\\units\\mercs\\#merc_port_inf_early.tga",
+    "background_pixels_replaced": 3005
+  },
+  {
+    "type": "merc_port_lancer",
+    "source": "data\\ui\\units\\mercs\\#merc_port_cav_early.tga",
+    "background_pixels_replaced": 1001
+  },
+  {
+    "type": "merc_bhutan_warrior",
+    "source": "data\\ui\\units\\bulga\\#ind_bhutan_warrior.tga",
+    "background_pixels_replaced": 1787
+  },
+  {
+    "type": "merc_papa_bows",
+    "source": "data\\ui\\units\\mercs\\#merc_papa_bows.tga",
+    "background_pixels_replaced": 2899
+  },
+  {
+    "type": "merc_burmese_inf",
+    "source": "data\\ui\\units\\cru\\#burmese_inf.tga",
+    "background_pixels_replaced": 1088
+  },
+  {
+    "type": "merc_indian_fanatic",
+    "source": "data\\ui\\units\\bulga\\#indian_fanatic.tga",
+    "background_pixels_replaced": 1862
+  },
+  {
+    "type": "merc_maori_spearmen",
+    "source": "data\\ui\\units\\mercs\\#merc_maori_spearmen.tga",
+    "background_pixels_replaced": 2393
+  },
+  {
+    "type": "merc_maori_musketeers",
+    "source": "data\\ui\\units\\mercs\\#merc_maori_musketeers.tga",
+    "background_pixels_replaced": 2433
+  },
+  {
+    "type": "merc_arab_sailors",
+    "source": "data\\ui\\units\\mercs\\#merc_arab_sailors.tga",
+    "background_pixels_replaced": 1829
+  },
+  {
+    "type": "merc_fra_blacks",
+    "source": "data\\ui\\units\\mercs\\#merc_fra_blacks.tga",
+    "background_pixels_replaced": 911
+  },
+  {
+    "type": "merc_eng_for_cav",
+    "source": "data\\ui\\units\\mercs\\#merc_eng_for_cav.tga",
+    "background_pixels_replaced": 2289
+  },
+  {
+    "type": "merc_fra_for_cav",
+    "source": "data\\ui\\units\\mercs\\#merc_fra_for_cav.tga",
+    "background_pixels_replaced": 1622
+  },
+  {
+    "type": "merc_mongol_bows",
+    "source": "data\\ui\\units\\byzantium\\#mongol_bows.tga",
+    "background_pixels_replaced": 2671
+  },
+  {
+    "type": "merc_pol_hussars",
+    "source": "data\\ui\\units\\mercs\\#merc_pol_hussars.tga",
+    "background_pixels_replaced": 2612
+  },
+  {
+    "type": "merc_polish_inf",
+    "source": "data\\ui\\units\\mercs\\#merc_polish_inf.tga",
+    "background_pixels_replaced": 2917
+  },
+  {
+    "type": "merc_georgian_inf",
+    "source": "data\\ui\\units\\russia\\#georgian_inf.tga",
+    "background_pixels_replaced": 1088
+  },
+  {
+    "type": "merc_serb_inf",
+    "source": "data\\ui\\units\\mercs\\#merc_serb_inf.tga",
+    "background_pixels_replaced": 2821
+  },
+  {
+    "type": "merc_bulgarian_inf",
+    "source": "data\\ui\\units\\mercs\\#merc_bulgarian_inf.tga",
+    "background_pixels_replaced": 2931
+  },
+  {
+    "type": "merc_kok_royal_cav",
+    "source": "data\\ui\\units\\mercs\\#merc_kok_royal_cav.tga",
+    "background_pixels_replaced": 2961
+  },
+  {
+    "type": "merc_kashgar_inf",
+    "source": "data\\ui\\units\\cuman\\#kashgar_inf.tga",
+    "background_pixels_replaced": 1284
+  },
+  {
+    "type": "merc_rus_georgian_cav",
+    "source": "data\\ui\\units\\russia\\#rus_georgian_cav.tga",
+    "background_pixels_replaced": 1088
+  },
+  {
+    "type": "merc_zulu_spearmen",
+    "source": "data\\ui\\units\\lith\\#zulu_spearmen.tga",
+    "background_pixels_replaced": 1359
+  },
+  {
+    "type": "merc_sikh_warriors",
+    "source": "data\\ui\\units\\bulga\\#sikh_warriors.tga",
+    "background_pixels_replaced": 1370
+  },
+  {
+    "type": "merc_fra_inf_ch",
+    "source": "data\\ui\\units\\mercs\\#merc_fra_inf_ch.tga",
+    "background_pixels_replaced": 2803
+  },
+  {
+    "type": "merc_arab_brigade",
+    "source": "data\\ui\\units\\mercs\\#merc_arab_brigade.tga",
+    "background_pixels_replaced": 2898
+  },
+  {
+    "type": "merc_balk_cav_ch",
+    "source": "data\\ui\\units\\mercs\\#merc_balk_cav_ch.tga",
+    "background_pixels_replaced": 2892
+  },
+  {
+    "type": "merc_siam_agent",
+    "source": "data\\ui\\units\\cru\\#siam_agent.tga",
+    "background_pixels_replaced": 1054
+  },
+  {
+    "type": "merc_uk_sailor",
+    "source": "data\\ui\\units\\mercs\\#merc_uk_sailor.tga",
+    "background_pixels_replaced": 2666
+  }
+]

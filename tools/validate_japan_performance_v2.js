@@ -1,0 +1,4 @@
+const fs=require('fs'),path=require('path'),R=path.resolve(__dirname,'..');
+const a=fs.readFileSync(path.join(R,'data/tow_steamsteel/export_descr_unit.txt'),'utf8').replace(/\r/g,''),b=fs.readFileSync(path.join(R,'data/export_descr_unit.txt'),'utf8').replace(/\r/g,'');if(a!==b)throw Error('EDU mirrors differ');let n=0;
+for(const x of a.split(/(?=^type\s+)/m)){if(!/(?:^ownership|^era [012]).*\bsaxons\b/m.test(x))continue;n++;const name=(x.match(/^type\s+(.+)$/m)||[])[1];if(!/^stat_ground\s+0, 0, 0, 0$/m.test(x)&&!/^category\s+siege$/m.test(x))throw Error(name+' terrain');for(const m of x.matchAll(/^stat_fire_delay\s+(-?\d+)/gm))if(Number(m[1])!==0)throw Error(name+' unsafe fire delay')}
+if(n!==124)throw Error('record count '+n);console.log('Japan performance validation passed: 124 records preserved; terrain and firing delays safe.');

@@ -1,0 +1,11 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           SM_ANIM_SWOOSH     13     13                     
+event SOUND           SM_ANIM_FOOTSTEP     17     17                     
+event SOUND           SM_ANIM_FOOTSTEP     36     36                     
+event SOUND           SM_ANIM_FOOTSTEP     46     46                     
+event SOUND           SM_ANIM_FOOTSTEP     73     73                     

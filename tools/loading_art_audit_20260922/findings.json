@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "A001",
+    "sha256": "4d2ac123fec65e65879405d319e283f9e55ae7c361367f36e2f3136e743d579e",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_1.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_1.tga",
+      "data/loading_screen/Loading_screen_1.tga"
+    ],
+    "number": 1,
+    "status": "Review",
+    "note": "Bridge construction: several workers merge with scaffold members; joints and tool contacts need closer reconstruction.",
+    "runtime_path": "data/loading_screen/Loading_screen_1.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A011",
+    "sha256": "b229af7aeaef179601a57c6823a15e71aa3e3a84212af4cb41ec727fece42905",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_2.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_2.tga",
+      "data/loading_screen/Loading_screen_2.tga"
+    ],
+    "number": 2,
+    "status": "Retain provisionally",
+    "note": "Harbour delegation: coherent principal figures and composition; small troop details are soft.",
+    "runtime_path": "data/loading_screen/Loading_screen_2.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A022",
+    "sha256": "d41bafc1b24bbbff11e77e59a0ce3941c0690b1f39473c6f0737231db5c59e62",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_3.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_3.tga",
+      "data/loading_screen/Loading_screen_3.tga"
+    ],
+    "number": 3,
+    "status": "Review",
+    "note": "Polar balloon: suspension ropes, basket attachments and clustered figures are visually confused.",
+    "runtime_path": "data/loading_screen/Loading_screen_3.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A033",
+    "sha256": "6127e7c1906420fbbbde922d75cc802eb141409875d0c591e3b57bb6b6ae73ca",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_4.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_4.tga",
+      "data/loading_screen/Loading_screen_4.tga"
+    ],
+    "number": 4,
+    "status": "Retain provisionally",
+    "note": "Warship: clear silhouette and atmosphere; exact ship identity and rigging remain unverified.",
+    "runtime_path": "data/loading_screen/Loading_screen_4.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A044",
+    "sha256": "c2cdd2f4966c33800e748ed727daa1f3db5e036803a2ec6d2630c9ed013f770e",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_5.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_5.tga",
+      "data/loading_screen/Loading_screen_5.tga"
+    ],
+    "number": 5,
+    "status": "Replace",
+    "note": "Firing line: repeated overlapping arms and stocks do not resolve into clean individual rifle grips; right-hand rank dissolves into isolated weapon fragments.",
+    "runtime_path": "data/loading_screen/Loading_screen_5.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A055",
+    "sha256": "a5e97d2c39e0bf90a4922e71f21a0e285250d851d73c653fd108c09c9dd3baa1",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_6.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_6.tga",
+      "data/loading_screen/Loading_screen_6.tga"
+    ],
+    "number": 6,
+    "status": "Review",
+    "note": "Royal montage: intentionally symbolic composition, but costume and person identification require source documentation.",
+    "runtime_path": "data/loading_screen/Loading_screen_6.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A059",
+    "sha256": "05408a0d31f72c36b792e768036dccaf3eb1c162139e7c055e9e1840f4394f5a",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_7.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_7.tga",
+      "data/loading_screen/Loading_screen_7.tga"
+    ],
+    "number": 7,
+    "status": "Replace",
+    "note": "Warriors: the kneeling archer has multiple competing bow/arrow lines through his face and grip; the main rifle action and hand contact are poorly resolved.",
+    "runtime_path": "data/loading_screen/Loading_screen_7.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A060",
+    "sha256": "91c4d26e90dc50d7419b3cdf76f73cea0cf40ad7e17677de36838f409531cdc7",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_8.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_8.tga",
+      "data/loading_screen/Loading_screen_8.tga"
+    ],
+    "number": 8,
+    "status": "Replace",
+    "note": "Artillery: repeated giant tubes, adjacent rounded objects and carriage parts do not resolve into intelligible loading or recoil mechanisms; excessive flame columns obscure rather than explain the equipment.",
+    "runtime_path": "data/loading_screen/Loading_screen_8.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A061",
+    "sha256": "0923f2d6da147b4490cfc46b2ede1ac5a78e9f828142363fb2c298231293101f",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_9.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_9.tga",
+      "data/loading_screen/Loading_screen_9.tga"
+    ],
+    "number": 9,
+    "status": "Review",
+    "note": "Street fight: central contact hands and background grappling figures are ambiguous.",
+    "runtime_path": "data/loading_screen/Loading_screen_9.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A002",
+    "sha256": "8a3614315f8f06ad1e5029db2bc091282dd57ded1aab0bcc9b9183a163993337",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_10.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_10.tga",
+      "data/loading_screen/Loading_screen_10.tga"
+    ],
+    "number": 10,
+    "status": "Retain provisionally",
+    "note": "Dockyard: strong overall spatial composition; small workers and hoist details need source checking.",
+    "runtime_path": "data/loading_screen/Loading_screen_10.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A003",
+    "sha256": "6f0506e4f49a8eea8ea8d543e60b0e55c6d7acb72363dd373f4ccec5bcce6e8f",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_11.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_11.tga",
+      "data/loading_screen/Loading_screen_11.tga"
+    ],
+    "number": 11,
+    "status": "Review",
+    "note": "Earthwork assault: right foreground rifle grip and the background stock/sling cluster are confused; several combat interactions feel posed rather than connected.",
+    "runtime_path": "data/loading_screen/Loading_screen_11.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A004",
+    "sha256": "c63414eae0dc99eb4b823ef8dfc3789f24f382bc68ef0b8aa9c2bdae291118f8",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_12.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_12.tga",
+      "data/loading_screen/Loading_screen_12.tga"
+    ],
+    "number": 12,
+    "status": "Review",
+    "note": "Rooftop fight: footing, roof depth and right-hand rifle struggle are weakly resolved.",
+    "runtime_path": "data/loading_screen/Loading_screen_12.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A005",
+    "sha256": "bf8e5c063d0721c0f402428d29ed512176c3289242709812c6e55e900ba162f4",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_13.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_13.tga",
+      "data/loading_screen/Loading_screen_13.tga"
+    ],
+    "number": 13,
+    "status": "Replace",
+    "note": "Lamplighter: figure and post float above a city-scale drop without a credible ledge or mounting location; leg support and intended working action are unconvincing.",
+    "runtime_path": "data/loading_screen/Loading_screen_13.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A006",
+    "sha256": "cb449b9833ab0ff830110277d2204a53ac7d528a6a7198c9511ce9b26c92eef6",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_14.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_14.tga",
+      "data/loading_screen/Loading_screen_14.tga"
+    ],
+    "number": 14,
+    "status": "Retain provisionally",
+    "note": "Interior gathering: main silhouettes and objects remain readable; minor faces are simplified.",
+    "runtime_path": "data/loading_screen/Loading_screen_14.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A007",
+    "sha256": "cf1eb2f1cb2f5985a471be54d67560891292b1d97d386d83d862dada059976d8",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_15.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_15.tga",
+      "data/loading_screen/Loading_screen_15.tga"
+    ],
+    "number": 15,
+    "status": "Retain provisionally",
+    "note": "Mounted prairie group: clear principal horse/rider relationships; distant detail is appropriately subordinate.",
+    "runtime_path": "data/loading_screen/Loading_screen_15.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A008",
+    "sha256": "d91e2478fb9c558e99f4ff19a2b96094f9dd7c2d0f517e3249e77d0048fe1613",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_16.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_16.tga",
+      "data/loading_screen/Loading_screen_16.tga"
+    ],
+    "number": 16,
+    "status": "Review",
+    "note": "Steamship departure: foreground waving hands and ship-side crowd blur into repeated forms.",
+    "runtime_path": "data/loading_screen/Loading_screen_16.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A009",
+    "sha256": "5f70e5f4085954e31fb6bc7b6504311e4a2c77618aec1f78272141c5cda72602",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_17.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_17.tga",
+      "data/loading_screen/Loading_screen_17.tga"
+    ],
+    "number": 17,
+    "status": "Review",
+    "note": "Airships: coherent broad silhouettes, but gondola/propulsion details and intended date need a documented reference.",
+    "runtime_path": "data/loading_screen/Loading_screen_17.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A010",
+    "sha256": "ebf5a086bc7f12bb32205339a0d9dae429cea20b614bf907f2b3efa48c931017",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_18.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_18.tga",
+      "data/loading_screen/Loading_screen_18.tga"
+    ],
+    "number": 18,
+    "status": "Retain provisionally",
+    "note": "Coffeehouse: plausible overall grouping; faces and newspaper grips are soft but not a clear structural failure.",
+    "runtime_path": "data/loading_screen/Loading_screen_18.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A113",
+    "sha256": "6e899ce06e87b8d9a8f9a9b39ec4dcea68ffcce194406b4c11290ddd29f0ed06",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_europe/Loading_screen_19.tga",
+      "data/loading_screen/load_europe/Loading_screen_59.tga",
+      "data/loading_screen/load_greatgame/Loading_screen_19.tga",
+      "data/loading_screen/load_greatgame/Loading_screen_55.tga",
+      "data/loading_screen/Loading_screen_19.tga"
+    ],
+    "number": 19,
+    "status": "Retain provisionally",
+    "note": "Legacy military painting: clearly differentiated figures; technical issue is its presence outside the current source set, not an identified visual defect.",
+    "runtime_path": "data/loading_screen/Loading_screen_19.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A012",
+    "sha256": "c3dcfe28c9f4586f858d19f032143626b6b7f1fc2108a30617aa04fa97868523",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_20.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_20.tga",
+      "data/loading_screen/Loading_screen_20.tga"
+    ],
+    "number": 20,
+    "status": "Review",
+    "note": "Sailing battle: gunfire, stern geometry and rigging need a vessel reference before approval.",
+    "runtime_path": "data/loading_screen/Loading_screen_20.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A013",
+    "sha256": "d801773daf08903af36d58b5a2887e715f62fe9f6f9bd85cf9f8744effb364d8",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_21.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_21.tga",
+      "data/loading_screen/Loading_screen_21.tga"
+    ],
+    "number": 21,
+    "status": "Replace",
+    "note": "Courtyard melee: central crossing weapons and grips are hard to assign; prone foreground figure and the person restraining him merge into an unclear body arrangement.",
+    "runtime_path": "data/loading_screen/Loading_screen_21.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A014",
+    "sha256": "9d4752340809e23cd6ffd34a9a853d2503d3a321a14adc70c3aad03f51848151",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_22.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_22.tga",
+      "data/loading_screen/Loading_screen_22.tga"
+    ],
+    "number": 22,
+    "status": "Retain provisionally",
+    "note": "Night gathering: readable central group and lighting; exact depicted event is undocumented.",
+    "runtime_path": "data/loading_screen/Loading_screen_22.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A015",
+    "sha256": "681c6d073249f1dec459b1011455b698d1752bbb0b55ac4b02d6e485f7591493",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_23.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_23.tga",
+      "data/loading_screen/Loading_screen_23.tga"
+    ],
+    "number": 23,
+    "status": "Retain provisionally",
+    "note": "Quiet interior: principal poses are readable; reclining hand and small props remain soft.",
+    "runtime_path": "data/loading_screen/Loading_screen_23.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A016",
+    "sha256": "fd8de118d3a47c6361b506dd4c861723bfa8f09d9042bf9a1c4778d193d93362",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_24.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_24.tga",
+      "data/loading_screen/Loading_screen_24.tga"
+    ],
+    "number": 24,
+    "status": "Retain provisionally",
+    "note": "City street: coherent broad perspective; distant pedestrians are painterly rather than individually resolved.",
+    "runtime_path": "data/loading_screen/Loading_screen_24.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A017",
+    "sha256": "9444fc4dc312c020334e31e78a93e46f27806158c43a093e93594075d7c30e1a",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_25.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_25.tga",
+      "data/loading_screen/Loading_screen_25.tga"
+    ],
+    "number": 25,
+    "status": "Replace",
+    "note": "Factory injury: injured worker and helpers form a tangled central cluster; hands, wrist/forearm contacts and the treatment action cannot be read reliably.",
+    "runtime_path": "data/loading_screen/Loading_screen_25.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A018",
+    "sha256": "a3af51c50bc34dd70890a29c46bd473fac4f6282916f7aa167303e154e6e27fb",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_26.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_26.tga",
+      "data/loading_screen/Loading_screen_26.tga"
+    ],
+    "number": 26,
+    "status": "Review",
+    "note": "Religious gathering: foreground backs read clearly, but raised figure, platform and city are generic without subject provenance.",
+    "runtime_path": "data/loading_screen/Loading_screen_26.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A019",
+    "sha256": "1327d90a3e332c7ffdbb722b4266b22444c26d469c9663e5fa686ad3cb3735bb",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_27.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_27.tga",
+      "data/loading_screen/Loading_screen_27.tga"
+    ],
+    "number": 27,
+    "status": "Review",
+    "note": "Urban unrest: several foreground/background crowd bodies blend into each other; statue and setting need identification.",
+    "runtime_path": "data/loading_screen/Loading_screen_27.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A020",
+    "sha256": "16a5eb95b70aae5bd951a75644d3cbac65e16fb471b34fcbfe7a32dbc37492f7",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_28.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_28.tga",
+      "data/loading_screen/Loading_screen_28.tga"
+    ],
+    "number": 28,
+    "status": "Retain provisionally",
+    "note": "Prairie railway: simple, readable composition; no obvious primary anatomy failure at review scale.",
+    "runtime_path": "data/loading_screen/Loading_screen_28.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A021",
+    "sha256": "aa6ced58b5be7f914b0275af795b27af35c0267c475d0b36a2a79cb28d001766",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_29.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_29.tga",
+      "data/loading_screen/Loading_screen_29.tga"
+    ],
+    "number": 29,
+    "status": "Review",
+    "note": "Caravan: overlapping camel heads, packs and riders need separate anatomical and tack checks.",
+    "runtime_path": "data/loading_screen/Loading_screen_29.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A023",
+    "sha256": "133361cf90793c6e81d9af2a9678ef3b74ba634aeb800ac44f53048c2d4dbaef",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_30.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_30.tga",
+      "data/loading_screen/Loading_screen_30.tga"
+    ],
+    "number": 30,
+    "status": "Review",
+    "note": "Door breach: central raised tool, two-handed grip and intended strike are insufficiently clear; other principal figures read better.",
+    "runtime_path": "data/loading_screen/Loading_screen_30.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A024",
+    "sha256": "169f9a8fb70d1ee06673b891264b9ff37c97606f12ace8c7b28bdaff43e74625",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_31.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_31.tga",
+      "data/loading_screen/Loading_screen_31.tga"
+    ],
+    "number": 31,
+    "status": "Retain provisionally",
+    "note": "Monastery: clear major poses and setting; exact place and dress remain unverified.",
+    "runtime_path": "data/loading_screen/Loading_screen_31.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A025",
+    "sha256": "8ab0fd48a64aafaa21e1b67a92ba0c333ba3734a9e440505b1b06de37536ea8e",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_32.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_32.tga",
+      "data/loading_screen/Loading_screen_32.tga"
+    ],
+    "number": 32,
+    "status": "Review",
+    "note": "Assembly: repeated faces and fezzes become formulaic; lower-left heads are partly swallowed by furniture.",
+    "runtime_path": "data/loading_screen/Loading_screen_32.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A026",
+    "sha256": "7f73d2a99dfdc36bb83ffa1c3309256815007747cc4f8bc802c767ff91e55e82",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_33.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_33.tga",
+      "data/loading_screen/Loading_screen_33.tga"
+    ],
+    "number": 33,
+    "status": "Review",
+    "note": "Dancer: bent wrist, raised foot and weight distribution need source comparison; do not infer extra limbs merely from the dynamic pose.",
+    "runtime_path": "data/loading_screen/Loading_screen_33.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A027",
+    "sha256": "c784b0d542d20e6c43ca18049db95031b11f47196c7f990785f1eae3ed8d50e4",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_34.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_34.tga",
+      "data/loading_screen/Loading_screen_34.tga"
+    ],
+    "number": 34,
+    "status": "Retain provisionally",
+    "note": "Oil derricks: readable industrial landscape; engineering details and place are not authenticated.",
+    "runtime_path": "data/loading_screen/Loading_screen_34.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A028",
+    "sha256": "4eef477a3816d6adb56915fd0b5b05fbc8734fc36a082be0b47b750a68c11ee5",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_35.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_35.tga",
+      "data/loading_screen/Loading_screen_35.tga"
+    ],
+    "number": 35,
+    "status": "Review",
+    "note": "Harvest: foreground tool shafts and gripping hands need validation against the depicted agricultural action.",
+    "runtime_path": "data/loading_screen/Loading_screen_35.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A029",
+    "sha256": "e25532a25db4b124bb1206d2943c951a1f0a2bbc1cb093f3ca877766da24c94b",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_36.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_36.tga",
+      "data/loading_screen/Loading_screen_36.tga"
+    ],
+    "number": 36,
+    "status": "Review",
+    "note": "Armoured train: turret, chassis and wheel relationships require a real vehicle reference; design currently reads as generic fantasy machinery.",
+    "runtime_path": "data/loading_screen/Loading_screen_36.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A030",
+    "sha256": "c0fc3e12f083575e99387ebff73610389280cd44675d1c54617065797fb57fab",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_37.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_37.tga",
+      "data/loading_screen/Loading_screen_37.tga"
+    ],
+    "number": 37,
+    "status": "Replace",
+    "note": "Street violence: victim's raised arms, captors' grips and adjacent weapon shafts overlap into an ambiguous central tangle; the principal action needs rebuilding.",
+    "runtime_path": "data/loading_screen/Loading_screen_37.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A031",
+    "sha256": "a9f878cbbc108ef5abd635565387b9d125f2a88611b727b970dc5f16b3fd1bcd",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_38.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_38.tga",
+      "data/loading_screen/Loading_screen_38.tga"
+    ],
+    "number": 38,
+    "status": "Review",
+    "note": "Locomotive: running gear, track contact and carriage alignment need a documented locomotive reference.",
+    "runtime_path": "data/loading_screen/Loading_screen_38.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A032",
+    "sha256": "317a3092d9eb0a64422ad8969b16b2c957bfd4ef6660ef9a2dbafdd2ddd19703",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_39.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_39.tga",
+      "data/loading_screen/Loading_screen_39.tga"
+    ],
+    "number": 39,
+    "status": "Retain provisionally",
+    "note": "Infantry rear view: clear grouping; exact helmet, uniform and firearm details are not historically authenticated.",
+    "runtime_path": "data/loading_screen/Loading_screen_39.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A034",
+    "sha256": "e8c65f94c7b4c60cc58d639ff07f20df28f9c216837feddd68088abaef78ab2d",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_40.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_40.tga",
+      "data/loading_screen/Loading_screen_40.tga"
+    ],
+    "number": 40,
+    "status": "Review",
+    "note": "Machinery hall: large wheels and supports look plausible at a glance, but drive connections and shaft relationships are unresolved.",
+    "runtime_path": "data/loading_screen/Loading_screen_40.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A035",
+    "sha256": "7c408442be1dde14479b56d9f37d66b53f54f37f8a698c8f9b646cd05918dd3c",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_41.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_41.tga",
+      "data/loading_screen/Loading_screen_41.tga"
+    ],
+    "number": 41,
+    "status": "Review",
+    "note": "Military ceremony: horse legs, mounted seating and central presented object need closer reference checking.",
+    "runtime_path": "data/loading_screen/Loading_screen_41.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A036",
+    "sha256": "2782681abff5aa1865922a5bcd642515e039ae7338fce5655178a0798cc6c190",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_42.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_42.tga",
+      "data/loading_screen/Loading_screen_42.tga"
+    ],
+    "number": 42,
+    "status": "Review",
+    "note": "Exhibition interior: excessive blur in almost every human figure; weak focal subject and detail readability.",
+    "runtime_path": "data/loading_screen/Loading_screen_42.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A037",
+    "sha256": "6e702bc785092590ea5b754c9d8efa212539596c7740a1dca03110308781dfdf",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_43.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_43.tga",
+      "data/loading_screen/Loading_screen_43.tga"
+    ],
+    "number": 43,
+    "status": "Retain provisionally",
+    "note": "Caravan gateway: clear main composition; camel load and small background figures are soft.",
+    "runtime_path": "data/loading_screen/Loading_screen_43.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A038",
+    "sha256": "f1b532e5e289843bf7e4d7a2255b9c09250d48372a896ae20a7edf0537a3432b",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_44.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_44.tga",
+      "data/loading_screen/Loading_screen_44.tga"
+    ],
+    "number": 44,
+    "status": "Retain provisionally",
+    "note": "Two seated dignitaries: readable poses and tea setting; gesturing fingers and costume identity need source verification.",
+    "runtime_path": "data/loading_screen/Loading_screen_44.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A039",
+    "sha256": "3372452dac59f1c445e796b7f3766fb30c85c80b35ea767af84895a08c4ca9e4",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_45.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_45.tga",
+      "data/loading_screen/Loading_screen_45.tga"
+    ],
+    "number": 45,
+    "status": "Review",
+    "note": "Meeting: prominent pointing hands and surrounding faces are uneven; paper and grip lack convincing detail.",
+    "runtime_path": "data/loading_screen/Loading_screen_45.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A040",
+    "sha256": "3f9885269ee41e8a9ef49c1c94e51138fae4f5b1eb6a469e30062d12789b75a4",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_46.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_46.tga",
+      "data/loading_screen/Loading_screen_46.tga"
+    ],
+    "number": 46,
+    "status": "Retain provisionally",
+    "note": "Troops in gorge: atmospheric and readable; distant ranks are simplified.",
+    "runtime_path": "data/loading_screen/Loading_screen_46.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A041",
+    "sha256": "3ef047f829224eab86fa538e2e53c3ffd67b8512f93cc9cfb1195e58d57f1648",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_47.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_47.tga",
+      "data/loading_screen/Loading_screen_47.tga"
+    ],
+    "number": 47,
+    "status": "Retain provisionally",
+    "note": "Central Asian market: clear architecture-led composition; architectural identity and lettering need source checking.",
+    "runtime_path": "data/loading_screen/Loading_screen_47.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A042",
+    "sha256": "4766f04b271c5d07becdda7711b4dffbec15426b03499c79933dd44277e5dc71",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_48.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_48.tga",
+      "data/loading_screen/Loading_screen_48.tga"
+    ],
+    "number": 48,
+    "status": "Review",
+    "note": "Cavalry: middle riders and horse bodies overlap ambiguously; validate leg count, saddle seating and reins individually.",
+    "runtime_path": "data/loading_screen/Loading_screen_48.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A043",
+    "sha256": "b64ed6c394e3fc93a439b618d787f2b4d4750a1c3c835f94dc70f66555986989",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_49.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_49.tga",
+      "data/loading_screen/Loading_screen_49.tga"
+    ],
+    "number": 49,
+    "status": "Retain provisionally",
+    "note": "Street procession: main poses read adequately; raised implement and exact event remain unverified.",
+    "runtime_path": "data/loading_screen/Loading_screen_49.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A045",
+    "sha256": "c2c45351fceeface42359ea596f97865e29fd05231b931082f0aa07efa3b586a",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_50.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_50.tga",
+      "data/loading_screen/Loading_screen_50.tga"
+    ],
+    "number": 50,
+    "status": "Review",
+    "note": "Court audience: right guards' sword grips, hands and repeated uniform forms need refinement.",
+    "runtime_path": "data/loading_screen/Loading_screen_50.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A046",
+    "sha256": "c3402aeb06108dd34e2843b0e16d86fec6b584bd519f25dcfe011fea59f22e87",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_51.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_51.tga",
+      "data/loading_screen/Loading_screen_51.tga"
+    ],
+    "number": 51,
+    "status": "Review",
+    "note": "Printing works: large machine lacks clearly readable paper path and working connections; work gestures are generic.",
+    "runtime_path": "data/loading_screen/Loading_screen_51.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A047",
+    "sha256": "83a8f4af26bffbb1cd2eac370aa11bb843b15b0b5d516a98da2652c5e3e4ded4",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_52.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_52.tga",
+      "data/loading_screen/Loading_screen_52.tga"
+    ],
+    "number": 52,
+    "status": "Replace",
+    "note": "Firing line: foreground rifles break into wedge-like stocks and blade-like extensions; hands fail to form convincing grips and overlapping weapons cannot be traced consistently.",
+    "runtime_path": "data/loading_screen/Loading_screen_52.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A048",
+    "sha256": "0c7bdecab9fcc43bdaef318cf74560ab411d56d4579260e5b2162aaa338ce68c",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_53.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_53.tga",
+      "data/loading_screen/Loading_screen_53.tga"
+    ],
+    "number": 53,
+    "status": "Review",
+    "note": "Prospectors: tool head, shaft and working target do not clearly communicate the action.",
+    "runtime_path": "data/loading_screen/Loading_screen_53.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A049",
+    "sha256": "f1537c474b194d790dbd6013bbf3569c869a4e1c5d30d9611c15cec645f0a5e8",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_54.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_54.tga",
+      "data/loading_screen/Loading_screen_54.tga"
+    ],
+    "number": 54,
+    "status": "Retain provisionally",
+    "note": "City panorama: comparatively strong architecture-led screen; exact location remains unverified.",
+    "runtime_path": "data/loading_screen/Loading_screen_54.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A050",
+    "sha256": "1fa1223195dbb178fdc9289c7d81454c2f5e5f6176efab0ba1026b5d2a96b54b",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_55.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_55.tga",
+      "data/loading_screen/Loading_screen_55.tga"
+    ],
+    "number": 55,
+    "status": "Review",
+    "note": "Resting soldiers: foreground dangling hands are elongated and poorly articulated; rifle holding is stiff, though bodies remain readable.",
+    "runtime_path": "data/loading_screen/Loading_screen_55.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A051",
+    "sha256": "a75b7a3a3d66c51929230288bde4211a2a5932589797d854a150d0b5d61a9a3a",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_56.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_56.tga",
+      "data/loading_screen/Loading_screen_56.tga"
+    ],
+    "number": 56,
+    "status": "Retain provisionally",
+    "note": "Political gathering: main faces and silhouettes read; identities and costume accuracy require references.",
+    "runtime_path": "data/loading_screen/Loading_screen_56.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A052",
+    "sha256": "7e8450922f77dc4d607f61ef73de2b55354a6ab43ea950e1d7f2c423a49f0cac",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_57.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_57.tga",
+      "data/loading_screen/Loading_screen_57.tga"
+    ],
+    "number": 57,
+    "status": "Review",
+    "note": "Street confrontation: small pistol mechanism and grip are poorly resolved; foreground cane/hand junction is awkward.",
+    "runtime_path": "data/loading_screen/Loading_screen_57.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A053",
+    "sha256": "ff2d2057cf5e6e2f8c94e8bbeef8a22da8285a0a649440f12ef0dac10ddbcabd",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_58.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_58.tga",
+      "data/loading_screen/Loading_screen_58.tga"
+    ],
+    "number": 58,
+    "status": "Review",
+    "note": "Parade: repeated near-identical faces, rigid hands and formulaic marching poses undermine naturalism.",
+    "runtime_path": "data/loading_screen/Loading_screen_58.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A054",
+    "sha256": "28074195dd9d2487f0cbb723f855e09fe1037eb240abae72492e1f65e68ee88d",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_59.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_59.tga",
+      "data/loading_screen/Loading_screen_59.tga"
+    ],
+    "number": 59,
+    "status": "Review",
+    "note": "Barricade: raised weapon, standing figure's footing and lower-right combatants are unclear.",
+    "runtime_path": "data/loading_screen/Loading_screen_59.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A056",
+    "sha256": "d238428c834e6dc7c1fb40811f723d85bf995fa8acc99364520eca86e5cc7c28",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_60.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_60.tga",
+      "data/loading_screen/Loading_screen_60.tga"
+    ],
+    "number": 60,
+    "status": "Retain provisionally",
+    "note": "Harbour sunset: coherent scenery and ship silhouette; no obvious primary anatomy issue.",
+    "runtime_path": "data/loading_screen/Loading_screen_60.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A057",
+    "sha256": "15d3db9cfc1c31691e5bdcda6764e9d5726df4e8efa7559c538eb16cf2d94726",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_61.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_61.tga",
+      "data/loading_screen/Loading_screen_61.tga"
+    ],
+    "number": 61,
+    "status": "Retain provisionally",
+    "note": "Throne room: readable spatial arrangement; small hands, insignia and identity remain unverified.",
+    "runtime_path": "data/loading_screen/Loading_screen_61.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  },
+  {
+    "id": "A058",
+    "sha256": "bf75c616f32a8a74487ff37d02da366ad8ed1e63ade179b992cb85d10c339f0d",
+    "size": [
+      1024,
+      768
+    ],
+    "paths": [
+      "data/loading_screen/load_althis/Loading_screen_62.tga",
+      "data/loading_screen/load_steamsteel/Loading_screen_62.tga",
+      "data/loading_screen/Loading_screen_62.tga"
+    ],
+    "number": 62,
+    "status": "Review",
+    "note": "Forest gunmen: right figure's carried firearm is obscured and awkwardly integrated into the arm; raised fingers and visible revolver need close source checking.",
+    "runtime_path": "data/loading_screen/Loading_screen_62.tga",
+    "ai_flag": "AI — user flagged",
+    "ai_flag_basis": "User requested all audited screens be flagged as AI.",
+    "ai_authorship_verified": false
+  }
+]

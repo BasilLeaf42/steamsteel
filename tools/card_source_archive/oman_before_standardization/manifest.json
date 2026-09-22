@@ -1,0 +1,22 @@
+{
+  "faction": "golden",
+  "archive_purpose": "Distinct pre-standardization Oman tactical cards preserved before reassignment.",
+  "original_members": {
+    "#moroccan_gunner_golden.tga": ["moroccan_gunner_golden"],
+    "#us_zouave_go.tga": ["us_zouave_go"],
+    "#omani_roy.tga": ["omani_roy"],
+    "#otto_inf.tga": ["otto_inf"],
+    "#moroccan_camel_gunner_golden.tga": ["moroccan_camel_gunner_golden"],
+    "#otto_cav_golden.tga": ["otto_cav_golden"],
+    "#omani_cav.tga": ["omani_cav"]
+  },
+  "assignments": {
+    "#moroccan_gunner_golden.tga": ["oma_baluchi_musketeers"],
+    "#us_zouave_go.tga": ["oma_regular_early", "oma_regular_mid", "oma_regular_high"],
+    "#omani_roy.tga": ["oma_palace_guard_early", "oma_palace_guard_mid", "oma_palace_guard_high"],
+    "#otto_inf.tga": ["oma_zanzibar_mid", "oma_zanzibar_high"],
+    "#moroccan_camel_gunner_golden.tga": ["oma_bedouin_camelry"],
+    "#otto_cav_golden.tga": ["oma_horse_guard_early", "oma_horse_guard_mid", "oma_horse_guard_high"],
+    "#omani_cav.tga": ["superseded as a tactical composition because it shows a long gun while its rider mesh is pistol-armed"]
+  }
+}

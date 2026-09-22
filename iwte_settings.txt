@@ -1,0 +1,22 @@
+# IWTE configuration settings
+# used to set defaults on loading IWTE
+# and retaining info for last action
+<ui_mode>                                           brown                                                                #  
+<extract_type>                                      glb                                                                  # options : glb, dae, ms3d
+<game_type>                                         all                                                                  # options : m2, rr, rtw
+<csv_deliminator_comma>                             yes                                                                  #  
+<threads_to_use>                                    2                                                                    #  
+
+# files and directories
+<iwte_task_directory>                               "/iwte_tasks"                                                        #  
+<to_extract_directory>                              "/to_extract"                                                        #  
+<from_extract_directory>                            "/from_extract"                                                      #  
+<to_extract_directory_batch>                        "/to_extract_batch"                                                  #  
+<from_extract_directory_batch>                      "/from_extract_batch"                                                #  
+
+
+# RR files and directories
+
+# M2 files and directories
+# M2 parameters
+<terrain_tga_params>                                "150"  "0.0"  "3.0"                                                  #  

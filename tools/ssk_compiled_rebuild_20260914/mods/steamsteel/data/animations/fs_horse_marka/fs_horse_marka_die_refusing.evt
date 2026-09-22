@@ -1,0 +1,14 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_BANK      animal_footstep_run      1      1                     
+event SOUND_BANK      animal_footstep_run      8      8                     
+event SOUND           ANIM_HORSE_DEATH      9      9                     
+event SOUND_BANK      animal_footstep_run     10     10                     
+event SOUND_BANK      animal_footstep_run     12     12                     
+event SOUND_BANK      animal_footstep_run     15     15                     
+event SOUND_BANK      animal_fall     47     47                     
+event SHOCKWAVE       47     47     47                     

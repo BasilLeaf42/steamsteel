@@ -1,0 +1,13 @@
+{
+  "installed_background_repair": [
+    "data\\ui\\units\\england\\#merc_arab_sailors.tga",
+    "data\\ui\\units\\mercs\\#merc_arab_sailors.tga",
+    "data\\ui\\units\\slave\\#merc_arab_sailors.tga"
+  ],
+  "backup": "tools\\card_source_archive\\khedival_before_background_repair_20260923",
+  "trial_installed": false,
+  "reference_unique_foreground_colours": 1814,
+  "source_unique_foreground_colours": 1261,
+  "trial_palette_colours": 64,
+  "background_pixels_rebuilt": 1496
+}

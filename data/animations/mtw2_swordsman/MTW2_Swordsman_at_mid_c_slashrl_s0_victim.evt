@@ -1,0 +1,11 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           ANIM_SWOOSH      5      5                     
+event SOUND_VOICE     Individual_Grunt     21     21                     
+event SOUND_VOICE     Individual_Death     46     46                     
+event SOUND_BANK      fall     66     66                     
+event SOUND_BANK      fall     98     98                     

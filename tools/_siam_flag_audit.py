@@ -1,0 +1,2 @@
+from PIL import Image
+im=Image.open('tools/mesh_work/siam_bearer/tga/siam_standard_flag.tga').convert('RGB');im.crop((160,690,520,1024)).resize((720,668)).save('tools/mesh_work/siam_bearer/flag_audit.jpg',quality=90)

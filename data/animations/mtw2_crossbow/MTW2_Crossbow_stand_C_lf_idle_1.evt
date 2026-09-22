@@ -1,0 +1,11 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_AMBIENT   human_armour_clink     15     15                     
+event SOUND_AMBIENT   human_cloth     15     15                     
+event SOUND_AMBIENT   human_cloth     39     39                     
+event SOUND_AMBIENT   human_armour_clink     60     60                     
+event SOUND_AMBIENT   human_cloth     62     62                     

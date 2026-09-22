@@ -1,0 +1,96 @@
+{
+  "query": "Jules Garnier balloon painting",
+  "pages": [
+    {
+      "pageid": 91885195,
+      "ns": 6,
+      "title": "File:Forest and stream (IA ForeststreamI).pdf",
+      "index": 1,
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 153032665,
+          "width": 1825,
+          "height": 2575,
+          "pagecount": 370,
+          "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Forest_and_stream_%28IA_ForeststreamI%29.pdf/page1-1280px-Forest_and_stream_%28IA_ForeststreamI%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "thumbwidth": 1200,
+          "thumbheight": 1693,
+          "thumbattribs": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Forest_and_stream_%28IA_ForeststreamI%29.pdf/page1-1280px-Forest_and_stream_%28IA_ForeststreamI%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 1200,
+            "height": 1693
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Forest_and_stream_%28IA_ForeststreamI%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Forest_and_stream_(IA_ForeststreamI).pdf",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91885195",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2020-07-04 13:37:48",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "<div class=\"fn\">\nForest and stream</div>",
+              "source": "commons-desc-page"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Files with no machine-readable author|Books from New York (state)|Scans from the Internet Archive/unverified|PD US expired|Files from the Biodiversity Heritage Library|Scans from the Internet Archive|Books uploaded by F\u00e6|Books without Wikidata item|Books from the Biodiversity Heritage Library|Forest and stream (1873-1874)",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "ImageDescription": {
+              "value": "<div class=\"description\">\n<dl><dd>\"A journal of outdoor life, travel, nature study, shooting, fishing, yachting\" (subtitle varies)</dd>\n<dd>Title from caption</dd>\n<dd>Volume numbers irregular: Jan.-Mar. 1929 called v. 99, no. 1-3; Apr.-Dec. 1929 called 62nd year, no. 4-12; Jan.-July 1930, 63rd year, no. 1-7</dd>\n<dd>\"Forest and stream\" bird notes. An index and summary of all the ornithological matter contained in Forest and stream. V. I-XII. 1881</dd></dl>\n<br>Subjects: Hunting; Fishing; Outdoor life; Sports</div>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<dl><dd><a href=\"//archive.org/details/ForeststreamI\" class=\"extiw\" title=\"iarchive:ForeststreamI\"><bdi class=\"description en\" lang=\"en\" dir=\"ltr\">Internet Archive identifier</bdi>: ForeststreamI</a></dd>\n<dd><a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/download/ForeststreamI/ForeststreamI.pdf\">https://archive.org/download/ForeststreamI/ForeststreamI.pdf</a></dd></dl>",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

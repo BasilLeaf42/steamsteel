@@ -1,0 +1,10 @@
+const fs=require('fs');
+let p='tools/validate_siam.js',s=fs.readFileSync(p,'utf8');
+s=s.replace("siam_sea:['soldier          siam_sea, 30','rifle_bullet_b, 280','formation        1.4, 1.8, 2.8, 3.6','era 1','era 2']","siam_sea:['soldier          siam_sea, 40','rifle_bullet_c, 240','formation        1.2, 1.2, 2.0, 2.4','start_not_skirmishing','cannot_skirmish','era 1','era 2']");
+s=s.replace("burmese_inf:['soldier          burmese_inf, 40','rifled_musket_bullet_c','era 0','era 1']","burmese_inf:['soldier          burmese_inf, 30','rifled_musket_bullet_b, 260','formation        1.4, 1.8, 2.8, 3.6','era 0','era 1']");
+s=s.replace("ok(model('siam_sea').includes('MTW2_Musket_SSK'),'siam_sea SSK animation');","ok(model('siam_sea').includes('MTW2_Musket_SS')&&!model('siam_sea').includes('MTW2_Musket_SSK'),'siam_sea regular SS animation');ok(model('burmese_inf').includes('MTW2_Fast_Arquebus_3')&&!model('burmese_inf').includes('MTW2_Musket_SSK'),'burmese muzzleloader skirmisher animation');");
+fs.writeFileSync(p,s);
+p='AGENTS.md';s=fs.readFileSync(p,'utf8');
+s=s.replace('Thahan Ruea is a 30-man rifle skirmisher using `MTW2_Musket_SSK`, skirmisher formation, the skirmisher projectile/range modifier, and a kneeling card.','Thahan Ruea marines are 40-man regular rifle infantry using `MTW2_Musket_SS`, regular rifle formation, and the regular projectile baseline. Burmese Irregulars are the roster\'s 30-man skirmishers: they receive skirmisher formation and the +1 projectile/range modifier, but retain `gunpowder_unit` with `MTW2_Fast_Arquebus_3` because their Pattern 1853 rifle-muskets are muzzle-loaders; never combine them with `MTW2_Musket_SSK`. Their tactical card must kneel, while the marine card must stand.');
+fs.writeFileSync(p,s);
+console.log('Updated Siam role validation and persistent rules.');

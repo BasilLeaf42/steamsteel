@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           ANIM_RL_Prepare      0      0                     
+event SOUND           ANIM_RL_Prepare     15     15                     
+event SOUND           ANIM_RL_Prepare     34     34                     
+event SOUND           ANIM_RL_Prepare     55     55                     
+event SOUND           ANIM_RL_Prepare     91     91                     
+event SOUND_BANK      unit_march    134    134                     

@@ -1,0 +1,14 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           ANIM_RL_Prepare      0      0                     
+event SOUND           ANIM_RL_Prepare     27     27                     
+event SOUND           ANIM_RL_Prepare     42     42                     
+event SOUND           ANIM_RL_Prepare     57     57                     
+event SOUND           ANIM_RL_Prepare     77     77                     
+event SOUND           ANIM_RL_Prepare     89     89                     
+event SOUND           ANIM_RL_Prepare    113    113                     
+event SOUND           ANIM_RL_Prepare    131    131                     

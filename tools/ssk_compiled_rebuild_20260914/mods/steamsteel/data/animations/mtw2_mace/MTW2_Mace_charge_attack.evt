@@ -1,0 +1,14 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_VOICE     Individual_Attack_Scream      1      5   RANDOM            
+event SOUND_BANK      unit_run      3      4   RANDOM            
+event SOUND_BANK      unit_run      9     11   RANDOM            
+event SOUND           ANIM_SWOOSH     14     14                     
+event SOUND           ANIM_SCRAPE     15     15   RANDOM            
+event SOUND_BANK      unit_run     16     18   RANDOM            
+event SOUND_BANK      unit_run     23     24   RANDOM            
+event SOUND_BANK      unit_run     26     27   RANDOM            

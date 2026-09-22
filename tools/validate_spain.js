@@ -1,0 +1,19 @@
+const fs=require('fs'),path=require('path');
+const root=path.resolve(__dirname,'..'),canonical=path.join(root,'data/tow_steamsteel/export_descr_unit.txt'),runtime=path.join(root,'data/export_descr_unit.txt');
+const edu=fs.readFileSync(canonical,'utf8').replace(/\r/g,'');let errors=[];const ok=(v,m)=>{if(!v)errors.push(m)};
+const line=['spa_inf_early','spa_inf_mid','spa_inf_high','austro_sailor_spain_early','austro_sailor_spain_mid','austro_sailor_spain_high'];
+const caz=['spa_caz_early','spa_caz_mid','spa_caz_high'],militia=['spa_milicia_nacional_early','spa_milicia_nacional_mid','spa_milicia_nacional_high'],colonial=['spa_col_inf_early','spa_col_inf_mid','spa_col_inf_high'],carbines=['spa_cav_early','spa_cav_mid','spa_cav_high'];
+const expected=[...line,...caz,...militia,...colonial,'cuban_inf_high',...carbines,'spa_col_cav_mid','spa_cuirassiers_early','civil_guard','euro_hussars'];
+function block(type){const starts=[...edu.matchAll(/^type\s+(.+)$/gm)],i=starts.findIndex(x=>x[1].trim()===type);return i<0?'':edu.slice(starts[i].index,i+1<starts.length?starts[i+1].index:edu.length);}
+ok(fs.readFileSync(canonical).equals(fs.readFileSync(runtime)),'EDU mirrors differ');
+for(const t of expected){const b=block(t);ok(b,`${t}: missing`);if(!b)continue;ok(/^stat_ground\s+0, 0, 0, 0$/m.test(b),`${t}: terrain modifier`);ok(/^stat_fire_delay\s+0$/m.test(b),`${t}: unsafe firing delay`);ok(!/(hardy|very_hardy|hide_improved_forest)/.test((b.match(/^attributes\s+(.+)$/m)||[])[1]||''),`${t}: inherited special attribute`);}
+for(const t of line)ok(/^stat_sec\s+5, 4,/m.test(block(t))&&/^stat_pri_armour\s+3, 3, 0, leather$/m.test(block(t))&&/^stat_mental\s+4, low, trained$/m.test(block(t)),`${t}: Spanish C-tier national infantry`);
+for(const t of caz){const b=block(t);ok(/^stat_sec\s+5, 4,/m.test(b)&&/_bullet_b,/m.test(b)&&/^stat_mental\s+4, low, trained$/m.test(b),`${t}: Cazadores balance`);ok(/\bcan_withdraw\b/.test(b)&&!/\bcannot_skirmish\b/.test(b),`${t}: skirmisher attributes`);}
+for(const t of militia)ok(/^stat_sec\s+3, 3,/m.test(block(t))&&/^stat_pri_armour\s+3, 2, 0, leather$/m.test(block(t))&&/^stat_mental\s+3, low, trained$/m.test(block(t))&&/_bullet_c,/m.test(block(t)),`${t}: militia balance`);
+for(const t of colonial)ok(/^stat_sec\s+3, 3,/m.test(block(t))&&/^stat_mental\s+4, low, trained$/m.test(block(t))&&/_bullet_c,/m.test(block(t)),`${t}: colonial balance`);
+const cuban=block('cuban_inf_high');ok(/_bullet_a, 300,/.test(cuban)&&/^stat_sec\s+3, 3,/m.test(cuban)&&/^era 2\s+spain$/m.test(cuban)&&!/^era [01]\s+spain$/m.test(cuban),'cuban_inf_high: late colonial sharpshooter balance');ok(/\bcan_withdraw\b/.test(cuban)&&!/\bcannot_skirmish\b/.test(cuban),'cuban_inf_high: skirmisher attributes');
+for(const t of carbines){const b=block(t);ok(/^class\s+missile$/m.test(b)&&/_carbine_bullet_c,/m.test(b)&&/^stat_sec\s+4, 3,/m.test(b)&&/^stat_mental\s+4, low, trained$/m.test(b),`${t}: C-tier carbine cavalry`);ok(t.endsWith('_high')===/attributes\s+.*\bstakes\b/.test(b),`${t}: stakes`);}
+for(const t of ['spa_col_cav_mid','spa_cuirassiers_early','civil_guard']){const b=block(t);ok(/^class\s+(?:light|heavy)$/m.test(b)&&/magazine_rifle_bullet_c, 60, 15,/.test(b),`${t}: pistol cavalry`);ok(!/^class\s+missile$/m.test(b),`${t}: incorrectly missile cavalry`);}
+ok(/^soldier\s+spa_general_staff, 4,/m.test(block('civil_guard'))&&/^class\s+light$/m.test(block('civil_guard'))&&/^formation\s+2, 2, 4, 4, 2, square$/m.test(block('civil_guard'))&&/^stat_cost\s+3, 200, 67, 100, 100, 200, 1, 67$/m.test(block('civil_guard')),'civil_guard: general structure');
+ok(/^stat_pri\s+4, 6, no,/m.test(block('euro_hussars'))&&/^stat_sec\s+4, 3, no,/m.test(block('euro_hussars'))&&!/\bgunmen\b/.test(block('euro_hussars')),'euro_hussars: lance/sabre-only cavalry with +3 lance charge');
+if(errors.length){console.error(errors.join('\n'));process.exit(1);}console.log(`Spain validation passed: ${expected.length} roster records.`);

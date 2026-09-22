@@ -1,0 +1,11 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_AMBIENT   human_armour_run      2      4                     
+event SOUND_BANK      unit_run      2      4                     
+event SOUND_BANK      unit_run     10     12                     
+event SOUND_AMBIENT   human_armour_run     10     12                     
+event SOUND_BANK      unit_run     10     10                     

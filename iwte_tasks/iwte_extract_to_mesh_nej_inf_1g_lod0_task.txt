@@ -1,0 +1,8 @@
+<task_id>                                           extract_to_mesh                                                      # to read an extract file (eg .glb, .dae, .ms3d) and generate *.cas files
+<extract_file_full_path_in>                         "c://program files (x86)//steam//steamapps//common//medieval ii total war//mods//steamsteel//tools//mesh_work//oman_faces//balush/nej_inf_1g.glb"   # extract file to read in (eg .glb, .dae, .ms3d).
+
+<directory_out>                                     "/from_extract"                                                      #  
+
+<mesh_file_name_out>                                "nej_inf_1g_lod0.mesh"                                               # *.mesh file to be created
+<mesh_type>                                         unit                                                                 # unit, siege, banner, skydome
+<mesh_double_texture>                               yes                                                                  # battle mesh models mapped to two textures

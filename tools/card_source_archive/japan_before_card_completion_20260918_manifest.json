@@ -1,0 +1,851 @@
+{
+  "archive": "Japan tactical cards before 2026-09-18 completion/background pass",
+  "source": "data/ui/units/saxons",
+  "members": [
+    {
+      "file": "#baghlah.tga",
+      "bytes": 10028,
+      "sha256": "f8f59bcb39fe51b2c2297d4ab40ba52aafe6f923327eb5923080e37d936b6cda"
+    },
+    {
+      "file": "#caravel.tga",
+      "bytes": 11773,
+      "sha256": "8d9ade546c129e138ec5d6fbd833eb83621869de61582412c7bd6fa4bd3ed0f0"
+    },
+    {
+      "file": "#carrack.tga",
+      "bytes": 12332,
+      "sha256": "07f41cd249508b174a185dee7e0579014e256c042e09b6e6bd543a8d0c4ca0cf"
+    },
+    {
+      "file": "#chinese_bodyguard.tga",
+      "bytes": 12332,
+      "sha256": "b03767e2339f975fbed042791d1d6c9201fc69c6613a05d2adc92fc4efba7264"
+    },
+    {
+      "file": "#cog.tga",
+      "bytes": 11773,
+      "sha256": "8d9ade546c129e138ec5d6fbd833eb83621869de61582412c7bd6fa4bd3ed0f0"
+    },
+    {
+      "file": "#dhow.tga",
+      "bytes": 12332,
+      "sha256": "424c1ee486c5c4f5af1d2f7b36cb3615d287f7376f9703c24a14bbb0ee6217e0"
+    },
+    {
+      "file": "#dragon boat.tga",
+      "bytes": 10259,
+      "sha256": "86def7110b5968372ee091227d7754aca071fa2aeb0ac4b074a3f48f9988cf1d"
+    },
+    {
+      "file": "#dragon_boat.tga",
+      "bytes": 12059,
+      "sha256": "85e5405b1cc75a6d7c4e2ef8b5ee15b40416bceb2b96053496dcad828dd3d971"
+    },
+    {
+      "file": "#dromon.tga",
+      "bytes": 12332,
+      "sha256": "d9653d6ec9e9a9076def72998343fd39afe61d094f55fb321ca856249c309384"
+    },
+    {
+      "file": "#fire_ship.tga",
+      "bytes": 12332,
+      "sha256": "31d67d16bd4d079c390fa392a93032180d6786aa2d83084dfb52ba8ea05f065f"
+    },
+    {
+      "file": "#galley.tga",
+      "bytes": 12332,
+      "sha256": "535cb5b87b5e4c6cd1f494355f9561ed6e962ce4d73dc22c4e2b8b7fe3a79f70"
+    },
+    {
+      "file": "#grande_carrack.tga",
+      "bytes": 12158,
+      "sha256": "87b09112ad901e02d7f0ae09f3e9dd55b0b42781ecefb2f082a6156b8f9e4214"
+    },
+    {
+      "file": "#greek_bodyguard.tga",
+      "bytes": 12332,
+      "sha256": "a1bd45b41fd3eda9106fd1517ecb3dfb989b2821ee49a673f60bc133808aa0c1"
+    },
+    {
+      "file": "#gun_holk.tga",
+      "bytes": 11985,
+      "sha256": "ab89b182fde1c2e615ae85ffedbe1d0b9daaa3ae591dbae04dae338ba209b30b"
+    },
+    {
+      "file": "#holk.tga",
+      "bytes": 12332,
+      "sha256": "791d2611458be8e8432208d55007238141fb2f8253aab153fd98480d59cac822"
+    },
+    {
+      "file": "#Indochina_Bodyguard.tga",
+      "bytes": 12332,
+      "sha256": "a334ad78e3f605523c674931d8e387550151eb09dd0bd3498ce660f75ad83dfd"
+    },
+    {
+      "file": "#jap_12lb.tga",
+      "bytes": 11525,
+      "sha256": "2e36f444151a3ee8e28a2c5dee27d4fc3687d97d9acb66aac14bbc03b2037726"
+    },
+    {
+      "file": "#jap_150mm.tga",
+      "bytes": 11851,
+      "sha256": "11a11e4609610b4986a926121b819c2b57c8a38b11953618ac03b6119b3a0ee5"
+    },
+    {
+      "file": "#jap_5lb.tga",
+      "bytes": 7444,
+      "sha256": "09501bc10365ea8513630bc246b4c3a04dfb22dbc298ae0a5d9a6dea93c5d8d1"
+    },
+    {
+      "file": "#jap_armstrong.tga",
+      "bytes": 11906,
+      "sha256": "7d568de491c41b6c6461f23d5280ec8c79ac1aa85e1d48c88e3ab58f6c4c202d"
+    },
+    {
+      "file": "#jap_arty.tga",
+      "bytes": 12332,
+      "sha256": "2088f3f390431fdc5c42671cd0a13543d2f63a1916129085adc871f1f3e55ea1"
+    },
+    {
+      "file": "#jap_bear_militia.tga",
+      "bytes": 12124,
+      "sha256": "6b5726ee9321b921d0c059a351cce820fe8e34187c60bdd8a7cd96895b647fae"
+    },
+    {
+      "file": "#jap_gas.tga",
+      "bytes": 11326,
+      "sha256": "6fb476e833b078a76d71f2722d8d452edda2ff33653c98b35cb45ccb66f91379"
+    },
+    {
+      "file": "#jap_gatling.tga",
+      "bytes": 9133,
+      "sha256": "9fb66727596898a9024218e599cb959ac37c760d49f797427e0a34dc57f0ae5d"
+    },
+    {
+      "file": "#jap_guard.tga",
+      "bytes": 11863,
+      "sha256": "ad5079e7bf679d31ea6bfdd61f116605398b40bdc7d90ce8e38762b8913d5365"
+    },
+    {
+      "file": "#jap_hussar.tga",
+      "bytes": 9297,
+      "sha256": "18e9408cd3aea608eba384595c0cdbe3b336ec58c45cb7bab5b344f1270d75f4"
+    },
+    {
+      "file": "#jap_inf.tga",
+      "bytes": 12279,
+      "sha256": "9d6e4dd4768d58932381caba43ffdaefa507e1839d1bfff8d213ecbc1f89cac5"
+    },
+    {
+      "file": "#jap_kami.tga",
+      "bytes": 8640,
+      "sha256": "246f456195d24685dca366bf6adee6d70cc8b941a2590b7422ed7e0fb8892766"
+    },
+    {
+      "file": "#jap_marine.tga",
+      "bytes": 12332,
+      "sha256": "bf83487c12f4c76f6773556a1b19f983b8a55077b2526cd9576a04c070c498dd"
+    },
+    {
+      "file": "#jap_maxim.tga",
+      "bytes": 9133,
+      "sha256": "9fb66727596898a9024218e599cb959ac37c760d49f797427e0a34dc57f0ae5d"
+    },
+    {
+      "file": "#jap_militia.tga",
+      "bytes": 11611,
+      "sha256": "0d631a74c6812a2342f1800a45eac7b6f5621f55883df2a767321fe96b4b0ec7"
+    },
+    {
+      "file": "#jap_ninja.tga",
+      "bytes": 11408,
+      "sha256": "e325bd87d7d418bb72f02a3b89020c7bb7125fcf2e1f54a278acbd17d853e905"
+    },
+    {
+      "file": "#jap_sho_cav.tga",
+      "bytes": 12332,
+      "sha256": "6dcd5ea4c2e97458c89e1814e9cc1321bbf679a8874690b51593e8aa7c1969ff"
+    },
+    {
+      "file": "#jap_sho_inf.tga",
+      "bytes": 9283,
+      "sha256": "086bc42af1c31221fb5064bc883cb44c9d7c871eba4840f454ff95c1a7a428c7"
+    },
+    {
+      "file": "#jap_ww1_inf.tga",
+      "bytes": 12311,
+      "sha256": "418a48f31a88c09ca4f172c76a1677eeec2ca35eec283c7a7f8550a964299add"
+    },
+    {
+      "file": "#Japan_Ainu_Archers.tga",
+      "bytes": 12332,
+      "sha256": "19efeb722a9e52ba188169b43d2d80af6498ee695684bb25fcfc5c8335d0f1d4"
+    },
+    {
+      "file": "#Japan_Armstrong.tga",
+      "bytes": 9554,
+      "sha256": "f8654208a61bdf5db4c51e58c0aa78f6eef62cb5998dbf62916c6ce81f23dbe3"
+    },
+    {
+      "file": "#Japan_Armstrong_Han.tga",
+      "bytes": 9554,
+      "sha256": "f8654208a61bdf5db4c51e58c0aa78f6eef62cb5998dbf62916c6ce81f23dbe3"
+    },
+    {
+      "file": "#Japan_Battotai.tga",
+      "bytes": 12332,
+      "sha256": "433bb8a893f0f312a420cdb42fda3391103886ac6472c9e3279bbdb62f4d5bb3"
+    },
+    {
+      "file": "#Japan_Bodyguard_Ezo.tga",
+      "bytes": 12332,
+      "sha256": "c355a6d40fb037d18602a8b6d18e91357a9b8452a5b1462cca39011fdba796f9"
+    },
+    {
+      "file": "#Japan_Bodyguard_IJA.tga",
+      "bytes": 12332,
+      "sha256": "3e4e69fdca0d515a086744122726de75b911a474467cab4f6721c8f3be0cd4ac"
+    },
+    {
+      "file": "#Japan_Byakkotai.tga",
+      "bytes": 12332,
+      "sha256": "ed24a60246b527f8225a25e4a424486aa8c40bb82d9d06d86ded43e20fab6393"
+    },
+    {
+      "file": "#Japan_Denshutai.tga",
+      "bytes": 12332,
+      "sha256": "08be79f8926406c985dabb8344b21eaaa955ef8725b5c60dbbb444e291808d76"
+    },
+    {
+      "file": "#Japan_Denshutai_1870.tga",
+      "bytes": 12332,
+      "sha256": "08be79f8926406c985dabb8344b21eaaa955ef8725b5c60dbbb444e291808d76"
+    },
+    {
+      "file": "#Japan_Denshutai_1880.tga",
+      "bytes": 12332,
+      "sha256": "9b2cf660129f67f5f9c36933a8632fb59504b2a8845997f8b5bd2fb7ac2d42dc"
+    },
+    {
+      "file": "#Japan_Denshutai_Kihei.tga",
+      "bytes": 12332,
+      "sha256": "3e4861447a08887fcbc9f497f6e75adb4454c4a29b98a6dec0b0b6502ae87bd9"
+    },
+    {
+      "file": "#Japan_Denshutai_Old.tga",
+      "bytes": 12332,
+      "sha256": "d13cda6cf9a5d3c9b64470f9733611158c31659133767a3055f6b5853d34ddf1"
+    },
+    {
+      "file": "#Japan_Ezo_Rikuguntai_1880.tga",
+      "bytes": 12332,
+      "sha256": "58067c282b8c9ae5d9146c2de037e7da5b545a3e1e43b7a97108e0e791ab16a4"
+    },
+    {
+      "file": "#Japan_Gakuheitai.tga",
+      "bytes": 12332,
+      "sha256": "46a76ef7ebffee3ec5d50c5a0b91d105a162def70cc88bb71c6e9d78efd3633b"
+    },
+    {
+      "file": "#Japan_Goshimpei_1870.tga",
+      "bytes": 12332,
+      "sha256": "5827b321de773dc3930e5d09242eea0806c08fb0f61d5949ac05d0e31da29a5f"
+    },
+    {
+      "file": "#Japan_Goshimpei_1880.tga",
+      "bytes": 12332,
+      "sha256": "990cc2311e43a7ff37b117b78e92655df09943ed0471cc42a74115841838cfd7"
+    },
+    {
+      "file": "#Japan_Goshimpei_1890.tga",
+      "bytes": 12332,
+      "sha256": "b0445cb36c6363fa3dcc40aad9290f1bd16ec3c2b6d3f05da2667ce0ff3f6436"
+    },
+    {
+      "file": "#Japan_Goshimpei_1900.tga",
+      "bytes": 12332,
+      "sha256": "083e0565d1bf9616c8e0841ff1e98101a0c72caacfb15e7f734bc5fb1c321573"
+    },
+    {
+      "file": "#Japan_Goshimpei_1905.tga",
+      "bytes": 12332,
+      "sha256": "7ad0f4f2cb9e5c60ba35b5edc15c00ac944ffd41ac1389671572f17a81275085"
+    },
+    {
+      "file": "#Japan_Goshimpei_Hohei_1870.tga",
+      "bytes": 12332,
+      "sha256": "00bd49dcfeffe1db09e21ee6841c17a5d745fc2a1067523fcd4895af99dcfb9d"
+    },
+    {
+      "file": "#Japan_Goshimpei_Kihei_1870.tga",
+      "bytes": 12332,
+      "sha256": "c451c51ea9cf6a162dcec631bd67f99c27e09a728a2c95d14dce61a5ab40cf53"
+    },
+    {
+      "file": "#Japan_Heimin_Mob.tga",
+      "bytes": 12332,
+      "sha256": "87ef1c61d69f81903d9900881e6b91bfda7f41d4425343cc1d57c5ce5ed23a9b"
+    },
+    {
+      "file": "#Japan_Heimin_Partisans.tga",
+      "bytes": 12332,
+      "sha256": "fe3d48bcc6df462eb6851d12d2f6a79376b5b1ee04cbab042c5ff02a7b09f9d8"
+    },
+    {
+      "file": "#Japan_Hijikata_Toshizo.tga",
+      "bytes": 12332,
+      "sha256": "9807e64c9d52dc5263fcb3765fe79bf7a58e30ab2269763c6597efc9b05abe78"
+    },
+    {
+      "file": "#Japan_Hokokutai.tga",
+      "bytes": 12332,
+      "sha256": "d1501af49abdda5a178c93ffa88811285071a0560175a467276eb5228964ace0"
+    },
+    {
+      "file": "#Japan_Hoppo_Keibitai_1870.tga",
+      "bytes": 12332,
+      "sha256": "99a4a6af0f5fa34f0b3b50eebe1638331161e3295d967a560734ec24b5b345de"
+    },
+    {
+      "file": "#Japan_Hoppo_Keibitai_1880.tga",
+      "bytes": 12332,
+      "sha256": "975574a2549194c98c3b1271d39484b669e3071f92c5b574ff0984efd90ed806"
+    },
+    {
+      "file": "#Japan_Itagaki_Taisuke.tga",
+      "bytes": 12332,
+      "sha256": "9c9cce9b86c3795b72c545973cf906ea78d6049a9395c52a703a6245bbf04235"
+    },
+    {
+      "file": "#Japan_Jinshotai.tga",
+      "bytes": 12332,
+      "sha256": "a82e9af1d832975c382c4a3b4bffa4b216cd56724dc4a5fc2f66c53443357c42"
+    },
+    {
+      "file": "#Japan_Kachi.tga",
+      "bytes": 12332,
+      "sha256": "aa77dc3ffddf41b4d3e1c76bc07c23794f6fa710ff6b2e385de434c7705022b8"
+    },
+    {
+      "file": "#Japan_Kaiso_Shinsengumi.tga",
+      "bytes": 12332,
+      "sha256": "db2e54db93dc3800819030beb0eb656df8459b75e42fbf1577d918406fdf8b18"
+    },
+    {
+      "file": "#Japan_Karasugumi.tga",
+      "bytes": 12332,
+      "sha256": "46ecd185f912a9322a63b1d793092b1c35810f4a8489dac41731e853547ec534"
+    },
+    {
+      "file": "#Japan_Keishitai_1870.tga",
+      "bytes": 12332,
+      "sha256": "5256a75efd1fb80afcee834b263428467405e53bf0a83693a670eef22fd5b90b"
+    },
+    {
+      "file": "#Japan_Kiheitai.tga",
+      "bytes": 12332,
+      "sha256": "0475f68804248aba11375212a5a7d0c7272daa4fb00cf18203fe03fefd607819"
+    },
+    {
+      "file": "#Japan_Koheitai_1900.tga",
+      "bytes": 12332,
+      "sha256": "1a094cc8554c1b4aa80e3cab3160d60cbbdbb591fe40e034b2514bc94aa5d4ad"
+    },
+    {
+      "file": "#Japan_Koheitai_1905.tga",
+      "bytes": 12332,
+      "sha256": "65f538ac60b6a8861e8e5c6472add6446d4e575c9b10bd4180dd859482f1d85a"
+    },
+    {
+      "file": "#Japan_Kondo_Isami.tga",
+      "bytes": 12332,
+      "sha256": "7cb296014c39c91fff63466009a46a3e0f6bcb553e7dcd52bddec9a2e2f985c7"
+    },
+    {
+      "file": "#Japan_Matsudaira_Katamori.tga",
+      "bytes": 12332,
+      "sha256": "5c6ed87dca54211d86fc8acc215dd90b995fb8f3f2aea0e6a4abf3006f8c9417"
+    },
+    {
+      "file": "#Japan_Nagaoka_Hoheitai.tga",
+      "bytes": 12332,
+      "sha256": "dee3f4ba3dcb745f3777e3fe34f1250b2001dc944e0fbea57cbf672c0dca4b12"
+    },
+    {
+      "file": "#Japan_Raijintai.tga",
+      "bytes": 12332,
+      "sha256": "e5c4137fd1277d5c41d09675133873543e75ecc27b47e6304df92552821bfd3a"
+    },
+    {
+      "file": "#Japan_Raijintai_alt.tga",
+      "bytes": 12332,
+      "sha256": "b7470068d2f6e360a57c0cab71156f5e7986fa0eefea22b1bf8dd8ff134cf045"
+    },
+    {
+      "file": "#Japan_Revolver_Kihei.tga",
+      "bytes": 12332,
+      "sha256": "976db097e0133726e052ae2c8e33c5f765124c8a07da337b29ca5cefa22e597f"
+    },
+    {
+      "file": "#Japan_Revolver_Kihei_Han.tga",
+      "bytes": 12332,
+      "sha256": "c4890b82fce0b466d0d00253e235b0a9e059e2b39896662712086b096e1f6b31"
+    },
+    {
+      "file": "#Japan_Rikuguntai_1870.tga",
+      "bytes": 12332,
+      "sha256": "9c7db82f366e5944d4fa1335199d022103a5ba76e85385fa2d14d24dfcd54f82"
+    },
+    {
+      "file": "#Japan_Rikuguntai_1880.tga",
+      "bytes": 12332,
+      "sha256": "177fefba7c88fa2d88bd68377c22a5f88643d56a4cdf425b6afc214c09e806a4"
+    },
+    {
+      "file": "#Japan_Rikuguntai_1890.tga",
+      "bytes": 12332,
+      "sha256": "76db417cb757951118d23ef8ff0efc69f13e5e25da2326c52bade3abf51969a2"
+    },
+    {
+      "file": "#Japan_Rikuguntai_1900.tga",
+      "bytes": 12332,
+      "sha256": "c3920184073001e1b619a03ce4450f0e47bad0652f2d4565a12152a1c36e2c20"
+    },
+    {
+      "file": "#Japan_Rikuguntai_1905.tga",
+      "bytes": 12332,
+      "sha256": "441bf4e68f3bec872942aae9359a4b07a479476a63ee9785c45692313e307b37"
+    },
+    {
+      "file": "#Japan_Rikusentai_1870.tga",
+      "bytes": 12332,
+      "sha256": "53586d99621249af21b835ba13baaca0259db4fda7645cb400c4283bb23a2b6d"
+    },
+    {
+      "file": "#Japan_Ryukihei_1870.tga",
+      "bytes": 12332,
+      "sha256": "6ea94cbb6bfceb7f265ebdd1b19454cd04b8c423d7703d32086df976fdae5c46"
+    },
+    {
+      "file": "#Japan_Ryukihei_Shogun_1870.tga",
+      "bytes": 12332,
+      "sha256": "5c54e5726a9e3ee7078ecbbc1419cad858954b0a352344c4b237932eee7fd348"
+    },
+    {
+      "file": "#Japan_Saga_Hoheitai.tga",
+      "bytes": 12332,
+      "sha256": "2679033452eb9d6e21760e3fc5d564ba33d0e596a269012b0ddf4e6db764743b"
+    },
+    {
+      "file": "#Japan_Saigo_Takamori_1860.tga",
+      "bytes": 12332,
+      "sha256": "57d3094da08fdbcaf8690a9c083011c479c2bc69a5c71d4e9a7702428329cb4f"
+    },
+    {
+      "file": "#Japan_Sakamoto_Ryoma.tga",
+      "bytes": 12332,
+      "sha256": "cae2eb0ec911334e1f24a0aa63fdeda1ffaf797c7fdbe95994844a8b8d35ea49"
+    },
+    {
+      "file": "#Japan_Sampeitai.tga",
+      "bytes": 12332,
+      "sha256": "e56bbf3f880adfae25816f35466d584c49c9548e53e4aa697fda1d266cc18226"
+    },
+    {
+      "file": "#Japan_Satsuma_Hoheitai.tga",
+      "bytes": 12332,
+      "sha256": "c3740ca5f65de6a13e892ae95bf18a8598dd71fd1d8b4cdc3e610b136099c87a"
+    },
+    {
+      "file": "#Japan_Seishi.tga",
+      "bytes": 12332,
+      "sha256": "de10e25eb0035dba3a8b68e885f3f31910e461c95fb2b3ac3c1fa54315a172a3"
+    },
+    {
+      "file": "#Japan_Shinsengumi.tga",
+      "bytes": 12332,
+      "sha256": "43d031c9ab033042c4d99c1d57221f4167fd7070425ba4af36bbbeade8d3dda7"
+    },
+    {
+      "file": "#Japan_Shinsenryodan.tga",
+      "bytes": 12332,
+      "sha256": "55afbffdaaf50683df34779c2d0e95ba8cc9cda649e1b60bc524a48b5ee7c795"
+    },
+    {
+      "file": "#Japan_Shogitai.tga",
+      "bytes": 12332,
+      "sha256": "6848758496559f2c6e85f0813186482ff760d55aeba81c9eda483693ace4691f"
+    },
+    {
+      "file": "#Japan_Shohotai.tga",
+      "bytes": 12332,
+      "sha256": "5071f5387eaa36520d1a25c7f5520fb0e3c7c135c9dda8ffae796a083d5cee85"
+    },
+    {
+      "file": "#Japan_Shotai.tga",
+      "bytes": 12332,
+      "sha256": "703f801906471412e2f47c8b1a9c5fbf20c1c8853427520adedf169d5540282d"
+    },
+    {
+      "file": "#Japan_Suzakutai.tga",
+      "bytes": 12332,
+      "sha256": "b07078191c9048e2e5f8eb3dc2e9164914c1efae0679f643e3715487ef6640be"
+    },
+    {
+      "file": "#Japan_Suzakutai_1870.tga",
+      "bytes": 12332,
+      "sha256": "5365f281b82e894dbaef63c45429e7142123fa5f2ecc4f74d5daa0cbe852c6c7"
+    },
+    {
+      "file": "#Japan_Teppotai.tga",
+      "bytes": 12332,
+      "sha256": "fdd834eebe130234c8350166c78426d9cd35e99598bee765106b09229769d2b3"
+    },
+    {
+      "file": "#Japan_Test.tga",
+      "bytes": 9012,
+      "sha256": "4750858d5f681f60735f18693c4d28ceed9f5fc1f2b71ff32567943aa59e3bd4"
+    },
+    {
+      "file": "#Japan_Tokugawa_Yoshinobu.tga",
+      "bytes": 12332,
+      "sha256": "31109e4ed96bc94678a2064629855c50982d7b352f623ca5aa24e79d7a3ab5b4"
+    },
+    {
+      "file": "#Japan_Tondenhei_1870.tga",
+      "bytes": 12332,
+      "sha256": "a125226bf9955e0e46cbf7f3594147cddbb6a9d0ba1e6bdbffd485e5e35d9eca"
+    },
+    {
+      "file": "#Japan_Yamagunitai.tga",
+      "bytes": 12332,
+      "sha256": "ce73d2ca996288c0cbe48c60720fd915f3aad2f46280c45dacca8d6b92aaa66d"
+    },
+    {
+      "file": "#Japan_Yumitai.tga",
+      "bytes": 12332,
+      "sha256": "cabf3a335b2b0cfe32f0430a041a81b0a89d0141f590eac274d497e17ee36a88"
+    },
+    {
+      "file": "#jp_hussar.tga",
+      "bytes": 12266,
+      "sha256": "8611afce51e03bd552cbfa70360e254378d4be2b29d41f1e38369781707e1fcf"
+    },
+    {
+      "file": "#junk.tga",
+      "bytes": 12332,
+      "sha256": "6164b1a99f8bf8a360bee6815a4986dc832f9e1cbb0e4467c4ecc0a06c8aa6b6"
+    },
+    {
+      "file": "#khan's_guard.tga",
+      "bytes": 12332,
+      "sha256": "92e8b7e791b724d6f48f81f06afeaac9cf2b03822fc58af4f500ba3ed8005bd3"
+    },
+    {
+      "file": "#ladya.tga",
+      "bytes": 11753,
+      "sha256": "7bdb573dee76ed588c9c9c7d4a90ebfda7a49a1af272307b525346e8026fde5c"
+    },
+    {
+      "file": "#lanternas.tga",
+      "bytes": 8651,
+      "sha256": "f5e02c849ca5f899a35e39beebae1810c6e20db4048524509cff41d15d113e00"
+    },
+    {
+      "file": "#longboat.tga",
+      "bytes": 12332,
+      "sha256": "6dae61d86744cf890e68f0df3318c385a98d4a98db289c3378f019ce8138f609"
+    },
+    {
+      "file": "#me_bodyguard.tga",
+      "bytes": 12332,
+      "sha256": "e274b63e3c683e7bea6095812cede0787ec573a8a748277999b4fad214a88f6b"
+    },
+    {
+      "file": "#merc_cog.tga",
+      "bytes": 10943,
+      "sha256": "ea8bd73449fbacf071deff8f2266416be81525206399393cbbb66a8ffbcc8e43"
+    },
+    {
+      "file": "#merc_galley.tga",
+      "bytes": 11859,
+      "sha256": "2b16d23eb90f1582f3480b3c61a57aed48fad920c3ce70cef9a189acce3d5d30"
+    },
+    {
+      "file": "#mongol_bodyguard.tga",
+      "bytes": 12332,
+      "sha256": "100e8336a318f47d745fabc9ce14857269dfa4b678dce10384b910bd656ebc7c"
+    },
+    {
+      "file": "#mongol_bodyguard_late.tga",
+      "bytes": 12332,
+      "sha256": "9dab49fb2423d9fdeee0969f367816b7a33482eeefe5b757b000f906917d00d5"
+    },
+    {
+      "file": "#mongol_foot_archers.tga",
+      "bytes": 12332,
+      "sha256": "0fef340c138a1de025f2dd38d33db48a3d4c7419b643141fe929d89a1662d136"
+    },
+    {
+      "file": "#mongol_horse_archers.tga",
+      "bytes": 12332,
+      "sha256": "4d90979ae04b9399ec730f8c5d802442b6d3a6f8d18eac2d66efe50655d746ab"
+    },
+    {
+      "file": "#ne_bodyguard.tga",
+      "bytes": 11063,
+      "sha256": "27102f7abbc6c471dcfee480fe909ff713b20e664d4bd627b552117d1be2a516"
+    },
+    {
+      "file": "#ne_bodyguard_late.tga",
+      "bytes": 11790,
+      "sha256": "b5044720755d95a3bd52beecb982bc7f1911865a1f03d03a969fcad0b00df7a2"
+    },
+    {
+      "file": "#ninja_inf.tga",
+      "bytes": 10542,
+      "sha256": "2c5d8fb06b3a09b27d00208eb3b97f6a82f3e8a3b52e6d8d093cf3411c8cc5b8"
+    },
+    {
+      "file": "#s1.tga",
+      "bytes": 11686,
+      "sha256": "5ae3679673ea579b3f65a3b9a1b153801861b87f9c1e6515dbae3a29c8283f0f"
+    },
+    {
+      "file": "#Samurai_Bodyguard.tga",
+      "bytes": 8097,
+      "sha256": "24c1e38114edc40c5491f17770b0c5d026f1ebcd1d230c6e58725f47416d2ec0"
+    },
+    {
+      "file": "#Scan_Bodyguard.tga",
+      "bytes": 8634,
+      "sha256": "ad592755f39d39a5f1bc3e2f0c04eb5ea471a49a6cad4d48f12c6e21c97a9272"
+    },
+    {
+      "file": "#se_bodyguard.tga",
+      "bytes": 12332,
+      "sha256": "b576dcc7290bcd6810ca8667a59e8fe4d2ef789c2f5db83101d29e34ef809a77"
+    },
+    {
+      "file": "#ship_armoured_cruiser.tga",
+      "bytes": 11985,
+      "sha256": "ab89b182fde1c2e615ae85ffedbe1d0b9daaa3ae591dbae04dae338ba209b30b"
+    },
+    {
+      "file": "#ship_armoured_frigate.tga",
+      "bytes": 11177,
+      "sha256": "54ed2f90f51d8e5160c0193c7d094e4e0a602aacf926d01ada068be90a484686"
+    },
+    {
+      "file": "#ship_composite_corvette.tga",
+      "bytes": 11859,
+      "sha256": "2b16d23eb90f1582f3480b3c61a57aed48fad920c3ce70cef9a189acce3d5d30"
+    },
+    {
+      "file": "#ship_destroyer.tga",
+      "bytes": 10943,
+      "sha256": "ea8bd73449fbacf071deff8f2266416be81525206399393cbbb66a8ffbcc8e43"
+    },
+    {
+      "file": "#ship_iron_frigate.tga",
+      "bytes": 11766,
+      "sha256": "66e14e77b4cc4f0fb2f63a3f4bb67e00f097294beff256e80cd43620dd5fdb73"
+    },
+    {
+      "file": "#ship_ironclad_corvette.tga",
+      "bytes": 11686,
+      "sha256": "5ae3679673ea579b3f65a3b9a1b153801861b87f9c1e6515dbae3a29c8283f0f"
+    },
+    {
+      "file": "#ship_monitor.tga",
+      "bytes": 11686,
+      "sha256": "5ae3679673ea579b3f65a3b9a1b153801861b87f9c1e6515dbae3a29c8283f0f"
+    },
+    {
+      "file": "#ship_pre_dreadnought.tga",
+      "bytes": 10643,
+      "sha256": "2a1bd8764721cf9e9cefd7de3b5c0aa4fa46424bc50e917871686768ba038597"
+    },
+    {
+      "file": "#ship_protected_cruiser.tga",
+      "bytes": 11764,
+      "sha256": "34b66eb93e5b39b6e5fa7290dd1e0fb5d8b31a6b753a141449969d5b760fa283"
+    },
+    {
+      "file": "#ship_sail_corvette.tga",
+      "bytes": 11989,
+      "sha256": "e8a7d6fc1e665bcf1c4ec42891329b901ba0521f183e84140d3736342a940482"
+    },
+    {
+      "file": "#ship_sail_sotl.tga",
+      "bytes": 12158,
+      "sha256": "ba06012e6afe7a2b9b8a394c472fa48d41affb5b292c40b0e946d136efd6dfb4"
+    },
+    {
+      "file": "#ship_steam_corvette.tga",
+      "bytes": 11779,
+      "sha256": "cfe692c929255c91252241443c7e2c8f2fbb5b7ba9137804008d675c449c58c8"
+    },
+    {
+      "file": "#ship_unprotected_cruiser.tga",
+      "bytes": 11985,
+      "sha256": "ab89b182fde1c2e615ae85ffedbe1d0b9daaa3ae591dbae04dae338ba209b30b"
+    },
+    {
+      "file": "#sho_12lb.tga",
+      "bytes": 12306,
+      "sha256": "beb224b1b170f138467cf21a6f3e15a69a47c6d193ff448eead6f377adbc3e41"
+    },
+    {
+      "file": "#sho_150mm.tga",
+      "bytes": 6140,
+      "sha256": "c6a8a22d0bec09db4be83f1412a5b75f21d7a8e058451fc4fc52e48d5b996bb7"
+    },
+    {
+      "file": "#sho_5lb.tga",
+      "bytes": 12332,
+      "sha256": "345df6b6712e13f1caff9b7a64d0f87d30d07f6b1e23d0c4459c73796e1440ca"
+    },
+    {
+      "file": "#sho_armstrong.tga",
+      "bytes": 12332,
+      "sha256": "e722d0d7871a35d02e0e709c3bbae4108ceddd6a45bf7da4a7ac516fe605cbea"
+    },
+    {
+      "file": "#sho_gatling.tga",
+      "bytes": 12306,
+      "sha256": "7f1a8c2c963f22fa8fc3eeceaa7094f501f03f3b21ffb20e63b0ef35407ae6e4"
+    },
+    {
+      "file": "#sho_maxim.tga",
+      "bytes": 12332,
+      "sha256": "1ce35506a8de1ed89f4f156265361d41f88c789110448bd2dc675b80f606dd49"
+    },
+    {
+      "file": "#sho_mod_cav.tga",
+      "bytes": 12266,
+      "sha256": "8611afce51e03bd552cbfa70360e254378d4be2b29d41f1e38369781707e1fcf"
+    },
+    {
+      "file": "#SN_Bodyguard.tga",
+      "bytes": 9673,
+      "sha256": "1b6eb748efc7a925fc9586257f79b990ea7238d4d6df04cafd17d97a3e10c16c"
+    },
+    {
+      "file": "#turtle_ship.tga",
+      "bytes": 11777,
+      "sha256": "2e616f51b0860fec1aa519b98c7f6f722f5f09285bc4f728a38aafe54e00a141"
+    },
+    {
+      "file": "#TX_Bodyguard.tga",
+      "bytes": 12332,
+      "sha256": "c6b2e015ab09c7d1adce5981f95463990f77222bb62583fcc1bdf53966515057"
+    },
+    {
+      "file": "admiral.tga",
+      "bytes": 11739,
+      "sha256": "552e94ac5adec38bf6d10250b3a384fdeac95176ecdacde4511efd73ad78f64c"
+    },
+    {
+      "file": "assassin.tga",
+      "bytes": 10882,
+      "sha256": "c57d50a5050cc47a44a8687d1d93ae4682ec7d2de981ac08a5d7e222a5fbbe33"
+    },
+    {
+      "file": "assassin_southern.tga",
+      "bytes": 11761,
+      "sha256": "d95d146e3e5794cc0b8ae0771b4f2c1f25a5393fd92213de69698b0d320ec165"
+    },
+    {
+      "file": "bishop.tga",
+      "bytes": 11884,
+      "sha256": "d13d3092d6e117e2a1c86eeb787c34c872e4fffc194f690dd2144083f110a86b"
+    },
+    {
+      "file": "cardinal.tga",
+      "bytes": 11948,
+      "sha256": "586aa4caf50d3055c5b88a69dd142a8ff69b0ddfabf0d90e5bedaec55b481666"
+    },
+    {
+      "file": "catholic_bishop.tga",
+      "bytes": 11819,
+      "sha256": "7b94d747115f5558520e75d0251f5c09c0bc99e8e2a33bcf6b76a8fe805144bc"
+    },
+    {
+      "file": "catholic_cardinal.tga",
+      "bytes": 11972,
+      "sha256": "80938687a8800a94477adc963473dc887a8dc0b7deba219aeeef99971b34a343"
+    },
+    {
+      "file": "catholic_priest.tga",
+      "bytes": 11819,
+      "sha256": "23b210c44d32c22e1690791cb6822c8e3254b3ac88bb39e51c06a056ee098656"
+    },
+    {
+      "file": "diplomat.tga",
+      "bytes": 11171,
+      "sha256": "b1a5575ce20de24910881578c8e3a7d7a6f25509a13de5069703273d55f955bf"
+    },
+    {
+      "file": "merchant.tga",
+      "bytes": 10785,
+      "sha256": "d63a8ea330f6458b6a0162239bd04bf5d80dc65a43bc8ca0b7d847ac86aa3287"
+    },
+    {
+      "file": "northen_european_merchant.tga",
+      "bytes": 11836,
+      "sha256": "0e86db0d89662186bac6819b0371c61ee738546eae60fb22bbe9b2c8dfbf46c4"
+    },
+    {
+      "file": "northern_ambassador.tga",
+      "bytes": 11760,
+      "sha256": "10e19413390b70112da854d538a5bf167742a219b03cc2ee421d72728d362681"
+    },
+    {
+      "file": "northern_princess.tga",
+      "bytes": 11769,
+      "sha256": "c2dde8fc5b17a67bf3e86af15b12773cc6cbc0d9de91eb4f145abb89f5d9eb9a"
+    },
+    {
+      "file": "northern_spy.tga",
+      "bytes": 11812,
+      "sha256": "3beafceb7fec359597d4dbf5caef14eee45e3ebc8031fc881f584dab959e6bfa"
+    },
+    {
+      "file": "orthodox_bishop.tga",
+      "bytes": 11641,
+      "sha256": "3364e3580ab127f4652f40ae3f7f0cd67578587bb851a949e85cb5c842611655"
+    },
+    {
+      "file": "orthodox_patriarch.tga",
+      "bytes": 11669,
+      "sha256": "94ba8cce839a9140b260304c17f49188fbb9d793d605633a229b1d2e1b6ca281"
+    },
+    {
+      "file": "priest.tga",
+      "bytes": 12332,
+      "sha256": "10c3251a0b9dd5e3265b7a1a98de2c26d6ac32b351537248b52c68291592cba7"
+    },
+    {
+      "file": "princess.tga",
+      "bytes": 11465,
+      "sha256": "bab46406b1111ef5221238470df8336f572b2d8a3ebb2bcbf6369745f9d4df00"
+    },
+    {
+      "file": "southern_european.tga",
+      "bytes": 11691,
+      "sha256": "d093aaecea066aa494631b4608b00c7278bc1b943d976ac7d920e9dd3058b180"
+    },
+    {
+      "file": "southern_princess.tga",
+      "bytes": 11521,
+      "sha256": "038a46f3d3c5e3eac9cc2b280aec203dd9d370c6a027b1689013e8e4d29e8acd"
+    },
+    {
+      "file": "spy.tga",
+      "bytes": 11479,
+      "sha256": "f6773abf4041b980043e8a90d3168ae2ee3ac807d5323f4bd23435dd5f0382ee"
+    }
+  ]
+}

@@ -249,7 +249,7 @@ dictionary		2
 strat_model		qing_emp
 strat_model		qing_emp					; heir
 strat_model		qing_emp					; leader
-battle_model	mongols_captain
+battle_model	xianghuaijiangjun
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			moors
@@ -461,7 +461,7 @@ battle_equip	gladius, chainmail shirt helmet and rectangular shield
 faction			byzantium
 dictionary		2
 strat_model		huai_general
-battle_model	mongols_captain
+battle_model	xianghuaijiangjun
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
 faction			moors

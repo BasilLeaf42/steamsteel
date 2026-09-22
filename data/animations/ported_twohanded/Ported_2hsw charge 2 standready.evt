@@ -1,0 +1,13 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_BANK      unit_run      1      2                     
+event SOUND_BANK      unit_run      7      8                     
+event SOUND_BANK      unit_run     12     13                     
+event SOUND_BANK      unit_run     16     17                     
+event SOUND_BANK      unit_run     21     22                     
+event SOUND_BANK      unit_run     25     26                     
+event SOUND_BANK      unit_run     31     32                     

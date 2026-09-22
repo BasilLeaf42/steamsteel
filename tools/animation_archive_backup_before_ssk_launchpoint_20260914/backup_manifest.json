@@ -1,0 +1,32 @@
+[
+  {
+    "path": "data\\animations\\pack.dat",
+    "length": 52191444,
+    "sha256": "f6c11aab47dadad45afcca5d7d4c0cc952de64d3df44c7a1f3115036bfbbb89e"
+  },
+  {
+    "path": "data\\animations\\pack.idx",
+    "length": 240572,
+    "sha256": "6fdabc95337eb57813bbb53233b3b91b3a58aba7ef948f5bd2f2e057f4fdeacc"
+  },
+  {
+    "path": "data\\animations\\skeletons.dat",
+    "length": 3520797,
+    "sha256": "388647d088cacb9204c8e05382001602a65556d1066970fd5d45e67a00b275d7"
+  },
+  {
+    "path": "data\\animations\\skeletons.idx",
+    "length": 4910,
+    "sha256": "79916681439a28ec4fa22d925db7d771680467058774be240c722694f357de2a"
+  },
+  {
+    "path": "data\\descr_skeleton.txt",
+    "length": 908478,
+    "sha256": "35c44e5182d5618adb4df8a7d13aa23648f6a6f11efa120e14518e539767d98e"
+  },
+  {
+    "path": "data\\siege_engines\\unitmodelsrefpoints\\Musckett_SSK_Ref_Point.modelReferencePoints",
+    "length": 163,
+    "sha256": "71cb48ebdb4bc1d0403d8d0da3c3c96b3ebfc1113d1bd8bf3f98c8fd69ad7725"
+  }
+]

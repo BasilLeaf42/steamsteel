@@ -1,0 +1,13 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_AMBIENT   human_armour_clink     18     18                     
+event SOUND_AMBIENT   human_cloth     18     18                     
+event SOUND_BANK      unit_march     32     32                     
+event SOUND_AMBIENT   human_cloth     43     43                     
+event SOUND_AMBIENT   human_armour_clink     43     43                     
+event SOUND_BANK      unit_march     56     56                     
+event SOUND_BANK      unit_march     69     69                     

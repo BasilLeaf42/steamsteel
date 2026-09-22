@@ -1,0 +1,96 @@
+{
+  "fix": "MTW2_Musket_SSK kneeling projectile, flash, and smoke launch height",
+  "deployment": "active packed skeleton archive; animation pack archives unchanged",
+  "skeleton": "MTW2_Musket_SSK",
+  "event": "attack_missile_release",
+  "animation": "mods/steamsteel/data/animations/Wanmod/WANMOD_Musket_attack_missile_release_k.cas",
+  "original_launch": {
+    "lateral": 0.1888,
+    "height": 1.4974,
+    "forward": 1.3438
+  },
+  "active_launch": {
+    "lateral": 0.1888,
+    "height": 0.6474,
+    "forward": 1.3438,
+    "vertical_delta": -0.85
+  },
+  "active_descriptor": "data/descr_skeleton.txt",
+  "active_descriptor_sha256": "e84cf4d68b97b347a572da65260346d3f08b00990ac612e3818d0a283937b2cd",
+  "active_skeleton_types": 161,
+  "full_source_counts": {
+    "cas": 2408,
+    "evt": 1785,
+    "total": 4193,
+    "referenced_distinct_cas": 2350,
+    "referenced_distinct_evt": 1739,
+    "missing_references": 0,
+    "non_full_cas": 0,
+    "copy_hash_mismatches": 0
+  },
+  "runtime": {
+    "config": "steamsteel.properties",
+    "setting": "no_animdb absent; packed archives active",
+    "active_mod_archives_present": true,
+    "normal_m2ex_launch_responsive": true,
+    "recent_animation_errors": 0,
+    "proof": "Corrected archive smoke test passed: M2EX launched with --features.mod=mods/steamsteel, rebuilt aninterp.cache, reached the front end, remained responsive, logged zero failures naming the SSK or packed skeleton archive, and created no crash report. In-battle visual confirmation remains pending."
+  },
+  "retired_mod_archives": {
+    "pack.idx": {
+      "retired_path": "data/animations/pack.idx.pre_ssk_20260914",
+      "sha256": "6fdabc95337eb57813bbb53233b3b91b3a58aba7ef948f5bd2f2e057f4fdeacc",
+      "size": 240572
+    },
+    "skeletons.dat": {
+      "retired_path": "data/animations/skeletons.dat.pre_ssk_20260914",
+      "sha256": "388647d088cacb9204c8e05382001602a65556d1066970fd5d45e67a00b275d7",
+      "size": 3520797
+    },
+    "pack.dat": {
+      "retired_path": "data/animations/pack.dat.pre_ssk_20260914",
+      "sha256": "f6c11aab47dadad45afcca5d7d4c0cc952de64d3df44c7a1f3115036bfbbb89e",
+      "size": 52191444
+    },
+    "skeletons.idx": {
+      "retired_path": "data/animations/skeletons.idx.pre_ssk_20260914",
+      "sha256": "79916681439a28ec4fa22d925db7d771680467058774be240c722694f357de2a",
+      "size": 4910
+    }
+  },
+  "backups": [
+    "tools/animation_archive_backup_before_ssk_launchpoint_20260914",
+    "tools/base_animation_archive_backup_before_ssk_rebuild_20260915",
+    "tools/ssk_compiled_rebuild_20260914/descr_skeleton.iwte_original.txt",
+    "tools/ssk_compiled_rebuild_20260914/steamsteel.properties.pre_rebuild",
+    "tools/animation_archive_backup_before_packed_ssk_activation_20260915",
+    "tools/animation_archive_backup_before_corrected_vertical_ssk_20260915"
+  ],
+  "iwte": {
+    "version": "26_08_A",
+    "official_source": "https://github.com/makanyane/IWTE",
+    "download_sha256": "bd41f32b79c07fcd6a5ad1bf6878b3e1d6c35732d07930ae67c6b0ed94a569cb"
+  },
+  "visual_validation": "Corrected vertical lowering is active in the packed skeleton archive. The prior change to the third coordinate visibly moved the effect backward, proving that the second coordinate is vertical and the third is forward. In-battle confirmation of the corrected height remains pending.",
+  "revert": [
+    "Close the game.",
+    "Restore skeletons.dat and skeletons.idx from tools/animation_archive_backup_before_corrected_vertical_ssk_20260915 to data/animations to return to the superseded backward-axis build, or from tools/animation_archive_backup_before_packed_ssk_activation_20260915 to return to the untouched original.",
+    "Remove data/animations/aninterp.cache before relaunching."
+  ],
+  "packed_archive": {
+    "package": "tools/ssk_compiled_rebuild_20260914/packed_ssk_vertical_fix_20260915",
+    "active_skeletons_dat_sha256": "da5c6978fab4c883e302cc227d62a0438a64c5a7ecbe411acee6a22a3f098741",
+    "active_skeletons_idx_sha256": "79916681439a28ec4fa22d925db7d771680467058774be240c722694f357de2a",
+    "archive_members": 161,
+    "ssk_float_offset": 7828,
+    "archive_dat_offset": 2322288,
+    "old_bytes": "CE-AA-BF-3F",
+    "new_bytes": "02-BC-25-3F",
+    "verification": "Re-extraction produced all 161 members. Only MTW2_Musket_SSK.bin differed, at offsets 7828-7830; the fourth byte of the float was naturally unchanged. The complete skeletons.dat differed from the original at exactly three bytes, offsets 2322288-2322290. The rebuilt skeletons.idx is byte-identical to the original."
+  },
+  "prior_rollback_reason": "Loose-animation deployment caused two deterministic M2EX access violations while UNIT_DESCRIPTION::get_unit_abilities_string generated custom-battle unit tooltips. The current deployment avoids loose mode and changes only the packed SSK skeleton record.",
+  "superseded_build": {
+    "package": "tools/ssk_compiled_rebuild_20260914/packed_ssk_launchpoint_20260915",
+    "mistake": "Changed third coordinate from 1.3438 to 0.4938, which in-game evidence showed is forward/back rather than vertical."
+  }
+}

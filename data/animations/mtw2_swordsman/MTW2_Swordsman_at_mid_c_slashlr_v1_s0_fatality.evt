@@ -1,0 +1,15 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND           ANIM_SWOOSH      0      0                     
+event SOUND           ANIM_SWOOSH     19     19                     
+event SOUND           ANIM_SCRAPE     23     23                     
+event SOUND           ANIM_SWOOSH     42     42                     
+event SOUND_VOICE     Individual_Attack_Scream     61     61                     
+event SOUND           ANIM_SWOOSH     74     74                     
+event SOUND           ANIM_STAB     78     78                     
+event SOUND           ANIM_SCRAPE     78     78                     
+event SOUND           ANIM_SWOOSH    121    121                     

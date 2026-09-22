@@ -1,0 +1,11 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_VOICE     Individual_Grunt      4      4                     
+event SOUND_VOICE     Individual_Grunt     45     45                     
+event SOUND_VOICE     Individual_Death     95     95                     
+event SOUND_BANK      fall    116    116                     
+event SOUND_BANK      fall    152    152                     

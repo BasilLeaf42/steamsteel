@@ -1,0 +1,13 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Animation event file
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event SOUND_VOICE     Individual_Attack_Scream      3      8                     
+event SOUND_BANK      unit_run      4      4                     
+event SOUND_BANK      unit_run     10     10                     
+event SOUND_BANK      unit_run     15     15                     
+event SOUND           ANIM_SCRAPE     18     18                     
+event SOUND_BANK      unit_run     23     23                     
+event SOUND_BANK      unit_run     26     26                     

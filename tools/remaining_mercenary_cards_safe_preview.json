@@ -1,0 +1,202 @@
+[
+  {
+    "type": "merc_us_farmer_cav",
+    "replaced": 1165,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_us_farmer_cav.tga"
+  },
+  {
+    "type": "merc_ap_front_cav",
+    "replaced": 1058,
+    "source": "data\\ui\\units\\portugala\\#us_scout_cav.tga"
+  },
+  {
+    "type": "merc_apache_inf",
+    "replaced": 1000,
+    "source": "data\\ui\\units\\portugala\\#apache_inf.tga"
+  },
+  {
+    "type": "merc_uru_inf",
+    "replaced": 1710,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_uru_inf.tga"
+  },
+  {
+    "type": "merc_para_foot",
+    "replaced": 1861,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_para_foot.tga"
+  },
+  {
+    "type": "merc_us_farmers",
+    "replaced": 1760,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_us_farmers.tga"
+  },
+  {
+    "type": "merc_port_inf_early",
+    "replaced": 1632,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_port_inf_early.tga"
+  },
+  {
+    "type": "merc_port_inf_mid",
+    "replaced": 1632,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_port_inf_mid.tga"
+  },
+  {
+    "type": "merc_port_inf_high",
+    "replaced": 1632,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_port_inf_high.tga"
+  },
+  {
+    "type": "merc_port_cav_early",
+    "replaced": 928,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_port_cav_early.tga"
+  },
+  {
+    "type": "merc_port_cav_mid",
+    "replaced": 928,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_port_cav_mid.tga"
+  },
+  {
+    "type": "merc_port_cav_high",
+    "replaced": 928,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_port_cav_high.tga"
+  },
+  {
+    "type": "merc_port_inf",
+    "replaced": 1632,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_port_inf_early.tga"
+  },
+  {
+    "type": "merc_port_lancer",
+    "replaced": 928,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_port_cav_early.tga"
+  },
+  {
+    "type": "merc_bhutan_warrior",
+    "replaced": 1738,
+    "source": "data\\ui\\units\\bulga\\#ind_bhutan_warrior.tga"
+  },
+  {
+    "type": "merc_papa_bows",
+    "replaced": 1501,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_papa_bows.tga"
+  },
+  {
+    "type": "merc_burmese_inf",
+    "replaced": 1082,
+    "source": "data\\ui\\units\\cru\\#burmese_inf.tga"
+  },
+  {
+    "type": "merc_indian_fanatic",
+    "replaced": 1840,
+    "source": "data\\ui\\units\\bulga\\#indian_fanatic.tga"
+  },
+  {
+    "type": "merc_maori_spearmen",
+    "replaced": 1394,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_maori_spearmen.tga"
+  },
+  {
+    "type": "merc_maori_musketeers",
+    "replaced": 1503,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_maori_musketeers.tga"
+  },
+  {
+    "type": "merc_arab_sailors",
+    "replaced": 1685,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_arab_sailors.tga"
+  },
+  {
+    "type": "merc_fra_blacks",
+    "replaced": 928,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_fra_blacks.tga"
+  },
+  {
+    "type": "merc_eng_for_cav",
+    "replaced": 1158,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_eng_for_cav.tga"
+  },
+  {
+    "type": "merc_fra_for_cav",
+    "replaced": 1224,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_fra_for_cav.tga"
+  },
+  {
+    "type": "merc_mongol_bows",
+    "replaced": 1411,
+    "source": "data\\ui\\units\\byzantium\\#mongol_bows.tga"
+  },
+  {
+    "type": "merc_pol_hussars",
+    "replaced": 2271,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_pol_hussars.tga"
+  },
+  {
+    "type": "merc_polish_inf",
+    "replaced": 1491,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_polish_inf.tga"
+  },
+  {
+    "type": "merc_georgian_inf",
+    "replaced": 1083,
+    "source": "data\\ui\\units\\russia\\#georgian_inf.tga"
+  },
+  {
+    "type": "merc_serb_inf",
+    "replaced": 1700,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_serb_inf.tga"
+  },
+  {
+    "type": "merc_bulgarian_inf",
+    "replaced": 1278,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_bulgarian_inf.tga"
+  },
+  {
+    "type": "merc_kok_royal_cav",
+    "replaced": 2398,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_kok_royal_cav.tga"
+  },
+  {
+    "type": "merc_kashgar_inf",
+    "replaced": 1284,
+    "source": "data\\ui\\units\\cuman\\#kashgar_inf.tga"
+  },
+  {
+    "type": "merc_rus_georgian_cav",
+    "replaced": 1082,
+    "source": "data\\ui\\units\\russia\\#rus_georgian_cav.tga"
+  },
+  {
+    "type": "merc_zulu_spearmen",
+    "replaced": 1475,
+    "source": "data\\ui\\units\\lith\\#zulu_spearmen.tga"
+  },
+  {
+    "type": "merc_sikh_warriors",
+    "replaced": 1343,
+    "source": "data\\ui\\units\\bulga\\#sikh_warriors.tga"
+  },
+  {
+    "type": "merc_fra_inf_ch",
+    "replaced": 1990,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_fra_inf_ch.tga"
+  },
+  {
+    "type": "merc_arab_brigade",
+    "replaced": 1899,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_arab_brigade.tga"
+  },
+  {
+    "type": "merc_balk_cav_ch",
+    "replaced": 1345,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_balk_cav_ch.tga"
+  },
+  {
+    "type": "merc_siam_agent",
+    "replaced": 1040,
+    "source": "data\\ui\\units\\cru\\#siam_agent.tga"
+  },
+  {
+    "type": "merc_uk_sailor",
+    "replaced": 2135,
+    "source": "tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_uk_sailor.tga"
+  }
+]
