@@ -1,0 +1,1 @@
+100 1250 x 500 PNG artwork panels in corrected display proportions, with compact labels and 60% transparent backgrounds. Sources are cropped and resized to this output size; source resolution varies. See ARTWORK_CREDITS.md for attribution and licences.

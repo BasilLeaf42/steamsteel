@@ -1,0 +1,785 @@
+{
+  "regularUnitTypes": 493,
+  "missingTier2": [],
+  "tier1Regular": [],
+  "regularCavalry": [
+    {
+      "faction": "aztecs",
+      "unit": "arg_cavalry_early",
+      "geos": [
+        "argentina"
+      ]
+    },
+    {
+      "faction": "aztecs",
+      "unit": "arg_cavalry_high",
+      "geos": [
+        "argentina"
+      ]
+    },
+    {
+      "faction": "aztecs",
+      "unit": "arg_cavalry_mid",
+      "geos": [
+        "argentina"
+      ]
+    },
+    {
+      "faction": "aztecs",
+      "unit": "arg_lancers_early",
+      "geos": [
+        "argentina"
+      ]
+    },
+    {
+      "faction": "aztecs",
+      "unit": "arg_lancers_mid",
+      "geos": [
+        "argentina"
+      ]
+    },
+    {
+      "faction": "bulga",
+      "unit": "indian_bow_cav",
+      "geos": [
+        "india"
+      ]
+    },
+    {
+      "faction": "bulga",
+      "unit": "indian_ele",
+      "geos": [
+        "india"
+      ]
+    },
+    {
+      "faction": "bulga",
+      "unit": "indian_spear_cav",
+      "geos": [
+        "india"
+      ]
+    },
+    {
+      "faction": "byzantium",
+      "unit": "oirat_royal",
+      "geos": [
+        "mongolia"
+      ]
+    },
+    {
+      "faction": "byzantium",
+      "unit": "tib_horse_archer",
+      "geos": [
+        "tibet"
+      ]
+    },
+    {
+      "faction": "cru",
+      "unit": "siam_ele_gunner",
+      "geos": [
+        "siam"
+      ]
+    },
+    {
+      "faction": "cru",
+      "unit": "siam_late_cav",
+      "geos": [
+        "siam"
+      ]
+    },
+    {
+      "faction": "cru",
+      "unit": "siam_sword_cav",
+      "geos": [
+        "siam"
+      ]
+    },
+    {
+      "faction": "cuman",
+      "unit": "camel_wagon",
+      "geos": [
+        "kokand"
+      ]
+    },
+    {
+      "faction": "cuman",
+      "unit": "kok_cav",
+      "geos": [
+        "kokand"
+      ]
+    },
+    {
+      "faction": "cuman",
+      "unit": "kok_royal_cav",
+      "geos": [
+        "steppe"
+      ]
+    },
+    {
+      "faction": "cuman",
+      "unit": "tib_horse_archer",
+      "geos": [
+        "tibet"
+      ]
+    },
+    {
+      "faction": "denmark",
+      "unit": "per_carabineros_torata",
+      "geos": [
+        "peru"
+      ]
+    },
+    {
+      "faction": "denmark",
+      "unit": "per_lanceros_torata",
+      "geos": [
+        "peru"
+      ]
+    },
+    {
+      "faction": "egypt",
+      "unit": "qaj_cossack_brigade",
+      "geos": [
+        "persia"
+      ]
+    },
+    {
+      "faction": "england",
+      "unit": "uk_camel_corps_high",
+      "geos": [
+        "arab"
+      ]
+    },
+    {
+      "faction": "england",
+      "unit": "uk_dragoon_early",
+      "geos": [
+        "uk"
+      ]
+    },
+    {
+      "faction": "england",
+      "unit": "uk_dragoon_high",
+      "geos": [
+        "uk"
+      ]
+    },
+    {
+      "faction": "england",
+      "unit": "uk_dragoon_mid",
+      "geos": [
+        "uk"
+      ]
+    },
+    {
+      "faction": "england",
+      "unit": "uk_hussars_early",
+      "geos": [
+        "uk"
+      ]
+    },
+    {
+      "faction": "england",
+      "unit": "uk_hussars_high",
+      "geos": [
+        "uk"
+      ]
+    },
+    {
+      "faction": "england",
+      "unit": "uk_hussars_mid",
+      "geos": [
+        "uk"
+      ]
+    },
+    {
+      "faction": "france",
+      "unit": "fra_carabiniers_early",
+      "geos": [
+        "france"
+      ]
+    },
+    {
+      "faction": "france",
+      "unit": "fra_carabiniers_high",
+      "geos": [
+        "france"
+      ]
+    },
+    {
+      "faction": "france",
+      "unit": "fra_carabiniers_mid",
+      "geos": [
+        "france"
+      ]
+    },
+    {
+      "faction": "france",
+      "unit": "fra_chasseurs_cheval",
+      "geos": [
+        "france",
+        "settler"
+      ]
+    },
+    {
+      "faction": "france",
+      "unit": "fra_hussards",
+      "geos": [
+        "france"
+      ]
+    },
+    {
+      "faction": "france",
+      "unit": "fra_spahis_early",
+      "geos": [
+        "north_africa"
+      ]
+    },
+    {
+      "faction": "france",
+      "unit": "fra_spahis_high",
+      "geos": [
+        "north_africa"
+      ]
+    },
+    {
+      "faction": "france",
+      "unit": "fra_spahis_mid",
+      "geos": [
+        "north_africa"
+      ]
+    },
+    {
+      "faction": "hre",
+      "unit": "pru_dragoner_early",
+      "geos": [
+        "prussia",
+        "settler"
+      ]
+    },
+    {
+      "faction": "hre",
+      "unit": "pru_dragoner_high",
+      "geos": [
+        "prussia",
+        "settler"
+      ]
+    },
+    {
+      "faction": "hre",
+      "unit": "pru_dragoner_mid",
+      "geos": [
+        "prussia",
+        "settler"
+      ]
+    },
+    {
+      "faction": "hre",
+      "unit": "pru_husaren",
+      "geos": [
+        "prussia"
+      ]
+    },
+    {
+      "faction": "hre",
+      "unit": "pru_kolonialreiter_high",
+      "geos": [
+        "colonial"
+      ]
+    },
+    {
+      "faction": "hungary",
+      "unit": "aus_dragoner_early",
+      "geos": [
+        "austria",
+        "hungary",
+        "settler"
+      ]
+    },
+    {
+      "faction": "hungary",
+      "unit": "aus_dragoner_high",
+      "geos": [
+        "austria",
+        "hungary",
+        "settler"
+      ]
+    },
+    {
+      "faction": "hungary",
+      "unit": "aus_dragoner_mid",
+      "geos": [
+        "austria",
+        "hungary",
+        "settler"
+      ]
+    },
+    {
+      "faction": "hungary",
+      "unit": "aus_husaren",
+      "geos": [
+        "austria",
+        "hungary"
+      ]
+    },
+    {
+      "faction": "hungary",
+      "unit": "aus_ulanen",
+      "geos": [
+        "austria",
+        "hungary"
+      ]
+    },
+    {
+      "faction": "mongols",
+      "unit": "gre_carbineers_high",
+      "geos": [
+        "greece",
+        "settler"
+      ]
+    },
+    {
+      "faction": "mongols",
+      "unit": "gre_carbineers_mid",
+      "geos": [
+        "greece",
+        "settler"
+      ]
+    },
+    {
+      "faction": "mongols",
+      "unit": "gre_lancers",
+      "geos": [
+        "greece"
+      ]
+    },
+    {
+      "faction": "moors",
+      "unit": "mor_makhzen_cav_early",
+      "geos": [
+        "morocco"
+      ]
+    },
+    {
+      "faction": "moors",
+      "unit": "mor_makhzen_cav_high",
+      "geos": [
+        "morocco"
+      ]
+    },
+    {
+      "faction": "moors",
+      "unit": "mor_makhzen_cav_mid",
+      "geos": [
+        "morocco"
+      ]
+    },
+    {
+      "faction": "normans",
+      "unit": "swe_dragoons_early",
+      "geos": [
+        "norway",
+        "settler",
+        "sweden"
+      ]
+    },
+    {
+      "faction": "normans",
+      "unit": "swe_dragoons_high",
+      "geos": [
+        "norway",
+        "settler",
+        "sweden"
+      ]
+    },
+    {
+      "faction": "normans",
+      "unit": "swe_dragoons_mid",
+      "geos": [
+        "norway",
+        "settler",
+        "sweden"
+      ]
+    },
+    {
+      "faction": "normans",
+      "unit": "swe_hussars",
+      "geos": [
+        "norway",
+        "sweden"
+      ]
+    },
+    {
+      "faction": "papal_states",
+      "unit": "aby_cav_1g",
+      "geos": [
+        "ethiopia"
+      ]
+    },
+    {
+      "faction": "papal_states",
+      "unit": "aby_crb_3g",
+      "geos": [
+        "ethiopia"
+      ]
+    },
+    {
+      "faction": "papal_states",
+      "unit": "aby_roy_1g",
+      "geos": [
+        "ethiopia"
+      ]
+    },
+    {
+      "faction": "poland",
+      "unit": "bra_cavalry_early",
+      "geos": [
+        "brazil"
+      ]
+    },
+    {
+      "faction": "poland",
+      "unit": "bra_dragoons_high",
+      "geos": [
+        "brazil"
+      ]
+    },
+    {
+      "faction": "poland",
+      "unit": "bra_dragoons_mid",
+      "geos": [
+        "brazil"
+      ]
+    },
+    {
+      "faction": "portugala",
+      "unit": "uni_dragoons_early",
+      "geos": [
+        "usa"
+      ]
+    },
+    {
+      "faction": "portugala",
+      "unit": "uni_dragoons_high",
+      "geos": [
+        "usa"
+      ]
+    },
+    {
+      "faction": "portugala",
+      "unit": "uni_dragoons_mid",
+      "geos": [
+        "usa"
+      ]
+    },
+    {
+      "faction": "portugal",
+      "unit": "net_dragonders",
+      "geos": [
+        "netherlands"
+      ]
+    },
+    {
+      "faction": "portugal",
+      "unit": "net_huzaren",
+      "geos": [
+        "netherlands"
+      ]
+    },
+    {
+      "faction": "portugal",
+      "unit": "net_karabiniers_early",
+      "geos": [
+        "netherlands",
+        "settler"
+      ]
+    },
+    {
+      "faction": "portugal",
+      "unit": "net_karabiniers_high",
+      "geos": [
+        "netherlands",
+        "settler"
+      ]
+    },
+    {
+      "faction": "portugal",
+      "unit": "net_karabiniers_mid",
+      "geos": [
+        "netherlands",
+        "settler"
+      ]
+    },
+    {
+      "faction": "russia",
+      "unit": "rus_draguny_early",
+      "geos": [
+        "russia",
+        "settler"
+      ]
+    },
+    {
+      "faction": "russia",
+      "unit": "rus_draguny_high",
+      "geos": [
+        "russia",
+        "settler"
+      ]
+    },
+    {
+      "faction": "russia",
+      "unit": "rus_draguny_mid",
+      "geos": [
+        "russia",
+        "settler"
+      ]
+    },
+    {
+      "faction": "russia",
+      "unit": "rus_gusary",
+      "geos": [
+        "russia"
+      ]
+    },
+    {
+      "faction": "russia",
+      "unit": "rus_ulany",
+      "geos": [
+        "russia"
+      ]
+    },
+    {
+      "faction": "saxons",
+      "unit": "Japan Revolver Kihei",
+      "geos": [
+        "japan"
+      ]
+    },
+    {
+      "faction": "saxons",
+      "unit": "Japan Revolver Kihei Han",
+      "geos": [
+        "japan"
+      ]
+    },
+    {
+      "faction": "saxons",
+      "unit": "Japan Ryukihei 1870",
+      "geos": [
+        "japan"
+      ]
+    },
+    {
+      "faction": "saxons",
+      "unit": "Japan Ryukihei 1880",
+      "geos": [
+        "japan"
+      ]
+    },
+    {
+      "faction": "saxons",
+      "unit": "Japan Ryukihei 1890",
+      "geos": [
+        "japan"
+      ]
+    },
+    {
+      "faction": "saxons",
+      "unit": "Japan Ryukihei 1900",
+      "geos": [
+        "japan"
+      ]
+    },
+    {
+      "faction": "saxons",
+      "unit": "Japan Ryukihei 1905",
+      "geos": [
+        "japan"
+      ]
+    },
+    {
+      "faction": "saxons",
+      "unit": "Japan Ryukihei Shogun 1870",
+      "geos": [
+        "kanto"
+      ]
+    },
+    {
+      "faction": "scotland",
+      "unit": "mex_carbineers_early",
+      "geos": [
+        "mexico"
+      ]
+    },
+    {
+      "faction": "scotland",
+      "unit": "mex_carbineers_high",
+      "geos": [
+        "mexico"
+      ]
+    },
+    {
+      "faction": "scotland",
+      "unit": "mex_carbineers_mid",
+      "geos": [
+        "mexico"
+      ]
+    },
+    {
+      "faction": "scotland",
+      "unit": "mex_hussars",
+      "geos": [
+        "mexico"
+      ]
+    },
+    {
+      "faction": "sicily",
+      "unit": "dan_dragoon_early",
+      "geos": [
+        "denmark",
+        "settler"
+      ]
+    },
+    {
+      "faction": "sicily",
+      "unit": "dan_dragoon_high",
+      "geos": [
+        "denmark",
+        "settler"
+      ]
+    },
+    {
+      "faction": "sicily",
+      "unit": "dan_dragoon_mid",
+      "geos": [
+        "denmark",
+        "settler"
+      ]
+    },
+    {
+      "faction": "spain",
+      "unit": "euro_hussars",
+      "geos": [
+        "europe"
+      ]
+    },
+    {
+      "faction": "spain",
+      "unit": "spa_cav_early",
+      "geos": [
+        "settler",
+        "spain"
+      ]
+    },
+    {
+      "faction": "spain",
+      "unit": "spa_cav_high",
+      "geos": [
+        "settler",
+        "spain"
+      ]
+    },
+    {
+      "faction": "spain",
+      "unit": "spa_cav_mid",
+      "geos": [
+        "settler",
+        "spain"
+      ]
+    },
+    {
+      "faction": "spain",
+      "unit": "spa_col_cav_mid",
+      "geos": [
+        "colonial"
+      ]
+    },
+    {
+      "faction": "teu",
+      "unit": "boer_wagon",
+      "geos": [
+        "south_africa"
+      ]
+    },
+    {
+      "faction": "timurids",
+      "unit": "afg_pashtun_camelry",
+      "geos": [
+        "afghanistan"
+      ]
+    },
+    {
+      "faction": "timurids",
+      "unit": "afg_regular_cavalry",
+      "geos": [
+        "afghanistan"
+      ]
+    },
+    {
+      "faction": "turks",
+      "unit": "ott_mizrakli_suvari",
+      "geos": [
+        "ottoman"
+      ]
+    },
+    {
+      "faction": "turks",
+      "unit": "ott_suvari_early",
+      "geos": [
+        "ottoman"
+      ]
+    },
+    {
+      "faction": "turks",
+      "unit": "ott_suvari_high",
+      "geos": [
+        "ottoman"
+      ]
+    },
+    {
+      "faction": "turks",
+      "unit": "ott_suvari_mid",
+      "geos": [
+        "ottoman"
+      ]
+    },
+    {
+      "faction": "venice",
+      "unit": "ita_carabinieri_early",
+      "geos": [
+        "italy",
+        "settler"
+      ]
+    },
+    {
+      "faction": "venice",
+      "unit": "ita_carabinieri_high",
+      "geos": [
+        "italy",
+        "settler"
+      ]
+    },
+    {
+      "faction": "venice",
+      "unit": "ita_carabinieri_mid",
+      "geos": [
+        "italy",
+        "settler"
+      ]
+    },
+    {
+      "faction": "venice",
+      "unit": "ita_cavalleggeri",
+      "geos": [
+        "italy"
+      ]
+    },
+    {
+      "faction": "venice",
+      "unit": "ita_lancieri",
+      "geos": [
+        "italy"
+      ]
+    }
+  ]
+}

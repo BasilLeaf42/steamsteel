@@ -1,0 +1,103 @@
+{
+  "query": "Louis Gustave Binger painting",
+  "pages": [
+    {
+      "pageid": 22568959,
+      "ns": 6,
+      "title": "File:Portrait du gouverneur Binger by Louis Fr\u00e9d\u00e9ric Sch\u00fctzenberger.png",
+      "index": 1,
+      "imagerepository": "local",
+      "imageinfo": [
+        {
+          "size": 143926,
+          "width": 350,
+          "height": 424,
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Portrait_du_gouverneur_Binger_by_Louis_Fr%C3%A9d%C3%A9ric_Sch%C3%BCtzenberger.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "thumbwidth": 800,
+          "thumbheight": 969,
+          "thumbattribs": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Portrait_du_gouverneur_Binger_by_Louis_Fr%C3%A9d%C3%A9ric_Sch%C3%BCtzenberger.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "decoding": "async",
+            "loading": "lazy",
+            "width": 800,
+            "height": 969
+          },
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Portrait_du_gouverneur_Binger_by_Louis_Fr%C3%A9d%C3%A9ric_Sch%C3%BCtzenberger.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Portrait_du_gouverneur_Binger_by_Louis_Fr%C3%A9d%C3%A9ric_Sch%C3%BCtzenberger.png",
+          "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22568959",
+          "extmetadata": {
+            "DateTime": {
+              "value": "2012-11-13 08:58:04",
+              "source": "mediawiki-metadata",
+              "hidden": ""
+            },
+            "ObjectName": {
+              "value": "Portrait du gouverneur Binger by Louis Fr\u00e9d\u00e9ric Sch\u00fctzenberger",
+              "source": "mediawiki-metadata"
+            },
+            "CommonsMetadataExtension": {
+              "value": 1.2,
+              "source": "extension",
+              "hidden": ""
+            },
+            "Categories": {
+              "value": "Louis Fr\u00e9d\u00e9ric Sch\u00fctzenberger|Louis-Gustave Binger|PD-old-100-expired|PD-Art (PD-old-auto-expired)|CC-PD-Mark|Paintings without Wikidata item|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|People with boutonnieres of the Legion of Honour",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Assessments": {
+              "value": "",
+              "source": "commons-categories",
+              "hidden": ""
+            },
+            "Artist": {
+              "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Louis-Fr%C3%A9d%C3%A9ric_Sch%C3%BCtzenberger\" class=\"extiw\" title=\"w:en:Louis-Fr\u00e9d\u00e9ric Sch\u00fctzenberger\"><span title=\"French painter (1825-1903)\">Louis-Frederic Sch\u00fctzenberger</span></a></bdi>",
+              "source": "commons-desc-page"
+            },
+            "ImageDescription": {
+              "value": "\"Portrait du gouverneur Binger\"",
+              "source": "commons-desc-page"
+            },
+            "DateTimeOriginal": {
+              "value": "1900<div style=\"display: none;\">date QS:P571,+1900-00-00T00:00:00Z/9</div>",
+              "source": "commons-desc-page"
+            },
+            "Credit": {
+              "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.culture.gouv.fr/public/mistral/joconde_fr?ACTION=RETROUVER&amp;FIELD_98=DENO&amp;VALUE_98=tableau&amp;NUMBER=82&amp;GRP=116&amp;REQ=%28%28tableau%29%20%3aDENO%20%29&amp;USRNAME=nobody&amp;USRPWD=4%24%2534P&amp;SPEC=3&amp;SYN=1&amp;IMLY=&amp;MAX1=1&amp;MAX2=1&amp;MAX3=100&amp;DOM=All\">Joconde, Portail des collections des mus\u00e9es de France</a> (see talk)",
+              "source": "commons-desc-page"
+            },
+            "LicenseShortName": {
+              "value": "Public domain",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "UsageTerms": {
+              "value": "Public domain",
+              "source": "commons-desc-page"
+            },
+            "AttributionRequired": {
+              "value": "false",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Copyrighted": {
+              "value": "False",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "Restrictions": {
+              "value": "",
+              "source": "commons-desc-page",
+              "hidden": ""
+            },
+            "License": {
+              "value": "pd",
+              "source": "commons-templates",
+              "hidden": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

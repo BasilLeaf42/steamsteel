@@ -1,0 +1,134 @@
+{
+  "portrait_pools": {
+    "southern_european": {
+      "all": 712,
+      "generals": 278,
+      "unique_all": 292,
+      "unique_generals": 138
+    },
+    "northern_european": {
+      "all": 1082,
+      "generals": 232,
+      "unique_all": 294,
+      "unique_generals": 116
+    },
+    "mesoamerican": {
+      "all": 1339,
+      "generals": 204,
+      "unique_all": 606,
+      "unique_generals": 50
+    },
+    "slavic": {
+      "all": 395,
+      "generals": 138,
+      "unique_all": 135,
+      "unique_generals": 69
+    },
+    "middle_eastern": {
+      "all": 694,
+      "generals": 248,
+      "unique_all": 174,
+      "unique_generals": 124
+    },
+    "asian": {
+      "all": 525,
+      "generals": 202,
+      "unique_all": 211,
+      "unique_generals": 100
+    },
+    "chinese": {
+      "all": 1247,
+      "generals": 224,
+      "unique_all": 523,
+      "unique_generals": 112
+    }
+  },
+  "named_portrait_references": 36,
+  "named_portrait_unique_references": 34,
+  "named_dirs": 63,
+  "missing_named": [],
+  "incomplete_named": [
+    {
+      "portrait": "abdulmejid",
+      "missing_files": [
+        "portrait_young.tga"
+      ]
+    },
+    {
+      "portrait": "binsaid",
+      "missing_files": [
+        "portrait_dead.tga"
+      ]
+    },
+    {
+      "portrait": "davis",
+      "missing_files": [
+        "portrait_young.tga"
+      ]
+    },
+    {
+      "portrait": "dostmuhamedkhan",
+      "missing_files": [
+        "portrait_young.tga"
+      ]
+    },
+    {
+      "portrait": "juarez",
+      "missing_files": [
+        "portrait_young.tga"
+      ]
+    },
+    {
+      "portrait": "lincoln",
+      "missing_files": [
+        "portrait_young.tga"
+      ]
+    }
+  ],
+  "loading": {
+    "root": {
+      "count": 100,
+      "unique": 100
+    },
+    "load_steamsteel": {
+      "count": 100,
+      "unique": 100,
+      "same_named_as_root": 100
+    },
+    "load_althis": {
+      "count": 100,
+      "unique": 100,
+      "same_named_as_root": 100
+    },
+    "load_civilwar": {
+      "count": 61,
+      "unique": 41,
+      "same_named_as_root": 0
+    },
+    "load_europe": {
+      "count": 62,
+      "unique": 40,
+      "same_named_as_root": 0
+    },
+    "load_greatgame": {
+      "count": 62,
+      "unique": 37,
+      "same_named_as_root": 0
+    },
+    "load_samerica": {
+      "count": 62,
+      "unique": 37,
+      "same_named_as_root": 0
+    },
+    "load_scramble": {
+      "count": 62,
+      "unique": 40,
+      "same_named_as_root": 0
+    },
+    "load_seasia": {
+      "count": 62,
+      "unique": 40,
+      "same_named_as_root": 0
+    }
+  }
+}

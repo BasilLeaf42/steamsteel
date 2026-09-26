@@ -393,9 +393,9 @@
 {csa_cav_descr_short}Confederate Cavalry (Carbine, Sharps Model 1853)
 
 {csa_gatling}Gatling Gun
+{csa_gatling_descr_short}Gatling Gun (Machine Gun, Gatling Model 1865), hand-cranked rapid-fire artillery.
 {csa_gatling_descr}"It occurred to me that if I could invent a machine which could by its rapidity of fire, enable one man to do as much battle duty as a hundred, that it would, to a large extent supersede the necessity of large armies, and consequently, exposure to battle and disease be greatly diminished" - Richard J. Gatling \n\nThe Gatling Gun was invented in 1861, during the American Civil War, by Richard Jordan Gatling (Hertford County, 1818 - New York City, 1903). It was the first completely reliable machinegun of the era, combining a good firing rate, accuracy and an easy way to reload it. It uses a cyclic multi-barrel system that rotates clockwise and facilitates the cooling, aslo synchronizing the firing-reloading sequence. \n\nRichard Gatling invented the weapon to minimize the disease casualties of the American Civil War, however, the Gatling Gun was barely used by the Union forces because of the fear caused by such devastating gun. The Union forces used them during the siege of Petersburg (June 1864 - April 1865), it was later accepted by the army in 1866 after a demonstration made by a representative. The major European powers purchased and vastly used Gatling Guns for their colonial expansions, being the British the most well known for using them during the Anglo-Ashanti Wars and the Anglo-Zulu War. During the Boshin War, the Imperial Forces of Japan used some Gatling Guns; they were also vastly used during the War of the Pacific by the Peruvian and Chilean forces, in both Navy and Army, being especially used in the battle of Alto de la Alianza (1880) and the battle of San Juan y Chorrillos (1881). Later during the Spanish-American War, the US forces used few Gatling Guns, but in an effective way, against the Spanish forces in the battle of San Juan Hill (1898); however, the jungle footpaths and other incovenients were a problem for them, and most of the US forces were already using modern 1895 Browning Machineguns. \n\nThe Gatling Gun was rapidly displaced by other modern machineguns, and the US Army declared them obsolete in 1911. However, later, the mechanism and systems of the Gatling Gun were revived and reused to invent Miniguns and the famous M61 Vulcano.
 
-{csa_gatling_descr_Short}Early Machineguns that deal massive damage to close formations and have decent range.
 
 {csa_guard}Army of Northern Virginia
 {csa_guard_descr}The Army of Northern Virginia is an elite veteran formation whose battlefield record has become legendary throughout the Confederacy. Armed with Pattern 1853 Enfield rifle-muskets, these seasoned soldiers combine discipline, experience, and unwavering determination under fire. Their reputation for steadfastness makes them one of the South's most prestigious formations. They proudly uphold the legacy of General Lee's famous army.
@@ -1055,9 +1055,9 @@
 {Japan_Bodyguard_IJA_descr}Era: 1870s (1873)\nQuality: Elite\nPrimary: Smith & Wesson No.2 (Revolver)\nSecondary: Gunto (Sword)\nAllegiance: Ishin Japan (Imperial Japanese Army)\n\nTest
 {Japan_Bodyguard_IJA_descr_short}Japanese General and Staff (Revolver, Smith & Wesson No.2 , Saber)
 
-{Japan_Bodyguard_Retainers}Daimyō to Umamawari
+{Japan_Bodyguard_Retainers}Japanese General and Umamawari
 {Japan_Bodyguard_Retainers_descr}Era: 1860s\nQuality: Elite\nPrimary: Smith & Wesson No.2 (Revolver)\nSecondary: Katana (Sword)\nAllegiance: Ishin Japan & Tokugawa shogunate\n\nTest
-{Japan_Bodyguard_Retainers_descr_short}Daimyō to Umamawari (Revolver, Smith & Wesson No.2 , Saber), Daimyō and mounted retainers, Smith & Wesson No.2 revolver and saber
+{Japan_Bodyguard_Retainers_descr_short}Japanese General and Umamawari (Revolver, Smith & Wesson No.2, Saber), mounted command retinue.
 
 {Japan_Bodyguard_Tosa}Tosa General and Kochotai
 {Japan_Bodyguard_Tosa_descr}Test
@@ -1812,14 +1812,6 @@
 {merc_polish_inf_descr}Polish Infantry are disciplined professional soldiers equipped with Dreyse needle guns and trained according to modern European doctrine. Their accurate rifle fire, steady formations, and determination under pressure make them dependable troops in both attack and defence. Though their homeland has endured many hardships, Poland's military traditions remain alive within their ranks. They are respected wherever they serve.
 {merc_polish_inf_descr_short}Polish Infantry (Rifle-Musket, Dreyse M/41 Needle Gun)
 
-{merc_port_inf}Portuguese Fuzileiros
-{merc_port_inf_descr}The Portuguese Fuzileiros are experienced marine infantry equally at home aboard warships or fighting ashore. Armed with dependable Snider-Enfield rifles, they specialise in amphibious assaults, colonial expeditions, and the defence of strategic ports. Their adaptability and professionalism have earned them an enviable reputation throughout Portugal's overseas empire. They are among the nation's finest soldiers.
-{merc_port_inf_descr_short}Portuguese Infantry (Rifle, Snider-Enfield)
-
-{merc_port_lancer}Portuguese Lanceiros
-{merc_port_lancer_descr}The Portuguese Lanceiros are swift cavalry armed with lances, carbines, and sabres for every stage of battle. Their mobility makes them invaluable for reconnaissance, screening, and pursuing retreating enemies across the battlefield. When launched at the decisive moment, their powerful charges can quickly shatter disordered formations. They continue Portugal's proud mounted tradition into the modern age.
-{merc_port_lancer_descr_short}Portuguese Lanceiros
-
 {merc_port_inf_early}Fuzileiros Portugueses (Early)
 {merc_port_inf_early_descr}Early Fuzileiros Portugueses are regular Portuguese infantry armed with the muzzle-loading Espingarda Enfield 14 mm m/1859. Their European drill and bayonets make them dependable line troops serving as auxiliaries abroad.
 {merc_port_inf_early_descr_short}Fuzileiros Portugueses (Rifle-Musket, Espingarda Enfield 14 mm m/1859)
@@ -1843,14 +1835,6 @@
 {merc_port_cav_high}Carabineiros Portugueses (Late)
 {merc_port_cav_high_descr}Late Carabineiros Portugueses use the repeating Carabina de Cavalaria Kropatschek 8 mm m/1886 alongside their sabres, combining reconnaissance mobility with modern magazine-carbine firepower.
 {merc_port_cav_high_descr_short}Carabineiros Portugueses (Carbine, Kropatschek 8 mm m/1886 ; Sabre)
-
-{merc_port_inf_compat}Fuzileiros Portugueses
-{merc_port_inf_compat_descr}Early Fuzileiros Portugueses are regular Portuguese infantry armed with the muzzle-loading Espingarda Enfield 14 mm m/1859. This compatibility record is reserved for shared rebel templates and is hidden from custom battle.
-{merc_port_inf_compat_descr_short}Fuzileiros Portugueses (Rifle-Musket, Espingarda Enfield 14 mm m/1859)
-
-{merc_port_cav_compat}Carabineiros Portugueses
-{merc_port_cav_compat_descr}Early Carabineiros Portugueses are regular auxiliary cavalry armed with the breech-loading Carabina de Cavalaria Westley-Richards 11 mm m/1867 and sabres. This compatibility record is reserved for shared rebel templates and is hidden from custom battle.
-{merc_port_cav_compat_descr_short}Carabineiros Portugueses (Carbine, Westley-Richards 11 mm m/1867 ; Sabre)
 
 {merc_rus_georgian_cav}Caucasian Cavalry
 {merc_rus_georgian_cav_descr}The Caucasian Cavalry are veteran horsemen recruited from the rugged mountains of the Caucasus, where generations have mastered life in difficult terrain. Armed with carbines, sabres, and traditional weapons, they combine fearless riding with remarkable endurance. Their experience in mountain warfare makes them invaluable scouts, raiders, and frontier cavalry. They are respected throughout the Russian Empire for their martial skill.
@@ -2727,9 +2711,9 @@
 {uk_pith_descr}Commonwealth Infantry is recruited from across Britain's self-governing dominions, bringing together experienced soldiers from every corner of the Empire. Equipped with Lee-Enfield magazine rifles and trained according to British military standards, these troops combine professionalism with valuable colonial experience. Their adaptability allows them to operate effectively across a wide range of environments. They reflect the unity and strength of the Commonwealth.
 {uk_pith_descr_short}Commonwealth Infantry (Magazine Rifle, Lee–Enfield)
 
-{uk_pith_knights}British General and Staff
+{uk_pith_knights}General and Staff
 {uk_pith_knights_descr}The British General Staff accompanies senior commanders into battle, directing troop movements and coordinating the Empire's complex military operations. Protected by experienced mounted escorts, these officers ensure that orders continue to flow even during the fiercest fighting. Their leadership, planning, and tactical judgement provide the foundation for every successful campaign. Their presence inspires confidence throughout the army.
-{uk_pith_knights_descr_short}British General and Staff
+{uk_pith_knights_descr_short}General and Staff
 
 {uk_roy}Foot Guards Regiment
 {uk_roy_descr}The Foot Guards Regiment is entrusted with protecting the Crown while serving as one of Britain's most prestigious infantry formations. Armed with Pattern 1858 Enfield rifle-muskets and selected from the finest soldiers of the Empire, they combine ceremonial splendour with exceptional battlefield discipline. Their courage and professionalism have earned them an unrivalled reputation. They remain among Britain's elite.
@@ -2987,9 +2971,9 @@
 {uk_camel_corps_high}Imperial Camel Corps (Late)
 {uk_camel_corps_high_descr}Imperial Camel Corps (Late) serve in the British Army and are equipped and trained for their stated battlefield role.
 {uk_camel_corps_high_descr_short}Imperial Camel Corps (Carbine, Magazine , Lee–Metford)
-{uk_general}British General and Staff
-{uk_general_descr}British General and Staff serve in the British Army and are equipped and trained for their stated battlefield role.
-{uk_general_descr_short}British General and Staff (Revolver, Adams ; Sabre)
+{uk_general}General and Staff
+{uk_general_descr}The General and Staff serve in the British Army and are equipped and trained for their stated battlefield role.
+{uk_general_descr_short}General and Staff (Revolver, Adams ; Sabre)
 {uk_indian_lancers}Indian Lancers
 {uk_indian_lancers_descr}Indian Lancers serve in the British Army and are equipped and trained for their stated battlefield role.
 {uk_indian_lancers_descr_short}Indian Lancers (Lance, Sabre)
@@ -5528,9 +5512,9 @@
 {qing_village_braves_descr}Village Braves.
 {qing_village_braves_descr_short}Militia infantry with hand weapons
 
-
-{qing_cavalry_general}Qing General and Staff
-{qing_cavalry_general_descr}Qing General and Staff.
+
+{qing_cavalry_general}Qing General and Staff
+{qing_cavalry_general_descr}Qing General and Staff.
 {qing_cavalry_general_descr_short}Mounted command unit
 
 {fra_cav_scotland_descr}Carabiniers (Late).

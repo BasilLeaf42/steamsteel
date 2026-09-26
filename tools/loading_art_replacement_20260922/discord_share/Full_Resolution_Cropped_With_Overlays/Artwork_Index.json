@@ -1,0 +1,702 @@
+[
+  {
+    "file": "01.png",
+    "title": "Repair Work on the Railway",
+    "artist": "Konstantin Savitsky",
+    "date": "1874",
+    "source": "https://commons.wikimedia.org/wiki/File:Savitsky_Repair_work_on_the_railway_gtg_h.jpg"
+  },
+  {
+    "file": "02.png",
+    "title": "Canton Waterfront (The Hongs at Canton)",
+    "artist": "Chinese artist, unidentified",
+    "date": "c. 1840",
+    "source": "https://commons.wikimedia.org/wiki/File:Canton_Waterfront_(The_Hongs_at_Canton)_MET_ADA4614.jpg"
+  },
+  {
+    "file": "03.png",
+    "title": "Scene in the Arctic",
+    "artist": "William Bradford",
+    "date": "c. 1880",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Bradford_-_Scene_in_the_Arctic_(c.1880).jpg"
+  },
+  {
+    "file": "04.png",
+    "title": "The Battle of the Kearsarge and the Alabama",
+    "artist": "Édouard Manet",
+    "date": "1864",
+    "source": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet,_French_-_The_Battle_of_the_U.S.S._%22Kearsarge%22_and_the_C.S.S._%22Alabama%22_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "05.png",
+    "title": "Surprise Attack (They Attack Unaware)",
+    "artist": "Vasily Vereshchagin",
+    "date": "1871",
+    "source": "https://commons.wikimedia.org/wiki/File:Wassilij_Wassiljewitsch_Wereschtschagin_002.jpg"
+  },
+  {
+    "file": "06.png",
+    "title": "The Family of Queen Victoria in 1887",
+    "artist": "Laurits Tuxen",
+    "date": "1887",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Family_of_Queen_Victoria_(Tuxen).jpg"
+  },
+  {
+    "file": "07.png",
+    "title": "The Smoke Signal",
+    "artist": "Frederic Remington",
+    "date": "1905",
+    "source": "https://commons.wikimedia.org/wiki/File:Remington_The_Smoke_Signal_1905.jpg"
+  },
+  {
+    "file": "08.png",
+    "title": "Maiwand 1880: Saving the Guns",
+    "artist": "Richard Caton Woodville the Younger",
+    "date": "1882",
+    "source": "https://commons.wikimedia.org/wiki/File:Richard_Caton_Woodville_(1856-1927)_-_Maiwand_1880,_Saving_the_Guns_-_WAG_140_-_Walker_Art_Gallery.jpg"
+  },
+  {
+    "file": "09.png",
+    "title": "Blowing from Guns in British India",
+    "artist": "Vasily Vereshchagin",
+    "date": "c. 1884",
+    "source": "https://commons.wikimedia.org/wiki/File:Vereshchagin-Blowing_from_Guns_in_British_India.jpg"
+  },
+  {
+    "file": "10.png",
+    "title": "Whampoa Anchorage",
+    "artist": "Youqua",
+    "date": "c. 1850",
+    "source": "https://commons.wikimedia.org/wiki/File:Whampoa_by_Youqua.jpg"
+  },
+  {
+    "file": "11.png",
+    "title": "Skirmish in the Wilderness",
+    "artist": "Winslow Homer",
+    "date": "1864",
+    "source": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_Skirmish_in_the_Wilderness,_1864.jpg"
+  },
+  {
+    "file": "12.png",
+    "title": "The Barricade at Porte St Denis, Paris 1848",
+    "artist": "Nicolas Edward Gabé",
+    "date": "1849",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicolas_Edward_Gab%C3%A9_(1814-1865)_-_The_Barricade_at_Porte_St_Denis,_Paris_1848_-_B.M.485_-_Bowes_Museum.jpg"
+  },
+  {
+    "file": "13.png",
+    "title": "Reflections on the Thames, Westminster",
+    "artist": "John Atkinson Grimshaw",
+    "date": "1880",
+    "source": "https://commons.wikimedia.org/wiki/File:Reflections_on_the_Thames,_Westminster_-_Grimshaw,_John_Atkinson.jpg"
+  },
+  {
+    "file": "14.png",
+    "title": "Cafe House, Cairo (Casting Bullets)",
+    "artist": "Jean-Léon Gérôme",
+    "date": "1884 or earlier",
+    "source": "https://commons.wikimedia.org/wiki/File:Cafe_House,_Cairo_(Casting_Bullets)_MET_DT1037.jpg"
+  },
+  {
+    "file": "15.png",
+    "title": "Comanche Feats of Horsemanship",
+    "artist": "George Catlin",
+    "date": "1834–1835",
+    "source": "https://commons.wikimedia.org/wiki/File:Comanche_Feats_of_Horsemanship_SAAM-1985.66.487_1.jpg"
+  },
+  {
+    "file": "16.png",
+    "title": "The Last Evening",
+    "artist": "James Tissot",
+    "date": "1873",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Tissot_-_The_Last_Evening.jpg"
+  },
+  {
+    "file": "17.png",
+    "title": "View of the Bridge of Sèvres",
+    "artist": "Henri Rousseau",
+    "date": "1908",
+    "source": "https://commons.wikimedia.org/wiki/File:Henri_Rousseau_-_Vue_de_pont_de_S%C3%A8vres.jpg"
+  },
+  {
+    "file": "18.png",
+    "title": "A Parisian Cafe",
+    "artist": "Ilya Repin",
+    "date": "1875",
+    "source": "https://commons.wikimedia.org/wiki/File:Parisian_Cafe_by_Repin.jpg"
+  },
+  {
+    "file": "19.png",
+    "title": "Surrender of the Fortress of Nikopol, July 4, 1877",
+    "artist": "Nikolai Dmitriev-Orenburgsky",
+    "date": "1883",
+    "source": "https://commons.wikimedia.org/wiki/File:Nikopol_dmitriev.jpg"
+  },
+  {
+    "file": "20.png",
+    "title": "The Battle of Sinope, Night after Battle",
+    "artist": "Ivan Aivazovsky",
+    "date": "1853",
+    "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Sinop.jpg"
+  },
+  {
+    "file": "21.png",
+    "title": "At the Fortress Wall: Let Them Enter",
+    "artist": "Vasily Vereshchagin",
+    "date": "1871",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A3_%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%B5%D0%BD%D1%8B.jpg"
+  },
+  {
+    "file": "22.png",
+    "title": "A Ride for Liberty — The Fugitive Slaves",
+    "artist": "Eastman Johnson",
+    "date": "c. 1862",
+    "source": "https://commons.wikimedia.org/wiki/File:Eastman_Johnson_-_A_Ride_for_Liberty_--_The_Fugitive_Slaves_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "23.png",
+    "title": "A Eunuch's Dream",
+    "artist": "Jean Lecomte du Nouÿ",
+    "date": "1874",
+    "source": "https://commons.wikimedia.org/wiki/File:Jean_Lecomte_du_Nou%C3%BF_-_A_Eunuch%27s_Dream_-_1991.173_-_Cleveland_Museum_of_Art.jpg"
+  },
+  {
+    "file": "24.png",
+    "title": "Paris Street; Rainy Day",
+    "artist": "Gustave Caillebotte",
+    "date": "1877",
+    "source": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street,_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago.jpg"
+  },
+  {
+    "file": "25.png",
+    "title": "The Iron Rolling Mill (Modern Cyclopes)",
+    "artist": "Adolph Menzel",
+    "date": "1872–1875",
+    "source": "https://commons.wikimedia.org/wiki/File:Adolph_Menzel_-_Eisenwalzwerk_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "26.png",
+    "title": "The Barge of the Maharaja of Benares",
+    "artist": "Edwin Lord Weeks",
+    "date": "c. 1883",
+    "source": "https://commons.wikimedia.org/wiki/File:Weeks_Edwin_The_Barge_Of_The_Maharaja_Of_Benares.jpg"
+  },
+  {
+    "file": "27.png",
+    "title": "Laying out the March Dead",
+    "artist": "Adolph Menzel",
+    "date": "1848",
+    "source": "https://commons.wikimedia.org/wiki/File:Menzel_Adolph_The_Laying_Out_of_the_Fallen_March_Revolutionaries@Kunsthalle_Hamburg.JPG"
+  },
+  {
+    "file": "28.png",
+    "title": "The Last of the Buffalo",
+    "artist": "Albert Bierstadt",
+    "date": "1888",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_Bierstadt,_The_Last_of_the_Buffalo,_1888,_NGA_124525.jpg"
+  },
+  {
+    "file": "29.png",
+    "title": "Pilgrims Going to Mecca",
+    "artist": "Léon Belly",
+    "date": "1861",
+    "source": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Belly_-_Pilgrims_going_to_Mecca_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "30.png",
+    "title": "The Turkish Patrol",
+    "artist": "Alexandre-Gabriel Decamps",
+    "date": "1830",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexandre-Gabriel_Decamps_(1803-1860)_-_The_Turkish_Patrol_-_P307_-_The_Wallace_Collection.jpg"
+  },
+  {
+    "file": "31.png",
+    "title": "Buddhist Temple in Darjeeling, Sikkim",
+    "artist": "Vasily Vereshchagin",
+    "date": "1874",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%91%D1%83%D0%B4%D0%B4%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D1%80%D0%B0%D0%BC_%D0%B2_%D0%94%D0%B0%D1%80%D0%B4%D0%B6%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B5._%D0%A1%D0%B8%D0%BA%D0%BA%D0%B8%D0%BC.jpg"
+  },
+  {
+    "file": "32.png",
+    "title": "Emperor Alexander II Opens the Diet of 1863",
+    "artist": "Robert Wilhelm Ekman",
+    "date": "1865",
+    "source": "https://commons.wikimedia.org/wiki/File:Aleksanteri_II_avaa_valtiop%C3%A4iv%C3%A4t_1863.jpg"
+  },
+  {
+    "file": "33.png",
+    "title": "Jewish Wedding in Morocco",
+    "artist": "Eugène Delacroix",
+    "date": "c. 1839",
+    "source": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Jewish_Wedding_in_Morocco_-_WGA6201.jpg"
+  },
+  {
+    "file": "34.png",
+    "title": "In the Black Country",
+    "artist": "Constantin Meunier",
+    "date": "c. 1893",
+    "source": "https://commons.wikimedia.org/wiki/File:Constantin_Meunier_-_In_the_Black_Country.jpg"
+  },
+  {
+    "file": "35.png",
+    "title": "The Blessing of the Wheat in Artois",
+    "artist": "Jules Breton",
+    "date": "1857",
+    "source": "https://commons.wikimedia.org/wiki/File:Jules_Breton_-_La_B%C3%A9n%C3%A9diction_des_bl%C3%A9s_en_Artois.jpg"
+  },
+  {
+    "file": "36.png",
+    "title": "The Saint-Lazare Station",
+    "artist": "Claude Monet",
+    "date": "1877",
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Saint-Lazare_Station_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "37.png",
+    "title": "They Are Triumphant",
+    "artist": "Vasily Vereshchagin",
+    "date": "1872",
+    "source": "https://commons.wikimedia.org/wiki/File:1872_Vereshchagin_Triumphierend_anagoria.JPG"
+  },
+  {
+    "file": "38.png",
+    "title": "Train in the Snow",
+    "artist": "Claude Monet",
+    "date": "1875",
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Train_in_the_Snow.jpg"
+  },
+  {
+    "file": "39.png",
+    "title": "The Defense of Champigny",
+    "artist": "Édouard Detaille",
+    "date": "1879",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Defense_of_Champigny_MET_DT259753.jpg"
+  },
+  {
+    "file": "40.png",
+    "title": "Sheet-Rolling Workshop at the Abainville Forges",
+    "artist": "Ignace-François Bonhommé",
+    "date": "1838",
+    "source": "https://commons.wikimedia.org/wiki/File:T%C3%B4lerie_des_forges_d%27Abainville.jpg"
+  },
+  {
+    "file": "41.png",
+    "title": "Bismarck Escorts Napoleon III after Sedan",
+    "artist": "Wilhelm Camphausen",
+    "date": "1877",
+    "source": "https://commons.wikimedia.org/wiki/File:1877_Camphausen_Otto_von_Bismarck_geleitet_Kaiser_Napoleon_III_anagoria.JPG"
+  },
+  {
+    "file": "42.png",
+    "title": "A Corner of the Salon in 1880",
+    "artist": "Édouard Dantan",
+    "date": "1880",
+    "source": "https://commons.wikimedia.org/wiki/File:Edouard_Dantan_Un_Coin_du_Salon_en_1880.jpg"
+  },
+  {
+    "file": "43.png",
+    "title": "The Caravan: Nomadic Life of the Larbaâ of Laghouat",
+    "artist": "Eugène Fromentin",
+    "date": "1875",
+    "source": "https://commons.wikimedia.org/wiki/File:Eugene_Fromentin-_La_caravane_(sc%C3%A8ne_de_la_vie_nomade_des_Larb%C3%A2a_Laghouat).jpg"
+  },
+  {
+    "file": "44.png",
+    "title": "The Chess Players",
+    "artist": "Thomas Eakins",
+    "date": "1876",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Eakins_-_The_Chess_Players.jpg"
+  },
+  {
+    "file": "45.png",
+    "title": "Officials Assembling for a Trial at the Hongs of Canton",
+    "artist": "Chinese artist, unidentified",
+    "date": "c. 1807",
+    "source": "https://commons.wikimedia.org/wiki/File:ACM-Officials_assembling_for_a_trial_at_the_hongs_of_Canton-03535.jpg"
+  },
+  {
+    "file": "46.png",
+    "title": "A Mountain Pass",
+    "artist": "Franz Roubaud",
+    "date": "Undated; before 1928",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A4%D1%80%D0%B0%D0%BD%D1%86_%D0%A0%D1%83%D0%B1%D0%BE_-_%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%BB.jpg"
+  },
+  {
+    "file": "47.png",
+    "title": "Shir-Dor Madrasa on Registan Square, Samarkand",
+    "artist": "Vasily Vereshchagin",
+    "date": "1869–1870",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D0%B4%D1%80%D0%B5%D1%81%D0%B5_%D0%A8%D0%B8%D1%80-%D0%94%D0%BE%D1%80_%D0%BD%D0%B0_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D0%B0%D0%BD_%D0%B2_%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4%D0%B5.jpg"
+  },
+  {
+    "file": "48.png",
+    "title": "Insurgent Patrol",
+    "artist": "Maksymilian Gierymski",
+    "date": "c. 1873",
+    "source": "https://commons.wikimedia.org/wiki/File:Maksymilian_Gierymski_-_Insurgent_patrol_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "49.png",
+    "title": "Seoul Scenery",
+    "artist": "Hubert Vos",
+    "date": "1898–1899",
+    "source": "https://commons.wikimedia.org/wiki/File:Seoul_scenery-Hubert_Vos-1898.jpg"
+  },
+  {
+    "file": "50.png",
+    "title": "Reception of the Siamese Ambassadors by Napoleon III",
+    "artist": "Jean-Léon Gérôme",
+    "date": "1864",
+    "source": "https://commons.wikimedia.org/wiki/File:Napoleon_III_receiving_the_Siamese_embassy.jpg"
+  },
+  {
+    "file": "51.png",
+    "title": "The Village Printing Shop, Haarlem, Holland",
+    "artist": "Charles Frederick Ulrich",
+    "date": "1884",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Frederick_Ulrich_-_The_Village_Printing_Shop,_Haarlem,_Holland_(1884).jpg"
+  },
+  {
+    "file": "52.png",
+    "title": "The Last Cartridges",
+    "artist": "Alphonse de Neuville",
+    "date": "1873",
+    "source": "https://commons.wikimedia.org/wiki/File:Alphonse-Marie-Adolphe_de_Neuville_-_Les_derni%C3%A8res_cartouches_(1873).jpg"
+  },
+  {
+    "file": "53.png",
+    "title": "Miners in the Sierras",
+    "artist": "Charles Christian Nahl and August Wenderoth",
+    "date": "1851–1852",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Christian_Nahl_-_Miners_in_the_Sierras_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "54.png",
+    "title": "An Open-Air Restaurant, Lahore",
+    "artist": "Edwin Lord Weeks",
+    "date": "c. 1889",
+    "source": "https://commons.wikimedia.org/wiki/File:Weeks_Edwin_Lord_An_Open-Air_Restaurant_Lahore.jpg"
+  },
+  {
+    "file": "55.png",
+    "title": "Bivouac after the Battle of Le Bourget, 21 December 1870",
+    "artist": "Alphonse de Neuville",
+    "date": "1872",
+    "source": "https://commons.wikimedia.org/wiki/File:Bivouac_apr%C3%A8s_le_combat_du_Bourget,_21_d%C3%A9cembre_1870.jpg"
+  },
+  {
+    "file": "56.png",
+    "title": "Proclamation of the Republic",
+    "artist": "Benedito Calixto",
+    "date": "1893",
+    "source": "https://commons.wikimedia.org/wiki/File:Proclama%C3%A7%C3%A3o_da_Rep%C3%BAblica_by_Benedito_Calixto_1893.jpg"
+  },
+  {
+    "file": "57.png",
+    "title": "Arrest of a Propagandist",
+    "artist": "Ilya Repin",
+    "date": "1880–1892",
+    "source": "https://commons.wikimedia.org/wiki/File:Arrest_of_a_Propagandist.jpg"
+  },
+  {
+    "file": "58.png",
+    "title": "The Roll Call",
+    "artist": "Elizabeth Thompson (Lady Butler)",
+    "date": "1874",
+    "source": "https://commons.wikimedia.org/wiki/File:Roll-call.JPG"
+  },
+  {
+    "file": "59.png",
+    "title": "Barricade on the Rue Soufflot",
+    "artist": "Horace Vernet",
+    "date": "1848–1849",
+    "source": "https://commons.wikimedia.org/wiki/File:Horace_Vernet-Barricade_rue_Soufflot.jpg"
+  },
+  {
+    "file": "60.png",
+    "title": "Constantinople Sunset",
+    "artist": "Ivan Aivazovsky",
+    "date": "1899",
+    "source": "https://commons.wikimedia.org/wiki/File:Ivan_Constantinovich_Aivazovsky_-_Constantinople_Sunset.JPG"
+  },
+  {
+    "file": "61.png",
+    "title": "The Coronation of Nicholas II and Alexandra Feodorovna",
+    "artist": "Laurits Tuxen",
+    "date": "1898",
+    "source": "https://commons.wikimedia.org/wiki/File:Coronation_of_Nicholas_II_by_L.Tuxen_(1898,_Hermitage).jpg"
+  },
+  {
+    "file": "62.png",
+    "title": "Study for Departure of the Monção",
+    "artist": "Almeida Júnior",
+    "date": "1897",
+    "source": "https://commons.wikimedia.org/wiki/File:Almeida_J%C3%BAnior_-_Study_for_%22Departure_of_the_Mon%C3%A7%C3%A3o%22_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "63.png",
+    "title": "Bakufu Troops near Mount Fuji",
+    "artist": "Jules Brunet",
+    "date": "1867",
+    "source": "https://commons.wikimedia.org/wiki/File:BakufuTroopsIn1867.JPG"
+  },
+  {
+    "file": "64.png",
+    "title": "Night Train",
+    "artist": "Akamatsu Rinsaku",
+    "date": "1901",
+    "source": "https://www.art-prints-on-demand.com/kunst/akamatsu_rinsaku/eisenbahnwagen_bei_nacht.jpg"
+  },
+  {
+    "file": "65.png",
+    "title": "The Silk Merchant, Japan",
+    "artist": "Robert Frederick Blum",
+    "date": "1892",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Frederick_Blum_-_The_Silk_Merchant,_Japan_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "66.png",
+    "title": "Harvest",
+    "artist": "Asai Chu",
+    "date": "1890",
+    "source": "https://commons.wikimedia.org/wiki/File:Asai_Chu_-_Harvest.jpg"
+  },
+  {
+    "file": "67.png",
+    "title": "Spring Ridge",
+    "artist": "Asai Chu",
+    "date": "1888",
+    "source": "https://commons.wikimedia.org/wiki/File:Asai_chu_vegetable.jpg"
+  },
+  {
+    "file": "68.png",
+    "title": "A Japanese Garden with Cherry Blossom",
+    "artist": "John Varley II",
+    "date": "1895",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Varley_-_John_Varley_Jnr_(1850-1933)_A_Japanese_garden_with_a_figure_and_cherry_blossom_signed_and_dated_%27John_Varley_95%27_l.jpg"
+  },
+  {
+    "file": "69.png",
+    "title": "The Valley of Mexico",
+    "artist": "José María Velasco",
+    "date": "1875",
+    "source": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Mar%C3%ADa_Velasco_-_The_Valley_of_Mexico_from_the_Santa_Isabel_Mountain_Range_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "70.png",
+    "title": "Study for Lima’s Main Square",
+    "artist": "Johann Moritz Rugendas",
+    "date": "c. 1843",
+    "source": "https://commons.wikimedia.org/wiki/File:Juan_Mauricio_Rugendas_-_Study_for_Lima%E2%80%99s_Main_Square_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "71.png",
+    "title": "A Halt in the Countryside",
+    "artist": "Prilidiano Pueyrredón",
+    "date": "1861",
+    "source": "https://commons.wikimedia.org/wiki/File:Prilidiano_Pueyrredon_-_Un_alto_en_el_campo_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "72.png",
+    "title": "Horse Breaking",
+    "artist": "Juan Manuel Blanes",
+    "date": "c. 1875",
+    "source": "https://commons.wikimedia.org/wiki/File:Juan_Manuel_Blanes_-_La_doma.png"
+  },
+  {
+    "file": "73.png",
+    "title": "Cotopaxi",
+    "artist": "Frederic Edwin Church",
+    "date": "1862",
+    "source": "https://commons.wikimedia.org/wiki/File:Cotopaxi_church.jpg"
+  },
+  {
+    "file": "74.png",
+    "title": "The Great Tree-Aloe of Damaraland",
+    "artist": "Thomas Baines",
+    "date": "1861",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Baines_(1820-1875)_-_The_Great_Tree-Aloe_of_Damaraland_-_MO_101_-_Royal_Botanic_Gardens,_Kew,_Library,_Art_%5E_Archives.jpg"
+  },
+  {
+    "file": "75.png",
+    "title": "Wagon Crossing a Drift, Natal",
+    "artist": "Thomas Baines",
+    "date": "1874",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Baines_-_Wagon_Crossing_a_Drift_-_Natal_-_Google_Art_Project.jpg"
+  },
+  {
+    "file": "76.png",
+    "title": "The Rapids of Victoria Falls",
+    "artist": "Thomas Baines",
+    "date": "1864",
+    "source": "https://commons.wikimedia.org/wiki/File:The_rapids_of_the_Victoria_Falls,_Zambezi_River_by_Thomas_Baines.jpg"
+  },
+  {
+    "file": "77.png",
+    "title": "The Kissar Player",
+    "artist": "Frederick Goodall",
+    "date": "1859–1870",
+    "source": "https://commons.wikimedia.org/wiki/File:Frederick_Goodall,_The_Kissar_Player.jpg"
+  },
+  {
+    "file": "78.png",
+    "title": "Falcon Hunt, Algeria",
+    "artist": "Eugène Fromentin",
+    "date": "1874",
+    "source": "https://commons.wikimedia.org/wiki/File:Falcon_Hunt_(%27Algeria_Remembered%27)_P1206.jpg"
+  },
+  {
+    "file": "79.png",
+    "title": "Café at Biskra, Algeria",
+    "artist": "Frederick Arthur Bridgman",
+    "date": "1884",
+    "source": "https://commons.wikimedia.org/wiki/File:Cafe_at_Biskra,_Algeria_SAAM-1993.8_1.jpg"
+  },
+  {
+    "file": "80.png",
+    "title": "Market in Jaffa",
+    "artist": "Gustav Bauernfeind",
+    "date": "1887",
+    "source": "https://commons.wikimedia.org/wiki/File:Gustav_Bauernfeind_-_Market_in_Jaffa,_1887.jpg"
+  },
+  {
+    "file": "81.png",
+    "title": "Mirror Hall",
+    "artist": "Kamal-ol-Molk",
+    "date": "1890s",
+    "source": "https://commons.wikimedia.org/wiki/File:Mirror_Hall_by_Kamal-ol-molk.JPG"
+  },
+  {
+    "file": "82.png",
+    "title": "Caravan at the Gates of Constantinople",
+    "artist": "Alberto Pasini",
+    "date": "1881",
+    "source": "https://commons.wikimedia.org/wiki/File:Caravan_at_the_gates_of_Constantinople_(1881),_by_Alberto_Pasini.jpg"
+  },
+  {
+    "file": "83.png",
+    "title": "The Gate of the Umayyad Mosque",
+    "artist": "Gustav Bauernfeind",
+    "date": "1890",
+    "source": "https://commons.wikimedia.org/wiki/File:Gate_of_the_Great_Mosque,_Damascus.jpg"
+  },
+  {
+    "file": "84.png",
+    "title": "Jerusalem from the Mount of Olives",
+    "artist": "Gustav Bauernfeind",
+    "date": "c. 1902",
+    "source": "https://commons.wikimedia.org/wiki/File:Gustav_Bauernfeind_-_Jerusalem_from_the_Mount_of_Olives_at_Sunrise_(c_1902)_(Sotheby%27s)_l20022-bl8tn-01.jpg"
+  },
+  {
+    "file": "85.png",
+    "title": "Gunung Merapi and a Horseman",
+    "artist": "Raden Saleh",
+    "date": "c. 1867",
+    "source": "https://commons.wikimedia.org/wiki/File:Raden_Sarief_Bustaman_Saleh_-_Javanese_Landscape_with_Gunung_Merapi_and_Horseman_(ca._1867).jpg"
+  },
+  {
+    "file": "86.png",
+    "title": "Bangkok: Spice Shops",
+    "artist": "Eduard Hildebrandt",
+    "date": "before 1868",
+    "source": "https://commons.wikimedia.org/wiki/File:Eduard_Hildebrandt_Siam_Bangkok_Gew%C3%BCrzladen.jpg"
+  },
+  {
+    "file": "87.png",
+    "title": "Battle Scene with Elephants",
+    "artist": "Thai Wicharn",
+    "date": "Late 19th century",
+    "source": "https://commons.wikimedia.org/wiki/File:Battle_Scene_with_Elephants_Siam_vs_Burma_Painting.png"
+  },
+  {
+    "file": "88.png",
+    "title": "El Cundiman",
+    "artist": "José Honorato Lozano",
+    "date": "1847",
+    "source": "https://commons.wikimedia.org/wiki/File:El_Cundiman_by_Jos%C3%A9_Honorato_Lozano.jpg"
+  },
+  {
+    "file": "89.png",
+    "title": "An Elephant at Dusk",
+    "artist": "Eduard Hildebrandt",
+    "date": "after 1863",
+    "source": "https://commons.wikimedia.org/wiki/File:Eduard_Hildebrandt_-_Ein_Elefant_im_Abendrot.jpg"
+  },
+  {
+    "file": "90.png",
+    "title": "Khyber Pass and the Fortress of Ali Masjid",
+    "artist": "James Rattray",
+    "date": "1848",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Khyber_Pass_with_the_fortress_of_Alimusjid_-_lithograph_by_James_Rattray_-_1848_(1).jpg"
+  },
+  {
+    "file": "91.png",
+    "title": "A Street Market Scene, India",
+    "artist": "Edwin Lord Weeks",
+    "date": "1887",
+    "source": "https://commons.wikimedia.org/wiki/File:Weeks_Edwin_Lord_A_Street_Market_Scene_India_1887_Oil_On_Canvas.jpg"
+  },
+  {
+    "file": "92.png",
+    "title": "Shop of Tingqua, the Painter",
+    "artist": "Tingqua (Guan Lianchang)",
+    "date": "c. 1855",
+    "source": "https://commons.wikimedia.org/wiki/File:Shop_of_Tingqua,_the_painter.jpg"
+  },
+  {
+    "file": "93.png",
+    "title": "The Battle of Avaí",
+    "artist": "Pedro Américo",
+    "date": "1877",
+    "source": "https://commons.wikimedia.org/wiki/File:Americo-ava%C3%AD.jpg"
+  },
+  {
+    "file": "94.png",
+    "title": "Battle of Angamos",
+    "artist": "Thomas Somerscales",
+    "date": "1889",
+    "source": "https://commons.wikimedia.org/wiki/File:Angamos5.jpg"
+  },
+  {
+    "file": "95.png",
+    "title": "Battle of Puebla, 5 May 1862",
+    "artist": "Unknown artist",
+    "date": "1870",
+    "source": "https://commons.wikimedia.org/wiki/File:Batalla_de_Puebla,_5-5-1862_(1870).png"
+  },
+  {
+    "file": "96.png",
+    "title": "The Battle of Isandlwana",
+    "artist": "Charles Edwin Fripp",
+    "date": "1885",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Edwin_Fripp_(1854-1906)_-_The_Battle_of_Isandlwana,_22_January_1879_-_NAM._1960-11-182_-_National_Army_Museum.jpg"
+  },
+  {
+    "file": "97.png",
+    "title": "Omdurman: The First Battle, 6.30 a.m.",
+    "artist": "A. Sutherland",
+    "date": "1898 or later",
+    "source": "https://commons.wikimedia.org/wiki/File:Lines_of_foot_soldiers_in_uniform_are_gathered_on_one_side_o_Wellcome_V0041182.jpg"
+  },
+  {
+    "file": "98.png",
+    "title": "The Arrest of Diponegoro",
+    "artist": "Raden Saleh",
+    "date": "1857",
+    "source": "https://commons.wikimedia.org/wiki/File:Raden_Saleh_-_Diponegoro_arrest.jpg"
+  },
+  {
+    "file": "99.png",
+    "title": "The Relief of Lucknow, 1857",
+    "artist": "Thomas Jones Barker",
+    "date": "1859",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Relief_of_Lucknow,_1857.jpg"
+  },
+  {
+    "file": "100.png",
+    "title": "Hong Kong Harbour",
+    "artist": "Unknown Chinese artist",
+    "date": "Late 1850s",
+    "source": "https://commons.wikimedia.org/wiki/File:China_unknown_artist_-_late_1850s_-_Hong_Kong_harbour_-_oil_on_canvas_IMG_9403_Museum_of_Asian_Civilisation.jpg"
+  }
+]

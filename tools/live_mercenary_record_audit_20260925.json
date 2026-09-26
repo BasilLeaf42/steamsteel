@@ -1,0 +1,807 @@
+{
+  "total": 114,
+  "subfaction": 48,
+  "standard": 66,
+  "duplicates": [],
+  "unclassifiedSubfactionNames": [],
+  "units": [
+    {
+      "type": "col_12lb",
+      "dict": "col_12lb",
+      "display": "Colonial Rifled Muzzle-Loading Cannon",
+      "category": "siege",
+      "subfaction": false
+    },
+    {
+      "type": "ship_sail_sotl",
+      "dict": "ship_sail_sotl",
+      "display": "Ship of the Line",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "caravel",
+      "dict": "caravel",
+      "display": "Steam Ship of the Line",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ladya",
+      "dict": "ladya",
+      "display": "Broadside Ironclad",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "carrack",
+      "dict": "carrack",
+      "display": "Turret Ironclad",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_pre_dreadnought",
+      "dict": "ship_pre_dreadnought",
+      "display": "Pre-Dreadnought",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "gun holk",
+      "dict": "gun_holk",
+      "display": "Dreadnought",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "dragon boat",
+      "dict": "dragon_boat",
+      "display": "Wooden Sail Frigate",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "grande carrack",
+      "dict": "grande_carrack",
+      "display": "Wooden Steam Frigate",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_iron_frigate",
+      "dict": "ship_iron_frigate",
+      "display": "Iron-hulled Frigate",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_armoured_frigate",
+      "dict": "ship_armoured_frigate",
+      "display": "Armoured Frigate",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_protected_cruiser",
+      "dict": "ship_protected_cruiser",
+      "display": "Protected Cruiser",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_armoured_cruiser",
+      "dict": "ship_armoured_cruiser",
+      "display": "Armoured Cruiser",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_sail_corvette",
+      "dict": "ship_sail_corvette",
+      "display": "Wooden Sail Corvette",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_steam_corvette",
+      "dict": "ship_steam_corvette",
+      "display": "Wooden Steam Corvette",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_composite_corvette",
+      "dict": "ship_composite_corvette",
+      "display": "Composite Corvette",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_ironclad_corvette",
+      "dict": "ship_ironclad_corvette",
+      "display": "Ironclad Ram",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_unprotected_cruiser",
+      "dict": "ship_unprotected_cruiser",
+      "display": "Unprotected Cruiser",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_destroyer",
+      "dict": "ship_destroyer",
+      "display": "Torpedo Boat Destroyer",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_torpedo",
+      "dict": "ship_torpedo",
+      "display": "Torpedo Boat",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "cog",
+      "dict": "cog",
+      "display": "Gunboat",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "ship_monitor",
+      "dict": "ship_monitor",
+      "display": "Monitor",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "merc galley",
+      "dict": "merc_galley",
+      "display": "Armed Merchantman",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "merc cog",
+      "dict": "merc_cog",
+      "display": "Merchant Gunboat",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "turtle ship",
+      "dict": "turtle_ship",
+      "display": "Armed Junk",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "dhow",
+      "dict": "dhow",
+      "display": "Dhow",
+      "category": "ship",
+      "subfaction": false
+    },
+    {
+      "type": "merc_us_farmer_cav",
+      "dict": "merc_us_farmer_cav",
+      "display": "Settler Cavalry",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_ap_front_cav",
+      "dict": "merc_ap_front_cav",
+      "display": "Indian Scout Cavalry",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_apache_inf",
+      "dict": "merc_apache_inf",
+      "display": "Apache Mercenaries",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_uru_inf",
+      "dict": "merc_uru_inf",
+      "display": "Uruguayan Infantry",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_para_foot",
+      "dict": "merc_para_foot",
+      "display": "Paraguayan Infantry",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_us_farmers",
+      "dict": "merc_us_farmers",
+      "display": "Filibusters",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "arab_cav",
+      "dict": "arab_cav",
+      "display": "Arab Faris",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_port_inf_early",
+      "dict": "merc_port_inf_early",
+      "display": "Fuzileiros Portugueses (Early)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_port_inf_high",
+      "dict": "merc_port_inf_high",
+      "display": "Fuzileiros Portugueses (Late)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_port_cav_early",
+      "dict": "merc_port_cav_early",
+      "display": "Carabineiros Portugueses (Early)",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_port_cav_mid",
+      "dict": "merc_port_cav_mid",
+      "display": "Carabineiros Portugueses (Mid)",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_port_cav_high",
+      "dict": "merc_port_cav_high",
+      "display": "Carabineiros Portugueses (Late)",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_bhutan_warrior",
+      "dict": "merc_bhutan_warrior",
+      "display": "Bhutanese Warriors",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_papa_bows",
+      "dict": "merc_papa_bows",
+      "display": "Melanesian Scouts",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_burmese_inf",
+      "dict": "merc_burmese_inf",
+      "display": "Burmese Irregulars",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_indian_fanatic",
+      "dict": "merc_indian_fanatic",
+      "display": "Akali Warriors",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_maori_spearmen",
+      "dict": "merc_maori_spearmen",
+      "display": "Maori Warriors",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_maori_musketeers",
+      "dict": "merc_maori_musketeers",
+      "display": "Maori Musketeers",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_arab_sailors",
+      "dict": "merc_arab_sailors",
+      "display": "Khedival Infantry",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_fra_blacks",
+      "dict": "merc_fra_blacks",
+      "display": "Askari",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_eng_for_cav",
+      "dict": "merc_eng_for_cav",
+      "display": "Khedival Cavalry",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_fra_for_cav",
+      "dict": "merc_fra_for_cav",
+      "display": "Spahis",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_mongol_bows",
+      "dict": "merc_mongol_bows",
+      "display": "Mongol Bowmen",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_pol_hussars",
+      "dict": "merc_pol_hussars",
+      "display": "Polish Hussars",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_polish_inf",
+      "dict": "merc_polish_inf",
+      "display": "Polish Infantry",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_georgian_inf",
+      "dict": "merc_georgian_inf",
+      "display": "Georgian Mercenaries",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_serb_inf",
+      "dict": "merc_serb_inf",
+      "display": "Serbian Infantry",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "africa_cav",
+      "dict": "africa_cav",
+      "display": "African Cavalry",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "african_warband",
+      "dict": "african_warband",
+      "display": "African Warband",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_zulu_rifles",
+      "dict": "merc_zulu_rifles",
+      "display": "Tribal Auxiliaries",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "mahdist_inf",
+      "dict": "mahdist_inf",
+      "display": "Mahdist Warriors (Kaskara and Shield)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "fra_blacks_az",
+      "dict": "fra_blacks_az",
+      "display": "Dervishes (Rifle, Remington No. 1 Rolling Block)",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_bulgarian_inf",
+      "dict": "merc_bulgarian_inf",
+      "display": "Bulgarian Infantry",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "mahdist_camel_cav",
+      "dict": "mahdist_camel_cav",
+      "display": "Mahdist Camelry (Carbine, Remington No. 1 Rolling Block)",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "mahdist_cav",
+      "dict": "mahdist_cav",
+      "display": "Mahdist Cavalry (Kaskara and Shield)",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "viet_inf",
+      "dict": "viet_inf",
+      "display": "Vietnamese Infantry",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_aceh_marines",
+      "dict": "merc_aceh_marines",
+      "display": "Aceh Marines",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_aceh_noble",
+      "dict": "merc_aceh_noble",
+      "display": "Aceh Noblemen",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_aceh_reg",
+      "dict": "merc_aceh_reg",
+      "display": "Malay Militia",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_aceh_gold",
+      "dict": "merc_aceh_gold",
+      "display": "Aceh Golden Warriors",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_aceh_warband",
+      "dict": "merc_aceh_warband",
+      "display": "Aceh Warband",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_aceh_inf",
+      "dict": "merc_aceh_inf",
+      "display": "Aceh Greek Fire Squad",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "mongol_hevcav",
+      "dict": "mongol_hevcav",
+      "display": "Mongolian Tribal Cavalry",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "korean_archers",
+      "dict": "korean_archers",
+      "display": "Uibyeong Hunters",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_tib_temple_guard",
+      "dict": "merc_tib_temple_guard",
+      "display": "Taiping Cavalry",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_tib_noble_cav",
+      "dict": "merc_tib_noble_cav",
+      "display": "Tibetan Noble Horse-Archers",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "taipingguners",
+      "dict": "taipingguners",
+      "display": "Taiping Arquebusiers",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "taiping_inf",
+      "dict": "taiping_inf",
+      "display": "Taiping Heavenly Warriors",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "taiping_light",
+      "dict": "taiping_light",
+      "display": "Taiping Skirmishers",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "taiping_w",
+      "dict": "taiping_w",
+      "display": "Taiping Female Warriors",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "tib_militia",
+      "dict": "tib_militia",
+      "display": "Tibetan Militia",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_tib_inf",
+      "dict": "merc_tib_inf",
+      "display": "Tibetan Arquebusiers",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "tib_horse_archer",
+      "dict": "tib_horse_archer",
+      "display": "Kangba Horse Archers",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "tib_roy_inf",
+      "dict": "tib_roy_inf",
+      "display": "Tibetan Noble Infantry",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "tib_tribal_archer",
+      "dict": "tib_tribal_archer",
+      "display": "Tibetan Tribal Archers",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "tib_temple_guard",
+      "dict": "tib_temple_guard",
+      "display": "Black Flag Army",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "tib_heavy_spear",
+      "dict": "tib_heavy_spear",
+      "display": "Tibetan Heavy Spearmen",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_kok_royal_cav",
+      "dict": "merc_kok_royal_cav",
+      "display": "Tartar Cavalry",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_kashgar_inf",
+      "dict": "merc_kashgar_inf",
+      "display": "Kashgar Musketeers",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "mercs_tib_monks",
+      "dict": "mercs_tib_monks",
+      "display": "Tibetan Monks",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "qing_green_banner_horse",
+      "dict": "qing_green_banner_horse",
+      "display": "Green Banner Horse Squadron",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "Korean Byeolgigun",
+      "dict": "Korean_Byeolgigun",
+      "display": "Byeolgigun",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Korean Gimagungsu",
+      "dict": "Korean_Gimagungsu",
+      "display": "Gimagungsu",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "Korean Musketeers",
+      "dict": "Korean_Musketeers",
+      "display": "Chongsa",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Korean Pikemen",
+      "dict": "Korean_Pikemen",
+      "display": "Changbyeong",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Ethiopia Sudanese Musketeers",
+      "dict": "Ethiopia_Sudanese_Musketeers",
+      "display": "Sudanese Musketeers (Musket, Brown Bess Flintlock, Kaskara and Shield)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Ethiopia Sudanese Warriors",
+      "dict": "Ethiopia_Sudanese_Warriors",
+      "display": "Sudanese Warriors (Spear and Shield)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Ainu Archers",
+      "dict": "Japan_Ainu_Archers",
+      "display": "Ainu Archers",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Ainu Geberu",
+      "dict": "Japan_Ainu_Geberu",
+      "display": "Ainu Hunters (Geberu)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Ainu Minieru",
+      "dict": "Japan_Ainu_Minieru",
+      "display": "Ainu Hunters (Minieru)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Ainu Teppo",
+      "dict": "Japan_Ainu_Teppo",
+      "display": "Ainu Hunters (Teppo)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Heimin Mob",
+      "dict": "Japan_Heimin_Mob",
+      "display": "Heimin Mob",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Heimin Partisans",
+      "dict": "Japan_Heimin_Partisans",
+      "display": "Heimin Partisans (Teppo)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Heimin Partisans Geberu",
+      "dict": "Japan_Heimin_Partisans_Geberu",
+      "display": "Heimin Partisans (Geberu)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Heimin Partisans Minieru",
+      "dict": "Japan_Heimin_Partisans_Minieru",
+      "display": "Heimin Partisans (Minieru)",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Ronin",
+      "dict": "Japan_Ronin",
+      "display": "Ronin",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Shizoku",
+      "dict": "Japan_Shizoku",
+      "display": "Shizoku",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "Japan Teppotai Merc",
+      "dict": "Japan_Teppotai_Merc",
+      "display": "Teppotai",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "korean_rifles_mercs",
+      "dict": "korean_rifles_mercs",
+      "display": "Jinwidae",
+      "category": "infantry",
+      "subfaction": true
+    },
+    {
+      "type": "korean_cav_mercs",
+      "dict": "korean_cav_mercs",
+      "display": "Bogmagun",
+      "category": "cavalry",
+      "subfaction": true
+    },
+    {
+      "type": "merc_rus_georgian_cav",
+      "dict": "merc_rus_georgian_cav",
+      "display": "Caucasian Cavalry",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_zulu_spearmen",
+      "dict": "merc_zulu_spearmen",
+      "display": "Xhosa Impi",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_sikh_warriors",
+      "dict": "merc_sikh_warriors",
+      "display": "Ex-Company Sikh Sepoys",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_fra_inf_ch",
+      "dict": "merc_fra_inf_ch",
+      "display": "Chilean Infantry",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_arab_brigade",
+      "dict": "merc_arab_brigade",
+      "display": "Bedouin Irregulars",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_balk_cav_ch",
+      "dict": "merc_balk_cav_ch",
+      "display": "Chilean Hussars",
+      "category": "cavalry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_siam_agent",
+      "dict": "merc_siam_agent",
+      "display": "Mercenary Siamese Arquebusiers",
+      "category": "infantry",
+      "subfaction": false
+    },
+    {
+      "type": "merc_uk_sailor",
+      "dict": "merc_uk_sailor",
+      "display": "Merchant Marine",
+      "category": "infantry",
+      "subfaction": false
+    }
+  ]
+}

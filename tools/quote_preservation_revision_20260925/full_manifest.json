@@ -1,0 +1,390 @@
+{
+  "count": 122,
+  "changed_authors": 56,
+  "changed_quote_strings": 17,
+  "changes": [
+    {
+      "key": "Author_1",
+      "before": "Porfirio Díaz, Thrice President of Mexico",
+      "after": "Porfirio Díaz, President of Mexico"
+    },
+    {
+      "key": "Author_4",
+      "before": "Henry Hope Crealock, Lt- Colonel at the battle of Isandlwana",
+      "after": "Henry Hope Crealock, Lieutenant-Colonel; at Isandlwana"
+    },
+    {
+      "key": "Author_6",
+      "before": "Wilhelm I, German Emperor and King of Prussia on Bismark",
+      "after": "Wilhelm I, German Emperor and King of Prussia; on Bismarck"
+    },
+    {
+      "key": "Author_7",
+      "before": "Patrice de MacMahon, Marshal and President of France and Governor General of Algeria",
+      "after": "Patrice de MacMahon, Marshal of France"
+    },
+    {
+      "key": "Author_8",
+      "before": "Patrice de MacMahon, Marshal and President of France and Governor General of Algeria",
+      "after": "Patrice de MacMahon, Marshal of France; attributed remark at Malakoff, 1855"
+    },
+    {
+      "key": "Author_9",
+      "before": "Patrice de MacMahon, Marshal and President of France and Governor General of Algeria",
+      "after": "Patrice de MacMahon, Marshal of France"
+    },
+    {
+      "key": "Author_11",
+      "before": "William McKinley, President of the United States",
+      "after": "William McKinley, President of the United States; the Philippines, 1898"
+    },
+    {
+      "key": "Author_20",
+      "before": "Porfirio Díaz, Thrice President of Mexico",
+      "after": "Porfirio Díaz, President of Mexico"
+    },
+    {
+      "key": "Author_22",
+      "before": "Charles Robert Darwin, English Scientist",
+      "after": "Charles Robert Darwin, English scientist"
+    },
+    {
+      "key": "Author_23",
+      "before": "Alfred Thayer Mahan, American Admiral and Historian",
+      "after": "Alfred Thayer Mahan, American admiral and historian"
+    },
+    {
+      "key": "Author_24",
+      "before": "Henry John Temple, 3rd Viscount Palmerston, Twice British Prime Minister",
+      "after": "Henry John Temple, Viscount Palmerston, British Prime Minister"
+    },
+    {
+      "key": "Author_25",
+      "before": "Henry John Temple, 3rd Viscount Palmerston, Twice British Prime Minister",
+      "after": "Henry John Temple, Viscount Palmerston, British Prime Minister"
+    },
+    {
+      "key": "Author_27",
+      "before": "Henry John Temple, 3rd Viscount Palmerston, Twice British Prime Minister",
+      "after": "Henry John Temple, Viscount Palmerston, British Prime Minister"
+    },
+    {
+      "key": "Author_29",
+      "before": "Nikolai I Pavlovich Romanov, Emperor of all the Russias                  \t",
+      "after": "Nikolai I Pavlovich Romanov, Emperor of all the Russias"
+    },
+    {
+      "key": "Author_32",
+      "before": "Karl Marx, German socialist philosopher on the coup of Napoleon III",
+      "after": "Karl Marx, German socialist philosopher; on Napoleon III’s coup (paraphrased)"
+    },
+    {
+      "key": "Author_33",
+      "before": "Karl Marx, German socialist philosopher ",
+      "after": "Karl Marx, German socialist philosopher"
+    },
+    {
+      "key": "Author_34",
+      "before": "Karl Marx, German socialist philosopher ",
+      "after": "Karl Marx and Friedrich Engels, \"The Communist Manifesto\""
+    },
+    {
+      "key": "Author_35",
+      "before": "Friedrich Engels, German socialist philosopher ",
+      "after": "Friedrich Engels, German socialist philosopher"
+    },
+    {
+      "key": "Author_36",
+      "before": "Joseph Athanase Doumer, governor-general of French Indochina and President of France",
+      "after": "Paul Doumer, Governor-General of French Indochina"
+    },
+    {
+      "key": "Author_37",
+      "before": "Karl Marx, German socialist philosopher ",
+      "after": "Karl Marx, German socialist philosopher"
+    },
+    {
+      "key": "Author_38",
+      "before": "Karl Marx, German socialist philosopher ",
+      "after": "Karl Marx, German socialist philosopher"
+    },
+    {
+      "key": "Author_47",
+      "before": "Benjamin Disraeli, Earl of Beaconsfield, Twice British Prime Minister ",
+      "after": "Benjamin Disraeli, Earl of Beaconsfield, British Prime Minister"
+    },
+    {
+      "key": "Author_48",
+      "before": "Benjamin Disraeli, Earl of Beaconsfield, Twice British Prime Minister ",
+      "after": "Benjamin Disraeli, Earl of Beaconsfield, British Prime Minister"
+    },
+    {
+      "key": "Author_49",
+      "before": "Benjamin Disraeli, Earl of Beaconsfield, Twice British Prime Minister ",
+      "after": "Benjamin Disraeli, Earl of Beaconsfield, British Prime Minister"
+    },
+    {
+      "key": "Author_50",
+      "before": "Benjamin Disraeli, Earl of Beaconsfield, Twice British Prime Minister ",
+      "after": "Benjamin Disraeli, Earl of Beaconsfield, British Prime Minister"
+    },
+    {
+      "key": "Author_51",
+      "before": "Benjamin Disraeli, Earl of Beaconsfield, Twice British Prime Minister ",
+      "after": "Benjamin Disraeli, Earl of Beaconsfield, British Prime Minister"
+    },
+    {
+      "key": "Author_52",
+      "before": "Benjamin Disraeli, Earl of Beaconsfield, Twice British Prime Minister ",
+      "after": "Benjamin Disraeli, Earl of Beaconsfield, British Prime Minister"
+    },
+    {
+      "key": "Author_53",
+      "before": "Benjamin Disraeli, Earl of Beaconsfield, Twice British Prime Minister ",
+      "after": "Benjamin Disraeli, Earl of Beaconsfield, British Prime Minister"
+    },
+    {
+      "key": "Author_54",
+      "before": "William Ewart Gladstone, Four times British Prime Minister ",
+      "after": "William Ewart Gladstone, British Prime Minister"
+    },
+    {
+      "key": "Author_55",
+      "before": "William Ewart Gladstone, Four times British Prime Minister ",
+      "after": "William Ewart Gladstone, British Prime Minister"
+    },
+    {
+      "key": "Author_56",
+      "before": "William Ewart Gladstone, Four times British Prime Minister ",
+      "after": "William Ewart Gladstone, British Prime Minister"
+    },
+    {
+      "key": "Author_62",
+      "before": "Henri Duval, French colonial official; on French Indochina",
+      "after": "Henri Duval, French colonial official; rubber production in Indochina"
+    },
+    {
+      "key": "Author_72",
+      "before": "Charles George Gordon, 'Chinese Gordon'",
+      "after": "Charles George Gordon, British general"
+    },
+    {
+      "key": "Author_73",
+      "before": "Charles George Gordon, 'Chinese Gordon'",
+      "after": "Charles George Gordon, British general"
+    },
+    {
+      "key": "Author_74",
+      "before": "Charles George Gordon, 'Chinese Gordon'",
+      "after": "Charles George Gordon, British general; besieged at Khartoum"
+    },
+    {
+      "key": "Author_75",
+      "before": "Charles George Gordon, 'Chinese Gordon'",
+      "after": "Charles George Gordon, British officer; burning the Summer Palace, 1860"
+    },
+    {
+      "key": "Author_76",
+      "before": "Henry Morton Stanley, Welsh American Explorer",
+      "after": "Henry Morton Stanley, Welsh-American explorer"
+    },
+    {
+      "key": "Author_77",
+      "before": "Henry Morton Stanley, Welsh American Explorer",
+      "after": "Henry Morton Stanley, Welsh-American explorer"
+    },
+    {
+      "key": "Author_78",
+      "before": "Henry Morton Stanley, Welsh American Explorer",
+      "after": "Henry Morton Stanley, Welsh-American explorer"
+    },
+    {
+      "key": "Author_79",
+      "before": "Shaka kaSenzangakhona,  king of the Zulu Kingdom",
+      "after": "Shaka kaSenzangakhona, King of the Zulu Kingdom"
+    },
+    {
+      "key": "Author_81",
+      "before": "Joseph Rudyard Kipling, English writer and poet",
+      "after": "Rudyard Kipling, English writer and poet, \"Land and Sea Tales\" (1923)"
+    },
+    {
+      "key": "Author_82",
+      "before": "Joseph Rudyard Kipling, English writer and poet",
+      "after": "Rudyard Kipling, English writer and poet, \"The White Man’s Burden\""
+    },
+    {
+      "key": "Author_83",
+      "before": "Joseph Rudyard Kipling, English writer and poet",
+      "after": "Rudyard Kipling, English writer and poet, \"Tommy\""
+    },
+    {
+      "key": "Author_84",
+      "before": "Joseph Rudyard Kipling, English writer and poet, \"The Grave of the Hundred Head\"",
+      "after": "Rudyard Kipling, English writer and poet, \"The Grave of the Hundred Head\""
+    },
+    {
+      "key": "Author_85",
+      "before": "Joseph Rudyard Kipling, English writer and poet, \"The Grave of the Hundred Head\"",
+      "after": "Rudyard Kipling, English writer and poet, \"The Grave of the Hundred Head\""
+    },
+    {
+      "key": "Author_86",
+      "before": "Joseph Rudyard Kipling, English writer and poet, \"The Grave of the Hundred Head\"",
+      "after": "Rudyard Kipling, English writer and poet, \"The Grave of the Hundred Head\""
+    },
+    {
+      "key": "Author_87",
+      "before": "Joseph Rudyard Kipling, English writer and poet, \"Pharaoh and the Sergeant\"",
+      "after": "Rudyard Kipling, English writer and poet, \"Pharaoh and the Sergeant\""
+    },
+    {
+      "key": "Author_97",
+      "before": "Franz Joseph I, Emperor of Austria, King of Bohemia, King of Galicia and Lodomeria, King of Hungary etc.",
+      "after": "Franz Joseph I, Emperor of Austria and King of Hungary"
+    },
+    {
+      "key": "Author_98",
+      "before": "Franz Joseph I, Emperor of Austria, King of Bohemia, King of Galicia and Lodomeria, King of Hungary etc.",
+      "after": "Franz Joseph I, Emperor of Austria and King of Hungary"
+    },
+    {
+      "key": "Author_99",
+      "before": "Franz Joseph I, Emperor of Austria, King of Bohemia, King of Galicia and Lodomeria, King of Hungary etc.",
+      "after": "Franz Joseph I, Emperor of Austria and King of Hungary"
+    },
+    {
+      "key": "Author_100",
+      "before": "Franz Joseph I, Emperor of Austria, King of Bohemia, King of Galicia and Lodomeria, King of Hungary etc.",
+      "after": "Franz Joseph I, Emperor of Austria and King of Hungary"
+    },
+    {
+      "key": "Author_101",
+      "before": "Le Bien Public, Belgian Newspaper; on the establishment of the Second Mexican Empire",
+      "after": "Le Bien Public, Belgian newspaper; the Second Mexican Empire"
+    },
+    {
+      "key": "Author_102",
+      "before": "The United States Congress; on the Second Mexican Empire",
+      "after": "United States Congress; the Second Mexican Empire"
+    },
+    {
+      "key": "Author_104",
+      "before": "Robert E. Lee, General in Chief of the Armies of the Confederate States",
+      "after": "Robert E. Lee, Confederate general"
+    },
+    {
+      "key": "Author_105",
+      "before": "Robert E. Lee, General in Chief of the Armies of the Confederate States",
+      "after": "Robert E. Lee, Confederate general"
+    },
+    {
+      "key": "Author_106",
+      "before": "Robert E. Lee, General in Chief of the Armies of the Confederate States",
+      "after": "Robert E. Lee, Confederate general"
+    },
+    {
+      "key": "Quote_3",
+      "before": "\"I love the English. I am the child of Queen Victoria. But I am also King in my own country and must be treated as such. Somsteu must speak gently to me. I shall not bear his dictation: I shall perish first.\"",
+      "after": "\"I love the English. I am the child of Queen Victoria. But I am also King in my own country and must be treated as such. Somsteu [Theophilus Shepstone] must speak gently to me. I shall not bear his dictation: I shall perish first.\""
+    },
+    {
+      "key": "Quote_5",
+      "before": "\"The poor French...They have not read their Mahan!\"",
+      "after": "\"The poor French… They have not read their Mahan!\""
+    },
+    {
+      "key": "Quote_9",
+      "before": "\"Typhoid fever is a terrible sickness. Either you die from it or you remain idiotic from it. I know what I'm taking about, I have had it.\"",
+      "after": "\"Typhoid fever is a terrible sickness. Either you die from it or you remain idiotic from it. I know what I'm talking about, I have had it.\""
+    },
+    {
+      "key": "Quote_16",
+      "before": "\"It seems to me a defect in our much famed Constitution, to have to part with an admirable Govt like Ld Salisbury's for no question of any importance..., merely on account of the number of votes.\"",
+      "after": "\"It seems to me a defect in our much famed Constitution, to have to part with an admirable Govt like Ld Salisbury's for no question of any importance…, merely on account of the number of votes.\""
+    },
+    {
+      "key": "Quote_20",
+      "before": "\"Poor Mexico, so far from god, so close to the United States.\"",
+      "after": "\"Poor Mexico, so far from God, so close to the United States.\""
+    },
+    {
+      "key": "Quote_25",
+      "before": "\"The policy and practice of the Russian Government has always been to push forward its encroachments as fast and as far as the apathy or want of firmness of other Governments would allow it to go...\"",
+      "after": "\"The policy and practice of the Russian Government has always been to push forward its encroachments as fast and as far as the apathy or want of firmness of other Governments would allow it to go…\""
+    },
+    {
+      "key": "Quote_72",
+      "before": "\"For a foreign power to take this country [the Sudan] would be most easy. The mass are far from fanatical…. It is the government that needs civilizing far more than the people.\"",
+      "after": "\"For a foreign power to take this country [the Sudan] would be most easy. The mass are far from fanatical… It is the government that needs civilizing far more than the people.\""
+    },
+    {
+      "key": "Quote_73",
+      "before": "\"The Sudan is a useless possession, ever was so, and ever will be so...\"",
+      "after": "\"The Sudan is a useless possession, ever was so, and ever will be so…\""
+    },
+    {
+      "key": "Quote_75",
+      "before": "\"You can scarcely imagine the beauty and magnificence of the palaces we burnt. It made one’s heart sore just to burn them;  those palaces were so large, and we were so pressed for time, that we could not plunder them carefully.\"",
+      "after": "\"You can scarcely imagine the beauty and magnificence of the palaces we burnt. It made one’s heart sore just to burn them; those palaces were so large, and we were so pressed for time, that we could not plunder them carefully.\""
+    },
+    {
+      "key": "Quote_77",
+      "before": "\"I have arrived at this place from Zanzibar with 115 souls, men, women & children. We are now in a state of imminent starvation. We can purchase nothing from the natives for they laugh at our kinds of cloth....\"",
+      "after": "\"I have arrived at this place from Zanzibar with 115 souls, men, women & children. We are now in a state of imminent starvation. We can purchase nothing from the natives for they laugh at our kinds of cloth…\""
+    },
+    {
+      "key": "Quote_87",
+      "before": "\"Said England unto Pharaoh, \"I must make a man of you, That will stand upon his feet and play the game; That will Maxim his oppressor as a Christian ought to do,\" And she sent old Pharaoh Sergeant Whatsisname.\"",
+      "after": "\"Said England unto Pharaoh, ‘I must make a man of you, That will stand upon his feet and play the game; That will Maxim his oppressor as a Christian ought to do,’ And she sent old Pharaoh Sergeant Whatsisname.\""
+    },
+    {
+      "key": "Quote_93",
+      "before": "\"You [recruits] have sworn loyalty to me. You have only one enemy and that is my enemy. It may come about that I order you to shoot down your own relatives, brothers or parents... you must follow my orders without a murmur.\"",
+      "after": "\"You [recruits] have sworn loyalty to me. You have only one enemy and that is my enemy. It may come about that I order you to shoot down your own relatives, brothers or parents… you must follow my orders without a murmur.\""
+    },
+    {
+      "key": "Quote_94",
+      "before": "\"No quarter will be given! Prisoners will not be taken! Whoever falls into your hands is forfeited. Just as a thousand years ago the Huns under their King Attila made a name for themselves...\"",
+      "after": "\"No quarter will be given! Prisoners will not be taken! Whoever falls into your hands is forfeited. Just as a thousand years ago the Huns under their King Attila made a name for themselves…\""
+    },
+    {
+      "key": "Quote_115",
+      "before": "\"We shall first confront [the Russians] with arguments...and then settle it on the battlefield.\"",
+      "after": "\"We shall first confront [the Russians] with arguments… and then settle it on the battlefield.\""
+    },
+    {
+      "key": "Quote_116",
+      "before": "\"If you [French] are afraid to come...Then give back the cities you have taken. I am a merciful commander, and I will let you miserable ants live. But if you delay, my army will take your city and kill you all, and not even a blade of grass will mark where you stood.\"",
+      "after": "\"If you [French] are afraid to come… Then give back the cities you have taken. I am a merciful commander, and I will let you miserable ants live. But if you delay, my army will take your city and kill you all, and not even a blade of grass will mark where you stood.\""
+    },
+    {
+      "key": "Quote_117",
+      "before": "\"The German officer in command of the troops left at Langfang, was attacked by the Imperial forces belonging to General Tung-fuh-siang's [\"Gansu Braves\"] division. Their numbers were estimated at 7,000 and they were well armed with modern rifles which they used with effect, so that we suffered considerable casualties.\"",
+      "after": "\"The German officer in command of the troops left at Langfang, was attacked by the Imperial forces belonging to General Tung-fuh-siang's [Gansu Braves] division. Their numbers were estimated at 7,000 and they were well armed with modern rifles which they used with effect, so that we suffered considerable casualties.\""
+    },
+    {
+      "key": "Quote_119",
+      "before": "\"The character of the Japanese essentially distinguishes them from other oriental people...We must act towards them with goodwill and dignity, critically but with justice; we can often appeal to their sentiment of honour and to the pride found among all of them, even among the lowest classes...\"",
+      "after": "\"The character of the Japanese essentially distinguishes them from other oriental people… We must act towards them with goodwill and dignity, critically but with justice; we can often appeal to their sentiment of honour and to the pride found among all of them, even among the lowest classes…\""
+    }
+  ],
+  "files": [
+    {
+      "path": "data\\text\\quotes.txt",
+      "after_sha256": "f59164b16691d753b0db7ad69a5e47c6b1001f7da20afaa4b6daf57dba3cb681",
+      "backup": "tools\\quote_full_audit_20260925\\quotes.txt"
+    },
+    {
+      "path": "data\\text\\quotes.txt.strings.bin",
+      "after_sha256": "43e552a3014e36d63147f7cdace0047dc4d61780186af3fa3c6bb526dc1e660c",
+      "backup": "tools\\quote_full_audit_20260925\\quotes.txt.strings.bin"
+    },
+    {
+      "path": "data\\descr_quotes_lookup.txt",
+      "after_sha256": "6f3673848c14a0c08e3b8f24c71483888aec872fa1c5862f80d891acda692045",
+      "backup": "tools\\quote_full_audit_20260925\\descr_quotes_lookup.txt"
+    }
+  ],
+  "validation": "All 122 entries reviewed; text and compiled values agree; binary lookup tail and external lookup unchanged; no removal or renumbering; Aizu wording preserved."
+}

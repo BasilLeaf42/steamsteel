@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\tools\\backup_before_remaining_mercenary_standardization_20260922\\cards\\mercs\\#merc_arab_sailors.tga",
+  "targets": [
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\mercs\\#merc_arab_sailors.tga",
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Medieval II Total War\\mods\\steamsteel\\data\\ui\\units\\slave\\#merc_arab_sailors.tga"
+  ],
+  "canonical_background": "#B8AD8F",
+  "source_alpha_range": [
+    0,
+    255
+  ],
+  "opaque_foreground_pixels_verified_unchanged": 940,
+  "method": "alpha_composite_only",
+  "opaque_colour_keying_used": false
+}

@@ -6,7 +6,7 @@ rebel_type			gladiator_uprising
 category			gladiator_revolt
 chance				0
 description			gladiator_uprising
-unit				mex_bers
+unit				mex_cazadores_early
 
 ;======================================================================================
 					
@@ -14,7 +14,7 @@ rebel_type			brigands
 category			brigands
 chance				999
 description			brigands
-unit				mex_bers
+unit				mex_cazadores_early
 					
 rebel_type			pirates
 category			pirates
@@ -48,15 +48,15 @@ rebel_type			Chinese_Rebels
 category			peasant_revolt 
 chance				400					
 description			Chinese_Rebels
-unit				qing_vets
-unit				qing_vets
-unit				qing_vets
-unit				qing_vets
-unit				qing_archers
-unit				qing_archers
-unit				qing_swords
-unit				qing_swords
-unit				qing_swords
+unit				qing_green_banner_gunmen
+unit				qing_green_banner_gunmen
+unit				qing_green_banner_gunmen
+unit				qing_green_banner_gunmen
+unit				qing_green_banner_archers
+unit				qing_green_banner_archers
+unit				qing_village_braves
+unit				qing_village_braves
+unit				qing_village_braves
 unit				byz_armstrong
 
 ;Kingdom of Nepal
@@ -173,11 +173,11 @@ rebel_type			Philippines_Rebels
 category			peasant_revolt 
 chance				400					
 description			Philippines_Rebels
-unit				german_asia
-unit				german_asia
-unit				german_asia
-unit				german_asia
-unit				german_asia
+unit				merc_aceh_reg
+unit				merc_aceh_reg
+unit				merc_aceh_reg
+unit				merc_aceh_reg
+unit				merc_aceh_reg
 unit				fra_armstrong
 unit				fra_12lb
 
@@ -580,8 +580,8 @@ rebel_type			Boer_Rebels
 category			peasant_revolt 
 chance				400					
 description			Boer_Rebels
-unit				us_militia_te
-unit				us_militia_te
+unit				boer_kommando_early
+unit				boer_kommando_early
 unit				boer_guard
 unit				boer_guard
 unit				csa_lancer_te
@@ -764,12 +764,12 @@ rebel_type			Spanish_Rebels
 category			peasant_revolt 
 chance				400	
 description			Spanish_Rebels			
-unit				merc_port_lancer
-unit				merc_port_inf
-unit				merc_port_inf
-unit				merc_port_inf
-unit				merc_port_inf
-unit				merc_port_inf
+unit				merc_port_cav_early
+unit				merc_port_inf_early
+unit				merc_port_inf_early
+unit				merc_port_inf_early
+unit				merc_port_inf_early
+unit				merc_port_inf_early
 unit				fra_12lb
 unit				fra_armstrong
 
@@ -838,8 +838,8 @@ unit				us_farmers
 unit				us_farmers
 unit				us_farmers
 unit				us_farmers
-unit				us_farmer_cav
-unit				us_farmer_cav
+unit				merc_us_farmer_cav
+unit				merc_us_farmer_cav
 unit				usa_12lb
 unit				usa_armstrong
 
@@ -849,10 +849,10 @@ category			peasant_revolt
 chance				400					
 description			Latin_Rebels
 unit				euro_hussars
-unit				mex_bers
-unit				mex_bers
-unit				mex_foot
-unit				mex_foot
+unit				mex_cazadores_early
+unit				mex_cazadores_early
+unit				mex_provincial_levies
+unit				mex_provincial_levies
 unit				polish_inf
 unit				polish_inf
 unit				fra_12lb
@@ -875,12 +875,12 @@ category			peasant_revolt
 chance				400					
 description			American_Rebels
 unit				euro_hussars
-unit				mex_bers
-unit				mex_bers
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
+unit				mex_cazadores_early
+unit				mex_cazadores_early
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
 unit				fra_12lb
 unit				fra_armstrong
 
@@ -890,12 +890,12 @@ category			peasant_revolt
 chance				400					
 description			Columbian_Rebels
 unit				euro_hussars
-unit				mex_bers
-unit				mex_bers
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
+unit				mex_cazadores_early
+unit				mex_cazadores_early
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
 unit				fra_12lb
 unit				fra_armstrong
 
@@ -905,12 +905,12 @@ category			peasant_revolt
 chance				400					
 description			Venezuelan_Rebels
 unit				euro_hussars
-unit				mex_bers
-unit				mex_bers
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
+unit				mex_cazadores_early
+unit				mex_cazadores_early
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
 unit				fra_12lb
 unit				fra_armstrong
 
@@ -920,12 +920,12 @@ category			peasant_revolt
 chance				400					
 description			Ecuadorian_Rebels
 unit				euro_hussars
-unit				mex_bers
-unit				mex_bers
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
+unit				mex_cazadores_early
+unit				mex_cazadores_early
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
 unit				fra_12lb
 unit				fra_armstrong
 
@@ -935,12 +935,12 @@ category			peasant_revolt
 chance				400					
 description			Bolivian_Rebels
 unit				euro_hussars
-unit				mex_bers
-unit				mex_bers
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
-unit				mex_foot
+unit				mex_cazadores_early
+unit				mex_cazadores_early
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
+unit				mex_provincial_levies
 unit				fra_12lb
 unit				fra_armstrong
 
@@ -950,10 +950,10 @@ category			peasant_revolt
 chance				400					
 description			Para_Rebels
 unit				euro_hussars
-unit				mex_bers
-unit				mex_bers
-unit				mex_foot
-unit				mex_foot
+unit				mex_cazadores_early
+unit				mex_cazadores_early
+unit				mex_provincial_levies
+unit				mex_provincial_levies
 unit				merc_para_foot
 unit				merc_para_foot
 unit				fra_12lb
@@ -966,10 +966,10 @@ chance				400
 description			Chilean_Rebels
 unit				balk_cav_ch
 unit				merc_balk_cav_ch
-unit				mex_bers
-unit				mex_bers
-unit				mex_foot
-unit				mex_foot
+unit				mex_cazadores_early
+unit				mex_cazadores_early
+unit				mex_provincial_levies
+unit				mex_provincial_levies
 unit				merc_fra_inf_ch
 unit				merc_fra_inf_ch
 unit				fra_12lb
@@ -982,10 +982,10 @@ chance				400
 description			Uru_Rebels
 unit				balk_cav_ch
 unit				merc_balk_cav_ch
-unit				mex_bers
-unit				mex_bers
-unit				mex_foot
-unit				mex_foot
+unit				mex_cazadores_early
+unit				mex_cazadores_early
+unit				mex_provincial_levies
+unit				mex_provincial_levies
 unit				merc_uru_inf
 unit				merc_uru_inf
 unit				fra_12lb

@@ -1,0 +1,77 @@
+[
+  {
+    "source": "tools/backup_before_remaining_mercenary_standardization_20260922/cards/mercs/#merc_pol_hussars.tga",
+    "targets": [
+      "data/ui/units/mercs/#merc_pol_hussars.tga",
+      "data/ui/units/slave/#merc_pol_hussars.tga",
+      "data/ui/units/hre/#merc_pol_hussars.tga",
+      "data/ui/units/russia/#merc_pol_hussars.tga"
+    ],
+    "background_pixels_removed": 1428
+  },
+  {
+    "source": "tools/card_source_archive/all_cards_before_systemic_background_20260923/poland/#bra_marines_mid.tga",
+    "targets": [
+      "data/ui/units/poland/#bra_marines_mid.tga"
+    ],
+    "background_pixels_removed": 1212
+  },
+  {
+    "source": "tools/backup_before_brazil_followup_20260915/cards/#bra_cacadores_early.tga",
+    "targets": [
+      "data/ui/units/poland/#bra_cacadores_early.tga"
+    ],
+    "background_pixels_removed": 0
+  },
+  {
+    "source": "tools/backup_before_brazil_followup_20260915/cards/#bra_cacadores_mid.tga",
+    "targets": [
+      "data/ui/units/poland/#bra_cacadores_mid.tga"
+    ],
+    "background_pixels_removed": 0
+  },
+  {
+    "source": "tools/backup_before_brazil_followup_20260915/cards/#bra_atiradores_high.tga",
+    "targets": [
+      "data/ui/units/poland/#bra_atiradores_high.tga"
+    ],
+    "background_pixels_removed": 0
+  },
+  {
+    "source": "tools/card_generation_sources/aus_general_staff_master.png",
+    "targets": [
+      "data/ui/units/hungary/#aus_general_staff.tga"
+    ],
+    "background_pixels_removed": 315933
+  },
+  {
+    "source": "tools/backup_before_remaining_mercenary_standardization_20260922/cards/mercs/#merc_kok_royal_cav.tga",
+    "targets": [
+      "data/ui/units/mercs/#merc_kok_royal_cav.tga",
+      "data/ui/units/slave/#merc_kok_royal_cav.tga",
+      "data/ui/units/byzantium/#merc_kok_royal_cav.tga",
+      "data/ui/units/russia/#merc_kok_royal_cav.tga",
+      "data/ui/units/timurids/#merc_kok_royal_cav.tga"
+    ],
+    "background_pixels_removed": 1140
+  },
+  {
+    "source": "tools/backup_before_qing_followup_repair_20260919/cards/#byz_armstrong.tga",
+    "targets": [
+      "data/ui/units/byzantium/#byz_armstrong.tga",
+      "data/ui/units/cru/#byz_armstrong.tga",
+      "data/ui/units/slave/#byz_armstrong.tga"
+    ],
+    "background_pixels_removed": 2158
+  },
+  {
+    "source": "tools/card_source_archive/indian_princely_before_balance_20260917/#ind_5lb.tga",
+    "targets": [
+      "data/ui/units/bulga/#ind_5lb.tga",
+      "data/ui/units/egypt/#ind_5lb.tga",
+      "data/ui/units/timurids/#ind_5lb.tga",
+      "data/ui/units/slave/#ind_5lb.tga"
+    ],
+    "background_pixels_removed": 3
+  }
+]

@@ -1,1502 +1,2222 @@
 {
-  "installed_at": "2026-09-22T16:42:17.079603+00:00",
-  "screens": 62,
-  "new_oil_paintings": 61,
+  "installed_at": "2026-09-24T18:11:30.566807+00:00",
+  "screens": 100,
+  "new_oil_paintings": 66,
   "preserved_original_slots": [
     19
   ],
-  "copies_verified": 186,
+  "copies_verified": 300,
   "engine_launch_tested": false,
   "operations": [
     {
       "path": "data/loading_screen/Loading_screen_1.tga",
       "before_sha256": "4d2ac123fec65e65879405d319e283f9e55ae7c361367f36e2f3136e743d579e",
       "archive": "4d2ac123fec65e65879405d319e283f9e55ae7c361367f36e2f3136e743d579e.tga",
-      "after_sha256": "b580d5b942c7796432ee88378d8f79d32586e14bded3c22bf263c4f07e6ffacf",
-      "previous_install_sha256": "cdc8d673cc1294a10ae95c7488c3f0cc1cb34858ffb7e8102115d7652b4f467a",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_1.tga"
+      "after_sha256": "6c24b820cd563a7aa88c7cbe7bae21ee6ad24ba28eadacec49cb83612e5101f6",
+      "previous_install_sha256": "b580d5b942c7796432ee88378d8f79d32586e14bded3c22bf263c4f07e6ffacf",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_1.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_1.tga",
       "before_sha256": "4d2ac123fec65e65879405d319e283f9e55ae7c361367f36e2f3136e743d579e",
       "archive": "4d2ac123fec65e65879405d319e283f9e55ae7c361367f36e2f3136e743d579e.tga",
-      "after_sha256": "b580d5b942c7796432ee88378d8f79d32586e14bded3c22bf263c4f07e6ffacf",
-      "previous_install_sha256": "cdc8d673cc1294a10ae95c7488c3f0cc1cb34858ffb7e8102115d7652b4f467a",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_1.tga"
+      "after_sha256": "6c24b820cd563a7aa88c7cbe7bae21ee6ad24ba28eadacec49cb83612e5101f6",
+      "previous_install_sha256": "b580d5b942c7796432ee88378d8f79d32586e14bded3c22bf263c4f07e6ffacf",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_1.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_1.tga",
       "before_sha256": "4d2ac123fec65e65879405d319e283f9e55ae7c361367f36e2f3136e743d579e",
       "archive": "4d2ac123fec65e65879405d319e283f9e55ae7c361367f36e2f3136e743d579e.tga",
-      "after_sha256": "b580d5b942c7796432ee88378d8f79d32586e14bded3c22bf263c4f07e6ffacf",
-      "previous_install_sha256": "cdc8d673cc1294a10ae95c7488c3f0cc1cb34858ffb7e8102115d7652b4f467a",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_1.tga"
+      "after_sha256": "6c24b820cd563a7aa88c7cbe7bae21ee6ad24ba28eadacec49cb83612e5101f6",
+      "previous_install_sha256": "b580d5b942c7796432ee88378d8f79d32586e14bded3c22bf263c4f07e6ffacf",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_1.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_2.tga",
       "before_sha256": "b229af7aeaef179601a57c6823a15e71aa3e3a84212af4cb41ec727fece42905",
       "archive": "b229af7aeaef179601a57c6823a15e71aa3e3a84212af4cb41ec727fece42905.tga",
-      "after_sha256": "550050597e7c73eea8f1125afec5dc3eae7b99dc435503baeab45fd1bcb95b42",
-      "previous_install_sha256": "a8e933e9159d28c616be74d9eeb2a1b3ff3002b3432db07b1935fb8a84701496",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_2.tga"
+      "after_sha256": "8791ef5eff816fbba3cb1ff892d15a4dc7068dace307ae4169365f90a690ceee",
+      "previous_install_sha256": "550050597e7c73eea8f1125afec5dc3eae7b99dc435503baeab45fd1bcb95b42",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_2.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_2.tga",
       "before_sha256": "b229af7aeaef179601a57c6823a15e71aa3e3a84212af4cb41ec727fece42905",
       "archive": "b229af7aeaef179601a57c6823a15e71aa3e3a84212af4cb41ec727fece42905.tga",
-      "after_sha256": "550050597e7c73eea8f1125afec5dc3eae7b99dc435503baeab45fd1bcb95b42",
-      "previous_install_sha256": "a8e933e9159d28c616be74d9eeb2a1b3ff3002b3432db07b1935fb8a84701496",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_2.tga"
+      "after_sha256": "8791ef5eff816fbba3cb1ff892d15a4dc7068dace307ae4169365f90a690ceee",
+      "previous_install_sha256": "550050597e7c73eea8f1125afec5dc3eae7b99dc435503baeab45fd1bcb95b42",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_2.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_2.tga",
       "before_sha256": "b229af7aeaef179601a57c6823a15e71aa3e3a84212af4cb41ec727fece42905",
       "archive": "b229af7aeaef179601a57c6823a15e71aa3e3a84212af4cb41ec727fece42905.tga",
-      "after_sha256": "550050597e7c73eea8f1125afec5dc3eae7b99dc435503baeab45fd1bcb95b42",
-      "previous_install_sha256": "a8e933e9159d28c616be74d9eeb2a1b3ff3002b3432db07b1935fb8a84701496",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_2.tga"
+      "after_sha256": "8791ef5eff816fbba3cb1ff892d15a4dc7068dace307ae4169365f90a690ceee",
+      "previous_install_sha256": "550050597e7c73eea8f1125afec5dc3eae7b99dc435503baeab45fd1bcb95b42",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_2.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_3.tga",
       "before_sha256": "d41bafc1b24bbbff11e77e59a0ce3941c0690b1f39473c6f0737231db5c59e62",
       "archive": "d41bafc1b24bbbff11e77e59a0ce3941c0690b1f39473c6f0737231db5c59e62.tga",
-      "after_sha256": "113cd0cd8b763b810d4b784ce80bf997d4157d9fb0bc6cdc0bc2affd2c7ee528",
-      "previous_install_sha256": "fd4f51a644946912170ff5e822e71fa203a402b599dffba040099b51f714434b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_3.tga"
+      "after_sha256": "1551ad5ea3298187f224294e18e8125eae9415e81fe3ce3b9a24b1a9b933abca",
+      "previous_install_sha256": "113cd0cd8b763b810d4b784ce80bf997d4157d9fb0bc6cdc0bc2affd2c7ee528",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_3.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_3.tga",
       "before_sha256": "d41bafc1b24bbbff11e77e59a0ce3941c0690b1f39473c6f0737231db5c59e62",
       "archive": "d41bafc1b24bbbff11e77e59a0ce3941c0690b1f39473c6f0737231db5c59e62.tga",
-      "after_sha256": "113cd0cd8b763b810d4b784ce80bf997d4157d9fb0bc6cdc0bc2affd2c7ee528",
-      "previous_install_sha256": "fd4f51a644946912170ff5e822e71fa203a402b599dffba040099b51f714434b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_3.tga"
+      "after_sha256": "1551ad5ea3298187f224294e18e8125eae9415e81fe3ce3b9a24b1a9b933abca",
+      "previous_install_sha256": "113cd0cd8b763b810d4b784ce80bf997d4157d9fb0bc6cdc0bc2affd2c7ee528",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_3.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_3.tga",
       "before_sha256": "d41bafc1b24bbbff11e77e59a0ce3941c0690b1f39473c6f0737231db5c59e62",
       "archive": "d41bafc1b24bbbff11e77e59a0ce3941c0690b1f39473c6f0737231db5c59e62.tga",
-      "after_sha256": "113cd0cd8b763b810d4b784ce80bf997d4157d9fb0bc6cdc0bc2affd2c7ee528",
-      "previous_install_sha256": "fd4f51a644946912170ff5e822e71fa203a402b599dffba040099b51f714434b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_3.tga"
+      "after_sha256": "1551ad5ea3298187f224294e18e8125eae9415e81fe3ce3b9a24b1a9b933abca",
+      "previous_install_sha256": "113cd0cd8b763b810d4b784ce80bf997d4157d9fb0bc6cdc0bc2affd2c7ee528",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_3.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_4.tga",
       "before_sha256": "6127e7c1906420fbbbde922d75cc802eb141409875d0c591e3b57bb6b6ae73ca",
       "archive": "6127e7c1906420fbbbde922d75cc802eb141409875d0c591e3b57bb6b6ae73ca.tga",
-      "after_sha256": "ce47fc64b5e82f9fb96c929160beb4a368f7b71bbb3cfba4bdfaaaa54abdfab1",
-      "previous_install_sha256": "dca2e12ae2f24de09c1410f3eae75aae55223b0d388a72092a184926d73841a2",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_4.tga"
+      "after_sha256": "d60ee7fa28a0916971682733818432df322c02c8e08ceb98193c3ee4e11fc95c",
+      "previous_install_sha256": "ce47fc64b5e82f9fb96c929160beb4a368f7b71bbb3cfba4bdfaaaa54abdfab1",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_4.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_4.tga",
       "before_sha256": "6127e7c1906420fbbbde922d75cc802eb141409875d0c591e3b57bb6b6ae73ca",
       "archive": "6127e7c1906420fbbbde922d75cc802eb141409875d0c591e3b57bb6b6ae73ca.tga",
-      "after_sha256": "ce47fc64b5e82f9fb96c929160beb4a368f7b71bbb3cfba4bdfaaaa54abdfab1",
-      "previous_install_sha256": "dca2e12ae2f24de09c1410f3eae75aae55223b0d388a72092a184926d73841a2",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_4.tga"
+      "after_sha256": "d60ee7fa28a0916971682733818432df322c02c8e08ceb98193c3ee4e11fc95c",
+      "previous_install_sha256": "ce47fc64b5e82f9fb96c929160beb4a368f7b71bbb3cfba4bdfaaaa54abdfab1",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_4.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_4.tga",
       "before_sha256": "6127e7c1906420fbbbde922d75cc802eb141409875d0c591e3b57bb6b6ae73ca",
       "archive": "6127e7c1906420fbbbde922d75cc802eb141409875d0c591e3b57bb6b6ae73ca.tga",
-      "after_sha256": "ce47fc64b5e82f9fb96c929160beb4a368f7b71bbb3cfba4bdfaaaa54abdfab1",
-      "previous_install_sha256": "dca2e12ae2f24de09c1410f3eae75aae55223b0d388a72092a184926d73841a2",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_4.tga"
+      "after_sha256": "d60ee7fa28a0916971682733818432df322c02c8e08ceb98193c3ee4e11fc95c",
+      "previous_install_sha256": "ce47fc64b5e82f9fb96c929160beb4a368f7b71bbb3cfba4bdfaaaa54abdfab1",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_4.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_5.tga",
       "before_sha256": "c2cdd2f4966c33800e748ed727daa1f3db5e036803a2ec6d2630c9ed013f770e",
       "archive": "c2cdd2f4966c33800e748ed727daa1f3db5e036803a2ec6d2630c9ed013f770e.tga",
-      "after_sha256": "d3e4f462628f526d9d5268ac973393b5cd8a1b5e4e74f228ae6ba658eea606b5",
-      "previous_install_sha256": "ff2d11c9fab7e3b66e46249b19ce26c6d7b812e290730a72c25cd33217ff6095",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_5.tga"
+      "after_sha256": "579a8fdb54633ff6cf7ac3932535b16ad4ea3480fbd4629ad8c845d0c020a992",
+      "previous_install_sha256": "d3e4f462628f526d9d5268ac973393b5cd8a1b5e4e74f228ae6ba658eea606b5",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_5.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_5.tga",
       "before_sha256": "c2cdd2f4966c33800e748ed727daa1f3db5e036803a2ec6d2630c9ed013f770e",
       "archive": "c2cdd2f4966c33800e748ed727daa1f3db5e036803a2ec6d2630c9ed013f770e.tga",
-      "after_sha256": "d3e4f462628f526d9d5268ac973393b5cd8a1b5e4e74f228ae6ba658eea606b5",
-      "previous_install_sha256": "ff2d11c9fab7e3b66e46249b19ce26c6d7b812e290730a72c25cd33217ff6095",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_5.tga"
+      "after_sha256": "579a8fdb54633ff6cf7ac3932535b16ad4ea3480fbd4629ad8c845d0c020a992",
+      "previous_install_sha256": "d3e4f462628f526d9d5268ac973393b5cd8a1b5e4e74f228ae6ba658eea606b5",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_5.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_5.tga",
       "before_sha256": "c2cdd2f4966c33800e748ed727daa1f3db5e036803a2ec6d2630c9ed013f770e",
       "archive": "c2cdd2f4966c33800e748ed727daa1f3db5e036803a2ec6d2630c9ed013f770e.tga",
-      "after_sha256": "d3e4f462628f526d9d5268ac973393b5cd8a1b5e4e74f228ae6ba658eea606b5",
-      "previous_install_sha256": "ff2d11c9fab7e3b66e46249b19ce26c6d7b812e290730a72c25cd33217ff6095",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_5.tga"
+      "after_sha256": "579a8fdb54633ff6cf7ac3932535b16ad4ea3480fbd4629ad8c845d0c020a992",
+      "previous_install_sha256": "d3e4f462628f526d9d5268ac973393b5cd8a1b5e4e74f228ae6ba658eea606b5",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_5.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_6.tga",
       "before_sha256": "a5e97d2c39e0bf90a4922e71f21a0e285250d851d73c653fd108c09c9dd3baa1",
       "archive": "a5e97d2c39e0bf90a4922e71f21a0e285250d851d73c653fd108c09c9dd3baa1.tga",
-      "after_sha256": "6345c38a1ca00eb5a1d45bf70bae71d56d9681d22501e132f81ace28278ccb0b",
-      "previous_install_sha256": "1624f52ccae9034037ccbdf94ca44fe16c1d8734817160e4900e16d0fe0b31cc",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_6.tga"
+      "after_sha256": "04f17ed620abf6d3fe6c5a28b8aab7698bce09c4dd931e878a6230348249b48e",
+      "previous_install_sha256": "6345c38a1ca00eb5a1d45bf70bae71d56d9681d22501e132f81ace28278ccb0b",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_6.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_6.tga",
       "before_sha256": "a5e97d2c39e0bf90a4922e71f21a0e285250d851d73c653fd108c09c9dd3baa1",
       "archive": "a5e97d2c39e0bf90a4922e71f21a0e285250d851d73c653fd108c09c9dd3baa1.tga",
-      "after_sha256": "6345c38a1ca00eb5a1d45bf70bae71d56d9681d22501e132f81ace28278ccb0b",
-      "previous_install_sha256": "1624f52ccae9034037ccbdf94ca44fe16c1d8734817160e4900e16d0fe0b31cc",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_6.tga"
+      "after_sha256": "04f17ed620abf6d3fe6c5a28b8aab7698bce09c4dd931e878a6230348249b48e",
+      "previous_install_sha256": "6345c38a1ca00eb5a1d45bf70bae71d56d9681d22501e132f81ace28278ccb0b",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_6.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_6.tga",
       "before_sha256": "a5e97d2c39e0bf90a4922e71f21a0e285250d851d73c653fd108c09c9dd3baa1",
       "archive": "a5e97d2c39e0bf90a4922e71f21a0e285250d851d73c653fd108c09c9dd3baa1.tga",
-      "after_sha256": "6345c38a1ca00eb5a1d45bf70bae71d56d9681d22501e132f81ace28278ccb0b",
-      "previous_install_sha256": "1624f52ccae9034037ccbdf94ca44fe16c1d8734817160e4900e16d0fe0b31cc",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_6.tga"
+      "after_sha256": "04f17ed620abf6d3fe6c5a28b8aab7698bce09c4dd931e878a6230348249b48e",
+      "previous_install_sha256": "6345c38a1ca00eb5a1d45bf70bae71d56d9681d22501e132f81ace28278ccb0b",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_6.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_7.tga",
       "before_sha256": "05408a0d31f72c36b792e768036dccaf3eb1c162139e7c055e9e1840f4394f5a",
       "archive": "05408a0d31f72c36b792e768036dccaf3eb1c162139e7c055e9e1840f4394f5a.tga",
-      "after_sha256": "2d4dc981f678ff42eb457e68d457a994b7ad257eb3dd14e3270e1e5379afec6c",
-      "previous_install_sha256": "1b1ab1f2c9c73cb361ce5e1467c9c898dcdf567fb2e87317ce7e374f8d5e494e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_7.tga"
+      "after_sha256": "fae203efbdc3fe4979c26f03305f6c51c755c62c388999e150d2c50750aac442",
+      "previous_install_sha256": "2d4dc981f678ff42eb457e68d457a994b7ad257eb3dd14e3270e1e5379afec6c",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_7.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_7.tga",
       "before_sha256": "05408a0d31f72c36b792e768036dccaf3eb1c162139e7c055e9e1840f4394f5a",
       "archive": "05408a0d31f72c36b792e768036dccaf3eb1c162139e7c055e9e1840f4394f5a.tga",
-      "after_sha256": "2d4dc981f678ff42eb457e68d457a994b7ad257eb3dd14e3270e1e5379afec6c",
-      "previous_install_sha256": "1b1ab1f2c9c73cb361ce5e1467c9c898dcdf567fb2e87317ce7e374f8d5e494e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_7.tga"
+      "after_sha256": "fae203efbdc3fe4979c26f03305f6c51c755c62c388999e150d2c50750aac442",
+      "previous_install_sha256": "2d4dc981f678ff42eb457e68d457a994b7ad257eb3dd14e3270e1e5379afec6c",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_7.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_7.tga",
       "before_sha256": "05408a0d31f72c36b792e768036dccaf3eb1c162139e7c055e9e1840f4394f5a",
       "archive": "05408a0d31f72c36b792e768036dccaf3eb1c162139e7c055e9e1840f4394f5a.tga",
-      "after_sha256": "2d4dc981f678ff42eb457e68d457a994b7ad257eb3dd14e3270e1e5379afec6c",
-      "previous_install_sha256": "1b1ab1f2c9c73cb361ce5e1467c9c898dcdf567fb2e87317ce7e374f8d5e494e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_7.tga"
+      "after_sha256": "fae203efbdc3fe4979c26f03305f6c51c755c62c388999e150d2c50750aac442",
+      "previous_install_sha256": "2d4dc981f678ff42eb457e68d457a994b7ad257eb3dd14e3270e1e5379afec6c",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_7.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_8.tga",
       "before_sha256": "91c4d26e90dc50d7419b3cdf76f73cea0cf40ad7e17677de36838f409531cdc7",
       "archive": "91c4d26e90dc50d7419b3cdf76f73cea0cf40ad7e17677de36838f409531cdc7.tga",
-      "after_sha256": "cc3568f57438a46a710858cb588215f7413601867a5eedce845e00323d7317e3",
-      "previous_install_sha256": "366b5c10d8682566adb99a4ebd5e1eda1e351683e2995add55abcb3623afe3e9",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_8.tga"
+      "after_sha256": "45c81f53e2176a287daa3edaed8593fb172bb7f50095f110285689b19e50f775",
+      "previous_install_sha256": "cc3568f57438a46a710858cb588215f7413601867a5eedce845e00323d7317e3",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_8.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_8.tga",
       "before_sha256": "91c4d26e90dc50d7419b3cdf76f73cea0cf40ad7e17677de36838f409531cdc7",
       "archive": "91c4d26e90dc50d7419b3cdf76f73cea0cf40ad7e17677de36838f409531cdc7.tga",
-      "after_sha256": "cc3568f57438a46a710858cb588215f7413601867a5eedce845e00323d7317e3",
-      "previous_install_sha256": "366b5c10d8682566adb99a4ebd5e1eda1e351683e2995add55abcb3623afe3e9",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_8.tga"
+      "after_sha256": "45c81f53e2176a287daa3edaed8593fb172bb7f50095f110285689b19e50f775",
+      "previous_install_sha256": "cc3568f57438a46a710858cb588215f7413601867a5eedce845e00323d7317e3",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_8.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_8.tga",
       "before_sha256": "91c4d26e90dc50d7419b3cdf76f73cea0cf40ad7e17677de36838f409531cdc7",
       "archive": "91c4d26e90dc50d7419b3cdf76f73cea0cf40ad7e17677de36838f409531cdc7.tga",
-      "after_sha256": "cc3568f57438a46a710858cb588215f7413601867a5eedce845e00323d7317e3",
-      "previous_install_sha256": "366b5c10d8682566adb99a4ebd5e1eda1e351683e2995add55abcb3623afe3e9",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_8.tga"
+      "after_sha256": "45c81f53e2176a287daa3edaed8593fb172bb7f50095f110285689b19e50f775",
+      "previous_install_sha256": "cc3568f57438a46a710858cb588215f7413601867a5eedce845e00323d7317e3",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_8.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_9.tga",
       "before_sha256": "0923f2d6da147b4490cfc46b2ede1ac5a78e9f828142363fb2c298231293101f",
       "archive": "0923f2d6da147b4490cfc46b2ede1ac5a78e9f828142363fb2c298231293101f.tga",
-      "after_sha256": "b13e16b092e66fb8b9e736d20f9981403882df50d9a9b9ae6905b2a76715fba1",
-      "previous_install_sha256": "ba86ec22354374765b1723c1596ab1a1fd9d6df6006e824a32714fac94428277",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_9.tga"
+      "after_sha256": "e61fa15d32536fe7a2433be37f3acfadc91e51013a376435fe741600d0aefc10",
+      "previous_install_sha256": "b13e16b092e66fb8b9e736d20f9981403882df50d9a9b9ae6905b2a76715fba1",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_9.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_9.tga",
       "before_sha256": "0923f2d6da147b4490cfc46b2ede1ac5a78e9f828142363fb2c298231293101f",
       "archive": "0923f2d6da147b4490cfc46b2ede1ac5a78e9f828142363fb2c298231293101f.tga",
-      "after_sha256": "b13e16b092e66fb8b9e736d20f9981403882df50d9a9b9ae6905b2a76715fba1",
-      "previous_install_sha256": "ba86ec22354374765b1723c1596ab1a1fd9d6df6006e824a32714fac94428277",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_9.tga"
+      "after_sha256": "e61fa15d32536fe7a2433be37f3acfadc91e51013a376435fe741600d0aefc10",
+      "previous_install_sha256": "b13e16b092e66fb8b9e736d20f9981403882df50d9a9b9ae6905b2a76715fba1",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_9.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_9.tga",
       "before_sha256": "0923f2d6da147b4490cfc46b2ede1ac5a78e9f828142363fb2c298231293101f",
       "archive": "0923f2d6da147b4490cfc46b2ede1ac5a78e9f828142363fb2c298231293101f.tga",
-      "after_sha256": "b13e16b092e66fb8b9e736d20f9981403882df50d9a9b9ae6905b2a76715fba1",
-      "previous_install_sha256": "ba86ec22354374765b1723c1596ab1a1fd9d6df6006e824a32714fac94428277",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_9.tga"
+      "after_sha256": "e61fa15d32536fe7a2433be37f3acfadc91e51013a376435fe741600d0aefc10",
+      "previous_install_sha256": "b13e16b092e66fb8b9e736d20f9981403882df50d9a9b9ae6905b2a76715fba1",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_9.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_10.tga",
       "before_sha256": "8a3614315f8f06ad1e5029db2bc091282dd57ded1aab0bcc9b9183a163993337",
       "archive": "8a3614315f8f06ad1e5029db2bc091282dd57ded1aab0bcc9b9183a163993337.tga",
-      "after_sha256": "7da3a1b86fb0d71492b1450f49ac0790faa078a5966398f9f86c13343d7f7b7e",
-      "previous_install_sha256": "d814f70badc1620c80586f28e33f3ca0e4f80b877c0ee0164fe0e67d9f161ae1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_10.tga"
+      "after_sha256": "a06c72cefcd9b10973c0f111e7932a3e05ed27459d0183a848ba32086a892ccd",
+      "previous_install_sha256": "7da3a1b86fb0d71492b1450f49ac0790faa078a5966398f9f86c13343d7f7b7e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_10.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_10.tga",
       "before_sha256": "8a3614315f8f06ad1e5029db2bc091282dd57ded1aab0bcc9b9183a163993337",
       "archive": "8a3614315f8f06ad1e5029db2bc091282dd57ded1aab0bcc9b9183a163993337.tga",
-      "after_sha256": "7da3a1b86fb0d71492b1450f49ac0790faa078a5966398f9f86c13343d7f7b7e",
-      "previous_install_sha256": "d814f70badc1620c80586f28e33f3ca0e4f80b877c0ee0164fe0e67d9f161ae1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_10.tga"
+      "after_sha256": "a06c72cefcd9b10973c0f111e7932a3e05ed27459d0183a848ba32086a892ccd",
+      "previous_install_sha256": "7da3a1b86fb0d71492b1450f49ac0790faa078a5966398f9f86c13343d7f7b7e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_10.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_10.tga",
       "before_sha256": "8a3614315f8f06ad1e5029db2bc091282dd57ded1aab0bcc9b9183a163993337",
       "archive": "8a3614315f8f06ad1e5029db2bc091282dd57ded1aab0bcc9b9183a163993337.tga",
-      "after_sha256": "7da3a1b86fb0d71492b1450f49ac0790faa078a5966398f9f86c13343d7f7b7e",
-      "previous_install_sha256": "d814f70badc1620c80586f28e33f3ca0e4f80b877c0ee0164fe0e67d9f161ae1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_10.tga"
+      "after_sha256": "a06c72cefcd9b10973c0f111e7932a3e05ed27459d0183a848ba32086a892ccd",
+      "previous_install_sha256": "7da3a1b86fb0d71492b1450f49ac0790faa078a5966398f9f86c13343d7f7b7e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_10.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_11.tga",
       "before_sha256": "6f0506e4f49a8eea8ea8d543e60b0e55c6d7acb72363dd373f4ccec5bcce6e8f",
       "archive": "6f0506e4f49a8eea8ea8d543e60b0e55c6d7acb72363dd373f4ccec5bcce6e8f.tga",
-      "after_sha256": "b9a756251c19884477f2e726da7f7de2e7eb6493c4e27ba14f80c1056445c49e",
-      "previous_install_sha256": "4ccf17cdef8d3820332b21bee66f970621c613a93b1f31918585879a1bb05b6a",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_11.tga"
+      "after_sha256": "f17bd8b804cccd8d1634c1d913ccd84487cef28f7661f7139d39ae998b3fb680",
+      "previous_install_sha256": "b9a756251c19884477f2e726da7f7de2e7eb6493c4e27ba14f80c1056445c49e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_11.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_11.tga",
       "before_sha256": "6f0506e4f49a8eea8ea8d543e60b0e55c6d7acb72363dd373f4ccec5bcce6e8f",
       "archive": "6f0506e4f49a8eea8ea8d543e60b0e55c6d7acb72363dd373f4ccec5bcce6e8f.tga",
-      "after_sha256": "b9a756251c19884477f2e726da7f7de2e7eb6493c4e27ba14f80c1056445c49e",
-      "previous_install_sha256": "4ccf17cdef8d3820332b21bee66f970621c613a93b1f31918585879a1bb05b6a",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_11.tga"
+      "after_sha256": "f17bd8b804cccd8d1634c1d913ccd84487cef28f7661f7139d39ae998b3fb680",
+      "previous_install_sha256": "b9a756251c19884477f2e726da7f7de2e7eb6493c4e27ba14f80c1056445c49e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_11.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_11.tga",
       "before_sha256": "6f0506e4f49a8eea8ea8d543e60b0e55c6d7acb72363dd373f4ccec5bcce6e8f",
       "archive": "6f0506e4f49a8eea8ea8d543e60b0e55c6d7acb72363dd373f4ccec5bcce6e8f.tga",
-      "after_sha256": "b9a756251c19884477f2e726da7f7de2e7eb6493c4e27ba14f80c1056445c49e",
-      "previous_install_sha256": "4ccf17cdef8d3820332b21bee66f970621c613a93b1f31918585879a1bb05b6a",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_11.tga"
+      "after_sha256": "f17bd8b804cccd8d1634c1d913ccd84487cef28f7661f7139d39ae998b3fb680",
+      "previous_install_sha256": "b9a756251c19884477f2e726da7f7de2e7eb6493c4e27ba14f80c1056445c49e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_11.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_12.tga",
       "before_sha256": "c63414eae0dc99eb4b823ef8dfc3789f24f382bc68ef0b8aa9c2bdae291118f8",
       "archive": "c63414eae0dc99eb4b823ef8dfc3789f24f382bc68ef0b8aa9c2bdae291118f8.tga",
-      "after_sha256": "27da6470b8ccbdadbec358110fe06cab71d39dcbf9adcd5e5cc4486cf30a96a0",
-      "previous_install_sha256": "9b7d7e41fe2aa12d3f9626eb46d51cfc5912b75282bf041122e9a95f595e401e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_12.tga"
+      "after_sha256": "44d8702cc30902d2719407e089439fd8a28cc1eeab3e165bb3a975a78dae9921",
+      "previous_install_sha256": "27da6470b8ccbdadbec358110fe06cab71d39dcbf9adcd5e5cc4486cf30a96a0",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_12.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_12.tga",
       "before_sha256": "c63414eae0dc99eb4b823ef8dfc3789f24f382bc68ef0b8aa9c2bdae291118f8",
       "archive": "c63414eae0dc99eb4b823ef8dfc3789f24f382bc68ef0b8aa9c2bdae291118f8.tga",
-      "after_sha256": "27da6470b8ccbdadbec358110fe06cab71d39dcbf9adcd5e5cc4486cf30a96a0",
-      "previous_install_sha256": "9b7d7e41fe2aa12d3f9626eb46d51cfc5912b75282bf041122e9a95f595e401e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_12.tga"
+      "after_sha256": "44d8702cc30902d2719407e089439fd8a28cc1eeab3e165bb3a975a78dae9921",
+      "previous_install_sha256": "27da6470b8ccbdadbec358110fe06cab71d39dcbf9adcd5e5cc4486cf30a96a0",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_12.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_12.tga",
       "before_sha256": "c63414eae0dc99eb4b823ef8dfc3789f24f382bc68ef0b8aa9c2bdae291118f8",
       "archive": "c63414eae0dc99eb4b823ef8dfc3789f24f382bc68ef0b8aa9c2bdae291118f8.tga",
-      "after_sha256": "27da6470b8ccbdadbec358110fe06cab71d39dcbf9adcd5e5cc4486cf30a96a0",
-      "previous_install_sha256": "9b7d7e41fe2aa12d3f9626eb46d51cfc5912b75282bf041122e9a95f595e401e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_12.tga"
+      "after_sha256": "44d8702cc30902d2719407e089439fd8a28cc1eeab3e165bb3a975a78dae9921",
+      "previous_install_sha256": "27da6470b8ccbdadbec358110fe06cab71d39dcbf9adcd5e5cc4486cf30a96a0",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_12.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_13.tga",
       "before_sha256": "bf8e5c063d0721c0f402428d29ed512176c3289242709812c6e55e900ba162f4",
       "archive": "bf8e5c063d0721c0f402428d29ed512176c3289242709812c6e55e900ba162f4.tga",
-      "after_sha256": "a41f583b0b8c9798871e8335f3a0651c4100b7f365b821c426bc1914b13cbf25",
-      "previous_install_sha256": "1c7fd43a0f1e4bde6ac4a67e5f153772a13bd291548d7efc24040b3718b4aca8",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_13.tga"
+      "after_sha256": "5ed15442a97cdbfe3e6ce42fa0c037de6971dbd34df5cf72c656944e855134a7",
+      "previous_install_sha256": "a41f583b0b8c9798871e8335f3a0651c4100b7f365b821c426bc1914b13cbf25",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_13.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_13.tga",
       "before_sha256": "bf8e5c063d0721c0f402428d29ed512176c3289242709812c6e55e900ba162f4",
       "archive": "bf8e5c063d0721c0f402428d29ed512176c3289242709812c6e55e900ba162f4.tga",
-      "after_sha256": "a41f583b0b8c9798871e8335f3a0651c4100b7f365b821c426bc1914b13cbf25",
-      "previous_install_sha256": "1c7fd43a0f1e4bde6ac4a67e5f153772a13bd291548d7efc24040b3718b4aca8",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_13.tga"
+      "after_sha256": "5ed15442a97cdbfe3e6ce42fa0c037de6971dbd34df5cf72c656944e855134a7",
+      "previous_install_sha256": "a41f583b0b8c9798871e8335f3a0651c4100b7f365b821c426bc1914b13cbf25",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_13.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_13.tga",
       "before_sha256": "bf8e5c063d0721c0f402428d29ed512176c3289242709812c6e55e900ba162f4",
       "archive": "bf8e5c063d0721c0f402428d29ed512176c3289242709812c6e55e900ba162f4.tga",
-      "after_sha256": "a41f583b0b8c9798871e8335f3a0651c4100b7f365b821c426bc1914b13cbf25",
-      "previous_install_sha256": "1c7fd43a0f1e4bde6ac4a67e5f153772a13bd291548d7efc24040b3718b4aca8",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_13.tga"
+      "after_sha256": "5ed15442a97cdbfe3e6ce42fa0c037de6971dbd34df5cf72c656944e855134a7",
+      "previous_install_sha256": "a41f583b0b8c9798871e8335f3a0651c4100b7f365b821c426bc1914b13cbf25",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_13.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_14.tga",
       "before_sha256": "cb449b9833ab0ff830110277d2204a53ac7d528a6a7198c9511ce9b26c92eef6",
       "archive": "cb449b9833ab0ff830110277d2204a53ac7d528a6a7198c9511ce9b26c92eef6.tga",
-      "after_sha256": "20025ba28f30ab74f59ee701fefbe3222bd2a91a66fae3120f350eba1a86c458",
-      "previous_install_sha256": "d134542ae8a1c3c20451df86f8d5982efdc1643ed89f8f9269910e40bd2f69ca",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_14.tga"
+      "after_sha256": "568caa69add4844f536497311cae8a8ebd4b3428724ec092f0bbbc9704547803",
+      "previous_install_sha256": "20025ba28f30ab74f59ee701fefbe3222bd2a91a66fae3120f350eba1a86c458",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_14.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_14.tga",
       "before_sha256": "cb449b9833ab0ff830110277d2204a53ac7d528a6a7198c9511ce9b26c92eef6",
       "archive": "cb449b9833ab0ff830110277d2204a53ac7d528a6a7198c9511ce9b26c92eef6.tga",
-      "after_sha256": "20025ba28f30ab74f59ee701fefbe3222bd2a91a66fae3120f350eba1a86c458",
-      "previous_install_sha256": "d134542ae8a1c3c20451df86f8d5982efdc1643ed89f8f9269910e40bd2f69ca",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_14.tga"
+      "after_sha256": "568caa69add4844f536497311cae8a8ebd4b3428724ec092f0bbbc9704547803",
+      "previous_install_sha256": "20025ba28f30ab74f59ee701fefbe3222bd2a91a66fae3120f350eba1a86c458",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_14.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_14.tga",
       "before_sha256": "cb449b9833ab0ff830110277d2204a53ac7d528a6a7198c9511ce9b26c92eef6",
       "archive": "cb449b9833ab0ff830110277d2204a53ac7d528a6a7198c9511ce9b26c92eef6.tga",
-      "after_sha256": "20025ba28f30ab74f59ee701fefbe3222bd2a91a66fae3120f350eba1a86c458",
-      "previous_install_sha256": "d134542ae8a1c3c20451df86f8d5982efdc1643ed89f8f9269910e40bd2f69ca",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_14.tga"
+      "after_sha256": "568caa69add4844f536497311cae8a8ebd4b3428724ec092f0bbbc9704547803",
+      "previous_install_sha256": "20025ba28f30ab74f59ee701fefbe3222bd2a91a66fae3120f350eba1a86c458",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_14.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_15.tga",
       "before_sha256": "cf1eb2f1cb2f5985a471be54d67560891292b1d97d386d83d862dada059976d8",
       "archive": "cf1eb2f1cb2f5985a471be54d67560891292b1d97d386d83d862dada059976d8.tga",
-      "after_sha256": "eec8b291e631d2c1460697d6573450b594cdc66c4ea2cec2a02e0a94426ee347",
-      "previous_install_sha256": "44d3854a88169cbd27671c67dc3ff7a5ae62ce4a768e3c49ac730fc0ff4f224c",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_15.tga"
+      "after_sha256": "59a5124e9e9d1528d35152c2762d75cfe7ca0245dd5f21fc24a136d378dcb359",
+      "previous_install_sha256": "eec8b291e631d2c1460697d6573450b594cdc66c4ea2cec2a02e0a94426ee347",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_15.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_15.tga",
       "before_sha256": "cf1eb2f1cb2f5985a471be54d67560891292b1d97d386d83d862dada059976d8",
       "archive": "cf1eb2f1cb2f5985a471be54d67560891292b1d97d386d83d862dada059976d8.tga",
-      "after_sha256": "eec8b291e631d2c1460697d6573450b594cdc66c4ea2cec2a02e0a94426ee347",
-      "previous_install_sha256": "44d3854a88169cbd27671c67dc3ff7a5ae62ce4a768e3c49ac730fc0ff4f224c",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_15.tga"
+      "after_sha256": "59a5124e9e9d1528d35152c2762d75cfe7ca0245dd5f21fc24a136d378dcb359",
+      "previous_install_sha256": "eec8b291e631d2c1460697d6573450b594cdc66c4ea2cec2a02e0a94426ee347",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_15.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_15.tga",
       "before_sha256": "cf1eb2f1cb2f5985a471be54d67560891292b1d97d386d83d862dada059976d8",
       "archive": "cf1eb2f1cb2f5985a471be54d67560891292b1d97d386d83d862dada059976d8.tga",
-      "after_sha256": "eec8b291e631d2c1460697d6573450b594cdc66c4ea2cec2a02e0a94426ee347",
-      "previous_install_sha256": "44d3854a88169cbd27671c67dc3ff7a5ae62ce4a768e3c49ac730fc0ff4f224c",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_15.tga"
+      "after_sha256": "59a5124e9e9d1528d35152c2762d75cfe7ca0245dd5f21fc24a136d378dcb359",
+      "previous_install_sha256": "eec8b291e631d2c1460697d6573450b594cdc66c4ea2cec2a02e0a94426ee347",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_15.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_16.tga",
       "before_sha256": "d91e2478fb9c558e99f4ff19a2b96094f9dd7c2d0f517e3249e77d0048fe1613",
       "archive": "d91e2478fb9c558e99f4ff19a2b96094f9dd7c2d0f517e3249e77d0048fe1613.tga",
-      "after_sha256": "c68b311f470e28dbbf9ca3b165ec3e9f7a31b3dd52ee4db8ed1a9cc639b61688",
-      "previous_install_sha256": "b25e0919363aa12ba89103a5d1f2879f704bfe4deeae3d5689ca7d3a18960f6d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_16.tga"
+      "after_sha256": "33c45d7ff6d6718d38a893bf4500b27921496e4ab4bfacd14f8204f305cb1921",
+      "previous_install_sha256": "c68b311f470e28dbbf9ca3b165ec3e9f7a31b3dd52ee4db8ed1a9cc639b61688",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_16.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_16.tga",
       "before_sha256": "d91e2478fb9c558e99f4ff19a2b96094f9dd7c2d0f517e3249e77d0048fe1613",
       "archive": "d91e2478fb9c558e99f4ff19a2b96094f9dd7c2d0f517e3249e77d0048fe1613.tga",
-      "after_sha256": "c68b311f470e28dbbf9ca3b165ec3e9f7a31b3dd52ee4db8ed1a9cc639b61688",
-      "previous_install_sha256": "b25e0919363aa12ba89103a5d1f2879f704bfe4deeae3d5689ca7d3a18960f6d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_16.tga"
+      "after_sha256": "33c45d7ff6d6718d38a893bf4500b27921496e4ab4bfacd14f8204f305cb1921",
+      "previous_install_sha256": "c68b311f470e28dbbf9ca3b165ec3e9f7a31b3dd52ee4db8ed1a9cc639b61688",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_16.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_16.tga",
       "before_sha256": "d91e2478fb9c558e99f4ff19a2b96094f9dd7c2d0f517e3249e77d0048fe1613",
       "archive": "d91e2478fb9c558e99f4ff19a2b96094f9dd7c2d0f517e3249e77d0048fe1613.tga",
-      "after_sha256": "c68b311f470e28dbbf9ca3b165ec3e9f7a31b3dd52ee4db8ed1a9cc639b61688",
-      "previous_install_sha256": "b25e0919363aa12ba89103a5d1f2879f704bfe4deeae3d5689ca7d3a18960f6d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_16.tga"
+      "after_sha256": "33c45d7ff6d6718d38a893bf4500b27921496e4ab4bfacd14f8204f305cb1921",
+      "previous_install_sha256": "c68b311f470e28dbbf9ca3b165ec3e9f7a31b3dd52ee4db8ed1a9cc639b61688",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_16.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_17.tga",
       "before_sha256": "5f70e5f4085954e31fb6bc7b6504311e4a2c77618aec1f78272141c5cda72602",
       "archive": "5f70e5f4085954e31fb6bc7b6504311e4a2c77618aec1f78272141c5cda72602.tga",
-      "after_sha256": "1a9f968ef83bc2abdad052106d47f5f24af2a1be07dbda617dc402daebae5b10",
-      "previous_install_sha256": "a9047e264a897ee6d38a8572a6e7c6c1a383ff41e31bd604fb244302a65090c1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_17.tga"
+      "after_sha256": "52329bf55fad4c459ae85205128dd132a2dbf7d80d6f2cd41b69dd9debd49cb0",
+      "previous_install_sha256": "1a9f968ef83bc2abdad052106d47f5f24af2a1be07dbda617dc402daebae5b10",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_17.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_17.tga",
       "before_sha256": "5f70e5f4085954e31fb6bc7b6504311e4a2c77618aec1f78272141c5cda72602",
       "archive": "5f70e5f4085954e31fb6bc7b6504311e4a2c77618aec1f78272141c5cda72602.tga",
-      "after_sha256": "1a9f968ef83bc2abdad052106d47f5f24af2a1be07dbda617dc402daebae5b10",
-      "previous_install_sha256": "a9047e264a897ee6d38a8572a6e7c6c1a383ff41e31bd604fb244302a65090c1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_17.tga"
+      "after_sha256": "52329bf55fad4c459ae85205128dd132a2dbf7d80d6f2cd41b69dd9debd49cb0",
+      "previous_install_sha256": "1a9f968ef83bc2abdad052106d47f5f24af2a1be07dbda617dc402daebae5b10",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_17.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_17.tga",
       "before_sha256": "5f70e5f4085954e31fb6bc7b6504311e4a2c77618aec1f78272141c5cda72602",
       "archive": "5f70e5f4085954e31fb6bc7b6504311e4a2c77618aec1f78272141c5cda72602.tga",
-      "after_sha256": "1a9f968ef83bc2abdad052106d47f5f24af2a1be07dbda617dc402daebae5b10",
-      "previous_install_sha256": "a9047e264a897ee6d38a8572a6e7c6c1a383ff41e31bd604fb244302a65090c1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_17.tga"
+      "after_sha256": "52329bf55fad4c459ae85205128dd132a2dbf7d80d6f2cd41b69dd9debd49cb0",
+      "previous_install_sha256": "1a9f968ef83bc2abdad052106d47f5f24af2a1be07dbda617dc402daebae5b10",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_17.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_18.tga",
       "before_sha256": "ebf5a086bc7f12bb32205339a0d9dae429cea20b614bf907f2b3efa48c931017",
       "archive": "ebf5a086bc7f12bb32205339a0d9dae429cea20b614bf907f2b3efa48c931017.tga",
-      "after_sha256": "af02a1358ae3dcbf0b08b06dc74b41ce10098b2189fdd6454343bc34dda80dad",
-      "previous_install_sha256": "b328ab7da651b3d17ca2c9002119182ff4aea402afc3bacc7b27a372cd5e017d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_18.tga"
+      "after_sha256": "88ff588a710380eeb5110c5f792c7b1132b15ea2abf38306cd86c8b7f701be97",
+      "previous_install_sha256": "af02a1358ae3dcbf0b08b06dc74b41ce10098b2189fdd6454343bc34dda80dad",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_18.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_18.tga",
       "before_sha256": "ebf5a086bc7f12bb32205339a0d9dae429cea20b614bf907f2b3efa48c931017",
       "archive": "ebf5a086bc7f12bb32205339a0d9dae429cea20b614bf907f2b3efa48c931017.tga",
-      "after_sha256": "af02a1358ae3dcbf0b08b06dc74b41ce10098b2189fdd6454343bc34dda80dad",
-      "previous_install_sha256": "b328ab7da651b3d17ca2c9002119182ff4aea402afc3bacc7b27a372cd5e017d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_18.tga"
+      "after_sha256": "88ff588a710380eeb5110c5f792c7b1132b15ea2abf38306cd86c8b7f701be97",
+      "previous_install_sha256": "af02a1358ae3dcbf0b08b06dc74b41ce10098b2189fdd6454343bc34dda80dad",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_18.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_18.tga",
       "before_sha256": "ebf5a086bc7f12bb32205339a0d9dae429cea20b614bf907f2b3efa48c931017",
       "archive": "ebf5a086bc7f12bb32205339a0d9dae429cea20b614bf907f2b3efa48c931017.tga",
-      "after_sha256": "af02a1358ae3dcbf0b08b06dc74b41ce10098b2189fdd6454343bc34dda80dad",
-      "previous_install_sha256": "b328ab7da651b3d17ca2c9002119182ff4aea402afc3bacc7b27a372cd5e017d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_18.tga"
+      "after_sha256": "88ff588a710380eeb5110c5f792c7b1132b15ea2abf38306cd86c8b7f701be97",
+      "previous_install_sha256": "af02a1358ae3dcbf0b08b06dc74b41ce10098b2189fdd6454343bc34dda80dad",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_18.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_19.tga",
       "before_sha256": "6e899ce06e87b8d9a8f9a9b39ec4dcea68ffcce194406b4c11290ddd29f0ed06",
       "archive": "6e899ce06e87b8d9a8f9a9b39ec4dcea68ffcce194406b4c11290ddd29f0ed06.tga",
-      "after_sha256": "2d5ec157d01bb2660950ed5c27d41e8dec41de9fdd51cf1a2d747e608f1a0f5a",
-      "previous_install_sha256": "57506d49eb9eb8810617b109023a52e0650148e308a2fd95900c65b66aad9ace",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_19.tga"
+      "after_sha256": "fbad2e24439a46d2144bd4a5699268a0f83f13dbff31753a9e1efa2e9600cc99",
+      "previous_install_sha256": "2d5ec157d01bb2660950ed5c27d41e8dec41de9fdd51cf1a2d747e608f1a0f5a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_19.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_19.tga",
       "before_sha256": null,
       "archive": null,
-      "after_sha256": "2d5ec157d01bb2660950ed5c27d41e8dec41de9fdd51cf1a2d747e608f1a0f5a",
-      "previous_install_sha256": "57506d49eb9eb8810617b109023a52e0650148e308a2fd95900c65b66aad9ace",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_19.tga"
+      "after_sha256": "fbad2e24439a46d2144bd4a5699268a0f83f13dbff31753a9e1efa2e9600cc99",
+      "previous_install_sha256": "2d5ec157d01bb2660950ed5c27d41e8dec41de9fdd51cf1a2d747e608f1a0f5a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_19.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_19.tga",
       "before_sha256": null,
       "archive": null,
-      "after_sha256": "2d5ec157d01bb2660950ed5c27d41e8dec41de9fdd51cf1a2d747e608f1a0f5a",
-      "previous_install_sha256": "57506d49eb9eb8810617b109023a52e0650148e308a2fd95900c65b66aad9ace",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_19.tga"
+      "after_sha256": "fbad2e24439a46d2144bd4a5699268a0f83f13dbff31753a9e1efa2e9600cc99",
+      "previous_install_sha256": "2d5ec157d01bb2660950ed5c27d41e8dec41de9fdd51cf1a2d747e608f1a0f5a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_19.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_20.tga",
       "before_sha256": "c3dcfe28c9f4586f858d19f032143626b6b7f1fc2108a30617aa04fa97868523",
       "archive": "c3dcfe28c9f4586f858d19f032143626b6b7f1fc2108a30617aa04fa97868523.tga",
-      "after_sha256": "197b01a148f0df4e3283ca5bf1a4cb746c2b2379e1e8f4dcb3c3b8150d185a64",
-      "previous_install_sha256": "30bdac90290acaa6bcacdbfb8dd3c39db747d696ba4ea6f6e2cc29a558670eee",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_20.tga"
+      "after_sha256": "627cbb407c58798895cb77e0294d8745adfaa947f0ee25ac63a776e82e006715",
+      "previous_install_sha256": "197b01a148f0df4e3283ca5bf1a4cb746c2b2379e1e8f4dcb3c3b8150d185a64",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_20.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_20.tga",
       "before_sha256": "c3dcfe28c9f4586f858d19f032143626b6b7f1fc2108a30617aa04fa97868523",
       "archive": "c3dcfe28c9f4586f858d19f032143626b6b7f1fc2108a30617aa04fa97868523.tga",
-      "after_sha256": "197b01a148f0df4e3283ca5bf1a4cb746c2b2379e1e8f4dcb3c3b8150d185a64",
-      "previous_install_sha256": "30bdac90290acaa6bcacdbfb8dd3c39db747d696ba4ea6f6e2cc29a558670eee",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_20.tga"
+      "after_sha256": "627cbb407c58798895cb77e0294d8745adfaa947f0ee25ac63a776e82e006715",
+      "previous_install_sha256": "197b01a148f0df4e3283ca5bf1a4cb746c2b2379e1e8f4dcb3c3b8150d185a64",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_20.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_20.tga",
       "before_sha256": "c3dcfe28c9f4586f858d19f032143626b6b7f1fc2108a30617aa04fa97868523",
       "archive": "c3dcfe28c9f4586f858d19f032143626b6b7f1fc2108a30617aa04fa97868523.tga",
-      "after_sha256": "197b01a148f0df4e3283ca5bf1a4cb746c2b2379e1e8f4dcb3c3b8150d185a64",
-      "previous_install_sha256": "30bdac90290acaa6bcacdbfb8dd3c39db747d696ba4ea6f6e2cc29a558670eee",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_20.tga"
+      "after_sha256": "627cbb407c58798895cb77e0294d8745adfaa947f0ee25ac63a776e82e006715",
+      "previous_install_sha256": "197b01a148f0df4e3283ca5bf1a4cb746c2b2379e1e8f4dcb3c3b8150d185a64",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_20.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_21.tga",
       "before_sha256": "d801773daf08903af36d58b5a2887e715f62fe9f6f9bd85cf9f8744effb364d8",
       "archive": "d801773daf08903af36d58b5a2887e715f62fe9f6f9bd85cf9f8744effb364d8.tga",
-      "after_sha256": "52ef3f00115b2c87784eb8822d7a8549488b02821ee10f00494485b84353435c",
-      "previous_install_sha256": "6121a0215e824c4bf687c4ed943000a938bda6f99fde793c2968e0fc451cc365",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_21.tga"
+      "after_sha256": "1cfa56267836e72759048b83df971b7db2a1962b75b8d12ac84857db4182aba7",
+      "previous_install_sha256": "52ef3f00115b2c87784eb8822d7a8549488b02821ee10f00494485b84353435c",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_21.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_21.tga",
       "before_sha256": "d801773daf08903af36d58b5a2887e715f62fe9f6f9bd85cf9f8744effb364d8",
       "archive": "d801773daf08903af36d58b5a2887e715f62fe9f6f9bd85cf9f8744effb364d8.tga",
-      "after_sha256": "52ef3f00115b2c87784eb8822d7a8549488b02821ee10f00494485b84353435c",
-      "previous_install_sha256": "6121a0215e824c4bf687c4ed943000a938bda6f99fde793c2968e0fc451cc365",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_21.tga"
+      "after_sha256": "1cfa56267836e72759048b83df971b7db2a1962b75b8d12ac84857db4182aba7",
+      "previous_install_sha256": "52ef3f00115b2c87784eb8822d7a8549488b02821ee10f00494485b84353435c",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_21.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_21.tga",
       "before_sha256": "d801773daf08903af36d58b5a2887e715f62fe9f6f9bd85cf9f8744effb364d8",
       "archive": "d801773daf08903af36d58b5a2887e715f62fe9f6f9bd85cf9f8744effb364d8.tga",
-      "after_sha256": "52ef3f00115b2c87784eb8822d7a8549488b02821ee10f00494485b84353435c",
-      "previous_install_sha256": "6121a0215e824c4bf687c4ed943000a938bda6f99fde793c2968e0fc451cc365",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_21.tga"
+      "after_sha256": "1cfa56267836e72759048b83df971b7db2a1962b75b8d12ac84857db4182aba7",
+      "previous_install_sha256": "52ef3f00115b2c87784eb8822d7a8549488b02821ee10f00494485b84353435c",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_21.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_22.tga",
       "before_sha256": "9d4752340809e23cd6ffd34a9a853d2503d3a321a14adc70c3aad03f51848151",
       "archive": "9d4752340809e23cd6ffd34a9a853d2503d3a321a14adc70c3aad03f51848151.tga",
-      "after_sha256": "a9ee79afacb8ec4e85ab88c7a774005efd55ba21f101b7b78283ab2bd538078e",
-      "previous_install_sha256": "1596e6565dfe1005cb8e67d1eb2fa083b704098c351903022b2b459927e0588b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_22.tga"
+      "after_sha256": "a993bef45ffa011ffbb7532a71b6e4ad0f69f729ba919721f6d6150b832c9bf6",
+      "previous_install_sha256": "a9ee79afacb8ec4e85ab88c7a774005efd55ba21f101b7b78283ab2bd538078e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_22.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_22.tga",
       "before_sha256": "9d4752340809e23cd6ffd34a9a853d2503d3a321a14adc70c3aad03f51848151",
       "archive": "9d4752340809e23cd6ffd34a9a853d2503d3a321a14adc70c3aad03f51848151.tga",
-      "after_sha256": "a9ee79afacb8ec4e85ab88c7a774005efd55ba21f101b7b78283ab2bd538078e",
-      "previous_install_sha256": "1596e6565dfe1005cb8e67d1eb2fa083b704098c351903022b2b459927e0588b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_22.tga"
+      "after_sha256": "a993bef45ffa011ffbb7532a71b6e4ad0f69f729ba919721f6d6150b832c9bf6",
+      "previous_install_sha256": "a9ee79afacb8ec4e85ab88c7a774005efd55ba21f101b7b78283ab2bd538078e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_22.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_22.tga",
       "before_sha256": "9d4752340809e23cd6ffd34a9a853d2503d3a321a14adc70c3aad03f51848151",
       "archive": "9d4752340809e23cd6ffd34a9a853d2503d3a321a14adc70c3aad03f51848151.tga",
-      "after_sha256": "a9ee79afacb8ec4e85ab88c7a774005efd55ba21f101b7b78283ab2bd538078e",
-      "previous_install_sha256": "1596e6565dfe1005cb8e67d1eb2fa083b704098c351903022b2b459927e0588b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_22.tga"
+      "after_sha256": "a993bef45ffa011ffbb7532a71b6e4ad0f69f729ba919721f6d6150b832c9bf6",
+      "previous_install_sha256": "a9ee79afacb8ec4e85ab88c7a774005efd55ba21f101b7b78283ab2bd538078e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_22.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_23.tga",
       "before_sha256": "681c6d073249f1dec459b1011455b698d1752bbb0b55ac4b02d6e485f7591493",
       "archive": "681c6d073249f1dec459b1011455b698d1752bbb0b55ac4b02d6e485f7591493.tga",
-      "after_sha256": "b83573277797a67059a49886d1533aacf7bcbb1eb3aa90f503569f99d7f8ca9c",
-      "previous_install_sha256": "b20f9bdb934d4fbe3a34d5f0e94adb5d06f02600d3d2bd7e121bad328a10bd66",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_23.tga"
+      "after_sha256": "eb71a0984ef69f862778fceb0d9b0599c14603de517e6fcb94302305ed405ce0",
+      "previous_install_sha256": "b83573277797a67059a49886d1533aacf7bcbb1eb3aa90f503569f99d7f8ca9c",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_23.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_23.tga",
       "before_sha256": "681c6d073249f1dec459b1011455b698d1752bbb0b55ac4b02d6e485f7591493",
       "archive": "681c6d073249f1dec459b1011455b698d1752bbb0b55ac4b02d6e485f7591493.tga",
-      "after_sha256": "b83573277797a67059a49886d1533aacf7bcbb1eb3aa90f503569f99d7f8ca9c",
-      "previous_install_sha256": "b20f9bdb934d4fbe3a34d5f0e94adb5d06f02600d3d2bd7e121bad328a10bd66",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_23.tga"
+      "after_sha256": "eb71a0984ef69f862778fceb0d9b0599c14603de517e6fcb94302305ed405ce0",
+      "previous_install_sha256": "b83573277797a67059a49886d1533aacf7bcbb1eb3aa90f503569f99d7f8ca9c",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_23.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_23.tga",
       "before_sha256": "681c6d073249f1dec459b1011455b698d1752bbb0b55ac4b02d6e485f7591493",
       "archive": "681c6d073249f1dec459b1011455b698d1752bbb0b55ac4b02d6e485f7591493.tga",
-      "after_sha256": "b83573277797a67059a49886d1533aacf7bcbb1eb3aa90f503569f99d7f8ca9c",
-      "previous_install_sha256": "b20f9bdb934d4fbe3a34d5f0e94adb5d06f02600d3d2bd7e121bad328a10bd66",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_23.tga"
+      "after_sha256": "eb71a0984ef69f862778fceb0d9b0599c14603de517e6fcb94302305ed405ce0",
+      "previous_install_sha256": "b83573277797a67059a49886d1533aacf7bcbb1eb3aa90f503569f99d7f8ca9c",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_23.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_24.tga",
       "before_sha256": "fd8de118d3a47c6361b506dd4c861723bfa8f09d9042bf9a1c4778d193d93362",
       "archive": "fd8de118d3a47c6361b506dd4c861723bfa8f09d9042bf9a1c4778d193d93362.tga",
-      "after_sha256": "00165ced779a7cfe22ee0d274f2b6f6a443c4745c13618a31e445bcdd7456def",
-      "previous_install_sha256": "9122c44fdd3f2aded1c7f139e119f0b3f2cc2d71677a05a09b560721715ee25b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_24.tga"
+      "after_sha256": "0890d49ddfe3e43462069d4911e00464eda591c14acf584195b83f2ea5c24818",
+      "previous_install_sha256": "00165ced779a7cfe22ee0d274f2b6f6a443c4745c13618a31e445bcdd7456def",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_24.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_24.tga",
       "before_sha256": "fd8de118d3a47c6361b506dd4c861723bfa8f09d9042bf9a1c4778d193d93362",
       "archive": "fd8de118d3a47c6361b506dd4c861723bfa8f09d9042bf9a1c4778d193d93362.tga",
-      "after_sha256": "00165ced779a7cfe22ee0d274f2b6f6a443c4745c13618a31e445bcdd7456def",
-      "previous_install_sha256": "9122c44fdd3f2aded1c7f139e119f0b3f2cc2d71677a05a09b560721715ee25b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_24.tga"
+      "after_sha256": "0890d49ddfe3e43462069d4911e00464eda591c14acf584195b83f2ea5c24818",
+      "previous_install_sha256": "00165ced779a7cfe22ee0d274f2b6f6a443c4745c13618a31e445bcdd7456def",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_24.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_24.tga",
       "before_sha256": "fd8de118d3a47c6361b506dd4c861723bfa8f09d9042bf9a1c4778d193d93362",
       "archive": "fd8de118d3a47c6361b506dd4c861723bfa8f09d9042bf9a1c4778d193d93362.tga",
-      "after_sha256": "00165ced779a7cfe22ee0d274f2b6f6a443c4745c13618a31e445bcdd7456def",
-      "previous_install_sha256": "9122c44fdd3f2aded1c7f139e119f0b3f2cc2d71677a05a09b560721715ee25b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_24.tga"
+      "after_sha256": "0890d49ddfe3e43462069d4911e00464eda591c14acf584195b83f2ea5c24818",
+      "previous_install_sha256": "00165ced779a7cfe22ee0d274f2b6f6a443c4745c13618a31e445bcdd7456def",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_24.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_25.tga",
       "before_sha256": "9444fc4dc312c020334e31e78a93e46f27806158c43a093e93594075d7c30e1a",
       "archive": "9444fc4dc312c020334e31e78a93e46f27806158c43a093e93594075d7c30e1a.tga",
-      "after_sha256": "10babac4fa70d75f7f741dcb80df964e0d416edaa1bc7cd3368c210b9f6a5df5",
-      "previous_install_sha256": "66b47ccdc9a46c78923aba1a252304f555910d946fe00c2c67941da33eec4f93",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_25.tga"
+      "after_sha256": "fd9d74351348263b9e33097bdca1741a492da2f80322f2f7a09ba6f5c53fed74",
+      "previous_install_sha256": "10babac4fa70d75f7f741dcb80df964e0d416edaa1bc7cd3368c210b9f6a5df5",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_25.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_25.tga",
       "before_sha256": "9444fc4dc312c020334e31e78a93e46f27806158c43a093e93594075d7c30e1a",
       "archive": "9444fc4dc312c020334e31e78a93e46f27806158c43a093e93594075d7c30e1a.tga",
-      "after_sha256": "10babac4fa70d75f7f741dcb80df964e0d416edaa1bc7cd3368c210b9f6a5df5",
-      "previous_install_sha256": "66b47ccdc9a46c78923aba1a252304f555910d946fe00c2c67941da33eec4f93",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_25.tga"
+      "after_sha256": "fd9d74351348263b9e33097bdca1741a492da2f80322f2f7a09ba6f5c53fed74",
+      "previous_install_sha256": "10babac4fa70d75f7f741dcb80df964e0d416edaa1bc7cd3368c210b9f6a5df5",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_25.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_25.tga",
       "before_sha256": "9444fc4dc312c020334e31e78a93e46f27806158c43a093e93594075d7c30e1a",
       "archive": "9444fc4dc312c020334e31e78a93e46f27806158c43a093e93594075d7c30e1a.tga",
-      "after_sha256": "10babac4fa70d75f7f741dcb80df964e0d416edaa1bc7cd3368c210b9f6a5df5",
-      "previous_install_sha256": "66b47ccdc9a46c78923aba1a252304f555910d946fe00c2c67941da33eec4f93",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_25.tga"
+      "after_sha256": "fd9d74351348263b9e33097bdca1741a492da2f80322f2f7a09ba6f5c53fed74",
+      "previous_install_sha256": "10babac4fa70d75f7f741dcb80df964e0d416edaa1bc7cd3368c210b9f6a5df5",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_25.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_26.tga",
       "before_sha256": "a3af51c50bc34dd70890a29c46bd473fac4f6282916f7aa167303e154e6e27fb",
       "archive": "a3af51c50bc34dd70890a29c46bd473fac4f6282916f7aa167303e154e6e27fb.tga",
-      "after_sha256": "024976e8b1773154a392c8d43e04ab743cf896b2890ca0ba493ccbbcc9accf43",
-      "previous_install_sha256": "8cc2ef7257d0d702c9853b3ba262daba5682fe368ad32593c1ed518eea73e1dd",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_26.tga"
+      "after_sha256": "cf04c3d8ecda4cb35f4cd92bcd56cca5bd8b64d818a182bce107a980b6dd3fad",
+      "previous_install_sha256": "024976e8b1773154a392c8d43e04ab743cf896b2890ca0ba493ccbbcc9accf43",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_26.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_26.tga",
       "before_sha256": "a3af51c50bc34dd70890a29c46bd473fac4f6282916f7aa167303e154e6e27fb",
       "archive": "a3af51c50bc34dd70890a29c46bd473fac4f6282916f7aa167303e154e6e27fb.tga",
-      "after_sha256": "024976e8b1773154a392c8d43e04ab743cf896b2890ca0ba493ccbbcc9accf43",
-      "previous_install_sha256": "8cc2ef7257d0d702c9853b3ba262daba5682fe368ad32593c1ed518eea73e1dd",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_26.tga"
+      "after_sha256": "cf04c3d8ecda4cb35f4cd92bcd56cca5bd8b64d818a182bce107a980b6dd3fad",
+      "previous_install_sha256": "024976e8b1773154a392c8d43e04ab743cf896b2890ca0ba493ccbbcc9accf43",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_26.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_26.tga",
       "before_sha256": "a3af51c50bc34dd70890a29c46bd473fac4f6282916f7aa167303e154e6e27fb",
       "archive": "a3af51c50bc34dd70890a29c46bd473fac4f6282916f7aa167303e154e6e27fb.tga",
-      "after_sha256": "024976e8b1773154a392c8d43e04ab743cf896b2890ca0ba493ccbbcc9accf43",
-      "previous_install_sha256": "8cc2ef7257d0d702c9853b3ba262daba5682fe368ad32593c1ed518eea73e1dd",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_26.tga"
+      "after_sha256": "cf04c3d8ecda4cb35f4cd92bcd56cca5bd8b64d818a182bce107a980b6dd3fad",
+      "previous_install_sha256": "024976e8b1773154a392c8d43e04ab743cf896b2890ca0ba493ccbbcc9accf43",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_26.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_27.tga",
       "before_sha256": "1327d90a3e332c7ffdbb722b4266b22444c26d469c9663e5fa686ad3cb3735bb",
       "archive": "1327d90a3e332c7ffdbb722b4266b22444c26d469c9663e5fa686ad3cb3735bb.tga",
-      "after_sha256": "b6b51a4e45b66d5b73d296d3ceef9420ec04ff67f5f5c343695f1f927f576d11",
-      "previous_install_sha256": "ddcaa4f64915b7224f93dbb3ab7ae3761d1e3180060e85ad0f89929fa9fb1dea",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_27.tga"
+      "after_sha256": "0507fb8c4551e25949fadf00343614ef5e00ac48c9ac6dee0fe9d7ce53dc17fb",
+      "previous_install_sha256": "b6b51a4e45b66d5b73d296d3ceef9420ec04ff67f5f5c343695f1f927f576d11",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_27.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_27.tga",
       "before_sha256": "1327d90a3e332c7ffdbb722b4266b22444c26d469c9663e5fa686ad3cb3735bb",
       "archive": "1327d90a3e332c7ffdbb722b4266b22444c26d469c9663e5fa686ad3cb3735bb.tga",
-      "after_sha256": "b6b51a4e45b66d5b73d296d3ceef9420ec04ff67f5f5c343695f1f927f576d11",
-      "previous_install_sha256": "ddcaa4f64915b7224f93dbb3ab7ae3761d1e3180060e85ad0f89929fa9fb1dea",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_27.tga"
+      "after_sha256": "0507fb8c4551e25949fadf00343614ef5e00ac48c9ac6dee0fe9d7ce53dc17fb",
+      "previous_install_sha256": "b6b51a4e45b66d5b73d296d3ceef9420ec04ff67f5f5c343695f1f927f576d11",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_27.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_27.tga",
       "before_sha256": "1327d90a3e332c7ffdbb722b4266b22444c26d469c9663e5fa686ad3cb3735bb",
       "archive": "1327d90a3e332c7ffdbb722b4266b22444c26d469c9663e5fa686ad3cb3735bb.tga",
-      "after_sha256": "b6b51a4e45b66d5b73d296d3ceef9420ec04ff67f5f5c343695f1f927f576d11",
-      "previous_install_sha256": "ddcaa4f64915b7224f93dbb3ab7ae3761d1e3180060e85ad0f89929fa9fb1dea",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_27.tga"
+      "after_sha256": "0507fb8c4551e25949fadf00343614ef5e00ac48c9ac6dee0fe9d7ce53dc17fb",
+      "previous_install_sha256": "b6b51a4e45b66d5b73d296d3ceef9420ec04ff67f5f5c343695f1f927f576d11",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_27.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_28.tga",
       "before_sha256": "16a5eb95b70aae5bd951a75644d3cbac65e16fb471b34fcbfe7a32dbc37492f7",
       "archive": "16a5eb95b70aae5bd951a75644d3cbac65e16fb471b34fcbfe7a32dbc37492f7.tga",
-      "after_sha256": "7dcb676a338c1fb8124ff3ff7e0c0a56d118bfa14c47850a7c926497f16e2f1e",
-      "previous_install_sha256": "6012484c1f846a789e4157d1eddccad50c91d44ff02a5145acc3e737eb4745cf",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_28.tga"
+      "after_sha256": "de21a333f603572e7ef3bb2b4c9263d541a779825a83d3b316f2e60f3b27870d",
+      "previous_install_sha256": "7dcb676a338c1fb8124ff3ff7e0c0a56d118bfa14c47850a7c926497f16e2f1e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_28.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_28.tga",
       "before_sha256": "16a5eb95b70aae5bd951a75644d3cbac65e16fb471b34fcbfe7a32dbc37492f7",
       "archive": "16a5eb95b70aae5bd951a75644d3cbac65e16fb471b34fcbfe7a32dbc37492f7.tga",
-      "after_sha256": "7dcb676a338c1fb8124ff3ff7e0c0a56d118bfa14c47850a7c926497f16e2f1e",
-      "previous_install_sha256": "6012484c1f846a789e4157d1eddccad50c91d44ff02a5145acc3e737eb4745cf",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_28.tga"
+      "after_sha256": "de21a333f603572e7ef3bb2b4c9263d541a779825a83d3b316f2e60f3b27870d",
+      "previous_install_sha256": "7dcb676a338c1fb8124ff3ff7e0c0a56d118bfa14c47850a7c926497f16e2f1e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_28.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_28.tga",
       "before_sha256": "16a5eb95b70aae5bd951a75644d3cbac65e16fb471b34fcbfe7a32dbc37492f7",
       "archive": "16a5eb95b70aae5bd951a75644d3cbac65e16fb471b34fcbfe7a32dbc37492f7.tga",
-      "after_sha256": "7dcb676a338c1fb8124ff3ff7e0c0a56d118bfa14c47850a7c926497f16e2f1e",
-      "previous_install_sha256": "6012484c1f846a789e4157d1eddccad50c91d44ff02a5145acc3e737eb4745cf",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_28.tga"
+      "after_sha256": "de21a333f603572e7ef3bb2b4c9263d541a779825a83d3b316f2e60f3b27870d",
+      "previous_install_sha256": "7dcb676a338c1fb8124ff3ff7e0c0a56d118bfa14c47850a7c926497f16e2f1e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_28.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_29.tga",
       "before_sha256": "aa6ced58b5be7f914b0275af795b27af35c0267c475d0b36a2a79cb28d001766",
       "archive": "aa6ced58b5be7f914b0275af795b27af35c0267c475d0b36a2a79cb28d001766.tga",
-      "after_sha256": "aee7654ef594f5317707c7b4154c1cfdb4435e2d6d97f8acff969c6d9978edd9",
-      "previous_install_sha256": "0c418ef5e7e7662e2c243313750b6b78944e0bef40d713512834345442c23676",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_29.tga"
+      "after_sha256": "07c527baff859c577f26edb86bcb74e34e94d368ede0135d9cf19fb084469136",
+      "previous_install_sha256": "aee7654ef594f5317707c7b4154c1cfdb4435e2d6d97f8acff969c6d9978edd9",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_29.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_29.tga",
       "before_sha256": "aa6ced58b5be7f914b0275af795b27af35c0267c475d0b36a2a79cb28d001766",
       "archive": "aa6ced58b5be7f914b0275af795b27af35c0267c475d0b36a2a79cb28d001766.tga",
-      "after_sha256": "aee7654ef594f5317707c7b4154c1cfdb4435e2d6d97f8acff969c6d9978edd9",
-      "previous_install_sha256": "0c418ef5e7e7662e2c243313750b6b78944e0bef40d713512834345442c23676",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_29.tga"
+      "after_sha256": "07c527baff859c577f26edb86bcb74e34e94d368ede0135d9cf19fb084469136",
+      "previous_install_sha256": "aee7654ef594f5317707c7b4154c1cfdb4435e2d6d97f8acff969c6d9978edd9",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_29.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_29.tga",
       "before_sha256": "aa6ced58b5be7f914b0275af795b27af35c0267c475d0b36a2a79cb28d001766",
       "archive": "aa6ced58b5be7f914b0275af795b27af35c0267c475d0b36a2a79cb28d001766.tga",
-      "after_sha256": "aee7654ef594f5317707c7b4154c1cfdb4435e2d6d97f8acff969c6d9978edd9",
-      "previous_install_sha256": "0c418ef5e7e7662e2c243313750b6b78944e0bef40d713512834345442c23676",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_29.tga"
+      "after_sha256": "07c527baff859c577f26edb86bcb74e34e94d368ede0135d9cf19fb084469136",
+      "previous_install_sha256": "aee7654ef594f5317707c7b4154c1cfdb4435e2d6d97f8acff969c6d9978edd9",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_29.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_30.tga",
       "before_sha256": "133361cf90793c6e81d9af2a9678ef3b74ba634aeb800ac44f53048c2d4dbaef",
       "archive": "133361cf90793c6e81d9af2a9678ef3b74ba634aeb800ac44f53048c2d4dbaef.tga",
-      "after_sha256": "c30495a4d627e6189e910eb48c97cd6e81ad2c792a4b66c06a5f8a2992e7784d",
-      "previous_install_sha256": "bfdf12c1feac7783dfaeb2fbe33177f75ad2309c2e34358fa42c26f5a24f7256",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_30.tga"
+      "after_sha256": "9d9fb068aff61525f921b2e48d8f476a26954671e4f597bdf1c3de0bdb42e647",
+      "previous_install_sha256": "c30495a4d627e6189e910eb48c97cd6e81ad2c792a4b66c06a5f8a2992e7784d",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_30.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_30.tga",
       "before_sha256": "133361cf90793c6e81d9af2a9678ef3b74ba634aeb800ac44f53048c2d4dbaef",
       "archive": "133361cf90793c6e81d9af2a9678ef3b74ba634aeb800ac44f53048c2d4dbaef.tga",
-      "after_sha256": "c30495a4d627e6189e910eb48c97cd6e81ad2c792a4b66c06a5f8a2992e7784d",
-      "previous_install_sha256": "bfdf12c1feac7783dfaeb2fbe33177f75ad2309c2e34358fa42c26f5a24f7256",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_30.tga"
+      "after_sha256": "9d9fb068aff61525f921b2e48d8f476a26954671e4f597bdf1c3de0bdb42e647",
+      "previous_install_sha256": "c30495a4d627e6189e910eb48c97cd6e81ad2c792a4b66c06a5f8a2992e7784d",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_30.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_30.tga",
       "before_sha256": "133361cf90793c6e81d9af2a9678ef3b74ba634aeb800ac44f53048c2d4dbaef",
       "archive": "133361cf90793c6e81d9af2a9678ef3b74ba634aeb800ac44f53048c2d4dbaef.tga",
-      "after_sha256": "c30495a4d627e6189e910eb48c97cd6e81ad2c792a4b66c06a5f8a2992e7784d",
-      "previous_install_sha256": "bfdf12c1feac7783dfaeb2fbe33177f75ad2309c2e34358fa42c26f5a24f7256",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_30.tga"
+      "after_sha256": "9d9fb068aff61525f921b2e48d8f476a26954671e4f597bdf1c3de0bdb42e647",
+      "previous_install_sha256": "c30495a4d627e6189e910eb48c97cd6e81ad2c792a4b66c06a5f8a2992e7784d",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_30.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_31.tga",
       "before_sha256": "169f9a8fb70d1ee06673b891264b9ff37c97606f12ace8c7b28bdaff43e74625",
       "archive": "169f9a8fb70d1ee06673b891264b9ff37c97606f12ace8c7b28bdaff43e74625.tga",
-      "after_sha256": "2ca48cb08249f9c6cb3759a5cde3ccb2c5c5fec0048af8f20ce902e0f7db4e80",
-      "previous_install_sha256": "5337d6f7fbc0432f261e74bfe81cfe1a6bc3a5c8389a2011d0db98af09ec0be5",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_31.tga"
+      "after_sha256": "9726cb766b412eae651b38b67c2713895d081aa82aaed94198dd902edf7ac47c",
+      "previous_install_sha256": "2ca48cb08249f9c6cb3759a5cde3ccb2c5c5fec0048af8f20ce902e0f7db4e80",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_31.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_31.tga",
       "before_sha256": "169f9a8fb70d1ee06673b891264b9ff37c97606f12ace8c7b28bdaff43e74625",
       "archive": "169f9a8fb70d1ee06673b891264b9ff37c97606f12ace8c7b28bdaff43e74625.tga",
-      "after_sha256": "2ca48cb08249f9c6cb3759a5cde3ccb2c5c5fec0048af8f20ce902e0f7db4e80",
-      "previous_install_sha256": "5337d6f7fbc0432f261e74bfe81cfe1a6bc3a5c8389a2011d0db98af09ec0be5",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_31.tga"
+      "after_sha256": "9726cb766b412eae651b38b67c2713895d081aa82aaed94198dd902edf7ac47c",
+      "previous_install_sha256": "2ca48cb08249f9c6cb3759a5cde3ccb2c5c5fec0048af8f20ce902e0f7db4e80",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_31.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_31.tga",
       "before_sha256": "169f9a8fb70d1ee06673b891264b9ff37c97606f12ace8c7b28bdaff43e74625",
       "archive": "169f9a8fb70d1ee06673b891264b9ff37c97606f12ace8c7b28bdaff43e74625.tga",
-      "after_sha256": "2ca48cb08249f9c6cb3759a5cde3ccb2c5c5fec0048af8f20ce902e0f7db4e80",
-      "previous_install_sha256": "5337d6f7fbc0432f261e74bfe81cfe1a6bc3a5c8389a2011d0db98af09ec0be5",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_31.tga"
+      "after_sha256": "9726cb766b412eae651b38b67c2713895d081aa82aaed94198dd902edf7ac47c",
+      "previous_install_sha256": "2ca48cb08249f9c6cb3759a5cde3ccb2c5c5fec0048af8f20ce902e0f7db4e80",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_31.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_32.tga",
       "before_sha256": "8ab0fd48a64aafaa21e1b67a92ba0c333ba3734a9e440505b1b06de37536ea8e",
       "archive": "8ab0fd48a64aafaa21e1b67a92ba0c333ba3734a9e440505b1b06de37536ea8e.tga",
-      "after_sha256": "542e59e75d2c6c991bfa829e0eae3d88b2f8c33b81acf690cbd8a68513802fdd",
-      "previous_install_sha256": "cad2a5113ee45e5fac4d429459c2249e14717cdde13865aa6d8ba8ca6dfe9530",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_32.tga"
+      "after_sha256": "2572b8e118192ab851e6ed8e60ede292ae2d38065e429e9bcd4ce544a8baeb3d",
+      "previous_install_sha256": "542e59e75d2c6c991bfa829e0eae3d88b2f8c33b81acf690cbd8a68513802fdd",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_32.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_32.tga",
       "before_sha256": "8ab0fd48a64aafaa21e1b67a92ba0c333ba3734a9e440505b1b06de37536ea8e",
       "archive": "8ab0fd48a64aafaa21e1b67a92ba0c333ba3734a9e440505b1b06de37536ea8e.tga",
-      "after_sha256": "542e59e75d2c6c991bfa829e0eae3d88b2f8c33b81acf690cbd8a68513802fdd",
-      "previous_install_sha256": "cad2a5113ee45e5fac4d429459c2249e14717cdde13865aa6d8ba8ca6dfe9530",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_32.tga"
+      "after_sha256": "2572b8e118192ab851e6ed8e60ede292ae2d38065e429e9bcd4ce544a8baeb3d",
+      "previous_install_sha256": "542e59e75d2c6c991bfa829e0eae3d88b2f8c33b81acf690cbd8a68513802fdd",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_32.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_32.tga",
       "before_sha256": "8ab0fd48a64aafaa21e1b67a92ba0c333ba3734a9e440505b1b06de37536ea8e",
       "archive": "8ab0fd48a64aafaa21e1b67a92ba0c333ba3734a9e440505b1b06de37536ea8e.tga",
-      "after_sha256": "542e59e75d2c6c991bfa829e0eae3d88b2f8c33b81acf690cbd8a68513802fdd",
-      "previous_install_sha256": "cad2a5113ee45e5fac4d429459c2249e14717cdde13865aa6d8ba8ca6dfe9530",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_32.tga"
+      "after_sha256": "2572b8e118192ab851e6ed8e60ede292ae2d38065e429e9bcd4ce544a8baeb3d",
+      "previous_install_sha256": "542e59e75d2c6c991bfa829e0eae3d88b2f8c33b81acf690cbd8a68513802fdd",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_32.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_33.tga",
       "before_sha256": "7f73d2a99dfdc36bb83ffa1c3309256815007747cc4f8bc802c767ff91e55e82",
       "archive": "7f73d2a99dfdc36bb83ffa1c3309256815007747cc4f8bc802c767ff91e55e82.tga",
-      "after_sha256": "ec4785704d4fc5b6730849b76c9174fc5d9e4d651887f1c3777846b682112fe9",
-      "previous_install_sha256": "88c5367f65864d14f7d2700f47cba0de0d1ff91b1f8f15c6eb14dbde1bdab59b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_33.tga"
+      "after_sha256": "d4abeaddf91e582a49690863baaf1345faefa95488b05ade6bd38267ab192166",
+      "previous_install_sha256": "ec4785704d4fc5b6730849b76c9174fc5d9e4d651887f1c3777846b682112fe9",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_33.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_33.tga",
       "before_sha256": "7f73d2a99dfdc36bb83ffa1c3309256815007747cc4f8bc802c767ff91e55e82",
       "archive": "7f73d2a99dfdc36bb83ffa1c3309256815007747cc4f8bc802c767ff91e55e82.tga",
-      "after_sha256": "ec4785704d4fc5b6730849b76c9174fc5d9e4d651887f1c3777846b682112fe9",
-      "previous_install_sha256": "88c5367f65864d14f7d2700f47cba0de0d1ff91b1f8f15c6eb14dbde1bdab59b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_33.tga"
+      "after_sha256": "d4abeaddf91e582a49690863baaf1345faefa95488b05ade6bd38267ab192166",
+      "previous_install_sha256": "ec4785704d4fc5b6730849b76c9174fc5d9e4d651887f1c3777846b682112fe9",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_33.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_33.tga",
       "before_sha256": "7f73d2a99dfdc36bb83ffa1c3309256815007747cc4f8bc802c767ff91e55e82",
       "archive": "7f73d2a99dfdc36bb83ffa1c3309256815007747cc4f8bc802c767ff91e55e82.tga",
-      "after_sha256": "ec4785704d4fc5b6730849b76c9174fc5d9e4d651887f1c3777846b682112fe9",
-      "previous_install_sha256": "88c5367f65864d14f7d2700f47cba0de0d1ff91b1f8f15c6eb14dbde1bdab59b",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_33.tga"
+      "after_sha256": "d4abeaddf91e582a49690863baaf1345faefa95488b05ade6bd38267ab192166",
+      "previous_install_sha256": "ec4785704d4fc5b6730849b76c9174fc5d9e4d651887f1c3777846b682112fe9",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_33.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_34.tga",
       "before_sha256": "c784b0d542d20e6c43ca18049db95031b11f47196c7f990785f1eae3ed8d50e4",
       "archive": "c784b0d542d20e6c43ca18049db95031b11f47196c7f990785f1eae3ed8d50e4.tga",
-      "after_sha256": "542046f90deecc0f4bfbb16709602e15b08264c9b85be46a059462fdf521b26a",
-      "previous_install_sha256": "945dffe7f542b8365a51631d1685ebea2fa2b56270c852bb313ae0e0eacefb85",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_34.tga"
+      "after_sha256": "e37954e99fa4b155d99620dd267f4aaf927d0ccd73931f57537f462d4915a34a",
+      "previous_install_sha256": "542046f90deecc0f4bfbb16709602e15b08264c9b85be46a059462fdf521b26a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_34.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_34.tga",
       "before_sha256": "c784b0d542d20e6c43ca18049db95031b11f47196c7f990785f1eae3ed8d50e4",
       "archive": "c784b0d542d20e6c43ca18049db95031b11f47196c7f990785f1eae3ed8d50e4.tga",
-      "after_sha256": "542046f90deecc0f4bfbb16709602e15b08264c9b85be46a059462fdf521b26a",
-      "previous_install_sha256": "945dffe7f542b8365a51631d1685ebea2fa2b56270c852bb313ae0e0eacefb85",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_34.tga"
+      "after_sha256": "e37954e99fa4b155d99620dd267f4aaf927d0ccd73931f57537f462d4915a34a",
+      "previous_install_sha256": "542046f90deecc0f4bfbb16709602e15b08264c9b85be46a059462fdf521b26a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_34.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_34.tga",
       "before_sha256": "c784b0d542d20e6c43ca18049db95031b11f47196c7f990785f1eae3ed8d50e4",
       "archive": "c784b0d542d20e6c43ca18049db95031b11f47196c7f990785f1eae3ed8d50e4.tga",
-      "after_sha256": "542046f90deecc0f4bfbb16709602e15b08264c9b85be46a059462fdf521b26a",
-      "previous_install_sha256": "945dffe7f542b8365a51631d1685ebea2fa2b56270c852bb313ae0e0eacefb85",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_34.tga"
+      "after_sha256": "e37954e99fa4b155d99620dd267f4aaf927d0ccd73931f57537f462d4915a34a",
+      "previous_install_sha256": "542046f90deecc0f4bfbb16709602e15b08264c9b85be46a059462fdf521b26a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_34.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_35.tga",
       "before_sha256": "4eef477a3816d6adb56915fd0b5b05fbc8734fc36a082be0b47b750a68c11ee5",
       "archive": "4eef477a3816d6adb56915fd0b5b05fbc8734fc36a082be0b47b750a68c11ee5.tga",
-      "after_sha256": "f72ecda2ef6d7b5a9bf236643e43d9327068c04d802146651581cdc7551bab00",
-      "previous_install_sha256": "6bfb62b0712faaaa1a0b8739e7f14683776a5fed8c19b006bc7fab5f949d9bf7",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_35.tga"
+      "after_sha256": "82f20d0d015fd890ca2b8bf02c4f6ecedf0628aa944aae1fcfac7de8977a4b05",
+      "previous_install_sha256": "f72ecda2ef6d7b5a9bf236643e43d9327068c04d802146651581cdc7551bab00",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_35.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_35.tga",
       "before_sha256": "4eef477a3816d6adb56915fd0b5b05fbc8734fc36a082be0b47b750a68c11ee5",
       "archive": "4eef477a3816d6adb56915fd0b5b05fbc8734fc36a082be0b47b750a68c11ee5.tga",
-      "after_sha256": "f72ecda2ef6d7b5a9bf236643e43d9327068c04d802146651581cdc7551bab00",
-      "previous_install_sha256": "6bfb62b0712faaaa1a0b8739e7f14683776a5fed8c19b006bc7fab5f949d9bf7",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_35.tga"
+      "after_sha256": "82f20d0d015fd890ca2b8bf02c4f6ecedf0628aa944aae1fcfac7de8977a4b05",
+      "previous_install_sha256": "f72ecda2ef6d7b5a9bf236643e43d9327068c04d802146651581cdc7551bab00",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_35.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_35.tga",
       "before_sha256": "4eef477a3816d6adb56915fd0b5b05fbc8734fc36a082be0b47b750a68c11ee5",
       "archive": "4eef477a3816d6adb56915fd0b5b05fbc8734fc36a082be0b47b750a68c11ee5.tga",
-      "after_sha256": "f72ecda2ef6d7b5a9bf236643e43d9327068c04d802146651581cdc7551bab00",
-      "previous_install_sha256": "6bfb62b0712faaaa1a0b8739e7f14683776a5fed8c19b006bc7fab5f949d9bf7",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_35.tga"
+      "after_sha256": "82f20d0d015fd890ca2b8bf02c4f6ecedf0628aa944aae1fcfac7de8977a4b05",
+      "previous_install_sha256": "f72ecda2ef6d7b5a9bf236643e43d9327068c04d802146651581cdc7551bab00",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_35.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_36.tga",
       "before_sha256": "e25532a25db4b124bb1206d2943c951a1f0a2bbc1cb093f3ca877766da24c94b",
       "archive": "e25532a25db4b124bb1206d2943c951a1f0a2bbc1cb093f3ca877766da24c94b.tga",
-      "after_sha256": "3260ffdff3267a6775b1f4c5521e7e94801802f4c58d6f4e867254975ac47565",
-      "previous_install_sha256": "65f0deaa479f85926fc79284c2ac87be59f6d284c0be1c8e48d51c0e654439c1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_36.tga"
+      "after_sha256": "82cc5b43f349596ba5c85e3d061c4e80cda5fe31ea1dd1294389d1fb7db9226b",
+      "previous_install_sha256": "3260ffdff3267a6775b1f4c5521e7e94801802f4c58d6f4e867254975ac47565",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_36.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_36.tga",
       "before_sha256": "e25532a25db4b124bb1206d2943c951a1f0a2bbc1cb093f3ca877766da24c94b",
       "archive": "e25532a25db4b124bb1206d2943c951a1f0a2bbc1cb093f3ca877766da24c94b.tga",
-      "after_sha256": "3260ffdff3267a6775b1f4c5521e7e94801802f4c58d6f4e867254975ac47565",
-      "previous_install_sha256": "65f0deaa479f85926fc79284c2ac87be59f6d284c0be1c8e48d51c0e654439c1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_36.tga"
+      "after_sha256": "82cc5b43f349596ba5c85e3d061c4e80cda5fe31ea1dd1294389d1fb7db9226b",
+      "previous_install_sha256": "3260ffdff3267a6775b1f4c5521e7e94801802f4c58d6f4e867254975ac47565",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_36.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_36.tga",
       "before_sha256": "e25532a25db4b124bb1206d2943c951a1f0a2bbc1cb093f3ca877766da24c94b",
       "archive": "e25532a25db4b124bb1206d2943c951a1f0a2bbc1cb093f3ca877766da24c94b.tga",
-      "after_sha256": "3260ffdff3267a6775b1f4c5521e7e94801802f4c58d6f4e867254975ac47565",
-      "previous_install_sha256": "65f0deaa479f85926fc79284c2ac87be59f6d284c0be1c8e48d51c0e654439c1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_36.tga"
+      "after_sha256": "82cc5b43f349596ba5c85e3d061c4e80cda5fe31ea1dd1294389d1fb7db9226b",
+      "previous_install_sha256": "3260ffdff3267a6775b1f4c5521e7e94801802f4c58d6f4e867254975ac47565",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_36.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_37.tga",
       "before_sha256": "c0fc3e12f083575e99387ebff73610389280cd44675d1c54617065797fb57fab",
       "archive": "c0fc3e12f083575e99387ebff73610389280cd44675d1c54617065797fb57fab.tga",
-      "after_sha256": "552ea8b9273a69449a72509b6404c0af66a7b96fce8bca1ac5665e21791d4635",
-      "previous_install_sha256": "d1ef4248d2e61d6bef901bef2a37cc9bff6f0992abd2e6aca1655b7d175f41ce",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_37.tga"
+      "after_sha256": "fd32ce85deb999300c8368a08df7996372706f9c6be6442477606ccefa34ca94",
+      "previous_install_sha256": "552ea8b9273a69449a72509b6404c0af66a7b96fce8bca1ac5665e21791d4635",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_37.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_37.tga",
       "before_sha256": "c0fc3e12f083575e99387ebff73610389280cd44675d1c54617065797fb57fab",
       "archive": "c0fc3e12f083575e99387ebff73610389280cd44675d1c54617065797fb57fab.tga",
-      "after_sha256": "552ea8b9273a69449a72509b6404c0af66a7b96fce8bca1ac5665e21791d4635",
-      "previous_install_sha256": "d1ef4248d2e61d6bef901bef2a37cc9bff6f0992abd2e6aca1655b7d175f41ce",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_37.tga"
+      "after_sha256": "fd32ce85deb999300c8368a08df7996372706f9c6be6442477606ccefa34ca94",
+      "previous_install_sha256": "552ea8b9273a69449a72509b6404c0af66a7b96fce8bca1ac5665e21791d4635",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_37.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_37.tga",
       "before_sha256": "c0fc3e12f083575e99387ebff73610389280cd44675d1c54617065797fb57fab",
       "archive": "c0fc3e12f083575e99387ebff73610389280cd44675d1c54617065797fb57fab.tga",
-      "after_sha256": "552ea8b9273a69449a72509b6404c0af66a7b96fce8bca1ac5665e21791d4635",
-      "previous_install_sha256": "d1ef4248d2e61d6bef901bef2a37cc9bff6f0992abd2e6aca1655b7d175f41ce",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_37.tga"
+      "after_sha256": "fd32ce85deb999300c8368a08df7996372706f9c6be6442477606ccefa34ca94",
+      "previous_install_sha256": "552ea8b9273a69449a72509b6404c0af66a7b96fce8bca1ac5665e21791d4635",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_37.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_38.tga",
       "before_sha256": "a9f878cbbc108ef5abd635565387b9d125f2a88611b727b970dc5f16b3fd1bcd",
       "archive": "a9f878cbbc108ef5abd635565387b9d125f2a88611b727b970dc5f16b3fd1bcd.tga",
-      "after_sha256": "47f38619860a56f70f37c22baf72e112824de36e8017df47eacff4aaef4dbf19",
-      "previous_install_sha256": "c31179fecd745bc575ace27ea870e087ba0ec81a13fe2645efe4e3504e4446a2",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_38.tga"
+      "after_sha256": "6bb4a6bb3c4dbd57ca455abb0667f6f265359f792a9bbf051716d6e0ca5bf9aa",
+      "previous_install_sha256": "47f38619860a56f70f37c22baf72e112824de36e8017df47eacff4aaef4dbf19",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_38.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_38.tga",
       "before_sha256": "a9f878cbbc108ef5abd635565387b9d125f2a88611b727b970dc5f16b3fd1bcd",
       "archive": "a9f878cbbc108ef5abd635565387b9d125f2a88611b727b970dc5f16b3fd1bcd.tga",
-      "after_sha256": "47f38619860a56f70f37c22baf72e112824de36e8017df47eacff4aaef4dbf19",
-      "previous_install_sha256": "c31179fecd745bc575ace27ea870e087ba0ec81a13fe2645efe4e3504e4446a2",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_38.tga"
+      "after_sha256": "6bb4a6bb3c4dbd57ca455abb0667f6f265359f792a9bbf051716d6e0ca5bf9aa",
+      "previous_install_sha256": "47f38619860a56f70f37c22baf72e112824de36e8017df47eacff4aaef4dbf19",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_38.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_38.tga",
       "before_sha256": "a9f878cbbc108ef5abd635565387b9d125f2a88611b727b970dc5f16b3fd1bcd",
       "archive": "a9f878cbbc108ef5abd635565387b9d125f2a88611b727b970dc5f16b3fd1bcd.tga",
-      "after_sha256": "47f38619860a56f70f37c22baf72e112824de36e8017df47eacff4aaef4dbf19",
-      "previous_install_sha256": "c31179fecd745bc575ace27ea870e087ba0ec81a13fe2645efe4e3504e4446a2",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_38.tga"
+      "after_sha256": "6bb4a6bb3c4dbd57ca455abb0667f6f265359f792a9bbf051716d6e0ca5bf9aa",
+      "previous_install_sha256": "47f38619860a56f70f37c22baf72e112824de36e8017df47eacff4aaef4dbf19",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_38.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_39.tga",
       "before_sha256": "317a3092d9eb0a64422ad8969b16b2c957bfd4ef6660ef9a2dbafdd2ddd19703",
       "archive": "317a3092d9eb0a64422ad8969b16b2c957bfd4ef6660ef9a2dbafdd2ddd19703.tga",
-      "after_sha256": "1e9ede7ac672abad51738283e02bdf32388e78eb9b0399f6a20596d9d664e691",
-      "previous_install_sha256": "bd82a969f1fb852a27344acfb60fca11435b168495f7912bc8e4b342d85377e8",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_39.tga"
+      "after_sha256": "32fcfdafa63d46a358eff5107bde3cf29ec95c5973f208bd4febd012e076450f",
+      "previous_install_sha256": "1e9ede7ac672abad51738283e02bdf32388e78eb9b0399f6a20596d9d664e691",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_39.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_39.tga",
       "before_sha256": "317a3092d9eb0a64422ad8969b16b2c957bfd4ef6660ef9a2dbafdd2ddd19703",
       "archive": "317a3092d9eb0a64422ad8969b16b2c957bfd4ef6660ef9a2dbafdd2ddd19703.tga",
-      "after_sha256": "1e9ede7ac672abad51738283e02bdf32388e78eb9b0399f6a20596d9d664e691",
-      "previous_install_sha256": "bd82a969f1fb852a27344acfb60fca11435b168495f7912bc8e4b342d85377e8",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_39.tga"
+      "after_sha256": "32fcfdafa63d46a358eff5107bde3cf29ec95c5973f208bd4febd012e076450f",
+      "previous_install_sha256": "1e9ede7ac672abad51738283e02bdf32388e78eb9b0399f6a20596d9d664e691",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_39.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_39.tga",
       "before_sha256": "317a3092d9eb0a64422ad8969b16b2c957bfd4ef6660ef9a2dbafdd2ddd19703",
       "archive": "317a3092d9eb0a64422ad8969b16b2c957bfd4ef6660ef9a2dbafdd2ddd19703.tga",
-      "after_sha256": "1e9ede7ac672abad51738283e02bdf32388e78eb9b0399f6a20596d9d664e691",
-      "previous_install_sha256": "bd82a969f1fb852a27344acfb60fca11435b168495f7912bc8e4b342d85377e8",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_39.tga"
+      "after_sha256": "32fcfdafa63d46a358eff5107bde3cf29ec95c5973f208bd4febd012e076450f",
+      "previous_install_sha256": "1e9ede7ac672abad51738283e02bdf32388e78eb9b0399f6a20596d9d664e691",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_39.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_40.tga",
       "before_sha256": "e8c65f94c7b4c60cc58d639ff07f20df28f9c216837feddd68088abaef78ab2d",
       "archive": "e8c65f94c7b4c60cc58d639ff07f20df28f9c216837feddd68088abaef78ab2d.tga",
-      "after_sha256": "b53427ff6a532c1d99a8b4450dbac0d010587587671e393ca2fb05eec7e4db75",
-      "previous_install_sha256": "0137cf6ddb2ed5a9bb1be2514df432722685a2835a975fffdcc1a636c5a95dc7",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_40.tga"
+      "after_sha256": "4627d35033237c4a68a36ae5bbfb23dff40d4eb88fa88a82f5957af4df8cb562",
+      "previous_install_sha256": "b53427ff6a532c1d99a8b4450dbac0d010587587671e393ca2fb05eec7e4db75",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_40.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_40.tga",
       "before_sha256": "e8c65f94c7b4c60cc58d639ff07f20df28f9c216837feddd68088abaef78ab2d",
       "archive": "e8c65f94c7b4c60cc58d639ff07f20df28f9c216837feddd68088abaef78ab2d.tga",
-      "after_sha256": "b53427ff6a532c1d99a8b4450dbac0d010587587671e393ca2fb05eec7e4db75",
-      "previous_install_sha256": "0137cf6ddb2ed5a9bb1be2514df432722685a2835a975fffdcc1a636c5a95dc7",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_40.tga"
+      "after_sha256": "4627d35033237c4a68a36ae5bbfb23dff40d4eb88fa88a82f5957af4df8cb562",
+      "previous_install_sha256": "b53427ff6a532c1d99a8b4450dbac0d010587587671e393ca2fb05eec7e4db75",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_40.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_40.tga",
       "before_sha256": "e8c65f94c7b4c60cc58d639ff07f20df28f9c216837feddd68088abaef78ab2d",
       "archive": "e8c65f94c7b4c60cc58d639ff07f20df28f9c216837feddd68088abaef78ab2d.tga",
-      "after_sha256": "b53427ff6a532c1d99a8b4450dbac0d010587587671e393ca2fb05eec7e4db75",
-      "previous_install_sha256": "0137cf6ddb2ed5a9bb1be2514df432722685a2835a975fffdcc1a636c5a95dc7",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_40.tga"
+      "after_sha256": "4627d35033237c4a68a36ae5bbfb23dff40d4eb88fa88a82f5957af4df8cb562",
+      "previous_install_sha256": "b53427ff6a532c1d99a8b4450dbac0d010587587671e393ca2fb05eec7e4db75",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_40.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_41.tga",
       "before_sha256": "7c408442be1dde14479b56d9f37d66b53f54f37f8a698c8f9b646cd05918dd3c",
       "archive": "7c408442be1dde14479b56d9f37d66b53f54f37f8a698c8f9b646cd05918dd3c.tga",
-      "after_sha256": "44d6fcfef1bb13a46b93a46eb2db8c74dc9ed1dec614cbcfc3d7e676f13aed22",
-      "previous_install_sha256": "fffb9b2215ee66589482868d9ae137a880a2dff4bc126c6d5d826346bdb775cf",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_41.tga"
+      "after_sha256": "08361ed026be36d3cbf98822108fc0a4a43692b4eed2e1ec4afb161273378d7a",
+      "previous_install_sha256": "44d6fcfef1bb13a46b93a46eb2db8c74dc9ed1dec614cbcfc3d7e676f13aed22",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_41.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_41.tga",
       "before_sha256": "7c408442be1dde14479b56d9f37d66b53f54f37f8a698c8f9b646cd05918dd3c",
       "archive": "7c408442be1dde14479b56d9f37d66b53f54f37f8a698c8f9b646cd05918dd3c.tga",
-      "after_sha256": "44d6fcfef1bb13a46b93a46eb2db8c74dc9ed1dec614cbcfc3d7e676f13aed22",
-      "previous_install_sha256": "fffb9b2215ee66589482868d9ae137a880a2dff4bc126c6d5d826346bdb775cf",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_41.tga"
+      "after_sha256": "08361ed026be36d3cbf98822108fc0a4a43692b4eed2e1ec4afb161273378d7a",
+      "previous_install_sha256": "44d6fcfef1bb13a46b93a46eb2db8c74dc9ed1dec614cbcfc3d7e676f13aed22",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_41.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_41.tga",
       "before_sha256": "7c408442be1dde14479b56d9f37d66b53f54f37f8a698c8f9b646cd05918dd3c",
       "archive": "7c408442be1dde14479b56d9f37d66b53f54f37f8a698c8f9b646cd05918dd3c.tga",
-      "after_sha256": "44d6fcfef1bb13a46b93a46eb2db8c74dc9ed1dec614cbcfc3d7e676f13aed22",
-      "previous_install_sha256": "fffb9b2215ee66589482868d9ae137a880a2dff4bc126c6d5d826346bdb775cf",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_41.tga"
+      "after_sha256": "08361ed026be36d3cbf98822108fc0a4a43692b4eed2e1ec4afb161273378d7a",
+      "previous_install_sha256": "44d6fcfef1bb13a46b93a46eb2db8c74dc9ed1dec614cbcfc3d7e676f13aed22",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_41.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_42.tga",
       "before_sha256": "2782681abff5aa1865922a5bcd642515e039ae7338fce5655178a0798cc6c190",
       "archive": "2782681abff5aa1865922a5bcd642515e039ae7338fce5655178a0798cc6c190.tga",
-      "after_sha256": "c1a2cad17f924df589619e55bb46591b62886c30c1683ec15f6c77d54c9ccc27",
-      "previous_install_sha256": "35e7d4cfcf70493201ac0ff2c51123fd04370430d26d996710f0f764a2811884",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_42.tga"
+      "after_sha256": "ad5b575c8d02ee6f1e490b7db920c8564bab2cd04651373ec0e5f3a7ed0a6246",
+      "previous_install_sha256": "c1a2cad17f924df589619e55bb46591b62886c30c1683ec15f6c77d54c9ccc27",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_42.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_42.tga",
       "before_sha256": "2782681abff5aa1865922a5bcd642515e039ae7338fce5655178a0798cc6c190",
       "archive": "2782681abff5aa1865922a5bcd642515e039ae7338fce5655178a0798cc6c190.tga",
-      "after_sha256": "c1a2cad17f924df589619e55bb46591b62886c30c1683ec15f6c77d54c9ccc27",
-      "previous_install_sha256": "35e7d4cfcf70493201ac0ff2c51123fd04370430d26d996710f0f764a2811884",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_42.tga"
+      "after_sha256": "ad5b575c8d02ee6f1e490b7db920c8564bab2cd04651373ec0e5f3a7ed0a6246",
+      "previous_install_sha256": "c1a2cad17f924df589619e55bb46591b62886c30c1683ec15f6c77d54c9ccc27",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_42.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_42.tga",
       "before_sha256": "2782681abff5aa1865922a5bcd642515e039ae7338fce5655178a0798cc6c190",
       "archive": "2782681abff5aa1865922a5bcd642515e039ae7338fce5655178a0798cc6c190.tga",
-      "after_sha256": "c1a2cad17f924df589619e55bb46591b62886c30c1683ec15f6c77d54c9ccc27",
-      "previous_install_sha256": "35e7d4cfcf70493201ac0ff2c51123fd04370430d26d996710f0f764a2811884",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_42.tga"
+      "after_sha256": "ad5b575c8d02ee6f1e490b7db920c8564bab2cd04651373ec0e5f3a7ed0a6246",
+      "previous_install_sha256": "c1a2cad17f924df589619e55bb46591b62886c30c1683ec15f6c77d54c9ccc27",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_42.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_43.tga",
       "before_sha256": "6e702bc785092590ea5b754c9d8efa212539596c7740a1dca03110308781dfdf",
       "archive": "6e702bc785092590ea5b754c9d8efa212539596c7740a1dca03110308781dfdf.tga",
-      "after_sha256": "f8777d35257a57f9779ef152fb60b645770e12a6f123e8f65072389b092f0212",
-      "previous_install_sha256": "a5a12ec01bfef15ec8a4554beda2e875d25b1c187530470bc4285336a4354ad9",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_43.tga"
+      "after_sha256": "e7caca8aa5650687a934ac5814dd4037a02b613cb1a3b28a0cbc84dcca6d3959",
+      "previous_install_sha256": "f8777d35257a57f9779ef152fb60b645770e12a6f123e8f65072389b092f0212",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_43.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_43.tga",
       "before_sha256": "6e702bc785092590ea5b754c9d8efa212539596c7740a1dca03110308781dfdf",
       "archive": "6e702bc785092590ea5b754c9d8efa212539596c7740a1dca03110308781dfdf.tga",
-      "after_sha256": "f8777d35257a57f9779ef152fb60b645770e12a6f123e8f65072389b092f0212",
-      "previous_install_sha256": "a5a12ec01bfef15ec8a4554beda2e875d25b1c187530470bc4285336a4354ad9",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_43.tga"
+      "after_sha256": "e7caca8aa5650687a934ac5814dd4037a02b613cb1a3b28a0cbc84dcca6d3959",
+      "previous_install_sha256": "f8777d35257a57f9779ef152fb60b645770e12a6f123e8f65072389b092f0212",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_43.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_43.tga",
       "before_sha256": "6e702bc785092590ea5b754c9d8efa212539596c7740a1dca03110308781dfdf",
       "archive": "6e702bc785092590ea5b754c9d8efa212539596c7740a1dca03110308781dfdf.tga",
-      "after_sha256": "f8777d35257a57f9779ef152fb60b645770e12a6f123e8f65072389b092f0212",
-      "previous_install_sha256": "a5a12ec01bfef15ec8a4554beda2e875d25b1c187530470bc4285336a4354ad9",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_43.tga"
+      "after_sha256": "e7caca8aa5650687a934ac5814dd4037a02b613cb1a3b28a0cbc84dcca6d3959",
+      "previous_install_sha256": "f8777d35257a57f9779ef152fb60b645770e12a6f123e8f65072389b092f0212",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_43.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_44.tga",
       "before_sha256": "f1b532e5e289843bf7e4d7a2255b9c09250d48372a896ae20a7edf0537a3432b",
       "archive": "f1b532e5e289843bf7e4d7a2255b9c09250d48372a896ae20a7edf0537a3432b.tga",
-      "after_sha256": "89ed1b9922b93e9c3d282489e465bac0b0de4cebf888b16d57e3992eb19f4ba9",
-      "previous_install_sha256": "ca57f5873ec02cc9327edd74da3e290277fd6b695ac9cd9a0cf38b8e86e3c968",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_44.tga"
+      "after_sha256": "6d4ec697481d0cad21cfa60fb256f4e0b5a56c4a7b19ff06371d744a5364d283",
+      "previous_install_sha256": "89ed1b9922b93e9c3d282489e465bac0b0de4cebf888b16d57e3992eb19f4ba9",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_44.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_44.tga",
       "before_sha256": "f1b532e5e289843bf7e4d7a2255b9c09250d48372a896ae20a7edf0537a3432b",
       "archive": "f1b532e5e289843bf7e4d7a2255b9c09250d48372a896ae20a7edf0537a3432b.tga",
-      "after_sha256": "89ed1b9922b93e9c3d282489e465bac0b0de4cebf888b16d57e3992eb19f4ba9",
-      "previous_install_sha256": "ca57f5873ec02cc9327edd74da3e290277fd6b695ac9cd9a0cf38b8e86e3c968",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_44.tga"
+      "after_sha256": "6d4ec697481d0cad21cfa60fb256f4e0b5a56c4a7b19ff06371d744a5364d283",
+      "previous_install_sha256": "89ed1b9922b93e9c3d282489e465bac0b0de4cebf888b16d57e3992eb19f4ba9",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_44.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_44.tga",
       "before_sha256": "f1b532e5e289843bf7e4d7a2255b9c09250d48372a896ae20a7edf0537a3432b",
       "archive": "f1b532e5e289843bf7e4d7a2255b9c09250d48372a896ae20a7edf0537a3432b.tga",
-      "after_sha256": "89ed1b9922b93e9c3d282489e465bac0b0de4cebf888b16d57e3992eb19f4ba9",
-      "previous_install_sha256": "ca57f5873ec02cc9327edd74da3e290277fd6b695ac9cd9a0cf38b8e86e3c968",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_44.tga"
+      "after_sha256": "6d4ec697481d0cad21cfa60fb256f4e0b5a56c4a7b19ff06371d744a5364d283",
+      "previous_install_sha256": "89ed1b9922b93e9c3d282489e465bac0b0de4cebf888b16d57e3992eb19f4ba9",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_44.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_45.tga",
       "before_sha256": "3372452dac59f1c445e796b7f3766fb30c85c80b35ea767af84895a08c4ca9e4",
       "archive": "3372452dac59f1c445e796b7f3766fb30c85c80b35ea767af84895a08c4ca9e4.tga",
-      "after_sha256": "5c41e1cdd35d337d7be67165fc9b8b1564f3dd59e9b48b5552963fcd4c6a059a",
-      "previous_install_sha256": "3d48716da0dd2c5cd579ae8e87764587765cc04164fb310f11f87519583850b8",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_45.tga"
+      "after_sha256": "512dcb2864b13ca1d17538e24f0491ae76a1ee7b9d0093e20cf63e2efe515bdf",
+      "previous_install_sha256": "5c41e1cdd35d337d7be67165fc9b8b1564f3dd59e9b48b5552963fcd4c6a059a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_45.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_45.tga",
       "before_sha256": "3372452dac59f1c445e796b7f3766fb30c85c80b35ea767af84895a08c4ca9e4",
       "archive": "3372452dac59f1c445e796b7f3766fb30c85c80b35ea767af84895a08c4ca9e4.tga",
-      "after_sha256": "5c41e1cdd35d337d7be67165fc9b8b1564f3dd59e9b48b5552963fcd4c6a059a",
-      "previous_install_sha256": "3d48716da0dd2c5cd579ae8e87764587765cc04164fb310f11f87519583850b8",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_45.tga"
+      "after_sha256": "512dcb2864b13ca1d17538e24f0491ae76a1ee7b9d0093e20cf63e2efe515bdf",
+      "previous_install_sha256": "5c41e1cdd35d337d7be67165fc9b8b1564f3dd59e9b48b5552963fcd4c6a059a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_45.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_45.tga",
       "before_sha256": "3372452dac59f1c445e796b7f3766fb30c85c80b35ea767af84895a08c4ca9e4",
       "archive": "3372452dac59f1c445e796b7f3766fb30c85c80b35ea767af84895a08c4ca9e4.tga",
-      "after_sha256": "5c41e1cdd35d337d7be67165fc9b8b1564f3dd59e9b48b5552963fcd4c6a059a",
-      "previous_install_sha256": "3d48716da0dd2c5cd579ae8e87764587765cc04164fb310f11f87519583850b8",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_45.tga"
+      "after_sha256": "512dcb2864b13ca1d17538e24f0491ae76a1ee7b9d0093e20cf63e2efe515bdf",
+      "previous_install_sha256": "5c41e1cdd35d337d7be67165fc9b8b1564f3dd59e9b48b5552963fcd4c6a059a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_45.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_46.tga",
       "before_sha256": "3f9885269ee41e8a9ef49c1c94e51138fae4f5b1eb6a469e30062d12789b75a4",
       "archive": "3f9885269ee41e8a9ef49c1c94e51138fae4f5b1eb6a469e30062d12789b75a4.tga",
-      "after_sha256": "2e6fe932ada7dbe7638b0efc9d253c3f6cc00d2443053ae6fd24f69f888decb6",
-      "previous_install_sha256": "9a3eeb5fd67dd0fef5c4d29afe2cd417890da0b69fab5c6b1c59c3dc32a38f9c",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_46.tga"
+      "after_sha256": "c2f5c3aba860bd8709ce58d904e00bbf5aa186610aa51279b42c6d0d2229aaa2",
+      "previous_install_sha256": "2e6fe932ada7dbe7638b0efc9d253c3f6cc00d2443053ae6fd24f69f888decb6",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_46.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_46.tga",
       "before_sha256": "3f9885269ee41e8a9ef49c1c94e51138fae4f5b1eb6a469e30062d12789b75a4",
       "archive": "3f9885269ee41e8a9ef49c1c94e51138fae4f5b1eb6a469e30062d12789b75a4.tga",
-      "after_sha256": "2e6fe932ada7dbe7638b0efc9d253c3f6cc00d2443053ae6fd24f69f888decb6",
-      "previous_install_sha256": "9a3eeb5fd67dd0fef5c4d29afe2cd417890da0b69fab5c6b1c59c3dc32a38f9c",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_46.tga"
+      "after_sha256": "c2f5c3aba860bd8709ce58d904e00bbf5aa186610aa51279b42c6d0d2229aaa2",
+      "previous_install_sha256": "2e6fe932ada7dbe7638b0efc9d253c3f6cc00d2443053ae6fd24f69f888decb6",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_46.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_46.tga",
       "before_sha256": "3f9885269ee41e8a9ef49c1c94e51138fae4f5b1eb6a469e30062d12789b75a4",
       "archive": "3f9885269ee41e8a9ef49c1c94e51138fae4f5b1eb6a469e30062d12789b75a4.tga",
-      "after_sha256": "2e6fe932ada7dbe7638b0efc9d253c3f6cc00d2443053ae6fd24f69f888decb6",
-      "previous_install_sha256": "9a3eeb5fd67dd0fef5c4d29afe2cd417890da0b69fab5c6b1c59c3dc32a38f9c",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_46.tga"
+      "after_sha256": "c2f5c3aba860bd8709ce58d904e00bbf5aa186610aa51279b42c6d0d2229aaa2",
+      "previous_install_sha256": "2e6fe932ada7dbe7638b0efc9d253c3f6cc00d2443053ae6fd24f69f888decb6",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_46.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_47.tga",
       "before_sha256": "3ef047f829224eab86fa538e2e53c3ffd67b8512f93cc9cfb1195e58d57f1648",
       "archive": "3ef047f829224eab86fa538e2e53c3ffd67b8512f93cc9cfb1195e58d57f1648.tga",
-      "after_sha256": "dc08b5fbe184771130773876c361a3f90c5beff4b13f92ea31bab5e03ff71c42",
-      "previous_install_sha256": "90177a8a88fb800b7a9d3b20ed894c2bb73f2e4f196918bfcd8c28e9b60a255e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_47.tga"
+      "after_sha256": "040c0f4980a5ec25b54e7366ec2252328962253bd5bb45bf37a54156b38cc2b5",
+      "previous_install_sha256": "dc08b5fbe184771130773876c361a3f90c5beff4b13f92ea31bab5e03ff71c42",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_47.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_47.tga",
       "before_sha256": "3ef047f829224eab86fa538e2e53c3ffd67b8512f93cc9cfb1195e58d57f1648",
       "archive": "3ef047f829224eab86fa538e2e53c3ffd67b8512f93cc9cfb1195e58d57f1648.tga",
-      "after_sha256": "dc08b5fbe184771130773876c361a3f90c5beff4b13f92ea31bab5e03ff71c42",
-      "previous_install_sha256": "90177a8a88fb800b7a9d3b20ed894c2bb73f2e4f196918bfcd8c28e9b60a255e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_47.tga"
+      "after_sha256": "040c0f4980a5ec25b54e7366ec2252328962253bd5bb45bf37a54156b38cc2b5",
+      "previous_install_sha256": "dc08b5fbe184771130773876c361a3f90c5beff4b13f92ea31bab5e03ff71c42",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_47.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_47.tga",
       "before_sha256": "3ef047f829224eab86fa538e2e53c3ffd67b8512f93cc9cfb1195e58d57f1648",
       "archive": "3ef047f829224eab86fa538e2e53c3ffd67b8512f93cc9cfb1195e58d57f1648.tga",
-      "after_sha256": "dc08b5fbe184771130773876c361a3f90c5beff4b13f92ea31bab5e03ff71c42",
-      "previous_install_sha256": "90177a8a88fb800b7a9d3b20ed894c2bb73f2e4f196918bfcd8c28e9b60a255e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_47.tga"
+      "after_sha256": "040c0f4980a5ec25b54e7366ec2252328962253bd5bb45bf37a54156b38cc2b5",
+      "previous_install_sha256": "dc08b5fbe184771130773876c361a3f90c5beff4b13f92ea31bab5e03ff71c42",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_47.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_48.tga",
       "before_sha256": "4766f04b271c5d07becdda7711b4dffbec15426b03499c79933dd44277e5dc71",
       "archive": "4766f04b271c5d07becdda7711b4dffbec15426b03499c79933dd44277e5dc71.tga",
-      "after_sha256": "4a954727430d03dce065753aaa1400a0797cff8e0fccdc1ce641587980582ac0",
-      "previous_install_sha256": "92657f390cf8faa46beae01058fd75b44ec16c6f7698c155b8ad4dec42599bdd",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_48.tga"
+      "after_sha256": "e61203c785d43238f9dcb3d84c55b7c8d539c953c0bf8d7e5747b131189ea984",
+      "previous_install_sha256": "4a954727430d03dce065753aaa1400a0797cff8e0fccdc1ce641587980582ac0",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_48.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_48.tga",
       "before_sha256": "4766f04b271c5d07becdda7711b4dffbec15426b03499c79933dd44277e5dc71",
       "archive": "4766f04b271c5d07becdda7711b4dffbec15426b03499c79933dd44277e5dc71.tga",
-      "after_sha256": "4a954727430d03dce065753aaa1400a0797cff8e0fccdc1ce641587980582ac0",
-      "previous_install_sha256": "92657f390cf8faa46beae01058fd75b44ec16c6f7698c155b8ad4dec42599bdd",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_48.tga"
+      "after_sha256": "e61203c785d43238f9dcb3d84c55b7c8d539c953c0bf8d7e5747b131189ea984",
+      "previous_install_sha256": "4a954727430d03dce065753aaa1400a0797cff8e0fccdc1ce641587980582ac0",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_48.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_48.tga",
       "before_sha256": "4766f04b271c5d07becdda7711b4dffbec15426b03499c79933dd44277e5dc71",
       "archive": "4766f04b271c5d07becdda7711b4dffbec15426b03499c79933dd44277e5dc71.tga",
-      "after_sha256": "4a954727430d03dce065753aaa1400a0797cff8e0fccdc1ce641587980582ac0",
-      "previous_install_sha256": "92657f390cf8faa46beae01058fd75b44ec16c6f7698c155b8ad4dec42599bdd",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_48.tga"
+      "after_sha256": "e61203c785d43238f9dcb3d84c55b7c8d539c953c0bf8d7e5747b131189ea984",
+      "previous_install_sha256": "4a954727430d03dce065753aaa1400a0797cff8e0fccdc1ce641587980582ac0",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_48.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_49.tga",
       "before_sha256": "b64ed6c394e3fc93a439b618d787f2b4d4750a1c3c835f94dc70f66555986989",
       "archive": "b64ed6c394e3fc93a439b618d787f2b4d4750a1c3c835f94dc70f66555986989.tga",
-      "after_sha256": "28418c80630d1b7b4fbf5c0590673f77c054c4431e21aa216e81c1350eaa8f97",
-      "previous_install_sha256": "8090eb224512137295c63c82949dd89d362462908f3f908ec5436faae2b3c2e2",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_49.tga"
+      "after_sha256": "a544b660623586178714d460275c21e96178647240a839d49a54595a1168b955",
+      "previous_install_sha256": "28418c80630d1b7b4fbf5c0590673f77c054c4431e21aa216e81c1350eaa8f97",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_49.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_49.tga",
       "before_sha256": "b64ed6c394e3fc93a439b618d787f2b4d4750a1c3c835f94dc70f66555986989",
       "archive": "b64ed6c394e3fc93a439b618d787f2b4d4750a1c3c835f94dc70f66555986989.tga",
-      "after_sha256": "28418c80630d1b7b4fbf5c0590673f77c054c4431e21aa216e81c1350eaa8f97",
-      "previous_install_sha256": "8090eb224512137295c63c82949dd89d362462908f3f908ec5436faae2b3c2e2",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_49.tga"
+      "after_sha256": "a544b660623586178714d460275c21e96178647240a839d49a54595a1168b955",
+      "previous_install_sha256": "28418c80630d1b7b4fbf5c0590673f77c054c4431e21aa216e81c1350eaa8f97",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_49.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_49.tga",
       "before_sha256": "b64ed6c394e3fc93a439b618d787f2b4d4750a1c3c835f94dc70f66555986989",
       "archive": "b64ed6c394e3fc93a439b618d787f2b4d4750a1c3c835f94dc70f66555986989.tga",
-      "after_sha256": "28418c80630d1b7b4fbf5c0590673f77c054c4431e21aa216e81c1350eaa8f97",
-      "previous_install_sha256": "8090eb224512137295c63c82949dd89d362462908f3f908ec5436faae2b3c2e2",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_49.tga"
+      "after_sha256": "a544b660623586178714d460275c21e96178647240a839d49a54595a1168b955",
+      "previous_install_sha256": "28418c80630d1b7b4fbf5c0590673f77c054c4431e21aa216e81c1350eaa8f97",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_49.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_50.tga",
       "before_sha256": "c2c45351fceeface42359ea596f97865e29fd05231b931082f0aa07efa3b586a",
       "archive": "c2c45351fceeface42359ea596f97865e29fd05231b931082f0aa07efa3b586a.tga",
-      "after_sha256": "1d98dbba14bfcd8952ee577354a5e925d8b7ca9a1781d42cd2397aeaf2514662",
-      "previous_install_sha256": "f5b346d6a1be63b49b9b2b273c2d33a4ad1e573577057b6c5fb252d19c8e5c20",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_50.tga"
+      "after_sha256": "785c033ac72047c6313a68828f436eafe6847991858abca6e959b3914e777a4b",
+      "previous_install_sha256": "1d98dbba14bfcd8952ee577354a5e925d8b7ca9a1781d42cd2397aeaf2514662",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_50.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_50.tga",
       "before_sha256": "c2c45351fceeface42359ea596f97865e29fd05231b931082f0aa07efa3b586a",
       "archive": "c2c45351fceeface42359ea596f97865e29fd05231b931082f0aa07efa3b586a.tga",
-      "after_sha256": "1d98dbba14bfcd8952ee577354a5e925d8b7ca9a1781d42cd2397aeaf2514662",
-      "previous_install_sha256": "f5b346d6a1be63b49b9b2b273c2d33a4ad1e573577057b6c5fb252d19c8e5c20",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_50.tga"
+      "after_sha256": "785c033ac72047c6313a68828f436eafe6847991858abca6e959b3914e777a4b",
+      "previous_install_sha256": "1d98dbba14bfcd8952ee577354a5e925d8b7ca9a1781d42cd2397aeaf2514662",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_50.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_50.tga",
       "before_sha256": "c2c45351fceeface42359ea596f97865e29fd05231b931082f0aa07efa3b586a",
       "archive": "c2c45351fceeface42359ea596f97865e29fd05231b931082f0aa07efa3b586a.tga",
-      "after_sha256": "1d98dbba14bfcd8952ee577354a5e925d8b7ca9a1781d42cd2397aeaf2514662",
-      "previous_install_sha256": "f5b346d6a1be63b49b9b2b273c2d33a4ad1e573577057b6c5fb252d19c8e5c20",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_50.tga"
+      "after_sha256": "785c033ac72047c6313a68828f436eafe6847991858abca6e959b3914e777a4b",
+      "previous_install_sha256": "1d98dbba14bfcd8952ee577354a5e925d8b7ca9a1781d42cd2397aeaf2514662",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_50.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_51.tga",
       "before_sha256": "c3402aeb06108dd34e2843b0e16d86fec6b584bd519f25dcfe011fea59f22e87",
       "archive": "c3402aeb06108dd34e2843b0e16d86fec6b584bd519f25dcfe011fea59f22e87.tga",
-      "after_sha256": "da17f2736d1444a9fd1e8c6a186a4af4a246b3be02d1ad852e0a1618d17bc35f",
-      "previous_install_sha256": "ee221b19d4a83fe496714f6ef326f330a0f44f95460abd9765901ce36e338a20",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_51.tga"
+      "after_sha256": "16aa7a9b53513ad7209d883795b30ac2a034ad309f47fb8bb2f4fdf02ff11c2a",
+      "previous_install_sha256": "da17f2736d1444a9fd1e8c6a186a4af4a246b3be02d1ad852e0a1618d17bc35f",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_51.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_51.tga",
       "before_sha256": "c3402aeb06108dd34e2843b0e16d86fec6b584bd519f25dcfe011fea59f22e87",
       "archive": "c3402aeb06108dd34e2843b0e16d86fec6b584bd519f25dcfe011fea59f22e87.tga",
-      "after_sha256": "da17f2736d1444a9fd1e8c6a186a4af4a246b3be02d1ad852e0a1618d17bc35f",
-      "previous_install_sha256": "ee221b19d4a83fe496714f6ef326f330a0f44f95460abd9765901ce36e338a20",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_51.tga"
+      "after_sha256": "16aa7a9b53513ad7209d883795b30ac2a034ad309f47fb8bb2f4fdf02ff11c2a",
+      "previous_install_sha256": "da17f2736d1444a9fd1e8c6a186a4af4a246b3be02d1ad852e0a1618d17bc35f",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_51.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_51.tga",
       "before_sha256": "c3402aeb06108dd34e2843b0e16d86fec6b584bd519f25dcfe011fea59f22e87",
       "archive": "c3402aeb06108dd34e2843b0e16d86fec6b584bd519f25dcfe011fea59f22e87.tga",
-      "after_sha256": "da17f2736d1444a9fd1e8c6a186a4af4a246b3be02d1ad852e0a1618d17bc35f",
-      "previous_install_sha256": "ee221b19d4a83fe496714f6ef326f330a0f44f95460abd9765901ce36e338a20",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_51.tga"
+      "after_sha256": "16aa7a9b53513ad7209d883795b30ac2a034ad309f47fb8bb2f4fdf02ff11c2a",
+      "previous_install_sha256": "da17f2736d1444a9fd1e8c6a186a4af4a246b3be02d1ad852e0a1618d17bc35f",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_51.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_52.tga",
       "before_sha256": "83a8f4af26bffbb1cd2eac370aa11bb843b15b0b5d516a98da2652c5e3e4ded4",
       "archive": "83a8f4af26bffbb1cd2eac370aa11bb843b15b0b5d516a98da2652c5e3e4ded4.tga",
-      "after_sha256": "1989a906257274349b56682807943060558fbf1b75914f5232b288f4c0cd6cbb",
-      "previous_install_sha256": "621473ddfc6acb635883af67cae2e34fa11245d6cad296d5a9b4f972f8866c1d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_52.tga"
+      "after_sha256": "9929b613611fa361e31bf4bb8bfadcab8dd4ba4ea486dde504d091c24c057df1",
+      "previous_install_sha256": "1989a906257274349b56682807943060558fbf1b75914f5232b288f4c0cd6cbb",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_52.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_52.tga",
       "before_sha256": "83a8f4af26bffbb1cd2eac370aa11bb843b15b0b5d516a98da2652c5e3e4ded4",
       "archive": "83a8f4af26bffbb1cd2eac370aa11bb843b15b0b5d516a98da2652c5e3e4ded4.tga",
-      "after_sha256": "1989a906257274349b56682807943060558fbf1b75914f5232b288f4c0cd6cbb",
-      "previous_install_sha256": "621473ddfc6acb635883af67cae2e34fa11245d6cad296d5a9b4f972f8866c1d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_52.tga"
+      "after_sha256": "9929b613611fa361e31bf4bb8bfadcab8dd4ba4ea486dde504d091c24c057df1",
+      "previous_install_sha256": "1989a906257274349b56682807943060558fbf1b75914f5232b288f4c0cd6cbb",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_52.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_52.tga",
       "before_sha256": "83a8f4af26bffbb1cd2eac370aa11bb843b15b0b5d516a98da2652c5e3e4ded4",
       "archive": "83a8f4af26bffbb1cd2eac370aa11bb843b15b0b5d516a98da2652c5e3e4ded4.tga",
-      "after_sha256": "1989a906257274349b56682807943060558fbf1b75914f5232b288f4c0cd6cbb",
-      "previous_install_sha256": "621473ddfc6acb635883af67cae2e34fa11245d6cad296d5a9b4f972f8866c1d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_52.tga"
+      "after_sha256": "9929b613611fa361e31bf4bb8bfadcab8dd4ba4ea486dde504d091c24c057df1",
+      "previous_install_sha256": "1989a906257274349b56682807943060558fbf1b75914f5232b288f4c0cd6cbb",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_52.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_53.tga",
       "before_sha256": "0c7bdecab9fcc43bdaef318cf74560ab411d56d4579260e5b2162aaa338ce68c",
       "archive": "0c7bdecab9fcc43bdaef318cf74560ab411d56d4579260e5b2162aaa338ce68c.tga",
-      "after_sha256": "ae448ea462134a05f4ec54b24e10548c22b4273bd42954031154f8b6679bb84e",
-      "previous_install_sha256": "444b8bce4be335608006f366fc3626d9322ced556091912dabe08e900fce9c4e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_53.tga"
+      "after_sha256": "4653efe2ddae26c15852400257299c7814f3d122d3e17100170caed6e17b93c7",
+      "previous_install_sha256": "ae448ea462134a05f4ec54b24e10548c22b4273bd42954031154f8b6679bb84e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_53.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_53.tga",
       "before_sha256": "0c7bdecab9fcc43bdaef318cf74560ab411d56d4579260e5b2162aaa338ce68c",
       "archive": "0c7bdecab9fcc43bdaef318cf74560ab411d56d4579260e5b2162aaa338ce68c.tga",
-      "after_sha256": "ae448ea462134a05f4ec54b24e10548c22b4273bd42954031154f8b6679bb84e",
-      "previous_install_sha256": "444b8bce4be335608006f366fc3626d9322ced556091912dabe08e900fce9c4e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_53.tga"
+      "after_sha256": "4653efe2ddae26c15852400257299c7814f3d122d3e17100170caed6e17b93c7",
+      "previous_install_sha256": "ae448ea462134a05f4ec54b24e10548c22b4273bd42954031154f8b6679bb84e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_53.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_53.tga",
       "before_sha256": "0c7bdecab9fcc43bdaef318cf74560ab411d56d4579260e5b2162aaa338ce68c",
       "archive": "0c7bdecab9fcc43bdaef318cf74560ab411d56d4579260e5b2162aaa338ce68c.tga",
-      "after_sha256": "ae448ea462134a05f4ec54b24e10548c22b4273bd42954031154f8b6679bb84e",
-      "previous_install_sha256": "444b8bce4be335608006f366fc3626d9322ced556091912dabe08e900fce9c4e",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_53.tga"
+      "after_sha256": "4653efe2ddae26c15852400257299c7814f3d122d3e17100170caed6e17b93c7",
+      "previous_install_sha256": "ae448ea462134a05f4ec54b24e10548c22b4273bd42954031154f8b6679bb84e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_53.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_54.tga",
       "before_sha256": "f1537c474b194d790dbd6013bbf3569c869a4e1c5d30d9611c15cec645f0a5e8",
       "archive": "f1537c474b194d790dbd6013bbf3569c869a4e1c5d30d9611c15cec645f0a5e8.tga",
-      "after_sha256": "d89f0f2b8fa9e40a6881b41e67d998231aa10525a2a2f516fd4453b78822c22d",
-      "previous_install_sha256": "7469a7d1657ee800e30877fb6e0abd56885d51f6f69bcf5c499ea7cdc1c236a5",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_54.tga"
+      "after_sha256": "2b55f22a90fafd09a41d7e799b305e35cf1d976cba5f8f1b8e60ed7769eeba1d",
+      "previous_install_sha256": "d89f0f2b8fa9e40a6881b41e67d998231aa10525a2a2f516fd4453b78822c22d",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_54.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_54.tga",
       "before_sha256": "f1537c474b194d790dbd6013bbf3569c869a4e1c5d30d9611c15cec645f0a5e8",
       "archive": "f1537c474b194d790dbd6013bbf3569c869a4e1c5d30d9611c15cec645f0a5e8.tga",
-      "after_sha256": "d89f0f2b8fa9e40a6881b41e67d998231aa10525a2a2f516fd4453b78822c22d",
-      "previous_install_sha256": "7469a7d1657ee800e30877fb6e0abd56885d51f6f69bcf5c499ea7cdc1c236a5",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_54.tga"
+      "after_sha256": "2b55f22a90fafd09a41d7e799b305e35cf1d976cba5f8f1b8e60ed7769eeba1d",
+      "previous_install_sha256": "d89f0f2b8fa9e40a6881b41e67d998231aa10525a2a2f516fd4453b78822c22d",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_54.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_54.tga",
       "before_sha256": "f1537c474b194d790dbd6013bbf3569c869a4e1c5d30d9611c15cec645f0a5e8",
       "archive": "f1537c474b194d790dbd6013bbf3569c869a4e1c5d30d9611c15cec645f0a5e8.tga",
-      "after_sha256": "d89f0f2b8fa9e40a6881b41e67d998231aa10525a2a2f516fd4453b78822c22d",
-      "previous_install_sha256": "7469a7d1657ee800e30877fb6e0abd56885d51f6f69bcf5c499ea7cdc1c236a5",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_54.tga"
+      "after_sha256": "2b55f22a90fafd09a41d7e799b305e35cf1d976cba5f8f1b8e60ed7769eeba1d",
+      "previous_install_sha256": "d89f0f2b8fa9e40a6881b41e67d998231aa10525a2a2f516fd4453b78822c22d",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_54.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_55.tga",
       "before_sha256": "1fa1223195dbb178fdc9289c7d81454c2f5e5f6176efab0ba1026b5d2a96b54b",
       "archive": "1fa1223195dbb178fdc9289c7d81454c2f5e5f6176efab0ba1026b5d2a96b54b.tga",
-      "after_sha256": "b40e7f2d70041a04676f87f9ebf69fa63a0069150ce9ce6f7b80ce85f5a7e34f",
-      "previous_install_sha256": "07334f9e33abee67f75bd529bf5e51d6b4ed269aa745949b73577353e27700fe",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_55.tga"
+      "after_sha256": "8f88ee73b9ff2178c0caf95d3a6a71c321a419867c1898cc17a96b8517a5c57e",
+      "previous_install_sha256": "b67888668ab6dc5c1ef7b4c4b9d2bcf68b1224249a074b84c60829e1ca5c41b3",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_55.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_55.tga",
       "before_sha256": "1fa1223195dbb178fdc9289c7d81454c2f5e5f6176efab0ba1026b5d2a96b54b",
       "archive": "1fa1223195dbb178fdc9289c7d81454c2f5e5f6176efab0ba1026b5d2a96b54b.tga",
-      "after_sha256": "b40e7f2d70041a04676f87f9ebf69fa63a0069150ce9ce6f7b80ce85f5a7e34f",
-      "previous_install_sha256": "07334f9e33abee67f75bd529bf5e51d6b4ed269aa745949b73577353e27700fe",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_55.tga"
+      "after_sha256": "8f88ee73b9ff2178c0caf95d3a6a71c321a419867c1898cc17a96b8517a5c57e",
+      "previous_install_sha256": "b67888668ab6dc5c1ef7b4c4b9d2bcf68b1224249a074b84c60829e1ca5c41b3",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_55.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_55.tga",
       "before_sha256": "1fa1223195dbb178fdc9289c7d81454c2f5e5f6176efab0ba1026b5d2a96b54b",
       "archive": "1fa1223195dbb178fdc9289c7d81454c2f5e5f6176efab0ba1026b5d2a96b54b.tga",
-      "after_sha256": "b40e7f2d70041a04676f87f9ebf69fa63a0069150ce9ce6f7b80ce85f5a7e34f",
-      "previous_install_sha256": "07334f9e33abee67f75bd529bf5e51d6b4ed269aa745949b73577353e27700fe",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_55.tga"
+      "after_sha256": "8f88ee73b9ff2178c0caf95d3a6a71c321a419867c1898cc17a96b8517a5c57e",
+      "previous_install_sha256": "b67888668ab6dc5c1ef7b4c4b9d2bcf68b1224249a074b84c60829e1ca5c41b3",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_55.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_56.tga",
       "before_sha256": "a75b7a3a3d66c51929230288bde4211a2a5932589797d854a150d0b5d61a9a3a",
       "archive": "a75b7a3a3d66c51929230288bde4211a2a5932589797d854a150d0b5d61a9a3a.tga",
-      "after_sha256": "03d2b2bcc137c41b739f6cc50a4883616b969c9153b3a43664eb8d688ab6c199",
-      "previous_install_sha256": "5dce8a068c999cdef8843722bbc116f2b39f75431a98115da940c5b282b0ae8c",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_56.tga"
+      "after_sha256": "f7bd34bc18cb1f0a2aca8490e7dba8ef65d197a6abdfab02ff9c805ce5929c55",
+      "previous_install_sha256": "03d2b2bcc137c41b739f6cc50a4883616b969c9153b3a43664eb8d688ab6c199",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_56.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_56.tga",
       "before_sha256": "a75b7a3a3d66c51929230288bde4211a2a5932589797d854a150d0b5d61a9a3a",
       "archive": "a75b7a3a3d66c51929230288bde4211a2a5932589797d854a150d0b5d61a9a3a.tga",
-      "after_sha256": "03d2b2bcc137c41b739f6cc50a4883616b969c9153b3a43664eb8d688ab6c199",
-      "previous_install_sha256": "5dce8a068c999cdef8843722bbc116f2b39f75431a98115da940c5b282b0ae8c",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_56.tga"
+      "after_sha256": "f7bd34bc18cb1f0a2aca8490e7dba8ef65d197a6abdfab02ff9c805ce5929c55",
+      "previous_install_sha256": "03d2b2bcc137c41b739f6cc50a4883616b969c9153b3a43664eb8d688ab6c199",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_56.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_56.tga",
       "before_sha256": "a75b7a3a3d66c51929230288bde4211a2a5932589797d854a150d0b5d61a9a3a",
       "archive": "a75b7a3a3d66c51929230288bde4211a2a5932589797d854a150d0b5d61a9a3a.tga",
-      "after_sha256": "03d2b2bcc137c41b739f6cc50a4883616b969c9153b3a43664eb8d688ab6c199",
-      "previous_install_sha256": "5dce8a068c999cdef8843722bbc116f2b39f75431a98115da940c5b282b0ae8c",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_56.tga"
+      "after_sha256": "f7bd34bc18cb1f0a2aca8490e7dba8ef65d197a6abdfab02ff9c805ce5929c55",
+      "previous_install_sha256": "03d2b2bcc137c41b739f6cc50a4883616b969c9153b3a43664eb8d688ab6c199",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_56.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_57.tga",
       "before_sha256": "7e8450922f77dc4d607f61ef73de2b55354a6ab43ea950e1d7f2c423a49f0cac",
       "archive": "7e8450922f77dc4d607f61ef73de2b55354a6ab43ea950e1d7f2c423a49f0cac.tga",
-      "after_sha256": "6017b293c07cf93da547f8d5f4e046bf1b9550633b827da1dcc7d012d206cd39",
-      "previous_install_sha256": "8ac091c916e7e2128c51d6708b8bbcdb953ead9b9372786384f4a18713a0b91d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_57.tga"
+      "after_sha256": "7154bb8f3a3a4c198208261c105e444d34baa1bd62003c76cea63e687be57e4c",
+      "previous_install_sha256": "6017b293c07cf93da547f8d5f4e046bf1b9550633b827da1dcc7d012d206cd39",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_57.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_57.tga",
       "before_sha256": "7e8450922f77dc4d607f61ef73de2b55354a6ab43ea950e1d7f2c423a49f0cac",
       "archive": "7e8450922f77dc4d607f61ef73de2b55354a6ab43ea950e1d7f2c423a49f0cac.tga",
-      "after_sha256": "6017b293c07cf93da547f8d5f4e046bf1b9550633b827da1dcc7d012d206cd39",
-      "previous_install_sha256": "8ac091c916e7e2128c51d6708b8bbcdb953ead9b9372786384f4a18713a0b91d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_57.tga"
+      "after_sha256": "7154bb8f3a3a4c198208261c105e444d34baa1bd62003c76cea63e687be57e4c",
+      "previous_install_sha256": "6017b293c07cf93da547f8d5f4e046bf1b9550633b827da1dcc7d012d206cd39",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_57.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_57.tga",
       "before_sha256": "7e8450922f77dc4d607f61ef73de2b55354a6ab43ea950e1d7f2c423a49f0cac",
       "archive": "7e8450922f77dc4d607f61ef73de2b55354a6ab43ea950e1d7f2c423a49f0cac.tga",
-      "after_sha256": "6017b293c07cf93da547f8d5f4e046bf1b9550633b827da1dcc7d012d206cd39",
-      "previous_install_sha256": "8ac091c916e7e2128c51d6708b8bbcdb953ead9b9372786384f4a18713a0b91d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_57.tga"
+      "after_sha256": "7154bb8f3a3a4c198208261c105e444d34baa1bd62003c76cea63e687be57e4c",
+      "previous_install_sha256": "6017b293c07cf93da547f8d5f4e046bf1b9550633b827da1dcc7d012d206cd39",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_57.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_58.tga",
       "before_sha256": "ff2d2057cf5e6e2f8c94e8bbeef8a22da8285a0a649440f12ef0dac10ddbcabd",
       "archive": "ff2d2057cf5e6e2f8c94e8bbeef8a22da8285a0a649440f12ef0dac10ddbcabd.tga",
-      "after_sha256": "9a80efe5c367282ad1e9865d39f79c1d15c079e4eb76f6053e39e70807be4d5f",
-      "previous_install_sha256": "426a67ffc8146f0292b91259aa5df03ee33242309c0d85f5e23199050c281770",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_58.tga"
+      "after_sha256": "0d98952a5e104f5290876ce66ddbbbd16af8114c41c1408b72e18e2cabb2e79f",
+      "previous_install_sha256": "9a80efe5c367282ad1e9865d39f79c1d15c079e4eb76f6053e39e70807be4d5f",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_58.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_58.tga",
       "before_sha256": "ff2d2057cf5e6e2f8c94e8bbeef8a22da8285a0a649440f12ef0dac10ddbcabd",
       "archive": "ff2d2057cf5e6e2f8c94e8bbeef8a22da8285a0a649440f12ef0dac10ddbcabd.tga",
-      "after_sha256": "9a80efe5c367282ad1e9865d39f79c1d15c079e4eb76f6053e39e70807be4d5f",
-      "previous_install_sha256": "426a67ffc8146f0292b91259aa5df03ee33242309c0d85f5e23199050c281770",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_58.tga"
+      "after_sha256": "0d98952a5e104f5290876ce66ddbbbd16af8114c41c1408b72e18e2cabb2e79f",
+      "previous_install_sha256": "9a80efe5c367282ad1e9865d39f79c1d15c079e4eb76f6053e39e70807be4d5f",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_58.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_58.tga",
       "before_sha256": "ff2d2057cf5e6e2f8c94e8bbeef8a22da8285a0a649440f12ef0dac10ddbcabd",
       "archive": "ff2d2057cf5e6e2f8c94e8bbeef8a22da8285a0a649440f12ef0dac10ddbcabd.tga",
-      "after_sha256": "9a80efe5c367282ad1e9865d39f79c1d15c079e4eb76f6053e39e70807be4d5f",
-      "previous_install_sha256": "426a67ffc8146f0292b91259aa5df03ee33242309c0d85f5e23199050c281770",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_58.tga"
+      "after_sha256": "0d98952a5e104f5290876ce66ddbbbd16af8114c41c1408b72e18e2cabb2e79f",
+      "previous_install_sha256": "9a80efe5c367282ad1e9865d39f79c1d15c079e4eb76f6053e39e70807be4d5f",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_58.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_59.tga",
       "before_sha256": "28074195dd9d2487f0cbb723f855e09fe1037eb240abae72492e1f65e68ee88d",
       "archive": "28074195dd9d2487f0cbb723f855e09fe1037eb240abae72492e1f65e68ee88d.tga",
-      "after_sha256": "5310f2339cdab02a70b24da4f020ddf3843cab60e7aadc384f362bf51f07688a",
-      "previous_install_sha256": "8318aa67475cc36c50b1968d86eb2c95742b139a1bddd9d4ccaf9b360d19cbc6",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_59.tga"
+      "after_sha256": "9247f39b1a29608ec943686a286f968eef98ed7b140913409994e67bed0d28e7",
+      "previous_install_sha256": "5310f2339cdab02a70b24da4f020ddf3843cab60e7aadc384f362bf51f07688a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_59.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_59.tga",
       "before_sha256": "28074195dd9d2487f0cbb723f855e09fe1037eb240abae72492e1f65e68ee88d",
       "archive": "28074195dd9d2487f0cbb723f855e09fe1037eb240abae72492e1f65e68ee88d.tga",
-      "after_sha256": "5310f2339cdab02a70b24da4f020ddf3843cab60e7aadc384f362bf51f07688a",
-      "previous_install_sha256": "8318aa67475cc36c50b1968d86eb2c95742b139a1bddd9d4ccaf9b360d19cbc6",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_59.tga"
+      "after_sha256": "9247f39b1a29608ec943686a286f968eef98ed7b140913409994e67bed0d28e7",
+      "previous_install_sha256": "5310f2339cdab02a70b24da4f020ddf3843cab60e7aadc384f362bf51f07688a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_59.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_59.tga",
       "before_sha256": "28074195dd9d2487f0cbb723f855e09fe1037eb240abae72492e1f65e68ee88d",
       "archive": "28074195dd9d2487f0cbb723f855e09fe1037eb240abae72492e1f65e68ee88d.tga",
-      "after_sha256": "5310f2339cdab02a70b24da4f020ddf3843cab60e7aadc384f362bf51f07688a",
-      "previous_install_sha256": "8318aa67475cc36c50b1968d86eb2c95742b139a1bddd9d4ccaf9b360d19cbc6",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_59.tga"
+      "after_sha256": "9247f39b1a29608ec943686a286f968eef98ed7b140913409994e67bed0d28e7",
+      "previous_install_sha256": "5310f2339cdab02a70b24da4f020ddf3843cab60e7aadc384f362bf51f07688a",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_59.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_60.tga",
       "before_sha256": "d238428c834e6dc7c1fb40811f723d85bf995fa8acc99364520eca86e5cc7c28",
       "archive": "d238428c834e6dc7c1fb40811f723d85bf995fa8acc99364520eca86e5cc7c28.tga",
-      "after_sha256": "40fdce6bc697111d03171e877a276a9de922eaea334389e13535522c7f647c82",
-      "previous_install_sha256": "d416d7db120f2c9350a297e5c86670c008e0092826eb715191d1608d166a079d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_60.tga"
+      "after_sha256": "0a0ef90d648b8281df609648fe74ce6ce720438d40991809922824b91261ffb1",
+      "previous_install_sha256": "40fdce6bc697111d03171e877a276a9de922eaea334389e13535522c7f647c82",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_60.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_60.tga",
       "before_sha256": "d238428c834e6dc7c1fb40811f723d85bf995fa8acc99364520eca86e5cc7c28",
       "archive": "d238428c834e6dc7c1fb40811f723d85bf995fa8acc99364520eca86e5cc7c28.tga",
-      "after_sha256": "40fdce6bc697111d03171e877a276a9de922eaea334389e13535522c7f647c82",
-      "previous_install_sha256": "d416d7db120f2c9350a297e5c86670c008e0092826eb715191d1608d166a079d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_60.tga"
+      "after_sha256": "0a0ef90d648b8281df609648fe74ce6ce720438d40991809922824b91261ffb1",
+      "previous_install_sha256": "40fdce6bc697111d03171e877a276a9de922eaea334389e13535522c7f647c82",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_60.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_60.tga",
       "before_sha256": "d238428c834e6dc7c1fb40811f723d85bf995fa8acc99364520eca86e5cc7c28",
       "archive": "d238428c834e6dc7c1fb40811f723d85bf995fa8acc99364520eca86e5cc7c28.tga",
-      "after_sha256": "40fdce6bc697111d03171e877a276a9de922eaea334389e13535522c7f647c82",
-      "previous_install_sha256": "d416d7db120f2c9350a297e5c86670c008e0092826eb715191d1608d166a079d",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_60.tga"
+      "after_sha256": "0a0ef90d648b8281df609648fe74ce6ce720438d40991809922824b91261ffb1",
+      "previous_install_sha256": "40fdce6bc697111d03171e877a276a9de922eaea334389e13535522c7f647c82",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_60.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_61.tga",
       "before_sha256": "15d3db9cfc1c31691e5bdcda6764e9d5726df4e8efa7559c538eb16cf2d94726",
       "archive": "15d3db9cfc1c31691e5bdcda6764e9d5726df4e8efa7559c538eb16cf2d94726.tga",
-      "after_sha256": "5e29c1a66568e52008b6eb1c639f811172440208162aa88e88b1aad527a6ea7e",
-      "previous_install_sha256": "813c132f61e1c934659e30169526e978d8ca3a47e87498c4ba1aa36eec6694ea",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_61.tga"
+      "after_sha256": "360208f6096dd0f0104bb692cfca9ceda27aed4306b46095d87d765b845879a9",
+      "previous_install_sha256": "5e29c1a66568e52008b6eb1c639f811172440208162aa88e88b1aad527a6ea7e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_61.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_61.tga",
       "before_sha256": "15d3db9cfc1c31691e5bdcda6764e9d5726df4e8efa7559c538eb16cf2d94726",
       "archive": "15d3db9cfc1c31691e5bdcda6764e9d5726df4e8efa7559c538eb16cf2d94726.tga",
-      "after_sha256": "5e29c1a66568e52008b6eb1c639f811172440208162aa88e88b1aad527a6ea7e",
-      "previous_install_sha256": "813c132f61e1c934659e30169526e978d8ca3a47e87498c4ba1aa36eec6694ea",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_61.tga"
+      "after_sha256": "360208f6096dd0f0104bb692cfca9ceda27aed4306b46095d87d765b845879a9",
+      "previous_install_sha256": "5e29c1a66568e52008b6eb1c639f811172440208162aa88e88b1aad527a6ea7e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_61.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_61.tga",
       "before_sha256": "15d3db9cfc1c31691e5bdcda6764e9d5726df4e8efa7559c538eb16cf2d94726",
       "archive": "15d3db9cfc1c31691e5bdcda6764e9d5726df4e8efa7559c538eb16cf2d94726.tga",
-      "after_sha256": "5e29c1a66568e52008b6eb1c639f811172440208162aa88e88b1aad527a6ea7e",
-      "previous_install_sha256": "813c132f61e1c934659e30169526e978d8ca3a47e87498c4ba1aa36eec6694ea",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_61.tga"
+      "after_sha256": "360208f6096dd0f0104bb692cfca9ceda27aed4306b46095d87d765b845879a9",
+      "previous_install_sha256": "5e29c1a66568e52008b6eb1c639f811172440208162aa88e88b1aad527a6ea7e",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_61.tga"
     },
     {
       "path": "data/loading_screen/Loading_screen_62.tga",
       "before_sha256": "bf75c616f32a8a74487ff37d02da366ad8ed1e63ade179b992cb85d10c339f0d",
       "archive": "bf75c616f32a8a74487ff37d02da366ad8ed1e63ade179b992cb85d10c339f0d.tga",
-      "after_sha256": "573236b53443e501f257a875364a4046d8d6677a88b35e90cc57b67468e6a766",
-      "previous_install_sha256": "8ffc8b0303e2ade16c94e8c229d2145ba2c46a1e5b5eca2532860a3a0c3b8be1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_62.tga"
+      "after_sha256": "668c37e61e1f30894b1aafb34f9a6110fc8c015ad19f883953b959aea01518d1",
+      "previous_install_sha256": "573236b53443e501f257a875364a4046d8d6677a88b35e90cc57b67468e6a766",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_62.tga"
     },
     {
       "path": "data/loading_screen/load_steamsteel/Loading_screen_62.tga",
       "before_sha256": "bf75c616f32a8a74487ff37d02da366ad8ed1e63ade179b992cb85d10c339f0d",
       "archive": "bf75c616f32a8a74487ff37d02da366ad8ed1e63ade179b992cb85d10c339f0d.tga",
-      "after_sha256": "573236b53443e501f257a875364a4046d8d6677a88b35e90cc57b67468e6a766",
-      "previous_install_sha256": "8ffc8b0303e2ade16c94e8c229d2145ba2c46a1e5b5eca2532860a3a0c3b8be1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_62.tga"
+      "after_sha256": "668c37e61e1f30894b1aafb34f9a6110fc8c015ad19f883953b959aea01518d1",
+      "previous_install_sha256": "573236b53443e501f257a875364a4046d8d6677a88b35e90cc57b67468e6a766",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_62.tga"
     },
     {
       "path": "data/loading_screen/load_althis/Loading_screen_62.tga",
       "before_sha256": "bf75c616f32a8a74487ff37d02da366ad8ed1e63ade179b992cb85d10c339f0d",
       "archive": "bf75c616f32a8a74487ff37d02da366ad8ed1e63ade179b992cb85d10c339f0d.tga",
-      "after_sha256": "573236b53443e501f257a875364a4046d8d6677a88b35e90cc57b67468e6a766",
-      "previous_install_sha256": "8ffc8b0303e2ade16c94e8c229d2145ba2c46a1e5b5eca2532860a3a0c3b8be1",
-      "previous_install_archive": "revision4_opacity60/staged/Loading_screen_62.tga"
+      "after_sha256": "668c37e61e1f30894b1aafb34f9a6110fc8c015ad19f883953b959aea01518d1",
+      "previous_install_sha256": "573236b53443e501f257a875364a4046d8d6677a88b35e90cc57b67468e6a766",
+      "previous_install_archive": "revision6_before_compact/staged/Loading_screen_62.tga"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_63.tga",
+      "before_sha256": null,
+      "archive": null,
+      "previous_install_sha256": null,
+      "previous_install_archive": null,
+      "after_sha256": "45defc22e6925b257cb41334c3fd89ad2862807f35f60f5ef986f424b0b90686"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_63.tga",
+      "before_sha256": null,
+      "archive": null,
+      "previous_install_sha256": null,
+      "previous_install_archive": null,
+      "after_sha256": "45defc22e6925b257cb41334c3fd89ad2862807f35f60f5ef986f424b0b90686"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_63.tga",
+      "before_sha256": null,
+      "archive": null,
+      "previous_install_sha256": null,
+      "previous_install_archive": null,
+      "after_sha256": "45defc22e6925b257cb41334c3fd89ad2862807f35f60f5ef986f424b0b90686"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_64.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "55de9f0006251a462d6723bb0452ae6780ae4fe66b3baa48ef516ec0e64cfec1"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_64.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "55de9f0006251a462d6723bb0452ae6780ae4fe66b3baa48ef516ec0e64cfec1"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_64.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "55de9f0006251a462d6723bb0452ae6780ae4fe66b3baa48ef516ec0e64cfec1"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_65.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "58423f096260cadd0f65a3158f5fd835d6a31c7e9cf7e67b9f6c5ba01fb3c123",
+      "previous_install_sha256": "f913508fe47da51db0aa62de1c5725b3161fc06b611927edd72cbeaf38ee56c1",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_65.tga"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_65.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "58423f096260cadd0f65a3158f5fd835d6a31c7e9cf7e67b9f6c5ba01fb3c123",
+      "previous_install_sha256": "f913508fe47da51db0aa62de1c5725b3161fc06b611927edd72cbeaf38ee56c1",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_65.tga"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_65.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "58423f096260cadd0f65a3158f5fd835d6a31c7e9cf7e67b9f6c5ba01fb3c123",
+      "previous_install_sha256": "f913508fe47da51db0aa62de1c5725b3161fc06b611927edd72cbeaf38ee56c1",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_65.tga"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_66.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "98b4d0807496350359b81b46ecbc16d22174910275db32c5372cd58f553e69aa",
+      "previous_install_sha256": "d757bcdc569d9aca2e75b9a38c70136f99fde9fb876f8bee2e05bba4f1f7bd84",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_66.tga"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_66.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "98b4d0807496350359b81b46ecbc16d22174910275db32c5372cd58f553e69aa",
+      "previous_install_sha256": "d757bcdc569d9aca2e75b9a38c70136f99fde9fb876f8bee2e05bba4f1f7bd84",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_66.tga"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_66.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "98b4d0807496350359b81b46ecbc16d22174910275db32c5372cd58f553e69aa",
+      "previous_install_sha256": "d757bcdc569d9aca2e75b9a38c70136f99fde9fb876f8bee2e05bba4f1f7bd84",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_66.tga"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_67.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "33763951cccf4724ca68b82e1e56487bf85f701dd49ec713dd820d92a0cb211b",
+      "previous_install_sha256": "57d9f323542f1c05e5480a30829d4cc8cfe8c3998b9aa8fcccc453ac527d6ba3",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_67.tga"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_67.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "33763951cccf4724ca68b82e1e56487bf85f701dd49ec713dd820d92a0cb211b",
+      "previous_install_sha256": "57d9f323542f1c05e5480a30829d4cc8cfe8c3998b9aa8fcccc453ac527d6ba3",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_67.tga"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_67.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "33763951cccf4724ca68b82e1e56487bf85f701dd49ec713dd820d92a0cb211b",
+      "previous_install_sha256": "57d9f323542f1c05e5480a30829d4cc8cfe8c3998b9aa8fcccc453ac527d6ba3",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_67.tga"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_68.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "9ed47100c2a4a72ebf109acc5ca330f3bff50dddf1b510a0c8662dadb0879826",
+      "previous_install_sha256": "9a0cc498da5f5571813bf2ed112ef9b40c539cbba7ba0e382bf7a1d8efa00099",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_68.tga"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_68.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "9ed47100c2a4a72ebf109acc5ca330f3bff50dddf1b510a0c8662dadb0879826",
+      "previous_install_sha256": "9a0cc498da5f5571813bf2ed112ef9b40c539cbba7ba0e382bf7a1d8efa00099",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_68.tga"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_68.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "9ed47100c2a4a72ebf109acc5ca330f3bff50dddf1b510a0c8662dadb0879826",
+      "previous_install_sha256": "9a0cc498da5f5571813bf2ed112ef9b40c539cbba7ba0e382bf7a1d8efa00099",
+      "previous_install_archive": "revision9_removed_uncertain_licences/staged/Loading_screen_68.tga"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_69.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "7e6ca46a4d662ef1f0ea495bd9654807d353fcb4c2310f738c6a72e09251ee13"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_69.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "7e6ca46a4d662ef1f0ea495bd9654807d353fcb4c2310f738c6a72e09251ee13"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_69.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "7e6ca46a4d662ef1f0ea495bd9654807d353fcb4c2310f738c6a72e09251ee13"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_70.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "5b8fc7e1af0ba723d178e9f504d229273fe4429e9facaaf64802e58bacd2c053"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_70.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "5b8fc7e1af0ba723d178e9f504d229273fe4429e9facaaf64802e58bacd2c053"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_70.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "5b8fc7e1af0ba723d178e9f504d229273fe4429e9facaaf64802e58bacd2c053"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_71.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "d552e95b55290dbacc79de0e3aa0eb4b6f8df404835295d259d60e0adad5f72d"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_71.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "d552e95b55290dbacc79de0e3aa0eb4b6f8df404835295d259d60e0adad5f72d"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_71.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "d552e95b55290dbacc79de0e3aa0eb4b6f8df404835295d259d60e0adad5f72d"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_72.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "3c74f11eed3e1c173f7fb92fdc2f00e36a094737d39f1b11ec578c69dc317b4a"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_72.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "3c74f11eed3e1c173f7fb92fdc2f00e36a094737d39f1b11ec578c69dc317b4a"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_72.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "3c74f11eed3e1c173f7fb92fdc2f00e36a094737d39f1b11ec578c69dc317b4a"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_73.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "0bdb876013b991046c7e325332526eca5b330376b43c0b1347d42708b13f98af"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_73.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "0bdb876013b991046c7e325332526eca5b330376b43c0b1347d42708b13f98af"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_73.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "0bdb876013b991046c7e325332526eca5b330376b43c0b1347d42708b13f98af"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_74.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "ff0912c1966fa8496ca9c56a28669cfa83ddb0d2b35c63a02856bc0b6eaf746f"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_74.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "ff0912c1966fa8496ca9c56a28669cfa83ddb0d2b35c63a02856bc0b6eaf746f"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_74.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "ff0912c1966fa8496ca9c56a28669cfa83ddb0d2b35c63a02856bc0b6eaf746f"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_75.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "0fb5fff589d24e0e8da91d31330243ba1d5ddc59f317bb91b3c5d898d18ff71d"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_75.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "0fb5fff589d24e0e8da91d31330243ba1d5ddc59f317bb91b3c5d898d18ff71d"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_75.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "0fb5fff589d24e0e8da91d31330243ba1d5ddc59f317bb91b3c5d898d18ff71d"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_76.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "88206cb3b50adfc4c203aa1b184f7c9b39f6d9a59cd9a041328a5908ffd834c5"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_76.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "88206cb3b50adfc4c203aa1b184f7c9b39f6d9a59cd9a041328a5908ffd834c5"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_76.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "88206cb3b50adfc4c203aa1b184f7c9b39f6d9a59cd9a041328a5908ffd834c5"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_77.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "4afdef25367df95ff9668c5873eff83a01bdb18e3fe0349364e3962f7d0d657e"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_77.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "4afdef25367df95ff9668c5873eff83a01bdb18e3fe0349364e3962f7d0d657e"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_77.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "4afdef25367df95ff9668c5873eff83a01bdb18e3fe0349364e3962f7d0d657e"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_78.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "5520e0c24a1c87b4512444e56319fcfb32fed8218e2523fc28d5eeea43a4c72c"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_78.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "5520e0c24a1c87b4512444e56319fcfb32fed8218e2523fc28d5eeea43a4c72c"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_78.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "5520e0c24a1c87b4512444e56319fcfb32fed8218e2523fc28d5eeea43a4c72c"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_79.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "bcf19ca65ebad23a39415c55081b1fd253a6378d0b2682c5016c26054357f921"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_79.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "bcf19ca65ebad23a39415c55081b1fd253a6378d0b2682c5016c26054357f921"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_79.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "bcf19ca65ebad23a39415c55081b1fd253a6378d0b2682c5016c26054357f921"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_80.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "cbcfbf103a1a8919ac70db4f55098a14ca194011e2fbf2f174ad3267f6232ff1"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_80.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "cbcfbf103a1a8919ac70db4f55098a14ca194011e2fbf2f174ad3267f6232ff1"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_80.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "cbcfbf103a1a8919ac70db4f55098a14ca194011e2fbf2f174ad3267f6232ff1"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_81.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "3f5960a4db38f6f24ada68eaa283c51fbe3fb867ebf0a30641a156a270c1c047"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_81.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "3f5960a4db38f6f24ada68eaa283c51fbe3fb867ebf0a30641a156a270c1c047"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_81.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "3f5960a4db38f6f24ada68eaa283c51fbe3fb867ebf0a30641a156a270c1c047"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_82.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "974f2750988aae20b1ed8378b888e230e9a18a55015f9ba069b480fa601247fb"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_82.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "974f2750988aae20b1ed8378b888e230e9a18a55015f9ba069b480fa601247fb"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_82.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "974f2750988aae20b1ed8378b888e230e9a18a55015f9ba069b480fa601247fb"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_83.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "b52fd1128ebcc13022b33540f9fa16051eb03886a508a4c3fd4487a277d51437"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_83.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "b52fd1128ebcc13022b33540f9fa16051eb03886a508a4c3fd4487a277d51437"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_83.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "b52fd1128ebcc13022b33540f9fa16051eb03886a508a4c3fd4487a277d51437"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_84.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "99b1423ffe4eb737ae998de0357765ddbd9df3508ce06102ee2caccba09e28da"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_84.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "99b1423ffe4eb737ae998de0357765ddbd9df3508ce06102ee2caccba09e28da"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_84.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "99b1423ffe4eb737ae998de0357765ddbd9df3508ce06102ee2caccba09e28da"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_85.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "75b74b53ba6a575d14303bd7119c672a45d494cb68eb5f461ad8d3934f4c65e7"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_85.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "75b74b53ba6a575d14303bd7119c672a45d494cb68eb5f461ad8d3934f4c65e7"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_85.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "75b74b53ba6a575d14303bd7119c672a45d494cb68eb5f461ad8d3934f4c65e7"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_86.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "c149394dc36c7b218cdcccfe96b73db7fec637a90a1e199b0daf8bf12f1c059d"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_86.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "c149394dc36c7b218cdcccfe96b73db7fec637a90a1e199b0daf8bf12f1c059d"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_86.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "c149394dc36c7b218cdcccfe96b73db7fec637a90a1e199b0daf8bf12f1c059d"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_87.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "b90fe336ce139ead43d1680739708639248fa17c359bc09ddb9a05cc54376e04"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_87.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "b90fe336ce139ead43d1680739708639248fa17c359bc09ddb9a05cc54376e04"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_87.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "b90fe336ce139ead43d1680739708639248fa17c359bc09ddb9a05cc54376e04"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_88.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "e194a7ecab3e7d886d5335f6799cf033f98abbfc1b4ebca7e53be5c55d852ca7"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_88.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "e194a7ecab3e7d886d5335f6799cf033f98abbfc1b4ebca7e53be5c55d852ca7"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_88.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "e194a7ecab3e7d886d5335f6799cf033f98abbfc1b4ebca7e53be5c55d852ca7"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_89.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "7dcf09005226ba52836e7ca0711db1652b4a30103aee515aaedcfd9d9adb1173"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_89.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "7dcf09005226ba52836e7ca0711db1652b4a30103aee515aaedcfd9d9adb1173"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_89.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "7dcf09005226ba52836e7ca0711db1652b4a30103aee515aaedcfd9d9adb1173"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_90.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "135a1636b70c0a269f6bda45ce43929a6d673b61404d202fce0eeaf7f4ff8f24"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_90.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "135a1636b70c0a269f6bda45ce43929a6d673b61404d202fce0eeaf7f4ff8f24"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_90.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "135a1636b70c0a269f6bda45ce43929a6d673b61404d202fce0eeaf7f4ff8f24"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_91.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "5765cc40c853a3dadb412364c089593c57536663877334681790fdbbcf40946e"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_91.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "5765cc40c853a3dadb412364c089593c57536663877334681790fdbbcf40946e"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_91.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "5765cc40c853a3dadb412364c089593c57536663877334681790fdbbcf40946e"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_92.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "779717b1c47bc454eecb968f3c678ad9a94547c41742b26b8af53650434f2dc0"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_92.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "779717b1c47bc454eecb968f3c678ad9a94547c41742b26b8af53650434f2dc0"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_92.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "779717b1c47bc454eecb968f3c678ad9a94547c41742b26b8af53650434f2dc0"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_93.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "e821da368b0a03619360452b07f489f85d32cc58c9c3e666416eece8654a6fc6"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_93.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "e821da368b0a03619360452b07f489f85d32cc58c9c3e666416eece8654a6fc6"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_93.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "e821da368b0a03619360452b07f489f85d32cc58c9c3e666416eece8654a6fc6"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_94.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "a2002b807826bd9b3b723445faed5963e7abdbe353fbe8bd4e723a8f4a06184c"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_94.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "a2002b807826bd9b3b723445faed5963e7abdbe353fbe8bd4e723a8f4a06184c"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_94.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "a2002b807826bd9b3b723445faed5963e7abdbe353fbe8bd4e723a8f4a06184c"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_95.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "d5bbf74becb207c3693417d29fe3ced2064e15122015c0c2799e204bc102bf47"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_95.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "d5bbf74becb207c3693417d29fe3ced2064e15122015c0c2799e204bc102bf47"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_95.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "d5bbf74becb207c3693417d29fe3ced2064e15122015c0c2799e204bc102bf47"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_96.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "e56e99b58bbb3f1a3870f20c025b83968f719df53210dd29750bf6023e392b92"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_96.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "e56e99b58bbb3f1a3870f20c025b83968f719df53210dd29750bf6023e392b92"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_96.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "e56e99b58bbb3f1a3870f20c025b83968f719df53210dd29750bf6023e392b92"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_97.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "cd4c628aa321a6a74f1e81982b7286ae8aeb67afa6009d59e0253d2ee0544945"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_97.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "cd4c628aa321a6a74f1e81982b7286ae8aeb67afa6009d59e0253d2ee0544945"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_97.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "cd4c628aa321a6a74f1e81982b7286ae8aeb67afa6009d59e0253d2ee0544945"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_98.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "cb600e6dd886dcc88b1575548f4a186977287f208f6e484789f4548a41cd05eb"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_98.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "cb600e6dd886dcc88b1575548f4a186977287f208f6e484789f4548a41cd05eb"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_98.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "cb600e6dd886dcc88b1575548f4a186977287f208f6e484789f4548a41cd05eb"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_99.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "4ab8493f1da478eaebb02935af1c5671243f0c29447130e10f7b429025a38717"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_99.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "4ab8493f1da478eaebb02935af1c5671243f0c29447130e10f7b429025a38717"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_99.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "4ab8493f1da478eaebb02935af1c5671243f0c29447130e10f7b429025a38717"
+    },
+    {
+      "path": "data/loading_screen/Loading_screen_100.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "43025ca3109bbeee5cd7ffb8bbbbef6f4b5a7442f37ce14506444977b12b494d",
+      "previous_install_sha256": "1614cfa5ca015333e60eefb8268a96b95081aa52d79998954382f146932e621b",
+      "previous_install_archive": "revision11_before_colour_replacement/staged/Loading_screen_100.tga"
+    },
+    {
+      "path": "data/loading_screen/load_steamsteel/Loading_screen_100.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "43025ca3109bbeee5cd7ffb8bbbbef6f4b5a7442f37ce14506444977b12b494d",
+      "previous_install_sha256": "1614cfa5ca015333e60eefb8268a96b95081aa52d79998954382f146932e621b",
+      "previous_install_archive": "revision11_before_colour_replacement/staged/Loading_screen_100.tga"
+    },
+    {
+      "path": "data/loading_screen/load_althis/Loading_screen_100.tga",
+      "before_sha256": null,
+      "archive": null,
+      "after_sha256": "43025ca3109bbeee5cd7ffb8bbbbef6f4b5a7442f37ce14506444977b12b494d",
+      "previous_install_sha256": "1614cfa5ca015333e60eefb8268a96b95081aa52d79998954382f146932e621b",
+      "previous_install_archive": "revision11_before_colour_replacement/staged/Loading_screen_100.tga"
     }
   ],
-  "museum_labels": 62,
+  "museum_labels": 100,
   "label_background_opacity": 0.4
 }

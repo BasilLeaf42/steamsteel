@@ -1,0 +1,68 @@
+{
+  "slot": 100,
+  "title": "Hong Kong Harbour",
+  "artist": "Unknown Chinese artist",
+  "date": "Late 1850s",
+  "region": "East Asia",
+  "country": "China",
+  "theme": "Strategic harbour and maritime trade",
+  "approximation": "Period Chinese harbour painting replaces the rejected monochrome Palikiao engraving. Depicts shipping and the Hong Kong waterfront.",
+  "medium": "Oil on canvas; licensed museum photograph",
+  "medium_verified": true,
+  "commons_file": "File:China unknown artist - late 1850s - Hong Kong harbour - oil on canvas IMG 9403 Museum of Asian Civilisation.jpg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:China_unknown_artist_-_late_1850s_-_Hong_Kong_harbour_-_oil_on_canvas_IMG_9403_Museum_of_Asian_Civilisation.jpg",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/China_unknown_artist_-_late_1850s_-_Hong_Kong_harbour_-_oil_on_canvas_IMG_9403_Museum_of_Asian_Civilisation.jpg/1920px-China_unknown_artist_-_late_1850s_-_Hong_Kong_harbour_-_oil_on_canvas_IMG_9403_Museum_of_Asian_Civilisation.jpg",
+  "source_sha256": "b67867107f2faf4d53a60b198adffb9dae1e967672b59d31a4721d6ade9c1805",
+  "source_pixel_size": [
+    1920,
+    1119
+  ],
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "rights_basis": "Photograph explicitly licensed CC BY-SA 4.0 on Wikimedia Commons.",
+  "credit": "Painting: unknown Chinese artist, late 1850s; Asian Civilisations Museum, Singapore. Photograph: Bjoertvedt, 10 November 2018, Wikimedia Commons, CC BY-SA 4.0. Cropped/resized and captioned adaptations are also licensed CC BY-SA 4.0.",
+  "changes": "Cropped, resized and captioned. This image adaptation is distributed under CC BY-SA 4.0; the collection as a whole is not relicensed.",
+  "crop_box": [
+    12,
+    350,
+    1902,
+    1106
+  ],
+  "crop_reason": "Remove excess sky and narrow photographed edges; retain the principal ships, complete sails, mountain skyline and waterfront.",
+  "display_crop_ratio": 2.5,
+  "staged_file": "Loading_screen_100.tga",
+  "staged_sha256": "1614cfa5ca015333e60eefb8268a96b95081aa52d79998954382f146932e621b",
+  "unlabelled_sha256": "09961245175d17af4e49ca9e8e071dfd7839b3bd65e6f00862f60a03d1f67abd",
+  "unlabelled_file": "unlabelled_current/Loading_screen_100.tga",
+  "output_size": [
+    1024,
+    768
+  ],
+  "output_mode": "RGBA",
+  "formatting": "Uniform 1250x500 display crop, precompensated into 1024x490 game panel. Dark footer retained.",
+  "museum_label": {
+    "corner": "top-left",
+    "title": "Hong Kong Harbour",
+    "artist": "Unknown Chinese artist",
+    "date": "Late 1850s",
+    "box": [
+      10,
+      10,
+      207,
+      57
+    ],
+    "coordinate_space": "1250x500 display panel",
+    "title_font": "Georgia Bold 13px",
+    "details_font": "Arial 11px",
+    "background_opacity": 0.4,
+    "text_opacity": 1,
+    "opaque": false,
+    "visual_review": "pending"
+  },
+  "source_visual_review": "passed",
+  "final_visual_review": "pending",
+  "research_file": "global_expansion/31.json",
+  "research_index": 0,
+  "local_source": "global_expansion/sources/31_0.image",
+  "date_note": "Painting date follows the museum photograph’s file identification (late 1850s), not the 2018 photograph date."
+}

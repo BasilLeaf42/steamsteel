@@ -1,240 +1,236 @@
-; pool    --> name of mercenary pool
-; regions --> list of regions belonging to pool
-; unit    --> name of mercenary unit
-;         --> exp X                           --> experience level of mercenary unit
-;         --> cost X                          --> cost to recruit mercenary unit
-;         --> replenish X - X                 --> upper and lower bounds on pool replenishment rate
-;         --> max X                           --> maximum pool size for unit
-;         --> initial X                       --> initial pool size for unit
-;         --> {optional} start_year X         --> year that unit becomes available {0 indicates no set start year}
-;         --> {optional} end_year X           --> last year that unit will be available {0 indicates no set end year}
-;         --> {optional} religions { A B C }  --> list of faction religions unit is available for {no entries indicates available for all religions}
-;         --> {optional} crusading            --> {requires one religion to have been specifed} unit only available to crusading/jihad armies
-;         --> {optional} events { A B C}      --> unit only available after all specified events have occurred, event is a string corresponding to descr_events.txt
+; Steam & Steel regional mercenary pools
+; Subfaction units are custom-battle-only and deliberately absent.
+; Every genuine regional mercenary record is assigned exactly once.
 
-;RATE_H replenish 0.03 - 0.15 Common Ships		avg 0.09
-;RATE_B replenish 0.02 - 0.10 Rare Ships			avg 0.06
-;RATE_X replenish 0.01 - 0.05 V Rare Ships		avg 0.03
-;RATE_Z replenish 0.04 - 0.20 V Common Ships		avg 0.12
-
-;RATE_F replenish 0.18 - 0.5  Pilgrims							avg 0.34
-;RATE_K replenish 0.36 - 1.0 Pilgrims							avg 0.68
-;RATE_Q replenish 0.24 - 0.66 Pilgrims							avg 0.45
-;RATE_AD replenish 0.12 - 0.33 Eastern Pilgrims					avg 0.225
-;RATE_G replenish 0.15 - 0.35 Crusader Sergeants and Knights		avg 0.25
-;RATE_N replenish 0.08 - 0.17 Crusader Sergeants					avg	0.125
-;RATE_R replenish 0.12 - 0.28 Crusader Knights					avg 0.2
-;RATE_AC replenish 0.03 - 0.07 Great Cross						avg 0.05
-;RATE_AF replenish 0.07 - 0.17 Unhorsed Knights					avg 0.12
-
-;RATE_E replenish 0.02 - 0.04 Ribault etc		avg 0.03
-;RATE_O replenish 0.04 - 0.08 Ribault, Rocket Launcher	avg 0.06
-;RATE_P replenish 0.03 - 0.06 Rocket Launcher, Monster Bombard avg 0.045
-
-;RATE_AG replenish 0.11 - 0.33 Very Common 0.22
-
-;RATE_M replenish 0.08 - 0.25 Common			avg 0.165
-;RATE_Y = RATE_M
-;RATE_AH = RATE_M
-
-;RATE_A replenish 0.06 - 0.18 Less Common		avg 0.12
-;RATE_D RATE_A
-;RATE_V RATE_A
-;RATE_W RATE_A
-;RATE_AB RATE_A
-
-;RATE_C replenish 0.04 - 0.13 Crossbowmen etc	avg 0.085
-;RATE_I RATE_C
-
-;RATE_AE replenish 0.06 - 0.10 North African Ghazis 0.09
-
-;RATE_U replenish 0.03 - 0.10 Swiss crossbow avg 0.065
-
-;RATE_S replenish 0.02 - 0.10 Knights			avg 0.06
-;RATE_AA RATE_S
-
-;RATE_T replenish 0.02 - 0.07 Free company 		avg 0.045
-;RATE_J RATE_T
-
-;RATE_L replenish 0.01 - 0.06 Knights			avg 0.035
-
-
-pool Portugal
-	regions Lisbon_Province 
-	unit merc_port_inf_early	exp 2 cost 1200 replenish 0.05 - 0.1 max 2 initial 1 
-	unit merc_port_cav_early	exp 2 cost 1400 replenish 0.01 - 0.05 max 1 initial 0
-
-pool Bulgaria
-	regions Brann_Province Sofia_Province Thessalonica_Province
-	unit merc_bulgarian_inf		exp 1 cost 1150 replenish 0.05 - 0.1 max 2 initial 1
-
-pool Georgia
-	regions Baku_Province
-	unit merc_georgian_inf		exp 1 cost 1000 replenish 0.05 - 0.1 max 2 initial 1
-	unit merc_rus_georgian_cav		exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 0
-
-pool Serbia
-	regions Mesie_Province
-	unit merc_serb_inf	exp 1 cost 1100 replenish 0.05 - 0.1 max 2 initial 1 
-
-pool Poland
-	regions Cracow_Province Tejo_Province Smolensk_Province Pomeranie_Province
-	unit merc_polish_inf	exp 2 cost 1400 replenish 0.05 - 0.1 max 2 initial 1 
-	unit merc_pol_hussars	exp 2 cost 1100 replenish 0.01 - 0.05 max 1 initial 0 
-
-pool Arabia
-	regions Arabie_Province Mecca_Province Yemen_Province Damascus_Province Baghdad_Province Qatar_Province
-	unit merc_arab_brigade	exp 0 cost 800  replenish 0.05 - 0.1 max 2 initial 1
-	unit arab_cav	exp 0 cost 1000  replenish 0.05 - 0.1 max 2 initial 1
-	unit merc_fra_for_cav	exp 2 cost 1600 replenish 0.01 - 0.05 max 1 initial 0  religions { catholic orthodox protestant pagan judaism }
-
-pool Steppes
-	regions Caffa_Province Khwarzam_Province Tashkent_Province Bukhara_Province Astana_Province Almaty_Province Aksu_Province
-	unit merc_kok_royal_cav	exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 0
-
-pool Switzerland
-	regions Baluchistan_Province Sind_Province Dehli_Province Rajputana_Province Mysore_Province Gondowan_Province Bengal_Province
-	unit merc_sikh_warriors		exp 1 cost 1200  replenish 0.05 - 0.1 max 2 initial 1
-	unit merc_indian_fanatic	exp 0 cost 700 replenish 0.01 - 0.05 max 1 initial 0 
-
-pool Siam
-	regions Ayudhya_Province
-	unit merc_siam_agent		exp 0 cost 750 replenish 0.05 - 0.1 max 2 initial 1
-
-pool Burma
-	regions Taungoo_Province Lang_sang_Province
-	unit merc_burmese_inf		exp 0 cost 1100 replenish 0.05 - 0.1 max 2 initial 1
-
-pool Vietnam_s
-	regions Decan_Province Cambodia_Province 
-	unit merc_viet_early_inf		exp 0 cost 900 replenish 0.05 - 0.1 max 2 initial 1
-
-pool Vietnam_n
-	regions Vietnam_Province Kunming_Province
-	unit tib_temple_guard			exp 0 cost 800 replenish 0.05 - 0.1 max 2 initial 1 religions { buddism }
-	unit merc_viet_early_inf		exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 0
-
-pool Japan
-	regions Edo_Province Kyoto_Province Estonie_Province Akita_Province 
-	unit Japan Teppotai Merc				exp 0 cost 1200 replenish 0.04 - 0.13 max 2 initial 1 start_year 1862 end_year 1870
-	unit Japan Shizoku						exp 0 cost 1600 replenish 0.04 - 0.13 max 2 initial 1 start_year 1870
-	unit Japan Heimin Partisans				exp 0 cost 700 replenish 0.06 - 0.19 max 2 initial 1 start_year 1861 end_year 1870
-	unit Japan Heimin Partisans Geberu		exp 0 cost 740 replenish 0.06 - 0.19 max 2 initial 1 start_year 1870 end_year 1880
-	unit Japan Heimin Partisans Minieru		exp 0 cost 800 replenish 0.06 - 0.19 max 2 initial 1 start_year 1880
-	unit Japan Heimin Mob					exp 0 cost 500 replenish 0.08 - 0.25 max 2 initial 1
-	
-pool Hokkaido
+pool Merc_Japan_Ainu_Archers
 	regions Hokkaido_Province
-	unit Japan Ainu Teppo					exp 0 cost 720 replenish 0.04 - 0.12 max 2 initial 1 start_year 1861 end_year 1870
-	unit Japan Ainu Geberu					exp 0 cost 760 replenish 0.04 - 0.12 max 2 initial 1 start_year 1870 end_year 1880
-	unit Japan Ainu Minieru					exp 0 cost 820 replenish 0.04 - 0.12 max 2 initial 1 start_year 1880
-	unit Japan Ainu Archers					exp 0 cost 540 replenish 0.07 - 0.22 max 2 initial 1
+	unit Japan Ainu Archers	exp 0 cost 600 replenish 0.05 - 0.10 max 2 initial 1
 
-pool North_Africa
-	regions Tripolitaine_Province Ceyland_Province Fez_Province Marrakesh_Province
-	unit merc_arab_brigade			exp 0 cost 800  replenish 0.05 - 0.1 max 2 initial 1
-	unit arab_cav	exp 0 cost 1000  replenish 0.05 - 0.1 max 2 initial 1
-	unit merc_fra_for_cav		exp 2 cost 1600 replenish 0.01 - 0.05 max 1 initial 0  religions { catholic orthodox protestant pagan judaism }
+pool Merc_Japan_Ainu_Geberu
+	regions Hokkaido_Province
+	unit Japan Ainu Geberu	exp 0 cost 800 replenish 0.05 - 0.10 max 2 initial 1 start_year 1870 end_year 1880
 
-pool Egypt
-	regions Caire_Province Sudan_Province
-	unit merc_arab_sailors				exp 2 cost 1500 replenish 0.05 - 0.1 max 2 initial 1
+pool Merc_Japan_Ainu_Minieru
+	regions Hokkaido_Province
+	unit Japan Ainu Minieru	exp 0 cost 1000 replenish 0.05 - 0.10 max 2 initial 1 start_year 1880
 
-pool Boer
-	regions Jerusalemb_Province Rhodesie_Province Afrique_Sud_Province Hankou_Province
-	unit merc_us_farmer_cav		exp 2 cost 1500 replenish 0.01 - 0.05 max 1 initial 0  religions { catholic orthodox protestant pagan judaism }
-	unit merc_zulu_spearmen		exp 0 cost 800  replenish 0.05 - 0.1 max 2 initial 1
-	unit merc_uk_sailor		exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
-	unit merc_zulu_rifles		exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 1
+pool Merc_Japan_Ainu_Teppo
+	regions Hokkaido_Province
+	unit Japan Ainu Teppo	exp 0 cost 700 replenish 0.05 - 0.10 max 2 initial 1 start_year 1861 end_year 1870
 
-pool Mozambique
-	regions Mozambique_Province 
-	unit merc_port_inf_early	exp 2 cost 1200 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
-	unit merc_port_cav_early	exp 2 cost 1400 replenish 0.01 - 0.03 max 1 initial 0 religions { catholic orthodox protestant pagan judaism }
-	unit merc_zulu_spearmen		exp 0 cost 800  replenish 0.05 - 0.1 max 2 initial 1
-	unit merc_uk_sailor		exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 0 religions { catholic orthodox protestant pagan judaism }
-	unit merc_zulu_rifles		exp 0 cost 900 replenish 0.01 - 0.03 max 1 initial 0
+pool Merc_Japan_Heimin_Mob
+	regions Estonie_Province Akita_Province Hokkaido_Province Edo_Province Kyoto_Province
+	unit Japan Heimin Mob	exp 0 cost 500 replenish 0.05 - 0.10 max 2 initial 1
 
-pool Tibet
-	regions Tibet_Province
-	unit merc_tib_inf		exp 0 cost 1000 replenish 0.05 - 0.1 max 2 initial 1
-	unit merc_tib_noble_cav		exp 0 cost 1100 replenish 0.01 - 0.05 max 1 initial 0 
-	unit merc_bhutan_warrior	exp 0 cost 1000 replenish 0.05 - 0.1 max 2 initial 1
+pool Merc_Japan_Heimin_Partisans
+	regions Estonie_Province Akita_Province Hokkaido_Province Edo_Province Kyoto_Province
+	unit Japan Heimin Partisans	exp 0 cost 700 replenish 0.05 - 0.10 max 2 initial 1 start_year 1861 end_year 1870
 
-pool Korea
-	regions Korea_Province Qarshi_Province 
-	unit korean_cav_mercs	exp 0 cost 1400 replenish 0.01 - 0.05 max 1 initial 0 start_year 1870
-	unit korean_rifles_mercs	exp 0 cost 1500 replenish 0.05 - 0.1 max 2 initial 1 start_year 1870
+pool Merc_Japan_Heimin_Partisans_Geberu
+	regions Estonie_Province Akita_Province Hokkaido_Province Edo_Province Kyoto_Province
+	unit Japan Heimin Partisans Geberu	exp 0 cost 800 replenish 0.05 - 0.10 max 2 initial 1 start_year 1870 end_year 1880
 
-pool Sardinia
-	regions Irkutsk_Province Ulan_Ude_Province Khabarovsk_Province Shen_Province Arqin_Province 
-	unit merc_mongol_bows		exp 0 cost 700 replenish 0.05 - 0.1 max 2 initial 1
-	unit merc_kok_royal_cav		exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 0
+pool Merc_Japan_Heimin_Partisans_Minieru
+	regions Estonie_Province Akita_Province Hokkaido_Province Edo_Province Kyoto_Province
+	unit Japan Heimin Partisans Minieru	exp 0 cost 1000 replenish 0.05 - 0.10 max 2 initial 1 start_year 1880
 
-pool Papua
-	regions Papua_Province
-	unit merc_papa_bows		exp 0 cost 600 replenish 0.01 - 0.05 max 1 initial 0
+pool Merc_Korean_Musketeers
+	regions Korea_Province
+	unit Korean Musketeers	exp 0 cost 1000 replenish 0.05 - 0.10 max 2 initial 1
 
-pool Ceylon
-	regions Orissa_Province
-	unit merc_island_jihadist		exp 0 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { islam shia }
+pool Merc_Korean_Pikemen
+	regions Korea_Province
+	unit Korean Pikemen	exp 0 cost 700 replenish 0.05 - 0.10 max 2 initial 1
 
-pool West_Balkans
-	regions Lodz_Province Quebec_Province
-	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+pool Merc_africa_cav
+	regions Zhengzhou_Province Hankou_Province Sudan_Province Volgograd_Province Jerusalemb_Province Vijanagar_Province Ceyland_Province Kongo_Province Corne_Afrique_Province Mombasa_Province Kanem_Province Afrique_Centrale_Province Rhodesie_Province Afrique_Sud_Province Madagascar_Province Mozambique_Province Namibie_Province Mali_Province Cote_Guinee_Province
+	unit africa_cav	exp 0 cost 700 replenish 0.01 - 0.05 max 1 initial 0
 
-pool Frontier
-	regions Dakota_Province Apache_Province Zhengding_Province Utah_Province Tualatin_Province Choctaw_Province Nuevo_Mexico_Province Corinth_Province Comanche_Province Kansas_Province 
-	unit merc_us_farmer_cav		exp 1 cost 1500 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
-	unit merc_apache_inf		exp 0 cost 1500  replenish 0.01 - 0.05 max 1 initial 1
-	unit merc_ap_front_cav		exp 0 cost 1500  replenish 0.01 - 0.05 max 1 initial 
+pool Merc_african_warband
+	regions Zhengzhou_Province Hankou_Province Sudan_Province Volgograd_Province Jerusalemb_Province Vijanagar_Province Ceyland_Province Kongo_Province Corne_Afrique_Province Mombasa_Province Kanem_Province Afrique_Centrale_Province Rhodesie_Province Afrique_Sud_Province Madagascar_Province Mozambique_Province Namibie_Province Mali_Province Cote_Guinee_Province
+	unit african_warband	exp 0 cost 500 replenish 0.05 - 0.10 max 2 initial 1
 
-pool America
-	regions Kongo_Province Zhengzhou_Province Jerusalemb_Province Hankou_Province Vijanagar_Province Corne_Afrique_Province Mombasa_Province Kanem_Province Madagascar_Province Afrique_Centrale_Province Namibie_Province Cote_Guinee_Province Mali_Province
-	unit africa_cav		exp 0 cost 700  replenish 0.01 - 0.05 max 1 initial 0
-	unit african_warband		exp 0 cost 500  replenish 0.1 - 0.15 max 3 initial 1
-	unit merc_fra_blacks		exp 2 cost 1400 replenish 0.05 - 0.1 max 1 initial 1 start_year 1870 religions { catholic orthodox protestant pagan judaism islam } 
-	unit merc_zulu_rifles	exp 0 cost 900 replenish 0.01 - 0.05 max 1 initial 1
+pool Merc_arab_cav
+	regions Sudan_Province Antioch_Province Damascus_Province Mecca_Province Arabie_Province Yemen_Province Qatar_Province Yerevan_Province Baghdad_Province Ceyland_Province Caire_Province Tripolitaine_Province Krasnodar_Province Mombasa_Province Fez_Province Marrakesh_Province Mali_Province Cote_Guinee_Province
+	unit arab_cav	exp 0 cost 1000 replenish 0.01 - 0.05 max 1 initial 0
 
-pool Central_American	
-	regions Granada_Province Domrep_Province Jamaica_Province Panama_Province Mexico_Province Bolgar_Province Veracruz_Province Havana_Province
-	unit merc_us_farmers			exp 1 cost 1300 replenish 0.01 - 0.05 max 1 initial 0 end_year 1890 religions { catholic orthodox protestant pagan judaism } 
-	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic orthodox protestant pagan judaism }
+pool Merc_col_12lb
+	regions Alaska_Province Arctic_Province Ruperts_land_Province Xining_Province Yinchuan_Province Beijing_Province Xian_Province Zhengzhou_Province Nanjing_Province Hankou_Province Kunming_Province Chengdu_Province Guiyang_Province Fuzhou_Province Guangzhou_Province Qarshi_Province Korea_Province Mexico_Province Galicie_Province Veracruz_Province Bolgar_Province Panama_Province Havana_Province Santa_Marta_Province Cholula_Province Peru_Province South_Peru_Province Bolivia_Province Paraguay_Province Cuzco_Province Moravie_Province Salvador_Province Rio_Janeiro_Province Potosi_Province Ayudhya_Province Taungoo_Province Vietnam_Province Lang_sang_Province Cambodia_Province Malaysia_Province Brunei_Province Java_Province Papua_Province Philipines_Province Jamaica_Province Sudan_Province Estonie_Province Mesie_Province Sofia_Province Constantinople_Province Thessalonica_Province Hellenie_Province Volgograd_Province Iaroslavl_Province Arkhangelsk_Province Ufa_Province Tyumen_Province Siberia_Province Caffa_Province Kyptchak_Province Tibet_Province Turfan_Province Karakorum_Province Ulan_Bator_Province Irkutsk_Province Ulan_Ude_Province Shen_Province Khabarovsk_Province Antioch_Province Damascus_Province Domrep_Province Smyrna_Province Anatolie_Province Trebizond_Province Mecca_Province Arabie_Province Yemen_Province Qatar_Province Yerevan_Province Baghdad_Province Baku_Province Korasan_Province Khwarzam_Province Tashkent_Province Bukhara_Province Arqin_Province Astana_Province Almaty_Province Aksu_Province Tabriz_Province Ajan_Province Fais_Province Kerman_Province Herat_Province Kandahar_Province Baluchistan_Province Sind_Province Dehli_Province Rajputana_Province Bihar_Province Gondowan_Province Bengal_Province Decan_Province Mysore_Province Vijanagar_Province Orissa_Province Ceyland_Province Caire_Province Tripolitaine_Province Fez_Province Marrakesh_Province Kongo_Province Corne_Afrique_Province Mombasa_Province Kanem_Province Afrique_Centrale_Province Madagascar_Province Mozambique_Province Namibie_Province Mali_Province Cote_Guinee_Province Akita_Province Hokkaido_Province Edo_Province Kyoto_Province
+	unit col_12lb	exp 0 cost 1600 replenish 0.01 - 0.03 max 1 initial 0
 
-pool Southern_Germany
-	regions Santa_Marta_Province Cholula_Province Peru_Province South_Peru_Province Rio_Plata_Province Rio_Negro_Province Salvador_Province Rio_Janeiro_Province 
-	unit merc_us_farmer_cav				exp 1 cost 1500  replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
-	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.05 - 0.1 max 2 initial 1 
+pool Merc_fra_blacks_az
+	regions Sudan_Province
+	unit fra_blacks_az	exp 0 cost 1000 replenish 0.05 - 0.10 max 2 initial 1
 
-pool Chile
+pool Merc_korean_archers
+	regions Korea_Province
+	unit korean_archers	exp 0 cost 600 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_korean_rifles_mercs
+	regions Korea_Province
+	unit korean_rifles_mercs	exp 0 cost 1500 replenish 0.05 - 0.10 max 2 initial 1 start_year 1870
+
+pool Merc_merc_cog
+	regions Angleterre_Province Edinburgh_Province Nuuk_Province Guangzhou_Province York_Province Islande_Province Afrique_Sud_Province W_aust_Province New_zealand_Province Quebec_Province Arctic_Province Ruperts_land_Province Lodz_Province Jamaica_Province Gujerat_Province Lan_na_Province Malaysia_Province Bengal_Province Orissa_Province Gondowan_Province Sind_Province Mexico_Province Galicie_Province Veracruz_Province Stockholm_Province Vestlandet_Province Tromso_Province Magdeburg_Province Tejo_Province Peru_Province South_Peru_Province Paris_Province Bordeaux_Province Marseille_Province Cote_Guinee_Province Krasnodar_Province Decan_Province Innsbruck_Province Venice_Province Milan_Province Naples_Province Cagliari_Province Toledo_Province Cordoba_Province Leon_Province Zaragoza_Province Philipines_Province Havana_Province Corinth_Province Algarve_Province Abenaki_Province Tualatin_Province Tongva_Province Rio_Janeiro_Province Salvador_Province Corne_Afrique_Province Novgorod_Province Sarkel_Province Laponie_Province Caffa_Province Riga_Province Khabarovsk_Province Arkhangelsk_Province Siberia_Province Baku_Province NFinlande_Province Alaska_Province Mysore_Province Fez_Province Marrakesh_Province Constantinople_Province Anatolie_Province Sofia_Province Yemen_Province Smyrna_Province Trebizond_Province Antioch_Province Thessalonica_Province Damascus_Province Tripolitaine_Province Baghdad_Province Ajan_Province Tabriz_Province Kerman_Province Fais_Province Qatar_Province Mombasa_Province Hollande_Province Java_Province Iaroslavl_Province Arhus_Province Beijing_Province Xian_Province Fuzhou_Province Apache_Province Choctaw_Province Granada_Province Comanche_Province Augustine_Province Hellenie_Province Ayudhya_Province Rio_Plata_Province Estonie_Province Edo_Province Kyoto_Province Korea_Province Roman_Province Bihar_Province Hamburg_Province Ceyland_Province Volgograd_Province Sao_Paulo_Province Moravie_Province Cuzco_Province Bolgar_Province Domrep_Province Zhengzhou_Province Santa_Marta_Province Lisbon_Province Taungoo_Province Cholula_Province Qarshi_Province Afrique_Centrale_Province Madagascar_Province Arabie_Province Vietnam_Province Cambodia_Province Brunei_Province Nanjing_Province Caire_Province Sudan_Province Mecca_Province Mesie_Province
+	unit merc cog	exp 0 cost 500 replenish 0.01 - 0.03 max 1 initial 0
+
+pool Merc_merc_galley
+	regions Angleterre_Province Edinburgh_Province Nuuk_Province Guangzhou_Province York_Province Islande_Province Afrique_Sud_Province W_aust_Province New_zealand_Province Quebec_Province Arctic_Province Ruperts_land_Province Lodz_Province Jamaica_Province Gujerat_Province Lan_na_Province Malaysia_Province Bengal_Province Orissa_Province Gondowan_Province Sind_Province Mexico_Province Galicie_Province Veracruz_Province Stockholm_Province Vestlandet_Province Tromso_Province Magdeburg_Province Tejo_Province Peru_Province South_Peru_Province Paris_Province Bordeaux_Province Marseille_Province Cote_Guinee_Province Krasnodar_Province Decan_Province Innsbruck_Province Venice_Province Milan_Province Naples_Province Cagliari_Province Toledo_Province Cordoba_Province Leon_Province Zaragoza_Province Philipines_Province Havana_Province Corinth_Province Algarve_Province Abenaki_Province Tualatin_Province Tongva_Province Rio_Janeiro_Province Salvador_Province Corne_Afrique_Province Novgorod_Province Sarkel_Province Laponie_Province Caffa_Province Riga_Province Khabarovsk_Province Arkhangelsk_Province Siberia_Province Baku_Province NFinlande_Province Alaska_Province Mysore_Province Fez_Province Marrakesh_Province Constantinople_Province Anatolie_Province Sofia_Province Yemen_Province Smyrna_Province Trebizond_Province Antioch_Province Thessalonica_Province Damascus_Province Tripolitaine_Province Baghdad_Province Ajan_Province Tabriz_Province Kerman_Province Fais_Province Qatar_Province Mombasa_Province Hollande_Province Java_Province Iaroslavl_Province Arhus_Province Beijing_Province Xian_Province Fuzhou_Province Apache_Province Choctaw_Province Granada_Province Comanche_Province Augustine_Province Hellenie_Province Ayudhya_Province Rio_Plata_Province Estonie_Province Edo_Province Kyoto_Province Korea_Province Roman_Province Bihar_Province Hamburg_Province Ceyland_Province Volgograd_Province Sao_Paulo_Province Moravie_Province Cuzco_Province Bolgar_Province Domrep_Province Zhengzhou_Province Santa_Marta_Province Lisbon_Province Taungoo_Province Cholula_Province Qarshi_Province Afrique_Centrale_Province Madagascar_Province Arabie_Province Vietnam_Province Cambodia_Province Brunei_Province Nanjing_Province Caire_Province Sudan_Province Mecca_Province Mesie_Province
+	unit merc galley	exp 0 cost 500 replenish 0.01 - 0.03 max 1 initial 0
+
+pool Merc_merc_ap_front_cav
+	regions Zhengding_Province Tualatin_Province Tongva_Province Kansas_Province Utah_Province Nuevo_Mexico_Province Comanche_Province Alaska_Province Arctic_Province Ruperts_land_Province Lodz_Province Jamaica_Province
+	unit merc_ap_front_cav	exp 0 cost 1200 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Merc_merc_apache_inf
+	regions Zhengding_Province Tualatin_Province Tongva_Province Kansas_Province Utah_Province Nuevo_Mexico_Province Comanche_Province Alaska_Province Arctic_Province Ruperts_land_Province Lodz_Province Jamaica_Province
+	unit merc_apache_inf	exp 0 cost 1000 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_arab_brigade
+	regions Sudan_Province Antioch_Province Damascus_Province Mecca_Province Arabie_Province Yemen_Province Qatar_Province Yerevan_Province Baghdad_Province Ceyland_Province Caire_Province Tripolitaine_Province Krasnodar_Province Mombasa_Province
+	unit merc_arab_brigade	exp 0 cost 800 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_arab_sailors
+	regions Caire_Province
+	unit merc_arab_sailors	exp 0 cost 1500 replenish 0.05 - 0.10 max 2 initial 1 start_year 1870
+
+pool Merc_merc_balk_cav_ch
 	regions Cuzco_Province Moravie_Province
-	unit merc_balk_cav_ch				exp 2 cost 1300  replenish 0.01 - 0.05 max 1 initial 1
-	unit merc_fra_inf_ch				exp 2 cost 1250  replenish 0.01 - 0.05 max 1 initial 1
-	unit merc_uk_sailor		exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 0 religions { catholic orthodox protestant pagan judaism }
+	unit merc_balk_cav_ch	exp 0 cost 1000 replenish 0.01 - 0.05 max 1 initial 0
 
-pool Paraguay
-	regions Paraguay_Province 
-	unit merc_para_foot				exp 2 cost 1200  replenish 0.01 - 0.05 max 1 initial 1
+pool Merc_merc_bhutan_warrior
+	regions Dehli_Province Bengal_Province
+	unit merc_bhutan_warrior	exp 0 cost 500 replenish 0.05 - 0.10 max 2 initial 1
 
-pool Uruguay
-	regions Sao_Paulo_Province 
-	unit merc_uru_inf			exp 2 cost 1200  replenish 0.01 - 0.05 max 1 initial 1
+pool Merc_merc_bulgarian_inf
+	regions Sofia_Province Thessalonica_Province
+	unit merc_bulgarian_inf	exp 0 cost 1200 replenish 0.05 - 0.10 max 2 initial 1
 
-pool East_Balkans
-	regions W_aust_Province Gujerat_Province Lan_na_Province 
-	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+pool Merc_merc_burmese_inf
+	regions Taungoo_Province Lang_sang_Province
+	unit merc_burmese_inf	exp 0 cost 1200 replenish 0.05 - 0.10 max 2 initial 1
 
-pool New_Zealand
-	regions New_zealand_Province 
-	unit merc_maori_spearmen		exp 0 cost 800 replenish 0.01 - 0.05 max 1 initial 1
-	unit merc_maori_musketeers		exp 0 cost 1000 replenish 0.01 - 0.05 max 1 initial 1
-	unit merc_uk_sailor			exp 1 cost 1100 replenish 0.01 - 0.05 max 1 initial 1 religions { catholic orthodox protestant pagan judaism }
+pool Merc_merc_eng_for_cav
+	regions Caire_Province
+	unit merc_eng_for_cav	exp 0 cost 1700 replenish 0.01 - 0.05 max 1 initial 0 start_year 1870
 
-pool Aceh
-	regions Bihar_Province
-	unit merc_aceh_warband	exp 0 cost 500 replenish 0.01 - 0.05 max 2 initial 1
-	unit merc_aceh_inf		exp 0 cost 1400 replenish 0.01 - 0.02 max 1 initial 0 religions { islam shia }
-	unit merc_aceh_gold		exp 0 cost 1200 replenish 0.01 - 0.02 max 1 initial 0 religions { islam shia }
-	unit merc_aceh_noble		exp 0 cost 1200 replenish 0.01 - 0.02 max 1 initial 0 religions { islam shia }
-	unit merc_aceh_reg		exp 0 cost 1000 replenish 0.01 - 0.02 max 1 initial 1 religions { islam shia }
-	unit merc_aceh_marines	exp 0 cost 1400 replenish 0.01 - 0.02 max 1 initial 0 religions { islam shia }
+pool Merc_merc_fra_blacks
+	regions Zhengzhou_Province Hankou_Province Sudan_Province Volgograd_Province Jerusalemb_Province Vijanagar_Province Ceyland_Province Kongo_Province Corne_Afrique_Province Mombasa_Province Kanem_Province Afrique_Centrale_Province Rhodesie_Province Afrique_Sud_Province Madagascar_Province Mozambique_Province Namibie_Province Mali_Province Cote_Guinee_Province
+	unit merc_fra_blacks	exp 0 cost 1400 replenish 0.05 - 0.10 max 2 initial 1 start_year 1870
+
+pool Merc_merc_fra_for_cav
+	regions Ceyland_Province Caire_Province Tripolitaine_Province Fez_Province Marrakesh_Province Krasnodar_Province Mali_Province Cote_Guinee_Province
+	unit merc_fra_for_cav	exp 0 cost 1600 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Merc_merc_fra_inf_ch
+	regions Cuzco_Province Moravie_Province
+	unit merc_fra_inf_ch	exp 0 cost 1200 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_georgian_inf
+	regions Baku_Province Tabriz_Province
+	unit merc_georgian_inf	exp 0 cost 1000 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_indian_fanatic
+	regions Taungoo_Province Sind_Province Dehli_Province Rajputana_Province Gondowan_Province Bengal_Province Mysore_Province Orissa_Province
+	unit merc_indian_fanatic	exp 0 cost 900 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_kashgar_inf
+	regions Korasan_Province Khwarzam_Province Tashkent_Province Astana_Province
+	unit merc_kashgar_inf	exp 0 cost 1000 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_kok_royal_cav
+	regions Xining_Province Yinchuan_Province Ufa_Province Tyumen_Province Siberia_Province Kyptchak_Province Turfan_Province Karakorum_Province Ulan_Bator_Province Irkutsk_Province Ulan_Ude_Province Shen_Province Khabarovsk_Province Korasan_Province Khwarzam_Province Tashkent_Province Bukhara_Province Arqin_Province Astana_Province Almaty_Province Aksu_Province
+	unit merc_kok_royal_cav	exp 0 cost 1200 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Merc_merc_maori_musketeers
+	regions New_zealand_Province
+	unit merc_maori_musketeers	exp 0 cost 800 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_maori_spearmen
+	regions New_zealand_Province
+	unit merc_maori_spearmen	exp 0 cost 500 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_mongol_bows
+	regions Yinchuan_Province Karakorum_Province Ulan_Bator_Province Irkutsk_Province Ulan_Ude_Province
+	unit merc_mongol_bows	exp 0 cost 700 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_papa_bows
+	regions Papua_Province
+	unit merc_papa_bows	exp 0 cost 500 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_para_foot
+	regions Paraguay_Province
+	unit merc_para_foot	exp 0 cost 800 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_pol_hussars
+	regions Cracow_Province Tejo_Province Smolensk_Province Pomeranie_Province
+	unit merc_pol_hussars	exp 0 cost 1200 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Merc_merc_polish_inf
+	regions Cracow_Province Tejo_Province Smolensk_Province Pomeranie_Province
+	unit merc_polish_inf	exp 0 cost 1200 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_rus_georgian_cav
+	regions Baku_Province Tabriz_Province Yerevan_Province
+	unit merc_rus_georgian_cav	exp 0 cost 1200 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Merc_merc_serb_inf
+	regions Mesie_Province
+	unit merc_serb_inf	exp 0 cost 1200 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_siam_agent
+	regions Ayudhya_Province
+	unit merc_siam_agent	exp 0 cost 700 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_sikh_warriors
+	regions Taungoo_Province Sind_Province Dehli_Province Rajputana_Province Gondowan_Province Bengal_Province Mysore_Province Orissa_Province
+	unit merc_sikh_warriors	exp 0 cost 1500 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_tib_inf
+	regions Tibet_Province
+	unit merc_tib_inf	exp 0 cost 700 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_uk_sailor
+	regions Alaska_Province Arctic_Province Ruperts_land_Province Xining_Province Yinchuan_Province Beijing_Province Xian_Province Zhengzhou_Province Nanjing_Province Hankou_Province Kunming_Province Chengdu_Province Guiyang_Province Fuzhou_Province Guangzhou_Province Qarshi_Province Korea_Province Mexico_Province Galicie_Province Veracruz_Province Bolgar_Province Panama_Province Havana_Province Santa_Marta_Province Cholula_Province Peru_Province South_Peru_Province Bolivia_Province Paraguay_Province Cuzco_Province Moravie_Province Salvador_Province Rio_Janeiro_Province Potosi_Province Ayudhya_Province Taungoo_Province Vietnam_Province Lang_sang_Province Cambodia_Province Malaysia_Province Brunei_Province Java_Province Papua_Province Philipines_Province Jamaica_Province Sudan_Province Estonie_Province Mesie_Province Sofia_Province Constantinople_Province Thessalonica_Province Hellenie_Province Volgograd_Province Iaroslavl_Province Arkhangelsk_Province Ufa_Province Tyumen_Province Siberia_Province Caffa_Province Kyptchak_Province Tibet_Province Turfan_Province Karakorum_Province Ulan_Bator_Province Irkutsk_Province Ulan_Ude_Province Shen_Province Khabarovsk_Province Antioch_Province Damascus_Province Domrep_Province Smyrna_Province Anatolie_Province Trebizond_Province Mecca_Province Arabie_Province Yemen_Province Qatar_Province Yerevan_Province Baghdad_Province Baku_Province Korasan_Province Khwarzam_Province Tashkent_Province Bukhara_Province Arqin_Province Astana_Province Almaty_Province Aksu_Province Tabriz_Province Ajan_Province Fais_Province Kerman_Province Herat_Province Kandahar_Province Baluchistan_Province Sind_Province Dehli_Province Rajputana_Province Bihar_Province Gondowan_Province Bengal_Province Decan_Province Mysore_Province Vijanagar_Province Orissa_Province Ceyland_Province Caire_Province Tripolitaine_Province Fez_Province Marrakesh_Province Kongo_Province Corne_Afrique_Province Mombasa_Province Kanem_Province Afrique_Centrale_Province Madagascar_Province Mozambique_Province Namibie_Province Mali_Province Cote_Guinee_Province Akita_Province Hokkaido_Province Edo_Province Kyoto_Province Dakota_Province Zhengding_Province Apache_Province Granada_Province Abenaki_Province Algarve_Province Corinth_Province Tualatin_Province Tongva_Province Kansas_Province Utah_Province Nuevo_Mexico_Province Augustine_Province Choctaw_Province Comanche_Province Quebec_Province Lodz_Province Sao_Paulo_Province Rio_Plata_Province Rio_Negro_Province W_aust_Province Lan_na_Province New_zealand_Province Gujerat_Province Jerusalemb_Province Krasnodar_Province Rhodesie_Province Afrique_Sud_Province
+	unit merc_uk_sailor	exp 0 cost 1400 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_uru_inf
+	regions Sao_Paulo_Province
+	unit merc_uru_inf	exp 0 cost 1200 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_us_farmer_cav
+	regions Dakota_Province Zhengding_Province Apache_Province Granada_Province Abenaki_Province Algarve_Province Corinth_Province Tualatin_Province Tongva_Province Kansas_Province Utah_Province Nuevo_Mexico_Province Augustine_Province Choctaw_Province Comanche_Province Quebec_Province Lodz_Province Sao_Paulo_Province Rio_Plata_Province Rio_Negro_Province W_aust_Province Lan_na_Province New_zealand_Province Gujerat_Province Jerusalemb_Province Krasnodar_Province Rhodesie_Province Afrique_Sud_Province
+	unit merc_us_farmer_cav	exp 0 cost 1200 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Merc_merc_us_farmers
+	regions Granada_Province Domrep_Province Jamaica_Province Panama_Province Mexico_Province Bolgar_Province Veracruz_Province Havana_Province
+	unit merc_us_farmers	exp 0 cost 1000 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_zulu_rifles
+	regions Mozambique_Province Hankou_Province Jerusalemb_Province Rhodesie_Province Afrique_Sud_Province Namibie_Province
+	unit merc_zulu_rifles	exp 0 cost 900 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_merc_zulu_spearmen
+	regions Mozambique_Province Hankou_Province Jerusalemb_Province Rhodesie_Province Afrique_Sud_Province Namibie_Province
+	unit merc_zulu_spearmen	exp 0 cost 500 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_mongol_hevcav
+	regions Yinchuan_Province Karakorum_Province Ulan_Bator_Province Irkutsk_Province Ulan_Ude_Province
+	unit mongol_hevcav	exp 0 cost 1200 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Merc_qing_green_banner_horse
+	regions Yinchuan_Province Beijing_Province Xian_Province Nanjing_Province Kunming_Province Chengdu_Province Guiyang_Province Fuzhou_Province Guangzhou_Province Shen_Province Khabarovsk_Province
+	unit qing_green_banner_horse	exp 0 cost 1100 replenish 0.01 - 0.05 max 1 initial 0
+
+pool Merc_tib_militia
+	regions Tibet_Province
+	unit tib_militia	exp 0 cost 500 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_tib_tribal_archer
+	regions Tibet_Province
+	unit tib_tribal_archer	exp 0 cost 600 replenish 0.05 - 0.10 max 2 initial 1
+
+pool Merc_viet_inf
+	regions Ayudhya_Province Taungoo_Province Vietnam_Province Lang_sang_Province Cambodia_Province Malaysia_Province Decan_Province
+	unit viet_inf	exp 0 cost 900 replenish 0.05 - 0.10 max 2 initial 1
+

@@ -1,0 +1,82 @@
+[
+  {
+    "slot": 65,
+    "image_id": 0,
+    "title": "Peddler Visiting a Farmhouse",
+    "artist": "Bunsai Ioki",
+    "date": "Date unknown",
+    "medium": "Watercolor on paper",
+    "crop_box": [
+      3,
+      35,
+      516,
+      240.2
+    ],
+    "label_box": [
+      10,
+      10,
+      227,
+      57
+    ]
+  },
+  {
+    "slot": 66,
+    "image_id": 1,
+    "title": "The Kitchen of the Kikuya Hotel in Shuzenji, Izu",
+    "artist": "Georges Ferdinand Bigot",
+    "date": "1887",
+    "medium": "Oil on board",
+    "crop_box": [
+      3,
+      120,
+      516,
+      325.2
+    ],
+    "label_box": [
+      10,
+      10,
+      238,
+      73
+    ]
+  },
+  {
+    "slot": 67,
+    "image_id": 3,
+    "title": "Drying Umbrellas after the Rain",
+    "artist": "Alfred East",
+    "date": "Date unknown",
+    "medium": "Watercolor on paper",
+    "crop_box": [
+      3,
+      128,
+      516,
+      333.2
+    ],
+    "label_box": [
+      10,
+      10,
+      240,
+      57
+    ]
+  },
+  {
+    "slot": 68,
+    "image_id": 8,
+    "title": "Shiba Zojo-ji Temple",
+    "artist": "Genkichi Yanagi (Takahashi)",
+    "date": "1887",
+    "medium": "Oil on canvas",
+    "crop_box": [
+      3,
+      140,
+      516,
+      345.2
+    ],
+    "label_box": [
+      10,
+      10,
+      201,
+      57
+    ]
+  }
+]

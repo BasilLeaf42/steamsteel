@@ -1,0 +1,189 @@
+[
+  {
+    "unit": "Japan_Hijikata_Toshizo",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-306060dc-2b3b-418c-9d0d-217861e2026d.png",
+    "source_sha256": "a64b4cd19de5a57b8cebfbcfe751155b0fecfb45c32eb466eea94917bc334c20",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Hijikata_Toshizo.tga",
+    "before_sha256": "534263c7477975eb9413f73ff054b61a35a017bf598bdffed4d3b265ac15c408",
+    "after_sha256": "291218ea06ea225a084389cd76282a646e8b0d18a591af4a5bd11c7f09627d79",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Hijikata_Toshizo.tga"
+  },
+  {
+    "unit": "Japan_Itagaki_Taisuke",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-8b6224b3-9eee-4c86-afef-de3a259ab075.png",
+    "source_sha256": "9db3383874799b603604f31be7432fd73be08343437eb67e00815bf1ef3663a3",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Itagaki_Taisuke.tga",
+    "before_sha256": "6dfb4d323702f53804b1a09d0e040de80be3d0af979862686ec1074e04942237",
+    "after_sha256": "48ae9fe8352845992df310e0849a5f43b455ccc86358aab6647e35e48f3493c7",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Itagaki_Taisuke.tga"
+  },
+  {
+    "unit": "Japan_Kondo_Isami",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-b5a05d63-87e2-4dd5-a45b-0a6a7d6f1fee.png",
+    "source_sha256": "aad51f15ee87f79087610ef7681a9e78baec2e6d12ab8b84c7cf659601623405",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Kondo_Isami.tga",
+    "before_sha256": "dca7bb83e0b10610fc64027bf795ecd7c74bca0a82b68ab27ebf6b1ea14d4018",
+    "after_sha256": "930eff0ba0ac9fd37d2d2213226d10a19f3dda630d5aac3c9ff117e0743e56fb",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Kondo_Isami.tga"
+  },
+  {
+    "unit": "Japan_Matsudaira_Katamori",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-8e9ee400-a53f-4d9e-a8f7-5edd48e1b311.png",
+    "source_sha256": "1ac8e04aadcebfa79f1fd5dc455823f9a99424b95d286a8a4f36a177314b6d5d",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Matsudaira_Katamori.tga",
+    "before_sha256": "e326dad07e3584def07302f6693fd71d6be03a66574bc9cb81fed674a62105cd",
+    "after_sha256": "6d543be5d8326d0373c4f2af9a58665246bd1ec1785f22c167c74ab03c51fd39",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Matsudaira_Katamori.tga"
+  },
+  {
+    "unit": "Japan_Saigo_Takamori_1860",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-e368fc6f-d26f-478c-8842-17bd390a9bef.png",
+    "source_sha256": "41753eceff63cafcadca0088dc646e4fe80538ee2dd912dc5d3305f0369eb81a",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Saigo_Takamori_1860.tga",
+    "before_sha256": "43cb3dac6f53eebeabd3c9d5a2ace63ebf4e2b0706e322524613db802c0e1958",
+    "after_sha256": "f2c8a812decc4cb3c87bb441a49955137dc82d68135979109f72f94f7982f071",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Saigo_Takamori_1860.tga"
+  },
+  {
+    "unit": "Japan_Sakamoto_Ryoma",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-c64b834d-bd6d-47cc-8d2b-7c503d032616.png",
+    "source_sha256": "ec305152060edaf32cff886e1e2dd140856fc45ad180c92e2b5b42c99c1f2604",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Sakamoto_Ryoma.tga",
+    "before_sha256": "08fbe02b0768e3a04f2187ef2e2fae7c2611fa2bd8a31f70dc4b6c31d81d0ef7",
+    "after_sha256": "3a445627fba406e0c55c73ab340c8da02705d7e74f096941d96f5372efa1d592",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Sakamoto_Ryoma.tga"
+  },
+  {
+    "unit": "Japan_Tokugawa_Yoshinobu",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-ab62ac57-db08-4d65-8bf4-839f2fe303f8.png",
+    "source_sha256": "ac8baf3f5a2f0545584f4d4db6975e4be7e7d946005934a2752a811f20af4283",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Tokugawa_Yoshinobu.tga",
+    "before_sha256": "0389d7b525ede3075c4659d598f6356e125c601a03160bc8acbf58c17933491c",
+    "after_sha256": "d852d8b134d6589c97026c8ba89ec79b4c753c6f17b85c3f2a11ab674ee38cb2",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Tokugawa_Yoshinobu.tga"
+  },
+  {
+    "unit": "Japan_Enomoto_Takeaki",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-8c9b4e11-fe7c-4f36-b318-29b6cba38d6b.png",
+    "source_sha256": "e2512cb2bca7430a27e45f73ec3ef9f5f8f53e155fdae53c70f3791af9dddf86",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Enomoto_Takeaki.tga",
+    "before_sha256": "d8bf0725a8b6e243e583bb71e2f7ae53536961f6f304d854032b2e7d86097d9e",
+    "after_sha256": "fa5b2a5e60c8f409b6e15bc69858273ecbeb7f36fee8f923cf9cf38cd4d4627d",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Enomoto_Takeaki.tga"
+  },
+  {
+    "unit": "Japan_Jules_Brunet",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-e6928f41-7da2-4c11-af65-dcd273b94dbd.png",
+    "source_sha256": "87b34b3c80d651bf62dc757d1e96195849758b3566e429c6a5b36ad73e5bf071",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Jules_Brunet.tga",
+    "before_sha256": "4a6ba5f434e43e4db528a6618e4b1ba9aa1575e27b70c8619d6e7f5075e756c6",
+    "after_sha256": "5b7c3e553763b53649742c1910159152ed44f5c20816f089b0a67d5b600f6998",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Jules_Brunet.tga"
+  },
+  {
+    "unit": "Japan_Takeda_Ayasaburo",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-7291e34c-ed34-4771-8ae9-5d517735a191.png",
+    "source_sha256": "d8b1a93c67fcd97977d3b586ebcb1e941727e44e4de4ce8b0ab0b443c798c904",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Takeda_Ayasaburo.tga",
+    "before_sha256": "d01f8b23184e20dd4b9c4747149077bb4389f71ee8455d0ea5708667f00e97c9",
+    "after_sha256": "0805c12ac4bd20c379e52825ec381800581360b5749bdbcf99fc580c3a938bca",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Takeda_Ayasaburo.tga"
+  },
+  {
+    "unit": "Japan_Bodyguard_Retainers",
+    "source": "C:\\Users\\kwoks\\.codex\\generated_images\\01a09417-2b02-79c1-ac26-19f8f616b95f\\exec-fc5fc2d9-7f4d-4653-8a00-483dbfd45e47.png",
+    "source_sha256": "6a1d8d6034c5c656dc410f6585586515a5a9f6bf7988a09b63fe9f19605cb898",
+    "crop_box": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "target": "data\\ui\\units\\saxons\\#Japan_Bodyguard_Retainers.tga",
+    "before_sha256": "9ebaf73adfbfe7850d04554a5d75b5180ba00b2f7b358e1d810187cb5ec31c88",
+    "after_sha256": "780916d3ae68b46ed786862933ebde15512cfaf2f308d3ee713401224b13c452",
+    "background_method": "Top-corner-seeded edge continuity: maximum 4 per-channel neighbour difference, bounded within 12 of seed. Protected foreground unchanged.",
+    "visual_review": "passed: original sources and all before/after cards at 48x64 and enlarged",
+    "archive": "tools\\card_source_archive\\japan_before_uncropped_20260923\\#Japan_Bodyguard_Retainers.tga"
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "basis": "Depicted location, not artist nationality. Broad historical-region grouping.",
+  "groups": {
+    "Europe": [
+      1,
+      4,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      24,
+      25,
+      27,
+      32,
+      34,
+      35,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      48,
+      50,
+      51,
+      52,
+      55,
+      57,
+      58,
+      59,
+      61
+    ],
+    "North America": [
+      7,
+      11,
+      15,
+      22,
+      28,
+      44,
+      53
+    ],
+    "Latin America": [
+      56,
+      62,
+      69,
+      70,
+      71,
+      72,
+      73,
+      93,
+      94,
+      95
+    ],
+    "Africa": [
+      14,
+      23,
+      29,
+      33,
+      43,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      96,
+      97
+    ],
+    "South Asia": [
+      8,
+      9,
+      26,
+      31,
+      46,
+      54,
+      90,
+      91,
+      99
+    ],
+    "Central Asia": [
+      5,
+      21,
+      37,
+      47
+    ],
+    "East Asia": [
+      2,
+      10,
+      45,
+      49,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      92,
+      100
+    ],
+    "Southeast Asia": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      98
+    ],
+    "Western Asia": [
+      20,
+      30,
+      60,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
+    "Polar regions": [
+      3
+    ]
+  },
+  "counts": {
+    "Europe": 30,
+    "North America": 7,
+    "Latin America": 10,
+    "Africa": 13,
+    "South Asia": 9,
+    "Central Asia": 4,
+    "East Asia": 12,
+    "Southeast Asia": 6,
+    "Western Asia": 8,
+    "Polar regions": 1
+  }
+}

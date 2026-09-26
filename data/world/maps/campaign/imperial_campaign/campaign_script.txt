@@ -3673,33 +3673,65 @@ script
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-    monitor_event FactionTurnStart I_TurnNumber > 2 ; [TESTING: was 78]				;;;;;1880
-        historic_event military_reforms_1
-        set_event_counter military_reforms_1 1
-        terminate_monitor
-    end_monitor
-
-    monitor_event FactionTurnStart I_TurnNumber > 4 ; [TESTING: was 158]	              ;;;;;1900
-        historic_event military_reforms_2
-        set_event_counter military_reforms_2 1
-        terminate_monitor
-    end_monitor
-
-    monitor_event FactionTurnStart I_TurnNumber > 0	              
+    ; Four turns per year (timescale 0.25). Reform counters advance every five
+    ; years and provide ten recruitment periods from 1860 through 1905+.
+    monitor_event FactionTurnStart I_TurnNumber > 0
         historic_event military_reforms_1860
         set_event_counter military_reforms_1860 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 1 ; [TESTING: was 38]	              
+    monitor_event FactionTurnStart I_TurnNumber > 18
+        historic_event military_reforms_1865
+        set_event_counter military_reforms_1865 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 38
         historic_event military_reforms_1870
         set_event_counter military_reforms_1870 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 3 ; [TESTING: was 118]	              
+    monitor_event FactionTurnStart I_TurnNumber > 58
+        historic_event military_reforms_1875
+        set_event_counter military_reforms_1875 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 78
+        historic_event military_reforms_1
+        set_event_counter military_reforms_1 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 98
+        historic_event military_reforms_1885
+        set_event_counter military_reforms_1885 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 118
         historic_event military_reforms_1890
         set_event_counter military_reforms_1890 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 138
+        historic_event military_reforms_1895
+        set_event_counter military_reforms_1895 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 158
+        historic_event military_reforms_2
+        set_event_counter military_reforms_2 1
+        terminate_monitor
+    end_monitor
+
+    monitor_event FactionTurnStart I_TurnNumber > 178
+        historic_event military_reforms_1905
+        set_event_counter military_reforms_1905 1
         terminate_monitor
     end_monitor
 

@@ -1,0 +1,82 @@
+{
+  "changes": [
+    {
+      "id": 111,
+      "before": "Matsudaira Katamori, Daimyō of Aizu (defeated, 1868)",
+      "after": "Matsudaira Katamori, Daimyō of Aizu"
+    },
+    {
+      "id": 112,
+      "before": "Sakurai Tadayoshi, Japanese lieutenant; on Port Arthur, 1904",
+      "after": "Sakurai Tadayoshi, Lieutenant of the Imperial Japanese Army, \"Human Bullets\""
+    },
+    {
+      "id": 113,
+      "before": "Đỗ Hữu Vị, French Foreign Legion captain; on colonial service",
+      "after": "Đỗ Hữu Vị, Captain of the French Foreign Legion"
+    },
+    {
+      "id": 114,
+      "before": "Cixi, Empress Dowager of the Qing dynasty; on foreign intervention",
+      "after": "Cixi, Empress Dowager of the Qing dynasty"
+    },
+    {
+      "id": 115,
+      "before": "Zuo Zongtang, Qing general; on confronting Russia",
+      "after": "Zuo Zongtang, General of the Qing dynasty"
+    },
+    {
+      "id": 116,
+      "before": "Liú Yǒngfú, Black Flag commander; challenging the French, 1883",
+      "after": "Liú Yǒngfú, General of the Black Flag Army"
+    },
+    {
+      "id": 117,
+      "before": "Charles Clive Bigham, British officer; on Chinese resistance at Langfang, 1900",
+      "after": "Charles Clive Bigham, British intelligence officer"
+    },
+    {
+      "id": 118,
+      "before": "Ōtori Keisuke, Tokugawa commander; on surrender at Hakodate, 1869",
+      "after": "Ōtori Keisuke, Commander of the Ezo army; urging surrender at Hakodate"
+    },
+    {
+      "id": 119,
+      "before": "Léon Roches, French diplomat; comparing Japan with other Asian peoples",
+      "after": "Léon Roches, French consul in Japan"
+    },
+    {
+      "id": 120,
+      "before": "Pierre-Louis Charles de Failly, French general; after Mentana, 1867",
+      "after": "Pierre-Louis Charles de Failly, Divisional general of the French Army; after the Battle of Mentana, 1867"
+    },
+    {
+      "id": 121,
+      "before": "Menelik II, Ethiopian King of Kings; on Ethiopia’s neighbours",
+      "after": "Menelik II, Ethiopian King of Kings"
+    },
+    {
+      "id": 122,
+      "before": "Sakuma Shōzan, Japanese scholar; on modernisation",
+      "after": "Sakuma Shōzan, Japanese scholar"
+    }
+  ],
+  "files": [
+    {
+      "path": "data\\text\\quotes.txt",
+      "before_sha256": "41df1afc270720231b84c448a7b6cea43d7c141035933e838953fce977ca6e55",
+      "after_sha256": "b9244eab1d7b4f5e4178c314315896bbbad59ae64e9601afeb8b400ef1917d17"
+    },
+    {
+      "path": "data\\text\\quotes.txt.strings.bin",
+      "before_sha256": "8e037d2c2832b78bff2d9d963d3380e0aeb976cba1cb3f4cdb603f64639949dc",
+      "after_sha256": "1d8b2eb695d90d47c5838b0c84999a5ebf0402e32fb6e7f608399bbcbd8bd2d6"
+    },
+    {
+      "path": "data\\descr_quotes_lookup.txt",
+      "before_sha256": "6f3673848c14a0c08e3b8f24c71483888aec872fa1c5862f80d891acda692045",
+      "after_sha256": "6f3673848c14a0c08e3b8f24c71483888aec872fa1c5862f80d891acda692045"
+    }
+  ],
+  "validation": "All 122 quote texts and authors 1–110 unchanged; 12 attributions revised; binary round-trip matches text; both lookup lists unchanged."
+}

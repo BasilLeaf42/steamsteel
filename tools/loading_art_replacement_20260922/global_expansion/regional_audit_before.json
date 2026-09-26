@@ -1,0 +1,104 @@
+{
+  "basis": "Region depicted, not artist nationality. Siamese delegation in Paris counts as Europe; broad historical-region grouping.",
+  "groups": {
+    "Europe": [
+      1,
+      4,
+      6,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      24,
+      25,
+      27,
+      32,
+      34,
+      35,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      48,
+      50,
+      51,
+      52,
+      55,
+      57,
+      58,
+      59,
+      61
+    ],
+    "North America": [
+      7,
+      11,
+      15,
+      22,
+      28,
+      44,
+      53
+    ],
+    "Latin America": [
+      56,
+      62
+    ],
+    "Africa": [
+      14,
+      23,
+      29,
+      33,
+      43
+    ],
+    "South Asia": [
+      8,
+      9,
+      26,
+      31,
+      46,
+      54
+    ],
+    "Central Asia": [
+      5,
+      21,
+      37,
+      47
+    ],
+    "East Asia": [
+      2,
+      10,
+      45,
+      49,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "Southeast Asia": [],
+    "Western Asia": [
+      20,
+      30,
+      60
+    ],
+    "Polar regions": [
+      3
+    ]
+  },
+  "counts": {
+    "Europe": 30,
+    "North America": 7,
+    "Latin America": 2,
+    "Africa": 5,
+    "South Asia": 6,
+    "Central Asia": 4,
+    "East Asia": 10,
+    "Southeast Asia": 0,
+    "Western Asia": 3,
+    "Polar regions": 1
+  }
+}

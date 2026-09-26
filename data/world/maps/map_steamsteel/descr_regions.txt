@@ -8,7 +8,7 @@ Dakota_Province
 	portugala
 	Welsh_Rebels
 	41 235 201
-	usa
+	usa, settler
 	5
 	5
 	religions { catholic 20 orthodox 0 protestant 75 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -17,7 +17,7 @@ Zhengding_Province
 	portugala
 	Amerindian_Rebels
 	116 101 69
-	usa, amerindian
+	usa, amerindian, settler
 	5
 	3
 	religions { catholic 15 orthodox 0 protestant 80 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -26,7 +26,7 @@ Apache_Province
 	milan
 	Welsh_Rebels
 	227 174 60
-	csa, usa
+	csa, usa, settler
 	5
 	4
 	religions { catholic 5 orthodox 0 protestant 70 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -35,7 +35,7 @@ Granada_Province
 	milan
 	Welsh_Rebels
 	58 37 32
-	csa, usa
+	csa, usa, settler
 	5
 	4
 	religions { catholic 5 orthodox 0 protestant 65 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -44,7 +44,7 @@ Abenaki_Province
 	portugala
 	Welsh_Rebels
 	227 103 60
-	usa
+	usa, settler
 	5
 	5
 	religions { catholic 35 orthodox 0 protestant 60 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -53,7 +53,7 @@ Algarve_Province
 	portugala
 	Welsh_Rebels
 	200 53 53
-	usa
+	usa, settler
 	5
 	6
 	religions { catholic 40 orthodox 0 protestant 50 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
@@ -62,7 +62,7 @@ Corinth_Province
 	hungary
 	Welsh_Rebels
 	95 76 76
-	usa, csa
+	usa, csa, settler
 	5
 	4
 	religions { catholic 25 orthodox 0 protestant 70 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -71,7 +71,7 @@ Tualatin_Province
 	portugala
 	Amerindian_Rebels
 	31 45 236
-	usa, amerindian
+	usa, amerindian, settler
 	5
 	4
 	religions { catholic 15 orthodox 0 protestant 80 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -80,7 +80,7 @@ Tongva_Province
 	portugala
 	Amerindian_Rebels
 	236 31 236
-	usa, amerindian
+	usa, amerindian, settler
 	5
 	5
 	religions { catholic 30 orthodox 0 protestant 55 shia 0 islam 0 buddism 10 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -89,7 +89,7 @@ Kansas_Province
 	portugala
 	Amerindian_Rebels
 	212 216 255
-	usa, amerindian
+	usa, amerindian, settler
 	5
 	3
 	religions { catholic 0 orthodox 0 protestant 75 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -98,7 +98,7 @@ Utah_Province
 	portugala
 	Amerindian_Rebels
 	193 192 77
-	usa, amerindian
+	usa, amerindian, settler
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 90 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
@@ -107,7 +107,7 @@ Nuevo_Mexico_Province
 	portugala
 	Amerindian_Rebels
 	255 212 255
-	usa, amerindian
+	usa, amerindian, settler
 	5
 	2
 	religions { catholic 60 orthodox 0 protestant 25 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -116,7 +116,7 @@ Augustine_Province
 	milan
 	Welsh_Rebels
 	82 82 110
-	csa, usa
+	csa, usa, settler
 	5
 	3
 	religions { catholic 10 orthodox 0 protestant 60 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -125,7 +125,7 @@ Choctaw_Province
 	milan
 	Welsh_Rebels
 	199 31 143
-	csa, usa
+	csa, usa, settler
 	5
 	3
 	religions { catholic 60 orthodox 0 protestant 20 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -134,7 +134,7 @@ Comanche_Province
 	milan
 	Amerindian_Rebels
 	99 255 17
-	csa, usa, amerindian
+	csa, usa, amerindian, settler
 	5
 	4
 	religions { catholic 30 orthodox 0 protestant 60 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -143,7 +143,7 @@ Alaska_Province
 	russia
 	Amerindian_Rebels
 	70 114 214
-	amerindian, usa, russia
+	amerindian, usa, russia, colonial
 	5
 	0
 	religions { catholic 0 orthodox 50 protestant 5 shia 45 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -152,7 +152,7 @@ Arctic_Province
 	england
 	Amerindian_Rebels
 	60 43 123
-	amerindian, canada
+	amerindian, canada, colonial
 	5
 	0
 	religions { catholic 5 orthodox 0 protestant 10 shia 85 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -161,7 +161,7 @@ Ruperts_land_Province
 	england
 	Amerindian_Rebels
 	40 29 81
-	amerindian, canada
+	amerindian, canada, colonial
 	5
 	0
 	religions { catholic 10 orthodox 0 protestant 10 shia 80 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -170,7 +170,7 @@ Quebec_Province
 	england
 	Scots_Rebels
 	100 70 214
-	canada
+	canada, settler
 	5
 	3
 	religions { catholic 55 orthodox 0 protestant 40 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -179,7 +179,7 @@ Lodz_Province
 	england
 	Amerindian_Rebels
 	243 128 16
-	amerindian, canada
+	amerindian, canada, settler
 	5
 	3
 	religions { catholic 5 orthodox 0 protestant 70 shia 15 islam 0 buddism 10 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -188,7 +188,7 @@ Xining_Province
 	byzantium
 	Steppe_Rebels
 	115 116 69
-	steppe
+	steppe, colonial
 	5
 	3
 	religions { catholic 0 orthodox 0 protestant 0 shia 20 islam 0 buddism 80 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -197,7 +197,7 @@ Yinchuan_Province
 	byzantium
 	Steppe_Rebels
 	80 116 69
-	steppe, mongolia, china
+	steppe, mongolia, china, colonial
 	5
 	3
 	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 25 buddism 60 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -206,7 +206,7 @@ Beijing_Province
 	byzantium
 	Chinese_Rebels
 	115 69 116
-	manchuria, china
+	manchuria, china, colonial
 	5
 	8
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 85 hindu 0 pagan 0 heretic 15 judaism 0 }
@@ -215,7 +215,7 @@ Xian_Province
 	byzantium
 	Livonian_Rebels
 	69 94 116
-	china
+	china, colonial
 	5
 	7
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 25 buddism 70 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -224,7 +224,7 @@ Zhengzhou_Province
 	spain
 	Spanish_Rebels
 	69 116 83
-	sub_sahara
+	sub_sahara, colonial
 	5
 	2
 	religions { catholic 40 orthodox 0 protestant 0 shia 60 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -233,7 +233,7 @@ Nanjing_Province
 	byzantium
 	Livonian_Rebels
 	92 69 116
-	china
+	china, colonial
 	5
 	8
 	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 0 buddism 85 hindu 0 pagan 0 heretic 10 judaism 0 }
@@ -242,7 +242,7 @@ Hankou_Province
 	lith
 	African_Rebels
 	110 116 69
-	sub_sahara, south_africa
+	sub_sahara, south_africa, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 15 shia 85 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -251,7 +251,7 @@ Kunming_Province
 	byzantium
 	Livonian_Rebels
 	69 115 116
-	china
+	china, colonial
 	5
 	5
 	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 15 buddism 70 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -260,7 +260,7 @@ Chengdu_Province
 	byzantium
 	Livonian_Rebels
 	116 115 69
-	china
+	china, colonial
 	5
 	6
 	religions { catholic 0 orthodox 0 protestant 0 shia 10 islam 0 buddism 85 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -269,7 +269,7 @@ Guiyang_Province
 	byzantium
 	Livonian_Rebels
 	116 69 101
-	china
+	china, colonial
 	5
 	5
 	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 0 buddism 80 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -278,7 +278,7 @@ Fuzhou_Province
 	byzantium
 	Livonian_Rebels
 	116 82 69
-	china
+	china, colonial
 	5
 	7
 	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 0 buddism 88 hindu 0 pagan 0 heretic 7 judaism 0 }
@@ -287,7 +287,7 @@ Guangzhou_Province
 	byzantium
 	Spanish_Rebels
 	77 69 116
-	china
+	china, colonial
 	5
 	4
 	religions { catholic 5 orthodox 0 protestant 10 shia 0 islam 0 buddism 80 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -296,7 +296,7 @@ Qarshi_Province
 	byzantium
 	Burgundian_Rebels
 	16 28 192
-	none
+	korea, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 65 hindu 0 pagan 0 heretic 30 judaism 0 }
@@ -305,7 +305,7 @@ Korea_Province
 	byzantium
 	Burgundian_Rebels
 	69 91 116
-	none
+	korea, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 70 hindu 0 pagan 0 heretic 25 judaism 0 }
@@ -314,7 +314,7 @@ Mexico_Province
 	scotland
 	Latin_Rebels
 	202 197 66
-	mexico, s_america
+	mexico, s_america, colonial
 	5
 	4
 	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -323,7 +323,7 @@ Galicie_Province
 	scotland
 	Latin_Rebels
 	31 71 121
-	mexico, s_america
+	mexico, s_america, colonial
 	5
 	3
 	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -332,7 +332,7 @@ Veracruz_Province
 	scotland
 	Latin_Rebels
 	82 110 82
-	mexico, s_america
+	mexico, s_america, colonial
 	5
 	4
 	religions { catholic 80 orthodox 0 protestant 0 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -341,7 +341,7 @@ Bolgar_Province
 	scotland
 	American_Rebels
 	212 71 71
-	s_america
+	s_america, colonial
 	5
 	3
 	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -350,7 +350,7 @@ Panama_Province
 	scotland
 	Columbian_Rebels
 	69 215 131
-	s_america
+	s_america, colonial
 	5
 	3
 	religions { catholic 70 orthodox 0 protestant 0 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -359,7 +359,7 @@ Havana_Province
 	spain
 	American_Rebels
 	237 159 159
-	cuba, s_america
+	cuba, s_america, colonial
 	5
 	4
 	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -368,7 +368,7 @@ Santa_Marta_Province
 	denmark
 	Venezuelan_Rebels
 	35 186 39
-	s_america
+	s_america, colonial
 	5
 	4
 	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -377,7 +377,7 @@ Cholula_Province
 	denmark
 	Columbian_Rebels
 	190 222 38
-	s_america
+	s_america, colonial
 	5
 	4
 	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -386,7 +386,7 @@ Peru_Province
 	denmark
 	Ecuadorian_Rebels
 	38 222 190
-	s_america, peru
+	s_america, peru, colonial
 	5
 	4
 	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -395,7 +395,7 @@ South_Peru_Province
 	denmark
 	Chilean_Rebels
 	91 192 16
-	s_america, peru
+	s_america, peru, colonial
 	5
 	4
 	religions { catholic 60 orthodox 0 protestant 0 shia 40 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -404,7 +404,7 @@ Bolivia_Province
 	denmark
 	Bolivian_Rebels
 	236 201 36
-	s_america
+	s_america, colonial
 	5
 	4
 	religions { catholic 55 orthodox 0 protestant 0 shia 45 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -413,7 +413,7 @@ Paraguay_Province
 	aztecs
 	Para_Rebels
 	155 205 147
-	s_america, paraguay
+	s_america, paraguay, colonial
 	5
 	4
 	religions { catholic 85 orthodox 0 protestant 0 shia 15 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -422,7 +422,7 @@ Cuzco_Province
 	aztecs
 	Chilean_Rebels
 	60 221 227
-	s_america
+	s_america, colonial
 	5
 	4
 	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -431,7 +431,7 @@ Moravie_Province
 	aztecs
 	Chilean_Rebels
 	0 100 7
-	s_america
+	s_america, colonial
 	5
 	5
 	religions { catholic 90 orthodox 0 protestant 0 shia 10 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -440,7 +440,7 @@ Sao_Paulo_Province
 	aztecs
 	Uru_Rebels
 	190 154 28
-	s_america, uruguay
+	s_america, uruguay, settler
 	5
 	4
 	religions { catholic 85 orthodox 0 protestant 10 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -449,7 +449,7 @@ Rio_Plata_Province
 	aztecs
 	Latin_Rebels
 	236 91 118
-	s_america
+	s_america, argentina, settler
 	5
 	5
 	religions { catholic 90 orthodox 0 protestant 5 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -458,7 +458,7 @@ Rio_Negro_Province
 	aztecs
 	Amerindian_Rebels
 	173 91 236
-	s_america, argentina
+	s_america, argentina, settler
 	5
 	3
 	religions { catholic 70 orthodox 0 protestant 0 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -467,7 +467,7 @@ Salvador_Province
 	poland
 	Latin_Rebels
 	208 229 243
-	s_america, brazil
+	s_america, brazil, colonial
 	5
 	4
 	religions { catholic 65 orthodox 0 protestant 0 shia 35 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -476,7 +476,7 @@ Rio_Janeiro_Province
 	poland
 	Latin_Rebels
 	22 145 71
-	s_america, brazil
+	s_america, brazil, colonial
 	5
 	5
 	religions { catholic 80 orthodox 0 protestant 0 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -485,7 +485,7 @@ Potosi_Province
 	poland
 	Latin_Rebels
 	18 103 160
-	s_america, brazil
+	s_america, brazil, colonial
 	5
 	2
 	religions { catholic 60 orthodox 0 protestant 0 shia 40 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -494,7 +494,7 @@ W_aust_Province
 	england
 	Welsh_Rebels
 	146 160 110
-	anzac
+	anzac, settler
 	5
 	2
 	religions { catholic 15 orthodox 0 protestant 80 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -503,7 +503,7 @@ Lan_na_Province
 	england
 	Welsh_Rebels
 	160 232 239
-	anzac
+	anzac, settler
 	5
 	2
 	religions { catholic 20 orthodox 0 protestant 75 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -512,7 +512,7 @@ New_zealand_Province
 	england
 	Maori_Rebels
 	161 194 76
-	anzac
+	anzac, settler
 	5
 	2
 	religions { catholic 15 orthodox 0 protestant 65 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -521,7 +521,7 @@ Gujerat_Province
 	england
 	Welsh_Rebels
 	95 164 64
-	anzac
+	anzac, settler
 	5
 	3
 	religions { catholic 20 orthodox 0 protestant 75 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -530,7 +530,7 @@ Ayudhya_Province
 	cru
 	Croatian_Rebels
 	134 13 44
-	siam, indochina
+	siam, indochina, colonial
 	5
 	6
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 90 hindu 0 pagan 0 heretic 10 judaism 0 }
@@ -539,7 +539,7 @@ Taungoo_Province
 	cru
 	Iberian_Rebels
 	22 76 91
-	indochina, india
+	indochina, india, colonial
 	5
 	6
 	religions { catholic 0 orthodox 0 protestant 0 shia 12 islam 0 buddism 88 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -548,7 +548,7 @@ Vietnam_Province
 	cru
 	Wallachian_Rebels
 	239 236 160
-	indochina
+	indochina, colonial
 	5
 	5
 	religions { catholic 15 orthodox 0 protestant 0 shia 0 islam 0 buddism 80 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -557,7 +557,7 @@ Lang_sang_Province
 	cru
 	Wallachian_Rebels
 	120 223 132
-	indochina
+	indochina, colonial
 	5
 	5
 	religions { catholic 0 orthodox 0 protestant 0 shia 10 islam 0 buddism 90 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -566,7 +566,7 @@ Cambodia_Province
 	cru
 	Wallachian_Rebels
 	223 120 146
-	indochina
+	indochina, colonial
 	5
 	5
 	religions { catholic 0 orthodox 0 protestant 0 shia 8 islam 0 buddism 92 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -575,7 +575,7 @@ Malaysia_Province
 	byzantium
 	Island_Rebels
 	194 169 94
-	east_indies, indochina
+	east_indies, indochina, colonial
 	5
 	4
 	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 60 buddism 25 hindu 0 pagan 0 heretic 0 judaism 10 }
@@ -584,7 +584,7 @@ Brunei_Province
 	cru
 	Brunei_Rebels
 	59 124 204
-	east_indies
+	east_indies, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 50 islam 30 buddism 20 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -593,7 +593,7 @@ Java_Province
 	cru
 	Spanish_Rebels
 	190 39 171
-	east_indies
+	east_indies, colonial
 	5
 	6
 	religions { catholic 0 orthodox 0 protestant 5 shia 10 islam 85 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -602,7 +602,7 @@ Papua_Province
 	england
 	Papua_Rebels
 	9 89 142
-	none
+	east_indies, anzac, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 5 shia 95 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -611,7 +611,7 @@ Philipines_Province
 	byzantium
 	Philippines_Rebels
 	208 185 29
-	east_indies
+	east_indies, colonial
 	5
 	2
 	religions { catholic 85 orthodox 0 protestant 0 shia 5 islam 10 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -719,7 +719,7 @@ Jamaica_Province
 	england
 	Latin_Rebels
 	78 38 68
-	amerindian
+	amerindian, colonial
 	5
 	2
 	religions { catholic 5 orthodox 0 protestant 60 shia 35 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -782,7 +782,7 @@ Sudan_Province
 	golden
 	Fatimid_Rebels
 	111 41 215
-	arab, sub_sahara
+	arab, sub_sahara, colonial
 	5
 	3
 	religions { catholic 0 orthodox 0 protestant 0 shia 25 islam 75 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -971,7 +971,7 @@ Estonie_Province
 	saxons
 	Anatolian_Rebels
 	203 196 92
-	japan
+	japan, kyushu, colonial
 	5
 	5
 	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 60 pagan 0 heretic 0 judaism 0 }
@@ -1016,7 +1016,7 @@ Mesie_Province
 	hungary
 	Serbian_Rebels
 	37 182 195
-	albania
+	albania, colonial
 	5
 	4
 	religions { catholic 0 orthodox 80 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1025,7 +1025,7 @@ Sofia_Province
 	mongols
 	Bulgarian_Rebels
 	58 186 76
-	ottoman, bulgaria
+	ottoman, bulgaria, colonial
 	5
 	4
 	religions { catholic 0 orthodox 80 protestant 0 shia 0 islam 18 buddism 0 hindu 0 pagan 0 heretic 2 judaism 0 }
@@ -1034,7 +1034,7 @@ Constantinople_Province
 	turks
 	Turkish_Rebels
 	198 23 43
-	ottoman, greece
+	ottoman, greece, colonial
 	5
 	6
 	religions { catholic 5 orthodox 25 protestant 0 shia 0 islam 65 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1043,7 +1043,7 @@ Thessalonica_Province
 	mongols
 	Greek_Rebels
 	66 77 78
-	ottoman, greece, bulgaria
+	ottoman, greece, bulgaria, colonial
 	5
 	4
 	religions { catholic 0 orthodox 55 protestant 0 shia 0 islam 40 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1052,7 +1052,7 @@ Hellenie_Province
 	mongols
 	Greek_Rebels
 	212 98 160
-	greece
+	greece, colonial
 	5
 	4
 	religions { catholic 0 orthodox 92 protestant 0 shia 0 islam 5 buddism 0 hindu 0 pagan 0 heretic 3 judaism 0 }
@@ -1070,7 +1070,7 @@ Volgograd_Province
 	portugala
 	Liberian_Rebels
 	196 111 193
-	sub_sahara
+	sub_sahara, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 25 shia 60 islam 15 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1088,7 +1088,7 @@ Iaroslavl_Province
 	cru
 	Island_Rebels
 	150 84 137
-	east_indies
+	east_indies, colonial
 	5
 	5
 	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 70 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1097,7 +1097,7 @@ Arkhangelsk_Province
 	russia
 	Rus_Rebels
 	150 47 47
-	russia
+	russia, colonial
 	5
 	1
 	religions { catholic 0 orthodox 70 protestant 0 shia 25 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1106,7 +1106,7 @@ Ufa_Province
 	russia
 	Steppe_Rebels
 	193 191 40
-	russia, steppe
+	russia, steppe, colonial
 	5
 	2
 	religions { catholic 0 orthodox 55 protestant 0 shia 5 islam 40 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1115,7 +1115,7 @@ Tyumen_Province
 	russia
 	Steppe_Rebels
 	21 26 126
-	russia, steppe
+	russia, steppe, colonial
 	5
 	2
 	religions { catholic 0 orthodox 80 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1124,7 +1124,7 @@ Siberia_Province
 	russia
 	Steppe_Rebels
 	139 142 144
-	siberia, steppe
+	siberia, steppe, colonial
 	5
 	1
 	religions { catholic 0 orthodox 60 protestant 0 shia 35 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1133,7 +1133,7 @@ Caffa_Province
 	russia
 	Steppe_Rebels
 	211 216 158
-	fish, russia
+	fish, russia, colonial
 	5
 	3
 	religions { catholic 0 orthodox 80 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1142,7 +1142,7 @@ Kyptchak_Province
 	russia
 	Kazakh_Rebels
 	169 224 136
-	russia, steppe
+	russia, steppe, colonial
 	5
 	1
 	religions { catholic 0 orthodox 30 protestant 0 shia 5 islam 65 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1160,7 +1160,7 @@ Tibet_Province
 	cuman
 	Steppe_Rebels
 	125 166 14
-	tibet
+	tibet, colonial
 	5
 	3
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 0 buddism 95 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1169,7 +1169,7 @@ Turfan_Province
 	cuman
 	Steppe_Rebels
 	94 221 172
-	steppe
+	steppe, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 10 islam 70 buddism 20 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1178,7 +1178,7 @@ Karakorum_Province
 	cuman
 	Steppe_Rebels
 	190 94 221
-	mongolia, steppe
+	mongolia, steppe, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 0 buddism 85 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1187,7 +1187,7 @@ Ulan_Bator_Province
 	cuman
 	Steppe_Rebels
 	214 221 94
-	mongolia, steppe
+	mongolia, steppe, colonial
 	5
 	1
 	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 0 buddism 70 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1196,7 +1196,7 @@ Irkutsk_Province
 	cuman
 	Mongol_Rebels
 	205 227 56
-	steppe, siberia, mongolia
+	steppe, siberia, mongolia, colonial
 	5
 	1
 	religions { catholic 0 orthodox 60 protestant 0 shia 30 islam 0 buddism 10 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1205,7 +1205,7 @@ Ulan_Ude_Province
 	russia
 	Mongol_Rebels
 	152 68 68
-	steppe, siberia, mongolia
+	steppe, siberia, mongolia, colonial
 	5
 	1
 	religions { catholic 0 orthodox 55 protestant 0 shia 30 islam 0 buddism 15 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1214,7 +1214,7 @@ Shen_Province
 	byzantium
 	Chinese_Rebels
 	132 122 17
-	manchuria, steppe
+	manchuria, steppe, colonial
 	5
 	5
 	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 0 buddism 75 hindu 0 pagan 0 heretic 10 judaism 0 }
@@ -1223,7 +1223,7 @@ Khabarovsk_Province
 	russia
 	Steppe_Rebels
 	51 207 124
-	steppe, siberia, manchuria
+	steppe, siberia, manchuria, colonial
 	5
 	1
 	religions { catholic 0 orthodox 65 protestant 0 shia 15 islam 0 buddism 20 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1232,7 +1232,7 @@ Antioch_Province
 	turks
 	Arab_Rebels
 	95 183 71
-	middle_east, arab, ottoman
+	middle_east, arab, ottoman, colonial
 	5
 	3
 	religions { catholic 5 orthodox 15 protestant 0 shia 0 islam 80 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1241,7 +1241,7 @@ Jerusalemb_Province
 	teu
 	Boer_Rebels
 	95 88 80
-	sub_sahara, south_africa
+	sub_sahara, south_africa, settler
 	5
 	3
 	religions { catholic 5 orthodox 0 protestant 65 shia 30 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1250,7 +1250,7 @@ Damascus_Province
 	golden
 	Arab_Rebels
 	59 50 229
-	middle_east, arab, ottoman
+	middle_east, arab, ottoman, colonial
 	5
 	4
 	religions { catholic 0 orthodox 10 protestant 0 shia 0 islam 85 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1259,7 +1259,7 @@ Domrep_Province
 	spain
 	American_Rebels
 	57 138 69
-	cuba, s_america
+	cuba, s_america, colonial
 	5
 	3
 	religions { catholic 80 orthodox 0 protestant 0 shia 20 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1268,7 +1268,7 @@ Smyrna_Province
 	turks
 	Turkish_Rebels
 	135 86 67
-	none
+	middle_east, ottoman, colonial
 	5
 	4
 	religions { catholic 5 orthodox 40 protestant 0 shia 0 islam 55 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1277,7 +1277,7 @@ Anatolie_Province
 	turks
 	Turkish_Rebels
 	217 43 43
-	middle_east, ottoman
+	middle_east, ottoman, colonial
 	5
 	4
 	religions { catholic 0 orthodox 8 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 2 judaism 0 }
@@ -1286,7 +1286,7 @@ Trebizond_Province
 	turks
 	Turkish_Rebels
 	34 45 71
-	middle_east, ottoman
+	middle_east, ottoman, colonial
 	5
 	3
 	religions { catholic 0 orthodox 30 protestant 0 shia 0 islam 65 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1295,7 +1295,7 @@ Mecca_Province
 	golden
 	Mecca_Rebels
 	47 52 85
-	middle_east, arab
+	middle_east, arab, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 99 buddism 0 hindu 0 pagan 0 heretic 1 judaism 0 }
@@ -1304,7 +1304,7 @@ Arabie_Province
 	golden
 	Nejd_Rebels
 	119 118 49
-	middle_east, arab
+	middle_east, arab, colonial
 	5
 	1
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 98 buddism 0 hindu 0 pagan 0 heretic 2 judaism 0 }
@@ -1313,7 +1313,7 @@ Yemen_Province
 	turks
 	Arab_Rebels
 	201 199 43
-	middle_east, arab
+	middle_east, arab, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 97 buddism 0 hindu 0 pagan 0 heretic 3 judaism 0 }
@@ -1322,7 +1322,7 @@ Qatar_Province
 	golden
 	Arab_Rebels
 	85 85 70
-	middle_east, arab, muscat
+	middle_east, arab, muscat, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1331,7 +1331,7 @@ Yerevan_Province
 	turks
 	Armenian_Rebels
 	47 172 150
-	middle_east, arab, ottoman, armenia
+	middle_east, arab, ottoman, armenia, colonial
 	5
 	3
 	religions { catholic 0 orthodox 15 protestant 0 shia 0 islam 85 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1340,7 +1340,7 @@ Baghdad_Province
 	golden
 	Arab_Rebels
 	98 210 209
-	middle_east, arab, ottoman
+	middle_east, arab, ottoman, colonial
 	5
 	4
 	religions { catholic 0 orthodox 5 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1349,7 +1349,7 @@ Baku_Province
 	egypt
 	Georgian_Rebels
 	26 174 18
-	georgia, armenia, russia, ottoman
+	georgia, armenia, russia, ottoman, colonial
 	5
 	4
 	religions { catholic 0 orthodox 85 protestant 0 shia 0 islam 10 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1358,7 +1358,7 @@ Korasan_Province
 	cuman
 	Turkmen_Rebels
 	100 89 75
-	steppe, kokand, russia
+	steppe, kokand, russia, colonial
 	5
 	1
 	religions { catholic 0 orthodox 10 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1367,7 +1367,7 @@ Khwarzam_Province
 	cuman
 	Khiva_Rebels
 	183 110 14
-	steppe, kokand, russia
+	steppe, kokand, russia, colonial
 	5
 	2
 	religions { catholic 0 orthodox 5 protestant 0 shia 0 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1376,7 +1376,7 @@ Tashkent_Province
 	cuman
 	Steppe_Rebels
 	115 44 37
-	steppe, kokand, russia
+	steppe, kokand, russia, colonial
 	5
 	2
 	religions { catholic 0 orthodox 5 protestant 0 shia 5 islam 90 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1385,7 +1385,7 @@ Bukhara_Province
 	cuman
 	Bukhara_Rebels
 	81 115 37
-	steppe, russia
+	steppe, russia, colonial
 	5
 	2
 	religions { catholic 0 orthodox 5 protestant 0 shia 0 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1394,7 +1394,7 @@ Arqin_Province
 	cuman
 	Kazakh_Rebels
 	48 130 8
-	steppe, russia
+	steppe, russia, colonial
 	5
 	1
 	religions { catholic 0 orthodox 35 protestant 0 shia 5 islam 60 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1403,7 +1403,7 @@ Astana_Province
 	cuman
 	Steppe_Rebels
 	137 136 15
-	steppe, kokand, russia
+	steppe, kokand, russia, colonial
 	5
 	2
 	religions { catholic 0 orthodox 10 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1412,7 +1412,7 @@ Almaty_Province
 	cuman
 	Steppe_Rebels
 	137 15 136
-	steppe, russia
+	steppe, russia, colonial
 	5
 	2
 	religions { catholic 0 orthodox 25 protestant 0 shia 5 islam 70 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1421,7 +1421,7 @@ Aksu_Province
 	cuman
 	Steppe_Rebels
 	88 88 88
-	steppe
+	steppe, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 95 buddism 5 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1430,7 +1430,7 @@ Tabriz_Province
 	egypt
 	Persian_Rebels
 	69 116 104
-	persia, georgia
+	persia, georgia, colonial
 	5
 	4
 	religions { catholic 0 orthodox 5 protestant 0 shia 0 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1439,7 +1439,7 @@ Ajan_Province
 	egypt
 	Persian_Rebels
 	196 51 51
-	persia, middle_east
+	persia, middle_east, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1448,7 +1448,7 @@ Fais_Province
 	egypt
 	Persian_Rebels
 	48 80 74
-	persia, middle_east
+	persia, middle_east, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 4 islam 96 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1457,7 +1457,7 @@ Kerman_Province
 	egypt
 	Persian_Rebels
 	78 112 116
-	persia, middle_east
+	persia, middle_east, colonial
 	5
 	3
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1466,7 +1466,7 @@ Herat_Province
 	timurids
 	Afghan_Rebels
 	108 220 103
-	afghanistan
+	afghanistan, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 3 islam 97 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1475,7 +1475,7 @@ Kandahar_Province
 	timurids
 	Afghan_Rebels
 	71 64 54
-	afghanistan
+	afghanistan, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1484,7 +1484,7 @@ Baluchistan_Province
 	turks
 	Afghan_Rebels
 	111 39 19
-	afghanistan
+	afghanistan, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 4 islam 96 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1493,7 +1493,7 @@ Sind_Province
 	bulga
 	Mexican_Rebels
 	217 87 87
-	india
+	india, colonial
 	5
 	7
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 90 buddism 0 hindu 0 pagan 0 heretic 10 judaism 0 }
@@ -1502,7 +1502,7 @@ Dehli_Province
 	bulga
 	Mexican_Rebels
 	201 229 16
-	india
+	india, himalayan, colonial
 	5
 	8
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 45 buddism 0 hindu 0 pagan 0 heretic 15 judaism 40 }
@@ -1511,7 +1511,7 @@ Rajputana_Province
 	bulga
 	Mexican_Rebels
 	107 69 85
-	india
+	india, colonial
 	5
 	6
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 0 judaism 85 }
@@ -1520,7 +1520,7 @@ Bihar_Province
 	bulga
 	Island_Rebels
 	87 67 57
-	east_indies
+	east_indies, colonial
 	5
 	5
 	religions { catholic 0 orthodox 0 protestant 0 shia 8 islam 92 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1529,7 +1529,7 @@ Gondowan_Province
 	bulga
 	Mexican_Rebels
 	84 215 183
-	india
+	india, colonial
 	5
 	7
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 30 buddism 0 hindu 0 pagan 0 heretic 0 judaism 65 }
@@ -1538,7 +1538,7 @@ Bengal_Province
 	bulga
 	Nepal_Rebels
 	237 194 147
-	india
+	india, himalayan, colonial
 	5
 	8
 	religions { catholic 5 orthodox 0 protestant 0 shia 0 islam 55 buddism 0 hindu 0 pagan 0 heretic 0 judaism 40 }
@@ -1547,7 +1547,7 @@ Decan_Province
 	cru
 	Wallachian_Rebels
 	77 73 57
-	indochina
+	indochina, colonial
 	5
 	4
 	religions { catholic 20 orthodox 0 protestant 0 shia 0 islam 0 buddism 75 hindu 0 pagan 0 heretic 5 judaism 0 }
@@ -1556,7 +1556,7 @@ Mysore_Province
 	bulga
 	Spanish_Rebels
 	74 79 184
-	india
+	india, colonial
 	5
 	7
 	religions { catholic 5 orthodox 0 protestant 5 shia 0 islam 20 buddism 0 hindu 0 pagan 0 heretic 0 judaism 70 }
@@ -1565,7 +1565,7 @@ Vijanagar_Province
 	lith
 	African_Rebels
 	184 159 74
-	sub_sahara
+	sub_sahara, colonial
 	5
 	1
 	religions { catholic 10 orthodox 0 protestant 0 shia 75 islam 15 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1574,7 +1574,7 @@ Orissa_Province
 	bulga
 	Mexican_Rebels
 	203 88 137
-	india
+	india, colonial
 	5
 	7
 	religions { catholic 10 orthodox 0 protestant 0 shia 0 islam 15 buddism 0 hindu 0 pagan 0 heretic 0 judaism 75 }
@@ -1583,7 +1583,7 @@ Ceyland_Province
 	golden
 	Majarteen_Rebels
 	68 126 43
-	sub_sahara, arab, north_africa
+	sub_sahara, arab, north_africa, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1592,7 +1592,7 @@ Caire_Province
 	golden
 	Fatimid_Rebels
 	59 90 79
-	middle_east, arab, north_africa, egypt
+	middle_east, arab, north_africa, egypt, colonial
 	5
 	5
 	religions { catholic 2 orthodox 10 protestant 0 shia 0 islam 88 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1601,7 +1601,7 @@ Tripolitaine_Province
 	moors
 	Arab_Rebels
 	98 68 106
-	middle_east, arab, north_africa
+	middle_east, arab, north_africa, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 97 buddism 0 hindu 0 pagan 0 heretic 3 judaism 0 }
@@ -1610,7 +1610,7 @@ Fez_Province
 	moors
 	Arab_Rebels
 	187 134 19
-	middle_east, morocco, north_africa
+	middle_east, morocco, north_africa, colonial
 	5
 	3
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1619,7 +1619,7 @@ Marrakesh_Province
 	moors
 	Arab_Rebels
 	71 25 25
-	middle_east, morocco, north_africa
+	middle_east, morocco, north_africa, colonial
 	5
 	3
 	religions { catholic 0 orthodox 0 protestant 0 shia 5 islam 95 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1628,7 +1628,7 @@ Krasnodar_Province
 	moors
 	Arab_Rebels
 	116 57 57
-	middle_east, arab, north_africa
+	middle_east, arab, north_africa, settler
 	5
 	4
 	religions { catholic 8 orthodox 0 protestant 0 shia 0 islam 92 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1637,7 +1637,7 @@ Kongo_Province
 	lith
 	African_Rebels
 	8 140 132
-	sub_sahara
+	sub_sahara, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 5 shia 45 islam 50 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1646,7 +1646,7 @@ Corne_Afrique_Province
 	lith
 	Native_Rebels
 	198 21 21
-	sub_sahara
+	sub_sahara, ethiopia, colonial
 	5
 	3
 	religions { catholic 0 orthodox 55 protestant 0 shia 10 islam 35 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1655,7 +1655,7 @@ Mombasa_Province
 	golden
 	African_Rebels
 	210 148 0
-	arab, sub_sahara, muscat
+	arab, sub_sahara, muscat, colonial
 	5
 	3
 	religions { catholic 0 orthodox 0 protestant 0 shia 15 islam 85 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1664,7 +1664,7 @@ Kanem_Province
 	moors
 	Seljuk_Rebels
 	106 37 37
-	sub_sahara
+	sub_sahara, colonial
 	5
 	1
 	religions { catholic 0 orthodox 0 protestant 0 shia 90 islam 10 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1673,7 +1673,7 @@ Afrique_Centrale_Province
 	portugal
 	Flemish_Rebels
 	85 79 65
-	sub_sahara
+	sub_sahara, colonial
 	5
 	2
 	religions { catholic 10 orthodox 0 protestant 0 shia 90 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1682,7 +1682,7 @@ Rhodesie_Province
 	teu
 	Boer_Rebels
 	54 191 31
-	sub_sahara, south_africa
+	sub_sahara, south_africa, settler
 	5
 	2
 	religions { catholic 5 orthodox 0 protestant 60 shia 35 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1691,7 +1691,7 @@ Afrique_Sud_Province
 	england
 	Boer_Rebels
 	243 8 8
-	sub_sahara, south_africa
+	sub_sahara, south_africa, settler
 	5
 	3
 	religions { catholic 5 orthodox 0 protestant 55 shia 30 islam 10 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1700,7 +1700,7 @@ Madagascar_Province
 	lith
 	Imerina_Rebels
 	71 92 91
-	sub_sahara
+	sub_sahara, colonial
 	5
 	2
 	religions { catholic 20 orthodox 0 protestant 10 shia 70 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1709,7 +1709,7 @@ Mozambique_Province
 	spain
 	Spanish_Rebels
 	243 8 146
-	sub_sahara, zululand, south_africa
+	sub_sahara, zululand, south_africa, colonial
 	5
 	2
 	religions { catholic 15 orthodox 0 protestant 0 shia 80 islam 5 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1718,7 +1718,7 @@ Namibie_Province
 	lith
 	African_Rebels
 	66 66 215
-	sub_sahara, south_africa
+	sub_sahara, south_africa, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 10 shia 90 islam 0 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1727,7 +1727,7 @@ Mali_Province
 	moors
 	Bohemian_Rebels
 	223 225 60
-	sub_sahara, north_africa
+	sub_sahara, north_africa, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 35 islam 65 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1736,7 +1736,7 @@ Cote_Guinee_Province
 	lith
 	Bohemian_Rebels
 	72 79 84
-	sub_sahara, north_africa
+	sub_sahara, north_africa, colonial
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 40 islam 60 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
@@ -1745,7 +1745,7 @@ Akita_Province
 	saxons
 	Anatolian_Rebels
 	83 91 191
-	japan
+	japan, chugoku, colonial
 	5
 	5
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 65 pagan 0 heretic 5 judaism 0 }
@@ -1754,7 +1754,7 @@ Hokkaido_Province
 	saxons
 	Anatolian_Rebels
 	142 86 168
-	japan
+	japan, ezo, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 0 buddism 20 hindu 50 pagan 0 heretic 0 judaism 0 }
@@ -1763,7 +1763,7 @@ Edo_Province
 	saxons
 	Anatolian_Rebels
 	103 168 86
-	japan
+	japan, kanto, colonial
 	5
 	7
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 60 pagan 0 heretic 5 judaism 0 }
@@ -1772,7 +1772,7 @@ Kyoto_Province
 	saxons
 	Anatolian_Rebels
 	168 161 86
-	japan
+	japan, colonial
 	5
 	8
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 60 pagan 0 heretic 5 judaism 0 }

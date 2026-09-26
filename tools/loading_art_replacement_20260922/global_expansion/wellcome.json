@@ -1,0 +1,42 @@
+{
+  "physicalDescription": "1 print : chromolithograph ; image 48.2 x 71 cm",
+  "workType": {
+    "id": "k",
+    "type": "Format",
+    "label": "Pictures"
+  },
+  "thumbnail": {
+    "url": "https://iiif.wellcomecollection.org/image/V0041182/full/300,/0/default.jpg",
+    "license": {
+      "id": "pdm",
+      "type": "License",
+      "label": "Public Domain Mark",
+      "url": "https://creativecommons.org/share-your-work/public-domain/pdm/"
+    },
+    "accessConditions": [],
+    "locationType": {
+      "id": "thumbnail-image",
+      "type": "LocationType",
+      "label": "Thumbnail image"
+    },
+    "type": "DigitalLocation"
+  },
+  "alternativeTitles": [],
+  "id": "e486aq3c",
+  "lettering": "Omdurman - The first battle - 6.30 am. September 2nd, 1898 (In order that the positions of the different regiments may be readily distinguished, the home uniforms have been retained.) A. Sutherland '98.\n\nBears number: No. 2\n\nLettering continues: \"Story of the battle told in headlines: Reconquest of the Soudan. Sir Herbert Kitchener's brilliant victory. Gordon's murderers punished. The Khalifa's army completely annihilated. The sacred city of the Dervishes captured. A horrid system of government overthrown. Mahdism fallen forever. The highest gift of generalship. Splendid courage of British, Soudanese and Egyptian troops. \"A second Balaclava charge\". Unparalleled savage daring and heroism. Mowed down by modern weapons of war. The way cleared to civilization.\"",
+  "title": "Battle of Omdurman, Sudan: troops are massing and engaging in battle next to the River Nile.. Chromolithograph by A. Sutherland.",
+  "type": "Work",
+  "availabilities": [
+    {
+      "id": "closed-stores",
+      "type": "Availability",
+      "label": "Closed stores"
+    },
+    {
+      "id": "online",
+      "type": "Availability",
+      "label": "Online"
+    }
+  ],
+  "referenceNumber": "37665i"
+}

@@ -3707,15 +3707,15 @@ unit		csa_lancer_te				exp 1 armour 0 weapon_lvl 0
 unit		boer_wagon				exp 0 armour 0 weapon_lvl 0
 unit		us_farmers				exp 0 armour 0 weapon_lvl 0
 unit		us_farmers				exp 0 armour 0 weapon_lvl 0
-unit		us_militia_te				exp 0 armour 0 weapon_lvl 0
-unit		us_farmer_cav				exp 0 armour 0 weapon_lvl 0
+unit		boer_kommando_early				exp 0 armour 0 weapon_lvl 0
+unit		boer_mounted_kommando_early				exp 0 armour 0 weapon_lvl 0
 unit		csa_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Bloemfontein
 character	Johannes de_Wit, named character, male, age 36, x 267, y 76
 army
 unit		csa_lancer_te				exp 1 armour 0 weapon_lvl 0
-unit		us_militia_te				exp 0 armour 0 weapon_lvl 0
+unit		boer_kommando_early				exp 0 armour 0 weapon_lvl 0
 unit		us_farmers				exp 0 armour 0 weapon_lvl 0
 unit		csa_12lb				exp 0 armour 0 weapon_lvl 0
 

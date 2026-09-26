@@ -1,0 +1,892 @@
+[
+  {
+    "unit": "col_12lb",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#col_12lb.tga"
+  },
+  {
+    "unit": "merc_us_farmer_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_us_farmer_cav.tga"
+  },
+  {
+    "unit": "merc_ap_front_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_ap_front_cav.tga"
+  },
+  {
+    "unit": "merc_apache_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_apache_inf.tga"
+  },
+  {
+    "unit": "merc_uru_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_uru_inf.tga"
+  },
+  {
+    "unit": "merc_para_foot",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_para_foot.tga"
+  },
+  {
+    "unit": "merc_us_farmers",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_us_farmers.tga"
+  },
+  {
+    "unit": "arab_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#arab_cav.tga"
+  },
+  {
+    "unit": "merc_port_inf_early",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_port_inf_early.tga"
+  },
+  {
+    "unit": "merc_port_inf_high",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_port_inf_high.tga"
+  },
+  {
+    "unit": "merc_port_cav_early",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_port_cav_early.tga"
+  },
+  {
+    "unit": "merc_port_cav_mid",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_port_cav_mid.tga"
+  },
+  {
+    "unit": "merc_port_cav_high",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_port_cav_high.tga"
+  },
+  {
+    "unit": "merc_bhutan_warrior",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_bhutan_warrior.tga"
+  },
+  {
+    "unit": "merc_papa_bows",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_papa_bows.tga"
+  },
+  {
+    "unit": "merc_burmese_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_burmese_inf.tga"
+  },
+  {
+    "unit": "merc_indian_fanatic",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_indian_fanatic.tga"
+  },
+  {
+    "unit": "merc_maori_spearmen",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_maori_spearmen.tga"
+  },
+  {
+    "unit": "merc_maori_musketeers",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_maori_musketeers.tga"
+  },
+  {
+    "unit": "merc_arab_sailors",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_arab_sailors.tga"
+  },
+  {
+    "unit": "merc_fra_blacks",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_fra_blacks.tga"
+  },
+  {
+    "unit": "merc_eng_for_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_eng_for_cav.tga"
+  },
+  {
+    "unit": "merc_fra_for_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_fra_for_cav.tga"
+  },
+  {
+    "unit": "merc_mongol_bows",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_mongol_bows.tga"
+  },
+  {
+    "unit": "merc_pol_hussars",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_pol_hussars.tga"
+  },
+  {
+    "unit": "merc_polish_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_polish_inf.tga"
+  },
+  {
+    "unit": "merc_georgian_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_georgian_inf.tga"
+  },
+  {
+    "unit": "merc_serb_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_serb_inf.tga"
+  },
+  {
+    "unit": "africa_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#africa_cav.tga"
+  },
+  {
+    "unit": "african_warband",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#african_warband.tga"
+  },
+  {
+    "unit": "merc_zulu_rifles",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_zulu_rifles.tga"
+  },
+  {
+    "unit": "mahdist_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#mahdist_inf.tga"
+  },
+  {
+    "unit": "fra_blacks_az",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#fra_blacks_az.tga"
+  },
+  {
+    "unit": "merc_bulgarian_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_bulgarian_inf.tga"
+  },
+  {
+    "unit": "mahdist_camel_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#mahdist_camel_cav.tga"
+  },
+  {
+    "unit": "mahdist_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#mahdist_cav.tga"
+  },
+  {
+    "unit": "viet_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#viet_inf.tga"
+  },
+  {
+    "unit": "merc_aceh_marines",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_aceh_marines.tga"
+  },
+  {
+    "unit": "merc_aceh_noble",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_aceh_noble.tga"
+  },
+  {
+    "unit": "merc_aceh_reg",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_aceh_reg.tga"
+  },
+  {
+    "unit": "merc_aceh_gold",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_aceh_gold.tga"
+  },
+  {
+    "unit": "merc_aceh_warband",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_aceh_warband.tga"
+  },
+  {
+    "unit": "merc_aceh_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_aceh_inf.tga"
+  },
+  {
+    "unit": "mongol_hevcav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#mongol_hevcav.tga"
+  },
+  {
+    "unit": "korean_archers",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#korean_archers.tga"
+  },
+  {
+    "unit": "merc_tib_temple_guard",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_tib_temple_guard.tga"
+  },
+  {
+    "unit": "merc_tib_noble_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_tib_noble_cav.tga"
+  },
+  {
+    "unit": "taipingguners",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#taipingguners.tga"
+  },
+  {
+    "unit": "taiping_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#taiping_inf.tga"
+  },
+  {
+    "unit": "taiping_light",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#taiping_light.tga"
+  },
+  {
+    "unit": "taiping_w",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#taiping_w.tga"
+  },
+  {
+    "unit": "tib_militia",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#tib_militia.tga"
+  },
+  {
+    "unit": "merc_tib_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_tib_inf.tga"
+  },
+  {
+    "unit": "tib_horse_archer",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#tib_horse_archer.tga"
+  },
+  {
+    "unit": "tib_roy_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#tib_roy_inf.tga"
+  },
+  {
+    "unit": "tib_tribal_archer",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#tib_tribal_archer.tga"
+  },
+  {
+    "unit": "tib_temple_guard",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#tib_temple_guard.tga"
+  },
+  {
+    "unit": "tib_heavy_spear",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#tib_heavy_spear.tga"
+  },
+  {
+    "unit": "merc_kok_royal_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_kok_royal_cav.tga"
+  },
+  {
+    "unit": "merc_kashgar_inf",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_kashgar_inf.tga"
+  },
+  {
+    "unit": "mercs_tib_monks",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#mercs_tib_monks.tga"
+  },
+  {
+    "unit": "qing_green_banner_horse",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#qing_green_banner_horse.tga"
+  },
+  {
+    "unit": "Korean Byeolgigun",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Korean_Byeolgigun.tga"
+  },
+  {
+    "unit": "Korean Gimagungsu",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Korean_Gimagungsu.tga"
+  },
+  {
+    "unit": "Korean Musketeers",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Korean_Musketeers.tga"
+  },
+  {
+    "unit": "Korean Pikemen",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Korean_Pikemen.tga"
+  },
+  {
+    "unit": "Ethiopia Sudanese Musketeers",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Ethiopia Sudanese Musketeers.tga"
+  },
+  {
+    "unit": "Ethiopia Sudanese Warriors",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Ethiopia Sudanese Warriors.tga"
+  },
+  {
+    "unit": "Japan Ainu Archers",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Ainu_Archers.tga"
+  },
+  {
+    "unit": "Japan Ainu Geberu",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Ainu_Geberu.tga"
+  },
+  {
+    "unit": "Japan Ainu Minieru",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Ainu_Minieru.tga"
+  },
+  {
+    "unit": "Japan Ainu Teppo",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Ainu_Teppo.tga"
+  },
+  {
+    "unit": "Japan Heimin Mob",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Heimin_Mob.tga"
+  },
+  {
+    "unit": "Japan Heimin Partisans",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Heimin_Partisans.tga"
+  },
+  {
+    "unit": "Japan Heimin Partisans Geberu",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Heimin_Partisans_Geberu.tga"
+  },
+  {
+    "unit": "Japan Heimin Partisans Minieru",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Heimin_Partisans_Minieru.tga"
+  },
+  {
+    "unit": "Japan Ronin",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Ronin.tga"
+  },
+  {
+    "unit": "Japan Shizoku",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Shizoku.tga"
+  },
+  {
+    "unit": "Japan Teppotai Merc",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#Japan_Teppotai_Merc.tga"
+  },
+  {
+    "unit": "korean_rifles_mercs",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#korean_rifles_mercs.tga"
+  },
+  {
+    "unit": "korean_cav_mercs",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#korean_cav_mercs.tga"
+  },
+  {
+    "unit": "merc_rus_georgian_cav",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_rus_georgian_cav.tga"
+  },
+  {
+    "unit": "merc_zulu_spearmen",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_zulu_spearmen.tga"
+  },
+  {
+    "unit": "merc_sikh_warriors",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_sikh_warriors.tga"
+  },
+  {
+    "unit": "merc_fra_inf_ch",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_fra_inf_ch.tga"
+  },
+  {
+    "unit": "merc_arab_brigade",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_arab_brigade.tga"
+  },
+  {
+    "unit": "merc_balk_cav_ch",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_balk_cav_ch.tga"
+  },
+  {
+    "unit": "merc_siam_agent",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_siam_agent.tga"
+  },
+  {
+    "unit": "merc_uk_sailor",
+    "missing": false,
+    "size": [
+      48,
+      64
+    ],
+    "mode": "RGBA",
+    "path": "data\\ui\\units\\mercs\\#merc_uk_sailor.tga"
+  }
+]

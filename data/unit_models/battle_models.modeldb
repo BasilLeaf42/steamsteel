@@ -6648,7 +6648,7 @@
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
-5 
+6
 6 france 
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
@@ -6669,7 +6669,11 @@
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
-5 
+5 slave
+50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
+6
 6 france 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
@@ -6683,6 +6687,9 @@
 58 unit_models/_Units/attachments/textures/lat_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
@@ -23337,13 +23344,20 @@
 14 korean_archers 
 1 1 
 51 unit_models/_units/bnw/korea_bow_infantry_lod0.mesh 20000 
-1 
+2
 4 merc 
 54 unit_models/_units/bnw/textures/korea_infantry.texture 
 56 unit_models/_units/bnw/textures/korea_infantry_n.texture 
 48 unit_sprites/moors_Desert_Archers_ug1_sprite.spr 
-1 
+5 slave
+54 unit_models/_units/bnw/textures/korea_infantry.texture 
+56 unit_models/_units/bnw/textures/korea_infantry_n.texture 
+48 unit_sprites/moors_Desert_Archers_ug1_sprite.spr 
+2
 4 merc 
+56 unit_models/_units/bnw/textures/Korea_pike_equip.texture 
+58 unit_models/_units/bnw/textures/Korea_pike_equip_n.texture 0 
+5 slave
 56 unit_models/_units/bnw/textures/Korea_pike_equip.texture 
 58 unit_models/_units/bnw/textures/Korea_pike_equip_n.texture 0 
 1 
@@ -32347,7 +32361,7 @@
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
-5 
+6
 6 france 
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
@@ -32368,7 +32382,11 @@
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
-5 
+5 slave
+50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
+6
 6 france 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
@@ -32382,6 +32400,9 @@
 58 unit_models/_Units/attachments/textures/lat_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
@@ -35931,7 +35952,7 @@
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
-5 
+6
 6 france 
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
@@ -35952,7 +35973,11 @@
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
-5 
+5 slave
+50 unit_models/_Units/gre/textures/gre_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
+6
 6 france 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
@@ -35966,6 +35991,9 @@
 58 unit_models/_Units/attachments/textures/lat_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
@@ -35982,7 +36010,7 @@
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_cav_1g_lod0.mesh 20000 
-5 
+6
 6 france 
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
@@ -36003,7 +36031,11 @@
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
-5 
+5 slave
+50 unit_models/_Units/gre/textures/gre_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+50 unit_sprites/england_BRIT_NataN_Trooper_sprite.spr 
+6
 6 france 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
@@ -36017,6 +36049,9 @@
 58 unit_models/_Units/attachments/textures/lat_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
@@ -40062,13 +40097,20 @@
 19 ott_standard_bearer 
 1 1 
 52 unit_models/_Units/off/ott_standard_bearer_lod0.mesh 20000 
-1 
+2
 5 turks 
 50 unit_models/_Units/ott/textures/ott_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 50 unit_sprites/turks_Janissary_Musketeers_sprite.spr 
-1 
+5 slave
+50 unit_models/_Units/ott/textures/ott_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+50 unit_sprites/turks_Janissary_Musketeers_sprite.spr 
+2
 5 turks 
+57 unit_models/_Units/bnw/textures/ott_standard_flag.texture 
+59 unit_models/_Units/bnw/textures/ott_standard_flag_n.texture 0 
+5 slave
 57 unit_models/_Units/bnw/textures/ott_standard_flag.texture 
 59 unit_models/_Units/bnw/textures/ott_standard_flag_n.texture 0 
 4 
@@ -40661,13 +40703,20 @@
 19 oma_standard_bearer 
 1 1 
 52 unit_models/_Units/off/oma_standard_bearer_lod0.mesh 20000 
-1 
+2
 6 golden 
 50 unit_models/_Units/oma/textures/oma_inf_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-1 
+5 slave
+50 unit_models/_Units/oma/textures/oma_inf_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2
 6 golden 
+57 unit_models/_Units/bnw/textures/oma_standard_flag.texture 
+59 unit_models/_Units/bnw/textures/oma_standard_flag_n.texture 0 
+5 slave
 57 unit_models/_Units/bnw/textures/oma_standard_flag.texture 
 59 unit_models/_Units/bnw/textures/oma_standard_flag_n.texture 0 
 4 
@@ -43042,13 +43091,20 @@
 19 csa_standard_bearer
 1 1
 52 unit_models/_Units/off/csa_standard_bearer_lod0.mesh 20000
-1
+2
 5 milan
 51 unit_models/_Units/bnw/textures/csa_captain.texture
 53 unit_models/_Units/bnw/textures/csa_captain_n.texture
 41 unit_sprites/milan_Italian_MAA_sprite.spr
-1
+5 slave
+51 unit_models/_Units/bnw/textures/csa_captain.texture
+53 unit_models/_Units/bnw/textures/csa_captain_n.texture
+41 unit_sprites/milan_Italian_MAA_sprite.spr
+2
 5 milan
+57 unit_models/_Units/bnw/textures/csa_standard_flag.texture
+59 unit_models/_Units/bnw/textures/csa_standard_flag_n.texture 0
+5 slave
 57 unit_models/_Units/bnw/textures/csa_standard_flag.texture
 59 unit_models/_Units/bnw/textures/csa_standard_flag_n.texture 0
 4
@@ -43314,13 +43370,20 @@
 19 mex_standard_bearer
 1 1
 52 unit_models/_Units/off/mex_standard_bearer_lod0.mesh 20000
-1
+2
 8 scotland
 59 unit_models/_Units/bnw/textures/mex_standard_bearer.texture
 58 unit_models/_Units/attachments/textures/blank_norm.texture
 41 unit_sprites/milan_Italian_MAA_sprite.spr
-1
+5 slave
+59 unit_models/_Units/bnw/textures/mex_standard_bearer.texture
+58 unit_models/_Units/attachments/textures/blank_norm.texture
+41 unit_sprites/milan_Italian_MAA_sprite.spr
+2
 8 scotland
+57 unit_models/_Units/bnw/textures/mex_standard_flag.texture
+59 unit_models/_Units/bnw/textures/mex_standard_flag_n.texture 0
+5 slave
 57 unit_models/_Units/bnw/textures/mex_standard_flag.texture
 59 unit_models/_Units/bnw/textures/mex_standard_flag_n.texture 0
 4
@@ -43974,13 +44037,20 @@
 19 per_standard_bearer 
 1 1
 52 unit_models/_Units/off/mex_standard_bearer_lod0.mesh 20000
-1
+2
 7 denmark 
 59 unit_models/_Units/bnw/textures/per_standard_bearer.texture
 58 unit_models/_Units/attachments/textures/blank_norm.texture
 41 unit_sprites/milan_Italian_MAA_sprite.spr
-1
+5 slave
+59 unit_models/_Units/bnw/textures/per_standard_bearer.texture
+58 unit_models/_Units/attachments/textures/blank_norm.texture
+41 unit_sprites/milan_Italian_MAA_sprite.spr
+2
 7 denmark 
+57 unit_models/_Units/bnw/textures/per_standard_flag.texture
+59 unit_models/_Units/bnw/textures/per_standard_flag_n.texture 0
+5 slave
 57 unit_models/_Units/bnw/textures/per_standard_flag.texture
 59 unit_models/_Units/bnw/textures/per_standard_flag_n.texture 0
 4
@@ -44619,7 +44689,7 @@
 43 unit_models/_Units/bra/bra_pis_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_pis_1g_lod0.mesh 20000 
 43 unit_models/_Units/bra/bra_pis_1g_lod0.mesh 20000 
-5 
+6
 6 france 
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
@@ -44640,7 +44710,11 @@
 50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 35 unit_sprites/tmp_cavalry_sprite.spr 
-5 
+5 slave
+50 unit_models/_Units/bra/textures/bra_cav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+35 unit_sprites/tmp_cavalry_sprite.spr 
+6
 6 france 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
@@ -44654,6 +44728,9 @@
 58 unit_models/_Units/attachments/textures/lat_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 slave
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
@@ -45371,13 +45448,20 @@
 19 arg_standard_bearer 
 1 1
 52 unit_models/_Units/off/mex_standard_bearer_lod0.mesh 20000
-1
+2
 6 aztecs 
 59 unit_models/_Units/bnw/textures/arg_standard_bearer.texture
 58 unit_models/_Units/attachments/textures/blank_norm.texture
 41 unit_sprites/milan_Italian_MAA_sprite.spr
-1
+5 slave
+59 unit_models/_Units/bnw/textures/arg_standard_bearer.texture
+58 unit_models/_Units/attachments/textures/blank_norm.texture
+41 unit_sprites/milan_Italian_MAA_sprite.spr
+2
 6 aztecs 
+57 unit_models/_Units/bnw/textures/arg_standard_flag.texture
+59 unit_models/_Units/bnw/textures/arg_standard_flag_n.texture 0
+5 slave
 57 unit_models/_Units/bnw/textures/arg_standard_flag.texture
 59 unit_models/_Units/bnw/textures/arg_standard_flag_n.texture 0
 4
@@ -46143,13 +46227,20 @@
 19 mor_standard_bearer 
 1 1 
 52 unit_models/_Units/off/mor_standard_bearer_lod0.mesh 20000 
-1 
+2
 5 moors 
 50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-1 
+5 slave
+50 unit_models/_Units/mor/textures/mor_inf_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+2
 5 moors 
+57 unit_models/_Units/bnw/textures/mor_standard_flag.texture 
+59 unit_models/_Units/bnw/textures/mor_standard_flag_n.texture 0 
+5 slave
 57 unit_models/_Units/bnw/textures/mor_standard_flag.texture 
 59 unit_models/_Units/bnw/textures/mor_standard_flag_n.texture 0 
 4 
@@ -46461,13 +46552,20 @@
 20 boer_standard_bearer
 1 1
 53 unit_models/_Units/off/boer_standard_bearer_lod0.mesh 20000
-1
+2
 3 teu
 51 unit_models/_Units/bnw/textures/csa_captain.texture
 53 unit_models/_Units/bnw/textures/csa_captain_n.texture
 41 unit_sprites/milan_Italian_MAA_sprite.spr
-1
+5 slave
+51 unit_models/_Units/bnw/textures/csa_captain.texture
+53 unit_models/_Units/bnw/textures/csa_captain_n.texture
+41 unit_sprites/milan_Italian_MAA_sprite.spr
+2
 3 teu
+58 unit_models/_Units/bnw/textures/boer_standard_flag.texture
+60 unit_models/_Units/bnw/textures/boer_standard_flag_n.texture 0
+5 slave
 58 unit_models/_Units/bnw/textures/boer_standard_flag.texture
 60 unit_models/_Units/bnw/textures/boer_standard_flag_n.texture 0
 4
@@ -49635,7 +49733,7 @@
 46 unit_models/_Units/Huai/huai_newarmy_lod0.mesh 900 
 46 unit_models/_Units/Huai/huai_newarmy_lod0.mesh 2500 
 46 unit_models/_Units/Huai/huai_newarmy_lod0.mesh 6400 
-2 
+3
 9 byzantium 
 50 unit_models/_Units/Huai/textures/new_army1.texture 
 51 unit_models/_Units/Huai/textures/new_army1n.texture 
@@ -49644,11 +49742,18 @@
 50 unit_models/_Units/Huai/textures/new_army1.texture 
 51 unit_models/_Units/Huai/textures/new_army1n.texture 
 42 unit_sprites/moors_hand_gunners_sprite.spr 
-2 
+5 slave
+50 unit_models/_Units/Huai/textures/new_army1.texture 
+51 unit_models/_Units/Huai/textures/new_army1n.texture 
+42 unit_sprites/moors_hand_gunners_sprite.spr 
+3
 9 byzantium 
 55 unit_models/_Units/BRIT/Textures/EquipmentBRIT6.texture 
 62 unit_models/_Units/BRIT/Textures/EquipmentBRIT6_normal.texture 0 
 5 egypt 
+55 unit_models/_Units/BRIT/Textures/EquipmentBRIT6.texture 
+62 unit_models/_Units/BRIT/Textures/EquipmentBRIT6_normal.texture 0 
+5 slave
 55 unit_models/_Units/BRIT/Textures/EquipmentBRIT6.texture 
 62 unit_models/_Units/BRIT/Textures/EquipmentBRIT6_normal.texture 0 
 1 

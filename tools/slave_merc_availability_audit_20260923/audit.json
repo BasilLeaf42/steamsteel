@@ -1,0 +1,3436 @@
+{
+  "definitions": {
+    "slaveOnly": "The ownership row contains slave and no national faction.",
+    "customAvailableMercenary": "A mercenary_unit record without no_custom.",
+    "hiddenMercenary": "A mercenary_unit record carrying no_custom; retained for campaign, rebel, compatibility, or other non-custom use.",
+    "subfaction": "A coherent named political, regional, or irregular pool with multiple related custom-visible records.",
+    "standardMercenary": "A standalone mercenary, auxiliary, generic naval, or otherwise ungrouped custom-visible record."
+  },
+  "summary": {
+    "slaveOnlyRecords": 233,
+    "slaveOnlyLimitsChanged": 84,
+    "mercenaryRecords": 115,
+    "customAvailableMercenaryRecords": 94,
+    "hiddenMercenaryRecords": 21,
+    "subfactionRecords": 50,
+    "standardMercenaryRecords": 44
+  },
+  "subfactions": {
+    "Aceh": [
+      {
+        "type": "merc_aceh_gold",
+        "dictionary": "merc_aceh_gold",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "portugal"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "portugal"
+            ]
+          }
+        ],
+        "subfaction": "Aceh"
+      },
+      {
+        "type": "merc_aceh_inf",
+        "dictionary": "merc_aceh_inf",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "incendiary",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit",
+          "gunpowder_unit"
+        ],
+        "ownership": [
+          "portugal"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "portugal"
+            ]
+          }
+        ],
+        "subfaction": "Aceh"
+      },
+      {
+        "type": "merc_aceh_marines",
+        "dictionary": "merc_aceh_marines",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "portugal"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "portugal"
+            ]
+          }
+        ],
+        "subfaction": "Aceh"
+      },
+      {
+        "type": "merc_aceh_noble",
+        "dictionary": "merc_aceh_noble",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "gunmen",
+          "mercenary_unit",
+          "gunpowder_unit"
+        ],
+        "ownership": [
+          "portugal"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "portugal"
+            ]
+          }
+        ],
+        "subfaction": "Aceh"
+      },
+      {
+        "type": "merc_aceh_reg",
+        "dictionary": "merc_aceh_reg",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "gunmen",
+          "mercenary_unit",
+          "gunpowder_unit"
+        ],
+        "ownership": [
+          "portugal"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "portugal"
+            ]
+          }
+        ],
+        "subfaction": "Aceh"
+      },
+      {
+        "type": "merc_aceh_warband",
+        "dictionary": "merc_aceh_warband",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "portugal"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "portugal"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "portugal"
+            ]
+          }
+        ],
+        "subfaction": "Aceh"
+      }
+    ],
+    "Ainu/Japanese irregulars": [
+      {
+        "type": "Japan Ainu Archers",
+        "dictionary": "Japan_Ainu_Archers",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Ainu Geberu",
+        "dictionary": "Japan_Ainu_Geberu",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "mercenary_unit",
+          "gunpowder_unit"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Ainu Minieru",
+        "dictionary": "Japan_Ainu_Minieru",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "mercenary_unit",
+          "gunpowder_unit",
+          "stakes"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 2,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Ainu Teppo",
+        "dictionary": "Japan_Ainu_Teppo",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "mercenary_unit",
+          "gunpowder_unit"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Heimin Mob",
+        "dictionary": "Japan_Heimin_Mob",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 3,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Heimin Partisans",
+        "dictionary": "Japan_Heimin_Partisans",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit",
+          "gunpowder_unit"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Heimin Partisans Geberu",
+        "dictionary": "Japan_Heimin_Partisans_Geberu",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit",
+          "gunpowder_unit"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Heimin Partisans Minieru",
+        "dictionary": "Japan_Heimin_Partisans_Minieru",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit",
+          "gunpowder_unit",
+          "stakes"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 2,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Ronin",
+        "dictionary": "Japan_Ronin",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Shizoku",
+        "dictionary": "Japan_Shizoku",
+        "category": "infantry",
+        "attributes": [
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "saxons"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "saxons"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      },
+      {
+        "type": "Japan Teppotai Merc",
+        "dictionary": "Japan_Teppotai_Merc",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunpowder_unit",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Ainu/Japanese irregulars"
+      }
+    ],
+    "Korea": [
+      {
+        "type": "Korean Byeolgigun",
+        "dictionary": "Korean_Byeolgigun",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "gunmen",
+          "mercenary_unit",
+          "stakes"
+        ],
+        "ownership": [
+          "byzantium",
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Korea"
+      },
+      {
+        "type": "Korean Gimagungsu",
+        "dictionary": "Korean_Gimagungsu",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Korea"
+      },
+      {
+        "type": "Korean Musketeers",
+        "dictionary": "Korean_Musketeers",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunpowder_unit",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "saxons",
+          "slave"
+        ],
+        "limit": 2,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Korea"
+      },
+      {
+        "type": "Korean Pikemen",
+        "dictionary": "Korean_Pikemen",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "pike",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Korea"
+      },
+      {
+        "type": "korean_archers",
+        "dictionary": "korean_archers",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Korea"
+      },
+      {
+        "type": "korean_cav_mercs",
+        "dictionary": "korean_cav_mercs",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "guncavalry",
+          "gunmen",
+          "start_not_skirmishing",
+          "mercenary_unit",
+          "stakes"
+        ],
+        "ownership": [
+          "byzantium",
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Korea"
+      },
+      {
+        "type": "korean_rifles_mercs",
+        "dictionary": "korean_rifles_mercs",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "gunmen",
+          "mercenary_unit",
+          "stakes"
+        ],
+        "ownership": [
+          "byzantium",
+          "saxons",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "saxons",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Korea"
+      },
+      {
+        "type": "turtle ship",
+        "dictionary": "turtle_ship",
+        "category": "ship",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "can_withdraw",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "all"
+        ],
+        "limit": 1,
+        "eras": [],
+        "subfaction": "Korea"
+      }
+    ],
+    "Mahdist/Sudanese": [
+      {
+        "type": "Ethiopia Sudanese Musketeers",
+        "dictionary": "Ethiopia_Sudanese_Musketeers",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunpowder_unit",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "papal_states",
+          "slave"
+        ],
+        "limit": 2,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Mahdist/Sudanese"
+      },
+      {
+        "type": "Ethiopia Sudanese Warriors",
+        "dictionary": "Ethiopia_Sudanese_Warriors",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "papal_states",
+          "slave"
+        ],
+        "limit": 3,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Mahdist/Sudanese"
+      },
+      {
+        "type": "mahdist_camel_cav",
+        "dictionary": "mahdist_camel_cav",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "guncavalry",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "papal_states",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Mahdist/Sudanese"
+      },
+      {
+        "type": "mahdist_cav",
+        "dictionary": "mahdist_cav",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "papal_states",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Mahdist/Sudanese"
+      },
+      {
+        "type": "mahdist_inf",
+        "dictionary": "mahdist_inf",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "papal_states",
+          "slave"
+        ],
+        "limit": 3,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "papal_states",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Mahdist/Sudanese"
+      }
+    ],
+    "Portuguese auxiliaries": [
+      {
+        "type": "merc_port_cav_early",
+        "dictionary": "merc_port_cav_early",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "guncavalry",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "slave",
+          "spain"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "spain"
+            ]
+          }
+        ],
+        "subfaction": "Portuguese auxiliaries"
+      },
+      {
+        "type": "merc_port_cav_high",
+        "dictionary": "merc_port_cav_high",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "guncavalry",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit",
+          "stakes"
+        ],
+        "ownership": [
+          "slave",
+          "spain"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 2,
+            "factions": [
+              "spain"
+            ]
+          }
+        ],
+        "subfaction": "Portuguese auxiliaries"
+      },
+      {
+        "type": "merc_port_cav_mid",
+        "dictionary": "merc_port_cav_mid",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "guncavalry",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "slave",
+          "spain"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "spain"
+            ]
+          }
+        ],
+        "subfaction": "Portuguese auxiliaries"
+      },
+      {
+        "type": "merc_port_inf_early",
+        "dictionary": "merc_port_inf_early",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit",
+          "gunpowder_unit"
+        ],
+        "ownership": [
+          "slave",
+          "spain"
+        ],
+        "limit": 5,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "spain"
+            ]
+          }
+        ],
+        "subfaction": "Portuguese auxiliaries"
+      },
+      {
+        "type": "merc_port_inf_high",
+        "dictionary": "merc_port_inf_high",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit",
+          "stakes"
+        ],
+        "ownership": [
+          "slave",
+          "spain"
+        ],
+        "limit": 5,
+        "eras": [
+          {
+            "era": 2,
+            "factions": [
+              "spain"
+            ]
+          }
+        ],
+        "subfaction": "Portuguese auxiliaries"
+      },
+      {
+        "type": "merc_port_inf_mid",
+        "dictionary": "merc_port_inf_mid",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "slave",
+          "spain"
+        ],
+        "limit": 5,
+        "eras": [
+          {
+            "era": 1,
+            "factions": [
+              "spain"
+            ]
+          }
+        ],
+        "subfaction": "Portuguese auxiliaries"
+      }
+    ],
+    "Taiping": [
+      {
+        "type": "taiping_inf",
+        "dictionary": "taiping_inf",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 3,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Taiping"
+      },
+      {
+        "type": "taiping_light",
+        "dictionary": "taiping_light",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 2,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Taiping"
+      },
+      {
+        "type": "taiping_w",
+        "dictionary": "taiping_w",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Taiping"
+      },
+      {
+        "type": "taipingguners",
+        "dictionary": "taipingguners",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunpowder_unit",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 3,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Taiping"
+      }
+    ],
+    "Tibet": [
+      {
+        "type": "merc_tib_inf",
+        "dictionary": "merc_tib_inf",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "gunpowder_unit",
+          "gunmen",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 2,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      },
+      {
+        "type": "merc_tib_noble_cav",
+        "dictionary": "merc_tib_noble_cav",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      },
+      {
+        "type": "merc_tib_temple_guard",
+        "dictionary": "merc_tib_temple_guard",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      },
+      {
+        "type": "mercs_tib_monks",
+        "dictionary": "mercs_tib_monks",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      },
+      {
+        "type": "tib_heavy_spear",
+        "dictionary": "tib_heavy_spear",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      },
+      {
+        "type": "tib_horse_archer",
+        "dictionary": "tib_horse_archer",
+        "category": "cavalry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      },
+      {
+        "type": "tib_militia",
+        "dictionary": "tib_militia",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 2,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      },
+      {
+        "type": "tib_roy_inf",
+        "dictionary": "tib_roy_inf",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "start_not_skirmishing",
+          "cannot_skirmish",
+          "gunmen",
+          "gunpowder_unit",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      },
+      {
+        "type": "tib_temple_guard",
+        "dictionary": "tib_temple_guard",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      },
+      {
+        "type": "tib_tribal_archer",
+        "dictionary": "tib_tribal_archer",
+        "category": "infantry",
+        "attributes": [
+          "free_upkeep_unit",
+          "sea_faring",
+          "hide_forest",
+          "mercenary_unit"
+        ],
+        "ownership": [
+          "byzantium",
+          "slave"
+        ],
+        "limit": 1,
+        "eras": [
+          {
+            "era": 0,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 1,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          },
+          {
+            "era": 2,
+            "factions": [
+              "byzantium",
+              "slave"
+            ]
+          }
+        ],
+        "subfaction": "Tibet"
+      }
+    ]
+  },
+  "standardMercenaries": [
+    {
+      "type": "africa_cav",
+      "dictionary": "africa_cav",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "african_warband",
+      "dictionary": "african_warband",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "arab_cav",
+      "dictionary": "arab_cav",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "guncavalry",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "col_12lb",
+      "dictionary": "col_12lb",
+      "category": "siege",
+      "attributes": [
+        "sea_faring",
+        "can_withdraw",
+        "gunpowder_unit",
+        "cannon",
+        "artillery",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "england",
+        "france",
+        "portugal",
+        "slave"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "england",
+            "france",
+            "portugal",
+            "slave"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "england",
+            "france",
+            "portugal",
+            "slave"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "england",
+            "france",
+            "portugal",
+            "slave"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "dhow",
+      "dictionary": "dhow",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "fra_blacks_az",
+      "dictionary": "fra_blacks_az",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "papal_states",
+        "slave"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "papal_states",
+            "slave"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "papal_states",
+            "slave"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "papal_states",
+            "slave"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc cog",
+      "dictionary": "merc_cog",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc galley",
+      "dictionary": "merc_galley",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_ap_front_cav",
+      "dictionary": "merc_ap_front_cav",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "guncavalry",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_apache_inf",
+      "dictionary": "merc_apache_inf",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_arab_brigade",
+      "dictionary": "merc_arab_brigade",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_arab_sailors",
+      "dictionary": "merc_arab_sailors",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave",
+        "england"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 1,
+          "factions": [
+            "slave",
+            "england"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "slave",
+            "england"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_balk_cav_ch",
+      "dictionary": "merc_balk_cav_ch",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_bhutan_warrior",
+      "dictionary": "merc_bhutan_warrior",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave",
+        "england"
+      ],
+      "limit": 1,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "england"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "england"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "england"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_bulgarian_inf",
+      "dictionary": "merc_bulgarian_inf",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_burmese_inf",
+      "dictionary": "merc_burmese_inf",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "england",
+        "france",
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "slave",
+            "england"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "slave",
+            "england"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "slave",
+            "england"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_eng_for_cav",
+      "dictionary": "merc_eng_for_cav",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "guncavalry",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave",
+        "england"
+      ],
+      "limit": 1,
+      "eras": [
+        {
+          "era": 1,
+          "factions": [
+            "england"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "england"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_fra_blacks",
+      "dictionary": "merc_fra_blacks",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "england",
+        "venice",
+        "france",
+        "hre",
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "slave"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "slave",
+            "england",
+            "venice"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "slave",
+            "england",
+            "venice"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_fra_for_cav",
+      "dictionary": "merc_fra_for_cav",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "guncavalry",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_fra_inf_ch",
+      "dictionary": "merc_fra_inf_ch",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_georgian_inf",
+      "dictionary": "merc_georgian_inf",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave",
+        "russia"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "slave",
+            "russia"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "slave",
+            "russia"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "slave",
+            "russia"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_indian_fanatic",
+      "dictionary": "merc_indian_fanatic",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave",
+        "england"
+      ],
+      "limit": 1,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "england"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_kashgar_inf",
+      "dictionary": "merc_kashgar_inf",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave",
+        "byzantium"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "byzantium"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "byzantium"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "byzantium"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_kok_royal_cav",
+      "dictionary": "merc_kok_royal_cav",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave",
+        "byzantium",
+        "timurids",
+        "russia"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "byzantium",
+            "timurids",
+            "russia"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "byzantium",
+            "timurids",
+            "russia"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "byzantium",
+            "timurids",
+            "russia"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_maori_musketeers",
+      "dictionary": "merc_maori_musketeers",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave",
+        "england"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "england"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "england"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "england"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_maori_spearmen",
+      "dictionary": "merc_maori_spearmen",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave",
+        "england"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "england"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "england"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "england"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_mongol_bows",
+      "dictionary": "merc_mongol_bows",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave",
+        "russia",
+        "byzantium"
+      ],
+      "limit": 1,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "russia",
+            "byzantium"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "russia",
+            "byzantium"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "russia",
+            "byzantium"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_papa_bows",
+      "dictionary": "merc_papa_bows",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit",
+        "stakes"
+      ],
+      "ownership": [
+        "slave",
+        "england",
+        "hre"
+      ],
+      "limit": 1,
+      "eras": [
+        {
+          "era": 2,
+          "factions": [
+            "slave",
+            "england",
+            "hre"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_para_foot",
+      "dictionary": "merc_para_foot",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_pol_hussars",
+      "dictionary": "merc_pol_hussars",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "guncavalry",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave",
+        "russia",
+        "hre"
+      ],
+      "limit": 1,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "russia",
+            "hre"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "russia",
+            "hre"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "russia",
+            "hre"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_polish_inf",
+      "dictionary": "merc_polish_inf",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave",
+        "russia",
+        "hre"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "russia",
+            "hre"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "russia",
+            "hre"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "russia",
+            "hre"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_rus_georgian_cav",
+      "dictionary": "merc_rus_georgian_cav",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_serb_inf",
+      "dictionary": "merc_serb_inf",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave",
+        "russia"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "russia"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "russia"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "russia"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_siam_agent",
+      "dictionary": "merc_siam_agent",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_sikh_warriors",
+      "dictionary": "merc_sikh_warriors",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_uk_sailor",
+      "dictionary": "merc_uk_sailor",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_uru_inf",
+      "dictionary": "merc_uru_inf",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_us_farmer_cav",
+      "dictionary": "merc_us_farmer_cav",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "guncavalry",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "merc_us_farmers",
+      "dictionary": "merc_us_farmers",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit",
+        "gunpowder_unit"
+      ],
+      "ownership": [
+        "slave",
+        "scotland"
+      ],
+      "limit": 2,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "scotland"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "scotland"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "scotland"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_zulu_rifles",
+      "dictionary": "merc_zulu_rifles",
+      "category": "infantry",
+      "attributes": [
+        "sea_faring",
+        "gunpowder_unit",
+        "gunmen",
+        "mercenary_unit",
+        "start_not_skirmishing"
+      ],
+      "ownership": [
+        "slave",
+        "teu"
+      ],
+      "limit": 3,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "slave",
+            "teu"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "slave",
+            "teu"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "slave",
+            "teu"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "merc_zulu_spearmen",
+      "dictionary": "merc_zulu_spearmen",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "mongol_hevcav",
+      "dictionary": "mongol_hevcav",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "slave",
+        "byzantium",
+        "russia"
+      ],
+      "limit": 4,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "slave",
+            "byzantium",
+            "russia"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "slave",
+            "byzantium",
+            "russia"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "slave",
+            "byzantium",
+            "russia"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "qing_green_banner_horse",
+      "dictionary": "qing_green_banner_horse",
+      "category": "cavalry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "hide_forest",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "byzantium",
+        "slave"
+      ],
+      "limit": 4,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "byzantium"
+          ]
+        },
+        {
+          "era": 1,
+          "factions": [
+            "byzantium"
+          ]
+        },
+        {
+          "era": 2,
+          "factions": [
+            "byzantium"
+          ]
+        }
+      ],
+      "subfaction": null
+    },
+    {
+      "type": "viet_inf",
+      "dictionary": "viet_inf",
+      "category": "infantry",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "gunpowder_unit",
+        "gunmen",
+        "start_not_skirmishing",
+        "cannot_skirmish",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "france",
+        "slave"
+      ],
+      "limit": 1,
+      "eras": [
+        {
+          "era": 0,
+          "factions": [
+            "france"
+          ]
+        }
+      ],
+      "subfaction": null
+    }
+  ],
+  "hiddenMercenaries": [
+    {
+      "type": "caravel",
+      "dictionary": "caravel",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "carrack",
+      "dictionary": "carrack",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "cog",
+      "dictionary": "cog",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "dragon boat",
+      "dictionary": "dragon_boat",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "grande carrack",
+      "dictionary": "grande_carrack",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "gun holk",
+      "dictionary": "gun_holk",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ladya",
+      "dictionary": "ladya",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_armoured_cruiser",
+      "dictionary": "ship_armoured_cruiser",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_armoured_frigate",
+      "dictionary": "ship_armoured_frigate",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_composite_corvette",
+      "dictionary": "ship_composite_corvette",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_destroyer",
+      "dictionary": "ship_destroyer",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_iron_frigate",
+      "dictionary": "ship_iron_frigate",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_ironclad_corvette",
+      "dictionary": "ship_ironclad_corvette",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit",
+        "hide_forest"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_monitor",
+      "dictionary": "ship_monitor",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_pre_dreadnought",
+      "dictionary": "ship_pre_dreadnought",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_protected_cruiser",
+      "dictionary": "ship_protected_cruiser",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_sail_corvette",
+      "dictionary": "ship_sail_corvette",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_sail_sotl",
+      "dictionary": "ship_sail_sotl",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 1,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_steam_corvette",
+      "dictionary": "ship_steam_corvette",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_torpedo",
+      "dictionary": "ship_torpedo",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit",
+        "hide_forest"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    },
+    {
+      "type": "ship_unprotected_cruiser",
+      "dictionary": "ship_unprotected_cruiser",
+      "category": "ship",
+      "attributes": [
+        "free_upkeep_unit",
+        "sea_faring",
+        "can_withdraw",
+        "no_custom",
+        "mercenary_unit"
+      ],
+      "ownership": [
+        "all"
+      ],
+      "limit": 4,
+      "eras": [],
+      "subfaction": null
+    }
+  ]
+}

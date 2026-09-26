@@ -1,0 +1,458 @@
+{
+  "display_panel_ratio": 2.5,
+  "screenshot_panel_ratio": 2.5008695652173913,
+  "engine_stretch_compensation": 1.1962890625,
+  "panel_ratio": 2.089795918367347,
+  "texture_ratio": 1.3333333333333333,
+  "old_max_ratio_error_percent": 19.62890625,
+  "method": "Fractional source crop; identical horizontal and vertical scale factors.",
+  "preserved_original_slot": 19,
+  "saved_game_resolution": [
+    1280,
+    768
+  ],
+  "saved_widescreen": 0,
+  "game_display_verified": "Measured supplied screenshot; post-change in-game capture not yet verified",
+  "display_note": "A 1024\u00d7768 texture expanded to 1280\u00d7768 would be 25% wider. This is a conditional calculation, not a measured engine result. User screenshot confirms about 20% horizontal stretch. Textures now compensate for the measured 2.50:1 panel. No display-setting changes made.",
+  "items": [
+    {
+      "slot": 1,
+      "previous_ratio_error_percent": 0.007476076555024136,
+      "scale_x": 0.28617216117216115,
+      "scale_y": 0.2861721611721612,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 2,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 3,
+      "previous_ratio_error_percent": 0.05326704545454142,
+      "scale_x": 1.0254306808859721,
+      "scale_y": 1.0254306808859721,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 4,
+      "previous_ratio_error_percent": 0.007973809244499197,
+      "scale_x": 0.2807096339546373,
+      "scale_y": 0.2807096339546373,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 5,
+      "previous_ratio_error_percent": 0.009765624999991118,
+      "scale_x": 0.5437146585471945,
+      "scale_y": 0.5437146585471945,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 6,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 7,
+      "previous_ratio_error_percent": 0.041203464322647765,
+      "scale_x": 0.6188118811881188,
+      "scale_y": 0.6188118811881188,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 8,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 1.3020833333333333,
+      "scale_y": 1.3020833333333333,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 9,
+      "previous_ratio_error_percent": 0.03810975609754852,
+      "scale_x": 2.0833333333333335,
+      "scale_y": 2.0833333333333335,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 10,
+      "previous_ratio_error_percent": 0.05497910186625932,
+      "scale_x": 0.9307520476545048,
+      "scale_y": 0.9307520476545048,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 11,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 12,
+      "previous_ratio_error_percent": 0.0489556135770175,
+      "scale_x": 1.5625,
+      "scale_y": 1.5625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 13,
+      "previous_ratio_error_percent": 0.0076423204921294285,
+      "scale_x": 0.2412661648330438,
+      "scale_y": 0.24126616483304386,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 14,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 15,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 16,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 17,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 18,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 19,
+      "check": "Original artwork retained; lower foreground cropped to correct the measured game stretch.",
+      "display_ratio": 2.5
+    },
+    {
+      "slot": 20,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 21,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 22,
+      "previous_ratio_error_percent": 0.07494549418605168,
+      "scale_x": 0.9928514694201748,
+      "scale_y": 0.9928514694201747,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 23,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 24,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 25,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 26,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 1.3020833333333333,
+      "scale_y": 1.3020833333333333,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 27,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 28,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 29,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 30,
+      "previous_ratio_error_percent": 0.0489556135770175,
+      "scale_x": 1.5625,
+      "scale_y": 1.5625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 31,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 32,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 33,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 34,
+      "previous_ratio_error_percent": 0.104442031722074,
+      "scale_x": 1.808972503617945,
+      "scale_y": 1.8089725036179451,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 35,
+      "previous_ratio_error_percent": 0.01986864203453731,
+      "scale_x": 1.147842056932966,
+      "scale_y": 1.147842056932966,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 36,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 37,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 38,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 1.3020833333333333,
+      "scale_y": 1.3020833333333333,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 39,
+      "previous_ratio_error_percent": 0.018755173841067396,
+      "scale_x": 0.9904912836767037,
+      "scale_y": 0.9904912836767037,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 40,
+      "previous_ratio_error_percent": 0.030591114457845237,
+      "scale_x": 1.441753171856978,
+      "scale_y": 1.4417531718569783,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 41,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 42,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 1.953125,
+      "scale_y": 1.953125,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 43,
+      "previous_ratio_error_percent": 0.07794373549884215,
+      "scale_x": 1.3888888888888888,
+      "scale_y": 1.3888888888888888,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 44,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 45,
+      "previous_ratio_error_percent": 0.027061370481917812,
+      "scale_x": 1.2007684918347743,
+      "scale_y": 1.200768491834774,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 46,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 47,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 48,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 49,
+      "previous_ratio_error_percent": 0.026163356697805895,
+      "scale_x": 1.8628912071535022,
+      "scale_y": 1.8628912071535024,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 50,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 1.3020833333333333,
+      "scale_y": 1.3020833333333333,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 51,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 52,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 53,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 54,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 55,
+      "previous_ratio_error_percent": 0.038933793245465864,
+      "scale_x": 0.9850275807722616,
+      "scale_y": 0.9850275807722617,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 56,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 57,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 58,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 59,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 60,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 61,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 62,
+      "previous_ratio_error_percent": 0.08169934640522847,
+      "scale_x": 0.9765625,
+      "scale_y": 0.9765625,
+      "ratio_error_percent": 0.0
+    },
+    {
+      "slot": 63,
+      "previous_ratio_error_percent": 19.62890625,
+      "scale_x": 0.4180602006688963,
+      "scale_y": 0.4180602006688963,
+      "ratio_error_percent": 0.0
+    }
+  ]
+}

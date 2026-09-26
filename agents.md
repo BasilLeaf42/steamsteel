@@ -219,6 +219,8 @@ When moving or cloning a unit onto a new faction, preserve the source mesh's ori
 Structure:
 stat_cost        recruitment time, campaign cost, campaign upkeep, 100 (weapon upgrade, always set 100), 100 (armour upgrade, always set 100), custom battle cost, custom battle number, custom battle over-recruitment penalty
 
+Recruitment time is quality-based for land units: militia, reserve, levy, and irregular infantry use 2 turns; regular infantry uses 3; elite infantry uses 4. Cavalry adds 1 turn to the corresponding quality value, producing 3/4/5. Units carrying `general_unit` use 1 turn. Do not treat the broader `command` attribute as proof that a combat formation is a general. Ships and artillery retain their separately established recruitment times.
+
 Cost (campaign and custom):
 Baseline Infantry (Arquebus): 900
 Baseline Infantry (Musket): 1000
@@ -242,6 +244,8 @@ Faction modifiers will be applied when balancing particular factions
 
 Cost of upkeep: Total cost/3 for professional units, Total cost/3 otherwise; same as over-recruitment penalty
 
+`free_upkeep_unit` belongs only to formations explicitly classified as militia, reserve, levy, or irregular. Never infer militia status from `low` discipline alone: C- and D-tier modifiers can reduce professional regulars to `low`, while some European reserves retain respectable training and morale. Determine the underlying quality from the frozen roster classification and faction rules; professional line infantry, skirmishers, Marines, engineers, and regular cavalry do not receive free upkeep merely because their final `stat_mental` row resembles militia.
+
 ## Unit-balancing workflow
 
 Use this end-to-end sequence for every faction so a single balancing request covers discovery, clarification, implementation, and validation.
@@ -264,6 +268,22 @@ Use this end-to-end sequence for every faction so a single balancing request cov
 16. Run static validation for unique types and dictionaries, valid tokens, ownership/era coverage, complete references, cost arithmetic, projectile/attribute compatibility, asset existence, tactical-card filenames, 48x64 dimensions, 32-bit RGBA/alpha, framing and background consistency, exact agreement between the canonical card background and the exposed lower strip of normal and selected battle-card sprites in every culture, modeldb header and entry counts, string-length checksums, weapon order, stale names, conflict markers, and exact canonical/runtime hashes.
 17. After launch, inspect a freshly timestamped game log and fix every parsing error. If the game crashes without a useful log, revalidate modeldb structure and assets, then isolate the most recent change. Repeat until the affected roster loads cleanly.
 18. Report the final roster and stat changes concisely, including assumptions, exceptions, validation performed, any runtime test still needed, and unrelated working-tree changes left untouched.
+
+## Campaign EDB recruitment
+
+Treat `data/tow_steamsteel/export_descr_buildings.txt` as authoritative and copy the validated result byte-for-byte to `data/export_descr_buildings.txt`. Keep normal recruitment (`recruit_pool` maximum at least 1) distinct from replenishment (maximum below 1).
+
+Normal recruitment follows building role and quality. Ordinary infantry and cavalry use barracks; marines use military ports; artillery uses cannon buildings; generals and command units use the professional-military chain; ships use ports. Militia Drill Squares recruit only militia, reserve, and irregular units; Militia Barracks add regulars; Army Barracks add elites; Royal Armouries retain all lower categories. Replenishment remains available at every tier of the unit's correct building family for player convenience. A replenishment row retains its faction and date restrictions but deliberately ignores quality-tier and geographic gates; do not mistake this intentional universal regional resupply access for unrestricted normal recruitment.
+
+Every replenishment row has a maximum pool of `0.99`. This permits full retraining of any surviving formation while remaining below the `1.0` needed to recruit a new unit. Preserve each row's established initial reserve and replenishment rate when raising its older maximum to `0.99`; do not recalculate those two fields from the new maximum. An initial reserve must nevertheless remain below `1.0`, because an initial value of one would itself permit fresh recruitment and defeat the replenishment-only design.
+
+Derive normal barracks pool values deterministically from the EDU custom-battle limit `N`. Every normal recruitment row starts with an initial pool of at least `1`; the separate replenishment initial may increase the effective total. For `N=1/2/3/4/5`, use Militia Drill Square `1/.01/1, 1/.02/1, 1/.03/1, 1/.04/1, 1/.05/2`; Militia Barracks `1/.03/1, 1/.06/1, 1/.09/1, 1/.12/1, 2/.15/2`; Army Barracks `1/.06/1, 2/.12/2, 2/.18/2, 3/.24/3, 3/.30/3`; Royal Armoury `1/.10/1, 2/.20/2, 3/.30/3, 4/.40/4, 5/.50/5`, where each tuple is `initial/rate/maximum`. Artillery normally has two available per distinct unit and cavalry one unless an explicit exception applies.
+
+Every recruitment row must be geographically gated. European-style factions may recruit their standard line infantry and, where applicable, reserve line infantry throughout explicitly defined Europeanized regions; colonial infantry belongs only in its colonial regions. Non-European units and geographic auxiliaries are regionally restricted by default. Use separate complete rows for alternative regions rather than ambiguous mixed `and/or` requirement clauses.
+
+Use the five-year event counters `military_reforms_1860`, `_1865`, `_1870`, `_1875`, `_1` (1880), `_1885`, `_1890`, `_1895`, `_2` (1900), and `_1905`. For firearm infantry and genuine carbine-armed missile cavalry, date normal recruitment from the exact weapon adoption or conversion year rounded to the nearest five years: the successor requires its starting counter and the predecessor gains `not event_counter <successor> 1`. Apply the same date window to replenishment so units cannot be supplied before introduction or after obsolescence. This weapon-driven rule does not apply to melee infantry, pistol/lance/sabre/bow cavalry, generals, artillery, or ships.
+
+All other units follow their EDU period assignment for both normal recruitment and replenishment: early-only units run from 1860 until 1870, mid-only units from 1870 until 1890, and late-only units from 1890 onward; early/mid units stop in 1890, mid/late units begin in 1870, and units assigned to all three periods remain continuously available. A late unit continues indefinitely unless a distinct later successor exists, in which case terminate both normal recruitment and replenishment at that successor's explicit five-year gate. Existing field armies are not automatically converted by EDB changes.
 
 Mercenary units with the `mercenary_unit` attribute can be recruited through EDB or mercenary pools without factional EDU ownership. EDU ownership and era assignments control their custom-battle availability, so do not conflate those scopes.
 

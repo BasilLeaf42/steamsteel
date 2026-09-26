@@ -1,0 +1,13 @@
+const fs=require('fs'),crypto=require('crypto'),path=require('path');
+const root=path.resolve(__dirname,'..'),a=path.join(root,'data/tow_steamsteel/export_descr_buildings.txt'),b=path.join(root,'data/export_descr_buildings.txt');
+const s=fs.readFileSync(a,'utf8'), mirror=fs.readFileSync(b,'utf8');
+const rows=s.split(/\r?\n/).filter(x=>/^\s*recruit_pool/.test(x)&&/factions\s*\{[^}]*\bmilan\b/.test(x)).map(x=>{const m=x.match(/recruit_pool "([^"]+)"\s+(\S+)\s+(\S+)\s+(\S+)/);if(!m)throw Error(x);return{line:x,type:m[1],initial:+m[2],rate:+m[3],max:+m[4]};});
+const normal=rows.filter(x=>x.max>=1),replenishment=rows.filter(x=>x.max<1),units=[...new Set(rows.map(x=>x.type))].sort();
+const expected=['csa_12lb','csa_150mm','csa_5lb','csa_armstrong','csa_gatling','csa_general_staff','csa_louisiana_tigers','csa_marines','csa_maxim','csa_regulars_early','csa_regulars_high','csa_regulars_mid','csa_sharpshooters','csa_state_cavalry_early','csa_state_cavalry_high','csa_state_cavalry_mid','csa_state_guard_high','csa_state_guard_mid','csa_state_volunteers_early','csa_virginia_cavalry'].sort();
+const badNormal=normal.filter(x=>x.initial<1||!x.line.includes('hidden_resource'));
+const badReplenishment=replenishment.filter(x=>x.max!==.99||x.line.includes('hidden_resource'));
+const leaked=rows.filter(x=>x.type.startsWith('uni_'));
+const missing=expected.filter(x=>!units.includes(x)),extra=units.filter(x=>!expected.includes(x));
+const result={rows:rows.length,normal:normal.length,replenishment:replenishment.length,units:units.length,missing,extra,badNormal:badNormal.length,badReplenishment:badReplenishment.length,unionLeak:leaked.length,mirrorsMatch:crypto.createHash('sha256').update(s).digest('hex')===crypto.createHash('sha256').update(mirror).digest('hex')};
+console.log(JSON.stringify(result,null,2));
+if(missing.length||extra.length||badNormal.length||badReplenishment.length||leaked.length||!result.mirrorsMatch)process.exitCode=1;

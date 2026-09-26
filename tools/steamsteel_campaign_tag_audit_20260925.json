@@ -1,0 +1,1972 @@
+[
+  {
+    "faction": "england",
+    "region": "Angleterre_Province",
+    "regionName": "Southern England",
+    "settlement": "Londres",
+    "settlementName": "London",
+    "resources": "uk,europe",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Edinburgh_Province",
+    "regionName": "Scotland",
+    "settlement": "Edinburgh",
+    "settlementName": "Edinburgh",
+    "resources": "scotland,uk,europe",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Nuuk_Province",
+    "regionName": "Malta",
+    "settlement": "Godthab",
+    "settlementName": "Valletta",
+    "resources": "europe",
+    "factionCreator": "venice",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "england",
+    "region": "Guangzhou_Province",
+    "regionName": "Hong Kong",
+    "settlement": "Guangzhou",
+    "settlementName": "Hong Kong",
+    "resources": "china",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "england",
+    "region": "York_Province",
+    "regionName": "Northern England",
+    "settlement": "York",
+    "settlementName": "Manchester",
+    "resources": "uk,europe",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Islande_Province",
+    "regionName": "Ireland",
+    "settlement": "Islande",
+    "settlementName": "Dublin",
+    "resources": "uk,europe",
+    "factionCreator": "scotland",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "england",
+    "region": "Afrique_Sud_Province",
+    "regionName": "Cape Colony",
+    "settlement": "Cape",
+    "settlementName": "Cape Town",
+    "resources": "sub_sahara,south_africa",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "W_aust_Province",
+    "regionName": "West Australia",
+    "settlement": "Perth",
+    "settlementName": "Perth",
+    "resources": "anzac",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "New_zealand_Province",
+    "regionName": "New Zealand",
+    "settlement": "Wellington",
+    "settlementName": "Wellington",
+    "resources": "anzac",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Quebec_Province",
+    "regionName": "Canada",
+    "settlement": "Quebec",
+    "settlementName": "Montreal",
+    "resources": "canada",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Arctic_Province",
+    "regionName": "North-Western Territory",
+    "settlement": "Inuit",
+    "settlementName": "Yellowknife",
+    "resources": "amerindian,canada",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Ruperts_land_Province",
+    "regionName": "Rupert's Land",
+    "settlement": "York_factory",
+    "settlementName": "York Factory",
+    "resources": "amerindian,canada",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Lodz_Province",
+    "regionName": "British Columbia",
+    "settlement": "Lodz",
+    "settlementName": "Vancouver",
+    "resources": "amerindian,canada",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Jamaica_Province",
+    "regionName": "Jamaica",
+    "settlement": "Kingston",
+    "settlementName": "Kingston",
+    "resources": "amerindian",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Gujerat_Province",
+    "regionName": "South Australia",
+    "settlement": "Ahmadabad",
+    "settlementName": "Sydney",
+    "resources": "anzac",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Lan_na_Province",
+    "regionName": "North Australia",
+    "settlement": "Chiang_mai",
+    "settlementName": "Brisbane",
+    "resources": "anzac",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "england",
+    "region": "Malaysia_Province",
+    "regionName": "Malaya",
+    "settlement": "Kuala_lumpur",
+    "settlementName": "Malacca",
+    "resources": "east_indies,indochina",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "england",
+    "region": "Bengal_Province",
+    "regionName": "Bengal",
+    "settlement": "Bengal",
+    "settlementName": "Calcutta",
+    "resources": "india",
+    "factionCreator": "bulga",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "england",
+    "region": "Dehli_Province",
+    "regionName": "Punjab",
+    "settlement": "Dehli",
+    "settlementName": "Delhi",
+    "resources": "india",
+    "factionCreator": "bulga",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "england",
+    "region": "Orissa_Province",
+    "regionName": "Madras Presidency",
+    "settlement": "Cuttack",
+    "settlementName": "Madras",
+    "resources": "india",
+    "factionCreator": "bulga",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "england",
+    "region": "Gondowan_Province",
+    "regionName": "Central Provinces",
+    "settlement": "Jabalpur",
+    "settlementName": "Bhopal",
+    "resources": "india",
+    "factionCreator": "bulga",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "england",
+    "region": "Sind_Province",
+    "regionName": "Sind",
+    "settlement": "Sind",
+    "settlementName": "Karachi",
+    "resources": "india",
+    "factionCreator": "bulga",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "scotland",
+    "region": "Mexico_Province",
+    "regionName": "Central Mexico",
+    "settlement": "Mexico",
+    "settlementName": "Mexico City",
+    "resources": "mexico,s_america",
+    "factionCreator": "scotland",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "scotland",
+    "region": "Galicie_Province",
+    "regionName": "Northern Mexico",
+    "settlement": "Galicie",
+    "settlementName": "Monterrey",
+    "resources": "mexico,s_america",
+    "factionCreator": "scotland",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "scotland",
+    "region": "Veracruz_Province",
+    "regionName": "Southern Mexico",
+    "settlement": "Veracruz",
+    "settlementName": "Veracruz",
+    "resources": "mexico,s_america",
+    "factionCreator": "scotland",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "teu",
+    "region": "Rhodesie_Province",
+    "regionName": "Transvaal",
+    "settlement": "Lusaka",
+    "settlementName": "Pretoria",
+    "resources": "sub_sahara,south_africa",
+    "factionCreator": "teu",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "teu",
+    "region": "Jerusalemb_Province",
+    "regionName": "Orange Free State",
+    "settlement": "Jerusalemb",
+    "settlementName": "Bloemfontein",
+    "resources": "sub_sahara,south_africa",
+    "factionCreator": "teu",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "normans",
+    "region": "Stockholm_Province",
+    "regionName": "Sweden",
+    "settlement": "Birka",
+    "settlementName": "Stockholm",
+    "resources": "sweden,europe",
+    "factionCreator": "normans",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "normans",
+    "region": "Vestlandet_Province",
+    "regionName": "Southern Norway",
+    "settlement": "Stavenger",
+    "settlementName": "Bergen",
+    "resources": "norway,europe",
+    "factionCreator": "normans",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "normans",
+    "region": "Tromso_Province",
+    "regionName": "Northern Norway",
+    "settlement": "Tromso",
+    "settlementName": "Trondheim",
+    "resources": "norway,europe",
+    "factionCreator": "normans",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "hre",
+    "region": "Magdeburg_Province",
+    "regionName": "Brandenburg",
+    "settlement": "Magdeburg",
+    "settlementName": "Berlin",
+    "resources": "prussia,europe",
+    "factionCreator": "hre",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "hre",
+    "region": "Hohenstauffen_Province",
+    "regionName": "Rhineland",
+    "settlement": "Hohenstauffen",
+    "settlementName": "Cologne",
+    "resources": "prussia,europe",
+    "factionCreator": "hre",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "hre",
+    "region": "Tejo_Province",
+    "regionName": "East Prussia",
+    "settlement": "Lisboa",
+    "settlementName": "Königsberg",
+    "resources": "prussia,europe",
+    "factionCreator": "hre",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "denmark",
+    "region": "Peru_Province",
+    "regionName": "Northern Peru",
+    "settlement": "Lima",
+    "settlementName": "Lima",
+    "resources": "s_america,peru",
+    "factionCreator": "denmark",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "denmark",
+    "region": "South_Peru_Province",
+    "regionName": "Southern Peru",
+    "settlement": "Cuzco",
+    "settlementName": "Cuzco",
+    "resources": "s_america,peru",
+    "factionCreator": "denmark",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "france",
+    "region": "Paris_Province",
+    "regionName": "Northern France",
+    "settlement": "Paris",
+    "settlementName": "Paris",
+    "resources": "europe,france",
+    "factionCreator": "france",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "france",
+    "region": "Bordeaux_Province",
+    "regionName": "Aquitaine",
+    "settlement": "Bordeaux",
+    "settlementName": "Bordeaux",
+    "resources": "europe,france",
+    "factionCreator": "france",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "france",
+    "region": "Dijon_Province",
+    "regionName": "Burgundy",
+    "settlement": "Lyon",
+    "settlementName": "Lyon",
+    "resources": "europe,france",
+    "factionCreator": "france",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "france",
+    "region": "Marseille_Province",
+    "regionName": "Southern France",
+    "settlement": "Marseille",
+    "settlementName": "Marseille",
+    "resources": "europe,france",
+    "factionCreator": "france",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "france",
+    "region": "Cote_Guinee_Province",
+    "regionName": "Senegal",
+    "settlement": "Kansala",
+    "settlementName": "Dakar",
+    "resources": "sub_sahara,north_africa",
+    "factionCreator": "lith",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "france",
+    "region": "Krasnodar_Province",
+    "regionName": "Algeria",
+    "settlement": "Krasnodar",
+    "settlementName": "Algiers",
+    "resources": "middle_east,arab,north_africa",
+    "factionCreator": "moors",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "france",
+    "region": "Decan_Province",
+    "regionName": "South Vietnam",
+    "settlement": "Bombay",
+    "settlementName": "Saigon",
+    "resources": "indochina",
+    "factionCreator": "cru",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "hungary",
+    "region": "Innsbruck_Province",
+    "regionName": "Austria",
+    "settlement": "Vienne",
+    "settlementName": "Vienna",
+    "resources": "europe,austria",
+    "factionCreator": "hungary",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "hungary",
+    "region": "Venice_Province",
+    "regionName": "Venetia",
+    "settlement": "Venice",
+    "settlementName": "Venice",
+    "resources": "austria,italy,europe",
+    "factionCreator": "venice",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "hungary",
+    "region": "Prague_Province",
+    "regionName": "Bohemia",
+    "settlement": "Prague",
+    "settlementName": "Prague",
+    "resources": "europe,austria",
+    "factionCreator": "hungary",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "hungary",
+    "region": "Cracow_Province",
+    "regionName": "Galicia and Lodomeria",
+    "settlement": "Cracow",
+    "settlementName": "Lemberg",
+    "resources": "europe,austria",
+    "factionCreator": "hungary",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "hungary",
+    "region": "Buda_Province",
+    "regionName": "Hungary",
+    "settlement": "Buda",
+    "settlementName": "Budapest",
+    "resources": "europe,hungary",
+    "factionCreator": "hungary",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "venice",
+    "region": "Milan_Province",
+    "regionName": "Lombardy",
+    "settlement": "Milan",
+    "settlementName": "Milan",
+    "resources": "europe,italy",
+    "factionCreator": "venice",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "venice",
+    "region": "Naples_Province",
+    "regionName": "Southern Italy",
+    "settlement": "Naples",
+    "settlementName": "Naples",
+    "resources": "europe,italy",
+    "factionCreator": "venice",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "venice",
+    "region": "Cagliari_Province",
+    "regionName": "Sicily",
+    "settlement": "Cagliari",
+    "settlementName": "Palermo",
+    "resources": "europe,italy",
+    "factionCreator": "venice",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "spain",
+    "region": "Toledo_Province",
+    "regionName": "Castille-Aragon",
+    "settlement": "Burgos",
+    "settlementName": "Madrid",
+    "resources": "europe,spain",
+    "factionCreator": "spain",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "spain",
+    "region": "Cordoba_Province",
+    "regionName": "Andalusia",
+    "settlement": "Cordoba",
+    "settlementName": "Seville",
+    "resources": "europe,spain",
+    "factionCreator": "spain",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "spain",
+    "region": "Leon_Province",
+    "regionName": "Galicia",
+    "settlement": "Leon",
+    "settlementName": "Compostela",
+    "resources": "europe,spain",
+    "factionCreator": "spain",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "spain",
+    "region": "Zaragoza_Province",
+    "regionName": "Catalonia",
+    "settlement": "Zaragoza",
+    "settlementName": "Barcelona",
+    "resources": "europe,spain",
+    "factionCreator": "spain",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "spain",
+    "region": "Philipines_Province",
+    "regionName": "Philippines",
+    "settlement": "Philipines",
+    "settlementName": "Manila",
+    "resources": "east_indies",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "spain",
+    "region": "Havana_Province",
+    "regionName": "Cuba",
+    "settlement": "Havana",
+    "settlementName": "Havana",
+    "resources": "cuba,s_america",
+    "factionCreator": "spain",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugala",
+    "region": "Corinth_Province",
+    "regionName": "Pennsylvania",
+    "settlement": "Corinth",
+    "settlementName": "Washington DC",
+    "resources": "usa,csa",
+    "factionCreator": "hungary",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "portugala",
+    "region": "Algarve_Province",
+    "regionName": "Mid-Atlantic States",
+    "settlement": "Silves",
+    "settlementName": "New York",
+    "resources": "usa",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugala",
+    "region": "Abenaki_Province",
+    "regionName": "New England",
+    "settlement": "Abenaki",
+    "settlementName": "Boston",
+    "resources": "usa",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugala",
+    "region": "Kansas_Province",
+    "regionName": "Kansas Territory",
+    "settlement": "Kansas",
+    "settlementName": "Tulsa",
+    "resources": "usa,amerindian",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugala",
+    "region": "Utah_Province",
+    "regionName": "Southwest Territories",
+    "settlement": "Utah",
+    "settlementName": "Salt Lake City",
+    "resources": "usa,amerindian",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugala",
+    "region": "Dakota_Province",
+    "regionName": "Great Lakes States",
+    "settlement": "Dakota",
+    "settlementName": "Chicago",
+    "resources": "usa",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugala",
+    "region": "Tualatin_Province",
+    "regionName": "Pacific Northwest",
+    "settlement": "Tualatin",
+    "settlementName": "Portland",
+    "resources": "usa,amerindian",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugala",
+    "region": "Tongva_Province",
+    "regionName": "California",
+    "settlement": "Tongva",
+    "settlementName": "San Francisco",
+    "resources": "usa,amerindian",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugala",
+    "region": "Nuevo_Mexico_Province",
+    "regionName": "New Mexico Territory",
+    "settlement": "Nuevo_Mexico",
+    "settlementName": "Tucson",
+    "resources": "usa,amerindian",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugala",
+    "region": "Zhengding_Province",
+    "regionName": "American Midwest",
+    "settlement": "Zhengding",
+    "settlementName": "Omaha",
+    "resources": "usa,amerindian",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "poland",
+    "region": "Rio_Janeiro_Province",
+    "regionName": "Southern Brazil",
+    "settlement": "Rio_Janeiro",
+    "settlementName": "Rio de Janeiro",
+    "resources": "s_america,brazil",
+    "factionCreator": "poland",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "poland",
+    "region": "Salvador_Province",
+    "regionName": "Northern Brazil",
+    "settlement": "Salvador",
+    "settlementName": "Salvador",
+    "resources": "s_america,brazil",
+    "factionCreator": "poland",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "poland",
+    "region": "Potosi_Province",
+    "regionName": "Amazonas",
+    "settlement": "Potosi",
+    "settlementName": "Manaus",
+    "resources": "s_america,brazil",
+    "factionCreator": "poland",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "papal_states",
+    "region": "Corne_Afrique_Province",
+    "regionName": "Ethiopia",
+    "settlement": "Berbera",
+    "settlementName": "Gondar",
+    "resources": "sub_sahara,ethiopia",
+    "factionCreator": "lith",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "russia",
+    "region": "Novgorod_Province",
+    "regionName": "Northwestern Russia",
+    "settlement": "Novgorod",
+    "settlementName": "St Petersburg",
+    "resources": "russia,europe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Moscou_Province",
+    "regionName": "Central Russia",
+    "settlement": "Moscou",
+    "settlementName": "Moscow",
+    "resources": "russia,europe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Sarkel_Province",
+    "regionName": "Caucasia",
+    "settlement": "Sarkel",
+    "settlementName": "Astrakhan",
+    "resources": "russia,europe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Laponie_Province",
+    "regionName": "Kola",
+    "settlement": "Muramamsk",
+    "settlementName": "Kola",
+    "resources": "russia,europe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Kiev_Province",
+    "regionName": "Ukraine",
+    "settlement": "Kiev",
+    "settlementName": "Kiev",
+    "resources": "russia,europe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Smolensk_Province",
+    "regionName": "Byelorussia",
+    "settlement": "Smolensk",
+    "settlementName": "Smolensk",
+    "resources": "russia,europe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Caffa_Province",
+    "regionName": "Novorussia",
+    "settlement": "Caffa",
+    "settlementName": "Sevastopol",
+    "resources": "fish,russia",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Riga_Province",
+    "regionName": "Baltics",
+    "settlement": "Riga",
+    "settlementName": "Riga",
+    "resources": "russia,europe",
+    "factionCreator": "hre",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "russia",
+    "region": "Pomeranie_Province",
+    "regionName": "Poland-Lithuania",
+    "settlement": "Pomeranie",
+    "settlementName": "Vilna",
+    "resources": "russia,europe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Irkutsk_Province",
+    "regionName": "Baikalia",
+    "settlement": "Irkutsk",
+    "settlementName": "Irkutsk",
+    "resources": "steppe,siberia,mongolia",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "russia",
+    "region": "Ufa_Province",
+    "regionName": "Volga",
+    "settlement": "Ufa",
+    "settlementName": "Kazan",
+    "resources": "russia,steppe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Khabarovsk_Province",
+    "regionName": "Siberia",
+    "settlement": "Boli",
+    "settlementName": "Vladivostok",
+    "resources": "steppe,siberia,manchuria",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Kyptchak_Province",
+    "regionName": "Western Kazakhstan",
+    "settlement": "Kyptchak",
+    "settlementName": "Guryev",
+    "resources": "russia,steppe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Arqin_Province",
+    "regionName": "Eastern Kazakhstan",
+    "settlement": "Arqin",
+    "settlementName": "Akmolinsk",
+    "resources": "steppe,russia",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "russia",
+    "region": "Almaty_Province",
+    "regionName": "Semirechie",
+    "settlement": "Almaty",
+    "settlementName": "Verniy",
+    "resources": "steppe,russia",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "russia",
+    "region": "Tyumen_Province",
+    "regionName": "Ural",
+    "settlement": "Tyumen",
+    "settlementName": "Tyumen",
+    "resources": "russia,steppe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Arkhangelsk_Province",
+    "regionName": "Northern Russia",
+    "settlement": "Arkhangelsk",
+    "settlementName": "Pustozersk",
+    "resources": "russia",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Ulan_Ude_Province",
+    "regionName": "Transbaikal",
+    "settlement": "Ulan_Ude",
+    "settlementName": "Verkhneudinsk",
+    "resources": "steppe,siberia,mongolia",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Siberia_Province",
+    "regionName": "Western Siberia",
+    "settlement": "Siberia",
+    "settlementName": "Nadym",
+    "resources": "siberia,steppe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Baku_Province",
+    "regionName": "Transcaucasia",
+    "settlement": "Baku",
+    "settlementName": "Tiflis",
+    "resources": "georgia,armenia,russia,ottoman",
+    "factionCreator": "egypt",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "russia",
+    "region": "NFinlande_Province",
+    "regionName": "Finland",
+    "settlement": "NFinlande",
+    "settlementName": "Helsingfors",
+    "resources": "russia,europe",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "russia",
+    "region": "Alaska_Province",
+    "regionName": "Alaska",
+    "settlement": "Anchorage",
+    "settlementName": "Fort St Constantine",
+    "resources": "amerindian,usa,russia",
+    "factionCreator": "russia",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "timurids",
+    "region": "Kandahar_Province",
+    "regionName": "Kabul",
+    "settlement": "Kandahar",
+    "settlementName": "Kabul",
+    "resources": "afghanistan",
+    "factionCreator": "timurids",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "timurids",
+    "region": "Baluchistan_Province",
+    "regionName": "Qandahar",
+    "settlement": "Baluchistan",
+    "settlementName": "Kandahar",
+    "resources": "afghanistan",
+    "factionCreator": "turks",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "bulga",
+    "region": "Mysore_Province",
+    "regionName": "Mysore",
+    "settlement": "Bangalore",
+    "settlementName": "Bangalore",
+    "resources": "india",
+    "factionCreator": "bulga",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "bulga",
+    "region": "Rajputana_Province",
+    "regionName": "Rajputana",
+    "settlement": "Jaipur",
+    "settlementName": "Jaipur",
+    "resources": "india",
+    "factionCreator": "bulga",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "moors",
+    "region": "Fez_Province",
+    "regionName": "Fez",
+    "settlement": "Fez",
+    "settlementName": "Fez",
+    "resources": "middle_east,morocco,north_africa",
+    "factionCreator": "moors",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "moors",
+    "region": "Marrakesh_Province",
+    "regionName": "Marrakesh",
+    "settlement": "Marrakesh",
+    "settlementName": "Marrakesh",
+    "resources": "middle_east,morocco,north_africa",
+    "factionCreator": "moors",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "turks",
+    "region": "Constantinople_Province",
+    "regionName": "Marmara",
+    "settlement": "Constantinople",
+    "settlementName": "Constantinople",
+    "resources": "ottoman,greece",
+    "factionCreator": "turks",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "turks",
+    "region": "Anatolie_Province",
+    "regionName": "Central Anatolia",
+    "settlement": "Konia",
+    "settlementName": "Kayseri",
+    "resources": "middle_east,ottoman",
+    "factionCreator": "turks",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "turks",
+    "region": "Sofia_Province",
+    "regionName": "Bulgaria",
+    "settlement": "Sofia",
+    "settlementName": "Sofia",
+    "resources": "ottoman,bulgaria",
+    "factionCreator": "mongols",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "turks",
+    "region": "Yemen_Province",
+    "regionName": "Yemen",
+    "settlement": "Yemen",
+    "settlementName": "Sana'a",
+    "resources": "middle_east,arab",
+    "factionCreator": "turks",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "turks",
+    "region": "Smyrna_Province",
+    "regionName": "Aegean",
+    "settlement": "Smyrna",
+    "settlementName": "Smyrna",
+    "resources": "middle_east,ottoman",
+    "factionCreator": "turks",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "turks",
+    "region": "Trebizond_Province",
+    "regionName": "Black Sea Coast",
+    "settlement": "Trebizond",
+    "settlementName": "Trebizond",
+    "resources": "middle_east,ottoman",
+    "factionCreator": "turks",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "turks",
+    "region": "Antioch_Province",
+    "regionName": "Syria",
+    "settlement": "Antioch",
+    "settlementName": "Aleppo",
+    "resources": "middle_east,arab,ottoman",
+    "factionCreator": "turks",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "turks",
+    "region": "Yerevan_Province",
+    "regionName": "Kurdistan",
+    "settlement": "Manzikirt",
+    "settlementName": "Van",
+    "resources": "middle_east,arab,ottoman,armenia",
+    "factionCreator": "turks",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "turks",
+    "region": "Thessalonica_Province",
+    "regionName": "Macedonia",
+    "settlement": "Thessalonica",
+    "settlementName": "Thessaloniki",
+    "resources": "ottoman,greece,bulgaria",
+    "factionCreator": "mongols",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "turks",
+    "region": "Damascus_Province",
+    "regionName": "Levant",
+    "settlement": "Damascus",
+    "settlementName": "Damascus",
+    "resources": "middle_east,arab,ottoman",
+    "factionCreator": "golden",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "turks",
+    "region": "Tripolitaine_Province",
+    "regionName": "Tripolitania",
+    "settlement": "Tripoli",
+    "settlementName": "Tripoli",
+    "resources": "middle_east,arab,north_africa",
+    "factionCreator": "moors",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "turks",
+    "region": "Baghdad_Province",
+    "regionName": "Mesopotamia",
+    "settlement": "Baghdad",
+    "settlementName": "Baghdad",
+    "resources": "middle_east,arab,ottoman",
+    "factionCreator": "golden",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "egypt",
+    "region": "Ajan_Province",
+    "regionName": "Khorasan",
+    "settlement": "Teheran",
+    "settlementName": "Tehran",
+    "resources": "persia,middle_east",
+    "factionCreator": "egypt",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "egypt",
+    "region": "Tabriz_Province",
+    "regionName": "Azerbaijan",
+    "settlement": "Tabriz",
+    "settlementName": "Tabriz",
+    "resources": "persia,georgia",
+    "factionCreator": "egypt",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "egypt",
+    "region": "Kerman_Province",
+    "regionName": "Kerman",
+    "settlement": "Kerman",
+    "settlementName": "Bandar Abbas",
+    "resources": "persia,middle_east",
+    "factionCreator": "egypt",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "egypt",
+    "region": "Fais_Province",
+    "regionName": "Isfahan",
+    "settlement": "Esfahan",
+    "settlementName": "Isfahan",
+    "resources": "persia,middle_east",
+    "factionCreator": "egypt",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "lith",
+    "region": "Mozambique_Province",
+    "regionName": "Mozambique",
+    "settlement": "Angoche",
+    "settlementName": "Ulundi",
+    "resources": "sub_sahara,zululand,south_africa",
+    "factionCreator": "spain",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "cuman",
+    "region": "Tashkent_Province",
+    "regionName": "Ferghana",
+    "settlement": "Tashkent",
+    "settlementName": "Tashkent",
+    "resources": "steppe,kokand,russia",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "cuman",
+    "region": "Astana_Province",
+    "regionName": "Syr Darya",
+    "settlement": "Astana",
+    "settlementName": "Aulie-Ata",
+    "resources": "steppe,kokand,russia",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "golden",
+    "region": "Qatar_Province",
+    "regionName": "Oman",
+    "settlement": "Qatar",
+    "settlementName": "Muscat",
+    "resources": "middle_east,arab,muscat",
+    "factionCreator": "golden",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "golden",
+    "region": "Mombasa_Province",
+    "regionName": "Zanzibar Coast",
+    "settlement": "Mombasa",
+    "settlementName": "Zanzibar",
+    "resources": "arab,sub_sahara,muscat",
+    "factionCreator": "golden",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugal",
+    "region": "Hollande_Province",
+    "regionName": "Netherlands",
+    "settlement": "Hollande",
+    "settlementName": "Amsterdam",
+    "resources": "europe,netherlands",
+    "factionCreator": "portugal",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "portugal",
+    "region": "Java_Province",
+    "regionName": "Java",
+    "settlement": "Jakarta",
+    "settlementName": "Batavia",
+    "resources": "east_indies",
+    "factionCreator": "cru",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "portugal",
+    "region": "Iaroslavl_Province",
+    "regionName": "Celebes",
+    "settlement": "Iaroslavl",
+    "settlementName": "Makasar",
+    "resources": "east_indies",
+    "factionCreator": "cru",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "sicily",
+    "region": "Arhus_Province",
+    "regionName": "Denmark",
+    "settlement": "Arhus",
+    "settlementName": "Copenhagen",
+    "resources": "europe,denmark",
+    "factionCreator": "sicily",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Beijing_Province",
+    "regionName": "Zhili",
+    "settlement": "Beijing",
+    "settlementName": "Peking",
+    "resources": "manchuria,china",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Shen_Province",
+    "regionName": "Manchuria",
+    "settlement": "Shenyang",
+    "settlementName": "Jilin",
+    "resources": "manchuria,steppe",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Ulan_Bator_Province",
+    "regionName": "Eastern Mongolia",
+    "settlement": "Ulan_Bator",
+    "settlementName": "Bayan Tumen",
+    "resources": "mongolia,steppe",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "byzantium",
+    "region": "Xian_Province",
+    "regionName": "Shaan-Gan",
+    "settlement": "Xian",
+    "settlementName": "Xi'an",
+    "resources": "china",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Fuzhou_Province",
+    "regionName": "Min-Zhe",
+    "settlement": "Fuzhou",
+    "settlementName": "Fuzhou",
+    "resources": "china",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Kunming_Province",
+    "regionName": "Yunnan",
+    "settlement": "Kunming",
+    "settlementName": "Kunming",
+    "resources": "china",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Chengdu_Province",
+    "regionName": "Sichuan",
+    "settlement": "Chengdu",
+    "settlementName": "Chengdu",
+    "resources": "china",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Guiyang_Province",
+    "regionName": "Huguang",
+    "settlement": "Guiyang",
+    "settlementName": "Guiyang",
+    "resources": "china",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Yinchuan_Province",
+    "regionName": "Inner Mongolia",
+    "settlement": "Yinchuan",
+    "settlementName": "Lanzhou",
+    "resources": "steppe,mongolia,china",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Xining_Province",
+    "regionName": "Qinghai",
+    "settlement": "Xining",
+    "settlementName": "Xining",
+    "resources": "steppe",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "byzantium",
+    "region": "Karakorum_Province",
+    "regionName": "Outer Mongolia",
+    "settlement": "Karakorum",
+    "settlementName": "Urga",
+    "resources": "mongolia,steppe",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "byzantium",
+    "region": "Turfan_Province",
+    "regionName": "Dzungaria",
+    "settlement": "Turfan",
+    "settlementName": "Urumqi",
+    "resources": "steppe",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "byzantium",
+    "region": "Aksu_Province",
+    "regionName": "Little Bukharia",
+    "settlement": "Aksu",
+    "settlementName": "Kashgar",
+    "resources": "steppe",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "byzantium",
+    "region": "Tibet_Province",
+    "regionName": "Tibet",
+    "settlement": "Tibet",
+    "settlementName": "Lhasa",
+    "resources": "tibet",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "milan",
+    "region": "Apache_Province",
+    "regionName": "Virginia",
+    "settlement": "Apache",
+    "settlementName": "Richmond",
+    "resources": "csa,usa",
+    "factionCreator": "milan",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "milan",
+    "region": "Choctaw_Province",
+    "regionName": "Louisiana",
+    "settlement": "Choctaw",
+    "settlementName": "New Orleans",
+    "resources": "csa,usa",
+    "factionCreator": "milan",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "milan",
+    "region": "Granada_Province",
+    "regionName": "Southeast States",
+    "settlement": "Granada",
+    "settlementName": "Atlanta",
+    "resources": "csa,usa",
+    "factionCreator": "milan",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "milan",
+    "region": "Comanche_Province",
+    "regionName": "Texas",
+    "settlement": "Comanche",
+    "settlementName": "Houston",
+    "resources": "csa,usa,amerindian",
+    "factionCreator": "milan",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "milan",
+    "region": "Augustine_Province",
+    "regionName": "Florida",
+    "settlement": "Augustine",
+    "settlementName": "Savannah",
+    "resources": "csa,usa",
+    "factionCreator": "milan",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "mongols",
+    "region": "Hellenie_Province",
+    "regionName": "Greece",
+    "settlement": "Hellenie",
+    "settlementName": "Athens",
+    "resources": "greece",
+    "factionCreator": "mongols",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "cru",
+    "region": "Ayudhya_Province",
+    "regionName": "Siam",
+    "settlement": "Bangkok",
+    "settlementName": "Bangkok",
+    "resources": "siam,indochina",
+    "factionCreator": "cru",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "cru",
+    "region": "Lang_sang_Province",
+    "regionName": "Laos",
+    "settlement": "Vianga_chan",
+    "settlementName": "Luang Prabang",
+    "resources": "indochina",
+    "factionCreator": "cru",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "aztecs",
+    "region": "Rio_Plata_Province",
+    "regionName": "Argentina",
+    "settlement": "Buenos_Aires",
+    "settlementName": "Buenos Aires",
+    "resources": "s_america,argentina",
+    "factionCreator": "aztecs",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "saxons",
+    "region": "Akita_Province",
+    "regionName": "Chugoku",
+    "settlement": "Akita",
+    "settlementName": "Hagi",
+    "resources": "japan",
+    "factionCreator": "saxons",
+    "creatorDiffersFromOwner": false
+  },
+  {
+    "faction": "slave",
+    "region": "Estonie_Province",
+    "regionName": "Kyushu",
+    "settlement": "Reval",
+    "settlementName": "Kagoshima",
+    "resources": "japan",
+    "factionCreator": "saxons",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Hokkaido_Province",
+    "regionName": "Hokkaido",
+    "settlement": "Hokkaido",
+    "settlementName": "Hakodate",
+    "resources": "japan",
+    "factionCreator": "saxons",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Edo_Province",
+    "regionName": "Kanto",
+    "settlement": "Edo",
+    "settlementName": "Edo",
+    "resources": "japan",
+    "factionCreator": "saxons",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Kyoto_Province",
+    "regionName": "Southern Honshu",
+    "settlement": "Kyoto",
+    "settlementName": "Kyoto",
+    "resources": "japan",
+    "factionCreator": "saxons",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Korea_Province",
+    "regionName": "South Korea",
+    "settlement": "Korea",
+    "settlementName": "Hanseong",
+    "resources": "korea",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Roman_Province",
+    "regionName": "Central Italy",
+    "settlement": "Rome",
+    "settlementName": "Rome",
+    "resources": "europe,italy",
+    "factionCreator": "venice",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Bern_Province",
+    "regionName": "Switzerland",
+    "settlement": "Bern",
+    "settlementName": "Zurich",
+    "resources": "prussia,europe",
+    "factionCreator": "hre",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Bihar_Province",
+    "regionName": "Sumatra",
+    "settlement": "Bihar",
+    "settlementName": "Banda Aceh",
+    "resources": "east_indies",
+    "factionCreator": "bulga",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Hamburg_Province",
+    "regionName": "Hanover",
+    "settlement": "Hamburg",
+    "settlementName": "Hamburg",
+    "resources": "hanover,europe",
+    "factionCreator": "hre",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Ceyland_Province",
+    "regionName": "Somalia",
+    "settlement": "Ceyland",
+    "settlementName": "Hobyo",
+    "resources": "sub_sahara,arab,north_africa",
+    "factionCreator": "golden",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Volgograd_Province",
+    "regionName": "Guinea",
+    "settlement": "Volgograd",
+    "settlementName": "Monrovia",
+    "resources": "sub_sahara",
+    "factionCreator": "portugala",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Vijanagar_Province",
+    "regionName": "Cameroon",
+    "settlement": "Madras",
+    "settlementName": "Yaounde",
+    "resources": "sub_sahara",
+    "factionCreator": "lith",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Paraguay_Province",
+    "regionName": "Paraguay",
+    "settlement": "Asuncion",
+    "settlementName": "Asunción",
+    "resources": "s_america,paraguay",
+    "factionCreator": "aztecs",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Sao_Paulo_Province",
+    "regionName": "Uruguay",
+    "settlement": "Sao_Paulo",
+    "settlementName": "Montevideo",
+    "resources": "s_america,uruguay",
+    "factionCreator": "aztecs",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Kanem_Province",
+    "regionName": "Equatorial Africa",
+    "settlement": "Ngala",
+    "settlementName": "Faya",
+    "resources": "sub_sahara",
+    "factionCreator": "moors",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Panama_Province",
+    "regionName": "Panama",
+    "settlement": "Panama",
+    "settlementName": "Panama",
+    "resources": "s_america",
+    "factionCreator": "scotland",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Moravie_Province",
+    "regionName": "Chile",
+    "settlement": "Moravie",
+    "settlementName": "Santiago",
+    "resources": "s_america",
+    "factionCreator": "aztecs",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Cuzco_Province",
+    "regionName": "Atacama",
+    "settlement": "Antofagasta",
+    "settlementName": "Antofagasta",
+    "resources": "s_america",
+    "factionCreator": "aztecs",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Bolivia_Province",
+    "regionName": "Bolivia",
+    "settlement": "Lapaz",
+    "settlementName": "La Paz",
+    "resources": "s_america",
+    "factionCreator": "denmark",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Bolgar_Province",
+    "regionName": "Central America",
+    "settlement": "Bolgar",
+    "settlementName": "Guatemala",
+    "resources": "s_america",
+    "factionCreator": "scotland",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Domrep_Province",
+    "regionName": "Hispaniola",
+    "settlement": "Sandom",
+    "settlementName": "Santo Domingo",
+    "resources": "cuba,s_america",
+    "factionCreator": "spain",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Zhengzhou_Province",
+    "regionName": "Angola",
+    "settlement": "Zhengzhou",
+    "settlementName": "Luanda",
+    "resources": "sub_sahara",
+    "factionCreator": "spain",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Hankou_Province",
+    "regionName": "Interior South Africa",
+    "settlement": "Hankou",
+    "settlementName": "Bulawayo",
+    "resources": "sub_sahara,south_africa",
+    "factionCreator": "lith",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Mali_Province",
+    "regionName": "Mali",
+    "settlement": "Tombouktou",
+    "settlementName": "Timbuktu",
+    "resources": "sub_sahara,north_africa",
+    "factionCreator": "moors",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Brann_Province",
+    "regionName": "Romania",
+    "settlement": "Brann",
+    "settlementName": "Bucharest",
+    "resources": "europe,hungary",
+    "factionCreator": "hungary",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Baviere_Province",
+    "regionName": "Bavaria",
+    "settlement": "Baviere",
+    "settlementName": "Munich",
+    "resources": "europe,bavaria",
+    "factionCreator": "hre",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Santa_Marta_Province",
+    "regionName": "Venezuela",
+    "settlement": "Santa_Marta",
+    "settlementName": "Caracas",
+    "resources": "s_america",
+    "factionCreator": "denmark",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Lisbon_Province",
+    "regionName": "Portugal",
+    "settlement": "Lisbon",
+    "settlementName": "Porto",
+    "resources": "europe",
+    "factionCreator": "spain",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Namibie_Province",
+    "regionName": "South West Africa",
+    "settlement": "Gd_Namaqualand",
+    "settlementName": "Angra Pequena",
+    "resources": "sub_sahara,south_africa",
+    "factionCreator": "lith",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Taungoo_Province",
+    "regionName": "Burma",
+    "settlement": "Taungoo",
+    "settlementName": "Mandalay",
+    "resources": "indochina,india",
+    "factionCreator": "cru",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Rio_Negro_Province",
+    "regionName": "Patagonia",
+    "settlement": "Rio_Negro",
+    "settlementName": "Bahia Blanca",
+    "resources": "s_america,argentina",
+    "factionCreator": "aztecs",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Cholula_Province",
+    "regionName": "New Granada",
+    "settlement": "Cholula",
+    "settlementName": "Bogotá",
+    "resources": "s_america",
+    "factionCreator": "denmark",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Qarshi_Province",
+    "regionName": "North Korea",
+    "settlement": "Qarshi",
+    "settlementName": "Pyongyang",
+    "resources": "korea",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Korasan_Province",
+    "regionName": "Transcaspian",
+    "settlement": "Korasan",
+    "settlementName": "Merv",
+    "resources": "steppe,kokand,russia",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Khwarzam_Province",
+    "regionName": "Khiva",
+    "settlement": "Urgentch",
+    "settlementName": "Khiva",
+    "resources": "steppe,kokand,russia",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Kongo_Province",
+    "regionName": "Nigeria",
+    "settlement": "M_Banza_Kongo",
+    "settlementName": "Suleja",
+    "resources": "sub_sahara",
+    "factionCreator": "lith",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Afrique_Centrale_Province",
+    "regionName": "Congo",
+    "settlement": "Kampala",
+    "settlementName": "Leopoldville",
+    "resources": "sub_sahara",
+    "factionCreator": "portugal",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Madagascar_Province",
+    "regionName": "Madagascar",
+    "settlement": "Mahajanga",
+    "settlementName": "Mahajanga",
+    "resources": "sub_sahara",
+    "factionCreator": "lith",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Arabie_Province",
+    "regionName": "Nejd",
+    "settlement": "Arabie",
+    "settlementName": "Riyadh",
+    "resources": "middle_east,arab",
+    "factionCreator": "golden",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Vietnam_Province",
+    "regionName": "North Vietnam",
+    "settlement": "Ha_noi",
+    "settlementName": "Hanoi",
+    "resources": "indochina",
+    "factionCreator": "cru",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Cambodia_Province",
+    "regionName": "Cambodia",
+    "settlement": "Angkor",
+    "settlementName": "Phnom Penh",
+    "resources": "indochina",
+    "factionCreator": "cru",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Brunei_Province",
+    "regionName": "Sarawak",
+    "settlement": "Sarawak",
+    "settlementName": "Kuching",
+    "resources": "east_indies",
+    "factionCreator": "cru",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Papua_Province",
+    "regionName": "New Guinea",
+    "settlement": "Jayapura",
+    "settlementName": "Port Moresby",
+    "resources": "east_indies,anzac",
+    "factionCreator": "england",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Herat_Province",
+    "regionName": "Herat",
+    "settlement": "Herat",
+    "settlementName": "Herat",
+    "resources": "afghanistan",
+    "factionCreator": "timurids",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Nanjing_Province",
+    "regionName": "Liangjiang",
+    "settlement": "Nanjing",
+    "settlementName": "Nanking",
+    "resources": "china",
+    "factionCreator": "byzantium",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Caire_Province",
+    "regionName": "Egypt",
+    "settlement": "Caire",
+    "settlementName": "Cairo",
+    "resources": "middle_east,arab,north_africa,egypt",
+    "factionCreator": "golden",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Sudan_Province",
+    "regionName": "Sudan",
+    "settlement": "Khartoum",
+    "settlementName": "Khartoum",
+    "resources": "arab,sub_sahara",
+    "factionCreator": "golden",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Mecca_Province",
+    "regionName": "Hejaz",
+    "settlement": "Mecca",
+    "settlementName": "Mecca",
+    "resources": "middle_east,arab",
+    "factionCreator": "golden",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Mesie_Province",
+    "regionName": "Illyria",
+    "settlement": "Belgrad",
+    "settlementName": "Belgrade",
+    "resources": "albania",
+    "factionCreator": "hungary",
+    "creatorDiffersFromOwner": true
+  },
+  {
+    "faction": "slave",
+    "region": "Bukhara_Province",
+    "regionName": "Bukhara",
+    "settlement": "Bukhara",
+    "settlementName": "Bukhara",
+    "resources": "steppe,russia",
+    "factionCreator": "cuman",
+    "creatorDiffersFromOwner": true
+  }
+]
