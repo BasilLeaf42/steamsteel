@@ -2896,13 +2896,6 @@
     <region>siege_equip_ladder</region>
   </UI region>
 </UI object>
-<UI object>siege_equip_ram
-  <type>art</type>
-  <UI region>art
-    <page>textures\FE_texture4.tga</page>
-    <region>siege_equip_ram</region>
-  </UI region>
-</UI object>
 <UI object>siege_equip_sapping
   <type>art</type>
   <UI region>art
@@ -3646,25 +3639,6 @@
   <UI region>checked
     <page>_M2_Buttons1.tga</page>
     <region>M2_Status_green</region>
-  </UI region>
-</UI object>
-<UI object>Siege_Ram
-  <type>toggle_button</type>
-  <UI region>enabled
-    <page>_M2_Buttons1.tga</page>
-    <region>M2_Siege_Ram_Off</region>
-  </UI region>
-  <UI region>highlighted
-    <page>_M2_Buttons1.tga</page>
-    <region>M2_Siege_Ram_Off</region>
-  </UI region>
-  <UI region>selected
-    <page>_M2_Buttons1.tga</page>
-    <region>M2_Siege_Ram_On</region>
-  </UI region>
-  <UI region>checked
-    <page>_M2_Buttons1.tga</page>
-    <region>M2_Siege_Ram_On</region>
   </UI region>
 </UI object>
 <UI object>Siege_Tower
@@ -17516,19 +17490,6 @@
       <object_data></object_data>
       <object_id>arrow_large_left</object_id>
     </UI piece>
-    <UI piece>arrow_large_left_ram
-      <identifier>UIP_ARMY_RAMS_DEC</identifier>
-      <Parameters>
-        <x>21</x>
-        <y>546</y>
-        <width>14</width>
-        <height>30</height>
-        <tool_tip_id>UI_CUSTOM_RAMS_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>arrow_large_left</object_id>
-    </UI piece>
     <UI piece>arrow_large_right_ladder
       <identifier>UIP_ARMY_LADDERS_INC</identifier>
       <Parameters>
@@ -17555,19 +17516,6 @@
       <object_data></object_data>
       <object_id>arrow_large_right</object_id>
     </UI piece>
-    <UI piece>arrow_large_right_ram
-      <identifier>UIP_ARMY_RAMS_INC</identifier>
-      <Parameters>
-        <x>70</x>
-        <y>546</y>
-        <width>14</width>
-        <height>30</height>
-        <tool_tip_id>UI_CUSTOM_RAMS_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>arrow_large_right</object_id>
-    </UI piece>
     <UI piece>ladder_indicator
       <identifier>UIP_ARMY_LADDERS_INDICATOR</identifier>
       <Parameters>
@@ -17589,19 +17537,6 @@
         <width>22</width>
         <height>31</height>
         <tool_tip_id>UI_CUSTOM_TOWERS_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>ram_indicator
-      <identifier>UIP_ARMY_RAMS_INDICATOR</identifier>
-      <Parameters>
-        <x>41</x>
-        <y>546</y>
-        <width>22</width>
-        <height>31</height>
-        <tool_tip_id>UI_CUSTOM_RAMS_TOOLTIP</tool_tip_id>
         <locked>false</locked>
       </Parameters>
       <object_data></object_data>
@@ -18075,18 +18010,6 @@
       <object_data></object_data>
       <object_id>_M2_CustBatChooseTroopsPANELS</object_id>
     </UI piece>
-    <UI piece>_M2_Cust_Bat_Siege_PANELS
-      <identifier>UIP_SIEGE_PANEL</identifier>
-      <Parameters>
-        <x>18</x>
-        <y>503</y>
-        <width>202</width>
-        <height>70</height>
-        <locked>true</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>_M2_MP_Cust_Bat_Siege_PANELS</object_id>
-    </UI piece>
     <UI piece>unit_cost
       <identifier>UIP_ARMY_UNIT_NAME</identifier>
       <Parameters>
@@ -18487,19 +18410,6 @@
       <object_data></object_data>
       <object_id>arrow_large_left</object_id>
     </UI piece>
-    <UI piece>arrow_large_left_ram
-      <identifier>UIP_ARMY_RAMS_DEC</identifier>
-      <Parameters>
-        <x>21</x>
-        <y>546</y>
-        <width>14</width>
-        <height>30</height>
-        <tool_tip_id>UI_CUSTOM_RAMS_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>arrow_large_left</object_id>
-    </UI piece>
     <UI piece>arrow_large_right_ladder
       <identifier>UIP_ARMY_LADDERS_INC</identifier>
       <Parameters>
@@ -18521,19 +18431,6 @@
         <width>14</width>
         <height>30</height>
         <tool_tip_id>UI_CUSTOM_TOWERS_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>arrow_large_right</object_id>
-    </UI piece>
-    <UI piece>arrow_large_right_ram
-      <identifier>UIP_ARMY_RAMS_INC</identifier>
-      <Parameters>
-        <x>70</x>
-        <y>546</y>
-        <width>14</width>
-        <height>30</height>
-        <tool_tip_id>UI_CUSTOM_RAMS_TOOLTIP</tool_tip_id>
         <locked>false</locked>
       </Parameters>
       <object_data></object_data>
@@ -18568,23 +18465,6 @@
           <align>centre</align>
         </UI text>
         <tool_tip_id>UI_CUSTOM_TOWERS_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>ram_indicator
-      <identifier>UIP_ARMY_RAMS_INDICATOR</identifier>
-      <Parameters>
-        <x>41</x>
-        <y>546</y>
-        <width>22</width>
-        <height>31</height>
-        <UI text>UI__DUMMY_TEXT
-          <font_id>verdana_sml</font_id>
-          <align>centre</align>
-        </UI text>
-        <tool_tip_id>UI_CUSTOM_RAMS_TOOLTIP</tool_tip_id>
         <locked>false</locked>
       </Parameters>
       <object_data></object_data>
@@ -18953,18 +18833,6 @@
       </Parameters>
       <object_data></object_data>
       <object_id>Siege_Ladder</object_id>
-    </UI piece>
-    <UI piece>Siege_Ram
-      <identifier>UIP_SIEGE_RAM</identifier>
-      <Parameters>
-        <x>34</x>
-        <y>508</y>
-        <width>36</width>
-        <height>37</height>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>Siege_Ram</object_id>
     </UI piece>
     <UI piece>Siege_Tower
       <identifier>UIP_SIEGE_TOWER</identifier>

@@ -93,7 +93,7 @@ shot_pfx_front		cannon_shot_huge_muzzle_flash_set
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 type				armstrong
 culture				all
-class				serpentine
+class				basilisk
 pathfinding_data		none
 reference_points		siege_engines/siege_serpentine.modelReferencePoints
 
@@ -2505,4 +2505,3 @@ engine_health		10
 ;attack_stat_attr    no
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
