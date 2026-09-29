@@ -3968,9 +3968,9 @@ officer          usa_standard_bearer
 attributes       free_upkeep_unit, sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         37, 0, buck_ball, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         10, 0, buck_ball, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
-stat_sec         2, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    no
 stat_pri_armour  3, 2, 0, leather
 stat_sec_armour  0, 0, flesh
