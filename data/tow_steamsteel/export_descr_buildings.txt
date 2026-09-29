@@ -659,6 +659,7 @@ building barracks
 	recruit_pool "uni_indian_scout_cavalry"  1   .01   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 ;union standardized replenishment
 	recruit_pool "uni_state_volunteers_early"  .6   .06   .99  0  requires factions { portugala, } and not event_counter military_reforms_1875 1
+	recruit_pool "us_inf"  .4   .04   .99  0  requires factions { portugala, } and not event_counter military_reforms_1875 1
 	recruit_pool "uni_regulars_mid"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_regulars_high"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_2 1
 	recruit_pool "uni_national_guard_mid"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_1890 1
@@ -830,16 +831,17 @@ building barracks
 	recruit_pool "fra_spahis_high"  .2   .02   .99  0  requires factions { france, } and event_counter military_reforms_1875 1
 	recruit_pool "pru_pioniere_early"  .2   .02   .99  0  requires factions { hre, } and not event_counter military_reforms_1870 1
 	recruit_pool "pru_dragoner_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
-	recruit_pool "pru_wuerttemberg_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
+	recruit_pool "pru_wuerttemberg_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
+	recruit_pool "pru_hannover_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
 	recruit_pool "pru_sturmpioniere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "pru_sturmtruppen_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
+	recruit_pool "pru_sturmtruppen_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_2 1
 	recruit_pool "pru_jaeger_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_fusiliere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "pru_bavarian_fusiliere_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_landwehr_mid"  1   .01   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_landwehr_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
+	recruit_pool "pru_bavarian_fusiliere_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_landwehr_mid"  1   .01   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_landwehr_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
 	recruit_pool "pru_husaren"  .2   .02   .99  0  requires factions { hre, }
 	recruit_pool "pru_kuerassiere"  .2   .02   .99  0  requires factions { hre, }
 	recruit_pool "pru_fusiliere_early"  .6   .06   .99  0  requires factions { hre, } and not event_counter military_reforms_1870 1
@@ -1243,6 +1245,7 @@ building barracks
 	recruit_pool "aby_nob_2g"  .2   .02   .99  0  requires factions { papal_states, } and event_counter military_reforms_1890 1
 	recruit_pool "aby_roy_1g"  .2   .02   .99  0  requires factions { papal_states, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Kachi"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
+	recruit_pool "Japan Ishin Shishi"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Yumitai"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Teppotai"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Seishi"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
@@ -1495,6 +1498,7 @@ building barracks
 ;confederate standardized replenishment
 ;union standardized normal recruitment
 	recruit_pool "uni_state_volunteers_early"  1   .09   1  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1875 1
+	recruit_pool "us_inf"  1   .06   1  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1875 1
 	recruit_pool "uni_regulars_mid"  1   .06   1  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_regulars_high"  1   .06   1  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_2 1
 	recruit_pool "uni_national_guard_mid"  1   .06   1  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1875 1 and not event_counter military_reforms_1890 1
@@ -1511,6 +1515,7 @@ building barracks
 	recruit_pool "uni_indian_scout_cavalry"  1   .03   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 ;union standardized replenishment
 	recruit_pool "uni_state_volunteers_early"  .6   .06   .99  0  requires factions { portugala, } and not event_counter military_reforms_1875 1
+	recruit_pool "us_inf"  .4   .04   .99  0  requires factions { portugala, } and not event_counter military_reforms_1875 1
 	recruit_pool "uni_regulars_mid"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_regulars_high"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_2 1
 	recruit_pool "uni_national_guard_mid"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_1890 1
@@ -1772,10 +1777,12 @@ building barracks
 	recruit_pool "pru_dragoner_mid"  1   .03   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_dragoner_mid"  1   .03   1  0  requires factions { hre, } and hidden_resource settler and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_dragoner_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
-	recruit_pool "pru_wuerttemberg_mid"  1   .03   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_wuerttemberg_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
+	recruit_pool "pru_wuerttemberg_mid"  1   .03   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_wuerttemberg_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
+	recruit_pool "pru_hannover_mid"  1   .03   1  0  requires factions { hre, hungary, } and hidden_resource hanover and event_counter military_reforms_1865 1
+	recruit_pool "pru_hannover_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
 	recruit_pool "pru_sturmpioniere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "pru_sturmtruppen_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
+	recruit_pool "pru_sturmtruppen_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_2 1
 	recruit_pool "pru_jaeger_mid"  1   .03   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_jaeger_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
@@ -1783,10 +1790,10 @@ building barracks
 	recruit_pool "pru_fusiliere_high"  1   .03   1  0  requires factions { hre, } and hidden_resource settler and event_counter military_reforms_1890 1
 	recruit_pool "pru_fusiliere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "pru_bavarian_fusiliere_mid"  1   .03   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_fusiliere_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_landwehr_mid"  1   .03   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_landwehr_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
+	recruit_pool "pru_bavarian_fusiliere_mid"  1   .03   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_fusiliere_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_landwehr_mid"  1   .03   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_landwehr_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
 	recruit_pool "pru_husaren"  1   .03   1  0  requires factions { hre, } and hidden_resource prussia
 	recruit_pool "pru_husaren"  .2   .02   .99  0  requires factions { hre, }
 	recruit_pool "pru_kuerassiere"  .2   .02   .99  0  requires factions { hre, }
@@ -2445,6 +2452,8 @@ building barracks
 	recruit_pool "aby_roy_1g"  .2   .02   .99  0  requires factions { papal_states, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Kachi"  1   .03   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Kachi"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
+	recruit_pool "Japan Ishin Shishi"  1   .03   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
+	recruit_pool "Japan Ishin Shishi"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Yumitai"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Teppotai"  1   .03   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Teppotai"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
@@ -2737,6 +2746,7 @@ building barracks
 ;confederate standardized replenishment
 ;union standardized normal recruitment
 	recruit_pool "uni_state_volunteers_early"  2   .18   2  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1875 1
+	recruit_pool "us_inf"  2   .12   2  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1875 1
 	recruit_pool "uni_regulars_mid"  2   .12   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_regulars_high"  2   .12   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_2 1
 	recruit_pool "uni_national_guard_mid"  2   .12   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1875 1 and not event_counter military_reforms_1890 1
@@ -2753,6 +2763,7 @@ building barracks
 	recruit_pool "uni_indian_scout_cavalry"  1   .06   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 ;union standardized replenishment
 	recruit_pool "uni_state_volunteers_early"  .6   .06   .99  0  requires factions { portugala, } and not event_counter military_reforms_1875 1
+	recruit_pool "us_inf"  .4   .04   .99  0  requires factions { portugala, } and not event_counter military_reforms_1875 1
 	recruit_pool "uni_regulars_mid"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_regulars_high"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_2 1
 	recruit_pool "uni_national_guard_mid"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_1890 1
@@ -3031,12 +3042,14 @@ building barracks
 	recruit_pool "pru_dragoner_mid"  1   .06   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_dragoner_mid"  1   .06   1  0  requires factions { hre, } and hidden_resource settler and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_dragoner_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
-	recruit_pool "pru_wuerttemberg_mid"  1   .06   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_wuerttemberg_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
+	recruit_pool "pru_wuerttemberg_mid"  1   .06   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_wuerttemberg_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
+	recruit_pool "pru_hannover_mid"  1   .06   1  0  requires factions { hre, hungary, } and hidden_resource hanover and event_counter military_reforms_1865 1
+	recruit_pool "pru_hannover_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
 	recruit_pool "pru_sturmpioniere_high"  1   .06   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
 	recruit_pool "pru_sturmpioniere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "pru_sturmtruppen_high"  1   .06   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
-	recruit_pool "pru_sturmtruppen_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
+	recruit_pool "pru_sturmtruppen_high"  1   .06   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_2 1
+	recruit_pool "pru_sturmtruppen_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_2 1
 	recruit_pool "pru_jaeger_mid"  1   .06   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_jaeger_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_mid"  1   .06   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
@@ -3046,10 +3059,10 @@ building barracks
 	recruit_pool "pru_fusiliere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_high"  1   .06   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "pru_bavarian_fusiliere_mid"  1   .06   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_fusiliere_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_landwehr_mid"  1   .06   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_landwehr_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
+	recruit_pool "pru_bavarian_fusiliere_mid"  1   .06   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_fusiliere_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_landwehr_mid"  1   .06   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_landwehr_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
 	recruit_pool "pru_husaren"  1   .06   1  0  requires factions { hre, } and hidden_resource prussia
 	recruit_pool "pru_husaren"  .2   .02   .99  0  requires factions { hre, }
 	recruit_pool "pru_kuerassiere"  1   .06   1  0  requires factions { hre, } and hidden_resource prussia
@@ -3778,6 +3791,8 @@ building barracks
 	recruit_pool "aby_roy_1g"  .2   .02   .99  0  requires factions { papal_states, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Kachi"  1   .06   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Kachi"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
+	recruit_pool "Japan Ishin Shishi"  1   .06   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
+	recruit_pool "Japan Ishin Shishi"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Yumitai"  1   .06   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Yumitai"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Teppotai"  1   .06   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
@@ -4099,6 +4114,7 @@ building barracks
 ;confederate standardized replenishment
 ;union standardized normal recruitment
 	recruit_pool "uni_state_volunteers_early"  3   .3   3  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1875 1
+	recruit_pool "us_inf"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1875 1
 	recruit_pool "uni_regulars_mid"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_regulars_high"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_2 1
 	recruit_pool "uni_national_guard_mid"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1875 1 and not event_counter military_reforms_1890 1
@@ -4115,6 +4131,7 @@ building barracks
 	recruit_pool "uni_indian_scout_cavalry"  1   .1   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 ;union standardized replenishment
 	recruit_pool "uni_state_volunteers_early"  .6   .06   .99  0  requires factions { portugala, } and not event_counter military_reforms_1875 1
+	recruit_pool "us_inf"  .4   .04   .99  0  requires factions { portugala, } and not event_counter military_reforms_1875 1
 	recruit_pool "uni_regulars_mid"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_regulars_high"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_2 1
 	recruit_pool "uni_national_guard_mid"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_1890 1
@@ -4393,12 +4410,14 @@ building barracks
 	recruit_pool "pru_dragoner_mid"  1   .1   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_dragoner_mid"  1   .1   1  0  requires factions { hre, } and hidden_resource settler and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_dragoner_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
-	recruit_pool "pru_wuerttemberg_mid"  1   .1   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_wuerttemberg_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
+	recruit_pool "pru_wuerttemberg_mid"  1   .1   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_wuerttemberg_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
+	recruit_pool "pru_hannover_mid"  1   .1   1  0  requires factions { hre, hungary, } and hidden_resource hanover and event_counter military_reforms_1865 1
+	recruit_pool "pru_hannover_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
 	recruit_pool "pru_sturmpioniere_high"  1   .1   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
 	recruit_pool "pru_sturmpioniere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "pru_sturmtruppen_high"  1   .1   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
-	recruit_pool "pru_sturmtruppen_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
+	recruit_pool "pru_sturmtruppen_high"  1   .1   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_2 1
+	recruit_pool "pru_sturmtruppen_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_2 1
 	recruit_pool "pru_jaeger_mid"  1   .1   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_jaeger_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_mid"  1   .1   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
@@ -4408,10 +4427,10 @@ building barracks
 	recruit_pool "pru_fusiliere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_high"  1   .1   1  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
 	recruit_pool "pru_gardegrenadiere_high"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "pru_bavarian_fusiliere_mid"  1   .1   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_fusiliere_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_landwehr_mid"  1   .1   1  0  requires factions { hre, } and hidden_resource bavaria and event_counter military_reforms_1870 1
-	recruit_pool "pru_bavarian_landwehr_mid"  .2   .02   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
+	recruit_pool "pru_bavarian_fusiliere_mid"  1   .1   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_fusiliere_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_landwehr_mid"  1   .1   1  0  requires factions { hre, hungary, } and hidden_resource bavaria and event_counter military_reforms_1865 1
+	recruit_pool "pru_bavarian_landwehr_mid"  .2   .02   .99  0  requires factions { hre, hungary, } and event_counter military_reforms_1865 1
 	recruit_pool "pru_husaren"  1   .1   1  0  requires factions { hre, } and hidden_resource prussia
 	recruit_pool "pru_husaren"  .2   .02   .99  0  requires factions { hre, }
 	recruit_pool "pru_kuerassiere"  1   .1   1  0  requires factions { hre, } and hidden_resource prussia
@@ -5140,6 +5159,8 @@ building barracks
 	recruit_pool "aby_roy_1g"  .2   .02   .99  0  requires factions { papal_states, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Kachi"  1   .1   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Kachi"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
+	recruit_pool "Japan Ishin Shishi"  1   .1   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
+	recruit_pool "Japan Ishin Shishi"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Yumitai"  1   .1   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Yumitai"  .2   .02   .99  0  requires factions { saxons, } and not event_counter military_reforms_1890 1
 	recruit_pool "Japan Teppotai"  1   .1   1  0  requires factions { saxons, } and hidden_resource japan and not event_counter military_reforms_1890 1
@@ -11020,7 +11041,6 @@ building russian_embassy_guild
         {
             capability
             {
-                recruit_pool "russ_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -11119,7 +11139,6 @@ building italian_embassy_guild
         {
             capability
             {
-                recruit_pool "it_bers"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -11159,7 +11178,6 @@ building spanish_embassy_guild
         {
             capability
             {
-                recruit_pool "spa_inf_early"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -11199,7 +11217,6 @@ building british_embassy_guild
         {
             capability
             {
-                recruit_pool "uk_imperial_foot_mid"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -11239,7 +11256,6 @@ building confederate_embassy_guild
         {
             capability
             {
-                recruit_pool "csa_militia"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -11279,7 +11295,6 @@ building american_embassy_guild
         {
             capability
             {
-                recruit_pool "us_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -11319,7 +11334,6 @@ building french_embassy_guild
         {
             capability
             {
-                recruit_pool "fra_garde_mobile_early"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -11359,7 +11373,6 @@ building ottoman_embassy_guild
         {
             capability
             {
-                recruit_pool "otto_jan_inf"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 
@@ -11399,7 +11412,6 @@ building prussian_embassy_guild
         {
             capability
             {
-                recruit_pool "pru_fusiliere_high"  1   0.03   1  1  requires factions { all, }
             }
             material wooden
             construction  1 

@@ -28,9 +28,9 @@
     </settlements>
   </deployment>
     <melee-manager>
-		<prioritise-missile-attack>1</prioritise-missile-attack>
-		<!-- multiplies the units charge value in the EDU, applies to an attack run (cavalry for example) and frequency/distance routers get chased -->
-        <attack-dist-multiplier>10.0</attack-dist-multiplier>
+		<prioritise-missile-attack>0</prioritise-missile-attack>
+		<!-- Keep attack-task pursuit short: the army should approach in formation, then fight where contact occurs. -->
+        <attack-dist-multiplier>1.5</attack-dist-multiplier>
 		<missile>
         <attack-dist-multiplier>1.0</attack-dist-multiplier>
 		</missile>
@@ -75,7 +75,8 @@
 				<approach-time>5</approach-time>
 			</support-armies>
 			<cavalry>
-				<prioritise-outflanking>1</prioritise-outflanking>
+				<!-- Cavalry begins as a reserve instead of immediately abandoning the battle line. -->
+				<prioritise-outflanking>0</prioritise-outflanking>
 			</cavalry>
 			<missile>
 				<prioritise-out-of-combat>0</prioritise-out-of-combat>
@@ -218,8 +219,8 @@
 		<melee-analyser>
 		<!-- Adjusts how much importance is placed on the enemy unit's melee strength when deciding to attack -->
 				<melee-strength-base-priority-modifier>0.0025</melee-strength-base-priority-modifier>
-				<prioritise-missile-attack>1</prioritise-missile-attack>
-				<prioritise-attack-direction>1</prioritise-attack-direction>
+				<prioritise-missile-attack>0</prioritise-missile-attack>
+				<prioritise-attack-direction>0</prioritise-attack-direction>
                 <attack-direction>
                     <!-- amount of benefit the strength ratio yields -->
                     <strength-contribution>10.0</strength-contribution>
@@ -254,7 +255,7 @@
                 </attack-direction>
             <plan>
                 <consider-missile>1</consider-missile>
-                <consider-cavalry>1</consider-cavalry>
+                <consider-cavalry>0</consider-cavalry>
                 <missile-cavalry>0</missile-cavalry>
             </plan>
 		<open>
@@ -282,8 +283,8 @@
                     <threat-per-unit>25</threat-per-unit>
             </resourcing>
 			<cavalry>
-				<prioritise-double-envelopment>2</prioritise-double-envelopment>
-				<prioritise-outflanking>1</prioritise-outflanking>
+				<prioritise-double-envelopment>0</prioritise-double-envelopment>
+				<prioritise-outflanking>0</prioritise-outflanking>
 				<prioritise-combat>0</prioritise-combat>
 			</cavalry>
 			<missile>
@@ -410,25 +411,27 @@
         <enemy-far-dist>600.0</enemy-far-dist>
         <enemy-near-dist>240.0</enemy-near-dist>
 
-        <unit-group-merge-dist>999999.0</unit-group-merge-dist>
+        <!-- Documented M2 battlegroup bounds: prevent battlefield-wide merging while retaining coherent groups. -->
+        <unit-group-merge-dist>40.0</unit-group-merge-dist>
         <unit-group-speed-tolerance>0.5</unit-group-speed-tolerance>
-        <unit-group-strength-tolerance>999999</unit-group-strength-tolerance>
+        <unit-group-strength-tolerance>200</unit-group-strength-tolerance>
 
-        <!-- merge own units with a greater tolerance -->
-        <local-group-merge-dist>999999.0</local-group-merge-dist>
+        <!-- Local consolidation remains more permissive than army-wide group merging. -->
+        <local-group-merge-dist>180.0</local-group-merge-dist>
                 
         <common-tactics>
                 <!-- engage state - will hold position and fight the enemy -->
                 <engage>
 					<!-- used to prevent infantry disengaging without a clear objective -->
-					<priority>400</priority>
+					<!-- Once contact is made, hold the formed position instead of issuing fresh attack orders. -->
+					<priority>5000</priority>
 		            <state-criteria>
 						<infantry>
 							<!-- engage if the percentage of soldiers in the unit in combat is above this -->
 							<combat-percentage>0.01</combat-percentage>
 								
                 			<!-- engage if the enemy is within this distance - in metres squared -->
-                			<nearest-enemy>500.0</nearest-enemy>
+							<nearest-enemy>900.0</nearest-enemy>
 						</infantry>
 	                </state-criteria>
                 </engage>
@@ -454,7 +457,8 @@
             <strength-ratio>0.66</strength-ratio>
 			<open>
 				<cavalry>
-					<priority>100000</priority>
+					<!-- Low reserve-release priority; cavalry may still react when the situation demands it. -->
+					<priority>200</priority>
 				</cavalry>
 				<melee-infantry>
 					<priority>0</priority>

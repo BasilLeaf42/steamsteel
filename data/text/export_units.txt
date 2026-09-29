@@ -689,7 +689,7 @@
 
 {fra_guard}Sapeurs
 {fra_guard_descr}The Sapeurs are elite French combat engineers trained to overcome fortifications and lead assaults against heavily defended positions. Equipped with grenades, engineering tools, and modern rifles, they clear obstacles while supporting the advance of the main army. Their courage and technical expertise make them invaluable during siege warfare and urban combat. They stand among France's finest specialist troops.
-{fra_guard_descr_short}Sapeurs (Rifle, Fusil Modèle 1874 Gras)
+{fra_guard_descr_short}Sapeurs (Grenade, Grenade modèle 1847)
 
 {fra_guard_po}Imperial Guard
 {fra_guard_po_descr}The Imperial Guard represents the pinnacle of French military excellence, selected from the finest veterans of the army. Armed with Chassepot rifles, these elite soldiers combine exceptional discipline with unwavering loyalty to France. Their presence inspires nearby troops while intimidating their enemies. They remain among Europe's most prestigious military formations.
@@ -1625,7 +1625,7 @@
 
 {libya_inf}Libyan Infantry
 {libya_inf_descr}Libyan Infantry are colonial soldiers recruited from Italy's North African possessions and trained according to modern European doctrine. Equipped with Vetterli-Vitali magazine rifles, they provide dependable firepower while drawing upon their familiarity with desert warfare and harsh climates. Their endurance makes them particularly valuable during long expeditions across the Sahara and Mediterranean coast. They serve as loyal troops within Italy's expanding colonial empire.
-{libya_inf_descr_short}Libyan Infantry (Magazine Rifle, Fucile Vetterli-Vitali Mod. 1870/87)
+{libya_inf_descr_short}Libyan Infantry (Magazine Rifle, Fucile Vetterli-Vitali Mod. 1870/87), with sabres.
 
 {longboat}Longboat
 
@@ -3220,7 +3220,7 @@
 {pru_seesoldaten_high_descr}Seesoldaten serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_seesoldaten_high_descr_short}Seesoldaten (Magazine Rifle, Gewehr 98)
 
-{pru_wuerttemberg_mid}Württembergische Füsiliere (Mid)
+{pru_wuerttemberg_mid}Württembergische Füsiliere
 {pru_wuerttemberg_mid_descr}Württembergische Füsiliere serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_wuerttemberg_mid_descr_short}Württembergische Füsiliere (Rifle, Zündnadelgewehr M/65)
 
@@ -3228,7 +3228,7 @@
 {pru_wuerttemberg_high_descr}Württembergische Füsiliere serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_wuerttemberg_high_descr_short}Württembergische Füsiliere (Magazine Rifle, Gewehr 88)
 
-{pru_bavarian_fusiliere_mid}Bayerische Füsiliere (Mid)
+{pru_bavarian_fusiliere_mid}Bayerische Füsiliere
 {pru_bavarian_fusiliere_mid_descr}Bayerische Füsiliere serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_bavarian_fusiliere_mid_descr_short}Bayerische Füsiliere (Rifle, Aptiertes Gewehr M/69)
 
@@ -3236,7 +3236,7 @@
 {pru_bavarian_fusiliere_high_descr}Bayerische Füsiliere serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_bavarian_fusiliere_high_descr_short}Bayerische Füsiliere (Magazine Rifle, Gewehr 88)
 
-{pru_bavarian_landwehr_mid}Bayerische Landwehr (Mid)
+{pru_bavarian_landwehr_mid}Bayerische Landwehr
 {pru_bavarian_landwehr_mid_descr}Bayerische Landwehr serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_bavarian_landwehr_mid_descr_short}Bayerische Landwehr (Rifle, Werdergewehr M/69)
 
@@ -3244,7 +3244,7 @@
 {pru_bavarian_landwehr_high_descr}Bayerische Landwehr serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_bavarian_landwehr_high_descr_short}Bayerische Landwehr (Rifle, Gewehr M/71)
 
-{pru_hannover_mid}Hannoversche Füsiliere (Mid)
+{pru_hannover_mid}Hannoversche Füsiliere
 {pru_hannover_mid_descr}Hannoversche Füsiliere serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_hannover_mid_descr_short}Hannoversche Füsiliere (Rifle, Gewehr M/71)
 
@@ -3262,7 +3262,7 @@
 
 {pru_sturmtruppen_high}Sturmtruppen (Late)
 {pru_sturmtruppen_high_descr}Sturmtruppen serve in the German armed forces and are equipped and trained for their stated battlefield role.
-{pru_sturmtruppen_high_descr_short}Sturmtruppen (Handgranaten)
+{pru_sturmtruppen_high_descr_short}Sturmtruppen (Flamethrower, Kleinflammenwerfer)
 
 {pru_kuerassiere}Preußische Kürassiere
 {pru_kuerassiere_descr}Preußische Kürassiere serve in the German armed forces and are equipped and trained for their stated battlefield role.
@@ -3314,7 +3314,7 @@
 
 {pru_ww1_inf}Sturmtruppen (Late)
 {pru_ww1_inf_descr}Sturmtruppen serve in the German armed forces and are equipped and trained for their stated battlefield role.
-{pru_ww1_inf_descr_short}Sturmtruppen (Handgranaten)
+{pru_ww1_inf_descr_short}Sturmtruppen (Flamethrower, Kleinflammenwerfer)
 
 {bav_inf}Preußische Jäger (Mid)
 {bav_inf_descr}Preußische Jäger serve in the German armed forces and are equipped and trained for their stated battlefield role.
@@ -4069,7 +4069,7 @@
 
 {georgian_inf_russia}Georgian Militia
 {georgian_inf_russia_descr}Georgian Militia are locally raised skirmishers armed with obsolete M1844 percussion muskets. They operate in loose order and rely on concealment and mobility rather than discipline, close-combat skill, or modern rifles.
-{georgian_inf_russia_descr_short}Georgian Militia (Musket, M1844 percussion)
+{georgian_inf_russia_descr_short}Georgian Militia (Musket, M1844 percussion), with sabres.
 
 {aus_line_early}k.k. Linieninfanterie (Early)
 {aus_line_early_descr}k.k. Linieninfanterie serve as infantry of the Habsburg forces, equipped and organized for the early period.
@@ -4519,11 +4519,11 @@
 
 {ita_ascari_high}Ascari eritrei (Late)
 {ita_ascari_high_descr}Ascari eritrei serve in the Italian forces with the equipment and battlefield role appropriate to this period.
-{ita_ascari_high_descr_short}Ascari eritrei (Magazine Rifle, Fucile Vetterli-Vitali Mod. 1870/87)
+{ita_ascari_high_descr_short}Ascari eritrei (Magazine Rifle, Fucile Vetterli-Vitali Mod. 1870/87), with sabres.
 
 {ita_libici_high}Fanteria libica (Late)
 {ita_libici_high_descr}Fanteria libica serve in the Italian forces with the equipment and battlefield role appropriate to this period.
-{ita_libici_high_descr_short}Fanteria libica (Magazine Rifle, Fucile Vetterli-Vitali Mod. 1870/87)
+{ita_libici_high_descr_short}Fanteria libica (Magazine Rifle, Fucile Vetterli-Vitali Mod. 1870/87), with sabres.
 
 {ita_cavalleggeri}Cavalleggeri
 {ita_cavalleggeri_descr}Cavalleggeri serve in the Italian forces with the equipment and battlefield role appropriate to this period.
@@ -4608,7 +4608,7 @@
 
 {fra_guard_grenadiers_early}Grenadiers de la Garde impériale (Early)
 {fra_guard_grenadiers_early_descr}Elite grenadiers of Napoleon III’s Imperial Guard.
-{fra_guard_grenadiers_early_descr_short}Grenadiers de la Garde impériale (Rifle-Musket, Fusil modèle 1857)
+{fra_guard_grenadiers_early_descr_short}Grenadiers de la Garde impériale (Rifle, Carabine Treuille de Beaulieu Mle.1854)
 
 {fra_guard_grenadiers_mid}Grenadiers de la Garde impériale (Mid)
 {fra_guard_grenadiers_mid_descr}Elite grenadiers of the Imperial Guard armed with Chassepot rifles.
@@ -4631,12 +4631,12 @@
 {fra_marins_early_descr_short}Fusiliers marins (Rifle-Musket, Fusil de marine modèle 1857)
 
 {fra_marins_mid}Fusiliers marins (Mid)
-{fra_marins_mid_descr}French naval infantry armed with the metallic-cartridge Gras.
-{fra_marins_mid_descr_short}Fusiliers marins (Rifle, Fusil modèle 1874 Gras)
+{fra_marins_mid_descr}French naval infantry armed with the repeating, black-powder naval Kropatschek.
+{fra_marins_mid_descr_short}Fusiliers marins (Magazine Rifle, Fusil de marine modèle 1878 Kropatschek)
 
 {fra_marins_high}Fusiliers marins (Late)
-{fra_marins_high_descr}French naval infantry armed with the repeating naval Kropatschek.
-{fra_marins_high_descr_short}Fusiliers marins (Magazine Rifle, Fusil de marine modèle 1878 Kropatschek)
+{fra_marins_high_descr}French naval infantry armed with the smokeless-powder Lebel rifle.
+{fra_marins_high_descr_short}Fusiliers marins (Magazine Rifle, Fusil modèle 1886 Lebel)
 
 {fra_senegalais_early}Tirailleurs sénégalais (Early)
 {fra_senegalais_early_descr}Regular colonial line infantry serving France with older muzzle-loading rifles.
@@ -4756,15 +4756,15 @@
 
 {net_knil_early}Koninklijk Nederlands-Indisch Leger (Early)
 {net_knil_early_descr}Koninklijk Nederlands-Indisch Leger serve in the Dutch forces and are equipped and trained for their stated battlefield role.
-{net_knil_early_descr_short}Koninklijk Nederlands-Indisch Leger (Rifle-Musket, Pattern 1853 Enfield)
+{net_knil_early_descr_short}Koninklijk Nederlands-Indisch Leger (Rifle-Musket, Pattern 1853 Enfield), with sabres.
 
 {net_knil_mid}Koninklijk Nederlands-Indisch Leger (Mid)
 {net_knil_mid_descr}Koninklijk Nederlands-Indisch Leger serve in the Dutch forces and are equipped and trained for their stated battlefield role.
-{net_knil_mid_descr_short}Koninklijk Nederlands-Indisch Leger (Rifle, Beaumontgeweer M1873 Koloniaal)
+{net_knil_mid_descr_short}Koninklijk Nederlands-Indisch Leger (Rifle, Beaumontgeweer M1873 Koloniaal), with sabres.
 
 {net_knil_high}Koninklijk Nederlands-Indisch Leger (Late)
 {net_knil_high_descr}Koninklijk Nederlands-Indisch Leger serve in the Dutch forces and are equipped and trained for their stated battlefield role.
-{net_knil_high_descr_short}Koninklijk Nederlands-Indisch Leger (Magazine Rifle, Geweer M.95 KNIL)
+{net_knil_high_descr_short}Koninklijk Nederlands-Indisch Leger (Magazine Rifle, Geweer M.95 KNIL), with sabres.
 
 {net_dragonders}Dragonders
 {net_dragonders_descr}Dragonders serve in the Dutch forces and are equipped and trained for their stated battlefield role.
@@ -4812,7 +4812,7 @@
 
 {dutch_askari2}Koninklijk Nederlands-Indisch Leger (Early)
 {dutch_askari2_descr}Koninklijk Nederlands-Indisch Leger serve in the Dutch forces and are equipped and trained for their stated battlefield role.
-{dutch_askari2_descr_short}Koninklijk Nederlands-Indisch Leger (Rifle-Musket, Pattern 1853 Enfield)
+{dutch_askari2_descr_short}Koninklijk Nederlands-Indisch Leger (Rifle-Musket, Pattern 1853 Enfield), with sabres.
 
 {dutch_inf}Infanterie van Linie (Early)
 {dutch_inf_descr}Infanterie van Linie serve in the Dutch forces and are equipped and trained for their stated battlefield role.
@@ -4986,7 +4986,7 @@
 
 {uni_irish_brigade_early}Irish Brigade (Early)
 {uni_irish_brigade_early_descr}Irish Brigade serve in the armies of the United States.
-{uni_irish_brigade_early_descr_short}Irish Brigade (Rifle-Musket, Lorenz Model 1854)
+{uni_irish_brigade_early_descr_short}Irish Brigade (Musket, Springfield Model 1842 with buck and ball)
 
 {uni_zouaves_early}Zouave Volunteers (Early)
 {uni_zouaves_early_descr}Zouave Volunteers serve in the armies of the United States.
@@ -5071,7 +5071,7 @@
 
 {csa_sharpshooters}Confederate Sharpshooters (Early)
 {csa_sharpshooters_descr}Confederate Sharpshooters belong to the Confederacy's deliberately narrow professional establishment.
-{csa_sharpshooters_descr_short}Confederate Sharpshooters (Rifle, Sharps Model 1859)
+{csa_sharpshooters_descr_short}Confederate Sharpshooters (Rifle-Musket, Whitworth Rifle Model 1857)
 
 
 {csa_state_cavalry_early}State Cavalry (Early)

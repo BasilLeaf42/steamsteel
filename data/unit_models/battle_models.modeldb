@@ -874,7 +874,7 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+14 MTW2_Musket_SS 9 MTW2_Pike 
 1 
 21 MTW2_Arquebus_Primary 
 1 
@@ -5279,11 +5279,10 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-18 MTW2_Fast_Musket_3 11 MTW2_2H_Axe 
+13 MTW2_Sword
 1 
-19 MTW2_Musket_Primary 
-1 
-19 MTW2_2H_Axe_primary 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 8 viet_inf 
 1 1 
@@ -12860,7 +12859,7 @@
 66 unit_models/_units/japan/attachments/yamagunitai_gear_norm.texture 0 
 1 
 4 None 
-14 MTW2_Musket_SS
+20 MTW2_Fast_Arquebus_3
 16 MTW2_2HSwordsman 
 1 
 19 MTW2_Musket_Primary 
@@ -16130,7 +16129,7 @@
 64 unit_models/_units/japan/attachments/raijintai_gear_norm.texture 0 
 1 
 4 None 
-15 MTW2_Musket_SSK
+20 MTW2_Fast_Arquebus_3
 16 MTW2_2HSwordsman 
 1 
 19 MTW2_Musket_Primary 
@@ -19962,11 +19961,11 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3 
-16 MTW2_2HSwordsman 
+14 MTW2_Swordsman 
 1 
 21 MTW2_Arquebus_Primary 
 1 
-24 MTW2_2HSwordsman_Primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 14 afghan_militia 
 1 1 
@@ -31689,7 +31688,7 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
+14 MTW2_Musket_SS 9 MTW2_Pike 
 1 
 21 MTW2_Arquebus_Primary 
 1 
@@ -31946,7 +31945,7 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-14 MTW2_Musket_SS 9 MTW2_Pike 
+20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -42798,11 +42797,11 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-15 MTW2_Musket_SSK 9 MTW2_Pike 
+20 MTW2_Fast_Arquebus_3 14 MTW2_Swordsman 
 1 
 21 MTW2_Arquebus_Primary 
 1 
-17 MTW2_Pike_primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
 20 csa_virginia_cavalry 
 1 1 
@@ -48409,12 +48408,12 @@
 50 unit_models/_Units/bnw/textures/yaqi_inf_n.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 11 MTW2_2H_Axe 
+20 MTW2_Fast_Arquebus_3 14 MTW2_Swordsman 
 
 1 
 19 MTW2_Musket_Primary 
 1 
-19 MTW2_2H_Axe_primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
 19 ssk_net_knil_mid_ss 
 1 4 
@@ -48447,12 +48446,12 @@
 50 unit_models/_Units/bnw/textures/yaqi_inf_n.texture 0 
 1 
 4 None 
-14 MTW2_Musket_SS 11 MTW2_2H_Axe 
+14 MTW2_Musket_SS 14 MTW2_Swordsman 
 
 1 
 19 MTW2_Musket_Primary 
 1 
-19 MTW2_2H_Axe_primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
 21 ssk_net_knil_high_fa3 
 1 4 
@@ -48485,12 +48484,12 @@
 50 unit_models/_Units/bnw/textures/yaqi_inf_n.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 11 MTW2_2H_Axe 
+20 MTW2_Fast_Arquebus_3 14 MTW2_Swordsman 
 
 1 
 19 MTW2_Musket_Primary 
 1 
-19 MTW2_2H_Axe_primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
 18 ssk_unused_023_fa3 
 1 1 
@@ -48544,12 +48543,12 @@
 50 unit_models/_Units/bnw/textures/yaqi_inf_n.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 11 MTW2_2H_Axe 
+20 MTW2_Fast_Arquebus_3 14 MTW2_Swordsman 
 
 1 
 19 MTW2_Musket_Primary 
 1 
-19 MTW2_2H_Axe_primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
 18 ssk_nl_colonial_ss 
 1 4 
@@ -48779,12 +48778,12 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 11 MTW2_2H_Axe 
+20 MTW2_Fast_Arquebus_3 14 MTW2_Swordsman 
 
 1 
 19 MTW2_Musket_Primary 
 1 
-19 MTW2_2H_Axe_primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
 23 ssk_ita_ascari_high_fa3 
 1 4 
@@ -48810,7 +48809,7 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 16 MTW2_2HSwordsman
+20 MTW2_Fast_Arquebus_3 14 MTW2_Swordsman
 
 1 
 21 MTW2_Arquebus_Primary 
@@ -48841,7 +48840,7 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 16 MTW2_2HSwordsman
+20 MTW2_Fast_Arquebus_3 14 MTW2_Swordsman
 
 1 
 21 MTW2_Arquebus_Primary 
@@ -48903,12 +48902,12 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
-15 MTW2_Musket_SSK 9 MTW2_Pike 
+15 MTW2_Musket_SSK 14 MTW2_Swordsman 
 
 1 
 21 MTW2_Arquebus_Primary 
 1 
-17 MTW2_Pike_primary 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002
 21 ssk_arab_sailors1_fa3 
 1 4 
@@ -48934,7 +48933,7 @@
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0
 1 
 4 None 
-20 MTW2_Fast_Arquebus_3 16 MTW2_2HSwordsman
+20 MTW2_Fast_Arquebus_3 14 MTW2_Swordsman
 
 1 
 21 MTW2_Arquebus_Primary 

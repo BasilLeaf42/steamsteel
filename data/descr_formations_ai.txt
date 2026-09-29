@@ -65,26 +65,26 @@ begin_formation ai_triple_missiles_in_front
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;;; main line	
 	begin_block 0
-        max_units               8
+        max_units               12
         unit_type               missile infantry    1.0
-		default_melee_state		fire_at_will_and_defend, stakes
-        unit_density           	loose
+		default_melee_state		fire_at_will_and_defend
+        unit_density           	close
         min_unit_width			50
-        max_unit_width			70
+        max_unit_width			50
         block_formation         line
         block_relative_pos      0 0.0 0
         inter_unit_spacing      10.0
         priority                1.0
     end_block
     begin_block 1
-        max_units               12
+        max_units               8
         unit_type               missile infantry    0.8
-		default_melee_state		fire_at_will_and_defend, stakes
-        unit_density           	loose
+		default_melee_state		fire_at_will_and_defend
+        unit_density           	close
         min_unit_width			50
-        max_unit_width			70
+        max_unit_width			50
         block_formation         line
-        block_relative_pos      0 0.0 -40.0
+        block_relative_pos      0 0.0 -45.0
         inter_unit_spacing      10.0
         priority                0.5
     end_block
@@ -101,20 +101,20 @@ begin_formation ai_triple_missiles_in_front
         unit_type               spearmen infantry   0.9
         unit_type		        heavy infantry	    0.8
         unit_type		        light infantry	    0.7
-        unit_formation          square, phalanx, schiltrom
-        unit_density           	loose        
-		min_unit_width			20
-        max_unit_width			25
+        unit_formation          square
+        unit_density           	close
+		min_unit_width			50
+        max_unit_width			50
         block_formation         line
-        block_relative_pos      0 0.0 -40.0
-        inter_unit_spacing      2.0
+        block_relative_pos      0 0.0 -75.0
+        inter_unit_spacing      8.0
         priority                0.5
     end_block
     begin_dummy_block 4
         spans 0 0 
     end_dummy_block
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-    ;;; cavalry
+    ;;; cavalry reserve: held behind the infantry line until explicitly committed
 
 
     begin_block 5
@@ -124,14 +124,14 @@ begin_formation ai_triple_missiles_in_front
         unit_type               light cavalry      0.8
         unit_type               skirmish cavalry   0.7
         unit_type               missile cavalry    0.6
-		default_melee_state		fire_at_will_and_skirmish
+		default_melee_state		fire_at_will_and_defend
         unit_density            close
         min_unit_width			10
         max_unit_width			15
         block_formation         line
-        block_relative_pos      0 -40.0 -60.0
+        block_relative_pos      0 -55.0 -100.0
         inter_unit_spacing      4.0
-        priority                0.9
+        priority                0.5
     end_block
     begin_block 6
         max_units               5
@@ -140,14 +140,14 @@ begin_formation ai_triple_missiles_in_front
         unit_type               light cavalry      0.8
         unit_type               skirmish cavalry   0.7
         unit_type               missile cavalry    0.6
- 		default_melee_state		fire_at_will_and_skirmish
+		default_melee_state		fire_at_will_and_defend
         unit_density            close
         min_unit_width			10
         max_unit_width			15
         block_formation         line
-        block_relative_pos      0 40.0 -60.0
+        block_relative_pos      0 55.0 -100.0
         inter_unit_spacing      4.0
-		priority                0.9
+		priority                0.5
     end_block
  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -181,12 +181,12 @@ begin_formation ai_triple_missiles_in_front
         unit_type               any					0.1
         unit_density            close
         block_formation			column
-        block_relative_pos      7 0 -40.0
+        block_relative_pos      7 0 -50.0
         inter_unit_spacing      20.0
         priority                1.0
     end_block
 
-    main_line 1
+    main_line 0
 end_formation
 
 ;****************************************************************
