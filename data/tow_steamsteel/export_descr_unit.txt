@@ -29092,7 +29092,7 @@ stat_mental      6, normal, highly_trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 1000, 350, 100, 100, 1000, 1, 350
+stat_cost        4, 1000, 333, 100, 100, 1000, 1, 350
 armour_ug_levels 0
 armour_ug_models Japan_Yumitai
 ownership        saxons, slave
