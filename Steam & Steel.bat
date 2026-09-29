@@ -171,11 +171,13 @@ GOTO Start
 ECHO.
 ECHO Launching Steam and Steel...
 cd ..\..
-IF EXIST "M2EX.exe" (
+IF EXIST "mods\steamsteel\M2EX.exe" (
+    start "" "mods\steamsteel\M2EX.exe" --features.mod=mods/steamsteel
+) ELSE IF EXIST "M2EX.exe" (
+    ECHO WARNING: The mod-local M2EX.exe is missing; launching the shared M2EX executable instead.
     start "" "M2EX.exe" --features.mod=mods/steamsteel
 ) ELSE (
-    ECHO ERROR: Cannot find M2EX.exe.
-    ECHO This launcher expects to sit in mods\steamsteel, with M2EX.exe two folders up in the main game install directory.
+    ECHO ERROR: Cannot find the mod-local or shared M2EX.exe.
     PAUSE
 )
 GOTO End
