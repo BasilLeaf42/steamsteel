@@ -5249,38 +5249,35 @@
 19 MTW2_2H_Axe_primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 11 mahdist_inf 
-1 4 
-43 unit_models/_Units/mah/mah_inf_1g_lod0.mesh 20000 
-43 unit_models/_Units/mah/mah_inf_1g_lod0.mesh 20000 
-43 unit_models/_Units/mah/mah_inf_1g_lod0.mesh 20000 
-43 unit_models/_Units/mah/mah_inf_1g_lod0.mesh 20000 
+1 1 
+40 unit_models/bnw/muslim_warrior_lod0.mesh 20000 
 3 
-7 mongols 
-50 unit_models/_Units/mah/textures/mah_inf_1g.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
-43 unit_sprites/russia_Druzhina_ug1_sprite.spr 
+12 papal_states 
+47 unit_models/bnw/textures/muslim_warrior.texture 
+49 unit_models/bnw/textures/muslim_warrior_n.texture 
+50 unit_sprites/portugal_Dummy_EN_Spearmen_sprite.spr 
 4 merc 
-50 unit_models/_Units/mah/textures/mah_inf_1g.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
-43 unit_sprites/russia_Druzhina_ug1_sprite.spr 
+47 unit_models/bnw/textures/muslim_warrior.texture 
+49 unit_models/bnw/textures/muslim_warrior_n.texture 
+48 unit_sprites/saxons_Dummy_EN_Spearmen_sprite.spr 
 5 slave 
-50 unit_models/_Units/mah/textures/mah_inf_1g.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
-43 unit_sprites/russia_Druzhina_ug1_sprite.spr 
+47 unit_models/bnw/textures/muslim_warrior.texture 
+49 unit_models/bnw/textures/muslim_warrior_n.texture 
+47 unit_sprites/slave_Dummy_EN_Spearmen_sprite.spr 
 3 
-7 mongols 
-58 unit_models/_Units/attachments/textures/tkc_tribal.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 0  
+12 papal_states 
+47 unit_models/bnw/textures/muslim_warrior.texture 
+49 unit_models/bnw/textures/muslim_warrior_n.texture 0 
 4 merc 
-58 unit_models/_Units/attachments/textures/tkc_tribal.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+47 unit_models/bnw/textures/muslim_warrior.texture 
+49 unit_models/bnw/textures/muslim_warrior_n.texture 0 
 5 slave 
-58 unit_models/_Units/attachments/textures/tkc_tribal.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+47 unit_models/bnw/textures/muslim_warrior.texture 
+49 unit_models/bnw/textures/muslim_warrior_n.texture 0 
 1 
 4 None 
-13 MTW2_Sword
-1 
+14 MTW2_Swordsman 0 
+2 
 18 MTW2_Sword_Primary 14 fs_test_shield 
 0 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
@@ -5479,11 +5476,11 @@
 9 byzantium 
 58 unit_models/_Units/bnw/textures/qing_yong_infantry.texture 
 60 unit_models/_Units/bnw/textures/qing_yong_infantry_n.texture 
-52 unit_sprites/byzantium_Byzantine_Infantry_sprite.spr 
+46 unit_sprites/byzantium_lvying_sword_sprite.spr 
 5 slave 
 58 unit_models/_Units/bnw/textures/qing_yong_infantry.texture 
 60 unit_models/_Units/bnw/textures/qing_yong_infantry_n.texture 
-52 unit_sprites/byzantium_Byzantine_Infantry_sprite.spr 
+46 unit_sprites/byzantium_lvying_sword_sprite.spr 
 2 
 9 byzantium 
 53 unit_models/_units/bnw/textures/bq_pike_equip.texture 
@@ -14264,7 +14261,7 @@
 1 
 4 None 
 14 MTW2_Musket_SS
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14309,7 +14306,7 @@
 1 
 4 None 
 14 MTW2_Musket_SS
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14397,7 +14394,7 @@
 1 
 4 None 
 14 MTW2_Musket_SS
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14485,7 +14482,7 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14530,7 +14527,7 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14575,7 +14572,7 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14663,7 +14660,7 @@
 1 
 4 None 
 15 MTW2_Musket_SSK
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14708,7 +14705,7 @@
 1 
 4 None 
 15 MTW2_Musket_SSK
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14753,7 +14750,7 @@
 1 
 4 None 
 15 MTW2_Musket_SSK
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14798,7 +14795,7 @@
 1 
 4 None 
 14 MTW2_Musket_SS
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14843,7 +14840,7 @@
 1 
 4 None 
 14 MTW2_Musket_SS
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14888,7 +14885,7 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14933,7 +14930,7 @@
 1 
 4 None 
 14 MTW2_Musket_SS
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -14978,7 +14975,7 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -15023,7 +15020,7 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -15068,7 +15065,7 @@
 1 
 4 None 
 14 MTW2_Musket_SS
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -15156,7 +15153,7 @@
 1 
 4 None 
 14 MTW2_Musket_SS
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -15244,7 +15241,7 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -15289,7 +15286,7 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -15334,7 +15331,7 @@
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -16570,7 +16567,7 @@
 1 
 4 None 
 15 MTW2_Musket_SSK
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -16658,7 +16655,7 @@
 1 
 4 None 
 15 MTW2_Musket_SSK
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -16703,7 +16700,7 @@
 1 
 4 None 
 15 MTW2_Musket_SSK
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -16748,7 +16745,7 @@
 1 
 4 None 
 15 MTW2_Musket_SSK
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 
@@ -23529,7 +23526,7 @@
 1 
 4 None 
 14 MTW2_Musket_SS
-20 MTW2_Halberd_Primary 
+9 MTW2_Pike 
 1 
 19 MTW2_Musket_Primary 
 1 

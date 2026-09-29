@@ -8621,5 +8621,27 @@
       48,
       64
     ]
+  },
+  {
+    "id": "qing_cavalry_general_20260930",
+    "group_id": "qing_command_card_20260930",
+    "unit_type": "qing_cavalry_general",
+    "card_file": "data/ui/units/byzantium/#qing_cavalry_general.tga",
+    "faction": "byzantium / slave",
+    "name": "Qing General and Staff",
+    "role": "mounted general and staff",
+    "weapon": "none displayed",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Doubin.jpg",
+    "source_file": "tools/qing_visual_audit/#qing_cavalry_general.png",
+    "source_title": "Portrait of Qing officer Dou Bin",
+    "creator": "Unknown Qing court artist",
+    "source_date": "eighteenth century",
+    "licence": "Public domain",
+    "depicted_subject": "Qing military officer in official dress",
+    "mapping_note": "The preserved installed card and loaded Qing rider model control the black-and-gold uniform, mounted identity, horse and tack. The historical portrait supports Qing officer dress and bearing; the generated edit changes the old armed pose to the project's passive mounted-command convention.",
+    "pose_source_id": "",
+    "status": "card-approved",
+    "generated_file": "tools/qing_general_card_source_20260930/qing_cavalry_general_generated_master.png",
+    "crop_box": [70, 40, 1020, 1307]
   }
 ]
