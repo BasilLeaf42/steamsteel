@@ -10275,7 +10275,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1400, 467, 100, 100, 1400, 1, 467
-ownership        slave, england, france, hre, spain, venice
+ownership        slave, england, france, hre, spain, portugal, venice, russia, hungary, sicily, normans, mongols
 era 0            slave
 era 1            slave, england, france, hre, spain, venice
 era 2            slave, england, france, hre, spain, venice
