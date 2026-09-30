@@ -301,6 +301,7 @@ era 2            france, spain, sicily, poland, scotland, aztecs
 
 
 
+
 type             col_12lb
 dictionary       col_12lb ; Colonial Rifled Muzzle-Loading Cannon
 category         siege
@@ -367,6 +368,7 @@ ownership        france, spain, sicily, poland, scotland, aztecs, slave
 era 0            france, spain, sicily, poland, scotland, aztecs
 era 1            france, spain, sicily, poland, scotland, aztecs
 era 2            france, spain, sicily, poland, scotland, aztecs
+
 
 
 type             fra_gatling
@@ -438,6 +440,7 @@ era 1            france, spain, sicily, poland, scotland, aztecs
 era 2            france, spain, sicily, poland, scotland, aztecs
 
 
+
 type             fra_armstrong
 dictionary       fra_armstrong ; Breech-Loading Rifled Cannon
 category         siege
@@ -470,6 +473,7 @@ ownership        france, spain, sicily, poland, scotland, aztecs, slave
 era 0            france, spain, sicily, poland, scotland, aztecs
 era 1            france, spain, sicily, poland, scotland, aztecs
 era 2            france, spain, sicily, poland, scotland, aztecs
+
 
 
 
@@ -566,6 +570,7 @@ era 2            russia, mongols, normans, hungary, hre
 
 
 
+
 type             rus_5lb
 dictionary       rus_5lb ; Mortar
 category         siege
@@ -598,6 +603,7 @@ ownership        russia, mongols, normans, hungary, hre, slave
 era 0            russia, mongols, normans, hungary, hre
 era 1            russia, mongols, normans, hungary, hre
 era 2            russia, mongols, normans, hungary, hre
+
 
 
 type             rus_gatling
@@ -667,6 +673,7 @@ era 1            russia, mongols, normans, hungary, hre
 era 2            russia, mongols, normans, hungary, hre
 
 
+
 type             rus_armstrong
 dictionary       rus_armstrong ; Breech-Loading Rifled Cannon
 category         siege
@@ -700,6 +707,7 @@ ownership        russia, mongols, normans, hungary, hre, slave
 era 0            russia, mongols, normans, hungary, hre
 era 1            russia, mongols, normans, hungary, hre
 era 2            russia, mongols, normans, hungary, hre
+
 
 
 
@@ -774,6 +782,7 @@ era 2            saxons
 
 
 
+
 type             jap_5lb
 dictionary       jap_5lb ; Mortar
 category         siege
@@ -808,6 +817,7 @@ ownership        saxons, slave
 era 0            saxons
 era 1            saxons
 era 2            saxons
+
 
 
 type             jap_gatling
@@ -883,6 +893,7 @@ era 1            saxons
 era 2            saxons
 
 
+
 type             jap_armstrong
 dictionary       jap_armstrong ; Cast Iron Cannon
 category         siege
@@ -917,6 +928,7 @@ ownership        saxons, slave
 era 0            saxons
 era 1            saxons
 era 2            saxons
+
 
 
 
@@ -983,6 +995,7 @@ ownership        bulga, slave
 era 0            bulga
 era 1            bulga
 era 2            bulga
+
 
 
 type             ind_150mm
@@ -1053,6 +1066,7 @@ era 2            bulga
 
 
 
+
 type             ind_gatling
 dictionary       ind_gatling ; Gatling Gun
 category         siege
@@ -1113,6 +1127,7 @@ ownership        bulga, slave
 era 0            bulga
 era 1            bulga
 era 2            bulga
+
 
 
 
@@ -1179,6 +1194,7 @@ era 1            cuman
 era 2            cuman
 
 
+
 type             kok_5lb
 dictionary       kok_5lb ; Mortar
 category         siege
@@ -1211,6 +1227,7 @@ ownership        cuman, slave
 era 0            cuman
 era 1            cuman
 era 2            cuman
+
 
 
 type             kok_gatling
@@ -1306,6 +1323,7 @@ ownership        cuman, slave
 era 0            cuman
 era 1            cuman
 era 2            cuman
+
 
 
 type             sho_maxim
@@ -1409,6 +1427,7 @@ era 1            saxons
 era 2            saxons
 
 
+
 type             eth_rifled_gun
 dictionary       eth_rifled_gun ; Captured Rifled Field Gun
 category         siege
@@ -1448,6 +1467,7 @@ era 2            papal_states
 
 
 
+
 type             sho_5lb
 dictionary       sho_5lb ; Mortar
 category         siege
@@ -1482,6 +1502,7 @@ ownership        saxons, slave
 era 0            saxons
 era 1            saxons
 era 2            saxons
+
 
 
 type             sho_gatling
@@ -1557,6 +1578,7 @@ era 1            saxons
 era 2            saxons
 
 
+
 type             sho_armstrong
 dictionary       sho_armstrong ; Cast Iron Cannon
 category         siege
@@ -1593,6 +1615,7 @@ era 1            saxons
 era 2            saxons
 
 
+
 type             eth_field_gun
 dictionary       eth_field_gun ; Cast-Iron Field Gun
 category         siege
@@ -1627,6 +1650,7 @@ ownership        papal_states, slave
 era 0            papal_states
 era 1            papal_states
 era 2            papal_states
+
 
 
 
@@ -1668,6 +1692,7 @@ era 1            saxons
 era 2            saxons
 
 
+
 type             Japan Armstrong Han
 dictionary       Japan_Armstrong_Han ; Breech-Loading Rifled Cannon
 category         siege
@@ -1703,6 +1728,7 @@ ownership        saxons, slave
 era 0            saxons
 era 1            saxons
 era 2            saxons
+
 
 
 type             csa_maxim
@@ -1798,6 +1824,7 @@ era 2            milan, teu
 
 
 
+
 type             csa_5lb
 dictionary       csa_5lb ; Mortar
 category         siege
@@ -1831,6 +1858,7 @@ ownership        milan, teu, slave
 era 0            milan, teu
 era 1            milan, teu
 era 2            milan, teu
+
 
 
 type             csa_gatling
@@ -1901,6 +1929,7 @@ era 1            milan, teu
 era 2            milan, teu
 
 
+
 type             csa_armstrong
 dictionary       csa_armstrong ; Breech-Loading Rifled Cannon
 category         siege
@@ -1934,6 +1963,7 @@ ownership        milan, teu, slave
 era 0            milan, teu
 era 1            milan, teu
 era 2            milan, teu
+
 
 
 
@@ -2032,6 +2062,7 @@ era 2            portugala, denmark
 
 
 
+
 type             usa_5lb
 dictionary       usa_5lb ; Mortar
 category         siege
@@ -2067,6 +2098,7 @@ era 1            portugala, denmark
 era 2            portugala, denmark
 
 
+
 type             usa_gatling
 dictionary       usa_gatling ; Gatling Gun
 category         siege
@@ -2094,6 +2126,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 900, 300, 90, 70, 900, 2, 300
 ownership        portugala, denmark, slave
+era 0            portugala
 era 1            portugala, denmark, slave
 
 type             usa_150mm
@@ -2134,6 +2167,7 @@ era 1            portugala, denmark
 era 2            portugala, denmark
 
 
+
 type             usa_armstrong
 dictionary       usa_armstrong ; Breech-Loading Rifled Cannon
 category         siege
@@ -2167,6 +2201,7 @@ ownership        portugala, denmark, slave
 era 0            portugala, denmark
 era 1            portugala, denmark
 era 2            portugala, denmark
+
 
 
 
@@ -2265,6 +2300,7 @@ era 2            england, venice, portugal
 
 
 
+
 type             eng_5lb
 dictionary       eng_5lb ; Mortar
 category         siege
@@ -2298,6 +2334,7 @@ ownership        england, venice, portugal
 era 0            england, venice, portugal
 era 1            england, venice, portugal
 era 2            england, venice, portugal
+
 
 
 type             eng_gatling
@@ -2369,6 +2406,7 @@ era 1            england, venice, portugal
 era 2            england, venice, portugal
 
 
+
 type             eng_armstrong
 dictionary       eng_armstrong ; Breech-Loading Rifled Cannon
 category         siege
@@ -2402,6 +2440,7 @@ ownership        england, venice, portugal
 era 0            england, venice, portugal
 era 1            england, venice, portugal
 era 2            england, venice, portugal
+
 
 
 
@@ -2495,6 +2534,7 @@ era 1            byzantium
 era 2            byzantium
 
 
+
 type             siam_12lb
 dictionary       siam_12lb ; Muzzle-Loading Smoothbore Cannon
 category         siege
@@ -2526,6 +2566,7 @@ ownership        cru, slave
 era 0            cru
 era 1            cru
 era 2            cru
+
 
 
 type             byz_5lb
@@ -2561,6 +2602,7 @@ era 1            byzantium
 era 2            byzantium
 
 
+
 type             siam_5lb
 dictionary       siam_5lb ; Mortar
 category         siege
@@ -2592,6 +2634,7 @@ ownership        cru, slave
 era 0            cru
 era 1            cru
 era 2            cru
+
 
 
 
@@ -2661,6 +2704,7 @@ era 1            byzantium
 era 2            byzantium
 
 
+
 type             byz_armstrong
 dictionary       byz_armstrong ; Cast Iron Cannon
 category         siege
@@ -2694,6 +2738,7 @@ era 1            byzantium
 era 2            byzantium
 
 
+
 type             siam_armstrong
 dictionary       siam_armstrong ; Bronze Field Cannon
 category         siege
@@ -2725,6 +2770,7 @@ ownership        cru, slave
 era 0            cru
 era 1            cru
 era 2            cru
+
 
 
 
@@ -2789,6 +2835,7 @@ era 1            moors, turks, golden
 era 2            moors, turks, golden
 
 
+
 type             mus_5lb
 dictionary       mus_5lb ; Mortar
 category         siege
@@ -2821,6 +2868,7 @@ ownership        moors, turks, golden, slave
 era 0            moors, turks, golden
 era 1            moors, turks, golden
 era 2            moors, turks, golden
+
 
 
 type             mus_gatling
@@ -2890,6 +2938,7 @@ era 1            moors, turks, golden
 era 2            moors, turks, golden
 
 
+
 type             mus_armstrong
 dictionary       mus_armstrong ; Cast Iron Cannon
 category         siege
@@ -2922,6 +2971,7 @@ ownership        moors, turks, golden, slave
 era 0            moors, turks, golden
 era 1            moors, turks, golden
 era 2            moors, turks, golden
+
 
 
 type             zul_maxim
@@ -4073,7 +4123,7 @@ officer          usa_standard_bearer
 attributes       free_upkeep_unit, sea_faring, hide_forest, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         9, 0, buck_ball, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri         10, 0, buck_ball, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
 stat_pri_attr    ap
 stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
 stat_sec_attr    no

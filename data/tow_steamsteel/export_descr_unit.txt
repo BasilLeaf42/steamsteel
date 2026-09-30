@@ -2126,6 +2126,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 900, 300, 90, 70, 900, 2, 300
 ownership        portugala, denmark, slave
+era 0            portugala
 era 1            portugala, denmark, slave
 
 type             usa_150mm

@@ -5661,7 +5661,7 @@ building cannon
 ;union standardized artillery replenishment
 	recruit_pool "usa_12lb"  .4   .04   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 	recruit_pool "usa_armstrong"  .4   .04   .99  0  requires factions { portugala, }
-	recruit_pool "usa_gatling"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "usa_gatling"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1865 1 and not event_counter military_reforms_1890 1
 	recruit_pool "usa_5lb"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
 	recruit_pool "usa_maxim"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
 	recruit_pool "usa_pompom"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
@@ -5940,12 +5940,12 @@ building cannon
 ;union standardized artillery recruitment
 	recruit_pool "usa_12lb"  1   .06   2  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1890 1
 	recruit_pool "usa_armstrong"  1   .06   2  0  requires factions { portugala, } and hidden_resource usa
-	recruit_pool "usa_gatling"  1   .06   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "usa_gatling"  1   .06   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1865 1 and not event_counter military_reforms_1890 1
 	recruit_pool "usa_5lb"  1   .06   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1890 1
 ;union standardized artillery replenishment
 	recruit_pool "usa_12lb"  .4   .04   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 	recruit_pool "usa_armstrong"  .4   .04   .99  0  requires factions { portugala, }
-	recruit_pool "usa_gatling"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "usa_gatling"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1865 1 and not event_counter military_reforms_1890 1
 	recruit_pool "usa_5lb"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
 	recruit_pool "usa_maxim"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
 	recruit_pool "usa_pompom"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
@@ -6278,7 +6278,7 @@ building cannon
 ;union standardized artillery recruitment
 	recruit_pool "usa_12lb"  1   .1   2  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1890 1
 	recruit_pool "usa_armstrong"  1   .1   2  0  requires factions { portugala, } and hidden_resource usa
-	recruit_pool "usa_gatling"  1   .1   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "usa_gatling"  1   .1   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1865 1 and not event_counter military_reforms_1890 1
 	recruit_pool "usa_5lb"  1   .1   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1890 1
 	recruit_pool "usa_maxim"  1   .1   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1890 1
 	recruit_pool "usa_pompom"  1   .1   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1890 1
@@ -6286,7 +6286,7 @@ building cannon
 ;union standardized artillery replenishment
 	recruit_pool "usa_12lb"  .4   .04   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 	recruit_pool "usa_armstrong"  .4   .04   .99  0  requires factions { portugala, }
-	recruit_pool "usa_gatling"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "usa_gatling"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1865 1 and not event_counter military_reforms_1890 1
 	recruit_pool "usa_5lb"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
 	recruit_pool "usa_maxim"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
 	recruit_pool "usa_pompom"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
@@ -6686,7 +6686,7 @@ building cannon
 ;union standardized artillery recruitment
 	recruit_pool "usa_12lb"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1890 1
 	recruit_pool "usa_armstrong"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa
-	recruit_pool "usa_gatling"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "usa_gatling"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1865 1 and not event_counter military_reforms_1890 1
 	recruit_pool "usa_5lb"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1890 1
 	recruit_pool "usa_maxim"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1890 1
 	recruit_pool "usa_pompom"  2   .2   2  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1890 1
@@ -6694,7 +6694,7 @@ building cannon
 ;union standardized artillery replenishment
 	recruit_pool "usa_12lb"  .4   .04   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 	recruit_pool "usa_armstrong"  .4   .04   .99  0  requires factions { portugala, }
-	recruit_pool "usa_gatling"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "usa_gatling"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1865 1 and not event_counter military_reforms_1890 1
 	recruit_pool "usa_5lb"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
 	recruit_pool "usa_maxim"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
 	recruit_pool "usa_pompom"  .4   .04   .99  0  requires factions { portugala, } and event_counter military_reforms_1890 1
