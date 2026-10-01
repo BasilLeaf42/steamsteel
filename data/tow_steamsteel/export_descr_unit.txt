@@ -297,7 +297,6 @@ stat_cost        4, 1600, 533, 30, 40, 1600, 2, 533
 ownership        france, spain, sicily, poland, scotland, aztecs, slave
 era 0            france, spain, sicily, poland, scotland, aztecs
 era 1            france, spain, sicily, poland, scotland, aztecs
-era 2            france, spain, sicily, poland, scotland, aztecs
 
 
 
@@ -333,7 +332,7 @@ stat_cost        4, 1600, 533, 30, 40, 1600, 2, 533
 ownership        england, france, portugal, slave, egypt, timurids, lith
 era 0            england, france, portugal, egypt, timurids, lith
 era 1            england, france, portugal, egypt, timurids, lith
-era 2            england, france, portugal, egypt, timurids, lith
+era 2            egypt, timurids, lith
 
 
 type             fra_5lb
@@ -365,8 +364,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 90, 70, 1000, 2, 333
 ownership        france, spain, sicily, poland, scotland, aztecs, slave
-era 0            france, spain, sicily, poland, scotland, aztecs
-era 1            france, spain, sicily, poland, scotland, aztecs
 era 2            france, spain, sicily, poland, scotland, aztecs
 
 
@@ -435,8 +432,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 ownership        france, spain, sicily, poland, scotland, aztecs, slave
-era 0            france, spain, sicily, poland, scotland, aztecs
-era 1            france, spain, sicily, poland, scotland, aztecs
 era 2            france, spain, sicily, poland, scotland, aztecs
 
 
@@ -470,7 +465,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 30, 40, 1900, 2, 633
 ownership        france, spain, sicily, poland, scotland, aztecs, slave
-era 0            france, spain, sicily, poland, scotland, aztecs
 era 1            france, spain, sicily, poland, scotland, aztecs
 era 2            france, spain, sicily, poland, scotland, aztecs
 
@@ -565,8 +559,7 @@ stat_food        60, 300
 stat_cost        4, 1600, 533, 30, 40, 1600, 2, 533
 ownership        russia, mongols, normans, hungary, hre, slave
 era 0            russia, mongols, normans, hungary, hre
-era 1            russia, mongols, normans, hungary, hre
-era 2            russia, mongols, normans, hungary, hre
+era 1            russia, mongols, normans, hungary
 
 
 
@@ -600,8 +593,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 90, 70, 1000, 2, 333
 ownership        russia, mongols, normans, hungary, hre, slave
-era 0            russia, mongols, normans, hungary, hre
-era 1            russia, mongols, normans, hungary, hre
 era 2            russia, mongols, normans, hungary, hre
 
 
@@ -668,8 +659,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 ownership        russia, mongols, normans, hungary, hre, slave
-era 0            russia, mongols, normans, hungary, hre
-era 1            russia, mongols, normans, hungary, hre
+era 1            hre
 era 2            russia, mongols, normans, hungary, hre
 
 
@@ -704,7 +694,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 30, 40, 1900, 2, 633
 ownership        russia, mongols, normans, hungary, hre, slave
-era 0            russia, mongols, normans, hungary, hre
+era 0            hre
 era 1            russia, mongols, normans, hungary, hre
 era 2            russia, mongols, normans, hungary, hre
 
@@ -778,7 +768,6 @@ armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
 era 0            saxons
 era 1            saxons
-era 2            saxons
 
 
 
@@ -814,8 +803,6 @@ stat_cost        3, 1000, 333, 100, 100, 1000, 2, 333
 armour_ug_levels 0
 armour_ug_models Japan_Arty_IJA
 ownership        saxons, slave
-era 0            saxons
-era 1            saxons
 era 2            saxons
 
 
@@ -888,8 +875,6 @@ stat_cost        5, 2700, 900, 100, 100, 2700, 2, 900
 armour_ug_levels 0
 armour_ug_models Japan_Arty_IJA
 ownership        saxons, slave
-era 0            saxons
-era 1            saxons
 era 2            saxons
 
 
@@ -926,8 +911,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Arty_Cast_Iron
 ownership        saxons, slave
 era 0            saxons
-era 1            saxons
-era 2            saxons
 
 
 
@@ -992,7 +975,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 100, 100, 1900, 2, 633
 ownership        bulga, slave
-era 0            bulga
 era 1            bulga
 era 2            bulga
 
@@ -1031,6 +1013,13 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 100, 100, 2700, 2, 900
 ownership        slave
+
+
+
+
+
+
+
 type             ind_5lb
 dictionary       ind_5lb ; Mortar
 category         siege
@@ -1060,9 +1049,13 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 100, 100, 1000, 2, 333
 ownership        bulga, slave
-era 0            bulga
-era 1            bulga
-era 2            bulga
+
+
+
+
+
+
+
 
 
 
@@ -1126,7 +1119,6 @@ stat_cost        4, 1400, 467, 100, 100, 1400, 2, 467
 ownership        bulga, slave
 era 0            bulga
 era 1            bulga
-era 2            bulga
 
 
 
@@ -1189,7 +1181,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 30, 40, 1900, 2, 633
 ownership        cuman, slave
-era 0            cuman
 era 1            cuman
 era 2            cuman
 
@@ -1224,9 +1215,13 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 90, 70, 1000, 2, 333
 ownership        cuman, slave
-era 0            cuman
-era 1            cuman
-era 2            cuman
+
+
+
+
+
+
+
 
 
 
@@ -1291,6 +1286,13 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 ownership        slave
+
+
+
+
+
+
+
 type             kok_armstrong
 dictionary       kok_armstrong ; Cast Bronze Cannon
 category         siege
@@ -1322,7 +1324,6 @@ stat_cost        4, 1400, 467, 30, 40, 1400, 2, 467
 ownership        cuman, slave
 era 0            cuman
 era 1            cuman
-era 2            cuman
 
 
 
@@ -1424,7 +1425,6 @@ armour_ug_models Japan_Arty_Shogun
 ownership        saxons, slave
 era 0            saxons
 era 1            saxons
-era 2            saxons
 
 
 
@@ -1460,7 +1460,6 @@ stat_cost        4, 1900, 633, 30, 40, 1900, 2, 633
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
 ownership        papal_states, slave
-era 0            papal_states
 era 1            papal_states
 era 2            papal_states
 
@@ -1499,8 +1498,6 @@ stat_cost        3, 1000, 333, 100, 100, 1000, 2, 333
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
 ownership        saxons, slave
-era 0            saxons
-era 1            saxons
 era 2            saxons
 
 
@@ -1573,8 +1570,6 @@ stat_cost        5, 2700, 900, 100, 100, 2700, 2, 900
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
 ownership        saxons, slave
-era 0            saxons
-era 1            saxons
 era 2            saxons
 
 
@@ -1611,8 +1606,6 @@ armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
 ownership        saxons, slave
 era 0            saxons
-era 1            saxons
-era 2            saxons
 
 
 
@@ -1649,7 +1642,6 @@ armour_ug_models Japan_Arty_Shogun
 ownership        papal_states, slave
 era 0            papal_states
 era 1            papal_states
-era 2            papal_states
 
 
 
@@ -1687,7 +1679,6 @@ stat_cost        4, 1900, 633, 100, 100, 1900, 2, 633
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Shogun
 ownership        saxons, slave
-era 0            saxons
 era 1            saxons
 era 2            saxons
 
@@ -1725,7 +1716,6 @@ stat_cost        4, 1900, 633, 100, 100, 1900, 2, 633
 armour_ug_levels 0
 armour_ug_models Japan_Arty_Satcho
 ownership        saxons, slave
-era 0            saxons
 era 1            saxons
 era 2            saxons
 
@@ -1820,7 +1810,6 @@ stat_cost        4, 1600, 533, 30, 40, 1600, 2, 533
 ownership        milan, teu, slave
 era 0            milan, teu
 era 1            milan, teu
-era 2            milan, teu
 
 
 
@@ -1855,28 +1844,26 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 90, 70, 1000, 2, 333
 ownership        milan, teu, slave
-era 0            milan, teu
-era 1            milan, teu
 era 2            milan, teu
 
 
 
 type             csa_gatling
-dictionary       csa_gatling ; Gatling Gun
+dictionary       csa_gatling ; Williams Gun
 category         siege
 class            missile
 voice_type       Light
 banner faction   main_spear
 banner holy      crusade
 soldier          csa_ribault_crew, 10, 2, 1.0 				
-engine           gatling
+engine           mitrailleuse
 attributes       sea_faring, can_withdraw, gunpowder_unit, cannon, hide_forest
 move_speed_mod	 1.4
 formation        1.5, 1.5, 3, 3, 3, square
 stat_health      1, 2
 stat_pri         6, 3, no, 0, 0, melee, artillery_gunpowder, piercing, knife, 25, 1
 stat_pri_attr    ap
-stat_sec         11, 3, ribault_shot_traced, 400, 900, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+stat_sec         11, 3, ribault_shot, 350, 900, siege_missile, artillery_gunpowder, blunt, none, 0, 1
 stat_sec_attr    ap, bp
 stat_pri_armour  3, 4, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -1887,8 +1874,8 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 900, 300, 90, 70, 900, 2, 300
-ownership        milan, teu, slave
-era 1            milan, teu, slave
+ownership        milan, slave
+era 1            milan, slave
 
 
 type             csa_150mm
@@ -1924,8 +1911,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 ownership        milan, teu, slave
-era 0            milan, teu
-era 1            milan, teu
 era 2            milan, teu
 
 
@@ -1960,7 +1945,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 30, 40, 1900, 2, 633
 ownership        milan, teu, slave
-era 0            milan, teu
 era 1            milan, teu
 era 2            milan, teu
 
@@ -2058,7 +2042,6 @@ stat_cost        4, 1600, 533, 30, 40, 1600, 2, 533
 ownership        portugala, denmark, slave
 era 0            portugala, denmark
 era 1            portugala, denmark
-era 2            portugala, denmark
 
 
 
@@ -2093,8 +2076,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 90, 70, 1000, 2, 333
 ownership        portugala, denmark, slave
-era 0            portugala, denmark
-era 1            portugala, denmark
 era 2            portugala, denmark
 
 
@@ -2162,8 +2143,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 ownership        portugala, denmark, slave
-era 0            portugala, denmark
-era 1            portugala, denmark
 era 2            portugala, denmark
 
 
@@ -2198,7 +2177,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 30, 40, 1900, 2, 633
 ownership        portugala, denmark, slave
-era 0            portugala, denmark
 era 1            portugala, denmark
 era 2            portugala, denmark
 
@@ -2295,8 +2273,7 @@ stat_food        60, 300
 stat_cost        4, 1600, 533, 30, 40, 1600, 2, 533
 ownership        england, venice, portugal
 era 0            england, venice, portugal
-era 1            england, venice, portugal
-era 2            england, venice, portugal
+era 1            venice, portugal
 
 
 
@@ -2331,8 +2308,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 90, 70, 1000, 2, 333
 ownership        england, venice, portugal
-era 0            england, venice, portugal
-era 1            england, venice, portugal
 era 2            england, venice, portugal
 
 
@@ -2401,8 +2376,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 ownership        england, venice, portugal, slave
-era 0            england, venice, portugal
-era 1            england, venice, portugal
+era 1            england
 era 2            england, venice, portugal
 
 
@@ -2437,7 +2411,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 30, 40, 1900, 2, 633
 ownership        england, venice, portugal
-era 0            england, venice, portugal
+era 0            england
 era 1            england, venice, portugal
 era 2            england, venice, portugal
 
@@ -2529,7 +2503,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 30, 40, 1900, 2, 633
 ownership        byzantium, slave
-era 0            byzantium
 era 1            byzantium
 era 2            byzantium
 
@@ -2563,7 +2536,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 100, 100, 1900, 2, 633
 ownership        cru, slave
-era 0            cru
 era 1            cru
 era 2            cru
 
@@ -2597,9 +2569,13 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 90, 70, 1000, 2, 333
 ownership        byzantium, slave
-era 0            byzantium
-era 1            byzantium
-era 2            byzantium
+
+
+
+
+
+
+
 
 
 
@@ -2631,9 +2607,13 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 100, 100, 1000, 2, 333
 ownership        cru, slave
-era 0            cru
-era 1            cru
-era 2            cru
+
+
+
+
+
+
+
 
 
 
@@ -2699,8 +2679,6 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 ownership        byzantium, slave
-era 0            byzantium
-era 1            byzantium
 era 2            byzantium
 
 
@@ -2735,7 +2713,6 @@ stat_cost        4, 1400, 467, 30, 40, 1400, 2, 467
 ownership        byzantium, slave
 era 0            byzantium
 era 1            byzantium
-era 2            byzantium
 
 
 
@@ -2769,7 +2746,6 @@ stat_cost        4, 1400, 467, 100, 100, 1400, 2, 467
 ownership        cru, slave
 era 0            cru
 era 1            cru
-era 2            cru
 
 
 
@@ -2830,7 +2806,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1900, 633, 30, 40, 1900, 2, 633
 ownership        moors, turks, golden, slave
-era 0            moors, turks, golden
+era 0            turks
 era 1            moors, turks, golden
 era 2            moors, turks, golden
 
@@ -2865,9 +2841,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        3, 1000, 333, 90, 70, 1000, 2, 333
 ownership        moors, turks, golden, slave
-era 0            moors, turks, golden
-era 1            moors, turks, golden
-era 2            moors, turks, golden
+era 2            turks
 
 
 
@@ -2933,9 +2907,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        5, 2700, 900, 30, 40, 2700, 2, 900
 ownership        moors, turks, golden, slave
-era 0            moors, turks, golden
-era 1            moors, turks, golden
-era 2            moors, turks, golden
+era 2            turks
 
 
 
@@ -2968,9 +2940,8 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        4, 1400, 467, 30, 40, 1400, 2, 467
 ownership        moors, turks, golden, slave
-era 0            moors, turks, golden
-era 1            moors, turks, golden
-era 2            moors, turks, golden
+era 0            moors, golden
+era 1            moors, golden
 
 
 

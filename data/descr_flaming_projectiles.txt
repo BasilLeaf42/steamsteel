@@ -19,21 +19,6 @@ effect arrow_tracer1
     }
 }
 
-effect bullet_tracer1
-{
-    type ribbon
-    {
-        alpha_max    255
-        alpha_min    128
-        fade_start    100
-        fade_end    200
-        head_width    0.1
-        tail_width  0.1
-        texture        models_effects/textures/arrow_fire.texture
-    }
-}
-
-
 effect ballista_model
 {
 	type projectile

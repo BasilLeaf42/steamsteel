@@ -342,6 +342,23 @@ effect_set ribault_shot_set
 	}
 }
 
+; Keep the tracer definition in this file before the set that consumes it.
+; M2EX resolves effect-set members as each descriptor is parsed and cannot
+; reliably resolve the later copy formerly held in descr_flaming_projectiles.
+effect bullet_tracer1
+{
+    type ribbon
+    {
+        alpha_max    255
+        alpha_min    128
+        fade_start   100
+        fade_end     200
+        head_width   0.1
+        tail_width   0.1
+        texture      models_effects/textures/arrow_fire.texture
+    }
+}
+
 effect_set ribault_shot_set_traced
 {
 	play_time 0.01

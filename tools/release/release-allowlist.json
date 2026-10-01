@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "description": "Authoritative Steam & Steel public-release allowlist. Everything not included here is excluded.",
+  "requiredFiles": [
+    "M2EX.exe",
+    "SteamAndSteel.exe",
+    "Steam & Steel.bat",
+    "Launch Steam & Steel.cmd",
+    "steamsteel.cfg",
+    "steamateelicon.ico"
+  ],
+  "optionalFiles": [
+    "README.md",
+    "enteicon.ico"
+  ],
+  "requiredDirectories": [
+    "data",
+    "terrain"
+  ],
+  "excludedPaths": [
+    "data/BETTER_WATER/BACKUP_VANILLA_TXTS",
+    "data/unit_models/mounts/elephant/backup"
+  ],
+  "excludedFileNames": [
+    "Thumbs.db",
+    "desktop.ini",
+    ".DS_Store"
+  ],
+  "excludedExtensions": [
+    ".bak",
+    ".backup",
+    ".old",
+    ".orig",
+    ".tmp",
+    ".temp",
+    ".dmp",
+    ".psd",
+    ".xcf",
+    ".blend",
+    ".blend1"
+  ],
+  "excludedNameSuffixes": [
+    "~"
+  ],
+  "failOnUnlistedDirectoryNames": [
+    "backup",
+    "backups",
+    "archive",
+    "archives",
+    "source",
+    "sources",
+    "preview",
+    "previews",
+    "staged",
+    "temp",
+    "tmp",
+    "cache"
+  ],
+  "forbiddenReleaseRoots": [
+    ".git",
+    "tools",
+    "saves",
+    "preferences",
+    "iwte_tasks",
+    "IWTEsave",
+    "packs",
+    "armies",
+    "custom"
+  ]
+}

@@ -12,3 +12,6 @@
 *.bak
 steamsteel.cfg
 *.cfg
+!steamsteel.cfg
+tools/release/runtime/m2ex_root/
+tools/_british_atlas_build/

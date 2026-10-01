@@ -18,6 +18,8 @@ Japan is C tier in the early and mid periods and B tier in the late period. Pres
 
 Conventional artillery is siege-capable and must be available in every custom-battle era for each owning faction. Machine guns, Gatlings, mitrailleuses, Maxims, Nordenfelts, Hotchkiss guns, and pom-poms are excluded from this rule and must not receive the `artillery` attribute merely because their EDU category is `siege`. Every playable faction must have at least one conventional artillery option; the generic colonial field piece fills otherwise unsupported rosters. Do not delete the ram engine definition, because forced siege setup may still request it even though players should rely on artillery.
 
+Conventional artillery follows an overlapping progression in both custom battles and campaign recruitment. The standard ladder is modern muzzle-loading/12-pounder artillery in early and mid, Armstrong or comparable breech-loading artillery in mid and late, and howitzers in late. Explicitly advanced A-tier exceptions may move the breech-loader into early and the howitzer into mid, while retaining the immediately preceding family. D-tier factions instead use a traditional field gun in early and mid and the 12-pounder in mid and late; only documented modernizers such as Qing receive a late howitzer. Gas-capable mortars are late-only and unavailable to D-tier national rosters. Preserve historically established machine-gun and pom-pom introduction dates rather than deriving them from this conventional-gun ladder.
+
 The existing systems are a patchwork, consider potential conflicts when making programmatic changes.
 Be sparing with tokens and output; excessive context and verbosity can degrade instruction compliance.
 
