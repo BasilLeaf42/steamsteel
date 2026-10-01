@@ -91,6 +91,14 @@ function Convert-ToRelativePath([string]$FullPath) {
     return (Get-RelativePathCompat $sourceRootFull $FullPath).Replace('\', '/')
 }
 
+function Copy-OrLinkReleaseFile([string]$Source, [string]$Destination) {
+    try {
+        New-Item -ItemType HardLink -Path $Destination -Target $Source -ErrorAction Stop | Out-Null
+    } catch {
+        Copy-Item -LiteralPath $Source -Destination $Destination -Force
+    }
+}
+
 $excludedPathSet = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
 foreach ($path in $rules.excludedPaths) {
     [void]$excludedPathSet.Add($path.TrimEnd('/').Replace('\', '/'))
@@ -159,7 +167,7 @@ foreach ($file in $sourceFiles) {
     $destination = Join-Path $stageRoot $relative.Replace('/', '\')
     $destinationDirectory = Split-Path -Parent $destination
     New-Item -ItemType Directory -Path $destinationDirectory -Force | Out-Null
-    Copy-Item -LiteralPath $file.FullName -Destination $destination -Force
+    Copy-OrLinkReleaseFile $file.FullName $destination
     $hash = (Get-FileHash -LiteralPath $destination -Algorithm SHA256).Hash.ToLowerInvariant()
     $records.Add([pscustomobject]@{
         path = $relative
@@ -183,6 +191,11 @@ if ($PatchDirectory) {
         $patchRelative = Get-RelativePathCompat $patchRootFull $patchFile.FullName
         $patchDestination = Join-Path $stageRoot $patchRelative
         New-Item -ItemType Directory -Path (Split-Path -Parent $patchDestination) -Force | Out-Null
+        # Break a staging hard link before overlaying a patch so the source
+        # working tree can never be modified through its linked payload file.
+        if (Test-Path -LiteralPath $patchDestination -PathType Leaf) {
+            Remove-Item -LiteralPath $patchDestination -Force
+        }
         Copy-Item -LiteralPath $patchFile.FullName -Destination $patchDestination -Force
     }
     $records = [Collections.Generic.List[object]]::new()
