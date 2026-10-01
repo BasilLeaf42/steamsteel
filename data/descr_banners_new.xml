@@ -1033,7 +1033,7 @@
             <Texture Faction="Mongols" DiffuseMap="banners\textures\Faction_banner_mongols.texture" TranslucencyMap="banners\textures\Faction_banner_mongols.texture"/>
 	    <Texture Faction="Golden" DiffuseMap="banners\textures\Faction_banner_crimea.texture" TranslucencyMap="banners\textures\faction_banner_crimea_trans.texture"/>
             <Texture Faction="Timurids" DiffuseMap="banners\textures\Faction_banner_afghanistan.texture" TranslucencyMap="banners\textures\Faction_banner_afghanistan_trans.texture"/>
-            <Texture Faction=="Saxons" DiffuseMap="banners\textures\faction_banner_japan.texture" TranslucencyMap="banners\textures\faction_banner_Japan.texture"/>
+            <Texture Faction="Saxons" DiffuseMap="banners\textures\faction_banner_japan.texture" TranslucencyMap="banners\textures\faction_banner_Japan.texture"/>
             <Texture Faction="Normans" DiffuseMap="banners\textures\faction_banner_sweden.texture" TranslucencyMap="banners\textures\faction_banner_sweden.texture"/>
             <Texture Faction="Cuman" DiffuseMap="banners\textures\Faction_banner_uzbek.texture" TranslucencyMap="banners\textures\faction_banner_uzbek_trans.texture"/>
             <Texture Faction="Bulga" DiffuseMap="banners\textures\faction_banner_india.texture" TranslucencyMap="banners\textures\faction_banner_india_trans.texture"/>
@@ -1084,7 +1084,7 @@
             <Texture Faction="Mongols" DiffuseMap="banners\textures\Faction_banner_mongols.texture" TranslucencyMap="banners\textures\Faction_banner_mongols.texture"/>
 	    <Texture Faction="Golden" DiffuseMap="banners\textures\Faction_banner_crimea.texture" TranslucencyMap="banners\textures\faction_banner_crimea_trans.texture"/>
             <Texture Faction="Timurids" DiffuseMap="banners\textures\Faction_banner_afghanistan.texture" TranslucencyMap="banners\textures\Faction_banner_afghanistan_trans.texture"/>
-            <Texture Faction=="Saxons" DiffuseMap="banners\textures\faction_banner_japan.texture" TranslucencyMap="banners\textures\faction_banner_Japan.texture"/>
+            <Texture Faction="Saxons" DiffuseMap="banners\textures\faction_banner_japan.texture" TranslucencyMap="banners\textures\faction_banner_Japan.texture"/>
             <Texture Faction="Normans" DiffuseMap="banners\textures\faction_banner_sweden.texture" TranslucencyMap="banners\textures\faction_banner_sweden.texture"/>
             <Texture Faction="Cuman" DiffuseMap="banners\textures\Faction_banner_uzbek.texture" TranslucencyMap="banners\textures\faction_banner_uzbek_trans.texture"/>
             <Texture Faction="Bulga" DiffuseMap="banners\textures\faction_banner_india.texture" TranslucencyMap="banners\textures\faction_banner_india_trans.texture"/>
