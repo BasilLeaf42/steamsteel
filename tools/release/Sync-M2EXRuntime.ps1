@@ -6,6 +6,16 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+
+function Get-RelativePathCompat([string]$BasePath, [string]$TargetPath) {
+    $baseFull = [IO.Path]::GetFullPath($BasePath).TrimEnd('\') + '\'
+    $targetFull = [IO.Path]::GetFullPath($TargetPath)
+    if (-not $targetFull.StartsWith($baseFull, [StringComparison]::OrdinalIgnoreCase)) {
+        throw "Path is outside the expected root: $targetFull"
+    }
+    return $targetFull.Substring($baseFull.Length)
+}
+
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 if (-not $GameRoot) { $GameRoot = (Resolve-Path (Join-Path $scriptDir '..\..\..\..')).Path }
 if (-not $ReferenceArchive) { $ReferenceArchive = Join-Path $GameRoot 'M2EX.7z' }
@@ -59,7 +69,7 @@ try {
 
 $manifest = foreach ($file in Get-ChildItem -LiteralPath $destinationFull -File -Recurse) {
     [pscustomobject]@{
-        path = [IO.Path]::GetRelativePath($destinationFull, $file.FullName).Replace('\', '/')
+        path = (Get-RelativePathCompat $destinationFull $file.FullName).Replace('\', '/')
         bytes = $file.Length
         sha256 = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
     }

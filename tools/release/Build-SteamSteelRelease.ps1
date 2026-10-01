@@ -14,6 +14,16 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+
+function Get-RelativePathCompat([string]$BasePath, [string]$TargetPath) {
+    $baseFull = [IO.Path]::GetFullPath($BasePath).TrimEnd('\') + '\'
+    $targetFull = [IO.Path]::GetFullPath($TargetPath)
+    if (-not $targetFull.StartsWith($baseFull, [StringComparison]::OrdinalIgnoreCase)) {
+        throw "Path is outside the expected root: $targetFull"
+    }
+    return $targetFull.Substring($baseFull.Length)
+}
+
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $sourceRoot = (Resolve-Path (Join-Path $scriptDir '..\..')).Path
 $rulesPath = Join-Path $scriptDir 'release-allowlist.json'
@@ -78,7 +88,7 @@ New-Item -ItemType Directory -Path $stageRoot -Force | Out-Null
 New-Item -ItemType Directory -Path $manifestRoot -Force | Out-Null
 
 function Convert-ToRelativePath([string]$FullPath) {
-    return [IO.Path]::GetRelativePath($sourceRootFull, $FullPath).Replace('\', '/')
+    return (Get-RelativePathCompat $sourceRootFull $FullPath).Replace('\', '/')
 }
 
 $excludedPathSet = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
@@ -170,14 +180,14 @@ if ($PatchDirectory) {
         throw "PatchDirectory does not exist: $patchRootFull"
     }
     foreach ($patchFile in Get-ChildItem -LiteralPath $patchRootFull -File -Recurse) {
-        $patchRelative = [IO.Path]::GetRelativePath($patchRootFull, $patchFile.FullName)
+        $patchRelative = Get-RelativePathCompat $patchRootFull $patchFile.FullName
         $patchDestination = Join-Path $stageRoot $patchRelative
         New-Item -ItemType Directory -Path (Split-Path -Parent $patchDestination) -Force | Out-Null
         Copy-Item -LiteralPath $patchFile.FullName -Destination $patchDestination -Force
     }
     $records = [Collections.Generic.List[object]]::new()
     foreach ($installedFile in Get-ChildItem -LiteralPath $stageRoot -File -Recurse) {
-        $relative = [IO.Path]::GetRelativePath($stageRoot, $installedFile.FullName).Replace('\', '/')
+        $relative = (Get-RelativePathCompat $stageRoot $installedFile.FullName).Replace('\', '/')
         $records.Add([pscustomobject]@{
             path = $relative
             bytes = $installedFile.Length
@@ -201,7 +211,7 @@ foreach ($asset in $installerAssets) {
 }
 
 foreach ($runtimeFile in Get-ChildItem -LiteralPath $m2exRuntimeRoot -File -Recurse) {
-    $relative = [IO.Path]::GetRelativePath($m2exRuntimeRoot, $runtimeFile.FullName)
+    $relative = Get-RelativePathCompat $m2exRuntimeRoot $runtimeFile.FullName
     $assetDestination = Join-Path $packageRoot (Join-Path 'payload\m2ex_root' $relative)
     New-Item -ItemType Directory -Path (Split-Path -Parent $assetDestination) -Force | Out-Null
     Copy-Item -LiteralPath $runtimeFile.FullName -Destination $assetDestination -Force
