@@ -14295,7 +14295,7 @@ traits		Factionheir 1
 army
 unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
 unit		greek_early_inf				exp 0 armour 0 weapon_lvl 0
-unit		rom_guard				exp 0 armour 0 weapon_lvl 0
+unit		greek_early_inf				exp 0 armour 0 weapon_lvl 0
 unit		rus_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Agrinio
