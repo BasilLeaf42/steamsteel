@@ -48,7 +48,7 @@ if (-not (Test-Path -LiteralPath $m2exRuntimeRoot -PathType Container)) {
 $requiredM2exRuntime = @(
     'M2EX.exe', 'M2EX.xdb', 'steam_api64.dll', 'mss64.dll', 'binkw64.dll',
     'granny2_x64.dll', 'steam_appid.txt', 'data\descr_difficulty.txt',
-    'data\descr_campaign_ai_db_ex.xml'
+    'data\descr_campaign_ai_db_ex.xml', 'data\graphics\graphics_config.xml'
 )
 foreach ($relative in $requiredM2exRuntime) {
     if (-not (Test-Path -LiteralPath (Join-Path $m2exRuntimeRoot $relative) -PathType Leaf)) {

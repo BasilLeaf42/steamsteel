@@ -36,6 +36,10 @@ Source: "{src}\payload\steamsteel\*"; DestDir: "{app}\mods\steamsteel"; Flags: e
 ; bytes come from the maintainer's current installed root so deliberate local
 ; fixes and other developers' deviations are preserved in the release.
 Source: "{src}\payload\m2ex_root\*"; DestDir: "{app}"; Flags: external ignoreversion recursesubdirs createallsubdirs uninsneveruninstall
+; Also install the verified graphics configuration into the mod override tree.
+; M2EX normally resolves the game-root copy, but this removes dependence on
+; fallback resolution and prevents the startup CTD seen on some clean installs.
+Source: "{src}\payload\m2ex_root\data\graphics\graphics_config.xml"; DestDir: "{app}\mods\steamsteel\data\graphics"; Flags: external ignoreversion
 Source: "{src}\payload\m2ex_root\steam_api64.dll"; DestDir: "{app}\mods\steamsteel"; Flags: external ignoreversion
 Source: "{src}\payload\m2ex_root\mss64.dll"; DestDir: "{app}\mods\steamsteel"; Flags: external ignoreversion
 Source: "{src}\payload\m2ex_root\binkw64.dll"; DestDir: "{app}\mods\steamsteel"; Flags: external ignoreversion
