@@ -4443,6 +4443,38 @@ ownership        portugala, slave
 era 0            portugala
 era 1            portugala
 
+type             uni_frontier_scouts
+dictionary       uni_frontier_scouts ; Frontier Scouts (Carbine, Burnside Model 1855)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent           american
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          uni_frontier_scouts, 24, 0, 1
+officer          usa_off_1g
+mount            dragoon
+mount_effect     elephant -4, camel -4
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+move_speed_mod   0.9
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         26, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
+stat_pri_attr    ap
+stat_sec         3, 2, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  4, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      3, low, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+ownership        portugala, slave
+era 0            portugala
+
 type             uni_general_staff
 dictionary       uni_general_staff ; General and Staff (Colt Army Model 1860 revolver and sabre)
 category         cavalry

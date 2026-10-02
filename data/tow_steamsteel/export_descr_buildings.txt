@@ -655,6 +655,7 @@ building barracks
 	recruit_pool "uni_irish_brigade_early"  1   .01   1  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1870 1
 	recruit_pool "uni_zouaves_early"  1   .01   1  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1870 1
 	recruit_pool "uni_volunteer_cavalry_early"  1   .01   1  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1870 1
+	recruit_pool "uni_frontier_scouts"  1   .01   1  0  requires factions { portugala, } and hidden_resource settler and not event_counter military_reforms_1870 1
 	recruit_pool "uni_indian_scouts"  1   .01   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 	recruit_pool "uni_indian_scout_cavalry"  1   .01   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 ;union standardized replenishment
@@ -672,6 +673,7 @@ building barracks
 	recruit_pool "uni_dragoons_mid"  .2   .02   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_dragoons_high"  .2   .02   .99  0  requires factions { portugala, } and event_counter military_reforms_2 1
 	recruit_pool "uni_volunteer_cavalry_early"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1870 1
+	recruit_pool "uni_frontier_scouts"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1870 1
 	recruit_pool "uni_indian_scouts"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 	recruit_pool "uni_indian_scout_cavalry"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 ;confederate standardized normal recruitment
@@ -1511,6 +1513,7 @@ building barracks
 	recruit_pool "uni_dragoons_mid"  1   .03   1  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_dragoons_high"  1   .03   1  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_2 1
 	recruit_pool "uni_volunteer_cavalry_early"  1   .03   1  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1870 1
+	recruit_pool "uni_frontier_scouts"  1   .03   1  0  requires factions { portugala, } and hidden_resource settler and not event_counter military_reforms_1870 1
 	recruit_pool "uni_indian_scouts"  1   .03   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 	recruit_pool "uni_indian_scout_cavalry"  1   .03   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 ;union standardized replenishment
@@ -1528,6 +1531,7 @@ building barracks
 	recruit_pool "uni_dragoons_mid"  .2   .02   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_dragoons_high"  .2   .02   .99  0  requires factions { portugala, } and event_counter military_reforms_2 1
 	recruit_pool "uni_volunteer_cavalry_early"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1870 1
+	recruit_pool "uni_frontier_scouts"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1870 1
 	recruit_pool "uni_indian_scouts"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 	recruit_pool "uni_indian_scout_cavalry"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 ;confederate standardized normal recruitment
@@ -2759,6 +2763,7 @@ building barracks
 	recruit_pool "uni_dragoons_mid"  1   .06   1  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_dragoons_high"  1   .06   1  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_2 1
 	recruit_pool "uni_volunteer_cavalry_early"  1   .06   1  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1870 1
+	recruit_pool "uni_frontier_scouts"  1   .06   1  0  requires factions { portugala, } and hidden_resource settler and not event_counter military_reforms_1870 1
 	recruit_pool "uni_indian_scouts"  1   .06   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 	recruit_pool "uni_indian_scout_cavalry"  1   .06   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 ;union standardized replenishment
@@ -2776,6 +2781,7 @@ building barracks
 	recruit_pool "uni_dragoons_mid"  .2   .02   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_dragoons_high"  .2   .02   .99  0  requires factions { portugala, } and event_counter military_reforms_2 1
 	recruit_pool "uni_volunteer_cavalry_early"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1870 1
+	recruit_pool "uni_frontier_scouts"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1870 1
 	recruit_pool "uni_indian_scouts"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 	recruit_pool "uni_indian_scout_cavalry"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 ;confederate standardized normal recruitment
@@ -4127,6 +4133,7 @@ building barracks
 	recruit_pool "uni_dragoons_mid"  1   .1   1  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_dragoons_high"  1   .1   1  0  requires factions { portugala, } and hidden_resource usa and event_counter military_reforms_2 1
 	recruit_pool "uni_volunteer_cavalry_early"  1   .1   1  0  requires factions { portugala, } and hidden_resource usa and not event_counter military_reforms_1870 1
+	recruit_pool "uni_frontier_scouts"  1   .1   1  0  requires factions { portugala, } and hidden_resource settler and not event_counter military_reforms_1870 1
 	recruit_pool "uni_indian_scouts"  1   .1   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 	recruit_pool "uni_indian_scout_cavalry"  1   .1   1  0  requires factions { portugala, } and hidden_resource amerindian and not event_counter military_reforms_1890 1
 ;union standardized replenishment
@@ -4144,6 +4151,7 @@ building barracks
 	recruit_pool "uni_dragoons_mid"  .2   .02   .99  0  requires factions { portugala, } and event_counter military_reforms_1875 1 and not event_counter military_reforms_2 1
 	recruit_pool "uni_dragoons_high"  .2   .02   .99  0  requires factions { portugala, } and event_counter military_reforms_2 1
 	recruit_pool "uni_volunteer_cavalry_early"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1870 1
+	recruit_pool "uni_frontier_scouts"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1870 1
 	recruit_pool "uni_indian_scouts"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 	recruit_pool "uni_indian_scout_cavalry"  .2   .02   .99  0  requires factions { portugala, } and not event_counter military_reforms_1890 1
 ;confederate standardized normal recruitment
