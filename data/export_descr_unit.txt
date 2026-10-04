@@ -3928,7 +3928,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 3, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 3, 250
 ownership        portugala, slave
 era 0            portugala
 
@@ -4017,7 +4017,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 2, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 2, 325
 ownership        portugala, slave
 era 1            portugala
 
@@ -4046,7 +4046,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 3, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 3, 325
 ownership        portugala, slave
 era 2            portugala
 
@@ -4076,7 +4076,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        portugala, slave
 era 0            portugala
 
@@ -4106,7 +4106,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        portugala, slave
 era 0            portugala
 
@@ -4136,7 +4136,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        portugala, slave
 era 0            portugala
 
@@ -4283,7 +4283,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        portugala, slave
 era 0            portugala
 era 1            portugala
@@ -4315,7 +4315,7 @@ stat_mental      3, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        portugala, slave
 era 0            portugala
 
@@ -4438,7 +4438,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        portugala, slave
 era 0            portugala
 era 1            portugala
@@ -4471,7 +4471,7 @@ stat_mental      3, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        portugala, slave
 era 0            portugala
 
@@ -4855,7 +4855,7 @@ stat_mental      7, disciplined, highly_trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1500, 500, 100, 100, 1500, 1, 500
+stat_cost        2, 1500, 375, 100, 100, 1500, 1, 375
 ownership        slave
 
 
@@ -4953,7 +4953,7 @@ stat_mental      4, impetuous, untrained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        2, 1200, 300, 100, 100, 1200, 1, 300
 ownership        slave
 
 
@@ -4992,7 +4992,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 3, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 3, 250
 ownership        milan, slave
 era 0            milan
 
@@ -5022,7 +5022,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 4, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 4, 325
 ownership        milan, slave
 era 1            milan
 
@@ -5051,7 +5051,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 4, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 4, 325
 ownership        milan, slave
 era 2            milan
 
@@ -5170,7 +5170,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 2, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 2, 250
 ownership        milan, slave
 era 0            milan
 
@@ -5261,7 +5261,7 @@ stat_mental      4, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        milan, slave
 era 0            milan
 
@@ -5292,7 +5292,7 @@ stat_mental      4, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        milan, slave
 era 1            milan
 
@@ -5323,7 +5323,7 @@ stat_mental      4, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1800, 600, 100, 100, 1800, 1, 600
+stat_cost        3, 1800, 450, 100, 100, 1800, 1, 450
 ownership        milan, slave
 era 2            milan
 
@@ -5354,7 +5354,7 @@ stat_mental      4, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        milan, slave
 era 0            milan
 
@@ -5422,7 +5422,7 @@ stat_mental      3, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        slave
 
 
@@ -5457,7 +5457,7 @@ stat_mental      3, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        slave
 
 
@@ -5489,7 +5489,7 @@ stat_mental      2, impetuous, trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        slave
 
 
@@ -5764,7 +5764,7 @@ stat_mental      6, disciplined, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        slave
 
 
@@ -5798,7 +5798,7 @@ stat_mental      7, disciplined, highly_trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1800, 600, 100, 100, 1800, 1, 600
+stat_cost        2, 1800, 450, 100, 100, 1800, 1, 450
 ownership        slave
 
 
@@ -5837,7 +5837,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        teu, slave
 era 0            teu, slave
 
@@ -5869,7 +5869,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        teu, slave
 era 1            teu, slave
 
@@ -5901,7 +5901,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1800, 600, 100, 100, 1800, 1, 600
+stat_cost        3, 1800, 450, 100, 100, 1800, 1, 450
 ownership        teu, slave
 era 2            teu, slave
 
@@ -6092,7 +6092,7 @@ stat_mental      3, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 2, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 2, 250
 ownership        scotland, slave
 era 1            scotland
 era 2            scotland
@@ -6157,7 +6157,7 @@ stat_mental      3, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 3, 267
+stat_cost        2, 800, 200, 100, 100, 800, 3, 200
 ownership        scotland, slave
 era 0            scotland
 
@@ -6306,7 +6306,7 @@ stat_mental      3, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        scotland, slave
 era 2            scotland
 
@@ -6458,7 +6458,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        denmark, slave
 era 0            denmark
 
@@ -6488,7 +6488,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        denmark, slave
 era 1            denmark
 
@@ -6517,7 +6517,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        denmark, slave
 era 2            denmark
 
@@ -6633,7 +6633,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        denmark, slave
 era 0            denmark
 
@@ -6662,7 +6662,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        denmark, slave
 era 1            denmark
 
@@ -6915,7 +6915,7 @@ stat_mental      5, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1100, 367, 100, 100, 1100, 1, 367
+stat_cost        2, 1100, 275, 100, 100, 1100, 1, 275
 ownership        slave
 
 type             peru_carb
@@ -7177,7 +7177,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 900, 300, 100, 100, 900, 1, 300
+stat_cost        2, 900, 225, 100, 100, 900, 1, 225
 ownership        poland, slave
 era 0            poland
 
@@ -7207,7 +7207,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        poland, slave
 era 0            poland
 
@@ -7237,7 +7237,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 900, 300, 100, 100, 900, 1, 300
+stat_cost        2, 900, 225, 100, 100, 900, 1, 225
 ownership        poland, slave
 era 1            poland
 
@@ -7266,7 +7266,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 900, 300, 100, 100, 900, 1, 300
+stat_cost        2, 900, 225, 100, 100, 900, 1, 225
 ownership        poland, slave
 era 2            poland
 
@@ -8072,7 +8072,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 2, 267
+stat_cost        2, 800, 200, 100, 100, 800, 2, 200
 ownership        aztecs, slave
 era 0            aztecs
 
@@ -8102,7 +8102,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 2, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 2, 250
 ownership        aztecs, slave
 era 1            aztecs
 
@@ -8131,7 +8131,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 2, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 2, 325
 ownership        aztecs, slave
 era 2            aztecs
 
@@ -8406,7 +8406,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        3, 1000, 250, 100, 100, 1000, 1, 250
 ownership        aztecs, slave
 era 0            aztecs
 era 1            aztecs
@@ -8473,7 +8473,7 @@ stat_mental      6, disciplined, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1400, 467, 100, 100, 1400, 1, 467
+stat_cost        2, 1400, 350, 100, 100, 1400, 1, 350
 ownership        slave
 
 
@@ -8718,7 +8718,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        slave
 
 
@@ -8752,7 +8752,7 @@ stat_mental      3, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 2, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 2, 250
 ownership        slave, scotland
 era 0            scotland
 era 1            scotland
@@ -9860,7 +9860,7 @@ stat_mental      7, disciplined, highly_trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1600, 533, 100, 100, 1600, 1, 533
+stat_cost        2, 1600, 400, 100, 100, 1600, 1, 400
 ownership        slave, england
 
 
@@ -10070,7 +10070,7 @@ stat_mental      2, low, untrained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        slave, england
 era 0            england
 era 1            england
@@ -10099,7 +10099,7 @@ stat_mental      2, low, untrained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 3, 167
+stat_cost        2, 500, 125, 100, 100, 500, 3, 125
 ownership        bulga, slave
 era 0            bulga, slave
 era 1            bulga, slave
@@ -10132,7 +10132,7 @@ stat_mental      2, impetuous, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        slave, england, hre
 era 2            slave, england, hre
 
@@ -10233,7 +10233,7 @@ stat_mental      2, impetuous, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 2, 167
+stat_cost        2, 500, 125, 100, 100, 500, 2, 125
 ownership        slave, england
 era 0			 england
 era 1			 england
@@ -10262,7 +10262,7 @@ stat_mental      2, impetuous, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 2, 267
+stat_cost        2, 800, 200, 100, 100, 800, 2, 200
 ownership        slave, england
 era 0			 england
 era 1			 england
@@ -10614,7 +10614,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        spain
 era 0            spain
 
@@ -10644,7 +10644,7 @@ stat_mental      3, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        spain
 era 1            spain
 
@@ -10673,7 +10673,7 @@ stat_mental      3, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1600, 533, 100, 100, 1600, 1, 533
+stat_cost        2, 1600, 400, 100, 100, 1600, 1, 400
 ownership        spain
 era 2            spain
 
@@ -11239,7 +11239,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        france, slave
 era 0            france
 
@@ -11269,7 +11269,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        france, slave
 era 1            france
 
@@ -12476,7 +12476,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        slave
 
 type             fra_inf_fr
@@ -13236,7 +13236,7 @@ stat_mental      4, normal, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        hre, hungary, slave
 era 0            hungary
 era 1            hre, hungary
@@ -13266,7 +13266,7 @@ stat_mental      4, normal, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        hre, slave
 
 
@@ -13951,7 +13951,7 @@ stat_mental      4, normal, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        slave
 
 type             gr_sailor
@@ -14507,7 +14507,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        portugal, slave
 era 0            portugal
 
@@ -14536,7 +14536,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        portugal, slave
 era 1            portugal
 
@@ -14565,7 +14565,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        portugal, slave
 era 2            portugal
 
@@ -15902,7 +15902,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        normans, slave
 era 0            normans
 
@@ -15931,7 +15931,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        normans, slave
 era 1            normans
 
@@ -15960,7 +15960,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1600, 533, 100, 100, 1600, 1, 533
+stat_cost        2, 1600, 400, 100, 100, 1600, 1, 400
 ownership        normans, slave
 era 2            normans
 
@@ -16592,7 +16592,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        egypt, slave
 era 0            egypt
 era 1            egypt
@@ -16863,7 +16863,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        3, 1000, 250, 100, 100, 1000, 1, 250
 ownership        egypt, slave
 era 0            egypt
 era 1            egypt
@@ -17240,7 +17240,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        mongols, slave
 era 0            mongols
 
@@ -17270,7 +17270,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        mongols, slave
 era 1            mongols
 
@@ -17299,7 +17299,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        mongols, slave
 era 2            mongols
 
@@ -17911,7 +17911,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        slave
 
 
@@ -18167,7 +18167,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        venice, slave
 era 0            venice
 
@@ -18197,7 +18197,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        venice, slave
 era 1            venice
 
@@ -18226,7 +18226,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        venice, slave
 era 2            venice
 
@@ -18671,7 +18671,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        2, 1200, 300, 100, 100, 1200, 1, 300
 ownership        venice, slave
 era 0            venice
 
@@ -19187,7 +19187,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        2, 1200, 300, 100, 100, 1200, 1, 300
 ownership        slave
 
 type             it_arditi
@@ -19403,7 +19403,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 200, 100, 100, 600, 1, 200
+stat_cost        2, 600, 150, 100, 100, 600, 1, 150
 ownership        russia, slave
 era 0            russia
 
@@ -19433,7 +19433,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        russia, slave
 era 1            russia
 
@@ -19462,7 +19462,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1100, 367, 100, 100, 1100, 1, 367
+stat_cost        2, 1100, 275, 100, 100, 1100, 1, 275
 ownership        russia, slave
 era 2            russia
 
@@ -20120,7 +20120,7 @@ stat_mental      3, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        3, 1000, 250, 100, 100, 1000, 1, 250
 ownership        russia, slave
 era 0            russia
 
@@ -20151,7 +20151,7 @@ stat_mental      3, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        3, 1300, 325, 100, 100, 1300, 1, 325
 ownership        russia, slave
 era 1            russia
 
@@ -20182,7 +20182,7 @@ stat_mental      3, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1600, 533, 100, 100, 1600, 1, 533
+stat_cost        3, 1600, 400, 100, 100, 1600, 1, 400
 ownership        russia, slave
 era 2            russia
 
@@ -20347,7 +20347,7 @@ stat_mental      4, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        slave
 
 type             rus_cos_hussar
@@ -20491,7 +20491,7 @@ stat_mental      3, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        3, 1000, 250, 100, 100, 1000, 1, 250
 ownership        slave
 
 type             rus_sailors
@@ -21024,7 +21024,7 @@ stat_mental      4, normal, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        2, 1200, 300, 100, 100, 1200, 1, 300
 ownership        hungary, slave
 era 1            hungary
 
@@ -21053,7 +21053,7 @@ stat_mental      4, normal, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1800, 600, 100, 100, 1800, 1, 600
+stat_cost        2, 1800, 450, 100, 100, 1800, 1, 450
 ownership        hungary, slave
 era 2            hungary
 
@@ -21682,7 +21682,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        russia, slave
 era 0            russia
 era 1            russia
@@ -22008,7 +22008,7 @@ stat_mental      4, normal, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        2, 1200, 300, 100, 100, 1200, 1, 300
 ownership        slave
 
 type             aus_inf3
@@ -22248,7 +22248,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        moors, slave
 era 0            moors
 
@@ -22278,7 +22278,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        moors, slave
 era 1            moors
 
@@ -22307,7 +22307,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        moors, slave
 era 2            moors
 
@@ -22574,7 +22574,7 @@ stat_mental      2, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 200, 100, 100, 600, 1, 200
+stat_cost        2, 600, 150, 100, 100, 600, 1, 150
 ownership        moors, slave
 era 0            moors
 era 1            moors
@@ -22606,7 +22606,7 @@ stat_mental      2, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 800, 267, 100, 100, 800, 1, 267
+stat_cost        3, 800, 200, 100, 100, 800, 1, 200
 ownership        moors, slave
 era 0            moors
 era 1            moors
@@ -22637,7 +22637,7 @@ stat_mental      2, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 900, 300, 100, 100, 900, 1, 300
+stat_cost        3, 900, 225, 100, 100, 900, 1, 225
 ownership        moors, slave
 era 0            moors
 era 1            moors
@@ -22969,7 +22969,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        slave
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -23002,7 +23002,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 5, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 5, 325
 ownership        teu, slave
 era 1            teu, slave
 
@@ -23031,7 +23031,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1600, 533, 100, 100, 1600, 4, 533
+stat_cost        2, 1600, 400, 100, 100, 1600, 4, 400
 ownership        teu, slave
 era 2            teu, slave
 
@@ -23085,7 +23085,7 @@ banner holy      crusade_cavalry
 soldier          boer_guard1, 40, 10, 1
 mount            boer_wagon
 mount_effect     horse +6, camel +6
-attributes       sea_faring, frighten_mounted, wagon_fort, command, gunpowder_unit
+attributes       free_upkeep_unit, sea_faring, frighten_mounted, wagon_fort, command, gunpowder_unit
 move_speed_mod   0.001
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 3
@@ -23101,7 +23101,7 @@ stat_mental      5, normal, trained, lock_morale
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        4, 2000, 667, 100, 100, 2000, 1, 667
+stat_cost        4, 2000, 500, 100, 100, 2000, 1, 500
 ownership        teu
 era 0            teu
 era 1            teu
@@ -23134,7 +23134,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 5, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 5, 250
 ownership        teu, slave
 era 0            teu, slave
 
@@ -23204,7 +23204,7 @@ stat_mental      3, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 900, 300, 100, 100, 900, 3, 300
+stat_cost        2, 900, 225, 100, 100, 900, 3, 225
 ownership        slave, teu
 era 0            slave, teu
 era 1            slave, teu
@@ -23240,7 +23240,7 @@ stat_mental      5, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        slave
 era 0            slave
 era 1            slave
@@ -23279,7 +23279,7 @@ stat_mental      4, normal, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 300, 100, 100, 100, 300, 1, 100
+stat_cost        3, 300, 75, 100, 100, 300, 1, 75
 ownership        slave
 
 
@@ -23336,7 +23336,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        lith, slave
 era 0            lith, slave
 era 1            lith, slave
@@ -23426,7 +23426,7 @@ stat_mental      3, impetuous, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        lith, slave
 era 2            lith, slave
 
@@ -23545,7 +23545,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 2, 267
+stat_cost        2, 800, 200, 100, 100, 800, 2, 200
 ownership        turks, slave
 era 0            turks
 
@@ -23575,7 +23575,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 2, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 2, 325
 ownership        turks, slave
 era 1            turks
 
@@ -23604,7 +23604,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 2, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 2, 325
 ownership        turks, slave
 era 2            turks
 
@@ -23901,7 +23901,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        turks, slave
 era 0            turks
 
@@ -23931,7 +23931,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        turks, slave
 era 1            turks
 
@@ -24365,7 +24365,7 @@ stat_mental      4, low, untrained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        slave
 
 type             ertu_cav
@@ -24423,7 +24423,7 @@ stat_mental      3, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        slave
 
 type             turk_lt2
@@ -24598,7 +24598,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 3, 167
+stat_cost        2, 500, 125, 100, 100, 500, 3, 125
 ownership        papal_states, slave
 era 1            papal_states, slave
 era 2            papal_states, slave
@@ -24628,7 +24628,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 2, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 2, 250
 ownership        papal_states, slave
 era 0            papal_states, slave
 era 1            papal_states, slave
@@ -24688,7 +24688,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        papal_states, slave
 era 1            papal_states, slave
 era 2            papal_states, slave
@@ -24720,7 +24720,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 800, 267, 100, 100, 800, 1, 267
+stat_cost        3, 800, 200, 100, 100, 800, 1, 200
 ownership        papal_states, slave
 era 1            papal_states, slave
 era 2            papal_states, slave
@@ -24755,7 +24755,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        golden, slave
 era 0            golden
 era 1            golden
@@ -25024,7 +25024,7 @@ stat_mental      2, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 900, 300, 100, 100, 900, 1, 300
+stat_cost        3, 900, 225, 100, 100, 900, 1, 225
 ownership        golden, slave
 era 0            golden
 era 1            golden
@@ -25241,7 +25241,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        slave
 
 type             qajar_inf
@@ -25366,7 +25366,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        timurids, slave
 era 0            timurids
 era 1            timurids
@@ -25397,7 +25397,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        timurids, slave
 era 0            timurids
 era 1            timurids
@@ -25636,7 +25636,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        3, 1000, 250, 100, 100, 1000, 1, 250
 ownership        timurids, slave
 era 0            timurids
 era 1            timurids
@@ -25800,7 +25800,7 @@ stat_mental      4, impetuous, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 900, 300, 100, 100, 900, 1, 300
+stat_cost        2, 900, 225, 100, 100, 900, 1, 225
 ownership        slave
 era 0            slave
 era 1            slave
@@ -25929,7 +25929,7 @@ stat_mental      4, impetuous, untrained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        3, 1300, 325, 100, 100, 1300, 1, 325
 ownership        slave
 
 type             afghan_gunner
@@ -25960,7 +25960,7 @@ stat_mental      5, impetuous, trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1600, 533, 100, 100, 1600, 1, 533
+stat_cost        2, 1600, 400, 100, 100, 1600, 1, 400
 ownership        slave
 
 type             afghan_rifles
@@ -26022,7 +26022,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 ownership        egypt, slave
 era 0            egypt, slave
 era 1            egypt, slave
@@ -26125,7 +26125,7 @@ stat_mental      2, low, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        cuman
 era 0            cuman
 
@@ -26157,7 +26157,7 @@ stat_mental      2, low, untrained
 stat_charge_dist 50
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 900, 300, 100, 100, 900, 1, 300
+stat_cost        3, 900, 225, 100, 100, 900, 1, 225
 ownership        cuman, slave
 era 0            cuman, slave
 era 1            cuman, slave
@@ -26188,7 +26188,7 @@ stat_mental      2, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 2, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 2, 250
 ownership        cuman, slave
 era 0            cuman, slave
 
@@ -26217,7 +26217,7 @@ stat_mental      2, low, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        cuman, slave
 era 0            cuman, slave
 era 1            cuman, slave
@@ -26314,7 +26314,7 @@ stat_mental      2, low, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        cuman, slave
 era 0            cuman, slave
 era 1            cuman, slave
@@ -26543,7 +26543,7 @@ stat_mental      2, low, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        bulga, slave
 era 0            bulga, slave
 
@@ -26797,7 +26797,7 @@ stat_mental      2, low, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        bulga, slave
 era 2            bulga
 era 0            bulga, slave
@@ -27009,7 +27009,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        cru, slave
 era 0            cru, slave
 
@@ -27134,7 +27134,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        cru, slave
 era 0            cru, slave
 era 1            cru, slave
@@ -27261,7 +27261,7 @@ stat_mental      3, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        portugal, slave
 era 0            portugal
 era 1            portugal
@@ -27317,7 +27317,7 @@ stat_mental      3, impetuous, untrained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        portugal, slave
 era 0            portugal
 era 1            portugal
@@ -27414,7 +27414,7 @@ stat_mental      9, impetuous, untrained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 armour_ug_levels 0
 armour_ug_models Qing_Tiger_Warriors
 ownership        slave
@@ -27480,7 +27480,7 @@ stat_mental      2, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1100, 367, 100, 100, 1100, 2, 367
+stat_cost        2, 1100, 275, 100, 100, 1100, 2, 275
 ownership        byzantium, slave
 era 0            byzantium
 era 1            byzantium
@@ -27546,7 +27546,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        byzantium, slave
 era 0            byzantium
 
@@ -27578,7 +27578,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        byzantium, slave
 era 0            byzantium
 
@@ -27610,7 +27610,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 450, 150, 100, 100, 450, 1, 150
+stat_cost        2, 450, 113, 100, 100, 450, 1, 113
 ownership        byzantium, slave
 era 0            byzantium
 
@@ -27704,7 +27704,7 @@ stat_mental      4, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        slave
 
 
@@ -27737,7 +27737,7 @@ stat_mental      4, normal, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        slave
 
 
@@ -27801,7 +27801,7 @@ stat_mental      2, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1200, 400, 100, 100, 1200, 3, 400
+stat_cost        2, 1200, 300, 100, 100, 1200, 3, 300
 ownership        byzantium, slave
 era 1            byzantium
 
@@ -27865,7 +27865,7 @@ stat_mental      2, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 550, 183, 100, 100, 550, 2, 183
+stat_cost        2, 550, 138, 100, 100, 550, 2, 138
 ownership        byzantium, slave
 era 0            byzantium
 era 1            byzantium
@@ -27931,7 +27931,7 @@ stat_mental      2, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1500, 500, 100, 100, 1500, 2, 500
+stat_cost        2, 1500, 375, 100, 100, 1500, 2, 375
 ownership        byzantium, slave
 era 2            byzantium
 
@@ -27997,7 +27997,7 @@ stat_mental      2, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 900, 300, 100, 100, 900, 1, 300
+stat_cost        3, 900, 225, 100, 100, 900, 1, 225
 ownership        byzantium, slave
 era 0            byzantium
 era 1            byzantium
@@ -28041,7 +28041,7 @@ stat_mental      7, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        3, 1200, 300, 100, 100, 1200, 1, 300
 ownership        slave, byzantium, russia
 era 0            slave, byzantium, russia
 era 1            slave, byzantium, russia
@@ -28075,7 +28075,7 @@ stat_mental      3, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 200, 100, 100, 600, 1, 200
+stat_cost        2, 600, 150, 100, 100, 600, 1, 150
 ownership        byzantium, saxons, slave
 era 0            byzantium, saxons, slave
 era 1            byzantium, saxons, slave
@@ -28171,7 +28171,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 3, 233
+stat_cost        2, 700, 175, 100, 100, 700, 3, 175
 ownership        byzantium, slave
 era 0            byzantium, slave
 
@@ -28264,7 +28264,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        byzantium, slave
 era 0            byzantium, slave
 
@@ -28292,7 +28292,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 2, 167
+stat_cost        2, 500, 125, 100, 100, 500, 2, 125
 ownership        byzantium, slave
 era 0            byzantium, slave
 era 1            byzantium, slave
@@ -28325,7 +28325,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 2, 233
+stat_cost        2, 700, 175, 100, 100, 700, 2, 175
 ownership        byzantium, slave
 era 0            byzantium, slave
 era 1            byzantium, slave
@@ -28421,7 +28421,7 @@ stat_mental      3, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 200, 100, 100, 600, 1, 200
+stat_cost        2, 600, 150, 100, 100, 600, 1, 150
 ownership        byzantium, slave
 era 0            byzantium, slave
 era 1            byzantium, slave
@@ -28615,7 +28615,7 @@ stat_mental      2, low, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1100, 367, 100, 100, 1100, 2, 367
+stat_cost        3, 1100, 275, 100, 100, 1100, 2, 275
 ownership        byzantium, slave
 era 0            byzantium
 era 1            byzantium
@@ -28682,7 +28682,7 @@ stat_mental      4, normal, trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        3, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        3, 1000, 250, 100, 100, 1000, 1, 250
 armour_ug_levels 0
 armour_ug_models Korean_Gimagungsu
 ownership        byzantium, saxons, slave
@@ -28784,7 +28784,7 @@ stat_mental      4, impetuous, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1300, 433, 100, 100, 1300, 1, 433
+stat_cost        2, 1300, 325, 100, 100, 1300, 1, 325
 ownership        papal_states, slave
 
 
@@ -28818,7 +28818,7 @@ stat_mental      4, impetuous, untrained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 2, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 2, 250
 ownership        papal_states, slave
 
 
@@ -28880,7 +28880,7 @@ stat_mental      4, impetuous, untrained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 2, 167
+stat_cost        2, 500, 125, 100, 100, 500, 2, 125
 ownership        papal_states, slave
 
 
@@ -29054,7 +29054,7 @@ stat_mental      4, impetuous, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        papal_states, slave
 
 
@@ -29153,7 +29153,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 2, 267
+stat_cost        2, 800, 200, 100, 100, 800, 2, 200
 armour_ug_levels 0
 armour_ug_models Ethiopia_Sudanese_Musketeers
 ownership        papal_states, slave
@@ -29182,7 +29182,7 @@ stat_mental      3, impetuous, untrained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 3, 167
+stat_cost        2, 500, 125, 100, 100, 500, 3, 125
 armour_ug_levels 0
 armour_ug_models Ethiopia_Sudanese_Warriors
 ownership        papal_states, slave
@@ -30118,7 +30118,7 @@ stat_mental      3, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 200, 100, 100, 600, 1, 200
+stat_cost        2, 600, 150, 100, 100, 600, 1, 150
 armour_ug_levels 0
 armour_ug_models Japan_Ainu_Archers
 ownership        saxons, slave
@@ -30152,7 +30152,7 @@ stat_mental      3, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 armour_ug_levels 0
 armour_ug_models Japan_Ainu_Geberu
 ownership        saxons, slave
@@ -30184,7 +30184,7 @@ stat_mental      3, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 armour_ug_levels 0
 armour_ug_models Japan_Ainu_Geberu
 ownership        saxons, slave
@@ -30216,7 +30216,7 @@ stat_mental      3, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 armour_ug_levels 0
 armour_ug_models Japan_Ainu_Teppo
 ownership        saxons, slave
@@ -30321,7 +30321,7 @@ stat_mental      4, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 900, 333, 100, 100, 900, 1, 333
+stat_cost        2, 900, 225, 100, 100, 900, 1, 225
 armour_ug_levels 0
 armour_ug_models Japan_Byakkotai
 ownership        saxons, slave
@@ -31019,7 +31019,7 @@ stat_mental      3, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 3, 167
+stat_cost        2, 500, 125, 100, 100, 500, 3, 125
 armour_ug_levels 0
 armour_ug_models Japan_Heimin_Mob
 ownership        saxons, slave
@@ -31054,7 +31054,7 @@ stat_mental      3, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 armour_ug_levels 0
 armour_ug_models Japan_Heimin_Partisans
 ownership        saxons, slave
@@ -31087,7 +31087,7 @@ stat_mental      3, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 armour_ug_levels 0
 armour_ug_models Japan_Heimin_Partisans_Geberu
 ownership        saxons, slave
@@ -31120,7 +31120,7 @@ stat_mental      3, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1000, 333, 100, 100, 1000, 1, 333
+stat_cost        2, 1000, 250, 100, 100, 1000, 1, 250
 armour_ug_levels 0
 armour_ug_models Japan_Heimin_Partisans_Geberu
 ownership        saxons, slave
@@ -31538,7 +31538,7 @@ stat_mental      4, low, trained
 stat_charge_dist 12
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1200, 400, 100, 100, 1200, 1, 400
+stat_cost        2, 1200, 300, 100, 100, 1200, 1, 300
 armour_ug_levels 0
 armour_ug_models Japan_Keishitai_1870
 ownership        saxons, slave
@@ -32945,7 +32945,7 @@ stat_mental      3, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        slave
 
 
@@ -33066,7 +33066,7 @@ stat_mental      2, impetuous, trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        slave
 
 
@@ -33094,7 +33094,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 800, 267, 100, 100, 800, 1, 267
+stat_cost        2, 800, 200, 100, 100, 800, 1, 200
 ownership        slave
 era 0            slave
 era 1            slave
@@ -33224,7 +33224,7 @@ stat_mental      2, low, trained
 stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 233, 100, 100, 700, 1, 233
+stat_cost        2, 700, 175, 100, 100, 700, 1, 175
 ownership        slave
 
 type             tib_tribal_spear
@@ -33250,7 +33250,7 @@ stat_mental      4, impetuous, trained
 stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 500, 167, 100, 100, 500, 1, 167
+stat_cost        2, 500, 125, 100, 100, 500, 1, 125
 ownership        slave
 
 
