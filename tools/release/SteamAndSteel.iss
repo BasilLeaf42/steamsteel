@@ -259,7 +259,7 @@ var
   ActualBytes: Int64;
 begin
   InstalledPath := AddBackslash(WizardDirValue) + 'mods\steamsteel\' + RelativePath;
-  if (not FileSize(InstalledPath, ActualBytes)) or (ActualBytes <> ExpectedBytes) then
+  if (not FileSize64(InstalledPath, ActualBytes)) or (ActualBytes <> ExpectedBytes) then
     RaiseException(
       'Installation validation failed for ' + RelativePath + '.' + #13#10 +
       'The release was incomplete or damaged. Re-extract the full download and run setup again.');
