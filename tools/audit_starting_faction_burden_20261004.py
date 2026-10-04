@@ -50,7 +50,7 @@ for number, raw in enumerate(CAMPAIGN.read_text(encoding="utf-8", errors="replac
     m = re.match(r"^faction\s+([^,\s]+)", line)
     if m:
         current = m.group(1)
-        factions[current] = {"denari": 0, "settlements": [], "units": [], "unknown": []}
+        factions[current] = {"denari": 0, "settlements": [], "ports": 0, "units": [], "unknown": []}
         continue
     if not current:
         continue
@@ -61,6 +61,9 @@ for number, raw in enumerate(CAMPAIGN.read_text(encoding="utf-8", errors="replac
     m = re.match(r"^level\s+(\S+)", line)
     if m:
         factions[current]["settlements"].append(m.group(1))
+        continue
+    if re.match(r"^type\s+port\s+", line):
+        factions[current]["ports"] += 1
         continue
     if re.match(r"^unit\s+", line):
         unit = resolve(line)
@@ -80,6 +83,9 @@ for faction, data in factions.items():
         "denari": data["denari"],
         "settlement_count": len(data["settlements"]),
         "settlement_size_points": capacity,
+        "land_unit_cap": capacity + 1,
+        "port_count": data["ports"],
+        "ship_cap": data["ports"] * 2,
         "land_units": len(land),
         "ships": len(ships),
         "land_upkeep": sum(records[u]["upkeep"] for u in land),

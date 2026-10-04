@@ -1,6 +1,18 @@
 #ifndef MyAppVersion
   #define MyAppVersion "prerelease"
 #endif
+#ifndef MusicDatBytes
+  #define MusicDatBytes 1006556167
+#endif
+#ifndef MusicIdxBytes
+  #define MusicIdxBytes 22260
+#endif
+#ifndef SfxDatBytes
+  #define SfxDatBytes 952213331
+#endif
+#ifndef SfxIdxBytes
+  #define SfxIdxBytes 26806
+#endif
 
 [Setup]
 AppId={{E120887A-E207-4C8A-B064-28A81C68A42D}
@@ -239,4 +251,30 @@ begin
     'This installer adds Steam & Steel to an existing Medieval II: Total War installation.' + #13#10 + #13#10 +
     'The game folder is detected automatically when possible. A non-standard installation can be selected manually.' + #13#10 + #13#10 +
     'Clean-install notice: if mods\steamsteel already exists, setup will ask permission to delete that entire folder before installation. Back up any saves or personal files you want to retain.';
+end;
+
+procedure RequireInstalledFile(const RelativePath: string; ExpectedBytes: Int64);
+var
+  InstalledPath: string;
+  ActualBytes: Int64;
+begin
+  InstalledPath := AddBackslash(WizardDirValue) + 'mods\steamsteel\' + RelativePath;
+  if (not FileSize(InstalledPath, ActualBytes)) or (ActualBytes <> ExpectedBytes) then
+    RaiseException(
+      'Installation validation failed for ' + RelativePath + '.' + #13#10 +
+      'The release was incomplete or damaged. Re-extract the full download and run setup again.');
+end;
+
+procedure CurStepChanged(CurStep: TSetupStep);
+begin
+  if CurStep = ssPostInstall then
+  begin
+    RequireInstalledFile('data\sounds\Music.dat', {#MusicDatBytes});
+    RequireInstalledFile('data\sounds\Music.idx', {#MusicIdxBytes});
+    RequireInstalledFile('data\sounds\SFX.dat', {#SfxDatBytes});
+    RequireInstalledFile('data\sounds\SFX.idx', {#SfxIdxBytes});
+    RequireInstalledFile('data\unit_models\_units\bnw\textures\jap_navewuqi.texture', 1398304);
+    RequireInstalledFile('data\battlefield\fire\smoke6_greek.texture', 22048);
+    RequireInstalledFile('data\battlefield\fire\greek_burning_smoke.texture', 22048);
+  end;
 end;

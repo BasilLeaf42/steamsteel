@@ -35,7 +35,7 @@
     "regionName": "Hong Kong",
     "settlement": "Guangzhou",
     "settlementName": "Hong Kong",
-    "resources": "china",
+    "resources": "china,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": true
   },
@@ -65,7 +65,7 @@
     "regionName": "Cape Colony",
     "settlement": "Cape",
     "settlementName": "Cape Town",
-    "resources": "sub_sahara,south_africa",
+    "resources": "sub_sahara,south_africa,settler",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -75,7 +75,7 @@
     "regionName": "West Australia",
     "settlement": "Perth",
     "settlementName": "Perth",
-    "resources": "anzac",
+    "resources": "anzac,settler",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -85,7 +85,7 @@
     "regionName": "New Zealand",
     "settlement": "Wellington",
     "settlementName": "Wellington",
-    "resources": "anzac",
+    "resources": "anzac,settler",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -95,7 +95,7 @@
     "regionName": "Canada",
     "settlement": "Quebec",
     "settlementName": "Montreal",
-    "resources": "canada",
+    "resources": "canada,settler",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -105,7 +105,7 @@
     "regionName": "North-Western Territory",
     "settlement": "Inuit",
     "settlementName": "Yellowknife",
-    "resources": "amerindian,canada",
+    "resources": "amerindian,canada,colonial",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -115,7 +115,7 @@
     "regionName": "Rupert's Land",
     "settlement": "York_factory",
     "settlementName": "York Factory",
-    "resources": "amerindian,canada",
+    "resources": "amerindian,canada,colonial",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -125,7 +125,7 @@
     "regionName": "British Columbia",
     "settlement": "Lodz",
     "settlementName": "Vancouver",
-    "resources": "amerindian,canada",
+    "resources": "amerindian,canada,settler",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -135,7 +135,7 @@
     "regionName": "Jamaica",
     "settlement": "Kingston",
     "settlementName": "Kingston",
-    "resources": "amerindian",
+    "resources": "amerindian,colonial",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -145,7 +145,7 @@
     "regionName": "South Australia",
     "settlement": "Ahmadabad",
     "settlementName": "Sydney",
-    "resources": "anzac",
+    "resources": "anzac,settler",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -155,7 +155,7 @@
     "regionName": "North Australia",
     "settlement": "Chiang_mai",
     "settlementName": "Brisbane",
-    "resources": "anzac",
+    "resources": "anzac,settler",
     "factionCreator": "england",
     "creatorDiffersFromOwner": false
   },
@@ -165,7 +165,7 @@
     "regionName": "Malaya",
     "settlement": "Kuala_lumpur",
     "settlementName": "Malacca",
-    "resources": "east_indies,indochina",
+    "resources": "east_indies,indochina,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": true
   },
@@ -175,7 +175,7 @@
     "regionName": "Bengal",
     "settlement": "Bengal",
     "settlementName": "Calcutta",
-    "resources": "india",
+    "resources": "india,himalayan,colonial",
     "factionCreator": "bulga",
     "creatorDiffersFromOwner": true
   },
@@ -185,7 +185,7 @@
     "regionName": "Punjab",
     "settlement": "Dehli",
     "settlementName": "Delhi",
-    "resources": "india",
+    "resources": "india,himalayan,colonial",
     "factionCreator": "bulga",
     "creatorDiffersFromOwner": true
   },
@@ -195,7 +195,7 @@
     "regionName": "Madras Presidency",
     "settlement": "Cuttack",
     "settlementName": "Madras",
-    "resources": "india",
+    "resources": "india,colonial",
     "factionCreator": "bulga",
     "creatorDiffersFromOwner": true
   },
@@ -205,7 +205,7 @@
     "regionName": "Central Provinces",
     "settlement": "Jabalpur",
     "settlementName": "Bhopal",
-    "resources": "india",
+    "resources": "india,colonial",
     "factionCreator": "bulga",
     "creatorDiffersFromOwner": true
   },
@@ -215,7 +215,7 @@
     "regionName": "Sind",
     "settlement": "Sind",
     "settlementName": "Karachi",
-    "resources": "india",
+    "resources": "india,colonial",
     "factionCreator": "bulga",
     "creatorDiffersFromOwner": true
   },
@@ -225,7 +225,7 @@
     "regionName": "Central Mexico",
     "settlement": "Mexico",
     "settlementName": "Mexico City",
-    "resources": "mexico,s_america",
+    "resources": "mexico,colonial",
     "factionCreator": "scotland",
     "creatorDiffersFromOwner": false
   },
@@ -235,7 +235,7 @@
     "regionName": "Northern Mexico",
     "settlement": "Galicie",
     "settlementName": "Monterrey",
-    "resources": "mexico,s_america",
+    "resources": "mexico,colonial",
     "factionCreator": "scotland",
     "creatorDiffersFromOwner": false
   },
@@ -245,7 +245,7 @@
     "regionName": "Southern Mexico",
     "settlement": "Veracruz",
     "settlementName": "Veracruz",
-    "resources": "mexico,s_america",
+    "resources": "mexico,colonial",
     "factionCreator": "scotland",
     "creatorDiffersFromOwner": false
   },
@@ -255,7 +255,7 @@
     "regionName": "Transvaal",
     "settlement": "Lusaka",
     "settlementName": "Pretoria",
-    "resources": "sub_sahara,south_africa",
+    "resources": "sub_sahara,south_africa,settler",
     "factionCreator": "teu",
     "creatorDiffersFromOwner": false
   },
@@ -265,7 +265,7 @@
     "regionName": "Orange Free State",
     "settlement": "Jerusalemb",
     "settlementName": "Bloemfontein",
-    "resources": "sub_sahara,south_africa",
+    "resources": "sub_sahara,south_africa,settler",
     "factionCreator": "teu",
     "creatorDiffersFromOwner": false
   },
@@ -335,7 +335,7 @@
     "regionName": "Northern Peru",
     "settlement": "Lima",
     "settlementName": "Lima",
-    "resources": "s_america,peru",
+    "resources": "peru,colonial",
     "factionCreator": "denmark",
     "creatorDiffersFromOwner": false
   },
@@ -345,7 +345,7 @@
     "regionName": "Southern Peru",
     "settlement": "Cuzco",
     "settlementName": "Cuzco",
-    "resources": "s_america,peru",
+    "resources": "peru,colonial",
     "factionCreator": "denmark",
     "creatorDiffersFromOwner": false
   },
@@ -395,7 +395,7 @@
     "regionName": "Senegal",
     "settlement": "Kansala",
     "settlementName": "Dakar",
-    "resources": "sub_sahara,north_africa",
+    "resources": "sub_sahara,north_africa,colonial",
     "factionCreator": "lith",
     "creatorDiffersFromOwner": true
   },
@@ -405,7 +405,7 @@
     "regionName": "Algeria",
     "settlement": "Krasnodar",
     "settlementName": "Algiers",
-    "resources": "middle_east,arab,north_africa",
+    "resources": "arab,north_africa,settler",
     "factionCreator": "moors",
     "creatorDiffersFromOwner": true
   },
@@ -415,7 +415,7 @@
     "regionName": "South Vietnam",
     "settlement": "Bombay",
     "settlementName": "Saigon",
-    "resources": "indochina",
+    "resources": "indochina,colonial",
     "factionCreator": "cru",
     "creatorDiffersFromOwner": true
   },
@@ -545,7 +545,7 @@
     "regionName": "Philippines",
     "settlement": "Philipines",
     "settlementName": "Manila",
-    "resources": "east_indies",
+    "resources": "east_indies,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": true
   },
@@ -555,7 +555,7 @@
     "regionName": "Cuba",
     "settlement": "Havana",
     "settlementName": "Havana",
-    "resources": "cuba,s_america",
+    "resources": "cuba,colonial",
     "factionCreator": "spain",
     "creatorDiffersFromOwner": false
   },
@@ -565,7 +565,7 @@
     "regionName": "Pennsylvania",
     "settlement": "Corinth",
     "settlementName": "Washington DC",
-    "resources": "usa,csa",
+    "resources": "usa,csa,settler",
     "factionCreator": "hungary",
     "creatorDiffersFromOwner": true
   },
@@ -575,7 +575,7 @@
     "regionName": "Mid-Atlantic States",
     "settlement": "Silves",
     "settlementName": "New York",
-    "resources": "usa",
+    "resources": "usa,settler",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": false
   },
@@ -585,7 +585,7 @@
     "regionName": "New England",
     "settlement": "Abenaki",
     "settlementName": "Boston",
-    "resources": "usa",
+    "resources": "usa,settler",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": false
   },
@@ -595,7 +595,7 @@
     "regionName": "Kansas Territory",
     "settlement": "Kansas",
     "settlementName": "Tulsa",
-    "resources": "usa,amerindian",
+    "resources": "usa,amerindian,settler",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": false
   },
@@ -605,7 +605,7 @@
     "regionName": "Southwest Territories",
     "settlement": "Utah",
     "settlementName": "Salt Lake City",
-    "resources": "usa,amerindian",
+    "resources": "usa,amerindian,settler",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": false
   },
@@ -615,7 +615,7 @@
     "regionName": "Great Lakes States",
     "settlement": "Dakota",
     "settlementName": "Chicago",
-    "resources": "usa",
+    "resources": "usa,settler",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": false
   },
@@ -625,7 +625,7 @@
     "regionName": "Pacific Northwest",
     "settlement": "Tualatin",
     "settlementName": "Portland",
-    "resources": "usa,amerindian",
+    "resources": "usa,amerindian,settler",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": false
   },
@@ -635,7 +635,7 @@
     "regionName": "California",
     "settlement": "Tongva",
     "settlementName": "San Francisco",
-    "resources": "usa,amerindian",
+    "resources": "usa,amerindian,settler",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": false
   },
@@ -645,7 +645,7 @@
     "regionName": "New Mexico Territory",
     "settlement": "Nuevo_Mexico",
     "settlementName": "Tucson",
-    "resources": "usa,amerindian",
+    "resources": "usa,amerindian,settler",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": false
   },
@@ -655,7 +655,7 @@
     "regionName": "American Midwest",
     "settlement": "Zhengding",
     "settlementName": "Omaha",
-    "resources": "usa,amerindian",
+    "resources": "usa,amerindian,settler",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": false
   },
@@ -665,7 +665,7 @@
     "regionName": "Southern Brazil",
     "settlement": "Rio_Janeiro",
     "settlementName": "Rio de Janeiro",
-    "resources": "s_america,brazil",
+    "resources": "brazil,colonial",
     "factionCreator": "poland",
     "creatorDiffersFromOwner": false
   },
@@ -675,7 +675,7 @@
     "regionName": "Northern Brazil",
     "settlement": "Salvador",
     "settlementName": "Salvador",
-    "resources": "s_america,brazil",
+    "resources": "brazil,colonial",
     "factionCreator": "poland",
     "creatorDiffersFromOwner": false
   },
@@ -685,7 +685,7 @@
     "regionName": "Amazonas",
     "settlement": "Potosi",
     "settlementName": "Manaus",
-    "resources": "s_america,brazil",
+    "resources": "brazil,colonial",
     "factionCreator": "poland",
     "creatorDiffersFromOwner": false
   },
@@ -695,7 +695,7 @@
     "regionName": "Ethiopia",
     "settlement": "Berbera",
     "settlementName": "Gondar",
-    "resources": "sub_sahara,ethiopia",
+    "resources": "sub_sahara,ethiopia,colonial",
     "factionCreator": "lith",
     "creatorDiffersFromOwner": true
   },
@@ -765,7 +765,7 @@
     "regionName": "Novorussia",
     "settlement": "Caffa",
     "settlementName": "Sevastopol",
-    "resources": "fish,russia",
+    "resources": "fish,russia,colonial",
     "factionCreator": "russia",
     "creatorDiffersFromOwner": false
   },
@@ -795,7 +795,7 @@
     "regionName": "Baikalia",
     "settlement": "Irkutsk",
     "settlementName": "Irkutsk",
-    "resources": "steppe,siberia,mongolia",
+    "resources": "steppe,siberia,mongolia,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -805,7 +805,7 @@
     "regionName": "Volga",
     "settlement": "Ufa",
     "settlementName": "Kazan",
-    "resources": "russia,steppe",
+    "resources": "russia,steppe,colonial",
     "factionCreator": "russia",
     "creatorDiffersFromOwner": false
   },
@@ -815,7 +815,7 @@
     "regionName": "Siberia",
     "settlement": "Boli",
     "settlementName": "Vladivostok",
-    "resources": "steppe,siberia,manchuria",
+    "resources": "steppe,siberia,manchuria,colonial",
     "factionCreator": "russia",
     "creatorDiffersFromOwner": false
   },
@@ -825,7 +825,7 @@
     "regionName": "Western Kazakhstan",
     "settlement": "Kyptchak",
     "settlementName": "Guryev",
-    "resources": "russia,steppe",
+    "resources": "russia,steppe,colonial",
     "factionCreator": "russia",
     "creatorDiffersFromOwner": false
   },
@@ -835,7 +835,7 @@
     "regionName": "Eastern Kazakhstan",
     "settlement": "Arqin",
     "settlementName": "Akmolinsk",
-    "resources": "steppe,russia",
+    "resources": "steppe,russia,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -845,7 +845,7 @@
     "regionName": "Semirechie",
     "settlement": "Almaty",
     "settlementName": "Verniy",
-    "resources": "steppe,russia",
+    "resources": "steppe,russia,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -855,7 +855,7 @@
     "regionName": "Ural",
     "settlement": "Tyumen",
     "settlementName": "Tyumen",
-    "resources": "russia,steppe",
+    "resources": "russia,steppe,colonial",
     "factionCreator": "russia",
     "creatorDiffersFromOwner": false
   },
@@ -865,7 +865,7 @@
     "regionName": "Northern Russia",
     "settlement": "Arkhangelsk",
     "settlementName": "Pustozersk",
-    "resources": "russia",
+    "resources": "russia,colonial",
     "factionCreator": "russia",
     "creatorDiffersFromOwner": false
   },
@@ -875,7 +875,7 @@
     "regionName": "Transbaikal",
     "settlement": "Ulan_Ude",
     "settlementName": "Verkhneudinsk",
-    "resources": "steppe,siberia,mongolia",
+    "resources": "steppe,siberia,mongolia,colonial",
     "factionCreator": "russia",
     "creatorDiffersFromOwner": false
   },
@@ -885,7 +885,7 @@
     "regionName": "Western Siberia",
     "settlement": "Siberia",
     "settlementName": "Nadym",
-    "resources": "siberia,steppe",
+    "resources": "siberia,steppe,colonial",
     "factionCreator": "russia",
     "creatorDiffersFromOwner": false
   },
@@ -895,7 +895,7 @@
     "regionName": "Transcaucasia",
     "settlement": "Baku",
     "settlementName": "Tiflis",
-    "resources": "georgia,armenia,russia,ottoman",
+    "resources": "georgia,armenia,russia,ottoman,colonial",
     "factionCreator": "egypt",
     "creatorDiffersFromOwner": true
   },
@@ -915,7 +915,7 @@
     "regionName": "Alaska",
     "settlement": "Anchorage",
     "settlementName": "Fort St Constantine",
-    "resources": "amerindian,usa,russia",
+    "resources": "amerindian,usa,russia,colonial",
     "factionCreator": "russia",
     "creatorDiffersFromOwner": false
   },
@@ -925,7 +925,7 @@
     "regionName": "Kabul",
     "settlement": "Kandahar",
     "settlementName": "Kabul",
-    "resources": "afghanistan",
+    "resources": "afghanistan,colonial",
     "factionCreator": "timurids",
     "creatorDiffersFromOwner": false
   },
@@ -935,7 +935,7 @@
     "regionName": "Qandahar",
     "settlement": "Baluchistan",
     "settlementName": "Kandahar",
-    "resources": "afghanistan",
+    "resources": "afghanistan,colonial",
     "factionCreator": "turks",
     "creatorDiffersFromOwner": true
   },
@@ -945,7 +945,7 @@
     "regionName": "Mysore",
     "settlement": "Bangalore",
     "settlementName": "Bangalore",
-    "resources": "india",
+    "resources": "india,colonial",
     "factionCreator": "bulga",
     "creatorDiffersFromOwner": false
   },
@@ -955,7 +955,7 @@
     "regionName": "Rajputana",
     "settlement": "Jaipur",
     "settlementName": "Jaipur",
-    "resources": "india",
+    "resources": "india,colonial",
     "factionCreator": "bulga",
     "creatorDiffersFromOwner": false
   },
@@ -965,7 +965,7 @@
     "regionName": "Fez",
     "settlement": "Fez",
     "settlementName": "Fez",
-    "resources": "middle_east,morocco,north_africa",
+    "resources": "morocco,north_africa,colonial",
     "factionCreator": "moors",
     "creatorDiffersFromOwner": false
   },
@@ -975,7 +975,7 @@
     "regionName": "Marrakesh",
     "settlement": "Marrakesh",
     "settlementName": "Marrakesh",
-    "resources": "middle_east,morocco,north_africa",
+    "resources": "morocco,north_africa,colonial",
     "factionCreator": "moors",
     "creatorDiffersFromOwner": false
   },
@@ -985,7 +985,7 @@
     "regionName": "Marmara",
     "settlement": "Constantinople",
     "settlementName": "Constantinople",
-    "resources": "ottoman,greece",
+    "resources": "ottoman,greece,colonial",
     "factionCreator": "turks",
     "creatorDiffersFromOwner": false
   },
@@ -995,7 +995,7 @@
     "regionName": "Central Anatolia",
     "settlement": "Konia",
     "settlementName": "Kayseri",
-    "resources": "middle_east,ottoman",
+    "resources": "ottoman,colonial",
     "factionCreator": "turks",
     "creatorDiffersFromOwner": false
   },
@@ -1005,7 +1005,7 @@
     "regionName": "Bulgaria",
     "settlement": "Sofia",
     "settlementName": "Sofia",
-    "resources": "ottoman,bulgaria",
+    "resources": "ottoman,bulgaria,colonial",
     "factionCreator": "mongols",
     "creatorDiffersFromOwner": true
   },
@@ -1015,7 +1015,7 @@
     "regionName": "Yemen",
     "settlement": "Yemen",
     "settlementName": "Sana'a",
-    "resources": "middle_east,arab",
+    "resources": "arab,colonial",
     "factionCreator": "turks",
     "creatorDiffersFromOwner": false
   },
@@ -1025,7 +1025,7 @@
     "regionName": "Aegean",
     "settlement": "Smyrna",
     "settlementName": "Smyrna",
-    "resources": "middle_east,ottoman",
+    "resources": "ottoman,colonial",
     "factionCreator": "turks",
     "creatorDiffersFromOwner": false
   },
@@ -1035,7 +1035,7 @@
     "regionName": "Black Sea Coast",
     "settlement": "Trebizond",
     "settlementName": "Trebizond",
-    "resources": "middle_east,ottoman",
+    "resources": "ottoman,colonial",
     "factionCreator": "turks",
     "creatorDiffersFromOwner": false
   },
@@ -1045,7 +1045,7 @@
     "regionName": "Syria",
     "settlement": "Antioch",
     "settlementName": "Aleppo",
-    "resources": "middle_east,arab,ottoman",
+    "resources": "arab,ottoman,colonial",
     "factionCreator": "turks",
     "creatorDiffersFromOwner": false
   },
@@ -1055,7 +1055,7 @@
     "regionName": "Kurdistan",
     "settlement": "Manzikirt",
     "settlementName": "Van",
-    "resources": "middle_east,arab,ottoman,armenia",
+    "resources": "arab,ottoman,armenia,colonial",
     "factionCreator": "turks",
     "creatorDiffersFromOwner": false
   },
@@ -1065,7 +1065,7 @@
     "regionName": "Macedonia",
     "settlement": "Thessalonica",
     "settlementName": "Thessaloniki",
-    "resources": "ottoman,greece,bulgaria",
+    "resources": "ottoman,greece,bulgaria,colonial",
     "factionCreator": "mongols",
     "creatorDiffersFromOwner": true
   },
@@ -1075,7 +1075,7 @@
     "regionName": "Levant",
     "settlement": "Damascus",
     "settlementName": "Damascus",
-    "resources": "middle_east,arab,ottoman",
+    "resources": "arab,ottoman,colonial",
     "factionCreator": "golden",
     "creatorDiffersFromOwner": true
   },
@@ -1085,7 +1085,7 @@
     "regionName": "Tripolitania",
     "settlement": "Tripoli",
     "settlementName": "Tripoli",
-    "resources": "middle_east,arab,north_africa",
+    "resources": "arab,north_africa,colonial",
     "factionCreator": "moors",
     "creatorDiffersFromOwner": true
   },
@@ -1095,7 +1095,7 @@
     "regionName": "Mesopotamia",
     "settlement": "Baghdad",
     "settlementName": "Baghdad",
-    "resources": "middle_east,arab,ottoman",
+    "resources": "arab,ottoman,colonial",
     "factionCreator": "golden",
     "creatorDiffersFromOwner": true
   },
@@ -1105,7 +1105,7 @@
     "regionName": "Khorasan",
     "settlement": "Teheran",
     "settlementName": "Tehran",
-    "resources": "persia,middle_east",
+    "resources": "persia,colonial",
     "factionCreator": "egypt",
     "creatorDiffersFromOwner": false
   },
@@ -1115,7 +1115,7 @@
     "regionName": "Azerbaijan",
     "settlement": "Tabriz",
     "settlementName": "Tabriz",
-    "resources": "persia,georgia",
+    "resources": "persia,georgia,colonial",
     "factionCreator": "egypt",
     "creatorDiffersFromOwner": false
   },
@@ -1125,7 +1125,7 @@
     "regionName": "Kerman",
     "settlement": "Kerman",
     "settlementName": "Bandar Abbas",
-    "resources": "persia,middle_east",
+    "resources": "persia,colonial",
     "factionCreator": "egypt",
     "creatorDiffersFromOwner": false
   },
@@ -1135,7 +1135,7 @@
     "regionName": "Isfahan",
     "settlement": "Esfahan",
     "settlementName": "Isfahan",
-    "resources": "persia,middle_east",
+    "resources": "persia,colonial",
     "factionCreator": "egypt",
     "creatorDiffersFromOwner": false
   },
@@ -1145,7 +1145,7 @@
     "regionName": "Mozambique",
     "settlement": "Angoche",
     "settlementName": "Ulundi",
-    "resources": "sub_sahara,zululand,south_africa",
+    "resources": "sub_sahara,zululand,south_africa,colonial",
     "factionCreator": "spain",
     "creatorDiffersFromOwner": true
   },
@@ -1155,7 +1155,7 @@
     "regionName": "Ferghana",
     "settlement": "Tashkent",
     "settlementName": "Tashkent",
-    "resources": "steppe,kokand,russia",
+    "resources": "steppe,kokand,russia,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": false
   },
@@ -1165,7 +1165,7 @@
     "regionName": "Syr Darya",
     "settlement": "Astana",
     "settlementName": "Aulie-Ata",
-    "resources": "steppe,kokand,russia",
+    "resources": "steppe,kokand,russia,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": false
   },
@@ -1175,7 +1175,7 @@
     "regionName": "Oman",
     "settlement": "Qatar",
     "settlementName": "Muscat",
-    "resources": "middle_east,arab,muscat",
+    "resources": "arab,muscat,colonial",
     "factionCreator": "golden",
     "creatorDiffersFromOwner": false
   },
@@ -1185,7 +1185,7 @@
     "regionName": "Zanzibar Coast",
     "settlement": "Mombasa",
     "settlementName": "Zanzibar",
-    "resources": "arab,sub_sahara,muscat",
+    "resources": "arab,sub_sahara,muscat,colonial",
     "factionCreator": "golden",
     "creatorDiffersFromOwner": false
   },
@@ -1205,7 +1205,7 @@
     "regionName": "Java",
     "settlement": "Jakarta",
     "settlementName": "Batavia",
-    "resources": "east_indies",
+    "resources": "east_indies,colonial",
     "factionCreator": "cru",
     "creatorDiffersFromOwner": true
   },
@@ -1215,7 +1215,7 @@
     "regionName": "Celebes",
     "settlement": "Iaroslavl",
     "settlementName": "Makasar",
-    "resources": "east_indies",
+    "resources": "east_indies,colonial",
     "factionCreator": "cru",
     "creatorDiffersFromOwner": true
   },
@@ -1235,7 +1235,7 @@
     "regionName": "Zhili",
     "settlement": "Beijing",
     "settlementName": "Peking",
-    "resources": "manchuria,china",
+    "resources": "manchuria,china,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": false
   },
@@ -1245,7 +1245,7 @@
     "regionName": "Manchuria",
     "settlement": "Shenyang",
     "settlementName": "Jilin",
-    "resources": "manchuria,steppe",
+    "resources": "manchuria,steppe,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": false
   },
@@ -1255,7 +1255,7 @@
     "regionName": "Eastern Mongolia",
     "settlement": "Ulan_Bator",
     "settlementName": "Bayan Tumen",
-    "resources": "mongolia,steppe",
+    "resources": "mongolia,steppe,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -1265,7 +1265,7 @@
     "regionName": "Shaan-Gan",
     "settlement": "Xian",
     "settlementName": "Xi'an",
-    "resources": "china",
+    "resources": "china,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": false
   },
@@ -1275,7 +1275,7 @@
     "regionName": "Min-Zhe",
     "settlement": "Fuzhou",
     "settlementName": "Fuzhou",
-    "resources": "china",
+    "resources": "china,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": false
   },
@@ -1285,7 +1285,7 @@
     "regionName": "Yunnan",
     "settlement": "Kunming",
     "settlementName": "Kunming",
-    "resources": "china",
+    "resources": "china,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": false
   },
@@ -1295,7 +1295,7 @@
     "regionName": "Sichuan",
     "settlement": "Chengdu",
     "settlementName": "Chengdu",
-    "resources": "china",
+    "resources": "china,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": false
   },
@@ -1305,7 +1305,7 @@
     "regionName": "Huguang",
     "settlement": "Guiyang",
     "settlementName": "Guiyang",
-    "resources": "china",
+    "resources": "china,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": false
   },
@@ -1315,7 +1315,7 @@
     "regionName": "Inner Mongolia",
     "settlement": "Yinchuan",
     "settlementName": "Lanzhou",
-    "resources": "steppe,mongolia,china",
+    "resources": "steppe,mongolia,china,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": false
   },
@@ -1325,7 +1325,7 @@
     "regionName": "Qinghai",
     "settlement": "Xining",
     "settlementName": "Xining",
-    "resources": "steppe",
+    "resources": "steppe,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": false
   },
@@ -1335,7 +1335,7 @@
     "regionName": "Outer Mongolia",
     "settlement": "Karakorum",
     "settlementName": "Urga",
-    "resources": "mongolia,steppe",
+    "resources": "mongolia,steppe,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -1345,7 +1345,7 @@
     "regionName": "Dzungaria",
     "settlement": "Turfan",
     "settlementName": "Urumqi",
-    "resources": "steppe",
+    "resources": "steppe,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -1355,7 +1355,7 @@
     "regionName": "Little Bukharia",
     "settlement": "Aksu",
     "settlementName": "Kashgar",
-    "resources": "steppe",
+    "resources": "steppe,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -1365,7 +1365,7 @@
     "regionName": "Tibet",
     "settlement": "Tibet",
     "settlementName": "Lhasa",
-    "resources": "tibet",
+    "resources": "tibet,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -1375,7 +1375,7 @@
     "regionName": "Virginia",
     "settlement": "Apache",
     "settlementName": "Richmond",
-    "resources": "csa,usa",
+    "resources": "csa,usa,settler",
     "factionCreator": "milan",
     "creatorDiffersFromOwner": false
   },
@@ -1385,7 +1385,7 @@
     "regionName": "Louisiana",
     "settlement": "Choctaw",
     "settlementName": "New Orleans",
-    "resources": "csa,usa",
+    "resources": "csa,usa,settler",
     "factionCreator": "milan",
     "creatorDiffersFromOwner": false
   },
@@ -1395,7 +1395,7 @@
     "regionName": "Southeast States",
     "settlement": "Granada",
     "settlementName": "Atlanta",
-    "resources": "csa,usa",
+    "resources": "csa,usa,settler",
     "factionCreator": "milan",
     "creatorDiffersFromOwner": false
   },
@@ -1405,7 +1405,7 @@
     "regionName": "Texas",
     "settlement": "Comanche",
     "settlementName": "Houston",
-    "resources": "csa,usa,amerindian",
+    "resources": "csa,usa,amerindian,settler",
     "factionCreator": "milan",
     "creatorDiffersFromOwner": false
   },
@@ -1415,7 +1415,7 @@
     "regionName": "Florida",
     "settlement": "Augustine",
     "settlementName": "Savannah",
-    "resources": "csa,usa",
+    "resources": "csa,usa,settler",
     "factionCreator": "milan",
     "creatorDiffersFromOwner": false
   },
@@ -1425,7 +1425,7 @@
     "regionName": "Greece",
     "settlement": "Hellenie",
     "settlementName": "Athens",
-    "resources": "greece",
+    "resources": "greece,colonial",
     "factionCreator": "mongols",
     "creatorDiffersFromOwner": false
   },
@@ -1435,7 +1435,7 @@
     "regionName": "Siam",
     "settlement": "Bangkok",
     "settlementName": "Bangkok",
-    "resources": "siam,indochina",
+    "resources": "siam,indochina,colonial",
     "factionCreator": "cru",
     "creatorDiffersFromOwner": false
   },
@@ -1445,7 +1445,7 @@
     "regionName": "Laos",
     "settlement": "Vianga_chan",
     "settlementName": "Luang Prabang",
-    "resources": "indochina",
+    "resources": "indochina,colonial",
     "factionCreator": "cru",
     "creatorDiffersFromOwner": false
   },
@@ -1455,7 +1455,7 @@
     "regionName": "Argentina",
     "settlement": "Buenos_Aires",
     "settlementName": "Buenos Aires",
-    "resources": "s_america,argentina",
+    "resources": "argentina,settler",
     "factionCreator": "aztecs",
     "creatorDiffersFromOwner": false
   },
@@ -1465,7 +1465,7 @@
     "regionName": "Chugoku",
     "settlement": "Akita",
     "settlementName": "Hagi",
-    "resources": "japan",
+    "resources": "japan,chugoku,colonial",
     "factionCreator": "saxons",
     "creatorDiffersFromOwner": false
   },
@@ -1475,7 +1475,7 @@
     "regionName": "Kyushu",
     "settlement": "Reval",
     "settlementName": "Kagoshima",
-    "resources": "japan",
+    "resources": "japan,kyushu,colonial",
     "factionCreator": "saxons",
     "creatorDiffersFromOwner": true
   },
@@ -1485,7 +1485,7 @@
     "regionName": "Hokkaido",
     "settlement": "Hokkaido",
     "settlementName": "Hakodate",
-    "resources": "japan",
+    "resources": "japan,ezo,colonial",
     "factionCreator": "saxons",
     "creatorDiffersFromOwner": true
   },
@@ -1495,7 +1495,7 @@
     "regionName": "Kanto",
     "settlement": "Edo",
     "settlementName": "Edo",
-    "resources": "japan",
+    "resources": "japan,kanto,colonial",
     "factionCreator": "saxons",
     "creatorDiffersFromOwner": true
   },
@@ -1505,7 +1505,7 @@
     "regionName": "Southern Honshu",
     "settlement": "Kyoto",
     "settlementName": "Kyoto",
-    "resources": "japan",
+    "resources": "japan,colonial",
     "factionCreator": "saxons",
     "creatorDiffersFromOwner": true
   },
@@ -1515,7 +1515,7 @@
     "regionName": "South Korea",
     "settlement": "Korea",
     "settlementName": "Hanseong",
-    "resources": "korea",
+    "resources": "korea,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": true
   },
@@ -1545,7 +1545,7 @@
     "regionName": "Sumatra",
     "settlement": "Bihar",
     "settlementName": "Banda Aceh",
-    "resources": "east_indies",
+    "resources": "east_indies,colonial",
     "factionCreator": "bulga",
     "creatorDiffersFromOwner": true
   },
@@ -1565,7 +1565,7 @@
     "regionName": "Somalia",
     "settlement": "Ceyland",
     "settlementName": "Hobyo",
-    "resources": "sub_sahara,arab,north_africa",
+    "resources": "sub_sahara,arab,north_africa,colonial",
     "factionCreator": "golden",
     "creatorDiffersFromOwner": true
   },
@@ -1575,7 +1575,7 @@
     "regionName": "Guinea",
     "settlement": "Volgograd",
     "settlementName": "Monrovia",
-    "resources": "sub_sahara",
+    "resources": "sub_sahara,colonial",
     "factionCreator": "portugala",
     "creatorDiffersFromOwner": true
   },
@@ -1585,7 +1585,7 @@
     "regionName": "Cameroon",
     "settlement": "Madras",
     "settlementName": "Yaounde",
-    "resources": "sub_sahara",
+    "resources": "sub_sahara,colonial",
     "factionCreator": "lith",
     "creatorDiffersFromOwner": true
   },
@@ -1595,7 +1595,7 @@
     "regionName": "Paraguay",
     "settlement": "Asuncion",
     "settlementName": "Asunción",
-    "resources": "s_america,paraguay",
+    "resources": "colonial",
     "factionCreator": "aztecs",
     "creatorDiffersFromOwner": true
   },
@@ -1605,7 +1605,7 @@
     "regionName": "Uruguay",
     "settlement": "Sao_Paulo",
     "settlementName": "Montevideo",
-    "resources": "s_america,uruguay",
+    "resources": "settler",
     "factionCreator": "aztecs",
     "creatorDiffersFromOwner": true
   },
@@ -1615,7 +1615,7 @@
     "regionName": "Equatorial Africa",
     "settlement": "Ngala",
     "settlementName": "Faya",
-    "resources": "sub_sahara",
+    "resources": "sub_sahara,colonial",
     "factionCreator": "moors",
     "creatorDiffersFromOwner": true
   },
@@ -1625,7 +1625,7 @@
     "regionName": "Panama",
     "settlement": "Panama",
     "settlementName": "Panama",
-    "resources": "s_america",
+    "resources": "colonial",
     "factionCreator": "scotland",
     "creatorDiffersFromOwner": true
   },
@@ -1635,7 +1635,7 @@
     "regionName": "Chile",
     "settlement": "Moravie",
     "settlementName": "Santiago",
-    "resources": "s_america",
+    "resources": "colonial",
     "factionCreator": "aztecs",
     "creatorDiffersFromOwner": true
   },
@@ -1645,7 +1645,7 @@
     "regionName": "Atacama",
     "settlement": "Antofagasta",
     "settlementName": "Antofagasta",
-    "resources": "s_america",
+    "resources": "colonial",
     "factionCreator": "aztecs",
     "creatorDiffersFromOwner": true
   },
@@ -1655,7 +1655,7 @@
     "regionName": "Bolivia",
     "settlement": "Lapaz",
     "settlementName": "La Paz",
-    "resources": "s_america",
+    "resources": "colonial",
     "factionCreator": "denmark",
     "creatorDiffersFromOwner": true
   },
@@ -1665,7 +1665,7 @@
     "regionName": "Central America",
     "settlement": "Bolgar",
     "settlementName": "Guatemala",
-    "resources": "s_america",
+    "resources": "colonial",
     "factionCreator": "scotland",
     "creatorDiffersFromOwner": true
   },
@@ -1675,7 +1675,7 @@
     "regionName": "Hispaniola",
     "settlement": "Sandom",
     "settlementName": "Santo Domingo",
-    "resources": "cuba,s_america",
+    "resources": "cuba,colonial",
     "factionCreator": "spain",
     "creatorDiffersFromOwner": true
   },
@@ -1685,7 +1685,7 @@
     "regionName": "Angola",
     "settlement": "Zhengzhou",
     "settlementName": "Luanda",
-    "resources": "sub_sahara",
+    "resources": "sub_sahara,colonial",
     "factionCreator": "spain",
     "creatorDiffersFromOwner": true
   },
@@ -1695,7 +1695,7 @@
     "regionName": "Interior South Africa",
     "settlement": "Hankou",
     "settlementName": "Bulawayo",
-    "resources": "sub_sahara,south_africa",
+    "resources": "sub_sahara,south_africa,colonial",
     "factionCreator": "lith",
     "creatorDiffersFromOwner": true
   },
@@ -1705,7 +1705,7 @@
     "regionName": "Mali",
     "settlement": "Tombouktou",
     "settlementName": "Timbuktu",
-    "resources": "sub_sahara,north_africa",
+    "resources": "sub_sahara,north_africa,colonial",
     "factionCreator": "moors",
     "creatorDiffersFromOwner": true
   },
@@ -1735,7 +1735,7 @@
     "regionName": "Venezuela",
     "settlement": "Santa_Marta",
     "settlementName": "Caracas",
-    "resources": "s_america",
+    "resources": "colonial",
     "factionCreator": "denmark",
     "creatorDiffersFromOwner": true
   },
@@ -1755,7 +1755,7 @@
     "regionName": "South West Africa",
     "settlement": "Gd_Namaqualand",
     "settlementName": "Angra Pequena",
-    "resources": "sub_sahara,south_africa",
+    "resources": "sub_sahara,south_africa,colonial",
     "factionCreator": "lith",
     "creatorDiffersFromOwner": true
   },
@@ -1765,7 +1765,7 @@
     "regionName": "Burma",
     "settlement": "Taungoo",
     "settlementName": "Mandalay",
-    "resources": "indochina,india",
+    "resources": "indochina,india,colonial",
     "factionCreator": "cru",
     "creatorDiffersFromOwner": true
   },
@@ -1775,7 +1775,7 @@
     "regionName": "Patagonia",
     "settlement": "Rio_Negro",
     "settlementName": "Bahia Blanca",
-    "resources": "s_america,argentina",
+    "resources": "argentina,settler",
     "factionCreator": "aztecs",
     "creatorDiffersFromOwner": true
   },
@@ -1785,7 +1785,7 @@
     "regionName": "New Granada",
     "settlement": "Cholula",
     "settlementName": "Bogotá",
-    "resources": "s_america",
+    "resources": "colonial",
     "factionCreator": "denmark",
     "creatorDiffersFromOwner": true
   },
@@ -1795,7 +1795,7 @@
     "regionName": "North Korea",
     "settlement": "Qarshi",
     "settlementName": "Pyongyang",
-    "resources": "korea",
+    "resources": "korea,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": true
   },
@@ -1805,7 +1805,7 @@
     "regionName": "Transcaspian",
     "settlement": "Korasan",
     "settlementName": "Merv",
-    "resources": "steppe,kokand,russia",
+    "resources": "steppe,kokand,russia,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -1815,7 +1815,7 @@
     "regionName": "Khiva",
     "settlement": "Urgentch",
     "settlementName": "Khiva",
-    "resources": "steppe,kokand,russia",
+    "resources": "steppe,kokand,russia,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   },
@@ -1825,7 +1825,7 @@
     "regionName": "Nigeria",
     "settlement": "M_Banza_Kongo",
     "settlementName": "Suleja",
-    "resources": "sub_sahara",
+    "resources": "sub_sahara,colonial",
     "factionCreator": "lith",
     "creatorDiffersFromOwner": true
   },
@@ -1835,7 +1835,7 @@
     "regionName": "Congo",
     "settlement": "Kampala",
     "settlementName": "Leopoldville",
-    "resources": "sub_sahara",
+    "resources": "sub_sahara,colonial",
     "factionCreator": "portugal",
     "creatorDiffersFromOwner": true
   },
@@ -1845,7 +1845,7 @@
     "regionName": "Madagascar",
     "settlement": "Mahajanga",
     "settlementName": "Mahajanga",
-    "resources": "sub_sahara",
+    "resources": "sub_sahara,colonial",
     "factionCreator": "lith",
     "creatorDiffersFromOwner": true
   },
@@ -1855,7 +1855,7 @@
     "regionName": "Nejd",
     "settlement": "Arabie",
     "settlementName": "Riyadh",
-    "resources": "middle_east,arab",
+    "resources": "arab,colonial",
     "factionCreator": "golden",
     "creatorDiffersFromOwner": true
   },
@@ -1865,7 +1865,7 @@
     "regionName": "North Vietnam",
     "settlement": "Ha_noi",
     "settlementName": "Hanoi",
-    "resources": "indochina",
+    "resources": "indochina,colonial",
     "factionCreator": "cru",
     "creatorDiffersFromOwner": true
   },
@@ -1875,7 +1875,7 @@
     "regionName": "Cambodia",
     "settlement": "Angkor",
     "settlementName": "Phnom Penh",
-    "resources": "indochina",
+    "resources": "indochina,colonial",
     "factionCreator": "cru",
     "creatorDiffersFromOwner": true
   },
@@ -1885,7 +1885,7 @@
     "regionName": "Sarawak",
     "settlement": "Sarawak",
     "settlementName": "Kuching",
-    "resources": "east_indies",
+    "resources": "east_indies,colonial",
     "factionCreator": "cru",
     "creatorDiffersFromOwner": true
   },
@@ -1895,7 +1895,7 @@
     "regionName": "New Guinea",
     "settlement": "Jayapura",
     "settlementName": "Port Moresby",
-    "resources": "east_indies,anzac",
+    "resources": "east_indies,anzac,colonial",
     "factionCreator": "england",
     "creatorDiffersFromOwner": true
   },
@@ -1905,7 +1905,7 @@
     "regionName": "Herat",
     "settlement": "Herat",
     "settlementName": "Herat",
-    "resources": "afghanistan",
+    "resources": "afghanistan,colonial",
     "factionCreator": "timurids",
     "creatorDiffersFromOwner": true
   },
@@ -1915,7 +1915,7 @@
     "regionName": "Liangjiang",
     "settlement": "Nanjing",
     "settlementName": "Nanking",
-    "resources": "china",
+    "resources": "china,colonial",
     "factionCreator": "byzantium",
     "creatorDiffersFromOwner": true
   },
@@ -1925,7 +1925,7 @@
     "regionName": "Egypt",
     "settlement": "Caire",
     "settlementName": "Cairo",
-    "resources": "middle_east,arab,north_africa,egypt",
+    "resources": "arab,north_africa,egypt,colonial",
     "factionCreator": "golden",
     "creatorDiffersFromOwner": true
   },
@@ -1935,7 +1935,7 @@
     "regionName": "Sudan",
     "settlement": "Khartoum",
     "settlementName": "Khartoum",
-    "resources": "arab,sub_sahara",
+    "resources": "arab,sub_sahara,colonial",
     "factionCreator": "golden",
     "creatorDiffersFromOwner": true
   },
@@ -1945,7 +1945,7 @@
     "regionName": "Hejaz",
     "settlement": "Mecca",
     "settlementName": "Mecca",
-    "resources": "middle_east,arab",
+    "resources": "arab,colonial",
     "factionCreator": "golden",
     "creatorDiffersFromOwner": true
   },
@@ -1955,7 +1955,7 @@
     "regionName": "Illyria",
     "settlement": "Belgrad",
     "settlementName": "Belgrade",
-    "resources": "albania",
+    "resources": "albania,colonial",
     "factionCreator": "hungary",
     "creatorDiffersFromOwner": true
   },
@@ -1965,7 +1965,7 @@
     "regionName": "Bukhara",
     "settlement": "Bukhara",
     "settlementName": "Bukhara",
-    "resources": "steppe,russia",
+    "resources": "steppe,russia,colonial",
     "factionCreator": "cuman",
     "creatorDiffersFromOwner": true
   }

@@ -49982,8 +49982,96 @@
 43 unit_models/_Units/eng/eng_mar_1g_lod0.mesh 20000 
 43 unit_models/_Units/eng/eng_mar_1g_lod0.mesh 20000 
 43 unit_models/_Units/eng/eng_mar_1g_lod0.mesh 20000 
-2 
-7 england 
+31 
+5 spain 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 moors 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 turks 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 egypt 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+3 cru 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 france 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+3 hre 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 normans 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 poland 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 hungary 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 golden 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 scotland 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+3 teu 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 sicily 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 cuman 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+4 lith 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 mongols 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+9 byzantium 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+12 papal_states 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 portugal 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 russia 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 venice 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 aztecs 
 50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
@@ -49991,11 +50079,126 @@
 50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-2 
+8 timurids 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+7 denmark 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 milan 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+5 bulga 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+9 portugala 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 7 england 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+6 saxons 
+50 unit_models/_Units/eng/textures/eng_mar_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+31 
+5 spain 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 moors 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 turks 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 egypt 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+3 cru 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 france 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+3 hre 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 normans 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 poland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 hungary 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 golden 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+8 scotland 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+3 teu 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 sicily 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 cuman 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+4 lith 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 mongols 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+9 byzantium 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+12 papal_states 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+8 portugal 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 russia 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 venice 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 aztecs 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 slave 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+8 timurids 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 denmark 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 milan 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+5 bulga 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+9 portugala 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 england 
+58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+6 saxons 
 58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 

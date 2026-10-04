@@ -56,6 +56,26 @@ foreach ($relative in $requiredM2exRuntime) {
     }
 }
 
+# These assets have all caused clean-install failures despite existing in the
+# development tree. Treat them as release-critical and verify their staged
+# bytes, not merely their source paths.
+$criticalModAssets = @(
+    'data\unit_models\_units\bnw\textures\jap_navewuqi.texture',
+    'data\battlefield\fire\smoke6_greek.texture',
+    'data\battlefield\fire\greek_burning_smoke.texture',
+    'data\sounds\Music.dat',
+    'data\sounds\Music.idx',
+    'data\sounds\SFX.dat',
+    'data\sounds\SFX.idx'
+)
+foreach ($relative in $criticalModAssets) {
+    $criticalSource = Join-Path $sourceRoot $relative
+    if (-not (Test-Path -LiteralPath $criticalSource -PathType Leaf) -or
+        (Get-Item -LiteralPath $criticalSource).Length -le 0) {
+        throw "Release-critical mod asset is missing or empty: $relative"
+    }
+}
+
 if (-not $OutputRoot) {
     $OutputRoot = Join-Path (Split-Path -Parent $sourceRoot) 'steamsteel-release-builds'
 }
@@ -182,6 +202,21 @@ foreach ($forbiddenRoot in $rules.forbiddenReleaseRoots) {
     }
 }
 
+foreach ($relative in $criticalModAssets) {
+    $criticalSource = Join-Path $sourceRootFull $relative
+    $criticalStaged = Join-Path $stageRoot $relative
+    if (-not (Test-Path -LiteralPath $criticalStaged -PathType Leaf)) {
+        throw "Release-critical asset was omitted from staging: $relative"
+    }
+    $sourceItem = Get-Item -LiteralPath $criticalSource
+    $stagedItem = Get-Item -LiteralPath $criticalStaged
+    if ($sourceItem.Length -ne $stagedItem.Length -or
+        (Get-FileHash -LiteralPath $criticalSource -Algorithm SHA256).Hash -ne
+        (Get-FileHash -LiteralPath $criticalStaged -Algorithm SHA256).Hash) {
+        throw "Release-critical asset changed during staging: $relative"
+    }
+}
+
 if ($PatchDirectory) {
     $patchRootFull = [IO.Path]::GetFullPath($PatchDirectory)
     if (-not (Test-Path -LiteralPath $patchRootFull -PathType Container)) {
@@ -276,7 +311,11 @@ $isccCandidates = @(
 )
 $iscc = $isccCandidates | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
 if ($iscc) {
-    & $iscc "/DMyAppVersion=$Version" $installerBuildScript
+    $musicDatBytes = (Get-Item -LiteralPath (Join-Path $stageRoot 'data\sounds\Music.dat')).Length
+    $musicIdxBytes = (Get-Item -LiteralPath (Join-Path $stageRoot 'data\sounds\Music.idx')).Length
+    $sfxDatBytes = (Get-Item -LiteralPath (Join-Path $stageRoot 'data\sounds\SFX.dat')).Length
+    $sfxIdxBytes = (Get-Item -LiteralPath (Join-Path $stageRoot 'data\sounds\SFX.idx')).Length
+    & $iscc "/DMyAppVersion=$Version" "/DMusicDatBytes=$musicDatBytes" "/DMusicIdxBytes=$musicIdxBytes" "/DSfxDatBytes=$sfxDatBytes" "/DSfxIdxBytes=$sfxIdxBytes" $installerBuildScript
     if ($LASTEXITCODE -ne 0) { throw "Inno Setup failed with exit code $LASTEXITCODE" }
     Remove-Item -LiteralPath $installerBuildScript -Force
 } else {
