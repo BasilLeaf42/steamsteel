@@ -33,7 +33,11 @@ $listing = & $sevenZip l -slt $ReferenceArchive
 $paths = foreach ($block in (($listing -join "`n") -split "(?:`r?`n){2,}")) {
     if ($block -notmatch '(?m)^Path = (.+)$') { continue }
     $path = $Matches[1].Trim().Replace('/', '\')
-    if ($block -notmatch '(?m)^Folder = -$') { continue }
+    if ((Split-Path -Leaf $path) -eq (Split-Path -Leaf $ReferenceArchive)) { continue }
+    # 7-Zip 25 used `Folder = -` for files. Version 26 emits only an
+    # `Attributes` field, with `D` identifying directories.
+    if ($block -match '(?m)^Folder = (.+)$' -and $Matches[1].Trim() -ne '-') { continue }
+    if ($block -match '(?m)^Attributes = (.+)$' -and $Matches[1].Trim() -match 'D') { continue }
     if ($path -match '^(mods|tools)\\') { continue }
     if ($path -in @('Americas.bat', 'Britannia.bat', 'Crusades.bat', 'Teutonic.bat')) { continue }
     if ($path -match '\.(pdb|lib|exp)$') { continue }
