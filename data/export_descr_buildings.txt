@@ -5720,8 +5720,8 @@ building cannon
 	recruit_pool "eng_maxim"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1870 1
 	recruit_pool "eng_pompom"  1   .02   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1890 1
 	recruit_pool "eng_pompom"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1890 1
-	recruit_pool "eng_gatling"  1   .02   2  0  requires factions { england, } and hidden_resource uk and not event_counter military_reforms_1870 1
-	recruit_pool "eng_gatling"  .4   .04   .99  0  requires factions { england, } and not event_counter military_reforms_1870 1
+	recruit_pool "eng_gatling"  1   .02   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "eng_gatling"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "eng_12lb"  .4   .04   .99  0  requires factions { england, } and not event_counter military_reforms_1870 1
 	recruit_pool "eng_5lb"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1890 1
 	recruit_pool "eng_150mm"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1870 1
@@ -5738,8 +5738,8 @@ building cannon
 	recruit_pool "rus_maxim"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
 	recruit_pool "rus_pompom"  1   .02   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
 	recruit_pool "rus_pompom"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "rus_gatling"  1   .02   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
-	recruit_pool "rus_gatling"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "pru_mitrailleuse"  1   .02   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1
+	recruit_pool "pru_mitrailleuse"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
 	recruit_pool "rus_12lb"  .4   .04   .99  0  requires factions { hre, } and not event_counter military_reforms_1870 1
 	recruit_pool "rus_5lb"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
 	recruit_pool "rus_150mm"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
@@ -5840,6 +5840,7 @@ building cannon
 	recruit_pool "ind_armstrong"  1   .02   2  0  requires factions { bulga, } and hidden_resource india and not event_counter military_reforms_1890 1
 	recruit_pool "ind_armstrong"  .4   .04   .99  0  requires factions { bulga, } and not event_counter military_reforms_1890 1
 	recruit_pool "ind_maxim"  .4   .04   .99  0  requires factions { bulga, } and event_counter military_reforms_1890 1
+	recruit_pool "ind_maxim"  .4   .04   .99  0  requires factions { egypt, } and event_counter military_reforms_1890 1
 	recruit_pool "ind_12lb"  .4   .04   .99  0  requires factions { bulga, } and event_counter military_reforms_1870 1
 	recruit_pool "siam_armstrong"  1   .02   2  0  requires factions { cru, } and hidden_resource siam and not event_counter military_reforms_1890 1
 	recruit_pool "siam_armstrong"  .4   .04   .99  0  requires factions { cru, } and not event_counter military_reforms_1890 1
@@ -6003,8 +6004,8 @@ building cannon
 	recruit_pool "eng_maxim"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1870 1
 	recruit_pool "eng_pompom"  1   .06   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1890 1
 	recruit_pool "eng_pompom"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1890 1
-	recruit_pool "eng_gatling"  1   .06   2  0  requires factions { england, } and hidden_resource uk and not event_counter military_reforms_1870 1
-	recruit_pool "eng_gatling"  .4   .04   .99  0  requires factions { england, } and not event_counter military_reforms_1870 1
+	recruit_pool "eng_gatling"  1   .06   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "eng_gatling"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "eng_12lb"  .4   .04   .99  0  requires factions { england, } and not event_counter military_reforms_1870 1
 	recruit_pool "eng_5lb"  1   .06   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1890 1
 	recruit_pool "eng_5lb"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1890 1
@@ -6023,8 +6024,8 @@ building cannon
 	recruit_pool "rus_maxim"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
 	recruit_pool "rus_pompom"  1   .06   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
 	recruit_pool "rus_pompom"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "rus_gatling"  1   .06   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
-	recruit_pool "rus_gatling"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "pru_mitrailleuse"  1   .06   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1
+	recruit_pool "pru_mitrailleuse"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
 	recruit_pool "rus_12lb"  .4   .04   .99  0  requires factions { hre, } and not event_counter military_reforms_1870 1
 	recruit_pool "rus_5lb"  1   .06   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
 	recruit_pool "rus_5lb"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
@@ -6143,6 +6144,7 @@ building cannon
 	recruit_pool "ind_armstrong"  1   .06   2  0  requires factions { bulga, } and hidden_resource india and not event_counter military_reforms_1890 1
 	recruit_pool "ind_armstrong"  .4   .04   .99  0  requires factions { bulga, } and not event_counter military_reforms_1890 1
 	recruit_pool "ind_maxim"  .4   .04   .99  0  requires factions { bulga, } and event_counter military_reforms_1890 1
+	recruit_pool "ind_maxim"  .4   .04   .99  0  requires factions { egypt, } and event_counter military_reforms_1890 1
 	recruit_pool "ind_12lb"  .4   .04   .99  0  requires factions { bulga, } and event_counter military_reforms_1870 1
 	recruit_pool "siam_armstrong"  1   .06   2  0  requires factions { cru, } and hidden_resource siam and not event_counter military_reforms_1890 1
 	recruit_pool "siam_armstrong"  .4   .04   .99  0  requires factions { cru, } and not event_counter military_reforms_1890 1
@@ -6346,8 +6348,8 @@ building cannon
 	recruit_pool "eng_maxim"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1870 1
 	recruit_pool "eng_pompom"  1   .1   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1890 1
 	recruit_pool "eng_pompom"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1890 1
-	recruit_pool "eng_gatling"  1   .1   2  0  requires factions { england, } and hidden_resource uk and not event_counter military_reforms_1870 1
-	recruit_pool "eng_gatling"  .4   .04   .99  0  requires factions { england, } and not event_counter military_reforms_1870 1
+	recruit_pool "eng_gatling"  1   .1   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "eng_gatling"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "eng_12lb"  1   .1   2  0  requires factions { england, } and hidden_resource uk and not event_counter military_reforms_1870 1
 	recruit_pool "eng_12lb"  .4   .04   .99  0  requires factions { england, } and not event_counter military_reforms_1870 1
 	recruit_pool "eng_5lb"  1   .1   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1890 1
@@ -6372,8 +6374,8 @@ building cannon
 	recruit_pool "rus_maxim"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
 	recruit_pool "rus_pompom"  1   .1   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
 	recruit_pool "rus_pompom"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "rus_gatling"  1   .1   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
-	recruit_pool "rus_gatling"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "pru_mitrailleuse"  1   .1   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1
+	recruit_pool "pru_mitrailleuse"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
 	recruit_pool "rus_12lb"  1   .1   2  0  requires factions { hre, } and hidden_resource prussia and not event_counter military_reforms_1870 1
 	recruit_pool "rus_12lb"  .4   .04   .99  0  requires factions { hre, } and not event_counter military_reforms_1870 1
 	recruit_pool "rus_5lb"  1   .1   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
@@ -6534,6 +6536,8 @@ building cannon
 	recruit_pool "ind_armstrong"  .4   .04   .99  0  requires factions { bulga, } and not event_counter military_reforms_1890 1
 	recruit_pool "ind_maxim"  1   .1   2  0  requires factions { bulga, } and hidden_resource india and event_counter military_reforms_1890 1
 	recruit_pool "ind_maxim"  .4   .04   .99  0  requires factions { bulga, } and event_counter military_reforms_1890 1
+	recruit_pool "ind_maxim"  1   .1   2  0  requires factions { egypt, } and hidden_resource persia and event_counter military_reforms_1890 1
+	recruit_pool "ind_maxim"  .4   .04   .99  0  requires factions { egypt, } and event_counter military_reforms_1890 1
 	recruit_pool "ind_12lb"  1   .1   2  0  requires factions { bulga, } and hidden_resource india and event_counter military_reforms_1870 1
 	recruit_pool "ind_12lb"  .4   .04   .99  0  requires factions { bulga, } and event_counter military_reforms_1870 1
 	recruit_pool "siam_armstrong"  1   .1   2  0  requires factions { cru, } and hidden_resource siam and not event_counter military_reforms_1890 1
@@ -6742,8 +6746,8 @@ building cannon
 	recruit_pool "eng_maxim"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1870 1
 	recruit_pool "eng_pompom"  2   .2   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1890 1
 	recruit_pool "eng_pompom"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1890 1
-	recruit_pool "eng_gatling"  2   .2   2  0  requires factions { england, } and hidden_resource uk and not event_counter military_reforms_1870 1
-	recruit_pool "eng_gatling"  .4   .04   .99  0  requires factions { england, } and not event_counter military_reforms_1870 1
+	recruit_pool "eng_gatling"  2   .2   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "eng_gatling"  .4   .04   .99  0  requires factions { england, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "eng_12lb"  2   .2   2  0  requires factions { england, } and hidden_resource uk and not event_counter military_reforms_1870 1
 	recruit_pool "eng_12lb"  .4   .04   .99  0  requires factions { england, } and not event_counter military_reforms_1870 1
 	recruit_pool "eng_5lb"  2   .2   2  0  requires factions { england, } and hidden_resource uk and event_counter military_reforms_1890 1
@@ -6768,8 +6772,8 @@ building cannon
 	recruit_pool "rus_maxim"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
 	recruit_pool "rus_pompom"  2   .2   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
 	recruit_pool "rus_pompom"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1890 1
-	recruit_pool "rus_gatling"  2   .2   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
-	recruit_pool "rus_gatling"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
+	recruit_pool "pru_mitrailleuse"  2   .2   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1870 1
+	recruit_pool "pru_mitrailleuse"  .4   .04   .99  0  requires factions { hre, } and event_counter military_reforms_1870 1
 	recruit_pool "rus_12lb"  2   .2   2  0  requires factions { hre, } and hidden_resource prussia and not event_counter military_reforms_1870 1
 	recruit_pool "rus_12lb"  .4   .04   .99  0  requires factions { hre, } and not event_counter military_reforms_1870 1
 	recruit_pool "rus_5lb"  2   .2   2  0  requires factions { hre, } and hidden_resource prussia and event_counter military_reforms_1890 1
@@ -6930,6 +6934,8 @@ building cannon
 	recruit_pool "ind_armstrong"  .4   .04   .99  0  requires factions { bulga, } and not event_counter military_reforms_1890 1
 	recruit_pool "ind_maxim"  2   .2   2  0  requires factions { bulga, } and hidden_resource india and event_counter military_reforms_1890 1
 	recruit_pool "ind_maxim"  .4   .04   .99  0  requires factions { bulga, } and event_counter military_reforms_1890 1
+	recruit_pool "ind_maxim"  1   .1   1  0  requires factions { egypt, } and hidden_resource persia and event_counter military_reforms_1890 1
+	recruit_pool "ind_maxim"  .4   .04   .99  0  requires factions { egypt, } and event_counter military_reforms_1890 1
 	recruit_pool "ind_12lb"  2   .2   2  0  requires factions { bulga, } and hidden_resource india and event_counter military_reforms_1870 1
 	recruit_pool "ind_12lb"  .4   .04   .99  0  requires factions { bulga, } and event_counter military_reforms_1870 1
 	recruit_pool "siam_armstrong"  2   .2   2  0  requires factions { cru, } and hidden_resource siam and not event_counter military_reforms_1890 1
@@ -7203,6 +7209,7 @@ building port
                 trade_fleet 2
                 income_bonus bonus -400 requires not building_present_min_level cannon gunsmith
 ;gunboat
+        recruit_pool "cog"  1   0.10   1  0  requires factions { all, }
 ;repair
 ;bb
 ;ca
@@ -7334,14 +7341,23 @@ building port
                 income_bonus bonus -600 requires not building_present_min_level cannon cannon_maker
 
 ;1860s
+        recruit_pool "ship_sail_corvette"  1   0.12   1  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "ship_steam_corvette"  1   0.12   1  0  requires factions { all, } and not event_counter military_reforms_1870 1
 
 ;1870s
+        recruit_pool "ship_composite_corvette"  1   0.20   1  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
+        recruit_pool "ship_ironclad_corvette"  1   0.10   1  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
 
 ;1880s
+        recruit_pool "ship_torpedo"  1   0.20   2  0  requires factions { all, } and event_counter military_reforms_1 1 and not event_counter military_reforms_1890 1
 
 ;1890s
+        recruit_pool "ship_destroyer"  1   0.20   2  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
+        recruit_pool "ship_torpedo"  1   0.20   2  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
 
 ;1900s
+        recruit_pool "ship_destroyer"  1   0.20   2  0  requires factions { all, } and event_counter military_reforms_2 1
+        recruit_pool "ship_torpedo"  1   0.20   2  0  requires factions { all, } and event_counter military_reforms_2 1
 ;gunboat
 ;repair
 ;bb
@@ -7476,14 +7492,38 @@ building port
                 income_bonus bonus -800 requires not building_present_min_level cannon cannon_foundry
 
 ;1860s
+        recruit_pool "ship_sail_sotl"  1   0.05   1  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "caravel"  1   0.05   1  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "dragon boat"  1   0.10   1  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "grande carrack"  1   0.10   2  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "ship_sail_corvette"  1   0.20   2  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "ship_steam_corvette"  1   0.20   2  0  requires factions { all, } and not event_counter military_reforms_1870 1
 
 ;1870s
+        recruit_pool "ladya"  1   0.04   1  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
+        recruit_pool "carrack"  1   0.04   1  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
+        recruit_pool "ship_iron_frigate"  1   0.10   2  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
+        recruit_pool "ship_armoured_frigate"  1   0.05   1  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
+        recruit_pool "ship_composite_corvette"  1   0.20   2  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
 
 ;1880s
+        recruit_pool "carrack"  1   0.10   1  0  requires factions { all, } and event_counter military_reforms_1 1 and not event_counter military_reforms_1890 1
+        recruit_pool "ship_protected_cruiser"  1   0.10   2  0  requires factions { all, } and event_counter military_reforms_1 1 and not event_counter military_reforms_1890 1
+        recruit_pool "ship_unprotected_cruiser"  1   0.10   2  0  requires factions { all, } and event_counter military_reforms_1 1 and not event_counter military_reforms_1890 1
+        recruit_pool "ship_torpedo"  1   0.40   4  0  requires factions { all, } and event_counter military_reforms_1 1 and not event_counter military_reforms_1890 1
 
 ;1890s
+        recruit_pool "ship_protected_cruiser"  1   0.05   1  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
+        recruit_pool "ship_armoured_cruiser"  1   0.05   1  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
+        recruit_pool "ship_destroyer"  1   0.40   3  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
+        recruit_pool "ship_torpedo"  1   0.40   4  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
+        recruit_pool "ship_monitor"  1   0.10   1  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
 
 ;1900s
+        recruit_pool "ship_armoured_cruiser"  1   0.10   2  0  requires factions { all, } and event_counter military_reforms_2 1
+        recruit_pool "ship_destroyer"  1   0.40   3  0  requires factions { all, } and event_counter military_reforms_2 1
+        recruit_pool "ship_torpedo"  1   0.40   4  0  requires factions { all, } and event_counter military_reforms_2 1
+        recruit_pool "ship_monitor"  1   0.10   1  0  requires factions { all, } and event_counter military_reforms_2 1
 ;gunboat
 ;repair
 ;bb
@@ -7618,14 +7658,37 @@ building port
                 income_bonus bonus -1000 requires not building_present_min_level cannon royal_arsenal
 
 ;1860s
+        recruit_pool "ship_sail_sotl"  1   0.05   1  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "caravel"  1   0.05   1  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "dragon boat"  1   0.10   1  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "grande carrack"  1   0.10   2  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "ship_sail_corvette"  1   0.20   2  0  requires factions { all, } and not event_counter military_reforms_1870 1
+        recruit_pool "ship_steam_corvette"  1   0.20   2  0  requires factions { all, } and not event_counter military_reforms_1870 1
 
 ;1870s
+        recruit_pool "ladya"  1   0.04   1  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
+        recruit_pool "carrack"  1   0.04   1  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
+        recruit_pool "ship_iron_frigate"  1   0.10   2  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
+        recruit_pool "ship_armoured_frigate"  1   0.05   1  0  requires factions { all, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1 1
 
 ;1880s
+        recruit_pool "ship_protected_cruiser"  1   0.10   2  0  requires factions { all, } and event_counter military_reforms_1 1 and not event_counter military_reforms_1890 1
+        recruit_pool "ship_unprotected_cruiser"  1   0.10   2  0  requires factions { all, } and event_counter military_reforms_1 1 and not event_counter military_reforms_1890 1
+        recruit_pool "ship_torpedo"  1   0.40   4  0  requires factions { all, } and event_counter military_reforms_1 1 and not event_counter military_reforms_1890 1
 
 ;1890s
+        recruit_pool "ship_pre_dreadnought"  1   0.10   1  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
+        recruit_pool "ship_armoured_cruiser"  1   0.05   1  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
+        recruit_pool "ship_destroyer"  1   0.40   3  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
+        recruit_pool "ship_torpedo"  1   0.40   4  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
+        recruit_pool "ship_monitor"  1   0.10   1  0  requires factions { all, } and event_counter military_reforms_1890 1 and not event_counter military_reforms_2 1
 
 ;1900s
+        recruit_pool "ship_pre_dreadnought"  1   0.05   1  0  requires factions { all, } and event_counter military_reforms_2 1
+        recruit_pool "gun holk"  1   0.10   1  0  requires factions { all, } and event_counter military_reforms_2 1
+        recruit_pool "ship_armoured_cruiser"  1   0.10   2  0  requires factions { all, } and event_counter military_reforms_2 1
+        recruit_pool "ship_destroyer"  1   0.40   3  0  requires factions { all, } and event_counter military_reforms_2 1
+        recruit_pool "ship_torpedo"  1   0.40   4  0  requires factions { all, } and event_counter military_reforms_2 1
 ;gunboat
 
 ;repair

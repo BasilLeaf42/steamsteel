@@ -3381,13 +3381,13 @@ unit		mex_federal_early				exp 0 armour 0 weapon_lvl 0
 character	Enrique_Cornelio Negrete_Novoa, named character, male, age 30, x 97, y 204
 army
 unit		mex_general_staff				exp 1 armour 0 weapon_lvl 0
-unit		us_scout_cav				exp 0 armour 0 weapon_lvl 0
+unit		mex_carbineers_early				exp 0 armour 0 weapon_lvl 0
 
 ;Chihuahua
 character	Jose_Maria Tranquilino_Almada, named character, male, age 40, x 91, y 208
 army
 unit		mex_general_staff				exp 1 armour 0 weapon_lvl 0
-unit		us_scout_cav				exp 0 armour 0 weapon_lvl 0
+unit		mex_carbineers_early				exp 0 armour 0 weapon_lvl 0
 
 ;Durango
 character	random_name, general, male, age 40, x 89, y 200
@@ -3579,7 +3579,7 @@ character	Johannes de_Wit, named character, male, age 36, x 267, y 76
 army
 unit		csa_lancer_te				exp 1 armour 0 weapon_lvl 0
 unit		boer_kommando_early				exp 0 armour 0 weapon_lvl 0
-unit		us_farmers				exp 0 armour 0 weapon_lvl 0
+unit		boer_kommando_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sweden Norway
 faction	normans, balanced smith
@@ -3811,57 +3811,57 @@ settlement
 character	Magnus von_Haxthausen, named character, male, leader, age 55, battle_model maozi_general, x 257, y 279
 traits		Factionleader 1
 army
-unit		rus_imp_cav_no				exp 1 armour 0 weapon_lvl 0
-unit		rus_sib_cossacks_no				exp 0 armour 0 weapon_lvl 0
-unit		swed_inf2				exp 0 armour 0 weapon_lvl 0
-unit		swed_inf2				exp 0 armour 0 weapon_lvl 0
-unit		swe_guard				exp 0 armour 0 weapon_lvl 0
+unit		swe_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		swe_lifeguard_horse				exp 0 armour 0 weapon_lvl 0
+unit		swe_line_early				exp 0 armour 0 weapon_lvl 0
+unit		swe_line_early				exp 0 armour 0 weapon_lvl 0
+unit		swe_jagare_early				exp 0 armour 0 weapon_lvl 0
 unit		rus_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Gothenberg
 character	Johannes von_Rajalin, named character, male, age 41, x 248, y 275
 army
-unit		rus_imp_cav_no				exp 1 armour 0 weapon_lvl 0
-unit		swed_inf2				exp 0 armour 0 weapon_lvl 0
-unit		swed_inf2				exp 0 armour 0 weapon_lvl 0
+unit		swe_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		swe_line_early				exp 0 armour 0 weapon_lvl 0
+unit		swe_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Malmo
 character	Vilhelm von_Duben, named character, male, age 41, x 250, y 271
 army
-unit		rus_imp_cav_no				exp 1 armour 0 weapon_lvl 0
-unit		swed_inf2				exp 0 armour 0 weapon_lvl 0
+unit		swe_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		swe_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Kalmar
 character	random_name, general, male, age 41, x 254, y 274
 army
-unit		swe_guard				exp 0 armour 0 weapon_lvl 0
+unit		swe_jagare_early				exp 0 armour 0 weapon_lvl 0
 
 ;Bergen
 character	Omund Meijerfeldt, named character, male, age 34, x 239, y 280
 army
-unit		rus_imp_cav_no				exp 1 armour 0 weapon_lvl 0
-unit		swed_roy				exp 0 armour 0 weapon_lvl 0
+unit		swe_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		nor_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Alesund
 character	random_name, general, male, age 41, x 239, y 285
 army
-unit		swed_roy				exp 0 armour 0 weapon_lvl 0
+unit		nor_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Oslo
 character	random_name, general, male, age 41, x 245, y 280
 army
-unit		swed_roy				exp 0 armour 0 weapon_lvl 0
+unit		nor_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Trondheim
 character	Helmer von_Rosenstein, named character, male, age 41, x 246, y 289
 army
-unit		rus_imp_cav_no				exp 1 armour 0 weapon_lvl 0
-unit		swed_roy				exp 0 armour 0 weapon_lvl 0
+unit		swe_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		nor_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Narvik
 character	random_name, general, male, age 41, x 254, y 300
 army
-unit		swed_roy				exp 0 armour 0 weapon_lvl 0
+unit		nor_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Stockholm Fleet
 character	Ernst von_Fersen, admiral, male, age 36, x 257, y 278
@@ -4147,70 +4147,70 @@ settlement
 character	Carl Von_der_Osten_Sacken, named character, male, leader, age 57, battle_model deguogeneral, x 251, y 262
 traits		Factionleader 1
 army
-unit		otto_sipahi				exp 1 armour 0 weapon_lvl 0
-unit		balk_cav_gr				exp 0 armour 0 weapon_lvl 0
-unit		gr_lancer				exp 0 armour 0 weapon_lvl 0
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 0 armour 0 weapon_lvl 0
+unit		pru_husaren				exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
 unit		rus_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Cologne
 character	Albrecht Von_Moltke, named character, male, age 30, x 244, y 258
 army
-unit		otto_sipahi				exp 1 armour 0 weapon_lvl 0
-unit		gr_lancer				exp 0 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		pru_husaren				exp 0 armour 0 weapon_lvl 0
 
 ;Dusseldorf
 character	Friedrich_Karl Von_Witzendorff, named character, male, age 40, x 241, y 259
 army
-unit		otto_sipahi				exp 1 armour 0 weapon_lvl 0
-unit		balk_cav_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 0 armour 0 weapon_lvl 0
 
 ;Kessel
 character	random_name, general, male, age 40, x 247, y 259
 army
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
 
 ;Munster
 character	Maximilian Von_Blumruder, named character, male, age 40, x 242, y 261
 army
-unit		otto_sipahi				exp 1 armour 0 weapon_lvl 0
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
 
 ;Potsdam
 character	Rudolf Von_Conrady, named character, male, age 40, x 249, y 262
 army
-unit		otto_sipahi				exp 1 armour 0 weapon_lvl 0
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
 
 ;Rostock
 character	Georg Von_Kleist, named character, male, age 40, x 249, y 267
 army
-unit		otto_sipahi				exp 1 armour 0 weapon_lvl 0
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
 
 ;Stettin
 character	random_name, general, male, age 40, x 253, y 265
 army
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
 
 ;Konigsberg
 character	Benno Von_GersteinHohenstein, named character, male, age 30, x 260, y 267
 army
-unit		otto_sipahi				exp 1 armour 0 weapon_lvl 0
-unit		balk_cav_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 0 armour 0 weapon_lvl 0
 
 ;Posen
 character	Heinrich Von_Falkenstein, named character, male, age 40, x 257, y 260
 army
-unit		otto_sipahi				exp 1 armour 0 weapon_lvl 0
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
 
 ;Danzig
 character	random_name, general, male, age 40, x 257, y 266
 army
-unit		siam_riflemen_gr				exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early				exp 0 armour 0 weapon_lvl 0
 
 ;Berlin FLeet
 character	Georg Von_Einem, admiral, male, age 36, x 251, y 267
@@ -4391,39 +4391,39 @@ settlement
 character	Enrique_Cornelio Bustamante_y_Oseguera, named character, male, leader, battle_model deguogeneral, age 54, x 127, y 128, portrait lopez-peru
 traits		Factionleader 1
 army
-unit		peru_hussars				exp 1 armour 0 weapon_lvl 0
-unit		tzar_inf				exp 0 armour 0 weapon_lvl 0
-unit		tzar_inf				exp 0 armour 0 weapon_lvl 0
-unit		peru_early_inf				exp 0 armour 0 weapon_lvl 0
-unit		bol_hussar				exp 0 armour 0 weapon_lvl 0
+unit		per_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		per_guard_mid				exp 0 armour 0 weapon_lvl 0
+unit		per_guard_mid				exp 0 armour 0 weapon_lvl 0
+unit		per_line_early				exp 0 armour 0 weapon_lvl 0
+unit		per_husares_junin				exp 0 armour 0 weapon_lvl 0
 unit		usa_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Cuzco
 character	Trinidad_Anastasio Pesqueira_Garcia, named character, male, age 30, x 139, y 116
 army
-unit		peru_hussars				exp 1 armour 0 weapon_lvl 0
-unit		tzar_inf				exp 0 armour 0 weapon_lvl 0
+unit		per_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		per_guard_mid				exp 0 armour 0 weapon_lvl 0
 
 ;Trujilo
 character	random_name, general, male, age 44, x 127, y 137
 army
-unit		tzar_inf				exp 0 armour 0 weapon_lvl 0
+unit		per_guard_mid				exp 0 armour 0 weapon_lvl 0
 
 ;Huancayo
 character	random_name, general, male, age 44, x 132, y 125
 army
-unit		peru_early_inf				exp 0 armour 0 weapon_lvl 0
+unit		per_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Tacna
 character	Pedro_Jose Montes_de_Oca_y_Saucedo, named character, male, age 44, x 141, y 101
 army
-unit		peru_hussars				exp 1 armour 0 weapon_lvl 0
-unit		tzar_inf				exp 0 armour 0 weapon_lvl 0
+unit		per_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		per_guard_mid				exp 0 armour 0 weapon_lvl 0
 
 ;Puno
 character	random_name, general, male, age 44, x 141, y 113
 army
-unit		peru_early_inf				exp 0 armour 0 weapon_lvl 0
+unit		per_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Peru Fleet
 character	Jose_Antonio Montes_de_Oca_y_Saucedo, admiral, male, age 44, x 127, y 134
@@ -4947,134 +4947,134 @@ settlement
 character	Napoleon, named character, male, leader, age 50, battle_model frances_general, x 234, y 255, portrait napoleoniii
 traits		Factionleader 1
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_carbs				exp 0 armour 0 weapon_lvl 0
-unit		fra_chass				exp 0 armour 0 weapon_lvl 0
-unit		fra_inf_fr				exp 0 armour 0 weapon_lvl 0
-unit		fra_line_inf				exp 0 armour 0 weapon_lvl 0
-unit		fra_line_inf				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_chasseurs_cheval				exp 0 armour 0 weapon_lvl 0
+unit		fra_chasseurs_mid				exp 0 armour 0 weapon_lvl 0
+unit		fra_legion_mid				exp 0 armour 0 weapon_lvl 0
+unit		fra_fusiliers_early				exp 0 armour 0 weapon_lvl 0
+unit		fra_fusiliers_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Nantes 
 character	random_name, general, male, age 41, x 229, y 253
 army
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
 
 ;Caen
 character	random_name, general, male, age 41, x 230, y 255
 army
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
 
 ;Metz
 character	Jean_Francois_Andre De_Waldner, named character, male, age 41, x 238, y 255
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_hus_2				exp 0 armour 0 weapon_lvl 0
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_cuirassiers				exp 0 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
 
 ;Lyon
 character	Joachim_Joseph_Napoleon, named character, male, heir, age 30, x 238, y 249
 traits		Factionheir 1
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_hus_2				exp 0 armour 0 weapon_lvl 0
-unit		fra_inf_fr				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_cuirassiers				exp 0 armour 0 weapon_lvl 0
+unit		fra_legion_mid				exp 0 armour 0 weapon_lvl 0
 
 ;Strasbourg
 character	Francois_Xavier Desvaux, named character, male, age 41, x 240, y 252
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
 
 ;Clermont
 character	random_name, general, male, age 41, x 234, y 248
 army
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
 
 ;Suez
 character	random_name, general, male, age 41, x 277, y 210
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
 
 ;Bordeaux
 character	Ernest_Louis_Octave De_Gressot, named character, male, age 32, x 231, y 245
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
 
 ;Bayonne
 character	random_name, general, male, age 41, x 230, y 242
 army
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
 
 ;Portiers
 character	random_name, general, male, age 41, x 231, y 249
 army
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
 
 ;Toulouse
 character	random_name, general, male, age 41, x 234, y 242
 army
-unit		fra_carbs				exp 0 armour 0 weapon_lvl 0
-unit		fra_blacks_fr				exp 0 armour 0 weapon_lvl 0
+unit		fra_chasseurs_cheval				exp 0 armour 0 weapon_lvl 0
+unit		fra_senegalais_early				exp 0 armour 0 weapon_lvl 0
 
 ;Marseille
 character	Charles_Auguste De_Freudenstein, named character, male, age 52, x 239, y 242
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		us_zouave				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_zouaves_early				exp 0 armour 0 weapon_lvl 0
 
 ;Saigon
 character	Francois_Marcellin_Certain De_Saint_Hillier, named character, male, age 46, x 387, y 166
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_line_inf				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_fusiliers_early				exp 0 armour 0 weapon_lvl 0
 
 ;Pondicherry
 character	Fernand_Louis_Armand Murat, named character, male, age 41, x 347, y 175
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_inf_fr				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_legion_mid				exp 0 armour 0 weapon_lvl 0
 
 ;Corsica
 character	random_name, general, male, age 41, x 244, y 239
 army
-unit		fra_rec				exp 0 armour 0 weapon_lvl 0
+unit		fra_garde_mobile_early				exp 0 armour 0 weapon_lvl 0
 
 ;Algiers
 character	Edouard_Jean_Etienne De_Gressot, named character, male, age 41, x 237, y 226
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_line_inf				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_fusiliers_early				exp 0 armour 0 weapon_lvl 0
 
 ;Oran
 character	random_name, general, male, age 41, x 230, y 224
 army
-unit		fra_line_inf				exp 0 armour 0 weapon_lvl 0
-unit		us_zouave				exp 0 armour 0 weapon_lvl 0
+unit		fra_fusiliers_early				exp 0 armour 0 weapon_lvl 0
+unit		fra_zouaves_early				exp 0 armour 0 weapon_lvl 0
 
 ;Constantine
 character	random_name, general, male, age 41, x 238, y 223
 army
-unit		us_zouave				exp 0 armour 0 weapon_lvl 0
+unit		fra_zouaves_early				exp 0 armour 0 weapon_lvl 0
 
 ;Dakar
 character	Sylvain_Francois Le_Bouef, named character, male, age 39, x 207, y 172
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_blacks_fr				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_senegalais_early				exp 0 armour 0 weapon_lvl 0
 
 ;St Loius
 character	random_name, general, male, age 41, x 208, y 179
 army
-unit		fra_blacks_fr				exp 0 armour 0 weapon_lvl 0
+unit		fra_senegalais_early				exp 0 armour 0 weapon_lvl 0
 
 ;Cayenne
 character	Charles_Ferdinand Petit, named character, age 41, x 165, y 154
 army
-unit		fra_hussar			exp 1 armour 0 weapon_lvl 0
-unit		fra_line_inf				exp 0 armour 0 weapon_lvl 0
+unit		fra_general_staff			exp 1 armour 0 weapon_lvl 0
+unit		fra_fusiliers_early				exp 0 armour 0 weapon_lvl 0
 
 ;Paris Fleet
 character	Pierre_Louis_Charles D_Auvergne, admiral, male, age 40, x 227, y 251
@@ -5517,114 +5517,114 @@ settlement
 character	Franz_Joseph, named character, male, leader, age 54, battle_model frances_general, x 253, y 251, portrait franzjoseph
 traits		Factionleader 1
 army
-unit		aus_ulhans				exp 1 armour 0 weapon_lvl 0
-unit		dan_dragoon_early				exp 0 armour 0 weapon_lvl 0
-unit		aus_lancers				exp 0 armour 0 weapon_lvl 0
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
-unit		rom_guard				exp 0 armour 0 weapon_lvl 0
+unit		aus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		aus_dragoner_early				exp 0 armour 0 weapon_lvl 0
+unit		aus_ulanen				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
+unit		aus_bosniak_mid				exp 0 armour 0 weapon_lvl 0
 unit		rus_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Budapest
 character	Ferdinand_Maximilian, named character, male, heir, age 33, x 256, y 251
 traits		Factionheir 1
 army
-unit		aus_ulhans				exp 1 armour 0 weapon_lvl 0
-unit		balk_cav				exp 0 armour 0 weapon_lvl 0
+unit		aus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		aus_husaren				exp 0 armour 0 weapon_lvl 0
 
 ;Venice
 character	Franz_Emil von_Froreich_Szabo, named character, male, age 45, x 248, y 247
 army
-unit		aus_ulhans				exp 1 armour 0 weapon_lvl 0
-unit		aus_lancers				exp 0 armour 0 weapon_lvl 0
+unit		aus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		aus_ulanen				exp 0 armour 0 weapon_lvl 0
 
 ;Verona
 character	random_name, general, male, age 45, x 245, y 247
 army
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Innsbruck
 character	random_name, general, male, age 45, x 249, y 250
 army
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Salzburg
 character	random_name, general, male, age 45, x 251, y 250
 army
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Trieste
 character	random_name, general, male, age 45, x 250, y 248
 army
-unit		kaiserjager				exp 0 armour 0 weapon_lvl 0
+unit		aus_grenz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Laibach
 character	random_name, general, male, age 45, x 253, y 249
 army
-unit		kaiserjager				exp 0 armour 0 weapon_lvl 0
+unit		aus_grenz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Prague
 character	Aloys_Geza von_Giebelstadt_und_Darstadt, named character, male, age 45, x 253, y 258
 army
-unit		aus_ulhans				exp 1 armour 0 weapon_lvl 0
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
+unit		aus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Pilsen
 character	random_name, general, male, age 45, x 250, y 258
 army
-unit		aus_lancers				exp 0 armour 0 weapon_lvl 0
+unit		aus_ulanen				exp 0 armour 0 weapon_lvl 0
 
 ;Argram
 character	random_name, general, male, age 45, x 255, y 247
 army
-unit		kaiserjager				exp 0 armour 0 weapon_lvl 0
+unit		aus_grenz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Ragusa
 character	random_name, general, male, age 45, x 258, y 241
 army
-unit		kaiserjager				exp 0 armour 0 weapon_lvl 0
+unit		aus_grenz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Weissenberg
 character	random_name, general, male, age 45, x 261, y 249
 army
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Temeschwar
 character	random_name, general, male, age 45, x 260, y 247
 army
-unit		rom_guard				exp 0 armour 0 weapon_lvl 0
+unit		aus_bosniak_mid				exp 0 armour 0 weapon_lvl 0
 
 ;Czernowitz
 character	random_name, general, male, age 45, x 262, y 255
 army
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Troppau
 character	random_name, general, male, age 45, x 256, y 258
 army
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Brunn
 character	random_name, general, male, age 45, x 255, y 256
 army
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Krakow
 character	random_name, general, male, age 45, x 258, y 258
 army
-unit		rom_guard				exp 0 armour 0 weapon_lvl 0
+unit		aus_bosniak_mid				exp 0 armour 0 weapon_lvl 0
 
 ;Lamberg
 character	Arpad_Cserepy von_Benedek, named character, male, age 45, x 264, y 257
 army
-unit		aus_ulhans				exp 1 armour 0 weapon_lvl 0
-unit		balk_cav				exp 0 armour 0 weapon_lvl 0
+unit		aus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		aus_husaren				exp 0 armour 0 weapon_lvl 0
 
 ;Zara
 character	random_name, general, male, age 45, x 254, y 245
 army
-unit		dutch_militia				exp 0 armour 0 weapon_lvl 0
+unit		aus_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Venice Fleet
 character	Philipp_Franz von_Tegetthoff, admiral, male, age 45, x 249, y 246
@@ -5871,71 +5871,71 @@ settlement
 character	Victor_Emmanuel di_Savoia, named character, male, leader, age 53, battle_model deguogeneral, x 243, y 247, portrait emmanuel
 traits		Factionleader 1
 army
-unit		it_pistoleer				exp 1 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Naples
 character	Umberto di_Savoia, named character, male, heir, age 33, x 252, y 236
 traits		Factionheir 1
 army
-unit		it_pistoleer				exp 1 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Genoa
 character	random_name, general, male, age 49, x 242, y 245
 army
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Turin
 character	Enrico Raspi, named character, male, age 49, x 240, y 244
 army
-unit		it_pistoleer				exp 1 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Ancona
 character	random_name, general, male, age 49, x 250, y 242
 army
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Florence
 character	Felice Rocca, named character, male, age 49, x 246, y 245
 army
-unit		it_pistoleer				exp 1 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Pescara
 character	random_name, general, male, age 49, x 251, y 240
 army
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Bari
 character	random_name, general, male, age 49, x 254, y 237
 army
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Reggio
 character	random_name, general, male, age 49, x 253, y 230
 army
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Palermo
 character	Gustavo Ferri, named character, male, age 49, x 251, y 229
 army
-unit		it_pistoleer				exp 1 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Marsala
 character	random_name, general, male, age 49, x 249, y 229
 army
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Cagliari
 character	random_name, general, male, age 49, x 243, y 235
 army
-unit		rus_cos_guard_ve				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Genoa Fleet
 character	Vicenzo Mambretti, admiral, male, age 49, x 243, y 243
@@ -6383,7 +6383,7 @@ character	Alfonso de_Alaix_Fabregas, named character, male, leader, age 50, batt
 traits		Factionleader 1
 army
 unit		civil_guard				exp 1 armour 0 weapon_lvl 0
-unit		fra_hus_2				exp 0 armour 0 weapon_lvl 0
+unit		spa_cuirassiers_early				exp 0 armour 0 weapon_lvl 0
 unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
 unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
@@ -6411,7 +6411,7 @@ unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
 ;Bilbao
 character	random_name, general, male, age 40, x 227, y 241
 army
-unit		fra_hus_2				exp 0 armour 0 weapon_lvl 0
+unit		spa_cuirassiers_early				exp 0 armour 0 weapon_lvl 0
 unit		spa_inf_early				exp 0 armour 0 weapon_lvl 0
 
 ;Leon
@@ -7754,15 +7754,15 @@ settlement
 character	Tewodros Hailu, named character, male, leader, age 42, x 284, y 166 
 traits		Factionleader 1
 army
-unit		sho_mod_cav				exp 0 armour 0 weapon_lvl 0
+unit		aby_grd_2g				exp 0 armour 0 weapon_lvl 0
 
 character	random_name, general, male, age 30, x 290, y 166 
 army
-unit		sho_mod_cav					exp 0 armour 0 weapon_lvl 0
+unit		aby_grd_2g					exp 0 armour 0 weapon_lvl 0
 
 character	random_name, general, male, age 30, x 285, y 174
 army
-unit		sho_mod_cav				exp 0 armour 0 weapon_lvl 0
+unit		aby_grd_2g				exp 0 armour 0 weapon_lvl 0
 
 ;character	Katamori Matsudaira, named character, male, age 24, x 293, y 160, portrait KatamoriMatsudaira, battle_model mufud_general 
 ;army
@@ -9108,382 +9108,382 @@ settlement
 character	Alexander_Nikolayevich Romanov, named character, male, leader, age 55, battle_model maozi_general,  x 276, y 278
 traits		Factionleader 1
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ru				exp 0 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
-unit		rus_roy_inf_ru				exp 0 armour 0 weapon_lvl 0
-unit		russ_inf				exp 0 armour 0 weapon_lvl 0
-unit		rus_roy_cav_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_leib_guard_early				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
+unit		rus_strelki_early				exp 0 armour 0 weapon_lvl 0
+unit		rus_sapery_mid				exp 0 armour 0 weapon_lvl 0
+unit		rus_draguny_early				exp 0 armour 0 weapon_lvl 0
 unit		rus_12lb				exp 0 armour 0 weapon_lvl 0
  
 ;Moscow
 character	Alexander_Alexeyevich Romanov, named character, male, heir, age 32, x 286, y 269
 traits		Factionheir 1
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Kola
 character	Victor_Fedorovitch Rievousky, named character, male, age 45, x 278, y 302
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Gel'singfors
 character	Iosif_Ivanovich Petrov, named character, male, age 45, x 266, y 281
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Turku
 character	random_name, general, male, age 45, x 263, y 282
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
 
 
  
 ;Helsinki
 character	random_name, general, male, age 45, x 268, y 282
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Riga
 character	Arkady_Nikanorovich Nepokoitschitsky, named character, male, age 45, x 265, y 273
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Reval
 character	random_name, general, male, age 45, x 268, y 279
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Vilna
 character	Vasily_Timofeyvich Kandratovich, named character, male, age 45, x 267, y 266
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Warsaw
 character	Nikolai_Alexandrovich Donkhovskoi, named character, male, age 45, x 261, y 262
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Lodz
 character	random_name, general, male, age 45, x 259, y 260
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Minsk
 character	random_name, general, male, age 45, x 271, y 264
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Kaunas
 character	Alexander_Alexeyevich Tchertkov, named character, age 45, x 265, y 267
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Kiev
 character	Christopher_Khristoforovich Tchertkov, named character, male, age 45, x 276, y 258
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Ternopil
 character	random_name, general, male, age 45, x 266, y 256
 army
-unit		rus_cos_guard_ru				exp 0 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_leib_guard_early				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Zhotomyr
 character	random_name, general, male, age 45, x 272, y 257
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Poltava
 character	random_name, general, male, age 45, x 281, y 256
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Sevastopol
 character	Victor_Deziderjevich Lockarev, named character, male, age 45, x 280, y 246
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_leib_guard_early				exp 0 armour 0 weapon_lvl 0
  
 ;Odessa
 character	random_name, general, male, age 45, x 275, y 250
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Ekaterinoslav
 character	random_name, general, male, age 45, x 283, y 253
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Kharkov
 character	random_name, general, male, age 45, x 285, y 256
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Rostov
 character	random_name, general, male, age 45, x 286, y 249
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Smolensk
 character	Mikhail_Pavolovich Shamshev, named character, male, age 45, x 277, y 267
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Vitebsk
 character	random_name, general, male, age 45, x 273, y 268
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Novgorod
 character	random_name, general, male, age 45, x 278, y 275
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Pskov
 character	random_name, general, male, age 45, x 272, y 273
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Tver
 character	random_name, general, male, age 45, x 283, y 272
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Vologda
 character	random_name, general, male, age 45, x 289, y 278
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Tula
 character	random_name, general, male, age 45, x 286, y 264
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Voronezh
 character	random_name, general, male, age 45, x 287, y 260
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Astrakhan
 character	random_name, general, male, age 45, x 302, y 250
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Volgograd
 character	random_name, general, male, age 45, x 297, y 254
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Maikop
 character	random_name, general, male, age 45, x 291, y 244
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Grozny
 character	random_name, general, male, age 45, x 296, y 243
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Sokhumi
 character	random_name, general, male, age 45, x 291, y 242
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Derbant
 character	random_name, general, male, age 45, x 301, y 237
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Tiflis
 character	Anthony_Andrevich Krylov, named character, male, age 45, x 296, y 236
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_cos_guard_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_leib_guard_early				exp 0 armour 0 weapon_lvl 0
  
 ;Kutaisi
 character	random_name, general, male, age 45, x 294, y 237
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Ereven
 character	random_name, general, male, age 45, x 296, y 232
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Elizavetpol
 character	random_name, general, male, age 45, x 299, y 234
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Baku
 character	random_name, general, male, age 45, x 301, y 233 
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Pustozersk
 character	Kazimir_Vasilyevich Nepokoitschitsky, named character, male, age 45, x 307, y 297 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
   
 ;Kazan 
 character	Konstantin_Alexandrovich Shostak, named character, male, age 45, x 309, y 266 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
   
 ;Saratov
 character	random_name, general, male, age 45, x 303, y 260 
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
   
 ;Guryev
 character	Vasily_Timofeyvich Voronzov, named character, male, age 45, x 307, y 252 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
   
 ;Uralsk
 character	random_name, general, male, age 45, x 308, y 258 
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
   
 ;Orenburg
 character	random_name, general, male, age 45, x 312, y 258 
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
   
 ;Tyumen
 character	Nikolai_Ilyich Zimmermann, named character, male, age 45, x 333, y 268 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
   
 ;Tobolsk
 character	random_name, general, male, age 45, x 335, y 271 
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
   
 ;Nadym
 character	Eduard_Ivanovich Krylov, named character, male, age 45, x 346, y 295 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
 
 ;Dudinka
 character	random_name, general, male, age 45, x 356, y 306 
 army
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
   
 ;Khatanga
 character	random_name, general, male, age 45, x 387, y 309 
 army
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
 
 ;Akmolinsk
 character	Aleksei_Konstantinovich Tchertkov, named character, male, age 45, x 338, y 252 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
 
 ;Omsk
 character	random_name, general, male, age 45, x 339, y 258 
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
 
 ;Verniy
 character	Yakov_Federovich Shuvalov, named character, male, age 45, x 342, y 242 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
 
 ;Pishpek
 character	Leonid_Konstantinovich Pomerantsev, named character, male, age 45, x 338, y 241 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
 
 ;Irkutsk
 character	Victor_Deziderjevich Rall, named character, male, age 45, x 380, y 265 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
  
 ;Yeniseysk
 character	random_name, general, male, age 45, x 364, y 278 
 army
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
  
 ;Verkhneudinsk
 character	Kazimir_Vasilyevich Sheremetiev, named character, male, age 45, x 391, y 265 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
  
 ;Chita
 character	random_name, general, male, age 45, x 401, y 266 
 army
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
  
 ;Suntar
 character	random_name, general, male, age 45, x 404, y 288 
 army
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
  
 ;Vladiovostok
 character	Nikolai_Nikolayevich Voronzov, named character, male, age 45, x 423, y 242 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Khabarovka
 character	Iosif_Ivanovich Tchertkov, named character, male, age 45, x 424, y 254 
 army
-unit		rus_imp_cav				exp 1 armour 0 weapon_lvl 0
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
  
 ;Nikolayevsk
 character	random_name, general, male, age 45, x 434, y 266 
 army
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
  
 ;Petropavlovsk
 character	random_name, general, male, age 45, x 463, y 267 
 army
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
  
 ;Okhotsk
 character	random_name, general, male, age 45, x 439, y 280 
 army
-unit		rus_conscript				exp 0 armour 0 weapon_lvl 0
+unit		rus_siberian_early				exp 0 armour 0 weapon_lvl 0
  
 ;Fort St Constantine
 character	random_name, general, male, age 45, x 28, y 284 
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Novo-Arkhangelsk
 character	random_name, general, male, age 45, x 51, y 270 
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
  
 ;Fort St Micheal
 character	random_name, general, male, age 45, x 6, y 287 
 army
-unit		rus_conscript_ru				exp 0 armour 0 weapon_lvl 0
+unit		rus_pekhota_early				exp 0 armour 0 weapon_lvl 0
 
 ;Baltic Fleet
 character	Sergei_Konstantinovich Bulatov, admiral, male, age 36, x 272, y 280
@@ -9646,7 +9646,7 @@ unit		afg_general_staff				exp 0 armour 0 weapon_lvl 0
 unit		afg_regular_early				exp 0 armour 0 weapon_lvl 0
 unit		afg_tajik_hillmen				exp 0 armour 0 weapon_lvl 0
 unit		afg_pashtun_camelry				exp 0 armour 0 weapon_lvl 0
-unit		ind_armstrong				exp 0 armour 0 weapon_lvl 0
+unit		col_12lb				exp 0 armour 0 weapon_lvl 0
 
 
 character	Arslan Khan, named character, male, heir, age 30, x 330, y 211
@@ -9662,7 +9662,7 @@ unit		afg_tribal_cavalry				exp 0 armour 0 weapon_lvl 0
 character	random_name, general, male, age 30, x 338, y 219
 army
 unit		afg_pashtun_wall_gunners				exp 0 armour 0 weapon_lvl 0
-unit		ind_armstrong				exp 0 armour 0 weapon_lvl 0
+unit		col_12lb				exp 0 armour 0 weapon_lvl 0
 
 character_record		Farzana, 	female, age 50, alive, 3, never_a_leader
 
@@ -10692,234 +10692,234 @@ settlement
 character	Murad, named character, male, leader, age 53, battle_model maratha_captain, x 271, y 237, portrait abdulmejid
 traits		Factionleader 1
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 unit		mus_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Thessaloniki
 character	Abdul Hamid, named character, male, heir, age 30, x 263, y 237
 traits		Factionheir 1
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Tripoli
 character	Tahir Nuri, named character, male, age 45, x 249, y 216
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Sirte
 character	random_name, general, male, age 45, x 255, y 213
 army
-unit		moroccan_camel_gunner				exp 0 armour 0 weapon_lvl 0
+unit		ott_suvari_early				exp 0 armour 0 weapon_lvl 0
 
 ;Benghazi
 character	random_name, general, male, age 45, x 260, y 216
 army
-unit		moroccan_gunner				exp 0 armour 0 weapon_lvl 0
+unit		ott_redif_early				exp 0 armour 0 weapon_lvl 0
 
 ;Derna
 character	random_name, general, male, age 45, x 263, y 217
 army
-unit		moroccan_gunner				exp 0 armour 0 weapon_lvl 0
+unit		ott_redif_early				exp 0 armour 0 weapon_lvl 0
 
 ;Mansoura
 character	random_name, general, male, age 45, x 274, y 212
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Damascus
 character	Hussein Selim, named character, male, age 45, x 286, y 217
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Amman
 character	random_name, general, male, age 45, x 285, y 214
 army
-unit		moroccan_gunner				exp 0 armour 0 weapon_lvl 0
+unit		ott_redif_early				exp 0 armour 0 weapon_lvl 0
 
 ;Beirut
 character	random_name, general, male, age 45, x 282, y 218
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Homs
 character	random_name, general, male, age 45, x 285, y 220
 army
-unit		moroccan_gunner				exp 0 armour 0 weapon_lvl 0
+unit		ott_redif_early				exp 0 armour 0 weapon_lvl 0
 
 ;Jerusalem
 character	random_name, general, male, age 45, x 283, y 213
 army
-unit		arab_sailors				exp 0 armour 0 weapon_lvl 0
+unit		ott_nizamiye_early				exp 0 armour 0 weapon_lvl 0
 
 ;Aleppo
 character	Hadji_Raschid Pazvantoglu, named character, male, age 45, x 285, y 224
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Nicosia
 character	random_name, general, male, age 45, x 279, y 223
 army
-unit		arab_sailors				exp 0 armour 0 weapon_lvl 0
+unit		ott_nizamiye_early				exp 0 armour 0 weapon_lvl 0
 
 ;Baghdad
 character	Zekki Muhtar, named character, male, age 45, x 298, y 218
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Basra
 character	random_name, general, male, age 45, x 301, y 213
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Al-Kut
 character	random_name, general, male, age 45, x 300, y 215
 army
-unit		moroccan_gunner				exp 0 armour 0 weapon_lvl 0
+unit		ott_redif_early				exp 0 armour 0 weapon_lvl 0
 
 ;Van
 character	Ahmed Enver, named character, male, age 45, x 292, y 226
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Mosul
 character	random_name, general, male, age 45, x 293, y 222
 army
-unit		moroccan_gunner				exp 0 armour 0 weapon_lvl 0
+unit		ott_redif_early				exp 0 armour 0 weapon_lvl 0
 
 ;Edessa
 character	random_name, general, male, age 45, x 288, y 228
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Kars
 character	random_name, general, male, age 45, x 293, y 232
 army
-unit		otto_cav_tu				exp 0 armour 0 weapon_lvl 0
+unit		ott_suvari_mid				exp 0 armour 0 weapon_lvl 0
 
 ;Trebizond
 character	Yunous Selim, named character, male, age 45, x 289, y 235
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Batumi
 character	random_name, general, male, age 45, x 292, y 237
 army
-unit		arab_sailors				exp 0 armour 0 weapon_lvl 0
+unit		ott_nizamiye_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sinope
 character	random_name, general, male, age 45, x 283, y 238
 army
-unit		arab_sailors				exp 0 armour 0 weapon_lvl 0
+unit		ott_nizamiye_early				exp 0 armour 0 weapon_lvl 0
 
 ;Kayseri
 character	Mehmet Sukru, named character, male, age 45, x 281, y 230
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Erzurum
 character	random_name, general, male, age 45, x 290, y 231
 army
-unit		arab_sailors				exp 0 armour 0 weapon_lvl 0
+unit		ott_nizamiye_early				exp 0 armour 0 weapon_lvl 0
 
 ;Ankara
 character	random_name, general, male, age 45, x 278, y 232
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Konya
 character	random_name, general, male, age 45, x 277, y 229
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Smyrna
 character	Natou Izzeddin, named character, male, age 45, x 271, y 231
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Adalia
 character	random_name, general, male, age 45, x 274, y 228
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Amatris
 character	random_name, general, male, age 45, x 277, y 237
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Bursa
 character	random_name, general, male, age 45, x 272, y 235
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Erdine
 character	random_name, general, male, age 45, x 269, y 238
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Plevna
 character	random_name, general, male, age 45, x 267, y 239
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sofia
 character	Zihni Kemaleddin, named character, male, age 45, x 266, y 242
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Constanta
 character	random_name, general, male, age 45, x 272, y 245
 army
-unit		arab_sailors				exp 0 armour 0 weapon_lvl 0
+unit		ott_nizamiye_early				exp 0 armour 0 weapon_lvl 0
 
 ;Varna
 character	random_name, general, male, age 45, x 272, y 243
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sliven
 character	random_name, general, male, age 45, x 269, y 241
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sarajevo
 character	random_name, general, male, age 45, x 258, y 243
 army
-unit		arab_sailors				exp 0 armour 0 weapon_lvl 0
+unit		ott_nizamiye_early				exp 0 armour 0 weapon_lvl 0
 
 ;Skopje
 character	random_name, general, male, age 45, x 262, y 240
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Varona
 character	random_name, general, male, age 45, x 259, y 237
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Ioannina
 character	random_name, general, male, age 45, x 261, y 235
 army
-unit		arab_sailors				exp 0 armour 0 weapon_lvl 0
+unit		ott_nizamiye_early				exp 0 armour 0 weapon_lvl 0
 
 ;Candia
 character	random_name, general, male, age 45, x 268, y 223
 army
-unit		arab_sailors				exp 0 armour 0 weapon_lvl 0
+unit		ott_nizamiye_early				exp 0 armour 0 weapon_lvl 0
 
 ;Rhodes
 character	random_name, general, male, age 45, x 271, y 225
 army
-unit		arab_brigade				exp 0 armour 0 weapon_lvl 0
+unit		ott_mustahfiz_early				exp 0 armour 0 weapon_lvl 0
 
 ;Tunis
 character	random_name, general, male, age 45, x 245, y 226
 army
-unit		moroccan_gunner				exp 0 armour 0 weapon_lvl 0
+unit		ott_redif_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sana'a
 character	Rustem Salih, named character, male, age 45, x 296, y 178
 army
-unit		turk_lt				exp 1 armour 0 weapon_lvl 0
+unit		ott_ertugrul_suvari				exp 1 armour 0 weapon_lvl 0
 
 ;Black Sea Fleet
 character	Hassib Enver, admiral, male, age 44, x 287, y 237
@@ -11173,7 +11173,7 @@ unit		qaj_horse_guard			exp 0 armour 0 weapon_lvl 0
 unit		qaj_guard_early			exp 0 armour 0 weapon_lvl 0
 unit		qaj_guard_early			exp 0 armour 0 weapon_lvl 0
 unit		qaj_tofangchi			exp 0 armour 0 weapon_lvl 0
-unit		ind_armstrong			exp 0 armour 0 weapon_lvl 0
+unit		col_12lb			exp 0 armour 0 weapon_lvl 0
 
 ;Tabriz
 character	Mustafa ad_Din, named character, male, heir, age 31, x 300, y 226
@@ -11595,38 +11595,38 @@ settlement
 character	Barghash bin_Said, named character, male, leader, age 52, battle_model maratha_captain, x 315, y 196, portrait binsaid
 traits		Factionleader 1
 army
-unit		otto_cav				exp 1 armour 0 weapon_lvl 0
-unit		omani_roy				exp 0 armour 0 weapon_lvl 0
-unit		us_zouave_go				exp 0 armour 0 weapon_lvl 0
+unit		oma_horse_guard_early				exp 1 armour 0 weapon_lvl 0
+unit		oma_palace_guard_early				exp 0 armour 0 weapon_lvl 0
+unit		oma_regular_early				exp 0 armour 0 weapon_lvl 0
 unit		mus_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Zanzibar
 character	Thuwaini bin_Said, named character, male, heir, age 30, x 290, y 129
 traits		Factionheir 1
 army
-unit		otto_cav				exp 1 armour 0 weapon_lvl 0
-unit		omani_roy				exp 0 armour 0 weapon_lvl 0
+unit		oma_horse_guard_early				exp 1 armour 0 weapon_lvl 0
+unit		oma_palace_guard_early				exp 0 armour 0 weapon_lvl 0
 
 ;Duqm
 character	random_name, general, male, age 40, x 316, y 190
 army
-unit		moroccan_camel_gunner				exp 0 armour 0 weapon_lvl 0
+unit		oma_bedouin_camelry				exp 0 armour 0 weapon_lvl 0
 unit		merc_arab_brigade				exp 0 armour 0 weapon_lvl 0
 
 ;Dar Es Salam
 character	random_name, general, male, age 40, x 287, y 126
 army
-unit		us_zouave_go				exp 0 armour 0 weapon_lvl 0
+unit		oma_regular_early				exp 0 armour 0 weapon_lvl 0
 
 ;Mombasa
 character	random_name, general, male, age 40, x 289, y 136
 army
-unit		us_zouave_go				exp 0 armour 0 weapon_lvl 0
+unit		oma_regular_early				exp 0 armour 0 weapon_lvl 0
 
 ;Lindi
 character	random_name, general, male, age 40, x 288, y 120
 army
-unit		moroccan_gunner				exp 0 armour 0 weapon_lvl 0
+unit		oma_baluchi_musketeers				exp 0 armour 0 weapon_lvl 0
 
 ;Gwadar
 character	random_name, general, male, age 40, x 322, y 200
@@ -11636,7 +11636,7 @@ unit		merc_arab_brigade				exp 0 armour 0 weapon_lvl 0
 ;Irodo
 character	random_name, general, male, age 40, x 303, y 112
 army
-unit		moroccan_gunner				exp 0 armour 0 weapon_lvl 0
+unit		oma_baluchi_musketeers				exp 0 armour 0 weapon_lvl 0
 
 ;Oman Fleet
 character	Azizudeen Belqola, admiral, male, age 36, x 315, y 186
@@ -11891,59 +11891,59 @@ settlement
 character	William Alexander, named character, male, leader, age 54, battle_model frances_general, x 239, y 262
 traits		Factionleader 1
 army
-unit		balk_cav_nl				exp 1 armour 0 weapon_lvl 0
-unit		nl_carbs				exp 0 armour 0 weapon_lvl 0
-unit		nl_roy				exp 0 armour 0 weapon_lvl 0
-unit		dutch_inf				exp 0 armour 0 weapon_lvl 0
-unit		dutch_inf				exp 0 armour 0 weapon_lvl 0
+unit		net_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		net_huzaren				exp 0 armour 0 weapon_lvl 0
+unit		net_grenadiers_early				exp 0 armour 0 weapon_lvl 0
+unit		net_line_early				exp 0 armour 0 weapon_lvl 0
+unit		net_line_early				exp 0 armour 0 weapon_lvl 0
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 unit		eng_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Rotterdam
 character	George_Hendrik van_Nieuwenhoven, named character, male, age 30, x 238, y 260
 army
-unit		balk_cav_nl				exp 1 armour 0 weapon_lvl 0
-unit		dutch_inf				exp 0 armour 0 weapon_lvl 0
-unit		dutch_inf				exp 0 armour 0 weapon_lvl 0
+unit		net_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		net_line_early				exp 0 armour 0 weapon_lvl 0
+unit		net_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Batavia
 character	Jan_Hendrik van_Capellen, named character, male, age 42, x 387, y 127
 army
-unit		balk_cav_nl				exp 1 armour 0 weapon_lvl 0
-unit		dutch_inf				exp 0 armour 0 weapon_lvl 0
+unit		net_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		net_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Palembang
 character	Friedrich_Balduin van_Heiden, named character, male, age 42, x 379, y 143
 army
-unit		balk_cav_nl				exp 1 armour 0 weapon_lvl 0
-unit		dutch_askari2				exp 0 armour 0 weapon_lvl 0
+unit		net_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		net_knil_early				exp 0 armour 0 weapon_lvl 0
 
 ;Surabaya
 character	random_name, general, male, age 42, x 394, y 125
 army
-unit		dutch_askari2				exp 0 armour 0 weapon_lvl 0
+unit		net_knil_early				exp 0 armour 0 weapon_lvl 0
 
 ;Surinam
 character	Julius_Matthijs van_Heiden, named character, male, age 42, x 162, y 155
 army
-unit		balk_cav_nl				exp 1 armour 0 weapon_lvl 0
-unit		dutch_inf				exp 0 armour 0 weapon_lvl 0
+unit		net_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		net_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Makasar
 character	Carel_Johan van_Braam, named character, male, age 42, x 405, y 131
 army
-unit		balk_cav_nl				exp 1 armour 0 weapon_lvl 0
-unit		dutch_inf				exp 0 armour 0 weapon_lvl 0
+unit		net_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		net_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sukadana
 character	random_name, general, male, age 42, x 392, y 138
 army
-unit		dutch_askari2				exp 0 armour 0 weapon_lvl 0
+unit		net_knil_early				exp 0 armour 0 weapon_lvl 0
 
 ;Menado
 character	random_name, general, male, age 42, x 410, y 139
 army
-unit		dutch_askari2				exp 0 armour 0 weapon_lvl 0
+unit		net_knil_early				exp 0 armour 0 weapon_lvl 0
 
 ;Amsterdam
 character	Carel_Hendrik van_Maanen, admiral, male, age 36, x 237, y 261
@@ -12061,7 +12061,7 @@ settlement
 character	Christian Frederik, named character, male, leader, age 52, battle_model maozi_general, x 248, y 270, portrait christian
 traits		Factionleader 1
 army
-unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+unit		dan_general				exp 1 armour 0 weapon_lvl 0
 unit		dan_fod_early				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 
@@ -12069,7 +12069,7 @@ unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 character	Frederik, named character, male, heir, age 30, x 245, y 267
 traits		Factionheir 1
 army
-unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
+unit		dan_general				exp 1 armour 0 weapon_lvl 0
 unit		dan_light_early				exp 0 armour 0 weapon_lvl 0
 
 ;Odense
@@ -12765,7 +12765,7 @@ army
 unit		qing_cavalry_general				exp 0 armour 0 weapon_lvl 0
 unit		qing_baqi_gunmen				exp 0 armour 0 weapon_lvl 0
 unit		qing_green_banner_gunmen				exp 0 armour 0 weapon_lvl 0
-unit		mongols_archer				exp 0 armour 0 weapon_lvl 0
+unit		qing_green_banner_archers				exp 0 armour 0 weapon_lvl 0
 unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Jilin
@@ -12918,13 +12918,13 @@ unit		qing_green_banner_archers				exp 0 armour 0 weapon_lvl 0
 ;Kuku-Khoto
 character	random_name, general, male, age 45, x 393, y 235
 army
-unit		mongols_archer				exp 0 armour 0 weapon_lvl 0
+unit		qing_green_banner_archers				exp 0 armour 0 weapon_lvl 0
 
 ;Urga
 character	Yunfei Kong, named character, male, age 45, x 377, y 251
 army
 unit		merc_kok_royal_cav				exp 0 armour 0 weapon_lvl 0
-unit		mongol_inf				exp 0 armour 0 weapon_lvl 0
+unit		qing_village_braves				exp 0 armour 0 weapon_lvl 0
 
 ;Urumqi
 character	Shicheng Ma, named character, male, age 45, x 363, y 243
@@ -13351,7 +13351,7 @@ unit		csa_regulars_early		exp 0 armour 0 weapon_lvl 0
 unit		csa_regulars_early		exp 0 armour 0 weapon_lvl 0
 unit		csa_regulars_early		exp 0 armour 0 weapon_lvl 0
 unit		csa_regulars_early		exp 0 armour 0 weapon_lvl 0
-unit		berdan_inf		exp 0 armour 0 weapon_lvl 0
+unit		csa_sharpshooters		exp 0 armour 0 weapon_lvl 0
 unit		csa_12lb		exp 0 armour 0 weapon_lvl 0
 
 ;Roanoke
@@ -13540,28 +13540,28 @@ settlement
 character	Otto Friedrich, named character, leader, male, age 53, battle_model frances_general, x 264, y 231, portrait ottogreece
 traits		Factionleader 1
 army
-unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
-unit		greek_guard_cav				exp 0 armour 0 weapon_lvl 0
-unit		greek_early_inf				exp 0 armour 0 weapon_lvl 0
-unit		greek_early_inf				exp 0 armour 0 weapon_lvl 0
+unit		gre_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		gre_carbineers_mid				exp 0 armour 0 weapon_lvl 0
+unit		gre_line_early				exp 0 armour 0 weapon_lvl 0
+unit		gre_line_early				exp 0 armour 0 weapon_lvl 0
 unit		rus_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Lamia
 character	George, named character, male, heir, age 30, x 263, y 234
 traits		Factionheir 1
 army
-unit		fra_hussar				exp 1 armour 0 weapon_lvl 0
-unit		greek_early_inf				exp 0 armour 0 weapon_lvl 0
+unit		gre_general_staff				exp 1 armour 0 weapon_lvl 0
+unit		gre_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Agrinio
 character	random_name, general, male, age 42, x 261, y 233
 army
-unit		greek_early_inf				exp 0 armour 0 weapon_lvl 0
+unit		gre_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Nafplion
 character	random_name, general, male, age 42, x 263, y 229
 army
-unit		greek_early_inf				exp 0 armour 0 weapon_lvl 0
+unit		gre_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Med Fleet
 character	Elias Paraskevopoulos, admiral, male, age 46, x 266, y 224
@@ -13697,7 +13697,7 @@ unit		siam_ele_gunner				exp 0 armour 0 weapon_lvl 0
 unit		siam_inf				exp 0 armour 0 weapon_lvl 0
 unit		siam_inf				exp 0 armour 0 weapon_lvl 0
 unit		siam_agent				exp 0 armour 0 weapon_lvl 0
-unit		byz_armstrong				exp 0 armour 0 weapon_lvl 0
+unit		siam_armstrong				exp 0 armour 0 weapon_lvl 0
 
 ;Ayutthaya
 character	sub_faction cru, random_name, general, male, age 40, x 377, y 179
@@ -17381,11 +17381,11 @@ unit		rus_12lb				exp 0 armour 0 weapon_lvl 0
 ;Rome
 character	sub_faction venice, random_name, general, male, age 40, x 248, y 240
 army
-unit		euro_hussars				exp 0 armour 0 weapon_lvl 0
-unit		polish_inf				exp 0 armour 0 weapon_lvl 0
-unit		polish_inf				exp 0 armour 0 weapon_lvl 0
-unit		polish_inf				exp 0 armour 0 weapon_lvl 0
-unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
+unit		ita_cavalleggeri			exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
+unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
+unit		col_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Zurich
 character	sub_faction hungary, random_name, general, male, age 40, x 242, y 250

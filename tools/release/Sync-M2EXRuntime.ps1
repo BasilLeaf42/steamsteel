@@ -30,16 +30,14 @@ if (-not $sevenZip) { throw '7-Zip is required to read the verified M2EX distrib
 if (-not (Test-Path -LiteralPath $ReferenceArchive -PathType Leaf)) { throw "M2EX reference archive not found: $ReferenceArchive" }
 
 $listing = & $sevenZip l -slt $ReferenceArchive
-$paths = foreach ($line in $listing) {
-    if ($line -notmatch '^Path = (.+)$') { continue }
-    $path = $Matches[1].Replace('/', '\')
-    if ($path -eq (Split-Path -Leaf $ReferenceArchive)) { continue }
-    if ($path.EndsWith('\')) { continue }
+$paths = foreach ($block in (($listing -join "`n") -split "(?:`r?`n){2,}")) {
+    if ($block -notmatch '(?m)^Path = (.+)$') { continue }
+    $path = $Matches[1].Trim().Replace('/', '\')
+    if ($block -notmatch '(?m)^Folder = -$') { continue }
     if ($path -match '^(mods|tools)\\') { continue }
     if ($path -in @('Americas.bat', 'Britannia.bat', 'Crusades.bat', 'Teutonic.bat')) { continue }
     if ($path -match '\.(pdb|lib|exp)$') { continue }
-    if ($path -match '(^|\\)[^\\]*d_43\.dll$') { continue }
-    if ($path -match '^(data|packs|miles)\\' -or $path -notmatch '\\') { $path }
+    if ($path -match '^(data|packs|miles|script)\\' -or $path -notmatch '\\') { $path }
 }
 $paths = @($paths | Sort-Object -Unique)
 if ($paths.Count -lt 100) { throw "M2EX runtime selection is unexpectedly small ($($paths.Count) files)." }

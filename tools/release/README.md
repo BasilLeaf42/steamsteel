@@ -7,13 +7,13 @@ This directory defines the public release independently of the development tree.
 ## Build a prerelease staging directory
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools/release/Build-SteamSteelRelease.ps1 -Version prerelease-1 -AuditDuplicates
+powershell -ExecutionPolicy Bypass -File tools/release/Build-SteamSteelRelease.ps1 -Version 1.2 -AuditDuplicates
 ```
 
 ## Build and test the final 7-Zip archive
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File tools/release/Build-SteamSteelRelease.ps1 -Version prerelease-1 -AuditDuplicates -CreateArchive
+powershell -ExecutionPolicy Bypass -File tools/release/Build-SteamSteelRelease.ps1 -Version 1.2 -AuditDuplicates -CreateArchive
 ```
 
 To apply a reviewed patch overlay while packaging, pass `-PatchDirectory <folder>`. Its contents must use paths relative to the mod root (for example `data/...`). The overlay is applied before the final manifest, installer compilation, compression and archive test, so the recorded hashes describe the actually shipped files.

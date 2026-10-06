@@ -623,8 +623,38 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 900, 300, 90, 70, 900, 2, 300
-ownership        russia, mongols, normans, hungary, hre, slave
-era 1            russia, mongols, normans, hungary, hre, slave
+ownership        russia, mongols, normans, hungary, slave
+era 1            russia, mongols, normans, hungary, slave
+
+type             pru_mitrailleuse
+dictionary       pru_mitrailleuse ; Beute-Mitrailleuse
+category         siege
+class            missile
+voice_type       Light
+banner faction   main_spear
+banner holy      crusade
+soldier          rus_ribault_crew, 10, 2, 1.0
+engine           mitrailleuse
+attributes       sea_faring, can_withdraw, gunpowder_unit, cannon, hide_forest
+move_speed_mod   1.3
+formation        1.5, 1.5, 3, 3, 3, square
+stat_health      1, 2
+stat_pri         6, 3, no, 0, 0, melee, artillery_gunpowder, piercing, knife, 25, 1
+stat_pri_attr    ap
+stat_sec         11, 3, ribault_shot, 350, 900, siege_missile, artillery_gunpowder, blunt, none, 0, 1
+stat_sec_attr    ap, bp
+stat_pri_armour  3, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      0, 0, 0, 0
+stat_mental      5, disciplined, highly_trained
+stat_charge_dist 6
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 900, 300, 90, 70, 900, 2, 300
+ownership        hre, slave
+era 1            hre
+era 2            hre
 
 type             rus_150mm
 dictionary       rus_150mm ; Howitzers
@@ -941,8 +971,8 @@ stat_charge_dist 6
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1000, 333, 100, 100, 1000, 2, 333
-ownership        bulga, slave
-era 2            bulga, slave
+ownership        bulga, egypt, slave
+era 2            bulga, egypt, slave
 
 
 
@@ -2339,8 +2369,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 900, 300, 90, 70, 900, 2, 300
 ownership        england, venice, portugal
-era 0            england
-era 1            venice, portugal
+era 1            england, venice, portugal
 
 
 type             eng_150mm
@@ -13389,7 +13418,7 @@ ownership        hre, slave
 era 2            hre
 
 type             pru_sturmtruppen_high
-dictionary       pru_sturmtruppen_high ; Sturmtruppen (Late)
+dictionary       pru_sturmtruppen_high ; Stoßtruppen (Late)
 category         infantry
 class            missile
 voice_type       Heavy
@@ -13787,7 +13816,7 @@ stat_cost        4, 2000, 667, 100, 100, 2000, 1, 667
 ownership        slave
 
 type             pru_ww1_inf
-dictionary       pru_ww1_inf ; Sturmtruppen (Late)
+dictionary       pru_ww1_inf ; Stoßtruppen (Late)
 category         infantry
 class            missile
 voice_type       Heavy

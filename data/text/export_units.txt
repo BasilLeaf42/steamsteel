@@ -2261,6 +2261,9 @@
 
 {rus_gatling}Gorlov Gun
 {rus_gatling_descr}The Gorlov Gun is a Russian adaptation of the revolutionary Gatling gun, providing an unprecedented volume of sustained fire against advancing infantry. Operated by highly trained crews, it can sweep entire formations with devastating efficiency while supporting both offensive and defensive operations. Though heavy and demanding to deploy, its firepower can halt even the most determined assaults. It represents one of the Imperial Army's first true automatic weapons.
+{pru_mitrailleuse}Beute-Mitrailleuse
+{pru_mitrailleuse_descr}Captured French mitrailleuses were taken into German service after the Franco-Prussian War. Although never a major arm of the field army, retained examples later equipped some colonial defences in East Asia and the Pacific.
+{pru_mitrailleuse_descr_short}Beute-Mitrailleuse (Mitrailleuse, Canon à balles Reffye mle 1866), captured French rapid-fire artillery in German service.
 {rus_gatling_descr_short}Gatling Gun Crew
 
 {rus_gen_cav}Cossacks
@@ -3260,9 +3263,9 @@
 {pru_schutztruppe_high_descr}Schutztruppe serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_schutztruppe_high_descr_short}Schutztruppe (Magazine Rifle, Gewehr 88)
 
-{pru_sturmtruppen_high}Sturmtruppen (Late)
-{pru_sturmtruppen_high_descr}Sturmtruppen serve in the German armed forces and are equipped and trained for their stated battlefield role.
-{pru_sturmtruppen_high_descr_short}Sturmtruppen (Flamethrower, Kleinflammenwerfer)
+{pru_sturmtruppen_high}Stoßtruppen (Late)
+{pru_sturmtruppen_high_descr}Stoßtruppen serve in the German armed forces and are equipped and trained for their stated battlefield role.
+{pru_sturmtruppen_high_descr_short}Stoßtruppen (Flamethrower, Brandröhre M.95), German assault troops equipped with an early incendiary projector.
 
 {pru_kuerassiere}Preußische Kürassiere
 {pru_kuerassiere_descr}Preußische Kürassiere serve in the German armed forces and are equipped and trained for their stated battlefield role.
@@ -3312,9 +3315,9 @@
 {pru_ww1_gren_descr}Sturmpioniere serve in the German armed forces and are equipped and trained for their stated battlefield role.
 {pru_ww1_gren_descr_short}Sturmpioniere (Magazine Rifle, Gewehr 98)
 
-{pru_ww1_inf}Sturmtruppen (Late)
-{pru_ww1_inf_descr}Sturmtruppen serve in the German armed forces and are equipped and trained for their stated battlefield role.
-{pru_ww1_inf_descr_short}Sturmtruppen (Flamethrower, Kleinflammenwerfer)
+{pru_ww1_inf}Stoßtruppen (Late)
+{pru_ww1_inf_descr}Stoßtruppen serve in the German armed forces and are equipped and trained for their stated battlefield role.
+{pru_ww1_inf_descr_short}Stoßtruppen (Flamethrower, Brandröhre M.95), German assault troops equipped with an early incendiary projector.
 
 {bav_inf}Preußische Jäger (Mid)
 {bav_inf_descr}Preußische Jäger serve in the German armed forces and are equipped and trained for their stated battlefield role.

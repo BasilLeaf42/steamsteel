@@ -1,5 +1,5 @@
 #ifndef MyAppVersion
-  #define MyAppVersion "prerelease"
+  #define MyAppVersion "1.2"
 #endif
 #ifndef MusicDatBytes
   #define MusicDatBytes 1006556167
@@ -18,7 +18,11 @@
 AppId={{E120887A-E207-4C8A-B064-28A81C68A42D}
 AppName=Steam & Steel
 AppVersion={#MyAppVersion}
+AppVerName=Steam & Steel v{#MyAppVersion} Pre-release
 AppPublisher=Steam & Steel Development Team
+VersionInfoVersion=1.2.0.0
+VersionInfoProductVersion=1.2.0.0
+VersionInfoDescription=Steam & Steel v1.2 Pre-release Installer
 DefaultDirName={code:GetDefaultGameDirectory}
 DefaultGroupName=Steam & Steel
 DisableProgramGroupPage=yes
@@ -26,7 +30,7 @@ AllowNoIcons=yes
 OutputDir=.
 OutputBaseFilename=Steam_and_Steel_Setup
 SetupIconFile=payload\steamsteel\steamateelicon.ico
-UninstallDisplayIcon={app}\mods\steamsteel\SteamAndSteel.exe
+UninstallDisplayIcon={app}\mods\steamsteel\steamateelicon.ico
 WizardStyle=modern
 WizardSizePercent=110
 PrivilegesRequired=admin
@@ -43,20 +47,18 @@ SetupLogging=yes
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "{src}\payload\steamsteel\*"; DestDir: "{app}\mods\steamsteel"; Flags: external ignoreversion recursesubdirs createallsubdirs
+Source: "{src}\payload\steamsteel\*"; DestDir: "{app}\mods\steamsteel"; Excludes: "SteamAndSteel.exe"; Flags: external ignoreversion recursesubdirs createallsubdirs
 ; M2EX paths are selected from the verified upstream distribution, but their
 ; bytes come from the maintainer's current installed root so deliberate local
 ; fixes and other developers' deviations are preserved in the release.
 Source: "{src}\payload\m2ex_root\*"; DestDir: "{app}"; Flags: external ignoreversion recursesubdirs createallsubdirs uninsneveruninstall
+; Keep the branded executable beside M2EX's Steam/runtime DLLs. Running this
+; executable from inside the mod directory causes Steam initialisation failure.
+Source: "{src}\payload\steamsteel\SteamAndSteel.exe"; DestDir: "{app}"; Flags: external ignoreversion
 ; Also install the verified graphics configuration into the mod override tree.
 ; M2EX normally resolves the game-root copy, but this removes dependence on
 ; fallback resolution and prevents the startup CTD seen on some clean installs.
 Source: "{src}\payload\m2ex_root\data\graphics\graphics_config.xml"; DestDir: "{app}\mods\steamsteel\data\graphics"; Flags: external ignoreversion
-Source: "{src}\payload\m2ex_root\steam_api64.dll"; DestDir: "{app}\mods\steamsteel"; Flags: external ignoreversion
-Source: "{src}\payload\m2ex_root\mss64.dll"; DestDir: "{app}\mods\steamsteel"; Flags: external ignoreversion
-Source: "{src}\payload\m2ex_root\binkw64.dll"; DestDir: "{app}\mods\steamsteel"; Flags: external ignoreversion
-Source: "{src}\payload\m2ex_root\granny2_x64.dll"; DestDir: "{app}\mods\steamsteel"; Flags: external ignoreversion
-Source: "{src}\payload\m2ex_root\steam_appid.txt"; DestDir: "{app}\mods\steamsteel"; Flags: external ignoreversion
 Source: "{src}\payload\prerequisites\vc_redist.x64.exe"; DestDir: "{tmp}"; Flags: external deleteafterinstall
 
 [Icons]
