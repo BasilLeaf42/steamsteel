@@ -3673,7 +3673,7 @@ script
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-    ; Four turns per year (timescale 0.25). Reform counters advance every five
+    ; Five turns per year (timescale 0.2). Reform counters advance every five
     ; years and provide ten recruitment periods from 1860 through 1905+.
     monitor_event FactionTurnStart I_TurnNumber > 0
         historic_event military_reforms_1860
@@ -3681,55 +3681,55 @@ script
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 18
+    monitor_event FactionTurnStart I_TurnNumber > 23
         historic_event military_reforms_1865
         set_event_counter military_reforms_1865 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 38
+    monitor_event FactionTurnStart I_TurnNumber > 48
         historic_event military_reforms_1870
         set_event_counter military_reforms_1870 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 58
+    monitor_event FactionTurnStart I_TurnNumber > 73
         historic_event military_reforms_1875
         set_event_counter military_reforms_1875 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 78
+    monitor_event FactionTurnStart I_TurnNumber > 98
         historic_event military_reforms_1
         set_event_counter military_reforms_1 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 98
+    monitor_event FactionTurnStart I_TurnNumber > 123
         historic_event military_reforms_1885
         set_event_counter military_reforms_1885 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 118
+    monitor_event FactionTurnStart I_TurnNumber > 148
         historic_event military_reforms_1890
         set_event_counter military_reforms_1890 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 138
+    monitor_event FactionTurnStart I_TurnNumber > 173
         historic_event military_reforms_1895
         set_event_counter military_reforms_1895 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 158
+    monitor_event FactionTurnStart I_TurnNumber > 198
         historic_event military_reforms_2
         set_event_counter military_reforms_2 1
         terminate_monitor
     end_monitor
 
-    monitor_event FactionTurnStart I_TurnNumber > 178
+    monitor_event FactionTurnStart I_TurnNumber > 223
         historic_event military_reforms_1905
         set_event_counter military_reforms_1905 1
         terminate_monitor
@@ -5158,8 +5158,12 @@ script
             console_command season summer
         end_if
 
-        inc_counter seasonal_turn 1
         if I_CompareCounter seasonal_turn == 5
+            console_command season winter
+        end_if
+
+        inc_counter seasonal_turn 1
+        if I_CompareCounter seasonal_turn == 6
             set_counter seasonal_turn 1
         end_if
     end_monitor

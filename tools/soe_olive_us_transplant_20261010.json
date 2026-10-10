@@ -1,0 +1,21 @@
+{
+  "unit": "uni_regulars_high",
+  "visible_name": "United States Regulars (Late)",
+  "donor_mod": "Sigh of Empires (SOE)",
+  "donor_unit": "Croat Axemen / United States Infantry",
+  "donor_modeldb_entry": "croat_axemen",
+  "weapon": "Krag-Jorgensen M1896",
+  "campaign_start": 1895,
+  "period_progression": {
+    "early": "existing Civil War State Volunteers",
+    "mid": "former late blue-uniform United States Regulars model and card",
+    "late": "SOE olive-drab United States Infantry model and card"
+  },
+  "mesh": "unit_models/_Units/LieQiang/usa_army_rifleman_lod0.mesh",
+  "body_texture": "unit_models/_Units/LieQiang/textures/us_army.texture",
+  "attachment_texture": "unit_models/_Units/LieQiang/textures/us_iteam.texture",
+  "tactical_card_source": "soe/data/ui/units/hungary/#croat_axemen.tga",
+  "information_card_source": "soe/data/ui/unit_info/hungary/croat_axemen_info.tga",
+  "card_background": "#B8AD8F",
+  "original_card_archive": "tools/card_source_archive/union_before_soe_olive_20261010"
+}

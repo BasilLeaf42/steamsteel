@@ -41705,32 +41705,32 @@
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 16 uni_regulars_mid 
 1 4 
-43 unit_models/_Units/usa/usa_inf_2g_lod0.mesh 20000 
-43 unit_models/_Units/usa/usa_inf_2g_lod0.mesh 20000 
-43 unit_models/_Units/usa/usa_inf_2g_lod0.mesh 20000 
-43 unit_models/_Units/usa/usa_inf_2g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_grd_1g_lod0.mesh 20000 
+43 unit_models/_Units/usa/usa_grd_1g_lod0.mesh 20000 
 3 
 9 portugala 
-50 unit_models/_Units/usa/textures/usa_inf_2g.texture 
+50 unit_models/_Units/usa/textures/usa_grd_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 milan 
-50 unit_models/_Units/csa/textures/csa_inf_2g.texture 
+50 unit_models/_Units/usa/textures/usa_grd_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 slave 
-50 unit_models/_Units/usa/textures/usa_inf_2g.texture 
+50 unit_models/_Units/usa/textures/usa_grd_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 3 
 9 portugala 
-58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 milan 
-58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 slave 
-58 unit_models/_Units/attachments/textures/whi_gbfrxx.texture 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
 4 None 
@@ -41742,33 +41742,33 @@
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 uni_regulars_high 
 1 4 
-43 unit_models/_Units/usa/usa_grd_1g_lod0.mesh 20000 
-43 unit_models/_Units/usa/usa_grd_1g_lod0.mesh 20000 
-43 unit_models/_Units/usa/usa_grd_1g_lod0.mesh 20000 
-43 unit_models/_Units/usa/usa_grd_1g_lod0.mesh 20000 
+55 unit_models/_Units/LieQiang/usa_army_rifleman_lod0.mesh 121 
+55 unit_models/_Units/LieQiang/usa_army_rifleman_lod0.mesh 1225 
+55 unit_models/_Units/LieQiang/usa_army_rifleman_lod0.mesh 6400 
+55 unit_models/_Units/LieQiang/usa_army_rifleman_lod0.mesh 20000 
 3 
 9 portugala 
-50 unit_models/_Units/usa/textures/usa_grd_1g.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
+52 unit_models/_Units/LieQiang/textures/us_army.texture 
+54 unit_models/_Units/LieQiang/textures/us_army_n.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 milan 
-50 unit_models/_Units/usa/textures/usa_grd_1g.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
+52 unit_models/_Units/LieQiang/textures/us_army.texture 
+54 unit_models/_Units/LieQiang/textures/us_army_n.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 5 slave 
-50 unit_models/_Units/usa/textures/usa_grd_1g.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 
+52 unit_models/_Units/LieQiang/textures/us_army.texture 
+54 unit_models/_Units/LieQiang/textures/us_army_n.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
 3 
 9 portugala 
-58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+53 unit_models/_Units/LieQiang/textures/us_iteam.texture 
+55 unit_models/_Units/LieQiang/textures/us_iteam_n.texture 0 
 5 milan 
-58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+53 unit_models/_Units/LieQiang/textures/us_iteam.texture 
+55 unit_models/_Units/LieQiang/textures/us_iteam_n.texture 0 
 5 slave 
-58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
-58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+53 unit_models/_Units/LieQiang/textures/us_iteam.texture 
+55 unit_models/_Units/LieQiang/textures/us_iteam_n.texture 0 
 1 
 4 None 
 20 MTW2_Fast_Arquebus_3 9 MTW2_Pike 
