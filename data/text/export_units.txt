@@ -683,6 +683,10 @@
 {fra_chass_descr}The Chasseurs à Pied are elite light infantry renowned for their marksmanship, initiative, and independence. Fighting in dispersed formations, they seize key terrain, harass advancing enemies, and screen the movements of the main army. Their excellent training allows them to exploit cover more effectively than ordinary infantry. Few light troops enjoy a finer reputation within the French Army.
 {fra_chass_descr_short}Chasseurs à pied (Rifle, Fusil modèle 1866 Chassepot)
 
+{fra_jules_brunet}Jules Brunet
+{fra_jules_brunet_descr}Jules Brunet
+{fra_jules_brunet_descr_short}Jules Brunet (Revolver, Lefaucheux modèle 1858 et sabre)
+
 {fra_gatling}Mitrailleuse
 {fra_gatling_descr}A mitrailleuse is a type of volley gun with barrels of rifle calibre that can fire either all rounds at once or in rapid succession. The earliest true mitrailleuse was invented in 1851 by Belgian Army captain Fafschamps, ten years before the advent of the Gatling gun. It was followed by the Belgian Montigny mitrailleuse in 1863. Then the French 25 barrel "Canon à Balles", better known as the Reffye mitrailleuse, was adopted in great secrecy in 1866. It became the first rapid-firing weapon deployed as standard equipment by any army in a major conflict when it was used during the Franco-Prussian War of 1870–71.
 {fra_gatling_descr_short}Early Machineguns that deal massive damage to close formations and have decent range.
@@ -1201,7 +1205,7 @@
 
 {Japan_Ishin_Shishi}Ishin Shishi
 {Japan_Ishin_Shishi_descr}Era: 1860s\nQuality: Professional\nPrimary: Katana (Sword)\nAllegiance: Ishin Japan (Various han)\n\nTranslation: "Men of high purpose for the restoration"\n\nTest
-{Japan_Ishin_Shishi_descr_short}Ishin Shishi (Sword, Katana)
+{Japan_Ishin_Shishi_descr_short}Ishin Shishi (Sword, Katana)\nISHIN ONLY
 
 {Japan_Itagaki_Taisuke}Itagaki Taisuke
 {Japan_Itagaki_Taisuke_descr}Era: 1860s (1866)\nQuality: Elite\nPrimary: Spencer M1860 (Repeating carbine)\nSecondary: Katana (Sword)\nAllegiance: Ishin Japan (Tosa-han)\n\nTranslation: "Rapid assault force"\n\nHailing from Tosa domain, the jinshōtai are an elite light infantry force recruitable from 1866 onwards. Their Spencer M1860 repeating carbines grant them devastating firepower, and they are simultaneously the best swordsmen available to the Satchō army. These strengths are offset by a smaller unit size and high cost, and they are more a hybrid than true sharpshooters or shock troops.\n\n"The imperial army, fighting under the emperor's gold banner, must not engage in any conduct that would bring shame to the imperial chrysanthemum crest."\n-Itagaki Taisuke, Commander of the jinshōtai\n\nTosa was one of the most crucial members of the Satchō alliance. It was a samurai of Tosa, Sakamoto Ryoma, who negotiated the alliance between the previously bitter rivals Satsuma and Chōshū. While the Yamauchi clan supported kōbu gattai, (cooperation between the emperor and shōgun), the domain would side with the anti-shōgunate faction when the Boshin War broke out. This was in part due to their most elite corps, the jinshōtai, who fought at Toba-Fushimi on their own volition; while Tosa leadership initially wanted to punish them, they were pardoned when imperial banners appeared on the field. The jinshōtai wore distinctive red "bear wigs" known as shaguma, which were typically reserved for officers (black in the case of Satsuma and Tottori, and white for Chōshū). They had a strict code of conduct and honour: pillaging and harming civilians was forbidden, and mercy was shown to surrendering enemies as they were respected as fair combatants doing their duty. Offending members not just in the jinshōtai but Tosa's army as a whole were executed for any transgressions, being branded as criminals for "bringing shame" to the imperial cause. As Tosa's finest, the jinshōtai participated in many battles throughout the war, including a showdown against the shinsengumi at Kōshū-Katsunuma and the particularly brutal fighting in Aizu.
@@ -1267,6 +1271,10 @@
 {Japan_Kuroda_Kiyotaka_descr}Kuroda Kiyotaka, samurai of Satsuma.
 {Japan_Kuroda_Kiyotaka_descr_short}Kuroda Kiyotaka, samurai of Satsuma (Revolver, Smith & Wesson No.2 and katana)\nISHIN ONLY
 
+{Japan_Kuroda_Kiyotaka_1870}Kuroda Kiyotaka
+{Japan_Kuroda_Kiyotaka_1870_descr}Kuroda Kiyotaka, samurai of Satsuma.
+{Japan_Kuroda_Kiyotaka_1870_descr_short}Kuroda Kiyotaka, samurai of Satsuma (Revolver, Smith & Wesson No.2 and saber)\nISHIN ONLY
+
 {Japan_Matsudaira_Katamori}Matsudaira Katamori
 {Japan_Matsudaira_Katamori_descr}Test
 {Japan_Matsudaira_Katamori_descr_short}Matsudaira Katamori, daimyō of Aizu and military commissioner of Kyōto (Revolver, Smith & Wesson No.2 and katana)\nSHŌGUNATE ONLY
@@ -1286,6 +1294,10 @@
 {Japan_Okubo_Toshimichi}Ōkubo Toshimichi
 {Japan_Okubo_Toshimichi_descr}Ōkubo Toshimichi, samurai of Satsuma.
 {Japan_Okubo_Toshimichi_descr_short}Ōkubo Toshimichi, samurai of Satsuma (Revolver, Smith & Wesson No.2 and katana)\nISHIN ONLY
+
+{Japan_Okubo_Toshimichi_1870}Ōkubo Toshimichi
+{Japan_Okubo_Toshimichi_1870_descr}Ōkubo Toshimichi, samurai of Satsuma.
+{Japan_Okubo_Toshimichi_1870_descr_short}Ōkubo Toshimichi, samurai of Satsuma (Revolver, Smith & Wesson No.2 and saber)\nISHIN ONLY
 
 {Japan_Raijintai}Kuwana Raijintai
 {Japan_Raijintai_descr}Era: 1860s (1865)\nQuality: Professional\nPrimary: Lorenz M1854 (Rifled musket)\nSecondary: Katana (Sword)\nAllegiance: Tokugawa shōgunate (Kuwana-han)\n\nTranslation: "Thunder God's corps"\n\nThe raijintai are elite sharpshooters, and the most elite unit born from Kuwana's extensive military reforms. Armed with a breech-loading carbine, these men are capable of rapid and accurate fire. They excel in rough and forested terrain, with enhanced stealth and respectable melee stats.\n\n"Tatsumi is a genius of a soldier. Had he been born in France around the time of Napoleon, he probably would have become a general before he turned 30."\n-French military instructor at the Shoheiko academy\n\nAfter the Battle of Sekigahara, Kuwana domain was gifted to one of Ieyasu's greatest generals, Honda Tadakatsu. It was later transferred to the Okudaira-Matsudaira, then to the Hisamatsu-Matsudaira in the 19th century. During the bakumatsu period, the daimyō of Kuwana, Matsudaira Sadaaki, served as Kyōto shoshidai ("Shōgun's Deputy of Kyōto") in support of his brother, Matsudaira Katamori of Aizu. This made him a target of Satchō officials in the new government when the Boshin War broke out, and they demanded the Matsudaira be stripped of their titles and lands. Kuwana's army made up a significant portion of the shōgunate forces at Toba-Fushimi, and the lessons learned from this defeat prompted a reorganization of their military. The raijintai were perhaps the most elite of these new units. Led by Tatsumi Naofumi, regarded as a prodigy in military strategy by his French instructors, they were armed with modern rifles and fought using guerrilla tactics. Their most notable victory was during the Battle of Hokuetsu, where they took the head of kiheitai captain, Tokiyama Naohachi. They later took part in the defence of Aizu, until Katamori asked his brother to request aid from other northern domains. Sadaaki reluctantly left Aizu, but was unable to muster any reinforcements. The forces under Naofumi surrendered to the new government in Shōnai shortly after the collapse of the Northern Alliance, while Sadaaki himself joined the Republic of Ezo and took part in the Battle of Hakodate.
@@ -1365,7 +1377,7 @@
 
 {Japan_Saga_Hoheitai}Saga Yūheitai
 {Japan_Saga_Hoheitai_descr}Era: 1860s (1866)\nQuality: Professional\nPrimary: Remington Rolling Block (Breech-loading rifle)\nSecondary: Katana (Sword)\nAllegiance: Ishin Japan (Saga-han)\n\nTranslation: "Irregular force"\n\nSaga domain contributes capable light infantry to fight for the Satchō Alliance. They are capable of a high rate of reasonably accurate fire thanks to their breech-loading rifles, but are not especially strong swordsmen compared to the samurai of other domains, particularly Aizu or Satsuma.\n\nThe Nabeshima clan of Saga domain were in a uniquely privileged position during the Edo period, thanks to their proximity to Nagasaki, the only city that permitted foreign trade after the implementation of sakoku. While the trading ports themselves were directly overseen by shōgunate officials, Saga was responsible for its security and as a result was more exposed to western influences. In particular, Saga established the first modern artillery foundry in Japan, and produced Armstrong guns for their army. Saga was a relatively late member of the Satchō Alliance, first seeing combat in the Battle of Ueno where their Armstrong guns were the deciding factor in their victory. They also played a pivotal role in the Akita War, when Akita domain defected from the Northern Alliance to pledge allegiance to the new government. Morioka and Shōnai invaded Akita in retaliation, and their highly modernized forces easily crushed the Akita army, which was still armed in medieval fashion with spears and bows. Reinforcements were swiftly dispatched, with Saga samurai making up the bulk of the relief force. One of their main units were the yūheitai, comprised of around 800 men. They were exceptionally well-armed; nearly half were equipped with Spencer repeating carbines, and the rest had various breech-loading rifles. Their timely arrival quickly turned the tide of the battle in favour of the new government, preventing the fall of Akita and forcing the Morioka and Shōnai forces to retreat. To this day, the people of Akita and Saga share a strong bond, despite being from opposite sides of Japan.
-{Japan_Saga_Hoheitai_descr_short}Saga Yūheitai (Rifle, Remington Rolling Block and katana)\nKYŪSHŪ AOR\nISHIN Only
+{Japan_Saga_Hoheitai_descr_short}Saga Yūheitai (Rifle, Remington Rolling Block and katana)\nKYŪSHŪ AOR\nISHIN ONLY
 
 {Japan_Saigo_Takamori_1860}Saigō Takamori
 {Japan_Saigo_Takamori_1860_descr}Test
