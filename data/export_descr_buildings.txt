@@ -7200,7 +7200,7 @@ building port
 {
     levels port shipwright dockyard naval_drydock 
     { 
-        port city requires factions { all, } and building_present_min_level smith blacksmith and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
+        port city requires factions { all, } and building_present_min_level rep_city_hall rep_town_hall or building_present_min_level city_hall town_hall or building_present_min_level pro_city_hall pro_town_hall
         {
             capability
             {

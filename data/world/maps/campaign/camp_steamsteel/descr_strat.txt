@@ -1329,7 +1329,7 @@ resource        sugar,	165,  79
 ;############# Protestant
 
 faction	england, sailor napoleon
-ai_label		 protestant
+ai_label	default
 denari	10000
 denari_kings_purse	0
 
@@ -3133,7 +3133,7 @@ unit		ship_sail_corvette				exp 4 armour 1  weapon_lvl 0
 
 
 faction	scotland, balanced henry
-ai_label		 catholic
+ai_label	default
 denari 3000
 denari_kings_purse	0
 
@@ -3439,7 +3439,7 @@ unit		cog				exp 1 armour 0 weapon_lvl 0
 
 ;Boers
 faction	teu, bureaucrat genghis
-ai_label	judaism
+ai_label	default
 denari	2000
 denari_kings_purse	0
 
@@ -3583,7 +3583,7 @@ unit		boer_kommando_early				exp 0 armour 0 weapon_lvl 0
 
 ;Sweden Norway
 faction	normans, balanced smith
-ai_label	judaism
+ai_label	default
 denari	4000
 denari_kings_purse	0
 
@@ -3879,7 +3879,7 @@ unit		ship_sail_corvette				exp 1 armour 0 weapon_lvl 0
 
 ;Prussia
 faction	hre, balanced stalin 
-ai_label	pagan
+ai_label	default
 denari	6000
 denari_kings_purse	0
 
@@ -4222,7 +4222,7 @@ unit		ship_sail_corvette				exp 1 armour 1 weapon_lvl 0
 
 ;Peru
 faction	denmark, balanced smith
-ai_label    catholic
+ai_label	default
 denari	3000
 denari_kings_purse	0
 
@@ -4438,7 +4438,7 @@ unit		cog				exp 1 armour 0 weapon_lvl 0
 
 
 faction	france, balanced smith
-ai_label	catholic 
+ai_label	default
 denari	8000
 denari_kings_purse	0
 
@@ -5114,7 +5114,7 @@ unit		dragon boat			exp 2 armour 1  weapon_lvl 0
 
 
 faction	hungary, balanced smith
-ai_label	pagan
+ai_label	default
 denari	6000
 denari_kings_purse	0
 
@@ -5636,7 +5636,7 @@ unit		dragon boat				exp 3 armour 1 weapon_lvl 0
 
 
 faction	venice, balanced smith
-ai_label	catholic 
+ai_label	default
 denari	4000
 denari_kings_purse	0
 
@@ -5949,7 +5949,7 @@ unit		ship_sail_corvette				exp 1 armour 1 weapon_lvl 0
 
 
 faction	spain, balanced smith
-ai_label	catholic 
+ai_label	default
 denari	6000
 denari_kings_purse	0
 
@@ -6524,7 +6524,7 @@ unit		cog				exp 1 armour 0 weapon_lvl 0
 
 
 faction	portugala, balanced smith
-ai_label		 protestant 
+ai_label	default
 denari	6000
 denari_kings_purse	0
 
@@ -7403,7 +7403,7 @@ unit		cog		exp 2 armour 0 weapon_lvl 0
 
 
 faction	poland, balanced smith
-ai_label		 catholic 
+ai_label	default
 denari	4000
 denari_kings_purse	0
 
@@ -7694,7 +7694,7 @@ relative 	Pedro, 	Eva,	Pedro Augusto, Fernanado Codax, end
 
 
 faction	papal_states, balanced smith
-ai_label		hindu
+ai_label	default
 denari	3000
 denari_kings_purse	0
 
@@ -7782,7 +7782,7 @@ unit		aby_grd_2g				exp 0 armour 0 weapon_lvl 0
 ;############# Orthodox
 
 faction	russia, balanced smith
-ai_label	orthodox 
+ai_label	default
 denari	6000
 denari_kings_purse	0
 
@@ -9518,7 +9518,7 @@ unit		cog				exp 1 armour 0 weapon_lvl 0
 
 ;Afghanistan
 faction	timurids, trader mao
-ai_label	islam
+ai_label	default
 denari	2400
 denari_kings_purse	0
 
@@ -9670,7 +9670,7 @@ relative	Muhammad Khan,	Farzana,	Arslan Khan,	end
 
 ;Indian Principalities
 faction	bulga, trader mao
-ai_label	shia
+ai_label	default
 denari	8000
 denari_kings_purse	0
 
@@ -9813,7 +9813,7 @@ relative	Sher Ali,	Lakshmi,	Ajavapal Ali,	end
 
 
 faction	moors, trader mao
-ai_label	islam 
+ai_label	default
 denari	 2000
 denari_kings_purse	0
 
@@ -9974,7 +9974,7 @@ relative 	Muhammad Al_Hasan,	Saheena,	Abdallah Al_Hasan,	end
 
 ;Ottoman
 faction	turks, trader smith
-ai_label	islam 
+ai_label	default
 denari	6000
 denari_kings_purse	0
 
@@ -10941,7 +10941,7 @@ unit		cog				exp 0 armour 1 weapon_lvl 0
 
 
 faction	egypt, trader smith
-ai_label	islam
+ai_label	default
 denari	3000
 denari_kings_purse	0
 
@@ -11248,7 +11248,7 @@ relative 	Nasir ad_Din,	Melike,	Mustafa ad_Din, Mehmed ad_Din, Bayezid ad_Din, e
 
 
 faction	lith, trader mao
-ai_label	shia
+ai_label	default
 denari	2000
 denari_kings_purse	200
 
@@ -11310,7 +11310,7 @@ relative	Cetshwayo kaMpande,	Nokwanda,	Dinzulu kaMpande,	end
 
 
 faction	cuman, trader genghis
-ai_label		 shia
+ai_label	default
 denari	2000
 denari_kings_purse	0
 
@@ -11455,7 +11455,7 @@ relative	Muhammad Khan,	Maidar,	Khodhun Khan,	end
 
 
 faction	golden, sailor smith
-ai_label	islam
+ai_label	default
 denari	2000
 denari_kings_purse	0
 
@@ -11656,7 +11656,7 @@ relative 	Barghash bin_Said,	Anya,	Thuwaini bin_Said,	end
 
 
 faction	portugal, sailor smith
-ai_label	judaism
+ai_label	default
 denari	4000
 denari_kings_purse	0
 
@@ -11960,7 +11960,7 @@ unit		ship_sail_corvette				exp 2 armour 1 weapon_lvl 0
 unit		cog				exp 2 armour 1 weapon_lvl 0
 
 faction	sicily, balanced smith
-ai_label	judaism
+ai_label	default
 denari	3000
 denari_kings_purse	0
 
@@ -12107,7 +12107,7 @@ unit		grande carrack				exp 3 armour 0 weapon_lvl 0
 ;############# Buddist
 
 faction	byzantium, trader mao
-ai_label	buddist
+ai_label	default
 denari	6000
 denari_kings_purse	0
 
@@ -12971,7 +12971,7 @@ unit		merc galley				exp 0 armour 1 weapon_lvl 0
 
 
 faction	milan, balanced smith
-ai_label	protestant
+ai_label	default
 denari	3000
 denari_kings_purse	0
 
@@ -13439,7 +13439,7 @@ unit		merc galley		exp 2 armour 0 weapon_lvl 0
 
 
 faction	mongols, balanced smith
-ai_label	judaism
+ai_label	default
 denari	2000
 denari_kings_purse	0
 
@@ -13575,7 +13575,7 @@ relative 	Otto Friedrich, 	Aspasia,		George,	end
 
 
 faction	cru, trader smith
-ai_label	buddist
+ai_label	default
 denari	2400
 denari_kings_purse	0
 
@@ -13728,7 +13728,7 @@ relative	Mongkut,	Sawatdirat,	Chulalongkorn,	end
 
 
 faction	aztecs, trader smith
-ai_label	catholic
+ai_label	default
 denari	3000
 denari_kings_purse	0
 
@@ -13853,7 +13853,7 @@ unit		ship_steam_corvette				exp 1 armour 0 weapon_lvl 0
 
 
 faction	saxons, trader smith
-ai_label		hindu
+ai_label	default
 denari	5000
 denari_kings_purse	0
 settlement
@@ -13968,8 +13968,7 @@ character_record		Akane, 	female, age 43, alive, never_a_leader
 
 relative 	Haruhisa Tokugawa,	Aki,	Narihiro Tokugawa,	Nariko Tokugawa,	end
 relative 	Narihiro Tokugawa,	Anda,	Naosuke Ii,	Nobumasa Ando,	Yoshinobu Tokugawa,	end
-relative  	Nobumasa Ando,	Chiaki Tokugawa,	Iemochi Tokugawa,	end
-;relative 	Nariko Tokugawa,	Chiaki Tokugawa,	Iemochi Tokugawa,	end
+relative 	Nariko Tokugawa,	Chiaki Tokugawa,	Iemochi Tokugawa,	end
 relative  	Takachika Mori,	Akane,	Motonori Mori,	end
 
 
@@ -17862,58 +17861,7 @@ unit		apache_inf				exp 0 armour 0 weapon_lvl 0
 ;Rebel End
 
 
-;Portugal fleet
-character	sub_faction poland, Manoel, admiral, male, age 40, x 217, y 232
-army
-unit		ship_sail_sotl				exp 1 armour 0 weapon_lvl 0
-unit		dragon boat				exp 1 armour 0 weapon_lvl 0
-unit		dragon boat				exp 1 armour 0 weapon_lvl 0
-unit		grande carrack				exp 1 armour 0 weapon_lvl 0
-unit		grande carrack				exp 1 armour 0 weapon_lvl 0
-unit		grande carrack				exp 1 armour 0 weapon_lvl 0
-unit		ship_steam_corvette				exp 1 armour 0 weapon_lvl 0
-
-;Angola fleet
-character	sub_faction poland, Santiago, admiral, male, age 40, x 244, y 137
-army
-unit		ship_steam_corvette				exp 1 armour 0 weapon_lvl 0
-unit		ship_sail_corvette				exp 1 armour 0 weapon_lvl 0
-unit		ship_sail_corvette				exp 1 armour 0 weapon_lvl 0
-unit		cog				exp 1 armour 0 weapon_lvl 0
-unit		cog				exp 1 armour 0 weapon_lvl 0
-
-;Dominican fleet
-character	sub_faction poland, Joaquim, admiral, male, age 40, x 140, y 188
-army
-unit		dragon boat				exp 1 armour 0 weapon_lvl 0
-unit		ship_steam_corvette				exp 1 armour 0 weapon_lvl 0
-unit		ship_sail_corvette				exp 1 armour 0 weapon_lvl 0
-unit		ship_sail_corvette				exp 1 armour 0 weapon_lvl 0
-unit		cog				exp 1 armour 0 weapon_lvl 0
-
-;Joseon fleet
-character	sub_faction byzantium, hangga, admiral, male, age 40, x 414, y 226
-army
-unit		turtle ship				exp 0 armour 0 weapon_lvl 0
-unit		turtle ship				exp 0 armour 0 weapon_lvl 0
-
-;Egypt fleet
-character	sub_faction golden, Khayri, admiral, male, age 40, x 270, y 215
-army
-unit		dragon boat				exp 0 armour 0 weapon_lvl 0
-unit		ship_sail_corvette				exp 0 armour 0 weapon_lvl 0
-unit		cog				exp 0 armour 0 weapon_lvl 0
-unit		dhow				exp 0 armour 0 weapon_lvl 0
-
-;Chilean fleet
-character	sub_faction aztecs, Sancho, admiral, male, age 40, x 140, y 79
-army
-unit		grande carrack				exp 1 armour 0 weapon_lvl 0
-unit		dragon boat				exp 1 armour 0 weapon_lvl 0
-unit		ship_steam_corvette				exp 1 armour 0 weapon_lvl 0
-unit		ship_sail_corvette				exp 1 armour 0 weapon_lvl 0
-unit		cog				exp 1 armour 0 weapon_lvl 0
-unit		cog				exp 1 armour 0 weapon_lvl 0
+;Obsolete rebel fleets removed: slave admirals require valid regional rebel ownership.
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<

@@ -48,6 +48,10 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
 Source: "{src}\payload\steamsteel\*"; DestDir: "{app}\mods\steamsteel"; Excludes: "SteamAndSteel.exe"; Flags: external ignoreversion recursesubdirs createallsubdirs
+; data\tow_steamsteel is authoritative.  Install it a second time over data\
+; after the ordinary payload so the first launch is already coherent; the
+; launcher repeats this overlay before subsequent launches.
+Source: "{src}\payload\steamsteel\data\tow_steamsteel\*"; DestDir: "{app}\mods\steamsteel\data"; Flags: external ignoreversion recursesubdirs createallsubdirs
 ; M2EX paths are selected from the verified upstream distribution, but their
 ; bytes come from the maintainer's current installed root so deliberate local
 ; fixes and other developers' deviations are preserved in the release.
@@ -267,6 +271,23 @@ begin
       'The release was incomplete or damaged. Re-extract the full download and run setup again.');
 end;
 
+procedure RequireAuthoritativeMirror(const RelativePath: string);
+var
+  AuthoritativePath, RuntimePath: string;
+begin
+  AuthoritativePath := AddBackslash(WizardDirValue) +
+    'mods\steamsteel\data\tow_steamsteel\' + RelativePath;
+  RuntimePath := AddBackslash(WizardDirValue) +
+    'mods\steamsteel\data\' + RelativePath;
+  if (not FileExists(AuthoritativePath)) or (not FileExists(RuntimePath)) or
+     (CompareText(GetSHA256OfFile(AuthoritativePath),
+                  GetSHA256OfFile(RuntimePath)) <> 0) then
+    RaiseException(
+      'Installation validation failed while applying the authoritative Steam & Steel data overlay: ' +
+      RelativePath + '.' + #13#10 +
+      'Re-extract the full download and run setup again.');
+end;
+
 procedure CurStepChanged(CurStep: TSetupStep);
 begin
   if CurStep = ssPostInstall then
@@ -278,5 +299,7 @@ begin
     RequireInstalledFile('data\unit_models\_units\bnw\textures\jap_navewuqi.texture', 1398304);
     RequireInstalledFile('data\battlefield\fire\smoke6_greek.texture', 22048);
     RequireInstalledFile('data\battlefield\fire\greek_burning_smoke.texture', 22048);
+    RequireAuthoritativeMirror('export_descr_unit.txt');
+    RequireAuthoritativeMirror('export_descr_buildings.txt');
   end;
 end;

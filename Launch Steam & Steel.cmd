@@ -1,6 +1,20 @@
 @echo off
 setlocal
 
+rem The tow_steamsteel tree is the authoritative runtime overlay.  Apply it
+rem before every launch so developer installs and upgraded releases cannot run
+rem stale copies from data\.
+set "MODDIR=%~dp0"
+if exist "%MODDIR%data\tow_steamsteel" (
+    robocopy "%MODDIR%data\tow_steamsteel" "%MODDIR%data" /E /COPY:DAT /DCOPY:DAT /R:2 /W:1 /NFL /NDL /NJH /NJS /NP >nul
+    if errorlevel 8 (
+        echo Steam ^& Steel could not apply its authoritative data overlay.
+        echo Close editors using the mod files, then try again.
+        pause
+        exit /b 1
+    )
+)
+
 rem Production launcher: start Steam when needed, then launch the mod directly.
 tasklist /FI "IMAGENAME eq steam.exe" 2>nul | find /I "steam.exe" >nul
 if errorlevel 1 (
