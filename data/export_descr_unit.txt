@@ -29372,7 +29372,7 @@ formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         8, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_pri_attr    ap
-stat_sec         8, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         8, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap
 stat_pri_armour  7, 3, 0, metal
@@ -29696,6 +29696,43 @@ stat_cost        4, 1400, 467, 100, 100, 1400, 1, 467
 armour_ug_levels 0
 armour_ug_models Japan_Revolver_Cavalry_Han
 ownership        saxons, slave 
+era 0            saxons
+
+type             Japan Kochotai
+dictionary       Japan_Kochotai ; Japanese Kochotai / Ishin Kochotai / Satcho Kochotai / Tosa Kochotai (Spencer M1860 repeating carbine, Katana)
+category         cavalry
+class            missile
+voice_type       Heavy
+accent      	 france
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Japan_Kochotai, 24, 0, 1
+officer			 Japan_Jinshotai_Officer
+mount            hussar
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge
+move_speed_mod	 1.0
+formation        2, 2, 4, 4, 3, square
+stat_health      1, 0
+stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap
+stat_pri_armour  4, 2, 0, flesh
+;stat_armour_ex   6, 8, 0, 0, 8, 0, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      0, 0, 0, 0
+stat_mental      6, normal, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        5, 1700, 567, 100, 100, 1700, 1, 533
+armour_ug_levels 0
+armour_ug_models Japan_Kochotai
+ownership        saxons, slave
 era 0            saxons
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -30097,7 +30134,7 @@ stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, blunt, mace, 25, 1
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap
 stat_pri_armour  4, 3, 0, flesh
@@ -31438,7 +31475,7 @@ voice_type       heavy
 accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
-soldier          Japan_Kochotai, 4, 0, 1
+soldier          Japan_Bodyguard_Retainers, 4, 0, 1
 officer          Japan_Itagaki_Taisuke
 mount            hussar
 mount_effect     elephant -4, camel -4
@@ -31448,7 +31485,7 @@ stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
-stat_sec         8, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         8, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap
 stat_pri_armour  4, 3, 0, flesh
@@ -31462,7 +31499,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 67, 100, 100, 200, 1, 67
 armour_ug_levels 0
-armour_ug_models Japan_Kochotai
+armour_ug_models Japan_Bodyguard_Retainers
 ownership        saxons, slave 
 era 0            saxons
 
@@ -31485,7 +31522,7 @@ stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap
 stat_pri_armour  4, 3, 0, flesh
@@ -32672,7 +32709,7 @@ voice_type       heavy
 accent      	 japanese
 banner faction   main_infantry
 banner holy      crusade_cavalry
-soldier          Japan_Kochotai, 4, 0, 1
+soldier          Japan_Bodyguard_Retainers, 4, 0, 1
 officer          Japan_Sakamoto_Ryoma
 mount            hussar
 mount_effect     elephant -4, camel -4
@@ -32682,7 +32719,7 @@ stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    ap
-stat_sec         8, 6, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+stat_sec         8, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    ap
 stat_pri_armour  4, 3, 0, flesh
@@ -32696,7 +32733,7 @@ stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 200, 67, 100, 100, 200, 1, 67
 armour_ug_levels 0
-armour_ug_models Japan_Kochotai
+armour_ug_models Japan_Bodyguard_Retainers
 ownership        saxons, slave 
 era 0            saxons
 
