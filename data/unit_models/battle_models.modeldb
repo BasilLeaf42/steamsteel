@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 1308 0 0 
+22 serialization::archive 3 0 0 0 0 1309 0 0 
 5 blank 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 10 mount_pony 
 1 3 
@@ -11338,6 +11338,64 @@
 60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
 5 slave 
 58 unit_models/_units/japan/attachments/katamori_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+4 
+4 None 
+14 MTW2_Fast_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 horse 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 camel 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+-1 0 0 0 0 0 0 
+23 Japan_Kawai_Tsugunosuke 
+1 4 
+52 unit_models/_units/japan/kawai_tsugunosuke_lod0.mesh 121 
+52 unit_models/_units/japan/kawai_tsugunosuke_lod0.mesh 900 
+52 unit_models/_units/japan/kawai_tsugunosuke_lod0.mesh 2500 
+52 unit_models/_units/japan/kawai_tsugunosuke_lod0.mesh 6400 
+4 
+6 saxons 
+47 unit_models/_units/japan/textures/kawai.texture 
+52 unit_models/_units/japan/textures/kawai_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+6 france 
+47 unit_models/_units/japan/textures/kawai.texture 
+52 unit_models/_units/japan/textures/kawai_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+4 merc 
+47 unit_models/_units/japan/textures/kawai.texture 
+52 unit_models/_units/japan/textures/kawai_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+47 unit_models/_units/japan/textures/kawai.texture 
+52 unit_models/_units/japan/textures/kawai_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+6 saxons 
+55 unit_models/_units/japan/attachments/kawai_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+6 france 
+55 unit_models/_units/japan/attachments/kawai_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+4 merc 
+55 unit_models/_units/japan/attachments/kawai_gear.texture 
+60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
+5 slave 
+55 unit_models/_units/japan/attachments/kawai_gear.texture 
 60 unit_models/_units/japan/attachments/ryoma_gear_norm.texture 0 
 4 
 4 None 
