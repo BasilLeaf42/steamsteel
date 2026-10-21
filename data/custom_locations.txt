@@ -94,7 +94,7 @@ custom_location		The Eurasian Steppe
 
 custom_location		Swiss Alps
 {
-	location		138	282
+	location		243	250
 	image			data/menu/battlefield_pics/mountains.tga
 	sett_locked		no
 	climate			alpine

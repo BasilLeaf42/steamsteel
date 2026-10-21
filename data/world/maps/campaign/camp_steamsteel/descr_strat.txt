@@ -17387,12 +17387,13 @@ unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Zurich
-character	sub_faction hre, random_name, general, male, age 40, x 242, y 250
+character	sub_faction hungary, random_name, general, male, age 40, x 242, y 250
 army
-unit		pru_fusiliere_early			exp 0 armour 0 weapon_lvl 0
-unit		pru_fusiliere_early			exp 0 armour 0 weapon_lvl 0
-unit		pru_fusiliere_early			exp 0 armour 0 weapon_lvl 0
-unit		pru_fusiliere_early			exp 0 armour 0 weapon_lvl 0
+unit		euro_hussars				exp 0 armour 0 weapon_lvl 0
+unit		polish_inf				exp 0 armour 0 weapon_lvl 0
+unit		polish_inf				exp 0 armour 0 weapon_lvl 0
+unit		polish_inf				exp 0 armour 0 weapon_lvl 0
+unit		polish_inf				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 
