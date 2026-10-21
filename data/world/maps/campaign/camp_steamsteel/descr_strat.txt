@@ -14361,7 +14361,7 @@ settlement
 	year_founded 0
 	population 60000
 	plan_set default_set
-	faction_creator hre
+	faction_creator hungary
 	building
 	{
 		type core_building stone_wall
