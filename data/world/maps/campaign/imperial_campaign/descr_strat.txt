@@ -14242,7 +14242,7 @@ settlement
 ;Houseong
 settlement
 {
-	level city
+	level large_town
 	region Korea_Province	
 
 	year_founded 0
@@ -14251,7 +14251,7 @@ settlement
 	faction_creator byzantium
 	building
 	{
-		type core_building stone_wall 
+		type core_building wooden_wall
 	}
 	building
 	{
@@ -14286,7 +14286,7 @@ settlement
 ;Rome
 settlement
 {
-	level huge_city
+	level large_city
 	region Roman_Province
 
 	year_founded 0
@@ -14295,7 +14295,7 @@ settlement
 	faction_creator venice
 	building
 	{
-		type core_building huge_stone_wall
+		type core_building large_stone_wall
 	}
 	building
 	{
@@ -17387,13 +17387,12 @@ unit		ita_line_early				exp 0 armour 0 weapon_lvl 0
 unit		col_12lb				exp 0 armour 0 weapon_lvl 0
 
 ;Zurich
-character	sub_faction hungary, random_name, general, male, age 40, x 242, y 250
+character	sub_faction hre, random_name, general, male, age 40, x 242, y 250
 army
-unit		euro_hussars				exp 0 armour 0 weapon_lvl 0
-unit		polish_inf				exp 0 armour 0 weapon_lvl 0
-unit		polish_inf				exp 0 armour 0 weapon_lvl 0
-unit		polish_inf				exp 0 armour 0 weapon_lvl 0
-unit		polish_inf				exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early			exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early			exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early			exp 0 armour 0 weapon_lvl 0
+unit		pru_fusiliere_early			exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 unit		fra_12lb				exp 0 armour 0 weapon_lvl 0
 
