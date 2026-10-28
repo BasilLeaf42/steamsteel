@@ -3736,168 +3736,791 @@ script
     end_monitor
 
 
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-    ;;;;;;;;;;;;;			Boshin War	;;;;;;;;;;;;;;;;;;;;;;;
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;			Boshin War	;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-
-    monitor_event FactionTurnStart FactionIsLocal
-        and FactionType saxons
-        set_event_counter ishin_decision_accepted 0
-        set_event_counter ishin_decision_declined 0
-        historic_event ishin_decision true
-        while I_EventCounter ishin_decision_accepted = 0 
-            and I_EventCounter ishin_decision_declined = 0 
-        end_while
-        hide_ui
-        disable_movie_view
-        move_strat_camera 435,224
-        if I_EventCounter ishin_decision_accepted = 1
-            show_ui
-            add_money saxons, 1000
-            kill_character andonobumasa1
-            wait 0.1
-            kill_character DET_ASSASSINATED iinaosuke1
-            wait 0.8
-            create_unit Hokkaido, Japan Teppotai, num 6, exp 3, arm 0, wep 0
-            create_unit Hokkaido, Japan Kachi, num 4, exp 3, arm 0, wep 0
-            create_unit Hokkaido, Japan Seishi, num 2, exp 3, arm 0, wep 0
-            create_unit Edo, Japan Teppotai, num 8, exp 3, arm 0, wep 0
-            create_unit Edo, Japan Kachi, num 8, exp 3, arm 0, wep 0
-            create_unit Edo, Japan Seishi, num 3, exp 3, arm 0, wep 0
-            create_unit Kyoto, Japan Teppotai, num 8, exp 3, arm 0, wep 0
-            create_unit Kyoto, Japan Kachi, num 8, exp 3, arm 0, wep 0
-            create_unit Kyoto, Japan Seishi, num 2, exp 3, arm 0, wep 0
-            create_unit Reval, Japan Teppotai, num 10, exp 3, arm 0, wep 0
-            create_unit Reval, Japan Kachi, num 6, exp 3, arm 0, wep 0
-            historic_event ishin_chosen factions { saxons, }    
-        end_if
-        if I_EventCounter ishin_decision_declined = 1
-            show_ui
-            add_money saxons, 2000
-            console_command capture_settlement Edo
-            console_command capture_settlement Hokkaido
-            console_command capture_settlement Kyoto
-            console_command capture_settlement Kagoshima
-            wait 0.1
-            kill_character takachikamori1
-            wait 0.1
-            kill_character motonorimori1
-            wait 0.1
-            kill_character DET_ASSASSINATED iinaosuke1
-            wait 1.5
-            spawn_army
+	
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+set_event_counter ishin_decision_accepted 0
+set_event_counter ishin_decision_declined 0
+    historic_event ishin_decision true
+    while I_EventCounter ishin_decision_accepted = 0 
+        and I_EventCounter ishin_decision_declined = 0 
+    end_while
+    hide_ui
+    disable_movie_view
+    move_strat_camera 435,224
+    if I_EventCounter ishin_decision_accepted = 1
+        show_ui
+        add_money saxons, 1000
+        kill_character yoshinobutokugawa1
+        wait 0.1
+        kill_character andonobumasa1
+        wait 0.1
+        kill_character DET_ASSASSINATED iinaosuke1
+        wait 0.8
+        create_unit Hokkaido, Japan Teppotai, num 6, exp 3, arm 0, wep 0
+        create_unit Hokkaido, Japan Kachi, num 4, exp 3, arm 0, wep 0
+        create_unit Hokkaido, Japan Seishi, num 2, exp 3, arm 0, wep 0
+        create_unit Hokkaido, Japan Yumitai, num 2, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Teppotai, num 8, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Kachi, num 8, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Seishi, num 3, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Yumitai, num 2, exp 3, arm 0, wep 0
+        create_unit Kyoto, Japan Teppotai, num 8, exp 3, arm 0, wep 0
+        create_unit Kyoto, Japan Kachi, num 8, exp 3, arm 0, wep 0
+        create_unit Kyoto, Japan Seishi, num 2, exp 3, arm 0, wep 0
+        create_unit Kyoto, Japan Yumitai, num 2, exp 3, arm 0, wep 0
+        create_unit Reval, Japan Teppotai, num 10, exp 3, arm 0, wep 0
+        create_unit Reval, Japan Kachi, num 6, exp 3, arm 0, wep 0
+        historic_event ishin_chosen factions { saxons, }    
+    end_if
+    if I_EventCounter ishin_decision_declined = 1
+        show_ui
+        add_money saxons, 2000
+        console_command capture_settlement Edo
+        console_command capture_settlement Hokkaido
+        console_command capture_settlement Kyoto
+        console_command capture_settlement Kagoshima
+        wait 0.1
+        kill_character takachikamori1
+        wait 0.1
+        kill_character motonorimori1
+        wait 0.1
+        kill_character DET_ASSASSINATED iinaosuke1
+        wait 1.5
+        spawn_army
                 faction saxons
                 character Katamori Matsudaira, named character, age 24, x 435, y 229, portrait KatamoriMatsudaira, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-            spawn_army
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
                 faction saxons
                 character Tadayuki Makino, named character, age 35, x 433, y 229, portrait TadayukiMakino, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-            spawn_army
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
                 faction saxons
                 character Yoshikuni Date, named character, age 34, x 436, y 231, portrait YoshikuniDate, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-            spawn_army
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
                 faction saxons
                 character Ayasaburo Takeda, named character, age 33, x 436, y 238, portrait AyasaburoTakeda, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-            spawn_army
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
                 faction saxons
-                character Hisamitsu Shimazu, named character, age 43, x 422, y 215, portrait HisamitsuShimazu, battle_model mufud_general 
+                character Hisamitsu Shimazu, named character, age 43, x 422, y 215, label hisamitsushimazu2, portrait HisamitsuShimazu, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-            spawn_army
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
                 faction saxons
-                character Takachika Mori, named character, age 41, x 423, y 221, portrait TakachikaMori, battle_model mufud_general 
+                character Takachika Mori, named character, age 41, x 423, y 221, label takachikamori2, portrait TakachikaMori, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction        saxons
+                character    random_name, admiral, age 38, x 424, y 215
+                        unit		ship_steam_corvette	exp 1 armour 0 weapon_lvl 0
+                        unit		cog			exp 1 armour 1 weapon_lvl 0
+                        unit		merc galley		exp 1 armour 0 weapon_lvl 0
+                        unit		turtle ship		exp 1 armour 0 weapon_lvl 0
             end
-            create_unit Hokkaido, Japan Teppotai, num 2, exp 1, arm 0, wep 0
-            create_unit Hokkaido, Japan Kachi, num 1, exp 1, arm 0, wep 0
-            create_unit Hokkaido, Japan Seishi, num 1, exp 1, arm 0, wep 0
-            create_unit Edo, Japan Teppotai, num 4, exp 1, arm 0, wep 0
-            create_unit Edo, Japan Kachi, num 2, exp 1, arm 0, wep 0
-            create_unit Edo, Japan Seishi, num 2, exp 1, arm 0, wep 0
-            create_unit Kyoto, Japan Teppotai, num 2, exp 1, arm 0, wep 0
-            create_unit Kyoto, Japan Kachi, num 1, exp 1, arm 0, wep 0
-            create_unit Kyoto, Japan Seishi, num 1, exp 1, arm 0, wep 0
-            create_unit Reval, Japan Teppotai, num 2, exp 1, arm 0, wep 0
-            create_unit Reval, Japan Kachi, num 1, exp 1, arm 0, wep 0
-            create_unit Reval, Japan Seishi, num 1, exp 1, arm 0, wep 0
-            historic_event shogun_chosen factions { saxons, }
-        end_if
-        terminate_monitor
-    end_monitor
+        spawn_army
+                faction        saxons
+                character    Kaishu Kimura, admiral, age 38, x 64, y 230
+                        unit		ship_steam_corvette	exp 3 armour 0 weapon_lvl 0
+            end
+        create_unit Hokkaido, Japan Teppotai, num 1, exp 1, arm 0, wep 0
+        create_unit Hokkaido, Japan Kachi, num 1, exp 1, arm 0, wep 0
+        create_unit Hokkaido, Japan Seishi, num 1, exp 1, arm 0, wep 0
+        create_unit Edo, Japan Teppotai, num 2, exp 1, arm 0, wep 0
+        create_unit Edo, Japan Kachi, num 2, exp 1, arm 0, wep 0
+        create_unit Edo, Japan Seishi, num 2, exp 1, arm 0, wep 0
+        create_unit Kyoto, Japan Teppotai, num 2, exp 1, arm 0, wep 0
+        create_unit Kyoto, Japan Kachi, num 1, exp 1, arm 0, wep 0
+        create_unit Kyoto, Japan Seishi, num 1, exp 1, arm 0, wep 0
+        create_unit Reval, Japan Teppotai, num 2, exp 1, arm 0, wep 0
+        create_unit Reval, Japan Kachi, num 1, exp 1, arm 0, wep 0
+        create_unit Reval, Japan Seishi, num 1, exp 1, arm 0, wep 0
+        spawn_character saxons Kaishu Katsu, diplomat, age 37, x 64, y 231
+        historic_event shogun_chosen factions { saxons, }
+    end_if
+    terminate_monitor
+end_monitor
 
 
-    ;;;;;;;;;;;;;			Tenguto/Mito Rebellion	;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;			AI Japan Setup	;;;;;;;;;;;;;;;;;;;;;;;
 
-    monitor_event FactionTurnStart FactionIsLocal
-        and FactionType saxons
-        and I_TurnNumber = 20 ; 1864 at five turns per year
-        if I_EventCounter ishin_decision_accepted = 1
-            spawn_army
+monitor_event PreFactionTurnStart FactionIsLocal
+    and not FactionType saxons
+        kill_character takachikamori1
+        kill_character motonorimori1
+        kill_character DET_ASSASSINATED iinaosuke1
+        spawn_army
                 faction saxons
-                character Takamori Takeda, named character, age 38, x 435, y 227, battle_model mufud_general 
+                character Katamori Matsudaira, named character, age 24, x 435, y 229, portrait KatamoriMatsudaira, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Tadayuki Makino, named character, age 35, x 433, y 229, portrait TadayukiMakino, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Yoshikuni Date, named character, age 34, x 436, y 231, portrait YoshikuniDate, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Ayasaburo Takeda, named character, age 33, x 436, y 238, label ayasaburotakeda2, portrait AyasaburoTakeda, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Hisamitsu Shimazu, named character, age 43, x 422, y 215, label hisamitsushimazu2, portrait HisamitsuShimazu, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction saxons
+                character Takachika Mori, named character, age 41, x 423, y 221, label takachikamori2, portrait TakachikaMori, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction        saxons
+                character    random_name, admiral, age 38, x 424, y 215
+                        unit		ship_steam_corvette	exp 1 armour 0 weapon_lvl 0
+                        unit		cog			exp 1 armour 1 weapon_lvl 0
+                        unit		merc galley		exp 1 armour 0 weapon_lvl 0
+                        unit		turtle ship		exp 1 armour 0 weapon_lvl 0
             end
-        end_if
-        terminate_monitor
-    end_monitor
+        spawn_army
+                faction        saxons
+                character    Kaishu Kimura, admiral, age 38, x 64, y 230
+                        unit		ship_steam_corvette	exp 3 armour 0 weapon_lvl 0
+            end
+	siege_settlement yoshinobutokugawa1, Edo, attack
+	siege_settlement hisamitsushimazu2, Reval, attack
+	siege_settlement ayasaburotakeda2, Hokkaido, attack
+	siege_settlement takachikamori2, Kyoto, attack
+        create_unit Edo, Japan Teppotai, num 4, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Kachi, num 6, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Seishi, num 6, exp 3, arm 0, wep 0
+        create_unit Edo, Japan Yumitai, num 2, exp 3, arm 0, wep 0
+        create_unit Akita, Japan Teppotai, num 4, exp 3, arm 0, wep 0
+        create_unit Akita, Japan Kachi, num 6, exp 3, arm 0, wep 0
+        create_unit Akita, Japan Yumitai, num 2, exp 3, arm 0, wep 0
+        spawn_character saxons Kaishu Katsu, diplomat, age 37, x 64, y 231
+    terminate_monitor
+end_monitor
 
 
-    ;;;;;;;;;;;;;			Satcho Alliance	;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;			Bunkyu Reforms (ISHIN)	;;;;;;;;;;;;;;;;;;;;;;;
 
-    monitor_event FactionTurnStart FactionIsLocal
-        and FactionType saxons
-        and I_TurnNumber = 30 ; 1866 at five turns per year
-        if I_EventCounter ishin_decision_accepted = 1
-            historic_event ishin_satcho true
-            console_command capture_settlement Kagoshima
-            spawn_army
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 1
+    if I_EventCounter ishin_decision_accepted = 1
+        historic_event bunkyu
+        spawn_army
+                faction slave
+                character Yoshinobu Tokugawa, named character, age 40, x 430, y 227, label yoshinobutokugawarebel1, portrait YoshinobuTokugawa, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Shimonoseki (ISHIN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 2
+    if I_EventCounter ishin_decision_accepted = 1
+        historic_event ishin_shimonoseki true
+    end_if
+    while I_EventCounter ishin_shimonoseki_accepted = 0 
+        and I_EventCounter ishin_shimonoseki_declined = 0 
+    end_while
+    if I_EventCounter ishin_decision_accepted = 1
+        console_command diplomatic_stance saxons england war
+        console_command diplomatic_stance saxons france war
+        console_command diplomatic_stance saxons portugala war
+        console_command diplomatic_stance saxons portugal war
+        spawn_army
+                faction england
+                character Richard Audley, named character, age 41, x 425, y 221
+                traits LoyaltyStarter 1
+                        unit	uk_pith_knights		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	col_12lb		exp 9 armour 0 weapon_lvl 1
+                        unit	col_12lb		exp 9 armour 0 weapon_lvl 1
+                        unit	col_12lb		exp 9 armour 0 weapon_lvl 1
+                end
+        spawn_army
+                faction saxons Shinsaku Takasugi, named character, age 41, x 423, y 221, label shinsakutakasugi1, portrait ShinsakuTakasugi, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                end
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Shimonoseki (SHOGUN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 2
+    if I_EventCounter ishin_decision_declined = 1
+        historic_event shogun_shimonoseki
+        wait 0.1
+        kill_character takachikamori2
+        wait 0.1
+        spawn_army
+                faction slave
+                character Takachika Mori, named character, age 41, x 424, y 221, label rebeltakachikamori1, portrait TakachikaMori, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction slave
+                character Shinsaku Mori, named character, age 41, x 422, y 221, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        wait 0.1
+        console_command auto_win attacker
+	siege_settlement rebeltakachikamori1, Akita, attack
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Kinmon Incident (ISHIN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 3
+    if I_EventCounter ishin_decision_accepted = 1
+        historic_event ishin_kinmon
+        wait 0.1
+        spawn_army
+                faction saxons
+                character Shinsaku, named character, age 41, x 425, y 221, label kinmon1, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        wait 0.1
+	siege_settlement kinmon1, Kyoto, attack
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Kinmon Incident (SHOGUN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 3
+    if I_EventCounter ishin_decision_declined = 1
+        historic_event shogun_kinmon
+        wait 0.1
+        spawn_army
+                faction slave
+                character Shinsaku, named character, age 41, x 425, y 221, label kinmonrebel1, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+        wait 0.1
+	siege_settlement kinmonrebel1, Kyoto, attack
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Takasugi Shinsaku Kiheitai Rebellion (ISHIN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 15
+    if I_EventCounter ishin_decision_accepted = 1
+        historic_event ishin_satcho
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Takasugi Shinsaku Kiheitai Rebellion (SHOGUN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 5
+    if I_EventCounter ishin_decision_declined = 1
+        historic_event ishin_satcho
+        spawn_army
+                faction slave
+                character Shinsaku Takasugi, named character, age 41, x 423, y 221, label rebelshinsakutakasugi1, portrait ShinsakuTakasugi, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kiheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                end
+	siege_settlement rebelshinsakutakasugi1, Akita, attack
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Tenguto/Mito Rebellion (ISHIN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 3
+    if I_EventCounter ishin_decision_accepted = 1
+        historic_event tenguto
+        spawn_army
+                faction saxons
+                character Kounsai Takeda, named character, age 38, x 435, y 227, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Tenguto/Mito Rebellion (SHOGUN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 3
+    if I_EventCounter ishin_decision_declined = 1
+        historic_event tenguto
+        spawn_army
+                faction slave
+                character Kounsai Takeda, named character, age 38, x 435, y 227, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Yumitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Teppotai		exp 3 armour 0 weapon_lvl 0
+                end
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Satcho Alliance (ISHIN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 5
+    if I_EventCounter ishin_decision_accepted = 1
+        historic_event ishin_satcho
+        spawn_army
                 faction saxons
                 character Takamori Saigo, named character, age 38, x 422, y 219, portrait TakamoriSaigo, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-            spawn_army
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
                 faction saxons
                 character Toshimichi Okubo, named character, age 36, x 420, y 218, portrait ToshimichiOkubo, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-            spawn_army
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
                 faction saxons
-                character Hisamitsu Shimazu, named character, age 49, x 422, y 215, portrait HisamitsuShimazu, battle_model mufud_general 
+                character Hisamitsu Shimazu, named character, age 49, x 422, y 215, label hisamitsushimazu1, portrait HisamitsuShimazu, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-            spawn_army
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
                 faction saxons
-                character Tadayoshi Shimazu, named character, age 26, x 422, y 217, battle_model mufud_general 
+                character Tadayoshi Shimazu, named character, age 26, x 422, y 216, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-            spawn_army
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
                 faction saxons
                 character Ryoma Sakamoto, named character, age 36, x 423, y 218, portrait RyomaSakamoto, battle_model mufud_general 
                 traits LoyaltyStarter 1
-                unit	sho_mod_cav		exp 1 armour 0 weapon_lvl 0
-            end
-        end_if
-        terminate_monitor
-    end_monitor
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Jinshotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Jinshotai		exp 3 armour 0 weapon_lvl 0
+                end
+        console_command capture_settlement Kagoshima
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Satcho Alliance (SHOGUN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 5
+    if I_EventCounter ishin_decision_declined = 1
+        historic_event ishin_satcho
+        wait 0.1
+        kill_character hisamitsushimazu2
+        spawn_army
+                faction slave
+                character Takamori Saigo, named character, age 38, x 422, y 219, portrait TakamoriSaigo, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Kachi		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction slave
+                character Toshimichi Okubo, named character, age 36, x 420, y 218, portrait ToshimichiOkubo, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction slave
+                character Hisamitsu Shimazu, named character, age 49, x 422, y 215, label hisamitsushimazurebel1, portrait HisamitsuShimazu, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Satsuma Hoheitai		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction slave
+                character Tadayoshi Shimazu, named character, age 26, x 422, y 216, label tadayoshishimazurebel1, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                end
+        spawn_army
+                faction slave
+                character Ryoma Sakamoto, named character, age 36, x 423, y 218, portrait RyomaSakamoto, battle_model mufud_general 
+                traits LoyaltyStarter 1
+                        unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Jinshotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Jinshotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Jinshotai		exp 3 armour 0 weapon_lvl 0
+                        unit	Japan Jinshotai		exp 3 armour 0 weapon_lvl 0
+                end
+        console_command auto_win attacker
+	siege_settlement tadayoshishimazurebel1, Reval, attack
+    end_if
+    terminate_monitor
+end_monitor
+
+
+;;;;;;;;;;;;;			Abolition of the Domains (ISHIN)	;;;;;;;;;;;;;;;;;;;;;;;
+
+monitor_event FactionTurnStart FactionIsLocal
+    and FactionType saxons
+    and I_TurnNumber = 70
+    if I_EventCounter ishin_decision_accepted = 1
+        historic_event ishin_haihanchiken
+    end_if
+    terminate_monitor
+end_monitor
 
 
 
