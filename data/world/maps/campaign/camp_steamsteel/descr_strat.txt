@@ -13912,7 +13912,7 @@ character	Nobumasa Ando, named character, male, age 41, x 435, y 225, label ando
 army
 unit		sho_mod_cav							exp 1 armour 0 weapon_lvl 0
 
-character	Yoshinobu Tokugawa, named character, male, age 23, x 435, y 227, portrait YoshinobuTokugawa, battle_model mufud_general 
+character	Yoshinobu Tokugawa, named character, male, age 23, x 435, y 227, label yoshinobutokugawa1, portrait YoshinobuTokugawa, battle_model mufud_general 
 army
 unit		sho_mod_cav				exp 1 armour 0 weapon_lvl 0
 
