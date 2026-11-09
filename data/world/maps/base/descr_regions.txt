@@ -1749,6 +1749,15 @@ Akita_Province
 	5
 	5
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 30 hindu 65 pagan 0 heretic 5 judaism 0 }
+Sendai_Province
+	Sendai
+	saxons
+	Anatolian_Rebels
+	145 0 253
+	japan, colonial
+	5
+	8
+	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 60 pagan 0 heretic 5 judaism 0 }
 Hokkaido_Province
 	Hokkaido
 	saxons
