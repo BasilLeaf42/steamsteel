@@ -14104,6 +14104,45 @@ settlement
 
 settlement
 {
+	level large_town
+	region Sendai_Province
+
+	year_founded 0
+	population 24000
+	plan_set default_set
+	faction_creator saxons
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks militia_drill_square
+	}
+	building
+	{
+		type market corn_exchange
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type brothels brothel
+	}
+	building
+	{
+		type pro_city_hall pro_town_hall
+	}
+}
+
+settlement
+{
 	level large_city
 	region Edo_Province
 
@@ -18392,8 +18431,6 @@ region Kyoto_Province
 fort 430 223 fort culture southern_european
 
 ;Sendai
-region Edo_Province
-fort 435 230 chinese_fort_a culture chinese
 
 ;Aomori
 

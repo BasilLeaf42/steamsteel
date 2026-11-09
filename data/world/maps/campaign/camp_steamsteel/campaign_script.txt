@@ -3755,6 +3755,7 @@ set_event_counter ishin_decision_declined 0
     if I_EventCounter ishin_decision_accepted = 1
         show_ui
         add_money saxons, 1000
+        wait 0.1
         kill_character yoshinobutokugawa1
         wait 0.1
         kill_character andonobumasa1
@@ -3784,6 +3785,7 @@ set_event_counter ishin_decision_declined 0
         console_command capture_settlement Hokkaido
         console_command capture_settlement Kyoto
         console_command capture_settlement Kagoshima
+        console_command capture_settlement Sendai
         wait 0.1
         kill_character takachikamori1
         wait 0.1
@@ -3932,7 +3934,7 @@ monitor_event PreFactionTurnStart FactionIsLocal
                 end
         spawn_army
                 faction saxons
-                character Yoshikuni Date, named character, age 34, x 436, y 231, portrait YoshikuniDate, battle_model mufud_general 
+                character Yoshikuni Date, named character, age 34, x 436, y 231, label yoshikunidate2, portrait YoshikuniDate, battle_model mufud_general 
                 traits LoyaltyStarter 1
                         unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
                         unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
@@ -4025,6 +4027,7 @@ monitor_event PreFactionTurnStart FactionIsLocal
 	siege_settlement hisamitsushimazu2, Reval, attack
 	siege_settlement ayasaburotakeda2, Hokkaido, attack
 	siege_settlement takachikamori2, Kyoto, attack
+	siege_settlement yoshikunidate2, Sendai, attack
         create_unit Edo, Japan Teppotai, num 4, exp 3, arm 0, wep 0
         create_unit Edo, Japan Kachi, num 6, exp 3, arm 0, wep 0
         create_unit Edo, Japan Seishi, num 6, exp 3, arm 0, wep 0
