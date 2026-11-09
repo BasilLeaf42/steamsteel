@@ -1,53 +1,53 @@
 ﻿[
     {
         "path":  "binkw32.dll",
-        "bytes":  196096,
-        "sha256":  "ae364caaa327c89be7bd9a4d8fb7df1902f27fd78bf5c66c9c82e3f3f7ffc356"
+        "bytes":  203864,
+        "sha256":  "b4715889bee758b383bafb85a4af083dea56ff19bae1bb6a6f360f746a43a12b"
     },
     {
         "path":  "binkw64.dll",
-        "bytes":  310784,
-        "sha256":  "c1ceba681a174c15661d58fcaf85826c44d6904d87ef52b5301e1e96b74207c4"
+        "bytes":  318552,
+        "sha256":  "eb060cd15237ebe23a4a759c829c4cc6eeacdea8c1d480e2460ae05907c9b3a4"
     },
     {
         "path":  "concrt140.dll",
-        "bytes":  368496,
-        "sha256":  "fb09669c6a76025cedc9b3d3a64a543a174ea811a7f74d2b46ed5cff7fbe0b6d"
+        "bytes":  376264,
+        "sha256":  "388f2911d3fce446de0bcff69345505e7863c6358dfcbe3cf57d02779891df7a"
     },
     {
         "path":  "D3DCompiler_43.dll",
-        "bytes":  2529176,
-        "sha256":  "ffedb064adc25328b24dcf145b04045a867a5574c931516d7845babf2a08937f"
+        "bytes":  2536968,
+        "sha256":  "4e3610329bf2fc583ef561d1b755d659503178ac06b710c429a298aa0a3794a1"
     },
     {
         "path":  "d3dx10_43.dll",
-        "bytes":  514480,
-        "sha256":  "b5f2e4d842c758fae91323888ace39328c47d9546231757f73831e2369ae58ed"
+        "bytes":  522272,
+        "sha256":  "4d5339d4a518cc5062016a7d549141bf4ca20017e35b9958b4123b2bccfee447"
     },
     {
         "path":  "d3dx10d_43.dll",
         "bytes":  579592,
-        "sha256":  "f82516a9502907f4e836dba44db9b075ebaa4f1b32302ad7e34d0df078afb2f5"
+        "sha256":  "a1b9cde6763edce9a7509fad033a3eded05ff3f7cb5975605072014ff63406b5"
     },
     {
         "path":  "d3dx11_43.dll",
-        "bytes":  279984,
-        "sha256":  "25814402ce1d74f198958aa38661242189b4e5d640177087d0ba0ecf65d19a44"
+        "bytes":  287776,
+        "sha256":  "532e7548eccee34f8d88fd8e48b116ac13e52e445bb14458662c253514d3b053"
     },
     {
         "path":  "d3dx11d_43.dll",
         "bytes":  318984,
-        "sha256":  "7a39a869c3c273c2861265cddf35336368a4cd37c2046d9d2c7c13c0888e175f"
+        "sha256":  "6168bcdd95b2d9462e378ed1ecbd6d78945601264374bf21afc43733068ad22a"
     },
     {
         "path":  "d3dx9_43.dll",
-        "bytes":  2404248,
-        "sha256":  "36b84dfa0ef9d3ff3549a7ad54d2a8032bd22c879219ee1a959137c4ef8786c4"
+        "bytes":  2412040,
+        "sha256":  "ab5c7b367f8652a8d51a87a3ea73ea9b9367ef4d9c63b3388c5ab2fdad6d9cda"
     },
     {
         "path":  "d3dx9d_43.dll",
         "bytes":  2697736,
-        "sha256":  "b63f8d4df98de1179b139993bde961929608039627e58ca67ae0a0654d024426"
+        "sha256":  "108519990ca1a4add764fccf5040feac40acd876d26a80ff6494812ec0a434a2"
     },
     {
         "path":  "data/descr_aerial_map_ground_types.txt",
@@ -71,8 +71,8 @@
     },
     {
         "path":  "data/descr_burning_men_effect.txt",
-        "bytes":  4942,
-        "sha256":  "bed643389d594e6f0c9ff4db72564b6dc66b6af4cd398465028bb5a16b5ee4a9"
+        "bytes":  11516,
+        "sha256":  "8fc1e408498ffdea72914e19667490c19818080df28d8bfc9d74e6b960059511"
     },
     {
         "path":  "data/descr_burning_oil_effect.txt",
@@ -91,8 +91,8 @@
     },
     {
         "path":  "data/descr_caps_ex.txt",
-        "bytes":  10031,
-        "sha256":  "88088d4cfa80bfa4a5ad9edec86ebae9b084646b805a4fe8732acb9e119dcd15"
+        "bytes":  10640,
+        "sha256":  "007c17120a22784734e75aed91a48b8a522facf2de5a918e2378336c66f25a37"
     },
     {
         "path":  "data/descr_climates.txt",
@@ -121,8 +121,8 @@
     },
     {
         "path":  "data/descr_ex.txt",
-        "bytes":  6899,
-        "sha256":  "7f210f5a1d2c78bd2248b5531df1de0c2f9c201b1e961349164664bdf7348c63"
+        "bytes":  13436,
+        "sha256":  "23d0a848f3cb1ca6bac6776ace61f1d4afab01b849354c1f10b58fced5a7851b"
     },
     {
         "path":  "data/descr_faction_standing.txt",
@@ -351,8 +351,8 @@
     },
     {
         "path":  "data/descr_vegetation.txt",
-        "bytes":  115645,
-        "sha256":  "a118716afc8d71e85c1a0005745b8901906edcf9b22c455554ada9fcadb28ada"
+        "bytes":  116793,
+        "sha256":  "1f71ba16a346a2e346a0b735c97f013cedfad747ff3788ab84f3616f79e93151"
     },
     {
         "path":  "data/export_descr_buildings.txt",
@@ -981,13 +981,13 @@
     },
     {
         "path":  "data/menu/mtw2.lnt",
-        "bytes":  672775,
-        "sha256":  "4ad8a58cef13c428a7e151d5009fd9e27f27cd977b59e2d7bd3b1f7ef498b5ea"
+        "bytes":  700049,
+        "sha256":  "bbecdd22f46b3f8b065c15a6948d4a0ad987a7a8ab6ae5c7cce3fd92b116b7cc"
     },
     {
         "path":  "data/menu/mtw2_pieces.txt",
-        "bytes":  12421,
-        "sha256":  "bd6860486a73e43cf148cff13ed871ac7ef7964c9014bf3a95cb6c57bb4ae1b4"
+        "bytes":  12505,
+        "sha256":  "d2373b01e9561d7a1793cb74370f4fd270a34eace39cd995fa7440ae98f09ad4"
     },
     {
         "path":  "data/models_building/offmap_city_east.CAS",
@@ -1841,8 +1841,8 @@
     },
     {
         "path":  "data/text/czech/menu_english.txt",
-        "bytes":  71743,
-        "sha256":  "74bc0dbb6d803c8607730d8dd076a05e4ba34a47f967d96b85a395973182de87"
+        "bytes":  72643,
+        "sha256":  "7771b36ac3ba5219f67daf8c2921ca420581c2f7dee3f39d38352a51afed526f"
     },
     {
         "path":  "data/text/czech/missions.txt",
@@ -1861,8 +1861,8 @@
     },
     {
         "path":  "data/text/czech/prebattle_speeches_subtitles.txt",
-        "bytes":  238847,
-        "sha256":  "7d43960f42a1a5d5954329a394769304d6a736a75f019f15d097eca0ada9b36a"
+        "bytes":  238849,
+        "sha256":  "e3c1ad290d4b4c469b8e88a2cc1194467e3dedfbe2411305d720e3cf19cf4e6f"
     },
     {
         "path":  "data/text/czech/quotes.txt",
@@ -1881,8 +1881,8 @@
     },
     {
         "path":  "data/text/czech/shared.txt",
-        "bytes":  18249,
-        "sha256":  "91c9ec9273cad312a498f113d518e4b190709f067530b2d9c1ee2cf0ccdad188"
+        "bytes":  18148,
+        "sha256":  "c60672a337da2e8ff3d8bbf3dca60e3e5376f9a43be952ace39ca41ec7d56c49"
     },
     {
         "path":  "data/text/czech/shortcut.txt",
@@ -1891,8 +1891,8 @@
     },
     {
         "path":  "data/text/czech/strat.txt",
-        "bytes":  103085,
-        "sha256":  "021a2f9877e5015f54731dd18d2231f87a40d4aebc57d0e86239281134028071"
+        "bytes":  101929,
+        "sha256":  "aeaf4bb52e55f6443cb8fc840a0a3f206ee12ee446f585bc516bd4a263258db4"
     },
     {
         "path":  "data/text/czech/tooltips.txt",
@@ -1901,8 +1901,8 @@
     },
     {
         "path":  "data/text/descr_shortcuts.txt",
-        "bytes":  18973,
-        "sha256":  "01a78f0add3f1a42412340b0a53d717c3dc997586e3069a5aae47cdd9f736dc3"
+        "bytes":  19037,
+        "sha256":  "42817169ebad89b0e6060e6d846e74c366797800eda50f568ae2c9c462c0654e"
     },
     {
         "path":  "data/text/english/audiotest_regions_and_settlement_names.txt",
@@ -1956,8 +1956,8 @@
     },
     {
         "path":  "data/text/english/date_format.txt",
-        "bytes":  682,
-        "sha256":  "e827d919d48b6502b42d9402e7579baaf9914f55aef91178ce39d244c2d64280"
+        "bytes":  659,
+        "sha256":  "86a8cf75a474f386a049084f719599593b6f8be7b9cc1744f38a5dd002af8307"
     },
     {
         "path":  "data/text/english/diplomacy.txt",
@@ -2036,8 +2036,8 @@
     },
     {
         "path":  "data/text/english/menu_english.txt",
-        "bytes":  65848,
-        "sha256":  "bfa44bdbe339e61ddd56caa63fa464b2777633224ca030b32d0ea176ef6e3fb0"
+        "bytes":  65686,
+        "sha256":  "b30df6453100b181a8d05257113a79fe337b8439e287bb1d5896b3d2fe653a25"
     },
     {
         "path":  "data/text/english/missions.txt",
@@ -2076,8 +2076,8 @@
     },
     {
         "path":  "data/text/english/shared.txt",
-        "bytes":  16738,
-        "sha256":  "e123ae0a5536846513f91514d4923a379fb8c4c520883d6b27a2c62a9b7194c9"
+        "bytes":  16621,
+        "sha256":  "0f6e6b86df52b51de133ea7c7a589210a55a4d18f365f18170b6806a91d0f953"
     },
     {
         "path":  "data/text/english/shortcut.txt",
@@ -2086,13 +2086,13 @@
     },
     {
         "path":  "data/text/english/strat.txt",
-        "bytes":  97553,
-        "sha256":  "61ae298794c42128966a9b7e0e7a471bc01fe7231f224204e49b8f23ff7d0bce"
+        "bytes":  96416,
+        "sha256":  "2ba089ff73327f4c579fb1aca371545c9914bf9aa46baeb8aafff1ffb0b6ad69"
     },
     {
         "path":  "data/text/english/tooltips.txt",
-        "bytes":  30233,
-        "sha256":  "d3604bcf7d5355b53fa34acb5cee7d0f95da5b610fd7338609ad5bd30e1850eb"
+        "bytes":  29846,
+        "sha256":  "a4ddfcc8deb9cbe2088b37fd5a0084de8d1d97f14d24c60319e21cc3f8848439"
     },
     {
         "path":  "data/text/french/audiotest_regions_and_settlement_names.txt",
@@ -2226,8 +2226,8 @@
     },
     {
         "path":  "data/text/french/menu_english.txt",
-        "bytes":  72342,
-        "sha256":  "ae6834448e7a13712aa690691257301bc56a04b319f5f154851a6663d0e21691"
+        "bytes":  73413,
+        "sha256":  "0e7d0057ef50ba875b10f1ad4157ea48c262b1748138d65c4b2d924068ca4510"
     },
     {
         "path":  "data/text/french/missions.txt",
@@ -2266,8 +2266,8 @@
     },
     {
         "path":  "data/text/french/shared.txt",
-        "bytes":  18421,
-        "sha256":  "cf0403d6b7ad2efb390c13301c40ffa5995ed1142279423c055a186114fdc3ee"
+        "bytes":  18320,
+        "sha256":  "43fa36dc772dc590bc80d4dbb7ac5ab6d22af5f8922de8938b25f170e23fbc19"
     },
     {
         "path":  "data/text/french/shortcut.txt",
@@ -2276,8 +2276,8 @@
     },
     {
         "path":  "data/text/french/strat.txt",
-        "bytes":  104379,
-        "sha256":  "7a56262ba339a55561d518e5c14460be2e4cfc800e0f7fc0175fb89af31eb323"
+        "bytes":  103223,
+        "sha256":  "0d2529051dc495570180742c68e969e951521891ead724ac7b3240868450f727"
     },
     {
         "path":  "data/text/french/tooltips.txt",
@@ -2416,8 +2416,8 @@
     },
     {
         "path":  "data/text/german/menu_english.txt",
-        "bytes":  71254,
-        "sha256":  "32fc09b5c771d115608bde070bac82f4bdccb67afa3e2cb5ebb85694eef5affa"
+        "bytes":  72274,
+        "sha256":  "a490ba131e4172a326d9ee7196a3122cdcb30402ad53d77d8bed4d9d4ea27317"
     },
     {
         "path":  "data/text/german/missions.txt",
@@ -2456,8 +2456,8 @@
     },
     {
         "path":  "data/text/german/shared.txt",
-        "bytes":  18002,
-        "sha256":  "743cebf5b52cc7a2803c3c840246082d28e98ab43242b48e7bcac471d1d5b4d2"
+        "bytes":  17896,
+        "sha256":  "d83bfdb99b5fceaa6006f4457456b5264ca0e16cec3a40d03bb4e6fa4df5498f"
     },
     {
         "path":  "data/text/german/shortcut.txt",
@@ -2466,8 +2466,8 @@
     },
     {
         "path":  "data/text/german/strat.txt",
-        "bytes":  103967,
-        "sha256":  "4e9a54303444d366d128e1221a332b5ed2bb3f24ce994670ad12f8b363458d88"
+        "bytes":  102811,
+        "sha256":  "7a3f06648888bf281d42b7886dbe8ec6c5ed1d8f8315fc3310d357dd99b7da04"
     },
     {
         "path":  "data/text/german/tooltips.txt",
@@ -2606,8 +2606,8 @@
     },
     {
         "path":  "data/text/hungarian/menu_english.txt",
-        "bytes":  74765,
-        "sha256":  "8ca6794876f5d1993cebb56646aacd2f1ede711a5108de3872276683ba16668c"
+        "bytes":  75838,
+        "sha256":  "79ad4dc8afb53bf72cafa651c9b3bcdc1662c49d5f84b5b6eb0befc065196e93"
     },
     {
         "path":  "data/text/hungarian/missions.txt",
@@ -2646,8 +2646,8 @@
     },
     {
         "path":  "data/text/hungarian/shared.txt",
-        "bytes":  18793,
-        "sha256":  "2df7bba73e9aad6312f382c20055b2a1a9c3b2e63e445ad3e14eee5aef641d5e"
+        "bytes":  18695,
+        "sha256":  "be210ba26ff2e91e954d1fd51aaa194283a0e5a73cc19efcbfcaf9b2117c4642"
     },
     {
         "path":  "data/text/hungarian/shortcut.txt",
@@ -2656,8 +2656,8 @@
     },
     {
         "path":  "data/text/hungarian/strat.txt",
-        "bytes":  105132,
-        "sha256":  "51d725b187de5f696cf14899ce35cbf6fc542884f260ea79ed50a24b48497ded"
+        "bytes":  103976,
+        "sha256":  "f601d94b7f3d158ec826c30f8117b5ddb811dc860e824ba16ce10e9d11c27b10"
     },
     {
         "path":  "data/text/hungarian/tooltips.txt",
@@ -2796,8 +2796,8 @@
     },
     {
         "path":  "data/text/italian/menu_english.txt",
-        "bytes":  72209,
-        "sha256":  "5aa2bf03795fde6a5cce282d1319c554bd1a1b3d3f517a592b1a1461891b6d18"
+        "bytes":  73226,
+        "sha256":  "9d888782f6c0c0856517605f3663900ced84c7c8d23bfe67955ef24c752c6b23"
     },
     {
         "path":  "data/text/italian/missions.txt",
@@ -2836,8 +2836,8 @@
     },
     {
         "path":  "data/text/italian/shared.txt",
-        "bytes":  18093,
-        "sha256":  "61cb81deb0a459cb2be1c767ff8fc2b5760504fe34219838dc25ae5686d4f38b"
+        "bytes":  17981,
+        "sha256":  "5bafb8455d680609e88041249b77fcb7019653514a41ed28523a0e3acd59d22e"
     },
     {
         "path":  "data/text/italian/shortcut.txt",
@@ -2846,8 +2846,8 @@
     },
     {
         "path":  "data/text/italian/strat.txt",
-        "bytes":  104382,
-        "sha256":  "ebce3fd0779c0ced6e5cc49d5a5bd8398128896a7de83f0b75f0d094dc35c4ad"
+        "bytes":  103226,
+        "sha256":  "03f3b7f10d92bd57634bda6b6f74345a20ff38bac56e532799ec5d8b0f22c993"
     },
     {
         "path":  "data/text/italian/tooltips.txt",
@@ -2986,8 +2986,8 @@
     },
     {
         "path":  "data/text/polish/menu_english.txt",
-        "bytes":  71281,
-        "sha256":  "2ab246bdb210bff1dbe3329ff50bcc919e979e882f85f020b8340bdc20b42092"
+        "bytes":  72235,
+        "sha256":  "3d264af7175e04aa27ef23ab4a74ec044833804a2c1e052cca947ffde6bf3aeb"
     },
     {
         "path":  "data/text/polish/missions.txt",
@@ -3026,8 +3026,8 @@
     },
     {
         "path":  "data/text/polish/shared.txt",
-        "bytes":  18409,
-        "sha256":  "4a5bf96615330d2e5b25898bbf2def3b820cec01fea708e1e55dce52fa42f30f"
+        "bytes":  18294,
+        "sha256":  "56a4e426b86f8c785e74119ac69fd6118afcb28c5fb020fb0dc8c4ee76994eb3"
     },
     {
         "path":  "data/text/polish/shortcut.txt",
@@ -3036,8 +3036,8 @@
     },
     {
         "path":  "data/text/polish/strat.txt",
-        "bytes":  104076,
-        "sha256":  "817e4624db9e7d0cd6a3655c17f4df16a22092499e6e5a554af23e64bb7ec00d"
+        "bytes":  102920,
+        "sha256":  "47222729e1e10a663f391eec1d224c385ee428e0b89606cbd4c2cb87c2aa10b1"
     },
     {
         "path":  "data/text/polish/tooltips.txt",
@@ -3176,8 +3176,8 @@
     },
     {
         "path":  "data/text/russian/menu_english.txt",
-        "bytes":  93052,
-        "sha256":  "46f2e11094a78658077c1a8cfff6af6d5cf745456d1f069d9e3fd0bd376f412c"
+        "bytes":  95023,
+        "sha256":  "c8a3364241de0d529ef1eaa53d5ee3f091c83912e8a0d48b4d55a9d3cfe0ae14"
     },
     {
         "path":  "data/text/russian/missions.txt",
@@ -3216,8 +3216,8 @@
     },
     {
         "path":  "data/text/russian/shared.txt",
-        "bytes":  24041,
-        "sha256":  "5a4241b01b2d4250b9c245a8355fcde66efaacf36505bb45d1f9e8080bd67a10"
+        "bytes":  23982,
+        "sha256":  "7020cfe06b89e0bf2e7f1cdf755782f3a5d42c560a2a14180b69428faf696bb0"
     },
     {
         "path":  "data/text/russian/shortcut.txt",
@@ -3226,8 +3226,8 @@
     },
     {
         "path":  "data/text/russian/strat.txt",
-        "bytes":  132106,
-        "sha256":  "698ffbc71203813829dd8045f17fd9558de496e74ddf6ccc18f9229b267e2cd3"
+        "bytes":  130950,
+        "sha256":  "e81166e3c9a62352ab0a62154a639d19fb1296d2adbe54b6c2a9935ddd84071a"
     },
     {
         "path":  "data/text/russian/tooltips.txt",
@@ -3366,8 +3366,8 @@
     },
     {
         "path":  "data/text/spanish/menu_english.txt",
-        "bytes":  74063,
-        "sha256":  "ad4bb9ffb296f4970d905c1e1b8ddeeb774e267e3166da744c3900f891609cd6"
+        "bytes":  75044,
+        "sha256":  "f8adf38ced20839888ecd7a8aa65c82bddcb121fc526b70f98e0ea610112479e"
     },
     {
         "path":  "data/text/spanish/missions.txt",
@@ -3406,8 +3406,8 @@
     },
     {
         "path":  "data/text/spanish/shared.txt",
-        "bytes":  18390,
-        "sha256":  "7be15e51f4b65c7fc30867979c1eaefe1a527aa91bf91b98a222d8e564656455"
+        "bytes":  18281,
+        "sha256":  "7fbba1df25e48f4eb9a1eba858cf96cfe136a52acc86745df65b4cbadd20c777"
     },
     {
         "path":  "data/text/spanish/shortcut.txt",
@@ -3416,8 +3416,8 @@
     },
     {
         "path":  "data/text/spanish/strat.txt",
-        "bytes":  103306,
-        "sha256":  "f4f7a91f2aa9f7fc6e178e19e04b4eff151d33a5e7d226bb8969cc3b652e4025"
+        "bytes":  102150,
+        "sha256":  "fb548fb9c1aaf8b9209b96ce25b6e3e24800477561904b9f85e729dc7c9edba4"
     },
     {
         "path":  "data/text/spanish/tooltips.txt",
@@ -3491,8 +3491,8 @@
     },
     {
         "path":  "data/ui/battle.sd.xml",
-        "bytes":  13496,
-        "sha256":  "164ad5f0d458e670f4ef2127da5d075d0fdbcb81b6f2313d44557a6a351653f9"
+        "bytes":  17989,
+        "sha256":  "7ac4579dc4a329fec6a17d1f69d6c55267f3433a9fd52e5440b3ce89a0e2212e"
     },
     {
         "path":  "data/ui/radar.sd.xml",
@@ -3581,33 +3581,33 @@
     },
     {
         "path":  "granny2.dll",
-        "bytes":  450103,
-        "sha256":  "94d56fd7e9ef8adde51425da339722a584e28e71235bc8a89d8175c2276050fd"
+        "bytes":  457872,
+        "sha256":  "3b750d797273a4fddb4403ab1c5ab8608f93a6be2d3d725d1a7c21c978058ba6"
     },
     {
         "path":  "granny2_x64.dll",
-        "bytes":  771072,
-        "sha256":  "ccabcba2c038b1e6f3569c9c488cd5f43394b70ba4374c751b8b284b9f030e6c"
+        "bytes":  778840,
+        "sha256":  "19a1e03204a784bd6c9ec1cd021c4b420ed3801d55d27914b4749fe73e7e6e0a"
     },
     {
         "path":  "libdf.dll",
-        "bytes":  237568,
-        "sha256":  "6f95d654d6ad816cdfb5477037ef5fd7af74d69464513c49892a2a153c3c9860"
+        "bytes":  245336,
+        "sha256":  "b0e5b06a8827c33a68e259ddd4c3d5b426a6016b4b40e4effa65c35886ed1507"
     },
     {
         "path":  "luabinddll.dll",
-        "bytes":  221184,
-        "sha256":  "5cf59836ea5121d04c5cb4e98da065a096a3399a715c8b38836b8a96289e9854"
+        "bytes":  228952,
+        "sha256":  "7ec24891c60c6aa3b5d947531ccc2a68aa256ca0131096c2ea4f872938a3435f"
     },
     {
         "path":  "M2EX.exe",
-        "bytes":  43394048,
-        "sha256":  "eeab8512a63bb735ed7d4bd63e229fb99b8c6a9c14e1fa79481e781182eb15b6"
+        "bytes":  49138776,
+        "sha256":  "891b2436bd3b593c4f46fbb1eaa73b4f8d2130a198c550cb31172232dfc615c0"
     },
     {
         "path":  "M2EX.xdb",
-        "bytes":  10361482,
-        "sha256":  "718d95fcaa99b25e4edea6b3785dfb6a5aa9d2988d9efa7b489f8fde3a7f33ea"
+        "bytes":  11114594,
+        "sha256":  "d86629639125bd52fcaa43d17301b4182284793041bdaf6a92fb2b44c832166e"
     },
     {
         "path":  "miles/binkawin64.asi",
@@ -3636,8 +3636,8 @@
     },
     {
         "path":  "miles/mss64midi.dll",
-        "bytes":  249856,
-        "sha256":  "d7e8b64151bf924a61b9b52c35dd72a5013e70ef33bccdf5bf4ea684062071bb"
+        "bytes":  257624,
+        "sha256":  "9c0165d8802cfaf3ca0ac1d1163004bdb2bf5f1002c86f839ade8eca86ba0444"
     },
     {
         "path":  "miles/mss64mp3.asi",
@@ -3656,38 +3656,38 @@
     },
     {
         "path":  "mss64.dll",
-        "bytes":  575488,
-        "sha256":  "260e127610beb8492371d4707a1302eb0dde53418bca05beadd459e0d3625a51"
+        "bytes":  583256,
+        "sha256":  "4bce4684d2f0152d31cefb085a90c07adbc15d9137049193ac735630e2b682a8"
     },
     {
         "path":  "mss64midi.dll",
-        "bytes":  249856,
-        "sha256":  "d7e8b64151bf924a61b9b52c35dd72a5013e70ef33bccdf5bf4ea684062071bb"
+        "bytes":  257624,
+        "sha256":  "ca4a927a5f9873020e5c49081173eb3825a8deb290829c3c8d35082d243d3a50"
     },
     {
         "path":  "msvcp140.dll",
-        "bytes":  646000,
-        "sha256":  "4f2866913a60abcb6c5f0dda3f8baf6957d030f4d6ef17f420a85372c51428e8"
+        "bytes":  653776,
+        "sha256":  "6c016e7021736b7c53f07e295976f3a72caa48674287e15f826caabe5dbfe863"
     },
     {
         "path":  "msvcp140_1.dll",
-        "bytes":  35696,
-        "sha256":  "8c2cc7c9f0751d91346552b9a9a3213dca602ce426e8bfa489b9c1fd1a224957"
+        "bytes":  43472,
+        "sha256":  "805d02ba96db12ccacf6cd81bcd378c6d805cf4d58c9057b8c73f4e026198d63"
     },
     {
         "path":  "msvcp140_2.dll",
-        "bytes":  271296,
-        "sha256":  "3d09b3aac9d62e93f26587e44b6902d2f7dfa618e225ba9af612c3c3e3b69bfb"
+        "bytes":  279064,
+        "sha256":  "5e766285f4149c5ad0977a58a244b3505205b49b4490177286b948cf5c28585a"
     },
     {
         "path":  "msvcp140_atomic_wait.dll",
-        "bytes":  57784,
-        "sha256":  "750c4e4cf76b6c395927817b4610da67d8c084416923e1c0106f8cbdfed6373a"
+        "bytes":  65560,
+        "sha256":  "0b256ab448f1497886381be44aeef40fd92a3b9482557f0bba41d891671e8cd5"
     },
     {
         "path":  "msvcp140_codecvt_ids.dll",
-        "bytes":  31680,
-        "sha256":  "1f856ab189aba7bd0353227b75200188b743ac933881a3c88c2dcd5d49de5afa"
+        "bytes":  39456,
+        "sha256":  "60b66edfeb634d2184a4f684dd616bc035893a679deb716bac5e29da4a3e3615"
     },
     {
         "path":  "packs/voices.pack",
@@ -3696,8 +3696,8 @@
     },
     {
         "path":  "steam_api64.dll",
-        "bytes":  317080,
-        "sha256":  "e3fe06e2d802c2f753aeb46869e2af898f34715ce85f08001456fd8a80ecd21e"
+        "bytes":  324880,
+        "sha256":  "4099fd5ef4bd42045f08f1b1ba51d3e6a2a4f15a47bd2dc1a12e7227755813f0"
     },
     {
         "path":  "steam_appid.txt",
@@ -3706,22 +3706,22 @@
     },
     {
         "path":  "vccorlib140.dll",
-        "bytes":  348520,
-        "sha256":  "38ad28e0049976c81bfdcbc9f48ef3d9de758b6853ae8ac2f31c5aeb7c875078"
+        "bytes":  356296,
+        "sha256":  "2874309a649904a53788f6c3b00e215d8f035bc6607fb3669f1cf6ede6cb1b03"
     },
     {
         "path":  "vcruntime140.dll",
-        "bytes":  179648,
-        "sha256":  "d59c74cadfb9433bc4a13f8e0667a04fe7f3616e776b578cc2f516aafcd58d4f"
+        "bytes":  187424,
+        "sha256":  "7a66f900f0b8c86b71dfcd3fafc04c17a75fb9ac38602040e39b39305c0ebabc"
     },
     {
         "path":  "vcruntime140_1.dll",
-        "bytes":  50112,
-        "sha256":  "98bdc0fd92ce6e4e18a77dc00f9976659ffdde62466f87f31c01d45de2e26624"
+        "bytes":  57880,
+        "sha256":  "e4ce8a6ab77862ab385e07285572f07902a031cb92de8fd6dfbe92e6a9882ce4"
     },
     {
         "path":  "vcruntime140_threads.dll",
-        "bytes":  38768,
-        "sha256":  "a2d7ee736026a25987e58fea90e450f5e74e336b146964c8658025c84fbd247f"
+        "bytes":  46536,
+        "sha256":  "5a242e5c3f4262a3d5082efb914353f65d75108993bdf486b6010f20a4e85f63"
     }
 ]
