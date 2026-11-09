@@ -40,5 +40,5 @@ if not exist "%~dp0..\..\SteamAndSteel.exe" (
     exit /b 1
 )
 cd /d "%~dp0..\.."
-start "" "%~dp0..\..\SteamAndSteel.exe" --features.mod=mods/steamsteel
+start "" "%~dp0..\..\SteamAndSteel.exe" "@mods\steamsteel\steamsteel.cfg" --features.mod=mods/steamsteel
 endlocal

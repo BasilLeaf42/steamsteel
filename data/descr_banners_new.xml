@@ -46,7 +46,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -95,7 +95,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -144,7 +144,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -193,7 +193,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -242,7 +242,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -289,7 +289,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -337,7 +337,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -385,7 +385,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -433,7 +433,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -480,7 +480,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -528,7 +528,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -576,7 +576,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -628,7 +628,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -675,7 +675,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -723,7 +723,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -771,7 +771,7 @@
             <Texture Faction="Spain" DiffuseMap="banners\textures\Faction_banner_new_spain.texture" TranslucencyMap="banners\textures\Faction_banner_new_spain.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -819,7 +819,7 @@
             <Texture Faction="Portugala" DiffuseMap="banners\textures\Faction_banner_portugal2.texture" TranslucencyMap="banners\textures\Faction_banner_portugal2.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
           <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china_elite.texture" TranslucencyMap="banners\textures\Faction_banner_china_elite.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -869,7 +869,7 @@
             <Texture Faction="Portugala" DiffuseMap="banners\textures\Faction_banner_portugal2.texture" TranslucencyMap="banners\textures\Faction_banner_portugal2.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
           <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china_elite.texture" TranslucencyMap="banners\textures\Faction_banner_china_elite.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -919,7 +919,7 @@
             <Texture Faction="Portugala" DiffuseMap="banners\textures\Faction_banner_portugal2.texture" TranslucencyMap="banners\textures\Faction_banner_portugal2.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
           <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_milan_modern.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -969,7 +969,7 @@
             <Texture Faction="Portugala" DiffuseMap="banners\textures\Faction_banner_portugal2.texture" TranslucencyMap="banners\textures\Faction_banner_portugal2.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
           <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china_elite.texture" TranslucencyMap="banners\textures\Faction_banner_china_elite.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -1019,7 +1019,7 @@
             <Texture Faction="Portugala" DiffuseMap="banners\textures\Faction_banner_portugal2.texture" TranslucencyMap="banners\textures\Faction_banner_portugal_trans.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china_elite.texture" TranslucencyMap="banners\textures\Faction_banner_china_elite.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -1070,7 +1070,7 @@
             <Texture Faction="Portugala" DiffuseMap="banners\textures\Faction_banner_portugal2.texture" TranslucencyMap="banners\textures\Faction_banner_portugal_trans.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china.texture" TranslucencyMap="banners\textures\Faction_banner_china.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>
@@ -1120,7 +1120,7 @@
             <Texture Faction="Portugala" DiffuseMap="banners\textures\Faction_banner_portugal2.texture" TranslucencyMap="banners\textures\Faction_banner_portugal_trans.texture"/>
             <Texture Faction="Venice" DiffuseMap="banners\textures\Faction_banner_venice.texture" TranslucencyMap="banners\textures\Faction_banner_venice_trans.texture"/>
             <Texture Faction="Sicily" DiffuseMap="banners\textures\Faction_banner_tibet.texture" TranslucencyMap="banners\textures\faction_banner_safavids_trans.texture"/>
-            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\Faction_banner_korea.texture"/>
+            <Texture Faction="Milan" DiffuseMap="banners\textures\Faction_banner_korea.texture" TranslucencyMap="banners\textures\faction_banner_korea_trans.texture"/>
             <Texture Faction="Scotland" DiffuseMap="banners\textures\Faction_banner_scotland.texture" TranslucencyMap="banners\textures\Faction_banner_scotland_trans.texture"/>
             <Texture Faction="Byzantium" DiffuseMap="banners\textures\Faction_banner_china_elite.texture" TranslucencyMap="banners\textures\Faction_banner_china_elite.texture"/>
             <Texture Faction="Russia" DiffuseMap="banners\textures\Faction_banner_russia_late.texture" TranslucencyMap="banners\textures\Faction_banner_russia_late_trans.texture"/>

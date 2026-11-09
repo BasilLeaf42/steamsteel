@@ -13352,7 +13352,7 @@
       <identifier>UIP_CUSTOM_DIFFICULTY</identifier>
       <Parameters>
         <x>268</x>
-        <y>481</y>
+        <y>453</y>
         <width>190</width>
         <height>21</height>
         <tool_tip_id>UI_CUSTOM_DIFFICULTY_TOOLTIP</tool_tip_id>
@@ -13556,7 +13556,7 @@
       <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
         <x>269</x>
-        <y>461</y>
+        <y>433</y>
         <width>190</width>
         <height>26</height>
         <UI text>UI_CUSTOM_BATTLE_DIFFICULTY
@@ -13712,7 +13712,7 @@
       <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
         <x>269</x>
-        <y>523</y>
+        <y>495</y>
         <width>190</width>
         <height>26</height>
         <UI text>UI_PERIOD
@@ -13728,7 +13728,7 @@
       <identifier>UIP_HOST_GAME_PERIOD_DROPDOWN</identifier>
       <Parameters>
         <x>268</x>
-        <y>543</y>
+        <y>515</y>
         <width>190</width>
         <height>21</height>
         <tool_tip_id>UI_CUSTOM_BATTLE_PERIOD_SELECT_INFO</tool_tip_id>
@@ -15448,7 +15448,7 @@
       <identifier>UIP_CUSTOM_DIFFICULTY</identifier>
       <Parameters>
         <x>268</x>
-        <y>481</y>
+        <y>453</y>
         <width>190</width>
         <height>21</height>
         <tool_tip_id>UI_CUSTOM_DIFFICULTY_TOOLTIP</tool_tip_id>
@@ -15668,7 +15668,7 @@
       <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
         <x>269</x>
-        <y>461</y>
+        <y>433</y>
         <width>190</width>
         <height>26</height>
         <UI text>UI_CUSTOM_BATTLE_DIFFICULTY
@@ -15854,7 +15854,7 @@
       <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
         <x>269</x>
-        <y>523</y>
+        <y>495</y>
         <width>190</width>
         <height>26</height>
         <UI text>UI_PERIOD
@@ -15870,7 +15870,7 @@
       <identifier>UIP_HOST_GAME_PERIOD_DROPDOWN</identifier>
       <Parameters>
         <x>268</x>
-        <y>543</y>
+        <y>515</y>
         <width>190</width>
         <height>21</height>
         <tool_tip_id>UI_CUSTOM_BATTLE_PERIOD_SELECT_INFO</tool_tip_id>

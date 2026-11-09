@@ -1,0 +1,7 @@
+; Steam & Steel M2EX feature overrides.
+; Keep Steam & Steel's established legacy sprite sheets and compiled battle models.
+sprite_format  sd
+model_battle_source  modeldb
+
+; Enables the M2EX horse system used by can_dismount EDU units.
+horse_rework  1

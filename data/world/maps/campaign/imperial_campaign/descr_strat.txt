@@ -3140,7 +3140,7 @@ denari_kings_purse	0
 ;Mexico City
 settlement
 {
-	level huge_city
+	level large_city
 	region Mexico_Province
 
 	year_founded 0
@@ -3149,7 +3149,7 @@ settlement
 	faction_creator scotland
 	building
 	{
-		type core_building huge_stone_wall 
+		type core_building large_stone_wall
 	}
 	building
 	{
@@ -7707,7 +7707,7 @@ settlement
 	year_founded 0
 	population 32000
 	plan_set default_set
-	faction_creator lith
+	faction_creator papal_states
 	building
 	{
 		type core_building stone_wall
@@ -13547,19 +13547,19 @@ unit		gre_line_early				exp 0 armour 0 weapon_lvl 0
 unit		rus_12lb				exp 0 armour 0 weapon_lvl 1
 
 ;Lamia
-character	George, named character, male, heir, age 30, x 263, y 234
+character	George, named character, male, heir, age 30, x 263, y 234, portrait georgegreece
 traits		Factionheir 1
 army
 unit		gre_general_staff				exp 1 armour 0 weapon_lvl 0
 unit		gre_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Agrinio
-character	random_name, general, male, age 42, x 261, y 233
+character	random_name, general, male, age 42, x 261, y 233, portrait greek_general_1
 army
 unit		gre_line_early				exp 0 armour 0 weapon_lvl 0
 
 ;Nafplion
-character	random_name, general, male, age 42, x 263, y 229
+character	random_name, general, male, age 42, x 263, y 229, portrait greek_general_2
 army
 unit		gre_line_early				exp 0 armour 0 weapon_lvl 0
 

@@ -5826,6 +5826,7 @@ building cannon
 	recruit_pool "csa_armstrong"  .4   .04   .99  0  requires factions { teu, } and event_counter military_reforms_1870 1
 	recruit_pool "mus_maxim"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1890 1
 	recruit_pool "mus_12lb"  .4   .04   .99  0  requires factions { turks, }
+	recruit_pool "mus_armstrong"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1870 1
 	recruit_pool "mus_5lb"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1890 1
 	recruit_pool "mus_gatling"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
 	recruit_pool "mus_150mm"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1890 1
@@ -6125,7 +6126,9 @@ building cannon
 	recruit_pool "csa_armstrong"  .4   .04   .99  0  requires factions { teu, } and event_counter military_reforms_1870 1
 	recruit_pool "mus_maxim"  2   .06   2  0  requires factions { turks, } and hidden_resource ottoman and event_counter military_reforms_1890 1
 	recruit_pool "mus_maxim"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1890 1
+	recruit_pool "mus_12lb"  2   .06   2  0  requires factions { turks, } and hidden_resource ottoman
 	recruit_pool "mus_12lb"  .4   .04   .99  0  requires factions { turks, }
+	recruit_pool "mus_armstrong"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1870 1
 	recruit_pool "mus_5lb"  2   .06   2  0  requires factions { turks, } and hidden_resource ottoman and event_counter military_reforms_1890 1
 	recruit_pool "mus_5lb"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1890 1
 	recruit_pool "mus_gatling"  2   .06   2  0  requires factions { turks, } and hidden_resource ottoman and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
@@ -6514,6 +6517,8 @@ building cannon
 	recruit_pool "mus_maxim"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1890 1
 	recruit_pool "mus_12lb"  2   .1   2  0  requires factions { turks, } and hidden_resource ottoman
 	recruit_pool "mus_12lb"  .4   .04   .99  0  requires factions { turks, }
+	recruit_pool "mus_armstrong"  2   .1   2  0  requires factions { turks, } and hidden_resource ottoman and event_counter military_reforms_1870 1
+	recruit_pool "mus_armstrong"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1870 1
 	recruit_pool "mus_5lb"  2   .1   2  0  requires factions { turks, } and hidden_resource ottoman and event_counter military_reforms_1890 1
 	recruit_pool "mus_5lb"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1890 1
 	recruit_pool "mus_gatling"  2   .1   2  0  requires factions { turks, } and hidden_resource ottoman and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1
@@ -6912,6 +6917,8 @@ building cannon
 	recruit_pool "mus_maxim"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1890 1
 	recruit_pool "mus_12lb"  4   .2   2  0  requires factions { turks, } and hidden_resource ottoman
 	recruit_pool "mus_12lb"  .4   .04   .99  0  requires factions { turks, }
+	recruit_pool "mus_armstrong"  4   .2   2  0  requires factions { turks, } and hidden_resource ottoman and event_counter military_reforms_1870 1
+	recruit_pool "mus_armstrong"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1870 1
 	recruit_pool "mus_5lb"  4   .2   2  0  requires factions { turks, } and hidden_resource ottoman and event_counter military_reforms_1890 1
 	recruit_pool "mus_5lb"  .4   .04   .99  0  requires factions { turks, } and event_counter military_reforms_1890 1
 	recruit_pool "mus_gatling"  4   .2   2  0  requires factions { turks, } and hidden_resource ottoman and event_counter military_reforms_1870 1 and not event_counter military_reforms_1890 1

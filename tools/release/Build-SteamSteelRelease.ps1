@@ -28,6 +28,8 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $sourceRoot = (Resolve-Path (Join-Path $scriptDir '..\..')).Path
 $rulesPath = Join-Path $scriptDir 'release-allowlist.json'
 $rules = Get-Content -LiteralPath $rulesPath -Raw | ConvertFrom-Json
+$brandingScript = Join-Path $sourceRoot 'tools\build_steamsteel_icon_exe_20260930.ps1'
+& $brandingScript
 $m2exSync = Join-Path $scriptDir 'Sync-M2EXRuntime.ps1'
 & $m2exSync
 $installerAssets = @(
@@ -47,6 +49,7 @@ if (-not (Test-Path -LiteralPath $m2exRuntimeRoot -PathType Container)) {
 }
 $requiredM2exRuntime = @(
     'M2EX.exe', 'M2EX.xdb', 'steam_api64.dll', 'mss64.dll', 'binkw64.dll',
+    'miles\mss64mp3.asi', 'miles\mss64ogg.asi', 'miles\mss64midi.dll',
     'granny2_x64.dll', 'steam_appid.txt', 'data\descr_difficulty.txt',
     'data\descr_campaign_ai_db_ex.xml', 'data\graphics\graphics_config.xml'
 )

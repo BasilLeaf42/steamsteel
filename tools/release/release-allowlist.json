@@ -2,9 +2,8 @@
   "schemaVersion": 1,
   "description": "Authoritative Steam & Steel public-release allowlist. Everything not included here is excluded.",
   "requiredFiles": [
-    "M2EX.exe",
     "SteamAndSteel.exe",
-    "Launch Steam & Steel.cmd",
+    "Launch Steam & Steel.vbs",
     "steamsteel.cfg",
     "steamateelicon.ico"
   ],

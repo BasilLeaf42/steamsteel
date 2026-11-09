@@ -1,8 +1,11 @@
 $ErrorActionPreference = 'Stop'
 
-$sourceExe = Resolve-Path '..\..\M2EX.exe'
-$targetExe = Join-Path (Resolve-Path '.').Path 'M2EX.exe'
-$iconPath = Resolve-Path 'steamateelicon.ico'
+$modRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+$gameRoot = (Resolve-Path (Join-Path $modRoot '..\..')).Path
+$sourceExe = Resolve-Path (Join-Path $gameRoot 'M2EX.exe')
+$targetExe = Join-Path $modRoot 'SteamAndSteel.exe'
+$installedExe = Join-Path $gameRoot 'SteamAndSteel.exe'
+$iconPath = Resolve-Path (Join-Path $modRoot 'steamateelicon.ico')
 
 Copy-Item -LiteralPath $sourceExe -Destination $targetExe -Force
 
@@ -118,4 +121,9 @@ if ($nameCount -lt 3 -or $fileCount -lt 1 -or $captionCount -lt 1 -or $shortCapt
 }
 [IO.File]::WriteAllBytes($targetExe, $exeBytes)
 
-Write-Host "Updated the mod-local $targetExe with the Steam & Steel icon."
+# The development launcher runs the game-root copy, while the release builder
+# stages the mod-local copy for installation. Keep both byte-identical so a
+# runtime refresh cannot silently restore the stock Medieval II icon/caption.
+Copy-Item -LiteralPath $targetExe -Destination $installedExe -Force
+
+Write-Host "Built and installed the branded SteamAndSteel.exe from the current root M2EX runtime."

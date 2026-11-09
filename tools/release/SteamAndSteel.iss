@@ -30,7 +30,7 @@ AllowNoIcons=yes
 OutputDir=.
 OutputBaseFilename=Steam_and_Steel_Setup
 SetupIconFile=payload\steamsteel\steamateelicon.ico
-UninstallDisplayIcon={app}\mods\steamsteel\steamateelicon.ico
+UninstallDisplayIcon={app}\SteamAndSteel.exe
 WizardStyle=modern
 WizardSizePercent=110
 PrivilegesRequired=admin
@@ -66,15 +66,15 @@ Source: "{src}\payload\m2ex_root\data\graphics\graphics_config.xml"; DestDir: "{
 Source: "{src}\payload\prerequisites\vc_redist.x64.exe"; DestDir: "{tmp}"; Flags: external deleteafterinstall
 
 [Icons]
-Name: "{autoprograms}\Steam & Steel"; Filename: "{app}\mods\steamsteel\Launch Steam & Steel.cmd"; WorkingDir: "{app}"; IconFilename: "{app}\mods\steamsteel\steamateelicon.ico"
-Name: "{autodesktop}\Steam & Steel"; Filename: "{app}\mods\steamsteel\Launch Steam & Steel.cmd"; WorkingDir: "{app}"; IconFilename: "{app}\mods\steamsteel\steamateelicon.ico"; Tasks: desktopicon
+Name: "{autoprograms}\Steam & Steel"; Filename: "{sys}\wscript.exe"; Parameters: """{app}\mods\steamsteel\Launch Steam & Steel.vbs"""; WorkingDir: "{app}"; IconFilename: "{app}\SteamAndSteel.exe"
+Name: "{autodesktop}\Steam & Steel"; Filename: "{sys}\wscript.exe"; Parameters: """{app}\mods\steamsteel\Launch Steam & Steel.vbs"""; WorkingDir: "{app}"; IconFilename: "{app}\SteamAndSteel.exe"; Tasks: desktopicon
 
 [Tasks]
 Name: "desktopicon"; Description: "Create a desktop shortcut"; GroupDescription: "Shortcuts:"; Flags: unchecked
 
 [Run]
 Filename: "{tmp}\vc_redist.x64.exe"; Parameters: "/install /passive /norestart"; StatusMsg: "Installing the Microsoft Visual C++ runtime..."; Flags: waituntilterminated skipifdoesntexist
-Filename: "{app}\mods\steamsteel\Launch Steam & Steel.cmd"; Description: "Launch Steam & Steel"; WorkingDir: "{app}"; Flags: nowait postinstall skipifsilent shellexec
+Filename: "{sys}\wscript.exe"; Parameters: """{app}\mods\steamsteel\Launch Steam & Steel.vbs"""; Description: "Launch Steam & Steel"; WorkingDir: "{app}"; Flags: nowait postinstall skipifsilent
 Filename: "{cmd}"; Parameters: "/C timeout /t 4 /nobreak >nul 2>&1 & rmdir /s /q ""{src}\payload"" & del /f /q ""{srcexe}"" & del /f /q ""{src}\Steam_and_Steel_{#MyAppVersion}.7z"""; WorkingDir: "{tmp}"; Description: "Remove extracted installation files and the same-folder release archive"; Flags: nowait postinstall runhidden skipifsilent unchecked
 
 [Code]

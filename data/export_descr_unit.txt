@@ -4330,7 +4330,8 @@ soldier          uni_volunteer_cavalry_early, 24, 0, 1
 officer          usa_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -4361,7 +4362,8 @@ soldier          uni_dragoons_early, 24, 0, 1
 officer          usa_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -4392,7 +4394,8 @@ soldier          uni_dragoons_mid, 24, 0, 1
 officer          usa_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -4423,7 +4426,8 @@ soldier          uni_dragoons_high, 24, 0, 1
 officer          usa_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -4485,8 +4489,9 @@ soldier          uni_frontier_scouts, 24, 0, 1
 officer          usa_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         26, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -4516,7 +4521,7 @@ banner holy      crusade_cavalry
 soldier          uni_general_staff, 4, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -4584,7 +4589,8 @@ banner holy      crusade_cavalry
 soldier          ap_front_cav, 24, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, hide_forest
+attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, hide_forest, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         26, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -4620,7 +4626,7 @@ soldier          us_sword_cav, 24, 0, 1
 officer          usa_off_1g
 mount            hussar
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -4656,8 +4662,9 @@ soldier          us_scout_cav, 24, 0, 1
 officer          usa_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest
+attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -4728,7 +4735,7 @@ soldier          fra_carbs_no, 24, 0, 1
 officer          eng_off_1g
 mount            hussar
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -4903,7 +4910,7 @@ soldier          us_front_inf, 24, 0, 1
 officer          usa_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunpowder_unit, start_not_skirmishing, general_unit, command, hide_forest
+attributes       sea_faring, guncavalry, gunpowder_unit, start_not_skirmishing, general_unit, command, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifle_bullet_a, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -5276,7 +5283,8 @@ soldier          csa_state_cavalry_early, 24, 0, 1
 officer          csa_officer
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -5307,7 +5315,8 @@ soldier          csa_state_cavalry_mid, 24, 0, 1
 officer          csa_officer
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 40, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -5338,7 +5347,8 @@ soldier          csa_state_cavalry_high, 24, 0, 1
 officer          csa_officer
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -5369,7 +5379,8 @@ soldier          csa_virginia_cavalry, 24, 0, 1
 officer          csa_officer
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -5399,7 +5410,7 @@ banner holy      crusade_cavalry
 soldier          csa_general_staff, 4, 0, 1
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -5433,8 +5444,9 @@ soldier          us_farmer_cav, 24, 0, 1
 officer          CS_Mil_Caroline_Sergent
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         26, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -5468,8 +5480,9 @@ banner holy      crusade_cavalry
 soldier          ap_front_cav, 24, 0, 1
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         28, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -5538,7 +5551,7 @@ soldier          csa_lancer, 24, 0, 1
 officer          usa_off_1g
 mount            lancer
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -5642,8 +5655,9 @@ soldier          us_scout_cav, 24, 0, 1
 officer          usa_off_1g
 mount            dragoon
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, hide_forest
+attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, hide_forest, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         25, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -5851,8 +5865,9 @@ soldier          boer_mounted_kommando_early, 24, 0, 1
 officer          boer_mounted_kommando_early
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, gunpowder_unit, gunmen, guncavalry, start_not_skirmishing
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunpowder_unit, gunmen, guncavalry, start_not_skirmishing, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         25, 2, rifled_musket_carbine_bullet_b, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -5883,8 +5898,9 @@ soldier          boer_mounted_kommando_mid, 24, 0, 1
 officer          boer_mounted_kommando_mid
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         25, 2, rifled_musket_carbine_bullet_b, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -5915,8 +5931,9 @@ soldier          boer_mounted_kommando_high, 24, 0, 1
 officer          boer_mounted_kommando_high
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, stakes
+attributes       free_upkeep_unit, sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, stakes, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
@@ -5978,8 +5995,9 @@ soldier          mex_crb_1g, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -6010,8 +6028,9 @@ soldier          mex_crb_1g, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -6042,8 +6061,9 @@ soldier          mex_crb_1g, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, stakes, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -6074,7 +6094,7 @@ soldier          mx_pistoleer, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, gunpowder_unit, can_dismount
 move_speed_mod   0.9
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
@@ -6139,7 +6159,7 @@ soldier          mx_pistoleer, 4, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, gunpowder_unit, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, gunpowder_unit, general_unit, command, can_dismount
 move_speed_mod   0.9
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
@@ -6350,8 +6370,9 @@ banner holy      crusade_cavalry
 soldier          fra_cav, 24, 0, 1
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, hide_forest
+attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, hide_forest, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -6767,7 +6788,7 @@ soldier          per_husares_junin, 24, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -6800,7 +6821,7 @@ soldier          per_lanceros_torata, 24, 0, 1
 officer          fra_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_formed_charge
+attributes       sea_faring, hide_forest, can_formed_charge, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         4, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -6832,7 +6853,8 @@ soldier          per_carabineros_torata, 24, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         24, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -6863,7 +6885,7 @@ soldier          per_general_staff, 4, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -6960,8 +6982,9 @@ soldier          per_cav_1g, 24, 0, 1
 officer          fra_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, start_not_skirmishing, gunmen, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -7062,8 +7085,9 @@ soldier          per_grd_1g, 24, 0, 1
 officer          fra_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, hide_forest, general_unit, command
+attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, gunpowder_unit, hide_forest, general_unit, command, can_dismount
 move_speed_mod	 0.8
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -7520,7 +7544,8 @@ soldier          bra_cavalry_early, 24, 0, 1
 officer          usa_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunpowder_unit, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, gunpowder_unit, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -7551,7 +7576,8 @@ soldier          bra_dragoons_mid, 24, 0, 1
 officer          usa_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -7582,7 +7608,8 @@ soldier          bra_dragoons_high, 24, 0, 1
 officer          usa_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -7612,7 +7639,7 @@ banner holy      crusade_cavalry
 soldier          bra_general_staff, 4, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -7682,7 +7709,7 @@ soldier          fra_cav2, 24, 0, 1
 officer          usa_off_1g
 mount            hussar
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -7895,8 +7922,9 @@ banner holy      crusade_cavalry
 soldier          fra_cav, 24, 0, 1
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, hide_forest
+attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, hide_forest, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -7928,8 +7956,9 @@ banner holy      crusade_cavalry
 soldier          fra_cav2, 24, 0, 1
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, hide_forest
+attributes       sea_faring, guncavalry, start_not_skirmishing, gunmen, hide_forest, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -8266,7 +8295,8 @@ soldier          arg_cavalry_early, 24, 0, 1
 officer          fra_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunpowder_unit, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, gunpowder_unit, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -8297,7 +8327,8 @@ soldier          arg_cavalry_mid, 24, 0, 1
 officer          fra_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         24, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -8328,7 +8359,8 @@ soldier          arg_cavalry_high, 24, 0, 1
 officer          fra_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -8359,7 +8391,7 @@ soldier          arg_lancers_early, 24, 0, 1
 officer          fra_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         4, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -8390,7 +8422,7 @@ soldier          arg_lancers_mid, 24, 0, 1
 officer          fra_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         4, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -8421,7 +8453,7 @@ soldier          arg_frontier_gauchos, 24, 0, 1
 officer          fra_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         2, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -8452,7 +8484,7 @@ banner holy      crusade_cavalry
 soldier          arg_general_staff, 4, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -8555,8 +8587,9 @@ soldier          arg_carb, 24, 0, 1
 officer          fra_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunpowder_unit, start_not_skirmishing, gunmen
+attributes       sea_faring, hide_forest, guncavalry, gunpowder_unit, start_not_skirmishing, gunmen, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -8625,7 +8658,7 @@ banner holy      crusade_cavalry
 soldier          gaucho_cav, 24, 0, 1
 mount            lancer
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, command, general_unit
+attributes       sea_faring, hide_forest, command, general_unit, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -8863,7 +8896,8 @@ banner holy      crusade_cavalry
 soldier          bol_hussar, 24, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, general_unit
+attributes       sea_faring, guncavalry, gunpowder_unit, start_not_skirmishing, hide_forest, command, general_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, musket_carbine_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -8902,7 +8936,7 @@ soldier          uk_hussars_early, 24, 0, 1
 officer          BRIT_FootA_Officer
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -8933,7 +8967,7 @@ soldier          uk_hussars_mid, 24, 0, 1
 officer          BRIT_FootA_Officer
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -8964,7 +8998,7 @@ soldier          uk_hussars_high, 24, 0, 1
 officer          BRIT_FootA_Officer
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -8995,7 +9029,7 @@ soldier          uk_pith_knights, 24, 0, 1
 officer          BRIT_FootA_Officer
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -9026,7 +9060,7 @@ soldier          uk_pith_knights, 24, 0, 1
 officer          BRIT_FootA_Officer
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -9057,7 +9091,7 @@ soldier          uk_dragoon_high, 24, 0, 1
 officer          BRIT_FootA_Officer
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -9119,7 +9153,7 @@ soldier          uk_pith_knights, 4, 0, 1
 officer          Eastern_General
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, command, general_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, command, general_unit, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -9152,7 +9186,7 @@ soldier          indian_spear_cav, 24, 0, 1
 officer          yindujunguan
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_formed_charge
+attributes       sea_faring, hide_forest, can_formed_charge, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         8, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -9841,7 +9875,7 @@ banner holy      crusade_cavalry
 soldier          omani_cav, 24, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, mercenary_unit
+attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, mercenary_unit, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -9994,7 +10028,8 @@ soldier          gr_lancer, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit
+attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         21, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -10025,7 +10060,8 @@ soldier          gr_lancer, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit
+attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         21, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -10056,7 +10092,8 @@ soldier          gr_lancer, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, stakes
+attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         15, 2, magazine_rifle_carbine_bullet_c, 240, 35, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 0, -999
@@ -10375,8 +10412,9 @@ soldier          rus_guard_cav, 24, 0, 1
 officer          qajargeneral
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit
+attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         21, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -10846,7 +10884,8 @@ soldier          us_front_cav_sp, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -10877,7 +10916,8 @@ soldier          spa_scout_cav, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         24, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -10908,7 +10948,8 @@ soldier          spa_scout_cav, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -10939,7 +10980,7 @@ soldier          spa_scout_cav, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -10972,7 +11013,7 @@ soldier          bol_hussar, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -11005,7 +11046,7 @@ soldier          spa_general_staff, 4, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -11038,7 +11079,7 @@ soldier          spa_lancer, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         4, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -11879,7 +11920,7 @@ soldier          fra_cuirassiers, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -11912,7 +11953,7 @@ soldier          fra_hussards, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -11945,7 +11986,7 @@ soldier          fra_chasseurs_cheval, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -11978,7 +12019,8 @@ soldier          fra_carabiniers_early, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_b, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12009,7 +12051,8 @@ soldier          fra_carabiniers_mid, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12040,7 +12083,8 @@ soldier          fra_carabiniers_high, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -12071,7 +12115,8 @@ soldier          fra_spahis_early, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12102,7 +12147,8 @@ soldier          fra_spahis_mid, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12133,7 +12179,8 @@ soldier          fra_spahis_high, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12164,7 +12211,7 @@ soldier          fra_general_staff, 4, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12197,7 +12244,7 @@ soldier          fra_general_staff, 4, 0, 1
 officer          Japan_Jules_Brunet
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12261,7 +12308,8 @@ soldier          fra_cav, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -12291,7 +12339,8 @@ soldier          fra_cav2, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_b, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12377,7 +12426,7 @@ soldier          fra_chasseurs_cheval, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12436,7 +12485,7 @@ soldier          bol_hussar, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12466,7 +12515,7 @@ soldier          fra_hussar, 4, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -12697,7 +12746,8 @@ soldier          moroccan_camel_roy, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit
+attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -13492,7 +13542,7 @@ soldier          pru_kuerassiere, 24, 0, 1
 officer          otto_sipahi
 mount            cuirassier
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -13525,7 +13575,7 @@ soldier          pru_husaren, 24, 0, 1
 officer          otto_sipahi
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -13558,7 +13608,8 @@ soldier          pru_dragoner_early, 24, 0, 1
 officer          otto_sipahi
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -13589,7 +13640,8 @@ soldier          pru_dragoner_mid, 24, 0, 1
 officer          otto_sipahi
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -13620,7 +13672,8 @@ soldier          pru_dragoner_high, 24, 0, 1
 officer          otto_sipahi
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -13651,7 +13704,8 @@ soldier          pru_kolonialreiter_high, 24, 0, 1
 officer          otto_sipahi
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -13682,7 +13736,7 @@ soldier          pru_general_staff, 4, 0, 1
 officer          otto_sipahi
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -13717,7 +13771,7 @@ soldier          otto_sipahi, 4, 0, 1
 officer          otto_sipahi
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -13775,7 +13829,8 @@ soldier          gr_carbs, 24, 0, 1
 officer          otto_sipahi
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14057,7 +14112,7 @@ soldier          pru_husaren, 24, 0, 1
 officer          otto_sipahi
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14087,7 +14142,7 @@ soldier          otto_sipahi, 24, 0, 1
 officer          otto_sipahi
 mount            cuirassier
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14145,7 +14200,8 @@ soldier          gr_lancer, 24, 0, 1
 officer          otto_sipahi
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -14731,7 +14787,7 @@ soldier          net_dragonders, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14764,7 +14820,7 @@ soldier          net_huzaren, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14797,7 +14853,8 @@ soldier          net_karabiniers_early, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         31, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14828,7 +14885,8 @@ soldier          net_karabiniers_mid, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14859,7 +14917,8 @@ soldier          net_karabiniers_high, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -14890,7 +14949,7 @@ soldier          net_general_staff, 4, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -14925,7 +14984,7 @@ soldier          l_pith_cav, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -15151,7 +15210,7 @@ soldier          net_huzaren, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -15181,7 +15240,7 @@ soldier          it_pistoleer, 4, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -15572,7 +15631,7 @@ soldier          dan_cuirassier, 24, 0, 1
 officer          swe_off_1g
 mount            cuirassier
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest
+attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -15605,7 +15664,7 @@ soldier          dan_hussars, 24, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest
+attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -15638,8 +15697,9 @@ soldier          dan_cav, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest
+attributes       sea_faring, guncavalry, gunpowder_unit, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         27, 2, rifled_musket_carbine_bullet_b, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -15670,8 +15730,9 @@ soldier          dan_cav, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest
+attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         23, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -15702,8 +15763,9 @@ soldier          dan_cav, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, stakes
+attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, hide_forest, stakes, can_dismount
 move_speed_mod   0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
@@ -15734,7 +15796,7 @@ soldier          fra_hussar, 4, 0, 1
 officer          swe_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, general_unit_upgrade, command, hide_forest
+attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, general_unit_upgrade, command, hide_forest, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -16300,7 +16362,7 @@ soldier          swe_hussars, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -16333,7 +16395,8 @@ soldier          swe_dragoons_early, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         31, 2, rifled_musket_carbine_bullet_b, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -16364,7 +16427,8 @@ soldier          swe_dragoons_mid, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -16395,7 +16459,8 @@ soldier          swe_dragoons_high, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_b, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -16426,7 +16491,7 @@ soldier          swe_lifeguard_horse, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -16459,7 +16524,7 @@ soldier          swe_general_staff, 4, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -16494,7 +16559,7 @@ soldier          euro_hussars, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -16580,7 +16645,8 @@ soldier          dan_cav, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -16610,7 +16676,7 @@ soldier          balk_cav, 4, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -16911,7 +16977,7 @@ soldier          qaj_tribal_cavalry, 24, 0, 1
 officer          qajargeneral
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, can_formed_charge
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_formed_charge, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         2, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -16944,7 +17010,7 @@ soldier          qaj_cossack_brigade, 24, 0, 1
 officer          qajargeneral
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_formed_charge
+attributes       sea_faring, hide_forest, can_formed_charge, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -16976,7 +17042,7 @@ soldier          qaj_horse_guard, 24, 0, 1
 officer          qajargeneral
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -17008,7 +17074,7 @@ banner holy      crusade_cavalry
 soldier          qaj_general_staff, 4, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -17043,7 +17109,7 @@ soldier          rus_sib_cossacks, 24, 0, 1
 officer          swe_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -17556,7 +17622,7 @@ soldier          gre_lancers, 24, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -17589,7 +17655,7 @@ soldier          gre_royal_escort, 24, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -17622,7 +17688,8 @@ soldier          gre_carbineers_mid, 24, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -17653,7 +17720,8 @@ soldier          gre_carbineers_high, 24, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -17684,7 +17752,7 @@ soldier          gre_general_staff, 4, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -17748,7 +17816,7 @@ soldier          fra_hussar, 4, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -17835,7 +17903,8 @@ soldier          fra_cav, 24, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -17893,7 +17962,8 @@ soldier          rom_cav, 24, 0, 1
 officer          fra_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -18837,7 +18907,7 @@ soldier          ita_cavalleggeri, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -18870,7 +18940,7 @@ soldier          ita_lancieri, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -18903,7 +18973,7 @@ soldier          ita_general_staff, 4, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -18936,7 +19006,8 @@ soldier          ita_carabinieri_early, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -18967,7 +19038,8 @@ soldier          ita_carabinieri_mid, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         19, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -18998,7 +19070,8 @@ soldier          ita_carabinieri_high, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         10, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -19060,7 +19133,7 @@ soldier          euro_hussars, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -19090,7 +19163,8 @@ soldier          it_carbs, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         19, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -19120,7 +19194,7 @@ soldier          it_pistoleer, 4, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20075,7 +20149,8 @@ soldier          rus_draguny_early, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20106,7 +20181,8 @@ soldier          rus_draguny_mid, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         19, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20137,7 +20213,8 @@ soldier          rus_draguny_high, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -20168,7 +20245,8 @@ soldier          rus_kazaki_early, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20199,7 +20277,8 @@ soldier          rus_kazaki_mid, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         19, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20230,7 +20309,8 @@ soldier          rus_kazaki_high, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       free_upkeep_unit, sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -20261,7 +20341,7 @@ soldier          rus_gusary, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20294,7 +20374,7 @@ soldier          rus_ulany, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -20327,7 +20407,7 @@ soldier          rus_guard_cuirassiers, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20360,7 +20440,7 @@ soldier          rus_general_staff, 4, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20425,7 +20505,8 @@ soldier          rus_cos_hussar1, 24, 0, 1
 officer          rus_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunpowder_unit, start_not_skirmishing, command, general_unit, hide_forest
+attributes       sea_faring, guncavalry, gunpowder_unit, start_not_skirmishing, command, general_unit, hide_forest, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, musket_carbine_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20457,7 +20538,7 @@ banner holy      crusade_cavalry
 soldier          rus_georgian_cav, 24, 0, 1
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, can_formed_charge, hide_forest
+attributes       sea_faring, can_formed_charge, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         5, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -20598,7 +20679,7 @@ soldier          rus_imp_cav, 4, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -20657,7 +20738,8 @@ soldier          rus_roy_cav_ru, 24, 0, 1
 officer          rus_pri_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -21339,7 +21421,7 @@ soldier          aus_kuerassiere, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -21370,7 +21452,8 @@ soldier          aus_dragoner_early, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -21401,7 +21484,8 @@ soldier          aus_dragoner_mid, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -21432,7 +21516,8 @@ soldier          aus_dragoner_high, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -21463,7 +21548,7 @@ soldier          aus_husaren, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -21496,7 +21581,7 @@ soldier          aus_ulanen, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         6, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -21529,7 +21614,7 @@ soldier          aus_general_staff, 4, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -21563,8 +21648,9 @@ soldier          dan_cav, 24, 0, 1
 officer          BRIT_CavMI_Officer
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, gunpowder_unit
+attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, cannot_skirmish, mercenary_unit, gunpowder_unit, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -21763,7 +21849,8 @@ soldier          aus_dragoner_early, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -21793,7 +21880,8 @@ soldier          aus_dragoner_high, 24, 0, 1
 officer          shk_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -21997,7 +22085,7 @@ soldier          aus_ulanen, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         6, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -22027,7 +22115,7 @@ soldier          aus_general_staff, 4, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -22114,7 +22202,7 @@ soldier          aus_husaren, 24, 0, 1
 officer          shk_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -22533,7 +22621,8 @@ soldier          mor_makhzen_cav_early, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunpowder_unit, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, gunpowder_unit, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -22564,7 +22653,8 @@ soldier          mor_makhzen_cav_mid, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -22595,7 +22685,8 @@ soldier          mor_makhzen_cav_high, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -22715,7 +22806,7 @@ accent           arabic
 banner faction   main_cavalry
 soldier          mor_general_staff, 4, 0, 1
 mount            hussar
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -22951,8 +23042,9 @@ soldier          turk_lt, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, general_unit, gunmen, gunpowder_unit, command, hide_forest
+attributes       sea_faring, guncavalry, start_not_skirmishing, general_unit, gunmen, gunpowder_unit, command, hide_forest, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, musket_carbine_bullet_c, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -22987,7 +23079,7 @@ banner faction   main_cavalry
 soldier          zulu_cav, 24, 0, 1
 mount            heavy horse
 mount_effect     elephant -2, camel -4
-attributes       sea_faring, mercenary_unit, hide_forest
+attributes       sea_faring, mercenary_unit, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         6, 2, javelin, 65, 6, thrown, missile_mechanical, piercing, spear, 25, 1
@@ -23112,7 +23204,7 @@ soldier          boer_general_staff, 4, 0, 1
 officer          usa_off_1g
 mount            lancer
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, general_unit, command, hide_forest
+attributes       sea_faring, general_unit, command, hide_forest, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -23324,7 +23416,7 @@ banner holy      crusade_cavalry
 soldier          zulu_cav, 24, 0, 1
 mount            heavy horse
 mount_effect     elephant -2, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         5, 2, javelin, 65, 3, thrown, missile_mechanical, piercing, spear, 25, 1
@@ -24010,7 +24102,8 @@ soldier          ott_suvari_early, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, gunpowder_unit, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -24041,7 +24134,8 @@ soldier          ott_suvari_mid, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -24072,7 +24166,8 @@ soldier          ott_suvari_high, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -24103,7 +24198,7 @@ soldier          ott_hassa_suvarisi, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -24136,7 +24231,7 @@ soldier          ott_mizrakli_suvari, 24, 0, 1
 officer          fez_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         4, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -24169,7 +24264,8 @@ soldier          ott_ertugrul_suvari, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, stakes, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -24200,7 +24296,7 @@ soldier          ott_general_staff, 4, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -24234,7 +24330,7 @@ banner holy      crusade_cavalry
 soldier          rus_georgian_cav, 24, 0, 1
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, can_formed_charge, hide_forest
+attributes       sea_faring, can_formed_charge, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         5, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -24443,7 +24539,8 @@ soldier          ott_suvari_high, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -24590,7 +24687,8 @@ soldier          ott_suvari_mid, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -24620,7 +24718,8 @@ soldier          ott_ertugrul_suvari, 24, 0, 1
 officer          fez_off_1g
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -25105,7 +25204,7 @@ soldier          oma_horse_guard_early, 24, 0, 1
 officer          fez_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -25136,7 +25235,7 @@ soldier          oma_horse_guard_mid, 24, 0, 1
 officer          fez_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -25167,7 +25266,7 @@ soldier          oma_horse_guard_high, 24, 0, 1
 officer          fez_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -25198,7 +25297,7 @@ soldier          oma_command_retinue, 4, 0, 1
 officer          fez_off_1g
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 4, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -25684,7 +25783,7 @@ soldier          afg_tribal_cavalry, 24, 0, 1
 officer          fez_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, can_formed_charge
+attributes       free_upkeep_unit, sea_faring, hide_forest, can_formed_charge, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         3, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -25717,7 +25816,7 @@ soldier          afg_regular_cavalry, 24, 0, 1
 officer          fez_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_formed_charge
+attributes       sea_faring, hide_forest, can_formed_charge, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         5, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -25781,7 +25880,7 @@ banner holy      crusade_cavalry
 soldier          afg_general_staff, 4, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, general_unit, command
+attributes       sea_faring, hide_forest, general_unit, command, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         7, 5, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
@@ -25881,7 +25980,7 @@ soldier          afghan_gen, 24, 0, 1
 officer          fez_off_1g
 mount            hussar
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, general_unit, command, hide_forest
+attributes       sea_faring, general_unit, command, hide_forest, can_dismount
 move_speed_mod	 0.8
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
@@ -25944,7 +26043,7 @@ soldier          afghan_cav, 24, 0, 1
 officer          fez_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, can_formed_charge, hide_forest
+attributes       sea_faring, can_formed_charge, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         7, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -26297,7 +26396,7 @@ banner holy      crusade_cavalry
 soldier          kok_cav, 24, 0, 1
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         4, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -26331,7 +26430,7 @@ soldier          kok_rcav, 4, 0, 1
 officer          kok_rcav
 mount            lancer
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, general_unit, command, hide_forest
+attributes       sea_faring, general_unit, command, hide_forest, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
@@ -26528,7 +26627,7 @@ soldier          indian_spear_cav, 24, 0, 1
 officer          yindujunguan
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         4, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -26561,7 +26660,7 @@ soldier          Sikh_heavy_cavalry, 24, 0, 1
 officer          yindujunguan
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -26717,7 +26816,7 @@ soldier          sikh_gen, 4, 0, 1
 officer          yindujunguan
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, general_unit, command, hide_forest
+attributes       sea_faring, general_unit, command, hide_forest, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -27028,7 +27127,8 @@ banner holy      crusade_cavalry
 soldier          siam_late_cav, 24, 0, 1
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, stakes
+attributes       sea_faring, hide_forest, gunmen, guncavalry, start_not_skirmishing, stakes, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 0, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -27151,7 +27251,7 @@ banner holy      crusade_cavalry
 soldier          Siam_bodyguard, 4, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, general_unit, command, hide_forest
+attributes       sea_faring, general_unit, command, hide_forest, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         20, 0, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -27687,7 +27787,7 @@ banner holy      crusade_cavalry
 soldier          oirat_royal, 24, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         3, 5, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -27718,7 +27818,7 @@ banner holy      crusade_cavalry
 soldier          oirat_royal, 4, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, general_unit, command, hide_forest
+attributes       sea_faring, general_unit, command, hide_forest, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -27878,7 +27978,8 @@ banner holy      crusade_cavalry
 soldier          qing_carbs, 24, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         13, 2, magazine_rifle_carbine_bullet_c, 240, 40, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 25, 1
@@ -28565,7 +28666,7 @@ banner holy      crusade_cavalry
 soldier          kok_royal_cav, 24, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, mercenary_unit
+attributes       sea_faring, hide_forest, mercenary_unit, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         4, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -28660,7 +28761,7 @@ banner holy      crusade_cavalry
 soldier          oirat_cav, 24, 0, 1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       free_upkeep_unit, sea_faring, hide_forest, mercenary_unit
+attributes       free_upkeep_unit, sea_faring, hide_forest, mercenary_unit, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
@@ -28960,7 +29061,7 @@ banner faction   main_cavalry
 soldier          aby_cav_1g, 24, 0, 1
 mount            heavy horse
 mount_effect     elephant -2, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         6, 2, javelin, 65, 6, thrown, missile_mechanical, piercing, spear, 25, 1
@@ -28996,8 +29097,9 @@ banner holy      crusade_cavalry
 soldier          aby_cav_2g, 24, 0, 1
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, hide_forest
+attributes       sea_faring, guncavalry, gunmen, start_not_skirmishing, hide_forest, can_dismount
 move_speed_mod	 0.9
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, musket_carbine_bullet_b, 180, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -29031,7 +29133,8 @@ banner holy      crusade_cavalry
 soldier          aby_crb_3g, 24, 0, 1
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, stakes, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -29065,7 +29168,8 @@ banner holy      crusade_cavalry
 soldier          aby_grd_2g, 4, 0, 1
 mount            hussar
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, general_unit, command, gunmen, start_not_skirmishing, cannot_skirmish
+attributes       sea_faring, hide_forest, general_unit, command, gunmen, start_not_skirmishing, cannot_skirmish, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         37, 2, rifle_carbine_bullet_c, 220, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 0, -999
@@ -29167,7 +29271,7 @@ banner faction   main_cavalry
 soldier          aby_roy_1g, 24, 0, 1
 mount            heavy horse
 mount_effect     elephant -2, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         6, 2, javelin, 65, 6, thrown, missile_mechanical, piercing, spear, 25, 1
@@ -29366,7 +29470,7 @@ banner holy      crusade_cavalry
 soldier          Japan_Seishi, 24, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest
+attributes       sea_faring, hide_forest, can_dismount
 move_speed_mod	 0.9
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
@@ -29405,7 +29509,7 @@ soldier          Japan_Bodyguard_IJA, 4, 0, 1
 officer          Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest, command, general_unit
+attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest, command, general_unit, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -29674,7 +29778,7 @@ soldier          Japan_Revolver_Cavalry_Han, 24, 0, 1
 officer          Japan_Shotai_Officer1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest
+attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -29710,8 +29814,9 @@ soldier          Japan_Kochotai, 24, 0, 1
 officer			 Japan_Jinshotai_Officer
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         29, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -29750,7 +29855,7 @@ soldier          Japan_Bodyguard_Ezo, 4, 0, 1
 officer          Japan_Sampeitai_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest, command, general_unit
+attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest, command, general_unit, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -30091,7 +30196,7 @@ soldier          Japan_Revolver_Cavalry, 24, 0, 1
 officer          Japan_Sampeitai_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest
+attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -30168,7 +30273,7 @@ soldier          sho_mod_cav, 4, 0, 1
 officer          jp_hussar
 mount            hussar
 mount_effect     elephant -8, camel -4
-attributes       sea_faring, hide_forest, general_unit, command, no_custom
+attributes       sea_faring, hide_forest, general_unit, command, no_custom, can_dismount
 formation        2, 2, 4, 4, 2, square
 stat_health      1, 0
 stat_pri         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
@@ -30369,7 +30474,7 @@ banner holy      crusade_cavalry
 soldier          Japan_Bodyguard_Retainers, 4, 0, 1
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest, command, general_unit
+attributes       sea_faring, guncavalry, start_not_skirmishing, hide_forest, command, general_unit, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         20, 2, magazine_rifle_bullet_c, 60, 15, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -30923,8 +31028,9 @@ soldier          Japan_Goshimpei_Kihei_1870, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -30961,8 +31067,9 @@ soldier          Japan_Goshimpei_Kihei_1880, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifle_carbine_bullet_b, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -30999,8 +31106,9 @@ soldier          Japan_Goshimpei_Kihei_1880, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, magazine_rifle_carbine_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
@@ -31034,8 +31142,9 @@ soldier          Japan_Goshimpei_Kihei_1900, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, magazine_rifle_carbine_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
@@ -31069,8 +31178,9 @@ soldier          Japan_Goshimpei_Kihei_1905, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, magazine_rifle_carbine_bullet_b, 240, 35, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
@@ -32275,8 +32385,9 @@ soldier          Japan_Ryukihei_1870, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -32313,8 +32424,9 @@ soldier          Japan_Ryukihei_1880, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -32351,8 +32463,9 @@ soldier          Japan_Ryukihei_1880, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, magazine_rifle_carbine_bullet_c, 240, 35, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
@@ -32386,8 +32499,9 @@ soldier          Japan_Ryukihei_1900, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, magazine_rifle_carbine_bullet_c, 240, 35, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
@@ -32421,8 +32535,9 @@ soldier          Japan_Ryukihei_1905, 24, 0, 1
 officer			 Japan_IJA_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, stakes, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Fast_Arquebus_3, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, magazine_rifle_carbine_bullet_c, 240, 35, missile, missile_gunpowder, piercing, none, smokeless_shot_set, 50, 1
@@ -32456,8 +32571,9 @@ soldier          Japan_Ryukihei_Shogun_1870, 24, 0, 1
 officer			 Japan_Sampeitai_Officer_Cav
 mount            hussar
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, can_formed_charge, can_dismount
 move_speed_mod	 1.0
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         37, 2, rifled_musket_carbine_bullet_c, 200, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 50, 1
@@ -33178,7 +33294,8 @@ soldier          korean_cav, 24, 0, 1
 officer          norse_archers_jun
 mount            dragoon
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, mercenary_unit, stakes
+attributes       sea_faring, hide_forest, guncavalry, gunmen, start_not_skirmishing, mercenary_unit, stakes, can_dismount
+dismount_skeleton MTW2_Musket_SS, MTW2_Swordsman
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         19, 2, rifle_carbine_bullet_c, 220, 35, missile, missile_gunpowder, piercing, none, musket_shot_set, 25, 1
@@ -33251,7 +33368,7 @@ soldier          rus_georgian_cav, 24, 0, 1
 officer          rus_off_1g
 mount            lancer
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, mercenary_unit
+attributes       sea_faring, hide_forest, mercenary_unit, can_dismount
 formation        2, 2, 4, 4, 3, square
 stat_health      1, 0
 stat_pri         4, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
