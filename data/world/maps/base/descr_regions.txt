@@ -966,7 +966,7 @@ Smolensk_Province
 	5
 	3
 	religions { catholic 10 orthodox 85 protestant 0 shia 0 islam 0 buddism 0 hindu 0 pagan 0 heretic 5 judaism 0 }
-Estonie_Province
+Estonie_Province ; Kagoshima
 	Reval
 	saxons
 	Anatolian_Rebels
@@ -1740,7 +1740,7 @@ Cote_Guinee_Province
 	5
 	2
 	religions { catholic 0 orthodox 0 protestant 0 shia 40 islam 60 buddism 0 hindu 0 pagan 0 heretic 0 judaism 0 }
-Akita_Province
+Akita_Province ; Hagi
 	Akita
 	saxons
 	Anatolian_Rebels
@@ -1754,34 +1754,34 @@ Sendai_Province
 	saxons
 	Anatolian_Rebels
 	145 0 253
-	japan, colonial
+	japan, tohoku, colonial
 	5
 	8
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 60 pagan 0 heretic 5 judaism 0 }
-Hokkaido_Province
+Hokkaido_Province ; Hakodate
 	Hokkaido
 	saxons
 	Anatolian_Rebels
 	142 86 168
-	japan, ezo, colonial
+	japan, ezo, bakufu, colonial
 	5
 	4
 	religions { catholic 0 orthodox 0 protestant 0 shia 30 islam 0 buddism 20 hindu 50 pagan 0 heretic 0 judaism 0 }
-Edo_Province
+Edo_Province ; Edo
 	Edo
 	saxons
 	Anatolian_Rebels
 	103 168 86
-	japan, kanto, colonial
+	japan, kanto, bakufu, colonial
 	5
 	7
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 60 pagan 0 heretic 5 judaism 0 }
-Kyoto_Province
+Kyoto_Province ; Kyoto
 	Kyoto
 	saxons
 	Anatolian_Rebels
 	168 161 86
-	japan, colonial
+	japan, kansai, bakufu, colonial
 	5
 	8
 	religions { catholic 0 orthodox 0 protestant 0 shia 0 islam 0 buddism 35 hindu 60 pagan 0 heretic 5 judaism 0 }
