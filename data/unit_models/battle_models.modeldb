@@ -32141,7 +32141,7 @@
 43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
 43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
 43 unit_models/_Units/fra/fra_nav_1g_lod0.mesh 20000 
-7 
+8 
 6 france 
 50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
@@ -32170,7 +32170,11 @@
 50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-7 
+7 england 
+50 unit_models/_Units/fra/textures/fra_nav_1g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+8 
 6 france 
 58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
@@ -32190,6 +32194,9 @@
 58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 6 venice 
+58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 england 
 58 unit_models/_Units/attachments/textures/whi_spusxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
@@ -34320,7 +34327,7 @@
 43 unit_models/_Units/net/net_col_3g_lod0.mesh 20000 
 43 unit_models/_Units/net/net_col_3g_lod0.mesh 20000 
 43 unit_models/_Units/net/net_col_3g_lod0.mesh 20000 
-3 
+4 
 6 aztecs 
 50 unit_models/_Units/net/textures/net_col_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
@@ -34333,7 +34340,11 @@
 50 unit_models/_Units/net/textures/net_col_2g.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 
 51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
-3 
+7 england 
+50 unit_models/_Units/net/textures/net_col_2g.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 
+51 unit_sprites/milan_Dummy_EN_Spearmen_ug1_sprite.spr 
+4 
 6 aztecs 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
@@ -34341,6 +34352,9 @@
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 5 slave 
+58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
+58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
+7 england 
 58 unit_models/_Units/attachments/textures/whi_rugrxx.texture 
 58 unit_models/_Units/attachments/textures/blank_norm.texture 0 
 1 
