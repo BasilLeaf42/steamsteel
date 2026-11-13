@@ -14282,10 +14282,10 @@ settlement
 settlement
 {
 	level large_town
-	region Korea_Province	
+	region Korea_Province
 
 	year_founded 0
-	population 60000
+	population 50000
 	plan_set default_set
 	faction_creator byzantium
 	building

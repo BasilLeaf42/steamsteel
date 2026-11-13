@@ -52,9 +52,9 @@ Source: "{src}\payload\steamsteel\*"; DestDir: "{app}\mods\steamsteel"; Excludes
 ; after the ordinary payload so the first launch is already coherent; the
 ; launcher repeats this overlay before subsequent launches.
 Source: "{src}\payload\steamsteel\data\tow_steamsteel\*"; DestDir: "{app}\mods\steamsteel\data"; Flags: external ignoreversion recursesubdirs createallsubdirs
-; M2EX paths are selected from the verified upstream distribution, but their
-; bytes come from the maintainer's current installed root so deliberate local
-; fixes and other developers' deviations are preserved in the release.
+; M2EX paths come from one verified upstream distribution. Public stability
+; builds stage every byte from the explicitly selected archive so test and
+; stable runtimes can never be mixed accidentally.
 Source: "{src}\payload\m2ex_root\*"; DestDir: "{app}"; Flags: external ignoreversion recursesubdirs createallsubdirs uninsneveruninstall
 ; Keep the branded executable beside M2EX's Steam/runtime DLLs. Running this
 ; executable from inside the mod directory causes Steam initialisation failure.

@@ -1,6 +1,8 @@
 # Steam & Steel release builder
 
-Before each build, the release builder recreates the branded `SteamAndSteel.exe` from the current root M2EX executable, embedding the Steam & Steel icon and captions. `Sync-M2EXRuntime.ps1` then uses the verified `M2EX.7z` distribution as a path allow-list and stages the corresponding files from the maintainer's current Medieval II root. This includes the relevant root runtime, `data`, `packs`, and `miles` files while excluding bundled mod copies, development tools, symbols, and debug libraries. Taking bytes from the current installation deliberately preserves accepted M2EX fixes and other developer deviations from the base archive.
+Before each build, the release builder recreates the branded `SteamAndSteel.exe`, embedding the Steam & Steel icon and captions. By default it uses the current root M2EX executable and stages corresponding files from the maintainer's installation. For a public stability build, pass `-M2EXArchive <verified stable archive>`: the executable and every staged runtime file then come from that exact archive, preventing accidental mixing with an installed test build. Steam & Steel's explicit graphics configuration remains preserved. Runtime selection excludes bundled mod copies, development tools, symbols, and debug libraries.
+
+If that stable build predates M2EX dismounting, also pass `-StripUnsupportedDismount`. The builder removes only `can_dismount` and `dismount_skeleton` rows from the two staged EDU copies, leaving the development database untouched. Without that explicit switch, the build fails closed rather than shipping an EDU the selected executable cannot parse.
 
 This directory defines the public release independently of the development tree. The builder creates a new staging directory outside the repository and never deletes development files.
 

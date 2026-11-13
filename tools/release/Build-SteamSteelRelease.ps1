@@ -8,6 +8,10 @@ param(
 
     [string]$PatchDirectory,
 
+    [string]$M2EXArchive,
+
+    [switch]$StripUnsupportedDismount,
+
     [switch]$CreateArchive,
 
     [switch]$AuditDuplicates
@@ -28,10 +32,31 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $sourceRoot = (Resolve-Path (Join-Path $scriptDir '..\..')).Path
 $rulesPath = Join-Path $scriptDir 'release-allowlist.json'
 $rules = Get-Content -LiteralPath $rulesPath -Raw | ConvertFrom-Json
-$brandingScript = Join-Path $sourceRoot 'tools\build_steamsteel_icon_exe_20260930.ps1'
-& $brandingScript
 $m2exSync = Join-Path $scriptDir 'Sync-M2EXRuntime.ps1'
-& $m2exSync
+if ($M2EXArchive) {
+    $archiveExeDir = Join-Path ([IO.Path]::GetTempPath()) ("steamsteel-m2ex-branding-" + [guid]::NewGuid().ToString('N'))
+    try {
+        New-Item -ItemType Directory -Path $archiveExeDir -Force | Out-Null
+        $sevenZipForBranding = @(
+            "$env:ProgramFiles\7-Zip\7z.exe",
+            "${env:ProgramFiles(x86)}\7-Zip\7z.exe",
+            (Get-Command 7z.exe -ErrorAction SilentlyContinue).Source
+        ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) } | Select-Object -First 1
+        if (-not $sevenZipForBranding) { throw '7-Zip is required to read the selected M2EX distribution.' }
+        & $sevenZipForBranding e -y "-o$archiveExeDir" $M2EXArchive 'M2EX.exe' | Out-Null
+        $archiveExe = Join-Path $archiveExeDir 'M2EX.exe'
+        $selectedM2exSupportsDismount = [Text.Encoding]::ASCII.GetString([IO.File]::ReadAllBytes($archiveExe)).Contains('can_dismount')
+        $brandingScript = Join-Path $sourceRoot 'tools\build_steamsteel_icon_exe_20260930.ps1'
+        & $brandingScript -SourceExe $archiveExe -SkipRootInstall
+        & $m2exSync -ReferenceArchive $M2EXArchive -ArchiveOnly
+    } finally {
+        if (Test-Path -LiteralPath $archiveExeDir) { Remove-Item -LiteralPath $archiveExeDir -Recurse -Force }
+    }
+} else {
+    $brandingScript = Join-Path $sourceRoot 'tools\build_steamsteel_icon_exe_20260930.ps1'
+    & $brandingScript
+    & $m2exSync
+}
 $installerAssets = @(
     @{ source = 'runtime\prerequisites\vc_redist.x64.exe'; destination = 'payload\prerequisites\vc_redist.x64.exe' }
 )
@@ -244,6 +269,43 @@ if ($PatchDirectory) {
             bytes = $installedFile.Length
             sha256 = (Get-FileHash -LiteralPath $installedFile.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
         })
+    }
+}
+
+if ($M2EXArchive -and -not $selectedM2exSupportsDismount) {
+    $dismountPattern = '(?m)^\s*(?:can_dismount|dismount_skeleton)\b[^\r\n]*(?:\r?\n)?'
+    $dismountFiles = @(
+        'data\tow_steamsteel\export_descr_unit.txt',
+        'data\export_descr_unit.txt'
+    )
+    $hasDismountDirectives = $false
+    foreach ($relative in $dismountFiles) {
+        $stagedEdu = Join-Path $stageRoot $relative
+        if (([IO.File]::ReadAllText($stagedEdu)) -match '(?m)^\s*(?:can_dismount|dismount_skeleton)\b') {
+            $hasDismountDirectives = $true
+        }
+    }
+    if ($hasDismountDirectives -and -not $StripUnsupportedDismount) {
+        throw 'The selected M2EX build does not support dismount EDU directives. Rebuild with -StripUnsupportedDismount or select a compatible stable runtime.'
+    }
+    if ($hasDismountDirectives) {
+        foreach ($relative in $dismountFiles) {
+            $stagedEdu = Join-Path $stageRoot $relative
+            $text = [IO.File]::ReadAllText($stagedEdu)
+            $cleaned = [Text.RegularExpressions.Regex]::Replace($text, $dismountPattern, '')
+            Remove-Item -LiteralPath $stagedEdu -Force
+            [IO.File]::WriteAllText($stagedEdu, $cleaned, [Text.UTF8Encoding]::new($false))
+        }
+        $records = [Collections.Generic.List[object]]::new()
+        foreach ($installedFile in Get-ChildItem -LiteralPath $stageRoot -File -Recurse) {
+            $relative = (Get-RelativePathCompat $stageRoot $installedFile.FullName).Replace('\', '/')
+            $records.Add([pscustomobject]@{
+                path = $relative
+                bytes = $installedFile.Length
+                sha256 = (Get-FileHash -LiteralPath $installedFile.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+            })
+        }
+        Write-Warning 'Removed unsupported dismount directives from the release payload; the development EDU remains unchanged.'
     }
 }
 

@@ -4089,29 +4089,30 @@ monitor_event FactionTurnStart FactionIsLocal
                 faction england
                 character Richard Audley, named character, age 41, x 425, y 221
                 traits LoyaltyStarter 1
-                        unit	uk_pith_knights		exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
-                        unit	uk_inf			exp 9 armour 0 weapon_lvl 0
+                        unit	uk_hussars_early	exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
+                        unit	uk_foot_early		exp 9 armour 0 weapon_lvl 0
                         unit	col_12lb		exp 9 armour 0 weapon_lvl 1
                         unit	col_12lb		exp 9 armour 0 weapon_lvl 1
                         unit	col_12lb		exp 9 armour 0 weapon_lvl 1
                 end
         spawn_army
-                faction saxons Shinsaku Takasugi, named character, age 41, x 423, y 221, label shinsakutakasugi1, portrait ShinsakuTakasugi, battle_model mufud_general 
+                faction saxons
+                character Shinsaku Takasugi, named character, age 41, x 423, y 221, label shinsakutakasugi1, portrait ShinsakuTakasugi, battle_model mufud_general
                 traits LoyaltyStarter 1
                         unit	sho_mod_cav		exp 3 armour 0 weapon_lvl 0
                         unit	Japan Seishi		exp 3 armour 0 weapon_lvl 0
